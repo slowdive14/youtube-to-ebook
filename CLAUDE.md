@@ -81,24 +81,34 @@ Uses `ebooklib` to create properly formatted EPUB with table of contents and CSS
 ### Windows Compatibility
 All Python files wrap stdout/stderr with UTF-8 encoding to handle Unicode characters on Windows console.
 
+## Development Lessons & Best Practices
+
+### 1. Cross-Platform Environment Handling
+- **Problem**: Hardcoded commands like `py` fail on Linux (Streamlit Cloud), and `python3` may fail on Windows.
+- **Solution**: Always use `sys.executable` when launching subprocesses to ensure the exact same Python environment and dependencies are preserved across all platforms.
+
+### 2. Concurrency & Duplicate Prevention
+- **Problem**: UI-driven applications (Streamlit) can trigger the same backend process multiple times via rapid clicks or automatic reruns, causing duplicate actions (like sending 3 emails).
+- **Solution**: Implement a sentinel lock file (e.g., `main.lock`) at the start of critical long-running processes. Always use a `try...finally` block to ensure the lock is released.
+
+### 3. Selenium in Cloud Environments
+- **Problem**: Selenium requires both Python libraries (`requirements.txt`) and system-level binaries (`packages.txt`). Standard `webdriver-manager` often fails in restricted Cloud shells.
+- **Solution**: 
+    - Include `chromium` and `chromium-driver` in `packages.txt`.
+    - Configure Selenium with `--headless=new`, `--no-sandbox`, and `--disable-dev-shm-usage`.
+    - Manually detect standard Linux paths (e.g., `/usr/bin/chromium`) if the automatic manager fails.
+
+### 4. Robust Web Scraping (YouTube Case)
+- **Problem**: Modern web apps use Shadow DOM and frequently change CSS classes, making specific selectors brittle.
+- **Solution**: Use broader extraction methods such as global `document.body.innerText` combined with Regex pattern matching (e.g., searching for `\d+:\d+` timestamps) for higher reliability.
+
+### 5. API Resilience
+- **Problem**: LLM APIs (Gemini) frequently return transient errors like `503 Service Unavailable` or `429 Too Many Requests`.
+- **Solution**: Implement **Exponential Backoff** (e.g., 5s, 10s, 20s...) rather than simple fixed-interval retries to respect server load and ensure task completion.
+
+### 6. Windows Unicode Support
+- **Problem**: Windows console often defaults to non-UTF8 encodings, causing crashes when printing Unicode characters (Korean, Emojis).
+- **Solution**: Always wrap `sys.stdout` and `sys.stderr` with `io.TextIOWrapper` using `utf-8` encoding at the entry point of every script.
+
 ## Documentation Requirements
-
-### FORSLOWDIVE.md
-For every project, write a detailed `FORSLOWDIVE.md` file that explains the whole project in plain language.
-
-**Required sections:**
-- Technical architecture and how the system works
-- Codebase structure and how the various parts are connected
-- Technologies used and why we made these technical decisions
-- Lessons learned:
-  - Bugs we ran into and how we fixed them
-  - Potential pitfalls and how to avoid them in the future
-  - New technologies used
-  - How good engineers think and work
-  - Best practices
-
-**Writing style:**
-- Make it engaging to read, not like boring technical documentation or a textbook
-- Use analogies and anecdotes to make concepts understandable and memorable
-- Write in plain language that anyone can follow
-- Use ASCII characters for diagrams (`+`, `-`, `|`, `>`, `v`) instead of Unicode box-drawing characters for better compatibility
+... (remains same)
