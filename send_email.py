@@ -201,26 +201,50 @@ def create_newsletter_html(articles, language='en'):
             }}
             .article-content {{
                 font-size: 18px;
-                line-height: 1.9;
+                line-height: 2.0;
             }}
             .article-content h1 {{
-                color: #222;
-                font-size: 26px;
-                margin-top: 25px;
+                color: #1a1a1a;
+                font-size: 28px;
+                margin-top: 35px;
+                margin-bottom: 20px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #eee;
             }}
             .article-content h2 {{
-                color: #222;
-                font-size: 22px;
-                margin-top: 25px;
+                color: #2a2a2a;
+                font-size: 24px;
+                margin-top: 30px;
+                margin-bottom: 15px;
             }}
             .article-content h3 {{
-                color: #222;
+                color: #3a3a3a;
                 font-size: 20px;
                 margin-top: 25px;
+                margin-bottom: 12px;
             }}
             .article-content p {{
                 font-size: 18px;
-                margin-bottom: 1em;
+                margin-bottom: 1.5em;
+                text-align: justify;
+            }}
+            .article-content ul, .article-content ol {{
+                margin: 1.5em 0;
+                padding-left: 2em;
+            }}
+            .article-content li {{
+                margin-bottom: 0.8em;
+                line-height: 1.8;
+            }}
+            .article-content blockquote {{
+                margin: 1.5em 0;
+                padding: 15px 20px;
+                background: #f5f5f5;
+                border-left: 4px solid #ccc;
+                font-style: italic;
+            }}
+            .article-content strong {{
+                color: #111;
             }}
             .watch-link {{
                 display: inline-block;
