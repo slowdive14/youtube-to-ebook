@@ -693,7 +693,7 @@ elif page == "Writing Style":
     st.markdown("## Writing Style")
     st.write("Customize how Claude AI writes your articles.")
 
-    with open(PROMPT_FILE) as f:
+    with open(PROMPT_FILE, encoding="utf-8") as f:
         content = f.read()
 
     match = re.search(r'prompt = f"""(.+?)"""', content, re.DOTALL)
@@ -743,7 +743,7 @@ elif page == "Archive":
                 with col1:
                     html_file = NEWSLETTERS_DIR / nl.get('html_file', '')
                     if html_file.exists():
-                        with open(html_file) as f:
+                        with open(html_file, encoding="utf-8") as f:
                             html_content = f.read()
                         st.download_button(
                             "Download HTML",
@@ -771,7 +771,7 @@ elif page == "Archive":
 
     with tab2:
         if TRACKER_FILE.exists():
-            with open(TRACKER_FILE) as f:
+            with open(TRACKER_FILE, encoding="utf-8") as f:
                 data = json.load(f)
 
             videos = data.get("videos", {})
