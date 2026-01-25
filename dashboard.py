@@ -557,11 +557,42 @@ with st.sidebar:
     st.markdown("#### Bypass IP Block")
     st.caption("Upload `youtube_cookies.txt` (Netscape format) if seeing 'IP block' errors on cloud.")
     
-    uploaded_cookies = st.file_uploader("Upload Cookies", type=["txt"], label_visibility="collapsed")
+    uploaded_cookies = st.file_uploader("Upload Cookies", type=["txt", "json"], label_visibility="collapsed")
     if uploaded_cookies:
-        with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
-            f.write(uploaded_cookies.getbuffer())
-        st.success("Cookies uploaded! Try generating again.")
+        content = uploaded_cookies.getvalue().decode("utf-8")
+        
+        # Check if it's JSON format and convert to Netscape
+        try:
+            import json
+            cookie_data = json.loads(content)
+            if isinstance(cookie_data, list):
+                # Convert JSON to Netscape format
+                netscape_content = "# Netscape HTTP Cookie File\n"
+                for c in cookie_data:
+                    domain = c.get("domain", "")
+                    include_sub = "TRUE" if domain.startswith(".") else "FALSE"
+                    path = c.get("path", "/")
+                    secure = "TRUE" if c.get("secure", False) else "FALSE"
+                    expiry = int(c.get("expirationDate", 0))
+                    name = c.get("name", "")
+                    value = c.get("value", "")
+                    netscape_content += f"{domain}\t{include_sub}\t{path}\t{secure}\t{expiry}\t{name}\t{value}\n"
+                
+                with open(PROJECT_DIR / "youtube_cookies.txt", "w", encoding="utf-8") as f:
+                    f.write(netscape_content)
+                st.success("JSON Cookies converted and saved!")
+            else:
+                # Save as is (assume Netscape)
+                with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
+                    f.write(uploaded_cookies.getbuffer())
+                st.success("Cookies uploaded!")
+        except Exception as e:
+            # Fallback: Save as is
+            with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
+                f.write(uploaded_cookies.getbuffer())
+            st.success("Cookies uploaded!")
+        
+        st.rerun()
     
     if (PROJECT_DIR / "youtube_cookies.txt").exists():
         st.info("✅ youtube_cookies.txt is active")
