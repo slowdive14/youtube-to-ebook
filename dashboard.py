@@ -7,6 +7,7 @@ import streamlit as st
 import os
 import json
 import subprocess
+import sys
 import re
 from datetime import datetime
 from pathlib import Path
@@ -581,9 +582,9 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    # Use "py" for Windows compatibility
+                    # Use sys.executable for cross-platform compatibility
                     result = subprocess.run(
-                        ["py", str(PROJECT_DIR / "main.py")],
+                        [sys.executable, str(PROJECT_DIR / "main.py")],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
@@ -632,7 +633,7 @@ if page == "Generate":
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
                     result = subprocess.run(
-                        ["py", str(PROJECT_DIR / "main.py"), "--url", video_url],
+                        [sys.executable, str(PROJECT_DIR / "main.py"), "--url", video_url],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
