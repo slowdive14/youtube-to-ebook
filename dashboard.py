@@ -534,15 +534,18 @@ if page == "Generate":
                         timeout=900
                     )
 
-                    if "Newsletter sent successfully" in result.stdout:
+                    stdout_str = result.stdout if result.stdout else ""
+                    stderr_str = result.stderr if result.stderr else ""
+
+                    if "DONE!" in stdout_str:
                         st.success("Newsletter sent! Check your inbox.")
-                    elif "No new videos" in result.stdout:
+                    elif "No new videos" in stdout_str:
                         st.info("No new videos to process. All caught up!")
                     else:
                         st.warning("Completed with notes. See log below.")
 
                     with st.expander("View Output Log"):
-                        st.code(result.stdout + result.stderr, language="text")
+                        st.code(stdout_str + stderr_str, language="text")
 
                 except subprocess.TimeoutExpired:
                     st.error("Process timed out. Try again.")
