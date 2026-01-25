@@ -506,26 +506,51 @@ with st.sidebar:
     page = st.session_state.nav_page
 
     st.divider()
-    st.markdown("#### Configuration")
+    # Access Password
+    access_pass = st.text_input(
+        "Access Password",
+        type="password",
+        help="Required to enable processing buttons"
+    )
     
-    # API Key Inputs in Sidebar
+    # Store settings in session state
+    st.session_state["ACCESS_PASSWORD_INPUT"] = access_pass
+    
+    # Check if authorized
+    authorized = False
+    required_pass = os.getenv("ACCESS_PASSWORD")
+    if not required_pass:
+        # If no password set in secrets, allow access but warn
+        authorized = True
+        st.warning("No ACCESS_PASSWORD set in Secrets. Dashboard is public.")
+    elif access_pass == required_pass:
+        authorized = True
+        st.success("Access Granted")
+    elif access_pass:
+        st.error("Incorrect Password")
+
+    st.divider()
+    st.markdown("#### Custom API Keys (Optional)")
+    st.caption("Override default keys for this session.")
+    
+    # API Key Inputs (Blank by default for privacy)
     yt_key = st.text_input(
         "YouTube API Key",
-        value=os.getenv("YOUTUBE_API_KEY", ""),
+        value="",
         type="password",
-        help="Required to fetch video metadata"
+        placeholder="Past key to override..."
     )
     gemini_key = st.text_input(
         "Gemini API Key",
-        value=os.getenv("GEMINI_API_KEY", ""),
+        value="",
         type="password",
-        help="Required to generate articles"
+        placeholder="Past key to override..."
     )
     
-    if st.button("Save Keys to Session"):
-        st.session_state["YOUTUBE_API_KEY"] = yt_key
-        st.session_state["GEMINI_API_KEY"] = gemini_key
-        st.success("Keys saved for this session!")
+    if st.button("Apply Custom Keys"):
+        if yt_key: st.session_state["YOUTUBE_API_KEY"] = yt_key
+        if gemini_key: st.session_state["GEMINI_API_KEY"] = gemini_key
+        st.success("Applied custom keys!")
 
 # ============================================
 # PAGE: Generate Newsletter
@@ -544,7 +569,7 @@ if page == "Generate":
     col_left, col_center, col_right = st.columns([1, 2, 1])
 
     with col_center:
-        if st.button("Generate & Send Newsletter", type="primary", use_container_width=True):
+        if st.button("Generate & Send Newsletter", type="primary", use_container_width=True, disabled=not authorized):
             with st.spinner("Crafting your newsletter..."):
                 try:
                     # Note: If this fails with ModuleNotFoundError, replace "python3" with your full Python path
@@ -596,7 +621,7 @@ if page == "Generate":
     
     col_l, col_c, col_r = st.columns([1, 2, 1])
     with col_c:
-        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not video_url):
+        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not (video_url and authorized)):
             with st.spinner("Processing video..."):
                 try:
                     # Prepare environment with UI keys
