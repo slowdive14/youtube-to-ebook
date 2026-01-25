@@ -497,11 +497,35 @@ with st.sidebar:
     </div>
     """, unsafe_allow_html=True)
 
-    page = st.radio(
+    st.radio(
         "NAVIGATION",
         ["Generate", "Channels", "Writing Style", "Archive"],
-        label_visibility="visible"
+        label_visibility="visible",
+        key="nav_page"
     )
+    page = st.session_state.nav_page
+
+    st.divider()
+    st.markdown("#### Configuration")
+    
+    # API Key Inputs in Sidebar
+    yt_key = st.text_input(
+        "YouTube API Key",
+        value=os.getenv("YOUTUBE_API_KEY", ""),
+        type="password",
+        help="Required to fetch video metadata"
+    )
+    gemini_key = st.text_input(
+        "Gemini API Key",
+        value=os.getenv("GEMINI_API_KEY", ""),
+        type="password",
+        help="Required to generate articles"
+    )
+    
+    if st.button("Save Keys to Session"):
+        st.session_state["YOUTUBE_API_KEY"] = yt_key
+        st.session_state["GEMINI_API_KEY"] = gemini_key
+        st.success("Keys saved for this session!")
 
 # ============================================
 # PAGE: Generate Newsletter
@@ -525,13 +549,21 @@ if page == "Generate":
                 try:
                     # Note: If this fails with ModuleNotFoundError, replace "python3" with your full Python path
                     # Find it by running: which python3
+                    # Prepare environment with UI keys
+                    env = os.environ.copy()
+                    if "YOUTUBE_API_KEY" in st.session_state:
+                        env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
+                    if "GEMINI_API_KEY" in st.session_state:
+                        env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
+
                     # Use "py" for Windows compatibility
                     result = subprocess.run(
                         ["py", str(PROJECT_DIR / "main.py")],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
-                        timeout=900
+                        timeout=900,
+                        env=env
                     )
 
                     stdout_str = result.stdout if result.stdout else ""
@@ -567,12 +599,20 @@ if page == "Generate":
         if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not video_url):
             with st.spinner("Processing video..."):
                 try:
+                    # Prepare environment with UI keys
+                    env = os.environ.copy()
+                    if "YOUTUBE_API_KEY" in st.session_state:
+                        env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
+                    if "GEMINI_API_KEY" in st.session_state:
+                        env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
+
                     result = subprocess.run(
                         ["py", str(PROJECT_DIR / "main.py"), "--url", video_url],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
-                        timeout=900
+                        timeout=900,
+                        env=env
                     )
 
                     stdout_str = result.stdout if result.stdout else ""

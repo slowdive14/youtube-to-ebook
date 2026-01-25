@@ -1,7 +1,9 @@
-google-api-python-client
-python-dotenv
-youtube-transcript-api
+streamlit
 google-genai
+python-dotenv
+google-api-python-client
+requests
+youtube-transcript-api
 markdown
 ebooklib
-requests
+beautifulsoup4
