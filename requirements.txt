@@ -1,7 +1,7 @@
 google-api-python-client
 python-dotenv
 youtube-transcript-api
-anthropic
+google-genai
 markdown
 ebooklib
 requests
