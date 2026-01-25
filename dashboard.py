@@ -553,6 +553,22 @@ with st.sidebar:
         if gemini_key: st.session_state["GEMINI_API_KEY"] = gemini_key
         st.success("Applied custom keys!")
 
+    st.divider()
+    st.markdown("#### Bypass IP Block")
+    st.caption("Upload `youtube_cookies.txt` (Netscape format) if seeing 'IP block' errors on cloud.")
+    
+    uploaded_cookies = st.file_uploader("Upload Cookies", type=["txt"], label_visibility="collapsed")
+    if uploaded_cookies:
+        with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
+            f.write(uploaded_cookies.getbuffer())
+        st.success("Cookies uploaded! Try generating again.")
+    
+    if (PROJECT_DIR / "youtube_cookies.txt").exists():
+        st.info("✅ youtube_cookies.txt is active")
+        if st.button("Clear Cookies"):
+            (PROJECT_DIR / "youtube_cookies.txt").unlink()
+            st.rerun()
+
 # ============================================
 # PAGE: Generate Newsletter
 # ============================================
