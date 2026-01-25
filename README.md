@@ -13,31 +13,34 @@ Transform YouTube videos from your favorite channels into beautifully formatted 
 
 ## Quick Start
 
-1. **Clone and install:**
+Follow these steps to generate your first YouTube digest.
+
+1. **Install Dependencies:**
+   Open your terminal and run:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/youtube-to-ebook.git
-   cd youtube-to-ebook
    pip install -r requirements.txt
    ```
 
-2. **Set up API keys:**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your keys
+2. **Set Up Keys:**
+   * Rename the file `.env.example` to `.env`.
+   * Open `.env` with a text editor.
+   * Paste your **YouTube API Key** and **Anthropic API Key**.
+   * (Recommended) Add your **Gmail App Password** to receive the ebook by email.
+
+3. **Add Channels:**
+   Open `channels.txt` and list the YouTube handles you want to follow (one per line):
+   ```text
+   @hubermanlab
+   @DrChatterjeeRangan
+   @MarcBrackett
    ```
 
-3. **Add your channels:**
-   ```bash
-   # Edit channels.txt with YouTube channel handles
-   @mkbhd
-   @veritasium
-   @3blue1brown
-   ```
-
-4. **Generate your ebook:**
+4. **Run the Generator:**
    ```bash
    python main.py
    ```
+
+   🎉 **Success!** The script will fetch new videos, generate an ebook, and email it to you. A copy will also be saved in the `newsletters folder`.
 
 ## Getting API Keys
 
