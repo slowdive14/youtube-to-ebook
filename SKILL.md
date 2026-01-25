@@ -41,7 +41,7 @@ I'll guide you through:
 ## Key Files
 
 ```
-youtube-newsletter/
+youtube-to-ebook/
 ├── get_videos.py      # Fetch latest videos
 ├── get_transcripts.py # Extract transcripts
 ├── write_articles.py  # Transform to articles

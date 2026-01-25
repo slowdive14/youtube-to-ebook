@@ -4,6 +4,14 @@ This script gets the most recent video from each of your favorite channels.
 Filters out YouTube Shorts by checking the /shorts/ URL.
 """
 
+import sys
+import io
+
+# Fix Windows console encoding for Unicode characters
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 import os
 import requests
 from googleapiclient.discovery import build
@@ -14,20 +22,26 @@ load_dotenv()
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 
 # ========================================
-# YOUR FAVORITE CHANNELS GO HERE
-# Use the @ handle from the channel's YouTube page (most reliable)
-# Example: youtube.com/@MrBeast → use "@MrBeast"
+# Load channels from channels.txt file
 # ========================================
-CHANNELS = [
-    "@LatentSpacePod",
-    "@ycombinator",
-    "@a16z",
-    "@RedpointAI",
-    "@EveryInc",
-    "@DataDrivenNYC",
-    "@NoPriorsPodcast",
-    "@DwarkeshPatel",
-]
+def load_channels():
+    """Load channel handles from channels.txt file."""
+    channels_file = os.path.join(os.path.dirname(__file__), "channels.txt")
+    channels = []
+    try:
+        with open(channels_file, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#"):
+                    # Add @ prefix if not present
+                    if not line.startswith("@"):
+                        line = "@" + line
+                    channels.append(line)
+    except FileNotFoundError:
+        print(f"[X] channels.txt not found at {channels_file}")
+    return channels
+
+CHANNELS = load_channels()
 
 
 def get_channel_info(youtube, channel_handle):
@@ -139,12 +153,12 @@ def main():
 
             if video:
                 videos.append(video)
-                print(f"  ✓ Found: {video['title']}")
+                print(f"  [OK] Found: {video['title']}")
                 print(f"    URL: {video['url']}\n")
             else:
-                print(f"  ✗ No long-form videos found\n")
+                print(f"  [X] No long-form videos found\n")
         else:
-            print(f"  ✗ Channel not found\n")
+            print(f"  [X] Channel not found\n")
 
     print("=" * 60)
     print(f"Found {len(videos)} videos total!")

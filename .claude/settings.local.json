@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(python -m pip install:*)",
+      "Bash(py -m pip install:*)",
+      "Bash(cp:*)",
+      "Bash(py main.py:*)",
+      "Bash(set:*)",
+      "Bash(curl:*)",
+      "Bash(py -c:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\user\\\\Downloads\\\\youtube-to-ebook\\\\*.json\")"
+    ]
+  }
+}

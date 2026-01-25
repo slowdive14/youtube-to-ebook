@@ -3,6 +3,14 @@ Part 4: Send Newsletter via Email
 Sends the generated articles as a nicely formatted email newsletter with EPUB attachment.
 """
 
+import sys
+import io
+
+# Fix Windows console encoding for Unicode characters
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+
 import os
 import smtplib
 import markdown
@@ -20,22 +28,28 @@ GMAIL_ADDRESS = os.getenv("GMAIL_ADDRESS")
 GMAIL_APP_PASSWORD = os.getenv("GMAIL_APP_PASSWORD")
 
 
-def create_epub(articles):
+def create_epub(articles, language='en'):
     """
     Create an EPUB ebook from the articles for reading on mobile devices.
     Returns the path to the generated EPUB file.
+    language: 'en' for English, 'ko' for Korean
     """
     today = datetime.now().strftime("%B %d, %Y")
-    filename = f"youtube_digest_{datetime.now().strftime('%Y%m%d')}.epub"
+    lang_suffix = "_ko" if language == 'ko' else "_en"
+    filename = f"youtube_digest_{datetime.now().strftime('%Y%m%d')}{lang_suffix}.epub"
     filepath = os.path.join(os.path.dirname(__file__), filename)
 
     # Create the ebook
     book = epub.EpubBook()
 
     # Set metadata
-    book.set_identifier(f"youtube-digest-{datetime.now().strftime('%Y%m%d%H%M%S')}")
-    book.set_title(f"YouTube Digest - {today}")
-    book.set_language("en")
+    book.set_identifier(f"youtube-digest-{datetime.now().strftime('%Y%m%d%H%M%S')}-{language}")
+    if language == 'ko':
+        book.set_title(f"YouTube 다이제스트 - {today}")
+        book.set_language("ko")
+    else:
+        book.set_title(f"YouTube Digest - {today}")
+        book.set_language("en")
     book.add_author("YouTube Newsletter Bot")
 
     # CSS for nice formatting on ebook readers
@@ -126,14 +140,16 @@ def create_epub(articles):
     # Write the EPUB file
     epub.write_epub(filepath, book)
 
-    print(f"  ✓ Created EPUB: {filename}")
+    lang_name = "Korean" if language == 'ko' else "English"
+    print(f"  [OK] Created {lang_name} EPUB: {filename}")
     return filepath
 
 
-def create_newsletter_html(articles):
+def create_newsletter_html(articles, language='en'):
     """
     Create a beautifully formatted HTML newsletter from the articles.
     Uses larger fonts for better readability.
+    language: 'en' for English, 'ko' for Korean
     """
     today = datetime.now().strftime("%B %d, %Y")
 
@@ -234,11 +250,11 @@ def create_newsletter_html(articles):
     </head>
     <body>
         <div class="header">
-            <h1>YOUR YOUTUBE DIGEST</h1>
+            <h1>{"YouTube 다이제스트" if language == 'ko' else "YOUR YOUTUBE DIGEST"}</h1>
             <p>{today}</p>
         </div>
         <div class="epub-note">
-            📚 EPUB ebook attached - open on your phone's ebook reader!
+            {"[EPUB] 이북 파일이 첨부되어 있습니다 - 스마트폰 이북 리더에서 열어보세요!" if language == 'ko' else "[EPUB] Ebook attached - open on your phone's ebook reader!"}
         </div>
     """
 
@@ -281,7 +297,7 @@ def save_newsletter_archive(html_content, epub_path, articles):
 
     # Save HTML
     html_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.html")
-    with open(html_path, "w") as f:
+    with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
     # Copy EPUB
@@ -302,16 +318,17 @@ def save_newsletter_archive(html_content, epub_path, articles):
 
     metadata_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.json")
     import json
-    with open(metadata_path, "w") as f:
-        json.dump(metadata, f, indent=2)
+    with open(metadata_path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, indent=2, ensure_ascii=False)
 
-    print(f"  ✓ Saved newsletter to archive")
+    print(f"  [OK] Saved newsletter to archive")
 
 
-def send_newsletter(articles, recipient_email=None):
+def send_newsletter(articles, recipient_email=None, language='en'):
     """
     Send the newsletter via Gmail with EPUB attachment.
     If no recipient specified, sends to yourself.
+    language: 'en' for English, 'ko' for Korean
     """
     if not articles:
         print("No articles to send!")
@@ -321,15 +338,19 @@ def send_newsletter(articles, recipient_email=None):
     if recipient_email is None:
         recipient_email = GMAIL_ADDRESS
 
-    print(f"\nPreparing newsletter for {recipient_email}...")
+    lang_name = "Korean" if language == 'ko' else "English"
+    print(f"\nPreparing {lang_name} newsletter for {recipient_email}...")
 
     # Create EPUB ebook
-    print("  Creating EPUB ebook...")
-    epub_path = create_epub(articles)
+    print(f"  Creating {lang_name} EPUB ebook...")
+    epub_path = create_epub(articles, language=language)
 
     # Create the email (mixed type for attachments)
     msg = MIMEMultipart("mixed")
-    msg["Subject"] = f"Your YouTube Digest - {datetime.now().strftime('%B %d, %Y')}"
+    if language == 'ko':
+        msg["Subject"] = f"YouTube 다이제스트 (한글) - {datetime.now().strftime('%Y년 %m월 %d일')}"
+    else:
+        msg["Subject"] = f"YouTube Digest (English) - {datetime.now().strftime('%B %d, %Y')}"
     msg["From"] = GMAIL_ADDRESS
     msg["To"] = recipient_email
 
@@ -337,11 +358,15 @@ def send_newsletter(articles, recipient_email=None):
     body = MIMEMultipart("alternative")
 
     # Create HTML content
-    html_content = create_newsletter_html(articles)
+    html_content = create_newsletter_html(articles, language=language)
 
     # Create plain text version (simple fallback)
-    text_content = "Your YouTube Newsletter\n\n"
-    text_content += "📚 EPUB ebook attached - open on your phone's ebook reader!\n\n"
+    if language == 'ko':
+        text_content = "YouTube 다이제스트\n\n"
+        text_content += "[EPUB] 이북 파일이 첨부되어 있습니다!\n\n"
+    else:
+        text_content = "Your YouTube Newsletter\n\n"
+        text_content += "[EPUB] Ebook attached - open on your phone's ebook reader!\n\n"
     for article in articles:
         text_content += f"--- {article['channel']} ---\n"
         text_content += f"{article['article']}\n"
@@ -373,7 +398,7 @@ def send_newsletter(articles, recipient_email=None):
             server.login(GMAIL_ADDRESS, GMAIL_APP_PASSWORD)
             server.sendmail(GMAIL_ADDRESS, recipient_email, msg.as_string())
 
-        print("✓ Newsletter sent successfully with EPUB attachment!")
+        print(f"[OK] {lang_name} newsletter sent successfully!")
 
         # Save to archive before cleaning up
         save_newsletter_archive(html_content, epub_path, articles)
@@ -384,8 +409,24 @@ def send_newsletter(articles, recipient_email=None):
         return True
 
     except Exception as e:
-        print(f"✗ Failed to send email: {e}")
+        print(f"[X] Failed to send email: {e}")
         return False
+
+
+def send_newsletter_bilingual(english_articles, korean_articles, recipient_email=None):
+    """
+    Send both English and Korean newsletters.
+    """
+    success_en = False
+    success_ko = False
+
+    if english_articles:
+        success_en = send_newsletter(english_articles, recipient_email, language='en')
+
+    if korean_articles:
+        success_ko = send_newsletter(korean_articles, recipient_email, language='ko')
+
+    return success_en or success_ko
 
 
 # Test it standalone
