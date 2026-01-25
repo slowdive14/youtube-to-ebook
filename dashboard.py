@@ -13,11 +13,10 @@ from pathlib import Path
 
 # Paths
 PROJECT_DIR = Path(__file__).parent
-CHANNELS_FILE = PROJECT_DIR / "get_videos.py"
+CHANNELS_FILE = PROJECT_DIR / "channels.txt"
 PROMPT_FILE = PROJECT_DIR / "write_articles.py"
 TRACKER_FILE = PROJECT_DIR / "processed_videos.json"
 NEWSLETTERS_DIR = PROJECT_DIR / "newsletters"
-PLIST_FILE = Path.home() / "Library/LaunchAgents/com.youtube.newsletter.plist"
 
 # Create newsletters directory if it doesn't exist
 NEWSLETTERS_DIR.mkdir(exist_ok=True)
@@ -420,38 +419,20 @@ st.markdown("""
 # ============================================
 
 def get_channels():
-    """Extract channel handles from the Python file."""
-    with open(CHANNELS_FILE) as f:
-        content = f.read()
-
-    match = re.search(r'CHANNELS\s*=\s*\[(.*?)\]', content, re.DOTALL)
-    if not match:
+    """Extract channel handles from channels.txt."""
+    if not CHANNELS_FILE.exists():
         return []
-
-    channels_block = match.group(1)
-    handles = re.findall(r'["\'](@[\w]+)["\']', channels_block)
-    return handles
+    
+    with open(CHANNELS_FILE, "r", encoding="utf-8") as f:
+        channels = [line.strip() for line in f if line.strip() and not line.strip().startswith("#")]
+    return channels
 
 
 def save_channels(channels):
-    """Save channels back to the Python file."""
-    with open(CHANNELS_FILE) as f:
-        content = f.read()
-
-    channels_str = "CHANNELS = [\n"
-    for ch in channels:
-        channels_str += f'    "{ch}",\n'
-    channels_str += "]"
-
-    content = re.sub(
-        r'CHANNELS\s*=\s*\[.*?\]',
-        channels_str,
-        content,
-        flags=re.DOTALL
-    )
-
-    with open(CHANNELS_FILE, "w") as f:
-        f.write(content)
+    """Save channels back to channels.txt."""
+    with open(CHANNELS_FILE, "w", encoding="utf-8") as f:
+        for ch in channels:
+            f.write(f"{ch}\n")
 
 
 def extract_handle_from_url(url_or_handle):
@@ -483,24 +464,8 @@ def extract_handle_from_url(url_or_handle):
 
 
 def get_schedule():
-    """Read current schedule from plist."""
-    if PLIST_FILE.exists():
-        with open(PLIST_FILE) as f:
-            content = f.read()
-
-        weekday = 3
-        hour = 7
-
-        weekday_match = re.search(r'<key>Weekday</key>\s*<integer>(\d+)</integer>', content)
-        if weekday_match:
-            weekday = int(weekday_match.group(1))
-
-        hour_match = re.search(r'<key>Hour</key>\s*<integer>(\d+)</integer>', content)
-        if hour_match:
-            hour = int(hour_match.group(1))
-
-        return weekday, hour
-    return 3, 7
+    """Schedule is managed via Windows Task Scheduler."""
+    return 0, 10  # Default display or placeholder
 
 
 def save_schedule(weekday, hour):
@@ -536,10 +501,14 @@ def get_newsletters():
     newsletters = []
     if NEWSLETTERS_DIR.exists():
         for json_file in sorted(NEWSLETTERS_DIR.glob("newsletter_*.json"), reverse=True):
-            with open(json_file) as f:
-                data = json.load(f)
-                data["json_path"] = str(json_file)
-                newsletters.append(data)
+            try:
+                with open(json_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    data["json_path"] = str(json_file)
+                    newsletters.append(data)
+            except (json.JSONDecodeError, Exception) as e:
+                # Skip files that can't be read or parsed
+                continue
     return newsletters
 
 
@@ -585,12 +554,13 @@ if page == "Generate":
                 try:
                     # Note: If this fails with ModuleNotFoundError, replace "python3" with your full Python path
                     # Find it by running: which python3
+                    # Use "py" for Windows compatibility
                     result = subprocess.run(
-                        ["python3", str(PROJECT_DIR / "main.py")],
+                        ["py", str(PROJECT_DIR / "main.py")],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
-                        timeout=600
+                        timeout=900
                     )
 
                     if "Newsletter sent successfully" in result.stdout:
