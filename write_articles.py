@@ -26,8 +26,8 @@ client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Rate limit settings
 REQUEST_DELAY = 15  # seconds between requests to avoid rate limits
-MAX_RETRIES = 3
-RETRY_DELAY = 30  # seconds to wait on rate limit error
+MAX_RETRIES = 5
+RETRY_DELAY = 30  # seconds to wait on rate limit error (legacy, controlled by backoff now)
 
 
 def write_article(video, is_first=True, language='en', detailed=False):
@@ -121,11 +121,13 @@ TRANSCRIPT:
 
 {style_guide}"""
 
+    retry_wait = 5  # Initial backoff in seconds
+    
     for attempt in range(MAX_RETRIES):
         try:
-            # Wait before request (skip first if it's the first article)
-            if not is_first or attempt > 0:
-                print(f"  [.] Waiting {REQUEST_DELAY}s for rate limit...")
+            # Standard delay between DIFFERENT articles (polite behavior)
+            if (not is_first or attempt > 0) and attempt == 0:
+                print(f"  [.] Waiting {REQUEST_DELAY}s between requests...")
                 time.sleep(REQUEST_DELAY)
 
             response = client.models.generate_content(
@@ -139,14 +141,20 @@ TRANSCRIPT:
             return response.text
 
         except Exception as e:
-            error_str = str(e)
-            if '429' in error_str or 'quota' in error_str.lower():
-                if attempt < MAX_RETRIES - 1:
-                    print(f"  [!] Rate limited. Waiting {RETRY_DELAY}s before retry {attempt + 2}/{MAX_RETRIES}...")
-                    time.sleep(RETRY_DELAY)
-                    continue
-            print(f"  [!] Error generating article: {e}")
-            return None
+            error_str = str(e).lower()
+            
+            # Check for overload (503), rate limit (429), or internal error (500)
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] API Issue detected ({error_str[:60]}...).")
+                print(f"      Retrying in {retry_wait}s (Attempt {attempt + 2}/{MAX_RETRIES})...")
+                time.sleep(retry_wait)
+                retry_wait *= 2  # Exponential backoff
+                continue
+            else:
+                print(f"  [!] Fatal error generating article: {e}")
+                return None
 
     return None
 
