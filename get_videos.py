@@ -128,6 +128,7 @@ def main():
     Main function - this runs when you execute the script.
     """
     # Create a connection to YouTube
+    print(f"[DEBUG] Initializing YouTube API with key: {YOUTUBE_API_KEY[:5]}...", flush=True)
     youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
 
     print("Fetching latest LONG-FORM videos (skipping Shorts)...\n")
@@ -135,8 +136,8 @@ def main():
 
     videos = []
 
-    for channel_handle in CHANNELS:
-        print(f"Looking up: {channel_handle}")
+    for i, channel_handle in enumerate(CHANNELS):
+        print(f"({i+1}/{len(CHANNELS)}) Looking up: {channel_handle}...", flush=True)
 
         # Step 1: Get channel info (including uploads playlist)
         channel_info = get_channel_info(youtube, channel_handle)

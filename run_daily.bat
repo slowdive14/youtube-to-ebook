@@ -6,6 +6,9 @@ cd /d "%~dp0"
 echo [YouTube to Ebook] 자동 실행을 시작합니다...
 echo 현재 시간: %date% %time%
 
+:: 화면 출력이 딜레이 없이 바로 나오게 설정
+set PYTHONUNBUFFERED=1
+
 :: 파이썬 스크립트 실행 (python 대신 py 사용 권장)
 py main.py
 

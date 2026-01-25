@@ -8,9 +8,9 @@ Generates both English and Korean versions.
 import sys
 import io
 
-# Fix Windows console encoding for Unicode characters
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+# Fix Windows console encoding for Unicode characters and force flush
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace', line_buffering=True)
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace', line_buffering=True)
 
 from get_videos import main as fetch_videos
 from get_transcripts import get_transcripts_for_videos
@@ -23,7 +23,8 @@ def run():
     """
     Run the full newsletter pipeline with bilingual support.
     """
-    print("=" * 60)
+    print("\n[DEBUG] Starting run() function...", flush=True)
+    print("=" * 60, flush=True)
     print("  YOUTUBE NEWSLETTER GENERATOR (EN + KO)")
     print("=" * 60)
     print(f"  Previously processed: {get_processed_count()} videos")
