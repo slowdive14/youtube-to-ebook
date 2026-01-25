@@ -554,7 +554,40 @@ if page == "Generate":
 
         st.caption("Fetches new videos, writes articles with AI, and sends to your inbox")
 
-    # Stats at the bottom
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.divider()
+    st.markdown("### Process Specific Video")
+    st.caption("Paste a specific YouTube video URL to process it immediately (ignoring history).")
+
+    # Single video URL input
+    video_url = st.text_input("YouTube Video URL", placeholder="https://www.youtube.com/watch?v=...", label_visibility="collapsed")
+    
+    col_l, col_c, col_r = st.columns([1, 2, 1])
+    with col_c:
+        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not video_url):
+            with st.spinner("Processing video..."):
+                try:
+                    result = subprocess.run(
+                        ["py", str(PROJECT_DIR / "main.py"), "--url", video_url],
+                        capture_output=True,
+                        text=True,
+                        cwd=str(PROJECT_DIR),
+                        timeout=900
+                    )
+
+                    stdout_str = result.stdout if result.stdout else ""
+                    stderr_str = result.stderr if result.stderr else ""
+
+                    if "DONE!" in stdout_str:
+                        st.success("Target video processed and sent!")
+                    else:
+                        st.error("Failed to process video. Check log below.")
+
+                    with st.expander("View Output Log"):
+                        st.code(stdout_str + stderr_str, language="text")
+
+                except Exception as e:
+                    st.error(f"Error: {e}")
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.divider()
 

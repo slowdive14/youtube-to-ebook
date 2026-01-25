@@ -123,6 +123,28 @@ def get_latest_video(youtube, uploads_playlist_id, channel_name):
     return None
 
 
+def get_video_info_by_id(youtube, video_id):
+    """
+    Get title and channel name for a specific video ID.
+    """
+    request = youtube.videos().list(
+        part="snippet",
+        id=video_id
+    )
+    response = request.execute()
+
+    if response.get("items"):
+        item = response["items"][0]
+        return {
+            "title": item["snippet"]["title"],
+            "video_id": video_id,
+            "description": item["snippet"]["description"],
+            "channel": item["snippet"]["channelTitle"],
+            "url": f"https://www.youtube.com/watch?v={video_id}"
+        }
+    return None
+
+
 def main():
     """
     Main function - this runs when you execute the script.

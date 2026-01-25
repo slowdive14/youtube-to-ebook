@@ -12,37 +12,66 @@ import io
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace', line_buffering=True)
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace', line_buffering=True)
 
-from get_videos import main as fetch_videos
+import argparse
+from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
+from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
 from write_articles import write_articles_bilingual
 from send_email import send_newsletter_bilingual
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
 
-def run():
+def run(video_url=None):
     """
     Run the full newsletter pipeline with bilingual support.
     """
     print("\n[DEBUG] Starting run() function...", flush=True)
+    if video_url:
+        print(f"  Target Video: {video_url}")
+    
     print("=" * 60, flush=True)
     print("  YOUTUBE NEWSLETTER GENERATOR (EN + KO)")
     print("=" * 60)
-    print(f"  Previously processed: {get_processed_count()} videos")
+    
+    if video_url:
+        # Process single video
+        print("\n[STEP 1] Fetching single video info...\n")
+        video_id = None
+        if "v=" in video_url:
+            video_id = video_url.split("v=")[1].split("&")[0]
+        elif "youtu.be/" in video_url:
+            video_id = video_url.split("youtu.be/")[1].split("?")[0]
+        
+        if not video_id:
+            print(f"Invalid video URL: {video_url}")
+            return
+            
+        youtube = build("youtube", "v3", developerKey=YOUTUBE_API_KEY)
+        video = get_video_info_by_id(youtube, video_id)
+        
+        if not video:
+            print(f"Could not find video info for ID: {video_id}")
+            return
+            
+        new_videos = [video]
+    else:
+        # Standard channel-based flow
+        print(f"  Previously processed: {get_processed_count()} videos")
 
-    # Step 1: Fetch latest videos from your channels
-    print("\n[STEP 1] Fetching latest videos...\n")
-    videos = fetch_videos()
+        # Step 1: Fetch latest videos from your channels
+        print("\n[STEP 1] Fetching latest videos...\n")
+        videos = fetch_videos()
 
-    if not videos:
-        print("No videos found. Check your channel list.")
-        return
+        if not videos:
+            print("No videos found. Check your channel list.")
+            return
 
-    # Step 1b: Filter out already-processed videos
-    print("\n[STEP 1b] Checking for new videos...\n")
-    new_videos = filter_new_videos(videos)
+        # Step 1b: Filter out already-processed videos
+        print("\n[STEP 1b] Checking for new videos...\n")
+        new_videos = filter_new_videos(videos)
 
     if not new_videos:
-        print("No new videos to process. All videos have been sent before.")
+        print("No new videos to process.")
         print("=" * 60)
         return
 
@@ -90,4 +119,9 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser(description="YouTube Newsletter Generator")
+    parser.add_index = False
+    parser.add_argument("--url", help="Process a specific YouTube video URL")
+    args = parser.parse_args()
+    
+    run(video_url=args.url)
