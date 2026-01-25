@@ -665,42 +665,53 @@ if page == "Generate":
     st.caption("Paste a specific YouTube video URL to process it immediately (ignoring history).")
 
     # Single video URL input
-    video_url = st.text_input("YouTube Video URL", placeholder="https://www.youtube.com/watch?v=...", label_visibility="collapsed")
+    video_url = st.text_input(
+        "YouTube Video URL",
+        placeholder="https://www.youtube.com/watch?v=...",
+        label_visibility="collapsed",
+        key="target_video_url"
+    )
     
     col_l, col_c, col_r = st.columns([1, 2, 1])
     with col_c:
-        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not (video_url and authorized)):
-            with st.spinner("Processing video..."):
-                try:
-                    # Prepare environment with UI keys
-                    env = os.environ.copy()
-                    if "YOUTUBE_API_KEY" in st.session_state:
-                        env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
-                    if "GEMINI_API_KEY" in st.session_state:
-                        env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
+        # Only disable if URL is completely empty
+        btn_disabled = not video_url
+        
+        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=btn_disabled):
+            if not authorized:
+                st.error("Please enter the correct Access Password in the sidebar.")
+            else:
+                with st.spinner("Processing video..."):
+                    try:
+                        # Prepare environment with UI keys
+                        env = os.environ.copy()
+                        if "YOUTUBE_API_KEY" in st.session_state:
+                            env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
+                        if "GEMINI_API_KEY" in st.session_state:
+                            env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    result = subprocess.run(
-                        [sys.executable, str(PROJECT_DIR / "main.py"), "--url", video_url],
-                        capture_output=True,
-                        text=True,
-                        cwd=str(PROJECT_DIR),
-                        timeout=900,
-                        env=env
-                    )
+                        result = subprocess.run(
+                            [sys.executable, str(PROJECT_DIR / "main.py"), "--url", video_url],
+                            capture_output=True,
+                            text=True,
+                            cwd=str(PROJECT_DIR),
+                            timeout=900,
+                            env=env
+                        )
 
-                    stdout_str = result.stdout if result.stdout else ""
-                    stderr_str = result.stderr if result.stderr else ""
+                        stdout_str = result.stdout if result.stdout else ""
+                        stderr_str = result.stderr if result.stderr else ""
 
-                    if "DONE!" in stdout_str:
-                        st.success("Target video processed and sent!")
-                    else:
-                        st.error("Failed to process video. Check log below.")
+                        if "DONE!" in stdout_str:
+                            st.success("Target video processed and sent!")
+                        else:
+                            st.error("Failed to process video. Check log below.")
 
-                    with st.expander("View Output Log"):
-                        st.code(stdout_str + stderr_str, language="text")
+                        with st.expander("View Output Log"):
+                            st.code(stdout_str + stderr_str, language="text")
 
-                except Exception as e:
-                    st.error(f"Error: {e}")
+                    except Exception as e:
+                        st.error(f"Error: {e}")
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.divider()
 
