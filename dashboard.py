@@ -463,20 +463,7 @@ def extract_handle_from_url(url_or_handle):
     return None
 
 
-def get_schedule():
-    """Schedule is managed via Windows Task Scheduler."""
-    return 0, 10  # Default display or placeholder
 
-
-def save_schedule(weekday, hour):
-    """Save schedule to plist and reload."""
-    if PLIST_FILE.exists():
-        with open(PLIST_FILE) as f:
-            content = f.read()
-
-        content = re.sub(
-            r'(<key>Weekday</key>\s*<integer>)\d+(</integer>)',
-            f'\\g<1>{weekday}\\2',
 
 
 
@@ -578,8 +565,6 @@ if page == "Generate":
         video_count = 0
 
     channels = get_channels()
-    weekday, hour = get_schedule()
-    days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
 
     with col1:
         st.metric("Articles Sent", video_count)
