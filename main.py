@@ -68,10 +68,19 @@ def run():
     print("\n[STEP 4] Sending newsletters (2 emails)...\n")
     success = send_newsletter_bilingual(english_articles, korean_articles)
 
-    # Step 5: Mark videos as processed (only if email sent successfully)
+    # Step 5: Mark videos as processed (only those with successfully generated articles)
     if success:
-        mark_videos_processed(videos_with_transcripts)
-        print(f"\n  [OK] Marked {len(videos_with_transcripts)} video(s) as processed")
+        # Extract video IDs from successfully generated articles
+        successfully_processed = []
+        for article in english_articles:  # Use english_articles as the source of truth
+            video_id = article['url'].split('v=')[-1]  # Extract video_id from URL
+            successfully_processed.append({
+                'video_id': video_id,
+                'title': article['title'],
+                'channel': article['channel']
+            })
+        mark_videos_processed(successfully_processed)
+        print(f"\n  [OK] Marked {len(successfully_processed)} video(s) as processed")
 
     print("\n" + "=" * 60)
     print("  DONE! (English + Korean newsletters sent)")
