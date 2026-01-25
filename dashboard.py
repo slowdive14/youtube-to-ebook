@@ -477,23 +477,7 @@ def save_schedule(weekday, hour):
         content = re.sub(
             r'(<key>Weekday</key>\s*<integer>)\d+(</integer>)',
             f'\\g<1>{weekday}\\2',
-            content
-        )
-        content = re.sub(
-            r'(<key>Hour</key>\s*<integer>)\d+(</integer>)',
-            f'\\g<1>{hour}\\2',
-            content
-        )
 
-        with open(PLIST_FILE, "w") as f:
-            f.write(content)
-
-        subprocess.run(["launchctl", "bootout", f"gui/{os.getuid()}", str(PLIST_FILE)],
-                      capture_output=True)
-        subprocess.run(["launchctl", "bootstrap", f"gui/{os.getuid()}", str(PLIST_FILE)],
-                      capture_output=True)
-        return True
-    return False
 
 
 def get_newsletters():
@@ -528,7 +512,7 @@ with st.sidebar:
 
     page = st.radio(
         "NAVIGATION",
-        ["Generate", "Channels", "Writing Style", "Archive", "Schedule"],
+        ["Generate", "Channels", "Writing Style", "Archive"],
         label_visibility="visible"
     )
 
@@ -602,9 +586,6 @@ if page == "Generate":
 
     with col2:
         st.metric("Channels", len(channels))
-
-    with col3:
-        st.metric("Next Run", f"{days[weekday]} {hour}:00")
 
 # ============================================
 # PAGE: Channels
@@ -810,44 +791,7 @@ elif page == "Archive":
         else:
             st.info("No videos processed yet.")
 
-# ============================================
-# PAGE: Schedule
-# ============================================
-elif page == "Schedule":
-    st.markdown("## Schedule")
-    st.write("Set when your newsletter runs automatically.")
 
-    weekday, hour = get_schedule()
-    days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-
-    col1, col2 = st.columns(2)
-
-    with col1:
-        new_day = st.selectbox(
-            "Day",
-            options=list(range(7)),
-            format_func=lambda x: days[x],
-            index=weekday
-        )
-
-    with col2:
-        new_hour = st.selectbox(
-            "Time",
-            options=list(range(24)),
-            format_func=lambda x: f"{x:02d}:00" + (" AM" if x < 12 else " PM"),
-            index=hour
-        )
-
-    st.markdown(f"**Currently scheduled:** {days[weekday]} at {hour:02d}:00")
-
-    if new_day != weekday or new_hour != hour:
-        st.markdown(f"**New schedule:** {days[new_day]} at {new_hour:02d}:00")
-
-        if st.button("Update Schedule", type="primary"):
-            if save_schedule(new_day, new_hour):
-                st.success(f"Updated to {days[new_day]} at {new_hour:02d}:00!")
-            else:
-                st.error("Couldn't update schedule")
 
     st.divider()
 
