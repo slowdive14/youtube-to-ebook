@@ -7,3 +7,5 @@ youtube-transcript-api
 markdown
 ebooklib
 beautifulsoup4
+selenium
+webdriver-manager
