@@ -3,7 +3,7 @@ google-genai
 python-dotenv
 google-api-python-client
 requests
-youtube-transcript-api
+youtube-transcript-api>=0.6.0
 markdown
 ebooklib
 beautifulsoup4
