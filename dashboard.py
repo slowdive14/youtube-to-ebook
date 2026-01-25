@@ -7,7 +7,6 @@ import streamlit as st
 import os
 import json
 import subprocess
-import sys
 import re
 from datetime import datetime
 from pathlib import Path
@@ -507,98 +506,26 @@ with st.sidebar:
     page = st.session_state.nav_page
 
     st.divider()
-    # Access Password
-    access_pass = st.text_input(
-        "Access Password",
-        type="password",
-        help="Required to enable processing buttons"
-    )
+    st.markdown("#### Configuration")
     
-    # Store settings in session state
-    st.session_state["ACCESS_PASSWORD_INPUT"] = access_pass
-    
-    # Check if authorized
-    authorized = False
-    required_pass = os.getenv("ACCESS_PASSWORD")
-    if not required_pass:
-        # If no password set in secrets, allow access but warn
-        authorized = True
-        st.warning("No ACCESS_PASSWORD set in Secrets. Dashboard is public.")
-    elif access_pass == required_pass:
-        authorized = True
-        st.success("Access Granted")
-    elif access_pass:
-        st.error("Incorrect Password")
-
-    st.divider()
-    st.markdown("#### Custom API Keys (Optional)")
-    st.caption("Override default keys for this session.")
-    
-    # API Key Inputs (Blank by default for privacy)
+    # API Key Inputs in Sidebar
     yt_key = st.text_input(
         "YouTube API Key",
-        value="",
+        value=os.getenv("YOUTUBE_API_KEY", ""),
         type="password",
-        placeholder="Past key to override..."
+        help="Required to fetch video metadata"
     )
     gemini_key = st.text_input(
         "Gemini API Key",
-        value="",
+        value=os.getenv("GEMINI_API_KEY", ""),
         type="password",
-        placeholder="Past key to override..."
+        help="Required to generate articles"
     )
     
-    if st.button("Apply Custom Keys"):
-        if yt_key: st.session_state["YOUTUBE_API_KEY"] = yt_key
-        if gemini_key: st.session_state["GEMINI_API_KEY"] = gemini_key
-        st.success("Applied custom keys!")
-
-    st.divider()
-    st.markdown("#### Bypass IP Block")
-    st.caption("Upload `youtube_cookies.txt` (Netscape format) if seeing 'IP block' errors on cloud.")
-    
-    uploaded_cookies = st.file_uploader("Upload Cookies", type=["txt", "json"], label_visibility="collapsed")
-    if uploaded_cookies:
-        content = uploaded_cookies.getvalue().decode("utf-8")
-        
-        # Check if it's JSON format and convert to Netscape
-        try:
-            import json
-            cookie_data = json.loads(content)
-            if isinstance(cookie_data, list):
-                # Convert JSON to Netscape format
-                netscape_content = "# Netscape HTTP Cookie File\n"
-                for c in cookie_data:
-                    domain = c.get("domain", "")
-                    include_sub = "TRUE" if domain.startswith(".") else "FALSE"
-                    path = c.get("path", "/")
-                    secure = "TRUE" if c.get("secure", False) else "FALSE"
-                    expiry = int(c.get("expirationDate", 0))
-                    name = c.get("name", "")
-                    value = c.get("value", "")
-                    netscape_content += f"{domain}\t{include_sub}\t{path}\t{secure}\t{expiry}\t{name}\t{value}\n"
-                
-                with open(PROJECT_DIR / "youtube_cookies.txt", "w", encoding="utf-8") as f:
-                    f.write(netscape_content)
-                st.success("JSON Cookies converted and saved!")
-            else:
-                # Save as is (assume Netscape)
-                with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
-                    f.write(uploaded_cookies.getbuffer())
-                st.success("Cookies uploaded!")
-        except Exception as e:
-            # Fallback: Save as is
-            with open(PROJECT_DIR / "youtube_cookies.txt", "wb") as f:
-                f.write(uploaded_cookies.getbuffer())
-            st.success("Cookies uploaded!")
-        
-        st.rerun()
-    
-    if (PROJECT_DIR / "youtube_cookies.txt").exists():
-        st.info("✅ youtube_cookies.txt is active")
-        if st.button("Clear Cookies"):
-            (PROJECT_DIR / "youtube_cookies.txt").unlink()
-            st.rerun()
+    if st.button("Save Keys to Session"):
+        st.session_state["YOUTUBE_API_KEY"] = yt_key
+        st.session_state["GEMINI_API_KEY"] = gemini_key
+        st.success("Keys saved for this session!")
 
 # ============================================
 # PAGE: Generate Newsletter
@@ -617,7 +544,7 @@ if page == "Generate":
     col_left, col_center, col_right = st.columns([1, 2, 1])
 
     with col_center:
-        if st.button("Generate & Send Newsletter", type="primary", use_container_width=True, disabled=not authorized):
+        if st.button("Generate & Send Newsletter", type="primary", use_container_width=True):
             with st.spinner("Crafting your newsletter..."):
                 try:
                     # Note: If this fails with ModuleNotFoundError, replace "python3" with your full Python path
@@ -629,9 +556,9 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    # Use sys.executable for cross-platform compatibility
+                    # Use "py" for Windows compatibility
                     result = subprocess.run(
-                        [sys.executable, str(PROJECT_DIR / "main.py")],
+                        ["py", str(PROJECT_DIR / "main.py")],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
@@ -665,53 +592,42 @@ if page == "Generate":
     st.caption("Paste a specific YouTube video URL to process it immediately (ignoring history).")
 
     # Single video URL input
-    video_url = st.text_input(
-        "YouTube Video URL",
-        placeholder="https://www.youtube.com/watch?v=...",
-        label_visibility="collapsed",
-        key="target_video_url"
-    )
+    video_url = st.text_input("YouTube Video URL", placeholder="https://www.youtube.com/watch?v=...", label_visibility="collapsed")
     
     col_l, col_c, col_r = st.columns([1, 2, 1])
     with col_c:
-        # Only disable if URL is completely empty
-        btn_disabled = not video_url
-        
-        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=btn_disabled):
-            if not authorized:
-                st.error("Please enter the correct Access Password in the sidebar.")
-            else:
-                with st.spinner("Processing video..."):
-                    try:
-                        # Prepare environment with UI keys
-                        env = os.environ.copy()
-                        if "YOUTUBE_API_KEY" in st.session_state:
-                            env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
-                        if "GEMINI_API_KEY" in st.session_state:
-                            env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
+        if st.button("Summarize This Video", type="secondary", use_container_width=True, disabled=not video_url):
+            with st.spinner("Processing video..."):
+                try:
+                    # Prepare environment with UI keys
+                    env = os.environ.copy()
+                    if "YOUTUBE_API_KEY" in st.session_state:
+                        env["YOUTUBE_API_KEY"] = st.session_state["YOUTUBE_API_KEY"]
+                    if "GEMINI_API_KEY" in st.session_state:
+                        env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                        result = subprocess.run(
-                            [sys.executable, str(PROJECT_DIR / "main.py"), "--url", video_url],
-                            capture_output=True,
-                            text=True,
-                            cwd=str(PROJECT_DIR),
-                            timeout=900,
-                            env=env
-                        )
+                    result = subprocess.run(
+                        ["py", str(PROJECT_DIR / "main.py"), "--url", video_url],
+                        capture_output=True,
+                        text=True,
+                        cwd=str(PROJECT_DIR),
+                        timeout=900,
+                        env=env
+                    )
 
-                        stdout_str = result.stdout if result.stdout else ""
-                        stderr_str = result.stderr if result.stderr else ""
+                    stdout_str = result.stdout if result.stdout else ""
+                    stderr_str = result.stderr if result.stderr else ""
 
-                        if "DONE!" in stdout_str:
-                            st.success("Target video processed and sent!")
-                        else:
-                            st.error("Failed to process video. Check log below.")
+                    if "DONE!" in stdout_str:
+                        st.success("Target video processed and sent!")
+                    else:
+                        st.error("Failed to process video. Check log below.")
 
-                        with st.expander("View Output Log"):
-                            st.code(stdout_str + stderr_str, language="text")
+                    with st.expander("View Output Log"):
+                        st.code(stdout_str + stderr_str, language="text")
 
-                    except Exception as e:
-                        st.error(f"Error: {e}")
+                except Exception as e:
+                    st.error(f"Error: {e}")
     st.markdown("<br><br>", unsafe_allow_html=True)
     st.divider()
 
