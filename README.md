@@ -48,7 +48,7 @@
 2. 이 파일의 이름을 `.env`로 바꿉니다. (뒤에 `.example`을 지우세요)
 3. 메모장으로 `.env` 파일을 엽니다.
 4. 아까 복사한 키를 `GEMINI_API_KEY=` 옆에 붙여넣습니다. `your_api_key_here` 부분은 지우세요.
-5. 유튜브 키는 [구글 클라우드 콘솔](https://console.cloud.google.com/)에서 `YouTube Data API v3`를 검색해 활성화하고 키를 발급받아 `YOUTUBE_API_KEY`에 넣습니다. (유튜브 키 발급이 어렵다면 인터넷 검색을 활용해보세요!)
+5. **유튜브 API 키(필수):** [구글 클라우드 콘솔](https://console.cloud.google.com/)에서 `YouTube Data API v3`를 직접 활성화하고 키를 발급받아 `YOUTUBE_API_KEY`에 넣어야 합니다. 이 키가 있어야 프로그램이 자동으로 최신 영상을 찾아올 수 있습니다. (발급 방법은 인터넷 검색을 활용하면 쉽게 찾을 수 있습니다!)
 6. **(선택 사항) 이메일로 책 받아보기:** .env 파일 아래쪽 `GMAIL_ADDRESS`에 본인 지메일 주소를, `GMAIL_APP_PASSWORD`에는 지메일 비밀번호 대신 **[앱 비밀번호](https://myaccount.google.com/apppasswords)**를 발급받아 넣으세요. (이메일로 받고 싶지 않다면 비워두세요)
 
 ### 6단계: 채널 추가하고 실행하기

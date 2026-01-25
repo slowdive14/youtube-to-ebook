@@ -61,8 +61,7 @@
 2.  `Create API key`를 눌러서 키를 발급받고 복사해 둡니다. (메모장에 붙여넣어 두세요)
 3.  폴더 안에 있는 `.env.example` 파일의 이름을 `.env`로 바꿉니다. (뒤에 `.example` 지우기)
 4.  메모장으로 `.env` 파일을 열고 `GEMINI_API_KEY=` 옆에 아까 복사한 키를 붙여넣습니다.
-
-*(선택사항)* 유튜브 API 키도 필요한데, 이건 [구글 클라우드 콘솔](https://console.cloud.google.com/)에서 받을 수 있습니다. 조금 복잡하면 구글에 "유튜브 API 키 발급"이라고 검색해보세요!
+5.  **유튜브(YouTube) API 키 (필수):** 채널에서 최신 영상을 자동으로 가져오기 위해 꼭 필요합니다. [구글 클라우드 콘솔](https://console.cloud.google.com/)에서 `YouTube Data API v3`를 활성화하고 키를 받아 `YOUTUBE_API_KEY`에 넣어주세요. (방법이 어렵다면 구글에 "유튜브 API 키 발급"을 검색해 보세요!)
 
 ## 4단계: 좋아하는 유튜버 등록하기
 
