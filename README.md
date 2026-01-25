@@ -57,6 +57,7 @@
    ```bash
    python main.py
    ```
+*(참고: 윈도우에서 `python` 명령어가 안 되면 `py main.py`라고 입력해 보세요!)*
 
 🎉 **완료!** 잠시 기다리면 `newsletters` 폴더에 전자책 파일(.epub)이 생깁니다. 스마트폰으로 옮겨서 읽어보세요.
 
