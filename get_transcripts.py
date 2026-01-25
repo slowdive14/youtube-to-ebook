@@ -6,6 +6,7 @@ Uses youtube-transcript-api for reliable transcript extraction.
 import sys
 import io
 import time
+import os
 
 # Fix Windows console encoding
 if sys.stdout.encoding != 'utf-8':
