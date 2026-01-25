@@ -556,9 +556,12 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    # Use "py" for Windows compatibility
+                    import platform
+                    py_cmd = "py" if platform.system() == "Windows" else "python3"
+
+                    # Execute main script
                     result = subprocess.run(
-                        ["py", str(PROJECT_DIR / "main.py")],
+                        [py_cmd, str(PROJECT_DIR / "main.py")],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
@@ -606,8 +609,11 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
+                    import platform
+                    py_cmd = "py" if platform.system() == "Windows" else "python3"
+
                     result = subprocess.run(
-                        ["py", str(PROJECT_DIR / "main.py"), "--url", video_url],
+                        [py_cmd, str(PROJECT_DIR / "main.py"), "--url", video_url],
                         capture_output=True,
                         text=True,
                         cwd=str(PROJECT_DIR),
