@@ -23,14 +23,21 @@ def get_transcript(video_id):
     Supports optional cookies to avoid IP blocks.
     """
     try:
-        # Look for cookies file to bypass IP blocks (especially on cloud servers)
-        cookies_file = os.path.join(os.path.dirname(__file__), "youtube_cookies.txt")
+        # Look for cookies file to bypass IP blocks
+        # Use absolute path to ensure it's found when run from different directories
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        cookies_file = os.path.join(current_dir, "youtube_cookies.txt")
         
         if os.path.exists(cookies_file):
             print(f"  [.] Using cookies from {cookies_file}")
             transcript_list = YouTubeTranscriptApi.get_transcript(video_id, cookies=cookies_file)
         else:
-            transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
+            # Also check the current working directory as fallback
+            if os.path.exists("youtube_cookies.txt"):
+                print(f"  [.] Using cookies from local youtube_cookies.txt")
+                transcript_list = YouTubeTranscriptApi.get_transcript(video_id, cookies="youtube_cookies.txt")
+            else:
+                transcript_list = YouTubeTranscriptApi.get_transcript(video_id)
 
         # Combine all segments into one text
         full_text = ' '.join([segment.text for segment in transcript_list])
@@ -39,11 +46,12 @@ def get_transcript(video_id):
     except Exception as e:
         error_msg = str(e)
         if "blocking" in error_msg.lower() or "ip" in error_msg.lower():
-            print(f"  [!] YouTube IP block - try using VPN or wait")
+            print(f"  [!] YouTube IP block - try updating cookies or wait")
+            print(f"      Raw error: {error_msg[:150]}...")
         elif "No transcripts" in error_msg or "disabled" in error_msg.lower():
             print(f"  [!] No captions available for this video")
         else:
-            print(f"  [!] Error: {error_msg[:80]}")
+            print(f"  [!] Extraction Error: {error_msg}")
         return None
 
 
