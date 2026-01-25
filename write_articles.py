@@ -88,7 +88,7 @@ Write a magazine-style article. Guidelines:
                 time.sleep(REQUEST_DELAY)
 
             response = client.models.generate_content(
-                model='gemini-2.5-flash-lite',
+                model='gemini-3-flash-preview',
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     max_output_tokens=4000,
@@ -176,7 +176,7 @@ if __name__ == "__main__":
         "transcript": "Hello everyone, today we're going to talk about something really exciting. I've been working on this project for months and I can't wait to share it with you. The main idea is simple but powerful..."
     }
 
-    print("Testing article generation with gemini-2.5-flash-lite...")
+    print("Testing article generation with gemini-3-flash-preview...")
     article = write_article(test_video, is_first=True)
     if article:
         print("\nGenerated article:\n")
