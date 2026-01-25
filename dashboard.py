@@ -8,6 +8,8 @@ import os
 import json
 import subprocess
 import re
+import sys
+import platform
 from datetime import datetime
 from pathlib import Path
 
@@ -556,8 +558,8 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    import platform
-                    py_cmd = "py" if platform.system() == "Windows" else "python3"
+                    # Use the same Python interpreter as the dashboard
+                    py_cmd = sys.executable
 
                     # Execute main script
                     result = subprocess.run(
@@ -609,8 +611,8 @@ if page == "Generate":
                     if "GEMINI_API_KEY" in st.session_state:
                         env["GEMINI_API_KEY"] = st.session_state["GEMINI_API_KEY"]
 
-                    import platform
-                    py_cmd = "py" if platform.system() == "Windows" else "python3"
+                    # Use the same Python interpreter as the dashboard
+                    py_cmd = sys.executable
 
                     result = subprocess.run(
                         [py_cmd, str(PROJECT_DIR / "main.py"), "--url", video_url],
