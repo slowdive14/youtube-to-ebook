@@ -25,8 +25,9 @@
 ### 3단계: 내 컴퓨터로 다운로드
 1. 컴퓨터에서 명령 프롬프트(cmd)나 터미널을 엽니다.
    * *윈도우 키 + R 입력 → `cmd` 입력 후 엔터*
-2. 아래 명령어를 입력하여 다운로드합니다 (본인 아이디로 Fork한 주소를 써야 하지만, 이 저장소를 그대로 받으려면 아래처럼 입력):
+2. 프로그램을 저장할 폴더(예: 문서 폴더)로 이동한 후, 아래 명령어를 순서대로 입력하여 다운로드합니다:
    ```bash
+   cd Documents
    git clone https://github.com/slowdive14/youtube-to-ebook.git
    cd youtube-to-ebook
    ```
