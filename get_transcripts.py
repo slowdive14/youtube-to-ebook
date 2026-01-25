@@ -38,16 +38,42 @@ def get_transcript_via_selenium(video_id):
         from selenium.webdriver.support import expected_conditions as EC
         from webdriver_manager.chrome import ChromeDriverManager
         
-        print("  [*] Starting browser for fallback extraction...")
+        import platform
+        is_windows = platform.system() == "Windows"
+        
+        print(f"  [*] Starting browser for fallback extraction ({'Windows' if is_windows else 'Linux'})...")
         
         chrome_options = Options()
-        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--headless=new") # Faster and more stable
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--window-size=1920,1080")
         chrome_options.add_argument("--lang=en-US")
         
-        service = Service(ChromeDriverManager().install())
+        # Streamlit Cloud (Linux) Specific path handling
+        service = None
+        if not is_windows:
+            # Common paths for Chromium on Linux Cloud environments
+            paths = ["/usr/bin/chromium", "/usr/bin/chromium-browser"]
+            for path in paths:
+                if os.path.exists(path):
+                    chrome_options.binary_location = path
+                    break
+            
+            # Use system driver if available
+            driver_path = "/usr/bin/chromedriver"
+            if os.path.exists(driver_path):
+                service = Service(driver_path)
+        
+        # Fallback to webdriver-manager if service/binary not found manually
+        if service is None:
+            try:
+                service = Service(ChromeDriverManager().install())
+            except Exception as e:
+                print(f"  [!] Failed to install driver via manager: {e}")
+                # Last resort: try just 'chromedriver' in path
+                service = Service("chromedriver")
+        
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
         try:
