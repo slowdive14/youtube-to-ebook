@@ -21,13 +21,26 @@ from send_email import send_newsletter_bilingual
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
 
+LOCK_FILE = PROJECT_DIR / "main.lock"
+
 def run(video_url=None):
     """
     Run the full newsletter pipeline with bilingual support.
     """
-    print("\n[DEBUG] Starting run() function...", flush=True)
-    if video_url:
-        print(f"  Target Video: {video_url}")
+    # Prevent concurrent runs which cause duplicate emails
+    if LOCK_FILE.exists():
+        print(f"\n[!] ALERT: Another instance is already running (found {LOCK_FILE})")
+        print("    If you are sure nothing is running, delete this file manually.")
+        return
+
+    try:
+        # Create lock file
+        with open(LOCK_FILE, "w") as f:
+            f.write(str(datetime.now()))
+            
+        print("\n[DEBUG] Starting run() function...", flush=True)
+        if video_url:
+            print(f"  Target Video: {video_url}")
     
     print("=" * 60, flush=True)
     print("  YOUTUBE NEWSLETTER GENERATOR (EN + KO)")
@@ -112,9 +125,17 @@ def run(video_url=None):
         mark_videos_processed(successfully_processed)
         print(f"\n  [OK] Marked {len(successfully_processed)} video(s) as processed")
 
-    print("\n" + "=" * 60)
-    print("  DONE! (English + Korean newsletters sent)")
-    print("=" * 60)
+    except Exception as e:
+        print(f"\n[X] Error during run: {e}")
+        raise e
+    finally:
+        # Always remove the lock file when finished
+        if LOCK_FILE.exists():
+            try:
+                os.remove(LOCK_FILE)
+                print("\n  [OK] Process lock released")
+            except:
+                pass
 
     return english_articles, korean_articles
 
