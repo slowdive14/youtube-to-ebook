@@ -61,7 +61,7 @@ def get_transcripts_for_videos(videos):
 
         # Delay between requests to avoid rate limiting
         if i < len(videos) - 1:
-            time.sleep(3)
+            time.sleep(7)
 
     # Filter out videos without transcripts
     videos_with_transcripts = [v for v in videos if v.get("transcript")]
