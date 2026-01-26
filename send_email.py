@@ -371,10 +371,25 @@ def send_newsletter(articles, recipient_email=None, language='en'):
 
     # Create the email (mixed type for attachments)
     msg = MIMEMultipart("mixed")
+    
+    # Construct dynamic subject line
+    first_title = articles[0]['title']
+    if len(first_title) > 40:
+        first_title = first_title[:37] + "..."
+    
+    count = len(articles)
     if language == 'ko':
-        msg["Subject"] = f"YouTube 다이제스트 (한글) - {datetime.now().strftime('%Y년 %m월 %d일')}"
+        if count > 1:
+            subject = f"{first_title} 외 {count-1}건 | YouTube 다이제스트"
+        else:
+            subject = f"{first_title} | YouTube 다이제스트"
     else:
-        msg["Subject"] = f"YouTube Digest (English) - {datetime.now().strftime('%B %d, %Y')}"
+        if count > 1:
+            subject = f"{first_title} & {count-1} more | YouTube Digest"
+        else:
+            subject = f"{first_title} | YouTube Digest"
+            
+    msg["Subject"] = subject
     msg["From"] = GMAIL_ADDRESS
     msg["To"] = recipient_email
 
