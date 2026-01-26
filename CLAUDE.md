@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-YouTube to Ebook transforms YouTube videos into magazine-style EPUB ebooks. It fetches videos from configured channels, extracts transcripts, generates bilingual articles (English + Korean) using Google Gemini AI, and delivers them via email with EPUB attachments.
+YouTube to Ebook transforms YouTube videos into magazine-style articles. It fetches videos from configured channels, extracts transcripts, generates bilingual articles (English + Korean) using Google Gemini AI, and delivers them via email with dynamic subject lines.
 
 ## Commands
 
@@ -34,18 +34,18 @@ get_videos.py --> get_transcripts.py --> write_articles.py --> send_email.py
      |                   |                      |                    |
      v                   v                      v                    v
 YouTube API      API + Selenium Fallback     Gemini AI          Gmail SMTP
-(channel videos)  (robust extraction)      (article gen)      (EPUB + email)
+(channel videos)  (robust extraction)      (article gen)     (Dynamic Subject)
 ```
 
 **main.py** orchestrates the entire pipeline and integrates with **video_tracker.py** to avoid reprocessing videos.
 
-**dashboard.py** provides a Streamlit web UI for managing channels, customizing prompts, generating newsletters, and viewing archive.
+**dashboard.py** provides a Streamlit web UI for managing channels, customizing prompts, and generating newsletters manually.
 
 ### Key Data Flow
 
 1. `channels.txt` - List of YouTube channel handles (one per line, e.g., `@hubermanlab`)
 2. `processed_videos.json` - Tracks processed video IDs to prevent duplicates
-3. `newsletters/` - Archive of generated HTML and EPUB files with metadata JSON
+3. [DISABLED] `newsletters/` - Local archiving is disabled to keep the system lightweight. All content is delivered directly to email.
 
 ## Environment Variables
 
@@ -109,6 +109,14 @@ All Python files wrap stdout/stderr with UTF-8 encoding to handle Unicode charac
 ### 6. Windows Unicode Support
 - **Problem**: Windows console often defaults to non-UTF8 encodings, causing crashes when printing Unicode characters (Korean, Emojis).
 - **Solution**: Always wrap `sys.stdout` and `sys.stderr` with `io.TextIOWrapper` using `utf-8` encoding at the entry point of every script.
+
+### 7. Lean Delivery & UI Simplification
+- **Insight**: Local archiving (EPUB/HTML) and "Archive" UI tabs can add unnecessary complexity if the primary consumption is via email.
+- **Action**: Removed local file generation and the corresponding Dashboard tab to focus on a "Lean" workflow where content is generated and delivered immediately without leaving artifacts on the server.
+
+### 8. Dynamic Email Engagement
+- **Improvement**: Static email subjects (e.g., "YouTube Digest - Date") are less engaging and hard to search.
+- **Solution**: Constructed dynamic subjects using the title of the first video and a total count (e.g., "[Title] 외 2건 | YouTube 다이제스트").
 
 ## Documentation Requirements
 ... (remains same)
