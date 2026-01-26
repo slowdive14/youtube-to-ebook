@@ -277,9 +277,6 @@ def create_newsletter_html(articles, language='en'):
             <h1>{"YouTube 다이제스트" if language == 'ko' else "YOUR YOUTUBE DIGEST"}</h1>
             <p>{today}</p>
         </div>
-        <div class="epub-note">
-            {"[EPUB] 이북 파일이 첨부되어 있습니다 - 스마트폰 이북 리더에서 열어보세요!" if language == 'ko' else "[EPUB] Ebook attached - open on your phone's ebook reader!"}
-        </div>
     """
 
     for article in articles:
@@ -309,7 +306,7 @@ def create_newsletter_html(articles, language='en'):
     return html
 
 
-def save_newsletter_archive(html_content, epub_path, articles):
+def save_newsletter_archive(html_content, articles):
     """
     Save a copy of the newsletter for viewing in the archive.
     """
@@ -324,11 +321,6 @@ def save_newsletter_archive(html_content, epub_path, articles):
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    # Copy EPUB
-    import shutil
-    epub_archive_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.epub")
-    shutil.copy(epub_path, epub_archive_path)
-
     # Save metadata
     metadata = {
         "date": date_display,
@@ -336,8 +328,7 @@ def save_newsletter_archive(html_content, epub_path, articles):
         "article_count": len(articles),
         "channels": [a["channel"] for a in articles],
         "titles": [a["title"] for a in articles],
-        "html_file": f"newsletter_{timestamp}.html",
-        "epub_file": f"newsletter_{timestamp}.epub"
+        "html_file": f"newsletter_{timestamp}.html"
     }
 
     metadata_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.json")
@@ -350,7 +341,7 @@ def save_newsletter_archive(html_content, epub_path, articles):
 
 def send_newsletter(articles, recipient_email=None, language='en'):
     """
-    Send the newsletter via Gmail with EPUB attachment.
+    Send the newsletter via Gmail.
     If no recipient specified, sends to yourself.
     language: 'en' for English, 'ko' for Korean
     """
@@ -365,12 +356,8 @@ def send_newsletter(articles, recipient_email=None, language='en'):
     lang_name = "Korean" if language == 'ko' else "English"
     print(f"\nPreparing {lang_name} newsletter for {recipient_email}...")
 
-    # Create EPUB ebook
-    print(f"  Creating {lang_name} EPUB ebook...")
-    epub_path = create_epub(articles, language=language)
-
-    # Create the email (mixed type for attachments)
-    msg = MIMEMultipart("mixed")
+    # Create the email (alternative for text/html)
+    msg = MIMEMultipart("alternative")
     
     # Construct dynamic subject line
     first_title = articles[0]['title']
@@ -393,42 +380,22 @@ def send_newsletter(articles, recipient_email=None, language='en'):
     msg["From"] = GMAIL_ADDRESS
     msg["To"] = recipient_email
 
-    # Create the body part (alternative for text/html)
-    body = MIMEMultipart("alternative")
-
     # Create HTML content
     html_content = create_newsletter_html(articles, language=language)
 
     # Create plain text version (simple fallback)
     if language == 'ko':
         text_content = "YouTube 다이제스트\n\n"
-        text_content += "[EPUB] 이북 파일이 첨부되어 있습니다!\n\n"
     else:
         text_content = "Your YouTube Newsletter\n\n"
-        text_content += "[EPUB] Ebook attached - open on your phone's ebook reader!\n\n"
     for article in articles:
         text_content += f"--- {article['channel']} ---\n"
         text_content += f"{article['article']}\n"
         text_content += f"Watch: {article['url']}\n\n"
 
     # Attach both text versions to body
-    body.attach(MIMEText(text_content, "plain"))
-    body.attach(MIMEText(html_content, "html"))
-
-    # Add body to message
-    msg.attach(body)
-
-    # Attach EPUB file
-    print("  Attaching EPUB file...")
-    with open(epub_path, "rb") as attachment:
-        part = MIMEBase("application", "epub+zip")
-        part.set_payload(attachment.read())
-        encoders.encode_base64(part)
-        part.add_header(
-            "Content-Disposition",
-            f"attachment; filename={os.path.basename(epub_path)}"
-        )
-        msg.attach(part)
+    msg.attach(MIMEText(text_content, "plain"))
+    msg.attach(MIMEText(html_content, "html"))
 
     try:
         # Connect to Gmail and send
@@ -439,11 +406,8 @@ def send_newsletter(articles, recipient_email=None, language='en'):
 
         print(f"[OK] {lang_name} newsletter sent successfully!")
 
-        # Save to archive before cleaning up
-        save_newsletter_archive(html_content, epub_path, articles)
-
-        # Clean up EPUB file
-        os.remove(epub_path)
+        # Save to archive
+        save_newsletter_archive(html_content, articles)
 
         return True
 
