@@ -18,10 +18,10 @@ PROJECT_DIR = Path(__file__).parent
 CHANNELS_FILE = PROJECT_DIR / "channels.txt"
 PROMPT_FILE = PROJECT_DIR / "write_articles.py"
 TRACKER_FILE = PROJECT_DIR / "processed_videos.json"
-NEWSLETTERS_DIR = PROJECT_DIR / "newsletters"
-
-# Create newsletters directory if it doesn't exist
-NEWSLETTERS_DIR.mkdir(exist_ok=True)
+# Create tracking file if it doesn't exist
+if not TRACKER_FILE.exists():
+    with open(TRACKER_FILE, "w", encoding="utf-8") as f:
+        json.dump({"videos": {}}, f)
 
 st.set_page_config(
     page_title="The Digest",
@@ -469,20 +469,6 @@ def extract_handle_from_url(url_or_handle):
 
 
 
-def get_newsletters():
-    """Get list of saved newsletters."""
-    newsletters = []
-    if NEWSLETTERS_DIR.exists():
-        for json_file in sorted(NEWSLETTERS_DIR.glob("newsletter_*.json"), reverse=True):
-            try:
-                with open(json_file, "r", encoding="utf-8") as f:
-                    data = json.load(f)
-                    data["json_path"] = str(json_file)
-                    newsletters.append(data)
-            except (json.JSONDecodeError, Exception) as e:
-                # Skip files that can't be read or parsed
-                continue
-    return newsletters
 
 
 # ============================================
@@ -501,7 +487,7 @@ with st.sidebar:
 
     st.radio(
         "NAVIGATION",
-        ["Generate", "Channels", "Writing Style", "Archive"],
+        ["Generate", "Channels", "Writing Style"],
         label_visibility="visible",
         key="nav_page"
     )
@@ -764,110 +750,5 @@ elif page == "Writing Style":
                 f.write(new_content)
             st.success("Writing style saved!")
 
-# ============================================
-# PAGE: Archive
-# ============================================
-elif page == "Archive":
-    st.markdown("## Archive")
-
-    # Tabs for newsletters vs individual videos
-    tab1, tab2 = st.tabs(["Newsletters", "Processed Videos"])
-
-    with tab1:
-        newsletters = get_newsletters()
-
-        if newsletters:
-            st.markdown(f"**{len(newsletters)} newsletters sent**")
-
-            for nl in newsletters:
-                st.markdown(f"""
-                <div class="newsletter-card">
-                    <div class="newsletter-date">{nl.get('date', 'Unknown date')}</div>
-                    <div class="newsletter-meta">
-                        {nl.get('article_count', 0)} articles from {', '.join(nl.get('channels', [])[:3])}{'...' if len(nl.get('channels', [])) > 3 else ''}
-                    </div>
-                </div>
-                """, unsafe_allow_html=True)
-
-                col1, col2 = st.columns(2)
-                with col1:
-                    html_file = NEWSLETTERS_DIR / nl.get('html_file', '')
-                    if html_file.exists():
-                        with open(html_file, encoding="utf-8") as f:
-                            html_content = f.read()
-                        st.download_button(
-                            "Download HTML",
-                            html_content,
-                            file_name=nl.get('html_file', 'newsletter.html'),
-                            mime="text/html",
-                            key=f"html_{nl.get('timestamp')}"
-                        )
-                with col2:
-                    epub_file = NEWSLETTERS_DIR / nl.get('epub_file', '')
-                    if epub_file.exists():
-                        with open(epub_file, "rb") as f:
-                            epub_content = f.read()
-                        st.download_button(
-                            "Download EPUB",
-                            epub_content,
-                            file_name=nl.get('epub_file', 'newsletter.epub'),
-                            mime="application/epub+zip",
-                            key=f"epub_{nl.get('timestamp')}"
-                        )
-
-                st.markdown("---")
-        else:
-            st.info("No newsletters yet. Generate your first one from the Generate tab!")
-
-    with tab2:
-        if TRACKER_FILE.exists():
-            with open(TRACKER_FILE, encoding="utf-8") as f:
-                data = json.load(f)
-
-            videos = data.get("videos", {})
-
-            if videos:
-                sorted_videos = sorted(
-                    videos.items(),
-                    key=lambda x: x[1].get("processed_at", ""),
-                    reverse=True
-                )
-
-                st.markdown(f"**{len(videos)} videos processed**")
-
-                for video_id, info in sorted_videos:
-                    with st.expander(f"{info.get('channel', 'Unknown')} — {info.get('title', 'Unknown')[:50]}..."):
-                        st.write(f"**{info.get('title', 'Unknown')}**")
-                        st.caption(f"From {info.get('channel', 'Unknown')}")
-
-                        processed = info.get('processed_at', 'Unknown')
-                        if processed != 'Unknown':
-                            try:
-                                dt = datetime.fromisoformat(processed)
-                                processed = dt.strftime("%B %d, %Y at %I:%M %p")
-                            except:
-                                pass
-                        st.caption(f"Processed: {processed}")
-
-                        st.markdown(f"[Watch on YouTube](https://www.youtube.com/watch?v={video_id})")
-
-                st.divider()
-
-                if st.button("Clear All History", type="secondary"):
-                    st.warning("This will allow all videos to be re-processed.")
-            else:
-                st.info("No videos processed yet.")
-        else:
-            st.info("No videos processed yet.")
-
-
-
-    st.divider()
-
-    st.caption("Your Mac must be awake at the scheduled time for the newsletter to run automatically.")
-
-# ============================================
-# Footer
-# ============================================
 st.markdown("---")
 st.caption("The Digest • Powered by Claude AI")

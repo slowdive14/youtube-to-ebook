@@ -306,39 +306,6 @@ def create_newsletter_html(articles, language='en'):
     return html
 
 
-def save_newsletter_archive(html_content, articles):
-    """
-    Save a copy of the newsletter for viewing in the archive.
-    """
-    newsletters_dir = os.path.join(os.path.dirname(__file__), "newsletters")
-    os.makedirs(newsletters_dir, exist_ok=True)
-
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    date_display = datetime.now().strftime("%B %d, %Y")
-
-    # Save HTML
-    html_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.html")
-    with open(html_path, "w", encoding="utf-8") as f:
-        f.write(html_content)
-
-    # Save metadata
-    metadata = {
-        "date": date_display,
-        "timestamp": timestamp,
-        "article_count": len(articles),
-        "channels": [a["channel"] for a in articles],
-        "titles": [a["title"] for a in articles],
-        "html_file": f"newsletter_{timestamp}.html"
-    }
-
-    metadata_path = os.path.join(newsletters_dir, f"newsletter_{timestamp}.json")
-    import json
-    with open(metadata_path, "w", encoding="utf-8") as f:
-        json.dump(metadata, f, indent=2, ensure_ascii=False)
-
-    print(f"  [OK] Saved newsletter to archive")
-
-
 def send_newsletter(articles, recipient_email=None, language='en'):
     """
     Send the newsletter via Gmail.
@@ -405,10 +372,7 @@ def send_newsletter(articles, recipient_email=None, language='en'):
             server.sendmail(GMAIL_ADDRESS, recipient_email, msg.as_string())
 
         print(f"[OK] {lang_name} newsletter sent successfully!")
-
-        # Save to archive
-        save_newsletter_archive(html_content, articles)
-
+        
         return True
 
     except Exception as e:
