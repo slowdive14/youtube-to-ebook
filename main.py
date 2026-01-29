@@ -105,8 +105,8 @@ def run(video_url=None):
 
         # Step 3: Generate articles in both English and Korean
         print("\n[STEP 3] Writing articles (English + Korean)...\n")
-        # Use detailed mode if processing a specific video URL
-        english_articles, korean_articles = write_articles_bilingual(videos_with_transcripts, detailed=(video_url is not None))
+        # All runs now use detailed "Deep Analysis" mode
+        english_articles, korean_articles = write_articles_bilingual(videos_with_transcripts, detailed=True)
 
         if not english_articles and not korean_articles:
             print("No articles generated.")

@@ -1,11 +1,10 @@
 @bigthink
-@DrChatterjeeRangan
 @eoglobal
 @EveryInc
 @Freakonomics
 @GregIsenberg
 @howiaipodcast
-@hubermanlab
-@MarcBrackett
-@melrobbins
-@CognitiveRevolutionPodcast
+@NoPriorsPodcast
+@DwarkeshPatel
+@a16z
+@CognitiveRevolution
