@@ -1,0 +1,61 @@
+---
+// src/pages/issues/[...slug].astro
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+	const issues = await getCollection('issues');
+	return issues.map(issue => ({
+		params: { slug: issue.id },
+		props: { issue },
+	}));
+}
+
+const { issue } = Astro.props;
+const { Content } = await render(issue);
+
+// Format date nicely
+const dateObj = new Date(issue.data.date);
+const formattedDate = dateObj.toLocaleDateString('en-US', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric'
+});
+const isKorean = issue.data.subject.match(/[가-힣]/);
+---
+
+<BaseLayout title={`${issue.data.title} - YouTube Digest`}>
+	<a href="/" class="back-link">&larr; Back to Archive</a>
+
+	<article class="issue-container">
+		<header class="issue-header">
+			<h1>{isKorean ? "YouTube 다이제스트" : "YouTube Digest"}</h1>
+			<div class="date">{formattedDate}</div>
+		</header>
+
+		{issue.data.audioUrls && issue.data.audioUrls.length > 0 && (
+			<div class="audio-player-container">
+				<h3 class="audio-header">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+					Listen to this issue
+				</h3>
+				
+				{issue.data.audioUrls.map((url, i) => (
+					<div class="audio-part">
+						{issue.data.audioUrls!.length > 1 && (
+							<div style="font-size: 14px; color: var(--text-muted); margin-bottom: 5px;">Part {i + 1}</div>
+						)}
+						<audio controls preload="metadata">
+							<source src={url} type="audio/mpeg" />
+							Your browser does not support the audio element.
+						</audio>
+					</div>
+				))}
+			</div>
+		)}
+
+		<div class="markdown-content">
+			<Content />
+		</div>
+	</article>
+</BaseLayout>

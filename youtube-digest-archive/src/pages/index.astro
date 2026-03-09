@@ -1,0 +1,66 @@
+---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+// Get and sort issues by date descending
+const rawIssues = await getCollection('issues');
+const issues = rawIssues.sort((a, b) => {
+	const dateA = new Date(a.data.date);
+	const dateB = new Date(b.data.date);
+	return dateB.valueOf() - dateA.valueOf();
+});
+---
+
+<BaseLayout title="YouTube Digest - Archive">
+	<div class="archive-intro" style="text-align: center; margin-bottom: 50px;">
+		<p style="font-size: 20px; color: var(--text-muted); font-style: italic;">
+			Catch up on past issues of the YouTube Digest newsletter, complete with AI-generated audio narration.
+		</p>
+	</div>
+
+	{issues.length === 0 ? (
+		<div style="text-align: center; padding: 50px; background: var(--card-bg); border-radius: 8px;">
+			<h2>No issues found</h2>
+			<p>Publish a newsletter via the python pipeline to see it here.</p>
+		</div>
+	) : (
+		<ul class="issue-list">
+			{issues.map(issue => {
+				// Format date nicely
+				const dateObj = new Date(issue.data.date);
+				const formattedDate = dateObj.toLocaleDateString('en-US', {
+					year: 'numeric',
+					month: 'long',
+					day: 'numeric'
+				});
+				
+				const hasAudio = issue.data.audioUrls && issue.data.audioUrls.length > 0;
+				const articleCount = issue.data.articles ? issue.data.articles.length : 0;
+
+				return (
+					<li>
+						<a href={`/issues/${issue.id}`} class="issue-card">
+							<div class="issue-date">{formattedDate}</div>
+							<h2 class="issue-title">{issue.data.subject}</h2>
+							<div class="issue-meta">
+								{hasAudio && (
+									<span class="badge">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+										Audio Available
+									</span>
+								)}
+								{articleCount > 0 && (
+									<span class="badge">
+										📄 {articleCount} Articles
+									</span>
+								)}
+							</div>
+							<div class="read-more">Read Issue &rarr;</div>
+						</a>
+					</li>
+				);
+			})}
+		</ul>
+	)}
+</BaseLayout>

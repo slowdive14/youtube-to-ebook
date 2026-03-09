@@ -112,9 +112,165 @@ def run(video_url=None):
             print("No articles generated.")
             return
 
+        # Step 3b: Generate Audio for Newsletter
+        print("\n[STEP 3b] Generating Audio...")
+
+        import shutil
+        audio_paths_en = []
+        audio_paths_ko = []
+        audio_dir = PROJECT_DIR / "audio"
+        audio_dir.mkdir(exist_ok=True)
+
+        # Method 1: NotebookLM Podcast (preferred — conversational style)
+        nlm_path = shutil.which("nlm") or str(Path(sys.executable).parent / "Scripts" / "nlm.exe")
+        if os.path.exists(nlm_path) and english_articles:
+            print("  [Podcast] Trying NotebookLM podcast generation...")
+            try:
+                from generate_podcast import generate_podcast
+                podcast_path = generate_podcast(
+                    english_articles, language='en', output_dir=str(audio_dir)
+                )
+                if podcast_path:
+                    audio_paths_en = [podcast_path]
+                    print(f"  [Podcast] Success!")
+            except Exception as e:
+                print(f"  [Podcast] Failed: {e}")
+
+        # Method 2: Azure TTS fallback (plain narration style)
+        CHAR_LIMIT = 5000   # ~7min at 0.8x speed, safely under Azure TTS 10-min (600s) timeout
+
+        if not audio_paths_en and os.getenv("AZURE_SPEECH_KEY") and os.getenv("AZURE_SPEECH_REGION"):
+            print("  [TTS] Falling back to Azure TTS...")
+            from generate_audio import generate_audio
+
+            # Check ffmpeg availability for audio merging
+            has_ffmpeg = shutil.which("ffmpeg") is not None
+            if not has_ffmpeg:
+                print("  [!] WARNING: ffmpeg not found. Multi-chunk audio merge will be unavailable.")
+                print("      Install ffmpeg: https://ffmpeg.org/download.html")
+
+            # --- Helper for chunking & merging ---
+            def generate_audio_chunks(articles, language, prefix):
+                """Generate TTS audio for articles, merging all chunks into a single MP3."""
+                if not articles:
+                    return []
+
+                # Intro text
+                if language == 'ko':
+                    current_text = f"유튜브 다이제스트 {datetime.now().strftime('%Y년 %m월 %d일')}.\n\n"
+                else:
+                    current_text = f"YouTube Digest for {datetime.now().strftime('%B %d, %Y')}.\n\n"
+
+                part_num = 1
+                safe_date = datetime.now().strftime('%Y%m%d')
+                tmp_paths = []  # Temporary chunk files
+
+                def flush_chunk(text, num):
+                    """Generate a single TTS chunk and append to tmp_paths."""
+                    tmp_fpath = audio_dir / f"_tmp_{prefix}_part{num}.mp3"
+                    print(f"  Generating chunk {num} ({len(text)} chars)...")
+                    if generate_audio(text, str(tmp_fpath), language=language):
+                        tmp_paths.append(str(tmp_fpath))
+                    else:
+                        print(f"  [!] WARNING: Failed to generate chunk {num}. Audio may be incomplete.")
+
+                for i, article in enumerate(articles):
+                    # Clean text
+                    clean_body = article['article'].replace("#", "").replace("*", "").replace("`", "")
+                    if language == 'ko':
+                        article_text = f"다음 기사: {article['title']}, 채널: {article['channel']}.\n\n{clean_body}\n\n"
+                    else:
+                        article_text = f"Next Article: {article['title']} from {article['channel']}.\n\n{clean_body}\n\n"
+
+                    # Check limit
+                    if len(current_text) + len(article_text) > CHAR_LIMIT:
+                        # Flush current text as temporary chunk
+                        if current_text.strip():
+                            flush_chunk(current_text, part_num)
+                            part_num += 1
+
+                        # Start new chunk
+                        current_text = article_text
+                    else:
+                        current_text += article_text
+
+                # Flush remaining
+                if current_text.strip():
+                    flush_chunk(current_text, part_num)
+
+                if not tmp_paths:
+                    return []
+
+                # Final output path (always single file)
+                final_path = str(audio_dir / f"Newsletter_{safe_date}_{prefix}.mp3")
+
+                # Remove existing file if re-running on same day
+                if os.path.exists(final_path):
+                    os.remove(final_path)
+
+                if len(tmp_paths) == 1:
+                    # Single chunk — just move, no merge needed
+                    shutil.move(tmp_paths[0], final_path)
+                    print(f"  Audio saved: {final_path}")
+                elif not has_ffmpeg:
+                    # ffmpeg unavailable — return separate chunks as fallback
+                    print(f"  [!] Skipping merge (ffmpeg not found). Returning {len(tmp_paths)} separate files.")
+                    return tmp_paths
+                else:
+                    # Merge all chunks into single MP3 via ffmpeg concat demuxer
+                    import subprocess
+                    print(f"  Merging {len(tmp_paths)} chunks into single file...")
+                    filelist_path = str(audio_dir / f"_tmp_{prefix}_filelist.txt")
+                    try:
+                        with open(filelist_path, 'w', encoding='utf-8') as f:
+                            for p in tmp_paths:
+                                # ffmpeg concat requires forward slashes or escaped backslashes
+                                f.write(f"file '{p.replace(os.sep, '/')}'\n")
+                        result = subprocess.run(
+                            ["ffmpeg", "-y", "-f", "concat", "-safe", "0",
+                             "-i", filelist_path, "-c", "copy", final_path],
+                            capture_output=True, text=True
+                        )
+                        if result.returncode == 0:
+                            print(f"  Merged audio saved: {final_path}")
+                        else:
+                            print(f"  [!] ERROR merging audio: {result.stderr[:200]}")
+                            print(f"  Returning {len(tmp_paths)} separate files as fallback.")
+                            return tmp_paths
+                    except Exception as e:
+                        print(f"  [!] ERROR merging audio: {e}. Returning separate files.")
+                        return tmp_paths
+                    finally:
+                        # Always clean up temporary files
+                        for p in [filelist_path] + tmp_paths:
+                            try:
+                                os.remove(p)
+                            except OSError:
+                                pass
+
+                return [final_path]
+
+            # Generate chunks
+            if english_articles:
+                print(f"  Processing English Audio ({len(english_articles)} articles)...")
+                audio_paths_en = generate_audio_chunks(english_articles, 'en', 'EN')
+                
+            # Korean audio generation disabled (uncomment to re-enable)
+            # if korean_articles:
+            #     print(f"  Processing Korean Audio ({len(korean_articles)} articles)...")
+            #     audio_paths_ko = generate_audio_chunks(korean_articles, 'ko', 'KO')
+
+        else:
+            print("  Skipping Audio: AZURE_SPEECH_KEY or AZURE_SPEECH_REGION not found.")
+
         # Step 4: Send both newsletters via email
-        print("\n[STEP 4] Sending newsletters (2 emails)...\n")
-        success = send_newsletter_bilingual(english_articles, korean_articles)
+        print("\n[STEP 4] Sending newsletters (2 emails)...")
+        success = send_newsletter_bilingual(
+            english_articles, 
+            korean_articles, 
+            audio_paths_en=audio_paths_en, 
+            audio_paths_ko=audio_paths_ko
+        )
 
         # Step 5: Mark videos as processed (only those with successfully generated articles)
         if success:
@@ -129,6 +285,17 @@ def run(video_url=None):
                 })
             mark_videos_processed(successfully_processed)
             print(f"\n  [OK] Marked {len(successfully_processed)} video(s) as processed")
+
+        # Step 4b: Export to archive (if configured)
+        if os.getenv("ARCHIVE_REPO_PATH") and success:
+            try:
+                from export_archive import export_newsletter_issue
+                export_newsletter_issue(
+                    english_articles, korean_articles,
+                    audio_paths_en, audio_paths_ko
+                )
+            except Exception as e:
+                print(f"  [!] Archive export failed (non-fatal): {e}")
 
         print("\n" + "=" * 60)
         print("  DONE! (English + Korean newsletters sent)")

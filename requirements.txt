@@ -7,5 +7,6 @@ youtube-transcript-api
 markdown
 ebooklib
 beautifulsoup4
-selenium
-webdriver-manager
+azure-cognitiveservices-speech
+notebooklm-mcp-cli
+boto3
