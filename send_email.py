@@ -145,11 +145,12 @@ def create_epub(articles, language='en'):
     return filepath
 
 
-def create_newsletter_html(articles, language='en'):
+def create_newsletter_html(articles, language='en', audio_cids=None):
     """
     Create a beautifully formatted HTML newsletter from the articles.
     Uses larger fonts for better readability.
     language: 'en' for English, 'ko' for Korean
+    audio_cids: List of Content-IDs for audio attachments (optional)
     """
     today = datetime.now().strftime("%B %d, %Y")
 
@@ -279,10 +280,31 @@ def create_newsletter_html(articles, language='en'):
         </div>
     """
 
-    for article in articles:
+    if audio_cids:
+        audio_player_html = ""
+        for i, cid in enumerate(audio_cids):
+            part_label = ""
+            if len(audio_cids) > 1:
+                part_label = f" (Part {i+1})"
+            
+            audio_player_html += f"""
+            <div style="margin: 20px 0; padding: 15px; background: #e1f5fe; border-radius: 8px; text-align: center;">
+                <p style="margin: 0 0 10px 0; font-weight: bold; color: #0277bd;">🎧 Listen to this newsletter{part_label}</p>
+                <audio controls style="width: 100%; max-width: 400px;">
+                    <source src="cid:{cid}" type="audio/mpeg">
+                    Your email client does not support the audio element.
+                </audio>
+                <p style="margin: 5px 0 0 0; font-size: 12px; color: #666;">
+                    (If player doesn't appear, please check attachments)
+                </p>
+            </div>
+            """
+        html += audio_player_html
+
+    for i, article in enumerate(articles):
         # Convert markdown article to HTML
         article_html = markdown.markdown(article['article'])
-
+        
         html += f"""
         <div class="article">
             <div class="article-intro">
@@ -306,11 +328,12 @@ def create_newsletter_html(articles, language='en'):
     return html
 
 
-def send_newsletter(articles, recipient_email=None, language='en'):
+def send_newsletter(articles, recipient_email=None, language='en', audio_paths=None):
     """
     Send the newsletter via Gmail.
     If no recipient specified, sends to yourself.
     language: 'en' for English, 'ko' for Korean
+    audio_paths: list of paths to audio files to attach (optional)
     """
     if not articles:
         print("No articles to send!")
@@ -348,7 +371,13 @@ def send_newsletter(articles, recipient_email=None, language='en'):
     msg["To"] = recipient_email
 
     # Create HTML content
-    html_content = create_newsletter_html(articles, language=language)
+    audio_cids = []
+    if audio_paths:
+        for i, path in enumerate(audio_paths):
+            if os.path.exists(path):
+                audio_cids.append(f"newsletter_audio_{i}")
+        
+    html_content = create_newsletter_html(articles, language=language, audio_cids=audio_cids)
 
     # Create plain text version (simple fallback)
     if language == 'ko':
@@ -364,6 +393,33 @@ def send_newsletter(articles, recipient_email=None, language='en'):
     msg.attach(MIMEText(text_content, "plain"))
     msg.attach(MIMEText(html_content, "html"))
 
+    # Attach audio files if provided
+    if audio_paths:
+        for i, path in enumerate(audio_paths):
+            if os.path.exists(path):
+                try:
+                    base_name = os.path.basename(path)
+                    cid = f"newsletter_audio_{i}"
+                    
+                    with open(path, "rb") as f:
+                        part = MIMEBase('audio', 'mpeg')
+                        part.set_payload(f.read())
+                    
+                    encoders.encode_base64(part)
+                    
+                    # Content-ID must match what we put in the HTML
+                    part.add_header('Content-ID', f'<{cid}>')
+                    part.add_header('Content-Disposition', f'inline; filename="{base_name}"')
+                    
+                    msg.attach(part)
+                    print(f"  Attached inline audio: {base_name}")
+                except Exception as e:
+                    print(f"  [!] Failed to attach audio {path}: {e}")
+
+    # Also attach legacy passed audio_files if they aren't already attached
+    # (This handles the case where audio_files passed explicitly but not in article dict, usually just for testing)
+    # Removed legacy audio_files attachment logic as we now use single audio_path
+        
     try:
         # Connect to Gmail and send
         print("  Sending email...")
@@ -380,7 +436,7 @@ def send_newsletter(articles, recipient_email=None, language='en'):
         return False
 
 
-def send_newsletter_bilingual(english_articles, korean_articles, recipient_email=None):
+def send_newsletter_bilingual(english_articles, korean_articles, recipient_email=None, audio_paths_en=None, audio_paths_ko=None):
     """
     Send both English and Korean newsletters.
     """
@@ -388,10 +444,10 @@ def send_newsletter_bilingual(english_articles, korean_articles, recipient_email
     success_ko = False
 
     if english_articles:
-        success_en = send_newsletter(english_articles, recipient_email, language='en')
+        success_en = send_newsletter(english_articles, recipient_email, language='en', audio_paths=audio_paths_en)
 
     if korean_articles:
-        success_ko = send_newsletter(korean_articles, recipient_email, language='ko')
+        success_ko = send_newsletter(korean_articles, recipient_email, language='ko', audio_paths=audio_paths_ko)
 
     return success_en or success_ko
 
@@ -409,4 +465,10 @@ if __name__ == "__main__":
     ]
 
     print("Sending test newsletter...")
+    
+    # Check for test audio from generate_audio.py
+    if os.path.exists("test_audio.mp3"):
+        print("  Found test_audio.mp3, adding to article...")
+        test_articles[0]["audio_path"] = "test_audio.mp3"
+        
     send_newsletter(test_articles)

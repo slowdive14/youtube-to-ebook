@@ -10,7 +10,29 @@
       "Bash(curl:*)",
       "Bash(py -c:*)",
       "Bash(dir /b \"C:\\\\Users\\\\user\\\\Downloads\\\\youtube-to-ebook\\\\*.json\")",
-      "Bash(dir /b \"C:\\\\Users\\\\user\\\\.claude\\\\plugins\")"
+      "Bash(dir /b \"C:\\\\Users\\\\user\\\\.claude\\\\plugins\")",
+      "WebFetch(domain:typecast.ai)",
+      "WebFetch(domain:docs.typecast.ai)",
+      "WebFetch(domain:www.getaiperks.com)",
+      "WebFetch(domain:skywork.ai)",
+      "Bash(where:*)",
+      "Bash(winget install:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(cmd.exe //c run_daily.bat)",
+      "Bash(cmd.exe //c \"cd /d C:\\\\Users\\\\user\\\\Downloads\\\\youtube-to-ebook && run_daily.bat\")",
+      "Bash(cmd.exe //c \"C:\\\\Users\\\\user\\\\Downloads\\\\youtube-to-ebook\\\\run_daily.bat\")",
+      "WebFetch(domain:docs.cloud.google.com)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(C:/Users/user/AppData/Local/Programs/Python/Python314/Scripts/nlm.exe:*)",
+      "Bash(PYTHONIOENCODING=utf-8 C:/Users/user/AppData/Local/Programs/Python/Python314/Scripts/nlm.exe:*)",
+      "Bash(PYTHONIOENCODING=utf-8 py:*)",
+      "Bash(python main.py:*)",
+      "Bash(PYTHONUNBUFFERED=1 PYTHONIOENCODING=utf-8 cmd.exe //c \"run_daily.bat\")",
+      "Bash(PYTHONUNBUFFERED=1 PYTHONIOENCODING=utf-8 cmd.exe //c \"C:\\\\Users\\\\user\\\\Downloads\\\\youtube-to-ebook\\\\run_daily.bat\")",
+      "WebFetch(domain:nocan.news)",
+      "Bash(nlm login:*)",
+      "Bash(/c/Users/user/AppData/Local/Programs/Python/Python314/Scripts/nlm.exe login:*)"
     ]
   }
 }
