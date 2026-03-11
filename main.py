@@ -21,7 +21,7 @@ from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_K
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
 from write_articles import write_articles_bilingual
-from send_email import send_newsletter_bilingual
+# from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
 LOCK_FILE = PROJECT_DIR / "main.lock"
@@ -263,14 +263,15 @@ def run(video_url=None):
         else:
             print("  Skipping Audio: AZURE_SPEECH_KEY or AZURE_SPEECH_REGION not found.")
 
-        # Step 4: Send both newsletters via email
-        print("\n[STEP 4] Sending newsletters (2 emails)...")
-        success = send_newsletter_bilingual(
-            english_articles, 
-            korean_articles, 
-            audio_paths_en=audio_paths_en, 
-            audio_paths_ko=audio_paths_ko
-        )
+        # Step 4: Send both newsletters via email (DISABLED)
+        # print("\n[STEP 4] Sending newsletters (2 emails)...")
+        # success = send_newsletter_bilingual(
+        #     english_articles,
+        #     korean_articles,
+        #     audio_paths_en=audio_paths_en,
+        #     audio_paths_ko=audio_paths_ko
+        # )
+        success = True  # Email disabled — skip to archive export
 
         # Step 5: Mark videos as processed (only those with successfully generated articles)
         if success:
