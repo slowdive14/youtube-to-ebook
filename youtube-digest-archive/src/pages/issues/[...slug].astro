@@ -27,6 +27,24 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 <BaseLayout title={`${issue.data.title} - YouTube Digest`}>
 	<a href="/" class="back-link">&larr; Back to Archive</a>
 
+	<nav id="toc-sidebar" class="toc-sidebar" aria-label="Table of Contents">
+		<div class="toc-title">Contents</div>
+		<ul id="toc-list"></ul>
+	</nav>
+
+	<!-- Mobile TOC (visible at <= 1200px) -->
+	<div id="mobile-toc" class="mobile-toc">
+		<button id="mobile-toc-bar" class="mobile-toc-bar" aria-expanded="false" aria-controls="mobile-toc-dropdown">
+			<span id="mobile-toc-current" class="mobile-toc-current">Contents</span>
+			<svg class="mobile-toc-chevron" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 6 8 10 12 6"></polyline></svg>
+		</button>
+		<div class="mobile-toc-progress" id="mobile-toc-progress"></div>
+		<div id="mobile-toc-dropdown" class="mobile-toc-dropdown" role="navigation" hidden>
+			<ul id="mobile-toc-list" class="mobile-toc-list"></ul>
+		</div>
+	</div>
+	<div id="mobile-toc-backdrop" class="mobile-toc-backdrop" hidden></div>
+
 	<article class="issue-container">
 		<header class="issue-header">
 			<h1>{isKorean ? "YouTube 다이제스트" : "YouTube Digest"}</h1>
@@ -59,3 +77,242 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		</div>
 	</article>
 </BaseLayout>
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const content = document.querySelector('.markdown-content');
+		if (!content) return;
+
+		const headings = Array.from(content.querySelectorAll('h1, h2, h3'));
+		if (headings.length < 2) return;
+
+		// === Phase 1: Shared data model ===
+		const tocData = headings.map((heading, i) => {
+			if (!heading.id) heading.id = 'heading-' + i;
+			return {
+				el: heading,
+				id: heading.id,
+				level: parseInt(heading.tagName[1]),
+				text: heading.textContent.trim(),
+			};
+		});
+
+		// === Phase 2: Desktop TOC (sidebar) ===
+		const tocList = document.getElementById('toc-list');
+		const tocSidebar = document.getElementById('toc-sidebar');
+		const desktopLinks = [];
+
+		if (tocList && tocSidebar) {
+			tocData.forEach((item) => {
+				const li = document.createElement('li');
+				li.className = 'toc-item toc-level-' + item.level;
+				const a = document.createElement('a');
+				a.href = '#' + item.id;
+				a.textContent = item.text;
+				a.dataset.target = item.id;
+				li.appendChild(a);
+				tocList.appendChild(li);
+				desktopLinks.push(a);
+			});
+		}
+
+		// === Phase 3: Mobile TOC (grouped, collapsible) ===
+		const mobileToc = document.getElementById('mobile-toc');
+		const mobileBar = document.getElementById('mobile-toc-bar');
+		const mobileCurrent = document.getElementById('mobile-toc-current');
+		const mobileDropdown = document.getElementById('mobile-toc-dropdown');
+		const mobileList = document.getElementById('mobile-toc-list');
+		const mobileBackdrop = document.getElementById('mobile-toc-backdrop');
+		const mobileProgress = document.getElementById('mobile-toc-progress');
+
+		const isLanguageDivider = (item) =>
+			item.level === 2 && /^(English|한국어)$/i.test(item.text);
+
+		if (mobileList) {
+			let currentGroupUl = null;
+
+			tocData.forEach((item) => {
+				if (isLanguageDivider(item)) {
+					// Language divider: sticky sub-header
+					const dividerLi = document.createElement('li');
+					dividerLi.className = 'mtoc-lang-divider';
+					dividerLi.textContent = item.text;
+					dividerLi.dataset.headingId = item.id;
+					mobileList.appendChild(dividerLi);
+					currentGroupUl = null;
+					return;
+				}
+
+				if (item.level === 1) {
+					// Article title: collapsible group header
+					const groupLi = document.createElement('li');
+					groupLi.className = 'mtoc-group';
+
+					const toggle = document.createElement('button');
+					toggle.className = 'mtoc-group-toggle';
+					toggle.setAttribute('aria-expanded', 'false');
+
+					const chevron = document.createElement('span');
+					chevron.className = 'mtoc-chevron';
+					chevron.innerHTML = '<svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 4 10 8 6 12"></polyline></svg>';
+
+					const link = document.createElement('a');
+					link.href = '#' + item.id;
+					link.className = 'mtoc-link mtoc-link-h1';
+					link.dataset.headingId = item.id;
+					link.textContent = item.text;
+
+					toggle.appendChild(chevron);
+					toggle.appendChild(link);
+					groupLi.appendChild(toggle);
+
+					const childUl = document.createElement('ul');
+					childUl.className = 'mtoc-children';
+					childUl.hidden = true;
+					groupLi.appendChild(childUl);
+
+					mobileList.appendChild(groupLi);
+					currentGroupUl = childUl;
+
+					// Toggle expand/collapse (but not when clicking the link)
+					toggle.addEventListener('click', (e) => {
+						if (e.target.closest('a')) return;
+						e.preventDefault();
+						const expanded = toggle.getAttribute('aria-expanded') === 'true';
+						toggle.setAttribute('aria-expanded', String(!expanded));
+						childUl.hidden = expanded;
+					});
+					return;
+				}
+
+				// h2 or h3: child inside current group
+				if (currentGroupUl) {
+					const childLi = document.createElement('li');
+					childLi.className = item.level === 2 ? 'mtoc-child mtoc-child-h2' : 'mtoc-child mtoc-child-h3';
+					const a = document.createElement('a');
+					a.href = '#' + item.id;
+					a.className = 'mtoc-link';
+					a.dataset.headingId = item.id;
+					a.textContent = item.text;
+					childLi.appendChild(a);
+					currentGroupUl.appendChild(childLi);
+				}
+			});
+		}
+
+		// === Phase 4: Shared IntersectionObserver ===
+		let activeDesktopLink = null;
+
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach(entry => {
+				if (!entry.isIntersecting) return;
+				const id = entry.target.id;
+
+				// Desktop: highlight active link
+				if (activeDesktopLink) activeDesktopLink.classList.remove('toc-active');
+				const dLink = desktopLinks.find(a => a.dataset.target === id);
+				if (dLink) {
+					dLink.classList.add('toc-active');
+					activeDesktopLink = dLink;
+					dLink.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+				}
+
+				// Mobile: update bar text (nearest h1 ancestor)
+				if (mobileCurrent) {
+					const activeIndex = tocData.findIndex(t => t.id === id);
+					let articleTitle = 'Contents';
+					for (let j = activeIndex; j >= 0; j--) {
+						if (tocData[j].level === 1) {
+							articleTitle = tocData[j].text;
+							break;
+						}
+					}
+					mobileCurrent.textContent = articleTitle;
+				}
+
+				// Mobile: highlight active + auto-expand group
+				if (mobileList) {
+					mobileList.querySelectorAll('.mtoc-link').forEach(a => a.classList.remove('mtoc-active'));
+					const mLink = mobileList.querySelector(`[data-heading-id="${id}"]`);
+					if (mLink) {
+						mLink.classList.add('mtoc-active');
+						const group = mLink.closest('.mtoc-group');
+						if (group) {
+							const toggle = group.querySelector('.mtoc-group-toggle');
+							const children = group.querySelector('.mtoc-children');
+							if (toggle && children) {
+								toggle.setAttribute('aria-expanded', 'true');
+								children.hidden = false;
+							}
+						}
+					}
+				}
+			});
+		}, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+
+		tocData.forEach(item => observer.observe(item.el));
+
+		// === Phase 5: Mobile dropdown open/close ===
+		let isDropdownOpen = false;
+
+		function openDropdown() {
+			isDropdownOpen = true;
+			mobileDropdown.hidden = false;
+			mobileBackdrop.hidden = false;
+			mobileBar.setAttribute('aria-expanded', 'true');
+			document.body.style.overflow = 'hidden';
+			requestAnimationFrame(() => {
+				const active = mobileList.querySelector('.mtoc-active');
+				if (active) active.scrollIntoView({ block: 'center', behavior: 'instant' });
+			});
+		}
+
+		function closeDropdown() {
+			isDropdownOpen = false;
+			mobileDropdown.hidden = true;
+			mobileBackdrop.hidden = true;
+			mobileBar.setAttribute('aria-expanded', 'false');
+			document.body.style.overflow = '';
+		}
+
+		if (mobileBar) {
+			mobileBar.addEventListener('click', () => {
+				isDropdownOpen ? closeDropdown() : openDropdown();
+			});
+		}
+		if (mobileBackdrop) {
+			mobileBackdrop.addEventListener('click', closeDropdown);
+		}
+
+		// Event delegation: handle all heading link clicks in mobile TOC
+		if (mobileList) {
+			mobileList.addEventListener('click', (e) => {
+				const link = e.target.closest('a.mtoc-link');
+				if (link) {
+					e.preventDefault();
+					closeDropdown();
+					const targetId = link.dataset.headingId;
+					const targetEl = document.getElementById(targetId);
+					if (targetEl) {
+						const y = targetEl.getBoundingClientRect().top + window.scrollY - 52;
+						window.scrollTo({ top: y, behavior: 'smooth' });
+					}
+				}
+			});
+		}
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape' && isDropdownOpen) closeDropdown();
+		});
+
+		// === Phase 6: Reading progress bar ===
+		if (mobileProgress) {
+			window.addEventListener('scroll', () => {
+				const scrollTop = window.scrollY;
+				const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+				const progress = docHeight > 0 ? Math.min(scrollTop / docHeight, 1) : 0;
+				mobileProgress.style.width = (progress * 100) + '%';
+			}, { passive: true });
+		}
+	});
+</script>

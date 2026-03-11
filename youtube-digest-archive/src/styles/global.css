@@ -368,6 +368,326 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
 }
 
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Floating TOC Sidebar */
+.toc-sidebar {
+  position: fixed;
+  top: 120px;
+  left: max(10px, calc((100vw - 800px) / 2 - 260px));
+  width: 220px;
+  max-height: calc(100vh - 160px);
+  overflow-y: auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  z-index: 100;
+  scrollbar-width: thin;
+}
+
+.toc-title {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--divider-color);
+}
+
+.toc-sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-item {
+  margin-bottom: 2px;
+}
+
+.toc-item a {
+  display: block;
+  padding: 4px 0 4px 12px;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-left: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.toc-item a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.toc-item a.toc-active {
+  color: var(--accent-color);
+  border-left-color: var(--accent-color);
+  font-weight: 600;
+}
+
+.toc-level-2 a {
+  padding-left: 24px;
+  font-size: 12px;
+}
+
+.toc-level-3 a {
+  padding-left: 36px;
+  font-size: 12px;
+}
+
+/* Hide desktop TOC when viewport is too narrow for side placement */
+@media (max-width: 1200px) {
+  .toc-sidebar {
+    display: none;
+  }
+}
+
+/* ===========================================
+   Mobile TOC (visible at <= 1200px only)
+   =========================================== */
+
+/* Hide on desktop */
+.mobile-toc,
+.mobile-toc-backdrop {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .mobile-toc {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-family: system-ui, -apple-system, sans-serif;
+  }
+
+  /* --- Collapsed Bar --- */
+  .mobile-toc-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 44px;
+    padding: 0 16px;
+    background: var(--card-bg);
+    border: none;
+    border-bottom: 1px solid var(--divider-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-color);
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+  }
+
+  .mobile-toc-current {
+    flex: 1;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 8px;
+  }
+
+  .mobile-toc-chevron {
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+    color: var(--text-muted);
+  }
+
+  .mobile-toc-bar[aria-expanded="true"] .mobile-toc-chevron {
+    transform: rotate(180deg);
+  }
+
+  /* --- Progress Bar --- */
+  .mobile-toc-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: var(--accent-color);
+    transition: width 0.1s linear;
+    pointer-events: none;
+  }
+
+  /* --- Backdrop --- */
+  .mobile-toc-backdrop {
+    display: none;
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+  }
+
+  .mobile-toc-backdrop:not([hidden]) {
+    display: block;
+  }
+
+  /* --- Dropdown Panel --- */
+  .mobile-toc-dropdown {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    right: 0;
+    max-height: calc(100vh - 44px - 60px);
+    overflow-y: auto;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--divider-color);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    z-index: 1001;
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mobile-toc-dropdown:not([hidden]) {
+    animation: mtoc-slide-down 0.2s ease-out;
+  }
+
+  @keyframes mtoc-slide-down {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .mobile-toc-list {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0;
+  }
+
+  /* --- Language Dividers --- */
+  .mtoc-lang-divider {
+    position: sticky;
+    top: 0;
+    background: var(--bg-color);
+    padding: 8px 16px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--divider-color);
+    z-index: 1;
+  }
+
+  /* --- Group Header (h1 articles) --- */
+  .mtoc-group {
+    border-bottom: 1px solid var(--divider-color);
+  }
+
+  .mtoc-group:last-child {
+    border-bottom: none;
+  }
+
+  .mtoc-group-toggle {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .mtoc-chevron {
+    flex-shrink: 0;
+    margin-top: 3px;
+    transition: transform 0.2s ease;
+    color: var(--text-muted);
+  }
+
+  .mtoc-group-toggle[aria-expanded="true"] .mtoc-chevron {
+    transform: rotate(90deg);
+  }
+
+  /* --- TOC Links --- */
+  .mtoc-link {
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+    display: block;
+    transition: color 0.15s;
+  }
+
+  .mtoc-link-h1 {
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--text-color);
+  }
+
+  .mtoc-link.mtoc-active {
+    color: var(--accent-color);
+    font-weight: 600;
+  }
+
+  .mtoc-link:hover {
+    color: var(--text-color);
+    text-decoration: none;
+  }
+
+  /* --- Child items (h2, h3) --- */
+  .mtoc-children {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 8px 0;
+  }
+
+  .mtoc-child-h2 .mtoc-link {
+    padding: 6px 16px 6px 40px;
+    font-size: 13px;
+  }
+
+  .mtoc-child-h3 .mtoc-link {
+    padding: 5px 16px 5px 52px;
+    font-size: 12px;
+  }
+
+  /* --- Content offset for fixed bar --- */
+  body {
+    padding-top: 44px;
+  }
+
+  .markdown-content h1,
+  .markdown-content h2,
+  .markdown-content h3 {
+    scroll-margin-top: 52px;
+  }
+
+  .back-link {
+    margin-top: 8px;
+  }
+}
+
+/* Dark mode adjustments for mobile TOC */
+@media (max-width: 1200px) and (prefers-color-scheme: dark) {
+  .mobile-toc-dropdown {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  }
+
+  .mobile-toc-backdrop:not([hidden]) {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
 /* Back link */
 .back-link {
   display: inline-flex;
