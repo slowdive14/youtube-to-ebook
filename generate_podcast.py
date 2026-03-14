@@ -9,6 +9,15 @@ import sys
 import time
 from datetime import datetime
 
+# Default focus prompt for podcast generation
+DEFAULT_FOCUS_PROMPT = (
+    "IMPORTANT: Discuss the articles in the EXACT order they are provided as sources. "
+    "Do not rearrange or skip any article. "
+    "Use simple, clear English suitable for intermediate English learners. "
+    "Avoid complex idioms, jargon, or fast-paced speech. "
+    "Explain key terms briefly when they first appear."
+)
+
 # Windows UTF-8 support
 if sys.stdout and hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
@@ -141,10 +150,14 @@ def generate_podcast(articles, language='en', output_dir='audio'):
 
         # Step 3: Generate audio overview
         podcast_format = os.getenv("NOTEBOOKLM_PODCAST_FORMAT", "deep_dive")
-        podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "default")
+        podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "short")
         bcp47_lang = "ko-KR" if language == 'ko' else "en-US"
 
+        focus_prompt = os.getenv("NOTEBOOKLM_FOCUS_PROMPT", DEFAULT_FOCUS_PROMPT)
+
         print(f"  Generating podcast (format={podcast_format}, length={podcast_length})...")
+        if focus_prompt:
+            print(f"  Focus prompt: {focus_prompt[:80]}...")
         # Map string config to int codes
         FORMAT_MAP = {"deep_dive": 1, "brief": 2, "critique": 3, "debate": 4}
         LENGTH_MAP = {"short": 1, "default": 2, "long": 3}
@@ -156,7 +169,8 @@ def generate_podcast(articles, language='en', output_dir='audio'):
                 notebook_id,
                 format_code=fmt_code,
                 length_code=len_code,
-                language=bcp47_lang
+                language=bcp47_lang,
+                focus_prompt=focus_prompt,
             )
         except Exception as e:
             print(f"  [!] Audio creation call: {e}")
