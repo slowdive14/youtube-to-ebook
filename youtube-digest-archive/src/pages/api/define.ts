@@ -64,7 +64,7 @@ Keep it concise. No English explanations.`;
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 256,
+            maxOutputTokens: isWord ? 256 : 1024,
           },
         }),
       }
