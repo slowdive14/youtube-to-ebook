@@ -65,6 +65,7 @@ Keep it concise. No English explanations.`;
           generationConfig: {
             temperature: 0.3,
             maxOutputTokens: isWord ? 512 : 1024,
+            thinkingConfig: { thinkingBudget: 0 },
           },
         }),
       }
@@ -80,7 +81,10 @@ Keep it concise. No English explanations.`;
     }
 
     const data = await res.json();
-    const result = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
+    // Gemini 2.5 thinking models: parts[0] may be thought, actual answer is the last non-thought part
+    const parts = data?.candidates?.[0]?.content?.parts || [];
+    const answerPart = parts.filter((p: any) => !p.thought).pop();
+    const result = answerPart?.text || parts[parts.length - 1]?.text || '';
 
     return new Response(JSON.stringify({ result }), {
       status: 200,
