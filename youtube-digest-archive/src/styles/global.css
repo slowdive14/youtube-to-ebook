@@ -377,26 +377,72 @@ html {
 .toc-sidebar {
   position: fixed;
   top: 120px;
-  left: max(10px, calc((100vw - 800px) / 2 - 260px));
-  width: 220px;
+  left: max(10px, calc((100vw - 800px) / 2 - 300px));
+  width: clamp(180px, 18vw, 280px);
   max-height: calc(100vh - 160px);
   overflow-y: auto;
   font-family: system-ui, -apple-system, sans-serif;
   font-size: 13px;
   line-height: 1.5;
   z-index: 100;
+  /* Firefox scrollbar */
   scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.toc-sidebar:hover {
+  scrollbar-color: var(--divider-color) transparent;
+}
+
+/* Webkit scrollbar (Chrome, Safari, Edge) */
+.toc-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.toc-sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.toc-sidebar::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.toc-sidebar:hover::-webkit-scrollbar-thumb {
+  background: var(--divider-color);
+}
+
+.toc-sidebar:hover::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
 }
 
 .toc-title {
+  position: sticky;
+  top: 0;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--divider-color);
+  background: var(--bg-color);
+  z-index: 1;
+}
+
+.toc-title a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
   font-weight: 700;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: var(--text-muted);
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--divider-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.toc-title a:hover {
+  color: var(--accent-color);
+  text-decoration: none;
 }
 
 .toc-sidebar ul {
@@ -470,17 +516,40 @@ html {
     font-family: system-ui, -apple-system, sans-serif;
   }
 
+  /* --- Mobile Archive Button --- */
+  .mobile-archive-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 44px;
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    border-right: 1px solid var(--divider-color);
+    color: var(--text-muted);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .mobile-archive-btn:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+
   /* --- Collapsed Bar --- */
   .mobile-toc-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    flex: 1;
+    min-width: 0;
     height: 44px;
-    padding: 0 16px;
-    background: var(--card-bg);
+    padding: 0 12px;
+    background: none;
     border: none;
-    border-bottom: 1px solid var(--divider-color);
     cursor: pointer;
     font-family: inherit;
     font-size: 14px;
@@ -488,6 +557,15 @@ html {
     color: var(--text-color);
     -webkit-tap-highlight-color: transparent;
     position: relative;
+  }
+
+  .mobile-toc-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 44px;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--divider-color);
   }
 
   .mobile-toc-current {
@@ -511,13 +589,14 @@ html {
 
   /* --- Progress Bar --- */
   .mobile-toc-progress {
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    top: 42px;
     left: 0;
+    right: 0;
     height: 2px;
     width: 0%;
     background: var(--accent-color);
-    transition: width 0.1s linear;
+    z-index: 1000;
     pointer-events: none;
   }
 
@@ -551,6 +630,15 @@ html {
     z-index: 1001;
     overscroll-behavior: contain;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--divider-color) transparent;
+  }
+
+  .mobile-toc-dropdown::-webkit-scrollbar { width: 4px; }
+  .mobile-toc-dropdown::-webkit-scrollbar-track { background: transparent; }
+  .mobile-toc-dropdown::-webkit-scrollbar-thumb {
+    background: var(--divider-color);
+    border-radius: 4px;
   }
 
   .mobile-toc-dropdown:not([hidden]) {
@@ -672,9 +760,6 @@ html {
     scroll-margin-top: 52px;
   }
 
-  .back-link {
-    margin-top: 8px;
-  }
 }
 
 /* Dark mode adjustments for mobile TOC */
@@ -688,12 +773,152 @@ html {
   }
 }
 
-/* Back link */
+/* Back link (desktop only, hidden when TOC sidebar visible) */
 .back-link {
+  display: none;
+}
+
+/* ===========================================
+   Dictionary Lookup Popup
+   =========================================== */
+
+.dict-trigger {
+  position: absolute;
+  z-index: 2000;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
+  padding: 6px 12px;
+  background: var(--accent-color);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
   font-family: system-ui, -apple-system, sans-serif;
-  margin-bottom: 30px;
+  font-size: 12px;
   font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s, opacity 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.dict-trigger:hover {
+  transform: scale(1.05);
+}
+
+.dict-trigger:active {
+  transform: scale(0.95);
+}
+
+.dict-popup {
+  position: absolute;
+  z-index: 2001;
+  width: 320px;
+  max-width: calc(100vw - 16px);
+  background: var(--card-bg);
+  border: 1px solid var(--divider-color);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  font-family: system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  animation: dict-fade-in 0.15s ease-out;
+}
+
+@keyframes dict-fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.dict-popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px 10px;
+  border-bottom: 1px solid var(--divider-color);
+}
+
+.dict-popup-word {
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--text-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+}
+
+.dict-popup-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0 0 0 8px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.dict-popup-close:hover {
+  color: var(--text-color);
+}
+
+.dict-popup-body {
+  padding: 12px 14px 14px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dict-entry {
+  margin-bottom: 6px;
+}
+
+.dict-entry:last-child {
+  margin-bottom: 0;
+}
+
+.dict-label {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 11px;
+  color: var(--accent-color);
+  background: rgba(255, 0, 0, 0.08);
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin-right: 4px;
+  vertical-align: baseline;
+}
+
+.dict-loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+.dict-spinner {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--divider-color);
+  border-top-color: var(--accent-color);
+  border-radius: 50%;
+  animation: dict-spin 0.6s linear infinite;
+}
+
+@keyframes dict-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dict-popup {
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  }
+
+  .dict-label {
+    background: rgba(255, 0, 0, 0.15);
+  }
 }
