@@ -368,9 +368,9 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			const range = sel.getRangeAt(0);
 			const rect = range.getBoundingClientRect();
 
-			// Position trigger above selection
+			// Position trigger below selection
 			trigger.hidden = false;
-			trigger.style.top = (rect.top + window.scrollY - 40) + 'px';
+			trigger.style.top = (rect.bottom + window.scrollY + 8) + 'px';
 			trigger.style.left = Math.min(
 				rect.left + rect.width / 2 - 30,
 				window.innerWidth - 80
