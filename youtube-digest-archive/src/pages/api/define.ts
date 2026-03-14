@@ -34,15 +34,15 @@ export const POST: APIRoute = async ({ request }) => {
   const prompt = isWord
     ? `You are an English-Korean dictionary assistant for Korean learners.
 
-The user selected the word/phrase: "${text}"
-${context ? `Context sentence: "${context}"` : ''}
+The user selected: "${text}"
+${context ? `Context: "${context}"` : ''}
 
-Respond in this exact format (no markdown, plain text):
-[발음] (phonetic pronunciation in Korean, e.g. 컨프런트)
-[뜻] (Korean meaning, concise, 1-2 meanings max)
-[문맥] (1 sentence in Korean explaining what it means in this specific context)
+You MUST respond with ALL 3 lines below. No markdown, plain text only:
+[발음] IPA notation + Korean pronunciation (e.g. /kənfrʌ́nt/ 컨프런트)
+[뜻] Korean meaning, 1-2 meanings max
+[문맥] 1 sentence in Korean: what it means in this specific context
 
-Keep it very concise. No English explanations.`
+Output ALL 3 lines. Do not stop after the first line.`
     : `You are an English-Korean translation assistant for Korean learners.
 
 The user selected this passage: "${text}"
@@ -64,7 +64,7 @@ Keep it concise. No English explanations.`;
           contents: [{ parts: [{ text: prompt }] }],
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: isWord ? 256 : 1024,
+            maxOutputTokens: isWord ? 512 : 1024,
           },
         }),
       }
