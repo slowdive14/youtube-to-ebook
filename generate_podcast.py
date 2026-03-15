@@ -149,7 +149,7 @@ def generate_podcast(articles, language='en', output_dir='audio'):
         time.sleep(10)
 
         # Step 3: Generate audio overview
-        podcast_format = os.getenv("NOTEBOOKLM_PODCAST_FORMAT", "deep_dive")
+        podcast_format = os.getenv("NOTEBOOKLM_PODCAST_FORMAT", "brief")
         podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "short")
         bcp47_lang = "ko-KR" if language == 'ko' else "en-US"
 
