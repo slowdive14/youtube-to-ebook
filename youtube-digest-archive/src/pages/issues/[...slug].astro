@@ -456,19 +456,24 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			}
 		});
 
-		// Close popup
-		popupClose.addEventListener('click', () => {
+		// Close popup and clear selection
+		function closePopup() {
 			popup.hidden = true;
-		});
+			trigger.hidden = true;
+			window.getSelection()?.removeAllRanges();
+			currentSelection = '';
+		}
+
+		popupClose.addEventListener('click', closePopup);
 
 		document.addEventListener('click', (e) => {
 			if (!popup.hidden && !popup.contains(e.target) && e.target !== trigger && !trigger.contains(e.target)) {
-				popup.hidden = true;
+				closePopup();
 			}
 		});
 
 		document.addEventListener('keydown', (e) => {
-			if (e.key === 'Escape' && !popup.hidden) popup.hidden = true;
+			if (e.key === 'Escape' && !popup.hidden) closePopup();
 		});
 	});
 </script>
