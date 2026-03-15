@@ -361,18 +361,14 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		if (!trigger || !popup || !popupWord || !popupBody || !popupClose) return;
 
 		let currentSelection = '';
-		let suppressTrigger = false;
+		let lastShownSelection = ''; // track what we already showed trigger for
 
 		// Show trigger button near text selection
 		function onSelectionChange() {
-			if (suppressTrigger) return;
-
 			const sel = window.getSelection();
 			if (!sel || sel.isCollapsed || !sel.toString().trim()) {
-				// Small delay to allow click on trigger before hiding
-				setTimeout(() => {
-					if (!trigger.matches(':hover')) trigger.hidden = true;
-				}, 200);
+				trigger.hidden = true;
+				lastShownSelection = '';
 				return;
 			}
 
@@ -384,7 +380,11 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			if (!content.contains(sel.anchorNode)) return;
 			if (text.length > 500 || text.length < 1) return;
 
+			// Don't re-show for the same selection (prevents persistent trigger)
+			if (text === lastShownSelection) return;
+
 			currentSelection = text;
+			lastShownSelection = text;
 			const range = sel.getRangeAt(0);
 			const rect = range.getBoundingClientRect();
 
@@ -395,6 +395,13 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 				rect.left + rect.width / 2 - 30,
 				window.innerWidth - 80
 			) + 'px';
+
+			// Auto-hide trigger after 4 seconds if not clicked
+			setTimeout(() => {
+				if (trigger.hidden === false && currentSelection === text) {
+					trigger.hidden = true;
+				}
+			}, 4000);
 		}
 
 		document.addEventListener('selectionchange', onSelectionChange);
@@ -433,6 +440,7 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			popupBody.innerHTML = '<div class="dict-loading"><span class="dict-spinner"></span> 검색 중...</div>';
 
 			trigger.hidden = true;
+			lastShownSelection = '';
 
 			try {
 				const res = await fetch('/api/define', {
@@ -467,10 +475,8 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			popup.hidden = true;
 			trigger.hidden = true;
 			currentSelection = '';
-			// Suppress trigger briefly so selectionchange from removeAllRanges doesn't re-show it
-			suppressTrigger = true;
+			lastShownSelection = '';
 			window.getSelection()?.removeAllRanges();
-			setTimeout(() => { suppressTrigger = false; }, 300);
 		}
 
 		popupClose.addEventListener('click', closePopup);
