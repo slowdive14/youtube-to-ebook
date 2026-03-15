@@ -802,6 +802,10 @@ html {
   -webkit-tap-highlight-color: transparent;
 }
 
+.dict-trigger[hidden] {
+  display: none !important;
+}
+
 .dict-trigger:hover {
   transform: scale(1.05);
 }
