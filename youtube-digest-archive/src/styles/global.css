@@ -1001,6 +1001,11 @@ html {
   min-height: 300px;
 }
 
+.drill-start[hidden], .drill-complete[hidden],
+.drill-ui[hidden] {
+  display: none !important;
+}
+
 .drill-start-content, .drill-complete-content {
   text-align: center;
 }
