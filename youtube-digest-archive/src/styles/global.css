@@ -1182,6 +1182,7 @@ html {
   background: var(--intro-bg);
   color: var(--text-muted);
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .mic-indicator.active {

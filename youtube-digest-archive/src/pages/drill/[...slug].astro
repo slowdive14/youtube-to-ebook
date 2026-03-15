@@ -181,7 +181,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		// --- Speech Recognition ---
 		function listen() {
 			return new Promise((resolve) => {
-				if (!SpeechRecognition) { resolve(''); return; }
+				if (!SpeechRecognition) { resolve([]); return; }
 
 				if (recognition) {
 					try { recognition.abort(); } catch(e) {}
@@ -194,22 +194,45 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				recognition.continuous = false;
 
 				let resolved = false;
+				let hasGottenResult = false;
+
+				// Safety timeout: give user up to 8 seconds to speak
+				const timeout = setTimeout(() => {
+					if (!resolved) {
+						resolved = true;
+						try { recognition.stop(); } catch(e) {}
+						resolve([]);
+					}
+				}, 8000);
 
 				recognition.onresult = (event) => {
+					hasGottenResult = true;
 					const results = [];
 					for (let i = 0; i < event.results[0].length; i++) {
 						results.push(event.results[0][i].transcript.toLowerCase().trim());
 					}
-					resolved = true;
-					resolve(results);
+					if (!resolved) {
+						resolved = true;
+						clearTimeout(timeout);
+						resolve(results);
+					}
 				};
 
 				recognition.onerror = (event) => {
-					if (!resolved) { resolved = true; resolve([]); }
+					console.log('Speech recognition error:', event.error);
+					if (!resolved) {
+						resolved = true;
+						clearTimeout(timeout);
+						resolve([]);
+					}
 				};
 
 				recognition.onend = () => {
-					if (!resolved) { resolved = true; resolve([]); }
+					if (!resolved) {
+						resolved = true;
+						clearTimeout(timeout);
+						resolve([]);
+					}
 				};
 
 				setMicState(true);
@@ -297,6 +320,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 					sentenceEl.textContent = item.sentence;
 					hintEl.textContent = '';
 					await speak(item.sentence);
+					await delay(500); // Wait for TTS echo to fade
 					await doListen(item.sentence);
 					break;
 
@@ -324,18 +348,19 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			}
 		}
 
+		let pendingRetry = null; // store retry function for mic button
+
 		async function doListen(target, threshold = 0.6) {
 			const spoken = await listen();
 			stopListening();
 
 			if (spoken.length === 0) {
-				showResult(false, 'No speech detected. Try again or skip.');
-				await delay(1500);
-				// Retry same stage
-				await runStage();
-				return;
+				showResult(false, 'No speech detected. Tap the mic to try again, or skip.');
+				pendingRetry = () => runStage();
+				return; // Don't auto-retry — wait for user action
 			}
 
+			pendingRetry = null;
 			const matched = isMatch(spoken, target, threshold);
 			if (matched) {
 				showResult(true, 'Good!');
@@ -343,8 +368,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				advance();
 			} else {
 				showResult(false, `Try again! "${spoken[0]}"`);
-				await delay(2000);
-				await runStage();
+				pendingRetry = () => runStage();
 			}
 		}
 
@@ -353,12 +377,12 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			stopListening();
 
 			if (spoken.length === 0) {
-				showResult(false, 'No speech detected. Try again or skip.');
-				await delay(1500);
-				await runStage();
+				showResult(false, 'No speech detected. Tap the mic to try again, or skip.');
+				pendingRetry = () => runStage();
 				return;
 			}
 
+			pendingRetry = null;
 			// For free variation, accept any speech of reasonable length
 			const words = spoken[0].split(' ').length;
 			if (words >= 3) {
@@ -367,8 +391,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				advance();
 			} else {
 				showResult(false, 'Try a longer sentence!');
-				await delay(1500);
-				await runStage();
+				pendingRetry = () => runStage();
 			}
 		}
 
@@ -415,6 +438,15 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				await speak(item.sentence);
 			} else if (currentStage === 3) {
 				await speak(item.korean, 'ko-KR');
+			}
+		});
+
+		// Tap mic icon to retry
+		micIndicator.addEventListener('click', () => {
+			if (pendingRetry) {
+				const retry = pendingRetry;
+				pendingRetry = null;
+				retry();
 			}
 		});
 
