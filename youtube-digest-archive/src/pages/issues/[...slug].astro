@@ -361,34 +361,26 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		if (!trigger || !popup || !popupWord || !popupBody || !popupClose) return;
 
 		let currentSelection = '';
-		let lastShownSelection = ''; // track what we already showed trigger for
+		let triggerTimer = null;
 
-		// Show trigger button near text selection
-		function onSelectionChange() {
+		function hideTrigger() {
+			trigger.hidden = true;
+			if (triggerTimer) { clearTimeout(triggerTimer); triggerTimer = null; }
+		}
+
+		function showTriggerForSelection() {
 			const sel = window.getSelection();
-			if (!sel || sel.isCollapsed || !sel.toString().trim()) {
-				trigger.hidden = true;
-				lastShownSelection = '';
-				return;
-			}
-
-			// Don't show trigger while popup is open
+			if (!sel || sel.isCollapsed || !sel.toString().trim()) return;
 			if (!popup.hidden) return;
 
 			const text = sel.toString().trim();
-			// Only activate for English text within markdown content
 			if (!content.contains(sel.anchorNode)) return;
 			if (text.length > 500 || text.length < 1) return;
 
-			// Don't re-show for the same selection (prevents persistent trigger)
-			if (text === lastShownSelection) return;
-
 			currentSelection = text;
-			lastShownSelection = text;
 			const range = sel.getRangeAt(0);
 			const rect = range.getBoundingClientRect();
 
-			// Position trigger below selection
 			trigger.hidden = false;
 			trigger.style.top = (rect.bottom + window.scrollY + 8) + 'px';
 			trigger.style.left = Math.min(
@@ -396,15 +388,20 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 				window.innerWidth - 80
 			) + 'px';
 
-			// Auto-hide trigger after 4 seconds if not clicked
-			setTimeout(() => {
-				if (trigger.hidden === false && currentSelection === text) {
-					trigger.hidden = true;
-				}
-			}, 4000);
+			// Auto-hide after 3 seconds
+			if (triggerTimer) clearTimeout(triggerTimer);
+			triggerTimer = setTimeout(hideTrigger, 3000);
 		}
 
-		document.addEventListener('selectionchange', onSelectionChange);
+		// Show on mouseup (desktop) and touchend (mobile) — fires once per selection
+		content.addEventListener('mouseup', () => setTimeout(showTriggerForSelection, 50));
+		content.addEventListener('touchend', () => setTimeout(showTriggerForSelection, 50));
+
+		// Hide on scroll, click outside, or new touch
+		document.addEventListener('scroll', hideTrigger, { passive: true });
+		document.addEventListener('touchstart', (e) => {
+			if (!trigger.contains(e.target)) hideTrigger();
+		}, { passive: true });
 
 		// Get surrounding context for better AI understanding
 		function getContext(sel) {
@@ -439,8 +436,7 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			popupWord.textContent = displayText;
 			popupBody.innerHTML = '<div class="dict-loading"><span class="dict-spinner"></span> 검색 중...</div>';
 
-			trigger.hidden = true;
-			lastShownSelection = '';
+			hideTrigger();
 
 			try {
 				const res = await fetch('/api/define', {
@@ -473,9 +469,8 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		// Close popup and clear selection
 		function closePopup() {
 			popup.hidden = true;
-			trigger.hidden = true;
+			hideTrigger();
 			currentSelection = '';
-			lastShownSelection = '';
 			window.getSelection()?.removeAllRanges();
 		}
 
