@@ -67,7 +67,7 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - Forces `hl=en` in browser requests for consistent UI element identification.
 
 ### Article Generation (write_articles.py)
-- Uses `gemini-3-flash-preview` model.
+- Uses `gemini-2.5-flash` model.
 - `max_output_tokens` set to 8000 for comprehensive bilingual summaries.
 - 15-second delay between API calls with retry logic.
 

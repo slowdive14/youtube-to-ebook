@@ -131,7 +131,7 @@ TRANSCRIPT:
                 time.sleep(REQUEST_DELAY)
 
             response = client.models.generate_content(
-                model='gemini-3-flash-preview',
+                model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     max_output_tokens=8000,
@@ -225,7 +225,7 @@ if __name__ == "__main__":
         "transcript": "Hello everyone, today we're going to talk about something really exciting. I've been working on this project for months and I can't wait to share it with you. The main idea is simple but powerful..."
     }
 
-    print("Testing article generation with gemini-3-flash-preview...")
+    print("Testing article generation with gemini-2.5-flash...")
     article = write_article(test_video, is_first=True)
     if article:
         print("\nGenerated article:\n")
