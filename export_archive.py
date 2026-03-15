@@ -130,8 +130,7 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'    korean: "{_escape_yaml(ds["korean"])}"\n'
                 f'    blank: "{_escape_yaml(ds["blank"])}"\n'
                 f'    blank_answer: "{_escape_yaml(ds["blank_answer"])}"\n'
-                f'    pattern: "{_escape_yaml(ds["pattern"])}"\n'
-                f'    variation_hint: "{_escape_yaml(ds["variation_hint"])}"\n'
+                f'    swap_word: "{_escape_yaml(ds["swap_word"])}"\n'
             )
 
     # Frontmatter

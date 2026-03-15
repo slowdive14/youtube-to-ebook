@@ -250,8 +250,7 @@ For each sentence, provide:
 2. korean: Natural Korean translation
 3. blank: The sentence with ONE key phrase replaced by _____
 4. blank_answer: The removed phrase
-5. pattern: The reusable pattern with ___ placeholders
-6. variation_hint: A Korean hint for creating a new sentence using the pattern
+5. swap_word: A single word in the sentence that can be easily swapped with another word (pick a noun or adjective that's easy to replace)
 
 IMPORTANT: Return ONLY a valid JSON array with no markdown formatting, no code blocks, no extra text.
 
@@ -262,8 +261,7 @@ Example output format:
     "korean": "수면 부족은 인지 능력 저하와 관련이 있다.",
     "blank": "Sleep deprivation is linked to _____.",
     "blank_answer": "cognitive decline",
-    "pattern": "___ is linked to ___",
-    "variation_hint": "운동과 정신 건강의 관계에 대해 말해보세요"
+    "swap_word": "decline"
   }}
 ]
 
@@ -301,7 +299,7 @@ ARTICLES:
             drill_data = json.loads(text)
 
             # Validate structure
-            required_keys = {"sentence", "korean", "blank", "blank_answer", "pattern", "variation_hint"}
+            required_keys = {"sentence", "korean", "blank", "blank_answer", "swap_word"}
             validated = []
             for item in drill_data:
                 if isinstance(item, dict) and required_keys.issubset(item.keys()):

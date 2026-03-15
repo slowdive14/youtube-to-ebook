@@ -21,8 +21,7 @@ const issues = defineCollection({
                 korean: z.string(),
                 blank: z.string(),
                 blank_answer: z.string(),
-                pattern: z.string(),
-                variation_hint: z.string(),
+                swap_word: z.string(),
             })
         ).optional(),
     }),

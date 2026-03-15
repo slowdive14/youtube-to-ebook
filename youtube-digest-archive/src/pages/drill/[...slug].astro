@@ -63,7 +63,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				<span class="drill-stage" data-stage="1">1. Repeat</span>
 				<span class="drill-stage" data-stage="2">2. Fill</span>
 				<span class="drill-stage" data-stage="3">3. Translate</span>
-				<span class="drill-stage" data-stage="4">4. Create</span>
+				<span class="drill-stage" data-stage="4">4. Swap</span>
 			</div>
 
 			<!-- Main display -->
@@ -338,12 +338,11 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 					await doListen(item.sentence, 0.5);
 					break;
 
-				case 4: // Variation
-					instructionEl.textContent = 'Create your own sentence:';
-					sentenceEl.textContent = item.pattern;
-					hintEl.textContent = item.variation_hint;
-					// For variation, any reasonable speech passes
-					await doListenFree();
+				case 4: // Swap one word
+					instructionEl.textContent = `Change the word "${item.swap_word}" to something else:`;
+					sentenceEl.textContent = item.sentence.replace(item.swap_word, '_____');
+					hintEl.textContent = '';
+					await doListenSwap(item);
 					break;
 			}
 		}
@@ -372,7 +371,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			}
 		}
 
-		async function doListenFree() {
+		async function doListenSwap(item) {
 			const spoken = await listen();
 			stopListening();
 
@@ -383,14 +382,35 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			}
 
 			pendingRetry = null;
-			// For free variation, accept any speech of reasonable length
-			const words = spoken[0].split(' ').length;
-			if (words >= 3) {
-				showResult(true, `Nice! "${spoken[0]}"`);
+			// Check that user said a full sentence and swapped the word
+			const spokenText = spoken[0];
+			const swapWord = normalize(item.swap_word);
+			const spokenNorm = normalize(spokenText);
+
+			// Remove the swap_word from original to get the "frame"
+			const originalFrame = normalize(item.sentence).replace(swapWord, '').replace(/\s+/g, ' ').trim();
+			const frameWords = originalFrame.split(' ');
+
+			// Count how many frame words appear in spoken text
+			let frameMatches = 0;
+			for (const w of frameWords) {
+				if (spokenNorm.includes(w)) frameMatches++;
+			}
+			const frameRatio = frameMatches / frameWords.length;
+
+			// Pass if: said enough of the frame (>50%) AND used a different word than swap_word
+			const usedDifferentWord = !spokenNorm.includes(swapWord);
+			const longEnough = spokenText.split(' ').length >= 3;
+
+			if (frameRatio >= 0.5 && longEnough) {
+				showResult(true, `Nice! "${spokenText}"`);
 				await delay(1500);
 				advance();
+			} else if (!longEnough) {
+				showResult(false, 'Say the full sentence with a different word!');
+				pendingRetry = () => runStage();
 			} else {
-				showResult(false, 'Try a longer sentence!');
+				showResult(false, `Try again! "${spokenText}"`);
 				pendingRetry = () => runStage();
 			}
 		}
