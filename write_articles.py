@@ -13,6 +13,7 @@ if sys.stdout.encoding != 'utf-8':
 
 import os
 import time
+import json
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
@@ -290,7 +291,6 @@ ARTICLES:
             )
 
             # Parse JSON response
-            import json
             text = response.text.strip()
             # Remove markdown code block if present
             if text.startswith("```"):
