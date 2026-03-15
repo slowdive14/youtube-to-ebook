@@ -922,3 +922,355 @@ html {
     background: rgba(255, 0, 0, 0.15);
   }
 }
+
+/* ========== Speaking Drill Link (Issue Page) ========== */
+.drill-link-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.drill-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--accent-color);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.drill-link-btn:hover {
+  background: var(--link-hover);
+  transform: translateY(-1px);
+}
+
+.drill-link-btn svg {
+  flex-shrink: 0;
+}
+
+/* ========== Speaking Drill Page ========== */
+.drill-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+.drill-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.drill-header h1 {
+  font-size: 24px;
+  margin: 10px 0 5px;
+}
+
+.drill-back {
+  font-size: 14px;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.drill-back:hover {
+  color: var(--text-color);
+}
+
+.drill-date {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 0;
+}
+
+.drill-count {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 2px 0 0;
+}
+
+/* Start Screen */
+.drill-start, .drill-complete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.drill-start-content, .drill-complete-content {
+  text-align: center;
+}
+
+.drill-start-icon {
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.drill-start-content p {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* Buttons */
+.drill-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.drill-btn-primary {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.drill-btn-primary:hover {
+  background: var(--link-hover);
+  transform: translateY(-1px);
+}
+
+.drill-btn-secondary {
+  background: var(--intro-bg);
+  color: var(--text-color);
+  border: 1px solid var(--divider-color);
+}
+
+.drill-btn-secondary:hover {
+  background: var(--divider-color);
+}
+
+.drill-btn-ghost {
+  background: transparent;
+  color: var(--text-muted);
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.drill-btn-ghost:hover {
+  color: var(--text-color);
+}
+
+.drill-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Progress */
+.drill-progress {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.drill-progress-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--divider-color);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.drill-progress-fill {
+  height: 100%;
+  background: var(--accent-color);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+  width: 0;
+}
+
+.drill-progress-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  min-width: 50px;
+  text-align: right;
+}
+
+/* Stages */
+.drill-stages {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.drill-stage {
+  flex: 1;
+  text-align: center;
+  padding: 6px 4px;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: var(--intro-bg);
+  border-radius: 4px;
+  transition: all 0.2s;
+}
+
+.drill-stage.active {
+  background: var(--accent-color);
+  color: #fff;
+  font-weight: 600;
+}
+
+.drill-stage.done {
+  background: #28a745;
+  color: #fff;
+}
+
+/* Display */
+.drill-display {
+  background: var(--card-bg);
+  border: 1px solid var(--divider-color);
+  border-radius: 12px;
+  padding: 30px 24px;
+  margin-bottom: 20px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.drill-instruction {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.drill-sentence {
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.drill-hint {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 12px;
+  font-style: italic;
+}
+
+/* Mic */
+.drill-mic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.mic-indicator {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--intro-bg);
+  color: var(--text-muted);
+  transition: all 0.3s;
+}
+
+.mic-indicator.active {
+  background: var(--accent-color);
+  color: #fff;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.3); }
+  50% { box-shadow: 0 0 0 12px rgba(255, 0, 0, 0); }
+}
+
+.mic-status {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* Result */
+.drill-result {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.drill-result.success {
+  background: rgba(40, 167, 69, 0.1);
+  color: #28a745;
+}
+
+.drill-result.fail {
+  background: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+
+.result-icon {
+  margin-right: 6px;
+}
+
+/* Controls */
+.drill-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Complete screen */
+.drill-complete-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.drill-complete h2 {
+  margin: 0 0 8px;
+}
+
+.drill-complete p {
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+.drill-complete-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .drill-container {
+    padding: 12px;
+  }
+
+  .drill-sentence {
+    font-size: 18px;
+  }
+
+  .drill-stage {
+    font-size: 11px;
+    padding: 5px 2px;
+  }
+
+  .drill-display {
+    padding: 20px 16px;
+  }
+
+  .drill-complete-actions {
+    flex-direction: column;
+  }
+}

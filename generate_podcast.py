@@ -26,7 +26,7 @@ if sys.stderr and hasattr(sys.stderr, 'reconfigure'):
 
 
 def _get_client():
-    """Create NotebookLM client from cached credentials."""
+    """Create NotebookLM client from cached credentials, refreshing CSRF if needed."""
     from notebooklm_tools.core.auth import load_cached_tokens
     from notebooklm_tools import NotebookLMClient
 
@@ -34,6 +34,22 @@ def _get_client():
     if not tokens or not tokens.cookies:
         print("  [!] No cached NotebookLM credentials. Run: nlm login")
         return None
+
+    # Try to refresh CSRF token using existing cookies (handles long-running sessions)
+    try:
+        import requests
+        resp = requests.get(
+            "https://notebooklm.google.com/",
+            headers={"Cookie": tokens.cookie_header},
+            allow_redirects=False, timeout=10,
+        )
+        # If we get redirected to login, cookies are truly expired
+        if resp.status_code in (301, 302) and "accounts.google" in resp.headers.get("Location", ""):
+            print("  [!] NotebookLM session expired. Run: nlm login")
+            return None
+    except Exception:
+        pass  # Network error — proceed with cached tokens anyway
+
     return NotebookLMClient(cookies=tokens.cookies, csrf_token=tokens.csrf_token)
 
 

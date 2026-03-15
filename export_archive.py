@@ -78,12 +78,12 @@ def upload_audio_to_r2(local_path):
         return None
 
 
-def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None):
+def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None):
     """
     Generate a markdown file with YAML frontmatter for the archive site.
 
     Returns (filename, content) tuple.
-    Frontmatter: title, date, subject, audioUrls, articles array.
+    Frontmatter: title, date, subject, audioUrls, articles array, drillSentences.
     Body: English articles + divider + Korean articles.
     """
     now = datetime.now()
@@ -120,6 +120,20 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None):
 
     articles_yaml = "articles:\n" + "\n".join(articles_meta) if articles_meta else ""
 
+    # Build drill sentences for frontmatter
+    drill_lines = ""
+    if drill_sentences:
+        drill_lines = "drillSentences:\n"
+        for ds in drill_sentences:
+            drill_lines += (
+                f'  - sentence: "{_escape_yaml(ds["sentence"])}"\n'
+                f'    korean: "{_escape_yaml(ds["korean"])}"\n'
+                f'    blank: "{_escape_yaml(ds["blank"])}"\n'
+                f'    blank_answer: "{_escape_yaml(ds["blank_answer"])}"\n'
+                f'    pattern: "{_escape_yaml(ds["pattern"])}"\n'
+                f'    variation_hint: "{_escape_yaml(ds["variation_hint"])}"\n'
+            )
+
     # Frontmatter
     frontmatter = (
         f"---\n"
@@ -128,6 +142,7 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None):
         f'subject: "{_escape_yaml(subject)}"\n'
         f"{audio_lines}"
         f"{articles_yaml}\n"
+        f"{drill_lines}"
         f"---\n"
     )
 
@@ -184,6 +199,16 @@ def push_to_archive_repo(content, filename):
     issues_dir.mkdir(parents=True, exist_ok=True)
 
     filepath = issues_dir / filename
+    base_name = filepath.stem
+    ext = filepath.suffix
+    counter = 2
+    
+    # Ensure unique filename so we don't overwrite multiple runs on the same day
+    while filepath.exists():
+        filename = f"{base_name}_{counter:02d}{ext}"
+        filepath = issues_dir / filename
+        counter += 1
+
     filepath.write_text(content, encoding="utf-8")
     print(f"  [OK] Issue saved: {filepath}")
 
@@ -209,7 +234,7 @@ def push_to_archive_repo(content, filename):
         return False
 
 
-def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None):
+def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None):
     """
     Main entry point for archive export.
     1. Upload audio files to R2
@@ -228,7 +253,7 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
 
     # 2. Generate issue markdown
     filename, content = generate_issue_markdown(
-        en_articles, ko_articles, audio_urls
+        en_articles, ko_articles, audio_urls, drill_sentences=drill_sentences
     )
 
     # 3. Push to archive repo

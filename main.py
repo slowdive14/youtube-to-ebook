@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
-from write_articles import write_articles_bilingual
+from write_articles import write_articles_bilingual, generate_drill_sentences
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
@@ -112,6 +112,16 @@ def run(video_url=None):
             print("No articles generated.")
             return
 
+        # Step 3a: Generate Speaking Drill sentences
+        print("\n[STEP 3a] Generating Speaking Drill sentences...")
+        drill_sentences = []
+        if english_articles:
+            drill_sentences = generate_drill_sentences(english_articles)
+            if drill_sentences:
+                print(f"  [OK] {len(drill_sentences)} drill sentences generated")
+            else:
+                print("  [!] No drill sentences generated (non-fatal)")
+
         # Step 3b: Generate Audio for Newsletter
         print("\n[STEP 3b] Generating Audio...")
 
@@ -124,6 +134,19 @@ def run(video_url=None):
         # Method 1: NotebookLM Podcast (preferred — conversational style)
         nlm_path = shutil.which("nlm") or str(Path(sys.executable).parent / "Scripts" / "nlm.exe")
         if os.path.exists(nlm_path) and english_articles:
+            # Re-authenticate NotebookLM before audio generation
+            # (tokens may have expired during the long article-generation phase)
+            print("  [Auth] Refreshing NotebookLM credentials...")
+            try:
+                import subprocess as _sp
+                _sp.run(
+                    [nlm_path, "login"],
+                    timeout=60, capture_output=True,
+                )
+                print("  [Auth] Credentials refreshed.")
+            except Exception as _auth_err:
+                print(f"  [Auth] Refresh warning (will try anyway): {_auth_err}")
+
             print("  [Podcast] Trying NotebookLM podcast generation...")
             try:
                 from generate_podcast import generate_podcast
@@ -293,7 +316,8 @@ def run(video_url=None):
                 from export_archive import export_newsletter_issue
                 export_newsletter_issue(
                     english_articles, korean_articles,
-                    audio_paths_en, audio_paths_ko
+                    audio_paths_en, audio_paths_ko,
+                    drill_sentences=drill_sentences
                 )
             except Exception as e:
                 print(f"  [!] Archive export failed (non-fatal): {e}")

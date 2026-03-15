@@ -131,7 +131,7 @@ TRANSCRIPT:
                 time.sleep(REQUEST_DELAY)
 
             response = client.models.generate_content(
-                model='gemini-3-flash-preview',
+                model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     max_output_tokens=8000,
@@ -214,6 +214,122 @@ def write_articles_bilingual(videos, detailed=False):
     return english_articles, korean_articles
 
 
+def generate_drill_sentences(en_articles):
+    """
+    Generate speaking drill data from English articles.
+    Extracts key sentences and creates 4-stage drill material:
+    1. Repeat after me (original sentence)
+    2. Fill in the blank
+    3. Korean → English translation
+    4. Pattern variation
+
+    Returns a list of drill sentence objects.
+    """
+    if not en_articles:
+        return []
+
+    # Combine all article texts for context
+    articles_text = ""
+    for i, a in enumerate(en_articles):
+        articles_text += f"\n--- Article {i+1}: {a['title']} ---\n"
+        articles_text += a['article'] + "\n"
+
+    prompt = f"""You are an English speaking coach for Korean learners at B1 level aiming for B2.
+
+From the articles below, select exactly {len(en_articles) * 5} key sentences (5 per article) that are most useful for speaking practice.
+
+Selection criteria:
+- Contains B2-level vocabulary or expressions
+- Has reusable sentence patterns (e.g., "is linked to", "suggests that", "plays a role in")
+- Not too long (under 20 words preferred, max 25 words)
+- Grammatically rich but natural
+
+For each sentence, provide:
+1. sentence: The original English sentence (exact quote from article)
+2. korean: Natural Korean translation
+3. blank: The sentence with ONE key phrase replaced by _____
+4. blank_answer: The removed phrase
+5. pattern: The reusable pattern with ___ placeholders
+6. variation_hint: A Korean hint for creating a new sentence using the pattern
+
+IMPORTANT: Return ONLY a valid JSON array with no markdown formatting, no code blocks, no extra text.
+
+Example output format:
+[
+  {{
+    "sentence": "Sleep deprivation is linked to cognitive decline.",
+    "korean": "수면 부족은 인지 능력 저하와 관련이 있다.",
+    "blank": "Sleep deprivation is linked to _____.",
+    "blank_answer": "cognitive decline",
+    "pattern": "___ is linked to ___",
+    "variation_hint": "운동과 정신 건강의 관계에 대해 말해보세요"
+  }}
+]
+
+ARTICLES:
+{articles_text}"""
+
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            if attempt > 0:
+                print(f"  [.] Waiting {retry_wait}s before retry...")
+                time.sleep(retry_wait)
+            else:
+                # Polite delay after previous API calls
+                print(f"  [.] Waiting {REQUEST_DELAY}s between requests...")
+                time.sleep(REQUEST_DELAY)
+
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=4000,
+                    temperature=0.3,  # Lower temp for structured output
+                )
+            )
+
+            # Parse JSON response
+            import json
+            text = response.text.strip()
+            # Remove markdown code block if present
+            if text.startswith("```"):
+                text = text.split("\n", 1)[1]  # Remove first line
+                text = text.rsplit("```", 1)[0]  # Remove last ```
+                text = text.strip()
+
+            drill_data = json.loads(text)
+
+            # Validate structure
+            required_keys = {"sentence", "korean", "blank", "blank_answer", "pattern", "variation_hint"}
+            validated = []
+            for item in drill_data:
+                if isinstance(item, dict) and required_keys.issubset(item.keys()):
+                    validated.append(item)
+
+            print(f"  [OK] Generated {len(validated)} drill sentences")
+            return validated
+
+        except json.JSONDecodeError as e:
+            print(f"  [!] JSON parse error: {e}")
+            if attempt < MAX_RETRIES - 1:
+                retry_wait *= 2
+                continue
+            return []
+        except Exception as e:
+            error_str = str(e).lower()
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500'])
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] API Issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
+                retry_wait *= 2
+                continue
+            else:
+                print(f"  [!] Failed to generate drill sentences: {e}")
+                return []
+
+    return []
+
+
 # Test it standalone
 if __name__ == "__main__":
     # Test with a mock video
@@ -225,7 +341,7 @@ if __name__ == "__main__":
         "transcript": "Hello everyone, today we're going to talk about something really exciting. I've been working on this project for months and I can't wait to share it with you. The main idea is simple but powerful..."
     }
 
-    print("Testing article generation with gemini-3-flash-preview...")
+    print("Testing article generation with gemini-2.5-flash...")
     article = write_article(test_video, is_first=True)
     if article:
         print("\nGenerated article:\n")

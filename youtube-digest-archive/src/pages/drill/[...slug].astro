@@ -1,0 +1,442 @@
+---
+// src/pages/drill/[...slug].astro
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+	const issues = await getCollection('issues');
+	return issues
+		.filter(issue => issue.data.drillSentences && issue.data.drillSentences.length > 0)
+		.map(issue => ({
+			params: { slug: issue.id },
+			props: { issue },
+		}));
+}
+
+const { issue } = Astro.props;
+const drillSentences = issue.data.drillSentences || [];
+const dateObj = new Date(issue.data.date);
+const formattedDate = dateObj.toLocaleDateString('en-US', {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric'
+});
+---
+
+<BaseLayout title={`Speaking Drill - ${formattedDate}`}>
+	<div class="drill-container">
+		<header class="drill-header">
+			<a href={`/issues/${issue.id}`} class="drill-back">&larr; Back to article</a>
+			<h1>Speaking Drill</h1>
+			<p class="drill-date">{formattedDate}</p>
+			<p class="drill-count">{drillSentences.length} sentences</p>
+		</header>
+
+		<!-- Start Screen -->
+		<div id="drill-start" class="drill-start">
+			<div class="drill-start-content">
+				<div class="drill-start-icon">
+					<svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+						<path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+						<line x1="12" y1="19" x2="12" y2="23"/>
+						<line x1="8" y1="23" x2="16" y2="23"/>
+					</svg>
+				</div>
+				<p>Tap the button below to start.<br>Make sure your microphone is enabled.</p>
+				<button id="btn-start" class="drill-btn drill-btn-primary">Start Drill</button>
+			</div>
+		</div>
+
+		<!-- Drill UI -->
+		<div id="drill-ui" class="drill-ui" hidden>
+			<!-- Progress -->
+			<div class="drill-progress">
+				<div class="drill-progress-bar">
+					<div id="drill-progress-fill" class="drill-progress-fill"></div>
+				</div>
+				<span id="drill-progress-text" class="drill-progress-text">1 / {drillSentences.length}</span>
+			</div>
+
+			<!-- Stage indicator -->
+			<div class="drill-stages">
+				<span class="drill-stage" data-stage="1">1. Repeat</span>
+				<span class="drill-stage" data-stage="2">2. Fill</span>
+				<span class="drill-stage" data-stage="3">3. Translate</span>
+				<span class="drill-stage" data-stage="4">4. Create</span>
+			</div>
+
+			<!-- Main display -->
+			<div id="drill-display" class="drill-display">
+				<div id="drill-instruction" class="drill-instruction"></div>
+				<div id="drill-sentence" class="drill-sentence"></div>
+				<div id="drill-hint" class="drill-hint"></div>
+			</div>
+
+			<!-- Mic status -->
+			<div id="drill-mic" class="drill-mic">
+				<div id="mic-indicator" class="mic-indicator">
+					<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/>
+						<path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
+						<line x1="12" y1="19" x2="12" y2="23"/>
+						<line x1="8" y1="23" x2="16" y2="23"/>
+					</svg>
+				</div>
+				<span id="mic-status" class="mic-status">Listening...</span>
+			</div>
+
+			<!-- User speech result -->
+			<div id="drill-result" class="drill-result" hidden>
+				<span id="result-icon" class="result-icon"></span>
+				<span id="result-text" class="result-text"></span>
+			</div>
+
+			<!-- Controls -->
+			<div class="drill-controls">
+				<button id="btn-listen" class="drill-btn drill-btn-secondary" title="Listen again">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+					Listen
+				</button>
+				<button id="btn-skip" class="drill-btn drill-btn-ghost" title="Skip this sentence">
+					Skip &rarr;
+				</button>
+			</div>
+		</div>
+
+		<!-- Completion Screen -->
+		<div id="drill-complete" class="drill-complete" hidden>
+			<div class="drill-complete-content">
+				<div class="drill-complete-icon">&#10024;</div>
+				<h2>Great job!</h2>
+				<p>You completed all {drillSentences.length} sentences.</p>
+				<div class="drill-complete-actions">
+					<button id="btn-restart" class="drill-btn drill-btn-primary">Try Again</button>
+					<a href={`/issues/${issue.id}`} class="drill-btn drill-btn-secondary">Back to Article</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Drill data -->
+	<script define:vars={{ drillSentences }}>
+		window.__DRILL_DATA__ = drillSentences;
+	</script>
+
+	<script>
+		const data = window.__DRILL_DATA__;
+		if (!data || data.length === 0) {
+			document.getElementById('drill-start').innerHTML = '<p>No drill sentences available for this issue.</p>';
+		}
+
+		// State
+		let currentIdx = 0;
+		let currentStage = 1; // 1-4
+		let recognition = null;
+		let isListening = false;
+
+		// DOM
+		const startScreen = document.getElementById('drill-start');
+		const drillUI = document.getElementById('drill-ui');
+		const completeScreen = document.getElementById('drill-complete');
+		const btnStart = document.getElementById('btn-start');
+		const btnListen = document.getElementById('btn-listen');
+		const btnSkip = document.getElementById('btn-skip');
+		const btnRestart = document.getElementById('btn-restart');
+		const progressFill = document.getElementById('drill-progress-fill');
+		const progressText = document.getElementById('drill-progress-text');
+		const instructionEl = document.getElementById('drill-instruction');
+		const sentenceEl = document.getElementById('drill-sentence');
+		const hintEl = document.getElementById('drill-hint');
+		const micIndicator = document.getElementById('mic-indicator');
+		const micStatus = document.getElementById('mic-status');
+		const resultEl = document.getElementById('drill-result');
+		const resultIcon = document.getElementById('result-icon');
+		const resultText = document.getElementById('result-text');
+		const stageEls = document.querySelectorAll('.drill-stage');
+
+		// Check Web Speech API support
+		const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+		const speechSupported = !!SpeechRecognition && !!window.speechSynthesis;
+
+		if (!speechSupported) {
+			document.querySelector('.drill-start-content p').textContent =
+				'Your browser does not support Speech API. Please use Chrome or Safari.';
+			btnStart.disabled = true;
+		}
+
+		// --- TTS ---
+		function speak(text, lang = 'en-US') {
+			return new Promise((resolve) => {
+				window.speechSynthesis.cancel();
+				const utter = new SpeechSynthesisUtterance(text);
+				utter.lang = lang;
+				utter.rate = 0.9;
+				utter.onend = resolve;
+				utter.onerror = resolve;
+				window.speechSynthesis.speak(utter);
+			});
+		}
+
+		// --- Speech Recognition ---
+		function listen() {
+			return new Promise((resolve) => {
+				if (!SpeechRecognition) { resolve(''); return; }
+
+				if (recognition) {
+					try { recognition.abort(); } catch(e) {}
+				}
+
+				recognition = new SpeechRecognition();
+				recognition.lang = 'en-US';
+				recognition.interimResults = false;
+				recognition.maxAlternatives = 3;
+				recognition.continuous = false;
+
+				let resolved = false;
+
+				recognition.onresult = (event) => {
+					const results = [];
+					for (let i = 0; i < event.results[0].length; i++) {
+						results.push(event.results[0][i].transcript.toLowerCase().trim());
+					}
+					resolved = true;
+					resolve(results);
+				};
+
+				recognition.onerror = (event) => {
+					if (!resolved) { resolved = true; resolve([]); }
+				};
+
+				recognition.onend = () => {
+					if (!resolved) { resolved = true; resolve([]); }
+				};
+
+				setMicState(true);
+				recognition.start();
+			});
+		}
+
+		function stopListening() {
+			if (recognition) {
+				try { recognition.abort(); } catch(e) {}
+				recognition = null;
+			}
+			setMicState(false);
+		}
+
+		// --- Matching ---
+		function normalize(s) {
+			return s.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, ' ').trim();
+		}
+
+		function similarity(a, b) {
+			const wordsA = normalize(a).split(' ');
+			const wordsB = normalize(b).split(' ');
+			if (wordsA.length === 0 || wordsB.length === 0) return 0;
+			let matches = 0;
+			for (const w of wordsA) {
+				if (wordsB.includes(w)) matches++;
+			}
+			return matches / Math.max(wordsA.length, wordsB.length);
+		}
+
+		function isMatch(spoken, target, threshold = 0.6) {
+			if (!Array.isArray(spoken)) spoken = [spoken];
+			for (const s of spoken) {
+				if (similarity(s, target) >= threshold) return true;
+			}
+			return false;
+		}
+
+		// --- UI Updates ---
+		function setMicState(active) {
+			isListening = active;
+			micIndicator.classList.toggle('active', active);
+			micStatus.textContent = active ? 'Listening...' : 'Processing...';
+		}
+
+		function updateProgress() {
+			const total = data.length;
+			const pct = ((currentIdx) / total) * 100;
+			progressFill.style.width = pct + '%';
+			progressText.textContent = `${currentIdx + 1} / ${total}`;
+		}
+
+		function updateStageIndicator() {
+			stageEls.forEach(el => {
+				const stage = parseInt(el.dataset.stage);
+				el.classList.toggle('active', stage === currentStage);
+				el.classList.toggle('done', stage < currentStage);
+			});
+		}
+
+		function showResult(success, text) {
+			resultEl.hidden = false;
+			resultIcon.textContent = success ? '\u2705' : '\u274C';
+			resultText.textContent = text;
+			resultEl.classList.toggle('success', success);
+			resultEl.classList.toggle('fail', !success);
+		}
+
+		function hideResult() {
+			resultEl.hidden = true;
+		}
+
+		// --- Stage Logic ---
+		async function runStage() {
+			hideResult();
+			updateProgress();
+			updateStageIndicator();
+
+			const item = data[currentIdx];
+
+			switch (currentStage) {
+				case 1: // Repeat after me
+					instructionEl.textContent = 'Repeat after me:';
+					sentenceEl.textContent = item.sentence;
+					hintEl.textContent = '';
+					await speak(item.sentence);
+					await doListen(item.sentence);
+					break;
+
+				case 2: // Fill in the blank
+					instructionEl.textContent = 'Fill in the blank (say the full sentence):';
+					sentenceEl.textContent = item.blank;
+					hintEl.textContent = '';
+					await doListen(item.sentence, 0.5);
+					break;
+
+				case 3: // Korean to English
+					instructionEl.textContent = 'Say it in English:';
+					sentenceEl.textContent = item.korean;
+					hintEl.textContent = '';
+					await doListen(item.sentence, 0.5);
+					break;
+
+				case 4: // Variation
+					instructionEl.textContent = 'Create your own sentence:';
+					sentenceEl.textContent = item.pattern;
+					hintEl.textContent = item.variation_hint;
+					// For variation, any reasonable speech passes
+					await doListenFree();
+					break;
+			}
+		}
+
+		async function doListen(target, threshold = 0.6) {
+			const spoken = await listen();
+			stopListening();
+
+			if (spoken.length === 0) {
+				showResult(false, 'No speech detected. Try again or skip.');
+				await delay(1500);
+				// Retry same stage
+				await runStage();
+				return;
+			}
+
+			const matched = isMatch(spoken, target, threshold);
+			if (matched) {
+				showResult(true, 'Good!');
+				await delay(1000);
+				advance();
+			} else {
+				showResult(false, `Try again! "${spoken[0]}"`);
+				await delay(2000);
+				await runStage();
+			}
+		}
+
+		async function doListenFree() {
+			const spoken = await listen();
+			stopListening();
+
+			if (spoken.length === 0) {
+				showResult(false, 'No speech detected. Try again or skip.');
+				await delay(1500);
+				await runStage();
+				return;
+			}
+
+			// For free variation, accept any speech of reasonable length
+			const words = spoken[0].split(' ').length;
+			if (words >= 3) {
+				showResult(true, `Nice! "${spoken[0]}"`);
+				await delay(1500);
+				advance();
+			} else {
+				showResult(false, 'Try a longer sentence!');
+				await delay(1500);
+				await runStage();
+			}
+		}
+
+		function advance() {
+			if (currentStage < 4) {
+				currentStage++;
+				runStage();
+			} else {
+				// Next sentence
+				currentIdx++;
+				currentStage = 1;
+				if (currentIdx >= data.length) {
+					showComplete();
+				} else {
+					runStage();
+				}
+			}
+		}
+
+		function showComplete() {
+			drillUI.hidden = true;
+			completeScreen.hidden = false;
+			stopListening();
+			progressFill.style.width = '100%';
+		}
+
+		function delay(ms) {
+			return new Promise(r => setTimeout(r, ms));
+		}
+
+		// --- Event Handlers ---
+		btnStart.addEventListener('click', () => {
+			startScreen.hidden = true;
+			drillUI.hidden = false;
+			currentIdx = 0;
+			currentStage = 1;
+			runStage();
+		});
+
+		btnListen.addEventListener('click', async () => {
+			stopListening();
+			const item = data[currentIdx];
+			if (currentStage === 1) {
+				await speak(item.sentence);
+			} else if (currentStage === 3) {
+				await speak(item.korean, 'ko-KR');
+			}
+		});
+
+		btnSkip.addEventListener('click', () => {
+			stopListening();
+			hideResult();
+			advance();
+		});
+
+		btnRestart.addEventListener('click', () => {
+			completeScreen.hidden = true;
+			drillUI.hidden = false;
+			currentIdx = 0;
+			currentStage = 1;
+			hideResult();
+			runStage();
+		});
+
+		// Cleanup on page unload
+		window.addEventListener('beforeunload', () => {
+			stopListening();
+			window.speechSynthesis.cancel();
+		});
+	</script>
+</BaseLayout>

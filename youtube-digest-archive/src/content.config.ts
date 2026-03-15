@@ -15,6 +15,16 @@ const issues = defineCollection({
                 url: z.string(),
             })
         ).optional(),
+        drillSentences: z.array(
+            z.object({
+                sentence: z.string(),
+                korean: z.string(),
+                blank: z.string(),
+                blank_answer: z.string(),
+                pattern: z.string(),
+                variation_hint: z.string(),
+            })
+        ).optional(),
     }),
 });
 
