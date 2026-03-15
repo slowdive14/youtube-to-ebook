@@ -361,9 +361,12 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		if (!trigger || !popup || !popupWord || !popupBody || !popupClose) return;
 
 		let currentSelection = '';
+		let suppressTrigger = false;
 
 		// Show trigger button near text selection
 		function onSelectionChange() {
+			if (suppressTrigger) return;
+
 			const sel = window.getSelection();
 			if (!sel || sel.isCollapsed || !sel.toString().trim()) {
 				// Small delay to allow click on trigger before hiding
@@ -372,6 +375,9 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 				}, 200);
 				return;
 			}
+
+			// Don't show trigger while popup is open
+			if (!popup.hidden) return;
 
 			const text = sel.toString().trim();
 			// Only activate for English text within markdown content
@@ -460,8 +466,11 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		function closePopup() {
 			popup.hidden = true;
 			trigger.hidden = true;
-			window.getSelection()?.removeAllRanges();
 			currentSelection = '';
+			// Suppress trigger briefly so selectionchange from removeAllRanges doesn't re-show it
+			suppressTrigger = true;
+			window.getSelection()?.removeAllRanges();
+			setTimeout(() => { suppressTrigger = false; }, 300);
 		}
 
 		popupClose.addEventListener('click', closePopup);
