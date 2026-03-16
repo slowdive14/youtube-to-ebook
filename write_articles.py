@@ -283,7 +283,7 @@ ARTICLES:
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    max_output_tokens=4000,
+                    max_output_tokens=16000,
                     temperature=0.3,  # Lower temp for structured output
                 )
             )
