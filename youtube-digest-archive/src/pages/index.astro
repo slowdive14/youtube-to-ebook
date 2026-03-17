@@ -17,6 +17,7 @@ const issues = rawIssues.sort((a, b) => {
 		<p style="font-size: 20px; color: var(--text-muted); font-style: italic;">
 			Catch up on past issues of the YouTube Digest newsletter, complete with AI-generated audio narration.
 		</p>
+		<p id="read-stats" style="font-size: 14px; color: var(--text-muted); margin-top: 10px; font-family: system-ui, -apple-system, sans-serif;"></p>
 	</div>
 
 	{issues.length === 0 ? (
@@ -34,33 +35,93 @@ const issues = rawIssues.sort((a, b) => {
 					month: 'long',
 					day: 'numeric'
 				});
-				
+
 				const hasAudio = issue.data.audioUrls && issue.data.audioUrls.length > 0;
 				const articleCount = issue.data.articles ? issue.data.articles.length : 0;
 
 				return (
 					<li>
-						<a href={`/issues/${issue.id}`} class="issue-card">
-							<div class="issue-date">{formattedDate}</div>
-							<h2 class="issue-title">{issue.data.subject}</h2>
-							<div class="issue-meta">
-								{hasAudio && (
-									<span class="badge">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-										Audio Available
-									</span>
-								)}
-								{articleCount > 0 && (
-									<span class="badge">
-										📄 {articleCount} Articles
-									</span>
-								)}
-							</div>
-							<div class="read-more">Read Issue &rarr;</div>
-						</a>
+						<div class="issue-card-wrapper" data-issue-id={issue.id}>
+							<button class="read-check" data-issue-id={issue.id} aria-label="Mark as read" title="Mark as read">
+								<svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+							</button>
+							<a href={`/issues/${issue.id}`} class="issue-card">
+								<div class="issue-date">{formattedDate}</div>
+								<h2 class="issue-title">{issue.data.subject}</h2>
+								<div class="issue-meta">
+									{hasAudio && (
+										<span class="badge">
+											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+											Audio Available
+										</span>
+									)}
+									{articleCount > 0 && (
+										<span class="badge">
+											📄 {articleCount} Articles
+										</span>
+									)}
+								</div>
+								<div class="read-more">Read Issue &rarr;</div>
+							</a>
+						</div>
 					</li>
 				);
 			})}
 		</ul>
 	)}
 </BaseLayout>
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const STORAGE_KEY = 'yt-digest-read-issues';
+
+		function getReadSet() {
+			try {
+				return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+			} catch { return new Set(); }
+		}
+
+		function saveReadSet(set) {
+			localStorage.setItem(STORAGE_KEY, JSON.stringify([...set]));
+		}
+
+		function updateStats() {
+			const total = document.querySelectorAll('.issue-card-wrapper').length;
+			const readCount = document.querySelectorAll('.issue-card-wrapper.is-read').length;
+			const el = document.getElementById('read-stats');
+			if (el) el.textContent = `${readCount} / ${total} read`;
+		}
+
+		const readSet = getReadSet();
+
+		// Apply initial read state
+		document.querySelectorAll('.issue-card-wrapper').forEach(wrapper => {
+			const id = wrapper.dataset.issueId;
+			if (readSet.has(id)) wrapper.classList.add('is-read');
+		});
+
+		updateStats();
+
+		// Handle check button clicks
+		document.querySelectorAll('.read-check').forEach(btn => {
+			btn.addEventListener('click', (e) => {
+				e.preventDefault();
+				e.stopPropagation();
+				const id = btn.dataset.issueId;
+				const wrapper = btn.closest('.issue-card-wrapper');
+				const readSet = getReadSet();
+
+				if (readSet.has(id)) {
+					readSet.delete(id);
+					wrapper.classList.remove('is-read');
+				} else {
+					readSet.add(id);
+					wrapper.classList.add('is-read');
+				}
+
+				saveReadSet(readSet);
+				updateStats();
+			});
+		});
+	});
+</script>

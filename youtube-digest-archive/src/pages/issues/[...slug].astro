@@ -109,6 +109,21 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 </BaseLayout>
 
 <script>
+	// Auto-mark issue as read on visit
+	document.addEventListener('DOMContentLoaded', () => {
+		const STORAGE_KEY = 'yt-digest-read-issues';
+		const slug = window.location.pathname.replace(/^\/issues\//, '').replace(/\/$/, '');
+		if (slug) {
+			try {
+				const readSet = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
+				readSet.add(slug);
+				localStorage.setItem(STORAGE_KEY, JSON.stringify([...readSet]));
+			} catch {}
+		}
+	});
+</script>
+
+<script>
 	document.addEventListener('DOMContentLoaded', () => {
 		const content = document.querySelector('.markdown-content');
 		if (!content) return;
