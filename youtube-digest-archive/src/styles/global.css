@@ -165,6 +165,75 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.85;
 }
 
+/* Sub-item check buttons */
+.sub-checks {
+  display: flex;
+  gap: 6px;
+  padding: 8px 12px;
+  border-top: 1px solid var(--divider-color);
+  background: var(--card-bg);
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+}
+
+.sub-check-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border: 1px solid var(--divider-color);
+  border-radius: 16px;
+  background: transparent;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sub-check-btn:hover {
+  border-color: var(--text-muted);
+  color: var(--text-color);
+}
+
+.sub-check-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  border: 1.5px solid var(--text-muted);
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.sub-check-icon {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.sub-check-btn.checked .sub-check-box {
+  background: #4caf50;
+  border-color: #4caf50;
+}
+
+.sub-check-btn.checked .sub-check-icon {
+  opacity: 1;
+  stroke: #fff;
+}
+
+.sub-check-btn.checked {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.sub-check-label {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
 .issue-card {
   background: var(--card-bg);
   border-radius: 8px;

@@ -13,6 +13,7 @@ if sys.stdout.encoding != 'utf-8':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 import os
+import time
 import requests
 from googleapiclient.discovery import build
 from dotenv import load_dotenv
@@ -44,6 +45,25 @@ def load_channels():
 CHANNELS = load_channels()
 
 
+def execute_with_retry(request, max_retries=3, base_delay=5):
+    """
+    Execute a YouTube API request with exponential backoff retry.
+    Handles transient network errors (ConnectionResetError, timeout, etc.).
+    """
+    for attempt in range(max_retries):
+        try:
+            return request.execute()
+        except (ConnectionResetError, ConnectionError, OSError) as e:
+            if attempt < max_retries - 1:
+                delay = base_delay * (2 ** attempt)
+                print(f"  [!] Network error (attempt {attempt+1}/{max_retries}): {e}")
+                print(f"      Retrying in {delay}s...", flush=True)
+                time.sleep(delay)
+            else:
+                print(f"  [X] Failed after {max_retries} attempts: {e}", flush=True)
+                raise
+
+
 def get_channel_info(youtube, channel_handle):
     """
     Given a channel handle (@username), find its channel ID and uploads playlist ID.
@@ -57,7 +77,7 @@ def get_channel_info(youtube, channel_handle):
         part="snippet,contentDetails",
         forHandle=handle
     )
-    response = request.execute()
+    response = execute_with_retry(request)
 
     if response.get("items"):
         channel = response["items"][0]
@@ -102,7 +122,7 @@ def get_latest_video(youtube, uploads_playlist_id, channel_name):
         playlistId=uploads_playlist_id,
         maxResults=15
     )
-    response = request.execute()
+    response = execute_with_retry(request)
 
     for item in response.get("items", []):
         video_id = item["snippet"]["resourceId"]["videoId"]
@@ -131,7 +151,7 @@ def get_video_info_by_id(youtube, video_id):
         part="snippet",
         id=video_id
     )
-    response = request.execute()
+    response = execute_with_retry(request)
 
     if response.get("items"):
         item = response["items"][0]
