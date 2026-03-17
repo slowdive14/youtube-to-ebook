@@ -168,12 +168,43 @@ h1, h2, h3, h4, h5, h6 {
 /* Sub-item check buttons */
 .sub-checks {
   display: flex;
-  gap: 6px;
-  padding: 8px 12px;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 14px;
   border-top: 1px solid var(--divider-color);
   background: var(--card-bg);
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
+}
+
+.sub-check-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sub-check-channel {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 12px;
+  color: var(--text-muted);
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sub-check-group {
+  display: flex;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.sub-check-row-global {
+  border-top: 1px solid var(--divider-color);
+  padding-top: 6px;
+  margin-top: 2px;
+  justify-content: flex-end;
 }
 
 .sub-check-btn {

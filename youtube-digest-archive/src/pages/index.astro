@@ -64,25 +64,38 @@ const issues = rawIssues.sort((a, b) => {
 								<div class="read-more">Read Issue &rarr;</div>
 							</a>
 							<div class="sub-checks" data-issue-id={issue.id}>
-								<button class="sub-check-btn" data-type="en" title="English 읽기">
-									<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-									<span class="sub-check-label">EN</span>
-								</button>
-								<button class="sub-check-btn" data-type="ko" title="한국어 읽기">
-									<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-									<span class="sub-check-label">KO</span>
-								</button>
-								{hasAudio && (
-									<button class="sub-check-btn" data-type="audio" title="오디오 듣기">
-										<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-										<span class="sub-check-label">Audio</span>
-									</button>
-								)}
-								{issue.data.drillSentences && issue.data.drillSentences.length > 0 && (
-									<button class="sub-check-btn" data-type="drill" title="Speaking Drill">
-										<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-										<span class="sub-check-label">Drill</span>
-									</button>
+								{issue.data.articles && issue.data.articles.map((article, idx) => (
+									<div class="sub-check-row">
+										<span class="sub-check-channel">{article.channel}</span>
+										<div class="sub-check-group">
+											<button class="sub-check-btn" data-type={`en-${idx}`} title={`${article.channel} English`}>
+												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+												<span class="sub-check-label">EN</span>
+											</button>
+											<button class="sub-check-btn" data-type={`ko-${idx}`} title={`${article.channel} 한국어`}>
+												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+												<span class="sub-check-label">KO</span>
+											</button>
+										</div>
+									</div>
+								))}
+								{(hasAudio || (issue.data.drillSentences && issue.data.drillSentences.length > 0)) && (
+									<div class="sub-check-row sub-check-row-global">
+										<div class="sub-check-group">
+											{hasAudio && (
+												<button class="sub-check-btn" data-type="audio" title="오디오 듣기">
+													<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+													<span class="sub-check-label">Audio</span>
+												</button>
+											)}
+											{issue.data.drillSentences && issue.data.drillSentences.length > 0 && (
+												<button class="sub-check-btn" data-type="drill" title="Speaking Drill">
+													<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+													<span class="sub-check-label">Drill</span>
+												</button>
+											)}
+										</div>
+									</div>
 								)}
 							</div>
 						</div>
