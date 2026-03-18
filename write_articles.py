@@ -285,6 +285,7 @@ ARTICLES:
                 config=types.GenerateContentConfig(
                     max_output_tokens=4000,
                     temperature=0.3,  # Lower temp for structured output
+                    response_mime_type="application/json",  # Force pure JSON output
                 )
             )
 
@@ -296,7 +297,17 @@ ARTICLES:
                 text = text.rsplit("```", 1)[0]  # Remove last ```
                 text = text.strip()
 
-            drill_data = json.loads(text)
+            try:
+                drill_data = json.loads(text)
+            except json.JSONDecodeError:
+                # Repair: fix raw newlines inside JSON string values
+                import re
+                repaired = re.sub(
+                    r'"([^"\\]*(?:\\.[^"\\]*)*)"',
+                    lambda m: '"' + m.group(1).replace('\n', ' ').replace('\r', '') + '"',
+                    text
+                )
+                drill_data = json.loads(repaired)
 
             # Validate structure
             required_keys = {"sentence", "korean", "blank", "blank_answer", "swap_word"}
