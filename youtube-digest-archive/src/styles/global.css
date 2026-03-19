@@ -194,6 +194,16 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
 }
 
+.sub-check-title {
+  color: var(--text-muted);
+  margin-left: 6px;
+  font-size: 11px;
+}
+
+.sub-check-title::before {
+  content: "— ";
+}
+
 .sub-check-group {
   display: flex;
   gap: 4px;

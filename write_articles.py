@@ -215,6 +215,38 @@ def write_articles_bilingual(videos, detailed=False):
     return english_articles, korean_articles
 
 
+def _salvage_truncated_json(text):
+    """
+    Attempt to recover complete items from a truncated JSON array.
+    1. Fix raw newlines inside string values
+    2. If still broken, find the last complete object and close the array
+    """
+    import re
+    # Step 1: Fix newlines inside string values
+    repaired = re.sub(
+        r'"([^"\\]*(?:\\.[^"\\]*)*)"',
+        lambda m: '"' + m.group(1).replace('\n', ' ').replace('\r', '') + '"',
+        text
+    )
+    try:
+        return json.loads(repaired)
+    except json.JSONDecodeError:
+        pass
+
+    # Step 2: Find last complete object and close the array
+    last_complete = repaired.rfind('},')
+    if last_complete == -1:
+        last_complete = repaired.rfind('}')
+    if last_complete != -1:
+        truncated = repaired[:last_complete + 1] + ']'
+        bracket_pos = truncated.find('[')
+        if bracket_pos != -1:
+            truncated = truncated[bracket_pos:]
+        return json.loads(truncated)
+
+    raise json.JSONDecodeError("Cannot salvage truncated JSON", text, 0)
+
+
 def generate_drill_sentences(en_articles):
     """
     Generate speaking drill data from English articles.
@@ -235,9 +267,29 @@ def generate_drill_sentences(en_articles):
         articles_text += f"\n--- Article {i+1}: {a['title']} ---\n"
         articles_text += a['article'] + "\n"
 
-    prompt = f"""You are an English speaking coach for Korean learners at B1 level aiming for B2.
+    num_sentences = min(len(en_articles) * 5, 20)
 
-From the articles below, select exactly {len(en_articles) * 5} key sentences (5 per article) that are most useful for speaking practice.
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            if attempt > 0:
+                print(f"  [.] Waiting {retry_wait}s before retry...")
+                time.sleep(retry_wait)
+            else:
+                # Polite delay after previous API calls
+                print(f"  [.] Waiting {REQUEST_DELAY}s between requests...")
+                time.sleep(REQUEST_DELAY)
+
+            # Reduce sentence count on later retries to avoid truncation
+            if attempt >= 2:
+                effective_count = max(num_sentences // 2, 5)
+                print(f"  [!] Reducing to {effective_count} sentences for retry")
+            else:
+                effective_count = num_sentences
+
+            prompt = f"""You are an English speaking coach for Korean learners at B1 level aiming for B2.
+
+From the articles below, select exactly {effective_count} key sentences that are most useful for speaking practice.
 
 Selection criteria:
 - Contains B2-level vocabulary or expressions
@@ -268,26 +320,21 @@ Example output format:
 ARTICLES:
 {articles_text}"""
 
-    retry_wait = 5
-    for attempt in range(MAX_RETRIES):
-        try:
-            if attempt > 0:
-                print(f"  [.] Waiting {retry_wait}s before retry...")
-                time.sleep(retry_wait)
-            else:
-                # Polite delay after previous API calls
-                print(f"  [.] Waiting {REQUEST_DELAY}s between requests...")
-                time.sleep(REQUEST_DELAY)
-
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    max_output_tokens=4000,
+                    max_output_tokens=8192,
                     temperature=0.3,  # Lower temp for structured output
                     response_mime_type="application/json",  # Force pure JSON output
                 )
             )
+
+            # Check if output was truncated
+            if response.candidates and response.candidates[0].finish_reason:
+                finish_reason = str(response.candidates[0].finish_reason)
+                if "STOP" not in finish_reason:
+                    print(f"  [!] Response truncated (finish_reason={finish_reason}), will attempt salvage")
 
             # Parse JSON response
             text = response.text.strip()
@@ -300,14 +347,9 @@ ARTICLES:
             try:
                 drill_data = json.loads(text)
             except json.JSONDecodeError:
-                # Repair: fix raw newlines inside JSON string values
-                import re
-                repaired = re.sub(
-                    r'"([^"\\]*(?:\\.[^"\\]*)*)"',
-                    lambda m: '"' + m.group(1).replace('\n', ' ').replace('\r', '') + '"',
-                    text
-                )
-                drill_data = json.loads(repaired)
+                print(f"  [!] Direct JSON parse failed, attempting salvage (text length: {len(text)} chars)...")
+                drill_data = _salvage_truncated_json(text)
+                print(f"  [OK] Salvaged {len(drill_data)} items from truncated response")
 
             # Validate structure
             required_keys = {"sentence", "korean", "blank", "blank_answer", "swap_word"}

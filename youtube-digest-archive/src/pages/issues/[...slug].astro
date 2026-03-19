@@ -377,6 +377,7 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 
 		let currentSelection = '';
 		let triggerTimer = null;
+		let touchingTrigger = false;
 
 		function hideTrigger() {
 			trigger.hidden = true;
@@ -413,10 +414,18 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		content.addEventListener('touchend', () => setTimeout(showTriggerForSelection, 50));
 
 		// Hide on scroll, click outside, or new touch
-		document.addEventListener('scroll', hideTrigger, { passive: true });
-		document.addEventListener('touchstart', (e) => {
-			if (!trigger.contains(e.target)) hideTrigger();
+		document.addEventListener('scroll', () => {
+			if (!touchingTrigger) hideTrigger();
 		}, { passive: true });
+		document.addEventListener('touchstart', (e) => {
+			if (trigger.contains(e.target)) {
+				touchingTrigger = true;
+			} else {
+				hideTrigger();
+			}
+		}, { passive: true });
+		document.addEventListener('touchend', () => { touchingTrigger = false; }, { passive: true });
+		document.addEventListener('touchcancel', () => { touchingTrigger = false; }, { passive: true });
 
 		// Get surrounding context for better AI understanding
 		function getContext(sel) {
