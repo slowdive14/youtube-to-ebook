@@ -406,12 +406,19 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 
 			// Auto-hide after 3 seconds
 			if (triggerTimer) clearTimeout(triggerTimer);
-			triggerTimer = setTimeout(hideTrigger, 3000);
+			triggerTimer = setTimeout(hideTrigger, 5000);
 		}
 
 		// Show on mouseup (desktop) and touchend (mobile) — fires once per selection
 		content.addEventListener('mouseup', () => setTimeout(showTriggerForSelection, 50));
 		content.addEventListener('touchend', () => setTimeout(showTriggerForSelection, 50));
+
+		// selectionchange: most reliable on mobile (fires when long-press selection or handles move)
+		let selChangeTimer = null;
+		document.addEventListener('selectionchange', () => {
+			if (selChangeTimer) clearTimeout(selChangeTimer);
+			selChangeTimer = setTimeout(showTriggerForSelection, 300);
+		});
 
 		// Hide on scroll, click outside, or new touch
 		document.addEventListener('scroll', () => {
