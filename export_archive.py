@@ -221,6 +221,11 @@ def push_to_archive_repo(content, filename):
             ["git", "commit", "-m", f"Add issue {filename}"],
             cwd=str(repo_path), check=True, capture_output=True,
         )
+        # Pull latest remote changes (rebase) before pushing to handle diverged branches
+        subprocess.run(
+            ["git", "pull", "--rebase"],
+            cwd=str(repo_path), check=True, capture_output=True,
+        )
         subprocess.run(
             ["git", "push"],
             cwd=str(repo_path), check=True, capture_output=True,
