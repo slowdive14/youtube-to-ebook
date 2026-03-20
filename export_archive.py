@@ -221,11 +221,23 @@ def push_to_archive_repo(content, filename):
             ["git", "commit", "-m", f"Add issue {filename}"],
             cwd=str(repo_path), check=True, capture_output=True,
         )
-        # Pull latest remote changes (rebase) before pushing to handle diverged branches
-        subprocess.run(
-            ["git", "pull", "--rebase"],
-            cwd=str(repo_path), check=True, capture_output=True,
+        # Stash any unstaged changes so pull --rebase doesn't fail
+        stash_result = subprocess.run(
+            ["git", "stash"],
+            cwd=str(repo_path), capture_output=True,
         )
+        stashed = b"No local changes" not in stash_result.stdout
+        try:
+            subprocess.run(
+                ["git", "pull", "--rebase"],
+                cwd=str(repo_path), check=True, capture_output=True,
+            )
+        finally:
+            if stashed:
+                subprocess.run(
+                    ["git", "stash", "pop"],
+                    cwd=str(repo_path), capture_output=True,
+                )
         subprocess.run(
             ["git", "push"],
             cwd=str(repo_path), check=True, capture_output=True,
