@@ -261,13 +261,15 @@ def generate_drill_sentences(en_articles):
     if not en_articles:
         return []
 
-    # Combine all article texts for context
+    # Combine all article texts for context (limit to 6000 chars to avoid output truncation)
     articles_text = ""
     for i, a in enumerate(en_articles):
         articles_text += f"\n--- Article {i+1}: {a['title']} ---\n"
         articles_text += a['article'] + "\n"
+    if len(articles_text) > 6000:
+        articles_text = articles_text[:6000] + "\n...(truncated)"
 
-    num_sentences = min(len(en_articles) * 5, 20)
+    num_sentences = min(len(en_articles) * 5, 15)
 
     retry_wait = 5
     for attempt in range(MAX_RETRIES):
@@ -281,7 +283,7 @@ def generate_drill_sentences(en_articles):
                 time.sleep(REQUEST_DELAY)
 
             # Reduce sentence count on later retries to avoid truncation
-            if attempt >= 2:
+            if attempt >= 1:
                 effective_count = max(num_sentences // 2, 5)
                 print(f"  [!] Reducing to {effective_count} sentences for retry")
             else:
@@ -326,7 +328,6 @@ ARTICLES:
                 config=types.GenerateContentConfig(
                     max_output_tokens=8192,
                     temperature=0.3,  # Lower temp for structured output
-                    response_mime_type="application/json",  # Force pure JSON output
                 )
             )
 
