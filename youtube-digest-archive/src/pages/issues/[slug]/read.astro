@@ -2,7 +2,8 @@
 // src/pages/issues/[slug]/read.astro
 // A clean, stripped-down reader page optimized for Chrome's "Listen to this page"
 // No navigation, no audio player, no dictionary popup - just pure article text.
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
+import { marked } from 'marked';
 
 export async function getStaticPaths() {
 	const issues = await getCollection('issues');
@@ -13,7 +14,15 @@ export async function getStaticPaths() {
 }
 
 const { issue } = Astro.props;
-const { Content } = await render(issue);
+
+// Split by '## 한국어' to extract only the English part
+let englishBody = issue.body;
+if (englishBody.includes('## 한국어')) {
+	englishBody = englishBody.split('## 한국어')[0];
+}
+
+// Convert markdown to HTML on the server
+const contentHtml = marked.parse(englishBody);
 
 const dateObj = new Date(issue.data.date);
 const formattedDate = dateObj.toLocaleDateString('en-US', {
@@ -147,43 +156,10 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		<time datetime={issue.data.date.toISOString().split('T')[0]}>{formattedDate}</time>
 	</header>
 
-	<article>
-		<Content />
-	</article>
+	<article set:html={contentHtml} />
 
 	<footer>
 		<a href={`/issues/${issue.id}`}>&larr; Back to full version</a>
 	</footer>
-
-	<script>
-		// Remove Korean section entirely so Chrome sees only English content
-		document.addEventListener('DOMContentLoaded', () => {
-			const article = document.querySelector('article');
-			if (!article) return;
-
-			const children = Array.from(article.children);
-			let koFound = false;
-
-			for (const el of children) {
-				if (koFound) {
-					el.remove();
-					continue;
-				}
-				// Detect ## 한국어 heading
-				if (el.tagName === 'H2' && /^한국어$/i.test(el.textContent.trim())) {
-					koFound = true;
-					el.remove();
-				}
-			}
-
-			// Also remove the "## English" label heading if present — it's redundant
-			const headings = article.querySelectorAll('h2');
-			headings.forEach(h => {
-				if (/^English$/i.test(h.textContent.trim())) {
-					h.remove();
-				}
-			});
-		});
-	</script>
 </body>
 </html>
