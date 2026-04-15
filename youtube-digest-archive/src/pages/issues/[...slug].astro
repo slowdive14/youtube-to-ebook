@@ -48,9 +48,9 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 	</div>
 	<div id="mobile-toc-backdrop" class="mobile-toc-backdrop" hidden></div>
 
-	<article class="issue-container">
+	<article class="issue-container" itemscope itemtype="http://schema.org/Article">
 		<header class="issue-header">
-			<h1>{isKorean ? "YouTube 다이제스트" : "YouTube Digest"}</h1>
+			<h1 itemprop="headline">{isKorean ? "YouTube 다이제스트" : "YouTube Digest"}</h1>
 			<div class="date">{formattedDate}</div>
 		</header>
 
@@ -89,7 +89,7 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			</div>
 		)}
 
-		<section class="markdown-content">
+		<section class="markdown-content" itemprop="articleBody">
 			<Content />
 		</section>
 	</article>
