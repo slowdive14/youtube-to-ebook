@@ -154,5 +154,36 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 	<footer>
 		<a href={`/issues/${issue.id}`}>&larr; Back to full version</a>
 	</footer>
+
+	<script>
+		// Remove Korean section entirely so Chrome sees only English content
+		document.addEventListener('DOMContentLoaded', () => {
+			const article = document.querySelector('article');
+			if (!article) return;
+
+			const children = Array.from(article.children);
+			let koFound = false;
+
+			for (const el of children) {
+				if (koFound) {
+					el.remove();
+					continue;
+				}
+				// Detect ## 한국어 heading
+				if (el.tagName === 'H2' && /^한국어$/i.test(el.textContent.trim())) {
+					koFound = true;
+					el.remove();
+				}
+			}
+
+			// Also remove the "## English" label heading if present — it's redundant
+			const headings = article.querySelectorAll('h2');
+			headings.forEach(h => {
+				if (/^English$/i.test(h.textContent.trim())) {
+					h.remove();
+				}
+			});
+		});
+	</script>
 </body>
 </html>
