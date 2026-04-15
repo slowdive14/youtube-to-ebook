@@ -89,6 +89,12 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			</div>
 		)}
 
+		<div class="reader-mode-link" style="text-align: center; margin: 1.5rem 0; padding: 0.8rem; background: #f0f7ff; border-radius: 8px; border: 1px solid #d0e3f7;">
+			<a href={`/issues/${issue.id}/read`} style="color: #1a73e8; text-decoration: none; font-family: system-ui, sans-serif; font-size: 0.95rem;">
+				📖 Reader Mode — Chrome "Listen to this page" 지원
+			</a>
+		</div>
+
 		<section class="markdown-content" itemprop="articleBody">
 			<Content />
 		</section>
