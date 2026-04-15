@@ -89,9 +89,9 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			</div>
 		)}
 
-		<div class="markdown-content">
+		<section class="markdown-content">
 			<Content />
-		</div>
+		</section>
 	</article>
 
 	<!-- Dictionary lookup popup -->
@@ -119,6 +119,57 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 				readSet.add(slug);
 				localStorage.setItem(STORAGE_KEY, JSON.stringify([...readSet]));
 			} catch {}
+		}
+	});
+</script>
+
+<script>
+	// Wrap English/Korean content sections with lang attributes
+	// so Chrome "Listen to this page" can detect readable English content
+	document.addEventListener('DOMContentLoaded', () => {
+		const content = document.querySelector('.markdown-content');
+		if (!content) return;
+
+		const children = Array.from(content.children);
+		let enStart = -1, koStart = -1;
+
+		// Find the ## English and ## 한국어 heading indices
+		children.forEach((el, i) => {
+			if (el.tagName === 'H2') {
+				const text = el.textContent.trim();
+				if (/^English$/i.test(text)) enStart = i;
+				else if (/^한국어$/i.test(text)) koStart = i;
+			}
+		});
+
+		// Only proceed if we found language dividers
+		if (enStart === -1) return;
+
+		const enEnd = koStart !== -1 ? koStart : children.length;
+
+		// Wrap English section
+		const enSection = document.createElement('section');
+		enSection.setAttribute('lang', 'en');
+		enSection.className = 'lang-section lang-en';
+		const enNodes = children.slice(enStart, enEnd);
+		enNodes[0].before(enSection);
+		enNodes.forEach(node => enSection.appendChild(node));
+
+		// Wrap Korean section if present
+		if (koStart !== -1) {
+			const koSection = document.createElement('section');
+			koSection.setAttribute('lang', 'ko');
+			koSection.className = 'lang-section lang-ko';
+			// Re-read remaining children after English wrap
+			const remaining = Array.from(content.children);
+			const koHeadingIdx = remaining.findIndex(el =>
+				el.tagName === 'H2' && /^한국어$/i.test(el.textContent.trim())
+			);
+			if (koHeadingIdx !== -1) {
+				const koNodes = remaining.slice(koHeadingIdx);
+				koNodes[0].before(koSection);
+				koNodes.forEach(node => koSection.appendChild(node));
+			}
 		}
 	});
 </script>
