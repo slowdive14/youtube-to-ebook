@@ -2,10 +2,8 @@
 @eoglobal
 @EveryInc
 @Freakonomics
-@GregIsenberg
 @howiaipodcast
 @NoPriorsPodcast
-@DwarkeshPatel
-@a16z
 @CognitiveRevolution
 @NYTPodcasts
+@hardfork
