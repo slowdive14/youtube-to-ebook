@@ -65,6 +65,7 @@ def write_article(video, is_first=True, language='en', detailed=False):
 
 ## 기사 형식
 - 매력적인 헤드라인 (비디오 제목과 다르게)
+- 기사 제목은 반드시 단일 H1 (`# 제목`) 으로 시작, 내부 섹션은 H2/H3 만 사용
 - 도입부에서 핵심을 요약하여 독자의 관심을 끄세요
 - 논리적 흐름: 배경 → 핵심 주장 → 근거 → 시사점
 - 비디오 요약이 아닌 독립적인 기사로 작성
@@ -97,6 +98,7 @@ URL: {video['url']}
     else:
         style_guide = """Write a magazine-style article. Guidelines:
 - Engaging headline (different from video title)
+- Start with a single H1 headline (`# Title`); use H2/H3 only for internal sections
 - Clear, readable prose for general audience
 - Capture key insights, quotes, and surprising points
 - Write as standalone article, not video summary

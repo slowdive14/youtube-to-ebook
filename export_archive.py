@@ -13,6 +13,7 @@ if sys.stdout.encoding != 'utf-8':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 import os
+import re
 import subprocess
 from datetime import datetime
 from pathlib import Path
@@ -161,7 +162,7 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> Based on **"{a["title"]}"** from **{a["channel"]}**\n'
                 f'> [Watch the original video]({a["url"]})\n\n'
             )
-            body_parts.append(a["article"])
+            body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
             body_parts.append("\n")
 
     if en_articles and ko_articles:
@@ -176,11 +177,64 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> **"{a["title"]}"** — **{a["channel"]}** 기반 기사\n'
                 f'> [원본 영상 보기]({a["url"]})\n\n'
             )
-            body_parts.append(a["article"])
+            body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
             body_parts.append("\n")
 
     content = frontmatter + "\n" + "".join(body_parts)
     return filename, content
+
+
+_FENCE_RE = re.compile(r'(```[\s\S]*?```)')
+_HEADING_RE = re.compile(r'^(#{1,6})([^\S\n].*)$', re.MULTILINE)
+
+
+def _normalize_article_headings(article_text, fallback_title=None):
+    """Guarantee exactly one H1 at the start of the article.
+
+    The archive site's TOC assumes each article begins with an H1 (group
+    header) followed by H2/H3 (children). Gemini's heading level varies
+    between runs, so we normalize here instead of trusting the model.
+
+    Rules:
+      - First heading is promoted to H1 (even if Gemini used ##/###).
+      - Any subsequent H1 is demoted to H2 (prevents mid-article TOC breaks).
+      - Other heading levels are untouched.
+      - Content inside fenced code blocks is left alone.
+      - If the article has no heading at all and fallback_title is given,
+        prepend "# {fallback_title}" so the article still appears in TOC.
+    """
+    parts = _FENCE_RE.split(article_text)
+    seen_first = [False]  # list for closure mutability across inner calls
+
+    def process(segment):
+        lines = segment.split('\n')
+        out = []
+        for line in lines:
+            m = _HEADING_RE.match(line)
+            if not m:
+                out.append(line)
+                continue
+            level = len(m.group(1))
+            rest = m.group(2)
+            if not seen_first[0]:
+                out.append('#' + rest)  # promote to H1
+                seen_first[0] = True
+            else:
+                new_level = max(level, 2)  # demote stray H1 to H2
+                out.append('#' * new_level + rest)
+        return '\n'.join(out)
+
+    result = []
+    for i, part in enumerate(parts):
+        if i % 2 == 1:  # odd indices are fenced code blocks
+            result.append(part)
+        else:
+            result.append(process(part))
+
+    normalized = ''.join(result)
+    if not seen_first[0] and fallback_title:
+        normalized = f'# {fallback_title}\n\n' + normalized
+    return normalized
 
 
 def _escape_yaml(s):
