@@ -17,6 +17,7 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 from dotenv import load_dotenv
+import requests
 
 load_dotenv()
 
@@ -29,6 +30,9 @@ R2_PUBLIC_URL = os.getenv("R2_PUBLIC_URL", "")  # e.g. https://pub-xxx.r2.dev
 
 # Archive repo path
 ARCHIVE_REPO_PATH = os.getenv("ARCHIVE_REPO_PATH", "")
+
+# Vercel Deploy Hook (explicit rebuild trigger, independent of GitHub auto webhook)
+VERCEL_DEPLOY_HOOK_URL = os.getenv("VERCEL_DEPLOY_HOOK_URL", "")
 
 
 def _get_r2_client():
@@ -250,6 +254,24 @@ def push_to_archive_repo(content, filename):
         return False
 
 
+def trigger_vercel_deploy():
+    """Explicitly POST to the Vercel Deploy Hook to force a rebuild.
+
+    Independent of the GitHub -> Vercel auto webhook, so a dropped or
+    skipped webhook does not silently leave the site stale.
+    """
+    if not VERCEL_DEPLOY_HOOK_URL:
+        return
+    try:
+        r = requests.post(VERCEL_DEPLOY_HOOK_URL, timeout=30)
+        if r.ok:
+            print("  [OK] Vercel deploy hook triggered")
+        else:
+            print(f"  [!] Vercel deploy hook returned HTTP {r.status_code}")
+    except Exception as e:
+        print(f"  [!] Vercel deploy hook failed: {e}")
+
+
 def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None):
     """
     Main entry point for archive export.
@@ -273,6 +295,10 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
     )
 
     # 3. Push to archive repo
-    push_to_archive_repo(content, filename)
+    pushed = push_to_archive_repo(content, filename)
+
+    # 4. Explicitly trigger Vercel rebuild (belt-and-suspenders over GitHub auto webhook)
+    if pushed:
+        trigger_vercel_deploy()
 
     print("  [OK] Archive export complete\n")
