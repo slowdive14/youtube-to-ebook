@@ -1,3 +1,3 @@
 {
-  "buildCommand": "rm -rf .astro && npm run build"
+  "buildCommand": "rm -rf .astro node_modules/.astro .vercel/cache dist && npm run build"
 }
