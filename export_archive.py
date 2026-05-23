@@ -107,14 +107,20 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         else:
             subject = f"YouTube Digest {date_str}"
 
-    # Build articles metadata for frontmatter
+    # Build articles metadata for frontmatter (with per-episode summary)
     articles_meta = []
     for a in (en_articles or []):
-        articles_meta.append(
+        entry = (
             f'  - title: "{_escape_yaml(a["title"])}"\n'
             f'    channel: "{_escape_yaml(a["channel"])}"\n'
             f'    url: "{a["url"]}"'
         )
+        summary = (a.get("summary") or "").strip()
+        if summary:
+            # YAML folded scalar keeps the summary readable across multiple lines
+            indented = "\n".join("      " + line for line in summary.splitlines() if line.strip())
+            entry += f'\n    summary: >-\n{indented}'
+        articles_meta.append(entry)
 
     # Build audio URLs for frontmatter
     audio_lines = ""
@@ -162,6 +168,12 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> Based on **"{a["title"]}"** from **{a["channel"]}**\n'
                 f'> [Watch the original video]({a["url"]})\n\n'
             )
+            summary = (a.get("summary") or "").strip()
+            if summary:
+                body_parts.append(
+                    "**Episode summary**\n\n"
+                    f"{summary}\n\n"
+                )
             body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
             body_parts.append("\n")
 
@@ -177,6 +189,12 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> **"{a["title"]}"** — **{a["channel"]}** 기반 기사\n'
                 f'> [원본 영상 보기]({a["url"]})\n\n'
             )
+            summary = (a.get("summary") or "").strip()
+            if summary:
+                body_parts.append(
+                    "**에피소드 요약**\n\n"
+                    f"{summary}\n\n"
+                )
             body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
             body_parts.append("\n")
 

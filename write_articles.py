@@ -162,6 +162,102 @@ TRANSCRIPT:
     return None
 
 
+def generate_summary(video, language='en', is_first=True):
+    """
+    Generate a concrete per-episode summary so a reader can grasp the content
+    without reading the full article. Target length: 4-6 sentences covering
+    topic, key claims, supporting evidence/examples, and takeaway.
+
+    language: 'en' or 'ko'
+    Returns the summary string, or None on failure.
+    """
+    transcript = video.get('transcript', '')
+    # Use only the first portion of the transcript — summary doesn't need full context
+    max_words = 4000
+    words = transcript.split()
+    if len(words) > max_words:
+        transcript = ' '.join(words[:max_words]) + "\n\n[Transcript truncated...]"
+
+    if language == 'ko':
+        prompt = f"""이 YouTube 영상의 핵심을 4~6 문장으로 구체적으로 요약하세요.
+
+제목: {video['title']}
+채널: {video['channel']}
+
+트랜스크립트:
+{transcript}
+
+---
+
+요약 작성 규칙:
+- 4~6 문장, 한국어로 작성
+- "이 영상은…" 같은 상투적 도입부 금지. 곧바로 핵심 내용부터 서술
+- 다음 요소를 반드시 포함:
+  1) 다루는 주제·문제 (무엇에 대한 영상인가)
+  2) 화자의 핵심 주장 또는 결론
+  3) 주장을 뒷받침하는 구체적 근거·데이터·사례 (있다면 숫자·인명·실험명 명시)
+  4) 시청자가 얻을 수 있는 시사점 또는 행동 함의
+- 추상적 표현("흥미로운 관점을 제시한다", "다양한 사례를 다룬다") 금지. 무엇이 어떻게 흥미로운지 구체적으로 명시
+- 전문 용어는 한글(영어) 병기
+- 마크다운·헤딩·불릿 사용 금지. 평문 단락으로만 작성"""
+    else:
+        prompt = f"""Write a concrete 4-6 sentence summary of this YouTube video so a reader can understand what it covers without watching it.
+
+TITLE: {video['title']}
+CHANNEL: {video['channel']}
+
+TRANSCRIPT:
+{transcript}
+
+---
+
+Rules:
+- 4 to 6 sentences, plain prose paragraph
+- No filler openings like "This video discusses…" — open with the actual subject
+- Must include:
+  1) The topic / question the video addresses
+  2) The speaker's central claim or conclusion
+  3) Specific supporting evidence (numbers, names, studies, examples)
+  4) The practical takeaway for the viewer
+- No vague phrases ("interesting perspective", "various examples"). Name the actual perspectives and examples.
+- No markdown, no headings, no bullets — single paragraph only."""
+
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            # Light pacing — summary calls happen between heavier article calls
+            if not is_first or attempt > 0:
+                time.sleep(min(REQUEST_DELAY, 8) if attempt == 0 else retry_wait)
+
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=600,
+                    temperature=0.4,
+                )
+            )
+            summary = (response.text or "").strip()
+            # Strip stray markdown headings if the model added them anyway
+            summary = "\n".join(
+                line for line in summary.splitlines()
+                if not line.lstrip().startswith("#")
+            ).strip()
+            return summary or None
+
+        except Exception as e:
+            error_str = str(e).lower()
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] Summary API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
+                retry_wait *= 2
+                continue
+            print(f"  [!] Failed to generate summary: {e}")
+            return None
+
+    return None
+
+
 def write_articles_for_videos(videos, language='en', detailed=False):
     """
     Generate articles for all videos with transcripts.
@@ -181,11 +277,20 @@ def write_articles_for_videos(videos, language='en', detailed=False):
         article = write_article(video, is_first=(i == 0), language=language, detailed=detailed)
 
         if article:
+            # Per-episode summary so readers can grasp content without reading full article
+            print(f"  [.] Generating episode summary...")
+            summary = generate_summary(video, language=language, is_first=False)
+            if summary:
+                print(f"  [OK] Summary ready ({len(summary)} chars)")
+            else:
+                print(f"  [!] Summary unavailable (non-fatal)")
+
             articles.append({
                 "title": video["title"],
                 "channel": video["channel"],
                 "url": video["url"],
-                "article": article
+                "article": article,
+                "summary": summary or ""
             })
             print(f"  [OK] Article generated!")
         else:

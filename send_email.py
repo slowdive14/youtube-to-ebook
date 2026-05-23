@@ -96,10 +96,24 @@ def create_epub(articles, language='en'):
 
     chapters = []
 
+    summary_label = "에피소드 요약" if language == 'ko' else "Episode summary"
+
     # Create a chapter for each article
     for i, article in enumerate(articles):
         # Convert markdown to HTML
         article_html = markdown.markdown(article['article'])
+
+        summary_text = (article.get('summary') or '').strip()
+        summary_block = ""
+        if summary_text:
+            paragraphs = "".join(
+                f"<p>{p.strip()}</p>"
+                for p in summary_text.split("\n\n") if p.strip()
+            ) or f"<p>{summary_text}</p>"
+            summary_block = (
+                f'<div class="intro" style="background:#fff8e1; border-left:3px solid #fbc02d;">'
+                f'<p><strong>{summary_label}</strong></p>{paragraphs}</div>'
+            )
 
         chapter_content = f"""
         <html>
@@ -110,6 +124,7 @@ def create_epub(articles, language='en'):
             <div class="intro">
                 <p><em>This article is based on the video "<strong>{article['title']}</strong>" from the YouTube channel <strong>{article['channel']}</strong>.</em></p>
             </div>
+            {summary_block}
             {article_html}
             <p class="watch-link">Watch the original video: {article['url']}</p>
         </body>
@@ -304,15 +319,33 @@ def create_newsletter_html(articles, language='en', audio_cids=None):
             """
         html += audio_player_html
 
+    summary_label = "에피소드 요약" if language == 'ko' else "Episode summary"
+
     for i, article in enumerate(articles):
         # Convert markdown article to HTML
         article_html = markdown.markdown(article['article'])
-        
+
+        summary_text = (article.get('summary') or '').strip()
+        summary_block = ""
+        if summary_text:
+            # Render as paragraphs in case the model produced multiple lines
+            paragraphs = "".join(
+                f"<p>{p.strip()}</p>"
+                for p in summary_text.split("\n\n") if p.strip()
+            ) or f"<p>{summary_text}</p>"
+            summary_block = f"""
+            <div style="background:#fff8e1; padding:18px 22px; border-left:4px solid #fbc02d; border-radius:4px; margin-bottom:24px; font-size:17px; line-height:1.7; color:#333;">
+                <div style="font-weight:bold; color:#795548; font-size:14px; letter-spacing:1px; margin-bottom:8px; text-transform:uppercase;">{summary_label}</div>
+                {paragraphs}
+            </div>
+            """
+
         html += f"""
         <article class="article">
             <div class="article-intro">
                 <em>This article is based on the video "<strong>{article['title']}</strong>" from the YouTube channel <strong>{article['channel']}</strong>.</em>
             </div>
+            {summary_block}
             <section class="article-content">
                 {article_html}
             </section>

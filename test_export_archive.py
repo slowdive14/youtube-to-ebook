@@ -104,6 +104,34 @@ class TestGenerateIssueMarkdown:
         assert "---" in content
         assert "YouTube Digest" in content
 
+    def test_summary_in_frontmatter_and_body(self):
+        articles = [{
+            "title": "Sleep and the Brain",
+            "channel": "NeuroChannel",
+            "url": "https://youtube.com/watch?v=xyz",
+            "article": "# Headline\n\nFull body...",
+            "summary": "Walker presents fMRI evidence that one night of sleep "
+                       "deprivation reduces hippocampal learning capacity by 40%.",
+        }]
+        _, content = generate_issue_markdown(articles, [], [])
+        # Frontmatter carries the summary so the listing page can render it
+        assert "summary: >-" in content
+        # Body has a clearly labeled summary block above the article
+        assert "**Episode summary**" in content
+        assert "Walker presents fMRI evidence" in content
+
+    def test_summary_missing_is_optional(self):
+        # Articles without a summary field must still render cleanly
+        articles = [{
+            "title": "No Summary Here",
+            "channel": "Ch",
+            "url": "https://youtube.com/watch?v=000",
+            "article": "# Body\n\nText.",
+        }]
+        _, content = generate_issue_markdown(articles, [], [])
+        assert "summary: >-" not in content
+        assert "**Episode summary**" not in content
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
