@@ -120,6 +120,29 @@ class TestGenerateIssueMarkdown:
         assert "**Episode summary**" in content
         assert "Walker presents fMRI evidence" in content
 
+    def test_multi_paragraph_summary_preserves_blank_lines(self):
+        # Folded YAML scalar needs blank lines preserved so paragraph breaks
+        # survive in the rendered archive site.
+        multi_para = (
+            "First paragraph introducing the topic and main claim.\n\n"
+            "Second paragraph with specific evidence: 40% reduction.\n\n"
+            "Third paragraph with takeaway."
+        )
+        articles = [{
+            "title": "Multi-Para Episode",
+            "channel": "Ch",
+            "url": "https://youtube.com/watch?v=mp",
+            "article": "# Body\n\nText.",
+            "summary": multi_para,
+        }]
+        _, content = generate_issue_markdown(articles, [], [])
+        # Each paragraph's leading content should be present
+        assert "First paragraph introducing" in content
+        assert "Second paragraph with specific evidence" in content
+        assert "Third paragraph with takeaway" in content
+        # Frontmatter should use folded scalar
+        assert "summary: >-" in content
+
     def test_summary_missing_is_optional(self):
         # Articles without a summary field must still render cleanly
         articles = [{

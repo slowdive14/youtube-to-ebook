@@ -117,8 +117,16 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         )
         summary = (a.get("summary") or "").strip()
         if summary:
-            # YAML folded scalar keeps the summary readable across multiple lines
-            indented = "\n".join("      " + line for line in summary.splitlines() if line.strip())
+            # YAML folded scalar: single newlines become spaces, blank lines
+            # become paragraph breaks. Preserve blank lines so multi-paragraph
+            # summaries render correctly in the archive site.
+            indented_lines = []
+            for line in summary.splitlines():
+                if line.strip():
+                    indented_lines.append("      " + line.rstrip())
+                else:
+                    indented_lines.append("")  # blank line preserved
+            indented = "\n".join(indented_lines)
             entry += f'\n    summary: >-\n{indented}'
         articles_meta.append(entry)
 
