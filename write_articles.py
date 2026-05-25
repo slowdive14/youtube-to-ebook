@@ -31,6 +31,92 @@ MAX_RETRIES = 5
 RETRY_DELAY = 30  # seconds to wait on rate limit error (legacy, controlled by backoff now)
 
 
+# ---------- Summary diagnostics helpers (Phase 1) ----------
+
+def _extract_finish_reason(response):
+    """Return finish_reason as a normalized uppercase string, '' on failure.
+
+    Handles enum (with .name), int, and string forms across SDK versions.
+    """
+    try:
+        cand = response.candidates[0]
+        fr = cand.finish_reason
+        if fr is None:
+            return ''
+        if hasattr(fr, 'name'):
+            return str(fr.name).upper()
+        return str(fr).upper()
+    except (AttributeError, IndexError, TypeError):
+        return ''
+
+
+def _is_truncated_finish(finish_reason: str) -> bool:
+    """True when the response was cut by the token cap.
+
+    Gemini reports MAX_TOKENS; some SDK variants emit LENGTH.
+    """
+    fr = (finish_reason or '').upper()
+    # 'STOP' must NOT be classified as truncated even if substring 'STOP' appears
+    if 'STOP' in fr or 'FINISH_REASON_STOP' in fr:
+        return False
+    return 'MAX_TOKENS' in fr or 'LENGTH' in fr
+
+
+def _log_usage_metadata(response, label='Summary'):
+    """Log prompt / output / thinking token counts when available.
+
+    Surfaces the actual thinking-token consumption that silently ate the
+    output budget before this fix.
+    """
+    try:
+        um = getattr(response, 'usage_metadata', None)
+        if um is None:
+            return
+        prompt_t = getattr(um, 'prompt_token_count', None)
+        candidates_t = getattr(um, 'candidates_token_count', None)
+        thoughts_t = (
+            getattr(um, 'thoughts_token_count', None)
+            or getattr(um, 'thinking_token_count', None)
+        )
+        parts = []
+        if prompt_t is not None:
+            parts.append(f"prompt={prompt_t}")
+        if candidates_t is not None:
+            parts.append(f"output={candidates_t}")
+        if thoughts_t is not None:
+            parts.append(f"thinking={thoughts_t}")
+        if parts:
+            print(f"  [.] {label} tokens: {', '.join(parts)}")
+    except Exception:
+        # Diagnostics must never break the main flow
+        pass
+
+
+_SENTENCE_TERMINATORS = '.!?。!?'
+
+
+def _trim_to_sentence_boundary(text: str) -> str:
+    """Trim trailing partial sentence so a truncated response doesn't end mid-word.
+
+    Searches backward for the last sentence terminator. If the cut would
+    leave less than 30% of the original text, returns the original (the
+    truncation happened too early to salvage anything meaningful).
+    """
+    if not text:
+        return text
+    last_idx = -1
+    for i in range(len(text) - 1, -1, -1):
+        if text[i] in _SENTENCE_TERMINATORS:
+            last_idx = i
+            break
+    if last_idx == -1:
+        return text  # no terminator at all — keep original
+    # Keep the trim only if it preserves at least 30% of the content
+    if (last_idx + 1) < len(text) * 0.3:
+        return text
+    return text[:last_idx + 1].rstrip()
+
+
 def write_article(video, is_first=True, language='en', detailed=False):
     """
     Use Gemini to transform a video transcript into a magazine-style article.
