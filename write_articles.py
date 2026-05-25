@@ -331,25 +331,26 @@ Rules:
             if not is_first or attempt > 0:
                 time.sleep(min(REQUEST_DELAY, 8) if attempt == 0 else retry_wait)
 
+            # CRITICAL: Gemini 2.5 Flash enables "thinking" by default, and
+            # thinking tokens are counted against max_output_tokens. For a
+            # focused extraction task like summarization that yields silent
+            # mid-word truncation. Setting thinking_budget=0 disables it.
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    # Korean characters cost 2-3 tokens each. 2500 tokens
-                    # comfortably accommodates a 500-800-char Korean summary
-                    # with reasoning overhead.
-                    max_output_tokens=2500,
+                    max_output_tokens=4000,
                     temperature=0.5,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
                 )
             )
 
-            # Detect truncation so the operator knows the summary is incomplete
-            try:
-                finish_reason = str(response.candidates[0].finish_reason) if response.candidates else ""
-                if finish_reason and "STOP" not in finish_reason and "FINISH_REASON_STOP" not in finish_reason:
-                    print(f"  [!] Summary may be truncated (finish_reason={finish_reason})")
-            except Exception:
-                pass
+            # Surface token usage so future regressions are visible
+            _log_usage_metadata(response, label='Summary')
+
+            finish_reason = _extract_finish_reason(response)
+            if _is_truncated_finish(finish_reason):
+                print(f"  [!] Summary truncated (finish_reason={finish_reason})")
 
             summary = (response.text or "").strip()
             # Strip stray markdown headings if the model added them anyway
