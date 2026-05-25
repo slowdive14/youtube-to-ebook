@@ -324,41 +324,74 @@ Rules:
 - Preserve memorable phrasings or analogies the speaker uses
 - No markdown, no headings, no bullets, no numbered lists — paragraphs only"""
 
+    # Light pacing — summary calls happen between heavier article calls
+    if not is_first:
+        time.sleep(min(REQUEST_DELAY, 8))
+
+    primary_cap = 4000
+    text, finish_reason = _call_summary_api(prompt, primary_cap)
+
+    if text is None:
+        return None
+
+    # Defense in depth: retry once with doubled cap if truncated
+    if _is_truncated_finish(finish_reason):
+        retry_cap = primary_cap * 2
+        print(f"  [!] Summary hit cap ({primary_cap} tok); retrying with {retry_cap}...")
+        text2, finish_reason2 = _call_summary_api(prompt, retry_cap)
+        # Keep the longer of the two — retry may still truncate but usually
+        # produces more content
+        if text2 and len(text2) >= len(text):
+            text = text2
+            finish_reason = finish_reason2
+
+    # Last resort: still truncated → trim trailing partial sentence so the
+    # archive never shows a mid-word cut to the reader
+    if _is_truncated_finish(finish_reason):
+        print(f"  [!] Still truncated after retry; trimming to sentence boundary")
+        text = _trim_to_sentence_boundary(text)
+
+    # Strip stray markdown headings if the model added them anyway
+    summary = "\n".join(
+        line for line in text.splitlines()
+        if not line.lstrip().startswith("#")
+    ).strip()
+    return summary or None
+
+
+def _call_summary_api(prompt, max_output_tokens):
+    """One Gemini summary call with transient-error retry.
+
+    Returns (text, finish_reason) on any non-error outcome — including
+    truncation. The caller decides whether to retry for truncation.
+    Returns (None, '') only after all transient retries are exhausted.
+
+    CRITICAL: Gemini 2.5 Flash enables "thinking" by default, and thinking
+    tokens are counted against max_output_tokens. For a focused extraction
+    task that yields silent mid-word truncation, so thinking_budget=0.
+    """
     retry_wait = 5
     for attempt in range(MAX_RETRIES):
         try:
-            # Light pacing — summary calls happen between heavier article calls
-            if not is_first or attempt > 0:
-                time.sleep(min(REQUEST_DELAY, 8) if attempt == 0 else retry_wait)
+            if attempt > 0:
+                time.sleep(retry_wait)
 
-            # CRITICAL: Gemini 2.5 Flash enables "thinking" by default, and
-            # thinking tokens are counted against max_output_tokens. For a
-            # focused extraction task like summarization that yields silent
-            # mid-word truncation. Setting thinking_budget=0 disables it.
             response = client.models.generate_content(
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    max_output_tokens=4000,
+                    max_output_tokens=max_output_tokens,
                     temperature=0.5,
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
                 )
             )
 
-            # Surface token usage so future regressions are visible
             _log_usage_metadata(response, label='Summary')
-
             finish_reason = _extract_finish_reason(response)
             if _is_truncated_finish(finish_reason):
                 print(f"  [!] Summary truncated (finish_reason={finish_reason})")
 
-            summary = (response.text or "").strip()
-            # Strip stray markdown headings if the model added them anyway
-            summary = "\n".join(
-                line for line in summary.splitlines()
-                if not line.lstrip().startswith("#")
-            ).strip()
-            return summary or None
+            return ((response.text or "").strip(), finish_reason)
 
         except Exception as e:
             error_str = str(e).lower()
@@ -368,9 +401,9 @@ Rules:
                 retry_wait *= 2
                 continue
             print(f"  [!] Failed to generate summary: {e}")
-            return None
+            return (None, '')
 
-    return None
+    return (None, '')
 
 
 def write_articles_for_videos(videos, language='en', detailed=False):
