@@ -280,14 +280,15 @@ def generate_summary(video, language='en', is_first=True):
 요약 작성 규칙:
 
 [분량]
-- 한국어 기준 약 500~800자 (공백 포함)
-- 2~3개의 단락으로 구성 (단락 사이는 빈 줄로 구분)
-- 너무 짧으면 안 됨. 한두 문장으로 끝내지 말 것
+- 한국어 기준 약 300~500자 (공백 포함)
+- 정확히 2개의 단락으로 구성 (단락 사이는 빈 줄 하나로 구분)
+- 한 두 문장으로 끝내지 말 것. 그러나 셋째 단락은 절대 만들지 말 것
 
-[필수 포함 요소]
-1) 첫 단락: 영상이 다루는 주제와 화자가 던지는 핵심 질문·문제, 그리고 그에 대한 화자의 결론·주장을 명확히 제시
-2) 둘째 단락: 주장을 뒷받침하는 구체적 근거 — 인용된 연구, 데이터, 숫자(있는 그대로 명시), 인명, 실험·사례, 화자의 개인 경험 등을 최소 2~3개 구체적으로 서술
-3) 셋째 단락(선택): 반론·한계·뉘앙스, 그리고 시청자가 실제로 적용할 수 있는 시사점 또는 행동 함의
+[필수 포함 요소 — 두 단락 안에 모두 담을 것]
+1) 첫 단락: 영상이 다루는 주제와 화자의 핵심 주장·결론을 명확히 제시하고,
+   그 주장을 뒷받침하는 가장 구체적인 근거 1~2개(연구·숫자·인명·사례 중 가장 강한 것)를 함께 녹여 넣을 것
+2) 둘째 단락: 시청자가 실제로 적용할 수 있는 시사점·행동 함의를 중심으로,
+   필요하다면 반론·한계·뉘앙스를 짧게 곁들일 것
 
 [문체]
 - "이 영상은…", "이 비디오에서는…" 같은 상투적 도입부 금지. 바로 본 내용부터 서술
@@ -309,14 +310,16 @@ TRANSCRIPT:
 Rules:
 
 [Length]
-- Roughly 700-1100 characters of English prose (about 120-180 words)
-- 2-3 paragraphs separated by blank lines
-- Do NOT stop at one or two sentences
+- Roughly 400-700 characters of English prose (about 70-120 words)
+- EXACTLY 2 paragraphs separated by a single blank line — never 3
+- Do NOT stop at one or two sentences, but do NOT pad either
 
-[Required content]
-1) First paragraph: the topic and the central question the speaker poses, plus the speaker's main claim or conclusion
-2) Second paragraph: at least 2-3 specific pieces of supporting evidence — cited studies, numbers (use the actual figures), names, experiments, anecdotes, or personal stories from the speaker
-3) Third paragraph (optional): counter-arguments, caveats, nuance, and a practical takeaway the viewer can actually act on
+[Required content — fit it ALL into two paragraphs]
+1) First paragraph: the topic and the speaker's central claim/conclusion,
+   plus the 1-2 strongest pieces of supporting evidence (a cited study,
+   a specific number, a named experiment, or a concrete anecdote) woven in.
+2) Second paragraph: the practical takeaway the viewer can act on, with
+   a brief mention of caveat/nuance/counter-argument if relevant.
 
 [Style]
 - No filler openings like "This video discusses…" or "In this video…" — open with the actual subject
