@@ -176,13 +176,12 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> Based on **"{a["title"]}"** from **{a["channel"]}**\n'
                 f'> [Watch the original video]({a["url"]})\n\n'
             )
-            summary = (a.get("summary") or "").strip()
-            if summary:
-                body_parts.append(
-                    "**Episode summary**\n\n"
-                    f"{summary}\n\n"
-                )
-            body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
+            article_md = _normalize_article_headings(a["article"], fallback_title=a["title"])
+            # Inject summary as H3 inside the article body so the TOC picks it up
+            article_md = _inject_summary_after_h1(
+                article_md, a.get("summary", ""), label="Episode summary"
+            )
+            body_parts.append(article_md)
             body_parts.append("\n")
 
     if en_articles and ko_articles:
@@ -197,13 +196,11 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> **"{a["title"]}"** — **{a["channel"]}** 기반 기사\n'
                 f'> [원본 영상 보기]({a["url"]})\n\n'
             )
-            summary = (a.get("summary") or "").strip()
-            if summary:
-                body_parts.append(
-                    "**에피소드 요약**\n\n"
-                    f"{summary}\n\n"
-                )
-            body_parts.append(_normalize_article_headings(a["article"], fallback_title=a["title"]))
+            article_md = _normalize_article_headings(a["article"], fallback_title=a["title"])
+            article_md = _inject_summary_after_h1(
+                article_md, a.get("summary", ""), label="에피소드 요약"
+            )
+            body_parts.append(article_md)
             body_parts.append("\n")
 
     content = frontmatter + "\n" + "".join(body_parts)
@@ -212,6 +209,39 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
 
 _FENCE_RE = re.compile(r'(```[\s\S]*?```)')
 _HEADING_RE = re.compile(r'^(#{1,6})([^\S\n].*)$', re.MULTILINE)
+
+
+def _inject_summary_after_h1(article_text, summary, label='Episode summary'):
+    """Insert ``### {label}`` + summary body right after the article's first H1.
+
+    The archive site builds its TOC via ``querySelectorAll('h1, h2, h3')``.
+    Putting the summary as an H3 (instead of a bold paragraph) makes it
+    appear in the TOC. Placing it AFTER the H1 — not before — also keeps
+    the mobile TOC grouping intact, because the mobile TOC treats each
+    article's H1 as a group header and bins subsequent H2/H3 underneath.
+
+    Falls back to prepending if no H1 exists (defensive — should be rare
+    because ``_normalize_article_headings`` guarantees one).
+    """
+    if not summary or not summary.strip():
+        return article_text
+
+    summary = summary.strip()
+    block = f"### {label}\n\n{summary}\n"
+
+    lines = article_text.split("\n")
+    for i, line in enumerate(lines):
+        # First H1 only (single '#' followed by space, NOT '##' or deeper)
+        stripped = line.lstrip()
+        if stripped.startswith('# ') and not stripped.startswith('## '):
+            # Insert block right after this H1 line, with a blank line
+            # buffer for clean markdown rendering
+            head = "\n".join(lines[:i + 1])
+            tail = "\n".join(lines[i + 1:])
+            return f"{head}\n\n{block}\n{tail}" if tail else f"{head}\n\n{block}"
+
+    # No H1 found — fallback: prepend so the summary is never lost
+    return f"{block}\n{article_text}"
 
 
 def _normalize_article_headings(article_text, fallback_title=None):
