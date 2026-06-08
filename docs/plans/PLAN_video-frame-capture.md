@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-05-27
-- **Status**: ✅ Phase 0~4 완료 → 🔜 Phase 5 진입(마지막)
+- **Status**: ✅ 전 Phase(0~5) 완료 — 기능 완성, `ENABLE_FRAME_CAPTURE=true`로 활성화
 - **Scope**: Medium~Large (6 phases, 약 10~16시간)
 - **Stack**: Python 3.14 / yt-dlp / ffmpeg / Gemini API (+Vision) / Cloudflare R2
 - **참고 계획**: `C:\Users\user\Downloads\knou\docs\plans\PLAN_knou-lms-auto.md` (Phase 5·6·6.5의 타임스탬프→ffmpeg 프레임→Gemini 비전 선별→마크다운 임베드 패턴을 이식)
@@ -207,17 +207,18 @@ youtube-to-ebook/
 **Test Strategy**: 단계 on/off·실패 격리 로직 단위테스트. 전체 흐름은 1편 수동 스모크.
 
 **Tasks**:
-- [ ] **(GREEN)** `main.py`: [STEP 3] 기사 생성 후 → 시점선택(Phase2) → 프레임추출(Phase3) → 기사에 마커 주입. `ENABLE_FRAME_CAPTURE` 꺼지면 전부 skip(기존 동작 동일).
-- [ ] `send_email.py`: 마크다운 이미지가 HTML/EPUB에서 `<img>`로 렌더되는지 확인(이미 markdown 변환 경로 통과 — R2 절대 URL이라 이메일에서도 표시)
-- [ ] 기능 플래그·`FRAMES_PER_VIDEO` env 문서화(README/CLAUDE.md)
-- [ ] **(REFACTOR)** 캡처 단계 try/except로 전체 실패 격리(캡처 죽어도 다이제스트는 발행)
+- [x] **(GREEN)** `main.py`: [STEP 3a2] `_capture_article_frames()` — 시점선택(Phase2)→프레임추출(Phase3)→EN/KO 기사에 `frame_moments`+`frame_data` 부착. 마커는 캐논 본문에 안 남기고 export에서 inject+embed. `ENABLE_FRAME_CAPTURE` 꺼지면 skip.
+- [x] export: `_render_article_body`가 article의 `frame_moments`+`frame_map` 있으면 inject_frame_markers→embed_frames(캐논 본문 불변). `export_newsletter_issue`가 per-article 업로드(로컬경로 캐시로 EN/KO 1회).
+- [x] `send_email.py`: `_article_to_html`이 markdown 변환 전 잔여 `[[FRAME:..]]` strip(이메일 비활성이지만 방어). 캐논 본문은 이미 마커-free.
+- [x] 기능 플래그·`FRAMES_PER_VIDEO` env 문서화(`.env.example`, `CLAUDE.md`)
+- [x] **(REFACTOR)** `_capture_article_frames`를 STEP 3a2 try/except로 감싸 전체 실패 격리(캡처 죽어도 다이제스트 발행), capture_frames 내부도 시점/다운로드 단위 격리
 
 **Quality Gate**:
-- [ ] `pytest` 전체 통과
-- [ ] 1편 엔드투엔드 스모크: 기사+요약+3~4 인라인 이미지가 아카이브에 발행됨
-- [ ] `ENABLE_FRAME_CAPTURE=false`면 기존과 100% 동일 동작(회귀 0)
-- [ ] 캡처 단계 강제 실패 주입 시에도 다이제스트 정상 발행
-- [ ] 문서 갱신(README/CLAUDE.md에 새 env·동작 기재)
+- [x] `pytest` 전체 통과(110개)
+- [x] 1편 엔드투엔드 스모크(py5HZrVhG_c): 2 moment 선정→캡처→EN/KO 부착, **비전이 하단자막 그래픽 프레임 선택**(talking-head 대신), 캐논 본문 마커-free 확인
+- [x] `ENABLE_FRAME_CAPTURE` unset/false → STEP 3a2 skip, main import clean(회귀 0)
+- [x] 캡처 실패(다운로드 `{}`/moment 0/예외) 시 STEP 3a2 try/except로 흡수 → 다이제스트 정상
+- [x] 문서 갱신(.env.example, CLAUDE.md 신규 env·5단계 동작 기재)
 
 **Dependencies**: Phase 4
 **Rollback**: `main.py`에서 캡처 단계 호출 제거(플래그 off로도 무력화)
@@ -250,7 +251,7 @@ youtube-to-ebook/
 | 2. 프레임 시점 선택(Gemini) | ✅ 완료 | 2026-05-27 |
 | 3. 프레임 추출 + 비전 선별 | ✅ 완료 | 2026-05-27 |
 | 4. R2 업로드 + 마크다운 임베드 | ✅ 완료 | 2026-05-27 |
-| 5. 파이프라인 배선 + 이메일/EPUB | ⬜ 대기 | - |
+| 5. 파이프라인 배선 + 이메일/EPUB | ✅ 완료 | 2026-05-27 |
 
 상태 범례: ⬜ 대기 / 🔄 진행중 / ✅ 완료 / ⚠️ 막힘
 
@@ -273,3 +274,6 @@ youtube-to-ebook/
 - (Phase 3 정리) 처리 후 소스 mp4(16MB)·후보 jpg·`_cand`dir 제거(재실행 시 디스크 누적 방지). `needs_capture`로 이미 있는 final은 skip. `frames/`는 .gitignore. 시점별 try/except로 한 프레임 실패가 나머지·기사에 영향 없음. 소스 다운로드 실패 시 `{}` 반환.
 - (Phase 3 관찰) talking-head 일변도 영상은 비전도 인물샷밖에 못 고름(정상 한계). 슬라이드·그래픽 많은 채널(예: 강연·튜토리얼)에서 비전 선별 효과가 큼 — Phase 5 라이브에서 다양한 채널로 추가 관찰 예정.
 - (Phase 4 실측 ✅) `embed_frames(article_md, {sec:(url,caption)})`: `[[FRAME:<sec>]]` → `![caption](url)` + 가시 `*caption*`. 맵에 없는 마커(추출/업로드 실패분)는 strip해 **원시 마커 절대 미노출**. 맵엔 있는데 마커 없는 프레임은 끝 갤러리. blank line collapse. 마커→이미지 1:1이라 재실행 중복 0. R2 업로더는 `_upload_to_r2(path,key,ct)` 공유화 후 audio/image 분기, key=`images/YYYY/MM/DD/`. `export_newsletter_issue(frame_data={sec:(local,caption)})`가 업로드→frame_map 빌드→`generate_issue_markdown(frame_map=)`. R2 미설정 시 frame_map={} → 마커 strip만(로컬경로 0노출).
+- (Phase 5 실측 ✅) **배선 완성**: `main._capture_article_frames`가 url로 video↔article 매칭→`select_frame_moments`→`capture_frames_for_moments`→EN/KO에 `frame_moments`+`frame_data` 부착(동일 ref 공유). **캐논 `article['article']`엔 마커 안 남김** → audio TTS/email이 마커 안 읽음. 마커 inject+embed는 export의 `_render_article_body`가 수행(per-article frame_map, seconds 충돌 없음). `export_newsletter_issue`는 로컬경로 캐시로 EN/KO 동일 프레임 1회만 업로드. send_email은 `_article_to_html`로 잔여 마커 방어 strip.
+- (Phase 5 실측 ✅) 라이브 py5HZrVhG_c: `FRAMES_PER_VIDEO=2`로 2 moment → **비전이 0초 하단자막 그래픽("Steve Stoute — Founder and CEO…")·4:53 사례 프레임 선택** = talking-head 회피 실증. KO가 EN 프레임 공유, 캐논 본문 마커-free 확인. 전체 110 테스트 통과. `ENABLE_FRAME_CAPTURE` unset 시 STEP 3a2 skip(회귀 0).
+- (운영 메모) 기본 OFF. 켜려면 `.env`에 `ENABLE_FRAME_CAPTURE=true`(+R2 설정으로 이미지 호스팅). 이메일/EPUB 인라인 이미지는 현재 이메일 비활성이라 deferred(아카이브 사이트에는 정상 인라인). 매우 긴 영상의 frame-select 프롬프트 토큰(전체 트랜스크립트 포함)·talking-head 일변도 채널의 비전 한계는 후속 관찰 대상.

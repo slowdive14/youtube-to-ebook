@@ -12,6 +12,7 @@ if sys.stdout.encoding != 'utf-8':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 import os
+import re
 import smtplib
 import markdown
 from email.mime.text import MIMEText
@@ -21,6 +22,18 @@ from email import encoders
 from datetime import datetime
 from dotenv import load_dotenv
 from ebooklib import epub
+
+# Frame markers ([[FRAME:<seconds>]]) are resolved to images only in the
+# archive export path (which has the R2 image URLs). The canonical article
+# text stays marker-free, but strip defensively so a marker can never leak
+# into the email/EPUB if the pipeline order ever changes.
+_FRAME_MARKER_RE = re.compile(r'\[\[FRAME:\d+\]\]')
+
+
+def _article_to_html(article_md):
+    """Markdown -> HTML for email/EPUB, with any stray frame markers removed."""
+    cleaned = _FRAME_MARKER_RE.sub('', article_md)
+    return markdown.markdown(cleaned)
 
 # Load your credentials
 load_dotenv()
@@ -101,7 +114,7 @@ def create_epub(articles, language='en'):
     # Create a chapter for each article
     for i, article in enumerate(articles):
         # Convert markdown to HTML
-        article_html = markdown.markdown(article['article'])
+        article_html = _article_to_html(article['article'])
 
         summary_text = (article.get('summary') or '').strip()
         summary_block = ""
@@ -323,7 +336,7 @@ def create_newsletter_html(articles, language='en', audio_cids=None):
 
     for i, article in enumerate(articles):
         # Convert markdown article to HTML
-        article_html = markdown.markdown(article['article'])
+        article_html = _article_to_html(article['article'])
 
         summary_text = (article.get('summary') or '').strip()
         summary_block = ""

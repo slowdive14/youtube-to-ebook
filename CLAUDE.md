@@ -54,6 +54,8 @@ Required in `.env` file (copy from `.env.example`):
 - `GEMINI_API_KEY` - Google Gemini API key
 - `GMAIL_ADDRESS` - Gmail address for sending newsletters (optional)
 - `GMAIL_APP_PASSWORD` - Gmail app password (optional)
+- `ENABLE_FRAME_CAPTURE` - `true` to extract & embed video frames inline (default off)
+- `FRAMES_PER_VIDEO` - frames to extract per video when capture is on (default 4)
 
 ## Important Implementation Details
 
@@ -77,6 +79,15 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 
 ### EPUB Creation
 Uses `ebooklib` to create properly formatted EPUB with table of contents and CSS styling.
+
+### Video Frame Capture (capture_frames.py, opt-in)
+When `ENABLE_FRAME_CAPTURE=true`, the pipeline embeds representative screenshots inline in each article:
+1. **Timestamps**: `get_transcripts.py` preserves `transcript_segments` ({start, text}) from the transcript API.
+2. **Moment selection**: `write_articles.select_frame_moments()` asks Gemini for the N most visually valuable moments (avoiding talking-head shots), returning timestamp + caption + an article anchor phrase.
+3. **Extraction**: `capture_frames.py` downloads the video once via **yt-dlp with `player_client=android`** (the default web client serves DASH/AV1 URLs that 403; android serves the progressive format 18) then `ffmpeg -ss` extracts a candidate window per moment.
+4. **Vision pick**: Gemini Vision selects the clearest candidate frame (falls back to the exact-timestamp frame).
+5. **Embed**: `export_archive.py` uploads frames to R2 (`images/YYYY/MM/DD/`) and swaps `[[FRAME:<seconds>]]` markers for `![caption](url)`. The canonical `article['article']` stays marker-free, so audio/email never read markers.
+Fully isolated — any failure leaves the digest untouched. See `docs/plans/PLAN_video-frame-capture.md`.
 
 ### Windows Compatibility
 All Python files wrap stdout/stderr with UTF-8 encoding to handle Unicode characters on Windows console.

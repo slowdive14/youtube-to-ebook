@@ -201,13 +201,7 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> Based on **"{a["title"]}"** from **{a["channel"]}**\n'
                 f'> [Watch the original video]({a["url"]})\n\n'
             )
-            article_md = _normalize_article_headings(a["article"], fallback_title=a["title"])
-            # Inject summary as H3 inside the article body so the TOC picks it up
-            article_md = _inject_summary_after_h1(
-                article_md, a.get("summary", ""), label="Episode summary"
-            )
-            # Swap [[FRAME:..]] markers for uploaded images (or strip orphans)
-            article_md = embed_frames(article_md, frame_map)
+            article_md = _render_article_body(a, summary_label="Episode summary", global_frame_map=frame_map)
             body_parts.append(article_md)
             body_parts.append("\n")
 
@@ -223,16 +217,35 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'> **"{a["title"]}"** — **{a["channel"]}** 기반 기사\n'
                 f'> [원본 영상 보기]({a["url"]})\n\n'
             )
-            article_md = _normalize_article_headings(a["article"], fallback_title=a["title"])
-            article_md = _inject_summary_after_h1(
-                article_md, a.get("summary", ""), label="에피소드 요약"
-            )
-            article_md = embed_frames(article_md, frame_map)
+            article_md = _render_article_body(a, summary_label="에피소드 요약", global_frame_map=frame_map)
             body_parts.append(article_md)
             body_parts.append("\n")
 
     content = frontmatter + "\n" + "".join(body_parts)
     return filename, content
+
+
+def _render_article_body(article, summary_label, global_frame_map=None):
+    """Build one article's markdown body: headings -> summary -> frames.
+
+    Frame handling keeps the canonical ``article['article']`` clean of
+    ``[[FRAME:..]]`` markers (so audio/email never read them):
+      - If the article carries ``frame_moments`` + ``frame_map``, markers are
+        injected here (from anchors) and immediately swapped for images.
+      - Otherwise we fall back to ``global_frame_map`` and embed any markers
+        already present in the text (covers the simple/global test path).
+    """
+    md = _normalize_article_headings(article["article"], fallback_title=article["title"])
+    md = _inject_summary_after_h1(md, article.get("summary", ""), label=summary_label)
+
+    moments = article.get("frame_moments")
+    fmap = article.get("frame_map") or global_frame_map
+    if moments and fmap:
+        # late import: avoids a hard dependency when frame capture is unused
+        from write_articles import inject_frame_markers
+        md = inject_frame_markers(md, moments)
+    md = embed_frames(md, fmap)
+    return md
 
 
 _FRAME_MARKER_RE = re.compile(r'\[\[FRAME:(\d+)\]\]')
@@ -474,17 +487,41 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
             if url:
                 audio_urls.append(url)
 
-    # 2. Upload captured frames to R2 -> build {seconds: (url, caption)}
-    frame_map = {}
+    # 2. Upload each article's captured frames to R2 and attach a per-article
+    #    frame_map. Per-article (not global) avoids second-key collisions when
+    #    two videos pick the same timestamp. Uploads are cached by local path
+    #    so EN/KO sharing the same frames upload once.
+    upload_cache = {}
+
+    def _frame_map_for(article):
+        fd = article.get("frame_data")  # {seconds: (local_path, caption)}
+        if not fd:
+            return None
+        fmap = {}
+        for seconds, (local_path, caption) in fd.items():
+            if local_path not in upload_cache:
+                upload_cache[local_path] = upload_image_to_r2(local_path)
+            url = upload_cache[local_path]
+            if url:
+                fmap[seconds] = (url, caption)
+        return fmap
+
+    for art in list(en_articles or []) + list(ko_articles or []):
+        fmap = _frame_map_for(art)
+        if fmap:
+            art["frame_map"] = fmap
+
+    # Legacy/global path (tests, single-video callers without per-article data)
+    legacy_frame_map = {}
     for seconds, (local_path, caption) in (frame_data or {}).items():
         url = upload_image_to_r2(local_path)
         if url:
-            frame_map[seconds] = (url, caption)
+            legacy_frame_map[seconds] = (url, caption)
 
     # 3. Generate issue markdown (frame markers -> inline images)
     filename, content = generate_issue_markdown(
         en_articles, ko_articles, audio_urls,
-        drill_sentences=drill_sentences, frame_map=frame_map,
+        drill_sentences=drill_sentences, frame_map=legacy_frame_map,
     )
 
     # 3. Push to archive repo

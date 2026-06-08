@@ -26,6 +26,67 @@ from video_tracker import filter_new_videos, mark_videos_processed, get_processe
 
 LOCK_FILE = PROJECT_DIR / "main.lock"
 
+
+def _video_id_from_url(url):
+    if "v=" in url:
+        return url.split("v=")[1].split("&")[0]
+    if "youtu.be/" in url:
+        return url.split("youtu.be/")[1].split("?")[0]
+    return url
+
+
+def _capture_article_frames(english_articles, korean_articles, videos_with_transcripts):
+    """Select moments, extract frames, and attach them to the articles.
+
+    For each English article: pick visually valuable moments from the matching
+    video's timestamped transcript, extract+vision-pick frames, and stash
+    ``frame_moments`` (for anchor placement) and ``frame_data``
+    ({seconds: (local_path, caption)}) on both the EN and KO article dicts.
+    The export step uploads the frames and embeds them inline.
+    """
+    from write_articles import select_frame_moments, client as gemini_client
+    from capture_frames import capture_frames_for_moments
+
+    frames_per_video = int(os.getenv("FRAMES_PER_VIDEO", "4"))
+    frames_dir = PROJECT_DIR / "frames"
+
+    vid_by_id = {_video_id_from_url(v["url"]): v for v in videos_with_transcripts}
+    ko_by_id = {_video_id_from_url(a["url"]): a for a in (korean_articles or [])}
+
+    for en in english_articles:
+        vid = _video_id_from_url(en["url"])
+        video = vid_by_id.get(vid)
+        if not video or not video.get("transcript_segments"):
+            continue
+
+        moments = select_frame_moments(video, en["article"], n=frames_per_video)
+        if not moments:
+            print(f"  [.] No frame moments for {en['title'][:40]}")
+            continue
+
+        captured = capture_frames_for_moments(
+            {"url": en["url"], "duration": video.get("duration")},
+            moments, str(frames_dir), client=gemini_client,
+        )
+        if not captured:
+            print(f"  [!] No frames captured for {en['title'][:40]}")
+            continue
+
+        cap_by_sec = {m["seconds"]: m["caption"] for m in moments}
+        frame_data = {s: (path, cap_by_sec.get(s, "")) for s, path in captured.items()}
+        # keep only moments that actually yielded a frame
+        kept_moments = [m for m in moments if m["seconds"] in captured]
+
+        en["frame_moments"] = kept_moments
+        en["frame_data"] = frame_data
+        ko = ko_by_id.get(vid)
+        if ko:
+            ko["frame_moments"] = kept_moments
+            ko["frame_data"] = frame_data
+
+        print(f"  [OK] {len(captured)} frame(s) for {en['title'][:40]}")
+
+
 def run(video_url=None):
     """
     Run the full newsletter pipeline with bilingual support.
@@ -121,6 +182,20 @@ def run(video_url=None):
                 print(f"  [OK] {len(drill_sentences)} drill sentences generated")
             else:
                 print("  [!] No drill sentences generated (non-fatal)")
+
+        # Step 3a2: Capture representative video frames (optional, flag-gated)
+        # Selects 3-4 visually valuable moments per video, extracts frames via
+        # yt-dlp+ffmpeg, vision-picks the best, and attaches them to the
+        # articles so export embeds them inline. Fully isolated: any failure
+        # leaves the digest untouched.
+        if os.getenv("ENABLE_FRAME_CAPTURE", "false").lower() == "true" and english_articles:
+            print("\n[STEP 3a2] Capturing video frames...")
+            try:
+                _capture_article_frames(english_articles, korean_articles, videos_with_transcripts)
+            except Exception as e:
+                print(f"  [!] Frame capture failed (non-fatal): {e}")
+        else:
+            print("\n[STEP 3a2] Frame capture disabled (set ENABLE_FRAME_CAPTURE=true to enable)")
 
         # Step 3b: Generate Audio for Newsletter
         print("\n[STEP 3b] Generating Audio...")

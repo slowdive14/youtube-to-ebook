@@ -311,5 +311,42 @@ class TestEmbedFrames:
         assert "(https://r2.dev/y.jpg)" in out
 
 
+class TestPerArticleFrames:
+    """Article carrying frame_moments + frame_map: inject at anchor, then embed,
+    while keeping the canonical article text marker-free for audio/email."""
+
+    def test_anchor_inline_image_in_body(self):
+        article = {
+            "title": "Sleep",
+            "channel": "Ch",
+            "url": "https://youtube.com/watch?v=z",
+            "article": "# Headline\n\nDeep sleep restores memory consolidation overnight.\n\nNext para.",
+            "summary": "s",
+            "frame_moments": [
+                {"seconds": 90, "timestamp": "01:30",
+                 "caption": "Brain scan", "anchor": "restores memory consolidation"}
+            ],
+            "frame_map": {90: ("https://r2.dev/z_01-30.jpg", "Brain scan")},
+        }
+        _, content = generate_issue_markdown([article], [], [])
+        assert "![Brain scan](https://r2.dev/z_01-30.jpg)" in content
+        assert "[[FRAME:90]]" not in content
+        # image must land near the anchor paragraph (before "Next para")
+        assert content.find("Brain scan") < content.find("Next para")
+
+    def test_canonical_article_text_stays_marker_free(self):
+        # The dict's own 'article' field must not be mutated with markers
+        article = {
+            "title": "T", "channel": "C", "url": "u",
+            "article": "# H\n\nthe key insight here matters.\n",
+            "frame_moments": [{"seconds": 5, "timestamp": "00:05",
+                               "caption": "c", "anchor": "the key insight here"}],
+            "frame_map": {5: ("https://r2.dev/a.jpg", "c")},
+        }
+        generate_issue_markdown([article], [], [])
+        assert "[[FRAME:" not in article["article"]
+        assert "![c]" not in article["article"]
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
