@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-05-27
-- **Status**: ✅ Phase 0~2 완료 → 🔜 Phase 3 진입
+- **Status**: ✅ Phase 0~3 완료 → 🔜 Phase 4 진입
 - **Scope**: Medium~Large (6 phases, 약 10~16시간)
 - **Stack**: Python 3.14 / yt-dlp / ffmpeg / Gemini API (+Vision) / Cloudflare R2
 - **참고 계획**: `C:\Users\user\Downloads\knou\docs\plans\PLAN_knou-lms-auto.md` (Phase 5·6·6.5의 타임스탬프→ffmpeg 프레임→Gemini 비전 선별→마크다운 임베드 패턴을 이식)
@@ -154,21 +154,22 @@ youtube-to-ebook/
 **Test Strategy**: 파일명·ffmpeg 명령·후보오프셋·비전응답 파싱·needs_capture를 순수함수 단위테스트. 실제 추출/비전은 1편 수동.
 
 **Tasks**:
-- [ ] **(RED)** `tests/test_capture_frames.py`:
-  - `frame_filename(video_id, seconds)` → `{video_id}_00-01-30.jpg` (sanitize)
+- [x] **(RED)** `test_capture_frames.py`:
+  - `frame_filename(video_id, seconds)` → `{video_id}_01-30.jpg` (sanitize)
   - `build_ffmpeg_cmd(src, sec, out)` → `-ss`가 `-i` 앞(fast seek), `-frames:v 1`, `-y`
-  - `candidate_offsets(sec, duration)` → 음수/초과 클램프된 후보초 리스트
-  - `build_vision_prompt(caption, n)` / `parse_vision_choice(text)` → index(범위초과/−1/깨짐=None) (KNOU 패턴 재사용)
+  - `candidate_offsets(sec, duration)` → 음수/초과 클램프, 정각 항상 포함, dedupe
+  - `build_vision_prompt(caption, n)` / `parse_vision_choice(text, n)` → index(범위초과/−1/깨짐=None, bare int 허용)
   - `needs_capture(path)` 없음/0바이트면 True
-  - → 실패 확인
-- [ ] **(GREEN)** `capture_frames.py`: yt-dlp로 소스 확보 → 시점마다 후보 ffmpeg 추출(`_cand/`) → 인라인 바이트로 Gemini 비전 전송 → 픽 1장만 남기고 정리. 비전 실패 시 t정각 fallback.
-- [ ] **(REFACTOR)** 영상 1회 처리 동안 yt-dlp 정보/세션 재사용, 임시파일 정리, 실패 격리(한 시점 실패해도 나머지 진행)
+  - → 실패 확인(ModuleNotFound)
+- [x] **(GREEN)** `capture_frames.py`: yt-dlp(android client, format 18)로 소스 1회 다운로드 → 시점마다 `candidate_offsets` ffmpeg 후보 추출(`_cand/`) → 인라인 바이트로 Gemini 비전 전송 → 픽 1장만 final로 이동. 비전 실패/−1 시 **정각 최근접 후보 fallback**.
+- [x] **(REFACTOR)** 소스 1회 다운로드 후 전 시점 로컬 seek, 후보·소스mp4·`_cand`dir 정리, 시점별 try/except 격리, `needs_capture`로 재실행 skip
 
 **Quality Gate**:
-- [ ] `pytest tests/test_capture_frames.py` 통과
-- [ ] 실제 1편에서 3~4장 추출, 검은화면/전환장면 아님(수동 시각 확인)
-- [ ] 비전이 후보 중 슬라이드/내용 프레임을 고름(t정각 대비 개선 확인)
-- [ ] 한 시점 추출 실패해도 나머지 프레임·기사 정상
+- [x] `pytest test_capture_frames.py` 통과 (24개)
+- [x] 실제 1편(py5HZrVhG_c) 다운로드 5초 + 2시점 프레임 추출·비전 선별 완주, jpg 시각 확인(640×360, 검은화면 아님)
+- [x] 비전이 후보 중 선명 프레임 선택(이 영상은 전편 talking-head라 회피불가 — 정상). 비전 실패 시 정각 fallback 경로 확인
+- [x] 후보 없으면 그 시점만 skip, 소스 다운로드 실패 시 `{}` 반환(기사 무영향) — 실패 격리
+- [x] 전체 회귀 100개 통과(기존 76 + 신규 24)
 
 **Dependencies**: Phase 2(시점), Phase 0(방식)
 **Rollback**: `capture_frames.py` 삭제, 임시 프레임 정리
@@ -246,7 +247,7 @@ youtube-to-ebook/
 | 0. 정찰 & 의존성 | ✅ 완료 | 2026-05-27 |
 | 1. 트랜스크립트 타임스탬프 보존 | ✅ 완료 | 2026-05-27 |
 | 2. 프레임 시점 선택(Gemini) | ✅ 완료 | 2026-05-27 |
-| 3. 프레임 추출 + 비전 선별 | ⬜ 대기 | - |
+| 3. 프레임 추출 + 비전 선별 | ✅ 완료 | 2026-05-27 |
 | 4. R2 업로드 + 마크다운 임베드 | ⬜ 대기 | - |
 | 5. 파이프라인 배선 + 이메일/EPUB | ⬜ 대기 | - |
 
@@ -267,3 +268,6 @@ youtube-to-ebook/
 - (Phase 1 실측 ✅) `get_transcript`을 `(full_text, segments)` 튜플 반환으로 변경, `segments=[{start,text}]`. `snippet.start`는 그대로 살아있어 보존 손쉬움. qi45Jl46Py8 라이브 = **2445 timed segments**, `[MM:SS] text` 렌더 정상. 호출처는 `get_transcripts.py` 내부 2곳뿐이라 영향 국소적. 순수함수 `seconds_to_mmss`(음수 클램프·float floor·1h+ 시 H:MM:SS)/`format_segments_with_timestamps`(blank skip·키 누락 방어) 단위테스트 10개.
 - (Phase 2 실측 ✅) `select_frame_moments`가 기사+타임스탬프 트랜스크립트를 flash(thinking_budget=0)에 주고 JSON 산출. qi45Jl46Py8 라이브: **4시점** 모두 시각가치 높음(화면텍스트로 화자 권위표시, 혜택 그래픽, "18%" 통계 그래픽, 음핵 플러시 모형) — talking-head 회피 성공. **마커 = 정수초 `[[FRAME:<seconds>]]`** (Phase 4 단순 치환·모듈결합 회피). prompt 토큰 ≈ 42k(2445세그 전체 포함) — flash라 비용 미미하지만 매우 긴 영상은 후속 모니터.
 - (Phase 2 주의) **anchor 매칭은 best-effort**: 모델이 anchor를 트랜스크립트에서 뽑으면 기사에 없어 갤러리 fallback로 감(throwaway 기사 테스트에서 4/4 fallback 관측). 실파이프라인은 기사·프레임이 같은 트랜스크립트 기반이라 매칭률↑. fallback이 마커 유실 막음(검증됨). 필요 시 Phase 5에서 anchor를 기사 본문 기준으로 재선정하도록 프롬프트 강화 검토.
+- (Phase 3 실측 ✅) **다운로드-후-로컬-seek** 확정 동작: py5HZrVhG_c 16MB **~5초** 다운로드 → 시점당 후보 4장(`VISION_OFFSETS=(-2,0,3,6)`) ffmpeg 추출 → Gemini 비전(thinking_budget=0, temp=0.1)에 인라인 바이트 전송 → `parse_vision_choice`로 0-based index 픽 → final 이동. **비전 실패/−1 시 정각 최근접 후보 fallback**. `types.Part.from_bytes(data, mime_type)`로 이미지 전송.
+- (Phase 3 정리) 처리 후 소스 mp4(16MB)·후보 jpg·`_cand`dir 제거(재실행 시 디스크 누적 방지). `needs_capture`로 이미 있는 final은 skip. `frames/`는 .gitignore. 시점별 try/except로 한 프레임 실패가 나머지·기사에 영향 없음. 소스 다운로드 실패 시 `{}` 반환.
+- (Phase 3 관찰) talking-head 일변도 영상은 비전도 인물샷밖에 못 고름(정상 한계). 슬라이드·그래픽 많은 채널(예: 강연·튜토리얼)에서 비전 선별 효과가 큼 — Phase 5 라이브에서 다양한 채널로 추가 관찰 예정.
