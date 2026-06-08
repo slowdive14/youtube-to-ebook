@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-05-27
-- **Status**: ✅ Phase 0~1 완료 → 🔜 Phase 2 진입
+- **Status**: ✅ Phase 0~2 완료 → 🔜 Phase 3 진입
 - **Scope**: Medium~Large (6 phases, 약 10~16시간)
 - **Stack**: Python 3.14 / yt-dlp / ffmpeg / Gemini API (+Vision) / Cloudflare R2
 - **참고 계획**: `C:\Users\user\Downloads\knou\docs\plans\PLAN_knou-lms-auto.md` (Phase 5·6·6.5의 타임스탬프→ffmpeg 프레임→Gemini 비전 선별→마크다운 임베드 패턴을 이식)
@@ -124,20 +124,22 @@ youtube-to-ebook/
 **Test Strategy**: 프롬프트 빌더·JSON 파싱/salvage·타임스탬프 정규화·마커 삽입을 순수함수 단위테스트. 실제 AI 호출은 1편 수동 검증.
 
 **Tasks**:
-- [ ] **(RED)** `tests/test_frame_select.py`:
-  - `build_frame_prompt(article, segments, n)` → "정확히 N개 / talking-head 회피 / JSON only" 지시 포함
-  - `parse_frame_moments(text)` → `[{"timestamp":"MM:SS","seconds":int,"caption":str}]`, 코드펜스/잘림 salvage (write_articles `_salvage_truncated_json` 재사용)
-  - `clamp_and_dedupe(moments, duration)` → 영상 길이 초과 제거, 근접(±5s) 중복 제거, 최대 N개
-  - `inject_frame_markers(article_md, moments)` → 캡션과 매칭되는 섹션 뒤에 `[[FRAME:MM:SS]]` 삽입(없으면 문서 끝 갤러리)
-  - → 실패 확인
-- [ ] **(GREEN)** `write_articles.py`에 `select_frame_moments(video, article, n=FRAMES_PER_VIDEO)` 추가 — thinking_budget=0, JSON 강제(요약 함수와 동일 안정화 패턴)
-- [ ] **(REFACTOR)** 영문 기사 기준으로만 1회 선정 → en/ko 기사 공용(이미지 언어중립)
+- [x] **(RED)** `test_frame_select.py`:
+  - `build_frame_prompt(article, segments, n)` → "정확히 N개 / talking-head 회피 / JSON only / caption·anchor·timestamp" 지시 포함
+  - `parse_frame_moments(text)` → `[{seconds,timestamp,caption,anchor}]`, 코드펜스/잘림 salvage (`_salvage_truncated_json` 재사용), 필수필드 누락·timestamp 오류 항목 drop
+  - `clamp_and_dedupe(moments, duration, max_n, min_gap)` → 길이초과·음수 제거, 근접(±min_gap) 중복 제거, 정렬, 최대 N개
+  - `inject_frame_markers(article_md, moments)` → anchor 단락 뒤 `[[FRAME:<seconds>]]` 삽입, anchor 없으면 문서 끝 갤러리
+  - `_mmss_to_seconds` / mocked `select_frame_moments`(thinking_budget=0, 세그먼트 없으면 API 미호출)
+  - → 실패 확인(ImportError)
+- [x] **(GREEN)** `write_articles.py`에 위 함수들 + `select_frame_moments(video, article, n)` — thinking_budget=0, JSON 강제(요약 함수와 동일 안정화)
+- [x] **(REFACTOR)** 마커 = 정수초 `[[FRAME:<seconds>]]`(MM:SS 재파싱·모듈결합 회피). 영문 기사 기준 1회 선정 → 이미지 언어중립이라 en/ko 공용
 
 **Quality Gate**:
-- [ ] `pytest tests/test_frame_select.py` 통과
-- [ ] 실제 1편에서 3~4개 시점+캡션 JSON 정상 산출(수동 확인)
-- [ ] 마커가 기사 마크다운에 삽입되고 본문 구조가 깨지지 않음
-- [ ] 잘린 JSON·코드펜스 응답도 salvage 됨
+- [x] `pytest test_frame_select.py` 통과 (22개)
+- [x] 실제 1편(qi45Jl46Py8)에서 **4개 시점+캡션 JSON 정상 산출** — 화면텍스트·그래픽(18% 통계)·해부 모형 등 talking-head 회피 확인, 캡션 구체적
+- [x] 마커가 기사 마크다운에 삽입되고 본문 구조 안 깨짐(anchor 미스 시 갤러리 fallback 동작 확인)
+- [x] 잘린 JSON·코드펜스 응답 salvage 됨(단위테스트)
+- [x] 전체 회귀 76개 통과(기존 54 + 신규 22)
 
 **Dependencies**: Phase 1
 **Rollback**: `select_frame_moments`/마커 로직 제거
@@ -243,7 +245,7 @@ youtube-to-ebook/
 |-------|------|--------|
 | 0. 정찰 & 의존성 | ✅ 완료 | 2026-05-27 |
 | 1. 트랜스크립트 타임스탬프 보존 | ✅ 완료 | 2026-05-27 |
-| 2. 프레임 시점 선택(Gemini) | ⬜ 대기 | - |
+| 2. 프레임 시점 선택(Gemini) | ✅ 완료 | 2026-05-27 |
 | 3. 프레임 추출 + 비전 선별 | ⬜ 대기 | - |
 | 4. R2 업로드 + 마크다운 임베드 | ⬜ 대기 | - |
 | 5. 파이프라인 배선 + 이메일/EPUB | ⬜ 대기 | - |
@@ -263,3 +265,5 @@ youtube-to-ebook/
 - (Phase 0 실측 ✅) **프레임 품질 양호**: 640×360, ~20KB/jpg, `frame_120.jpg` 시각 확인 = 화자 선명. **단 talking-head 위주**(흰 배경+인물) → Phase 2의 시각화 가치 시점 선정 + Phase 3 비전 선별로 정적 화면 회피 필요성 실증.
 - (Phase 0 메모) ffmpeg는 `-ss`를 `-i` 앞에 둬야 fast input seek. 검은화면 판별은 `signalstats` YAVG(밝기)로 가능(여기선 180 = 밝음). `-f null -` + metadata print로 측정.
 - (Phase 1 실측 ✅) `get_transcript`을 `(full_text, segments)` 튜플 반환으로 변경, `segments=[{start,text}]`. `snippet.start`는 그대로 살아있어 보존 손쉬움. qi45Jl46Py8 라이브 = **2445 timed segments**, `[MM:SS] text` 렌더 정상. 호출처는 `get_transcripts.py` 내부 2곳뿐이라 영향 국소적. 순수함수 `seconds_to_mmss`(음수 클램프·float floor·1h+ 시 H:MM:SS)/`format_segments_with_timestamps`(blank skip·키 누락 방어) 단위테스트 10개.
+- (Phase 2 실측 ✅) `select_frame_moments`가 기사+타임스탬프 트랜스크립트를 flash(thinking_budget=0)에 주고 JSON 산출. qi45Jl46Py8 라이브: **4시점** 모두 시각가치 높음(화면텍스트로 화자 권위표시, 혜택 그래픽, "18%" 통계 그래픽, 음핵 플러시 모형) — talking-head 회피 성공. **마커 = 정수초 `[[FRAME:<seconds>]]`** (Phase 4 단순 치환·모듈결합 회피). prompt 토큰 ≈ 42k(2445세그 전체 포함) — flash라 비용 미미하지만 매우 긴 영상은 후속 모니터.
+- (Phase 2 주의) **anchor 매칭은 best-effort**: 모델이 anchor를 트랜스크립트에서 뽑으면 기사에 없어 갤러리 fallback로 감(throwaway 기사 테스트에서 4/4 fallback 관측). 실파이프라인은 기사·프레임이 같은 트랜스크립트 기반이라 매칭률↑. fallback이 마커 유실 막음(검증됨). 필요 시 Phase 5에서 anchor를 기사 본문 기준으로 재선정하도록 프롬프트 강화 검토.

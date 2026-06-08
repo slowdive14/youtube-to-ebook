@@ -505,6 +505,227 @@ def _salvage_truncated_json(text):
     raise json.JSONDecodeError("Cannot salvage truncated JSON", text, 0)
 
 
+# ---------- Frame-moment selection (Phase 2 of video-frame-capture) ----------
+
+
+def _mmss_to_seconds(ts):
+    """Parse 'MM:SS' / 'H:MM:SS' / plain integer string into seconds.
+
+    Returns None if unparseable.
+    """
+    if ts is None:
+        return None
+    ts = str(ts).strip()
+    if not ts:
+        return None
+    if ts.isdigit():
+        return int(ts)
+    parts = ts.split(":")
+    if not all(p.strip().isdigit() for p in parts) or len(parts) > 3:
+        return None
+    parts = [int(p) for p in parts]
+    total = 0
+    for p in parts:
+        total = total * 60 + p
+    return total
+
+
+def _seconds_to_mmss(seconds):
+    """Local MM:SS formatter (mirror of get_transcripts.seconds_to_mmss).
+
+    Kept local to avoid importing get_transcripts (which pulls in the
+    youtube_transcript_api dependency) just for formatting.
+    """
+    total = max(0, int(seconds))
+    h, rem = divmod(total, 3600)
+    m, s = divmod(rem, 60)
+    return f"{h}:{m:02d}:{s:02d}" if h else f"{m:02d}:{s:02d}"
+
+
+def build_frame_prompt(article, transcript_with_timestamps, n=4):
+    """Prompt Gemini to pick the N most visually valuable moments.
+
+    The model sees the article (what matters) plus the timestamped
+    transcript (where things happen) and returns timestamps + captions +
+    an anchor phrase locating each in the article.
+    """
+    return f"""You are a photo editor choosing screenshots for a magazine article built from a YouTube video.
+
+Pick EXACTLY {n} moments where a still frame from the video would genuinely help the reader — a diagram, chart, demo, on-screen text, a product, b-roll, or a striking visual.
+
+AVOID:
+- Pure talking-head shots (a person just speaking against a plain background) unless the moment is truly iconic
+- Intros, outros, sponsor reads, transitions
+
+For EACH chosen moment return:
+- "timestamp": the moment as it appears in the transcript, "MM:SS" (or "H:MM:SS")
+- "caption": one concise sentence (<= 15 words) describing what is shown AND why it matters to the article
+- "anchor": a SHORT exact phrase copied verbatim from the ARTICLE (5-10 words) marking where this image belongs
+
+Return ONLY a JSON array, no markdown, no code fences, no commentary.
+
+Example:
+[
+  {{"timestamp": "02:15", "caption": "Bar chart showing a 40% drop in recall after one sleepless night", "anchor": "memory consolidation collapses without deep sleep"}}
+]
+
+ARTICLE:
+{article}
+
+TIMESTAMPED TRANSCRIPT:
+{transcript_with_timestamps}"""
+
+
+def parse_frame_moments(text):
+    """Parse the model's JSON into a clean list of frame moments.
+
+    Each returned item: {seconds, timestamp, caption, anchor}. Items missing
+    a parseable timestamp, caption, or anchor are dropped. Tolerates code
+    fences and truncated JSON (reuses _salvage_truncated_json).
+    """
+    if not text:
+        return []
+    text = text.strip()
+    if text.startswith("```"):
+        # drop first fence line and trailing fence
+        text = text.split("\n", 1)[1] if "\n" in text else text
+        text = text.rsplit("```", 1)[0]
+        text = text.strip()
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        try:
+            data = _salvage_truncated_json(text)
+        except (json.JSONDecodeError, ValueError):
+            return []
+
+    if not isinstance(data, list):
+        return []
+
+    out = []
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        caption = (item.get("caption") or "").strip()
+        anchor = (item.get("anchor") or "").strip()
+        seconds = _mmss_to_seconds(item.get("timestamp"))
+        if seconds is None or not caption or not anchor:
+            continue
+        out.append({
+            "seconds": seconds,
+            "timestamp": _seconds_to_mmss(seconds),
+            "caption": caption,
+            "anchor": anchor,
+        })
+    return out
+
+
+def clamp_and_dedupe(moments, duration=None, max_n=4, min_gap=5):
+    """Sort by time, drop out-of-range, collapse near-duplicates, cap count.
+
+    - seconds < 0 dropped; seconds > duration dropped when duration is known
+    - any moment within `min_gap` seconds of an already-kept one is dropped
+    - at most `max_n` survive
+    """
+    ordered = sorted(moments, key=lambda m: m["seconds"])
+    kept = []
+    for m in ordered:
+        s = m["seconds"]
+        if s < 0:
+            continue
+        if duration is not None and s > duration:
+            continue
+        if kept and s - kept[-1]["seconds"] < min_gap:
+            continue
+        kept.append(m)
+        if len(kept) >= max_n:
+            break
+    return kept
+
+
+def inject_frame_markers(article_md, moments):
+    """Insert ``[[FRAME:<seconds>]]`` markers into the article.
+
+    Each marker is placed on its own line right after the paragraph that
+    contains the moment's anchor phrase. If the anchor isn't found, the
+    marker is appended at the end (a fallback gallery). The caption travels
+    separately in the moments list — Phase 4 swaps the marker for the image.
+    """
+    if not moments:
+        return article_md
+
+    result = article_md
+    appended = []
+    for m in moments:
+        marker = f"[[FRAME:{m['seconds']}]]"
+        anchor = m.get("anchor", "")
+        idx = result.find(anchor) if anchor else -1
+        if idx == -1:
+            appended.append(m)
+            continue
+        # find end of the paragraph containing the anchor (next blank line)
+        para_break = result.find("\n\n", idx)
+        if para_break == -1:
+            # anchor in last paragraph — append marker at the very end
+            appended.append(m)
+            continue
+        insert_at = para_break  # before the blank line
+        result = result[:insert_at] + f"\n\n{marker}" + result[insert_at:]
+
+    if appended:
+        gallery = "\n\n".join(f"[[FRAME:{m['seconds']}]]" for m in appended)
+        result = result.rstrip() + "\n\n" + gallery + "\n"
+
+    return result
+
+
+def select_frame_moments(video, article, n=4):
+    """Ask Gemini to choose up to N visually valuable moments for a video.
+
+    Returns a clamped/deduped list of {seconds, timestamp, caption, anchor}.
+    Returns [] (without any API call) when no timestamped transcript exists.
+    """
+    from get_transcripts import format_segments_with_timestamps
+
+    segments = video.get("transcript_segments") or []
+    if not segments:
+        return []
+
+    transcript_ts = format_segments_with_timestamps(segments)
+    duration = video.get("duration")
+    prompt = build_frame_prompt(article, transcript_ts, n=n)
+
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            if attempt > 0:
+                time.sleep(retry_wait)
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=2000,
+                    temperature=0.4,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                )
+            )
+            _log_usage_metadata(response, label='Frame-select')
+            moments = parse_frame_moments(response.text or "")
+            return clamp_and_dedupe(moments, duration=duration, max_n=n)
+        except Exception as e:
+            error_str = str(e).lower()
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] Frame-select API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
+                retry_wait *= 2
+                continue
+            print(f"  [!] Failed to select frame moments: {e}")
+            return []
+
+    return []
+
+
 def generate_drill_sentences(en_articles):
     """
     Generate speaking drill data from English articles.
