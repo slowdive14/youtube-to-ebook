@@ -10,3 +10,4 @@ beautifulsoup4
 azure-cognitiveservices-speech
 notebooklm-mcp-cli
 boto3
+yt-dlp
