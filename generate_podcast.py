@@ -240,6 +240,17 @@ def generate_podcast(articles, language='en', output_dir='audio'):
         output_path = os.path.join(output_dir, f"Podcast_{safe_date}_{lang_code.upper()}.m4a")
         print(f"  Downloading podcast audio...")
 
+        # Clear any stale target/temp from an earlier run on the same day.
+        # The downloader writes "<path>.tmp" then renames to "<path>"; on
+        # Windows that rename raises WinError 183 if "<path>" already exists
+        # (e.g. a scheduled morning run already produced today's file).
+        for stale in (output_path, output_path + ".tmp"):
+            try:
+                if os.path.exists(stale):
+                    os.remove(stale)
+            except OSError as e:
+                print(f"  [!] Could not remove stale file {stale}: {e}")
+
         try:
             import asyncio
             # Re-authenticate before download in case token expired during polling

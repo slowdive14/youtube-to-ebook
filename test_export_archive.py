@@ -334,6 +334,21 @@ class TestPerArticleFrames:
         # image must land near the anchor paragraph (before "Next para")
         assert content.find("Brain scan") < content.find("Next para")
 
+    def test_korean_article_without_frame_data_has_no_images(self):
+        # KO articles are intentionally image-free: main.py attaches frame_data
+        # to English articles only. A KO article without frame_data must render
+        # no images and no stray markers.
+        ko = {
+            "title": "수면과 뇌", "channel": "C", "url": "u",
+            "article": "# 헤드라인\n\n핵심 통찰이 여기 있다.\n",
+            "summary": "요약.",
+        }
+        _, content = generate_issue_markdown([], [ko], [])
+        # the Korean section exists but carries no image / marker
+        assert "## 한국어" in content
+        assert "![" not in content.split("## 한국어", 1)[1]
+        assert "[[FRAME:" not in content
+
     def test_canonical_article_text_stays_marker_free(self):
         # The dict's own 'article' field must not be mutated with markers
         article = {

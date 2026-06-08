@@ -47,11 +47,10 @@ def _capture_article_frames(english_articles, korean_articles, videos_with_trans
     from write_articles import select_frame_moments, client as gemini_client
     from capture_frames import capture_frames_for_moments
 
-    frames_per_video = int(os.getenv("FRAMES_PER_VIDEO", "4"))
+    frames_per_video = int(os.getenv("FRAMES_PER_VIDEO", "5"))
     frames_dir = PROJECT_DIR / "frames"
 
     vid_by_id = {_video_id_from_url(v["url"]): v for v in videos_with_transcripts}
-    ko_by_id = {_video_id_from_url(a["url"]): a for a in (korean_articles or [])}
 
     for en in english_articles:
         vid = _video_id_from_url(en["url"])
@@ -77,12 +76,11 @@ def _capture_article_frames(english_articles, korean_articles, videos_with_trans
         # keep only moments that actually yielded a frame
         kept_moments = [m for m in moments if m["seconds"] in captured]
 
+        # Frames go into the English article only — the Korean section is kept
+        # image-free by design (English anchors don't match Korean text and the
+        # user prefers no images there).
         en["frame_moments"] = kept_moments
         en["frame_data"] = frame_data
-        ko = ko_by_id.get(vid)
-        if ko:
-            ko["frame_moments"] = kept_moments
-            ko["frame_data"] = frame_data
 
         print(f"  [OK] {len(captured)} frame(s) for {en['title'][:40]}")
 
