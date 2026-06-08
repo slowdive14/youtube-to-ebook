@@ -9,6 +9,7 @@ from export_archive import (
     generate_issue_markdown,
     _escape_yaml,
     _inject_summary_after_h1,
+    embed_frames,
 )
 
 
@@ -246,6 +247,68 @@ class TestInjectSummaryAfterH1:
         assert "Second paragraph." in result
         # Blank line between paragraphs preserved
         assert "First paragraph.\n\nSecond paragraph." in result
+
+
+class TestEmbedFrames:
+    """Swap [[FRAME:<seconds>]] markers for markdown images."""
+
+    def test_replaces_marker_with_image(self):
+        md = "Intro paragraph.\n\n[[FRAME:90]]\n\nMore text."
+        frame_map = {90: ("https://r2.dev/img/a.jpg", "A sleep cycle diagram")}
+        out = embed_frames(md, frame_map)
+        assert "![A sleep cycle diagram](https://r2.dev/img/a.jpg)" in out
+        assert "[[FRAME:90]]" not in out
+        # visible caption present
+        assert "A sleep cycle diagram" in out
+
+    def test_multiple_markers(self):
+        md = "[[FRAME:10]]\n\nmiddle\n\n[[FRAME:60]]"
+        frame_map = {
+            10: ("https://r2.dev/1.jpg", "first"),
+            60: ("https://r2.dev/2.jpg", "second"),
+        }
+        out = embed_frames(md, frame_map)
+        assert "![first](https://r2.dev/1.jpg)" in out
+        assert "![second](https://r2.dev/2.jpg)" in out
+        assert out.find("first") < out.find("second")
+
+    def test_orphan_marker_stripped(self):
+        # a marker whose frame failed to capture must not leak as literal text
+        md = "Body.\n\n[[FRAME:999]]\n\nEnd."
+        out = embed_frames(md, {})
+        assert "[[FRAME:999]]" not in out
+        assert "Body." in out and "End." in out
+
+    def test_marker_without_map_entry_stripped(self):
+        md = "[[FRAME:10]]\n\n[[FRAME:20]]"
+        frame_map = {10: ("https://r2.dev/1.jpg", "only one")}
+        out = embed_frames(md, frame_map)
+        assert "![only one](https://r2.dev/1.jpg)" in out
+        assert "[[FRAME:20]]" not in out  # orphan removed
+
+    def test_frame_without_marker_appended_as_gallery(self):
+        md = "Body with no markers at all."
+        frame_map = {42: ("https://r2.dev/x.jpg", "orphan frame")}
+        out = embed_frames(md, frame_map)
+        assert "![orphan frame](https://r2.dev/x.jpg)" in out
+        assert out.find("Body with no markers") < out.find("orphan frame")
+
+    def test_no_markers_no_frames_unchanged(self):
+        md = "Just text.\n\nMore."
+        assert embed_frames(md, {}) == md
+
+    def test_collapses_blank_lines_after_strip(self):
+        md = "A.\n\n[[FRAME:5]]\n\nB."
+        out = embed_frames(md, {})
+        # no triple-newline gaps left behind
+        assert "\n\n\n" not in out
+
+    def test_caption_with_parens_does_not_break_link(self):
+        md = "[[FRAME:7]]"
+        frame_map = {7: ("https://r2.dev/y.jpg", "chart (2026 data)")}
+        out = embed_frames(md, frame_map)
+        # the URL must remain intact and clickable
+        assert "(https://r2.dev/y.jpg)" in out
 
 
 if __name__ == "__main__":

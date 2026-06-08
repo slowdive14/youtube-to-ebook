@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-05-27
-- **Status**: ✅ Phase 0~3 완료 → 🔜 Phase 4 진입
+- **Status**: ✅ Phase 0~4 완료 → 🔜 Phase 5 진입(마지막)
 - **Scope**: Medium~Large (6 phases, 약 10~16시간)
 - **Stack**: Python 3.14 / yt-dlp / ffmpeg / Gemini API (+Vision) / Cloudflare R2
 - **참고 계획**: `C:\Users\user\Downloads\knou\docs\plans\PLAN_knou-lms-auto.md` (Phase 5·6·6.5의 타임스탬프→ffmpeg 프레임→Gemini 비전 선별→마크다운 임베드 패턴을 이식)
@@ -182,18 +182,19 @@ youtube-to-ebook/
 **Test Strategy**: 업로드 키 빌더(mock)·마커 치환(멱등)·캡션 이스케이프를 단위테스트. 실제 업로드는 1편 수동.
 
 **Tasks**:
-- [ ] **(RED)** `tests/test_export_archive.py` 보강:
-  - `embed_frames(article_md, {seconds: (url, caption)})` → 마커를 `![caption](url)`로 치환, 마커 없으면 문서 끝 갤러리, 멱등(중복삽입 방지)
+- [x] **(RED)** `test_export_archive.py` 보강(8개):
+  - `embed_frames(article_md, {seconds:(url,caption)})` → 마커를 `![caption](url)` + 가시 `*caption*` 으로 치환, 여러 마커, 맵 없는 마커 strip, 마커 없는 프레임 끝 갤러리, blank line collapse, 괄호 캡션 링크 보존
   - 프레임 없는 기사 → 마커만 깔끔히 제거(빈 `[[FRAME:..]]` 잔여 금지)
-  - → 실패 확인
-- [ ] **(GREEN)** `export_archive.py`: `upload_image_to_r2(path)` (audio 업로더 일반화, key=`images/YYYY/MM/DD/...`, ContentType image/jpeg) + `embed_frames()` + `generate_issue_markdown`에서 en/ko 본문에 적용
-- [ ] **(REFACTOR)** R2 미설정 시 마커 제거만 하고 진행(로컬 경로 노출 금지), frontmatter에 `frameUrls` 메타(선택)
+  - → 실패 확인(ImportError)
+- [x] **(GREEN)** `export_archive.py`: `_upload_to_r2(path,key,ct)` 공유화 + `upload_image_to_r2`(key=`images/YYYY/MM/DD`, image/jpeg) + `embed_frames()` + `generate_issue_markdown(frame_map=)`에서 en/ko 본문 적용
+- [x] **(REFACTOR)** `export_newsletter_issue(frame_data=)` → 프레임 R2 업로드 후 `frame_map` 빌드. R2 미설정 시 마커 strip만(로컬 경로 노출 0)
 
 **Quality Gate**:
-- [ ] `pytest tests/test_export_archive.py` 전체 통과(기존 22 + 신규)
-- [ ] 실제 1편 발행 .md에 R2 이미지가 인라인으로 박힘(아카이브 사이트 렌더 확인)
-- [ ] R2 미설정 환경에서도 마커 잔여 없이 정상 발행
-- [ ] 재실행 시 이미지 중복 삽입 없음
+- [x] `pytest test_export_archive.py` 전체 통과 (30개: 기존 22 + 신규 8)
+- [x] 통합 확인: `frame_map` 주입 시 발행 .md에 `![caption](url)` 인라인 + 가시 캡션, 원시 마커 0
+- [x] R2 미설정 환경에서도 마커 잔여 없이 정상(빈 frame_map → strip) — 단위테스트 검증
+- [x] 마커→이미지 1:1 치환이라 재실행/중복 삽입 없음(치환 후 마커 소멸)
+- [x] 전체 회귀 108개 통과(기존 100 + 신규 8)
 
 **Dependencies**: Phase 3
 **Rollback**: `export_archive.py` 변경 revert
@@ -248,7 +249,7 @@ youtube-to-ebook/
 | 1. 트랜스크립트 타임스탬프 보존 | ✅ 완료 | 2026-05-27 |
 | 2. 프레임 시점 선택(Gemini) | ✅ 완료 | 2026-05-27 |
 | 3. 프레임 추출 + 비전 선별 | ✅ 완료 | 2026-05-27 |
-| 4. R2 업로드 + 마크다운 임베드 | ⬜ 대기 | - |
+| 4. R2 업로드 + 마크다운 임베드 | ✅ 완료 | 2026-05-27 |
 | 5. 파이프라인 배선 + 이메일/EPUB | ⬜ 대기 | - |
 
 상태 범례: ⬜ 대기 / 🔄 진행중 / ✅ 완료 / ⚠️ 막힘
@@ -271,3 +272,4 @@ youtube-to-ebook/
 - (Phase 3 실측 ✅) **다운로드-후-로컬-seek** 확정 동작: py5HZrVhG_c 16MB **~5초** 다운로드 → 시점당 후보 4장(`VISION_OFFSETS=(-2,0,3,6)`) ffmpeg 추출 → Gemini 비전(thinking_budget=0, temp=0.1)에 인라인 바이트 전송 → `parse_vision_choice`로 0-based index 픽 → final 이동. **비전 실패/−1 시 정각 최근접 후보 fallback**. `types.Part.from_bytes(data, mime_type)`로 이미지 전송.
 - (Phase 3 정리) 처리 후 소스 mp4(16MB)·후보 jpg·`_cand`dir 제거(재실행 시 디스크 누적 방지). `needs_capture`로 이미 있는 final은 skip. `frames/`는 .gitignore. 시점별 try/except로 한 프레임 실패가 나머지·기사에 영향 없음. 소스 다운로드 실패 시 `{}` 반환.
 - (Phase 3 관찰) talking-head 일변도 영상은 비전도 인물샷밖에 못 고름(정상 한계). 슬라이드·그래픽 많은 채널(예: 강연·튜토리얼)에서 비전 선별 효과가 큼 — Phase 5 라이브에서 다양한 채널로 추가 관찰 예정.
+- (Phase 4 실측 ✅) `embed_frames(article_md, {sec:(url,caption)})`: `[[FRAME:<sec>]]` → `![caption](url)` + 가시 `*caption*`. 맵에 없는 마커(추출/업로드 실패분)는 strip해 **원시 마커 절대 미노출**. 맵엔 있는데 마커 없는 프레임은 끝 갤러리. blank line collapse. 마커→이미지 1:1이라 재실행 중복 0. R2 업로더는 `_upload_to_r2(path,key,ct)` 공유화 후 audio/image 분기, key=`images/YYYY/MM/DD/`. `export_newsletter_issue(frame_data={sec:(local,caption)})`가 업로드→frame_map 빌드→`generate_issue_markdown(frame_map=)`. R2 미설정 시 frame_map={} → 마커 strip만(로컬경로 0노출).

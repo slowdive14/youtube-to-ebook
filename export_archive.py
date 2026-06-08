@@ -66,14 +66,39 @@ def upload_audio_to_r2(local_path):
     filename = os.path.basename(local_path)
     key = f"audio/{now.strftime('%Y/%m/%d')}/{filename}"
 
+    return _upload_to_r2(local_path, key, "audio/mpeg")
+
+
+def upload_image_to_r2(local_path):
+    """
+    Upload an image (JPEG) frame to Cloudflare R2.
+    Returns the public URL, or None if R2 isn't configured / upload fails.
+    Key format: images/YYYY/MM/DD/filename.jpg
+    """
+    if not all([R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_PUBLIC_URL]):
+        print("  [!] R2 credentials not configured. Skipping image upload.")
+        return None
+    if not os.path.exists(local_path):
+        print(f"  [!] Image file not found: {local_path}")
+        return None
+
+    now = datetime.now()
+    filename = os.path.basename(local_path)
+    key = f"images/{now.strftime('%Y/%m/%d')}/{filename}"
+    return _upload_to_r2(local_path, key, "image/jpeg")
+
+
+def _upload_to_r2(local_path, key, content_type):
+    """Shared R2 put: upload local_path to `key` with the given Content-Type."""
     try:
         client = _get_r2_client()
+        filename = os.path.basename(local_path)
         print(f"  Uploading {filename} to R2...")
         client.upload_file(
             local_path,
             R2_BUCKET_NAME,
             key,
-            ExtraArgs={"ContentType": "audio/mpeg"},
+            ExtraArgs={"ContentType": content_type},
         )
         public_url = f"{R2_PUBLIC_URL.rstrip('/')}/{key}"
         print(f"  [OK] Uploaded: {public_url}")
@@ -83,7 +108,7 @@ def upload_audio_to_r2(local_path):
         return None
 
 
-def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None):
+def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None, frame_map=None):
     """
     Generate a markdown file with YAML frontmatter for the archive site.
 
@@ -181,6 +206,8 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
             article_md = _inject_summary_after_h1(
                 article_md, a.get("summary", ""), label="Episode summary"
             )
+            # Swap [[FRAME:..]] markers for uploaded images (or strip orphans)
+            article_md = embed_frames(article_md, frame_map)
             body_parts.append(article_md)
             body_parts.append("\n")
 
@@ -200,11 +227,56 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
             article_md = _inject_summary_after_h1(
                 article_md, a.get("summary", ""), label="에피소드 요약"
             )
+            article_md = embed_frames(article_md, frame_map)
             body_parts.append(article_md)
             body_parts.append("\n")
 
     content = frontmatter + "\n" + "".join(body_parts)
     return filename, content
+
+
+_FRAME_MARKER_RE = re.compile(r'\[\[FRAME:(\d+)\]\]')
+
+
+def embed_frames(article_md, frame_map):
+    """Replace ``[[FRAME:<seconds>]]`` markers with markdown images.
+
+    `frame_map` maps seconds -> (image_url, caption). Each marker whose
+    seconds is in the map becomes an image + a visible italic caption.
+    Markers with no map entry (frame failed to capture/upload) are stripped
+    so no literal ``[[FRAME:..]]`` ever leaks to the reader. Frames in the
+    map that have no marker in the text are appended as an end gallery.
+    """
+    if not article_md:
+        return article_md
+    frame_map = frame_map or {}
+    used = set()
+
+    def _img(url, caption):
+        cap = (caption or "").strip()
+        if cap:
+            return f"![{cap}]({url})\n\n*{cap}*"
+        return f"![]({url})"
+
+    def repl(m):
+        secs = int(m.group(1))
+        if secs in frame_map:
+            used.add(secs)
+            url, caption = frame_map[secs]
+            return _img(url, caption)
+        return ""  # orphan marker -> remove
+
+    result = _FRAME_MARKER_RE.sub(repl, article_md)
+
+    # Append any mapped frames that had no marker, as a trailing gallery
+    leftover = [s for s in frame_map if s not in used]
+    if leftover:
+        gallery = "\n\n".join(_img(*frame_map[s]) for s in leftover)
+        result = result.rstrip() + "\n\n" + gallery + "\n"
+
+    # Collapse blank-line gaps left by stripped markers
+    result = re.sub(r'\n{3,}', '\n\n', result)
+    return result
 
 
 _FENCE_RE = re.compile(r'(```[\s\S]*?```)')
@@ -382,12 +454,15 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None):
+def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None, frame_data=None):
     """
     Main entry point for archive export.
     1. Upload audio files to R2
-    2. Generate issue markdown
-    3. Push to archive repo
+    2. Upload captured frames to R2
+    3. Generate issue markdown (with inline frame images)
+    4. Push to archive repo
+
+    frame_data: {seconds: (local_jpg_path, caption)} from capture_frames.
     """
     print("\n[STEP 4b] Exporting to archive...")
 
@@ -399,9 +474,17 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
             if url:
                 audio_urls.append(url)
 
-    # 2. Generate issue markdown
+    # 2. Upload captured frames to R2 -> build {seconds: (url, caption)}
+    frame_map = {}
+    for seconds, (local_path, caption) in (frame_data or {}).items():
+        url = upload_image_to_r2(local_path)
+        if url:
+            frame_map[seconds] = (url, caption)
+
+    # 3. Generate issue markdown (frame markers -> inline images)
     filename, content = generate_issue_markdown(
-        en_articles, ko_articles, audio_urls, drill_sentences=drill_sentences
+        en_articles, ko_articles, audio_urls,
+        drill_sentences=drill_sentences, frame_map=frame_map,
     )
 
     # 3. Push to archive repo
