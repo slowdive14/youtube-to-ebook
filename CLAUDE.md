@@ -73,6 +73,11 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - `max_output_tokens` set to 8000 for comprehensive bilingual summaries.
 - 15-second delay between API calls with retry logic.
 
+### Podcast Audio (generate_podcast.py)
+- NotebookLM generates the newsletter audio. To avoid episodes blending together, articles are split into **per-episode groups** (`generate_podcasts_grouped`) — one podcast per group — instead of one bundled podcast.
+- NotebookLM **free plan caps Audio Overviews at 3/day**, so the digest is split into at most `NOTEBOOKLM_DAILY_AUDIO_LIMIT` (default 3) groups; with more videos than the cap, the earliest groups bundle the extras. Each group's podcast becomes a separate "Part N" player on the archive site (the pipeline already supports a list of `audioUrls`).
+- Per-group length defaults to `NOTEBOOKLM_GROUP_LENGTH=default` (~10 min); a few groups still add up to a substantial total.
+
 ### Duplication & Concurrency (main.py)
 - Uses `video_tracker.py` to skip already-processed video IDs.
 - **Execution Lock**: Creates `main.lock` during runtime to prevent simultaneous executions (fixing duplicate email bug).

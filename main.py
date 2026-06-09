@@ -222,13 +222,15 @@ def run(video_url=None):
 
             print("  [Podcast] Trying NotebookLM podcast generation...")
             try:
-                from generate_podcast import generate_podcast
-                podcast_path = generate_podcast(
+                # One podcast per episode (grouped to respect the free-plan
+                # 3/day cap) so episodes don't get mixed into one blended audio.
+                from generate_podcast import generate_podcasts_grouped
+                podcast_paths = generate_podcasts_grouped(
                     english_articles, language='en', output_dir=str(audio_dir)
                 )
-                if podcast_path:
-                    audio_paths_en = [podcast_path]
-                    print(f"  [Podcast] Success!")
+                if podcast_paths:
+                    audio_paths_en = podcast_paths
+                    print(f"  [Podcast] Success! {len(podcast_paths)} episode podcast(s)")
             except Exception as e:
                 print(f"  [Podcast] Failed: {e}")
 

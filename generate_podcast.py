@@ -56,7 +56,67 @@ def _get_client():
     return NotebookLMClient(cookies=tokens.cookies, csrf_token=tokens.csrf_token)
 
 
-def generate_podcast(articles, language='en', output_dir='audio'):
+def group_articles(articles, max_slots):
+    """Split articles into at most `max_slots` ordered, evenly-sized groups.
+
+    NotebookLM's free plan caps Audio Overviews at 3/day, so we can produce
+    at most `max_slots` podcasts. With <= max_slots articles each group holds
+    exactly one (fully separated, no mixing); with more, the earliest groups
+    take the remainder (e.g. 5 -> [2,2,1]). Order is preserved.
+    """
+    n = len(articles)
+    if n == 0:
+        return []
+    slots = min(n, max(1, max_slots))
+    base, rem = divmod(n, slots)
+    groups = []
+    idx = 0
+    for i in range(slots):
+        size = base + (1 if i < rem else 0)
+        groups.append(articles[idx:idx + size])
+        idx += size
+    return groups
+
+
+def generate_podcasts_grouped(articles, language='en', output_dir='audio',
+                              max_slots=None, length=None):
+    """Generate up to `max_slots` podcasts so episodes don't get mixed.
+
+    Each group of articles becomes one podcast. Returns a list of audio file
+    paths (one per successfully generated group). Respects NotebookLM's free
+    daily Audio Overview cap (default 3, override via NOTEBOOKLM_DAILY_AUDIO_LIMIT).
+    Per-group length defaults to "default" (~10 min) so a few groups still add
+    up to a substantial total without blowing past generation limits.
+    """
+    if not articles:
+        print("  [!] No articles provided for podcast generation.")
+        return []
+
+    if max_slots is None:
+        max_slots = int(os.getenv("NOTEBOOKLM_DAILY_AUDIO_LIMIT", "3"))
+    if length is None:
+        length = os.getenv("NOTEBOOKLM_GROUP_LENGTH", "default")
+
+    groups = group_articles(articles, max_slots)
+    print(f"  [Podcast] {len(articles)} article(s) -> {len(groups)} podcast(s) "
+          f"(free-plan cap {max_slots}/day)")
+
+    paths = []
+    for i, group in enumerate(groups):
+        titles = ", ".join(a.get("title", "?")[:30] for a in group)
+        print(f"  [Podcast] Group {i+1}/{len(groups)} ({len(group)} article(s)): {titles}")
+        path = generate_podcast(
+            group, language=language, output_dir=output_dir,
+            length=length, suffix=str(i + 1) if len(groups) > 1 else None,
+        )
+        if path:
+            paths.append(path)
+        else:
+            print(f"  [Podcast] Group {i+1} produced no audio (skipped)")
+    return paths
+
+
+def generate_podcast(articles, language='en', output_dir='audio', length=None, suffix=None):
     """
     Generate a podcast-style audio overview using NotebookLM.
 
@@ -64,6 +124,10 @@ def generate_podcast(articles, language='en', output_dir='audio'):
         articles: List of article dicts with 'title', 'channel', 'article' keys
         language: 'en' or 'ko'
         output_dir: Directory to save the output audio file
+        length: override podcast length ('short'/'default'/'long'); falls back
+            to the NOTEBOOKLM_PODCAST_LENGTH env when None
+        suffix: optional tag appended to the notebook title and output filename
+            so multiple grouped podcasts on the same day don't collide
 
     Returns:
         str | None: Path to the generated audio file, or None on failure
@@ -78,7 +142,8 @@ def generate_podcast(articles, language='en', output_dir='audio'):
 
     safe_date = datetime.now().strftime('%Y%m%d')
     lang_code = "ko" if language == 'ko' else "en"
-    notebook_title = f"Podcast_{safe_date}_{lang_code.upper()}"
+    name_tag = f"_{suffix}" if suffix else ""
+    notebook_title = f"Podcast_{safe_date}_{lang_code.upper()}{name_tag}"
     notebook_id = None
     using_fallback = False
 
@@ -169,9 +234,8 @@ def generate_podcast(articles, language='en', output_dir='audio'):
 
         # Step 3: Generate audio overview
         podcast_format = os.getenv("NOTEBOOKLM_PODCAST_FORMAT", "deep_dive")
-        # "long" targets a substantial 20-30 min episode (short ~5 min felt too
-        # brief to be worth listening to).
-        podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "long")
+        # Explicit `length` (from grouped generation) wins; else env, else long.
+        podcast_length = length or os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "long")
         bcp47_lang = "ko-KR" if language == 'ko' else "en-US"
 
         focus_prompt = os.getenv("NOTEBOOKLM_FOCUS_PROMPT", DEFAULT_FOCUS_PROMPT)
@@ -243,7 +307,7 @@ def generate_podcast(articles, language='en', output_dir='audio'):
 
         # Step 5: Download audio
         os.makedirs(output_dir, exist_ok=True)
-        output_path = os.path.join(output_dir, f"Podcast_{safe_date}_{lang_code.upper()}.m4a")
+        output_path = os.path.join(output_dir, f"Podcast_{safe_date}_{lang_code.upper()}{name_tag}.m4a")
         print(f"  Downloading podcast audio...")
 
         # Clear any stale target/temp from an earlier run on the same day.
