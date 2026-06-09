@@ -13,6 +13,9 @@ from datetime import datetime
 DEFAULT_FOCUS_PROMPT = (
     "IMPORTANT: Discuss the articles in the EXACT order they are provided as sources. "
     "Do not rearrange or skip any article. "
+    "Aim for a thorough, in-depth conversation of roughly 20-30 minutes: "
+    "explore each article's key points in detail, unpack the reasoning, add context, "
+    "and walk through concrete examples — this is a deep dive, NOT a quick summary. "
     "Use simple, clear English suitable for intermediate English learners. "
     "Avoid complex idioms, jargon, or fast-paced speech. "
     "Explain key terms briefly when they first appear."
@@ -166,7 +169,9 @@ def generate_podcast(articles, language='en', output_dir='audio'):
 
         # Step 3: Generate audio overview
         podcast_format = os.getenv("NOTEBOOKLM_PODCAST_FORMAT", "deep_dive")
-        podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "short")
+        # "long" targets a substantial 20-30 min episode (short ~5 min felt too
+        # brief to be worth listening to).
+        podcast_length = os.getenv("NOTEBOOKLM_PODCAST_LENGTH", "long")
         bcp47_lang = "ko-KR" if language == 'ko' else "en-US"
 
         focus_prompt = os.getenv("NOTEBOOKLM_FOCUS_PROMPT", DEFAULT_FOCUS_PROMPT)
@@ -192,8 +197,9 @@ def generate_podcast(articles, language='en', output_dir='audio'):
             print(f"  [!] Audio creation call: {e}")
             # May still have started - continue to poll
 
-        # Step 4: Poll for completion (max 15 minutes)
-        max_wait = 900
+        # Step 4: Poll for completion (max 20 minutes — long-format episodes
+        # can take a little longer to render server-side)
+        max_wait = 1200
         poll_interval = 20
         elapsed = 0
         audio_ready = False
