@@ -15,7 +15,10 @@ from capture_frames import (
     build_vision_prompt,
     parse_vision_choice,
     needs_capture,
+    static_sample_points,
+    decide_static,
     VISION_OFFSETS,
+    STATIC_DIFF_THRESHOLD,
 )
 
 
@@ -146,6 +149,48 @@ class TestNeedsCapture:
         p = tmp_path / "ok.jpg"
         p.write_bytes(b"\xff\xd8\xff")  # jpeg magic
         assert needs_capture(str(p)) is False
+
+
+class TestStaticSamplePoints:
+    def test_spread_within_middle_70_percent(self):
+        pts = static_sample_points(1000, n=5)
+        assert len(pts) == 5
+        # first sample >= 15%, last <= 85%
+        assert pts[0] >= 150
+        assert pts[-1] <= 850
+        # strictly increasing
+        assert pts == sorted(pts)
+
+    def test_too_short_returns_empty(self):
+        assert static_sample_points(5) == []
+        assert static_sample_points(0) == []
+        assert static_sample_points(None) == []
+
+    def test_minimum_two_points(self):
+        pts = static_sample_points(1000, n=1)
+        assert len(pts) >= 2
+
+
+class TestDecideStatic:
+    def test_all_small_diffs_is_static(self):
+        assert decide_static([0.5, 1.2, 0.8], threshold=4.0) is True
+
+    def test_one_large_diff_not_static(self):
+        # a single changing sample means the video moves -> not static
+        assert decide_static([0.5, 12.0, 0.8], threshold=4.0) is False
+
+    def test_empty_or_none_is_not_static(self):
+        assert decide_static([]) is False
+        assert decide_static(None) is False
+        assert decide_static([None, None]) is False
+
+    def test_boundary_at_threshold(self):
+        # exactly at threshold is NOT static (strict less-than)
+        assert decide_static([4.0], threshold=4.0) is False
+        assert decide_static([3.99], threshold=4.0) is True
+
+    def test_ignores_none_values_mixed_in(self):
+        assert decide_static([1.0, None, 2.0], threshold=4.0) is True
 
 
 if __name__ == "__main__":

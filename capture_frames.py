@@ -36,6 +36,12 @@ VISION_OFFSETS = (-2, 0, 3, 6)
 PLAYER_CLIENT = "android"
 FORMAT_PREF = "18/best[height<=480]/best"
 
+# Static-video (podcast with one fixed image) detection. We sample frames
+# across the video and measure how much they change; below the threshold the
+# video is treated as static and frame capture is skipped entirely.
+STATIC_SAMPLE_COUNT = 5
+STATIC_DIFF_THRESHOLD = 4.0  # mean luma difference (0-255); ~0 = identical
+
 _UNSAFE = re.compile(r'[^A-Za-z0-9_-]')
 
 
@@ -140,7 +146,109 @@ def needs_capture(path):
     return (not os.path.exists(path)) or os.path.getsize(path) == 0
 
 
+def static_sample_points(duration, n=STATIC_SAMPLE_COUNT):
+    """Evenly spread sample timestamps across the middle 70% of the video.
+
+    Skips the first/last 15% so intro title cards or end screens don't skew
+    the static/non-static decision. Returns [] for missing/too-short videos.
+    """
+    if not duration or duration < 10:
+        return []
+    n = max(2, n)
+    start = duration * 0.15
+    span = duration * 0.70
+    return [int(start + span * i / (n - 1)) for i in range(n)]
+
+
+def decide_static(diffs, threshold=STATIC_DIFF_THRESHOLD):
+    """Given per-sample luma differences vs. a reference frame, decide static.
+
+    Static = even the most-different sample barely changed (max < threshold).
+    Empty/None diffs -> False (when unsure, capture as normal).
+    """
+    vals = [d for d in (diffs or []) if d is not None]
+    if not vals:
+        return False
+    return max(vals) < threshold
+
+
 # ---------------- Orchestration (live; not unit-tested) ----------------
+
+def _video_id_from_url(url):
+    if "v=" in url:
+        return url.split("v=")[1].split("&")[0]
+    if "youtu.be/" in url:
+        return url.split("youtu.be/")[1].split("?")[0]
+    return url
+
+
+def _extract_small_frame(src, seconds, out_path, width=128):
+    """Extract a downscaled frame (for cheap, noise-robust comparison)."""
+    res = subprocess.run(
+        ["ffmpeg", "-y", "-ss", str(int(seconds)), "-i", str(src),
+         "-frames:v", "1", "-vf", f"scale={width}:-2", str(out_path)],
+        capture_output=True, text=True,
+    )
+    return res.returncode == 0 and os.path.exists(out_path) and os.path.getsize(out_path) > 0
+
+
+def _frame_luma_diff(img_a, img_b):
+    """Mean absolute luma difference (0-255) between two images via ffmpeg.
+
+    ~0 for identical frames; larger as content differs. Returns None on error.
+    """
+    res = subprocess.run(
+        ["ffmpeg", "-i", str(img_a), "-i", str(img_b),
+         "-lavfi", "[0][1]blend=all_mode=difference,signalstats,"
+                   "metadata=print:key=lavfi.signalstats.YAVG",
+         "-f", "null", "-"],
+        capture_output=True, text=True,
+    )
+    vals = re.findall(r"lavfi\.signalstats\.YAVG=([\d.]+)", res.stderr)
+    return float(vals[-1]) if vals else None
+
+
+def is_static_video(src, duration, threshold=STATIC_DIFF_THRESHOLD):
+    """True when the video is essentially one fixed image (a podcast).
+
+    Samples frames across the video, compares each to a reference frame, and
+    returns True when none of them differ meaningfully. Errs toward False
+    (capture as usual) whenever it can't decide.
+    """
+    points = static_sample_points(duration)
+    if len(points) < 2:
+        return False
+
+    tmp_dir = Path(src).parent / "_static"
+    tmp_dir.mkdir(exist_ok=True)
+    frames = []
+    for i, t in enumerate(points):
+        p = tmp_dir / f"s{i}.jpg"
+        if _extract_small_frame(src, t, str(p)):
+            frames.append(str(p))
+
+    diffs = []
+    if len(frames) >= 2:
+        ref = frames[0]
+        for other in frames[1:]:
+            diffs.append(_frame_luma_diff(ref, other))
+
+    # cleanup temp comparison frames
+    for f in frames:
+        try:
+            os.remove(f)
+        except OSError:
+            pass
+    try:
+        tmp_dir.rmdir()
+    except OSError:
+        pass
+
+    static = decide_static(diffs, threshold)
+    if static:
+        vals = [round(d, 2) for d in diffs if d is not None]
+        print(f"  [.] Static-image video detected (frame diffs {vals}, < {threshold})")
+    return static
 
 def _video_id_from_url(url):
     if "v=" in url:
@@ -232,6 +340,20 @@ def capture_frames_for_moments(video, moments, out_dir, client=None, use_vision=
         return {}
     if duration is None:
         duration = video.get("duration")
+
+    # Skip podcast-style videos that are just one fixed image — capturing a
+    # frame from those adds no value (every frame is identical).
+    if is_static_video(src, duration):
+        print(f"  [.] Skipping frame capture (static-image video): {vid}")
+        try:
+            os.remove(src)
+        except OSError:
+            pass
+        try:
+            cand_dir.rmdir()
+        except OSError:
+            pass
+        return {}
 
     result = {}
     for m in moments:
