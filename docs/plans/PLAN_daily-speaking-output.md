@@ -242,3 +242,4 @@ speakingPrompt:
 - (배포 주의 ⚠️) **git push만으로는 사이트 반영 안 됨** — Vercel이 Deploy Hook 트리거 방식. 사이트 변경 후 반드시 `trigger_vercel_deploy()`(또는 hook POST) 실행해야 화면 반영. (Phase 2 배포 시 이걸 빠뜨려 "안 보임" 발생 → hook 쏘고 해결.)
 - (Phase 2 실측 ✅) 사용자 실제 기기·억양에서 녹음→전사→코칭 **정상 동작 확인("잘 잡힌다")**. 브라우저 SpeechRecognition 대비 핵심 개선 입증.
 - (Phase 3 실측 ✅) 스트릭 = **로컬 캘린더 day** 기준. `toISOString()`(UTC)을 쓰면 KST에서 하루 밀리는 버그 → `getFullYear/Month/Date`로 로컬 day 생성. grace(오늘 미수행 시 어제까지 유효). node로 7케이스 검증. 이슈 페이지에 빨간 pill CTA(drill보다 상위). 로그는 날짜별 dedupe 최근 7개.
+- (후속 ✅ 드릴↔스피킹 연결) 사용자 피드백: 기존 드릴이 난도 높고(빈칸/번역/단어교체) Web Speech 인식률 저조해 안 씀. → `/speak`를 **2단계 흐름**으로 재구성: ①워밍업=드릴 문장(첫 3개) **따라 말하기(shadowing)** ②본 과제=내 문장 산출. 둘 다 MediaRecorder→Gemini(Web Speech 폐기, 합/불 없음). `/api/speak-feedback`에 **`mode:'shadow'`** 추가(목표 문장 비교, 관대한 피드백 `{transcript,good,tip}`). 녹음기를 다중 타겟 재사용하도록 일반화. 옛 4단계 `/drill`은 "더 어려운 연습"으로 강등 링크만 유지. shadow REST 계약 실측: 정확 전사 + 한국어 격려 + 발음 팁 정상.

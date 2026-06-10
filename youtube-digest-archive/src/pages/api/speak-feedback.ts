@@ -36,20 +36,38 @@ Respond with ONLY a JSON object (no markdown) with these keys:
 If the audio is empty or unintelligible, set transcript to "" and still return
 encouraging guidance using the model answer.`;
 
+// "shadow" mode: the learner just repeats a target sentence (easy warm-up).
+// Gentle, no grading — recognition errors become a tip, not a failure.
+const SHADOW_PROMPT = `You are a warm English pronunciation coach for a Korean B1 learner.
+The learner is practicing by REPEATING this target sentence out loud:
+"{{TARGET}}"
+The attached audio is their attempt.
+
+TRANSCRIBE what they said (do your best with the accent; never penalize accent).
+Then give brief, encouraging feedback. This is shadowing practice — NEVER say
+"wrong", never grade pass/fail. Just one warm note and at most one gentle tip.
+
+Respond with ONLY a JSON object (no markdown):
+{
+  "transcript": "what the learner actually said, verbatim",
+  "good": "one encouraging line in Korean",
+  "tip": "at most one gentle pronunciation/rhythm tip in Korean, or \"\" if it was great"
+}`;
+
 export const POST: APIRoute = async ({ request }) => {
   const apiKey = process.env.GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY;
   if (!apiKey) {
     return json({ error: 'API key not configured' }, 500);
   }
 
-  let body: { audioBase64?: string; mimeType?: string; question?: string; model?: string };
+  let body: { audioBase64?: string; mimeType?: string; question?: string; model?: string; mode?: string; target?: string };
   try {
     body = await request.json();
   } catch {
     return json({ error: 'Invalid request' }, 400);
   }
 
-  const { audioBase64, mimeType, question = '', model = '' } = body;
+  const { audioBase64, mimeType, question = '', model = '', mode = 'produce', target = '' } = body;
   if (!audioBase64 || typeof audioBase64 !== 'string') {
     return json({ error: 'audioBase64 required' }, 400);
   }
@@ -61,9 +79,12 @@ export const POST: APIRoute = async ({ request }) => {
     return json({ error: `Unsupported audio type: ${baseMime || 'none'}` }, 415);
   }
 
-  const prompt = COACH_PROMPT
-    .replace('{{QUESTION}}', question.slice(0, 500))
-    .replace('{{MODEL}}', model.slice(0, 300));
+  const isShadow = mode === 'shadow';
+  const prompt = isShadow
+    ? SHADOW_PROMPT.replace('{{TARGET}}', target.slice(0, 400))
+    : COACH_PROMPT
+        .replace('{{QUESTION}}', question.slice(0, 500))
+        .replace('{{MODEL}}', model.slice(0, 300));
 
   try {
     const res = await fetch(
@@ -108,6 +129,13 @@ export const POST: APIRoute = async ({ request }) => {
       return json({ error: 'Could not parse feedback', raw: raw.slice(0, 200) }, 502);
     }
 
+    if (isShadow) {
+      return json({
+        transcript: feedback.transcript ?? '',
+        good: feedback.good ?? '',
+        tip: feedback.tip ?? '',
+      }, 200);
+    }
     return json({
       transcript: feedback.transcript ?? '',
       good: feedback.good ?? '',
