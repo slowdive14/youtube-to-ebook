@@ -38,16 +38,22 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 
 		{shadows.length > 0 && (
 			<section class="warmup">
-				<h2 class="section-title">1단계 · 따라 말하기 <span class="section-sub">먼저 입을 풀어요 (쉬움)</span></h2>
+				<h2 class="section-title">1단계 · 워밍업 <span class="section-sub">한 문장을 3단계로 올라가며 말해요</span></h2>
 				{shadows.map((s, i) => (
-					<div class="card shadow-card" data-idx={i} data-target={s.sentence}>
-						<p class="shadow-en">{s.sentence}</p>
-						<p class="shadow-ko">{s.korean}</p>
-						<div class="shadow-actions">
-							<button class="mini-btn say-btn" data-say={s.sentence} type="button">🔊 듣기</button>
-							<button class="rec-btn rec-btn-sm shadow-rec" data-rec={`s${i}`} type="button">🎤 따라 말하기</button>
+					<div class="card ladder-card" data-idx={i} data-en={s.sentence} data-ko={s.korean} data-step="1">
+						<div class="ladder-steps">
+							<span class="lstep" data-s="1">1 따라</span>
+							<span class="lstep" data-s="2">2 빈칸</span>
+							<span class="lstep" data-s="3">3 한→영</span>
 						</div>
-						<div class="shadow-fb" id={`fb-s${i}`} hidden>
+						<p class="lp-en" id={`en-s${i}`}></p>
+						<p class="lp-ko" id={`ko-s${i}`}>{s.korean}</p>
+						<div class="ladder-actions">
+							<button class="mini-btn say-btn lp-say" data-say={s.sentence} type="button" id={`say-s${i}`}>🔊 듣기</button>
+							<button class="rec-btn rec-btn-sm ladder-rec" data-rec={`s${i}`} type="button">🎤 말하기</button>
+							<button class="mini-btn ladder-next" id={`next-s${i}`} hidden type="button">다음 단계 →</button>
+						</div>
+						<div class="ladder-fb" id={`fb-s${i}`} hidden>
 							<p class="fb-transcript" id={`t-s${i}`}></p>
 							<p class="fb-good" id={`g-s${i}`}></p>
 							<p class="fb-tip" id={`tip-s${i}`}></p>
@@ -202,26 +208,72 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			});
 		}
 
-		// --- register shadow targets ---
-		document.querySelectorAll('.shadow-card').forEach((card) => {
+		// --- warm-up ladder: each sentence climbs shadow -> fill -> translate ---
+		const STEP_LABEL = { 1: '🎤 따라 말하기', 2: '🎤 빈칸 채워 말하기', 3: '🎤 한국어 보고 영어로' };
+
+		function blankWord(en) {
+			const tokens = en.split(/(\s+)/); // keep whitespace tokens
+			let bestIdx = -1, bestLen = 0;
+			tokens.forEach((tok, idx) => {
+				const w = tok.replace(/[^A-Za-z]/g, '');
+				if (w.length >= 4 && w.length > bestLen) { bestLen = w.length; bestIdx = idx; }
+			});
+			if (bestIdx === -1) return en;
+			tokens[bestIdx] = tokens[bestIdx].replace(/[A-Za-z]+/, '____');
+			return tokens.join('');
+		}
+
+		document.querySelectorAll('.ladder-card').forEach((card) => {
 			const i = card.dataset.idx;
 			const id = `s${i}`;
-			const target = card.dataset.target;
-			const btn = card.querySelector('.shadow-rec');
+			const en = card.dataset.en, ko = card.dataset.ko;
+			const recBtn = card.querySelector('.ladder-rec');
+			const sayBtn = $(`say-s${i}`);
+			const nextBtn = $(`next-s${i}`);
+			const enEl = $(`en-s${i}`);
 			const fb = $(`fb-${id}`);
+			const step = () => parseInt(card.dataset.step || '1');
+
+			function renderStep() {
+				const s = step();
+				card.querySelectorAll('.lstep').forEach((el) => {
+					const n = parseInt(el.dataset.s);
+					el.classList.toggle('active', n === s);
+					el.classList.toggle('done', n < s);
+				});
+				if (s === 1) enEl.textContent = en;
+				else if (s === 2) enEl.textContent = blankWord(en);
+				else enEl.textContent = '';            // translate: hide English
+				sayBtn.hidden = s !== 1;
+				recBtn.textContent = STEP_LABEL[s];
+				recBtn.disabled = false;
+				nextBtn.hidden = true;
+				fb.hidden = true;
+			}
+
 			targets[id] = {
-				buildPayload: () => ({ mode: 'shadow', target }),
-				setLabel: (label) => { btn.textContent = label; btn.disabled = label.includes('듣는'); },
-				reset: () => { btn.textContent = '🎤 다시 말하기'; btn.disabled = false; },
-				onError: (msg) => { $(`t-${id}`).textContent = msg; fb.hidden = false; btn.textContent = '🎤 따라 말하기'; btn.disabled = false; },
+				buildPayload: () => (step() === 3
+					? { mode: 'translate', target: en, ko }
+					: { mode: 'shadow', target: en }),
+				setLabel: (label) => { recBtn.textContent = label; recBtn.disabled = label.includes('듣는'); },
+				reset: () => { recBtn.textContent = '🎤 다시 말하기'; recBtn.disabled = false; },
+				onError: (msg) => { $(`t-${id}`).textContent = msg; fb.hidden = false; recBtn.textContent = STEP_LABEL[step()]; recBtn.disabled = false; },
 				render: (d) => {
 					$(`t-${id}`).textContent = d.transcript ? `🗣️ ${d.transcript}` : '(못 알아들었어요 — 다시 한 번!)';
 					$(`g-${id}`).textContent = d.good || '';
-					$(`tip-${id}`).textContent = d.tip || '';
+					$(`tip-${id}`).textContent = step() === 3
+						? (d.corrected ? `✏️ ${d.corrected}` : '')
+						: (d.tip || '');
 					fb.hidden = false;
+					if (step() < 3) nextBtn.hidden = false;
 				},
 			};
+			nextBtn.addEventListener('click', () => {
+				card.dataset.step = String(Math.min(3, step() + 1));
+				renderStep();
+			});
 			wire(id);
+			renderStep();
 		});
 
 		// --- register production target ---
@@ -309,13 +361,17 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		.section-title { font-size: 1.15rem; margin: 1.6rem 0 0.6rem; }
 		.section-sub { font-size: 0.85rem; color: var(--text-muted); font-weight: 400; }
 		.card { background: var(--card-bg); box-shadow: var(--card-shadow); border-radius: 12px; padding: 1.25rem 1.4rem; margin: 0.7rem 0; }
-		.shadow-card { padding: 1rem 1.2rem; }
-		.shadow-en { font-size: 1.15rem; font-weight: 600; margin: 0 0 0.2rem; }
-		.shadow-ko { font-size: 0.9rem; color: var(--text-muted); margin: 0 0 0.7rem; }
-		.shadow-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
-		.shadow-fb { margin-top: 0.8rem; padding-top: 0.7rem; border-top: 1px solid var(--divider-color); }
-		.shadow-fb p { margin: 0.15rem 0; line-height: 1.5; }
-		.fb-tip { color: #e65100; font-size: 0.92rem; }
+		.ladder-card { padding: 1rem 1.2rem; }
+		.ladder-steps { display: flex; gap: 0.4rem; margin-bottom: 0.7rem; }
+		.lstep { font-size: 0.72rem; padding: 0.15rem 0.55rem; border-radius: 999px; background: var(--code-bg); color: var(--text-muted); border: 1px solid var(--code-border); }
+		.lstep.active { background: var(--accent-color); color: #fff; border-color: transparent; font-weight: 700; }
+		.lstep.done { color: #2e7d32; }
+		.lp-en { font-size: 1.15rem; font-weight: 600; margin: 0 0 0.2rem; min-height: 1.2em; }
+		.lp-ko { font-size: 0.95rem; color: var(--text-muted); margin: 0 0 0.7rem; }
+		.ladder-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+		.ladder-fb { margin-top: 0.8rem; padding-top: 0.7rem; border-top: 1px solid var(--divider-color); }
+		.ladder-fb p { margin: 0.15rem 0; line-height: 1.5; }
+		.fb-tip { color: #e65100; font-size: 0.95rem; }
 		.task-q { font-size: 1.25rem; font-weight: 600; line-height: 1.5; margin: 0 0 1rem; }
 		.task-frame { font-size: 1.1rem; padding: 0.7rem 1rem; background: var(--intro-bg); border-left: 4px solid var(--accent-color); border-radius: 6px; font-style: italic; color: var(--text-color); }
 		.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
