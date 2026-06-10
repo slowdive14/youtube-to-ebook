@@ -17,7 +17,6 @@ const issues = rawIssues.sort((a, b) => {
 		<p style="font-size: 20px; color: var(--text-muted); font-style: italic;">
 			Catch up on past issues of the YouTube Digest newsletter, complete with AI-generated audio narration.
 		</p>
-		<p id="read-stats" style="font-size: 14px; color: var(--text-muted); margin-top: 10px; font-family: system-ui, -apple-system, sans-serif;"></p>
 	</div>
 
 	{issues.length === 0 ? (
@@ -41,189 +40,27 @@ const issues = rawIssues.sort((a, b) => {
 
 				return (
 					<li>
-						<div class="issue-card-wrapper" data-issue-id={issue.id}>
-							<button class="read-check" data-issue-id={issue.id} aria-label="Mark as read" title="Mark as read">
-								<svg class="check-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-							</button>
-							<a href={`/issues/${issue.id}`} class="issue-card">
-								<div class="issue-date">{formattedDate}</div>
-								<h2 class="issue-title">{issue.data.subject}</h2>
-								<div class="issue-meta">
-									{hasAudio && (
-										<span class="badge">
-											<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-											Audio Available
-										</span>
-									)}
-									{articleCount > 0 && (
-										<span class="badge">
-											📄 {articleCount} Articles
-										</span>
-									)}
-								</div>
-								<div class="read-more">Read Issue &rarr;</div>
-							</a>
-							<div class="sub-checks" data-issue-id={issue.id}>
-								{issue.data.articles && issue.data.articles.map((article, idx) => (
-									<div class="sub-check-row">
-										<span class="sub-check-channel">{article.channel}<span class="sub-check-title">{article.title}</span></span>
-										<div class="sub-check-group">
-											<button class="sub-check-btn" data-type={`en-${idx}`} title={`${article.channel} English`}>
-												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-												<span class="sub-check-label">EN</span>
-											</button>
-											<button class="sub-check-btn" data-type={`ko-${idx}`} title={`${article.channel} 한국어`}>
-												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-												<span class="sub-check-label">KO</span>
-											</button>
-										</div>
-									</div>
-								))}
+						<a href={`/issues/${issue.id}`} class="issue-card">
+							<div class="issue-date">{formattedDate}</div>
+							<h2 class="issue-title">{issue.data.subject}</h2>
+							<div class="issue-meta">
 								{hasAudio && (
-									<div class="sub-check-row sub-check-row-global">
-										<div class="sub-check-group">
-											<button class="sub-check-btn" data-type="audio" title="오디오 듣기">
-												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-												<span class="sub-check-label">Audio</span>
-											</button>
-										</div>
-									</div>
+									<span class="badge">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
+										Audio Available
+									</span>
+								)}
+								{articleCount > 0 && (
+									<span class="badge">
+										📄 {articleCount} Articles
+									</span>
 								)}
 							</div>
-						</div>
+							<div class="read-more">Read Issue &rarr;</div>
+						</a>
 					</li>
 				);
 			})}
 		</ul>
 	)}
 </BaseLayout>
-
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
-		const STORAGE_KEY = 'yt-digest-read-issues';
-		const SUB_STORAGE_KEY = 'yt-digest-sub-progress';
-
-		function getReadSet() {
-			try {
-				return new Set(JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'));
-			} catch { return new Set(); }
-		}
-
-		function saveReadSet(set) {
-			localStorage.setItem(STORAGE_KEY, JSON.stringify([...set]));
-		}
-
-		function getSubProgress() {
-			try {
-				return JSON.parse(localStorage.getItem(SUB_STORAGE_KEY) || '{}');
-			} catch { return {}; }
-		}
-
-		function saveSubProgress(progress) {
-			localStorage.setItem(SUB_STORAGE_KEY, JSON.stringify(progress));
-		}
-
-		function updateStats() {
-			const total = document.querySelectorAll('.issue-card-wrapper').length;
-			const readCount = document.querySelectorAll('.issue-card-wrapper.is-read').length;
-			const el = document.getElementById('read-stats');
-			if (el) el.textContent = `${readCount} / ${total} read`;
-		}
-
-		function applySubChecks() {
-			const progress = getSubProgress();
-			document.querySelectorAll('.sub-checks').forEach(container => {
-				const issueId = container.dataset.issueId;
-				const issueProgress = progress[issueId] || {};
-				container.querySelectorAll('.sub-check-btn').forEach(btn => {
-					const type = btn.dataset.type;
-					if (issueProgress[type]) {
-						btn.classList.add('checked');
-					} else {
-						btn.classList.remove('checked');
-					}
-				});
-
-				// Auto-mark issue as read if all sub-items are checked
-				const allBtns = container.querySelectorAll('.sub-check-btn');
-				const checkedBtns = container.querySelectorAll('.sub-check-btn.checked');
-				const wrapper = container.closest('.issue-card-wrapper');
-				if (allBtns.length > 0 && allBtns.length === checkedBtns.length) {
-					wrapper.classList.add('is-read');
-					const readSet = getReadSet();
-					readSet.add(issueId);
-					saveReadSet(readSet);
-				}
-			});
-		}
-
-		const readSet = getReadSet();
-
-		// Apply initial read state
-		document.querySelectorAll('.issue-card-wrapper').forEach(wrapper => {
-			const id = wrapper.dataset.issueId;
-			if (readSet.has(id)) wrapper.classList.add('is-read');
-		});
-
-		applySubChecks();
-		updateStats();
-
-		// Handle main check button clicks
-		document.querySelectorAll('.read-check').forEach(btn => {
-			btn.addEventListener('click', (e) => {
-				e.preventDefault();
-				e.stopPropagation();
-				const id = btn.dataset.issueId;
-				const wrapper = btn.closest('.issue-card-wrapper');
-				const readSet = getReadSet();
-
-				if (readSet.has(id)) {
-					readSet.delete(id);
-					wrapper.classList.remove('is-read');
-				} else {
-					readSet.add(id);
-					wrapper.classList.add('is-read');
-				}
-
-				saveReadSet(readSet);
-				updateStats();
-			});
-		});
-
-		// Handle sub-check button clicks
-		document.querySelectorAll('.sub-check-btn').forEach(btn => {
-			btn.addEventListener('click', (e) => {
-				e.preventDefault();
-				e.stopPropagation();
-				const container = btn.closest('.sub-checks');
-				const issueId = container.dataset.issueId;
-				const type = btn.dataset.type;
-
-				const progress = getSubProgress();
-				if (!progress[issueId]) progress[issueId] = {};
-
-				if (progress[issueId][type]) {
-					delete progress[issueId][type];
-					btn.classList.remove('checked');
-				} else {
-					progress[issueId][type] = true;
-					btn.classList.add('checked');
-				}
-
-				saveSubProgress(progress);
-
-				// Auto-mark as read if all done
-				const allBtns = container.querySelectorAll('.sub-check-btn');
-				const checkedBtns = container.querySelectorAll('.sub-check-btn.checked');
-				const wrapper = container.closest('.issue-card-wrapper');
-				const readSet = getReadSet();
-				if (allBtns.length > 0 && allBtns.length === checkedBtns.length) {
-					wrapper.classList.add('is-read');
-					readSet.add(issueId);
-				}
-				saveReadSet(readSet);
-				updateStats();
-			});
-		});
-	});
-</script>
