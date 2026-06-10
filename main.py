@@ -171,12 +171,6 @@ def run(video_url=None):
             print("No articles generated.")
             return
 
-        # Step 3a: (retired) the old hard "Speaking Drill" (verbatim B2+ article
-        # quotes with fill/translate/swap) went unused. Replaced by the daily
-        # speaking prompt below, whose `shadow` field carries easy, practical
-        # B1-B2 warm-up sentences. drill_sentences kept empty for export compat.
-        drill_sentences = []
-
         # Step 3a1: Generate the daily speaking-output prompt ("오늘의 한 마디")
         print("\n[STEP 3a1] Generating daily speaking prompt...")
         speaking_prompt = None
@@ -398,7 +392,6 @@ def run(video_url=None):
                 export_newsletter_issue(
                     english_articles, korean_articles,
                     audio_paths_en, audio_paths_ko,
-                    drill_sentences=drill_sentences,
                     speaking_prompt=speaking_prompt
                 )
             except Exception as e:

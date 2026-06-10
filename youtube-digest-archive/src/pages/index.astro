@@ -79,21 +79,13 @@ const issues = rawIssues.sort((a, b) => {
 										</div>
 									</div>
 								))}
-								{(hasAudio || (issue.data.drillSentences && issue.data.drillSentences.length > 0)) && (
+								{hasAudio && (
 									<div class="sub-check-row sub-check-row-global">
 										<div class="sub-check-group">
-											{hasAudio && (
-												<button class="sub-check-btn" data-type="audio" title="오디오 듣기">
-													<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-													<span class="sub-check-label">Audio</span>
-												</button>
-											)}
-											{issue.data.drillSentences && issue.data.drillSentences.length > 0 && (
-												<button class="sub-check-btn" data-type="drill" title="Speaking Drill">
-													<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
-													<span class="sub-check-label">Drill</span>
-												</button>
-											)}
+											<button class="sub-check-btn" data-type="audio" title="오디오 듣기">
+												<span class="sub-check-box"><svg class="sub-check-icon" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span>
+												<span class="sub-check-label">Audio</span>
+											</button>
 										</div>
 									</div>
 								)}

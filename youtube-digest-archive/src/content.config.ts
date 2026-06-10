@@ -15,15 +15,6 @@ const issues = defineCollection({
                 url: z.string(),
             })
         ).optional(),
-        drillSentences: z.array(
-            z.object({
-                sentence: z.string(),
-                korean: z.string(),
-                blank: z.string(),
-                blank_answer: z.string(),
-                swap_word: z.string(),
-            })
-        ).optional(),
         speakingPrompt: z.object({
             topic: z.string().optional().default(''),
             question_ko: z.string(),

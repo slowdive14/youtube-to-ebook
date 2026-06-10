@@ -17,7 +17,7 @@ const { issue } = Astro.props;
 const sp = issue.data.speakingPrompt!;
 // A "lesson" is one reusable pattern practiced across connected steps:
 //   1) shadow s1  2) fill s2 (same pattern)  3) apply the pattern to your life
-// Prefer speakingPrompt.patterns; fall back to legacy shadow/drill sentences
+// Prefer speakingPrompt.patterns; fall back to legacy shadow sentences
 // (which only support step 1).
 const patterns = (sp as any).patterns || [];
 const lessons = patterns.length > 0
@@ -27,9 +27,7 @@ const lessons = patterns.length > 0
 		s2_en: p.s2_en, s2_ko: p.s2_ko || '', s2_answer: p.s2_answer || '',
 		maxStep: 3,
 	}))
-	: ((sp.shadow && sp.shadow.length > 0)
-		? sp.shadow.map((s) => ({ pattern: '', pattern_ko: '', s1_en: s.en, s1_ko: s.ko, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 }))
-		: (issue.data.drillSentences || []).slice(0, 3).map((d) => ({ pattern: '', pattern_ko: '', s1_en: d.sentence, s1_ko: d.korean, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 })));
+	: (sp.shadow || []).map((s) => ({ pattern: '', pattern_ko: '', s1_en: s.en, s1_ko: s.ko, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 }));
 const dateObj = new Date(issue.data.date);
 const formattedDate = dateObj.toLocaleDateString('en-US', {
 	year: 'numeric', month: 'long', day: 'numeric',
@@ -121,9 +119,6 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			<ul id="log-list" class="log-list"></ul>
 		</section>
 
-		{issue.data.drillSentences && issue.data.drillSentences.length > 0 && (
-			<p class="more"><a href={`/drill/${issue.id}`}>더 어려운 연습 (빈칸·번역 드릴) →</a></p>
-		)}
 	</div>
 
 	<script define:vars={{ sp, lessons }}>

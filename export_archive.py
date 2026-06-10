@@ -108,12 +108,12 @@ def _upload_to_r2(local_path, key, content_type):
         return None
 
 
-def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None, frame_map=None, speaking_prompt=None):
+def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, frame_map=None, speaking_prompt=None):
     """
     Generate a markdown file with YAML frontmatter for the archive site.
 
     Returns (filename, content) tuple.
-    Frontmatter: title, date, subject, audioUrls, articles array, drillSentences.
+    Frontmatter: title, date, subject, audioUrls, articles array, speakingPrompt.
     Body: English articles + divider + Korean articles.
     """
     now = datetime.now()
@@ -164,19 +164,6 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
 
     articles_yaml = "articles:\n" + "\n".join(articles_meta) if articles_meta else ""
 
-    # Build drill sentences for frontmatter
-    drill_lines = ""
-    if drill_sentences:
-        drill_lines = "drillSentences:\n"
-        for ds in drill_sentences:
-            drill_lines += (
-                f'  - sentence: "{_escape_yaml(ds["sentence"])}"\n'
-                f'    korean: "{_escape_yaml(ds["korean"])}"\n'
-                f'    blank: "{_escape_yaml(ds["blank"])}"\n'
-                f'    blank_answer: "{_escape_yaml(ds["blank_answer"])}"\n'
-                f'    swap_word: "{_escape_yaml(ds["swap_word"])}"\n'
-            )
-
     # Build speaking prompt for frontmatter (daily one-sentence speaking task)
     speaking_lines = _build_speaking_yaml(speaking_prompt)
 
@@ -188,7 +175,6 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         f'subject: "{_escape_yaml(subject)}"\n'
         f"{audio_lines}"
         f"{articles_yaml}\n"
-        f"{drill_lines}"
         f"{speaking_lines}"
         f"---\n"
     )
@@ -521,7 +507,7 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None, frame_data=None, speaking_prompt=None):
+def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, frame_data=None, speaking_prompt=None):
     """
     Main entry point for archive export.
     1. Upload audio files to R2
@@ -575,7 +561,7 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
     # 3. Generate issue markdown (frame markers -> inline images)
     filename, content = generate_issue_markdown(
         en_articles, ko_articles, audio_urls,
-        drill_sentences=drill_sentences, frame_map=legacy_frame_map,
+        frame_map=legacy_frame_map,
         speaking_prompt=speaking_prompt,
     )
 
