@@ -78,6 +78,13 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - NotebookLM **free plan caps Audio Overviews at 3/day**, so the digest is split into at most `NOTEBOOKLM_DAILY_AUDIO_LIMIT` (default 3) groups; with more videos than the cap, the earliest groups bundle the extras. Each group's podcast becomes a separate "Part N" player on the archive site (the pipeline already supports a list of `audioUrls`).
 - Per-group length defaults to `NOTEBOOKLM_GROUP_LENGTH=default` (~10 min); a few groups still add up to a substantial total.
 
+### Daily Speaking Output ("오늘의 한 마디")
+Replaces the unused, recitation-style Speaking Drill with a daily **production** task: the learner speaks ONE original sentence and gets AI coaching. The old Web Speech recognition was the blocker (weak on Korean-accented English, flaky on mobile, exact-match grading), so it's gone entirely.
+- **Prompt**: `write_articles.generate_speaking_prompt(en_articles)` makes one production prompt per digest (Korean question + sentence frame + 2-3 reusable expressions from the article + a model answer) → frontmatter `speakingPrompt` (schema in `content.config.ts`).
+- **Recognition**: the `/speak/<issue>` page records audio with **MediaRecorder** (no browser SpeechRecognition) and POSTs it to the **`/api/speak-feedback`** serverless route, which sends the audio to **Gemini** (`inlineData` + `responseMimeType: application/json`) and returns `{transcript, good, corrected, upgrade, model_answer}`. Gemini handles accents far better and there's **no pass/fail gate** — recognition errors become coaching, not failure.
+- **Habit loop**: issue page shows a prominent `🎤 오늘의 한 마디` CTA; the page tracks a streak (`🔥 N일`, local-calendar-day based) and a per-day sentence log in localStorage.
+- ⚠️ **Deploy**: site changes need `trigger_vercel_deploy()` (Vercel uses a Deploy Hook, not auto-deploy on push). `GEMINI_API_KEY` must be set in Vercel env (already used by `api/define.ts`).
+
 ### Duplication & Concurrency (main.py)
 - Uses `video_tracker.py` to skip already-processed video IDs.
 - **Execution Lock**: Creates `main.lock` during runtime to prevent simultaneous executions (fixing duplicate email bug).

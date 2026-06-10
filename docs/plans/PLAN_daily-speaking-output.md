@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-06-10
-- **Status**: ✅ Phase 0~2 완료(기기 녹음·억양 인식 검증 통과), ✅ Phase 3 완료 → 🔜 Phase 4(마감)
+- **Status**: ✅ 전 Phase(0~4) 완료 — 기능 라이브(매일 다이제스트부터 `speakingPrompt` 자동 생성)
 - **Scope**: Medium (5 phases, 약 9~14시간)
 - **Stack**: Python(write_articles) / Astro 서버리스(API route) / 브라우저 MediaRecorder / Gemini 2.5 Flash(audio)
 
@@ -186,14 +186,14 @@ speakingPrompt:
 **Goal**: 스피킹을 메인으로, 옛 15문장 드릴은 보조로.
 
 **Tasks**:
-- [ ] 이슈/네비에서 메인 = `/speak`, 드릴은 "더 연습하기(15문장)" 보조 링크로
-- [ ] 카피·접근성·에러 문구 정리, 모바일 레이아웃 점검
-- [ ] README/CLAUDE.md에 새 기능·`/api/speak-feedback`·env 기재
+- [x] 이슈 메인 동선 = `/speak`(빨간 pill CTA 상위), 드릴은 "더 연습하기" 보조 링크(이슈+speak 양쪽)
+- [x] 모바일 우선 레이아웃, 친화적 한국어 에러 문구(Phase 2에서 처리)
+- [x] `CLAUDE.md`에 Daily Speaking Output 섹션(프롬프트·`/api/speak-feedback`·습관루프·배포 주의)
 
 **Quality Gate**:
-- [ ] `npm run build` 통과 + 전체 pytest 통과
-- [ ] 메인 동선이 스피킹으로 바뀌고 드릴도 여전히 접근 가능
-- [ ] 문서 갱신 완료
+- [x] `astro build` 통과 + 전체 pytest 145 통과
+- [x] 메인 동선이 스피킹으로 바뀌고 드릴도 여전히 접근 가능
+- [x] 문서 갱신 완료
 
 **Dependencies**: Phase 2,3
 **Rollback**: 네비/문서 되돌리기
@@ -223,7 +223,7 @@ speakingPrompt:
 | 1. 서버리스 피드백 엔드포인트 | ✅ 완료 | 2026-06-10 |
 | 2. 녹음 UI `/speak` | ✅ 완료(기기·억양 검증 통과) | 2026-06-10 |
 | 3. 습관 루프(진입·스트릭·로그) | ✅ 완료 | 2026-06-10 |
-| 4. 드릴 강등 + 마감 | ⬜ 대기 | - |
+| 4. 드릴 강등 + 마감 | ✅ 완료 | 2026-06-10 |
 
 상태 범례: ⬜ 대기 / 🔄 진행중 / ✅ 완료 / ⚠️ 막힘
 
