@@ -311,6 +311,45 @@ class TestEmbedFrames:
         assert "(https://r2.dev/y.jpg)" in out
 
 
+class TestSpeakingPromptFrontmatter:
+    SP = {
+        "topic": "Dirty Money",
+        "question_ko": "왜 막기 어렵다고 생각해?",
+        "frame": "I think ___ because ___.",
+        "expressions": [
+            {"en": "hard to trace", "ko": "추적하기 어렵다"},
+            {"en": "loophole", "ko": "허점"},
+        ],
+        "model": "I think it's hard to stop because the money is hard to trace.",
+    }
+
+    def test_serialized_into_frontmatter(self):
+        _, content = generate_issue_markdown(
+            SAMPLE_EN_ARTICLES, [], [], speaking_prompt=self.SP
+        )
+        assert "speakingPrompt:" in content
+        assert 'question_ko: "왜 막기 어렵다고 생각해?"' in content
+        assert 'frame: "I think ___ because ___."' in content
+        assert "expressions:" in content
+        assert 'en: "hard to trace"' in content
+        assert 'model: "I think it\'s hard to stop' in content
+
+    def test_absent_when_no_prompt(self):
+        _, content = generate_issue_markdown(SAMPLE_EN_ARTICLES, [], [])
+        assert "speakingPrompt:" not in content
+
+    def test_incomplete_prompt_skipped(self):
+        # missing model -> not serialized
+        bad = {"question_ko": "q", "frame": "f"}
+        _, content = generate_issue_markdown(SAMPLE_EN_ARTICLES, [], [], speaking_prompt=bad)
+        assert "speakingPrompt:" not in content
+
+    def test_quotes_escaped(self):
+        sp = dict(self.SP, question_ko='그는 "돈"이라 했다')
+        _, content = generate_issue_markdown(SAMPLE_EN_ARTICLES, [], [], speaking_prompt=sp)
+        assert 'question_ko: "그는 \\"돈\\"이라 했다"' in content
+
+
 class TestPerArticleFrames:
     """Article carrying frame_moments + frame_map: inject at anchor, then embed,
     while keeping the canonical article text marker-free for audio/email."""

@@ -24,6 +24,18 @@ const issues = defineCollection({
                 swap_word: z.string(),
             })
         ).optional(),
+        speakingPrompt: z.object({
+            topic: z.string().optional().default(''),
+            question_ko: z.string(),
+            frame: z.string(),
+            model: z.string(),
+            expressions: z.array(
+                z.object({
+                    en: z.string(),
+                    ko: z.string().optional().default(''),
+                })
+            ).optional().default([]),
+        }).optional(),
     }),
 });
 

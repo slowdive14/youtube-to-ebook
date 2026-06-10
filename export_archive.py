@@ -108,7 +108,7 @@ def _upload_to_r2(local_path, key, content_type):
         return None
 
 
-def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None, frame_map=None):
+def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, drill_sentences=None, frame_map=None, speaking_prompt=None):
     """
     Generate a markdown file with YAML frontmatter for the archive site.
 
@@ -177,6 +177,9 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
                 f'    swap_word: "{_escape_yaml(ds["swap_word"])}"\n'
             )
 
+    # Build speaking prompt for frontmatter (daily one-sentence speaking task)
+    speaking_lines = _build_speaking_yaml(speaking_prompt)
+
     # Frontmatter
     frontmatter = (
         f"---\n"
@@ -186,6 +189,7 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         f"{audio_lines}"
         f"{articles_yaml}\n"
         f"{drill_lines}"
+        f"{speaking_lines}"
         f"---\n"
     )
 
@@ -383,6 +387,38 @@ def _escape_yaml(s):
     return s.replace('"', '\\"')
 
 
+def _build_speaking_yaml(speaking_prompt):
+    """Serialize the daily speaking-prompt dict into frontmatter YAML.
+
+    Returns "" when there's no usable prompt (the page is optional).
+    """
+    if not speaking_prompt:
+        return ""
+    sp = speaking_prompt
+    question = (sp.get("question_ko") or "").strip()
+    frame = (sp.get("frame") or "").strip()
+    model = (sp.get("model") or "").strip()
+    if not question or not frame or not model:
+        return ""
+
+    lines = [
+        "speakingPrompt:",
+        f'  topic: "{_escape_yaml(sp.get("topic", ""))}"',
+        f'  question_ko: "{_escape_yaml(question)}"',
+        f'  frame: "{_escape_yaml(frame)}"',
+        f'  model: "{_escape_yaml(model)}"',
+    ]
+    expressions = sp.get("expressions") or []
+    if expressions:
+        lines.append("  expressions:")
+        for e in expressions:
+            en = _escape_yaml((e.get("en") or "").strip())
+            ko = _escape_yaml((e.get("ko") or "").strip())
+            lines.append(f'    - en: "{en}"')
+            lines.append(f'      ko: "{ko}"')
+    return "\n".join(lines) + "\n"
+
+
 def push_to_archive_repo(content, filename):
     """
     Save the issue markdown to the archive repo and git push.
@@ -467,7 +503,7 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None, frame_data=None):
+def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, drill_sentences=None, frame_data=None, speaking_prompt=None):
     """
     Main entry point for archive export.
     1. Upload audio files to R2
@@ -522,6 +558,7 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
     filename, content = generate_issue_markdown(
         en_articles, ko_articles, audio_urls,
         drill_sentences=drill_sentences, frame_map=legacy_frame_map,
+        speaking_prompt=speaking_prompt,
     )
 
     # 3. Push to archive repo

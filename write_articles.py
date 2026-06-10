@@ -861,6 +861,135 @@ ARTICLES:
     return []
 
 
+# ---------- Daily speaking-output prompt (Phase 0 of daily-speaking-output) ----------
+
+def build_speaking_prompt_request(article):
+    """Prompt Gemini to craft ONE production-style speaking task for the day.
+
+    Unlike the recitation drill, this asks the learner to say their OWN one
+    sentence, with scaffolding (a frame + a couple of reusable expressions
+    from the article) so a B1 learner can actually produce output.
+    """
+    body = article.get("article", "")
+    if len(body) > 3000:
+        body = body[:3000]
+    return f"""You design a daily ONE-SENTENCE English speaking task for a Korean B1 learner,
+based on the article below. The goal is PRODUCTION: the learner says their OWN
+opinion/idea in one English sentence — NOT reciting a fixed sentence.
+
+Make it achievable with scaffolding:
+- A Korean question that invites a personal opinion about the article's topic.
+- A sentence FRAME with blanks the learner fills (e.g. "I think ___ because ___.").
+- 2-3 reusable EXPRESSIONS pulled from the article (with short Korean gloss) the
+  learner can plug in.
+- A natural MODEL answer (<= 20 words) they can compare to / shadow afterwards.
+
+Return ONLY JSON, no markdown, no code fences:
+{{
+  "topic": "<short English topic label>",
+  "question_ko": "<Korean question inviting a one-sentence opinion>",
+  "frame": "<English sentence frame with ___ blanks>",
+  "expressions": [{{"en": "<phrase from article>", "ko": "<short Korean gloss>"}}],
+  "model": "<one natural English model answer, <= 20 words>"
+}}
+
+ARTICLE TITLE: {article.get('title', '')}
+
+ARTICLE:
+{body}"""
+
+
+def parse_speaking_prompt(text):
+    """Parse the model JSON into a validated speaking-prompt dict, or None.
+
+    Required: question_ko, frame, model. topic defaults to "". expressions are
+    filtered to well-formed {en, ko} items and capped at 3. Tolerant of code
+    fences and truncation.
+    """
+    if not text:
+        return None
+    text = text.strip()
+    if text.startswith("```"):
+        text = text.split("\n", 1)[1] if "\n" in text else text
+        text = text.rsplit("```", 1)[0].strip()
+
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        try:
+            data = _salvage_truncated_json(text)
+        except (json.JSONDecodeError, ValueError):
+            return None
+    if not isinstance(data, dict):
+        return None
+
+    question = (data.get("question_ko") or "").strip()
+    frame = (data.get("frame") or "").strip()
+    model = (data.get("model") or "").strip()
+    if not question or not frame or not model:
+        return None
+
+    expressions = []
+    for item in (data.get("expressions") or []):
+        if not isinstance(item, dict):
+            continue
+        en = (item.get("en") or "").strip()
+        if not en:
+            continue
+        expressions.append({"en": en, "ko": (item.get("ko") or "").strip()})
+        if len(expressions) >= 3:
+            break
+
+    return {
+        "topic": (data.get("topic") or "").strip(),
+        "question_ko": question,
+        "frame": frame,
+        "expressions": expressions,
+        "model": model,
+    }
+
+
+def generate_speaking_prompt(en_articles):
+    """Generate the day's speaking task from the first English article.
+
+    Returns a validated dict (see parse_speaking_prompt) or None. Non-fatal:
+    callers should treat None as "no speaking task today".
+    """
+    if not en_articles:
+        return None
+
+    article = en_articles[0]
+    prompt = build_speaking_prompt_request(article)
+
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            if attempt > 0:
+                time.sleep(retry_wait)
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=1200,
+                    temperature=0.5,
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                )
+            )
+            _log_usage_metadata(response, label='Speaking-prompt')
+            return parse_speaking_prompt(response.text or "")
+        except Exception as e:
+            error_str = str(e).lower()
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] Speaking-prompt API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
+                retry_wait *= 2
+                continue
+            print(f"  [!] Failed to generate speaking prompt: {e}")
+            return None
+
+    return None
+
+
 # Test it standalone
 if __name__ == "__main__":
     # Test with a mock video

@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
-from write_articles import write_articles_bilingual, generate_drill_sentences
+from write_articles import write_articles_bilingual, generate_drill_sentences, generate_speaking_prompt
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
@@ -180,6 +180,16 @@ def run(video_url=None):
                 print(f"  [OK] {len(drill_sentences)} drill sentences generated")
             else:
                 print("  [!] No drill sentences generated (non-fatal)")
+
+        # Step 3a1: Generate the daily speaking-output prompt ("오늘의 한 마디")
+        print("\n[STEP 3a1] Generating daily speaking prompt...")
+        speaking_prompt = None
+        if english_articles:
+            speaking_prompt = generate_speaking_prompt(english_articles)
+            if speaking_prompt:
+                print(f"  [OK] Speaking prompt: {speaking_prompt['question_ko'][:50]}...")
+            else:
+                print("  [!] No speaking prompt generated (non-fatal)")
 
         # Step 3a2: Capture representative video frames (optional, flag-gated)
         # Selects 3-4 visually valuable moments per video, extracts frames via
@@ -392,7 +402,8 @@ def run(video_url=None):
                 export_newsletter_issue(
                     english_articles, korean_articles,
                     audio_paths_en, audio_paths_ko,
-                    drill_sentences=drill_sentences
+                    drill_sentences=drill_sentences,
+                    speaking_prompt=speaking_prompt
                 )
             except Exception as e:
                 print(f"  [!] Archive export failed (non-fatal): {e}")

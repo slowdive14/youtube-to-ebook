@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-06-10
-- **Status**: ⬜ Phase 0 대기
+- **Status**: ✅ Phase 0 완료 → 🔜 Phase 1 진입
 - **Scope**: Medium (5 phases, 약 9~14시간)
 - **Stack**: Python(write_articles) / Astro 서버리스(API route) / 브라우저 MediaRecorder / Gemini 2.5 Flash(audio)
 
@@ -83,22 +83,22 @@ speakingPrompt:
 **Test Strategy**: 프롬프트 빌더·JSON 파싱/검증을 순수함수 단위테스트(Gemini mock). `generate_drill_sentences` 패턴 재사용.
 
 **Tasks**:
-- [ ] **(RED)** `test_speaking_prompt.py`:
-  - `build_speaking_prompt_request(article)` → "산출형/프레임/표현 2-3개/모델답안/JSON only" 지시 포함
-  - `parse_speaking_prompt(text)` → `{topic,question_ko,frame,expressions[],model}`, 코드펜스/잘림 salvage, 필수필드 누락 시 None
-  - 검증: expressions 1~3개로 클램프, 빈 필드 방어
-  - → 실패 확인
-- [ ] **(GREEN)** `write_articles.generate_speaking_prompt(en_articles)` — 1번 기사 기준, thinking_budget=0, JSON 강제(요약/프레임선택과 동일 안정화)
-- [ ] **(GREEN)** `export_archive`: frontmatter에 `speakingPrompt` 직렬화(escape) + `generate_issue_markdown` 연결
-- [ ] **(GREEN)** `content.config.ts`: `speakingPrompt` zod 스키마(optional) 추가
-- [ ] **(GREEN)** `main.py`: STEP 3a에서 `generate_speaking_prompt` 호출(비용 작음, 실패는 non-fatal)
-- [ ] **(REFACTOR)** 영문 기사 기준 1회 생성(언어중립 아니므로 EN만)
+- [x] **(RED)** `test_speaking_prompt.py`:
+  - `build_speaking_prompt_request(article)` → "산출형/프레임/표현/모델답안/JSON only" 지시 포함
+  - `parse_speaking_prompt(text)` → `{topic,question_ko,frame,expressions[],model}`, 코드펜스/잘림 salvage, 필수(question_ko/frame/model) 누락 시 None
+  - 검증: expressions ≤3 클램프, 깨진 항목 필터, topic 기본 ""
+  - → 실패 확인(ImportError)
+- [x] **(GREEN)** `write_articles.generate_speaking_prompt(en_articles)` — 1번 기사 기준, thinking_budget=0, JSON 강제
+- [x] **(GREEN)** `export_archive._build_speaking_yaml` + `generate_issue_markdown(speaking_prompt=)` + `export_newsletter_issue(speaking_prompt=)`
+- [x] **(GREEN)** `content.config.ts`: `speakingPrompt` zod 스키마(optional) 추가
+- [x] **(GREEN)** `main.py`: STEP 3a1에서 `generate_speaking_prompt` 호출(non-fatal) + export로 전달
+- [x] **(REFACTOR)** 영문 기사 기준 1회 생성(EN만)
 
 **Quality Gate**:
-- [ ] `pytest test_speaking_prompt.py` 통과 + 기존 전체 회귀 통과
-- [ ] 실제 1편에서 `speakingPrompt` JSON 정상 산출(수동 확인)
-- [ ] 발행 .md frontmatter에 `speakingPrompt` 들어가고 astro `astro check` 스키마 통과
-- [ ] Gemini 키 로그 미노출
+- [x] `pytest test_speaking_prompt.py`(12) + 전체 회귀 145 통과
+- [x] 실제 1편 라이브 산출 확인: 한국어 질문 + 프레임 + 표현 3개(한글뜻) + 모델답안 정상
+- [x] frontmatter 직렬화 단위테스트(4) + **`astro build` 통과**(스키마 유효, 기존 이슈 하위호환)
+- [x] Gemini 키 로그 미노출 (서버리스 아님, 파이프라인 내부)
 
 **Dependencies**: 없음
 **Rollback**: `generate_speaking_prompt`/frontmatter/스키마 추가분 revert (drill은 그대로)
@@ -216,7 +216,7 @@ speakingPrompt:
 
 | Phase | 상태 | 완료일 |
 |-------|------|--------|
-| 0. 프롬프트 생성 + 스키마 | ⬜ 대기 | - |
+| 0. 프롬프트 생성 + 스키마 | ✅ 완료 | 2026-06-10 |
 | 1. 서버리스 피드백 엔드포인트 | ⬜ 대기 | - |
 | 2. 녹음 UI `/speak` | ⬜ 대기 | - |
 | 3. 습관 루프(진입·스트릭·로그) | ⬜ 대기 | - |
