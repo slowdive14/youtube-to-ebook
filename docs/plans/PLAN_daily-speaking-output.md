@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-06-10
-- **Status**: ✅ Phase 0~1 완료 → 🔜 Phase 2 진입(핵심: 녹음 UI)
+- **Status**: ✅ Phase 0~1 완료, 🔄 Phase 2 구현완료(사용자 기기 녹음 검증 대기) → Phase 3 진입 가능
 - **Scope**: Medium (5 phases, 약 9~14시간)
 - **Stack**: Python(write_articles) / Astro 서버리스(API route) / 브라우저 MediaRecorder / Gemini 2.5 Flash(audio)
 
@@ -136,21 +136,22 @@ speakingPrompt:
 **Test Strategy**: 브라우저/마이크/AI라 단위테스트 비현실 → 빌드 + 데스크톱·모바일 수동 E2E.
 
 **Tasks**:
-- [ ] **(GREEN)** `src/pages/speak/[...slug].astro` (`getStaticPaths`로 `speakingPrompt` 있는 이슈만):
-  - 상단: topic + 한국어 질문 + 프레임 + 표현 칩 2~3개(탭하면 TTS 발음)
+- [x] **(GREEN)** `src/pages/speak/[...slug].astro` (`getStaticPaths`로 `speakingPrompt` 있는 이슈만):
+  - 상단: topic + 한국어 질문 + 프레임 + 표현 칩(탭하면 TTS 발음)
   - 🎤 **녹음 버튼**: `MediaRecorder`로 캡처 → Blob → base64 → `/api/speak-feedback` POST
-  - 상태머신: idle → (권한요청) → recording → processing → result / error→retry
-  - 결과: 내가 말한 전사 / ✅칭찬 / ✏️교정 / 🌟업그레이드 표현 / 🔊모델답안(TTS 재생 = 마무리 섀도잉)
-- [ ] 브라우저별 mimeType 처리(`MediaRecorder.isTypeSupported`로 webm/opus or mp4 선택 후 그대로 전송)
-- [ ] 마이크 거부/미지원/네트워크 오류 친화적 메시지
-- [ ] **(REFACTOR)** 재녹음·다시듣기·"한 번 더" 버튼, 로딩 스피너
+  - 상태머신: idle → recording(20s 안전 자동정지) → processing → result / error→retry
+  - 결과: 전사 / ✅칭찬 / ✏️교정 / 🌟업그레이드 / 🔊모델답안(TTS 재생) + "한 번 더"
+- [x] 브라우저별 mimeType 처리(`isTypeSupported`로 webm/opus·webm·mp4·ogg 택1, blob.type 그대로 전송)
+- [x] 마이크 거부/미지원/네트워크 오류 친화적 한국어 메시지
+- [x] **(REFACTOR)** 펄스 애니메이션, "한 번 더" 리셋, localStorage 로그 기록(Phase 3 토대)
+- [x] 테스트용으로 `2026-06-08_02.md`(China's Dirty Money)에 `speakingPrompt` 추가 → 배포본에서 즉시 체험 가능
 
 **Quality Gate**:
-- [ ] `npm run build` 통과
-- [ ] **데스크톱 Chrome**: 녹음→피드백 1분 내 왕복 정상
-- [ ] **모바일(iOS Safari/Android Chrome)**: 녹음→피드백 정상(가장 중요한 실사용 환경)
-- [ ] **🔑 내 실제 억양 영어**로 전사 정확도 체감 확인(기존 Web Speech 대비 개선)
-- [ ] 마이크 거부 시 앱이 깨지지 않고 안내
+- [x] `astro build` 통과 + 해당 이슈로 `/speak/2026-06-08_02` 페이지 정상 생성(요소 렌더 확인)
+- [ ] ▶ **사용자 검증(배포 후)**: 데스크톱 Chrome 녹음→피드백 왕복
+- [ ] ▶ **사용자 검증(배포 후)**: **모바일(iOS Safari/Android Chrome)** 녹음→피드백 — 핵심 실사용 환경
+- [ ] ▶ **사용자 검증(배포 후)**: **🔑 내 실제 억양 영어** 전사 정확도(기존 Web Speech 대비 개선 체감)
+- [x] 마이크 거부/미지원 시 앱이 깨지지 않고 안내(코드 처리)
 
 **Dependencies**: Phase 0(프롬프트), Phase 1(엔드포인트)
 **Rollback**: `/speak` 페이지 삭제(드릴/이슈 영향 없음)
@@ -218,7 +219,7 @@ speakingPrompt:
 |-------|------|--------|
 | 0. 프롬프트 생성 + 스키마 | ✅ 완료 | 2026-06-10 |
 | 1. 서버리스 피드백 엔드포인트 | ✅ 완료 | 2026-06-10 |
-| 2. 녹음 UI `/speak` | ⬜ 대기 | - |
+| 2. 녹음 UI `/speak` | 🔄 구현완료(기기검증 대기) | 2026-06-10 |
 | 3. 습관 루프(진입·스트릭·로그) | ⬜ 대기 | - |
 | 4. 드릴 강등 + 마감 | ⬜ 대기 | - |
 

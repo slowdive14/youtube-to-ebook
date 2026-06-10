@@ -1,0 +1,273 @@
+---
+// src/pages/speak/[...slug].astro — daily "오늘의 한 마디" speaking output
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export async function getStaticPaths() {
+	const issues = await getCollection('issues');
+	return issues
+		.filter((issue) => issue.data.speakingPrompt)
+		.map((issue) => ({ params: { slug: issue.id }, props: { issue } }));
+}
+
+const { issue } = Astro.props;
+const sp = issue.data.speakingPrompt!;
+const dateObj = new Date(issue.data.date);
+const formattedDate = dateObj.toLocaleDateString('en-US', {
+	year: 'numeric', month: 'long', day: 'numeric',
+});
+---
+
+<BaseLayout title={`오늘의 한 마디 - ${formattedDate}`}>
+	<div class="speak">
+		<header class="speak-head">
+			<a href={`/issues/${issue.id}`} class="speak-back">&larr; Back to article</a>
+			<h1>오늘의 한 마디</h1>
+			<p class="speak-date">{formattedDate}{sp.topic ? ` · ${sp.topic}` : ''}</p>
+		</header>
+
+		<!-- The task -->
+		<section class="card task">
+			<p class="task-q">{sp.question_ko}</p>
+			<div class="task-frame" aria-label="sentence frame">{sp.frame}</div>
+			{sp.expressions && sp.expressions.length > 0 && (
+				<div class="chips">
+					{sp.expressions.map((e) => (
+						<button class="chip" data-say={e.en} title="탭하면 발음 들려줘요">
+							<span class="chip-en">{e.en}</span>
+							{e.ko && <span class="chip-ko">{e.ko}</span>}
+						</button>
+					))}
+				</div>
+			)}
+		</section>
+
+		<!-- Recorder -->
+		<section class="recorder">
+			<button id="rec-btn" class="rec-btn" type="button" aria-live="polite">
+				<svg class="rec-ico" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+				<span id="rec-label">🎤 한 마디 말하기</span>
+			</button>
+			<p id="rec-hint" class="rec-hint">버튼을 누르고 영어로 한 문장 말한 뒤, 다시 눌러 멈춰요.</p>
+		</section>
+
+		<!-- Feedback -->
+		<section id="feedback" class="card feedback" hidden>
+			<div class="fb-row">
+				<span class="fb-label">🗣️ 내가 말한 것</span>
+				<p id="fb-transcript" class="fb-transcript"></p>
+			</div>
+			<div class="fb-row fb-good">
+				<span class="fb-label">✅ 좋아요</span>
+				<p id="fb-good"></p>
+			</div>
+			<div class="fb-row">
+				<span class="fb-label">✏️ 더 자연스럽게</span>
+				<p id="fb-corrected" class="fb-en"></p>
+			</div>
+			<div class="fb-row">
+				<span class="fb-label">🌟 한 단계 업</span>
+				<p id="fb-upgrade"></p>
+			</div>
+			<div class="fb-row fb-model">
+				<span class="fb-label">🔊 모델 답안 (따라 말해보기)</span>
+				<p id="fb-model" class="fb-en"></p>
+				<button id="fb-play" class="mini-btn" type="button">🔊 듣기</button>
+			</div>
+			<button id="fb-again" class="rec-btn rec-btn-sm" type="button">한 번 더 →</button>
+		</section>
+
+		<p class="more"><a href={`/drill/${issue.id}`}>더 연습하기 (문장 드릴) →</a></p>
+	</div>
+
+	<script define:vars={{ sp }}>
+		window.__SPEAK__ = sp;
+	</script>
+
+	<script>
+		const sp = window.__SPEAK__ || {};
+		const $ = (id) => document.getElementById(id);
+		const recBtn = $('rec-btn');
+		const recLabel = $('rec-label');
+		const recHint = $('rec-hint');
+		const feedback = $('feedback');
+
+		let mediaRecorder = null;
+		let chunks = [];
+		let stream = null;
+		let state = 'idle'; // idle | recording | processing
+		let autoStopTimer = null;
+
+		// --- TTS helpers ---
+		function say(text, rate = 0.9) {
+			if (!window.speechSynthesis) return;
+			window.speechSynthesis.cancel();
+			const u = new SpeechSynthesisUtterance(text);
+			u.lang = 'en-US';
+			u.rate = rate;
+			window.speechSynthesis.speak(u);
+		}
+		document.querySelectorAll('.chip').forEach((c) => {
+			c.addEventListener('click', () => say(c.dataset.say));
+		});
+
+		// --- MediaRecorder support / mime pick ---
+		function pickMime() {
+			if (!window.MediaRecorder) return null;
+			const types = ['audio/webm;codecs=opus', 'audio/webm', 'audio/mp4', 'audio/ogg'];
+			for (const t of types) {
+				if (MediaRecorder.isTypeSupported(t)) return t;
+			}
+			return ''; // let the browser choose
+		}
+		const mimeType = pickMime();
+		if (mimeType === null) {
+			recHint.textContent = '이 브라우저는 녹음을 지원하지 않아요. Chrome 또는 Safari를 사용해 주세요.';
+			recBtn.disabled = true;
+		}
+
+		function setLabel(text) { recLabel.textContent = text; }
+
+		async function startRecording() {
+			try {
+				stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+			} catch (e) {
+				recHint.textContent = '마이크 권한이 필요해요. 브라우저 설정에서 마이크를 허용해 주세요.';
+				return;
+			}
+			chunks = [];
+			const opts = mimeType ? { mimeType } : undefined;
+			try {
+				mediaRecorder = new MediaRecorder(stream, opts);
+			} catch (e) {
+				mediaRecorder = new MediaRecorder(stream);
+			}
+			mediaRecorder.ondataavailable = (ev) => { if (ev.data.size > 0) chunks.push(ev.data); };
+			mediaRecorder.onstop = handleStop;
+			mediaRecorder.start();
+			state = 'recording';
+			recBtn.classList.add('recording');
+			setLabel('● 녹음 중… (눌러서 멈추기)');
+			recHint.textContent = '영어로 한 문장 말해보세요.';
+			// safety auto-stop at 20s
+			autoStopTimer = setTimeout(() => { if (state === 'recording') stopRecording(); }, 20000);
+		}
+
+		function stopRecording() {
+			if (autoStopTimer) clearTimeout(autoStopTimer);
+			if (mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
+			if (stream) stream.getTracks().forEach((t) => t.stop());
+			recBtn.classList.remove('recording');
+		}
+
+		async function handleStop() {
+			state = 'processing';
+			recBtn.disabled = true;
+			setLabel('⏳ 코칭 받는 중…');
+			recHint.textContent = '잠시만요, AI가 들어보고 있어요.';
+
+			const blob = new Blob(chunks, { type: mediaRecorder.mimeType || mimeType || 'audio/webm' });
+			const audioBase64 = await blobToBase64(blob);
+
+			try {
+				const res = await fetch('/api/speak-feedback', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({
+						audioBase64,
+						mimeType: blob.type,
+						question: sp.question_ko || '',
+						model: sp.model || '',
+					}),
+				});
+				const data = await res.json();
+				if (!res.ok) throw new Error(data.error || 'request failed');
+				renderFeedback(data);
+			} catch (e) {
+				recHint.textContent = '문제가 생겼어요. 다시 한 번 시도해 주세요.';
+				resetButton();
+			}
+		}
+
+		function renderFeedback(d) {
+			$('fb-transcript').textContent = d.transcript || '(못 알아들었어요 — 다시 한 번!)';
+			$('fb-good').textContent = d.good || '';
+			$('fb-corrected').textContent = d.corrected || '';
+			$('fb-upgrade').textContent = d.upgrade || '';
+			$('fb-model').textContent = d.model_answer || sp.model || '';
+			feedback.hidden = false;
+			feedback.scrollIntoView({ behavior: 'smooth', block: 'start' });
+			recordToday(d);
+			resetButton('한 번 더 →');
+		}
+
+		function resetButton(label) {
+			state = 'idle';
+			recBtn.disabled = false;
+			setLabel(label || '🎤 한 마디 말하기');
+			recHint.textContent = '버튼을 누르고 영어로 한 문장 말한 뒤, 다시 눌러 멈춰요.';
+		}
+
+		recBtn.addEventListener('click', () => {
+			if (state === 'idle') startRecording();
+			else if (state === 'recording') stopRecording();
+		});
+		$('fb-play').addEventListener('click', () => say($('fb-model').textContent, 0.85));
+		$('fb-again').addEventListener('click', () => {
+			feedback.hidden = true;
+			document.querySelector('.recorder').scrollIntoView({ behavior: 'smooth' });
+		});
+
+		function blobToBase64(blob) {
+			return new Promise((resolve) => {
+				const r = new FileReader();
+				r.onloadend = () => resolve(String(r.result).split(',')[1] || '');
+				r.readAsDataURL(blob);
+			});
+		}
+
+		// --- streak + log (Phase 3 foundation; harmless now) ---
+		function recordToday(d) {
+			try {
+				const today = new Date().toISOString().slice(0, 10);
+				const log = JSON.parse(localStorage.getItem('speakLog') || '[]');
+				log.unshift({ date: today, said: d.transcript || '', better: d.corrected || '' });
+				localStorage.setItem('speakLog', JSON.stringify(log.slice(0, 60)));
+			} catch (e) { /* ignore */ }
+		}
+	</script>
+
+	<style>
+		.speak { max-width: 640px; margin: 0 auto; padding: 0 1rem 3rem; }
+		.speak-head { text-align: center; padding: 1.5rem 0 0.5rem; }
+		.speak-head h1 { margin: 0.3rem 0; font-size: 1.8rem; }
+		.speak-back { color: var(--text-muted); text-decoration: none; font-size: 0.9rem; }
+		.speak-date { color: var(--text-muted); font-size: 0.9rem; }
+		.card { background: var(--card-bg); box-shadow: var(--card-shadow); border-radius: 12px; padding: 1.25rem 1.4rem; margin: 1rem 0; }
+		.task-q { font-size: 1.25rem; font-weight: 600; line-height: 1.5; margin: 0 0 1rem; }
+		.task-frame { font-size: 1.1rem; padding: 0.7rem 1rem; background: var(--intro-bg); border-left: 4px solid var(--accent-color); border-radius: 6px; font-style: italic; color: var(--text-color); }
+		.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+		.chip { display: inline-flex; flex-direction: column; align-items: flex-start; gap: 2px; background: var(--code-bg); border: 1px solid var(--code-border); border-radius: 999px; padding: 0.4rem 0.9rem; cursor: pointer; font: inherit; }
+		.chip-en { font-weight: 600; color: var(--text-color); }
+		.chip-ko { font-size: 0.78rem; color: var(--text-muted); }
+		.recorder { text-align: center; margin: 1.5rem 0; }
+		.rec-btn { display: inline-flex; align-items: center; gap: 0.6rem; background: var(--accent-color); color: #fff; border: none; border-radius: 999px; padding: 0.9rem 1.8rem; font-size: 1.15rem; font-weight: 600; cursor: pointer; transition: transform 0.1s, background 0.2s; }
+		.rec-btn:hover { transform: translateY(-1px); }
+		.rec-btn:disabled { opacity: 0.6; cursor: default; }
+		.rec-btn.recording { background: #e53935; animation: pulse 1.2s infinite; }
+		.rec-btn-sm { font-size: 1rem; padding: 0.7rem 1.4rem; margin-top: 1rem; }
+		@keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(229,57,53,0.5);} 50% { box-shadow: 0 0 0 12px rgba(229,57,53,0);} }
+		.rec-hint { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.8rem; }
+		.feedback { margin-top: 1rem; }
+		.fb-row { padding: 0.7rem 0; border-bottom: 1px solid var(--divider-color); }
+		.fb-row:last-of-type { border-bottom: none; }
+		.fb-label { display: block; font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.3rem; }
+		.fb-row p { margin: 0; line-height: 1.6; }
+		.fb-en { font-size: 1.1rem; }
+		.fb-good { color: var(--text-color); }
+		.fb-transcript { color: var(--text-muted); font-style: italic; }
+		.mini-btn { margin-top: 0.5rem; background: var(--code-bg); border: 1px solid var(--code-border); border-radius: 6px; padding: 0.3rem 0.8rem; cursor: pointer; font: inherit; color: var(--text-color); }
+		.more { text-align: center; margin-top: 1.5rem; }
+		.more a { color: var(--text-muted); font-size: 0.9rem; }
+	</style>
+</BaseLayout>
