@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-06-10
-- **Status**: ✅ Phase 0~1 완료, 🔄 Phase 2 구현완료(사용자 기기 녹음 검증 대기) → Phase 3 진입 가능
+- **Status**: ✅ Phase 0~2 완료(기기 녹음·억양 인식 검증 통과), ✅ Phase 3 완료 → 🔜 Phase 4(마감)
 - **Scope**: Medium (5 phases, 약 9~14시간)
 - **Stack**: Python(write_articles) / Astro 서버리스(API route) / 브라우저 MediaRecorder / Gemini 2.5 Flash(audio)
 
@@ -164,16 +164,18 @@ speakingPrompt:
 **Test Strategy**: localStorage 순수 로직(스트릭 계산) 단위테스트(JS) 또는 수동. 진입점은 수동.
 
 **Tasks**:
-- [ ] 이슈 페이지·아침 이메일에 **단일 CTA** `🎤 오늘의 한 마디` → `/speak/<오늘 이슈>` 딥링크
-- [ ] **스트릭**(localStorage): 마지막 수행일 기준 연속일 계산·표시("🔥 N일")
-- [ ] **내 문장 로그**(localStorage): 그날 전사 + 교정본 저장, /speak에서 최근 기록 보기
-- [ ] (선택) 로그를 마크다운으로 내보내 `english-study-review` 워크플로와 연결
-- [ ] **(REFACTOR)** 스트릭 경계(자정/하루 빠짐) 처리
+- [x] 이슈 페이지에 **단일 CTA** `🎤 오늘의 한 마디` → `/speak/<이슈>` (drill 링크 위, 더 눈에 띄는 빨간 pill)
+- [x] **스트릭**(localStorage): 로컬 캘린더 day 기준 연속일 계산·표시("🔥 N일"), 오늘 미수행 시 어제까지 유효(grace)
+- [x] **내 문장 로그**(localStorage): 그날 전사+교정 저장, /speak에서 날짜별 최근 7개 표시(load 시점부터 과거 기록도)
+- [~] (선택) 로그 마크다운 내보내기 → 보류(추후 `english-study-review` 연동)
+- [x] **(REFACTOR)** 스트릭 경계: **타임존 버그 수정**(UTC `toISOString` → 로컬 day), 중복 당일 1회 카운트
+- [~] 아침 이메일 CTA → **보류**: 이메일 파이프라인 비활성 + 아카이브 base URL 컨텍스트 없음
 
 **Quality Gate**:
-- [ ] 이메일/이슈의 CTA가 오늘 `/speak`로 이동
-- [ ] 하루 1회 수행 시 스트릭 +1, 하루 빠지면 리셋(경계 검증)
-- [ ] 로그가 새로고침 후에도 유지
+- [x] 이슈의 CTA가 `/speak/<이슈>`로 이동(빌드 링크 생성 확인)
+- [x] 스트릭 계산 **node로 7개 케이스 전부 PASS**(연속/grace/끊김/중복당일/공백)
+- [x] 로그는 표준 localStorage 영속(새로고침 유지) — load 시 `renderStreakAndLog()`로 과거 기록 복원
+- [x] `astro build` 통과(이슈 CTA + 스트릭/로그 페이지 생성)
 
 **Dependencies**: Phase 2
 **Rollback**: CTA/스트릭/로그 제거(핵심 기능엔 영향 없음)
@@ -219,8 +221,8 @@ speakingPrompt:
 |-------|------|--------|
 | 0. 프롬프트 생성 + 스키마 | ✅ 완료 | 2026-06-10 |
 | 1. 서버리스 피드백 엔드포인트 | ✅ 완료 | 2026-06-10 |
-| 2. 녹음 UI `/speak` | 🔄 구현완료(기기검증 대기) | 2026-06-10 |
-| 3. 습관 루프(진입·스트릭·로그) | ⬜ 대기 | - |
+| 2. 녹음 UI `/speak` | ✅ 완료(기기·억양 검증 통과) | 2026-06-10 |
+| 3. 습관 루프(진입·스트릭·로그) | ✅ 완료 | 2026-06-10 |
 | 4. 드릴 강등 + 마감 | ⬜ 대기 | - |
 
 상태 범례: ⬜ 대기 / 🔄 진행중 / ✅ 완료 / ⚠️ 막힘
@@ -237,3 +239,6 @@ speakingPrompt:
 - (Phase 0 실측 ✅) `generate_speaking_prompt` 라이브: topic/question_ko/frame/expressions(3, 한글뜻)/model 정상. `astro build`로 `speakingPrompt` 스키마가 기존 전 이슈와 하위호환 검증.
 - (Phase 1 실측 ✅) `/api/speak-feedback`은 `define.ts` 패턴 + 오디오 `inlineData`. **`responseMimeType:application/json`이 결정적** — Gemini가 fence 없는 순수 JSON 반환(파싱 안정). 동일 REST 호출 실측: webm/opus 정확 전사 + transcript·good·corrected·upgrade·model_answer 전부 채워짐. 라우트는 컴파일 통과, HTTP 풀 왕복은 Phase 2 UI에서 실증.
 - (배포 토폴로지) `youtube-digest-archive`는 **메인 repo의 일부**(동일 origin). Vercel이 이 repo에서 배포하고, 파이프라인의 `push_to_archive_repo`도 같은 repo에 커밋 → 단일 소스. `GEMINI_API_KEY`는 이미 Vercel env에 있음(define.ts가 사용 중).
+- (배포 주의 ⚠️) **git push만으로는 사이트 반영 안 됨** — Vercel이 Deploy Hook 트리거 방식. 사이트 변경 후 반드시 `trigger_vercel_deploy()`(또는 hook POST) 실행해야 화면 반영. (Phase 2 배포 시 이걸 빠뜨려 "안 보임" 발생 → hook 쏘고 해결.)
+- (Phase 2 실측 ✅) 사용자 실제 기기·억양에서 녹음→전사→코칭 **정상 동작 확인("잘 잡힌다")**. 브라우저 SpeechRecognition 대비 핵심 개선 입증.
+- (Phase 3 실측 ✅) 스트릭 = **로컬 캘린더 day** 기준. `toISOString()`(UTC)을 쓰면 KST에서 하루 밀리는 버그 → `getFullYear/Month/Date`로 로컬 day 생성. grace(오늘 미수행 시 어제까지 유효). node로 7케이스 검증. 이슈 페이지에 빨간 pill CTA(drill보다 상위). 로그는 날짜별 dedupe 최근 7개.

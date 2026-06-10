@@ -24,6 +24,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			<a href={`/issues/${issue.id}`} class="speak-back">&larr; Back to article</a>
 			<h1>오늘의 한 마디</h1>
 			<p class="speak-date">{formattedDate}{sp.topic ? ` · ${sp.topic}` : ''}</p>
+			<div id="streak" class="streak" hidden></div>
 		</header>
 
 		<!-- The task -->
@@ -75,6 +76,12 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				<button id="fb-play" class="mini-btn" type="button">🔊 듣기</button>
 			</div>
 			<button id="fb-again" class="rec-btn rec-btn-sm" type="button">한 번 더 →</button>
+		</section>
+
+		<!-- My recent sentences -->
+		<section id="log" class="card log" hidden>
+			<h2 class="log-title">📒 내 문장 기록</h2>
+			<ul id="log-list" class="log-list"></ul>
 		</section>
 
 		<p class="more"><a href={`/drill/${issue.id}`}>더 연습하기 (문장 드릴) →</a></p>
@@ -226,15 +233,78 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			});
 		}
 
-		// --- streak + log (Phase 3 foundation; harmless now) ---
+		// --- streak + log ---
+		function loadLog() {
+			try { return JSON.parse(localStorage.getItem('speakLog') || '[]'); }
+			catch (e) { return []; }
+		}
+		// LOCAL calendar day (not UTC) so streaks match the user's own day
+		function isoDay(d) {
+			const y = d.getFullYear();
+			const m = String(d.getMonth() + 1).padStart(2, '0');
+			const day = String(d.getDate()).padStart(2, '0');
+			return `${y}-${m}-${day}`;
+		}
+
+		// Consecutive-day streak ending today (or yesterday if not done yet today).
+		function computeStreak(dates, todayStr) {
+			const set = new Set(dates);
+			let d = new Date(todayStr + 'T00:00:00');
+			if (!set.has(isoDay(d))) d.setDate(d.getDate() - 1); // grace: not done yet today
+			let n = 0;
+			while (set.has(isoDay(d))) { n++; d.setDate(d.getDate() - 1); }
+			return n;
+		}
+
 		function recordToday(d) {
 			try {
-				const today = new Date().toISOString().slice(0, 10);
-				const log = JSON.parse(localStorage.getItem('speakLog') || '[]');
+				const today = isoDay(new Date());
+				const log = loadLog();
 				log.unshift({ date: today, said: d.transcript || '', better: d.corrected || '' });
 				localStorage.setItem('speakLog', JSON.stringify(log.slice(0, 60)));
 			} catch (e) { /* ignore */ }
+			renderStreakAndLog();
 		}
+
+		function renderStreakAndLog() {
+			const log = loadLog();
+			// streak
+			const streak = computeStreak(log.map((e) => e.date), isoDay(new Date()));
+			const streakEl = $('streak');
+			if (streak > 0) {
+				streakEl.textContent = `🔥 ${streak}일 연속`;
+				streakEl.hidden = false;
+			} else {
+				streakEl.hidden = true;
+			}
+			// log (latest entry per day, newest first, up to 7)
+			const seen = new Set();
+			const recent = [];
+			for (const e of log) {
+				if (seen.has(e.date)) continue;
+				seen.add(e.date);
+				recent.push(e);
+				if (recent.length >= 7) break;
+			}
+			const logEl = $('log');
+			const listEl = $('log-list');
+			if (recent.length === 0) { logEl.hidden = true; return; }
+			listEl.innerHTML = '';
+			for (const e of recent) {
+				const li = document.createElement('li');
+				li.className = 'log-item';
+				const said = (e.said || '').replace(/</g, '&lt;');
+				const better = (e.better || '').replace(/</g, '&lt;');
+				li.innerHTML = `<span class="log-date">${e.date}</span>` +
+					(said ? `<span class="log-said">🗣️ ${said}</span>` : '') +
+					(better ? `<span class="log-better">✏️ ${better}</span>` : '');
+				listEl.appendChild(li);
+			}
+			logEl.hidden = false;
+		}
+
+		// show streak/log on load (from past days)
+		renderStreakAndLog();
 	</script>
 
 	<style>
@@ -269,5 +339,13 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		.mini-btn { margin-top: 0.5rem; background: var(--code-bg); border: 1px solid var(--code-border); border-radius: 6px; padding: 0.3rem 0.8rem; cursor: pointer; font: inherit; color: var(--text-color); }
 		.more { text-align: center; margin-top: 1.5rem; }
 		.more a { color: var(--text-muted); font-size: 0.9rem; }
+		.streak { display: inline-block; margin-top: 0.6rem; padding: 0.3rem 0.9rem; background: #fff3e0; color: #e65100; border-radius: 999px; font-weight: 700; font-size: 0.95rem; }
+		.log-title { font-size: 1.05rem; margin: 0 0 0.8rem; }
+		.log-list { list-style: none; margin: 0; padding: 0; }
+		.log-item { display: flex; flex-direction: column; gap: 2px; padding: 0.6rem 0; border-bottom: 1px solid var(--divider-color); }
+		.log-item:last-child { border-bottom: none; }
+		.log-date { font-size: 0.78rem; color: var(--text-muted); }
+		.log-said { color: var(--text-muted); font-style: italic; }
+		.log-better { color: var(--text-color); }
 	</style>
 </BaseLayout>
