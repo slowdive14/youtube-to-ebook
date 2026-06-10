@@ -408,14 +408,19 @@ def _build_speaking_yaml(speaking_prompt):
         f'  frame: "{_escape_yaml(frame)}"',
         f'  model: "{_escape_yaml(model)}"',
     ]
-    expressions = sp.get("expressions") or []
-    if expressions:
-        lines.append("  expressions:")
-        for e in expressions:
+    def _emit_phrases(key):
+        items = sp.get(key) or []
+        if not items:
+            return
+        lines.append(f"  {key}:")
+        for e in items:
             en = _escape_yaml((e.get("en") or "").strip())
             ko = _escape_yaml((e.get("ko") or "").strip())
             lines.append(f'    - en: "{en}"')
             lines.append(f'      ko: "{ko}"')
+
+    _emit_phrases("expressions")
+    _emit_phrases("shadow")
     return "\n".join(lines) + "\n"
 
 

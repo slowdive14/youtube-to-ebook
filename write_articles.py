@@ -883,6 +883,15 @@ Make it achievable with scaffolding:
 - 2-3 reusable EXPRESSIONS pulled from the article (with short Korean gloss) the
   learner can plug in.
 - A natural MODEL answer (<= 20 words) they can compare to / shadow afterwards.
+- 3 SHADOW warm-up sentences to repeat out loud first. These must be:
+  * B1-B2 level — common everyday words, simple grammar, SHORT (<= 10 words)
+  * CONCRETE, conversational sentences a learner would actually SAY in daily
+    life (small talk, work, friends) — e.g. "Let's split the bill.",
+    "Can you keep a secret?", "I need to keep track of my spending."
+  * NOT generic platitudes ("Crime is bad.", "Trust is important.") and NOT
+    facts about the article
+  * loosely inspired by the topic's theme, but DO NOT copy sentences verbatim
+    from the article and do NOT use rare/technical vocabulary
 
 Return ONLY JSON, no markdown, no code fences:
 {{
@@ -890,7 +899,8 @@ Return ONLY JSON, no markdown, no code fences:
   "question_ko": "<Korean question inviting a one-sentence opinion>",
   "frame": "<English sentence frame with ___ blanks>",
   "expressions": [{{"en": "<phrase from article>", "ko": "<short Korean gloss>"}}],
-  "model": "<one natural English model answer, <= 20 words>"
+  "model": "<one natural English model answer, <= 20 words>",
+  "shadow": [{{"en": "<short, practical, everyday B1-B2 sentence>", "ko": "<Korean>"}}]
 }}
 
 ARTICLE TITLE: {article.get('title', '')}
@@ -929,23 +939,26 @@ def parse_speaking_prompt(text):
     if not question or not frame or not model:
         return None
 
-    expressions = []
-    for item in (data.get("expressions") or []):
-        if not isinstance(item, dict):
-            continue
-        en = (item.get("en") or "").strip()
-        if not en:
-            continue
-        expressions.append({"en": en, "ko": (item.get("ko") or "").strip()})
-        if len(expressions) >= 3:
-            break
+    def _phrase_list(key, cap):
+        out = []
+        for item in (data.get(key) or []):
+            if not isinstance(item, dict):
+                continue
+            en = (item.get("en") or "").strip()
+            if not en:
+                continue
+            out.append({"en": en, "ko": (item.get("ko") or "").strip()})
+            if len(out) >= cap:
+                break
+        return out
 
     return {
         "topic": (data.get("topic") or "").strip(),
         "question_ko": question,
         "frame": frame,
-        "expressions": expressions,
+        "expressions": _phrase_list("expressions", 3),
         "model": model,
+        "shadow": _phrase_list("shadow", 4),
     }
 
 

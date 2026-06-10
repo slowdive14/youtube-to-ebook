@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
-from write_articles import write_articles_bilingual, generate_drill_sentences, generate_speaking_prompt
+from write_articles import write_articles_bilingual, generate_speaking_prompt
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
 
@@ -171,15 +171,11 @@ def run(video_url=None):
             print("No articles generated.")
             return
 
-        # Step 3a: Generate Speaking Drill sentences
-        print("\n[STEP 3a] Generating Speaking Drill sentences...")
+        # Step 3a: (retired) the old hard "Speaking Drill" (verbatim B2+ article
+        # quotes with fill/translate/swap) went unused. Replaced by the daily
+        # speaking prompt below, whose `shadow` field carries easy, practical
+        # B1-B2 warm-up sentences. drill_sentences kept empty for export compat.
         drill_sentences = []
-        if english_articles:
-            drill_sentences = generate_drill_sentences(english_articles)
-            if drill_sentences:
-                print(f"  [OK] {len(drill_sentences)} drill sentences generated")
-            else:
-                print("  [!] No drill sentences generated (non-fatal)")
 
         # Step 3a1: Generate the daily speaking-output prompt ("오늘의 한 마디")
         print("\n[STEP 3a1] Generating daily speaking prompt...")

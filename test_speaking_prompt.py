@@ -41,6 +41,14 @@ class TestBuildRequest:
         # the article content is embedded for grounding
         assert "Flying money" in p or "hard to trace" in p
 
+    def test_requests_practical_shadow_sentences(self):
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE)
+        assert "shadow" in p.lower()
+        # must demand everyday/practical + level + NOT verbatim
+        assert "everyday" in p.lower() or "real life" in p.lower() or "practical" in p.lower()
+        assert "B1" in p or "B2" in p
+        assert "not" in p.lower()  # not copied verbatim
+
     def test_embeds_title(self):
         p = build_speaking_prompt_request(SAMPLE_ARTICLE)
         assert "China's Dirty Money Problem, Explained" in p
@@ -56,7 +64,12 @@ VALID_JSON = """{
     {"en": "hard to trace", "ko": "추적하기 어렵다"},
     {"en": "exploit a loophole", "ko": "허점을 악용하다"}
   ],
-  "model": "I think it's hard to stop because the money is hard to trace."
+  "model": "I think it's hard to stop because the money is hard to trace.",
+  "shadow": [
+    {"en": "I need to keep track of my spending.", "ko": "지출을 잘 관리해야 해."},
+    {"en": "It's hard to trust people you don't know.", "ko": "모르는 사람을 믿기는 어려워."},
+    {"en": "Let's keep this between us.", "ko": "이건 우리끼리만 알자."}
+  ]
 }"""
 
 
@@ -69,6 +82,26 @@ class TestParse:
         assert d["model"].startswith("I think it's hard")
         assert len(d["expressions"]) == 2
         assert d["expressions"][0] == {"en": "hard to trace", "ko": "추적하기 어렵다"}
+        assert len(d["shadow"]) == 3
+        assert d["shadow"][0] == {"en": "I need to keep track of my spending.", "ko": "지출을 잘 관리해야 해."}
+
+    def test_shadow_clamped_and_filtered(self):
+        text = """{
+          "question_ko":"q","frame":"f","model":"m",
+          "shadow":[
+            {"en":"One.","ko":"하나"},{"en":"Two.","ko":"둘"},
+            {"en":"Three.","ko":"셋"},{"en":"Four.","ko":"넷"},{"en":"Five.","ko":"다섯"},
+            {"ko":"no en"}, "notdict", {"en":"  "}
+          ]
+        }"""
+        d = parse_speaking_prompt(text)
+        # capped at 4, malformed dropped
+        assert len(d["shadow"]) == 4
+        assert all(s["en"].strip() for s in d["shadow"])
+
+    def test_shadow_optional_defaults_empty(self):
+        d = parse_speaking_prompt('{"question_ko":"q","frame":"f","model":"m"}')
+        assert d["shadow"] == []
 
     def test_code_fenced(self):
         d = parse_speaking_prompt("```json\n" + VALID_JSON + "\n```")

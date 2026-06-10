@@ -35,6 +35,12 @@ const issues = defineCollection({
                     ko: z.string().optional().default(''),
                 })
             ).optional().default([]),
+            shadow: z.array(
+                z.object({
+                    en: z.string(),
+                    ko: z.string().optional().default(''),
+                })
+            ).optional().default([]),
         }).optional(),
     }),
 });
