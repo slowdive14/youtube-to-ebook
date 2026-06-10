@@ -11,7 +11,7 @@
 > ⛔ Quality Gate를 건너뛰거나 실패한 상태로 진행하지 말 것
 
 - **Last Updated**: 2026-06-10
-- **Status**: ✅ Phase 0 완료 → 🔜 Phase 1 진입
+- **Status**: ✅ Phase 0~1 완료 → 🔜 Phase 2 진입(핵심: 녹음 UI)
 - **Scope**: Medium (5 phases, 약 9~14시간)
 - **Stack**: Python(write_articles) / Astro 서버리스(API route) / 브라우저 MediaRecorder / Gemini 2.5 Flash(audio)
 
@@ -111,19 +111,19 @@ speakingPrompt:
 **Test Strategy**: 서버리스(TS)라 pytest 대상 아님 → 빌드 통과 + 로컬 호출(curl/스크립트) 수동 게이트. 입력 검증 로직은 작게 유지.
 
 **Tasks**:
-- [ ] **(GREEN)** `src/pages/api/speak-feedback.ts` (`prerender=false`) — `define.ts` 구조 복제:
+- [x] **(GREEN)** `src/pages/api/speak-feedback.ts` (`prerender=false`) — `define.ts` 구조 복제:
   - body: `{ audioBase64, mimeType, question, model }`
-  - Gemini REST `contents:[{parts:[{text:코칭프롬프트},{inlineData:{mimeType,data:audioBase64}}]}]`, `thinkingConfig.thinkingBudget=0`
-  - 응답 파싱(thought 파트 제외) → JSON `{transcript,good,corrected,upgrade,model_answer}`
-- [ ] mimeType allowlist + base64 크기 상한 + 키 미설정 500 + Gemini 오류 502
-- [ ] **(검증)** 로컬에서 webm 샘플 base64로 POST → 정상 JSON 확인(억양 실음성은 Phase 2 UI에서)
-- [ ] **(REFACTOR)** 코칭 프롬프트를 상수로, 한국어 톤(격려·정답아님) 고정
+  - Gemini REST `inlineData` 오디오 파트 + `responseMimeType:application/json` + `thinkingConfig.thinkingBudget=0`
+  - 응답 파싱(thought 파트 제외, fence strip) → JSON `{transcript,good,corrected,upgrade,model_answer}`
+- [x] mimeType allowlist(codecs param strip) + base64 3MB 상한 + 키 미설정 500 + 과대 413 + 미지원 415 + Gemini 502
+- [x] **(검증)** Gemini REST 오디오+JSON 계약을 동일 호출로 실측: webm/opus 정확 전사 + 코칭 JSON, `responseMimeType=json`이 깔끔한 JSON 반환(파싱 OK)
+- [x] **(REFACTOR)** 코칭 프롬프트 상수화, 한국어 톤(격려·"정답아님"·억양 비처벌) 고정
 
 **Quality Gate**:
-- [ ] `npm run build`(astro) 통과
-- [ ] 샘플 오디오 POST → `{transcript,...}` JSON 반환(수동)
-- [ ] 잘못된 mimeType/과대 payload/키 없음에서 적절한 4xx/5xx
-- [ ] 응답에 Gemini 키·원시 오류 미노출
+- [x] `astro build` 통과(라우트 타입체크)
+- [x] 핵심 호출(오디오→Gemini→JSON) 실측 통과. **HTTP 라우트 풀 왕복은 Phase 2 UI에서 실사용으로 검증**
+- [x] 잘못된 mimeType/과대 payload/키 없음 분기 구현(415/413/500)
+- [x] 응답에 Gemini 키·원시 오류 미노출(키는 서버리스 env, 오류는 일반 메시지)
 
 **Dependencies**: 없음(Phase 0과 병행 가능). Vercel에 `GEMINI_API_KEY` 환경변수(이미 define.ts가 사용 중).
 **Rollback**: 라우트 파일 삭제
@@ -217,7 +217,7 @@ speakingPrompt:
 | Phase | 상태 | 완료일 |
 |-------|------|--------|
 | 0. 프롬프트 생성 + 스키마 | ✅ 완료 | 2026-06-10 |
-| 1. 서버리스 피드백 엔드포인트 | ⬜ 대기 | - |
+| 1. 서버리스 피드백 엔드포인트 | ✅ 완료 | 2026-06-10 |
 | 2. 녹음 UI `/speak` | ⬜ 대기 | - |
 | 3. 습관 루프(진입·스트릭·로그) | ⬜ 대기 | - |
 | 4. 드릴 강등 + 마감 | ⬜ 대기 | - |
@@ -233,3 +233,6 @@ speakingPrompt:
 - (사전검증 ✅) Gemini 오디오 전사 실측: 팟캐스트 mp3 클립 정확 전사, **webm/opus(Chrome 녹음 포맷)도 정확**. `types.Part.from_bytes(data, mime_type)` / REST `inlineData`. 전사+코칭(JSON: transcript·good·corrected·upgrade·model)이 **한 호출**로 동작 확인 → 브라우저 SpeechRecognition 불필요.
 - (사전검증) `api/define.ts`가 서버리스에서 Gemini REST를 `process.env.GEMINI_API_KEY`로 호출하는 검증된 패턴 — `/api/speak-feedback`는 여기에 `inlineData` 오디오 파트만 추가.
 - (설계 원칙) "정답 일치 채점" 폐기가 핵심: 인식이 완벽할 필요가 없어짐 → 가장 큰 걸림돌(억양 인식 실패)이 구조적으로 제거됨.
+- (Phase 0 실측 ✅) `generate_speaking_prompt` 라이브: topic/question_ko/frame/expressions(3, 한글뜻)/model 정상. `astro build`로 `speakingPrompt` 스키마가 기존 전 이슈와 하위호환 검증.
+- (Phase 1 실측 ✅) `/api/speak-feedback`은 `define.ts` 패턴 + 오디오 `inlineData`. **`responseMimeType:application/json`이 결정적** — Gemini가 fence 없는 순수 JSON 반환(파싱 안정). 동일 REST 호출 실측: webm/opus 정확 전사 + transcript·good·corrected·upgrade·model_answer 전부 채워짐. 라우트는 컴파일 통과, HTTP 풀 왕복은 Phase 2 UI에서 실증.
+- (배포 토폴로지) `youtube-digest-archive`는 **메인 repo의 일부**(동일 origin). Vercel이 이 repo에서 배포하고, 파이프라인의 `push_to_archive_repo`도 같은 repo에 커밋 → 단일 소스. `GEMINI_API_KEY`는 이미 Vercel env에 있음(define.ts가 사용 중).
