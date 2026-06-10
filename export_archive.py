@@ -421,6 +421,19 @@ def _build_speaking_yaml(speaking_prompt):
 
     _emit_phrases("expressions")
     _emit_phrases("shadow")
+
+    # Connected pattern lessons (shadow -> fill -> apply around one pattern)
+    patterns = sp.get("patterns") or []
+    if patterns:
+        lines.append("  patterns:")
+        for p in patterns:
+            lines.append(f'    - pattern: "{_escape_yaml((p.get("pattern") or "").strip())}"')
+            lines.append(f'      pattern_ko: "{_escape_yaml((p.get("pattern_ko") or "").strip())}"')
+            lines.append(f'      s1_en: "{_escape_yaml((p.get("s1_en") or "").strip())}"')
+            lines.append(f'      s1_ko: "{_escape_yaml((p.get("s1_ko") or "").strip())}"')
+            lines.append(f'      s2_en: "{_escape_yaml((p.get("s2_en") or "").strip())}"')
+            lines.append(f'      s2_ko: "{_escape_yaml((p.get("s2_ko") or "").strip())}"')
+            lines.append(f'      s2_answer: "{_escape_yaml((p.get("s2_answer") or "").strip())}"')
     return "\n".join(lines) + "\n"
 
 

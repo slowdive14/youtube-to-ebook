@@ -873,34 +873,44 @@ def build_speaking_prompt_request(article):
     body = article.get("article", "")
     if len(body) > 3000:
         body = body[:3000]
-    return f"""You design a daily ONE-SENTENCE English speaking task for a Korean B1 learner,
-based on the article below. The goal is PRODUCTION: the learner says their OWN
-opinion/idea in one English sentence — NOT reciting a fixed sentence.
+    return f"""You design a daily English speaking mini-lesson for a Korean B1 learner,
+loosely inspired by the article below. The lesson teaches REUSABLE PATTERNS and
+ends with the learner producing their OWN sentence — not reciting fixed text.
 
-Make it achievable with scaffolding:
-- A Korean question that invites a personal opinion about the article's topic.
-- A sentence FRAME with blanks the learner fills (e.g. "I think ___ because ___.").
-- 2-3 reusable EXPRESSIONS pulled from the article (with short Korean gloss) the
-  learner can plug in.
-- A natural MODEL answer (<= 20 words) they can compare to / shadow afterwards.
-- 3 SHADOW warm-up sentences to repeat out loud first. These must be:
-  * B1-B2 level — common everyday words, simple grammar, SHORT (<= 10 words)
-  * CONCRETE, conversational sentences a learner would actually SAY in daily
-    life (small talk, work, friends) — e.g. "Let's split the bill.",
-    "Can you keep a secret?", "I need to keep track of my spending."
-  * NOT generic platitudes ("Crime is bad.", "Trust is important.") and NOT
-    facts about the article
-  * loosely inspired by the topic's theme, but DO NOT copy sentences verbatim
-    from the article and do NOT use rare/technical vocabulary
+Build 2 PATTERNS. Each pattern is one reusable everyday structure (a "sentence
+frame" with a ___ slot) that the learner practices across connected steps:
+- "pattern": the reusable structure with a ___ slot, B1-B2, high-frequency in
+  daily life (e.g. "It's hard to ___", "I need to ___", "Let's ___ together").
+- "pattern_ko": short Korean gloss of the pattern.
+- "s1": a full model sentence USING that pattern (shadow step). {{en, ko}}
+- "s2": a DIFFERENT everyday sentence USING THE SAME pattern (fill step), plus
+  "answer" = the word/short phrase that fills the pattern's ___ slot in s2.
+  {{en, ko, answer}}
+Rules for pattern sentences:
+- SHORT (<= 10 words), concrete, conversational — things a learner really says.
+- s1 and s2 MUST share the same pattern so they clearly connect.
+- DO NOT copy sentences verbatim from the article; no rare/technical words.
+
+Also give the day's overall production task:
+- "topic": short English topic label
+- "question_ko": a Korean question inviting a personal opinion about the topic
+- "frame": an English sentence frame with ___ blanks
+- "model": one natural English model answer (<= 20 words)
 
 Return ONLY JSON, no markdown, no code fences:
 {{
   "topic": "<short English topic label>",
   "question_ko": "<Korean question inviting a one-sentence opinion>",
   "frame": "<English sentence frame with ___ blanks>",
-  "expressions": [{{"en": "<phrase from article>", "ko": "<short Korean gloss>"}}],
   "model": "<one natural English model answer, <= 20 words>",
-  "shadow": [{{"en": "<short, practical, everyday B1-B2 sentence>", "ko": "<Korean>"}}]
+  "patterns": [
+    {{
+      "pattern": "It's hard to ___",
+      "pattern_ko": "~하기 어렵다",
+      "s1": {{"en": "It's hard to trust someone you just met.", "ko": "방금 만난 사람을 믿기는 어려워."}},
+      "s2": {{"en": "It's hard to focus when you're tired.", "ko": "피곤할 때 집중하기 어려워.", "answer": "focus"}}
+    }}
+  ]
 }}
 
 ARTICLE TITLE: {article.get('title', '')}
@@ -952,6 +962,32 @@ def parse_speaking_prompt(text):
                 break
         return out
 
+    def _patterns(cap=3):
+        out = []
+        for item in (data.get("patterns") or []):
+            if not isinstance(item, dict):
+                continue
+            pattern = (item.get("pattern") or "").strip()
+            s1 = item.get("s1") or {}
+            s2 = item.get("s2") or {}
+            s1_en = (s1.get("en") or "").strip() if isinstance(s1, dict) else ""
+            s2_en = (s2.get("en") or "").strip() if isinstance(s2, dict) else ""
+            # a usable lesson needs the pattern + both example sentences
+            if not pattern or not s1_en or not s2_en:
+                continue
+            out.append({
+                "pattern": pattern,
+                "pattern_ko": (item.get("pattern_ko") or "").strip(),
+                "s1_en": s1_en,
+                "s1_ko": (s1.get("ko") or "").strip(),
+                "s2_en": s2_en,
+                "s2_ko": (s2.get("ko") or "").strip(),
+                "s2_answer": (s2.get("answer") or "").strip(),
+            })
+            if len(out) >= cap:
+                break
+        return out
+
     return {
         "topic": (data.get("topic") or "").strip(),
         "question_ko": question,
@@ -959,6 +995,7 @@ def parse_speaking_prompt(text):
         "expressions": _phrase_list("expressions", 3),
         "model": model,
         "shadow": _phrase_list("shadow", 4),
+        "patterns": _patterns(3),
     }
 
 

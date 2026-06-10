@@ -73,6 +73,24 @@ Respond with ONLY a JSON object (no markdown):
   "corrected": "the most natural way to say that meaning in English"
 }`;
 
+// "apply" mode: the learner uses a just-learned PATTERN to say something about
+// their OWN life/situation. Production with a pattern as scaffold.
+const APPLY_PROMPT = `You are a warm English speaking coach for a Korean B1 learner.
+The learner just practiced this English pattern: "{{TARGET}}"
+Now they are using it to say a sentence about THEIR OWN situation.
+The attached audio is their spoken attempt.
+
+TRANSCRIBE what they said (do your best with the accent; never penalize accent).
+Then coach warmly: did they use the pattern to express their own idea? Celebrate
+it even if imperfect — never say "wrong". Offer one natural polish.
+
+Respond with ONLY a JSON object (no markdown):
+{
+  "transcript": "what the learner actually said, verbatim",
+  "good": "one encouraging line in Korean (did they use the pattern for their own idea?)",
+  "corrected": "their sentence polished into natural English (keep their meaning)"
+}`;
+
 export const POST: APIRoute = async ({ request }) => {
   const apiKey = process.env.GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY;
   if (!apiKey) {
@@ -100,6 +118,7 @@ export const POST: APIRoute = async ({ request }) => {
 
   const isShadow = mode === 'shadow';
   const isTranslate = mode === 'translate';
+  const isApply = mode === 'apply';
   let prompt: string;
   if (isShadow) {
     prompt = SHADOW_PROMPT.replace('{{TARGET}}', target.slice(0, 400));
@@ -107,6 +126,8 @@ export const POST: APIRoute = async ({ request }) => {
     prompt = TRANSLATE_PROMPT
       .replace('{{KO}}', ko.slice(0, 400))
       .replace('{{TARGET}}', target.slice(0, 400));
+  } else if (isApply) {
+    prompt = APPLY_PROMPT.replace('{{TARGET}}', target.slice(0, 400));
   } else {
     prompt = COACH_PROMPT
       .replace('{{QUESTION}}', question.slice(0, 500))
@@ -163,7 +184,7 @@ export const POST: APIRoute = async ({ request }) => {
         tip: feedback.tip ?? '',
       }, 200);
     }
-    if (isTranslate) {
+    if (isTranslate || isApply) {
       return json({
         transcript: feedback.transcript ?? '',
         good: feedback.good ?? '',

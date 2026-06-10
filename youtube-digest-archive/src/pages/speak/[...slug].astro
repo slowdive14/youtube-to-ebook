@@ -15,12 +15,21 @@ export async function getStaticPaths() {
 
 const { issue } = Astro.props;
 const sp = issue.data.speakingPrompt!;
-// Easy, practical B1-B2 warm-up sentences (NOT verbatim article quotes).
-// Prefer the new speakingPrompt.shadow; fall back to old drill sentences for
-// legacy issues that predate the shadow field.
-const shadows = (sp.shadow && sp.shadow.length > 0)
-	? sp.shadow.map((s) => ({ sentence: s.en, korean: s.ko }))
-	: (issue.data.drillSentences || []).slice(0, 3).map((d) => ({ sentence: d.sentence, korean: d.korean }));
+// A "lesson" is one reusable pattern practiced across connected steps:
+//   1) shadow s1  2) fill s2 (same pattern)  3) apply the pattern to your life
+// Prefer speakingPrompt.patterns; fall back to legacy shadow/drill sentences
+// (which only support step 1).
+const patterns = (sp as any).patterns || [];
+const lessons = patterns.length > 0
+	? patterns.map((p: any) => ({
+		pattern: p.pattern, pattern_ko: p.pattern_ko || '',
+		s1_en: p.s1_en, s1_ko: p.s1_ko || '',
+		s2_en: p.s2_en, s2_ko: p.s2_ko || '', s2_answer: p.s2_answer || '',
+		maxStep: 3,
+	}))
+	: ((sp.shadow && sp.shadow.length > 0)
+		? sp.shadow.map((s) => ({ pattern: '', pattern_ko: '', s1_en: s.en, s1_ko: s.ko, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 }))
+		: (issue.data.drillSentences || []).slice(0, 3).map((d) => ({ pattern: '', pattern_ko: '', s1_en: d.sentence, s1_ko: d.korean, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 })));
 const dateObj = new Date(issue.data.date);
 const formattedDate = dateObj.toLocaleDateString('en-US', {
 	year: 'numeric', month: 'long', day: 'numeric',
@@ -36,20 +45,24 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			<div id="streak" class="streak" hidden></div>
 		</header>
 
-		{shadows.length > 0 && (
+		{lessons.length > 0 && (
 			<section class="warmup">
-				<h2 class="section-title">1단계 · 워밍업 <span class="section-sub">한 문장을 3단계로 올라가며 말해요</span></h2>
-				{shadows.map((s, i) => (
-					<div class="card ladder-card" data-idx={i} data-en={s.sentence} data-ko={s.korean} data-step="1">
+				<h2 class="section-title">1단계 · 패턴 연습 <span class="section-sub">한 표현을 따라→응용→내 것으로</span></h2>
+				{lessons.map((l: any, i: number) => (
+					<div class="card ladder-card" data-idx={i} data-step="1" data-maxstep={l.maxStep}
+						data-pattern={l.pattern} data-pko={l.pattern_ko}
+						data-s1={l.s1_en} data-s1ko={l.s1_ko}
+						data-s2={l.s2_en} data-s2ko={l.s2_ko} data-ans={l.s2_answer}>
+						{l.pattern && <div class="lp-pattern">{l.pattern} <span class="lp-pattern-ko">{l.pattern_ko}</span></div>}
 						<div class="ladder-steps">
 							<span class="lstep" data-s="1">1 따라</span>
-							<span class="lstep" data-s="2">2 빈칸</span>
-							<span class="lstep" data-s="3">3 한→영</span>
+							{l.maxStep >= 2 && <span class="lstep" data-s="2">2 빈칸</span>}
+							{l.maxStep >= 3 && <span class="lstep" data-s="3">3 내 상황</span>}
 						</div>
 						<p class="lp-en" id={`en-s${i}`}></p>
-						<p class="lp-ko" id={`ko-s${i}`}>{s.korean}</p>
+						<p class="lp-ko" id={`ko-s${i}`}></p>
 						<div class="ladder-actions">
-							<button class="mini-btn say-btn lp-say" data-say={s.sentence} type="button" id={`say-s${i}`}>🔊 듣기</button>
+							<button class="mini-btn say-btn lp-say" data-say={l.s1_en} type="button" id={`say-s${i}`}>🔊 듣기</button>
 							<button class="rec-btn rec-btn-sm ladder-rec" data-rec={`s${i}`} type="button">🎤 말하기</button>
 							<button class="mini-btn ladder-next" id={`next-s${i}`} hidden type="button">다음 단계 →</button>
 						</div>
@@ -65,7 +78,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 
 		<!-- Production task -->
 		<section class="produce">
-			<h2 class="section-title">{shadows.length > 0 ? '2단계 · 내 문장 만들기' : '오늘의 과제'} <span class="section-sub">내 생각을 한 문장으로</span></h2>
+			<h2 class="section-title">{lessons.length > 0 ? '2단계 · 내 문장 만들기' : '오늘의 과제'} <span class="section-sub">내 생각을 한 문장으로</span></h2>
 			<div class="card task">
 				<p class="task-q">{sp.question_ko}</p>
 				<div class="task-frame" aria-label="sentence frame">{sp.frame}</div>
@@ -113,8 +126,8 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		)}
 	</div>
 
-	<script define:vars={{ sp, shadows }}>
-		window.__SPEAK__ = { sp, shadows };
+	<script define:vars={{ sp, lessons }}>
+		window.__SPEAK__ = { sp, lessons };
 	</script>
 
 	<script>
@@ -208,29 +221,35 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			});
 		}
 
-		// --- warm-up ladder: each sentence climbs shadow -> fill -> translate ---
-		const STEP_LABEL = { 1: '🎤 따라 말하기', 2: '🎤 빈칸 채워 말하기', 3: '🎤 한국어 보고 영어로' };
+		// --- warm-up ladder: one PATTERN climbs shadow(s1) -> fill(s2) -> apply ---
+		const STEP_LABEL = { 1: '🎤 따라 말하기', 2: '🎤 빈칸 채워 말하기', 3: '🎤 내 상황을 말하기' };
 
-		function blankWord(en) {
-			const tokens = en.split(/(\s+)/); // keep whitespace tokens
+		function blankAnswer(en, answer) {
+			if (answer) {
+				const idx = en.toLowerCase().indexOf(answer.toLowerCase());
+				if (idx !== -1) return en.slice(0, idx) + '____' + en.slice(idx + answer.length);
+			}
+			// fallback: blank the longest word
+			const tokens = en.split(/(\s+)/);
 			let bestIdx = -1, bestLen = 0;
 			tokens.forEach((tok, idx) => {
 				const w = tok.replace(/[^A-Za-z]/g, '');
 				if (w.length >= 4 && w.length > bestLen) { bestLen = w.length; bestIdx = idx; }
 			});
-			if (bestIdx === -1) return en;
-			tokens[bestIdx] = tokens[bestIdx].replace(/[A-Za-z]+/, '____');
+			if (bestIdx !== -1) tokens[bestIdx] = tokens[bestIdx].replace(/[A-Za-z]+/, '____');
 			return tokens.join('');
 		}
 
 		document.querySelectorAll('.ladder-card').forEach((card) => {
 			const i = card.dataset.idx;
 			const id = `s${i}`;
-			const en = card.dataset.en, ko = card.dataset.ko;
+			const d0 = card.dataset;
+			const maxStep = parseInt(d0.maxstep || '1');
 			const recBtn = card.querySelector('.ladder-rec');
 			const sayBtn = $(`say-s${i}`);
 			const nextBtn = $(`next-s${i}`);
 			const enEl = $(`en-s${i}`);
+			const koEl = $(`ko-s${i}`);
 			const fb = $(`fb-${id}`);
 			const step = () => parseInt(card.dataset.step || '1');
 
@@ -241,10 +260,9 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 					el.classList.toggle('active', n === s);
 					el.classList.toggle('done', n < s);
 				});
-				if (s === 1) enEl.textContent = en;
-				else if (s === 2) enEl.textContent = blankWord(en);
-				else enEl.textContent = '';            // translate: hide English
-				sayBtn.hidden = s !== 1;
+				if (s === 1) { enEl.textContent = d0.s1; koEl.textContent = d0.s1ko; sayBtn.dataset.say = d0.s1; sayBtn.hidden = false; }
+				else if (s === 2) { enEl.textContent = blankAnswer(d0.s2, d0.ans); koEl.textContent = d0.s2ko; sayBtn.dataset.say = d0.s2; sayBtn.hidden = false; }
+				else { enEl.textContent = ''; koEl.textContent = `이 패턴으로 내 상황을 한 문장 말해보세요: ${d0.pattern}`; sayBtn.hidden = true; }
 				recBtn.textContent = STEP_LABEL[s];
 				recBtn.disabled = false;
 				nextBtn.hidden = true;
@@ -252,24 +270,28 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			}
 
 			targets[id] = {
-				buildPayload: () => (step() === 3
-					? { mode: 'translate', target: en, ko }
-					: { mode: 'shadow', target: en }),
+				buildPayload: () => {
+					const s = step();
+					if (s === 1) return { mode: 'shadow', target: d0.s1 };
+					if (s === 2) return { mode: 'shadow', target: d0.s2 };
+					return { mode: 'apply', target: d0.pattern };
+				},
 				setLabel: (label) => { recBtn.textContent = label; recBtn.disabled = label.includes('듣는'); },
 				reset: () => { recBtn.textContent = '🎤 다시 말하기'; recBtn.disabled = false; },
 				onError: (msg) => { $(`t-${id}`).textContent = msg; fb.hidden = false; recBtn.textContent = STEP_LABEL[step()]; recBtn.disabled = false; },
 				render: (d) => {
 					$(`t-${id}`).textContent = d.transcript ? `🗣️ ${d.transcript}` : '(못 알아들었어요 — 다시 한 번!)';
 					$(`g-${id}`).textContent = d.good || '';
+					// steps 1-2 (shadow) return tip; step 3 (apply) returns corrected
 					$(`tip-${id}`).textContent = step() === 3
 						? (d.corrected ? `✏️ ${d.corrected}` : '')
 						: (d.tip || '');
 					fb.hidden = false;
-					if (step() < 3) nextBtn.hidden = false;
+					if (step() < maxStep) nextBtn.hidden = false;
 				},
 			};
 			nextBtn.addEventListener('click', () => {
-				card.dataset.step = String(Math.min(3, step() + 1));
+				card.dataset.step = String(Math.min(maxStep, step() + 1));
 				renderStep();
 			});
 			wire(id);
@@ -362,6 +384,8 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		.section-sub { font-size: 0.85rem; color: var(--text-muted); font-weight: 400; }
 		.card { background: var(--card-bg); box-shadow: var(--card-shadow); border-radius: 12px; padding: 1.25rem 1.4rem; margin: 0.7rem 0; }
 		.ladder-card { padding: 1rem 1.2rem; }
+		.lp-pattern { font-size: 1.05rem; font-weight: 700; color: var(--accent-color); margin-bottom: 0.6rem; }
+		.lp-pattern-ko { font-size: 0.85rem; font-weight: 400; color: var(--text-muted); margin-left: 0.4rem; }
 		.ladder-steps { display: flex; gap: 0.4rem; margin-bottom: 0.7rem; }
 		.lstep { font-size: 0.72rem; padding: 0.15rem 0.55rem; border-radius: 999px; background: var(--code-bg); color: var(--text-muted); border: 1px solid var(--code-border); }
 		.lstep.active { background: var(--accent-color); color: #fff; border-color: transparent; font-weight: 700; }

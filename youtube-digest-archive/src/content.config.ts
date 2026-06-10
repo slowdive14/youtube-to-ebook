@@ -41,6 +41,17 @@ const issues = defineCollection({
                     ko: z.string().optional().default(''),
                 })
             ).optional().default([]),
+            patterns: z.array(
+                z.object({
+                    pattern: z.string(),
+                    pattern_ko: z.string().optional().default(''),
+                    s1_en: z.string(),
+                    s1_ko: z.string().optional().default(''),
+                    s2_en: z.string(),
+                    s2_ko: z.string().optional().default(''),
+                    s2_answer: z.string().optional().default(''),
+                })
+            ).optional().default([]),
         }).optional(),
     }),
 });

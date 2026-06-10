@@ -34,12 +34,19 @@ class TestBuildRequest:
         assert "opinion" in p.lower() or "your own" in p.lower()
         # the scaffolding fields the model must return
         assert "frame" in p.lower()
-        assert "expression" in p.lower()
+        assert "pattern" in p.lower()
         assert "model" in p.lower()
         # JSON-only
         assert "JSON" in p
         # the article content is embedded for grounding
         assert "Flying money" in p or "hard to trace" in p
+
+    def test_requests_connected_pattern_lesson(self):
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE)
+        # patterns must connect s1 and s2 via the SAME structure
+        assert "s1" in p and "s2" in p
+        assert "same pattern" in p.lower()
+        assert "answer" in p.lower()  # the fill slot
 
     def test_requests_practical_shadow_sentences(self):
         p = build_speaking_prompt_request(SAMPLE_ARTICLE)
@@ -102,6 +109,40 @@ class TestParse:
     def test_shadow_optional_defaults_empty(self):
         d = parse_speaking_prompt('{"question_ko":"q","frame":"f","model":"m"}')
         assert d["shadow"] == []
+
+    def test_patterns_parsed(self):
+        text = """{
+          "question_ko":"q","frame":"f","model":"m",
+          "patterns":[
+            {"pattern":"It's hard to ___","pattern_ko":"~하기 어렵다",
+             "s1":{"en":"It's hard to trust new people.","ko":"새 사람 믿기 어려워."},
+             "s2":{"en":"It's hard to wake up early.","ko":"일찍 일어나기 어려워.","answer":"wake up early"}}
+          ]
+        }"""
+        d = parse_speaking_prompt(text)
+        assert len(d["patterns"]) == 1
+        p = d["patterns"][0]
+        assert p["pattern"] == "It's hard to ___"
+        assert p["s1_en"] == "It's hard to trust new people."
+        assert p["s2_en"] == "It's hard to wake up early."
+        assert p["s2_answer"] == "wake up early"
+
+    def test_patterns_incomplete_dropped(self):
+        # pattern missing s2 -> dropped
+        text = """{
+          "question_ko":"q","frame":"f","model":"m",
+          "patterns":[
+            {"pattern":"I need to ___","s1":{"en":"I need to rest.","ko":"쉬어야 해."}},
+            {"pattern":"Let's ___","s1":{"en":"Let's go.","ko":"가자."},"s2":{"en":"Let's eat.","ko":"먹자.","answer":"eat"}}
+          ]
+        }"""
+        d = parse_speaking_prompt(text)
+        assert len(d["patterns"]) == 1
+        assert d["patterns"][0]["pattern"] == "Let's ___"
+
+    def test_patterns_default_empty(self):
+        d = parse_speaking_prompt('{"question_ko":"q","frame":"f","model":"m"}')
+        assert d["patterns"] == []
 
     def test_code_fenced(self):
         d = parse_speaking_prompt("```json\n" + VALID_JSON + "\n```")
