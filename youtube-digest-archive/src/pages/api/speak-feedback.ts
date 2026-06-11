@@ -30,11 +30,13 @@ Respond with ONLY a JSON object (no markdown) with these keys:
   "transcript": "what the learner actually said, verbatim",
   "good": "one specific thing they did well, in Korean",
   "corrected": "their sentence rewritten to sound natural, in English",
+  "ko": "natural Korean translation of the corrected sentence",
   "upgrade": "one better word/expression to learn, in English, with a short Korean gloss in parentheses",
-  "model_answer": "a natural model answer they can shadow, in English, <= 20 words"
+  "model_answer": "a natural model answer they can shadow, in English, <= 20 words",
+  "mistakes": [{"error": "the wrong phrase they said", "fix": "the corrected phrase", "type": "short Korean label of the error kind, e.g. 3인칭 단수 -s, 동사 누락, 관사, 시제"}]
 }
-If the audio is empty or unintelligible, set transcript to "" and still return
-encouraging guidance using the model answer.`;
+List at most 3 real mistakes; use [] if there were none. If the audio is empty
+or unintelligible, set transcript to "" and still return encouraging guidance.`;
 
 // "shadow" mode: the learner just repeats a target sentence (easy warm-up).
 // Gentle, no grading — recognition errors become a tip, not a failure.
@@ -88,8 +90,11 @@ Respond with ONLY a JSON object (no markdown):
 {
   "transcript": "what the learner actually said, verbatim",
   "good": "one encouraging line in Korean (did they use the pattern for their own idea?)",
-  "corrected": "their sentence polished into natural English (keep their meaning)"
-}`;
+  "corrected": "their sentence polished into natural English (keep their meaning)",
+  "ko": "natural Korean translation of the corrected sentence",
+  "mistakes": [{"error": "the wrong phrase they said", "fix": "the corrected phrase", "type": "short Korean label of the error kind"}]
+}
+List at most 3 real mistakes; use [] if there were none.`;
 
 export const POST: APIRoute = async ({ request }) => {
   const apiKey = process.env.GEMINI_API_KEY || import.meta.env.GEMINI_API_KEY;
@@ -151,7 +156,7 @@ export const POST: APIRoute = async ({ request }) => {
           ],
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 800,
+            maxOutputTokens: 1000,
             responseMimeType: 'application/json',
             thinkingConfig: { thinkingBudget: 0 },
           },
@@ -177,6 +182,18 @@ export const POST: APIRoute = async ({ request }) => {
       return json({ error: 'Could not parse feedback', raw: raw.slice(0, 200) }, 502);
     }
 
+    // Keep only well-formed mistake items (error/fix/type strings)
+    const cleanMistakes = Array.isArray(feedback.mistakes)
+      ? feedback.mistakes
+          .filter((m: any) => m && typeof m === 'object' && (m.error || m.fix))
+          .slice(0, 3)
+          .map((m: any) => ({
+            error: String(m.error ?? '').slice(0, 120),
+            fix: String(m.fix ?? '').slice(0, 120),
+            type: String(m.type ?? '').slice(0, 40),
+          }))
+      : [];
+
     if (isShadow) {
       return json({
         transcript: feedback.transcript ?? '',
@@ -184,19 +201,30 @@ export const POST: APIRoute = async ({ request }) => {
         tip: feedback.tip ?? '',
       }, 200);
     }
-    if (isTranslate || isApply) {
+    if (isTranslate) {
       return json({
         transcript: feedback.transcript ?? '',
         good: feedback.good ?? '',
         corrected: feedback.corrected ?? target,
       }, 200);
     }
+    if (isApply) {
+      return json({
+        transcript: feedback.transcript ?? '',
+        good: feedback.good ?? '',
+        corrected: feedback.corrected ?? target,
+        ko: feedback.ko ?? '',
+        mistakes: cleanMistakes,
+      }, 200);
+    }
     return json({
       transcript: feedback.transcript ?? '',
       good: feedback.good ?? '',
       corrected: feedback.corrected ?? '',
+      ko: feedback.ko ?? '',
       upgrade: feedback.upgrade ?? '',
       model_answer: feedback.model_answer ?? model,
+      mistakes: cleanMistakes,
     }, 200);
   } catch (err) {
     console.error('Gemini fetch error:', err);

@@ -43,6 +43,12 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			<div id="streak" class="streak" hidden></div>
 		</header>
 
+		<!-- Review: re-say sentences you fixed on earlier days (filled by JS) -->
+		<section id="review" class="warmup" hidden>
+			<h2 class="section-title">🔁 복습 <span class="section-sub">지난번 고친 문장, 한국어 보고 영어로</span></h2>
+			<div id="review-list"></div>
+		</section>
+
 		{lessons.length > 0 && (
 			<section class="warmup">
 				<h2 class="section-title">1단계 · 패턴 연습 <span class="section-sub">한 표현을 따라→응용→내 것으로</span></h2>
@@ -110,12 +116,26 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 					<p id="fb-model" class="fb-en"></p>
 					<button id="fb-play" class="mini-btn" type="button">🔊 듣기</button>
 				</div>
+				<div class="fb-row fb-reshadow">
+					<span class="fb-label">🔁 자연스러운 버전 내 입에 붙이기</span>
+					<p id="fb-corrected2" class="fb-en"></p>
+					<div class="ladder-actions">
+						<button id="fb-corr-play" class="mini-btn" type="button">🔊 듣기</button>
+						<button data-rec="reshadow" class="rec-btn rec-btn-sm" type="button">🎤 따라 말하기</button>
+					</div>
+					<div class="ladder-fb" id="fb-reshadow-fb" hidden>
+						<p id="t-reshadow"></p>
+						<p id="g-reshadow"></p>
+						<p id="tip-reshadow"></p>
+					</div>
+				</div>
 			</div>
 		</section>
 
-		<!-- My recent sentences -->
+		<!-- My learned sentences + recurring mistakes -->
 		<section id="log" class="card log" hidden>
-			<h2 class="log-title">📒 내 문장 기록</h2>
+			<h2 class="log-title">📒 내 표현 &amp; 실수 노트</h2>
+			<div id="mistake-summary" class="mistake-summary" hidden></div>
 			<ul id="log-list" class="log-list"></ul>
 		</section>
 
@@ -282,6 +302,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 						? (d.corrected ? `✏️ ${d.corrected}` : '')
 						: (d.tip || '');
 					fb.hidden = false;
+					if (step() === 3 && d.corrected) saveProduction(d);
 					if (step() < maxStep) nextBtn.hidden = false;
 				},
 			};
@@ -309,11 +330,31 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 				$('fb-model').textContent = d.model_answer || sp.model || '';
 				$('feedback').hidden = false;
 				$('feedback').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-				recordToday(d);
+				reshadowTarget = (d.corrected || '').trim();
+				$('fb-corrected2').textContent = reshadowTarget;
+				$('fb-reshadow-fb').hidden = true;
+				saveProduction(d);
 			},
 		};
 		wire('produce');
 		$('fb-play').addEventListener('click', () => say($('fb-model').textContent, 0.85));
+
+		// immediate re-practice: shadow the corrected sentence right after feedback
+		let reshadowTarget = '';
+		$('fb-corr-play').addEventListener('click', () => say(reshadowTarget, 0.85));
+		targets['reshadow'] = {
+			buildPayload: () => ({ mode: 'shadow', target: reshadowTarget }),
+			setLabel: (label) => { const b = btnFor('reshadow'); b.textContent = label; b.disabled = label.includes('듣는'); },
+			reset: () => { btnFor('reshadow').textContent = '🎤 다시 말하기'; btnFor('reshadow').disabled = false; },
+			onError: (msg) => { $('t-reshadow').textContent = msg; $('fb-reshadow-fb').hidden = false; btnFor('reshadow').textContent = '🎤 따라 말하기'; btnFor('reshadow').disabled = false; },
+			render: (d) => {
+				$('t-reshadow').textContent = d.transcript ? `🗣️ ${d.transcript}` : '(못 알아들었어요 — 다시 한 번!)';
+				$('g-reshadow').textContent = d.good || '';
+				$('tip-reshadow').textContent = d.tip || '';
+				$('fb-reshadow-fb').hidden = false;
+			},
+		};
+		wire('reshadow');
 
 		if (mimeType === null) {
 			document.querySelectorAll('.rec-btn').forEach((b) => (b.disabled = true));
@@ -334,13 +375,16 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			while (set.has(isoDay(d))) { n++; d.setDate(d.getDate() - 1); }
 			return n;
 		}
-		function recordToday(d) {
-			try {
-				const today = isoDay(new Date());
-				const log = loadLog();
-				log.unshift({ date: today, said: d.transcript || '', better: d.corrected || '' });
-				localStorage.setItem('speakLog', JSON.stringify(log.slice(0, 60)));
-			} catch (e) {}
+		function esc(x) { return String(x || '').replace(/</g, '&lt;'); }
+		function saveProduction(d) {
+			const corrected = (d.corrected || '').trim();
+			if (corrected) {
+				try {
+					const log = loadLog();
+					log.unshift({ date: isoDay(new Date()), corrected, ko: (d.ko || '').trim(), mistakes: Array.isArray(d.mistakes) ? d.mistakes.slice(0, 3) : [] });
+					localStorage.setItem('speakLog', JSON.stringify(log.slice(0, 60)));
+				} catch (e) {}
+			}
 			renderStreakAndLog();
 		}
 		function renderStreakAndLog() {
@@ -349,24 +393,63 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			const streakEl = $('streak');
 			if (streak > 0) { streakEl.textContent = `🔥 ${streak}일 연속`; streakEl.hidden = false; }
 			else streakEl.hidden = true;
-			const seen = new Set(), recent = [];
-			for (const e of log) { if (seen.has(e.date)) continue; seen.add(e.date); recent.push(e); if (recent.length >= 7) break; }
-			const logEl = $('log'), listEl = $('log-list');
-			if (recent.length === 0) { logEl.hidden = true; return; }
+			const logEl = $('log'), listEl = $('log-list'), sumEl = $('mistake-summary');
+			if (!log.length) { logEl.hidden = true; return; }
+			// recurring-mistake summary (aggregate by type)
+			const counts = {};
+			log.forEach((e) => (e.mistakes || []).forEach((m) => { const t = (m.type || '').trim(); if (t) counts[t] = (counts[t] || 0) + 1; }));
+			const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 3);
+			if (top.length) { sumEl.innerHTML = '자주 틀리는 것: ' + top.map(([t, n]) => `<span class="mtag">${esc(t)} ${n}회</span>`).join(' '); sumEl.hidden = false; }
+			else sumEl.hidden = true;
+			// clean list: corrected sentence + its mistakes (no messy transcript)
 			listEl.innerHTML = '';
-			for (const e of recent) {
+			log.slice(0, 20).forEach((e) => {
 				const li = document.createElement('li');
 				li.className = 'log-item';
-				const said = (e.said || '').replace(/</g, '&lt;');
-				const better = (e.better || '').replace(/</g, '&lt;');
-				li.innerHTML = `<span class="log-date">${e.date}</span>` +
-					(said ? `<span class="log-said">🗣️ ${said}</span>` : '') +
-					(better ? `<span class="log-better">✏️ ${better}</span>` : '');
+				let html = `<span class="log-date">${esc(e.date)}</span>`;
+				if (e.corrected) html += `<span class="log-better">✅ ${esc(e.corrected)}</span>`;
+				(e.mistakes || []).forEach((m) => { html += `<span class="log-mistake">✏️ ${esc(m.error)} → <b>${esc(m.fix)}</b>${m.type ? ` <i>(${esc(m.type)})</i>` : ''}</span>`; });
+				li.innerHTML = html;
 				listEl.appendChild(li);
-			}
+			});
 			logEl.hidden = false;
 		}
+		function buildReview() {
+			const today = isoDay(new Date());
+			const log = loadLog();
+			const seen = new Set(), items = [];
+			for (const e of log) {
+				if (e.date === today) continue;
+				const c = (e.corrected || '').trim(), k = (e.ko || '').trim();
+				if (!c || !k || seen.has(c)) continue;
+				seen.add(c); items.push({ corrected: c, ko: k });
+				if (items.length >= 2) break;
+			}
+			if (!items.length) return;
+			const list = $('review-list');
+			items.forEach((it, i) => {
+				const id = `rv${i}`;
+				const card = document.createElement('div');
+				card.className = 'card ladder-card';
+				card.innerHTML = `<p class="lp-ko">${esc(it.ko)}</p>`
+					+ `<div class="ladder-actions"><button class="rec-btn rec-btn-sm" data-rec="${id}" type="button">🎤 영어로 말하기</button>`
+					+ `<button class="mini-btn" type="button" data-reveal="${id}">정답 보기</button></div>`
+					+ `<div class="ladder-fb" id="fb-${id}" hidden><p id="t-${id}"></p><p id="g-${id}"></p><p id="tip-${id}"></p></div>`;
+				list.appendChild(card);
+				targets[id] = {
+					buildPayload: () => ({ mode: 'translate', target: it.corrected, ko: it.ko }),
+					setLabel: (label) => { const b = btnFor(id); b.textContent = label; b.disabled = label.includes('듣는'); },
+					reset: () => { btnFor(id).textContent = '🎤 다시 말하기'; btnFor(id).disabled = false; },
+					onError: (msg) => { $(`t-${id}`).textContent = msg; $(`fb-${id}`).hidden = false; btnFor(id).textContent = '🎤 영어로 말하기'; btnFor(id).disabled = false; },
+					render: (d) => { $(`t-${id}`).textContent = d.transcript ? `🗣️ ${d.transcript}` : '(못 알아들었어요 — 다시 한 번!)'; $(`g-${id}`).textContent = d.good || ''; $(`tip-${id}`).textContent = d.corrected ? `✏️ ${d.corrected}` : ''; $(`fb-${id}`).hidden = false; },
+				};
+				wire(id);
+				card.querySelector(`[data-reveal="${id}"]`).addEventListener('click', () => { $(`t-${id}`).textContent = `✅ ${it.corrected}`; $(`fb-${id}`).hidden = false; });
+			});
+			$('review').hidden = false;
+		}
 		renderStreakAndLog();
+		buildReview();
 	</script>
 
 	<style>
@@ -419,7 +502,11 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 		.log-item { display: flex; flex-direction: column; gap: 2px; padding: 0.6rem 0; border-bottom: 1px solid var(--divider-color); }
 		.log-item:last-child { border-bottom: none; }
 		.log-date { font-size: 0.78rem; color: var(--text-muted); }
-		.log-said { color: var(--text-muted); font-style: italic; }
-		.log-better { color: var(--text-color); }
+		.log-better { color: var(--text-color); font-weight: 600; }
+		.log-mistake { font-size: 0.9rem; color: var(--text-muted); }
+		.log-mistake b { color: #2e7d32; font-weight: 700; }
+		.mistake-summary { font-size: 0.9rem; color: var(--text-muted); margin-bottom: 0.8rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--divider-color); }
+		.mtag { display: inline-block; background: #fff3e0; color: #e65100; border-radius: 999px; padding: 0.1rem 0.6rem; margin: 0 0.2rem; font-weight: 600; }
+		.fb-reshadow .fb-en { color: #2e7d32; font-weight: 600; }
 	</style>
 </BaseLayout>
