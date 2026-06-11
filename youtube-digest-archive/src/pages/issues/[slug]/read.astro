@@ -21,6 +21,10 @@ if (englishBody.includes('## 한국어')) {
 	englishBody = englishBody.split('## 한국어')[0];
 }
 
+// Reader mode is text-only (optimized for Chrome "Listen to this page"):
+// strip frame images and their italic captions so no photos appear here.
+englishBody = englishBody.replace(/!\[[^\]]*\]\([^)]*\)(\s*\n\s*\*[^\n]*\*)?/g, '');
+
 // Convert markdown to HTML on the server
 const rawHtml = marked.parse(englishBody);
 
@@ -147,6 +151,9 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			border-top: 2px solid #e0e0e0;
 			margin: 3rem 0;
 		}
+
+		/* Reader mode is text-only: never show frame images here */
+		article img { display: none; }
 
 		footer {
 			text-align: center;

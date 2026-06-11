@@ -358,6 +358,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 50px 0;
 }
 
+/* Article frame images — responsive, never cropped on mobile */
+.markdown-content img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1.8rem auto 0.4rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.14);
+}
+
 /* Read more link on index */
 .read-more {
   display: inline-block;
@@ -928,26 +938,42 @@ html {
 
 /* Primary speaking CTA */
 .speak-cta-container {
-  margin: 24px 0 8px;
+  margin: 22px 0 8px;
   text-align: center;
 }
 .speak-cta-btn {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 15px 28px;
-  background: linear-gradient(135deg, #ff5252, #e53935);
+  justify-content: center;
+  gap: 9px;
+  padding: 12px 22px;
+  background: linear-gradient(135deg, #ff5a5a, #e53935);
   color: #fff;
-  border-radius: 999px;
+  border-radius: 12px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15.5px;
   font-weight: 700;
+  line-height: 1.3;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  box-shadow: 0 4px 14px rgba(229, 57, 53, 0.35);
+  box-shadow: 0 3px 12px rgba(229, 57, 53, 0.3);
   transition: transform 0.1s, box-shadow 0.2s;
 }
 .speak-cta-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(229, 57, 53, 0.45);
+  box-shadow: 0 6px 18px rgba(229, 57, 53, 0.42);
 }
-.speak-cta-btn svg { flex-shrink: 0; }
+.speak-cta-btn svg { flex-shrink: 0; width: 18px; height: 18px; }
+
+/* Phones: compact, tidy single button instead of a chunky pill */
+@media (max-width: 600px) {
+  .speak-cta-container { margin: 18px 0 6px; }
+  .speak-cta-btn {
+    width: 100%;
+    max-width: 340px;
+    padding: 11px 16px;
+    font-size: 14px;
+    gap: 7px;
+    border-radius: 11px;
+  }
+  .speak-cta-btn svg { width: 16px; height: 16px; }
+}
