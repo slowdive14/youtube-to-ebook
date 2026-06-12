@@ -82,7 +82,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 
 		<!-- Production task -->
 		<section class="produce">
-			<h2 class="section-title">{lessons.length > 0 ? '2단계 · 내 문장 만들기' : '오늘의 과제'} <span class="section-sub">내 생각을 한 문장으로</span></h2>
+			<h2 class="section-title">{lessons.length > 0 ? '2단계 · 내 문장 만들기' : '오늘의 과제'} <span class="section-sub">{lessons.length > 0 ? '위 1단계 표현을 그대로 써서 한 문장으로' : '내 생각을 한 문장으로'}</span></h2>
 			<div class="card task">
 				<p class="task-q">{sp.question_ko}</p>
 				<div class="task-frame" aria-label="sentence frame">{sp.frame}</div>

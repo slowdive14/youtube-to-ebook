@@ -14,6 +14,7 @@ if sys.stdout.encoding != 'utf-8':
 import os
 import time
 import json
+import re
 from google import genai
 from google.genai import types
 from dotenv import load_dotenv
@@ -758,25 +759,32 @@ VARIETY IS THE TOP PRIORITY — the lesson must feel fresh, never formulaic:
   a comparison ("___ is better than ___"), a phrasal verb ("I ended up ___"),
   a past habit ("I used to ___"), a suggestion ("Why don't we ___?"),
   a wish ("I wish I could ___"), a reason ("That's why I ___").
-- BANNED frames — NEVER output these or close variants, they are overused:
-  "It's hard to ___", "It's easy to ___", "I feel like ___", "I love it when ___",
-  "I want to ___", "I need to ___", "I think ___", "I have to ___".
+- BANNED frames — NEVER output these or ANY close variant. This bans the whole
+  "It's <adjective> to ___" and "It's <adjective> for ___ to ___" mold in every
+  form (hard, easy, difficult, important, nice...):
+  "It's hard to ___", "It's hard for ___ to ___", "It's easy to ___",
+  "I feel like ___", "I love it when ___", "I want to ___", "I need to ___",
+  "I think ___", "I have to ___".
 - s1 and s2 share the same frame; keep both SHORT (<= 10 words), concrete.
 - DO NOT copy sentences verbatim from the article; no rare/technical words.
 
-Also give the day's overall production task:
-- "topic": short English topic label
-- "question_ko": a Korean question inviting a personal opinion about the topic
-- "frame": an English sentence frame with ___ blanks
-- "model": one natural English model answer (<= 20 words)
+Then give the day's PRODUCTION TASK — the payoff that REUSES the 2 patterns
+above, so the learner says their OWN sentence with the exact structures they
+just practiced. It MUST connect to the patterns (that is the whole point):
+- "topic": short English topic label.
+- "question_ko": a Korean question inviting the learner's own opinion or
+  experience, phrased so the natural answer uses the patterns.
+- "frame": ONE English sentence frame the learner completes, BUILT FROM the
+  patterns above — reuse their exact wording and ___ slots, weaving BOTH into
+  one connected answer when it reads naturally (otherwise build on one pattern
+  and echo the other). The learner must recognize the same structures.
+- "model": one natural model answer (<= 25 words) that visibly USES the
+  patterns — a finished, filled-in version of the frame.
 
 Return ONLY JSON. Every <...> below is an INSTRUCTION to fill with your OWN
-fresh content — it is NOT an example to copy:
+fresh content — it is NOT an example to copy. Create the patterns FIRST, then
+build the task FROM them:
 {{
-  "topic": "<short English topic label>",
-  "question_ko": "<Korean question inviting a one-sentence opinion>",
-  "frame": "<English sentence frame with ___ blanks>",
-  "model": "<one natural English model answer, <= 20 words>",
   "patterns": [
     {{
       "pattern": "<fresh everyday frame #1 with a ___ slot, obeying the rules>",
@@ -790,7 +798,11 @@ fresh content — it is NOT an example to copy:
       "s1": {{"en": "<model sentence using frame #2>", "ko": "<Korean>"}},
       "s2": {{"en": "<different sentence, same frame #2>", "ko": "<Korean>", "answer": "<slot filler>"}}
     }}
-  ]
+  ],
+  "topic": "<short English topic label>",
+  "question_ko": "<Korean question whose natural answer uses the patterns>",
+  "frame": "<English frame BUILT FROM the patterns above — reuse their wording and ___ slots>",
+  "model": "<natural model answer <= 25 words that uses the patterns>"
 }}
 
 ARTICLE TITLE: {article.get('title', '')}
@@ -879,6 +891,32 @@ def parse_speaking_prompt(text):
     }
 
 
+# Overused "frames" we never want as a daily pattern. The prompt also bans
+# these, but a theme-saturated article (e.g. one all about how *hard* something
+# is) can still pull the model back to them — so we validate and retry.
+_BANNED_PATTERN_RES = [
+    re.compile(r"^it'?s\s+\w+\s+(?:to|for)\b", re.I),   # It's hard to / It's difficult for
+    re.compile(r"^it\s+is\s+\w+\s+(?:to|for)\b", re.I),
+    re.compile(r"^i\s+feel\s+like\b", re.I),
+    re.compile(r"^i\s+want\s+to\b", re.I),
+    re.compile(r"^i\s+need\s+to\b", re.I),
+    re.compile(r"^i\s+have\s+to\b", re.I),
+    re.compile(r"^i\s+think\b", re.I),
+    re.compile(r"^i\s+love\s+it\s+when\b", re.I),
+]
+
+
+def _has_banned_pattern(sp):
+    """True if any generated pattern uses an overused/banned frame."""
+    if not sp:
+        return False
+    for p in (sp.get("patterns") or []):
+        text = (p.get("pattern") or "").strip()
+        if any(rx.search(text) for rx in _BANNED_PATTERN_RES):
+            return True
+    return False
+
+
 def generate_speaking_prompt(en_articles):
     """Generate the day's speaking task from the first English article.
 
@@ -907,7 +945,11 @@ def generate_speaking_prompt(en_articles):
                 )
             )
             _log_usage_metadata(response, label='Speaking-prompt')
-            return parse_speaking_prompt(response.text or "")
+            sp = parse_speaking_prompt(response.text or "")
+            if _has_banned_pattern(sp) and attempt < MAX_RETRIES - 1:
+                print("  [!] Speaking-prompt used a banned frame; regenerating...")
+                continue
+            return sp
         except Exception as e:
             error_str = str(e).lower()
             is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
