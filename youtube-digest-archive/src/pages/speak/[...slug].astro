@@ -32,10 +32,17 @@ const dateObj = new Date(issue.data.date);
 const formattedDate = dateObj.toLocaleDateString('en-US', {
 	year: 'numeric', month: 'long', day: 'numeric',
 });
+// The lesson's own calendar day (YYYY-MM-DD). Sentence-log entries are tagged
+// with THIS, so a sentence made for the 06-11 digest is filed under 06-11 —
+// not under "today". (Practice-day timing still uses the real calendar day.)
+const rawIssueDate = issue.data.date;
+const issueDay = (rawIssueDate instanceof Date)
+	? rawIssueDate.toISOString().slice(0, 10)
+	: String(rawIssueDate).slice(0, 10);
 ---
 
 <BaseLayout title={`오늘의 한 마디 - ${formattedDate}`}>
-	<div class="speak">
+	<div class="speak" data-issue-date={issueDay}>
 		<header class="speak-head">
 			<a href={`/issues/${issue.id}`} class="speak-back">&larr; Back to article</a>
 			<h1>오늘의 한 마디</h1>
@@ -367,6 +374,8 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			const y = d.getFullYear(), m = String(d.getMonth() + 1).padStart(2, '0'), day = String(d.getDate()).padStart(2, '0');
 			return `${y}-${m}-${day}`;
 		}
+		// Lesson date for this page (falls back to today if the attribute is missing).
+		const ISSUE_DAY = (document.querySelector('.speak') && document.querySelector('.speak').dataset.issueDate) || isoDay(new Date());
 		function computeStreak(dates, todayStr) {
 			const set = new Set(dates);
 			let d = new Date(todayStr + 'T00:00:00');
@@ -381,7 +390,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			if (corrected) {
 				try {
 					const log = loadLog();
-					log.unshift({ date: isoDay(new Date()), corrected, ko: (d.ko || '').trim(), mistakes: Array.isArray(d.mistakes) ? d.mistakes.slice(0, 3) : [] });
+					log.unshift({ date: isoDay(new Date()), issueDate: ISSUE_DAY, corrected, ko: (d.ko || '').trim(), mistakes: Array.isArray(d.mistakes) ? d.mistakes.slice(0, 3) : [] });
 					localStorage.setItem('speakLog', JSON.stringify(log.slice(0, 60)));
 				} catch (e) {}
 			}
@@ -406,7 +415,7 @@ const formattedDate = dateObj.toLocaleDateString('en-US', {
 			log.slice(0, 20).forEach((e) => {
 				const li = document.createElement('li');
 				li.className = 'log-item';
-				let html = `<span class="log-date">${esc(e.date)}</span>`;
+				let html = `<span class="log-date">${esc(e.issueDate || e.date)}</span>`;
 				if (e.corrected) html += `<span class="log-better">✅ ${esc(e.corrected)}</span>`;
 				(e.mistakes || []).forEach((m) => { html += `<span class="log-mistake">✏️ ${esc(m.error)} → <b>${esc(m.fix)}</b>${m.type ? ` <i>(${esc(m.type)})</i>` : ''}</span>`; });
 				li.innerHTML = html;
