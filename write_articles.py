@@ -741,18 +741,27 @@ def build_speaking_prompt_request(article):
 loosely inspired by the article below. The lesson teaches REUSABLE PATTERNS and
 ends with the learner producing their OWN sentence — not reciting fixed text.
 
-Build 2 PATTERNS. Each pattern is one reusable everyday structure (a "sentence
-frame" with a ___ slot) that the learner practices across connected steps:
-- "pattern": the reusable structure with a ___ slot, B1-B2, high-frequency in
-  daily life (e.g. "It's hard to ___", "I need to ___", "Let's ___ together").
-- "pattern_ko": short Korean gloss of the pattern.
-- "s1": a full model sentence USING that pattern (shadow step). {{en, ko}}
-- "s2": a DIFFERENT everyday sentence USING THE SAME pattern (fill step), plus
-  "answer" = the word/short phrase that fills the pattern's ___ slot in s2.
-  {{en, ko, answer}}
-Rules for pattern sentences:
-- SHORT (<= 10 words), concrete, conversational — things a learner really says.
-- s1 and s2 MUST share the same pattern so they clearly connect.
+Build 2 PATTERNS. Each pattern is one reusable everyday sentence frame (with a
+___ slot) that a learner truly uses in conversation — B1-B2, high-frequency,
+never technical. For each pattern give:
+- "pattern": the frame with a ___ slot.
+- "pattern_ko": short Korean gloss of the frame.
+- "s1": a full model sentence using that frame (shadow step). {{en, ko}}
+- "s2": a DIFFERENT everyday sentence using THE SAME frame (fill step), plus
+  "answer" = the word/short phrase that fills the ___ slot in s2. {{en, ko, answer}}
+
+VARIETY IS THE TOP PRIORITY — the lesson must feel fresh, never formulaic:
+- Pick frames that fit TODAY's article theme/situation, so they change as the
+  topic changes, while staying everyday and natural.
+- The 2 patterns MUST use DIFFERENT grammatical shapes. Do NOT make both the
+  same mold. Mix across types, e.g.: a time clause ("Whenever ___, I ___"),
+  a comparison ("___ is better than ___"), a phrasal verb ("I ended up ___"),
+  a past habit ("I used to ___"), a suggestion ("Why don't we ___?"),
+  a wish ("I wish I could ___"), a reason ("That's why I ___").
+- BANNED frames — NEVER output these or close variants, they are overused:
+  "It's hard to ___", "It's easy to ___", "I feel like ___", "I love it when ___",
+  "I want to ___", "I need to ___", "I think ___", "I have to ___".
+- s1 and s2 share the same frame; keep both SHORT (<= 10 words), concrete.
 - DO NOT copy sentences verbatim from the article; no rare/technical words.
 
 Also give the day's overall production task:
@@ -761,7 +770,8 @@ Also give the day's overall production task:
 - "frame": an English sentence frame with ___ blanks
 - "model": one natural English model answer (<= 20 words)
 
-Return ONLY JSON, no markdown, no code fences:
+Return ONLY JSON. Every <...> below is an INSTRUCTION to fill with your OWN
+fresh content — it is NOT an example to copy:
 {{
   "topic": "<short English topic label>",
   "question_ko": "<Korean question inviting a one-sentence opinion>",
@@ -769,10 +779,16 @@ Return ONLY JSON, no markdown, no code fences:
   "model": "<one natural English model answer, <= 20 words>",
   "patterns": [
     {{
-      "pattern": "It's hard to ___",
-      "pattern_ko": "~하기 어렵다",
-      "s1": {{"en": "It's hard to trust someone you just met.", "ko": "방금 만난 사람을 믿기는 어려워."}},
-      "s2": {{"en": "It's hard to focus when you're tired.", "ko": "피곤할 때 집중하기 어려워.", "answer": "focus"}}
+      "pattern": "<fresh everyday frame #1 with a ___ slot, obeying the rules>",
+      "pattern_ko": "<Korean gloss>",
+      "s1": {{"en": "<model sentence using frame #1>", "ko": "<Korean>"}},
+      "s2": {{"en": "<different sentence, same frame #1>", "ko": "<Korean>", "answer": "<slot filler>"}}
+    }},
+    {{
+      "pattern": "<fresh frame #2 — a DIFFERENT grammatical shape from #1>",
+      "pattern_ko": "<Korean gloss>",
+      "s1": {{"en": "<model sentence using frame #2>", "ko": "<Korean>"}},
+      "s2": {{"en": "<different sentence, same frame #2>", "ko": "<Korean>", "answer": "<slot filler>"}}
     }}
   ]
 }}
@@ -884,8 +900,9 @@ def generate_speaking_prompt(en_articles):
                 model='gemini-2.5-flash',
                 contents=prompt,
                 config=types.GenerateContentConfig(
-                    max_output_tokens=1200,
-                    temperature=0.5,
+                    max_output_tokens=1500,
+                    temperature=0.85,
+                    response_mime_type='application/json',
                     thinking_config=types.ThinkingConfig(thinking_budget=0),
                 )
             )
