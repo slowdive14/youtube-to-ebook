@@ -768,18 +768,20 @@ VARIETY IS THE TOP PRIORITY — the lesson must feel fresh, never formulaic:
 - s1 and s2 share the same frame; keep both SHORT (<= 10 words), concrete.
 - DO NOT copy sentences verbatim from the article; no rare/technical words.
 
-Then give the day's PRODUCTION TASK — the payoff that REUSES the 2 patterns
-above, so the learner says their OWN sentence with the exact structures they
-just practiced. It MUST connect to the patterns (that is the whole point):
+Then give the day's PRODUCTION TASK — the EASY payoff: the learner says ONE
+simple sentence about THEIR OWN life by reusing ONE of the patterns above.
+Target B1 level (the learner is building toward B1-B2) — short, concrete, one
+idea, easy to say out loud. This is the goal, so it must NOT feel hard:
 - "topic": short English topic label.
-- "question_ko": a Korean question inviting the learner's own opinion or
-  experience, phrased so the natural answer uses the patterns.
-- "frame": ONE English sentence frame the learner completes, BUILT FROM the
-  patterns above — reuse their exact wording and ___ slots, weaving BOTH into
-  one connected answer when it reads naturally (otherwise build on one pattern
-  and echo the other). The learner must recognize the same structures.
-- "model": one natural model answer (<= 25 words) that visibly USES the
-  patterns — a finished, filled-in version of the frame.
+- "question_ko": a CONCRETE, personal question answerable in ONE short
+  sentence about the learner's own daily life or experience. NOT hypothetical,
+  NOT abstract — something they can answer immediately.
+- "frame": take ONE of the two patterns above (whichever is easiest to use
+  about oneself) and present it as the answer frame with exactly ONE ___ blank
+  for the learner to fill. If that pattern has two slots, fill one in yourself
+  and leave only one blank. Keep it SHORT — one clause, <= 8 words. Do NOT
+  combine both patterns and do NOT add extra clauses.
+- "model": one short, simple B1 model answer (<= 12 words) that fills the frame.
 
 Return ONLY JSON. Every <...> below is an INSTRUCTION to fill with your OWN
 fresh content — it is NOT an example to copy. Create the patterns FIRST, then
@@ -800,9 +802,9 @@ build the task FROM them:
     }}
   ],
   "topic": "<short English topic label>",
-  "question_ko": "<Korean question whose natural answer uses the patterns>",
-  "frame": "<English frame BUILT FROM the patterns above — reuse their wording and ___ slots>",
-  "model": "<natural model answer <= 25 words that uses the patterns>"
+  "question_ko": "<concrete personal question, answerable in one short sentence>",
+  "frame": "<ONE pattern from above with a single ___ blank, one clause, <= 8 words>",
+  "model": "<short simple B1 model answer, <= 12 words>"
 }}
 
 ARTICLE TITLE: {article.get('title', '')}
