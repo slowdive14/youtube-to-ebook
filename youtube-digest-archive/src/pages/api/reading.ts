@@ -27,7 +27,7 @@ const CORS = {
 const issueDay = (date: string | Date): string =>
 	date instanceof Date ? date.toISOString().slice(0, 10) : String(date).slice(0, 10);
 
-export const GET: APIRoute = async ({ url }) => {
+export const GET: APIRoute = async ({ url, site }) => {
 	const issues = await getCollection('issues');
 	if (issues.length === 0) {
 		return new Response(JSON.stringify({ error: 'no issues' }), { status: 404, headers: CORS });
@@ -50,7 +50,9 @@ export const GET: APIRoute = async ({ url }) => {
 		JSON.stringify({
 			date: issueDay(newest.data.date),
 			issue: newest.id,
-			issueUrl: new URL(`/issues/${newest.id}`, url.origin).href,
+			// `site` (astro.config) not url.origin — on Vercel the SSR request
+			// URL resolves to localhost.
+			issueUrl: new URL(`/issues/${newest.id}`, site ?? url.origin).href,
 			articles,
 		}),
 		{ headers: CORS }

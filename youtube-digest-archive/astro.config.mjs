@@ -5,6 +5,9 @@ import rehypeCollapsibleSections from './src/plugins/rehype-collapsible-sections
 
 // https://astro.build/config
 export default defineConfig({
+  // Public origin. On Vercel the SSR request URL resolves to localhost, so
+  // anything building an absolute link (e.g. /api/reading) must use this.
+  site: 'https://youtube-to-ebook-seven.vercel.app',
   output: 'static',
   adapter: vercel(),
   markdown: {
