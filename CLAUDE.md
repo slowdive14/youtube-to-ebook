@@ -82,6 +82,12 @@ An issue is 6 episodes × 2 languages, so the full text is far too long to scrol
 - Article titles (H1) and the language dividers are never collapsed; `extract_section_headings` drops them so no stray marker can render.
 - The issue page has an `전체 펼치기/접기` toggle, and TOC/hash navigation auto-opens the target section.
 
+### Read-Aloud Feed for Velora (`/api/reading`)
+Velora (`C:\Users\user\Downloads\velora`, a separate repo) has a 낭독 screen whose material was manually pasted. This endpoint feeds it the newest issue automatically.
+- Serves the newest issue's episodes as **per-episode summaries** (~130-180 words, 1-2 min each), not full articles — a 3,000-word article is a 25-minute read-aloud nobody sustains daily. Velora lists all ~6 and the learner picks one.
+- **Runtime route** (`prerender = false`), not a prerendered `.json`: Velora is a different origin and needs `Access-Control-Allow-Origin`, which a static file can't carry — the Vercel adapter's Build Output config ignores `vercel.json` headers.
+- Reads `articles[].summary` from frontmatter, so `summary` had to be added to the `content.config.ts` schema (Zod strips unknown keys — it was in the markdown but invisible to the site).
+
 ### Podcast Audio (generate_podcast.py) — currently OFF
 - ⚠️ Audio is **disabled**: `main.py` skips generation unless `ENABLE_PODCAST=true`, and `src/config.ts` `FEATURES.audio` hides the player + "Audio Available" badge. No code was removed — flip both to restore.
 - `run_daily.bat` reads the same `ENABLE_PODCAST` from `.env` and skips its **NotebookLM auth pre-flight** when off. That pre-flight is the one that hangs a scheduled run forever: `nlm login` opens Chrome and blocks on a human. Gating `main.py` alone is not enough — the launcher runs before it. `FEATURES.readerMode` likewise hides the `/read` page's link (the page itself still builds).

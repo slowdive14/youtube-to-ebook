@@ -13,6 +13,9 @@ const issues = defineCollection({
                 title: z.string(),
                 channel: z.string(),
                 url: z.string(),
+                // Per-episode summary — also served as read-aloud material
+                // to Velora via /api/reading.
+                summary: z.string().optional().default(''),
             })
         ).optional(),
         speakingPrompt: z.object({
