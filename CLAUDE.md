@@ -83,7 +83,8 @@ An issue is 6 episodes × 2 languages, so the full text is far too long to scrol
 - The issue page has an `전체 펼치기/접기` toggle, and TOC/hash navigation auto-opens the target section.
 
 ### Podcast Audio (generate_podcast.py) — currently OFF
-- ⚠️ Audio is **disabled**: `main.py` skips generation unless `ENABLE_PODCAST=true`, and `src/config.ts` `FEATURES.audio` hides the player + "Audio Available" badge. No code was removed — flip both to restore. `FEATURES.readerMode` likewise hides the `/read` page's link (the page itself still builds).
+- ⚠️ Audio is **disabled**: `main.py` skips generation unless `ENABLE_PODCAST=true`, and `src/config.ts` `FEATURES.audio` hides the player + "Audio Available" badge. No code was removed — flip both to restore.
+- `run_daily.bat` reads the same `ENABLE_PODCAST` from `.env` and skips its **NotebookLM auth pre-flight** when off. That pre-flight is the one that hangs a scheduled run forever: `nlm login` opens Chrome and blocks on a human. Gating `main.py` alone is not enough — the launcher runs before it. `FEATURES.readerMode` likewise hides the `/read` page's link (the page itself still builds).
 - NotebookLM generates the newsletter audio. To avoid episodes blending together, articles are split into **per-episode groups** (`generate_podcasts_grouped`) — one podcast per group — instead of one bundled podcast.
 - NotebookLM **free plan caps Audio Overviews at 3/day**, so the digest is split into at most `NOTEBOOKLM_DAILY_AUDIO_LIMIT` (default 3) groups; with more videos than the cap, the earliest groups bundle the extras. Each group's podcast becomes a separate "Part N" player on the archive site (the pipeline already supports a list of `audioUrls`).
 - Per-group length defaults to `NOTEBOOKLM_GROUP_LENGTH=default` (~10 min); a few groups still add up to a substantial total.
