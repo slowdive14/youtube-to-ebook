@@ -2,6 +2,7 @@
 // src/pages/issues/[...slug].astro
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { FEATURES } from '../../config';
 
 export async function getStaticPaths() {
 	const issues = await getCollection('issues');
@@ -54,7 +55,7 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			<div class="date">{formattedDate}</div>
 		</header>
 
-		{issue.data.audioUrls && issue.data.audioUrls.length > 0 && (
+		{FEATURES.audio && issue.data.audioUrls && issue.data.audioUrls.length > 0 && (
 			<div class="audio-player-container">
 				<h3 class="audio-header">
 					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
@@ -89,10 +90,17 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 			</div>
 		)}
 
-		<div class="reader-mode-link" style="text-align: center; margin: 1.5rem 0; padding: 0.8rem; background: #f0f7ff; border-radius: 8px; border: 1px solid #d0e3f7;">
-			<a href={`/issues/${issue.id}/read`} style="color: #1a73e8; text-decoration: none; font-family: system-ui, sans-serif; font-size: 0.95rem;">
-				📖 Reader Mode — Chrome "Listen to this page" 지원
-			</a>
+		{FEATURES.readerMode && (
+			<div class="reader-mode-link" style="text-align: center; margin: 1.5rem 0; padding: 0.8rem; background: #f0f7ff; border-radius: 8px; border: 1px solid #d0e3f7;">
+				<a href={`/issues/${issue.id}/read`} style="color: #1a73e8; text-decoration: none; font-family: system-ui, sans-serif; font-size: 0.95rem;">
+					📖 Reader Mode — Chrome "Listen to this page" 지원
+				</a>
+			</div>
+		)}
+
+		<div class="expand-all-bar">
+			<span class="expand-all-hint">각 문단은 요약만 보입니다. 눌러서 전문 보기</span>
+			<button id="expand-all" class="expand-all-btn" aria-pressed="false">전체 펼치기</button>
 		</div>
 
 		<section class="markdown-content" itemprop="articleBody">
@@ -126,6 +134,52 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 				localStorage.setItem(STORAGE_KEY, JSON.stringify([...readSet]));
 			} catch {}
 		}
+	});
+</script>
+
+<script>
+	// === Summary-first reading controls ===
+	document.addEventListener('DOMContentLoaded', () => {
+		const content = document.querySelector('.markdown-content');
+		const btn = document.getElementById('expand-all');
+		if (!content) return;
+
+		const sections = () => Array.from(content.querySelectorAll('details.sec'));
+
+		if (!sections().length) {
+			const bar = document.querySelector('.expand-all-bar');
+			if (bar) bar.hidden = true;
+			return;
+		}
+
+		if (btn) {
+			btn.addEventListener('click', () => {
+				const expand = btn.getAttribute('aria-pressed') !== 'true';
+				sections().forEach(s => { s.open = expand; });
+				btn.setAttribute('aria-pressed', String(expand));
+				btn.textContent = expand ? '전체 접기' : '전체 펼치기';
+			});
+		}
+
+		// Jumping to a heading (TOC, hash link) opens that section — otherwise
+		// you land on a heading whose text is still hidden.
+		function openSectionAfter(heading) {
+			if (!heading) return;
+			const next = heading.nextElementSibling;
+			if (next && next.matches('details.sec')) next.open = true;
+		}
+
+		document.addEventListener('click', (e) => {
+			const link = e.target.closest('a[href^="#"], a.mtoc-link, #toc-list a');
+			if (!link) return;
+			const id = link.dataset.headingId || link.dataset.target ||
+				decodeURIComponent((link.getAttribute('href') || '').slice(1));
+			if (id) openSectionAfter(document.getElementById(id));
+		});
+
+		window.addEventListener('hashchange', () => {
+			openSectionAfter(document.getElementById(decodeURIComponent(location.hash.slice(1))));
+		});
 	});
 </script>
 

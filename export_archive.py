@@ -218,12 +218,15 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
 def _render_article_body(article, summary_label, global_frame_map=None):
     """Build one article's markdown body: headings -> summary -> frames.
 
-    Frame handling keeps the canonical ``article['article']`` clean of
-    ``[[FRAME:..]]`` markers (so audio/email never read them):
-      - If the article carries ``frame_moments`` + ``frame_map``, markers are
-        injected here (from anchors) and immediately swapped for images.
+    Both section-summary and frame markers are injected *here* rather than in
+    the canonical ``article['article']`` text, so audio/email never read them:
+      - If the article carries ``frame_moments`` + ``frame_map``, frame markers
+        are injected here (from anchors) and immediately swapped for images.
       - Otherwise we fall back to ``global_frame_map`` and embed any markers
         already present in the text (covers the simple/global test path).
+      - ``[[SUM]]`` lines then go in last, directly under each heading, where
+        the archive site turns them into the click-to-expand summary. Last so
+        that no frame anchor can ever match inside a summary line.
     """
     md = _normalize_article_headings(article["article"], fallback_title=article["title"])
     md = _inject_summary_after_h1(md, article.get("summary", ""), label=summary_label)
@@ -235,6 +238,11 @@ def _render_article_body(article, summary_label, global_frame_map=None):
         from write_articles import inject_frame_markers
         md = inject_frame_markers(md, moments)
     md = embed_frames(md, fmap)
+
+    section_summaries = article.get("section_summaries")
+    if section_summaries:
+        from write_articles import inject_section_summaries
+        md = inject_section_summaries(md, section_summaries)
     return md
 
 

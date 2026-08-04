@@ -410,6 +410,221 @@ def _call_summary_api(prompt, max_output_tokens):
     return (None, '')
 
 
+# ---------- Per-section summaries (collapsible reading on the archive site) ----------
+
+_SEC_FENCE_RE = re.compile(r'(```[\s\S]*?```)')
+_SEC_HEADING_RE = re.compile(r'^(#{1,6})\s+(.+?)\s*$', re.MULTILINE)
+
+# Headings that must never get a summary line: language dividers and the
+# episode summary (which is itself the article-level summary).
+_SEC_SKIP_HEADINGS = {'english', '한국어', 'episode summary', '에피소드 요약'}
+
+SECTION_SUMMARY_MARKER = '[[SUM]]'
+
+
+def _norm_heading(text):
+    """Lowercased, punctuation-light heading key for matching model output."""
+    t = re.sub(r'[*_`]', '', text or '').strip()
+    t = re.sub(r'\s+', ' ', t)
+    return t.lower().rstrip(':.').strip()
+
+
+def extract_section_headings(article_md):
+    """Return the article's section heading texts, in document order.
+
+    Skips fenced code blocks, the language/summary headings the archive site
+    keeps permanently expanded, and the article's own title — which becomes
+    the H1 and is never collapsed, so a summary line under it would render as
+    a stray marker.
+
+    The title is identified as the first heading *after* the skip-list rather
+    than by level, because this runs both on raw Gemini output (where the
+    title may still be an H2) and on exported issue segments (where the title
+    is preceded by a "## English" / "## 한국어" divider).
+    """
+    if not article_md:
+        return []
+    plain = ''.join(
+        part for i, part in enumerate(_SEC_FENCE_RE.split(article_md)) if i % 2 == 0
+    )
+    headings = [
+        h for m in _SEC_HEADING_RE.finditer(plain)
+        for h in [m.group(2).strip()]
+        if _norm_heading(h) not in _SEC_SKIP_HEADINGS
+    ]
+    return headings[1:]  # headings[0] is the article title
+
+
+def generate_section_summaries(article_md, language='en', is_first=True):
+    """Summarize every section of a finished article in one Gemini call.
+
+    Returns {heading_text: summary} — the map the archive site turns into a
+    click-to-expand line under each heading. Empty dict on any failure, which
+    simply means the site falls back to the section's opening sentence.
+
+    The contract that matters: reading the summaries top-to-bottom must convey
+    the whole article, so each one carries the section's actual substance
+    rather than describing what the section is "about".
+    """
+    headings = extract_section_headings(article_md)
+    if not headings:
+        return {}
+
+    heading_list = "\n".join(f"- {h}" for h in headings)
+
+    if language == 'ko':
+        prompt = f"""아래 기사의 각 섹션을 한 줄 요약하세요.
+
+[기사]
+{article_md}
+
+[요약할 섹션 제목 — 이 목록에 있는 것만, 제목은 글자 그대로 복사]
+{heading_list}
+
+---
+
+가장 중요한 규칙: 독자가 **요약문만 순서대로 읽어도 기사 전체 내용을 명확히 파악**할 수 있어야 합니다.
+그러려면 각 요약은 그 섹션이 "무엇에 관한 것인지" 설명하는 게 아니라, 그 섹션이 **실제로 말하는 결론·주장·수치**를 담아야 합니다.
+
+나쁜 예: "이 섹션에서는 장내 미생물에 대해 설명한다." (아무 정보가 없음)
+좋은 예: "장에는 수조 개의 미생물이 '작은 약국'처럼 화학물질을 만들며, 건강한 장은 나쁜 균이 없는 상태가 아니라 다양성이 높은 상태다."
+
+규칙:
+- 각 요약은 1~2문장, 공백 포함 100자 이내
+- "이 섹션은…", "저자는…" 같은 도입부 금지. 내용부터 바로 서술
+- 구체적인 숫자·인명·용어는 반드시 살릴 것
+- 앞 요약과 자연스럽게 이어지도록 (전체가 하나의 압축된 기사처럼)
+- 반드시 한국어
+
+JSON 으로만 답하세요:
+{{"summaries": [{{"heading": "<섹션 제목 그대로>", "summary": "<요약>"}}]}}"""
+    else:
+        prompt = f"""Summarize each section of the article below in one line.
+
+[ARTICLE]
+{article_md}
+
+[SECTIONS TO SUMMARIZE — only these, copy each heading verbatim]
+{heading_list}
+
+---
+
+The rule that matters most: a reader who reads **only your summaries, in order,
+must clearly grasp the entire article**. So each summary must carry what the
+section actually *says* — its claim, number, name, or conclusion — not a
+description of what the section is "about".
+
+BAD:  "This section discusses the gut microbiome." (conveys nothing)
+GOOD: "The gut hosts trillions of microbes acting as 'mini pharmacies'; a healthy
+gut is defined by diversity, not by the absence of bad bugs."
+
+Rules:
+- 1-2 sentences, 35 words max
+- No "This section...", "The author explains..." — state the content directly
+- Keep the specific numbers, names, and terms
+- Make each summary flow from the previous one, so the set reads as one compressed article
+- Same language as the article
+
+Reply with JSON only:
+{{"summaries": [{{"heading": "<heading verbatim>", "summary": "<summary>"}}]}}"""
+
+    if not is_first:
+        time.sleep(min(REQUEST_DELAY, 8))
+
+    retry_wait = 5
+    for attempt in range(MAX_RETRIES):
+        try:
+            if attempt > 0:
+                time.sleep(retry_wait)
+
+            response = client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    max_output_tokens=3000,
+                    temperature=0.4,
+                    response_mime_type='application/json',
+                    thinking_config=types.ThinkingConfig(thinking_budget=0),
+                )
+            )
+            _log_usage_metadata(response, label='Section-summaries')
+            return parse_section_summaries(response.text or "", headings)
+
+        except Exception as e:
+            error_str = str(e).lower()
+            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            if is_transient and attempt < MAX_RETRIES - 1:
+                print(f"  [!] Section-summary API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
+                retry_wait *= 2
+                continue
+            print(f"  [!] Failed to generate section summaries: {e}")
+            return {}
+
+    return {}
+
+
+def parse_section_summaries(text, headings):
+    """Parse the model's JSON into {original_heading: summary}.
+
+    Matches on a normalized heading key so the model reformatting a heading
+    (case, trailing colon, stray emphasis) doesn't drop the summary.
+    """
+    if not text or not text.strip():
+        return {}
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError:
+        salvaged = _salvage_truncated_json(text)
+        if not isinstance(salvaged, (dict, list)):
+            return {}
+        data = salvaged
+
+    items = data.get('summaries') if isinstance(data, dict) else data
+    if not isinstance(items, list):
+        return {}
+
+    by_key = {_norm_heading(h): h for h in headings}
+    out = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        original = by_key.get(_norm_heading(item.get('heading', '')))
+        summary = (item.get('summary') or '').strip()
+        if original and summary:
+            out[original] = summary
+    return out
+
+
+def inject_section_summaries(article_md, summaries):
+    """Insert ``[[SUM]] <summary>`` right after each matching heading.
+
+    Kept out of the canonical ``article['article']`` text — email and audio
+    read that, and must never see markers. ``export_archive`` calls this when
+    it renders the archive copy.
+    """
+    if not article_md or not summaries:
+        return article_md
+
+    by_key = {_norm_heading(h): s for h, s in summaries.items()}
+    out = []
+    in_fence = False
+    for line in article_md.split('\n'):
+        out.append(line)
+        if line.lstrip().startswith('```'):
+            in_fence = not in_fence
+            continue
+        if in_fence:
+            continue
+        m = _SEC_HEADING_RE.match(line)
+        if not m:
+            continue
+        summary = by_key.get(_norm_heading(m.group(2)))
+        if summary:
+            out.append('')
+            out.append(f'{SECTION_SUMMARY_MARKER} {summary}')
+    return '\n'.join(out)
+
+
 def write_articles_for_videos(videos, language='en', detailed=False):
     """
     Generate articles for all videos with transcripts.
@@ -437,12 +652,24 @@ def write_articles_for_videos(videos, language='en', detailed=False):
             else:
                 print(f"  [!] Summary unavailable (non-fatal)")
 
+            # Per-section summaries so the archive site can show a skimmable
+            # summary line per section and hide the full text behind a click
+            print(f"  [.] Generating section summaries...")
+            section_summaries = generate_section_summaries(
+                article, language=language, is_first=False
+            )
+            if section_summaries:
+                print(f"  [OK] {len(section_summaries)} section summaries ready")
+            else:
+                print(f"  [!] Section summaries unavailable (non-fatal)")
+
             articles.append({
                 "title": video["title"],
                 "channel": video["channel"],
                 "url": video["url"],
                 "article": article,
-                "summary": summary or ""
+                "summary": summary or "",
+                "section_summaries": section_summaries,
             })
             print(f"  [OK] Article generated!")
         else:

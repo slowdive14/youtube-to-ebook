@@ -73,7 +73,17 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - `max_output_tokens` set to 8000 for comprehensive bilingual summaries.
 - 15-second delay between API calls with retry logic.
 
-### Podcast Audio (generate_podcast.py)
+### Summary-First Reading (archive site)
+An issue is 6 episodes × 2 languages, so the full text is far too long to scroll. Every section therefore shows **only a one-line summary**; clicking it opens the full text. Reading the summary lines top-to-bottom is meant to convey the whole issue — that's the contract the generation prompt is written against.
+- **Generation**: `write_articles.generate_section_summaries(article_md, language)` — one Gemini call per article returning `{heading: summary}`. Stored on `article['section_summaries']`.
+- **Markers**: `export_archive._render_article_body` calls `inject_section_summaries()` **last** (after frame embedding, so no frame anchor can match inside a summary line), writing `[[SUM]] …` under each heading. The canonical `article['article']` stays marker-free so email/audio never read markers — same rule as `[[FRAME:…]]`.
+- **Rendering**: `src/plugins/rehype-collapsible-sections.mjs` (wired in `astro.config.mjs`) turns heading + `[[SUM]]` + body into `heading` + `<details class="sec">`. Headings stay **outside** the `<details>` — the TOC, scroll-spy IntersectionObserver, and English/한국어 wrapper all walk them and need them visible and direct children.
+- **No marker?** Older issues fall back to promoting the section's first paragraph. Fill them in with `py scripts/backfill_section_summaries.py [--limit N]` (resumable, skips files that already have markers).
+- Article titles (H1) and the language dividers are never collapsed; `extract_section_headings` drops them so no stray marker can render.
+- The issue page has an `전체 펼치기/접기` toggle, and TOC/hash navigation auto-opens the target section.
+
+### Podcast Audio (generate_podcast.py) — currently OFF
+- ⚠️ Audio is **disabled**: `main.py` skips generation unless `ENABLE_PODCAST=true`, and `src/config.ts` `FEATURES.audio` hides the player + "Audio Available" badge. No code was removed — flip both to restore. `FEATURES.readerMode` likewise hides the `/read` page's link (the page itself still builds).
 - NotebookLM generates the newsletter audio. To avoid episodes blending together, articles are split into **per-episode groups** (`generate_podcasts_grouped`) — one podcast per group — instead of one bundled podcast.
 - NotebookLM **free plan caps Audio Overviews at 3/day**, so the digest is split into at most `NOTEBOOKLM_DAILY_AUDIO_LIMIT` (default 3) groups; with more videos than the cap, the earliest groups bundle the extras. Each group's podcast becomes a separate "Part N" player on the archive site (the pipeline already supports a list of `audioUrls`).
 - Per-group length defaults to `NOTEBOOKLM_GROUP_LENGTH=default` (~10 min); a few groups still add up to a substantial total.

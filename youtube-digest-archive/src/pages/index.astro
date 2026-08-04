@@ -2,6 +2,7 @@
 // src/pages/index.astro
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { FEATURES } from '../config';
 
 // Get and sort issues by date descending
 const rawIssues = await getCollection('issues');
@@ -15,7 +16,7 @@ const issues = rawIssues.sort((a, b) => {
 <BaseLayout title="YouTube Digest - Archive">
 	<div class="archive-intro" style="text-align: center; margin-bottom: 50px;">
 		<p style="font-size: 20px; color: var(--text-muted); font-style: italic;">
-			Catch up on past issues of the YouTube Digest newsletter, complete with AI-generated audio narration.
+			Catch up on past issues of the YouTube Digest newsletter.
 		</p>
 	</div>
 
@@ -35,7 +36,7 @@ const issues = rawIssues.sort((a, b) => {
 					day: 'numeric'
 				});
 
-				const hasAudio = issue.data.audioUrls && issue.data.audioUrls.length > 0;
+				const hasAudio = FEATURES.audio && issue.data.audioUrls && issue.data.audioUrls.length > 0;
 				const articleCount = issue.data.articles ? issue.data.articles.length : 0;
 
 				return (

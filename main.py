@@ -196,17 +196,25 @@ def run(video_url=None):
             print("\n[STEP 3a2] Frame capture disabled (set ENABLE_FRAME_CAPTURE=true to enable)")
 
         # Step 3b: Generate Audio for Newsletter
-        print("\n[STEP 3b] Generating Audio...")
+        # Off by default — the digest is read, not listened to. The whole
+        # NotebookLM/Azure path below is preserved; set ENABLE_PODCAST=true
+        # in .env to bring it back.
+        audio_enabled = os.getenv("ENABLE_PODCAST", "false").lower() == "true"
+        if audio_enabled:
+            print("\n[STEP 3b] Generating Audio...")
+        else:
+            print("\n[STEP 3b] Audio disabled (set ENABLE_PODCAST=true to enable)")
 
         import shutil
         audio_paths_en = []
         audio_paths_ko = []
         audio_dir = PROJECT_DIR / "audio"
-        audio_dir.mkdir(exist_ok=True)
+        if audio_enabled:
+            audio_dir.mkdir(exist_ok=True)
 
         # Method 1: NotebookLM Podcast (preferred — conversational style)
         nlm_path = shutil.which("nlm") or str(Path(sys.executable).parent / "Scripts" / "nlm.exe")
-        if os.path.exists(nlm_path) and english_articles:
+        if audio_enabled and os.path.exists(nlm_path) and english_articles:
             # Re-authenticate NotebookLM before audio generation
             # (tokens may have expired during the long article-generation phase)
             print("  [Auth] Refreshing NotebookLM credentials...")
@@ -237,7 +245,7 @@ def run(video_url=None):
         # Method 2: Azure TTS fallback (plain narration style)
         CHAR_LIMIT = 5000   # ~7min at 0.8x speed, safely under Azure TTS 10-min (600s) timeout
 
-        if not audio_paths_en and os.getenv("AZURE_SPEECH_KEY") and os.getenv("AZURE_SPEECH_REGION"):
+        if audio_enabled and not audio_paths_en and os.getenv("AZURE_SPEECH_KEY") and os.getenv("AZURE_SPEECH_REGION"):
             print("  [TTS] Falling back to Azure TTS...")
             from generate_audio import generate_audio
 
@@ -358,7 +366,7 @@ def run(video_url=None):
             #     print(f"  Processing Korean Audio ({len(korean_articles)} articles)...")
             #     audio_paths_ko = generate_audio_chunks(korean_articles, 'ko', 'KO')
 
-        else:
+        elif audio_enabled:
             print("  Skipping Audio: AZURE_SPEECH_KEY or AZURE_SPEECH_REGION not found.")
 
         # Step 4: Send both newsletters via email (DISABLED)
