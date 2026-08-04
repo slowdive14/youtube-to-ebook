@@ -314,6 +314,8 @@ def _vision_pick(client, caption, candidate_paths):
                 thinking_config=types.ThinkingConfig(thinking_budget=0),
             ),
         )
+        from write_articles import _log_usage_metadata
+        _log_usage_metadata(resp, label='Vision-pick')
         return parse_vision_choice(resp.text or "", len(candidate_paths))
     except Exception as e:
         print(f"  [!] Vision pick failed: {e}")

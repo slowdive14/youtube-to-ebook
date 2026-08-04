@@ -228,6 +228,7 @@ TRANSCRIPT:
                     temperature=0.7,
                 )
             )
+            _log_usage_metadata(response, label='Article')
             return response.text
 
         except Exception as e:
