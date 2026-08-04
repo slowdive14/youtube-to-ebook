@@ -45,8 +45,23 @@ class TestBuildRequest:
         p = build_speaking_prompt_request(SAMPLE_ARTICLE)
         # patterns must connect s1 and s2 via the SAME structure
         assert "s1" in p and "s2" in p
-        assert "same pattern" in p.lower()
+        assert "same frame" in p.lower()
         assert "answer" in p.lower()  # the fill slot
+
+    def test_demands_two_differently_shaped_patterns(self):
+        # Guards the fix for every issue coming out with the same "It's hard
+        # to ___" mold: the two patterns must differ, and the tired frames
+        # are banned by name.
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE)
+        assert "different grammatical shapes" in p.lower()
+        assert "it's hard to ___" in p.lower()
+
+    def test_stage_2_reuses_one_pattern_with_a_single_blank(self):
+        # Stage 2 is the payoff, so it must stay B1: one pattern, one blank.
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE)
+        low = p.lower()
+        assert "one of the patterns above" in low
+        assert "single ___ blank" in low or "exactly one ___ blank" in low
 
     def test_requests_practical_shadow_sentences(self):
         p = build_speaking_prompt_request(SAMPLE_ARTICLE)

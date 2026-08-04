@@ -20,6 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
+from select_videos import select_tech_videos
 from write_articles import write_articles_bilingual, generate_speaking_prompt
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
@@ -146,6 +147,15 @@ def run(video_url=None):
             # Step 1b: Filter out already-processed videos
             print("\n[STEP 1b] Checking for new videos...\n")
             new_videos = filter_new_videos(videos)
+
+            # Step 1c: Curate down to a few tech-focused videos.
+            # Runs on titles, before transcripts — a video dropped here costs
+            # nothing further (~6 API requests and a transcript fetch saved).
+            # Runs even when the day is already under the cap, because the
+            # relevance floor still has to keep off-topic videos out.
+            if len(new_videos) > 1:
+                print("\n[STEP 1c] Selecting tech-focused videos...")
+                new_videos = select_tech_videos(new_videos)
 
         if not new_videos:
             print("No new videos to process.")

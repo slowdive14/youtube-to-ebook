@@ -73,6 +73,14 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - `max_output_tokens` set to 8000 for comprehensive bilingual summaries.
 - 15-second delay between API calls with retry logic.
 
+### Daily Curation (select_videos.py) — Step 1c
+The channel list yields 6-9 new videos a day, which is more reading than anyone finishes and ~6 free-tier API requests each. Step 1c scores the day's **titles** for technology relevance and keeps only a few.
+- Runs **before transcripts**, so a dropped video costs nothing beyond the one scoring call — it saves a transcript fetch plus ~6 Gemini requests.
+- **Two gates, not one**: `MAX_ARTICLES_PER_DAY` (default 4) and `MIN_TOPIC_SCORE` (default 40). A cap alone backfills the digest on a quiet tech day — measured 2026-08-04: one video scored 95 and the 4th-best was a culture piece at 15. The floor sits on the rubric's science/culture line, so science+tech clear it and culture (~15) and geopolitics/macroeconomics (~5) don't.
+- **Always keeps at least one** video: an empty digest also empties the speaking prompt and Velora's reading feed.
+- Runs even when the day is already under the cap — the floor still has to apply. Falls back to a keyword heuristic (`_heuristic_score`) if the API call fails, so the digest never dies on a scoring error.
+- Unselected videos are **not** marked processed, so they stay eligible until their channel posts something newer and can win on a slower day.
+
 ### Summary-First Reading (archive site)
 An issue is 6 episodes × 2 languages, so the full text is far too long to scroll. Every section therefore shows **only a one-line summary**; clicking it opens the full text. Reading the summary lines top-to-bottom is meant to convey the whole issue — that's the contract the generation prompt is written against.
 - **Generation**: `write_articles.generate_section_summaries(article_md, language)` — one Gemini call per article returning `{heading: summary}`. Stored on `article['section_summaries']`.
@@ -109,7 +117,9 @@ Replaces the unused, recitation-style Speaking Drill with a daily **production**
 ### EPUB Creation
 Uses `ebooklib` to create properly formatted EPUB with table of contents and CSS styling.
 
-### Video Frame Capture (capture_frames.py, opt-in)
+### Video Frame Capture (capture_frames.py, opt-in) — currently OFF
+⚠️ `ENABLE_FRAME_CAPTURE=false`. It was the pipeline's most expensive stage by far: frame-selection alone was **42% of all input tokens** (178K of 422K on the 2026-08-04 run, one video costing 89K because the whole timestamped transcript is sent), plus 7 requests per video (1 select + 6 vision picks, 4 images each). That's the difference between 13 and 6 requests per video on a free-tier key.
+
 When `ENABLE_FRAME_CAPTURE=true`, the pipeline embeds representative screenshots inline in each article:
 1. **Timestamps**: `get_transcripts.py` preserves `transcript_segments` ({start, text}) from the transcript API.
 2. **Moment selection**: `write_articles.select_frame_moments()` asks Gemini for the N most visually valuable moments (avoiding talking-head shots), returning timestamp + caption + an article anchor phrase.
