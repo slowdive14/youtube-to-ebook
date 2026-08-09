@@ -23,10 +23,11 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 
 <BaseLayout title="YouTube Digest — 아카이브">
 	<section class="archive-hero">
-		<h1>매일 한 편,<br /><em>읽을 만한 것만</em>.</h1>
+		<h1>보는 대신,<br />읽는 <em>영어</em>.</h1>
 		<p>
-			유튜브에서 고른 이야기를 기사로 옮긴 {issues.length}개의 호, 에피소드 {totalEpisodes}편.
-			각 문단은 요약만 펼쳐져 있고, 눌러야 전문이 나옵니다.
+			유튜브 영상을 영어 기사로 옮겨 영어·한국어로 나란히 싣습니다.
+			지금까지 {issues.length}호, 에피소드 {totalEpisodes}편.
+			본문은 대목마다 요약만 보이고, 누르면 전문이 열립니다.
 		</p>
 	</section>
 
@@ -37,7 +38,7 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 				<input
 					type="search"
 					id="issue-search"
-					placeholder="제목·에피소드·채널로 검색"
+					placeholder="한글·영어로 검색 — 제목, 채널, 본문 소제목까지"
 					autocomplete="off"
 					aria-label="아카이브 검색"
 				/>
@@ -113,6 +114,8 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 									<span class="read-more">읽기 &rarr;</span>
 								</div>
 							</a>
+
+							<ul class="issue-hits" data-hits-for={issue.id} hidden></ul>
 						</li>
 					);
 				})}
@@ -146,7 +149,12 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 </script>
 
 <script>
-	// Instant client-side search over every card's prebuilt haystack.
+	// Search runs in two layers so typing is never blocked:
+	//   1. Card level, instantly, from each card's inline haystack.
+	//   2. Section level, once /search-index.json arrives — ~4,700 headings
+	//      with their summaries, in both languages, each linking straight to
+	//      its anchor. Too big to inline, so it's prefetched the moment the
+	//      box is focused (and on idle), long before anyone finishes typing.
 	document.addEventListener('DOMContentLoaded', () => {
 		const input = document.getElementById('issue-search') as HTMLInputElement | null;
 		const clear = document.getElementById('search-clear');
@@ -155,60 +163,144 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 		const list = document.getElementById('issue-list');
 		if (!input || !list) return;
 
-		const cards = Array.from(list.querySelectorAll<HTMLAnchorElement>('.issue-card'));
-		const items = cards.map((card) => ({
-			card,
-			row: card.parentElement as HTMLElement,
-			hay: card.dataset.search || '',
-			title: card.querySelector('.issue-title') as HTMLElement,
-			titleText: (card.querySelector('.issue-title') as HTMLElement)?.textContent || '',
-		}));
+		type Item = { s: string; t: string; d: string; l: number };
+		type Entry = { id: string; subject: string; items: Item[] };
 
-		const escapeHtml = (s: string) =>
+		const items = Array.from(list.querySelectorAll<HTMLAnchorElement>('.issue-card')).map((card) => {
+			const row = card.parentElement as HTMLElement;
+			const title = card.querySelector('.issue-title') as HTMLElement;
+			return {
+				card,
+				row,
+				id: card.dataset.slug || '',
+				hay: card.dataset.search || '',
+				title,
+				titleText: title?.textContent || '',
+				hits: row.querySelector('.issue-hits') as HTMLElement,
+			};
+		});
+
+		let index: Map<string, Item[]> | null = null;
+		let loading = false;
+
+		function loadIndex() {
+			if (index || loading) return;
+			loading = true;
+			fetch('/search-index.json')
+				.then((r) => (r.ok ? r.json() : null))
+				.then((data: Entry[] | null) => {
+					if (!data) return;
+					index = new Map(data.map((e) => [e.id, e.items]));
+					if (input!.value.trim()) run(); // repaint whatever is on screen
+				})
+				.catch(() => {})
+				.finally(() => {
+					loading = false;
+				});
+		}
+
+		input.addEventListener('focus', loadIndex, { once: true });
+		if ('requestIdleCallback' in window) {
+			(window as any).requestIdleCallback(loadIndex, { timeout: 4000 });
+		} else {
+			setTimeout(loadIndex, 2500);
+		}
+
+		const esc = (s: string) =>
 			s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-		// Highlight the match in the headline so it's obvious why a card matched.
-		function paint(item: (typeof items)[number], term: string) {
-			if (!item.title) return;
-			if (!term) {
-				item.title.textContent = item.titleText;
+		/** Escape `text`, wrapping every case-insensitive occurrence of `term`
+		 *  in a <mark>. Scanned rather than regexed so the query needs no
+		 *  escaping — searches contain "?", "(", "." all the time. */
+		function mark(text: string, term: string) {
+			if (!term) return esc(text);
+			const hay = text.toLowerCase();
+			let out = '';
+			let from = 0;
+			for (;;) {
+				const at = hay.indexOf(term, from);
+				if (at === -1) return out + esc(text.slice(from));
+				out +=
+					esc(text.slice(from, at)) +
+					'<mark class="hit">' +
+					esc(text.slice(at, at + term.length)) +
+					'</mark>';
+				from = at + term.length;
+			}
+		}
+
+		const MAX_HITS = 4;
+
+		function paintHits(item: (typeof items)[number], term: string) {
+			const box = item.hits;
+			if (!box) return;
+			const found = term && index ? (index.get(item.id) || []).filter(
+				(x) => x.t.toLowerCase().includes(term) || x.d.toLowerCase().includes(term)
+			) : [];
+
+			if (found.length === 0) {
+				box.hidden = true;
+				box.innerHTML = '';
 				return;
 			}
-			const at = item.titleText.toLowerCase().indexOf(term);
-			if (at === -1) {
-				item.title.textContent = item.titleText;
-				return;
-			}
-			const before = escapeHtml(item.titleText.slice(0, at));
-			const hit = escapeHtml(item.titleText.slice(at, at + term.length));
-			const after = escapeHtml(item.titleText.slice(at + term.length));
-			item.title.innerHTML = `${before}<mark class="hit">${hit}</mark>${after}`;
+
+			box.innerHTML =
+				found
+					.slice(0, MAX_HITS)
+					.map(
+						(x) =>
+							`<li><a href="/issues/${item.id}#${encodeURIComponent(x.s)}" class="hit-link">` +
+							`<span class="hit-head">${mark(x.t, term)}</span>` +
+							(x.d ? `<span class="hit-snip">${mark(x.d, term)}</span>` : '') +
+							`</a></li>`
+					)
+					.join('') +
+				(found.length > MAX_HITS
+					? `<li class="hit-more">이 호에 ${found.length - MAX_HITS}곳 더</li>`
+					: '');
+			box.hidden = false;
 		}
 
 		function run() {
-			const term = input.value.trim().toLowerCase();
+			const raw = input!.value.trim();
+			const term = raw.toLowerCase();
 			let shown = 0;
+			let hitCount = 0;
 
 			for (const item of items) {
-				const match = !term || item.hay.includes(term);
+				const sectionHits =
+					term && index
+						? (index.get(item.id) || []).filter(
+								(x) => x.t.toLowerCase().includes(term) || x.d.toLowerCase().includes(term)
+							).length
+						: 0;
+				const match = !term || item.hay.includes(term) || sectionHits > 0;
+
 				item.row.hidden = !match;
-				if (match) {
-					shown++;
-					paint(item, term);
+				if (!match) continue;
+
+				shown++;
+				hitCount += sectionHits;
+				if (item.title) {
+					item.title.innerHTML = term ? mark(item.titleText, term) : esc(item.titleText);
 				}
+				paintHits(item, term);
 			}
 
-			if (clear) clear.hidden = !term;
-			if (empty) empty.hidden = shown > 0 || !term;
+			if (clear) clear.hidden = !raw;
+			if (empty) empty.hidden = shown > 0 || !raw;
 			if (status) {
-				status.innerHTML = term
-					? `<b>${shown}</b>개 호에서 “${escapeHtml(input.value.trim())}” 발견`
-					: '';
+				if (!raw) {
+					status.innerHTML = '';
+				} else {
+					const detail = hitCount > 0 ? ` · 본문 ${hitCount}곳` : index ? '' : ' · 본문 검색 준비 중…';
+					status.innerHTML = `<b>${shown}</b>개 호${detail}`;
+				}
 			}
 		}
 
-		// No debounce: this is ~90 substring checks, far cheaper than the
-		// frame it would wait for.
+		// No debounce: this is a few thousand substring checks, cheaper than
+		// the frame a rAF would wait for.
 		input.addEventListener('input', run);
 
 		input.addEventListener('keydown', (e) => {

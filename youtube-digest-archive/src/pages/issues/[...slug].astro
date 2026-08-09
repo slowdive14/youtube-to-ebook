@@ -193,6 +193,22 @@ const episodeCount = issue.data.articles?.length ?? 0;
 		window.addEventListener('hashchange', () => {
 			openSectionAfter(document.getElementById(decodeURIComponent(location.hash.slice(1))));
 		});
+
+		// Arriving with a hash — typically a section hit from the archive
+		// search. The browser has already jumped to the heading, but its
+		// section is collapsed, so open it and re-scroll: expanding changes
+		// the layout underneath.
+		if (location.hash) {
+			const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+			if (target) {
+				openSectionAfter(target);
+				// Instant, not the page's default smooth: a deep link can be
+				// 20,000px down, and animating that is a long crawl past
+				// everything the reader didn't ask for. Direct rather than
+				// deferred to rAF, which is throttled in background tabs.
+				target.scrollIntoView({ block: 'start', behavior: 'instant' });
+			}
+		}
 	});
 </script>
 
