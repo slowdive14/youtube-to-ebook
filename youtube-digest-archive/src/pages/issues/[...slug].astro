@@ -17,12 +17,12 @@ const { Content } = await render(issue);
 
 // Format date nicely
 const dateObj = new Date(issue.data.date);
-const formattedDate = dateObj.toLocaleDateString('en-US', {
+const formattedDate = dateObj.toLocaleDateString('ko-KR', {
 	year: 'numeric',
 	month: 'long',
 	day: 'numeric'
 });
-const isKorean = issue.data.subject.match(/[가-힣]/);
+const episodeCount = issue.data.articles?.length ?? 0;
 ---
 
 <BaseLayout title={`${issue.data.title} - YouTube Digest`}>
@@ -51,8 +51,8 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 
 	<article class="issue-container" itemscope itemtype="http://schema.org/Article">
 		<header class="issue-header">
-			<h1 itemprop="headline">{isKorean ? "YouTube 다이제스트" : "YouTube Digest"}</h1>
-			<div class="date">{formattedDate}</div>
+			<div class="date">{formattedDate}{episodeCount > 0 && ` · 에피소드 ${episodeCount}편`}</div>
+			<h1 itemprop="headline">{issue.data.subject}</h1>
 		</header>
 
 		{FEATURES.audio && issue.data.audioUrls && issue.data.audioUrls.length > 0 && (
@@ -146,6 +146,13 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 
 		const sections = () => Array.from(content.querySelectorAll('details.sec'));
 
+		// Mirror `open` onto a class. Toggling the attribute alone doesn't
+		// reliably restyle the <summary> itself, so the open state of the
+		// summary line is driven by `.is-open`.
+		sections().forEach(s => {
+			s.addEventListener('toggle', () => s.classList.toggle('is-open', s.open));
+		});
+
 		if (!sections().length) {
 			const bar = document.querySelector('.expand-all-bar');
 			if (bar) bar.hidden = true;
@@ -155,7 +162,10 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		if (btn) {
 			btn.addEventListener('click', () => {
 				const expand = btn.getAttribute('aria-pressed') !== 'true';
-				sections().forEach(s => { s.open = expand; });
+				sections().forEach(s => {
+					s.open = expand;
+					s.classList.toggle('is-open', expand);
+				});
 				btn.setAttribute('aria-pressed', String(expand));
 				btn.textContent = expand ? '전체 접기' : '전체 펼치기';
 			});
@@ -166,7 +176,10 @@ const isKorean = issue.data.subject.match(/[가-힣]/);
 		function openSectionAfter(heading) {
 			if (!heading) return;
 			const next = heading.nextElementSibling;
-			if (next && next.matches('details.sec')) next.open = true;
+			if (next && next.matches('details.sec')) {
+				next.open = true;
+				next.classList.add('is-open');
+			}
 		}
 
 		document.addEventListener('click', (e) => {

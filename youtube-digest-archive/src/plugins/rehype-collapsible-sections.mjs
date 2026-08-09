@@ -76,12 +76,19 @@ export default function rehypeCollapsibleSections() {
 
 		while (i < nodes.length) {
 			const node = nodes[i];
-			const isCollapsible =
-				node.type === 'element' &&
-				COLLAPSIBLE_HEADINGS.has(node.tagName) &&
-				!SKIP_HEADINGS.has(norm(textOf(node)));
+			const isHeading = node.type === 'element' && COLLAPSIBLE_HEADINGS.has(node.tagName);
+			const isDivider = isHeading && SKIP_HEADINGS.has(norm(textOf(node)));
 
-			if (!isCollapsible) {
+			// Tag the language dividers at build time so they're styled as
+			// dividers on first paint, not after the client script runs.
+			if (isDivider) {
+				const cls = node.properties.className;
+				node.properties.className = Array.isArray(cls)
+					? [...cls, 'lang-divider']
+					: ['lang-divider'];
+			}
+
+			if (!isHeading || isDivider) {
 				out.push(node);
 				i++;
 				continue;

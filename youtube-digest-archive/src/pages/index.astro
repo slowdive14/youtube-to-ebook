@@ -4,64 +4,233 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { FEATURES } from '../config';
 
-// Get and sort issues by date descending
 const rawIssues = await getCollection('issues');
 const issues = rawIssues.sort((a, b) => {
 	const dateA = new Date(a.data.date);
 	const dateB = new Date(b.data.date);
 	return dateB.valueOf() - dateA.valueOf();
 });
+
+const issueDay = (date: string | Date): string =>
+	date instanceof Date ? date.toISOString().slice(0, 10) : String(date).slice(0, 10);
+
+// Episodes shown on a card. Enough to tell what's inside without turning the
+// list into a wall — the rest are summarised as "+N편".
+const PREVIEW = 4;
+
+const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0), 0);
 ---
 
-<BaseLayout title="YouTube Digest - Archive">
-	<div class="archive-intro" style="text-align: center; margin-bottom: 50px;">
-		<p style="font-size: 20px; color: var(--text-muted); font-style: italic;">
-			Catch up on past issues of the YouTube Digest newsletter.
+<BaseLayout title="YouTube Digest — 아카이브">
+	<section class="archive-hero">
+		<h1>매일 한 편,<br /><em>읽을 만한 것만</em>.</h1>
+		<p>
+			유튜브에서 고른 이야기를 기사로 옮긴 {issues.length}개의 호, 에피소드 {totalEpisodes}편.
+			각 문단은 요약만 펼쳐져 있고, 눌러야 전문이 나옵니다.
 		</p>
-	</div>
+	</section>
+
+	{issues.length > 0 && (
+		<>
+			<div class="archive-search">
+				<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7" /><line x1="21" y1="21" x2="16.5" y2="16.5" /></svg>
+				<input
+					type="search"
+					id="issue-search"
+					placeholder="제목·에피소드·채널로 검색"
+					autocomplete="off"
+					aria-label="아카이브 검색"
+				/>
+				<button type="button" class="search-clear" id="search-clear" hidden aria-label="검색어 지우기">&times;</button>
+			</div>
+			<p class="search-status" id="search-status" aria-live="polite"></p>
+		</>
+	)}
 
 	{issues.length === 0 ? (
-		<div style="text-align: center; padding: 50px; background: var(--card-bg); border-radius: 8px;">
-			<h2>No issues found</h2>
-			<p>Publish a newsletter via the python pipeline to see it here.</p>
+		<div class="search-empty">
+			<strong>아직 발행된 호가 없습니다</strong>
+			<span>파이프라인을 한 번 실행하면 여기에 쌓입니다.</span>
 		</div>
 	) : (
-		<ul class="issue-list">
-			{issues.map(issue => {
-				// Format date nicely
-				const dateObj = new Date(issue.data.date);
-				const formattedDate = dateObj.toLocaleDateString('en-US', {
-					year: 'numeric',
-					month: 'long',
-					day: 'numeric'
-				});
+		<>
+			<ul class="issue-list" id="issue-list">
+				{issues.map((issue, index) => {
+					const day = issueDay(issue.data.date);
+					const dateObj = new Date(issue.data.date);
+					const formattedDate = dateObj.toLocaleDateString('ko-KR', {
+						year: 'numeric',
+						month: 'long',
+						day: 'numeric',
+					});
+					const articles = issue.data.articles ?? [];
+					const preview = articles.slice(0, PREVIEW);
+					const rest = articles.length - preview.length;
+					const hasAudio = FEATURES.audio && (issue.data.audioUrls?.length ?? 0) > 0;
 
-				const hasAudio = FEATURES.audio && issue.data.audioUrls && issue.data.audioUrls.length > 0;
-				const articleCount = issue.data.articles ? issue.data.articles.length : 0;
+					// One lowercased haystack per card — 87 cards filter instantly
+					// in the browser, so there's no index to build or ship.
+					const haystack = [
+						issue.data.subject,
+						day,
+						formattedDate,
+						...articles.map((a) => `${a.title} ${a.channel} ${a.summary ?? ''}`),
+					]
+						.join(' ')
+						.toLowerCase();
 
-				return (
-					<li>
-						<a href={`/issues/${issue.id}`} class="issue-card">
-							<div class="issue-date">{formattedDate}</div>
-							<h2 class="issue-title">{issue.data.subject}</h2>
-							<div class="issue-meta">
-								{hasAudio && (
-									<span class="badge">
-										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path><path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path></svg>
-										Audio Available
-									</span>
+					return (
+						<li>
+							<a href={`/issues/${issue.id}`} class="issue-card" data-search={haystack} data-slug={issue.id}>
+								<div class="issue-card-top">
+									<span class="issue-date">{formattedDate}</span>
+									{index === 0 && <span class="issue-flag is-new">최신호</span>}
+									<span class="issue-flag" data-read-flag hidden>읽음</span>
+								</div>
+
+								<h2 class="issue-title">{issue.data.subject}</h2>
+
+								{preview.length > 0 && (
+									<ol class="issue-contents">
+										{preview.map((a, i) => (
+											<li>
+												<span class="ep-num">{String(i + 1).padStart(2, '0')}</span>
+												<span class="ep-title">{a.title}</span>
+												<span class="ep-channel">{a.channel}</span>
+											</li>
+										))}
+									</ol>
 								)}
-								{articleCount > 0 && (
-									<span class="badge">
-										📄 {articleCount} Articles
-									</span>
-								)}
-							</div>
-							<div class="read-more">Read Issue &rarr;</div>
-						</a>
-					</li>
-				);
-			})}
-		</ul>
+
+								<div class="issue-meta">
+									{articles.length > 0 && (
+										<span class="badge">
+											에피소드 {articles.length}편{rest > 0 && ` · 그 외 ${rest}편 더`}
+										</span>
+									)}
+									{issue.data.speakingPrompt && <span class="badge">오늘의 한 마디</span>}
+									{hasAudio && <span class="badge">오디오</span>}
+									<span class="read-more">읽기 &rarr;</span>
+								</div>
+							</a>
+						</li>
+					);
+				})}
+			</ul>
+
+			<div class="search-empty" id="search-empty" hidden>
+				<strong>검색 결과가 없습니다</strong>
+				<span>다른 낱말로 찾아보세요.</span>
+			</div>
+		</>
 	)}
 </BaseLayout>
+
+<script>
+	// Mark issues already opened, using the same key the issue page writes.
+	document.addEventListener('DOMContentLoaded', () => {
+		let read: Set<string>;
+		try {
+			read = new Set(JSON.parse(localStorage.getItem('yt-digest-read-issues') || '[]'));
+		} catch {
+			return;
+		}
+		document.querySelectorAll<HTMLElement>('.issue-card').forEach((card) => {
+			const slug = card.dataset.slug;
+			if (slug && read.has(slug)) {
+				const flag = card.querySelector<HTMLElement>('[data-read-flag]');
+				if (flag) flag.hidden = false;
+			}
+		});
+	});
+</script>
+
+<script>
+	// Instant client-side search over every card's prebuilt haystack.
+	document.addEventListener('DOMContentLoaded', () => {
+		const input = document.getElementById('issue-search') as HTMLInputElement | null;
+		const clear = document.getElementById('search-clear');
+		const status = document.getElementById('search-status');
+		const empty = document.getElementById('search-empty');
+		const list = document.getElementById('issue-list');
+		if (!input || !list) return;
+
+		const cards = Array.from(list.querySelectorAll<HTMLAnchorElement>('.issue-card'));
+		const items = cards.map((card) => ({
+			card,
+			row: card.parentElement as HTMLElement,
+			hay: card.dataset.search || '',
+			title: card.querySelector('.issue-title') as HTMLElement,
+			titleText: (card.querySelector('.issue-title') as HTMLElement)?.textContent || '',
+		}));
+
+		const escapeHtml = (s: string) =>
+			s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+		// Highlight the match in the headline so it's obvious why a card matched.
+		function paint(item: (typeof items)[number], term: string) {
+			if (!item.title) return;
+			if (!term) {
+				item.title.textContent = item.titleText;
+				return;
+			}
+			const at = item.titleText.toLowerCase().indexOf(term);
+			if (at === -1) {
+				item.title.textContent = item.titleText;
+				return;
+			}
+			const before = escapeHtml(item.titleText.slice(0, at));
+			const hit = escapeHtml(item.titleText.slice(at, at + term.length));
+			const after = escapeHtml(item.titleText.slice(at + term.length));
+			item.title.innerHTML = `${before}<mark class="hit">${hit}</mark>${after}`;
+		}
+
+		function run() {
+			const term = input.value.trim().toLowerCase();
+			let shown = 0;
+
+			for (const item of items) {
+				const match = !term || item.hay.includes(term);
+				item.row.hidden = !match;
+				if (match) {
+					shown++;
+					paint(item, term);
+				}
+			}
+
+			if (clear) clear.hidden = !term;
+			if (empty) empty.hidden = shown > 0 || !term;
+			if (status) {
+				status.innerHTML = term
+					? `<b>${shown}</b>개 호에서 “${escapeHtml(input.value.trim())}” 발견`
+					: '';
+			}
+		}
+
+		// No debounce: this is ~90 substring checks, far cheaper than the
+		// frame it would wait for.
+		input.addEventListener('input', run);
+
+		input.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') {
+				input.value = '';
+				run();
+			}
+		});
+
+		clear?.addEventListener('click', () => {
+			input.value = '';
+			input.focus();
+			run();
+		});
+
+		// "/" focuses search, the way every archive should behave.
+		document.addEventListener('keydown', (e) => {
+			if (e.key === '/' && document.activeElement !== input) {
+				e.preventDefault();
+				input.focus();
+				input.select();
+			}
+		});
+	});
+</script>

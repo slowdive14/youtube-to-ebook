@@ -29,7 +29,7 @@ const lessons = patterns.length > 0
 	}))
 	: (sp.shadow || []).map((s) => ({ pattern: '', pattern_ko: '', s1_en: s.en, s1_ko: s.ko, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 }));
 const dateObj = new Date(issue.data.date);
-const formattedDate = dateObj.toLocaleDateString('en-US', {
+const formattedDate = dateObj.toLocaleDateString('ko-KR', {
 	year: 'numeric', month: 'long', day: 'numeric',
 });
 // The lesson's own calendar day (YYYY-MM-DD). Sentence-log entries are tagged
