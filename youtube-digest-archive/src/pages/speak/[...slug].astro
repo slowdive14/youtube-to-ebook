@@ -15,17 +15,19 @@ export async function getStaticPaths() {
 
 const { issue } = Astro.props;
 const sp = issue.data.speakingPrompt!;
-// A "lesson" is one reusable pattern practiced across connected steps:
-//   1) shadow s1  2) fill s2 (same pattern)  3) apply the pattern to your life
-// Prefer speakingPrompt.patterns; fall back to legacy shadow sentences
-// (which only support step 1).
+// A "lesson" is one reusable pattern shown across two steps:
+//   1) read + hear the model sentence  2) the same pattern with a blank
+// Stage 1 is deliberately listen-only. It used to demand a recording per step
+// (2 patterns x 3 steps = 6 clips) before Stage 2 even unlocked, which is why
+// a page called "오늘의 한 마디" asked for eight. Speaking happens once, in
+// Stage 2, where it's the point.
 const patterns = (sp as any).patterns || [];
 const lessons = patterns.length > 0
 	? patterns.map((p: any) => ({
 		pattern: p.pattern, pattern_ko: p.pattern_ko || '',
 		s1_en: p.s1_en, s1_ko: p.s1_ko || '',
 		s2_en: p.s2_en, s2_ko: p.s2_ko || '', s2_answer: p.s2_answer || '',
-		maxStep: 3,
+		maxStep: 2,
 	}))
 	: (sp.shadow || []).map((s) => ({ pattern: '', pattern_ko: '', s1_en: s.en, s1_ko: s.ko, s2_en: '', s2_ko: '', s2_answer: '', maxStep: 1 }));
 const dateObj = new Date(issue.data.date);
@@ -58,7 +60,7 @@ const issueDay = (rawIssueDate instanceof Date)
 
 		{lessons.length > 0 && (
 			<section class="warmup">
-				<h2 class="section-title">1단계 · 패턴 연습 <span class="section-sub">한 표현을 따라→응용→내 것으로</span></h2>
+				<h2 class="section-title">1단계 · 표현 익히기 <span class="section-sub">눈과 귀로만 — 말하기는 2단계 한 번</span></h2>
 				{lessons.map((l: any, i: number) => (
 					<div class="card ladder-card" data-idx={i} data-step="1" data-maxstep={l.maxStep}
 						data-pattern={l.pattern} data-pko={l.pattern_ko}
@@ -66,21 +68,15 @@ const issueDay = (rawIssueDate instanceof Date)
 						data-s2={l.s2_en} data-s2ko={l.s2_ko} data-ans={l.s2_answer}>
 						{l.pattern && <div class="lp-pattern">{l.pattern} <span class="lp-pattern-ko">{l.pattern_ko}</span></div>}
 						<div class="ladder-steps">
-							<span class="lstep" data-s="1">1 따라</span>
+							<span class="lstep" data-s="1">1 예문</span>
 							{l.maxStep >= 2 && <span class="lstep" data-s="2">2 빈칸</span>}
-							{l.maxStep >= 3 && <span class="lstep" data-s="3">3 내 상황</span>}
 						</div>
 						<p class="lp-en" id={`en-s${i}`}></p>
 						<p class="lp-ko" id={`ko-s${i}`}></p>
 						<div class="ladder-actions">
 							<button class="mini-btn say-btn lp-say" data-say={l.s1_en} type="button" id={`say-s${i}`}>🔊 듣기</button>
-							<button class="rec-btn rec-btn-sm ladder-rec" data-rec={`s${i}`} type="button">🎤 말하기</button>
-							<button class="mini-btn ladder-next" id={`next-s${i}`} hidden type="button">다음 단계 →</button>
-						</div>
-						<div class="ladder-fb" id={`fb-s${i}`} hidden>
-							<p class="fb-transcript" id={`t-s${i}`}></p>
-							<p class="fb-good" id={`g-s${i}`}></p>
-							<p class="fb-tip" id={`tip-s${i}`}></p>
+							<button class="mini-btn ladder-reveal" id={`reveal-s${i}`} hidden type="button">정답 보기</button>
+							<button class="mini-btn ladder-next" id={`next-s${i}`} hidden type="button">다음 →</button>
 						</div>
 					</div>
 				))}
@@ -111,6 +107,15 @@ const issueDay = (rawIssueDate instanceof Date)
 					<span>🎤 한 마디 말하기</span>
 				</button>
 				<p id="produce-hint" class="rec-hint">버튼을 누르고 영어로 한 문장 말한 뒤, 다시 눌러 멈춰요.</p>
+
+				<div class="type-alt">
+					<button id="type-toggle" class="type-toggle" type="button">✏️ 말하기 어려우면 써도 돼요</button>
+					<div id="type-box" class="type-box" hidden>
+						<input id="type-input" type="text" autocomplete="off" spellcheck="false"
+							placeholder="영어로 한 문장 써보세요" aria-label="영어 문장 입력" />
+						<button id="type-send" class="mini-btn type-send" type="button">보내기</button>
+					</div>
+				</div>
 			</div>
 
 			<div id="feedback" class="card feedback" hidden>
@@ -243,8 +248,7 @@ const issueDay = (rawIssueDate instanceof Date)
 			});
 		}
 
-		// --- warm-up ladder: one PATTERN climbs shadow(s1) -> fill(s2) -> apply ---
-		const STEP_LABEL = { 1: '🎤 따라 말하기', 2: '🎤 빈칸 채워 말하기', 3: '🎤 내 상황을 말하기' };
+		// --- warm-up ladder: one PATTERN shown as example(s1) -> blank(s2) ---
 
 		function blankAnswer(en, answer) {
 			if (answer) {
@@ -262,17 +266,16 @@ const issueDay = (rawIssueDate instanceof Date)
 			return tokens.join('');
 		}
 
+		// Stage 1 is read-and-listen only — no recorder is wired here.
 		document.querySelectorAll('.ladder-card').forEach((card) => {
 			const i = card.dataset.idx;
-			const id = `s${i}`;
 			const d0 = card.dataset;
 			const maxStep = parseInt(d0.maxstep || '1');
-			const recBtn = card.querySelector('.ladder-rec');
 			const sayBtn = $(`say-s${i}`);
 			const nextBtn = $(`next-s${i}`);
+			const revealBtn = $(`reveal-s${i}`);
 			const enEl = $(`en-s${i}`);
 			const koEl = $(`ko-s${i}`);
-			const fb = $(`fb-${id}`);
 			const step = () => parseInt(card.dataset.step || '1');
 
 			function renderStep() {
@@ -282,42 +285,28 @@ const issueDay = (rawIssueDate instanceof Date)
 					el.classList.toggle('active', n === s);
 					el.classList.toggle('done', n < s);
 				});
-				if (s === 1) { enEl.textContent = d0.s1; koEl.textContent = d0.s1ko; sayBtn.dataset.say = d0.s1; sayBtn.hidden = false; }
-				else if (s === 2) { enEl.textContent = blankAnswer(d0.s2, d0.ans); koEl.textContent = d0.s2ko; sayBtn.dataset.say = d0.s2; sayBtn.hidden = false; }
-				else { enEl.textContent = ''; koEl.textContent = `이 패턴으로 내 상황을 한 문장 말해보세요: ${d0.pattern}`; sayBtn.hidden = true; }
-				recBtn.textContent = STEP_LABEL[s];
-				recBtn.disabled = false;
-				nextBtn.hidden = true;
-				fb.hidden = true;
+				if (s === 1) {
+					enEl.textContent = d0.s1;
+					koEl.textContent = d0.s1ko;
+					sayBtn.dataset.say = d0.s1;
+				} else {
+					enEl.textContent = blankAnswer(d0.s2, d0.ans);
+					koEl.textContent = d0.s2ko;
+					sayBtn.dataset.say = d0.s2;
+				}
+				sayBtn.hidden = false;
+				revealBtn.hidden = s !== 2;
+				nextBtn.hidden = s >= maxStep;
 			}
 
-			targets[id] = {
-				buildPayload: () => {
-					const s = step();
-					if (s === 1) return { mode: 'shadow', target: d0.s1 };
-					if (s === 2) return { mode: 'shadow', target: d0.s2 };
-					return { mode: 'apply', target: d0.pattern };
-				},
-				setLabel: (label) => { recBtn.textContent = label; recBtn.disabled = label.includes('듣는'); },
-				reset: () => { recBtn.textContent = '🎤 다시 말하기'; recBtn.disabled = false; },
-				onError: (msg) => { $(`t-${id}`).textContent = msg; fb.hidden = false; recBtn.textContent = STEP_LABEL[step()]; recBtn.disabled = false; },
-				render: (d) => {
-					$(`t-${id}`).textContent = d.transcript ? `🗣️ ${d.transcript}` : '(못 알아들었어요 — 다시 한 번!)';
-					$(`g-${id}`).textContent = d.good || '';
-					// steps 1-2 (shadow) return tip; step 3 (apply) returns corrected
-					$(`tip-${id}`).textContent = step() === 3
-						? (d.corrected ? `✏️ ${d.corrected}` : '')
-						: (d.tip || '');
-					fb.hidden = false;
-					if (step() === 3 && d.corrected) saveProduction(d);
-					if (step() < maxStep) nextBtn.hidden = false;
-				},
-			};
+			revealBtn.addEventListener('click', () => {
+				enEl.textContent = d0.s2;
+				revealBtn.hidden = true;
+			});
 			nextBtn.addEventListener('click', () => {
 				card.dataset.step = String(Math.min(maxStep, step() + 1));
 				renderStep();
 			});
-			wire(id);
 			renderStep();
 		});
 
@@ -345,6 +334,45 @@ const issueDay = (rawIssueDate instanceof Date)
 		};
 		wire('produce');
 		$('fb-play').addEventListener('click', () => say($('fb-model').textContent, 0.85));
+
+		// --- typed answer: same task, same coaching, no microphone ---
+		const typeToggle = $('type-toggle');
+		const typeBox = $('type-box');
+		const typeInput = $('type-input');
+		const typeSend = $('type-send');
+
+		typeToggle.addEventListener('click', () => {
+			typeBox.hidden = !typeBox.hidden;
+			typeToggle.textContent = typeBox.hidden ? '✏️ 말하기 어려우면 써도 돼요' : '🎤 말하기로 돌아가기';
+			if (!typeBox.hidden) typeInput.focus();
+		});
+
+		async function sendTyped() {
+			const value = typeInput.value.trim();
+			if (!value) return;
+			const t = targets['produce'];
+			typeSend.disabled = true;
+			typeSend.textContent = '⏳ 확인 중…';
+			try {
+				const res = await fetch('/api/speak-feedback', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ text: value, ...t.buildPayload() }),
+				});
+				const data = await res.json();
+				if (!res.ok) throw new Error(data.error || 'failed');
+				t.render(data);
+			} catch (e) {
+				pHint.textContent = '문제가 생겼어요. 다시 한 번 시도해 주세요.';
+			}
+			typeSend.disabled = false;
+			typeSend.textContent = '보내기';
+		}
+
+		typeSend.addEventListener('click', sendTyped);
+		typeInput.addEventListener('keydown', (e) => {
+			if (e.key === 'Enter') { e.preventDefault(); sendTyped(); }
+		});
 
 		// immediate re-practice: shadow the corrected sentence right after feedback
 		let reshadowTarget = '';
@@ -495,6 +523,14 @@ const issueDay = (rawIssueDate instanceof Date)
 		.rec-btn:disabled { opacity: 0.6; cursor: default; }
 		.rec-btn-sm { font-size: 0.95rem; padding: 0.5rem 1.1rem; }
 		.rec-hint { color: var(--text-muted); font-size: 0.9rem; margin-top: 0.8rem; }
+		/* Typed answer — the same task without a microphone */
+		.type-alt { margin-top: 0.9rem; }
+		.type-toggle { background: none; border: none; padding: 0.3rem; font-family: inherit; font-size: 0.87rem; color: var(--text-muted); cursor: pointer; text-decoration: underline; text-underline-offset: 0.2em; }
+		.type-toggle:hover { color: var(--accent-color); }
+		.type-box { display: flex; gap: 0.5rem; margin-top: 0.6rem; }
+		.type-box input { flex: 1; min-width: 0; padding: 0.7rem 0.9rem; font-family: inherit; font-size: 1rem; color: var(--text-color); background: var(--card-bg); border: 1px solid var(--divider-color); border-radius: 10px; }
+		.type-box input:focus { outline: none; border-color: var(--accent-color); }
+		.type-send { flex: none; }
 		.feedback { margin-top: 1rem; }
 		.fb-row { padding: 0.7rem 0; border-bottom: 1px solid var(--divider-color); }
 		.fb-row:last-of-type { border-bottom: none; }

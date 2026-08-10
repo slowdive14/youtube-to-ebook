@@ -38,6 +38,28 @@ Respond with ONLY a JSON object (no markdown) with these keys:
 List at most 3 real mistakes; use [] if there were none. If the audio is empty
 or unintelligible, set transcript to "" and still return encouraging guidance.`;
 
+// Same coaching, but the learner typed their sentence instead of speaking it.
+// Offered so the task still works without a mic — on a bus, in an office —
+// which is most of the day.
+const WRITTEN_PROMPT = `You are a warm, encouraging English coach for a Korean B1 learner.
+The learner was given this task (Korean): "{{QUESTION}}"
+A natural model answer is: "{{MODEL}}"
+The learner WROTE this one-sentence answer: "{{TEXT}}"
+
+Coach gently — NEVER say "wrong". Build confidence.
+
+Respond with ONLY a JSON object (no markdown) with these keys:
+{
+  "transcript": "the learner's sentence, exactly as written",
+  "good": "one specific thing they did well, in Korean",
+  "corrected": "their sentence rewritten to sound natural, in English",
+  "ko": "natural Korean translation of the corrected sentence",
+  "upgrade": "one better word/expression to learn, in English, with a short Korean gloss in parentheses",
+  "model_answer": "a natural model answer they can shadow, in English, <= 20 words",
+  "mistakes": [{"error": "the wrong phrase they wrote", "fix": "the corrected phrase", "type": "short Korean label of the error kind, e.g. 3인칭 단수 -s, 동사 누락, 관사, 시제"}]
+}
+List at most 3 real mistakes; use [] if there were none.`;
+
 // "shadow" mode: the learner just repeats a target sentence (easy warm-up).
 // Gentle, no grading — recognition errors become a tip, not a failure.
 const SHADOW_PROMPT = `You are a warm English pronunciation coach for a Korean B1 learner.
@@ -102,30 +124,46 @@ export const POST: APIRoute = async ({ request }) => {
     return json({ error: 'API key not configured' }, 500);
   }
 
-  let body: { audioBase64?: string; mimeType?: string; question?: string; model?: string; mode?: string; target?: string; ko?: string };
+  let body: { audioBase64?: string; mimeType?: string; text?: string; question?: string; model?: string; mode?: string; target?: string; ko?: string };
   try {
     body = await request.json();
   } catch {
     return json({ error: 'Invalid request' }, 400);
   }
 
-  const { audioBase64, mimeType, question = '', model = '', mode = 'produce', target = '', ko = '' } = body;
-  if (!audioBase64 || typeof audioBase64 !== 'string') {
-    return json({ error: 'audioBase64 required' }, 400);
-  }
-  if (audioBase64.length > MAX_AUDIO_BASE64) {
-    return json({ error: 'Audio too large' }, 413);
-  }
-  const baseMime = (mimeType || '').split(';')[0].trim().toLowerCase();
-  if (!ALLOWED_MIME.has(baseMime)) {
-    return json({ error: `Unsupported audio type: ${baseMime || 'none'}` }, 415);
+  const { audioBase64, mimeType, text, question = '', model = '', mode = 'produce', target = '', ko = '' } = body;
+
+  // A typed answer skips the audio leg entirely; everything downstream —
+  // parsing, mistake cleanup, response shape — is shared with the spoken path.
+  const written = typeof text === 'string' ? text.trim() : '';
+  if (written && written.length > 600) {
+    return json({ error: 'Text too long' }, 413);
   }
 
-  const isShadow = mode === 'shadow';
-  const isTranslate = mode === 'translate';
-  const isApply = mode === 'apply';
+  let baseMime = '';
+  if (!written) {
+    if (!audioBase64 || typeof audioBase64 !== 'string') {
+      return json({ error: 'audioBase64 or text required' }, 400);
+    }
+    if (audioBase64.length > MAX_AUDIO_BASE64) {
+      return json({ error: 'Audio too large' }, 413);
+    }
+    baseMime = (mimeType || '').split(';')[0].trim().toLowerCase();
+    if (!ALLOWED_MIME.has(baseMime)) {
+      return json({ error: `Unsupported audio type: ${baseMime || 'none'}` }, 415);
+    }
+  }
+
+  const isShadow = !written && mode === 'shadow';
+  const isTranslate = !written && mode === 'translate';
+  const isApply = !written && mode === 'apply';
   let prompt: string;
-  if (isShadow) {
+  if (written) {
+    prompt = WRITTEN_PROMPT
+      .replace('{{QUESTION}}', question.slice(0, 500))
+      .replace('{{MODEL}}', model.slice(0, 300))
+      .replace('{{TEXT}}', written);
+  } else if (isShadow) {
     prompt = SHADOW_PROMPT.replace('{{TARGET}}', target.slice(0, 400));
   } else if (isTranslate) {
     prompt = TRANSLATE_PROMPT
@@ -148,10 +186,12 @@ export const POST: APIRoute = async ({ request }) => {
         body: JSON.stringify({
           contents: [
             {
-              parts: [
-                { text: prompt },
-                { inlineData: { mimeType: baseMime, data: audioBase64 } },
-              ],
+              parts: written
+                ? [{ text: prompt }]
+                : [
+                    { text: prompt },
+                    { inlineData: { mimeType: baseMime, data: audioBase64 } },
+                  ],
             },
           ],
           generationConfig: {
