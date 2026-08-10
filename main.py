@@ -185,7 +185,13 @@ def run(video_url=None):
         print("\n[STEP 3a1] Generating daily speaking prompt...")
         speaking_prompt = None
         if english_articles:
-            speaking_prompt = generate_speaking_prompt(english_articles)
+            # Feed recent frames back in so the generator stops converging on
+            # the same handful of patterns day after day.
+            from export_archive import recent_speaking_patterns
+            avoid = recent_speaking_patterns()
+            if avoid:
+                print(f"  [.] Avoiding {len(avoid)} recently used frame(s)")
+            speaking_prompt = generate_speaking_prompt(english_articles, avoid=avoid)
             if speaking_prompt:
                 print(f"  [OK] Speaking prompt: {speaking_prompt['question_ko'][:50]}...")
             else:

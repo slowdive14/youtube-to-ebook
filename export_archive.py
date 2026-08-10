@@ -431,6 +431,35 @@ def _build_speaking_yaml(speaking_prompt):
     return "\n".join(lines) + "\n"
 
 
+_PATTERN_LINE_RE = re.compile(r'^    - pattern: "(.*)"$', re.MULTILINE)
+
+
+def recent_speaking_patterns(issues=8):
+    """Frames used by the last N published issues, newest first.
+
+    Fed back into the speaking-prompt request so the generator can see what
+    it already used. Without it every day is generated in isolation and the
+    model converges on a handful of favourite frames.
+
+    Returns [] when the archive isn't configured — the caller just gets the
+    un-constrained prompt.
+    """
+    if not ARCHIVE_REPO_PATH:
+        return []
+    issues_dir = Path(ARCHIVE_REPO_PATH) / "src" / "content" / "issues"
+    if not issues_dir.is_dir():
+        return []
+
+    out = []
+    for path in sorted(issues_dir.glob("*.md"), reverse=True)[:issues]:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        out.extend(m.group(1).strip() for m in _PATTERN_LINE_RE.finditer(text))
+    return [p for p in out if p]
+
+
 def push_to_archive_repo(content, filename):
     """
     Save the issue markdown to the archive repo and git push.

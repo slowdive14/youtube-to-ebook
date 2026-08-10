@@ -14,6 +14,8 @@ from write_articles import (
     build_speaking_prompt_request,
     parse_speaking_prompt,
     generate_speaking_prompt,
+    pattern_stem,
+    _has_banned_pattern,
 )
 
 
@@ -240,3 +242,69 @@ class TestGenerate:
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
+
+
+# ---------- Repetition guard ----------
+# The failure this exists for: "That's why I ___" shipped in 8 of 14 issues
+# because the prompt listed it as an example and nothing remembered yesterday.
+
+class TestPatternStem:
+    def test_groups_frames_that_share_an_opening(self):
+        assert pattern_stem("I used to ___.") == pattern_stem("I used to ___ every day.")
+        assert pattern_stem("That's why I ___.") == pattern_stem("That's why I started to ___.")
+
+    def test_separates_genuinely_different_frames(self):
+        stems = {
+            pattern_stem("I used to ___."),
+            pattern_stem("I ended up ___."),
+            pattern_stem("What if ___?"),
+            pattern_stem("Instead of ___, I ___."),
+        }
+        assert len(stems) == 4
+
+    def test_ignores_case_punctuation_and_blank_width(self):
+        assert pattern_stem("I Ended Up ____!") == pattern_stem("i ended up ___")
+
+    def test_empty_input(self):
+        assert pattern_stem("") == ""
+        assert pattern_stem(None) == ""
+
+
+class TestBannedAndRecent:
+    def _sp(self, *patterns):
+        return {"patterns": [{"pattern": p} for p in patterns]}
+
+    def test_still_rejects_the_banned_molds(self):
+        assert _has_banned_pattern(self._sp("It's hard to ___.")) is True
+        assert _has_banned_pattern(self._sp("It's difficult for me to ___.")) is True
+
+    def test_rejects_a_frame_used_on_a_recent_day(self):
+        avoid = ["That's why I ___.", "I used to ___."]
+        assert _has_banned_pattern(self._sp("That's why I started to ___."), avoid) is True
+
+    def test_accepts_a_genuinely_new_frame(self):
+        avoid = ["That's why I ___.", "I used to ___."]
+        assert _has_banned_pattern(self._sp("What if ___?", "Instead of ___, I ___."), avoid) is False
+
+    def test_no_history_means_only_the_banned_molds_apply(self):
+        assert _has_banned_pattern(self._sp("That's why I ___."), None) is False
+        assert _has_banned_pattern(self._sp("That's why I ___."), []) is False
+
+
+class TestAvoidInPrompt:
+    def test_lists_recent_frames_for_the_model_to_skip(self):
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE, avoid=["I used to ___.", "What if ___?"])
+        assert "ALREADY USED" in p
+        assert "I used to ___." in p
+        assert "What if ___?" in p
+
+    def test_omits_the_block_entirely_when_there_is_no_history(self):
+        assert "ALREADY USED" not in build_speaking_prompt_request(SAMPLE_ARTICLE)
+
+    def test_never_shows_an_example_frame(self):
+        # Listing example frames is what caused the repetition in the first
+        # place — the model copied them verbatim instead of inventing.
+        p = build_speaking_prompt_request(SAMPLE_ARTICLE)
+        instructions = p.split("ARTICLE TITLE:")[0]
+        for copied in ['("That\'s why I ___")', '("I used to ___")', '("I ended up ___")']:
+            assert copied not in instructions

@@ -957,15 +957,31 @@ def select_frame_moments(video, article, n=4):
 
 # ---------- Daily speaking-output prompt (Phase 0 of daily-speaking-output) ----------
 
-def build_speaking_prompt_request(article):
+def build_speaking_prompt_request(article, avoid=None):
     """Prompt Gemini to craft ONE production-style speaking task for the day.
 
     This asks the learner to say their OWN one sentence, with scaffolding
     (a frame + reusable patterns) so a B1 learner can actually produce output.
+
+    ``avoid`` is the list of patterns published on recent days. Naming the
+    grammatical *categories* without showing a frame is not enough on its own —
+    an earlier version listed one example frame per category and the model
+    simply copied them, which is how "That's why I ___" ended up in 8 of 14
+    issues. The concrete history is what actually moves it off its favourites.
     """
     body = article.get("article", "")
     if len(body) > 3000:
         body = body[:3000]
+
+    avoid_block = ""
+    if avoid:
+        recent = "\n".join(f'  "{p}"' for p in avoid)
+        avoid_block = f"""
+ALREADY USED on recent days — do NOT output these or anything built on the same
+opening words. Today's two patterns must start differently from every line here:
+{recent}
+"""
+
     return f"""You design a daily English speaking mini-lesson for a Korean B1 learner,
 loosely inspired by the article below. The lesson teaches REUSABLE PATTERNS and
 ends with the learner producing their OWN sentence — not reciting fixed text.
@@ -983,10 +999,11 @@ VARIETY IS THE TOP PRIORITY — the lesson must feel fresh, never formulaic:
 - Pick frames that fit TODAY's article theme/situation, so they change as the
   topic changes, while staying everyday and natural.
 - The 2 patterns MUST use DIFFERENT grammatical shapes. Do NOT make both the
-  same mold. Mix across types, e.g.: a time clause ("Whenever ___, I ___"),
-  a comparison ("___ is better than ___"), a phrasal verb ("I ended up ___"),
-  a past habit ("I used to ___"), a suggestion ("Why don't we ___?"),
-  a wish ("I wish I could ___"), a reason ("That's why I ___").
+  same mold. Draw from the full range of everyday B1 grammar — time clauses,
+  comparisons, phrasal verbs, past habits, suggestions, wishes, reasons,
+  conditionals, frequency, obligation, preference, degree, result — and build
+  your own frame for whichever you pick. (No example frames are given here on
+  purpose: any frame shown gets copied instead of inspiring a new one.)
 - BANNED frames — NEVER output these or ANY close variant. This bans the whole
   "It's <adjective> to ___" and "It's <adjective> for ___ to ___" mold in every
   form (hard, easy, difficult, important, nice...):
@@ -1035,6 +1052,7 @@ build the task FROM them:
   "model": "<short simple B1 model answer, <= 12 words>"
 }}
 
+{avoid_block}
 ARTICLE TITLE: {article.get('title', '')}
 
 ARTICLE:
@@ -1136,19 +1154,38 @@ _BANNED_PATTERN_RES = [
 ]
 
 
-def _has_banned_pattern(sp):
-    """True if any generated pattern uses an overused/banned frame."""
+def pattern_stem(pattern):
+    """Family key for a frame: its first two words, blanks normalized.
+
+    "I used to ___" and "I used to ___ every day" share a stem, as do
+    "That's why I ___" and "That's why I started to ___" — which is the level
+    the repetition actually happened at. Comparing whole frames would have
+    called all of those distinct.
+    """
+    words = re.sub(r"_+", "_", (pattern or "").lower()).split()
+    return " ".join(words[:2]).strip(".,!?")
+
+
+def _has_banned_pattern(sp, avoid=None):
+    """True if a generated pattern is banned outright or repeats a recent one."""
     if not sp:
         return False
+    recent_stems = {pattern_stem(p) for p in (avoid or [])}
+    recent_stems.discard("")
     for p in (sp.get("patterns") or []):
         text = (p.get("pattern") or "").strip()
         if any(rx.search(text) for rx in _BANNED_PATTERN_RES):
             return True
+        if pattern_stem(text) in recent_stems:
+            return True
     return False
 
 
-def generate_speaking_prompt(en_articles):
+def generate_speaking_prompt(en_articles, avoid=None):
     """Generate the day's speaking task from the first English article.
+
+    ``avoid`` lists frames used on recent days; the prompt is told to skip
+    them and the result is rejected if it reuses one anyway.
 
     Returns a validated dict (see parse_speaking_prompt) or None. Non-fatal:
     callers should treat None as "no speaking task today".
@@ -1157,7 +1194,7 @@ def generate_speaking_prompt(en_articles):
         return None
 
     article = en_articles[0]
-    prompt = build_speaking_prompt_request(article)
+    prompt = build_speaking_prompt_request(article, avoid=avoid)
 
     retry_wait = 5
     for attempt in range(MAX_RETRIES):
@@ -1176,8 +1213,8 @@ def generate_speaking_prompt(en_articles):
             )
             _log_usage_metadata(response, label='Speaking-prompt')
             sp = parse_speaking_prompt(response.text or "")
-            if _has_banned_pattern(sp) and attempt < MAX_RETRIES - 1:
-                print("  [!] Speaking-prompt used a banned frame; regenerating...")
+            if _has_banned_pattern(sp, avoid) and attempt < MAX_RETRIES - 1:
+                print("  [!] Speaking-prompt reused a recent/banned frame; regenerating...")
                 continue
             return sp
         except Exception as e:
