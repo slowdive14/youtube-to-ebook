@@ -45,6 +45,9 @@
     'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
 
   --measure: 40rem;
+  /* Masthead block height (28px pad + 30px mark + 12px pad + 2px rule).
+     The fixed TOC starts below this so the two never share a band. */
+  --header-h: 72px;
 }
 
 *,
@@ -950,11 +953,14 @@ mark.hit {
 
 .toc-sidebar {
   position: fixed;
-  top: 0;
+  /* Below the masthead, not behind it. The list scrolls inside this box as
+     the scroll-spy follows the reader, so with top:0 its items climbed to
+     y=0 and sat on top of the wordmark. */
+  top: calc(var(--header-h) + 22px);
   left: max(16px, calc(50% - 39rem));
   width: 15rem;
-  max-height: 100vh;
-  padding: 28px 12px 40px 0;
+  max-height: calc(100vh - var(--header-h) - 42px);
+  padding: 0 12px 40px 0;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
