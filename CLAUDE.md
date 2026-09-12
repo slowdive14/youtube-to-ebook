@@ -114,6 +114,12 @@ Replaces the unused, recitation-style Speaking Drill with a daily **production**
 - **Anti-repetition**: `export_archive.recent_speaking_patterns()` reads the last 8 issues' frames and `main.py` passes them as `avoid=`. They go into the prompt as "already used" and `_has_banned_pattern(sp, avoid)` rejects a reuse (retry). Matching is by `pattern_stem()` — the frame's first two words — because the repetition happened at the family level (`I used to ___` vs `I used to ___ every day`), not the exact-string level.
 - ⚠️ **Deploy**: site changes need `trigger_vercel_deploy()` (Vercel uses a Deploy Hook, not auto-deploy on push). `GEMINI_API_KEY` must be set in Vercel env (already used by `api/define.ts`).
 
+### Archive Push Credentials (Windows)
+`push_to_archive_repo` runs `git push` unattended, so the wrong GitHub account being picked is a silent daily failure: the push returns False, `trigger_vercel_deploy()` is skipped, and the issue sits committed locally while the site stays stale. That happened on 2026-09-13 — `Permission to slowdive14/youtube-to-ebook.git denied to slowdive15` — because Windows Credential Manager holds **two** GitHub accounts (`git:https://github.com` → slowdive14 and `git:https://slowdive15@github.com` → slowdive15), and Git Credential Manager can't show its account picker when no one is at the keyboard.
+- Fixed two ways, both scoped to this repo: the remote URL names the account (`https://slowdive14@github.com/...`), and `credential.https://github.com.helper` is set **locally** to `gh auth git-credential` (blank entry first, to override the global `manager`). `gh` is logged in as slowdive14 with `repo` scope, so there is no account to disambiguate. The absolute path to `gh.exe` is used because Task Scheduler runs with a reduced PATH.
+- Don't "fix" this by deleting the slowdive15 credential — it may belong to other repositories on this machine.
+- A failed push is not lost work: the next successful run pushes the backlog too. Only that day's deploy is missed, so re-run `trigger_vercel_deploy()` manually after recovering one.
+
 ### Duplication & Concurrency (main.py)
 - Uses `video_tracker.py` to skip already-processed video IDs.
 - **Execution Lock**: Creates `main.lock` during runtime to prevent simultaneous executions (fixing duplicate email bug).
