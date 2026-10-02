@@ -506,8 +506,12 @@ def generate_section_summaries(article_md, language='en', is_first=True):
     return generate_section_guide(article_md, language=language, is_first=is_first)[0]
 
 
-def generate_section_guide(article_md, language='en', is_first=True, segments=None):
+def generate_section_guide(article_md, language='en', is_first=True, segments=None,
+                           model='gemini-2.5-flash'):
     """Summarize every section of a finished article in one Gemini call.
+
+    ``model`` exists for backfills: free-tier quotas are per model, so a
+    backfill run on a different model can't eat the daily pipeline's budget.
 
     Returns ``(summaries, times)``:
       - summaries: {heading_text: summary} — the click-to-expand line under
@@ -628,7 +632,7 @@ Reply with JSON only:
                 time.sleep(retry_wait)
 
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model=model,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     max_output_tokens=3000,

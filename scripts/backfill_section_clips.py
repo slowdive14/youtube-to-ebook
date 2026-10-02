@@ -10,6 +10,16 @@ in the same single request. Existing [[SUM]] lines are replaced.
 One Gemini request per article per language (same as the summary backfill)
 plus one free transcript fetch per video, shared by its EN and KO halves.
 
+Runs on gemini-3.5-flash by default, NOT the pipeline's gemini-2.5-flash.
+Free-tier quotas are per model (20 requests/day each), and the daily pipeline
+spends ~15 of 2.5-flash's 20 every morning — a backfill on the same model
+would make the next morning's run fail. Every Pacific day contains exactly one
+pipeline run, so there is no "quiet window" on the same model.
+
+Works article by article: an article that already has clips is left alone
+(including any hand corrections), so a partly-done issue can be completed
+without redoing it. --force regenerates those too.
+
     py scripts/backfill_section_clips.py --issue 2026-10-02
     py scripts/backfill_section_clips.py --limit 3
     py scripts/backfill_section_clips.py --limit 3 --dry-run
@@ -51,13 +61,9 @@ def _strip_markers(segment):
     return re.sub(r'\n{3,}', '\n\n', _OLD_MARKER_RE.sub('', segment))
 
 
-def backfill_file(path, delay, dry_run=False, force=False):
+def backfill_file(path, delay, dry_run=False, force=False, model=None):
     """Add clip markers to one issue. Returns the number of clips written."""
     original = path.read_text(encoding="utf-8")
-    if "[[AT:" in original and not force:
-        print(f"  [SKIP] {path.name} (already has clips)")
-        return 0
-
     fm, body = _split_frontmatter(original)
     segments = _REAL_SEP_RE.split(body)
 
@@ -76,6 +82,10 @@ def backfill_file(path, delay, dry_run=False, force=False):
         if not vid or not extract_section_headings(clean):
             out.append(segment)
             continue
+        if "[[AT:" in segment and not force:
+            print(f"    [{language}] {vid}: already has clips — kept")
+            out.append(segment)
+            continue
 
         if vid not in transcripts:
             _, timed = get_transcript(vid)
@@ -90,7 +100,9 @@ def backfill_file(path, delay, dry_run=False, force=False):
             time.sleep(delay)
         calls += 1
 
-        sums, times = generate_section_guide(clean, language=language, is_first=True, segments=timed)
+        sums, times = generate_section_guide(
+            clean, language=language, is_first=True, segments=timed, model=model
+        )
         if not sums:
             print(f"    [{language}] {vid}: generation failed — left as is")
             out.append(segment)
@@ -118,7 +130,9 @@ def main():
     parser.add_argument("--issue", help="one issue id, e.g. 2026-10-02")
     parser.add_argument("--limit", type=int, default=0, help="only the N newest issues")
     parser.add_argument("--delay", type=float, default=4.0, help="seconds between API calls")
-    parser.add_argument("--force", action="store_true", help="redo issues that already have clips")
+    parser.add_argument("--force", action="store_true", help="redo articles that already have clips")
+    parser.add_argument("--model", default="gemini-3.5-flash",
+                        help="Gemini model (default keeps off the pipeline's 2.5-flash quota)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -136,7 +150,8 @@ def main():
             continue
         print(f"\n[{i + 1}/{len(paths)}] {path.name}")
         try:
-            total += backfill_file(path, args.delay, dry_run=args.dry_run, force=args.force)
+            total += backfill_file(path, args.delay, dry_run=args.dry_run, force=args.force,
+                                   model=args.model)
         except KeyboardInterrupt:
             print("\nInterrupted — finished files are already written. Re-run to continue.")
             break
