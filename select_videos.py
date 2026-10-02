@@ -24,7 +24,7 @@ import json
 import os
 import re
 
-DEFAULT_LIMIT = int(os.getenv("MAX_ARTICLES_PER_DAY", "3"))
+DEFAULT_LIMIT = int(os.getenv("MAX_ARTICLES_PER_DAY", "2"))
 
 # Buckets are deliberately coarse. Finer ones (AI vs software, elections vs
 # war) would split near-identical videos into "different" domains and defeat

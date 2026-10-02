@@ -151,7 +151,7 @@ def run(video_url=None):
             # Step 1c: Curate down to a few videos spread across subjects.
             # Runs on titles, before transcripts — a video dropped here costs
             # nothing further (~6 API requests and a transcript fetch saved).
-            max_articles = int(os.getenv("MAX_ARTICLES_PER_DAY", "3"))
+            max_articles = int(os.getenv("MAX_ARTICLES_PER_DAY", "2"))
             if len(new_videos) > max_articles:
                 print(f"\n[STEP 1c] Picking {max_articles} videos across subject areas...")
                 new_videos = select_diverse_videos(new_videos, limit=max_articles)
