@@ -73,6 +73,9 @@ Videos are checked against `/shorts/` URL pattern via HEAD request, not duration
 - `max_output_tokens` set to 8000 for comprehensive bilingual summaries.
 - 15-second delay between API calls with retry logic.
 
+### ⚠️ Gemini Free-Tier Budget: 20 requests/day
+Measured from a 429 on 2026-10-02: `GenerateRequestsPerDayPerProjectPerModel-FreeTier`, **quotaValue 20** for `gemini-2.5-flash`. A pipeline run costs 6 requests per video (article + episode summary + section summary, × EN/KO) plus 1 classification and 1-2 speaking-prompt calls — so `MAX_ARTICLES_PER_DAY=3` is ~20-21, already at the limit. If the site's `/api/speak-feedback` and `/api/define` use a key from the same project, the learner's own practice draws on the same 20. Anything new must ride on an existing request (as section clips do) rather than add one.
+
 ### Daily Curation (select_videos.py) — Step 1c
 The channel list yields 6-9 new videos a day, which is more reading than anyone finishes and ~6 free-tier API requests each. Step 1c labels the day's **titles** by subject and keeps `MAX_ARTICLES_PER_DAY` (default 3).
 - Selection is by **subject spread, not topic preference**: one video per area (technology / science / health / business / politics / culture / other), taken in channel-list order, so a day reads as tech + health + culture rather than three takes on the same news cycle. Only once every area present is represented does a second from the same one get in.
@@ -89,6 +92,15 @@ An issue is 6 episodes × 2 languages, so the full text is far too long to scrol
 - **No marker?** Older issues fall back to promoting the section's first paragraph. Fill them in with `py scripts/backfill_section_summaries.py [--limit N]` (resumable, skips files that already have markers).
 - Article titles (H1) and the language dividers are never collapsed; `extract_section_headings` drops them so no stray marker can render.
 - The issue page has an `전체 펼치기/접기` toggle, and TOC/hash navigation auto-opens the target section.
+
+### Section Clips ("원본 영상 MM:SS")
+Each expanded section can show a `▶ 원본 영상 18:20` row that opens the original video right where that section's topic is discussed.
+- **Zero extra requests.** `generate_section_guide()` sends the timed transcript (`compact_transcript()`: ~30s `[MM:SS]` blocks, 40 words each, ≤150 blocks) inside the section-summary request it was already making, and gets `start` back per section. The free tier is limited by requests/day, not tokens, so a separate timing call would have cost 6 requests a day for nothing. `generate_section_summaries()` remains as a summaries-only wrapper.
+- **Marker**: `[[AT:<video id>:<seconds>]]` on its own line after `[[SUM]]`, written by `inject_section_summaries(..., times=, video_id=)` from `export_archive._render_article_body`. Same rule as the other markers: never in the canonical article text.
+- **Rendering**: the rehype plugin pulls the marker out *before* summary extraction (so the no-`[[SUM]]` fallback can't promote it to the summary line) and puts the clip row at the top of `.sec-body`. The row is a plain YouTube `&t=` link; the issue page turns a click into a `youtube-nocookie` iframe. No iframe exists until clicked — dozens of embedded players would make the page crawl.
+- ⚠️ The prompt asks for where the **main discussion** begins, not the first mention. "First mention" was tried and landed on cold-open previews: a section about a Senate bill pointed at 01:35 (the host's teaser) instead of 18:20 (where the bill is actually walked through).
+- Times past the end of the video are dropped (`parse_section_times`), and `""` means "no counterpart in the video" — both just mean no clip.
+- Old issues: transcripts aren't stored, so `py scripts/backfill_section_clips.py --issue <id>` re-fetches them and regenerates that issue's summaries + times (1 request per article per language).
 
 ### Read-Aloud Feed for Velora (`/api/reading`)
 Velora (`C:\Users\user\Downloads\velora`, a separate repo) has a 낭독 screen whose material was manually pasted. This endpoint feeds it the newest issue automatically.

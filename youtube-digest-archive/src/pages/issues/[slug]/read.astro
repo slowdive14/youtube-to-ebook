@@ -28,6 +28,7 @@ englishBody = englishBody.replace(/!\[[^\]]*\]\([^)]*\)(\s*\n\s*\*[^\n]*\*)?/g, 
 // Reader mode reads the article straight through, so drop the section-summary
 // markers (the main issue page turns them into click-to-expand lines).
 englishBody = englishBody.replace(/^\[\[SUM\]\]\s*/gm, '');
+englishBody = englishBody.replace(/^\[\[AT:[\w-]{11}:\d+\]\]\s*$/gm, '');
 
 // Convert markdown to HTML on the server
 const rawHtml = marked.parse(englishBody);

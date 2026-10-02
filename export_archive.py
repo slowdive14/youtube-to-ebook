@@ -242,8 +242,21 @@ def _render_article_body(article, summary_label, global_frame_map=None):
     section_summaries = article.get("section_summaries")
     if section_summaries:
         from write_articles import inject_section_summaries
-        md = inject_section_summaries(md, section_summaries)
+        md = inject_section_summaries(
+            md, section_summaries,
+            times=article.get("section_times"),
+            video_id=youtube_video_id(article.get("url", "")),
+        )
     return md
+
+
+_VIDEO_ID_RE = re.compile(r'(?:v=|youtu\.be/|/shorts/|/embed/)([\w-]{11})')
+
+
+def youtube_video_id(url):
+    """The 11-character video id from any common YouTube URL form, or None."""
+    m = _VIDEO_ID_RE.search(url or "")
+    return m.group(1) if m else None
 
 
 _FRAME_MARKER_RE = re.compile(r'\[\[FRAME:(\d+)\]\]')

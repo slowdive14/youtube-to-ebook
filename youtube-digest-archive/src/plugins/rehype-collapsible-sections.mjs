@@ -22,6 +22,48 @@
 
 const MARKER = '[[SUM]]';
 
+// `[[AT:<video id>:<seconds>]]` — where this section's topic starts in the
+// original video. Written by the pipeline on its own line after [[SUM]].
+const CLIP_RE = /^\[\[AT:([\w-]{11}):(\d+)\]\]$/;
+
+const isClipMarker = (node) => isElement(node, 'p') && CLIP_RE.test(textOf(node).trim());
+
+function mmss(total) {
+	const h = Math.floor(total / 3600);
+	const m = Math.floor((total % 3600) / 60);
+	const s = total % 60;
+	const pad = (n) => String(n).padStart(2, '0');
+	return h ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
+}
+
+/**
+ * The "원본 영상 18:20" row. A plain link to YouTube at that second, so it
+ * works without JavaScript; the issue page upgrades a click into an inline
+ * player. No iframe is rendered up front — an issue has dozens of sections,
+ * and dozens of embedded players would make the page crawl.
+ */
+function clipNode(videoId, seconds) {
+	const t = mmss(seconds);
+	return el('div', { className: ['sec-clip'] }, [
+		el(
+			'a',
+			{
+				className: ['clip-link'],
+				href: `https://www.youtube.com/watch?v=${videoId}&t=${seconds}s`,
+				target: '_blank',
+				rel: 'noopener',
+				dataVid: videoId,
+				dataT: String(seconds),
+			},
+			[
+				el('span', { className: ['clip-icon'], ariaHidden: 'true' }, [{ type: 'text', value: '▶' }]),
+				{ type: 'text', value: '원본 영상 ' },
+				el('span', { className: ['clip-time'] }, [{ type: 'text', value: t }]),
+			]
+		),
+	]);
+}
+
 // Never collapsed: the language dividers separating English from 한국어.
 const SKIP_HEADINGS = new Set(['english', '한국어']);
 
@@ -110,6 +152,15 @@ export default function rehypeCollapsibleSections() {
 				j++;
 			}
 
+			// Pull the clip marker out first, so the no-[[SUM]] fallback below
+			// can never promote it to the summary line.
+			let clip = null;
+			const clipIdx = body.findIndex(isClipMarker);
+			if (clipIdx !== -1) {
+				const [, vid, secs] = textOf(body.splice(clipIdx, 1)[0]).trim().match(CLIP_RE);
+				clip = clipNode(vid, parseInt(secs, 10));
+			}
+
 			// Pull the summary line out of the body.
 			let summaryChildren = null;
 			if (body.length > 0 && isElement(body[0], 'p') && textOf(body[0]).trimStart().startsWith(MARKER)) {
@@ -123,6 +174,7 @@ export default function rehypeCollapsibleSections() {
 			if (!summaryChildren || body.length === 0) {
 				out.push(node);
 				if (summaryChildren) out.push(el('p', {}, summaryChildren));
+				if (clip) out.push(clip);
 				out.push(...body);
 				i = j;
 				continue;
@@ -135,7 +187,7 @@ export default function rehypeCollapsibleSections() {
 						el('span', { className: ['sec-sum-text'] }, summaryChildren),
 						el('span', { className: ['sec-more'] }, []),
 					]),
-					el('div', { className: ['sec-body'] }, body),
+					el('div', { className: ['sec-body'] }, clip ? [clip, ...body] : body),
 				])
 			);
 			i = j;
@@ -149,6 +201,6 @@ export default function rehypeCollapsibleSections() {
 			}
 		}
 
-		tree.children = out;
+		tree.children = out.filter((node) => !isClipMarker(node));
 	};
 }

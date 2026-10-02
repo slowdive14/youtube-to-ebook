@@ -931,6 +931,62 @@ mark.hit {
   margin-top: 0;
 }
 
+/* "원본 영상 18:20" — jumps into the original video where this section starts.
+   Selectors carry `a.` + `.sec-clip` so they out-rank the generic
+   a[href*='youtube.com/watch'] pill below, which would otherwise win. */
+.markdown-content .sec-clip {
+  margin: 0 0 18px;
+}
+
+.markdown-content .sec-clip a.clip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 5px 12px 5px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted) !important;
+  text-decoration: none;
+  background: var(--paper-deep);
+  border: 1px solid var(--divider-color);
+  border-radius: 999px;
+  transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+.markdown-content .sec-clip a.clip-link:hover,
+.markdown-content .sec-clip.is-playing a.clip-link {
+  color: var(--warm) !important;
+  background: var(--warm-soft);
+  border-color: color-mix(in srgb, var(--warm) 30%, transparent);
+}
+
+.markdown-content .clip-icon {
+  font-size: 9px;
+  line-height: 1;
+}
+
+.markdown-content .clip-time {
+  font-variant-numeric: tabular-nums;
+}
+
+.markdown-content .clip-player {
+  position: relative;
+  margin-top: 12px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #000;
+  border-radius: 12px;
+  box-shadow: var(--card-shadow);
+}
+
+.markdown-content .clip-player iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 .markdown-content .sec-body > *:last-child {
   margin-bottom: 0;
 }

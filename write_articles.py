@@ -456,31 +456,105 @@ def extract_section_headings(article_md):
     return headings[1:]  # headings[0] is the article title
 
 
+CLIP_MARKER_RE = re.compile(r'^\[\[AT:([\w-]{11}):(\d+)\]\]$')
+
+# A section's clip should open where the topic starts, so the transcript is
+# shown to the model in fixed-length blocks, each stamped with its start.
+# Long videos get wider blocks so the prompt stays bounded (a 3-hour podcast
+# at 30s blocks would be 360 of them).
+_CLIP_BLOCK_SECONDS = 30
+_CLIP_MAX_BLOCKS = 150
+_CLIP_WORDS_PER_BLOCK = 40
+
+
+def compact_transcript(segments):
+    """Render timed segments as ``[MM:SS] text`` blocks for section timing.
+
+    Text per block is capped: the model only needs enough to recognise which
+    topic is being discussed, and the full transcript would triple the size
+    of the section-summary request for no gain in placement.
+    """
+    if not segments:
+        return ""
+    last = max(float(s.get("start", 0) or 0) for s in segments)
+    width = max(_CLIP_BLOCK_SECONDS, last / _CLIP_MAX_BLOCKS)
+
+    blocks = []
+    current_start = None
+    words = []
+    for seg in segments:
+        text = (seg.get("text") or "").strip()
+        if not text:
+            continue
+        start = float(seg.get("start", 0) or 0)
+        if current_start is None or start - current_start >= width:
+            if current_start is not None:
+                blocks.append((current_start, words))
+            current_start, words = start, []
+        words.extend(text.split())
+    if current_start is not None:
+        blocks.append((current_start, words))
+
+    return "\n".join(
+        f"[{_seconds_to_mmss(start)}] {' '.join(w[:_CLIP_WORDS_PER_BLOCK])}"
+        for start, w in blocks
+    )
+
+
 def generate_section_summaries(article_md, language='en', is_first=True):
+    """Summaries only — see ``generate_section_guide`` for summaries + clip times."""
+    return generate_section_guide(article_md, language=language, is_first=is_first)[0]
+
+
+def generate_section_guide(article_md, language='en', is_first=True, segments=None):
     """Summarize every section of a finished article in one Gemini call.
 
-    Returns {heading_text: summary} — the map the archive site turns into a
-    click-to-expand line under each heading. Empty dict on any failure, which
-    simply means the site falls back to the section's opening sentence.
+    Returns ``(summaries, times)``:
+      - summaries: {heading_text: summary} — the click-to-expand line under
+        each heading on the archive site.
+      - times: {heading_text: seconds} — where in the video that section's
+        topic starts, so the site can open the original clip right there.
+        Only filled when ``segments`` (the timed transcript) is given.
 
-    The contract that matters: reading the summaries top-to-bottom must convey
-    the whole article, so each one carries the section's actual substance
+    Both come from the same call on purpose. On a free-tier key the limit is
+    requests per day, not tokens, so adding the transcript to a request that
+    is already being made costs nothing that matters; a separate timing call
+    would cost one request per article per language.
+
+    Empty dicts on any failure, which just means the site falls back to the
+    section's opening paragraph and shows no clip.
+
+    The contract that matters for summaries: reading them top-to-bottom must
+    convey the whole article, so each carries the section's actual substance
     rather than describing what the section is "about".
     """
     headings = extract_section_headings(article_md)
     if not headings:
-        return {}
+        return {}, {}
 
     heading_list = "\n".join(f"- {h}" for h in headings)
+    transcript = compact_transcript(segments)
 
     if language == 'ko':
+        timing_block = ""
+        timing_field = ""
+        if transcript:
+            timing_block = f"""
+
+[원본 영상 트랜스크립트 — 영어, 각 줄 앞의 [MM:SS]는 그 대목이 시작하는 시각]
+{transcript}
+
+각 섹션마다 "start"도 적으세요: 영상이 그 섹션의 주제를 **본격적으로 다루기 시작하는** 블록의 [MM:SS]를 그대로 옮깁니다.
+영상 앞부분의 예고·오프닝 요약이나 지나가듯 한 번 언급한 곳은 건너뛰세요. 독자가 이 시각을 누르면 그 내용의 설명이 바로 이어져야 합니다.
+기사가 덧붙인 도입부나 맺음말처럼 영상에 대응하는 대목이 없으면 ""로 둡니다."""
+            timing_field = ', "start": "<MM:SS 또는 빈 문자열>"'
         prompt = f"""아래 기사의 각 섹션을 한 줄 요약하세요.
 
 [기사]
 {article_md}
 
 [요약할 섹션 제목 — 이 목록에 있는 것만, 제목은 글자 그대로 복사]
-{heading_list}
+{heading_list}{timing_block}
 
 ---
 
@@ -498,15 +572,30 @@ def generate_section_summaries(article_md, language='en', is_first=True):
 - 반드시 한국어
 
 JSON 으로만 답하세요:
-{{"summaries": [{{"heading": "<섹션 제목 그대로>", "summary": "<요약>"}}]}}"""
+{{"summaries": [{{"heading": "<섹션 제목 그대로>", "summary": "<요약>"{timing_field}}}]}}"""
     else:
+        timing_block = ""
+        timing_field = ""
+        if transcript:
+            timing_block = f"""
+
+[VIDEO TRANSCRIPT — each line's [MM:SS] is where that passage starts]
+{transcript}
+
+For each section also give "start": copy the [MM:SS] of the block where the
+video's MAIN DISCUSSION of that section's topic begins. Skip opening previews,
+cold-open summaries and passing mentions earlier in the video — a reader who
+clicks this time should land right where that topic is actually explained.
+If the section has no counterpart in the video (an intro or conclusion the
+article added), use ""."""
+            timing_field = ', "start": "<MM:SS or empty>"'
         prompt = f"""Summarize each section of the article below in one line.
 
 [ARTICLE]
 {article_md}
 
 [SECTIONS TO SUMMARIZE — only these, copy each heading verbatim]
-{heading_list}
+{heading_list}{timing_block}
 
 ---
 
@@ -527,7 +616,7 @@ Rules:
 - Same language as the article
 
 Reply with JSON only:
-{{"summaries": [{{"heading": "<heading verbatim>", "summary": "<summary>"}}]}}"""
+{{"summaries": [{{"heading": "<heading verbatim>", "summary": "<summary>"{timing_field}}}]}}"""
 
     if not is_first:
         time.sleep(min(REQUEST_DELAY, 8))
@@ -549,7 +638,12 @@ Reply with JSON only:
                 )
             )
             _log_usage_metadata(response, label='Section-summaries')
-            return parse_section_summaries(response.text or "", headings)
+            text = response.text or ""
+            last = max((float(s.get("start", 0) or 0) for s in (segments or [])), default=0)
+            return (
+                parse_section_summaries(text, headings),
+                parse_section_times(text, headings, last) if transcript else {},
+            )
 
         except Exception as e:
             error_str = str(e).lower()
@@ -559,9 +653,51 @@ Reply with JSON only:
                 retry_wait *= 2
                 continue
             print(f"  [!] Failed to generate section summaries: {e}")
-            return {}
+            return {}, {}
 
-    return {}
+    return {}, {}
+
+
+def parse_section_times(text, headings, last_start):
+    """Parse each section's ``start`` into {original_heading: seconds}.
+
+    A time past the end of the video is a hallucination and is dropped — a
+    clip that opens on a blank player is worse than no clip. One block of
+    slack is allowed because block starts are rounded.
+    """
+    if not text or not text.strip():
+        return {}
+    data = _load_summaries_json(text)
+    items = data.get('summaries') if isinstance(data, dict) else data
+    if not isinstance(items, list):
+        return {}
+
+    by_key = {_norm_heading(h): h for h in headings}
+    limit = (last_start or 0) + _CLIP_BLOCK_SECONDS
+    out = {}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        original = by_key.get(_norm_heading(item.get('heading', '')))
+        seconds = _mmss_to_seconds(item.get('start'))
+        if original and seconds is not None and 0 <= seconds <= limit:
+            out[original] = seconds
+    return out
+
+
+def _load_summaries_json(text):
+    """json.loads with truncation salvage; None when nothing is recoverable.
+
+    _salvage_truncated_json raises rather than returning on hopeless input,
+    so both section parsers go through here instead of calling it bare.
+    """
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        try:
+            return _salvage_truncated_json(text)
+        except (json.JSONDecodeError, ValueError):
+            return None
 
 
 def parse_section_summaries(text, headings):
@@ -572,14 +708,7 @@ def parse_section_summaries(text, headings):
     """
     if not text or not text.strip():
         return {}
-    try:
-        data = json.loads(text)
-    except json.JSONDecodeError:
-        salvaged = _salvage_truncated_json(text)
-        if not isinstance(salvaged, (dict, list)):
-            return {}
-        data = salvaged
-
+    data = _load_summaries_json(text)
     items = data.get('summaries') if isinstance(data, dict) else data
     if not isinstance(items, list):
         return {}
@@ -596,8 +725,10 @@ def parse_section_summaries(text, headings):
     return out
 
 
-def inject_section_summaries(article_md, summaries):
-    """Insert ``[[SUM]] <summary>`` right after each matching heading.
+def inject_section_summaries(article_md, summaries, times=None, video_id=None):
+    """Insert ``[[SUM]] <summary>`` right after each matching heading, and a
+    ``[[AT:<video_id>:<seconds>]]`` line after it when the section's place in
+    the video is known.
 
     Kept out of the canonical ``article['article']`` text — email and audio
     read that, and must never see markers. ``export_archive`` calls this when
@@ -607,6 +738,10 @@ def inject_section_summaries(article_md, summaries):
         return article_md
 
     by_key = {_norm_heading(h): s for h, s in summaries.items()}
+    time_by_key = (
+        {_norm_heading(h): t for h, t in times.items()}
+        if times and video_id else {}
+    )
     out = []
     in_fence = False
     for line in article_md.split('\n'):
@@ -619,10 +754,14 @@ def inject_section_summaries(article_md, summaries):
         m = _SEC_HEADING_RE.match(line)
         if not m:
             continue
-        summary = by_key.get(_norm_heading(m.group(2)))
+        key = _norm_heading(m.group(2))
+        summary = by_key.get(key)
         if summary:
             out.append('')
             out.append(f'{SECTION_SUMMARY_MARKER} {summary}')
+            if key in time_by_key:
+                out.append('')
+                out.append(f'[[AT:{video_id}:{int(time_by_key[key])}]]')
     return '\n'.join(out)
 
 
@@ -655,12 +794,16 @@ def write_articles_for_videos(videos, language='en', detailed=False):
 
             # Per-section summaries so the archive site can show a skimmable
             # summary line per section and hide the full text behind a click
+            # The timed transcript rides along so each section also learns
+            # where it starts in the video — same request, no extra quota.
             print(f"  [.] Generating section summaries...")
-            section_summaries = generate_section_summaries(
-                article, language=language, is_first=False
+            section_summaries, section_times = generate_section_guide(
+                article, language=language, is_first=False,
+                segments=video.get("transcript_segments"),
             )
             if section_summaries:
-                print(f"  [OK] {len(section_summaries)} section summaries ready")
+                print(f"  [OK] {len(section_summaries)} section summaries ready"
+                      f" ({len(section_times)} placed in the video)")
             else:
                 print(f"  [!] Section summaries unavailable (non-fatal)")
 
@@ -671,6 +814,7 @@ def write_articles_for_videos(videos, language='en', detailed=False):
                 "article": article,
                 "summary": summary or "",
                 "section_summaries": section_summaries,
+                "section_times": section_times,
             })
             print(f"  [OK] Article generated!")
         else:

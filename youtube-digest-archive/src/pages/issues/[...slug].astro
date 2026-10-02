@@ -153,6 +153,41 @@ const episodeCount = issue.data.articles?.length ?? 0;
 			s.addEventListener('toggle', () => s.classList.toggle('is-open', s.open));
 		});
 
+		// "원본 영상 18:20": the link opens YouTube at that second on its own;
+		// with JS, a click instead drops a player in place, started there.
+		// The iframe is created only on demand — dozens of sections each
+		// loading a player up front would make the page crawl.
+		content.addEventListener('click', (e) => {
+			const link = e.target.closest('.clip-link');
+			if (!link) return;
+			const clip = link.closest('.sec-clip');
+			if (!clip) return;
+			e.preventDefault();
+
+			const open = clip.querySelector('.clip-player');
+			if (open) {
+				open.remove();
+				clip.classList.remove('is-playing');
+				return;
+			}
+
+			const vid = link.dataset.vid;
+			const t = parseInt(link.dataset.t || '0', 10);
+			if (!/^[\w-]{11}$/.test(vid || '')) return;
+
+			const frame = document.createElement('div');
+			frame.className = 'clip-player';
+			const iframe = document.createElement('iframe');
+			iframe.src = `https://www.youtube-nocookie.com/embed/${vid}?start=${t}&autoplay=1&rel=0`;
+			iframe.title = '원본 영상';
+			iframe.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+			iframe.allowFullscreen = true;
+			iframe.loading = 'lazy';
+			frame.appendChild(iframe);
+			clip.appendChild(frame);
+			clip.classList.add('is-playing');
+		});
+
 		if (!sections().length) {
 			const bar = document.querySelector('.expand-all-bar');
 			if (bar) bar.hidden = true;
