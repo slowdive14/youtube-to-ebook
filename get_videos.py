@@ -137,7 +137,9 @@ def get_latest_video(youtube, uploads_playlist_id, channel_name):
             "video_id": video_id,
             "description": item["snippet"]["description"],
             "channel": channel_name,
-            "url": f"https://www.youtube.com/watch?v={video_id}"
+            "url": f"https://www.youtube.com/watch?v={video_id}",
+            # Used to match the video to its podcast episode (listening.py).
+            "published": item["snippet"].get("publishedAt", ""),
         }
 
     return None
@@ -160,7 +162,8 @@ def get_video_info_by_id(youtube, video_id):
             "video_id": video_id,
             "description": item["snippet"]["description"],
             "channel": item["snippet"]["channelTitle"],
-            "url": f"https://www.youtube.com/watch?v={video_id}"
+            "url": f"https://www.youtube.com/watch?v={video_id}",
+            "published": item["snippet"].get("publishedAt", ""),
         }
     return None
 

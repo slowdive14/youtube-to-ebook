@@ -473,10 +473,13 @@ def recent_speaking_patterns(issues=8):
     return [p for p in out if p]
 
 
-def push_to_archive_repo(content, filename):
+def push_to_archive_repo(content, filename, extra_dirs=None):
     """
     Save the issue markdown to the archive repo and git push.
     Target: ARCHIVE_REPO_PATH/src/content/issues/<filename>
+
+    extra_dirs: folders whose changes (new, edited and deleted files) go into
+    the same commit — the listening transcripts — so one push means one deploy.
     """
     if not ARCHIVE_REPO_PATH:
         print("  [!] ARCHIVE_REPO_PATH not configured. Skipping git push.")
@@ -506,6 +509,12 @@ def push_to_archive_repo(content, filename):
             ["git", "add", str(filepath)],
             cwd=str(repo_path), check=True, capture_output=True,
         )
+        for folder in extra_dirs or []:
+            if Path(folder).exists():
+                subprocess.run(
+                    ["git", "add", "-A", "--", str(folder)],
+                    cwd=str(repo_path), check=True, capture_output=True,
+                )
         subprocess.run(
             ["git", "commit", "-m", f"Add issue {filename}"],
             cwd=str(repo_path), check=True, capture_output=True,
@@ -557,15 +566,17 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, frame_data=None, speaking_prompt=None):
+def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, frame_data=None, speaking_prompt=None, listening_entries=None):
     """
     Main entry point for archive export.
     1. Upload audio files to R2
     2. Upload captured frames to R2
     3. Generate issue markdown (with inline frame images)
-    4. Push to archive repo
+    4. Push to archive repo (with the listening transcripts, if any)
 
     frame_data: {seconds: (local_jpg_path, caption)} from capture_frames.
+    listening_entries: episodes from listening.make_listening_entries, served
+    to Velora by /api/listening.
     """
     print("\n[STEP 4b] Exporting to archive...")
 
@@ -615,8 +626,16 @@ def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio
         speaking_prompt=speaking_prompt,
     )
 
+    # 3. Listening transcripts go into the same commit as the issue.
+    extra_dirs = []
+    if listening_entries and ARCHIVE_REPO_PATH:
+        from listening import save_entries, listening_dir
+        written, removed = save_entries(listening_entries, ARCHIVE_REPO_PATH)
+        print(f"  [OK] Listening: {len(written)} episode(s) saved, {len(removed)} old one(s) removed")
+        extra_dirs.append(listening_dir(ARCHIVE_REPO_PATH))
+
     # 3. Push to archive repo
-    pushed = push_to_archive_repo(content, filename)
+    pushed = push_to_archive_repo(content, filename, extra_dirs=extra_dirs)
 
     # 4. Explicitly trigger Vercel rebuild (belt-and-suspenders over GitHub auto webhook)
     if pushed:

@@ -97,6 +97,8 @@ def run(video_url=None):
         return
 
     english_articles, korean_articles = [], []
+    listening_pool = []
+    listening_entries = []
 
     try:
         # Create lock file
@@ -147,6 +149,9 @@ def run(video_url=None):
             # Step 1b: Filter out already-processed videos
             print("\n[STEP 1b] Checking for new videos...\n")
             new_videos = filter_new_videos(videos)
+            # The listening edition may also use podcast episodes that weren't
+            # picked for an article (Step 3c).
+            listening_pool = list(new_videos)
 
             # Step 1c: Curate down to a few videos spread across subjects.
             # Runs on titles, before transcripts — a video dropped here costs
@@ -209,6 +214,23 @@ def run(video_url=None):
                 print(f"  [!] Frame capture failed (non-fatal): {e}")
         else:
             print("\n[STEP 3a2] Frame capture disabled (set ENABLE_FRAME_CAPTURE=true to enable)")
+
+        # Step 3c: Listening edition for Velora — the day's podcast episodes as
+        # official audio plus a timed English transcript and Korean
+        # translation. Runs on its own model's quota (see listening.py), and
+        # any failure leaves the digest untouched.
+        if os.getenv("ENABLE_LISTENING", "true").lower() == "true" and os.getenv("ARCHIVE_REPO_PATH"):
+            print("\n[STEP 3c] Listening edition (podcast audio + EN/KO transcript)...")
+            try:
+                from listening import make_listening_entries
+                # Article videos first, then any other new podcast episode.
+                picked = {v.get("url") for v in new_videos}
+                ordered = list(new_videos) + [v for v in listening_pool if v.get("url") not in picked]
+                listening_entries = make_listening_entries(
+                    ordered, repo_path=os.getenv("ARCHIVE_REPO_PATH")
+                )
+            except Exception as e:
+                print(f"  [!] Listening edition failed (non-fatal): {e}")
 
         # Step 3b: Generate Audio for Newsletter
         # Off by default — the digest is read, not listened to. The whole
@@ -415,7 +437,8 @@ def run(video_url=None):
                 export_newsletter_issue(
                     english_articles, korean_articles,
                     audio_paths_en, audio_paths_ko,
-                    speaking_prompt=speaking_prompt
+                    speaking_prompt=speaking_prompt,
+                    listening_entries=listening_entries,
                 )
             except Exception as e:
                 print(f"  [!] Archive export failed (non-fatal): {e}")

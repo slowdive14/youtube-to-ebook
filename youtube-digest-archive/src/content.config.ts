@@ -50,4 +50,32 @@ const issues = defineCollection({
     }),
 });
 
-export const collections = { issues };
+// Listening edition for Velora (listening.py): one JSON file per podcast
+// episode — the official audio URL plus a timed English transcript and its
+// Korean translation. Served only through /api/listening; no page renders it.
+const listening = defineCollection({
+    loader: glob({ pattern: "**/*.json", base: "./src/content/listening" }),
+    schema: z.object({
+        id: z.string(),
+        title: z.string(),
+        show: z.string().optional().default(''),
+        channel: z.string().optional().default(''),
+        videoUrl: z.string().optional().default(''),
+        audioUrl: z.string(),
+        imageUrl: z.string().optional().default(''),
+        duration: z.number().optional().default(0),
+        releaseDate: z.string().optional().default(''),
+        addedAt: z.string().optional().default(''),
+        segments: z.array(
+            z.object({
+                start: z.number(),
+                en: z.string(),
+                ko: z.string().optional().default(''),
+                speaker: z.string().optional(),
+                ad: z.boolean().optional(),
+            })
+        ),
+    }),
+});
+
+export const collections = { issues, listening };
