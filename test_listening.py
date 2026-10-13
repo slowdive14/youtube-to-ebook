@@ -164,6 +164,89 @@ def test_stops_at_the_daily_limit_and_never_redoes_an_episode(tmp_path):
     assert find.call_count == 1  # the done one wasn't even looked up
 
 
+# --- followed podcasts (Step 6) ---------------------------------------------
+
+from datetime import datetime, timedelta, timezone
+
+from listening import (
+    read_podcast_list,
+    podcast_entry_id,
+    pick_feed_episode,
+    make_podcast_entries,
+)
+
+NOW = datetime.now(timezone.utc)
+
+
+def ep(guid, days_ago=1, minutes=30, audio=None):
+    return {
+        "id": guid,
+        "title": f"Episode {guid}",
+        "audioUrl": audio or f"https://cdn.example.com/{guid}.mp3",
+        "duration": minutes * 60,
+        "publishedAt": (NOW - timedelta(days=days_ago)).isoformat().replace("+00:00", "Z"),
+    }
+
+
+def feed(title, *episodes):
+    return {"title": title, "author": f"{title} host", "imageUrl": "", "episodes": list(episodes)}
+
+
+def test_reads_the_podcast_list_ignoring_notes_and_blanks(tmp_path):
+    p = tmp_path / "podcasts.txt"
+    p.write_text("# heading\n\nhttps://a.example.com/rss   # Show A\nnot a url\nhttps://b.example.com/rss\n", encoding="utf-8")
+    assert read_podcast_list(p) == ["https://a.example.com/rss", "https://b.example.com/rss"]
+
+
+def test_episode_ids_are_stable_and_filename_safe():
+    a = podcast_entry_id({"id": "tag:megaphone/abc:123?x=1"})
+    assert a == podcast_entry_id({"id": "tag:megaphone/abc:123?x=1"})
+    assert a.startswith("pod-") and a.replace("-", "").isalnum()
+
+
+def test_picks_the_newest_recent_episode_within_the_length_limit(tmp_path):
+    f = feed("Show", ep("long", 1, minutes=180), ep("ok", 2, minutes=45), ep("older", 3, minutes=30))
+    assert pick_feed_episode(f, tmp_path)["id"] == "ok"
+
+
+def test_ignores_old_and_already_done_episodes(tmp_path):
+    folder = tmp_path / "src" / "content" / "listening"
+    folder.mkdir(parents=True)
+    (folder / f"{podcast_entry_id({'id': 'done'})}.json").write_text("{}", encoding="utf-8")
+    f = feed("Show", ep("done", 1), ep("stale", 30))
+    assert pick_feed_episode(f, tmp_path) is None
+
+
+def write_done(tmp_path, show, added):
+    folder = tmp_path / "src" / "content" / "listening"
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / f"{show}.json").write_text(json.dumps({"show": show, "addedAt": added}), encoding="utf-8")
+
+
+def test_shows_take_turns_starting_with_the_longest_unserved(tmp_path):
+    write_done(tmp_path, "Culips", "2026-10-12")  # served yesterday
+    feeds = {"a": feed("Culips", ep("c1")), "b": feed("Hidden Brain", ep("h1"))}
+    with patch.object(listening, "transcribe_episode", return_value=(SEGMENTS, 1800)):
+        out = make_podcast_entries(tmp_path, client=object(), limit=1, feeds=["a", "b"], fetch=feeds.get)
+    assert [e["show"] for e in out] == ["Hidden Brain"]
+    assert out[0]["videoUrl"] == "" and out[0]["audioUrl"] == "https://cdn.example.com/h1.mp3"
+
+
+def test_a_show_with_nothing_new_passes_its_turn(tmp_path):
+    feeds = {"a": feed("Quiet", ep("q", 40)), "b": feed("Busy", ep("b1"))}
+    with patch.object(listening, "transcribe_episode", return_value=(SEGMENTS, 1800)) as tr:
+        out = make_podcast_entries(tmp_path, client=object(), limit=1, feeds=["a", "b"], fetch=feeds.get)
+    assert [e["show"] for e in out] == ["Busy"]
+    assert tr.call_count == 1
+
+
+def test_an_unreachable_feed_is_skipped(tmp_path):
+    feeds = {"b": feed("Busy", ep("b1"))}
+    with patch.object(listening, "transcribe_episode", return_value=(SEGMENTS, 1800)):
+        out = make_podcast_entries(tmp_path, client=object(), limit=1, feeds=["down", "b"], fetch=feeds.get)
+    assert [e["show"] for e in out] == ["Busy"]
+
+
 def test_a_failed_transcription_skips_only_that_episode(tmp_path):
     calls = iter([RuntimeError("quota"), (SEGMENTS, 1560)])
 

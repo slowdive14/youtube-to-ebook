@@ -21,6 +21,7 @@ different model from the article pipeline, whose free-tier quota (20/day per
 model) is nearly spent by the morning run.
 """
 
+import hashlib
 import json
 import os
 import re
@@ -378,5 +379,148 @@ def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_
             print("  [!] Transcript came back nearly empty; skipped")
             continue
         entries.append(build_entry(video, episode, segments, duration))
+        print(f"  [OK] {len(segments)} segments over {duration // 60} min")
+    return entries
+
+
+# ---------------------------------------------------------------------------
+# Followed podcasts (Step 6): one new episode a day from podcasts.txt
+# ---------------------------------------------------------------------------
+#
+# The shows the learner follows in Velora don't come through YouTube, so the
+# digest never sees them. This step reads their feeds directly and gives one
+# new episode a day the same transcript, so playing it in Velora shows the
+# read-along too.
+
+PODCASTS_FILE = Path(__file__).parent / "podcasts.txt"
+PODCASTS_PER_DAY = int(os.getenv("PODCASTS_PER_DAY", "1"))
+# Longer episodes are skipped: 75 min is at most two requests (40-min pieces),
+# where a 3-hour Huberman episode would be five.
+MAX_PODCAST_MINUTES = int(os.getenv("MAX_PODCAST_MINUTES", "75"))
+# Only new episodes: a backlog of old ones would starve the newest.
+PODCAST_RECENT_DAYS = 14
+# Velora's own feed reader, so the audio URL here is exactly the one Velora
+# plays — that equality is how Velora attaches the transcript to the episode
+# in a followed show's list.
+VELORA_API = os.getenv("VELORA_API_BASE", "https://velora-wine-chi.vercel.app").rstrip("/")
+
+
+def read_podcast_list(path=PODCASTS_FILE):
+    """Feed URLs from podcasts.txt, in file order (notes after '#' ignored)."""
+    try:
+        lines = Path(path).read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    feeds = []
+    for line in lines:
+        url = line.split("#", 1)[0].strip()
+        if url.startswith("http"):
+            feeds.append(url)
+    return feeds
+
+
+def fetch_feed(feed_url):
+    """A show's newest episodes, read through Velora's /api/podcast."""
+    try:
+        r = requests.get(f"{VELORA_API}/api/podcast", params={"feed": feed_url}, timeout=45)
+        r.raise_for_status()
+        data = r.json()
+        return data if isinstance(data.get("episodes"), list) else None
+    except Exception as e:
+        print(f"  [!] Feed unavailable ({feed_url[:50]}): {str(e)[:100]}")
+        return None
+
+
+def podcast_entry_id(episode):
+    """Stable, filename-safe id for a feed episode (guids are arbitrary strings)."""
+    key = episode.get("id") or episode.get("audioUrl", "")
+    return "pod-" + hashlib.sha1(key.encode("utf-8")).hexdigest()[:12]
+
+
+def last_done_by_show(repo_path):
+    """{show title: newest addedAt} over the episodes already transcribed."""
+    out = {}
+    folder = listening_dir(repo_path)
+    for path in folder.glob("*.json") if folder.exists() else []:
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        show, added = data.get("show", ""), data.get("addedAt", "")
+        if show and added > out.get(show, ""):
+            out[show] = added
+    return out
+
+
+def pick_feed_episode(feed, repo_path, now=None):
+    """The newest recent, not-too-long, not-yet-done episode of a show, or None."""
+    now = now or datetime.now(timezone.utc)
+    for ep in feed.get("episodes", []):  # newest first
+        released = _parse_date(ep.get("publishedAt"))
+        if released is None or now - released > timedelta(days=PODCAST_RECENT_DAYS):
+            continue
+        minutes = (ep.get("duration") or 0) / 60
+        if minutes > MAX_PODCAST_MINUTES:
+            continue
+        if not ep.get("audioUrl") or already_done(repo_path, podcast_entry_id(ep)):
+            continue
+        return ep
+    return None
+
+
+def build_podcast_entry(feed, ep, segments, duration):
+    return {
+        "id": podcast_entry_id(ep),
+        "title": ep.get("title", ""),
+        "show": feed.get("title", ""),
+        "channel": feed.get("author", ""),
+        "videoUrl": "",
+        "audioUrl": ep["audioUrl"],
+        "imageUrl": ep.get("imageUrl") or feed.get("imageUrl") or "",
+        "duration": duration or ep.get("duration") or 0,
+        "releaseDate": ep.get("publishedAt", ""),
+        "addedAt": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
+        "segments": segments,
+    }
+
+
+def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=None, fetch=fetch_feed):
+    """
+    Transcribe up to `limit` new episodes from the followed shows. Shows take
+    turns: the one transcribed longest ago (or never) goes first, ties in file
+    order — so the list order only decides who starts. A show with nothing new
+    simply passes its turn.
+    """
+    feeds = read_podcast_list() if feeds is None else feeds
+    if not feeds or limit <= 0:
+        return []
+    client = client or genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    done = last_done_by_show(repo_path)
+
+    loaded = []
+    for url in feeds:
+        feed = fetch(url)
+        if feed:
+            loaded.append(feed)
+    order = sorted(range(len(loaded)), key=lambda i: (done.get(loaded[i].get("title", ""), ""), i))
+
+    entries = []
+    for i in order:
+        if len(entries) >= limit:
+            break
+        feed = loaded[i]
+        ep = pick_feed_episode(feed, repo_path)
+        if not ep:
+            continue
+        print(f"  [.] {feed.get('title', '')}: transcribing '{ep.get('title', '')[:60]}'...")
+        try:
+            segments, duration = transcribe_episode(ep["audioUrl"], client, ep.get("duration") or 0)
+        except Exception as e:
+            print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
+            continue
+        if len(segments) < 5:
+            print("  [!] Transcript came back nearly empty; skipped")
+            continue
+        entries.append(build_podcast_entry(feed, ep, segments, duration))
         print(f"  [OK] {len(segments)} segments over {duration // 60} min")
     return entries

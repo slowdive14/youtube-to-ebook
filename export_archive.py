@@ -566,6 +566,42 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
+def publish_listening(entries):
+    """
+    Commit and push listening transcripts on their own: the followed-podcast
+    step runs whether or not the day produced a digest issue.
+    """
+    if not entries or not ARCHIVE_REPO_PATH:
+        return False
+    from listening import save_entries, listening_dir
+
+    written, removed = save_entries(entries, ARCHIVE_REPO_PATH)
+    print(f"  [OK] Listening: {len(written)} episode(s) saved, {len(removed)} old one(s) removed")
+    repo_path = Path(ARCHIVE_REPO_PATH)
+    try:
+        subprocess.run(
+            ["git", "add", "-A", "--", str(listening_dir(ARCHIVE_REPO_PATH))],
+            cwd=str(repo_path), check=True, capture_output=True,
+        )
+        subprocess.run(
+            ["git", "commit", "-m", f"Add listening episode(s): {', '.join(e['show'] for e in entries)}"],
+            cwd=str(repo_path), check=True, capture_output=True,
+        )
+        # --autostash keeps any unrelated local edits out of the way.
+        subprocess.run(
+            ["git", "pull", "--rebase", "--autostash"],
+            cwd=str(repo_path), check=True, capture_output=True,
+        )
+        subprocess.run(["git", "push"], cwd=str(repo_path), check=True, capture_output=True)
+    except subprocess.CalledProcessError as e:
+        stderr = e.stderr.decode("utf-8", errors="replace") if e.stderr else ""
+        print(f"  [!] Git operation failed: {stderr[:200]}")
+        return False
+    print("  [OK] Pushed listening episodes")
+    trigger_vercel_deploy()
+    return True
+
+
 def export_newsletter_issue(en_articles, ko_articles, audio_paths_en=None, audio_paths_ko=None, frame_data=None, speaking_prompt=None, listening_entries=None):
     """
     Main entry point for archive export.

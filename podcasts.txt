@@ -1,0 +1,15 @@
+# Podcasts whose new episodes get a read-along transcript for Velora
+# (listening.py, Step 6): one episode a day, the shows taking turns.
+# One RSS feed per line; text after "#" is a note. Shorter shows first.
+# Seeded from the learner's most-listened shows in Snipd.
+
+https://esl.culips.com/feed/podcast/                                      # Culips Everyday English (~30 min)
+https://feeds.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9933181801      # Speaking of Psychology (~30 min)
+https://www.abc.net.au/feeds/2888650/podcast.xml                          # All In The Mind, ABC (~30 min)
+https://feeds.simplecast.com/Y8lFbOT4                                     # Freakonomics Radio (~45-60 min)
+https://feeds.simplecast.com/kwWc0lhf                                     # Hidden Brain (~50-90 min)
+https://feeds.megaphone.fm/feelbetterlivemore                             # Feel Better, Live More (Bitesize ~20 min)
+https://feeds.megaphone.fm/GBLL2287897073                                 # The One You Feed (~60 min)
+https://feeds.megaphone.fm/LI1683199352                                   # The Next Big Idea (~60-80 min)
+https://feeds.megaphone.fm/SIXMSB5088139739                               # Modern Wisdom (~60-100 min)
+https://feeds.megaphone.fm/hubermanlab                                    # Huberman Lab (Essentials ~35 min)

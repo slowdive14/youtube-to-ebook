@@ -462,9 +462,38 @@ def run(video_url=None):
     return english_articles, korean_articles
 
 
+def run_podcast_listening():
+    """
+    Step 6: one new episode a day from the followed podcasts (podcasts.txt)
+    gets a read-along transcript for Velora. Separate from run(): it has to
+    happen on days with no new YouTube video too, when run() returns early.
+    """
+    if os.getenv("ENABLE_LISTENING", "true").lower() != "true" or not os.getenv("ARCHIVE_REPO_PATH"):
+        return
+    if LOCK_FILE.exists():
+        # Another run holds the lock: leave the archive repo alone.
+        print("\n[STEP 6] Skipped: another run is in progress")
+        return
+    print("\n[STEP 6] Listening: a new episode from the followed podcasts...")
+    try:
+        from listening import make_podcast_entries
+        from export_archive import publish_listening
+        entries = make_podcast_entries(repo_path=os.getenv("ARCHIVE_REPO_PATH"))
+        if entries:
+            publish_listening(entries)
+        else:
+            print("  [.] Nothing new within the length limit today")
+    except Exception as e:
+        print(f"  [!] Podcast listening failed (non-fatal): {e}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="YouTube Newsletter Generator")
     parser.add_argument("--url", help="Process a specific YouTube video URL")
     args = parser.parse_args()
-    
-    run(video_url=args.url)
+
+    try:
+        run(video_url=args.url)
+    finally:
+        if not args.url:
+            run_podcast_listening()
