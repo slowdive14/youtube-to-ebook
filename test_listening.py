@@ -247,6 +247,16 @@ def test_an_unreachable_feed_is_skipped(tmp_path):
     assert [e["show"] for e in out] == ["Busy"]
 
 
+def test_stops_trying_once_gemini_keeps_failing(tmp_path):
+    # An overload fails every attempt; burning the whole show list on it
+    # would only spend quota.
+    feeds = {k: feed(f"Show {k}", ep(f"{k}1")) for k in "abcde"}
+    with patch.object(listening, "transcribe_episode", side_effect=RuntimeError("503")) as tr:
+        out = make_podcast_entries(tmp_path, client=object(), limit=1, feeds=list("abcde"), fetch=feeds.get)
+    assert out == []
+    assert tr.call_count == listening.MAX_FAILURES_PER_RUN
+
+
 def test_a_failed_transcription_skips_only_that_episode(tmp_path):
     calls = iter([RuntimeError("quota"), (SEGMENTS, 1560)])
 

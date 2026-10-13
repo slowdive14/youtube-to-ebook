@@ -47,6 +47,10 @@ LISTENING_PER_DAY = int(os.getenv("LISTENING_PER_DAY", "2"))
 CHUNK_SECONDS = 40 * 60
 # Episodes kept in the archive (older transcript files are deleted).
 KEEP_EPISODES = 60
+# A failure tries the next episode, but not indefinitely: when Gemini is
+# overloaded every attempt fails (two models each), and attempts during an
+# overload appear to count against the daily quota. Stop after this many.
+MAX_FAILURES_PER_RUN = 2
 # Apple's directory and the video can disagree by a day or two on the date.
 DATE_TOLERANCE_DAYS = 4
 TITLE_MATCH = 0.85
@@ -359,8 +363,9 @@ def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_
     """
     client = client or genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     entries = []
+    failures = 0
     for video in videos:
-        if len(entries) >= limit:
+        if len(entries) >= limit or failures >= MAX_FAILURES_PER_RUN:
             break
         vid = video_id(video.get("url", ""))
         if not vid or (repo_path and already_done(repo_path, vid)):
@@ -373,6 +378,7 @@ def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_
         try:
             segments, duration = transcribe_episode(episode["audioUrl"], client, episode["duration"])
         except Exception as e:
+            failures += 1
             print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
             continue
         if len(segments) < 5:
@@ -505,8 +511,9 @@ def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=N
     order = sorted(range(len(loaded)), key=lambda i: (done.get(loaded[i].get("title", ""), ""), i))
 
     entries = []
+    failures = 0
     for i in order:
-        if len(entries) >= limit:
+        if len(entries) >= limit or failures >= MAX_FAILURES_PER_RUN:
             break
         feed = loaded[i]
         ep = pick_feed_episode(feed, repo_path)
@@ -516,6 +523,7 @@ def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=N
         try:
             segments, duration = transcribe_episode(ep["audioUrl"], client, ep.get("duration") or 0)
         except Exception as e:
+            failures += 1
             print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
             continue
         if len(segments) < 5:
