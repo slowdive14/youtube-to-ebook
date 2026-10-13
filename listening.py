@@ -210,15 +210,26 @@ def clean_segments(raw, offset=0.0, limit=None):
 
 
 def _duration(path):
-    out = subprocess.check_output(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]
-    )
-    return float(out.decode().strip())
+    """Audio length via ffprobe, or None when ffprobe isn't available."""
+    try:
+        out = subprocess.check_output(
+            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]
+        )
+        return float(out.decode().strip())
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        return None
 
 
 def _chunks(path, duration, workdir):
-    """Split long audio into CHUNK_SECONDS pieces (stream copy, no re-encode)."""
+    """Split long audio into CHUNK_SECONDS pieces (stream copy, no re-encode).
+    Without ffmpeg the whole file goes in one request — a very long episode may
+    then come back cut short, which is still better than no transcript."""
     if duration <= CHUNK_SECONDS + 5 * 60:
+        return [(0.0, Path(path))]
+    try:
+        subprocess.run(["ffmpeg", "-version"], check=True, capture_output=True)
+    except (OSError, subprocess.CalledProcessError):
+        print("  [!] ffmpeg not found: transcribing in one piece")
         return [(0.0, Path(path))]
     pieces = []
     start = 0.0
@@ -257,8 +268,9 @@ def _generate(client, uploaded):
     raise RuntimeError(f"transcription failed: {last_error}")
 
 
-def transcribe_episode(audio_url, client):
-    """Download the episode and return its timed segments (EN + KO)."""
+def transcribe_episode(audio_url, client, listed_duration=0):
+    """Download the episode and return its timed segments (EN + KO).
+    listed_duration (the directory's figure) stands in when ffprobe is missing."""
     with tempfile.TemporaryDirectory() as workdir:
         path = Path(workdir) / "episode.mp3"
         with requests.get(audio_url, headers={"User-Agent": UA}, stream=True, timeout=60) as r:
@@ -266,7 +278,9 @@ def transcribe_episode(audio_url, client):
             with open(path, "wb") as f:
                 for block in r.iter_content(1 << 16):
                     f.write(block)
-        duration = _duration(path)
+        duration = _duration(path) or float(listed_duration or 0)
+        if duration <= 0:
+            duration = float(CHUNK_SECONDS)  # unknown: assume one piece
         segments = []
         for offset, piece in _chunks(path, duration, workdir):
             uploaded = client.files.upload(file=str(piece), config={"mime_type": "audio/mpeg"})
@@ -356,7 +370,7 @@ def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_
             continue
         print(f"  [.] {episode['show']}: transcribing '{episode['episodeTitle'][:60]}'...")
         try:
-            segments, duration = transcribe_episode(episode["audioUrl"], client)
+            segments, duration = transcribe_episode(episode["audioUrl"], client, episode["duration"])
         except Exception as e:
             print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
             continue

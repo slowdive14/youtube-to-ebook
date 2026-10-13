@@ -167,7 +167,7 @@ def test_stops_at_the_daily_limit_and_never_redoes_an_episode(tmp_path):
 def test_a_failed_transcription_skips_only_that_episode(tmp_path):
     calls = iter([RuntimeError("quota"), (SEGMENTS, 1560)])
 
-    def flaky(url, client):
+    def flaky(url, client, listed_duration=0):
         r = next(calls)
         if isinstance(r, Exception):
             raise r
