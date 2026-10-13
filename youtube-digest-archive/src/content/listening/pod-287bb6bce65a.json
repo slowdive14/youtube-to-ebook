@@ -1,0 +1,806 @@
+{
+ "id": "pod-287bb6bce65a",
+ "title": "Are you a workaholic or just a hard worker? With Malissa Clark, PhD",
+ "show": "Speaking of Psychology",
+ "channel": "American Psychological Association",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION2592298537.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/9c355306-c0cb-11f1-9cf6-1fe6f9137973/image/8577510a83cc8ea277800434a518b476.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 1599,
+ "releaseDate": "2026-10-07T07:30:00.000Z",
+ "addedAt": "2026-10-13",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "It's 5:00 and your workday is technically over, but you tell yourself you'll just answer one more email. Before you know it, two hours have passed and you're still at your desk.",
+   "ko": "오후 5시가 되어 공식적인 업무 시간은 끝났지만, 이메일 하나만 더 답장하겠다고 스스로에게 말합니다. 그러다 정신을 차려보면 어느덧 두 시간이 지났고 당신은 여전히 책상 앞에 앉아 있죠.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 11.0,
+   "en": "Or you're supposed to be on vacation, but you can't resist reading work emails and responding every time your phone pings with a message from a colleague.",
+   "ko": "아니면 휴가 중이어야 하는데도 업무 이메일을 읽는 유혹을 뿌리치지 못하고, 동료에게서 메시지가 올 때마다 휴대폰 알림에 즉각 반응하며 답장을 보냅니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 19.0,
+   "en": "In our always connected world, it's easier than ever to let work encroach on every hour of the day.",
+   "ko": "언제나 연결되어 있는 세상에서, 업무가 하루의 모든 시간을 침범하게 내버려 두는 것은 그 어느 때보다 쉬운 일이 되었습니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 25.0,
+   "en": "But psychologists who study workaholism say that compulsive overwork is detrimental to our physical and mental health and perhaps surprisingly, even to our careers.",
+   "ko": "하지만 워커홀리즘을 연구하는 심리학자들은 강박적인 과잉 노동이 신체적, 정신적 건강에 해로울 뿐만 아니라, 놀랍게도 경력 관리에도 악영향을 미칠 수 있다고 말합니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 36.0,
+   "en": "Today we're going to talk to a psychologist who studies workaholism about what it is and how to combat it.",
+   "ko": "오늘 우리는 워커홀리즘을 연구하는 심리학자와 함께 그것이 정확히 무엇인지, 그리고 어떻게 대처해야 하는지에 대해 이야기 나눠보겠습니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 42.0,
+   "en": "What's the difference between being a workaholic and just being a hard worker who's invested in her job? Is workaholism an addiction?",
+   "ko": "단순히 자신의 일에 몰두하는 성실한 근로자와 워커홀릭의 차이는 무엇일까요? 워커홀리즘도 일종의 중독일까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 49.0,
+   "en": "How does it affect people's physical and mental health and their relationships? What can you do if you recognize workaholic tendencies in yourself or in someone you care about?",
+   "ko": "그것이 사람들의 신체적, 정신적 건강과 인간관계에는 어떤 영향을 미칠까요? 자신이나 주변 사람에게서 일중독 경향을 발견한다면 어떻게 해야 할까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 56.0,
+   "en": "And what can organizations and employers do to encourage a healthy relationship with work among their employees?",
+   "ko": "또한 기업과 고용주는 직원들이 업무와 건강한 관계를 유지할 수 있도록 무엇을 할 수 있을까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 65.0,
+   "en": "Welcome to Speaking of Psychology, the flagship podcast of the American Psychological Association that examines the links between psychological science and everyday life. I'm Kim Mills.",
+   "ko": "심리 과학과 일상 생활 사이의 연결 고리를 탐구하는 미국 심리학회의 대표 팟캐스트, '스피킹 오브 사이콜로지'에 오신 것을 환영합니다. 저는 킴 밀스입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 81.0,
+   "en": "My guest today is Dr. Melissa Clark, a professor of industrial organizational psychology at the University of Georgia, where she directs the Healthy Work Lab.",
+   "ko": "오늘 모신 손님은 조지아 대학교의 산업 및 조직 심리학 교수이자 헬시 워크 랩을 이끌고 계신 멜리사 클라크 박사님입니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 93.0,
+   "en": "She's a leading expert on workaholism, overwork and employee well being. Her research has been published in top academic journals and featured in publications including Time, The New York Times, The Atlantic, and US News and World Report.",
+   "ko": "박사님은 워커홀리즘, 과잉 노동, 그리고 직원의 웰빙 분야에서 최고의 전문가이십니다. 연구 결과는 주요 학술지에 게재되었으며 타임, 뉴욕 타임스, 애틀랜틱, US 뉴스 앤 월드 리포트 등에도 소개된 바 있습니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 104.0,
+   "en": "Her 2024 book, Never Not Working: Why the Always on Culture is Bad for Business and How to Fix It, was recognized as a top management book by People Management, Management Today, and the Next Big Idea Club.",
+   "ko": "박사님의 2024년 신간 '쉬지 않고 일하기: 상시 접속 문화가 비즈니스에 나쁜 이유와 해결 방법'은 피플 매니지먼트, 매니지먼트 투데이 등에서 최고의 경영 도서로 선정되었습니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 119.0,
+   "en": "She also recently spoke with APA's magazine Monitor on Psychology for an article on workaholism and work addiction. Dr. Clark, thank you for joining me.",
+   "ko": "최근에는 APA의 매거진 '모니터 온 사이콜로지'와 워커홀리즘 및 일중독에 관한 기사로 인터뷰를 진행하기도 하셨죠. 클라크 박사님, 오늘 함께해주셔서 감사합니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 130.0,
+   "en": "Thank you so much for having me.",
+   "ko": "초대해 주셔서 정말 감사합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 132.0,
+   "en": "I've seen workaholism go by a few different names including work addiction and compulsive overwork. What term do you use in your research?",
+   "ko": "워커홀리즘이 일중독이나 강박적 과잉 노동 등 여러 이름으로 불리는 것을 보았습니다. 박사님은 연구에서 어떤 용어를 사용하시나요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 139.0,
+   "en": "I use the term workaholism. To be honest, I don't love the term work addiction, but it is what it is at this point. It's what is coined. It's not a formal addiction in the DSM.",
+   "ko": "저는 워커홀리즘이라는 용어를 사용합니다. 솔직히 일중독이라는 말은 별로 좋아하지 않지만, 지금은 그렇게 통용되고 있죠. DSM에 등록된 공식적인 중독은 아닙니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 149.0,
+   "en": "And I'm also not a clinical psychologist, which is partly why I don't use the work addiction term specifically. But workaholism is multifaceted and a lot of people don't realize that.",
+   "ko": "제가 임상 심리학자가 아니라는 점도 일중독이라는 용어를 쓰지 않는 이유 중 하나입니다. 워커홀리즘은 다면적인 현상인데, 많은 분이 그 점을 간과하곤 합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 160.0,
+   "en": "They think, okay, it's just someone who works all the time, but those examples that you pointed out really touch on how nuanced it is. And the way I study it and measure it is actually with four different components.",
+   "ko": "그저 항상 일만 하는 사람이라고 생각하기 쉽지만, 방금 들어주신 예시들처럼 매우 미묘한 차이들이 있습니다. 저는 네 가지 서로 다른 구성 요소를 통해 이를 연구하고 측정합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 172.0,
+   "en": "There's a motivational piece where people feel like they ought to be working all the time. You probably have heard of a concept called intrinsic motivation, which is working because you love to work.",
+   "ko": "먼저 동기 부여 측면이 있는데, 사람들은 항상 일해야만 한다고 느낍니다. 아마 일이 좋아서 하는 '내재적 동기'라는 개념은 들어보셨을 겁니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 183.0,
+   "en": "Workaholism is driven by introjected motivation. It's a concept that psychologists know. It's working because you feel like you ought to. It's partially internalized values of society.",
+   "ko": "하지만 워커홀리즘은 '내사된 동기'에 의해 움직입니다. 심리학에서 쓰이는 개념인데, 일해야 할 것 같다는 압박감 때문에 일하는 것이죠. 사회적 가치가 부분적으로 내면화된 것입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 194.0,
+   "en": "And, you know, things that you learned growing up, but it's not truly of your own volition so it's this kind of controlled motivation. But I just describe it as pit in my stomach, you know, feeling like I ought to be working.",
+   "ko": "성장 과정에서 배운 것들일 수 있지만, 진정으로 자발적인 것은 아닙니다. 일종의 통제된 동기인 셈이죠. 저는 이를 '항상 일해야 할 것 같은 불안감'이라고 표현합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 205.0,
+   "en": "The second component is the cognitive component where you're thinking about work all the time. And this is often not talked about enough in my opinion, because it's this like running dialogue about work in your head.",
+   "ko": "두 번째는 인지적 요소로, 머릿속이 온통 일 생각뿐인 상태입니다. 제 생각에 이 부분은 충분히 논의되지 않고 있는데, 머릿속에서 일에 대한 대화가 끊임없이 이어지는 현상입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 216.0,
+   "en": "It keeps you up, keeps you from falling asleep. It distracts you when you're talking with your family. And what are you doing? You're thinking about work. So that's the cognitive component.",
+   "ko": "이것 때문에 잠을 설치거나 잠들지 못하기도 합니다. 가족과 대화할 때도 집중력을 흐트러뜨리죠. 몸은 거기 있지만 머릿속으론 일을 생각하는 겁니다. 이게 인지적 요소입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 228.0,
+   "en": "There's an emotional piece to it that goes along with introjected motivation, this feeling of guilt and anxiety that kind of builds and builds if you're not working.",
+   "ko": "정서적 측면도 있는데, 이는 내사된 동기와 연결되어 일을 하지 않고 있을 때 죄책감과 불안감이 점점 더 커지는 것을 의미합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 238.0,
+   "en": "Which is partly what kind of drives you to pick up the phone or check your email. And then the fourth component is the most obvious, it's the behavioral component.",
+   "ko": "이런 감정 때문에 휴대전화를 집어 들거나 이메일을 확인하게 되는 것이죠. 그리고 네 번째는 가장 눈에 띄는 행동적 요소입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 249.0,
+   "en": "Workaholics do tend to work longer than expected, longer than their colleagues. It is related to work hours, but it's honestly just kind of a moderate relationship or correlation.",
+   "ko": "워커홀릭들은 동료들보다, 혹은 예상된 시간보다 더 오래 일하는 경향이 있습니다. 업무 시간과 관련이 있긴 하지만, 사실 그 상관관계는 중간 정도에 불과합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 260.0,
+   "en": "So doing things like working on vacation, all of that is part of the behavioral component. So it is truly multifaceted. You can think about it sort of like a compulsion to work, using that loosely.",
+   "ko": "휴가 때 일하는 것 같은 행동들이 여기에 해당합니다. 정말 다면적인 현상이죠. 엄밀한 임상적 의미는 아니더라도, 일에 대한 강박 같은 것으로 이해할 수 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 272.0,
+   "en": "Now you've studied how workaholism affects people's lives, their physical health, their mental health, and their relationships. What have you and other researchers in this area found?",
+   "ko": "워커홀리즘이 사람들의 신체적, 정신적 건강, 그리고 대인관계에 미치는 영향을 연구하셨는데요. 박사님과 다른 연구자들이 발견한 결과는 무엇인가요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 287.0,
+   "en": "Right. So pretty universally negative outcomes for individuals, for those around them, family, both in terms of, you know, physical health outcomes.",
+   "ko": "네. 개인은 물론 주변 사람들, 가족에게도 거의 예외 없이 부정적인 결과가 나타났습니다. 특히 신체 건강 측면에서 말이죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 297.0,
+   "en": "We find that workaholism is linked to poor health, you know, they tend to not exercise as much sometimes or sleep very well and that kind of takes a toll.",
+   "ko": "워커홀리즘은 건강 악화와 연결되는데, 운동을 소홀히 하거나 잠을 잘 자지 못하는 경향이 있어 몸에 무리가 가게 됩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 308.0,
+   "en": "But there's some recent research showing links with cardiovascular risk and actigraph studies, like showing the sleep impacts of workaholism and even linked to inflammation.",
+   "ko": "최근 연구에 따르면 심혈관 질환 위험과의 연관성이 밝혀졌고, 수면 측정 연구를 통해 일중독이 수면에 미치는 영향, 심지어 염증 수치와의 상관관계도 입증되었습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 321.0,
+   "en": "And so we see these health impacts. We see self-reported lower, you know, mental health, greater burnout, just generally in terms of a kind of self-report of how you're feeling tends to be universally negative.",
+   "ko": "이런 건강상의 악영향이 관찰됩니다. 정신 건강 수치는 낮아지고 번아웃은 심해집니다. 주관적인 행복감도 전반적으로 매우 부정적인 상태를 보이죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 335.0,
+   "en": "And impacts on the family. I personally conducted interviews of spouses of workaholics and we really see the impacts of the family by talking to the spouses.",
+   "ko": "가족에게 미치는 영향도 큽니다. 제가 직접 워커홀릭의 배우자들을 인터뷰해 보았는데, 그들과 대화하며 가족이 받는 영향을 생생하게 확인할 수 있었습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 347.0,
+   "en": "You know, the relationship quality suffers. The spouse is taking more on. So they're becoming more exhausted. They probably are becoming resentful. There's impacts on the children.",
+   "ko": "관계의 질은 떨어지고, 배우자가 가사나 육아를 더 많이 떠맡게 됩니다. 배우자는 지치고 원망하는 마음이 생길 수 있죠. 자녀들에게도 영향이 미칩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 358.0,
+   "en": "And there's impacts at work. There's not enough research on this particular area in my opinion, but we do see research on, you know, if a supervisor for example is higher in workaholism.",
+   "ko": "직장 내 영향도 있습니다. 제 생각에 이 부분은 연구가 더 필요하지만, 예를 들어 상사가 워커홀리즘 경향이 높을 때 어떤 일이 일어나는지에 대한 연구가 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 371.0,
+   "en": "They are having negative impacts on their employees, that their employees are basically feeling like they need to be responding all the time because of this pressure that their boss is putting on them.",
+   "ko": "그런 상사는 직원들에게 부정적인 영향을 미칩니다. 직원들은 상사가 가하는 압박 때문에 항상 즉각적으로 응답해야 한다고 느끼게 됩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 382.0,
+   "en": "And, you know, just in general we find workaholism related to negative workplace behaviors like counterproductive work behaviors, which we don't want at work.",
+   "ko": "전반적으로 워커홀리즘은 직장에서 원치 않는 '반생산적 과업 행동'과 같은 부정적인 직장 내 행동들과도 연관이 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 393.0,
+   "en": "So things that indirectly or directly harm the organization. So this could be things like being rude to a coworker or those types of counterproductive work behaviors.",
+   "ko": "조직에 직간접적으로 해를 끼치는 행동들 말이죠. 동료에게 무례하게 구는 것 같은 반생산적 행동들이 여기에 포함됩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 405.0,
+   "en": "Not necessarily things like stealing and what not. But yeah, we just see universally negative impacts on individuals, those around them and their work suffers too.",
+   "ko": "반드시 절도 같은 범죄를 의미하는 건 아니지만요. 어쨌든 개인과 주변인에게 부정적인 영향을 미치며, 결국 업무 성과에도 지장을 줍니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 418.0,
+   "en": "We are not finding relationships with job performance, either the self-reported or supervisor-reported performance that's consistent across all of our research.",
+   "ko": "중요한 건, 모든 연구를 통틀어 워커홀리즘이 업무 성과와는 아무런 상관관계가 없다는 것입니다. 본인이 평가하든 상사가 평가하든 결과는 같습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 429.0,
+   "en": "And we've conducted meta-analyses, which is basically a quantitative synthesis of all the research in this particular area and we're not finding relationships with work performance.",
+   "ko": "이 분야의 모든 연구를 정량적으로 종합한 메타 분석을 실시해 보았지만, 업무 성과와의 연결 고리는 찾을 수 없었습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 443.0,
+   "en": "So workaholic behaviors are not making people better workers and they're making them more difficult to be around, to be quite honest. In my opinion, it's very clear that the impacts are negative.",
+   "ko": "솔직히 말씀드리면, 워커홀릭의 행동은 그들을 유능한 일꾼으로 만들지도 못하면서 주변 사람들을 힘들게만 할 뿐입니다. 제 생각에 그 영향이 부정적이라는 점은 매우 명백합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 455.0,
+   "en": "Do workaholics themselves tend to think that by being on all the time that that's going to help their careers even though the research shows that it doesn't? I mean are they deluded?",
+   "ko": "워커홀릭들은 연구 결과와는 반대로, 항상 일에 매여 있는 것이 자신의 경력에 도움이 될 거라고 믿는 경향이 있나요? 그러니까 그들이 착각하고 있는 걸까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 467.0,
+   "en": "Well for my book, I interviewed many individuals from Workaholics Anonymous. So that's actually a real organization that exists.",
+   "ko": "제 책을 위해 '워커홀릭 어나니머스' 회원들을 많이 인터뷰했습니다. 실제로 존재하는 단체인데요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 476.0,
+   "en": "And so I feel like the answer to your question comes from like just hearing from self-described workaholics. And I can say that in many cases, yes, it's almost like they trick themselves into this is what I have to do.",
+   "ko": "질문에 대한 답은 스스로를 워커홀릭이라고 부르는 사람들의 이야기를 통해 알 수 있었습니다. 많은 경우 그렇습니다. '이게 내가 해야 할 일이다'라며 스스로를 속이는 것과 같습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 490.0,
+   "en": "This is what I need. Even in the face of negative health consequences and, I kid you not, every single person I interviewed from Workaholics Anonymous had some sort of health impact of their workaholism.",
+   "ko": "이게 내게 필요한 일이라고 믿죠. 건강이 나빠지는 상황에서도요. 농담이 아니라 인터뷰한 회원 모두가 워커홀리즘으로 인한 건강 문제를 겪고 있었습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 506.0,
+   "en": "And even with that, you know, I distinctly remember one man I spoke to, he said he will never stop working. He will literally work until he dies.",
+   "ko": "그럼에도 불구하고 어떤 분은 죽을 때까지 일을 멈추지 않을 거라고 말했던 게 기억납니다. 정말 죽기 직전까지 일하겠다는 거죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 518.0,
+   "en": "And it it did not matter that he's had, you know, a heart attack in the past and his wife has said he was that she was going to divorce him. It didn't matter.",
+   "ko": "과거에 심장마비를 겪었고 아내가 이혼하겠다고 선언했음에도 불구하고, 그에게는 그런 것들이 전혀 중요하지 않았습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 529.0,
+   "en": "To him that was that was what he wanted and with him, the only reason he was part of Workaholics Anonymous is his wife said, you're going to do this or I'm leaving you. And so it was almost like he's dragged into this.",
+   "ko": "그가 원한 건 오직 일이었습니다. 그가 단체에 가입한 유일한 이유는 아내가 가입하지 않으면 떠나겠다고 했기 때문이죠. 거의 끌려오다시피 한 겁니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 539.0,
+   "en": "And I relate personally to, you know, this is why I studied it in the first place is I relate to this idea of kind of telling yourself I'm doing this for this reason, I'm doing this because I need to, this'll this'll help me succeed.",
+   "ko": "저 역시 개인적으로 공감하는 부분입니다. 제가 이 공부를 시작한 이유이기도 한데, '이러저러한 이유 때문에, 꼭 필요하니까, 그래야 성공하니까'라고 스스로에게 되뇌곤 했거든요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 552.0,
+   "en": "So I do think there is a lot of confirming this with yourself.",
+   "ko": "그래서 자기 자신에게 계속 정당성을 부여하는 측면이 분명히 있다고 생각합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 555.0,
+   "en": "Then are there particular jobs where the expectations are so high that workaholism is encouraged if not expected? I mean I'm thinking of some law firms where people are just expected to put in crazy hours.",
+   "ko": "그렇다면 일중독이 권장되거나 당연시될 정도로 기대치가 높은 특정 직종들이 있을까요? 미친 듯한 근무 시간을 버텨야 하는 일부 로펌 같은 곳이 떠오르는데요.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 569.0,
+   "en": "Or even you know, in here in DC people who work on Capitol Hill, they do crazy hours. I mean you're expected to be there, you know all night because Congress is in. You know, is that the problem that the jobs are encouraging workaholism?",
+   "ko": "이곳 워싱턴 DC의 의회에서 일하는 사람들도 엄청나게 일하죠. 회기 중에는 밤샘 대기가 당연하게 여겨집니다. 이런 직업적 환경이 워커홀리즘을 부추기는 걸까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 581.0,
+   "en": "That's part of the problem. And, you know, there are certainly these types of jobs and occupations that the culture is it's a workaholic culture. This is what newcomers are told when they get in.",
+   "ko": "그것도 문제의 일부입니다. 문화 자체가 워커홀리즘인 특정 직업이나 직종들이 분명히 존재하죠. 신입 사원들도 들어오자마자 그런 이야기를 듣게 됩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 594.0,
+   "en": "Let me give you an example. One woman I interviewed for the book, she worked at a one of the big consulting firms and the very first day her coworker said, look, let me tell you something, if you ever need to leave to go to a doctor's appointment or something like that, leave your purse on your desk and just take your keys.",
+   "ko": "예를 하나 들어보죠. 제 책을 위해 인터뷰한 한 여성은 대형 컨설팅 회사에 다녔는데, 첫날 동료가 이렇게 말했대요. '잘 들어, 혹시 병원 진료 같은 일로 자리를 비워야 하면 가방은 책상에 두고 열쇠만 챙겨 나가.'",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 614.0,
+   "en": "Hmm. Why would that be? Well, I mean because we know that if we're going to actually leave work to go to an appointment, of course we're going to take our purse. And so it was, you know, basically sending that signal that you don't leave your desk.",
+   "ko": "왜 그럴까요? 보통 일을 완전히 끝내고 나갈 때는 가방을 챙기잖아요. 그러니까 가방을 둠으로써 '난 아직 자리를 비운 게 아니다'라는 신호를 보내라는 거죠. 책상을 떠나지 말라는 무언의 압박인 셈입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 625.0,
+   "en": "And you know, jobs like that, like you said in in DC, some of the government jobs, I mean doctors, lawyers, you name it, but what was really fascinating was in my research, you know, I have had people in all sorts of jobs.",
+   "ko": "워싱턴의 공무원, 의사, 변호사 등 그런 직업들이 많죠. 하지만 제 연구에서 흥미로웠던 점은 정말 다양한 직종의 사람들을 만났다는 거예요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 644.0,
+   "en": "Like across the whole range. K through 12 teachers, you know, I even had a race car driver and a llama farmer. I mean it goes the whole range. So it's not linked to specific jobs.",
+   "ko": "교사부터 카레이서, 심지어 라마 농장주까지 만났습니다. 범위가 아주 넓죠. 특정 직업에만 국한된 문제가 아니라는 뜻입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 659.0,
+   "en": "Another person I spoke with, she said she thought it was her job. And so she quit and she got a new job and realized she was still doing the same thing even though that job wasn't as demanding with their organizational culture.",
+   "ko": "또 다른 분은 자신의 직업이 문제인 줄 알고 회사를 옮겼는데, 새 직장은 전보다 덜 까다로운 분위기였음에도 여전히 똑같이 행동하고 있는 자신을 발견했다고 합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 674.0,
+   "en": "And then that's when she realized, oh, this is partially internally driven. So the way I see it, we there are some internal drivers that, you know, whether it's dispositional tendencies or what not.",
+   "ko": "그때서야 그녀는 '아, 이건 내 내면의 문제이기도 하구나'라고 깨달았죠. 제가 보기엔 기질적인 성향 같은 내적인 요인이 분명히 작용합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 686.0,
+   "en": "That do play a role for sure, but the setting, the organizational culture can exacerbate those workaholic tendencies basically.",
+   "ko": "내적 요인이 역할을 하지만, 조직 문화라는 환경이 그러한 워커홀리즘 경향을 더욱 악화시키는 것입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 699.0,
+   "en": "What is it something that is typical of say perfectionists? Are those the kinds of people who become workaholics?",
+   "ko": "완벽주의자들에게서 흔히 나타나는 현상인가요? 그런 사람들이 워커홀릭이 되기 쉬운가요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 706.0,
+   "en": "They're highly related. I will say, yeah. So there's different kinds of perfectionists too and we see some of the more, I would say maladaptive qualities of workaholics such as feeling negative emotions when you're not working or thinking about work all the time.",
+   "ko": "상당히 밀접한 관련이 있습니다. 완벽주의자도 유형이 다양한데, 일을 안 할 때 느끼는 부정적 감정이나 업무에 대한 끊임없는 생각 같은 워커홀릭의 부적응적 특성들이 관찰됩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 720.0,
+   "en": "In my research, those two in particular seem to be related to the aspect of perfectionism that is that you're never going to live up to your standards, your internal standards.",
+   "ko": "제 연구에 따르면, 그 두 가지는 특히 자신의 내면적 기준을 결코 충족시킬 수 없을 것이라고 느끼는 완벽주의의 측면과 관련이 깊어 보입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 735.0,
+   "en": "Whereas some people call it the more productive dimension of perfectionism, perfectionistic strivings, which is like perhaps considered the healthier aspect, that's more related to the behavioral and the motivational components of workaholism.",
+   "ko": "반면, 소위 '건강한 완벽주의'라 불리는 '완벽주의적 노력'이라는 생산적인 차원은 워커홀리즘의 행동적, 동기적 요소와 더 관련이 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 748.0,
+   "en": "So but bottom line is they're very highly related. And we see perfectionistic tendencies in your childhood that are kind of like early indicators. So yeah, a lot of workaholics are also perfectionists.",
+   "ko": "결론적으로 둘은 매우 밀접합니다. 어린 시절의 완벽주의 성향은 일종의 조기 신호가 되기도 하죠. 그래서 많은 워커홀릭이 완벽주의자이기도 합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 761.0,
+   "en": "And just to follow up on that, I mean if I were a parent of a child and I thought that there was potential workaholism flourishing there. I mean what what would I be looking for?",
+   "ko": "추가로 여쭤보자면, 부모 입장에서 아이에게 워커홀리즘 조짐이 보인다면 어떤 신호를 주의 깊게 봐야 할까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 772.0,
+   "en": "There is there's actually a concept called school addiction that I have read about. I haven't personally studied it.",
+   "ko": "개인적으로 연구하진 않았지만, '학업 중독'이라는 개념에 대해 읽어본 적이 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 778.0,
+   "en": "But yeah, you can I think look for the same sort of patterns, you know, if you're your child is constantly worried about their grade or you see them, you know, instead of taking a moment to play with friends, they are studying for their exam which is two weeks away, for hours, you know.",
+   "ko": "비슷한 패턴을 찾을 수 있을 거예요. 아이가 성적 때문에 끊임없이 걱정하거나, 친구와 놀기보다는 2주나 남은 시험을 위해 몇 시간씩 매달린다면 주의가 필요하죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 799.0,
+   "en": "And not being able to put their schoolwork down. I think those are really good indicators that there's some workaholic tendencies developing for sure.",
+   "ko": "공부에서 손을 떼지 못하는 모습도 마찬가지입니다. 그런 것들이 워커홀리즘 성향이 발달하고 있다는 아주 분명한 지표가 될 수 있다고 봅니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 810.0,
+   "en": "Well our country is sometimes stereotyped as a country of workaholics and I'm wondering if that's borne out in the research.",
+   "ko": "우리나라가 때때로 워커홀릭의 나라라는 고정관념이 있는데, 연구에서도 그런 결과가 나타나는지 궁금합니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 819.0,
+   "en": "There are some cross-cultural studies that show that some cultures, you know, on average tend to show higher levels of workaholism. US is one of them. Japan, China, South Korea, those are probably the ones that show the highest levels.",
+   "ko": "일부 문화권이 평균적으로 더 높은 워커홀리즘 수준을 보인다는 비교 문화 연구들이 있습니다. 미국이 그중 하나이고 일본, 중국, 한국이 아마 가장 높은 수준을 보일 것입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 836.0,
+   "en": "What's interesting though is Western Europe countries a lot of them, especially like the Nordic countries, we see lower levels on average again, but there's not a ton of research on this.",
+   "ko": "흥미로운 점은 서유럽 국가들, 특히 북유럽 국가들은 평균적으로 낮은 수준을 보인다는 점인데, 아직 이 분야의 연구가 아주 많지는 않습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 848.0,
+   "en": "But if I had to explain where most workaholism researchers are, it's in Europe, which we would think we need more of the research here, but that I think just goes to show that it's just culturally acceptable here.",
+   "ko": "대부분의 워커홀리즘 연구자들이 유럽에 있다는 점도 주목할 만합니다. 미국에서 더 많은 연구가 필요해 보이지만, 어쩌면 이곳에서는 워커홀리즘이 문화적으로 너무나 당연하게 받아들여지기 때문일 수도 있죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 863.0,
+   "en": "And, you know, maybe that's why in Europe we see more researchers studying this phenomenon because people take it more seriously.",
+   "ko": "반면 유럽에서는 이 현상을 더 심각하게 받아들이기 때문에 더 많은 연구가 이루어지고 있는지도 모릅니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 870.0,
+   "en": "Well we don't get a lot of vacation in this country, you know, compared to other places and I'm wondering is that something that would help mitigate workaholism or help to promote a healthier relationship that workers have with their workplace.",
+   "ko": "다른 나라에 비해 우리나라는 휴가가 적은 편인데, 휴가를 늘리는 것이 워커홀리즘을 완화하거나 직원들이 직장과 더 건강한 관계를 맺는 데 도움이 될까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 883.0,
+   "en": "I would love more vacation. Yeah. But would you take it? Oh, I mean isn't the million dollar question? Yeah, so I do think, you know, as a society, we need more sanctioned vacation days, you know.",
+   "ko": "저도 휴가가 많아지면 좋겠어요. 하지만 문제는 '과연 쉴 것인가' 하는 거죠. 그게 가장 핵심적인 질문 아닐까요? 사회적으로 더 많은 공식 휴가가 필요하다고 봅니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 897.0,
+   "en": "But regulations that, you know, mandate that organizations have to give so much vacation time, because we are far short compared to other countries in terms of days off.",
+   "ko": "조직이 의무적으로 일정 수준의 휴가를 주도록 하는 규정도 필요합니다. 다른 나라와 비교하면 쉬는 날이 턱없이 부족하니까요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 911.0,
+   "en": "But I do think that even with that, we would need to make sure people take it. You know, use it or lose it policies sometimes are beneficial. I think people don't want to lose something that they that they have.",
+   "ko": "하지만 휴가를 준다고 해도 실제로 쓰게 만드는 것이 중요합니다. '사용하지 않으면 소멸되는' 정책이 때로는 도움이 될 수 있습니다. 사람들은 자신이 가진 권리를 잃고 싶어 하지 않으니까요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 926.0,
+   "en": "But things like unlimited vacation time, I don't really think are the solution, because then it turns into this weird pressure of like, well what are my peers taking? Like what are my coworkers taking in terms of days off?",
+   "ko": "무제한 휴가제 같은 것은 해결책이 아니라고 봅니다. '다른 동료들은 며칠이나 쉴까?' 하는 식의 묘한 눈치 싸움과 압박감으로 변질될 수 있기 때문이죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 940.0,
+   "en": "I don't want to look, you know, like I'm taking too much. Um, and so I definitely think that, you know, having it taken out of the worker's control almost and, you know, the organization or some regulation say, no, these are the days you have to take.",
+   "ko": "너무 많이 쉬는 것처럼 보이고 싶지 않다는 마음이 생기죠. 그래서 차라리 근로자의 선택권보다는 조직이나 규정이 '이 날들은 무조건 쉬어야 한다'라고 정해주는 편이 낫다고 봅니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 955.0,
+   "en": "And you know, there are even right to disconnect laws in some European countries. I don't know if I'm necessarily 100% on board with that, but it's an interesting concept.",
+   "ko": "일부 유럽 국가에는 '연결되지 않을 권리' 법안도 있죠. 제가 100% 찬성하는지는 모르겠지만, 흥미로운 개념인 것은 분명합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 967.0,
+   "en": "Right to disconnect laws is basically that the organization is not allowed to reach out to the employee if they are, you know, off the clock.",
+   "ko": "연결되지 않을 권리라는 것은 근무 시간 외에는 조직이 직원에게 연락하는 것을 법적으로 금지하는 것입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 977.0,
+   "en": "So again I don't know if I'm completely on board with that, but the philosophy behind that I am. Because I do think setting those norms and, you know, making sure it's not expected.",
+   "ko": "법제화에 완전히 동의하는지는 별개로, 그 배경이 되는 철학에는 찬성합니다. 그러한 규범을 세우고, 당연하게 여겨지지 않도록 만드는 것이 중요하니까요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 988.0,
+   "en": "And organizations really really shouldn't unless there's an emergency. That can help people to truly disconnect.",
+   "ko": "비상 상황이 아닌 한 조직은 연락하지 말아야 합니다. 그래야 사람들이 진정으로 일에서 벗어날 수 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 995.0,
+   "en": "We're going to take a short break. When we return, we'll talk about the technology that keeps us tethered to our work even when we're out of the office.",
+   "ko": "잠시 쉬어가겠습니다. 돌아와서는 사무실 밖에서도 우리를 일에 묶어두는 기술에 대해 이야기 나눠보겠습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1005.0,
+   "en": "Many of us work from home these days especially since the pandemic and we have our work emails on our personal phones and computers so we can check anytime.",
+   "ko": "팬데믹 이후 재택근무가 늘어났고, 개인 휴대전화나 컴퓨터로 언제든 업무 이메일을 확인할 수 있게 되었습니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1016.0,
+   "en": "Has workaholism gotten more common do you think as technology has made us more reachable?",
+   "ko": "기술의 발달로 연락이 더 쉬워지면서 워커홀리즘이 더 흔해졌다고 보시나요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1021.0,
+   "en": "What we do know from the research is that technology does tether us to work in an unhealthy way. And simply just having that access to work 24/7 and them having access to you 24/7.",
+   "ko": "연구에 따르면 기술이 우리를 건강하지 못한 방식으로 일에 묶어두는 것은 사실입니다. 연중무휴 24시간 업무에 접근할 수 있고, 회사도 나에게 연락할 수 있다는 사실만으로도 그렇죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1035.0,
+   "en": "Really what it's hindering is your ability to psychologically detach from work because you're always you know that you're always possibly reachable.",
+   "ko": "언제든 연락이 닿을 수 있다는 생각 때문에 업무로부터 심리적으로 완전히 분리되는 능력이 저해되는 것입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1048.0,
+   "en": "And having that technology is very tempting. If you have these workaholic tendencies you're much more likely to have your email go to your phone and check it just throughout the day.",
+   "ko": "기술은 매우 유혹적입니다. 워커홀리즘 성향이 있다면 휴대폰으로 이메일을 확인하고 하루 종일 들여다볼 가능성이 훨씬 높죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1060.0,
+   "en": "Just it almost becomes a habit. A lot of us have this, you know, just if we're bored, if we're in line at the grocery store. What do we do? We pull out our phone and maybe check our email. Maybe you can relate to that.",
+   "ko": "거의 습관이 됩니다. 지루하거나 마트 줄을 서 있을 때 무심코 폰을 꺼내 이메일을 확인하곤 하죠. 아마 공감하시는 분들이 많을 겁니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1074.0,
+   "en": "And so being more accessible, it really hinders that detachment both physically and mentally from work.",
+   "ko": "접근성이 좋아지면서 업무로부터 물리적, 정신적으로 분리되는 것이 정말 어려워졌습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1080.0,
+   "en": "Are there other things that workplaces can do to basically discourage people from becoming workaholics or you know manifesting those tendencies?",
+   "ko": "일중독이 되거나 그런 경향을 보이는 것을 막기 위해 직장이 할 수 있는 다른 일들이 있을까요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1091.0,
+   "en": "Yeah, there's a ton of things they can do if they're willing to fully like see that through. The culture broadly plays a role and then how that manifests with the leader behaviors and what is rewarded is all something to think about.",
+   "ko": "의지만 있다면 할 수 있는 일이 많습니다. 전반적인 문화가 중요하며, 리더의 행동과 어떤 것이 보상받는지가 구체적으로 어떻게 나타나는지 고민해 봐야 합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1107.0,
+   "en": "So for example is the organization rewarding and praising people for being, you know, accessible on the weekends and after hours?",
+   "ko": "예를 들어, 주말이나 퇴근 후에도 연락이 잘 되는 사람을 조직에서 칭찬하고 보상하고 있지는 않나요?",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1119.0,
+   "en": "One of the companies I spoke with one of their employees told me that the CEO and all hands call was praising another, you know, one of the employees for being available whenever he needed him.",
+   "ko": "제가 인터뷰한 어떤 회사의 직원은 CEO가 전체 회의에서 자신이 필요할 때 언제든 대기하고 있었던 특정 직원을 공개적으로 칭찬했다고 말해주었습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1132.0,
+   "en": "But the issue was he worked all the way around the world. And so, you know, being available all the time meant this person was up all night basically.",
+   "ko": "문제는 그 직원이 지구 반대편에서 일하고 있었다는 점입니다. '언제든 대기한다'는 것은 그 직원이 사실상 밤을 꼬박 새워야 했다는 뜻이죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1141.0,
+   "en": "And so those are little signals that give indications of what is valued in that culture or in the organizational culture. And so what is rewarded, who is rewarded and why?",
+   "ko": "그런 사소한 신호들이 조직 문화에서 무엇을 가치 있게 여기는지 보여줍니다. 무엇을, 누구를, 왜 보상하는지가 중요하죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1154.0,
+   "en": "But also things that the leader, I think the leader is, you know, the supervisor manager is the most direct impact on us, you know.",
+   "ko": "또한 리더, 즉 직속 상관이나 매니저가 우리에게 가장 직접적인 영향을 미칩니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1163.0,
+   "en": "If our boss is constantly texting us and emailing us and we know that their personality is such that they want a response immediately.",
+   "ko": "상사가 계속 문자와 이메일을 보내고, 그가 즉각적인 답장을 원하는 성격이라는 걸 안다면 어떨까요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1172.0,
+   "en": "A lot of workaholics have this tendency to think everything is urgent. And so if the manager or the boss has these workaholic tendencies and is constantly pinging their employees and wanting an immediate response.",
+   "ko": "많은 워커홀릭이 모든 것을 긴급하다고 생각하는 경향이 있습니다. 관리자가 이런 성향을 가지고 직원들을 계속 쪼며 즉각적인 응답을 요구한다면 문제가 심각해집니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1190.0,
+   "en": "That is gonna affect the employees negatively regardless of they if they have workaholic tendencies, they're having to jump when the boss says jump.",
+   "ko": "그것은 직원 본인의 성향과 관계없이 부정적인 영향을 미칩니다. 상사가 뛰라고 하면 뛸 수밖에 없는 구조니까요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1198.0,
+   "en": "Well what if you see these tendencies in yourself? What are some of the things you can do to reduce your workaholism? And I mean you said that that was an issue for you early in your career so how do you manage this?",
+   "ko": "자신에게서 이런 경향을 발견한다면 어떻게 해야 할까요? 워커홀리즘을 줄이기 위해 무엇을 할 수 있을까요? 박사님도 커리어 초기에 겪으셨다고 했는데, 어떻게 관리하고 계신가요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1209.0,
+   "en": "It's a constant battle. I'm not gonna lie. I mean it's not like the tendencies go away, right? So I think just being really intentional and there's a variety of different strategies that I talk about in my book.",
+   "ko": "거짓말 안 하고 끊임없는 싸움입니다. 성향 자체가 완전히 사라지는 건 아니니까요. 정말 의식적으로 노력해야 합니다. 제 책에서 다양한 전략들을 소개하고 있는데요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1223.0,
+   "en": "And it's not a one size fits all. So I think it it's a matter of trial and error and see what works for you. Um, and I use a combination of things.",
+   "ko": "모두에게 맞는 정답은 없습니다. 시행착오를 거치며 자신에게 맞는 걸 찾아야 하죠. 저는 여러 방법을 조합해서 사용합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1232.0,
+   "en": "You know one strategy is scheduling myself into my daily to-do list, like putting it on my calendar. Here's the time where I'm going to actually take a lunch break and not be on my computer but just like relax and eat.",
+   "ko": "한 가지는 하루 일과표에 '나 자신을 위한 시간'을 예약하는 겁니다. 캘린더에 점심시간을 표시하고, 그때는 컴퓨터를 멀리하고 온전히 쉬면서 밥을 먹는 거죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1250.0,
+   "en": "Or like set an alarm on my phone. Okay now it's time to walk around my building for, you know, five, 10 minutes just to get some fresh air and get away from my desk.",
+   "ko": "또는 휴대폰 알람을 맞춰둡니다. 책상을 벗어나 5~10분 정도 건물 주변을 산책하며 신선한 공기를 마시는 시간이라고요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1262.0,
+   "en": "Those little moments of reprieve, like those are micro-breaks and they they can be really helpful in recovery. So another thing that I do, there's a whole literature on recovery strategies that's very related to the workaholism literature obviously.",
+   "ko": "이런 짧은 휴식, 즉 '마이크로 브레이크'가 회복에 큰 도움이 됩니다. 워커홀리즘 문헌과 밀접한 관련이 있는 '회복 전략'에 대한 방대한 연구들이 있는데요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1283.0,
+   "en": "And one recovery strategy from that literature is to engage in what's called a mastery experience. And I personally love this one. It works for me.",
+   "ko": "그중 하나가 '숙달 경험'에 참여하는 것입니다. 개인적으로 제가 가장 좋아하고 저에게 잘 맞는 방법입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1295.0,
+   "en": "Because things like relaxation and meditation I have tried. And I have failed. And I have tried again and I've failed. Um, something about just being idle is very uncomfortable for me and I you know, I don't love it.",
+   "ko": "명상이나 휴식도 시도해 봤지만 계속 실패했거든요. 아무것도 안 하고 가만히 있는 게 저한테는 너무 불편하고 힘들더라고요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1312.0,
+   "en": "And so a mastery experience is a recovery strategy where you're immersing yourself into something non work-related and it takes your attention and concentration.",
+   "ko": "숙달 경험은 일과 관련 없는 무언가에 완전히 몰입하여 주의력과 집중력을 쏟는 회복 전략입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1325.0,
+   "en": "What I love about that is, one it's been shown to be a very effective recovery strategy. Um, so you feel more, you know, engaged the next day at work, you you, you know, feel more rested and you're gaining back that energy that you lost.",
+   "ko": "이게 좋은 이유는 첫째, 매우 효과적인 회복 전략임이 입증되었기 때문입니다. 다음 날 업무 몰입도가 높아지고 에너지가 충전되는 걸 느낄 수 있죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1340.0,
+   "en": "You know throughout the whole day working. But I'm not sitting there idle. I'm doing something. You know, as long as it's something non work-related I am psychologically detaching because I'm forcing myself basically to think about something else.",
+   "ko": "멍하니 앉아 있는 게 아니라 무언가를 하는 거예요. 일만 아니라면 무엇이든 상관없습니다. 다른 생각을 하도록 스스로를 유도하면서 심리적으로 일에서 벗어나는 것이죠.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1353.0,
+   "en": "So this could be learning a new language, you know, my editor for the book he learned, you know, to play he taught himself how to play guitar. You know, so really anything that you get joy out of that you can focus on.",
+   "ko": "외국어를 배우거나, 제 책 편집자처럼 기타를 배우는 것일 수도 있습니다. 본인이 즐거움을 느끼고 집중할 수 있는 것이면 무엇이든 좋습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1368.0,
+   "en": "Is is my favorite recovery strategy for workaholics because it it really does seem that a lot of people also struggle with being at rest.",
+   "ko": "온전한 휴식을 힘들어하는 많은 워커홀릭에게 제가 가장 추천하는 회복 전략입니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1379.0,
+   "en": "You mentioned Workaholics Anonymous and I'm wondering I mean are they structured the same way that say alcoholics or narcotics anonymous are structured? Is there 12 steps that you have to go through the same as in those other organizations?",
+   "ko": "'워커홀릭 어나니머스'를 언급하셨는데, 알코올 중독자나 마약 중독자 갱생 모임처럼 12단계 프로그램 같은 구조로 되어 있나요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1392.0,
+   "en": "Yeah, they are. I I think it is modeled after, you know, they have the 12 steps, the workbooks, they have sponsors. Uh, so the I'm not a member, um, but you know learning about it from my research it seems very similar to like AA for example.",
+   "ko": "네, 그렇습니다. 12단계 프로그램, 워크북, 스폰서 제도 등이 있는 것으로 압니다. 제가 회원은 아니지만 연구를 통해 알아본 바에 따르면 AA와 매우 유사한 구조를 가지고 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1407.0,
+   "en": "What are you working on now? I mean what are the big questions that you're trying to answer?",
+   "ko": "지금은 어떤 연구를 하고 계신가요? 박사님이 해결하고자 하는 핵심 질문들은 무엇인가요?",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1412.0,
+   "en": "Well one of them is looking at these mastery experiences as recovery, you know and is this actually a more beneficial strategy for people higher in workaholism? And we really don't know enough about that.",
+   "ko": "하나는 숙달 경험을 통한 회복을 연구하는 것입니다. 이것이 워커홀리즘 성향이 높은 사람들에게 정말 더 유익한 전략인지 알아보는 것이죠. 아직 밝혀지지 않은 부분이 많습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1428.0,
+   "en": "Especially when we think about on a daily basis. So how does engaging in a mastery experience at night help you the next day at work? Do you, you know, are you more productive? Are you more engaged?",
+   "ko": "특히 일상적인 관점에서요. 밤에 갖는 숙달 경험이 다음 날 업무에 어떻게 도움이 되는지, 더 생산적이거나 몰입하게 되는지를 연구하고 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1442.0,
+   "en": "And there's really very little research looking at that particular question. Um, currently working on updating my meta-analysis because that is about 10 years old now. Time goes by fast.",
+   "ko": "이 질문에 대한 연구는 거의 없는 실정입니다. 또한 10년이 지난 제 메타 분석을 업데이트하고 있습니다. 시간이 참 빠르네요.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1458.0,
+   "en": "So we're updating that and including all of the studies that have been conducted in, you know, the last 10 years since that was done and so looking to see are we seeing the same trends in terms of outcomes of workaholism.",
+   "ko": "지난 10년간 이루어진 모든 연구를 포함하여 워커홀리즘의 결과에 대해 동일한 경향이 나타나는지 확인하고 있습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1475.0,
+   "en": "And so I'm excited about doing that update. So those are some of my my main ones right now but yeah really looking at day-to-day dynamics I think is is something that I want to keep diving into.",
+   "ko": "업데이트 작업이 매우 기대됩니다. 현재 주력하는 연구들이며, 일상적인 역동성을 파악하는 연구를 계속 깊이 있게 진행하고 싶습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1488.0,
+   "en": "And tracing people from day to day. Like what are you thinking about when you're not at work? And what is it about your workaholism that you struggle with the most to like turn off?",
+   "ko": "사람들의 일상을 추적하며 그들이 퇴근 후 무엇을 생각하는지, 그리고 워커홀리즘의 어떤 점 때문에 스위치를 끄는 것을 가장 힘들어하는지 밝혀내고 싶습니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1500.0,
+   "en": "Well this has been really interesting and I think you've given some good ideas to some of our listeners who may have some of these tendencies so I want to thank you for joining me today Dr. Clark.",
+   "ko": "정말 흥미로운 시간이었습니다. 이런 성향을 가진 청취자분들께 좋은 아이디어를 많이 주신 것 같네요. 클라크 박사님, 오늘 함께해주셔서 감사합니다.",
+   "speaker": "Kim Mills"
+  },
+  {
+   "start": 1510.0,
+   "en": "Thank you so much for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Dr. Melissa Clark"
+  },
+  {
+   "start": 1512.0,
+   "en": "You can learn more about the psychology of workaholism in the October issue of APA's magazine Monitor on Psychology. It's available for free at www.apa.org/monitor.",
+   "ko": "워커홀리즘의 심리학에 대해 더 알고 싶으시면 APA 매거진 '모니터 온 사이콜로지' 10월호를 참고하세요. 홈페이지에서 무료로 보실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1525.0,
+   "en": "You can find previous episodes of Speaking of Psychology on our website at speakingofpsychology.org or on Apple, YouTube, Spotify, or wherever you get your podcasts.",
+   "ko": "'스피킹 오브 사이콜로지'의 지난 에피소드들은 저희 웹사이트나 애플, 유튜브, 스포티파이 등 팟캐스트 플랫폼에서 만나보실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1535.0,
+   "en": "And if you like what you've heard, please subscribe and leave a review. If you have comments or ideas for future episodes you can email us at speakingofpsychology@apa.org.",
+   "ko": "방송이 좋으셨다면 구독과 리뷰 부탁드립니다. 의견이나 아이디어가 있으시면 이메일로 보내주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1546.0,
+   "en": "Speaking of Psychology is produced by Lee Weinerman. Thank you for listening to the American Psychological Association. I'm Kim Mills.",
+   "ko": "'스피킹 오브 사이콜로지'는 리 와이너먼이 제작합니다. 지금까지 미국 심리학회 팟캐스트를 들어주셔서 감사합니다. 저는 킴 밀스였습니다.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
