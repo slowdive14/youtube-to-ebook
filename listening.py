@@ -411,6 +411,108 @@ PODCAST_RECENT_DAYS = 14
 VELORA_API = os.getenv("VELORA_API_BASE", "https://velora-wine-chi.vercel.app").rstrip("/")
 
 
+# --- Velora's subscriptions are the source of truth --------------------------
+#
+# The learner follows and unfollows shows in Velora; podcasts.txt mirrors that
+# list each run (and is the fallback on a day Velora can't be reached). The
+# list lives in Velora's Supabase project, one row per account, readable only
+# by that account under row level security — so the pipeline signs in as the
+# learner, reads just the podcast list, and signs that one session out again.
+# Configured in .env: VELORA_SUPABASE_URL, VELORA_SUPABASE_ANON_KEY (Velora's
+# public client values), VELORA_EMAIL, VELORA_PASSWORD.
+
+
+def fetch_velora_subscriptions(http=requests):
+    """
+    [{feedUrl, title}] in the order they were followed, or None when it can't
+    be read (not configured, wrong password, offline). An empty list is a real
+    answer: the learner follows nothing.
+    """
+    url = os.getenv("VELORA_SUPABASE_URL", "").rstrip("/")
+    key = os.getenv("VELORA_SUPABASE_ANON_KEY", "")
+    email = os.getenv("VELORA_EMAIL", "")
+    password = os.getenv("VELORA_PASSWORD", "")
+    if not (url and key and email and password):
+        return None
+    try:
+        r = http.post(
+            f"{url}/auth/v1/token?grant_type=password",
+            headers={"apikey": key},
+            json={"email": email, "password": password},
+            timeout=20,
+        )
+        r.raise_for_status()
+        token = r.json()
+        access, user_id = token["access_token"], token["user"]["id"]
+    except Exception as e:
+        print(f"  [!] Velora sign-in failed: {str(e)[:120]}")
+        return None
+    auth = {"apikey": key, "Authorization": f"Bearer {access}"}
+    try:
+        q = http.get(
+            f"{url}/rest/v1/velora_progress",
+            params={"select": "data", "user_id": f"eq.{user_id}"},
+            headers=auth,
+            timeout=20,
+        )
+        q.raise_for_status()
+        rows = q.json()
+        podcasts = (rows[0].get("data") or {}).get("podcasts") if rows else []
+        return [
+            {"feedUrl": p["feedUrl"], "title": p.get("title", "")}
+            for p in podcasts or []
+            if isinstance(p, dict) and str(p.get("feedUrl", "")).startswith("http")
+        ]
+    except Exception as e:
+        print(f"  [!] Reading Velora subscriptions failed: {str(e)[:120]}")
+        return None
+    finally:
+        # 'local' ends only this session. The default would sign the learner
+        # out on every device.
+        try:
+            http.post(f"{url}/auth/v1/logout?scope=local", headers=auth, timeout=10)
+        except Exception:
+            pass
+
+
+PODCASTS_HEADER = """# Podcasts whose new episodes get a read-along transcript for Velora
+# (listening.py, Step 6): one episode a day, the shows taking turns.
+# MIRRORED FROM VELORA each run: follow or unfollow shows in Velora's podcast
+# screen, not here. Edits to this file only matter on a day Velora can't be
+# read (then this list is used as is). One RSS feed per line.
+"""
+
+
+def render_podcast_list(subscriptions):
+    lines = [PODCASTS_HEADER]
+    for s in subscriptions:
+        note = f"   # {s['title']}" if s.get("title") else ""
+        lines.append(f"{s['feedUrl']}{note}")
+    return "\n".join(lines) + "\n"
+
+
+def sync_podcast_list(path=PODCASTS_FILE, fetch=fetch_velora_subscriptions):
+    """
+    The feeds to use today, and whether podcasts.txt changed. Velora's list
+    when it can be read (podcasts.txt is rewritten to match), otherwise the
+    file as it stands.
+    """
+    subs = fetch()
+    if subs is None:
+        print("  [.] Velora subscriptions unavailable: using podcasts.txt")
+        return read_podcast_list(path), False
+    content = render_podcast_list(subs)
+    try:
+        current = Path(path).read_text(encoding="utf-8")
+    except OSError:
+        current = ""
+    changed = current.replace("\r\n", "\n") != content
+    if changed:
+        Path(path).write_text(content, encoding="utf-8")
+    print(f"  [.] Velora subscriptions: {len(subs)} show(s){' (podcasts.txt updated)' if changed else ''}")
+    return [s["feedUrl"] for s in subs], changed
+
+
 def read_podcast_list(path=PODCASTS_FILE):
     """Feed URLs from podcasts.txt, in file order (notes after '#' ignored)."""
     try:

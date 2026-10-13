@@ -566,25 +566,36 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def publish_listening(entries):
+def publish_listening(entries, extra_files=None):
     """
     Commit and push listening transcripts on their own: the followed-podcast
-    step runs whether or not the day produced a digest issue.
+    step runs whether or not the day produced a digest issue. extra_files
+    (podcasts.txt, re-mirrored from Velora) go into the same commit; with no
+    entries, only those are committed and no deploy is triggered.
     """
-    if not entries or not ARCHIVE_REPO_PATH:
+    extra_files = [f for f in (extra_files or []) if Path(f).exists()]
+    if not ARCHIVE_REPO_PATH or not (entries or extra_files):
         return False
     from listening import save_entries, listening_dir
 
-    written, removed = save_entries(entries, ARCHIVE_REPO_PATH)
-    print(f"  [OK] Listening: {len(written)} episode(s) saved, {len(removed)} old one(s) removed")
     repo_path = Path(ARCHIVE_REPO_PATH)
+    paths = [str(f) for f in extra_files]
+    if entries:
+        written, removed = save_entries(entries, ARCHIVE_REPO_PATH)
+        print(f"  [OK] Listening: {len(written)} episode(s) saved, {len(removed)} old one(s) removed")
+        paths.append(str(listening_dir(ARCHIVE_REPO_PATH)))
+    message = (
+        f"Add listening episode(s): {', '.join(e['show'] for e in entries)}"
+        if entries
+        else "Mirror followed podcasts from Velora"
+    )
     try:
         subprocess.run(
-            ["git", "add", "-A", "--", str(listening_dir(ARCHIVE_REPO_PATH))],
+            ["git", "add", "-A", "--", *paths],
             cwd=str(repo_path), check=True, capture_output=True,
         )
         subprocess.run(
-            ["git", "commit", "-m", f"Add listening episode(s): {', '.join(e['show'] for e in entries)}"],
+            ["git", "commit", "-m", message],
             cwd=str(repo_path), check=True, capture_output=True,
         )
         # --autostash keeps any unrelated local edits out of the way.
@@ -597,8 +608,9 @@ def publish_listening(entries):
         stderr = e.stderr.decode("utf-8", errors="replace") if e.stderr else ""
         print(f"  [!] Git operation failed: {stderr[:200]}")
         return False
-    print("  [OK] Pushed listening episodes")
-    trigger_vercel_deploy()
+    print("  [OK] Pushed listening changes")
+    if entries:  # the site only changes when a transcript was added
+        trigger_vercel_deploy()
     return True
 
 

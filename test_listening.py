@@ -247,6 +247,96 @@ def test_an_unreachable_feed_is_skipped(tmp_path):
     assert [e["show"] for e in out] == ["Busy"]
 
 
+# --- Velora subscriptions → podcasts.txt -------------------------------------
+
+from listening import fetch_velora_subscriptions, sync_podcast_list, render_podcast_list
+
+
+class FakeResponse:
+    def __init__(self, payload, status=200):
+        self.payload, self.status_code = payload, status
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            raise RuntimeError(f"HTTP {self.status_code}")
+
+    def json(self):
+        return self.payload
+
+
+class FakeSupabase:
+    """Records calls; answers sign-in, the progress row, and logout."""
+
+    def __init__(self, podcasts, sign_in_status=200):
+        self.podcasts, self.sign_in_status, self.calls = podcasts, sign_in_status, []
+
+    def post(self, url, **kw):
+        self.calls.append(("POST", url))
+        if "grant_type=password" in url:
+            return FakeResponse({"access_token": "tok", "user": {"id": "user-1"}}, self.sign_in_status)
+        return FakeResponse({}, 204)
+
+    def get(self, url, params=None, **kw):
+        self.calls.append(("GET", url, params))
+        return FakeResponse([{"data": {"podcasts": self.podcasts}}])
+
+
+VELORA_ENV = {
+    "VELORA_SUPABASE_URL": "https://proj.supabase.co",
+    "VELORA_SUPABASE_ANON_KEY": "anon",
+    "VELORA_EMAIL": "me@example.com",
+    "VELORA_PASSWORD": "pw",
+}
+
+
+def test_reads_the_followed_shows_and_signs_only_its_own_session_out(monkeypatch):
+    for k, v in VELORA_ENV.items():
+        monkeypatch.setenv(k, v)
+    http = FakeSupabase([
+        {"id": "a", "title": "Hidden Brain", "feedUrl": "https://feeds.simplecast.com/kwWc0lhf"},
+        {"id": "b", "title": "Broken", "feedUrl": "not a url"},
+    ])
+    subs = fetch_velora_subscriptions(http)
+    assert subs == [{"feedUrl": "https://feeds.simplecast.com/kwWc0lhf", "title": "Hidden Brain"}]
+    assert http.calls[1] == ("GET", "https://proj.supabase.co/rest/v1/velora_progress",
+                             {"select": "data", "user_id": "eq.user-1"})
+    # Signing out every device would log the learner's phone out too.
+    assert http.calls[-1] == ("POST", "https://proj.supabase.co/auth/v1/logout?scope=local")
+
+
+def test_unconfigured_or_failed_sign_in_reads_nothing(monkeypatch):
+    for k in VELORA_ENV:
+        monkeypatch.delenv(k, raising=False)
+    assert fetch_velora_subscriptions(FakeSupabase([])) is None
+    for k, v in VELORA_ENV.items():
+        monkeypatch.setenv(k, v)
+    assert fetch_velora_subscriptions(FakeSupabase([], sign_in_status=400)) is None
+
+
+def test_podcasts_txt_mirrors_velora_and_round_trips(tmp_path):
+    path = tmp_path / "podcasts.txt"
+    subs = [{"feedUrl": "https://a.example.com/rss", "title": "Show A"},
+            {"feedUrl": "https://b.example.com/rss", "title": ""}]
+    feeds, changed = sync_podcast_list(path, fetch=lambda: subs)
+    assert feeds == ["https://a.example.com/rss", "https://b.example.com/rss"]
+    assert changed is True
+    assert read_podcast_list(path) == feeds
+    assert sync_podcast_list(path, fetch=lambda: subs)[1] is False  # nothing new to write
+
+
+def test_falls_back_to_the_file_when_velora_cannot_be_read(tmp_path):
+    path = tmp_path / "podcasts.txt"
+    path.write_text(render_podcast_list([{"feedUrl": "https://kept.example.com/rss", "title": "Kept"}]), encoding="utf-8")
+    assert sync_podcast_list(path, fetch=lambda: None) == (["https://kept.example.com/rss"], False)
+
+
+def test_unfollowing_everything_in_velora_empties_the_list(tmp_path):
+    path = tmp_path / "podcasts.txt"
+    path.write_text("https://old.example.com/rss\n", encoding="utf-8")
+    assert sync_podcast_list(path, fetch=lambda: []) == ([], True)
+    assert read_podcast_list(path) == []
+
+
 def test_stops_trying_once_gemini_keeps_failing(tmp_path):
     # An overload fails every attempt; burning the whole show list on it
     # would only spend quota.

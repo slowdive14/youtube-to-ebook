@@ -476,13 +476,15 @@ def run_podcast_listening():
         return
     print("\n[STEP 6] Listening: a new episode from the followed podcasts...")
     try:
-        from listening import make_podcast_entries
+        from listening import make_podcast_entries, sync_podcast_list, PODCASTS_FILE
         from export_archive import publish_listening
-        entries = make_podcast_entries(repo_path=os.getenv("ARCHIVE_REPO_PATH"))
-        if entries:
-            publish_listening(entries)
-        else:
+        # The shows followed in Velora decide; podcasts.txt is re-mirrored.
+        feeds, list_changed = sync_podcast_list()
+        entries = make_podcast_entries(repo_path=os.getenv("ARCHIVE_REPO_PATH"), feeds=feeds)
+        if not entries:
             print("  [.] Nothing new within the length limit today")
+        if entries or list_changed:
+            publish_listening(entries, extra_files=[PODCASTS_FILE] if list_changed else None)
     except Exception as e:
         print(f"  [!] Podcast listening failed (non-fatal): {e}")
 
