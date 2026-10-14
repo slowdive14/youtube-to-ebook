@@ -1,17 +1,17 @@
 # Podcasts whose new episodes get a read-along transcript for Velora
 # (listening.py, Step 6): one episode a day, the shows taking turns.
-# MIRRORED FROM VELORA each run once VELORA_EMAIL/VELORA_PASSWORD are set in
-# .env: follow or unfollow shows in Velora's podcast screen, not here. Until
-# then (or on a day Velora can't be read) this list is used as is.
-# One RSS feed per line; text after "#" is a note. Seeded from Snipd history.
+# MIRRORED FROM VELORA each run: follow or unfollow shows in Velora's podcast
+# screen, not here. Edits to this file only matter on a day Velora can't be
+# read (then this list is used as is). One RSS feed per line.
 
-https://esl.culips.com/feed/podcast/                                      # Culips Everyday English (~30 min)
-https://feeds.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9933181801      # Speaking of Psychology (~30 min)
-https://www.abc.net.au/feeds/2888650/podcast.xml                          # All In The Mind, ABC (~30 min)
-https://feeds.simplecast.com/Y8lFbOT4                                     # Freakonomics Radio (~45-60 min)
-https://feeds.simplecast.com/kwWc0lhf                                     # Hidden Brain (~50-90 min)
-https://feeds.megaphone.fm/feelbetterlivemore                             # Feel Better, Live More (Bitesize ~20 min)
-https://feeds.megaphone.fm/GBLL2287897073                                 # The One You Feed (~60 min)
-https://feeds.megaphone.fm/LI1683199352                                   # The Next Big Idea (~60-80 min)
-https://feeds.megaphone.fm/SIXMSB5088139739                               # Modern Wisdom (~60-100 min)
-https://feeds.megaphone.fm/hubermanlab                                    # Huberman Lab (Essentials ~35 min)
+https://feeds.simplecast.com/kwWc0lhf   # Hidden Brain
+https://feeds.megaphone.fm/hubermanlab   # Huberman Lab
+https://feeds.megaphone.fm/feelbetterlivemore   # Feel Better, Live More
+https://esl.culips.com/feed/podcast/   # Culips Everyday English
+https://feeds.megaphone.fm/LI1683199352   # The Next Big Idea
+https://feeds.megaphone.fm/SIXMSB5088139739   # Modern Wisdom
+https://www.abc.net.au/feeds/2888650/podcast.xml   # All In The Mind
+https://feeds.megaphone.fm/GBLL2287897073   # The One You Feed
+https://feeds.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9933181801   # Speaking of Psychology
+https://feeds.simplecast.com/Y8lFbOT4   # Freakonomics Radio
+https://feeds.simplecast.com/54nAGcIl   # The Daily
