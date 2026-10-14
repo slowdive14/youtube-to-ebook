@@ -1,0 +1,1112 @@
+{
+ "id": "XVz46V_2yrc",
+ "title": "The U.S. Tried to Choke Russia’s Energy Market. Then It Made a Diesel Deal.",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=XVz46V_2yrc",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/6a014579-60ac-4d38-bb52-bbbec0c08d83/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=6a014579-60ac-4d38-bb52-bbbec0c08d83&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/86/d6/8a86d646-b0b0-61a3-465e-f6cc37227a39/mza_2469148864997800442.jpg/600x600bb.jpg",
+ "duration": 1996,
+ "releaseDate": "2026-10-14T09:52:14Z",
+ "addedAt": "2026-10-14",
+ "segments": [
+  {
+   "start": 0.2,
+   "en": "The New York Times app unlocked? Everyone knows you need to subscribe to The Times to access all of the reporting.",
+   "ko": "뉴욕타임스 앱이 잠금 해제되었다고요? 모든 기사를 보려면 타임스를 구독해야 한다는 건 누구나 알고 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 7.7,
+   "en": "But what if you could explore The Times for a month, for free, without putting in a credit card? Now you can.",
+   "ko": "하지만 신용카드 정보를 입력하지 않고도 한 달 동안 타임스를 무료로 살펴볼 수 있다면 어떨까요? 이제 가능합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 13.9,
+   "en": "When you download The New York Times app for the first time, your first month in the app is free. A month to go behind the paywall, to see what time subscribers get every single day.",
+   "ko": "뉴욕타임스 앱을 처음 다운로드하면 첫 한 달은 무료입니다. 유료 구독 장벽 너머로 들어가서 구독자들이 매일 무엇을 보는지 확인할 수 있는 한 달이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 23.8,
+   "en": "If you don't already subscribe to The New York Times, download The Times app today and get free access for 30 days.",
+   "ko": "아직 뉴욕타임스를 구독하지 않으셨다면, 지금 바로 앱을 다운로드하고 30일 동안 무료로 이용해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 32.1,
+   "en": "From the New York Times, I'm Natalie Kitroeth. This is the Daily.",
+   "ko": "뉴욕타임스에서 전해드리는 저는 나탈리 키트로에프입니다. '더 데일리' 시작합니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 42.4,
+   "en": "After years of American sanctions on Russian oil and gas, President Trump has just announced a deal in which the United States would buy billions of dollars in diesel from Russia.",
+   "ko": "미국이 러시아의 석유와 가스에 수년간 제재를 가해온 가운데, 트럼프 대통령은 미국이 러시아로부터 수십억 달러 상당의 디젤을 구매하는 계약을 체결했다고 발표했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 54.3,
+   "en": "Trump claimed the move would lower fuel prices, but it stunned U.S. allies and lawmakers in Washington, who warned that the American government was handing Putin a lifeline.",
+   "ko": "트럼프는 이번 조치가 연료 가격을 낮출 것이라고 주장했지만, 이는 미국 우방국들과 워싱턴의 의원들을 충격에 빠뜨렸습니다. 이들은 미국 정부가 푸틴에게 구명줄을 던져주고 있다고 경고했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 65.3,
+   "en": "Today, my colleague Anton Troyanovsky explains what the deal reveals about Trump's changing strategy with Russia and how much it could actually help American consumers. It's Wednesday, October 14th.",
+   "ko": "오늘 동료 기자 안톤 트로야노프스키가 이번 거래가 러시아를 향한 트럼프의 변화하는 전략에 대해 무엇을 시사하는지, 그리고 실제로 미국 소비자들에게 얼마나 도움이 될지 설명합니다. 10월 14일 수요일입니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 86.8,
+   "en": "Anton, welcome back to the Daily. We love having you here.",
+   "ko": "안톤, '더 데일리'에 다시 오신 것을 환영합니다. 함께해주셔서 정말 좋네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 90.0,
+   "en": "Good to be here. Thank you, Natalie.",
+   "ko": "반갑습니다. 초대해 주셔서 감사합니다, 나탈리.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 92.0,
+   "en": "So, on Friday, we learned that the American government is now reversing years of U.S. policy because we were told that money could fund Russia's war machine.",
+   "ko": "지난 금요일, 미국 정부가 수년간 유지해온 정책을 뒤집고 있다는 소식이 들렸습니다. 그동안 그 자금이 러시아의 전쟁 자금으로 쓰일 수 있다는 말을 들어왔었는데요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 108.0,
+   "en": "And we learned that all this is in service of lowering gas prices at home. This news was received, I think, as a total shock around the world.",
+   "ko": "그리고 이 모든 것이 국내 가스 가격을 낮추기 위한 것이라고 합니다. 이 소식은 전 세계에 엄청난 충격을 주었다고 생각해요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 118.8,
+   "en": "Can you just start by saying how big of a deal this actually is?",
+   "ko": "이게 실제로 얼마나 중대한 사안인지부터 말씀해 주시겠어요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 122.9,
+   "en": "Yeah, absolutely. So Friday's news was a really stunning reversal because it was the President saying, we have agreed with Russia that the Russians will immediately supply 300,000 tons of diesel to US and world markets.",
+   "ko": "네, 맞습니다. 금요일의 소식은 정말 놀라운 반전이었는데, 대통령이 직접 러시아가 미국과 세계 시장에 즉시 30만 톤의 디젤을 공급하기로 합의했다고 말했기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 140.5,
+   "en": "And even more after that, without even saying that this was part of some kind of broader deal to deescalate this war in Ukraine that's now gone on for four and a half years and killed hundreds of thousands of people.",
+   "ko": "그리고 그 이후에 더 많은 공급이 있을 것이라고 했죠. 이것이 벌써 4년 반 동안 지속되며 수십만 명의 목숨을 앗아간 우크라이나 전쟁의 긴장을 완화하기 위한 더 큰 합의의 일부라는 언급조차 없이 말입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 156.5,
+   "en": "Okay, so how did this happen, Anton? Lay out for me how exactly we got here.",
+   "ko": "좋아요, 안톤, 어떻게 이런 일이 일어난 건가요? 우리가 어떻게 이 지점까지 오게 된 건지 자세히 설명해 주세요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 162.8,
+   "en": "Well let's go all the way back to the 2024 election campaign. You remember, one of Trump's main campaign promises was to end the war in Ukraine. He said he was going to do it in 24 hours.",
+   "ko": "2024년 대선 캠페인 당시로 거슬러 올라가 보죠. 기억하시겠지만, 트럼프의 주요 공약 중 하나는 우크라이나 전쟁을 끝내겠다는 것이었습니다. 그는 24시간 안에 해내겠다고 했었죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 175.7,
+   "en": "That did not happen.",
+   "ko": "그 일은 일어나지 않았죠.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 176.7,
+   "en": "That did not happen. But Trump's friend and now peace envoy, Steve Witkoff, started early on in February of 2025, regularly going to Russia, meeting with Putin, speaking to other Russian officials about trying to end the war.",
+   "ko": "일어나지 않았습니다. 하지만 트럼프의 친구이자 현재 평화 특사인 스티브 윗코프는 2025년 2월 초부터 정기적으로 러시아를 방문하여 푸틴을 만나고, 다른 러시아 관리들과 전쟁 종결에 대해 논의하기 시작했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 196.1,
+   "en": "One primary prong of the U.S. approach has been talking about business deals with Russia, basically making the argument that, look, if only this war was over, we could do all these great things together and our countries could make lots of money.",
+   "ko": "미국 접근 방식의 한 가지 주요 축은 러시아와의 비즈니스 거래를 이야기하는 것이었습니다. 기본적으로 '전쟁만 끝나면 우리가 함께 위대한 일들을 할 수 있고 양국이 많은 돈을 벌 수 있다'는 논리를 펴는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 210.7,
+   "en": "Essentially, let's end this war and we can all profit off of that.",
+   "ko": "본질적으로 전쟁을 끝내고 우리 모두 이익을 얻자는 거군요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 215.5,
+   "en": "Exactly. But the problem was that didn't work. For Putin, economics matter, but he clearly didn't start this war in Ukraine to make more money.",
+   "ko": "정확합니다. 하지만 문제는 그게 통하지 않았다는 겁니다. 푸틴에게 경제가 중요하긴 하지만, 그가 더 많은 돈을 벌려고 우크라이나 전쟁을 시작한 것은 분명 아니니까요.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 227.2,
+   "en": "What Putin cares about is territory. He wants more of the eastern Ukrainian region called the Donbass.",
+   "ko": "푸틴이 관심을 갖는 것은 영토입니다. 그는 돈바스라고 불리는 우크라이나 동부 지역을 더 많이 차지하고 싶어 하죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 234.2,
+   "en": "What Putin cares about is the kind of control he'll be able to exercise over the rest of Ukraine after the war ends.",
+   "ko": "푸틴이 신경 쓰는 것은 전쟁이 끝난 후 우크라이나의 나머지 지역에 대해 행사할 수 있는 통제력의 종류입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 240.5,
+   "en": "And what he cares about are these big geopolitical issues of what does the future relationship between Russia and NATO look like, where are Western troops located in different parts of Europe.",
+   "ko": "그리고 그가 중요하게 생각하는 것은 러시아와 나토의 미래 관계는 어떠할지, 유럽의 여러 지역에 서방 군대가 어디에 배치될지와 같은 거대한 지정학적 이슈들입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 252.4,
+   "en": "It's this big kaleidoscope of issues for Putin, of which economics are really just a part. And as a result, this effort of dangling deals in front of Putin with the hope that this will get him to compromise has not borne fruit.",
+   "ko": "푸틴에게 이것은 거대한 만화경 같은 복합적인 문제들이며, 경제는 그저 일부일 뿐입니다. 결과적으로 푸틴에게 거래를 제안하며 타협을 이끌어내려던 노력은 결실을 보지 못했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 272.7,
+   "en": "Then layer on top of that, the fact that the Iran war starts in February of this year. And that makes things even more complicated.",
+   "ko": "거기에 올해 2월 시작된 이란 전쟁이라는 상황이 덧붙여졌습니다. 그리고 그것이 상황을 훨씬 더 복잡하게 만들었죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 281.3,
+   "en": "In part by raising energy prices around the world. Russia of course is one of the world's biggest exporters of both oil and gas.",
+   "ko": "전 세계 에너지 가격을 끌어올림으로써 말이죠. 러시아는 물론 세계 최대의 석유 및 가스 수출국 중 하나입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 290.0,
+   "en": "And that gives Putin new cards to play, which puts these negotiations about potential energy deals with the Russians into a different light because suddenly it's now the US that's looking for ways to lower energy prices.",
+   "ko": "이는 푸틴에게 새로운 패를 쥐여주었습니다. 러시아와의 잠재적 에너지 거래 협상은 다른 양상을 띠게 되었는데, 갑자기 에너지 가격을 낮출 방법을 찾는 쪽이 미국이 되었기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 305.6,
+   "en": "And especially right now as we have these midterm elections coming up, you might start to see that pain that American consumers are feeling translated into votes.",
+   "ko": "특히 지금처럼 중간선거가 다가오고 있는 시점에는 미국 소비자들이 느끼는 고통이 투표 결과로 이어지는 것을 보게 될 수도 있겠네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 315.6,
+   "en": "Exactly. So you see the administration thinking about all kinds of ways to try to reverse this spike in fuel prices. And then at the same time, you have the Ukraine war escalating.",
+   "ko": "정확합니다. 그래서 정부는 연료 가격의 급등을 되돌리기 위해 온갖 방법을 고민하고 있습니다. 그런데 동시에 우크라이나 전쟁이 격화되고 있죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 332.2,
+   "en": "Ukraine says Russia has carried out a steadfast attack of the year. At least 33 people were killed. Russia attacked a Ukrainian power plant, the war getting bloodier.",
+   "ko": "우크라이나는 러시아가 올해 가장 강력한 공격을 단행했다고 말합니다. 최소 33명이 사망했습니다. 러시아가 우크라이나 발전소를 공격하며 전쟁은 더욱 참혹해지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 342.1,
+   "en": "In particular, Russian strikes on Ukrainian infrastructure. Ukraine says it has struck a Russian oil refinery near Moscow in Russia. Ukraine responding by hitting Russian oil refineries.",
+   "ko": "특히 우크라이나 인프라에 대한 러시아의 공습이 이어지고 있습니다. 우크라이나는 러시아 모스크바 인근의 정유소를 타격했다고 밝혔습니다. 러시아 정유소를 공격하며 맞대응하고 있는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 357.4,
+   "en": "New video shows massive explosions at thick smoke pouring from an oil refinery, just 10 miles from the Kremlin. At some point, they get something like half of Russian oil refining capacity offline.",
+   "ko": "새로운 영상은 크렘린궁에서 불과 10마일 떨어진 정유소에서 거대한 폭발과 자욱한 연기가 뿜어져 나오는 모습을 보여줍니다. 어느 시점에는 러시아 석유 정제 능력의 절반 정도가 중단되기도 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 368.7,
+   "en": "Well, the blaze halted production, putting more pressure on the country's already strained oil infrastructure. And there were gas lines at Russian gas stations, and Russia had to implement an export ban for diesel. This past July.",
+   "ko": "화재로 생산이 중단되면서 이미 한계에 다다른 러시아의 석유 인프라에 더 큰 압박이 가해졌습니다. 러시아 주유소에는 줄이 늘어섰고, 지난 7월 러시아는 디젤 수출 금지 조치를 시행해야 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 384.0,
+   "en": "Meaning if Russia is banning exports, there's less diesel in the global market and so prices presumably go up again.",
+   "ko": "즉, 러시아가 수출을 금지하면 세계 시장에 디젤이 줄어들고, 따라서 가격은 다시 오르게 된다는 뜻이군요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 392.7,
+   "en": "Yeah, that's right. And so the Trump administration has tried to push the Ukrainians to stop those attacks on Russian refineries.",
+   "ko": "네, 맞습니다. 그래서 트럼프 행정부는 우크라이나 측에 러시아 정유소에 대한 공격을 중단하라고 압박해 왔습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 402.3,
+   "en": "And the Ukrainians have responded that they're happy to do so if it's part of a mutual cessation of strikes on each other's energy infrastructure, right?",
+   "ko": "우크라이나 측은 서로의 에너지 인프라에 대한 공격을 상호 중단하는 조건이라면 기꺼이 그렇게 하겠다고 답했습니다, 그렇죠?",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 414.1,
+   "en": "So the Ukrainians have been saying yes, we are willing to stop hitting Russian oil refineries if the Russians stop hitting our energy infrastructure and that hasn't happened nevertheless the administration has continued to put pressure on the Ukrainians.",
+   "ko": "우크라이나인들은 러시아가 우리의 에너지 인프라 공격을 멈춘다면 우리도 러시아 정유소 타격을 멈출 용의가 있다고 말해왔지만, 그런 일은 일어나지 않았습니다. 그럼에도 정부는 우크라이나에 계속 압력을 가해 왔죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 428.9,
+   "en": "And there has clearly been frustration on the part of the president and top officials in the administration that the Ukrainians haven't agreed to unilaterally stop those refinery strikes.",
+   "ko": "우크라이나가 정유소 공격을 일방적으로 중단하는 데 동의하지 않자 대통령과 정부 고위 관리들 사이에서는 분명히 불만이 터져 나왔습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 441.9,
+   "en": "So leaning on Ukraine doesn't work.",
+   "ko": "그러니까 우크라이나를 압박하는 게 통하지 않았던 거군요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 444.2,
+   "en": "Correct. So as we've seen this Trump administration frustration with Ukraine increase, we've also seen their approach to Russia shift.",
+   "ko": "맞습니다. 트럼프 행정부의 우크라이나에 대한 불만이 커지는 것을 보면서, 동시에 러시아에 대한 그들의 접근 방식이 변화하는 것도 목격했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 458.1,
+   "en": "Specifically on this question of business deals. So previously, President Trump had said we're happy to do business with Russia, but only once the war ends. Right.",
+   "ko": "특히 비즈니스 거래 문제에서 말이죠. 이전에는 트럼프 대통령이 러시아와 기꺼이 비즈니스를 하겠지만, 오직 전쟁이 끝난 후에야 가능하다고 말했었습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 472.3,
+   "en": "Now in recent months, according to our reporting, the message has evolved to we are willing to consider deals with Russia before the end of the war.",
+   "ko": "저희 취재에 따르면 최근 몇 달 사이 메시지는 '전쟁이 끝나기 전이라도 러시아와의 거래를 고려할 용의가 있다'는 쪽으로 진화했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 485.9,
+   "en": "Because one of the things that folks in the administration who are working on this are worried about is that Putin and the Kremlin might not believe that the Trump administration is really ready to change course and enter into a new kind of more friendly relationship with Russia.",
+   "ko": "이 문제를 다루는 정부 관계자들이 우려하는 것 중 하나는, 푸틴과 크렘린이 트럼프 행정부가 정말로 경로를 변경하고 러시아와 새로운 종류의 더 우호적인 관계를 맺을 준비가 되었다는 것을 믿지 않을 수도 있다는 점이기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 506.7,
+   "en": "The idea here is that the Trump administration wants to signal very clearly to the Russians, we are serious about the rewards of cooperating with us. This is what it could look like. This is how good it could be for you.",
+   "ko": "트럼프 행정부가 러시아인들에게 '우리는 우리와 협력할 때의 보상에 대해 진지하다, 이런 모습이 될 수 있고, 당신들에게 이렇게 좋을 수 있다'는 신호를 아주 분명하게 보내고 싶어 한다는 거군요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 521.1,
+   "en": "Yes, precisely. So that's why even just in the last couple of months, Jared Kushner and Steve Witkoff, the main envoys for the Russia-Ukraine War in the White House, have been speaking to the Russians more seriously about potential business deals.",
+   "ko": "네, 정확합니다. 그래서 불과 지난 두 달 사이에도 백악관의 러시아-우크라이나 전쟁 주요 특사인 재러드 쿠슈너와 스티브 윗코프가 러시아 측과 잠재적인 비즈니스 거래에 대해 더 진지하게 논의해 온 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 541.8,
+   "en": "So it sounds like everything is converging in this moment, that effort to end the war in Ukraine, the evolving strategy about how to do that, the energy crisis as a result of the Iran war, and the midterms.",
+   "ko": "그러니까 우크라이나 전쟁을 끝내려는 노력, 그 방식에 대한 진화하는 전략, 이란 전쟁으로 인한 에너지 위기, 그리고 중간선거까지 모든 것이 이 시점에 한데 모이고 있는 것 같네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 555.9,
+   "en": "All this is coming to a head at the same time.",
+   "ko": "이 모든 것이 동시에 절정에 달하고 있군요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 558.1,
+   "en": "Yes, and that brings us to Friday in Florida, outside Miami at a golf resort called Shelby owned by Steve Witkoff.",
+   "ko": "맞습니다. 그로 인해 우리는 마이애미 외곽, 스티브 윗코프 소유의 셸비라는 골프 리조트에서의 지난 금요일로 돌아가게 됩니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 566.5,
+   "en": "Witkoff and Jared Kushner were meeting with senior officials from Europe and from Ukraine who had flown in for another round of talks about the war.",
+   "ko": "윗코프와 재러드 쿠슈너는 전쟁에 관한 또 다른 회담을 위해 날아온 유럽과 우크라이나의 고위 관리들을 만나고 있었습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 576.1,
+   "en": "And early on in that meeting on Friday, the Americans made an announcement that stunned the Europeans and the Ukrainians. President Trump was about to reveal a deal with Russia to lift sanctions on Russian diesel.",
+   "ko": "그리고 금요일 회의 초반에 미국 측은 유럽과 우크라이나 측을 깜짝 놀라게 한 발표를 했습니다. 트럼프 대통령이 러시아 디젤에 대한 제재를 해제하는 러시아와의 거래를 공개하려 한다는 것이었죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 592.0,
+   "en": "That became official a few hours later. Trump spoke on the phone with Putin, and then on his Truth Social account said, President Donald Trump says he struck a deal to obtain diesel from Russia.",
+   "ko": "그것은 몇 시간 후 공식화되었습니다. 트럼프는 푸틴과 전화 통화를 했고, 자신의 트루스 소셜 계정에 도널드 트럼프 대통령이 러시아로부터 디젤을 확보하는 거래를 성사시켰다고 올렸습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 605.5,
+   "en": "He had had a highly successful discussion with Putin. Russia will immediately supply over 300,000 tons of diesel fuels. That Putin had agreed to supply 300,000 tons of diesel to the world immediately.",
+   "ko": "그는 푸틴과 매우 성공적인 논의를 가졌습니다. 러시아는 즉시 30만 톤 이상의 디젤 연료를 공급할 것입니다. 푸틴이 전 세계에 30만 톤의 디젤을 즉시 공급하기로 합의했다는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 620.5,
+   "en": "Another 500,000 tons during the month of November. And potentially millions more in the coming months, depending on the state of Russian oil refineries.",
+   "ko": "11월 중에는 50만 톤을 더 공급할 것입니다. 그리고 러시아 정유소의 상태에 따라 향후 몇 달 동안 잠재적으로 수백만 톤을 더 공급할 수도 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 632.8,
+   "en": "And at the same time, the Treasury Department put out a statement that was basically temporarily suspending sanctions on Russian diesel.",
+   "ko": "동시에 재무부는 러시아 디젤에 대한 제재를 기본적으로 일시 정지한다는 성명을 발표했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 640.6,
+   "en": "Meaning not only is the U.S. going to buy diesel from Russia, the U.S. government is also saying it's not going to punish anyone else for buying diesel from Russia. Everyone can do it now.",
+   "ko": "미국이 러시아로부터 디젤을 구매할 뿐만 아니라, 미국 정부가 다른 누구라도 러시아로부터 디젤을 구매하는 것에 대해 처벌하지 않겠다고 말하는 셈이군요. 이제 누구나 할 수 있다는 거네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 652.3,
+   "en": "That's right.",
+   "ko": "그렇습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 653.1,
+   "en": "Okay, that seems like a major U-turn for US foreign policy. How did Ukraine react to all this?",
+   "ko": "좋아요, 그것은 미국 외교 정책의 중대한 유턴처럼 보이네요. 우크라이나는 이 모든 것에 어떻게 반응했나요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 662.4,
+   "en": "Because it definitely seems like it's the US throwing out its big point of leverage on Russia, which is to have the world starve its war machine of oil revenue.",
+   "ko": "왜냐하면 그것은 전 세계가 러시아의 전쟁 기계에서 석유 수입을 굶주리게 만드는, 미국의 러시아에 대한 큰 지렛대를 스스로 던져버리는 것처럼 보이기 때문입니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 672.7,
+   "en": "Ukrainian President Vladimir Zelensky slammed the decision, labeling the deal as an investment. Yeah, one of the first reactions was President Zelensky saying this was a weak decision.",
+   "ko": "블라디미르 젤렌스키 우크라이나 대통령은 이번 결정을 비난하며 이 거래를 투자라고 규정했습니다. 네, 첫 번째 반응 중 하나는 젤렌스키 대통령이 이것이 나약한 결정이라고 말한 것이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 690.3,
+   "en": "And you actually then had this new back and forth spat between Zelensky and Trump play out over the weekend.",
+   "ko": "그리고 실제로 주말 동안 젤렌스키와 트럼프 사이에 새로운 공방이 벌어졌습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 696.7,
+   "en": "I suggest they get a new leader who can make a deal because he could have made many deals and for some reason he never did.",
+   "ko": "나는 그들이 거래를 할 수 있는 새로운 지도자를 선출할 것을 제안합니다. 왜냐하면 그는 많은 거래를 할 수 있었음에도 어떤 이유에서인지 전혀 하지 않았기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 703.4,
+   "en": "And there was shock across Europe also because really up until now the US had really stayed tough in terms of sanctions policy toward Russia and had also continued supporting Ukraine in many ways.",
+   "ko": "유럽 전역에서도 충격이 컸습니다. 지금까지 미국은 러시아에 대한 제재 정책에 있어 정말 강경한 태도를 유지해 왔고, 여러 방면에서 우크라이나를 계속 지원해 왔기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 723.3,
+   "en": "Right. Officials in Europe and elsewhere had long feared that Trump might take a softer approach to Russia might pursue a closer relationship, but that hadn't happened yet.",
+   "ko": "그렇군요. 유럽과 다른 곳의 관리들은 트럼프가 러시아에 대해 더 부드러운 접근 방식을 취하거나 더 긴밀한 관계를 추구할지 모른다고 오랫동안 우려해 왔지만, 아직 그런 일은 일어나지 않았었죠.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 734.0,
+   "en": "Yeah, I mean, it's important to step back and sort of see that despite all the worries of what Trump might do vis-a-vis Ukraine and Russia, the Trump administration really kept a lot of the Biden-era policies in place.",
+   "ko": "네, 한 걸음 물러나서 트럼프가 우크라이나와 러시아에 대해 무엇을 할지에 대한 모든 우려에도 불구하고, 트럼프 행정부가 실제로는 바이든 시대의 많은 정책을 그대로 유지했다는 점을 보는 것이 중요합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 748.8,
+   "en": "Whether it's in terms of providing intelligence support to Ukraine's war effort and keeping the sanctions in place.",
+   "ko": "우크라이나의 전쟁 노력에 정보 지원을 제공하고 제재를 유지하는 측면에서 말이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 756.2,
+   "en": "In fact, expanding the sanctions a year ago, the administration put in place really tough new sanctions against Russia's oil industry.",
+   "ko": "사실 1년 전 제재를 확대하면서 정부는 러시아의 석유 산업에 대해 정말 강력한 새로운 제재를 시행했었습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 765.2,
+   "en": "And just a few weeks ago, Trump signed a bipartisan bill out of Congress that allowed for new sweeping sanctions against Russia and especially Russian energy.",
+   "ko": "그리고 불과 몇 주 전, 트럼프는 러시아, 특히 러시아 에너지에 대한 새로운 전면적인 제재를 허용하는 의회의 초당적 법안에 서명했습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 778.6,
+   "en": "So this move on Russian diesel, even though the numbers are relatively small, is still the most concrete sign that this administration in Washington is ready to really substantively change its relationship with Russia and to do so potentially at Ukraine's expense.",
+   "ko": "따라서 러시아 디젤에 대한 이번 조치는 수치가 상대적으로 작더라도, 워싱턴의 이번 행정부가 러시아와의 관계를 실질적으로 변화시킬 준비가 되어 있으며, 어쩌면 우크라이나를 희생시키면서까지 그렇게 할 준비가 되어 있다는 가장 구체적인 신호입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 816.1,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 821.4,
+   "en": "I'm Peter Baker. I'm Chief White House correspondent for The New York Times. I've covered the president of the United States and I've covered every president since 1996.",
+   "ko": "저는 피터 베이커입니다. 뉴욕타임스의 백악관 수석 특파원이죠. 저는 미국 대통령들을 취재해 왔고, 1996년 이후 모든 대통령을 취재했습니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 828.9,
+   "en": "The pressure on an independent press today feels greater than any time I've seen it in four decades as a journalist.",
+   "ko": "오늘날 독립 언론에 가해지는 압박은 제가 언론인으로서 보낸 40년 중 어느 때보다 크게 느껴집니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 835.5,
+   "en": "All that pressure though is just a reminder of why journalism matters. Our job is to bring home facts, help our readers understand what's happening regardless of what the consequences may be to us.",
+   "ko": "하지만 그 모든 압박은 저널리즘이 왜 중요한지를 상기시켜 줄 뿐입니다. 우리의 일은 우리에게 어떤 결과가 닥치든 상관없이 사실을 전달하고 독자들이 무슨 일이 일어나고 있는지 이해하도록 돕는 것입니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 846.5,
+   "en": "And if they punish us, so be it, we will still go out there and report as honestly and aggressively and fairly and truthfully as we can.",
+   "ko": "만약 그들이 우리를 처벌한다면 기꺼이 받아들이겠습니다. 우리는 여전히 현장으로 나가 우리가 할 수 있는 한 가장 정직하고, 공격적이고, 공정하고, 진실하게 보도할 것입니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 853.5,
+   "en": "I mean, look, if the New York Times were not at the White House asking the hard questions, looking for stories behind the stories, trying to understand what's going on, it's possible these questions don't get asked.",
+   "ko": "제 말은, 만약 뉴욕타임스가 백악관에서 날카로운 질문을 던지고, 이야기 이면의 이야기를 찾고, 무슨 일이 일어나고 있는지 이해하려고 노력하지 않는다면, 이런 질문들이 아예 나오지 않을 수도 있다는 겁니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 864.8,
+   "en": "Independent reporting requires resources. You can support it by subscribing to The New York Times at nytimes.com slash subscribe.",
+   "ko": "독립적인 보도에는 자원이 필요합니다. nytimes.com/subscribe에서 뉴욕타임스를 구독하여 저희를 지원하실 수 있습니다.",
+   "speaker": "Peter Baker",
+   "ad": true
+  },
+  {
+   "start": 877.6,
+   "en": "All right, Anton, obviously a lot of countries are quite shaken by this news. What is the Trump administration's defense of this U-turn in American policy?",
+   "ko": "좋아요, 안톤, 분명 많은 국가가 이 소식에 상당히 흔들리고 있습니다. 미국 정책의 이러한 유턴에 대한 트럼프 행정부의 방어 논리는 무엇인가요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 889.3,
+   "en": "Well, a few things. I mean, on buying diesel, I think what you'll hear is this is America first. This is taking care of American consumers, American farmers at a time when they're struggling.",
+   "ko": "음, 몇 가지가 있습니다. 디젤 구매에 대해서는 '미국 우선주의'라는 말을 듣게 될 겁니다. 이것은 어려움을 겪고 있는 미국 소비자들과 미국 농민들을 돌보는 일이라는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 904.5,
+   "en": "They will also say that Europe has continued to buy Russian energy. And to some extent, that's true.",
+   "ko": "그들은 또한 유럽이 러시아 에너지를 계속 구매해 왔다고 말할 것입니다. 그리고 어느 정도 그것은 사실입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 911.3,
+   "en": "Europe is still buying Russian liquefied natural gas, landlocked countries in particular, Slovakia and Hungary are still buying Russian oil.",
+   "ko": "유럽은 여전히 러시아산 액화천연가스를 사고 있고, 특히 슬로바키아와 헝가리 같은 내륙 국가들은 여전히 러시아산 석유를 사고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 920.6,
+   "en": "Now, the EU has drastically reduced its reliance on Russian energy and is actually planning to completely end Russian gas imports by next year. So here we're definitely moving in opposite directions.",
+   "ko": "현재 EU는 러시아 에너지에 대한 의존도를 대폭 줄였으며 실제로 내년까지 러시아 가스 수입을 완전히 중단할 계획입니다. 따라서 여기서 우리는 확실히 서로 반대 방향으로 움직이고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 940.1,
+   "en": "I think folks in the administration, they'd also say that Trump is still set on somehow ending the war in Ukraine.",
+   "ko": "정부 관계자들은 또한 트럼프가 여전히 우크라이나 전쟁을 어떻게든 끝내는 데 집중하고 있다고 말할 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 946.8,
+   "en": "Of course, we should also say this is something that is deeply uncomfortable, not just for American allies in Europe, not just for even Democrats, but also many Republicans.",
+   "ko": "물론 이것은 유럽의 미국 동맹국들뿐만 아니라 민주당원들은 물론이고 많은 공화당원들에게도 매우 불편한 일이라는 점을 말씀드려야겠네요.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 959.2,
+   "en": "All right. So if the America first argument for this policy is that buying Russian diesel will lower prices at the pump for Americans, is that true?",
+   "ko": "좋아요. 그럼 러시아 디젤을 구매하는 것이 미국인들의 주유소 가격을 낮출 것이라는 '미국 우선주의' 논리가 사실인가요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 970.7,
+   "en": "Like brass tacks, how much will this actually lower gas prices in the United States?",
+   "ko": "단도직입적으로 말해서, 이것이 실제로 미국의 가스 가격을 얼마나 낮출까요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 976.0,
+   "en": "So, minimally, I mean, the initial number we're talking about is an extra 300,000 tons of Russian diesel onto the global market. That's less than one day of consumption in the US.",
+   "ko": "아주 미미합니다. 처음에 언급된 수치는 세계 시장에 추가되는 30만 톤의 러시아 디젤입니다. 이는 미국의 하루 소비량에도 못 미치는 수준입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 994.7,
+   "en": "Less than one day?",
+   "ko": "하루치도 안 된다고요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 996.1,
+   "en": "Yes. And I did check the AAA gas prices numbers. So as of Tuesday, diesel is $6.28 a gallon compared to $6.32 a gallon a week ago.",
+   "ko": "네. 그리고 제가 AAA 가스 가격 수치를 확인해 봤습니다. 화요일 기준으로 디젤은 갤런당 6.28달러로 일주일 전의 6.32달러와 비교됩니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1010.6,
+   "en": "So the price has gone down, but not by much. And the amount that would be coming in really wouldn't make a dent in the overall demand that there is, right?",
+   "ko": "가격이 내려가긴 했지만 그리 많이는 아닙니다. 그리고 들어오는 양은 전체적인 수요에 거의 영향을 미치지 못할 수준이죠, 그렇죠?",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1023.2,
+   "en": "Yeah. But at least it's an effort.",
+   "ko": "네. 하지만 적어도 노력은 하고 있는 셈이네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1025.2,
+   "en": "Yeah. I think this has a lot of symbolism both at home and abroad at home. It's a thing that can be messaged to voters of this administration is taking drastic steps to try to bring the price of diesel under control.",
+   "ko": "네. 이것은 국내외적으로 많은 상징성을 가지고 있다고 생각합니다. 국내적으로는 이 정부가 디젤 가격을 통제하기 위해 과감한 조치를 취하고 있다는 메시지를 유권자들에게 보낼 수 있는 수단이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1041.3,
+   "en": "It is a message to Russia of this administration is willing to do stuff that is going to be criticized in many quarters for being too friendly to Russia.",
+   "ko": "러시아에는 이 정부가 러시아에 너무 우호적이라는 비판을 감수하고서라도 이런 일을 할 용의가 있다는 메시지를 주는 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1051.1,
+   "en": "And frankly, it's yet another message both to Ukraine and to Europe that President Trump and his top officials are really willing to pursue their own path on matters of global security.",
+   "ko": "솔직히 말해서 우크라이나와 유럽 모두에게 트럼프 대통령과 그의 고위 관리들이 글로벌 안보 문제에 있어서 정말로 자신들만의 길을 갈 준비가 되어 있다는 또 다른 메시지이기도 합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1064.0,
+   "en": "But just thinking about Europe's and Ukraine's concern here, can I just ask how much will this policy actually help Russia in funding its war in Ukraine? Because if this is just how much of an impact it'll have in Russia?",
+   "ko": "하지만 여기서 유럽과 우크라이나의 우려를 생각해보면, 이 정책이 러시아가 우크라이나 전쟁 자금을 조달하는 데 실제로 얼마나 도움이 될지 묻고 싶습니다. 러시아에 어느 정도의 영향을 미칠까요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1086.0,
+   "en": "Well, at the end of the day, oil and gas exports are at the core of what drives the Russian economy. So any chink in the West's sanctions wall against Russian energy is important for Putin.",
+   "ko": "결국 석유와 가스 수출은 러시아 경제를 이끄는 핵심입니다. 따라서 러시아 에너지에 대한 서방의 제재 벽에 생기는 아주 작은 틈이라도 푸틴에게는 중요합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1104.3,
+   "en": "So I think what you'll see is Putin very much pocketing the win here and not, as of yet changing the way he's approaching the war.",
+   "ko": "그래서 푸틴은 여기서 승기를 챙기기만 하고, 아직까지는 전쟁에 접근하는 방식을 바꾸지 않을 것이라고 봅니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1114.1,
+   "en": "After Trump made this announcement on Friday, the Kremlin has continued to say that they're not ready to negotiate with Ukraine and they have continued to hit Ukrainian infrastructure causing civilians to die.",
+   "ko": "트럼프가 지난 금요일에 이 발표를 한 후에도 크렘린은 우크라이나와 협상할 준비가 되어 있지 않다는 말을 계속해 왔으며, 우크라이나 인프라를 계속 타격하여 민간인 사망자를 발생시키고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1128.6,
+   "en": "They have not changed their approach to this war.",
+   "ko": "그들은 이 전쟁에 대한 접근 방식을 바꾸지 않았습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1131.1,
+   "en": "Do you get the impression that that pisses Trump off? Like, wasn't part of premise of all of this deal making deal dangling to eventually end the war?",
+   "ko": "그게 트럼프를 화나게 할 것 같다는 인상을 받으시나요? 이런 모든 거래 제안과 유혹의 전제 중 하나가 결국 전쟁을 끝내는 것이 아니었나요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1143.1,
+   "en": "And yet here you have Russia taking the symbolic win and keeping up the strikes.",
+   "ko": "그런데 러시아는 상징적인 승리를 챙기면서도 공습을 계속하고 있잖아요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1149.0,
+   "en": "No, I don't have any indication that Trump has gotten more upset at Putin over this. What all our reporting points to is that Trump right now is fixated on Zelensky and is angry at Zelensky.",
+   "ko": "아니요, 트럼프가 이 일로 푸틴에게 더 화가 났다는 징후는 없습니다. 저희의 모든 취재가 가리키는 것은 트럼프가 현재 젤렌스키에게 집착하고 있으며 그에게 화가 나 있다는 점입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1162.8,
+   "en": "Clearly in part because of the high diesel prices, high gas prices here in the U.S. and the approaching midterms.",
+   "ko": "분명히 미국의 높은 디젤 가격, 가스 가격, 그리고 다가오는 중간선거가 그 이유 중 하나일 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1170.9,
+   "en": "And that, of course, has been a theme throughout. For most of the last two years, Trump really giving Putin the benefit of the doubt, even as this war escalates and putting the onus on compromise and settlement on Zelensky.",
+   "ko": "물론 그것은 내내 이어져 온 주제였습니다. 지난 2년의 대부분 동안 트럼프는 전쟁이 격화되는 상황에서도 푸틴을 믿어주었고, 타협과 합의의 책임을 젤렌스키에게 지웠습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1186.0,
+   "en": "And the question, of course, does this affect other kinds of ongoing U.S. support for Ukraine?",
+   "ko": "물론 질문은 이것이 우크라이나에 대한 미국의 다른 지속적인 지원에도 영향을 미치느냐는 것이겠죠?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1194.7,
+   "en": "President Trump said on Tuesday that U.S. intelligence support for Ukraine is continuing. The Ukrainians need that for both targeting and seeing what Russia is firing at them.",
+   "ko": "트럼프 대통령은 화요일에 우크라이나에 대한 미국의 정보 지원이 계속되고 있다고 말했습니다. 우크라이나인들은 목표를 설정하고 러시아가 무엇을 발사하는지 확인하기 위해 그것이 필요합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1207.7,
+   "en": "But the Ukrainians are definitely worried that this is something that Trump could put into play.",
+   "ko": "하지만 우크라이나인들은 트럼프가 이것을 카드로 활용할 수 있다는 점을 분명히 걱정하고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1214.2,
+   "en": "And I'm right that we should see what's happening now as a shift in the Trump administration strategy in terms of pressuring Russia at the outset.",
+   "ko": "그리고 지금 일어나고 있는 일을 초기에 러시아를 압박한다는 측면에서 트럼프 행정부 전략의 변화로 봐야 한다는 제 생각이 맞나요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1223.6,
+   "en": "You said they were holding out the promise of these business deals as an incentive to get Russia to end the war.",
+   "ko": "당신은 그들이 러시아가 전쟁을 끝내게 하려는 유인책으로 이러한 비즈니스 거래 약속을 제시하고 있었다고 말했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1230.1,
+   "en": "And now, instead of a reward, it sounds like they're using these deals as something like a down payment.",
+   "ko": "그런데 이제는 보상 대신에, 이 거래들을 일종의 계약금처럼 사용하고 있는 것처럼 들리네요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1237.1,
+   "en": "Like they're banking on the idea that giving Russia a taste of what a close relationship feels like can get Putin to agree to stop fighting.",
+   "ko": "러시아에 긴밀한 관계가 어떤 느낌인지 맛보게 해주는 것이 푸틴으로 하여금 싸움을 멈추게 할 수 있다는 생각에 걸고 있는 것 같습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1247.4,
+   "en": "Yeah, I mean, absolutely. I think one of the shocking things to people about this diesel agreement has been that as far as we know, there is no concession that the Russians made in return for the sanctions relief.",
+   "ko": "네, 전적으로 그렇습니다. 이번 디젤 합의에서 사람들이 충격을 받은 부분 중 하나는, 우리가 아는 한 러시아가 제재 완화에 대한 대가로 어떠한 양보도 하지 않았다는 점입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1260.9,
+   "en": "So, yeah, and our reporting does indicate that there are other deals that the U.S. and Russia are talking about that they might even do without the war coming to an end first.",
+   "ko": "네, 그리고 저희 취재 결과 미국과 러시아가 전쟁이 먼저 끝나지 않더라도 진행할 수 있는 다른 거래들에 대해 논의하고 있다는 것이 나타났습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1273.3,
+   "en": "Like what? Give me an example of that.",
+   "ko": "어떤 것들이요? 예를 하나 들어주세요.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1275.6,
+   "en": "Well, look, we know a lot of different deals have been discussed. I mean, the future that is being imagined here is one where there are no more sanctions and tons of deals, tons of money flowing between the US and Russia.",
+   "ko": "글쎄요, 많은 다양한 거래가 논의되어 왔습니다. 제 말은, 여기서 상상되는 미래는 제재가 더 이상 없고 미국과 러시아 사이에 수많은 거래와 막대한 자금이 흐르는 모습입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1292.5,
+   "en": "But there is one specific deal that we've been reporting on over the last few weeks that is quite far along. And that's the purchase of the international assets of a big Russian oil company called Lukoil.",
+   "ko": "하지만 지난 몇 주 동안 저희가 보도해 온 꽤 진전된 구체적인 거래가 하나 있습니다. 바로 '루코일'이라는 러시아 대형 석유 회사의 해외 자산 인수 건입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1306.4,
+   "en": "Basically, what that would be would be for a group of investors to come in and buy those billions of dollars in assets of this energy company, be it refineries, oil fields, even gas stations in New Jersey.",
+   "ko": "기본적으로 투자자 그룹이 들어와 정유소, 유전, 심지어 뉴저지의 주유소까지 포함된 이 에너지 회사의 수십억 달러 규모 자산을 사는 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1319.8,
+   "en": "In what would be a really lucrative transaction because Lukoil is under US sanctions and as soon as Lukoil agrees to sell those assets and the US approves the sale, the value of those assets would go way up.",
+   "ko": "루코일이 미국의 제재를 받고 있기 때문에 정말 수익성이 높은 거래가 될 텐데, 루코일이 자산 매각에 동의하고 미국이 이를 승인하는 즉시 해당 자산의 가치가 크게 치솟을 것이기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1336.4,
+   "en": "And then even more significant is if you look at who these investors are that are now close to signing this deal.",
+   "ko": "그리고 현재 이 계약 체결을 앞둔 투자자들이 누구인지를 보면 훨씬 더 의미심장합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1345.3,
+   "en": "Who are they?",
+   "ko": "그들이 누구인가요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1346.2,
+   "en": "So it's an investor group led by Todd Boehly, the American billionaire who has made donations to Trump's political causes.",
+   "ko": "트럼프의 정치적 목적을 위해 기부해 온 미국 억만장자 토드 보엘리가 이끄는 투자 그룹입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1355.0,
+   "en": "And of course, the US government would take a stake. Right. But so would several investors from the Middle East who have business ties to Witkoff and Kushner.",
+   "ko": "물론 미국 정부도 지분을 가질 것이고요. 그렇죠. 하지만 윗코프 및 쿠슈너와 비즈니스 관계가 있는 중동의 여러 투자자도 참여할 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1368.3,
+   "en": "For example, two Syrian-Qatari billionaire brothers who are also business partners with Jared Kushner and his wife Ivanka Trump, the president's daughter, on a resort in Albania.",
+   "ko": "예를 들어, 알바니아의 한 리조트 사업에서 재러드 쿠슈너와 그의 아내이자 대통령의 딸인 이방카 트럼프의 비즈니스 파트너이기도 한 시리아계 카타르인 억만장자 형제 같은 사람들 말입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1386.9,
+   "en": "You're saying this particular deal, it benefits the US government, but also the people who are negotiating the deal itself, people close to the Trump family?",
+   "ko": "이 특정 거래가 미국 정부에도 이익이 되지만, 협상 당사자들, 즉 트럼프 일가와 가까운 사람들에게도 이익이 된다는 말씀이신가요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1399.2,
+   "en": "Well, I mean, it benefits the US government. There's an argument to be made that it also benefits American foreign policy because it would give the US a stake in these really strategically significant assets like, again, these very large refineries in Europe.",
+   "ko": "미국 정부에 이익이 된다는 건 맞습니다. 또한 유럽의 대규모 정유소 같은 전략적으로 중요한 자산에 대해 미국이 지분을 갖게 되므로 미국 외교 정책에도 도움이 된다는 주장도 가능하죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1413.0,
+   "en": "What we've been hearing from the administration is Witkoff and Kushner have been doing this only in the service of American interests and there is no indication that Witkoff or Kushner would profit directly.",
+   "ko": "정부로부터 듣고 있는 말은 윗코프와 쿠슈너가 오직 미국의 이익을 위해 이 일을 해왔으며, 그들이 직접적으로 이익을 챙길 것이라는 징후는 없다는 것입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1423.7,
+   "en": "But of course, there are many potential investors out there, and it is significant that the investors getting a piece of this potentially very lucrative deal are ones with business ties to the two main American negotiators.",
+   "ko": "하지만 잠재적인 투자자는 얼마든지 있을 텐데, 잠재적으로 매우 수익성이 높은 이 거래의 한 조각을 가져가는 투자자들이 미국의 두 주요 협상가와 비즈니스 관계가 있는 사람들이라는 점은 큰 의미가 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1440.7,
+   "en": "Anton, just stepping back, is there any indication that this strategy of pursuing these deals has begun to encourage Russia or Putin himself to come to the table to try to actually end this war?",
+   "ko": "안톤, 한 걸음 물러나서 보죠. 이러한 거래를 추진하는 전략이 러시아나 푸틴 본인이 실제로 이 전쟁을 끝내기 위해 협상 테이블로 나오도록 독려하기 시작했다는 징후가 있나요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1458.1,
+   "en": "Like, do we know if this may be working at all?",
+   "ko": "이게 전혀 효과가 있을지 알 수 있을까요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1462.9,
+   "en": "I mean, as you know, before coming to Washington, I covered Russia and I covered Putin and I know that many American administrations have really struggled with how best to engage Putin.",
+   "ko": "아시다시피 워싱턴에 오기 전 저는 러시아와 푸틴을 취재했고, 역대 많은 미국 행정부가 푸틴을 어떻게 상대하는 것이 최선일지를 두고 정말 고심해 왔다는 것을 압니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1475.9,
+   "en": "Obviously, the prior administration was not able to head off Putin's invasion of Ukraine or to end it. And the strategy was really to take a very hard line against Russia and try to diplomatically isolate Russia.",
+   "ko": "분명 이전 행정부도 푸틴의 우크라이나 침공을 막거나 끝내지 못했습니다. 당시 전략은 러시아에 대해 매우 강경한 입장을 취하고 외교적으로 고립시키는 것이었죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1491.5,
+   "en": "This administration has been bringing Russia back into the fold, right? We have Trump speaking regularly to Putin on the phone.",
+   "ko": "이번 행정부는 러시아를 다시 울타리 안으로 불러들이고 있습니다, 그렇죠? 트럼프는 정기적으로 푸틴과 전화 통화를 하고 있고요.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1498.7,
+   "en": "We have Witkoff and Kushner traveling regularly to Russia to meet with Putin. We saw the Russian finance minister come to the G20 recently in North Carolina.",
+   "ko": "윗코프와 쿠슈너는 정기적으로 러시아를 방문해 푸틴을 만납니다. 최근 노스캐롤라이나에서 열린 G20에는 러시아 재무장관이 참석한 것도 보았죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1508.8,
+   "en": "We might have Putin coming to the big G20 summit in Miami in December. They are really engaging him. We know in a way that is something that Russia really wants.",
+   "ko": "12월 마이애미에서 열리는 G20 정상회의에는 푸틴이 직접 올 수도 있습니다. 그들은 정말로 그를 끌어들이고 있습니다. 그것이 러시아가 진정으로 원하는 방식이라는 것을 우리는 압니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1520.4,
+   "en": "Putin really wants to be seen as an equal to the US. He wants to be talking to the American president.",
+   "ko": "푸틴은 정말로 미국과 동등한 존재로 보이길 원합니다. 미국 대통령과 대화하기를 원하죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1527.1,
+   "en": "But we've got to acknowledge that this new approach of engagement, it's been since Trump returned to office early last year and it still hasn't worked.",
+   "ko": "하지만 이런 새로운 포용적 접근 방식이 트럼프가 작년 초 취임한 이후 계속되어 왔음에도 불구하고 여전히 효과가 없다는 점을 인정해야 합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1539.8,
+   "en": "The war has only escalated. By many accounts, it's actually only gotten more dangerous as Putin's bombardments and Russia's hybrid war with Europe intensifies.",
+   "ko": "전쟁은 격화될 뿐입니다. 여러 관측에 따르면 푸틴의 폭격과 러시아의 유럽에 대한 하이브리드 전쟁이 심화되면서 실제로는 상황이 더 위험해졌습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1551.1,
+   "en": "So the big question to me going forward is what about all the other stuff that Putin wants and is going to need to be negotiated?",
+   "ko": "따라서 앞으로 저에게 큰 의문은 푸틴이 원하고 협상해야 할 다른 모든 것들은 어떻게 될 것인가 하는 점입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1562.4,
+   "en": "Putin cares about the geopolitics of Russia's relationship with NATO, the problems of territory and how to keep Ukraine sovereign and make sure Russia is not able to invade again.",
+   "ko": "푸틴은 러시아와 나토 관계의 지정학, 영토 문제, 그리고 우크라이나의 주권을 유지하고 러시아가 다시는 침공할 수 없도록 보장하는 문제 등에 관심을 두고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1576.0,
+   "en": "And so it's those really complicated questions where clearly there's still a lot of work to be done.",
+   "ko": "따라서 여전히 해결해야 할 과제가 많이 남아 있는 것은 바로 그런 복잡한 질문들입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1583.5,
+   "en": "I guess my question is, if this ultimately doesn't work, if Putin continues to escalate, do you think Trump eventually decides to pull back on the strategy of getting closer to Russia?",
+   "ko": "제 질문은, 만약 이것이 결국 통하지 않고 푸틴이 계속해서 도발을 이어간다면, 트럼프가 결국 러시아와 가까워지려는 전략에서 물러날 것으로 보시나요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1597.7,
+   "en": "Well, honestly, the indication for now is more the opposite that Trump could end up pulling back from Ukraine and engaging with Russia despite the war continuing.",
+   "ko": "솔직히 현재의 징후는 그 반대입니다. 전쟁이 계속됨에도 불구하고 트럼프가 결국 우크라이나에서 손을 떼고 러시아와 손을 잡을 수도 있다는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1609.3,
+   "en": "You know, that is something that Putin has been trying to achieve ever since Trump returned to office.",
+   "ko": "아시다시피 그것은 트럼프가 다시 집권한 이후 푸틴이 줄곧 성취하려고 노력해 온 일입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1614.2,
+   "en": "Putin has been trying to say to Trump, look at all these business deals we could do if we just forget about the war in Ukraine. Like don't condition your engagement on the war. Let's treat these two things as separate.",
+   "ko": "푸틴은 트럼프에게 우크라이나 전쟁만 잊어준다면 우리가 할 수 있는 이 많은 비즈니스 거래를 보라고 말해왔습니다. 당신의 개입을 전쟁과 연관 짓지 말고 이 두 가지를 별개로 취급하자는 것이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1625.9,
+   "en": "That has been a policy goal of the Kremlin for the last year and a half and more.",
+   "ko": "그것이 지난 1년 반 넘게 크렘린이 추구해 온 정책 목표였습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1631.6,
+   "en": "So what is the impact of that in the long term in terms of our policy in Russia?",
+   "ko": "그렇다면 장기적으로 우리의 러시아 정책에 미칠 영향은 무엇일까요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1638.3,
+   "en": "Are we looking at a world in some point in the future in which economic pressure on Russia, one of our biggest adversaries is no longer a point of leverage either as a characteristic?",
+   "ko": "미래의 어느 시점에는 우리의 가장 큰 적대국 중 하나인 러시아에 대한 경제적 압박이 더 이상 지렛대 역할을 하지 못하는 세상을 보게 될까요?",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1649.4,
+   "en": "No, I mean, there are still a ton of sanctions on Russia. And my sense is the administration does still see those sanctions as leverage, but potentially in a more incremental way than immediately getting Russia to end the war.",
+   "ko": "아니요, 제 말은 러시아에 대한 제재는 여전히 엄청나게 많습니다. 제 생각에 현 정부는 여전히 그 제재들을 지렛대로 보고 있지만, 러시아가 즉시 전쟁을 끝내게 만드는 방식보다는 좀 더 점진적인 방식으로 사용하려는 것 같습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1666.1,
+   "en": "I think after the midterms and certainly after the next presidential election, you can very much imagine US policy shifting again into a more traditional mode.",
+   "ko": "중간선거가 지나고, 특히 다음 대선 이후에는 미국의 정책이 다시 좀 더 전통적인 모드로 전환되는 것을 충분히 상상해 볼 수 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1678.4,
+   "en": "It'll be really important to see what happens in Europe because in Europe right now you have a far right and far left movement, Germany, France, UK, promoting a more friendly relationship to Russia.",
+   "ko": "유럽에서 무슨 일이 일어나는지를 지켜보는 것이 정말 중요할 것입니다. 현재 유럽의 독일, 프랑스, 영국 등에서는 러시아와 더 우호적인 관계를 촉구하는 극우 및 극좌 운동이 일어나고 있기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1693.5,
+   "en": "For example, especially in Germany, there's a lot of talk on the far right about why aren't we importing Russian gas again.",
+   "ko": "예를 들어 특히 독일의 극우파 사이에서는 왜 러시아 가스를 다시 수입하지 않느냐는 이야기가 많이 나오고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1701.1,
+   "en": "And so that's going to be a really key thing to watch. Does Europe still keep its hard line or do upcoming elections there change how France and Germany and others are dealing with Russia?",
+   "ko": "그래서 그것이 정말 중요한 관전 포인트가 될 것입니다. 유럽이 여전히 강경 노선을 유지할 것인지, 아니면 그곳의 다가오는 선거들이 프랑스와 독일 등이 러시아를 상대하는 방식을 바꿀 것인지 말이죠.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1715.0,
+   "en": "And finally, you know, I've heard a lot of speculation from analysts following the war that at the end of the day it's going to be some kind of negotiation directly between Russia and Ukraine that ends this war.",
+   "ko": "마지막으로, 전쟁을 지켜보는 분석가들 사이에서 결국 이 전쟁을 끝내는 것은 러시아와 우크라이나 사이의 직접적인 협상이 될 것이라는 추측이 많이 나오고 있습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1729.5,
+   "en": "Because we've clearly seen that there are limits to US West leverage, both on Russia and on Ukraine.",
+   "ko": "러시아와 우크라이나 양측 모두에 대해 미국과 서방의 지렛대에 한계가 있다는 것을 우리가 분명히 보았기 때문입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1736.1,
+   "en": "So that kind of brings us back, I think, to the main victims here.",
+   "ko": "그것은 우리를 다시 이곳의 주요 희생자들에게로 데려다주는 것 같습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1743.3,
+   "en": "The awful thing about all this is that all these business negotiations and this brinksmanship on sanctions and deals and what's going to happen to the diesel supply, that is all playing out as this war gets worse and worse on the ground in Ukraine.",
+   "ko": "이 모든 비즈니스 협상, 제재와 거래를 둘러싼 벼랑 끝 전술, 그리고 디젤 공급에 일어날 일들, 이 모든 것들이 우크라이나 현장에서 전쟁이 점점 더 악화되는 가운데 벌어지고 있다는 점이 끔찍한 일입니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1760.2,
+   "en": "As the winter approaches, at a time when Ukraine is extremely low on missile defenses, Russia is going to be able to make this winter truly awful, and there for the moment we still see no end in sight.",
+   "ko": "겨울이 다가오고 우크라이나의 미사일 방어 체계가 매우 부족한 상황에서, 러시아는 이번 겨울을 정말 끔찍하게 만들 수 있을 것이며, 현재로서는 끝이 보이지 않습니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1780.3,
+   "en": "Well Anton, thanks for coming on the show.",
+   "ko": "안톤, 오늘 출연해 주셔서 감사합니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1783.6,
+   "en": "Thanks for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Anton Troyanovsky"
+  },
+  {
+   "start": 1789.0,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1799.0,
+   "en": "Hey, it's Anna Martin from the New York Times. What if I told you you'll never have to hear this line again? Wherever you get your podcasts.",
+   "ko": "안녕하세요, 뉴욕타임스의 애나 마틴입니다. '어디서든 팟캐스트를 들어보세요'라는 말을 다시는 듣지 않아도 된다면 어떨까요?",
+   "speaker": "Anna Martin",
+   "ad": true
+  },
+  {
+   "start": 1807.5,
+   "en": "Yeah, no, I actually can't tell you that, but you know what I can tell you? A place I think you might want to go.",
+   "ko": "아니요, 사실 그렇게 말씀드릴 수는 없지만, 여러분이 가보고 싶어 하실 만한 곳을 알려드릴 수는 있습니다.",
+   "speaker": "Anna Martin",
+   "ad": true
+  },
+  {
+   "start": 1813.0,
+   "en": "It's the shows tab in the New York Times app. The place to listen to and now watch full episodes of New York Times shows.",
+   "ko": "바로 뉴욕타임스 앱의 '쇼' 탭입니다. 뉴욕타임스 쇼의 전체 에피소드를 듣고, 이제는 시청까지 할 수 있는 곳이죠.",
+   "speaker": "Anna Martin",
+   "ad": true
+  },
+  {
+   "start": 1820.5,
+   "en": "The shows tab. Find it in the New York Times app. Explore the shows tab and follow a show today.",
+   "ko": "쇼 탭. 뉴욕타임스 앱에서 찾아보세요. 쇼 탭을 탐색하고 오늘 바로 쇼를 팔로우해 보세요.",
+   "speaker": "Anna Martin",
+   "ad": true
+  },
+  {
+   "start": 1831.6,
+   "en": "Here's what else you need to know today. Kimberly Guilfoyle resigned as the US ambassador to Greece on Tuesday after the White House asked her to step down.",
+   "ko": "오늘 알아야 할 다른 소식들입니다. 킴벌리 길포일이 백악관의 사퇴 요청에 따라 화요일 주그리스 미국 대사직에서 물러났습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1841.0,
+   "en": "Guilfoyle had been the subject of a string of damaging reports that first appeared in the Wall Street Journal about her potential conflicts of interest.",
+   "ko": "길포일은 월스트리트 저널에 처음 보도된 잠재적 이해충돌에 관한 일련의 타격적인 보고서들의 대상이 되어 왔습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1849.6,
+   "en": "For example, a Republican donor said that Guilfoyle had asked him to wire her $100,000 to pay off her credit card just before her Senate confirmation hearing last year, promising to serve as the donors, quote, \"ride or die\" in the Trump world if he sent the money.",
+   "ko": "예를 들어, 한 공화당 기부자는 길포일이 작년 상원 인준 청문회 직전 자신의 신용카드 대금을 갚기 위해 10만 달러를 송금해달라고 요청했으며, 돈을 보내주면 트럼프 세계에서 기부자의 '끝까지 함께할 동료'가 되어주겠다고 약속했다고 말했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1867.0,
+   "en": "In a social media post, Guilfoyle said she planned to quote, \"vigorously defend her name, reputation, and integrity.\"",
+   "ko": "소셜 미디어 게시물에서 길포일은 자신의 '이름과 명성, 정직성을 강력하게 방어할' 계획이라고 밝혔습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1876.2,
+   "en": "And Pope Leo XIV was diagnosed with lung cancer on Tuesday, and a lower lobe of his right lung was removed during surgery.",
+   "ko": "그리고 교황 레오 14세가 화요일에 폐암 진단을 받았으며, 수술을 통해 오른쪽 폐의 하엽을 제거했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1886.1,
+   "en": "The Vatican said in a statement that the operation was successful, and there were no complications, but didn't specify whether the pope would undergo further treatment.",
+   "ko": "바티칸은 성명을 통해 수술이 성공적이었으며 합병증은 없었다고 밝혔으나, 교황이 추가 치료를 받을지 여부는 명시하지 않았습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1896.5,
+   "en": "Finally, Cornell University announced that it was banning parties at fraternity houses for the rest of the academic year in response to a student's allegation of gang rape in October 2024.",
+   "ko": "마지막으로, 코넬 대학교는 2024년 10월 한 학생이 제기한 집단 성폭행 의혹에 대한 대응으로 남학생 사교 클럽에서의 파티를 이번 학년도 남은 기간 동안 금지한다고 발표했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1909.5,
+   "en": "The university also said that it would add experienced sexual assault investigators to work with its police force.",
+   "ko": "대학교 측은 또한 경찰과 협력할 숙련된 성폭행 조사관을 추가 배치할 것이라고 밝혔습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1916.6,
+   "en": "Cornell's president told the Times that the ban would allow for a thorough review of Frat life on campus to determine whether it could safely resume.",
+   "ko": "코넬 총장은 타임스와의 인터뷰에서 이번 금지 조치를 통해 캠퍼스 내 사교 클럽 생활을 철저히 검토하고 안전하게 재개될 수 있을지 결정할 것이라고 말했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1928.9,
+   "en": "Today's episode was produced by Claire Tennesqueter, Adrienne Hurst, and Eric Krupke. It was edited by Paige Cowett and Liz O'Baylin.",
+   "ko": "오늘 에피소드는 클레어 테네스퀘터, 에이드리언 허스트, 에릭 크룹키가 제작했습니다. 페이지 코윗과 리즈 오베일린이 편집했습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1938.1,
+   "en": "Contains music by Marion Lozano and Alicia B.E. Tube and was engineered by Alyssa Moxley. Our theme music is by Wonderly.",
+   "ko": "매리언 로자노와 알리시아 B.E. 튜브의 음악이 포함되어 있으며, 알리사 목슬리가 엔지니어링을 맡았습니다. 테마 음악은 원덜리의 곡입니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1954.8,
+   "en": "That's it for the Daily. I'm Natalie Kitroeth. See you tomorrow.",
+   "ko": "오늘의 '더 데일리'는 여기까지입니다. 저는 나탈리 키트로에프였습니다. 내일 뵙겠습니다.",
+   "speaker": "Natalie Kitroeth"
+  },
+  {
+   "start": 1967.3,
+   "en": "This week on The Wirecutter Show, New York Times frugal traveler joins us to share her best tips for cheap travel.",
+   "ko": "이번 주 '와이어커터 쇼'에서는 뉴욕타임스의 알뜰 여행 전문가가 출연해 저렴한 여행을 위한 최고의 팁을 공유합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1974.3,
+   "en": "I haven't found Costco travel to be great for the other types of travel that you can book through them, but the cars are pretty sweet. Yeah, that's true.",
+   "ko": "코스트코 트래블을 통해 예약할 수 있는 다른 종류의 여행들이 아주 훌륭하다고 생각하진 않지만, 렌터카는 꽤 괜찮아요. 네, 맞아요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1980.5,
+   "en": "I know people that have booked their honeymoons for, you know, if all you want is like fly and flop, it's great for that. I like that.",
+   "ko": "신혼여행을 예약한 사람들도 알고 있는데, 그냥 날아가서 푹 쉬고 싶은 거라면 아주 좋습니다. 좋네요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1988.5,
+   "en": "Find The Wirecutter Show on the New York Times app or wherever you listen.",
+   "ko": "'와이어커터 쇼'를 뉴욕타임스 앱이나 팟캐스트를 듣는 어디에서든 찾아보세요.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
