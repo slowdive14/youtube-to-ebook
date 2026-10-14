@@ -6,711 +6,1156 @@
  "videoUrl": "https://www.youtube.com/watch?v=0drasFnc9LI",
  "audioUrl": "https://tracking.swap.fm/track/XvDEoI11TR00olTUO8US/prfx.byspotify.com/e/play.podtrac.com/npr-510317/npr.simplecastaudio.com/d26aaa31-0a11-46ca-a4ae-a682d381c8c1/episodes/8892ee49-d47b-4978-9a40-a3542e2aac15/audio/128/default.mp3?awCollectionId=d26aaa31-0a11-46ca-a4ae-a682d381c8c1&awEpisodeId=8892ee49-d47b-4978-9a40-a3542e2aac15&feed=eQwWJH5j&t=podcast&e=nx-s1-5995626&p=510317&d=1549&size=24796726",
  "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/67/17/386717fd-738d-f754-d360-5561a8f2931f/mza_1987994910253436837.jpg/600x600bb.jpg",
- "duration": 1716,
+ "duration": 1698,
  "releaseDate": "2026-10-12T07:00:00Z",
  "addedAt": "2026-10-13",
  "segments": [
   {
    "start": 0.0,
-   "en": "Hey, Lulu here. Whether we are romping through science, music, politics, technology or feelings, we seek to leave you seeing the world anew. RadioLab adventures right on the edge of what we think we know. Wherever you get podcasts.",
-   "ko": "안녕하세요, 룰루입니다. 과학, 음악, 정치, 기술 혹은 감정의 세계를 넘나들며, 저희는 여러분이 세상을 새로운 시각으로 바라볼 수 있게 돕고자 합니다. 우리가 안다고 생각하는 것의 경계에서 펼쳐지는 라디오랩의 모험을 팟캐스트가 있는 어디에서나 만나보세요.",
-   "speaker": "Lulu Miller",
+   "en": "This message comes from the NPR Wine Club, which has generated over $1.75 million to support NPR.",
+   "ko": "이 메시지는 NPR을 지원하기 위해 175만 달러 이상의 수익을 창출한 NPR 와인 클럽에서 전해드립니다.",
+   "speaker": "Host",
    "ad": true
   },
   {
-   "start": 15.0,
-   "en": "What is a question that you would really like to be added to the census? I'll say for myself, I want to know if people think that the dress was blue and black or white and gold.",
-   "ko": "인구조사에 꼭 추가되었으면 하는 질문이 있나요? 저 같은 경우는, 사람들이 그 드레스가 파란색과 검은색이라고 생각하는지, 아니면 흰색과 금색이라고 생각하는지 알고 싶어요.",
-   "speaker": "Britney Luce"
+   "start": 7.4,
+   "en": "Whether buying a few bottles or joining the club, learn more at NPRwineclub.org. Must be 21 or older to purchase.",
+   "ko": "몇 병을 구매하시든 클럽에 가입하시든, NPRwineclub.org에서 자세한 내용을 확인하세요. 구매는 21세 이상이어야 합니다.",
+   "speaker": "Host",
+   "ad": true
   },
   {
-   "start": 26.0,
-   "en": "Britney, I have to say as a census reporter, I have to go with no comment. To stay neutral because I have been schooled by so many sources adding more questions onto a census form could raise a risk of more people not participating and not getting counted.",
-   "ko": "브리트니, 인구조사 담당 기자로서 저는 노코멘트하겠습니다. 중립을 지켜야 하거든요. 인구조사 양식에 질문을 더 추가하면 사람들이 참여하지 않거나 집계되지 않을 위험이 커질 수 있다는 걸 여러 소식통을 통해 배웠거든요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 15.5,
+   "en": "What is the question that you would really like to be added to the census?",
+   "ko": "인구 조사에 정말 추가되었으면 하는 질문이 있으신가요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 45.0,
-   "en": "So that is not a easy question to answer.",
-   "ko": "그래서 답변하기 쉬운 질문은 아니네요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 19.2,
+   "en": "I'll say for myself, I want to know if people think that the dress was blue and black or white and gold.",
+   "ko": "저 같은 경우에는 사람들이 그 드레스가 파란색과 검은색이라고 생각하는지, 아니면 흰색과 금색이라고 생각하는지 알고 싶네요.",
+   "speaker": "Brittany"
   },
   {
-   "start": 47.0,
-   "en": "You know, the census doesn't do this, but I would love to get this somehow on there, and I don't know if it would be legal, but a question about religion. We just don't have a lot of good data about religion.",
-   "ko": "인구조사에서 하지는 않지만, 법적으로 가능할지는 모르겠지만 종교에 관한 질문을 어떻게든 넣고 싶어요. 종교에 대한 양질의 데이터가 정말 부족하거든요.",
-   "speaker": "Russell Contreras"
+   "start": 27.2,
+   "en": "Brittany, I have to say, as a census reporter, I have to go with no comment.",
+   "ko": "브리트니, 인구 조사 담당 기자로서 저는 노코멘트라고 말할 수밖에 없네요.",
+   "speaker": "Hansi"
   },
   {
-   "start": 59.0,
-   "en": "That is really interesting. Well, the Trump administration has proposed taking away some questions from the upcoming 2030 census. Chiefly, they'd like to stop asking people in the US about their race and ethnicity.",
-   "ko": "정말 흥미롭네요. 한편 트럼프 행정부는 다가오는 2030년 인구조사에서 일부 질문을 삭제하겠다고 제안했습니다. 주로 미국인들에게 인종과 민족에 대해 묻는 것을 중단하고 싶어 하죠.",
-   "speaker": "Britney Luce"
+   "start": 31.8,
+   "en": "Does it stay neutral?",
+   "ko": "중립을 지키시는 건가요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 73.0,
-   "en": "Census data on race can be incredibly useful, not just for understanding America, but also for making sure communities can serve the people in them. So what's the point of getting rid of these questions? And what makes the narratives around our nation's demographics so fraught?",
-   "ko": "인종에 대한 인구조사 데이터는 미국을 이해하는 것뿐만 아니라 지역 사회가 구성원들에게 제대로 봉사할 수 있도록 하는 데 매우 유용합니다. 그런데 왜 이 질문들을 없애려는 걸까요? 그리고 왜 우리나라의 인구 통계학적 서사는 이토록 갈등이 심할까요?",
-   "speaker": "Britney Luce"
+   "start": 32.8,
+   "en": "Because I have been schooled by so many sources, adding more questions onto a census form could raise a risk of more people not participating and not getting counted.",
+   "ko": "수많은 취재원으로부터 배운 바에 따르면, 인구 조사 설문에 더 많은 질문을 추가하면 더 많은 사람들이 참여하지 않고 집계에서 누락될 위험이 높아질 수 있기 때문입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 87.0,
-   "en": "To get into it, I am joined by Russell Contreras, senior race and justice reporter Axios. Welcome back, Russell.",
-   "ko": "자세한 이야기를 나누기 위해 Axios의 인종 및 사법 담당 선임 기자인 러셀 콘트레라스 씨를 모셨습니다. 다시 오신 걸 환영합니다, 러셀.",
-   "speaker": "Britney Luce"
+   "start": 43.3,
+   "en": "So that is not an easy question to answer.",
+   "ko": "그래서 대답하기 쉬운 질문이 아닙니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 96.0,
+   "start": 46.3,
+   "en": "You know, the census doesn't do this, but I would love to get this somehow on there. I don't know if it'll be legal, but a question about religion.",
+   "ko": "인구 조사는 이런 걸 하지 않지만, 어떻게든 포함시키고 싶은 게 있어요. 합법적일지는 모르겠지만, 종교에 관한 질문입니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 55.8,
+   "en": "We just don't have a lot of good data about religion.",
+   "ko": "종교에 관한 좋은 데이터가 별로 없거든요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 59.6,
+   "en": "That is really interesting. Well, the Trump administration has proposed taking away some questions from the upcoming 2030 census.",
+   "ko": "그거 정말 흥미롭네요. 그런데 트럼프 행정부는 다가오는 2030년 인구 조사에서 몇 가지 질문을 삭제하자고 제안했습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 67.6,
+   "en": "Chiefly, they'd like to stop asking people in the US about their race and ethnicity.",
+   "ko": "주요 내용은 미국 내 사람들에게 인종과 민족에 대해 묻는 것을 중단하겠다는 것입니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 72.4,
+   "en": "Census data on race can be incredibly useful, not just for understanding America, but also for making sure communities can serve the people in them.",
+   "ko": "인종에 대한 인구 조사 데이터는 미국을 이해하는 데 도움이 될 뿐만 아니라 지역 사회가 구성원들에게 제대로 봉사할 수 있도록 하는 데 매우 유용할 수 있습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 80.2,
+   "en": "So what's the point of getting rid of these questions? And what makes the narratives around our nation's demographics so fraught?",
+   "ko": "그렇다면 이 질문들을 없애려는 의도는 무엇일까요? 그리고 우리 국가의 인구 통계를 둘러싼 담론들이 왜 이렇게 격렬한 걸까요?",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 87.1,
+   "en": "To get into it, I am joined by Russell Contreras, Senior Race and Justice Reporter at Axios. Welcome back, Russell.",
+   "ko": "본격적인 이야기를 나누기 위해 Axios의 인종 및 사법 선임 기자 러셀 콘트레라스와 함께합니다. 다시 오신 걸 환영합니다, 러셀.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 92.2,
    "en": "Good to be with you.",
    "ko": "함께하게 되어 기쁩니다.",
-   "speaker": "Russell Contreras"
+   "speaker": "Russell"
   },
   {
-   "start": 97.0,
+   "start": 93.4,
    "en": "And Hansi Lo Wang, a correspondent here at NPR who covers voting rights and the census. Welcome, Hansi.",
-   "ko": "그리고 투표권과 인구조사를 담당하는 NPR의 한지 로 왕 기자도 나오셨습니다. 환영합니다, 한지 씨.",
-   "speaker": "Britney Luce"
+   "ko": "그리고 투표권과 인구 조사를 취재하는 NPR 특파원 한시 로 왕도 함께합니다. 어서 오세요, 한시.",
+   "speaker": "Brittany"
   },
   {
-   "start": 101.0,
-   "en": "Thank you, Britney.",
-   "ko": "감사합니다, 브리트니.",
-   "speaker": "Hansi Lo Wang"
+   "start": 99.3,
+   "en": "Thank you, Brittany. Hello, hello.",
+   "ko": "고마워요, 브리트니. 안녕하세요.",
+   "speaker": "Hansi"
   },
   {
-   "start": 104.0,
-   "en": "Hello, hello! I'm Britney Luce and you're listening to It's Been a Minute from NPR. A show about what's going on in culture and why it doesn't happen by accident.",
-   "ko": "안녕하세요! 저는 브리트니 루스이고, 여러분은 NPR의 It's Been a Minute을 듣고 계십니다. 문화계에서 어떤 일이 일어나고 있는지, 그리고 왜 그런 일이 우연히 일어나지 않는지 알아보는 프로그램입니다.",
-   "speaker": "Britney Luce"
+   "start": 106.2,
+   "en": "I'm Brittany Luce, and you're listening to It's Been a Minute from NPR, a show about what's going on in culture and why it doesn't happen by accident.",
+   "ko": "저는 브리트니 루스입니다. 여러분은 문화계에서 무슨 일이 일어나고 있는지, 그리고 왜 그런 일이 우연히 일어나지 않는지에 대한 쇼인 NPR의 'It's Been a Minute'을 듣고 계십니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 122.0,
-   "en": "So first, I want to know, what do you make of the Trump administration proposing to take the race and ethnicity questions off the census? What do they say about it?",
-   "ko": "먼저, 트럼프 행정부가 인구조사에서 인종 및 민족 질문을 삭제하겠다고 제안한 것에 대해 어떻게 생각하시나요? 그들은 이에 대해 뭐라고 하나요?",
-   "speaker": "Britney Luce"
+   "start": 121.3,
+   "en": "So first I want to know, what do you make of the Trump administration proposing to take the race and ethnicity questions off the census? What did they say about it?",
+   "ko": "먼저, 트럼프 행정부가 인구 조사에서 인종과 민족 질문을 빼겠다고 제안한 것에 대해 어떻게 생각하시나요? 그들은 이에 대해 뭐라고 했나요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 131.0,
-   "en": "Well, the Trump administration is arguing that there's a quote reduced need for census statistics about people's race and ethnicity, even though these are the statistics used for redistricting, enforcing the Voting Rights Act and other anti-discrimination protections.",
-   "ko": "트럼프 행정부는 사람들의 인종과 민족에 대한 인구조사 통계의 '필요성이 줄어들었다'고 주장하고 있습니다. 이 통계가 선거구 획정, 투표권법 집행 및 기타 차별 금지 보호 조치에 사용됨에도 불구하고 말이죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 129.6,
+   "en": "The Trump administration is arguing that there's a quote, \"reduced need\" for census statistics about people's race and ethnicity.",
+   "ko": "트럼프 행정부는 사람들의 인종과 민족에 대한 인구 조사 통계의 \"필요성이 줄어들었다\"고 주장하고 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 150.0,
-   "en": "Not to mention informing policy making and health research. And the administration is also citing the quote potentially sensitive nature of this topic, which, by the way, has been part of the US census since the very first one back in 1790.",
-   "ko": "정책 입안이나 보건 연구에 정보를 제공하는 것은 말할 것도 없고요. 또한 행정부는 이 주제의 '잠재적으로 민감한 성격'을 언급하고 있는데, 참고로 인종 질문은 1790년 첫 인구조사 때부터 미국 인구조사의 일부였습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 139.9,
+   "en": "Even though these are the statistics used for redistricting, enforcing the Voting Rights Act and other anti-discrimination protections, not to mention informing policymaking and health research.",
+   "ko": "비록 이 통계들이 정책 결정과 보건 연구에 정보를 제공하는 것은 물론, 선거구 획정, 투표권법 및 기타 차별 금지 보호 조치를 집행하는 데 사용됨에도 불구하고 말이죠.",
+   "speaker": "Hansi"
   },
   {
-   "start": 166.0,
-   "en": "So this would be a major unprecedented change, assuming the administration finalizes this proposal and assuming it wins lawsuits I'm expecting to be filed. And you know, we should also keep in mind this change can be reversed by Congress.",
-   "ko": "행정부가 이 제안을 확정하고, 제기될 것으로 예상되는 소송에서 승소한다고 가정하면, 이는 전례 없는 중대한 변화가 될 것입니다. 그리고 이 변화는 의회에 의해 뒤집힐 수 있다는 점도 염두에 두어야 합니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 151.4,
+   "en": "And the administration is also citing the, quote, \"potentially sensitive nature\" of this topic, which by the way has been part of the US Census since the very first one back in 1790.",
+   "ko": "또한 행정부는 이 주제의 \"잠재적으로 민감한 성격\"을 언급하고 있는데, 참고로 인종 관련 질문은 1790년 첫 조사 때부터 미국 인구 조사의 일부였습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 181.0,
-   "en": "So now we have some idea of like what the administration said about wanting to do away with these questions. I want to know, what does this proposal say to you?",
-   "ko": "이제 행정부가 왜 이 질문들을 없애고 싶어 하는지 대략 알게 되었습니다. 이 제안이 여러분에게는 어떤 의미로 다가오나요?",
-   "speaker": "Britney Luce"
+   "start": 163.9,
+   "en": "So this would be a major unprecedented change, assuming the administration finalizes its proposal and assuming it wins lawsuits I'm expecting to be filed.",
+   "ko": "따라서 행정부가 제안을 확정하고 제기될 것으로 예상되는 소송에서 승소한다고 가정하면, 이는 전례 없는 중대한 변화가 될 것입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 193.0,
-   "en": "Well, the proposal, when I read it, I saw it, I saw immediately the debate on social media and a lot of misinformation that the government is going to stop collecting data on race and ethnicity. And that's not true.",
-   "ko": "제가 그 제안을 읽었을 때, 소셜 미디어에서 정부가 인종과 민족에 대한 데이터 수집을 중단할 것이라는 많은 오해와 논란을 즉시 확인했습니다. 하지만 그건 사실이 아닙니다.",
-   "speaker": "Russell Contreras"
+   "start": 174.3,
+   "en": "And we should also give you a minute. This change can be reversed by Congress and in 2029, there is a short window for a new presidential administration to reverse these changes too.",
+   "ko": "잠시 덧붙이자면, 이 변화는 의회에 의해 뒤집힐 수 있으며 2029년에는 새로운 행정부가 이러한 변화를 되돌릴 수 있는 짧은 기회도 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 206.0,
-   "en": "What the proposal says, it's going to eliminate the questions to give the respondent the agency for that person to decide what their race and ethnicity is, and give more power to a government official to determine what the race and ethnicity of the person is.",
-   "ko": "제안의 내용은 응답자가 스스로 자신의 인종과 민족을 결정할 수 있는 주체성을 없애고, 대신 정부 관리가 그 사람의 인종과 민족을 결정할 수 있는 더 큰 권한을 부여하겠다는 것입니다.",
-   "speaker": "Russell Contreras"
+   "start": 183.0,
+   "en": "So now we have some idea of what the administration said about wanting to do away with these questions. I want to know, what does this proposal say to you?",
+   "ko": "이 질문들을 없애고 싶다는 행정부의 입장에 대해서는 어느 정도 알게 되었습니다. 그렇다면 이 제안이 여러분에게는 어떤 의미로 다가오나요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 223.0,
-   "en": "Basically, it's a throwback from a previous time where census takers went in and decided what you are. So, and that may be an extreme position, but that's potentially what could happen. If we look back say in the 1910s or 1920s, I'll go back to my great-grandfather.",
-   "ko": "기본적으로 인구조사원이 직접 방문해 당신이 누구인지 결정했던 과거로의 회귀입니다. 극단적인 의견일 수 있지만, 잠재적으로 일어날 수 있는 일이죠. 1910년대나 20년대인 저희 증조할아버지 시대를 되돌아보면요.",
-   "speaker": "Russell Contreras"
+   "start": 192.9,
+   "en": "Well, the proposal, when I read it, I saw it. I saw immediately the debate on social media and a lot of misinformation that the government is going to stop collecting data on race and ethnicity.",
+   "ko": "글쎄요, 제안서를 읽었을 때 전 바로 상황을 파악했습니다. 소셜 미디어에서의 논쟁과 정부가 인종 및 민족 데이터 수집을 중단할 것이라는 많은 오보를 즉시 확인했죠.",
+   "speaker": "Russell"
   },
   {
-   "start": 238.0,
-   "en": "I looked up his census records for the point of this discussion and he was called a Mulatto. So he was somebody from Mexico, a dark-skinned man, the son of a black woman. By the 1950s, the census was calling him white.",
-   "ko": "이번 토론을 위해 증조할아버지의 인구조사 기록을 찾아봤는데, '멀라토'라고 기재되어 있더군요. 멕시코 출신의 피부가 검은 분이셨고, 흑인 여성의 아들이었죠. 그런데 1950년대에 이르러서는 인구조사에서 그를 백인으로 분류했습니다.",
-   "speaker": "Russell Contreras"
+   "start": 203.9,
+   "en": "And that's not true. What the proposal says, it's going to eliminate the questions to give the respondent the agency for that person to decide what the race and ethnicity is.",
+   "ko": "하지만 그건 사실이 아닙니다. 제안서에 따르면, 응답자가 스스로 자신의 인종과 민족을 결정할 수 있는 주도권을 주는 질문들을 없애겠다는 것입니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 215.4,
+   "en": "And give more power to a government official to determine what the race and ethnicity of the person is.",
+   "ko": "대신 정부 관리에게 그 사람의 인종과 민족이 무엇인지 결정할 수 있는 권한을 더 많이 부여하겠다는 것이죠.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 222.2,
+   "en": "Basically, it's a throwback from a previous time where census takers went in and decided what you were. So it may be an extreme position, but that's potentially what could happen.",
+   "ko": "기본적으로 인구 조사원들이 와서 당신이 무엇인지 결정하던 과거 시절로의 회귀입니다. 극단적인 입장일 수도 있지만, 잠재적으로 일어날 수 있는 일이죠.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 235.0,
+   "en": "If we look back, say in the 1910s or 1920s, I'll go back to my great grandfather. I looked at his census records for the point of this discussion, and he was called a mulatto.",
+   "ko": "과거 1910년대나 20년대를 되돌아보면, 제 증조할아버지의 사례를 들 수 있겠네요. 이 논의를 위해 그분의 인구 조사 기록을 찾아봤는데, 그분은 '물라토'로 기록되어 있었습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 245.8,
+   "en": "So he was somebody from Mexico, a dark-skinned man, the son of a black woman. By the 1950s, the census was calling him white.",
+   "ko": "그분은 멕시코 출신의 피부가 검은 남성으로, 흑인 여성의 아들이었습니다. 그런데 1950년대가 되자 인구 조사에서는 그분을 백인으로 부르고 있었습니다.",
+   "speaker": "Russell"
   },
   {
    "start": 255.0,
-   "en": "I can almost assure you that he had no say in any of those designations. And so when I was doing my reporting, I was talking to civil rights leaders, they feel that that's a return to that moment.",
-   "ko": "증조할아버지가 그런 명칭 결정에 아무런 발언권이 없었을 거라고 거의 확신합니다. 취재 중에 민권 운동가들과 이야기를 나눠보니, 그들도 지금 상황이 그때로 돌아가는 것이라고 느끼더군요.",
-   "speaker": "Russell Contreras"
+   "en": "I can almost assure you that he had no say in any of those designations. And so when I was doing that reporting, I was talking to civil rights leaders, they feel that that's a return to that moment.",
+   "ko": "장담하건대 그분은 그런 지정에 대해 아무런 발언권이 없었을 겁니다. 그래서 제가 그 취재를 할 때 민권 운동가들과 이야기를 나눠보니, 그들은 이번 제안이 그때로 돌아가는 것이라고 느끼더군요.",
+   "speaker": "Russell"
   },
   {
-   "start": 268.0,
-   "en": "I want to also clarify, I mean they may not make census takers decide but collect data in other ways. One of the things we were talking about when we were getting ready for this conversation is like whether or not the government has a right to know, you know, my racial identity.",
-   "ko": "정확히 하자면, 인구조사원이 결정하게 하지는 않더라도 다른 방식으로 데이터를 수집할 수도 있다는 거죠. 이번 대화를 준비하면서 우리가 나눴던 이야기 중 하나는 정부가 저의 인종 정체성을 알 권리가 있느냐는 것이었습니다.",
-   "speaker": "Britney Luce"
+   "start": 265.8,
+   "en": "I want to also clarify, I mean, they may not make census takers decide, but collect data in other ways.",
+   "ko": "저도 명확히 하고 싶은 게 있는데, 그러니까 인구 조사원들이 직접 결정하게 하지는 않더라도 다른 방식으로 데이터를 수집할 수도 있다는 점입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 283.0,
-   "en": "And I'm like, well, I can assure you, the government can look at me and tell that I'm black. But yeah, I mean there are so many different ways that that data can be acquired.",
-   "ko": "제 생각엔, 정부는 저를 보기만 해도 흑인이라는 걸 알 수 있을 거예요. 하지만 네, 그 데이터를 얻을 수 있는 방법은 정말 다양하죠.",
-   "speaker": "Britney Luce"
+   "start": 273.5,
+   "en": "One of the things we were talking about when we were getting ready for this conversation is like, whether or not the government has a right to know my racial identity.",
+   "ko": "우리가 이 대화를 준비하면서 나눴던 이야기 중 하나가 정부가 나의 인종적 정체성을 알 권리가 있는지 여부였죠.",
+   "speaker": "Brittany"
   },
   {
-   "start": 291.0,
-   "en": "There's other federal data that one could mine to get that information, and that is problematic. This is occurring not just as we become more diverse, but we're also seeing the growth of multiracial Americans.",
-   "ko": "그런 정보를 얻기 위해 채굴할 수 있는 다른 연방 데이터가 있고, 그게 문제입니다. 이는 우리가 더 다양해질 뿐만 아니라 다인종 미국인이 증가하는 상황에서 일어나고 있는 일입니다.",
-   "speaker": "Russell Contreras"
+   "start": 281.0,
+   "en": "And I'm like, well, I can assure you the government can look at me and tell that I'm black. But yeah, I mean, there's so many different ways that that data can be acquired.",
+   "ko": "그래서 저는 정부가 저를 보면 흑인이라는 걸 알 수 있다고 장담한다고 했죠. 하지만 맞아요, 제 말은 그 데이터를 얻을 수 있는 방법은 정말 다양하다는 겁니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 306.0,
-   "en": "Hansi, what does this proposal say to you?",
-   "ko": "한지 씨, 이 제안이 당신에게는 어떤 의미인가요?",
-   "speaker": "Britney Luce"
+   "start": 289.7,
+   "en": "There's other federal data that one could mine to get that information and that is problematic. This is occurring not just to become more diverse, but we're also seeing the growth of multiracial Americans.",
+   "ko": "그런 정보를 얻기 위해 캐낼 수 있는 다른 연방 데이터들이 있고, 그게 문제가 되는 거죠. 이런 일은 단순히 다양해지기 위해서가 아니라 다인종 미국인의 증가도 목격하고 있는 시점에 일어나고 있습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 308.0,
-   "en": "Well, I mean it's coming from an administration that has attacked diversity, equity, and inclusion efforts and pushed for dismantling civil rights laws. And this current Trump administration and the first Trump administration have both stalled efforts to update how the census and other federal forms ask about race and ethnicity.",
-   "ko": "다양성, 형평성, 포용성을 위한 노력을 공격하고 민권법 폐지를 추진해 온 행정부에서 나온 제안이니까요. 현 트럼프 행정부와 첫 번째 트럼프 행정부 모두 인구조사와 기타 연방 양식에서 인종과 민족을 묻는 방식을 업데이트하려는 노력을 지연시켰습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 303.1,
+   "en": "Mm-hmm. Hansi, what does this proposal say to you?",
+   "ko": "그렇군요. 한시, 이 제안이 당신에게는 어떤 의미인가요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 330.0,
-   "en": "These were efforts designed to produce more accurate statistics, specifically about Latinos and people of Middle Eastern or North African descent. The Biden administration approved those changes for the 2030 census to use a different kind of race ethnicity question after lots of research and public input.",
-   "ko": "이러한 노력은 특히 라틴계와 중동 또는 북아프리카계 사람들에 대해 더 정확한 통계를 생산하기 위해 고안되었습니다. 바이든 행정부는 많은 연구와 공청회를 거쳐 2030년 인구조사에서 다른 형태의 인종 및 민족 질문을 사용하도록 승인했죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 306.9,
+   "en": "Well, I mean, it's coming from an administration that has attacked diversity, equity, and inclusion efforts and pushed for dismantling civil rights laws.",
+   "ko": "음, 그러니까 이 제안은 다양성, 형평성, 포용성 노력을 공격하고 민권법 해체를 추진해 온 행정부에서 나온 것입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 344.0,
+   "start": 314.9,
+   "en": "And this current Trump administration and the first Trump administration have both stalled efforts to update how the census and other federal forms ask about race ethnicity.",
+   "ko": "그리고 현재의 트럼프 행정부와 첫 번째 트럼프 행정부 모두 인구 조사와 기타 연방 서식에서 인종과 민족을 묻는 방식을 업데이트하려는 노력을 지연시켜 왔습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 325.9,
+   "en": "And these were efforts designed to produce more accurate statistics specifically about Latinos and people of Middle Eastern or North African descent.",
+   "ko": "이러한 노력들은 특히 라틴계와 중동 또는 북아프리카계 사람들에 대해 더 정확한 통계를 생성하기 위해 고안된 것들이었습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 332.7,
+   "en": "The Biden administration approved those changes for the 2030 census to use a different kind of race ethnicity question after lots of research and public input.",
+   "ko": "바이든 행정부는 많은 연구와 공청회를 거쳐 2030년 인구 조사에서 다른 형태의 인종/민족 질문을 사용하도록 그 변화를 승인했습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 341.1,
    "en": "And now this Trump administration proposal could basically cancel all of that.",
-   "ko": "그런데 이제 트럼프 행정부의 이 제안이 그 모든 것을 사실상 취소할 수 있게 된 겁니다.",
-   "speaker": "Hansi Lo Wang"
+   "ko": "그런데 이제 트럼프 행정부의 이 제안이 그 모든 것을 기본적으로 취소할 수 있게 된 거죠.",
+   "speaker": "Hansi"
   },
   {
-   "start": 348.0,
-   "en": "Yeah, we're definitely going to touch base back on those changes, but I want to zoom out a little bit. What makes the racial data collected through the census important? Like what is it used for and what would its loss mean?",
-   "ko": "네, 그 변화들에 대해서는 나중에 다시 이야기하겠지만, 잠시 넓게 보죠. 인구조사를 통해 수집된 인종 데이터가 왜 중요한가요? 어디에 사용되고, 그 데이터가 사라지면 어떤 의미가 있을까요?",
-   "speaker": "Britney Luce"
+   "start": 345.7,
+   "en": "Yeah, we're definitely going to touch back on those changes, but I want to zoom out a little bit.",
+   "ko": "네, 그 변화들에 대해서는 나중에 다시 다루겠지만, 잠시 시야를 넓혀보죠.",
+   "speaker": "Brittany"
   },
   {
-   "start": 361.0,
-   "en": "We use that information for a number of reasons. When we're talking about race and ethnicity, we can look at, okay, how are we addressing the law like say in civil rights violations. What are some inequalities? If you don't know that, if you don't have that data, you cannot take that information for corrective action.",
-   "ko": "우리는 여러 가지 이유로 그 정보를 사용합니다. 인종과 민족에 대해 이야기할 때, 민권 위반과 같은 법적 문제를 어떻게 다루고 있는지, 어떤 불평등이 존재하는지 살펴볼 수 있습니다. 그런 데이터가 없다면 시정 조치를 위한 정보를 얻을 수 없죠.",
-   "speaker": "Russell Contreras"
+   "start": 350.1,
+   "en": "What makes the racial data collected through the census important? Like, what is it used for? And what would its loss mean?",
+   "ko": "인구 조사를 통해 수집된 인종 데이터가 중요한 이유는 무엇인가요? 그러니까 어디에 사용되나요? 그리고 그 데이터가 없어지면 무엇을 의미하게 될까요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 374.0,
+   "start": 356.0,
+   "en": "We use that information for a number of reasons when we're talking about race and ethnicity. We can look at, okay, how are we addressing the law, like saying civil rights violations?",
+   "ko": "인종과 민족에 대해 이야기할 때 우리는 여러 가지 이유로 그 정보를 사용합니다. 예를 들어 민권 침해와 같은 법적 문제를 어떻게 다루고 있는지 살펴볼 수 있죠.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 364.6,
+   "en": "What are some inequalities? If you don't know that, if you don't have that data, you cannot take that information for corrective action.",
+   "ko": "어떤 불평등이 존재할까요? 그걸 모르고 그런 데이터가 없다면, 그 정보를 바탕으로 시정 조치를 취할 수 없습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 372.3,
    "en": "Businesses also use that information to determine what their market is to go to consumers.",
-   "ko": "기업들도 소비자들에게 다가가기 위해 자신들의 시장이 어디인지 판단하는 데 그 정보를 활용합니다.",
-   "speaker": "Russell Contreras"
+   "ko": "기업들 또한 소비자들에게 다가가기 위해 시장이 어떠한지 결정하는 데 그 정보를 사용합니다.",
+   "speaker": "Russell"
   },
   {
-   "start": 380.0,
-   "en": "Census data about race is used in force the Voting Rights Act, which has been weakened by the Supreme Court, particularly this year, and those protections relied on racial data in order to do the analysis to see if minority voters, that their voting rights are being curtailed.",
-   "ko": "인종에 대한 인구조사 데이터는 투표권법 집행에 사용됩니다. 이 법은 특히 올해 연방 대법원에 의해 약화되었는데, 이러한 보호 조치는 소수계 유권자의 투표권이 제한되고 있는지 분석하기 위해 인종 데이터에 의존해 왔습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 378.2,
+   "en": "Census data about race is used to enforce the Voting Rights Act, which has been weakened by the Supreme Court, particularly this year.",
+   "ko": "인종에 대한 인구 조사 데이터는 대법원에 의해, 특히 올해 들어 약화된 투표권법을 집행하는 데 사용됩니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 399.0,
-   "en": "There's an argument that those are words on a paper and really hard to enforce, but, you know, theoretically that is still the law of the land. And so without this data, it is that much harder to enforce the Voting Rights Act in terms of redistricting protections.",
-   "ko": "서류상의 문구일 뿐 집행하기 정말 어렵다는 주장도 있지만, 이론적으로는 여전히 국가의 법입니다. 따라서 이 데이터가 없으면 선거구 획정 보호 측면에서 투표권법을 집행하기가 훨씬 더 어려워집니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 386.5,
+   "en": "And those protections relied on racial data in order to do the analysis to see if minority voters—that their voting rights are being curtailed.",
+   "ko": "그리고 그러한 보호 조치들은 소수계 유권자들의 투표권이 제한되고 있는지 분석하기 위해 인종 데이터에 의존해 왔습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 411.0,
-   "en": "But I want to give you also just a wonkier take about this. You know, we really don't know the full extent of what the Trump administration is proposing. They've only just said, you know, we are proposing to ban questions about race and ethnicity from the census, as well some other questions.",
-   "ko": "하지만 이에 대해 좀 더 전문적인 견해를 말씀드리고 싶네요. 사실 우리는 트럼프 행정부가 제안하는 내용의 전체 범위를 다 알지 못합니다. 그들은 그저 인구조사에서 인종과 민족에 관한 질문, 그리고 다른 몇 가지 질문을 금지하는 제안을 하겠다고만 말했을 뿐이니까요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 396.8,
+   "en": "There's an argument that they were just words on a page and really hard to enforce. But theoretically, that is still the law of the land.",
+   "ko": "그저 종이 위의 글자일 뿐이고 집행하기가 정말 어렵다는 주장도 있습니다. 하지만 이론적으로 그것은 여전히 이 나라의 법입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 429.0,
-   "en": "But there's another possibility here what the Trump administration is thinking about is using other surveys to collect this information. But a really big distinction and why the census is so important a lot of researchers and advocates tell me is that the census is supposed to go out to every household in the country.",
-   "ko": "하지만 트럼프 행정부가 다른 설문조사를 이용해 이 정보를 수집하려 할 가능성도 있습니다. 하지만 많은 연구자와 옹호가들이 제게 말하는 인구조사가 매우 중요한 결정적인 이유는 인구조사가 전국의 모든 가구를 대상으로 한다는 점입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 404.8,
+   "en": "And so without this data, it is that much harder to enforce the Voting Rights Act in terms of redistricting protections.",
+   "ko": "따라서 이 데이터가 없다면 선거구 획정 보호 측면에서 투표권법을 집행하는 것이 그만큼 훨씬 더 힘들어집니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 446.0,
-   "en": "It's supposed to get every person, not a sample of the population, which is what a survey does. And so it produces a unique comprehensive national data set about race and ethnicity every 10 years that really is not replicable by any other survey.",
-   "ko": "표본 조사가 아니라 모든 사람을 집계해야 한다는 거죠. 그래서 10년마다 인종과 민족에 대한 독특하고 포괄적인 전국 데이터 세트를 생산하는데, 이는 다른 어떤 설문조사로도 대체할 수 없는 것입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 411.1,
+   "en": "But I want to give you also just a wonky-er take about this. Okay, we really don't know the full extent to what the Trump administration is proposing.",
+   "ko": "하지만 이 점에 대해 좀 더 세부적이고 전문적인 시각을 드리고 싶네요. 사실 우리는 트럼프 행정부가 제안하는 것의 전체 범위를 아직 다 모릅니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 464.0,
-   "en": "And also it is an opportunity to get information once a decade up to information about how people identify in terms of race ethnicity, which is something that could shift from one decade to another. It could shift in different situations. You know, it we're talking about a socio-political construct that has never been static in the history of the United States.",
-   "ko": "또한 10년에 한 번씩 사람들이 인종과 민족을 어떻게 식별하는지 정보를 업데이트할 기회이기도 한데, 이는 시대나 상황에 따라 변할 수 있는 부분입니다. 우리는 미국 역사상 단 한 번도 고정된 적이 없는 사회정치적 구조물에 대해 이야기하고 있는 겁니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 419.3,
+   "en": "They've only just said, we are proposing to ban questions about race and ethnicity from the census as well as some other questions.",
+   "ko": "그들은 단지 인구 조사에서 인종과 민족에 관한 질문뿐만 아니라 다른 몇 가지 질문을 금지하겠다고 제안했을 뿐입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 481.0,
-   "en": "And so to rely potentially on, you know, sample surveys or to rely on existing government records to make essentially educated guesses of how people identify and and what those numbers look like in terms of different populations in the country, that's taking a big guess, a big risk of getting an inaccurate portrait of who is living in the United States.",
-   "ko": "따라서 표본 조사나 기존 정부 기록에 의존해 사람들이 스스로를 어떻게 식별하는지, 국가 내 다양한 인구 집단의 수치가 어떠한지 교육적인 추측을 하는 것은, 미국에 누가 살고 있는지에 대한 부정확한 초상을 얻게 될 커다란 위험을 감수하는 일입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 426.3,
+   "en": "But there's another possibility here: what the Trump administration is thinking about is using other surveys to collect this information.",
+   "ko": "하지만 여기엔 또 다른 가능성이 있습니다. 트럼프 행정부가 이 정보를 수집하기 위해 다른 설문 조사를 사용하는 것을 고려하고 있을 수도 있다는 거죠.",
+   "speaker": "Hansi"
   },
   {
-   "start": 504.0,
-   "en": "Yeah, I mean and to your point about accuracy, I mean there's so much that's riding on that as we're discussing. I mean there are groups that I see come out every 10 years that are really serious about the census. A lot of black civic organizations specifically.",
-   "ko": "네, 정확성에 대한 말씀처럼 지금 논의하고 있는 많은 것들이 거기에 달려 있죠. 10년마다 인구조사에 정말 진지하게 임하는 단체들이 보이는데, 특히 흑인 시민 단체들이 많습니다.",
-   "speaker": "Britney Luce"
+   "start": 434.3,
+   "en": "But a really big distinction, and why the census is so important, a lot of researchers and advocates tell me, is that the census is supposed to go out to every household in the country.",
+   "ko": "하지만 정말 큰 차이점이자 왜 인구 조사가 중요한지에 대해 많은 연구자와 활동가들이 제게 말해주는 것은, 인구 조사는 나라의 모든 가구를 대상으로 한다는 점입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 517.0,
-   "en": "Getting people to sign up to be census takers, educating people about the importance of answering the census. But it really is a huge deal among some black cultural and political organizations to make sure that we get counted. Actually, the theme for the last coordinated black census initiative back in 2020 was called 'Count Me Black', which I wish I would have had a Count Me Black, any Count Me Black merch. If anyone has Count Me Black merch, please, let me know.",
-   "ko": "사람들에게 인구조사원이 되도록 독려하고, 응답의 중요성을 교육하기도 하죠. 일부 흑인 문화 및 정치 단체들 사이에서 우리가 집계되도록 하는 건 정말 큰 일입니다. 실제로 2020년 흑인 인구조사 캠페인의 테마는 '나를 흑인으로 집계하라(Count Me Black)'였는데, 저도 그 굿즈가 있었으면 좋았을 텐데요. 혹시 가지고 계신 분 있으면 알려주세요.",
-   "speaker": "Britney Luce"
+   "start": 444.0,
+   "en": "It's got every person, not a sample of the population, which is what a survey does.",
+   "ko": "일반적인 설문 조사가 하는 표본 추출이 아니라, 모든 사람을 포함합니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 542.0,
-   "en": "I say all that to say that like these are coordinated campaigns that are really important to some of these organizations, because low counts in some communities can mean federal dollars get diverted to other communities. I mean to your point about accuracy, Hansi, like this is a pretty big opportunity to get that accuracy and there is so much that is on the line here.",
-   "ko": "이런 조직적인 캠페인이 중요한 이유는, 특정 지역 사회의 집계가 적게 나오면 연방 자금이 다른 지역으로 돌아갈 수 있기 때문입니다. 한지 씨가 말씀하신 정확성에 대해서도, 이번이 그 정확성을 확보할 수 있는 아주 중요한 기회이며 많은 것이 걸려 있다는 뜻입니다.",
-   "speaker": "Britney Luce"
+   "start": 448.9,
+   "en": "It produces a unique comprehensive national data set about race and ethnicity every 10 years that really is not replicable by any other survey.",
+   "ko": "이것은 10년마다 다른 어떤 설문 조사로도 대체 불가능한 인종과 민족에 관한 독특하고 종합적인 전국 데이터 세트를 만들어냅니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 561.0,
-   "en": "There's so much on the line. And the fact is decade after decade, the Census Bureau has undercounted people of color while overcounting white people.",
-   "ko": "많은 것이 걸려 있죠. 사실 수십 년간 인구조사국은 백인은 과다 집계하면서 유색인종은 과소 집계해 왔습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 460.1,
+   "en": "And also it is an opportunity to get information once a decade—update information about how people identify in terms of race, ethnicity, which is something that could shift from one decade to another.",
+   "ko": "또한 10년에 한 번, 사람들이 인종과 민족 측면에서 스스로를 어떻게 식별하는지에 대한 정보를 업데이트할 기회이기도 한데, 이는 10년 사이에 변할 수 있는 부분입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 571.0,
-   "en": "We're going to take a quick break but first, if you're a longtime listener or brand new to It's Been a Minute, be sure to come back every Monday, Tuesday, Wednesday, and Friday for brand new episodes. And did you know you can make it even easier to get new episodes by hitting the follow or subscribe on your favorite podcast app? Whether you are a new friend or a loyal bestie, join the team by subscribing today.",
-   "ko": "잠시 쉬어가겠습니다. 하지만 그 전에, 오랫동안 들어오신 분이나 처음 오신 분 모두 월, 화, 수, 금요일에 올라오는 새 에피소드를 놓치지 마세요. 선호하는 팟캐스트 앱에서 팔로우나 구독 버튼을 누르면 새 에피소드를 더 쉽게 받아볼 수 있다는 거 알고 계셨나요? 새로운 친구든 오랜 단짝이든, 지금 바로 구독해서 저희 팀이 되어주세요.",
-   "speaker": "Britney Luce"
+   "start": 470.4,
+   "en": "It could shift in different situations. We're talking about a socio-political construct that has never been static in the history of the United States.",
+   "ko": "상황에 따라 바뀔 수도 있습니다. 우리는 미국 역사상 단 한 번도 고정된 적이 없었던 사회 정치적 구성 개념에 대해 이야기하고 있는 겁니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 593.0,
-   "en": "Coming up, after the break. You know all my life when I was handed these things, I always had limited option that was race and then there was ethnicity. And the race question was white, black, Asian, and Native American. But with those limited options, I was not going to choose white unless you put a gun to my head. Stick around.",
-   "ko": "잠시 후 이어집니다. 평생 이런 양식을 받을 때마다 인종과 민족이라는 제한된 선택지만 있었죠. 인종 질문에는 백인, 흑인, 아시아인, 그리고 원주민뿐이었어요. 하지만 그런 제한된 옵션 속에서, 제 머리에 총을 들이대지 않는 한 저는 백인을 선택하지 않았을 겁니다. 채널 고정하세요.",
-   "speaker": "Russell Contreras"
+   "start": 479.0,
+   "en": "So, to rely potentially on sample surveys or to rely on existing government records to make essentially educated guesses of how people identify... that's taking a big risk of getting an inaccurate portrait of who is living in the United States.",
+   "ko": "따라서 잠재적으로 표본 조사에 의존하거나 기존 정부 기록에 의존해 사람들이 어떻게 스스로를 식별하는지 기본적으로 추측하는 것은... 미국에 누가 살고 있는지에 대한 부정확한 초상을 얻게 될 큰 위험을 감수하는 일입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 616.0,
-   "en": "This message comes from NPR sponsor Lindamood-Bell. Lance was bright, but he struggled to read words. Michelle was the opposite. She could read words easily but struggled to understand what she read. Like so many students, they struggled not only with learning, but with self-confidence. Personalized one-to-one instruction at Lindamood-Bell Learning Centers changed that. Today, they read with confidence and they understand what they read. Instruction is available online or in person. Learn more at LindamoodBell.com/NPR.",
-   "ko": "이 메시지는 NPR 후원사인 린더무드-벨이 전해드립니다. 랜스는 똑똑했지만 글자를 읽는 데 어려움을 겪었습니다. 미셸은 반대로 글자는 잘 읽었지만 내용을 이해하는 데 어려움을 겪었죠. 많은 학생처럼 그들도 학습뿐만 아니라 자신감 문제로 힘들어했습니다. 린더무드-벨 학습 센터의 1:1 맞춤형 지도가 이를 바꿨습니다. 이제 그들은 자신 있게 읽고 내용을 이해합니다. 온라인 또는 방문 지도가 가능합니다. LindamoodBell.com/NPR에서 자세히 알아보세요.",
+   "start": 502.6,
+   "en": "Yeah, I mean, and to your point about accuracy, I mean, there's so many that's riding on that as we're discussing.",
+   "ko": "네, 정확성에 대한 말씀처럼 우리가 논의하고 있는 많은 것들이 거기에 달려 있습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 507.8,
+   "en": "I mean, there are groups that I see come out every 10 years that are really serious about the census. A lot of Black civic organizations specifically getting people to sign up to be census takers, educating people about the importance of answering the census.",
+   "ko": "제 말은, 10년마다 인구 조사에 정말 진지하게 임하는 단체들을 보게 된다는 겁니다. 특히 많은 흑인 시민 단체들이 사람들에게 인구 조사원이 되도록 독려하고, 인구 조사 응답의 중요성을 교육하죠.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 521.4,
+   "en": "But it really is a huge deal among some Black cultural and political organizations to make sure that we get counted actually.",
+   "ko": "실제로 우리가 집계되도록 하는 것은 일부 흑인 문화 및 정치 단체들 사이에서 정말 큰 일입니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 528.7,
+   "en": "The theme for the last coordinated Black Census initiative back in 2020 was called \"Count Me Black,\" which I wish I would have had a Count Me Black merch.",
+   "ko": "지난 2020년 합동 흑인 인구 조사 캠페인의 테마는 \"나를 흑인으로 집계하라(Count Me Black)\"였는데, 저도 그 굿즈가 있었으면 좋았을 텐데요.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 537.1,
+   "en": "Any \"Count Me Black\" merch—if anyone has \"Count Me Black\" merch, please let me know.",
+   "ko": "\"나를 흑인으로 집계하라\" 굿즈... 혹시 가지고 계신 분 있으면 알려주세요.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 541.3,
+   "en": "I say all that to say that, like, these are coordinated campaigns that are really important to some of these organizations because low counts in some communities can mean federal dollars get diverted to other communities.",
+   "ko": "이런 말씀을 드리는 이유는, 일부 커뮤니티에서 집계가 낮게 나오면 연방 자금이 다른 커뮤니티로 전용될 수 있기 때문에 이런 조직적인 캠페인이 매우 중요하다는 점을 강조하기 위해서입니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 551.0,
+   "en": "I mean, to your point about accuracy, Hansi, like, this is a pretty big opportunity to get that accuracy and there is so much that is on the line here.",
+   "ko": "한시, 정확성에 대한 말씀처럼 이건 그 정확성을 확보할 수 있는 꽤 큰 기회이고 여기에 걸린 것이 너무나도 많습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 560.2,
+   "en": "There's so much on the line and the fact is decade after decade the Census Bureau has undercounted people of color while over-counting white people.",
+   "ko": "정말 많은 것이 걸려 있죠. 사실 인구조사국은 수십 년 동안 백인은 과다하게 집계하면서 유색인종은 과소하게 집계해 왔습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 569.0,
+   "en": "We're going to take a quick break but first if you're a longtime listener or brand new to It's Been a Minute be sure to come back every Monday, Tuesday, Wednesday and Friday for brand new episodes.",
+   "ko": "잠시 쉬어가겠지만, 그전에 기존 청취자분들이나 'It's Been a Minute'을 처음 들으시는 분들은 매주 월, 화, 수, 금요일에 업로드되는 새로운 에피소드를 꼭 확인해 주세요.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 579.5,
+   "en": "And did you know you can make it even easier to get new episodes by hitting the follow or subscribe button on your favorite podcast app?",
+   "ko": "그리고 선호하는 팟캐스트 앱에서 팔로우나 구독 버튼을 누르면 새로운 에피소드를 훨씬 더 쉽게 받아보실 수 있다는 사실, 알고 계셨나요?",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 587.8,
+   "en": "Whether you're a new friend or a loyal bestie, join the team by subscribing today. Coming up after the break.",
+   "ko": "새로운 친구든 오랜 단짝이든, 지금 바로 구독해서 저희 팀에 합류하세요. 휴식 시간 이후에 다시 뵙겠습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 595.0,
+   "en": "You know, all my life when I was headed these things, I always had limited option that was race and then there was ethnicity.",
+   "ko": "아시겠지만 평생 이런 것들을 접할 때마다 인종과 민족이라는 제한된 선택지만 있었습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 601.2,
+   "en": "And the race question was white, black, Asian, and Native American.",
+   "ko": "그리고 인종 질문은 백인, 흑인, 아시아인, 그리고 아메리카 원주민뿐이었죠.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 606.0,
+   "en": "But with those limited options, I was not going to choose white unless you put a gun to my head. Stick around.",
+   "ko": "하지만 그런 제한된 옵션 속에서 누가 제 머리에 총을 들이대지 않는 한 전 백인을 선택하지 않았을 겁니다. 채널 고정해 주세요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 615.7,
+   "en": "Hey, Lulu here. Whether we are romping through science, music, politics, technology, or feelings, we seek to leave you seeing the world anew.",
+   "ko": "안녕하세요, 루루입니다. 과학, 음악, 정치, 기술, 또는 감정을 넘나들며 저희는 여러분이 세상을 새롭게 바라보실 수 있도록 노력합니다.",
    "speaker": "Host",
    "ad": true
   },
   {
-   "start": 648.0,
-   "en": "American journalist Austin Tice vanished in Syria over a decade ago. For years, we've been searching for him. And now, we finally have some answers. Oh my god. We found Austin's file. Listen to Where is Austin Tice? From NPR's Embedded and BBC Radio 4 on the NPR app or wherever you get your podcasts.",
-   "ko": "미국인 기자 오스틴 타이스가 10여 년 전 시리아에서 실종되었습니다. 수년간 우리는 그를 찾아왔고, 이제 마침내 해답을 얻기 시작했습니다. 세상에, 오스틴의 파일을 찾았어요. NPR의 Embedded와 BBC Radio 4가 공동 제작한 '오스틴 타이스는 어디에 있는가?'를 NPR 앱이나 팟캐스트 플랫폼에서 들어보세요.",
+   "start": 624.8,
+   "en": "Radiolab adventures right on the edge of what we think we know. Wherever you get podcasts.",
+   "ko": "우리가 알고 있다고 생각하는 것의 경계에서 펼쳐지는 라디오랩의 모험. 팟캐스트를 들으시는 어디에서나 만나보세요.",
    "speaker": "Host",
    "ad": true
   },
   {
-   "start": 673.0,
-   "en": "This week on Wait Wait... Don't Tell Me!, we talk with David Byrne about the early fashion advice he got from Lou Reed. He said you should never wear short sleeves. Body shamed you. Yeah. Don't miss our full conversation and the rest of our games, listen to the Wait Wait... Don't Tell Me! podcast on the NPR app or wherever you get your podcasts.",
-   "ko": "이번 주 'Wait Wait... Don't Tell Me!'에서는 데이비드 번과 함께 그가 루 리드에게 들었던 초기 패션 조언에 대해 이야기합니다. 반팔은 절대 입지 말라고 했다더군요. 몸매 지적을 당하신 거네요. 네. 전체 대화와 재미있는 게임들을 놓치지 마세요. NPR 앱이나 팟캐스트 앱에서 'Wait Wait... Don't Tell Me!'를 구독하세요.",
+   "start": 630.6,
+   "en": "This message comes from the NBC News podcast, \"Here's the Scoop.\" It's a daily look at the top headlines with deeper conversations about the stories shaping the world.",
+   "ko": "이 메시지는 NBC 뉴스 팟캐스트 'Here's the Scoop'에서 전해드립니다. 매일 주요 헤드라인을 살펴보고 세상을 형성하는 이야기들에 대해 더 깊은 대화를 나눕니다.",
    "speaker": "Host",
    "ad": true
   },
   {
-   "start": 697.0,
-   "en": "There is also another set of census data that the Trump administration also proposed to stop including. They proposed to stop including certain non-US citizens in a specific set of census numbers, which would be unprecedented. How would that change things?",
-   "ko": "트럼프 행정부가 포함을 중단하겠다고 제안한 또 다른 인구조사 데이터 세트가 있습니다. 특정 인구조사 수치에서 특정 비미국인 시민을 제외하겠다는 제안인데, 이는 전례가 없는 일입니다. 이로 인해 어떤 변화가 생길까요?",
-   "speaker": "Britney Luce"
+   "start": 640.4,
+   "en": "From the economy to AI to the midterms. Listen to \"Here's the Scoop,\" a podcast from NBC News.",
+   "ko": "경제에서 AI, 중간선거까지. NBC 뉴스의 팟캐스트 'Here's the Scoop'을 들어보세요.",
+   "speaker": "Host",
+   "ad": true
   },
   {
-   "start": 719.0,
-   "en": "This is a proposal for the 2030 census that runs up against the Constitution. You know, some people assume the census is only supposed to count US citizens, but citizens that word is not part of the Constitution's census instructions.",
-   "ko": "이것은 2030년 인구조사를 위한 제안으로, 헌법과 충돌합니다. 어떤 사람들은 인구조사가 미국 시민권자만 집계해야 한다고 생각하지만, '시민권자'라는 단어는 헌법의 인구조사 지침에 포함되어 있지 않습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 646.8,
+   "en": "American journalist Austin Tice vanished in Syria over a decade ago. For years, we've been searching for him, and now we finally have some answers.",
+   "ko": "미국인 기자 오스틴 타이스는 10여 년 전 시리아에서 사라졌습니다. 수년 동안 우리는 그를 찾아왔고, 이제 마침내 몇 가지 해답을 얻었습니다.",
+   "speaker": "Host",
+   "ad": true
   },
   {
-   "start": 733.0,
-   "en": "If you take a look at the document, the current instructions were enacted after the Civil War and its slavery in the United States, that we're talking about the 14th Amendment, which says, quote 'the whole number of persons in each state' must be included in the census numbers used to determine each state's share of congressional seats and electoral college votes for a decade.",
-   "ko": "문서를 보면, 현재의 지침은 남북전쟁과 노예제 폐지 이후 제정된 수정헌법 제14조를 따르고 있습니다. 여기에는 각 주의 하원 의석수와 선거인단 수를 결정하는 인구조사 수치에 '각 주의 총 인원수'가 포함되어야 한다고 명시되어 있죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 657.8,
+   "en": "This is the person that Austin was in... Oh my God, we've found Austin's file.",
+   "ko": "이 사람이 바로 오스틴이 있던... 오 마이 갓, 오스틴의 파일을 찾았어요.",
+   "speaker": "Host",
+   "ad": true
   },
   {
-   "start": 753.0,
-   "en": "And what the Trump administration is arguing is that the framers of the Constitution did not intend for the word 'persons' to include people living in the states who do not have US citizenship or green cards.",
-   "ko": "트럼프 행정부의 주장은 헌법 제정자들이 '인원(persons)'이라는 단어에 미국 시민권이나 영주권이 없는 주 거주자들을 포함할 의도가 없었다는 것입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 662.3,
+   "en": "Listen to \"Where Is Austin Tice\" from NPR's Embedded and BBC Radio 4 on the NPR app or wherever you get your podcasts.",
+   "ko": "NPR의 'Embedded'와 BBC 라디오 4가 공동 제작한 'Where Is Austin Tice'를 NPR 앱이나 팟캐스트 플랫폼에서 들어보세요.",
+   "speaker": "Host",
+   "ad": true
   },
   {
-   "start": 764.0,
-   "en": "So they want to exclude from what are known as census apportionment counts millions of US residents who do not have legal status, who are refugees, asylees, or visa holders. And this is a broader push for exclusion compared to what the first Trump administration tried and failed to do for the 2020 census, when the focus was on specifically US residents without legal status.",
-   "ko": "즉, 인구조사 의석 배분 집계에서 서류 미비자, 난민, 망명 신청자, 비자 소지자 등 수백만 명의 미국 거주자를 제외하고 싶어 하는 거죠. 이는 2020년 인구조사 당시 서류 미비자들에게만 집중했던 첫 번째 트럼프 행정부의 시도보다 더 광범위한 배제 정책입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 692.3,
+   "en": "NPR app or wherever you get your podcasts.",
+   "ko": ""
   },
   {
-   "start": 787.0,
-   "en": "Okay, so it's interesting though that the Trump administration would want to not have this data, or at least a most accurate picture of this data about America. I think it's also part of a larger story that has to do with how America is changing.",
-   "ko": "흥미롭군요. 트럼프 행정부가 미국의 이 데이터, 혹은 최소한 가장 정확한 데이터를 원하지 않는다는 것이요. 저는 이것이 미국이 어떻게 변화하고 있는지와 관련된 더 큰 이야기의 일부라고 생각합니다.",
-   "speaker": "Britney Luce"
+   "start": 699.4,
+   "en": "There is also another set of census data that the Trump administration also proposed to stop including.",
+   "ko": "트럼프 행정부가 포함시키지 않기로 제안한 또 다른 인구 조사 데이터 세트가 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 799.0,
+   "start": 705.9,
+   "en": "The proposal to stop including certain non-US citizens in a specific set of census numbers, which would be unprecedented. How would that change things?",
+   "ko": "특정 인구 조사 수치 세트에서 특정 비미국 시민권자를 제외하자는 제안인데, 이는 전례가 없는 일입니다. 그것이 상황을 어떻게 바꿀까요?",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 718.5,
+   "en": "This is a proposal for the 2030 census that runs up against the Constitution.",
+   "ko": "이것은 헌법과 충돌하는 2030년 인구 조사를 위한 제안입니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 723.6,
+   "en": "You know, some people assume the census is only supposed to count US citizens, but \"citizens\"—that word is not part of the Constitution's census instructions.",
+   "ko": "아시다시피 어떤 사람들은 인구 조사가 미국 시민권자만 집계해야 한다고 생각하지만, '시민권자'라는 단어는 헌법의 인구 조사 지침에 포함되어 있지 않습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 732.3,
+   "en": "You take a look at the document, the current instructions were enacted after the Civil War ended slavery in the United States.",
+   "ko": "문서를 보시면, 현재의 지침은 미국에서 노예 제도를 종식시킨 내전 이후에 제정되었습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 738.4,
+   "en": "We're talking about the 14th Amendment, which says, quote, \"the whole number of persons in each state\" must be included in the census numbers used to determine each state's share of congressional seats and electoral college votes for a decade.",
+   "ko": "수정헌법 제14조에 대해 이야기하는 것인데, 여기에는 향후 10년 동안 각 주의 의회 의석수와 선거인단 수를 결정하는 데 사용되는 인구 조사 수치에 \"각 주의 전체 인원수\"가 포함되어야 한다고 명시되어 있습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 749.2,
+   "en": "And what the Trump administration is arguing is that the framers in the Constitution did not intend for the word \"persons\" to include people living in the states who do not have US citizenship or green cards.",
+   "ko": "트럼프 행정부의 주장은 헌법 제정자들이 '인원'이라는 단어에 미국 시민권이나 영주권이 없는 주 거주자들을 포함시키려 하지 않았다는 것입니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 762.4,
+   "en": "So they want to exclude from what are known as census apportionment counts millions of US residents who do not have legal status, who are refugees, asylees or visa holders.",
+   "ko": "그래서 그들은 인구 조사 배분 집계라고 알려진 항목에서 법적 지위가 없는 수백만 명의 미국 거주자, 즉 난민, 망명 신청자 또는 비자 소지자들을 제외하고 싶어 합니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 774.0,
+   "en": "And this is a broader push for exclusion compared to what the first Trump administration tried and failed to do for the 2020 census when the focus was on specifically US residents without legal status.",
+   "ko": "이는 법적 지위가 없는 미국 거주자에게만 초점을 맞췄다가 실패했던 첫 번째 트럼프 행정부의 2020년 인구 조사 시도와 비교할 때 더 광범위한 배제 추진입니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 786.0,
+   "en": "Okay. So it's interesting though, the Trump administration would want to not have this data or at least the most accurate picture of this data about America.",
+   "ko": "그렇군요. 트럼프 행정부가 이 데이터를, 혹은 최소한 미국에 대한 이 데이터의 가장 정확한 모습을 원하지 않는다는 것이 흥미롭네요.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 794.4,
+   "en": "I think it's also part of a larger story that has to do with how America is changing.",
+   "ko": "이것은 또한 미국이 어떻게 변하고 있는가와 관련된 더 큰 이야기의 일부라고 생각합니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 799.2,
    "en": "There's been a lot of panic, okay, capital P, particularly among white conservatives about this projection that the Census Bureau made in the past that starting sometime in the 2040s, non-Hispanic whites will not be the largest racial or ethnic group anymore.",
-   "ko": "과거 인구조사국이 2040년대부터 비히스패닉계 백인이 더 이상 최대 인종 또는 민족 집단이 되지 않을 것이라는 전망을 내놓은 이후, 특히 백인 보수주의자들 사이에서 커다란 공포가 확산되었습니다.",
-   "speaker": "Britney Luce"
+   "ko": "과거 인구조사국이 2040년대 언젠가부터 비히스패닉계 백인이 더 이상 최대 인종 또는 민족 집단이 되지 않을 것이라는 예측을 내놓은 것에 대해, 특히 백인 보수주의자들 사이에서 큰 공포(Panic)가 있었습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 818.0,
-   "en": "Do you think that idea, like maybe that new data would confirm this trend, might be playing into all of this?",
-   "ko": "새로운 데이터가 이러한 추세를 확인할 수도 있다는 생각이 이 모든 상황에 영향을 미치고 있다고 보시나요?",
-   "speaker": "Britney Luce"
+   "start": 815.1,
+   "en": "Do you think that idea—like maybe that new data would confirm this trend—might be playing into all of this?",
+   "ko": "새로운 데이터가 이러한 추세를 확인할 수도 있다는 그 생각이 이 모든 상황에 영향을 미치고 있다고 보시나요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 824.0,
-   "en": "You know, it's it's hard to say for certain, but you know, there is this interesting historical parallel behind this latest Trump administration push to exclude certain non-US citizens living in the country from the census apportionment counts, you know.",
-   "ko": "확실히 말하긴 어렵지만, 인구조사 의석 배분 집계에서 특정 비시민권 거주자를 제외하려는 트럼프 행정부의 이번 추진 배경에는 흥미로운 역사적 유사점이 있습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 823.0,
+   "en": "You know, it's hard to say for sure, but you know, there is this interesting historical parallel behind this latest Trump administration push to exclude certain non-U.S. citizens living in the country from the census apportionment counts.",
+   "ko": "확실히 말하긴 어렵지만, 미국에 거주하는 특정 비시민권자를 인구 조사 배분 집계에서 제외하려는 트럼프 행정부의 이번 추진 뒤에는 흥미로운 역사적 평행선이 존재합니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 842.0,
+   "start": 839.4,
    "en": "Right before the 1980 census, hardline advocates for immigration restrictions launched a decades-long push to exclude specifically people without legal status from the census apportionment counts.",
-   "ko": "1980년 인구조사 직전, 이민 제한을 주장하는 강경파 옹호론자들은 인구조사 의석 배분 집계에서 특히 서류 미비자들을 제외하기 위한 수십 년에 걸친 캠페인을 시작했습니다.",
-   "speaker": "Hansi Lo Wang"
+   "ko": "1980년 인구 조사 직전, 이민 제한을 주장하는 강경파 옹호자들은 법적 지위가 없는 사람들을 인구 조사 배분 집계에서 구체적으로 제외하기 위해 수십 년에 걸친 압박을 시작했습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 852.0,
-   "en": "And their leader at the time once wrote in a memo warning about a quote 'Latin onslaught', unquote, because of the rise of immigration they were seeing from Latin America, Asia, and other parts of the world after the US got rid of an immigration system based on race ethnicity in 1965.",
-   "ko": "당시 그들의 리더는 1965년 미국이 인종 기반 이민 시스템을 폐지한 후 라틴 아메리카, 아시아 등지에서 이민이 급증하자 '라틴계의 습격'을 경고하는 메모를 남기기도 했습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 851.2,
+   "en": "Their leader at the time once wrote in a memo warning about a, quote, \"Latin onslaught,\" unquote, because of the rise of immigration they were seeing from Latin America, Asia, and other parts of the world after the U.S. got rid of an immigration system based on race ethnicity in 1965.",
+   "ko": "당시 그들의 지도자는 1965년 미국이 인종 및 민족에 기반한 이민 제도를 없앤 후 라틴 아메리카, 아시아 등지에서 이민이 급증하자 메모에 \"라틴계의 맹습\"이라고 경고한 바 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 869.0,
-   "en": "And the Trump administration census efforts, and I'm talking about during the first term and this current one, they've been following a playbook drawn up by these immigration hardliners decades ago.",
-   "ko": "그리고 트럼프 행정부의 인구조사 정책은 첫 번째 임기 때나 지금이나 수십 년 전 이민 강경파들이 작성한 각본을 따르고 있습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 868.2,
+   "en": "And the Trump administration's census efforts—and I'm talking about during the first term and this current one—they've been following a playbook drawn up by these immigration hardliners decades ago.",
+   "ko": "그리고 첫 번째 임기와 현재 임기를 통틀어 트럼프 행정부의 인구 조사 관련 노력들은 수십 년 전 이들 이민 강경파들이 작성한 각본을 따르고 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 885.0,
-   "en": "And so again, it's, you know, the administration is saying this is how they think the Constitution's instructions should be interpreted, that persons does not include certain people living in the states without US citizenship or green card. But behind all that is this history.",
-   "ko": "다시 말하지만, 행정부는 '인원'에 시민권이나 영주권이 없는 거주자가 포함되지 않는다는 것이 헌법적 해석이라고 주장하지만, 그 이면에는 이런 역사가 깔려 있습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 879.7,
+   "en": "And so, again, it's, you know, the administration is saying, this is how they think the Constitution's instructions should be interpreted.",
+   "ko": "그러니까 다시 말하지만, 행정부는 이것이 그들이 생각하는 헌법 지침의 해석 방식이라고 말하고 있는 것입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 901.0,
-   "en": "Russell, what do you think? Yeah, that's right. You know, I've heard for many years if you just change the terms, you could change the data. But if you change the term of say Latinos and how you count them, it's not going to erase the reality outside your window.",
-   "ko": "러셀 씨는 어떻게 생각하세요? 네, 맞습니다. 용어만 바꾸면 데이터를 바꿀 수 있다는 말을 오랫동안 들어왔죠. 하지만 라틴계라는 용어나 집계 방식을 바꾼다고 해서 창밖의 현실이 지워지지는 않습니다.",
-   "speaker": "Russell Contreras"
+   "start": 888.9,
+   "en": "That \"persons\" does not include certain people living in the states without US citizenship or green cards. But behind all that is this history.",
+   "ko": "'인원'에는 미국 시민권이나 영주권 없이 주에 거주하는 특정인들이 포함되지 않는다는 것이죠. 하지만 그 모든 것의 이면에는 이런 역사가 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 918.0,
-   "en": "You're not going to wake up and find there are less Mexicans. There are 403 US counties that are already majority minority. When we dove into them, we found that there are majority minority counties in rural Texas, Mississippi, New Mexico, Georgia, Alaska, even Nebraska and Kansas.",
-   "ko": "자고 일어났더니 멕시코인이 줄어들어 있을 리는 없죠. 이미 미국 내 403개 카운티가 '다수 소수계(소수 인종이 다수인 지역)'입니다. 조사해 보니 텍사스, 미시시피, 뉴멕시코, 조지아, 알래스카는 물론 네브래스카와 캔자스의 농촌 지역에도 그런 카운티들이 있었습니다.",
-   "speaker": "Russell Contreras"
+   "start": 899.5,
+   "en": "Russell, what do you think? Yeah, that's right. You know, I've heard for many years if you just change the terms, you could change the data.",
+   "ko": "러셀, 어떻게 생각하시나요? 네, 맞습니다. 용어만 바꾸면 데이터를 바꿀 수 있다는 말을 오랫동안 들어왔습니다.",
+   "speaker": "Russell"
   },
   {
-   "start": 937.0,
-   "en": "And I would bet that the places in in Nebraska and Kansas, those are either a slaughterhouse areas or livestock, and those are places where you get a lot of undocumented workers there.",
-   "ko": "네브래스카와 캔자스의 그런 지역들은 아마 도축장이나 가축 사육장 지역일 텐데, 그런 곳에 서류 미비 노동자들이 아주 많습니다.",
-   "speaker": "Russell Contreras"
+   "start": 906.6,
+   "en": "But if you change the term of say Latinos and how you count them, it's not going to erase the reality outside your window. You're not going to wake up and find there are less Mexicans.",
+   "ko": "하지만 라틴계라는 용어나 그들을 집계하는 방식을 바꾼다고 해서 창밖의 현실이 지워지지는 않습니다. 아침에 일어났을 때 멕시코인이 줄어들어 있지는 않을 테니까요.",
+   "speaker": "Russell"
   },
   {
-   "start": 942.0,
-   "en": "It tells you a reality of those changing economies. If you don't count them, then you're not giving the accurate picture of what's gone on in America. The story is misaligned. And therefore you can't even address possible civil rights violations.",
-   "ko": "이는 변화하는 경제 구조의 현실을 보여줍니다. 그들을 집계하지 않으면 미국에서 일어나고 있는 일에 대한 정확한 그림을 제시할 수 없습니다. 이야기가 어긋나게 되죠. 결과적으로 발생 가능한 인권 침해 문제조차 다룰 수 없게 됩니다.",
-   "speaker": "Russell Contreras"
+   "start": 916.8,
+   "en": "There are 403 U.S. counties that are already a majority-minority. When we dove into them, we found that there are majority-minority counties in rural Texas, Mississippi, New Mexico, Georgia, Alaska, even Nebraska and Kansas.",
+   "ko": "이미 미국 내 403개 카운티가 '다수-소수(소수계가 다수인)' 지역입니다. 심층 조사를 해보니 텍사스 시골, 미시시피, 뉴멕시코, 조지아, 알래스카, 심지어 네브래스카와 캔자스에도 이런 카운티들이 있더군요.",
+   "speaker": "Russell"
   },
   {
-   "start": 957.0,
-   "en": "So like say in the county of Nebraska, we found there was a majority of Latinos. Those counties are required to say have court interpreters. Those counties are required to have multilingual ballots. If you don't have that data, you can say nothing to see here, these people are essentially invisible and they don't count both literally and figuratively.",
-   "ko": "예를 들어 네브래스카의 한 카운티는 라틴계가 다수였습니다. 그런 카운티는 법정 통역사를 배치하고 다국어 투표용지를 구비해야 합니다. 하지만 데이터가 없으면 '아무 문제 없다'고 말하며 그들을 투명인간 취급할 수 있고, 말 그대로나 비유적으로나 그들은 계산에서 제외되는 거죠.",
-   "speaker": "Russell Contreras"
+   "start": 931.0,
+   "en": "And I would bet the places in Nebraska and Kansas, those are either slaughterhouse areas or livestock. And those are places where you get a lot of undocumented workers there.",
+   "ko": "네브래스카와 캔자스의 그런 지역들은 도축장이 있거나 가축을 기르는 곳일 겁니다. 그런 곳에는 서류 미비 노동자들이 아주 많죠.",
+   "speaker": "Russell"
   },
   {
-   "start": 978.0,
-   "en": "I mean, Hansi, you pointed out in a story after the 2020 census that there are some issues with the framing about a decline in the white population, given that the white population may be growing depending on how you define the 'quote-unquote' white category.",
-   "ko": "한지 씨, 당신은 2020년 인구조사 이후 기사에서 백인 인구 감소라는 프레임에 문제가 있다고 지적하셨죠. '백인' 범주를 어떻게 정의하느냐에 따라 백인 인구는 오히려 늘어날 수도 있으니까요.",
-   "speaker": "Britney Luce"
+   "start": 941.8,
+   "en": "It tells you a reality of those changing economies. If you don't count them, then you're not giving the accurate picture of what's going on in America. The story is misaligned.",
+   "ko": "그것은 변화하는 경제의 현실을 보여줍니다. 그들을 집계하지 않는다면 미국에서 무슨 일이 일어나고 있는지 정확한 그림을 보여주지 못하는 것입니다. 이야기가 어긋나게 되죠.",
+   "speaker": "Russell"
   },
   {
-   "start": 992.0,
-   "en": "You wrote that since 2000, the census has allowed people to check more than one box to answer the race question. And in 2020, quote, 'there was an almost 316 percent jump in the number of US residents who identified with the white category and one or more of the other racial groups'.",
-   "ko": "2000년부터 인구조사에서 인종 질문에 하나 이상의 항목을 체크할 수 있게 되었죠. 2020년에는 '백인 범주와 하나 이상의 다른 인종 그룹을 동시에 선택한 미국 거주자 수가 거의 316% 급증했다'고 쓰셨습니다.",
-   "speaker": "Britney Luce"
+   "start": 952.3,
+   "en": "And therefore you can't even address possible civil rights violations. So like saying the county of Nebraska, we found there was a majority of Latinos.",
+   "ko": "따라서 발생 가능한 민권 침해 문제조차 다룰 수 없게 됩니다. 예를 들어 네브래스카의 어느 카운티에서 라틴계가 다수라는 사실을 발견했다고 칩시다.",
+   "speaker": "Russell"
   },
   {
-   "start": 1009.0,
+   "start": 959.9,
+   "en": "Yeah, those counties are required to, say, have court interpreters. Those counties are required to have multi-language ballots. If you don't have that data, you can say nothing to see here.",
+   "ko": "네, 그런 카운티들은 법정 통역사를 두어야 합니다. 다국어 투표 용지도 갖춰야 하죠. 데이터가 없다면 아무 일도 없다는 듯이 넘어갈 수 있습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 971.6,
+   "en": "These people are essentially invisible and they don't count, both literally and figuratively.",
+   "ko": "이 사람들은 본질적으로 보이지 않는 존재가 되며, 문자 그대로나 비유적으로나 집계되지 않고 중요하지 않은 존재가 됩니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 976.8,
+   "en": "I mean, Hansi, you pointed out in a story after the 2020 census that there are some issues with the framing about a decline in the white population given that the white population may be growing depending on how you define the quote-unquote \"white\" category.",
+   "ko": "한시, 당신은 2020년 인구 조사 이후 기사에서 소위 '백인' 카테고리를 어떻게 정의하느냐에 따라 백인 인구가 오히려 늘어날 수도 있다는 점을 들어, 백인 인구 감소라는 프레임에 문제가 있다고 지적하셨죠.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 992.1,
+   "en": "You wrote this since 2000, the census has allowed people to check more than one box to answer the race question.",
+   "ko": "당신은 2000년부터 인구 조사가 인종 질문에 대해 하나 이상의 박스에 체크할 수 있도록 허용해 왔다고 썼습니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 997.7,
+   "en": "And in 2020, quote, \"there was an almost 316% jump in the number of US residents who identified with the white category and one or more of the other racial groups.\"",
+   "ko": "그리고 2020년에는 \"백인 카테고리와 하나 이상의 다른 인종 그룹에 동시에 해당하는 것으로 식별된 미국 거주자 수가 거의 316% 급증했다\"고 했죠.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1011.9,
    "en": "Their responses boosted the size of a white population that includes anyone who marked white.",
-   "ko": "그들의 응답 덕분에 백인으로 표시한 모든 사람을 포함하는 백인 인구의 규모가 커진 셈이죠.",
-   "speaker": "Britney Luce"
+   "ko": "그들의 응답은 백인이라고 표시한 모든 사람을 포함하는 백인 인구의 규모를 늘렸습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1019.0,
-   "en": "Which is interesting because in real life, like in the way that like race works socially, maybe you might check white on a census box but when people see you in the street you're not getting treated or assumed to be a white person.",
-   "ko": "흥미로운 점은 현실 세계에서 인종이 사회적으로 작동하는 방식을 볼 때, 인구조사 양식에는 백인으로 체크할지 몰라도 거리에서 사람들은 당신을 백인으로 대우하거나 그렇게 생각하지 않을 수도 있다는 겁니다.",
-   "speaker": "Britney Luce"
+   "start": 1019.1,
+   "en": "Which is interesting because in real life, like in the way that like race works socially, maybe you might check white on a census box, but when people see you in the street, you are not getting treated or assumed to be a white person.",
+   "ko": "이건 흥미로운 지점인데, 실제 생활에서 인종이 사회적으로 작동하는 방식을 보면 인구 조사에서는 백인이라고 체크했을지 몰라도, 길거리에서 사람들이 볼 때는 백인으로 취급받거나 여겨지지 않을 수도 있기 때문입니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1036.0,
-   "en": "This is complicated stuff, right? This is this is really complicated stuff because we we, you know, you can't talk to every person filled out a census form of what's going through their mind and what are they thinking when they're trying to answer this very personal for some people a very personal question.",
-   "ko": "참 복잡한 문제죠, 그렇죠? 인구조사 양식을 작성하는 모든 사람과 대화하며 그들이 이 매우 개인적인 질문에 답할 때 어떤 생각을 하는지 다 알 수는 없으니까요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1034.9,
+   "en": "This is complicated stuff, right?",
+   "ko": "이게 참 복잡한 문제죠, 그렇죠?",
+   "speaker": "Brittany"
   },
   {
-   "start": 1051.0,
-   "en": "Also, you know, let me throw in another complicating factor this is at a time when a lot of people are doing DNA tests and looking for ancestry tests and looking at those results and assuming, oh, this means I have roots in this part of the world, this part of the world, this part of the world and so therefore I should check off all these different boxes to represent my racial identity on the census.",
-   "ko": "또 다른 복잡한 요인은 요즘 많은 사람이 DNA 검사나 혈통 검사를 받고 그 결과를 보면서 '아, 내가 세계 여러 곳에 뿌리를 두고 있구나'라고 생각한다는 점입니다. 그래서 인구조사에서 자신의 인종 정체성을 나타내기 위해 여러 항목에 체크하게 되는 거죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1036.6,
+   "en": "This is really complicated stuff because you can't talk to every person filling a census form of what's going through their mind and what are they thinking when they're trying to answer this very personal—for some people, a very personal question.",
+   "ko": "정말 복잡한 문제입니다. 인구 조사 양식을 작성하는 모든 사람과 대화하면서, 어떤 사람들에게는 매우 사적인 이 질문에 답할 때 무슨 생각을 하는지 알 수 없기 때문이죠.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1071.0,
-   "en": "And perhaps what I checked off just one or a few weren't accurate before I got these DNA ancestry test results. That's also in the mix. So again, it's really complicated.",
-   "ko": "DNA 검사 결과를 받기 전에는 한두 개만 체크했던 게 부정확했다고 느낄 수도 있죠. 이런 요소들이 다 섞여 있습니다. 그러니 정말 복잡할 수밖에요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1049.5,
+   "en": "And also, let me throw it another complicating factor. This is at a time when a lot of people are doing DNA tests and looking for ancestry tests and looking at those results and assuming, Oh, this means I have roots in this part of the world, this part of the world, this part of the world.",
+   "ko": "또 다른 복잡한 요소를 들어보자면, 지금은 많은 사람들이 DNA 검사와 혈통 검사를 하고 그 결과를 보며 '아, 내 뿌리가 세계 곳곳에 있구나'라고 생각하는 시대입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1081.0,
-   "en": "And I think the key question to keep in mind here is whenever you see a headline that says the white population is shrinking or is in decline, the question is how are you defining white?",
-   "ko": "여기서 명심해야 할 핵심 질문은 '백인 인구가 줄어들고 있다'는 헤드라인을 볼 때마다 '백인을 어떻게 정의하고 있는가?'입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1062.7,
+   "en": "And so therefore I should check off all these different boxes to represent my racial identity on the census.",
+   "ko": "그래서 인구 조사에서 나의 인종적 정체성을 나타내기 위해 이 모든 다양한 항목들에 체크해야겠다고 생각하는 거죠.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1092.0,
-   "en": "Because for decades many people have equated people who only check off the white box and do not identify as Hispanic or Latino on the census as the white population, but the reality is messier than that.",
-   "ko": "수십 년 동안 많은 이들이 인구조사에서 히스패닉이나 라틴계가 아니라고 답하면서 오직 백인 칸에만 체크한 사람들을 '백인 인구'로 동일시해 왔지만, 현실은 그보다 훨씬 복잡하기 때문입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1069.5,
+   "en": "And perhaps what I checked off just one or a few were inaccurate before I got these DNA ancestry test results. That's also in the mix. So again, it's really complicated.",
+   "ko": "DNA 혈통 검사 결과를 받기 전에는 하나나 몇 개만 체크했던 것이 부정확했을 수도 있다는 생각도 섞여 있고요. 그래서 다시 말하지만 정말 복잡합니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1105.0,
-   "en": "Because again the country's ideas about whiteness has always been in flux, just as the idea of race in general has ever been, you know, ever changing in this country and we try to fit into imperfect boxes on census forms this squishy thing.",
-   "ko": "이 나라에서 '백인성'에 대한 개념은 늘 유동적이었고, 인종에 대한 개념 자체가 항상 변해왔습니다. 우리는 그 모호한 정체성을 인구조사 양식의 불완전한 칸들에 끼워 맞추려 애쓰고 있는 거죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1078.4,
+   "en": "And I think the key question to keep in mind here is whenever you see a headline that says, \"the white population is shrinking\" or \"is in decline,\" the question is, how are you defining white?",
+   "ko": "여기서 명심해야 할 핵심 질문은 \"백인 인구가 줄어들고 있다\"거나 \"감소세에 있다\"는 헤드라인을 볼 때마다, '백인을 어떻게 정의하고 있는가' 하는 점입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1119.0,
-   "en": "Squishy thing, but again has real hard consequences for a lot of people in terms of discrimination. And these forms by the way have asked about race and ethnicity in different ways decade to decade, the responses have been processed in different ways decade to decade.",
-   "ko": "모호하긴 하지만 차별이라는 측면에서 많은 사람에게 실질적이고 가혹한 결과를 초래합니다. 참고로 이 양식들은 수십 년간 인종과 민족을 묻는 방식이 계속 바뀌어 왔고, 응답을 처리하는 방식도 매번 달랐습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1090.4,
+   "en": "Because for decades, many people have equated people who only check off the white box and do not identify as Hispanic or Latino on the census as \"the white population.\"",
+   "ko": "수십 년 동안 많은 사람들이 인구 조사에서 오직 백인 칸만 체크하고 히스패닉이나 라틴계라고 밝히지 않은 사람들만을 '백인 인구'로 동일시해 왔기 때문입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1137.0,
-   "en": "And so that could also influence the census results. But, you know, the bottom line here is that however you define white, whether it's people who check off just the white box exclusively or in addition to other boxes on a census form, white people still make up the largest race or ethnic group in the United States.",
-   "ko": "그런 점들이 인구조사 결과에 영향을 미칠 수 있습니다. 하지만 결론은, 백인 항목만 체크하든 다른 항목과 함께 체크하든, 백인이 여전히 미국에서 가장 큰 인종 또는 민족 집단을 형성하고 있다는 사실입니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1102.4,
+   "en": "But the reality is messier than that. Because again, that country's ideas about whiteness have always been in flux.",
+   "ko": "하지만 현실은 그보다 더 복잡합니다. 다시 말하지만, 그 나라의 백인성에 대한 관념은 항상 변해왔기 때문입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1153.0,
-   "en": "Sticking on this topic of the ever-shifting definition of whiteness in the United States. Another complicating factor in all of this is that the Biden administration made changes to how race and ethnicity can be asked about for the 2030 census and other federal government forms.",
-   "ko": "미국 내에서 계속 변화하는 백인성의 정의라는 주제를 계속 이어가 보죠. 또 다른 복잡한 요인은 바이든 행정부가 2030년 인구조사와 기타 정부 양식에서 인종 및 민족을 묻는 방식을 변경했다는 점입니다.",
-   "speaker": "Britney Luce"
+   "start": 1108.4,
+   "en": "Just as the idea of race in general has ever been, you know, ever-changing in this country, and we try to fit into imperfect boxes on census forms, this squishy thing.",
+   "ko": "일반적인 인종에 대한 관념이 이 나라에서 항상 변해온 것처럼 말이죠. 우리는 인구 조사 양식의 불완전한 칸들에 이 모호한 개념을 끼워 맞추려 노력하고 있는 겁니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1170.0,
-   "en": "Including creating new boxes for Middle Eastern or North African and for Hispanic/Latino. I think a lot of people don't know that people of each of these backgrounds could not choose those options as a race.",
-   "ko": "중동 또는 북아프리카계, 그리고 히스패닉/라틴계를 위한 새로운 칸을 만든 것을 포함해서요. 많은 사람이 이 배경을 가진 사람들이 이전에는 이를 '인종' 옵션으로 선택할 수 없었다는 사실을 잘 모르는 것 같아요.",
-   "speaker": "Britney Luce"
+   "start": 1118.5,
+   "en": "Squishy thing, but again, has real hard consequences for a lot of people in terms of discrimination.",
+   "ko": "모호한 것이지만, 차별이라는 측면에서 많은 사람들에게 매우 실질적이고 가혹한 결과를 가져옵니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1183.0,
-   "en": "People of Middle Eastern and North African descent were directed to check the white box. Previously Hispanic or Latino was not a part of a race question because the federal government considers Latino to be an ethnicity that can be of any race. So like they had to check something else plus Latino.",
-   "ko": "중동 및 북아프리카계 사람들은 백인 칸에 체크하도록 안내받았죠. 이전에는 히스패닉이나 라틴계가 인종 질문의 일부가 아니었습니다. 연방 정부가 라틴계를 어떤 인종이든 될 수 있는 '민족'으로 간주했기 때문이죠. 그래서 라틴계라는 표시 외에 다른 무언가를 더 체크해야 했습니다.",
-   "speaker": "Britney Luce"
+   "start": 1124.4,
+   "en": "And these forms, by the way, have asked about race ethnicity in different ways, decade to decade. The responses have been processed in different ways, decade to decade.",
+   "ko": "참고로 이 양식들은 수십 년간 인종과 민족에 대해 서로 다른 방식으로 질문해 왔습니다. 그 응답들이 처리되는 방식도 수십 년간 계속 변해왔고요.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1199.0,
-   "en": "Which for many meant selecting white as well, even if that's not how they identify. With new checkboxes, it's likely that many people who are Middle Eastern or North African or Hispanic or Latino would not have to pick white anymore because they may have an option that they feel is more accurate and truthful for them.",
-   "ko": "그래서 많은 이들이 스스로를 백인이라 생각하지 않더라도 어쩔 수 없이 백인을 선택해야 했습니다. 이제 새로운 선택지가 생기면서 이들은 더 이상 백인을 고르지 않아도 됩니다. 자신들에게 더 정확하고 정직한 옵션이 생겼으니까요.",
-   "speaker": "Britney Luce"
+   "start": 1133.0,
+   "en": "And so that could also influence the census results.",
+   "ko": "그래서 그것 또한 인구 조사 결과에 영향을 미칠 수 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1217.0,
-   "en": "And that could also make it seem like the white population is declining more when we're just getting a more accurate picture. And the Trump administration previously pushed the deadline on federal agencies getting those changes on their forms, now it's trying to get rid of these questions all together from the census.",
-   "ko": "이는 단순히 더 정확한 현황을 파악하는 것임에도 불구하고 백인 인구가 더 많이 줄어드는 것처럼 보이게 할 수 있습니다. 트럼프 행정부는 이전에 연방 기관들이 양식을 변경하는 기한을 늦추더니, 이제는 인구조사에서 이 질문들 자체를 아예 없애려 하고 있습니다.",
-   "speaker": "Britney Luce"
+   "start": 1136.0,
+   "en": "But the bottom line here is that however you define white, whether it's people who check off just the white box exclusively or in addition to other boxes on a census form, white people still make up the largest racial or ethnic group in the United States.",
+   "ko": "하지만 여기서 핵심은 백인을 어떻게 정의하든, 즉 인구 조사에서 백인 칸만 체크한 사람이든 다른 칸과 함께 체크한 사람이든 상관없이 백인은 여전히 미국에서 가장 큰 인종 또는 민족 집단을 구성하고 있다는 사실입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1233.0,
-   "en": "That all said, if race and ethnicity do get asked about on the census, it's really easy to imagine people comparing 2020 and 2030, not taking these changes into account, you know, seeing the number of white people go down dramatically, which I imagine could freak some of them out more than some people have already expressed that they are freaked out.",
-   "ko": "그럼에도 불구하고 인구조사에서 인종과 민족을 계속 묻는다면, 사람들은 이러한 변경 사항을 고려하지 않은 채 2020년과 2030년을 비교할 것입니다. 백인 수가 급격히 줄어든 것을 보고 이미 공포를 느끼는 사람들보다 더 많은 이들이 패닉에 빠질 수도 있겠죠.",
-   "speaker": "Britney Luce"
+   "start": 1152.5,
+   "en": "Taking on this topic of the ever-shifting definition of whiteness in the United States, another complicating factor in all of this is that the Biden administration made changes to how race and ethnicity can be asked about for the 2030 census.",
+   "ko": "미국에서 끊임없이 변하는 백인성의 정의라는 주제를 다루면서, 또 다른 복잡한 요인은 바이든 행정부가 2030년 인구 조사의 인종 및 민족 질문 방식에 변화를 주었다는 점입니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1253.0,
-   "en": "But there's also the potential, if these questions are left in, for a huge shift between 2020 and 2030.",
-   "ko": "하지만 이 질문들이 그대로 유지된다면, 2020년과 2030년 사이에 엄청난 변화가 일어날 가능성도 있습니다.",
-   "speaker": "Britney Luce"
+   "start": 1167.7,
+   "en": "And other federal government forms, including creating new boxes for Middle Eastern or North African and for Hispanic slash Latino.",
+   "ko": "다른 연방 정부 서식들도 포함되는데, 중동 또는 북아프리카인, 그리고 히스패닉/라틴계를 위한 새로운 체크란을 만든 것도 포함됩니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1259.0,
-   "en": "That's right. You know, all my life when I was handed these things, I always had limited option that was race and then there was ethnicity. And the race question was white, black, Asian, and Native American.",
-   "ko": "맞습니다. 평생 이런 양식을 받을 때마다 인종과 민족이라는 제한된 선택지만 있었죠. 인종 질문에는 백인, 흑인, 아시아인, 그리고 원주민뿐이었어요.",
-   "speaker": "Russell Contreras"
+   "start": 1176.6,
+   "en": "I think a lot of people don't know that people of each of these backgrounds could not choose those options as a race.",
+   "ko": "이런 배경을 가진 사람들이 이전에는 인종으로서 그 옵션들을 선택할 수 없었다는 사실을 많은 분들이 모르실 것 같습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1271.0,
-   "en": "I wasn't going to pick white. My mom would, I wasn't. And only later on they added another question like other. Then I would click the other thing. So I don't know how many people were engaging in this conflict.",
-   "ko": "저는 백인을 선택하지 않았을 겁니다. 저희 어머니는 그러셨겠지만 저는 아니었죠. 나중에서야 '기타' 같은 질문이 추가되었고, 그때야 기타를 선택했습니다. 얼마나 많은 사람이 이런 갈등을 겪었을지 모르겠네요.",
-   "speaker": "Russell Contreras"
+   "start": 1182.2,
+   "en": "People of Middle Eastern and North African descent were directed to check the white box.",
+   "ko": "중동 및 북아프리카계 사람들은 백인 칸에 체크하도록 안내받았습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1284.0,
-   "en": "I don't know how that skewed the numbers and it probably did, but with those limited options, I was not going to choose white unless you put a gun to my head. Latinos were classified as white, it became a movement after World War II as they were fighting for civil rights and they saw black-white dichotomy.",
-   "ko": "그게 수치를 얼마나 왜곡했는지는 모르겠지만 아마 그랬을 겁니다. 하지만 그런 제한된 옵션 속에서 제 머리에 총을 들이대지 않는 한 저는 백인을 선택하지 않았을 겁니다. 라틴계는 백인으로 분류되었는데, 제2차 세계대전 이후 민권 투쟁 과정에서 흑백 이분법을 보며 하나의 운동이 되었습니다.",
-   "speaker": "Russell Contreras"
+   "start": 1186.4,
+   "en": "Previously, Hispanic or Latino was not a part of a race question because the federal government considers Latino to be an ethnicity that can be of any race.",
+   "ko": "이전에는 히스패닉이나 라틴계가 인종 질문의 일부가 아니었는데, 연방 정부가 라틴계를 어떤 인종도 될 수 있는 민족(ethnicity)으로 간주했기 때문입니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1304.0,
-   "en": "The first wave of civil rights leaders says let's identify with white because it's less problematic for us. If you got to choose between a white and black fountain, let's go with the white, maybe they'll accept us.",
-   "ko": "초기 민권 운동가들은 우리에게 덜 문제가 되는 백인으로 정체성을 갖자고 했습니다. 백인용 분수대와 흑인용 분수대 중 골라야 한다면 백인을 택하자, 그러면 그들이 우리를 받아줄지도 모른다는 식이었죠.",
-   "speaker": "Russell Contreras"
+   "start": 1196.0,
+   "en": "So like they had to check something else plus Latino, which for many meant selecting white as well, even if that's not how they identify.",
+   "ko": "그래서 라틴계라는 표시 외에 다른 무언가를 체크해야 했고, 이는 많은 이들에게 스스로를 그렇게 생각하지 않더라도 백인을 함께 선택해야 함을 의미했습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1314.0,
-   "en": "I think those discussions continue, especially as we get migration from Latin America, and how those discussions about race are changing in Latin America. They're bringing those nuanced discussions here, and it's no longer a 'quote-unquote' black and white issue.",
-   "ko": "특히 라틴 아메리카에서 이민이 계속되고 그곳에서도 인종에 대한 논의가 변하면서 이런 담론은 계속되고 있다고 생각합니다. 그들이 가져오는 미묘한 논의들 덕분에 이제 이건 더 이상 흑백 논리의 문제가 아닙니다.",
-   "speaker": "Russell Contreras"
+   "start": 1203.5,
+   "en": "With new checkboxes, it's likely that many people who are Middle Eastern or North African or Hispanic or Latino would not have to pick white anymore because they may have an option that they feel is more accurate and truthful for them.",
+   "ko": "새로운 체크란이 생기면 중동, 북아프리카, 히스패닉 또는 라틴계인 많은 사람들이 더 이상 백인을 선택할 필요가 없게 될 가능성이 높습니다. 자신에게 더 정확하고 진실하다고 느끼는 옵션이 생기기 때문이죠.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1327.0,
-   "en": "Yeah, that's a very, very, very good point. I mean there are every so many different Latin American countries have their own internal definitions when it comes to that and moving between the United States and these countries can also be its own culture shock where you're constantly changing definitions.",
-   "ko": "네, 정말 좋은 지적입니다. 수많은 라틴 아메리카 국가가 저마다의 내부적인 정의를 가지고 있고, 미국과 그 나라들을 오가는 것 자체가 끊임없이 정의가 바뀌는 문화적 충격이 될 수 있습니다.",
-   "speaker": "Britney Luce"
+   "start": 1215.2,
+   "en": "And that could also make it seem like the white population is declining more when we're just getting a more accurate picture.",
+   "ko": "그리고 그것은 우리가 단지 더 정확한 현황을 파악하고 있을 뿐인데도 백인 인구가 더 많이 감소하는 것처럼 보이게 할 수 있습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1345.0,
-   "en": "And to your point bringing those conversations here, it's like a whole other ballpark. But Hansi, what are you seeing here in the potential for big shifts between 2020 and 2030 in terms of if these questions are left on the census?",
-   "ko": "그런 대화들이 이곳으로 옮겨오면 완전히 다른 차원의 이야기가 되죠. 한지 씨, 인구조사에 이 질문들이 남게 된다면 2020년과 2030년 사이에 어떤 큰 변화가 있을 것으로 보시나요?",
-   "speaker": "Britney Luce"
+   "start": 1222.2,
+   "en": "And the Trump administration previously pushed the deadline on federal agencies getting those changes on their forms. Now it's trying to get rid of these questions altogether from the census.",
+   "ko": "그리고 트럼프 행정부는 이전에 연방 기관들이 서식에 이러한 변화를 적용하는 기한을 미뤘었습니다. 이제는 인구 조사에서 이 질문들을 아예 없애려 하고 있고요.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1357.0,
-   "en": "Yeah, it's it's it's a big question mark for me because the administration, Trump administration has made radical proposals and so we'll have to see if these play out. But at the same time, you know, it's coming at a time that more of the public has been experiencing the federal government in their lives in ways that a lot of people haven't seen before.",
-   "ko": "글쎄요, 제게도 큰 의문입니다. 트럼프 행정부가 급진적인 제안들을 내놓았기 때문에 이것이 어떻게 실현될지 지켜봐야 하니까요. 하지만 동시에, 지금은 많은 대중이 이전에는 보지 못했던 방식으로 삶 속에서 연방 정부를 경험하고 있는 시기이기도 합니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1231.8,
+   "en": "That all said, if race and ethnicity do get asked about on the census, it's really easy to imagine people comparing 2020 and 2030 not taking these changes into account, seeing the number of white people go down dramatically.",
+   "ko": "그렇긴 하지만, 인구 조사에서 인종과 민족을 계속 묻는다면, 사람들이 이러한 변화를 고려하지 않은 채 2020년과 2030년을 비교하며 백인 수가 급격히 줄어든 것을 보고 놀라는 모습을 쉽게 상상할 수 있습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1379.0,
-   "en": "And so there's a real question of whether or not of just what general census participation will look like in 2030, even if there is a new administration in place, a new presidential administration. There's been a lot of public trust that has been hurt, particularly amongst immigrant communities, Latinos, Asian Americans, who see increased immigration enforcement and really do not want to have anything to do with the federal government even if you're, you know, just from the Census Bureau, just here for the census, nothing to do with immigration enforcement, people can't necessarily tell the difference.",
-   "ko": "그래서 새 행정부가 들어선다 하더라도 2030년 인구조사 참여율이 어떨지에 대한 실질적인 의문이 있습니다. 특히 이민자 사회, 라틴계, 아시아계 미국인들 사이에서 공적 신뢰가 많이 훼손되었습니다. 이민 단속이 강화되는 것을 보며 정부와 엮이고 싶어 하지 않거든요. 인구조사국에서 나왔을 뿐 이민 단속과는 무관하다고 해도 사람들은 그 차이를 잘 모를 수 있으니까요.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1244.3,
+   "en": "Which I imagine could freak some of them out more than some people have already expressed that they are freaked out.",
+   "ko": "이미 겁을 먹었다고 표현한 사람들보다 더 많은 이들을 당황하게 만들 수 있겠네요.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1412.0,
-   "en": "And so in this really unprecedented moment that we're in, it's really hard to say what census results will look like in 2030.",
-   "ko": "그래서 우리가 처한 이 전례 없는 상황 속에서 2030년 인구조사 결과가 어떨지 예측하기는 정말 어렵습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1249.8,
+   "en": "There's a lot going on here. There's also the potential, if these questions are left in, for a huge shift between 2020 and 2030.",
+   "ko": "많은 일이 얽혀 있네요. 이 질문들이 그대로 유지된다면 2020년과 2030년 사이에 엄청난 변화가 나타날 가능성도 있습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1423.0,
-   "en": "Yeah, even as we talked about all the tricky stuff that goes in understanding our nation's demographics. The panic around the decline of so-called monoracial white people, another term that I feel like the internet made up only within the past three years.",
-   "ko": "우리나라의 인구 통계학적 구성을 이해하는 데 수반되는 모든 까다로운 문제에 대해 이야기해 봤습니다. 지난 3년 사이에 인터넷에서 만들어진 것 같은 '단일 인종 백인' 인구의 감소에 대한 패닉 현상 말이죠.",
-   "speaker": "Britney Luce"
+   "start": 1257.9,
+   "en": "That's right. All my life, when I was headed these things, I always had limited option that was race and then there was ethnicity.",
+   "ko": "맞습니다. 평생 이런 것들을 접할 때마다 인종과 민족이라는 제한된 선택지만 있었습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1264.8,
+   "en": "The race question was, white, Black, Asian, and Native American? I wasn't going to pick white. My mom would. I wasn't.",
+   "ko": "인종 질문이 백인, 흑인, 아시아인, 아메리카 원주민뿐이었다고요? 전 백인을 고르지 않았을 겁니다. 저희 어머니는 그러셨겠지만 전 아니었어요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1273.0,
+   "en": "And only later on they added another question like \"other.\" Then I would click the \"other\" thing. So I don't know how many people were engaging in this conflict.",
+   "ko": "나중에야 '기타' 같은 질문이 추가되었죠. 그때야 전 '기타' 항목을 클릭하곤 했습니다. 얼마나 많은 사람들이 이런 갈등을 겪었을지 모르겠네요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1282.6,
+   "en": "I don't know how that skewed the numbers and it probably did. But with those limited options, I was not going to choose white unless you put a gun to my head.",
+   "ko": "그게 숫자를 얼마나 왜곡시켰을지는 모르겠지만, 아마 영향을 줬을 겁니다. 하지만 그런 제한된 옵션 속에서 전 절대 백인을 선택하지 않았을 겁니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1291.6,
+   "en": "Latinos were classified as white. It became a movement after World War II as they were fighting for civil rights. And they saw a black-white dichotomy.",
+   "ko": "라틴계는 백인으로 분류되었습니다. 2차 세계대전 이후 민권 투쟁을 벌이면서 그것이 하나의 운동이 되었죠. 그들은 흑백 이분법을 보았습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1299.2,
+   "en": "The first wave of civil rights leaders says, let's identify white because it's less problematic for us. If you got to choose between a white and black fountain, let's go with the white. Maybe they'll accept this.",
+   "ko": "초기 민권 운동 지도자들은 우리에게 덜 문제가 되는 백인으로 식별되자고 했습니다. 백인용과 흑인용 식수대 중 하나를 골라야 한다면 백인용으로 가자고 했죠. 그러면 우리를 받아줄지도 모른다면서요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1309.6,
+   "en": "I think those discussions continue, especially as we get migration from Latin America and how those discussions about race are changing in Latin America.",
+   "ko": "특히 라틴 아메리카에서의 이민이 계속되고 그곳에서도 인종에 대한 논의가 변함에 따라, 이러한 논의는 계속될 것이라고 생각합니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1319.3,
+   "en": "They're bringing those nuanced discussions here. And it's no longer a, um, black and white issue.",
+   "ko": "그들은 그런 미묘한 논의들을 여기로 가져오고 있습니다. 그리고 그것은 더 이상 단순한 흑백 논리의 문제가 아닙니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1324.7,
+   "en": "Yeah, that's a very, very, very good point. I mean, there are so many different Latin American countries that have their own internal definitions when it comes to that.",
+   "ko": "네, 정말 좋은 지적입니다. 라틴 아메리카의 수많은 국가들이 인종 문제에 대해 저마다의 내부적인 정의를 가지고 있죠.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1335.2,
+   "en": "And moving between the United States and these countries can also be its own culture shock where you're constantly changing definitions. To your point, bringing those conversations here, it's like a whole other ballpark.",
+   "ko": "미국과 이들 국가 사이를 오가는 것 자체가 정의가 끊임없이 변하는 일종의 문화 충격이 될 수 있습니다. 말씀하신 것처럼 그 대화들을 여기로 가져오는 것은 완전히 다른 차원의 문제입니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1347.4,
+   "en": "But Hansi, what are you seeing here in the potential for big shifts between 2020 and 2030 in terms of if these questions are left on the census?",
+   "ko": "한시, 이 질문들이 인구 조사에 남게 된다면 2020년과 2030년 사이에 어떤 큰 변화가 일어날 가능성이 있다고 보시나요?",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1356.9,
+   "en": "Yeah, it's a big question mark for me because the Trump administration has made radical proposals and so we'll have to see if these play out.",
+   "ko": "네, 트럼프 행정부가 급진적인 제안을 내놓았기 때문에 저에게도 큰 의문입니다. 실제로 어떻게 전개될지 지켜봐야겠죠.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1368.0,
+   "en": "But at the same time, it's coming at a time that more of the public has been experiencing the federal government in their lives in ways that a lot of people haven't seen before.",
+   "ko": "동시에, 지금은 더 많은 대중이 이전에 본 적 없는 방식으로 자신들의 삶 속에서 연방 정부를 경험하고 있는 시기이기도 합니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1377.8,
+   "en": "And so there's a real question of whether or not just what general census participation will look like in 2030, even if there is a new presidential administration in place.",
+   "ko": "그래서 설령 새로운 행정부가 들어선다고 해도, 2030년의 전반적인 인구 조사 참여도가 어떤 모습일지에 대한 실질적인 의문이 있습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1389.8,
+   "en": "There's been a lot of public trust that has been hurt, particularly amongst immigrant communities, Latino, and Asian Americans who see increased immigration enforcement and really do not want to have anything to do with the federal government.",
+   "ko": "이민자 집단, 특히 강화된 이민 집행을 목격하고 연방 정부와 엮이고 싶어 하지 않는 라틴계 및 아시아계 미국인들 사이에서 공공의 신뢰가 많이 훼손되었습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1405.4,
+   "en": "Even if you're just from the Census Bureau, just here for the census, it's nothing about immigration enforcement. People can't necessarily tell the difference.",
+   "ko": "단순히 인구조사국에서 나왔고, 인구 조사를 위해서만 왔으며, 이민 집행과는 아무 관련이 없다고 해도 사람들은 그 차이를 반드시 구별할 수 있는 건 아닙니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1413.6,
+   "en": "And so in this really unprecedented moment, and it's really hard to say what census results will look like in 2030.",
+   "ko": "그래서 이 정말 전례 없는 순간에, 2030년의 인구 조사 결과가 어떨지 예측하기란 매우 어렵습니다.",
+   "speaker": "Hansi"
+  },
+  {
+   "start": 1421.6,
+   "en": "Yeah, even as we talked about all the tricky stuff that goes into understanding our nation's demographics, the panic around the decline of so-called monoracial white people, another term that I feel like the internet made up only within the past three years, not being the majority anymore.",
+   "ko": "네, 국가의 인구 통계를 이해하는 데 따르는 모든 까다로운 문제들과 소위 '단일 인종 백인'—지난 3년 사이에 인터넷에서 만들어진 용어 같은데요—이 더 이상 다수가 아니라는 것에 대한 공포에 대해 이야기했었죠.",
+   "speaker": "Brittany"
   },
   {
    "start": 1439.0,
-   "en": "You know, not being the majority anymore, I think undergirds a lot of conservative politics in our culture. I mean of course politics around immigration, but also some of the panic around the birth rate and replacement theory and all of these things.",
-   "ko": "더 이상 다수가 아니라는 생각이 우리 문화 속의 많은 보수 정치를 뒷받침하고 있다고 생각합니다. 물론 이민 관련 정치도 그렇지만 출산율에 대한 공포나 대체 이론 같은 것들도요.",
-   "speaker": "Britney Luce"
+   "en": "I think undergirds a lot of conservative politics in our culture. I mean, of course, politics around immigration, but also some of the panic around the birth rate and replacement theory and all of these things.",
+   "ko": "제 생각에 그런 공포가 우리 문화의 많은 보수 정치의 근간을 이루고 있는 것 같습니다. 물론 이민 관련 정치도 그렇지만, 출산율에 대한 공포나 대체 이론 같은 것들도 마찬가지죠.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1452.0,
-   "en": "I mean, Hansi, you've reported on how some demographers don't use the phrase 'majority-minority' for worry of stoking this fear around this shift. But I have to wonder, even with mass deportations and trying to convince white women to have more babies, are these demographic shifts just inevitable and what do people who are scared of it fear will happen if this shift occurs?",
-   "ko": "한지 씨는 일부 인구통계학자들이 이런 변화에 대한 공포를 자극할까 봐 '다수 소수계'라는 용어를 사용하지 않는다는 점을 취재하셨죠. 하지만 대규모 추방이나 백인 여성들에게 아이를 더 낳으라고 설득한다고 해도, 이런 인구학적 변화가 불가피한 것 아닌지 궁금합니다. 그리고 이를 두려워하는 사람들은 이런 변화가 일어나면 어떤 일이 생길까 봐 걱정하는 걸까요?",
-   "speaker": "Britney Luce"
+   "start": 1449.6,
+   "en": "I mean, Hansi, you reported on how some demographers don't use the phrase \"majority-minority\" for stoking this fear around this shift.",
+   "ko": "한시, 당신은 일부 인구학자들이 이러한 변화에 대한 공포를 조장하지 않기 위해 '다수-소수'라는 문구를 사용하지 않는다는 점을 보도하셨죠.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1474.0,
-   "en": "There's certainly a lot of conspiracy theories out there. And, you know, the researchers I've talked to said there tends to be a sense of anxiety among white people when they hear or read about a decline in the white population, whether or not that, you know, is true or not in the data and they tend to get concerned about the status of white people in society.",
-   "ko": "확실히 수많은 음모론이 존재합니다. 제가 대화해 본 연구자들은 백인들이 백인 인구 감소에 대한 소식을 들으면 데이터상의 사실 여부와 관계없이 불안감을 느끼는 경향이 있다고 합니다. 사회 내에서 백인의 지위에 대해 걱정하게 되는 거죠.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1457.8,
+   "en": "But I have to wonder, even with mass deportations and trying to convince white women to have more babies, aren't these demographic shifts just inevitable?",
+   "ko": "하지만 궁금하네요. 대규모 추방이나 백인 여성들에게 더 많은 아이를 낳으라고 설득하는 노력에도 불구하고, 이러한 인구학적 변화는 피할 수 없는 것 아닌가요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 1493.0,
-   "en": "And a lot of this can be traced back to 2008 when the Census Bureau put out a report projecting that by 2042, this year has shifted over the years, but by 2042 at that point, white people would make up a minority of the US population.",
-   "ko": "이런 현상의 많은 부분은 2008년으로 거슬러 올라가는데, 당시 인구조사국은 2042년경에는(이 연도는 계속 바뀌어 왔지만) 백인이 미국 인구의 소수가 될 것이라는 보고서를 발표했습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1467.0,
+   "en": "What do people who are scared of it fear will happen if this shift occurs?",
+   "ko": "그것을 두려워하는 사람들은 이런 변화가 일어나면 어떤 일이 생길까 봐 걱정하는 걸까요?",
+   "speaker": "Brittany"
   },
   {
-   "start": 1510.0,
-   "en": "And there's been a lot of criticism of that announcement and subsequent projections because it's based on assumptions that may turn out to be untrue and may even become obsolete. Because there's a possibility here that, you know, the current more current trends point to no one racial group being the numerical majority at some point within our lifetime.",
-   "ko": "그 발표와 이후의 전망들에 대해서는 많은 비판이 있었습니다. 사실이 아닐 수도 있고 심지어 구식이 될 수도 있는 가정들에 기반하고 있기 때문이죠. 현재의 추세대로라면 우리 생애 어느 시점에는 그 어떤 인종 그룹도 수치상으로 절대다수가 되지 않을 가능성도 있습니다.",
-   "speaker": "Hansi Lo Wang"
+   "start": 1473.4,
+   "en": "There's certainly a lot of conspiracy theories out there. The researcher that I've talked to said there tends to be a sense of anxiety among white people when they hear or read about a decline in the white population, whether that is true or not in the data.",
+   "ko": "확실히 수많은 음모론이 돌고 있습니다. 제가 대화한 연구자는 데이터의 진위 여부와 상관없이 백인 인구 감소에 대한 이야기를 듣거나 읽을 때 백인들 사이에서 불안감이 생기는 경향이 있다고 말했습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1530.0,
-   "en": "Does the number even matter? Like I'm not sure the structural advantages that white people have will just go away at midnight, you know, the night they are no longer the majority. No. That hasn't worked in in other countries. South Africa, for example, yeah.",
-   "ko": "그 수치가 정말 중요할까요? 백인이 다수가 아니게 되는 그날 자정에 백인이 누려온 구조적 이점들이 그냥 사라질 것 같지는 않거든요. 다른 나라들에서도 그렇지 않았잖아요. 예를 들어 남아프리카 공화국처럼요.",
-   "speaker": "Britney Luce"
+   "start": 1490.4,
+   "en": "And they tend to get concerned about the status of white people in society.",
+   "ko": "그리고 그들은 사회에서 백인의 지위에 대해 우려하는 경향이 있습니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1547.0,
-   "en": "I was just going to say that hasn't worked in other countries. I don't see why that it might be different in the United States if it's not different other places.",
-   "ko": "다른 나라에서 그렇지 않았다면 미국이라고 해서 특별히 다를 이유가 없다고 봅니다.",
-   "speaker": "Britney Luce"
+   "start": 1493.8,
+   "en": "And a lot of this can be traced back to 2008 when the Census Bureau put out a report projecting that by 2042—it shifted over the years, but by 2042 at that point, white people would make up a minority of the US population.",
+   "ko": "이 중 많은 부분은 2008년 인구조사국이 2042년까지—수년에 걸쳐 연도는 바뀌었지만—백인이 미국 인구의 소수가 될 것이라는 보고서를 발표했을 때로 거슬러 올라갑니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1554.0,
-   "en": "But if we're heading into a reality where there is no new census data on race ethnicity, it's going to be hard to track that, to measure that.",
-   "ko": "하지만 만약 인종과 민족에 대한 새로운 인구조사 데이터가 없는 현실로 향하고 있다면, 그런 변화를 추적하고 측정하는 것 자체가 어려워지겠죠.",
-   "speaker": "Britney Luce"
+   "start": 1508.8,
+   "en": "And there's been a lot of criticism of that announcement and subsequent projections because it's based on assumptions that may turn out to be untrue and may even become obsolete.",
+   "ko": "그 발표와 후속 예측들에 대해 많은 비판이 있었는데, 사실이 아닐 수도 있고 심지어 시대에 뒤떨어질 수도 있는 가정들에 근거하고 있기 때문입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1567.0,
-   "en": "One thing that's given us a clue if we look at our classrooms. That's what's really interesting. If you look at the classrooms, it's showing our demographic future for the rest of the country because right now white students are below half of the enrollment of our public school system. Our school system in general.",
-   "ko": "우리 교실 현장을 보면 힌트를 얻을 수 있습니다. 그게 정말 흥미로운 지점이죠. 교실을 보면 나라의 인구학적 미래가 보입니다. 현재 공립학교나 전체 학교 시스템에서 백인 학생의 비율은 이미 절반 이하로 떨어졌거든요.",
-   "speaker": "Russell Contreras"
+   "start": 1519.0,
+   "en": "Because there's a possibility here that the more current trends point to no one racial group being the numerical majority at some point within our lifetime.",
+   "ko": "왜냐하면 현재의 추세로는 우리 생애 어느 시점에 이르면 그 어떤 인종 집단도 수치상의 다수가 되지 않을 가능성이 있기 때문입니다.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1582.0,
-   "en": "Yet at the same time, black and Latino students were going they were attending schools that are segregated. So while at the same time that we're becoming more diverse, our black and Latino students are still attending segregated schools. So we're becoming a more diverse society without necessarily becoming an more integrated.",
-   "ko": "그런데 동시에 흑인과 라틴계 학생들은 분리된 학교에 다니고 있습니다. 우리가 더 다양해지는 동시에, 흑인과 라틴계 학생들은 여전히 분리된 학교에 다니는 거죠. 즉, 우리는 통합되지 않은 채 더 다양해지기만 하는 사회가 되어가고 있습니다.",
-   "speaker": "Russell Contreras"
+   "start": 1528.9,
+   "en": "Does the number even matter? I'm not sure this structural advantages that white people have will just go away at midnight the night they are no longer the majority.",
+   "ko": "숫자가 중요하긴 한가요? 백인들이 누리는 구조적 이점이 그들이 더 이상 다수가 아니게 되는 날 자정에 바로 사라질 것 같지는 않거든요.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1596.0,
-   "en": "I don't know how long that can last.",
-   "ko": "이런 상태가 얼마나 지속될 수 있을지 모르겠네요.",
-   "speaker": "Russell Contreras"
+   "start": 1541.7,
+   "en": "No. That hasn't worked in other countries. South Africa, for example.",
+   "ko": "그렇죠. 다른 나라에서도 그런 식은 아니었습니다. 예를 들어 남아프리카 공화국처럼요.",
+   "speaker": "Hansi"
   },
   {
-   "start": 1603.0,
-   "en": "Wow, wow, y'all have given me so much to think about today. I really appreciate this conversation. Russell, Hansi, thank you both so much.",
-   "ko": "와, 오늘 정말 생각할 거리를 많이 주셨네요. 오늘 대화 정말 감사했습니다. 러셀 씨, 한지 씨, 두 분 다 고맙습니다.",
-   "speaker": "Britney Luce"
+   "start": 1545.8,
+   "en": "Yeah. I was just going to say that hasn't worked in other countries. I don't see why it might be different in the United States if it's not different other places.",
+   "ko": "네, 다른 나라에서도 그렇지 않았다는 말을 하려던 참이었어요. 다른 곳과 다르지 않은데 미국이라고 왜 다를까 싶네요.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1610.0,
+   "start": 1553.8,
+   "en": "But if we're heading into a reality where there is no new census data on race, ethnicity, it's going to be hard to track that, to measure that.",
+   "ko": "하지만 인종과 민족에 대한 새로운 인구 조사 데이터가 없는 현실로 향하고 있다면, 그것을 추적하고 측정하기가 매우 어려워질 것입니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1566.0,
+   "en": "One thing that's given us a clue, if we look at our classrooms, that's what's really interesting.",
+   "ko": "우리의 교실을 들여다보면 실마리를 얻을 수 있는데, 그게 정말 흥미로운 부분입니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1571.0,
+   "en": "If you look at the classrooms, it's showing our demographic future for the rest of the country because right now white students are below half of the enrollment of our public school system or our school system in general.",
+   "ko": "교실을 보면 이 나라의 인구학적 미래가 보입니다. 현재 공립학교나 일반 학교 시스템에서 백인 학생의 등록률이 절반 미만이기 때문입니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1581.2,
+   "en": "Yet at the same time black and Latino students are attending schools that are segregated.",
+   "ko": "하지만 동시에 흑인과 라틴계 학생들은 분리된 학교에 다니고 있습니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1586.9,
+   "en": "So while at the same time that we're becoming more diverse, our black and Latino students are still attending segregated schools, so we're becoming a more diverse society without necessarily becoming more integrated.",
+   "ko": "우리가 더 다양해지고 있는 동시에 흑인과 라틴계 학생들은 여전히 분리된 학교에 다니고 있으니, 반드시 더 통합된 사회가 되지 않으면서도 더 다양한 사회가 되어가고 있는 셈입니다.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1597.6,
+   "en": "I don't know how long that's going to last.",
+   "ko": "그게 얼마나 지속될지 모르겠네요.",
+   "speaker": "Russell"
+  },
+  {
+   "start": 1601.6,
+   "en": "Wow, wow. Y'all have given me so much to think about today. I really appreciate this conversation. Russell, Hansi, thank you both so much.",
+   "ko": "와, 오늘 생각할 거리를 정말 많이 주셨네요. 이 대화 정말 감사했습니다. 러셀, 한시, 두 분 모두 대단히 감사합니다.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1609.5,
    "en": "Good to be with you.",
-   "ko": "함께해서 즐거웠습니다.",
-   "speaker": "Russell Contreras"
+   "ko": "함께해서 좋았습니다.",
+   "speaker": "Russell"
   },
   {
-   "start": 1611.0,
-   "en": "Very welcome.",
+   "start": 1610.2,
+   "en": "You're very welcome.",
    "ko": "천만에요.",
-   "speaker": "Hansi Lo Wang"
+   "speaker": "Hansi"
   },
   {
-   "start": 1612.0,
-   "en": "That was Russell Contreras, senior race and justice reporter at Axios, and Hansi Lo Wang, a correspondent here at NPR who covers voting rights and the census.",
-   "ko": "지금까지 Axios의 인종 및 사법 담당 선임 기자인 러셀 콘트레라스, 그리고 NPR의 투표권 및 인구조사 담당 한지 로 왕 기자와 함께했습니다.",
-   "speaker": "Britney Luce"
+   "start": 1611.3,
+   "en": "That was Russell Contreras, Senior Race and Justice Reporter at Axios, and Hansi Lo Wang, correspondent here at NPR who covers voting rights and the census.",
+   "ko": "지금까지 Axios의 인종 및 사법 선임 기자 러셀 콘트레라스, 그리고 투표권과 인구 조사를 담당하는 NPR 특파원 한시 로 왕이었습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1622.0,
-   "en": "This episode of It's Been a Minute was produced by Liam McBain. This episode was edited by Nina Pathak. Our supervising producer is Cher Vincent. Our executive producer is Barton Girdwood. Our VP of programming is Yolanda Sangweni.",
-   "ko": "이번 에피소드는 리암 맥베인이 제작하고 니나 파탁이 편집했습니다. 총괄 프로듀서는 셰어 빈센트, 책임 프로듀서는 바튼 거드우드입니다. 편성 부사장은 욜란다 상궤니입니다.",
-   "speaker": "Host"
+   "start": 1620.8,
+   "en": "This episode of It's Been A Minute was produced by Liam McBain. This episode was edited by Nina Potthug.",
+   "ko": "'It's Been A Minute' 이번 에피소드는 리암 맥베인이 제작했습니다. 니나 포터그가 편집을 맡았습니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1637.0,
-   "en": "All right, that's all for this episode of It's Been a Minute from NPR. I'm Britney Luce. Talk soon.",
-   "ko": "네, NPR의 It's Been a Minute 이번 에피소드는 여기까지입니다. 저는 브리트니 루스입니다. 다음에 또 만나요.",
-   "speaker": "Britney Luce"
+   "start": 1627.5,
+   "en": "Our supervising producer is Sharon Vincent. Our executive producer is Veralyn Williams. Our VP of programming is Yolanda Sangweni.",
+   "ko": "수석 프로듀서는 샤론 빈센트, 총괄 프로듀서는 베럴린 윌리엄스입니다. 프로그래밍 담당 부사장은 욜란다 상웨니입니다.",
+   "speaker": "Brittany"
   },
   {
-   "start": 1646.0,
-   "en": "A free press is a critical protection for we the people. The NPR network proudly upholds your first amendment rights with independent journalism that answers only to you. Your support keeps our reporters on the ground holding power to account and the power to decide what's next for public media is yours. Give at donate.npr.org.",
-   "ko": "자유 언론은 우리 국민을 위한 중요한 보호 장치입니다. NPR 네트워크는 오직 여러분에게만 응답하는 독립적인 저널리즘을 통해 여러분의 수정헌법 제1조의 권리를 자랑스럽게 수호합니다. 여러분의 후원은 우리 기자들이 현장을 지키며 권력을 감시할 수 있게 합니다. 공영 미디어의 미래를 결정할 힘은 여러분에게 있습니다. donate.npr.org에서 후원해 주세요.",
+   "start": 1636.0,
+   "en": "All right, that's all for this episode of It's Been a Minute from NPR. I'm Brittany Luce. Talk soon.",
+   "ko": "좋습니다, NPR의 'It's Been a Minute' 이번 에피소드는 여기까지입니다. 저는 브리트니 루스입니다. 곧 다시 만나요.",
+   "speaker": "Brittany"
+  },
+  {
+   "start": 1644.3,
+   "en": "Hey, Lulu here. Whether we are romping through science, music, politics, technology, or feelings, we seek to leave you seeing the world anew.",
+   "ko": "안녕하세요, 루루입니다. 과학, 음악, 정치, 기술, 또는 감정을 넘나들며 저희는 여러분이 세상을 새롭게 바라보실 수 있도록 노력합니다.",
    "speaker": "Host",
    "ad": true
   },
   {
-   "start": 1669.0,
-   "en": "Midlife brings a lot of changes. Your Turn with Allison Aubrey is a new podcast to help you navigate the twists and turns. From health and relationships to creativity and purpose, we can help steer your next chapter. With Your Turn with Allison Aubrey. Find it on the NPR app or wherever you get your podcasts.",
-   "ko": "중년은 많은 변화를 가져옵니다. 앨리슨 오브리의 'Your Turn'은 중년의 굴곡을 헤쳐 나가는 데 도움을 드리는 새로운 팟캐스트입니다. 건강과 관계부터 창의성과 삶의 목적까지, 여러분의 다음 장을 함께 열어갑니다. 앨리슨 오브리의 'Your Turn'을 NPR 앱이나 팟캐스트 플랫폼에서 만나보세요.",
+   "start": 1653.6,
+   "en": "RadioLab adventures right on the edge of what we think we know, wherever you get podcasts.",
+   "ko": "우리가 알고 있다고 생각하는 것의 경계에서 펼쳐지는 라디오랩의 모험. 팟캐스트를 들으시는 어디에서나 만나보세요.",
    "speaker": "Host",
    "ad": true
   },
   {
-   "start": 1691.0,
-   "en": "Hi, it's Terry Gross. Ladies and gentlemen, I can say that now because this administration thinks there's only two genders, and I'm both of them. That's actor and drag king Murray Hill. In the series Somebody Somewhere, he plays the host of a queer cabaret, which is something he's done plenty of in real life too. Listen on the NPR app or wherever you listen to Fresh Air.",
-   "ko": "안녕하세요, 테리 그로스입니다. '신사 숙녀 여러분', 이제 이렇게 말할 수 있겠네요. 현 행정부는 성별이 두 개뿐이라고 생각하고, 저는 그 둘 다니까요. 배우이자 드래그 킹인 머레이 힐의 말입니다. 드라마 'Somebody Somewhere'에서 그는 퀴어 카바레의 호스트를 연기하는데, 실제로도 경험이 아주 많죠. NPR 앱이나 'Fresh Air'를 들으시는 곳 어디서든 확인해 보세요.",
-   "speaker": "Terry Gross",
+   "start": 1658.4,
+   "en": "This message comes from the NBC News podcast, \"Here's the Scoop.\" It's a daily look at the top headlines with deeper conversations about the stories shaping the world.",
+   "ko": "이 메시지는 NBC 뉴스 팟캐스트 'Here's the Scoop'에서 전해드립니다. 매일 주요 헤드라인을 살펴보고 세상을 형성하는 이야기들에 대해 더 깊은 대화를 나눕니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1669.1,
+   "en": "From the economy to AI to the midterms. Listen to \"Here's the Scoop,\" a podcast from NBC News.",
+   "ko": "경제에서 AI, 중간선거까지. NBC 뉴스의 팟캐스트 'Here's the Scoop'을 들어보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1675.8,
+   "en": "Midlife brings a lot of changes. \"Your Turn with Allison Aubrey\" is a new podcast to help you navigate the twists and turns.",
+   "ko": "중년은 많은 변화를 가져옵니다. 'Your Turn with Allison Aubrey'는 인생의 굴곡을 헤쳐 나가는 데 도움을 주는 새로운 팟캐스트입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1682.9,
+   "en": "From health and relationships to creativity and purpose, we can help steer your next chapter. With \"Your Turn with Allison Aubrey,\" find it on the NPR app or wherever you get your podcasts.",
+   "ko": "건강과 관계에서 창의성과 목적에 이르기까지, 다음 장을 잘 이끌어갈 수 있도록 도와드립니다. 'Your Turn with Allison Aubrey'를 NPR 앱이나 팟캐스트 플랫폼에서 만나보세요.",
+   "speaker": "Host",
    "ad": true
   }
  ]

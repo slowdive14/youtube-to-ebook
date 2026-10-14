@@ -13,698 +13,1433 @@
   {
    "start": 0.0,
    "en": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based tools for mental health, physical health, and performance.",
-   "ko": "휴버먼 랩 에센셜에 오신 것을 환영합니다. 정신 건강, 신체 건강 및 성과를 위한 가장 강력하고 실행 가능한 과학 기반 도구를 얻기 위해 지난 에피소드들을 다시 살펴보는 시간입니다.",
-   "speaker": "Andrew Huberman"
+   "ko": "휴버맨 랩 에센셜에 오신 것을 환영합니다. 여기서는 정신 건강, 신체 건강 및 성과를 위한 가장 강력하고 실행 가능한 과학 기반 도구들을 찾기 위해 지난 에피소드들을 다시 살펴봅니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 11.0,
-   "en": "I'm Andrew Huberman, and I'm a professor of neurobiology and ophthalmology at Stanford School of Medicine. And now for my discussion with Dr. Elissa Epel.",
-   "ko": "저는 스탠포드 의과대학 신경생물학 및 안과학 교수인 앤드류 휴버먼입니다. 이제 엘리사 에펠 박사님과의 대담을 시작하겠습니다.",
-   "speaker": "Andrew Huberman"
+   "start": 11.4,
+   "en": "I'm Andrew Huberman, and I'm a professor of neurobiology and ophthalmology at Stanford School of Medicine.",
+   "ko": "저는 앤드류 휴버맨이며, 스탠포드 의과대학의 신경 생물학 및 안과 교수입니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 20.0,
+   "start": 17.4,
+   "en": "And now for my discussion with Dr. Elissa Epel.",
+   "ko": "이제 엘리사 에펠 박사님과의 토론을 시작하겠습니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 20.3,
    "en": "Dr. Epel, welcome.",
    "ko": "에펠 박사님, 환영합니다.",
-   "speaker": "Andrew Huberman"
+   "speaker": "Huberman"
   },
   {
-   "start": 22.0,
+   "start": 21.9,
    "en": "Thank you.",
    "ko": "감사합니다.",
-   "speaker": "Elissa Epel"
+   "speaker": "Epel"
   },
   {
-   "start": 23.0,
-   "en": "So great to have you here. I'd love to just kick off by you explaining a little bit about the different forms of stress. You know, we hear stress, stress is bad, stress can kill us, no one likes to feel stressed, etc.",
-   "ko": "와주셔서 정말 기쁩니다. 스트레스의 다양한 형태에 대해 조금 설명해 주시면서 시작하면 좋겠어요. 우리는 스트레스라는 말을 들으면 스트레스는 나쁘다, 스트레스는 우리를 죽일 수 있다, 아무도 스트레스를 받고 싶어 하지 않는다 등등의 말을 듣잖아요.",
-   "speaker": "Andrew Huberman"
+   "start": 22.6,
+   "en": "So great to have you here. I'd love to just kick off by you explaining a little bit about the different forms of stress.",
+   "ko": "모시게 되어 정말 기쁩니다. 스트레스의 다양한 형태에 대해 조금 설명해 주시는 것으로 시작하고 싶습니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 36.0,
-   "en": "But as you and I both know, that's not the entire picture. So I'd love for you to just educate us a bit on what stress is and what it isn't, where it can be problematic and where perhaps it can even be beneficial.",
-   "ko": "하지만 박사님과 제가 알다시피 그것이 전부는 아니죠. 그래서 스트레스가 무엇이고 무엇이 아닌지, 어디서 문제가 될 수 있고 어디서 어쩌면 유익할 수도 있는지에 대해 저희를 좀 가르쳐 주셨으면 합니다.",
-   "speaker": "Andrew Huberman"
+   "start": 28.3,
+   "en": "You know, we hear stress, stress is bad, stress can kill us, no one likes to feel stressed, etc. But as you and I both know, that's not the entire picture.",
+   "ko": "아시다시피 스트레스는 나쁘다, 스트레스는 우리를 죽일 수 있다, 아무도 스트레스를 받고 싶어 하지 않는다 등등의 이야기를 듣곤 하죠. 하지만 박사님과 저 모두 알다시피 그게 전부는 아닙니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 50.0,
-   "en": "So as a stress scientist, it is a word I use a lot, but it has to be broken down because it has so many different kind of dimensions and meanings.",
-   "ko": "스트레스 과학자로서 제가 아주 많이 사용하는 단어이지만, 워낙 다양한 차원과 의미를 가지고 있기 때문에 세분화해야 합니다.",
-   "speaker": "Elissa Epel"
+   "start": 37.0,
+   "en": "So I'd love for you to just educate us a bit on what stress is and what it isn't, where it can be problematic and where perhaps it can even be beneficial.",
+   "ko": "그래서 스트레스란 무엇인지, 무엇이 아닌지, 어디서 문제가 될 수 있고 어디서 어쩌면 유익할 수도 있는지에 대해 조금 알려주셨으면 합니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 60.0,
-   "en": "So there's good and bad stress, there's acute and chronic stress. And you know, technically it just means any time we feel overwhelmed, that we feel like the demands are too much for our resources.",
-   "ko": "좋은 스트레스와 나쁜 스트레스가 있고, 급성 스트레스와 만성 스트레스가 있죠. 기술적으로는 우리가 압도당한다고 느낄 때, 즉 요구되는 것이 우리의 자원에 비해 너무 많다고 느낄 때를 의미합니다.",
-   "speaker": "Elissa Epel"
+   "start": 46.2,
+   "en": "So as a stress scientist, it is a word I use a lot, but it has to be broken down because because it has so many different kind of dimensions and meaning.",
+   "ko": "스트레스 과학자로서 저는 이 단어를 아주 많이 사용하지만, 너무나 다양한 차원과 의미를 가지고 있기 때문에 세분화해서 살펴봐야 합니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 72.0,
-   "en": "So that's kind of a very technical way to put it. But really so much of life is about meeting challenges and we're never going to get rid of different stressful situations in life. If anything, they are increasing.",
-   "ko": "매우 기술적인 표현이지만, 사실 삶의 많은 부분이 도전에 맞서는 것이며 우리는 삶에서 다양한 스트레스 상황을 결코 없앨 수 없을 것입니다. 오히려 늘어나고 있죠.",
-   "speaker": "Elissa Epel"
+   "start": 58.6,
+   "en": "So there's good and bad stress. There's acute and chronic stress.",
+   "ko": "좋은 스트레스와 나쁜 스트레스가 있습니다. 급성 스트레스와 만성 스트레스도 있죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 86.0,
-   "en": "And so it really comes down to not the stressors of what happens to us, but really how we respond, the stress response.",
-   "ko": "그래서 결국 중요한 것은 우리에게 일어나는 스트레스 요인이 아니라 우리가 어떻게 반응하느냐, 즉 스트레스 반응입니다.",
-   "speaker": "Elissa Epel"
+   "start": 62.7,
+   "en": "And technically, it just means anytime we feel overwhelmed, that we feel like the demands are too much for our resources. So that's kind of a very technical way to put it.",
+   "ko": "엄밀히 말하면, 스트레스란 우리가 압도당하고 요구 사항이 우리의 자원에 비해 너무 많다고 느낄 때를 의미합니다. 아주 기술적으로 표현하자면 그렇습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 96.0,
-   "en": "So when something happens, we mount a stress response and we recover. And that's beautiful, no harm done. We need that. That's why we're here, still alive, is that survival response.",
-   "ko": "어떤 일이 발생하면 스트레스 반응을 보이고 회복합니다. 그건 아름다운 일이고 해롭지 않아요. 우리에게는 그것이 필요합니다. 우리가 여전히 살아있는 이유가 바로 그 생존 반응 덕분이니까요.",
-   "speaker": "Elissa Epel"
+   "start": 74.1,
+   "en": "But really, so much of life is about meeting challenges. And we're never going to get rid of different stressful situations in life, if anything they are increasing.",
+   "ko": "하지만 실제로 삶의 많은 부분은 도전에 맞서는 것입니다. 삶에서 다양한 스트레스 상황은 결코 사라지지 않을 것이며, 오히려 늘어나고 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 110.0,
-   "en": "It's a problem these days of just we keep it alive in our head. We keep it alive with our thoughts. Our thoughts are the most common form of stress.",
-   "ko": "요즘의 문제는 그것을 머릿속에서 계속 유지한다는 것입니다. 생각으로 스트레스를 계속 살려두는 거죠. 우리의 생각이 스트레스의 가장 흔한 형태입니다.",
-   "speaker": "Elissa Epel"
+   "start": 86.4,
+   "en": "And so it really comes down to not the stressors or what happens to us, but really how we respond, the stress response.",
+   "ko": "따라서 핵심은 스트레스 요인이나 우리에게 일어나는 일이 아니라, 우리가 어떻게 반응하느냐, 즉 스트레스 반응에 달려 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 121.0,
-   "en": "What to your knowledge is the best way or what are the best ways for us to manage overthinking and ruminating on stressful topics? Should we work with them in the sense that we try and rationalize or understand the basis of the stress or should we try and divert our thinking away?",
-   "ko": "박사님이 아시는 한, 스트레스가 많은 주제에 대해 과도하게 생각하고 반추하는 것을 관리하는 가장 좋은 방법은 무엇인가요? 스트레스의 근거를 합리화하거나 이해하려고 노력하는 방식으로 스트레스를 다루어야 할까요, 아니면 생각을 다른 곳으로 돌리려고 노력해야 할까요?",
-   "speaker": "Andrew Huberman"
+   "start": 94.8,
+   "en": "So when something happens, we mount a stress response and we recover. And that's beautiful, no harm done. We need that.",
+   "ko": "어떤 일이 발생하면 우리는 스트레스 반응을 일으키고 회복합니다. 그것은 아름다운 일이며 해롭지 않습니다. 우리에게는 그것이 필요하죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 142.0,
-   "en": "I like to bin it in three categories. So one is we, well, I'll just say first of all, we have to have some awareness of how our mind works or we're just like a subject to thinking our thoughts are real, thinking that it's helpful to keep ruminating and problem solving because that's our tendency.",
-   "ko": "저는 이것을 세 가지 범주로 나누는 것을 좋아합니다. 첫 번째는, 우선 우리 마음이 어떻게 작동하는지에 대한 인식이 있어야 한다는 것입니다. 그렇지 않으면 우리는 자신의 생각이 사실이라고 믿고, 계속 반추하고 문제를 해결하는 것이 도움이 된다고 생각하는 경향의 노예가 될 뿐입니다.",
-   "speaker": "Elissa Epel"
+   "start": 102.7,
+   "en": "That's why we're here still alive, is that survival response. It's a problem these days of just, we keep it alive in our head, we keep it alive with our thoughts.",
+   "ko": "그 생존 반응 덕분에 우리가 아직 살아 있는 것입니다. 요즘의 문제는 우리가 그것을 머릿속에서, 우리의 생각으로 계속 유지시킨다는 것입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 163.0,
-   "en": "Is to go toward whatever we think there's threat or risk and to problem solve that, but you could be stuck there all day in this kind of threat mode or red mind state. And that's just a shame. We don't need to turn on that stress response all the time.",
-   "ko": "위협이나 위험이 있다고 생각되는 쪽으로 가서 문제를 해결하려고 하지만, 하루 종일 이런 위협 모드나 붉은 마음 상태에 갇혀 있을 수 있습니다. 그건 정말 안타까운 일이죠. 항상 스트레스 반응을 켤 필요는 없거든요.",
-   "speaker": "Elissa Epel"
+   "start": 111.9,
+   "en": "Our thoughts are the most common form of stress.",
+   "ko": "우리의 생각이야말로 가장 흔한 형태의 스트레스입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 179.0,
-   "en": "But that's where we are as a society. We're so used to feeling daily stress from our urban and modern life that we don't notice it. We're just used to it. And so we're going through the day with kind of like clenched hands.",
-   "ko": "하지만 그것이 우리 사회의 현주소입니다. 도시적이고 현대적인 삶에서 오는 일상적인 스트레스에 너무 익숙해져서 인지하지도 못합니다. 그냥 익숙해진 거죠. 그래서 우리는 손을 꽉 쥔 채 하루를 보냅니다.",
-   "speaker": "Elissa Epel"
+   "start": 115.1,
+   "en": "What, to your knowledge, is the best way, or what are the best ways for us to manage overthinking and ruminating on stressful topics?",
+   "ko": "박사님이 아시는 바에 따르면, 스트레스가 많은 주제에 대해 과도하게 생각하고 반추하는 것을 관리하는 가장 좋은 방법은 무엇인가요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 193.0,
-   "en": "And just for listeners just even just taking a check in now and noticing how you might be holding stress in your body. That's a huge clue. It's a huge place where we accumulate tension. So we might not be aware that we're stressed, but we're clenching our hands.",
-   "ko": "청취자분들도 지금 바로 체크해보고 몸 어디에 스트레스를 담고 있는지 확인해보세요. 그게 아주 큰 단서입니다. 긴장이 쌓이는 아주 중요한 곳이죠. 자신이 스트레스를 받고 있다는 것을 인식하지 못할 수도 있지만, 손에 힘을 꽉 주고 있을 수도 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 125.1,
+   "en": "Should we work with them in the sense that we try and rationalize or understand the basis of the stress, or should we try and divert our thinking away?",
+   "ko": "스트레스의 근거를 합리화하거나 이해하려고 노력하는 방식으로 접근해야 할까요, 아니면 생각을 딴 곳으로 돌리려고 노력해야 할까요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 208.0,
-   "en": "So going back to this notion of overthinking, what are the tools that are most efficient for dealing with overthinking or ruminating when people just sort of can't seem to let go of the thing that's the stressor, thinking about not the stress in their body, but the thing that caused the stress? The difficult conversation, the thing that irked them.",
-   "ko": "과도하게 생각한다는 개념으로 돌아가서, 사람들이 스트레스 요인을 내려놓지 못할 때, 즉 몸의 스트레스가 아니라 스트레스를 유발한 원인인 어려운 대화나 짜증 나게 했던 일에 대해 생각할 때 이를 처리하는 가장 효율적인 도구는 무엇인가요?",
-   "speaker": "Andrew Huberman"
+   "start": 135.5,
+   "en": "I like to bin it in three categories.",
+   "ko": "저는 이것을 세 가지 범주로 분류하고 싶습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 231.0,
-   "en": "I wish I had one answer, but I'm going to say lots of strategies tackle that. And so in those three bins, one are top down strategies of awareness and things that we can say to ourselves since our beliefs and mindsets can really help us release stress, view stress more positively.",
-   "ko": "한 가지 정답이 있으면 좋겠지만, 많은 전략이 그 문제를 다룬다고 말씀드리고 싶네요. 아까 말한 세 가지 범주 중에서 첫 번째는 인식과 스스로에게 해줄 수 있는 말과 같은 하향식 전략입니다. 우리의 신념과 마음가짐은 스트레스를 해소하고 스트레스를 더 긍정적으로 바라보는 데 큰 도움이 될 수 있으니까요.",
-   "speaker": "Elissa Epel"
+   "start": 139.3,
+   "en": "So one is we, well, I'll just say first of all, we have to have some awareness of how our mind works or we're just like, you know, a subject to thinking our thoughts are real, thinking that it's helpful to keep ruminating and problem solving...",
+   "ko": "첫째는, 우선 우리 마음이 어떻게 작동하는지에 대한 인식이 있어야 한다는 것입니다. 그렇지 않으면 우리는 생각이 실제라고 믿거나, 계속 반추하고 문제를 해결하려 하는 것이 도움이 된다고 생각하는 대상이 되어버립니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 251.0,
-   "en": "The second bucket is not that the mind changes the body, but the body changes the mind. And those are the set of strategies that you tend to use the most, right? Where we're working stress out of the body, we're metabolizing it, we're burning it up. And we get relief. It changes our amygdala activity and moves us to more an experiential state where we're more in our somatosensory cortex.",
-   "ko": "두 번째 바구니는 마음이 몸을 바꾸는 것이 아니라 몸이 마음을 바꾸는 것입니다. 앤드류 당신이 가장 많이 사용하는 전략들이죠? 몸에서 스트레스를 몰아내고, 대사하고, 태워버리는 것입니다. 그러면 안도감을 얻게 되죠. 편도체 활동을 변화시키고 우리를 체성 감각 피질에 더 집중하는 경험적 상태로 이동시킵니다.",
-   "speaker": "Elissa Epel"
+   "start": 155.9,
+   "en": "...because that's our tendency is to go toward whatever we think there's threat or risk and to problem solve that.",
+   "ko": "왜냐하면 위협이나 위험이 있다고 생각되는 쪽으로 가서 그것을 해결하려는 것이 우리의 성향이기 때문입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 270.0,
-   "en": "And then the third bucket is change the scene. Just getting away from all the stress triggers that we have in our office or in the city and being in an environment that we find calming. It might even be just be a corner of the house, but implanting what I call safety signals. Having things like comforting pets, pictures, smells, music.",
-   "ko": "세 번째 바구니는 장면을 바꾸는 것입니다. 사무실이나 도시에 있는 모든 스트레스 유발 요인에서 벗어나 마음이 차분해지는 환경에 있는 것이죠. 집 한구석이라도 괜찮습니다. 제가 '안전 신호'라고 부르는 것들을 심어두는 거죠. 위안을 주는 반려동물, 사진, 향기, 음악 같은 것들 말입니다.",
-   "speaker": "Elissa Epel"
+   "start": 162.8,
+   "en": "But you could just be stuck there all day in this kind of threat mode or red mind state. And that's just a shame.",
+   "ko": "하지만 하루 종일 그런 위협 모드나 '붉은 마음' 상태에 갇혀 있을 수도 있습니다. 그건 정말 안타까운 일이죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 294.0,
+   "start": 169.0,
+   "en": "We don't need to turn on that stress response all the time, but that's where we are as a society.",
+   "ko": "우리가 항상 스트레스 반응을 켤 필요는 없지만, 우리 사회가 지금 그런 상태에 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 175.7,
+   "en": "We're so used to feeling daily stress from our urban and modern life that we don't notice it. We're just used to it.",
+   "ko": "우리는 도시적이고 현대적인 삶에서 오는 일상적인 스트레스에 너무 익숙해져서 그것을 인지하지 못합니다. 그냥 익숙해진 거죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 183.6,
+   "en": "And so we're going through the day with kind of like clenched hands and just, you know, for listeners, just even just taking a check in now and noticing how you might be holding stress in your body.",
+   "ko": "그래서 우리는 주먹을 꽉 쥔 채로 하루를 보냅니다. 청취자분들도 지금 바로 점검해 보면서 몸에 스트레스가 어떻게 쌓여 있는지 느껴보세요.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 195.2,
+   "en": "That's a huge clue. It's a huge place where we accumulate tension. So we might not be aware that we're stressed, but we're punching our hands.",
+   "ko": "그것은 큰 단서입니다. 몸은 우리가 긴장을 축적하는 거대한 장소입니다. 스트레스를 받고 있다는 것을 깨닫지 못할 수도 있지만, 손에 힘을 주고 있을 수 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 203.2,
+   "en": "So going back to this notion of overthinking, what are the tools that are most efficient for dealing with overthinking or ruminating when people just can't seem to let go of the thing that's the stress...",
+   "ko": "과도한 생각이라는 개념으로 돌아가서, 사람들이 스트레스 요인을 떨쳐내지 못할 때, 과도한 생각이나 반추를 다루는 데 가장 효율적인 도구는 무엇인가요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 218.3,
+   "en": "...or thinking about not the stress in their body, but the thing that caused the stress, the difficult conversation, the thing that irked them?",
+   "ko": "몸에 있는 스트레스가 아니라 스트레스를 유발한 일, 즉 힘든 대화나 자신을 짜증 나게 했던 일에 대해 계속 생각할 때 말이죠.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 225.5,
+   "en": "I wish I had one answer, but I'm going to say lots of strategies tackle that. And so in those three bins, one are top-down strategies of awareness and things that we can say to ourselves...",
+   "ko": "단 하나의 정답이 있으면 좋겠지만, 여러 전략이 그 문제를 다룹니다. 앞서 말씀드린 세 가지 범주 중 첫 번째는 인식과 스스로에게 해줄 수 있는 말과 같은 하향식 전략입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 236.7,
+   "en": "...since our beliefs and mindsets can really help us use stress more positively.",
+   "ko": "우리의 믿음과 사고방식이 스트레스를 더 긍정적으로 사용하는 데 큰 도움이 될 수 있기 때문입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 244.2,
+   "en": "The second bucket is not that the mind changes the body, but the body changes the mind. And those are the set of strategies that you tend to use the most, right?",
+   "ko": "두 번째 범주는 마음이 몸을 바꾸는 것이 아니라 몸이 마음을 바꾸는 것입니다. 이것이 휴버맨 교수님이 가장 많이 사용하시는 전략들이죠, 그렇죠?",
+   "speaker": "Epel"
+  },
+  {
+   "start": 251.8,
+   "en": "We're working stress out of the body. We're metabolizing it. We're burning it up. And we get relief.",
+   "ko": "우리는 몸 밖으로 스트레스를 배출합니다. 그것을 대사하고 태워버립니다. 그러면 안도감을 얻게 됩니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 257.9,
+   "en": "It changes our amygdala activity and moves us to more an experiential state where we're more in our somatosensory cortex.",
+   "ko": "그것은 편도체 활동을 변화시키고 우리를 체성 감각 피질에 더 집중하는 경험적 상태로 이동시킵니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 266.0,
+   "en": "And then the third bucket is change the scene, just getting away from all the stress triggers that we have in our office or in the city and being in an environment that we find calming.",
+   "ko": "세 번째 범주는 장면을 바꾸는 것입니다. 사무실이나 도시에 있는 모든 스트레스 유발 요인에서 벗어나 마음이 편안해지는 환경에 있는 것이죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 279.6,
+   "en": "It might even be just be a corner of the house, but in planting what I call safety signals, having things like comforting pets, pictures, smells, music.",
+   "ko": "그저 집안의 한 구석일 수도 있지만, 제가 '안전 신호'라고 부르는 것들을 심어두는 것입니다. 위안을 주는 반려동물, 사진, 향기, 음악 같은 것들 말이죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 291.5,
+   "en": "When we talk about stress, it's clear that there's short-term, medium-term, long-term stress. You studied all these different forms of stress.",
+   "ko": "스트레스에 대해 이야기할 때 단기, 중기, 장기 스트레스가 있다는 것은 명확합니다. 박사님은 이 모든 다양한 형태의 스트레스를 연구하셨죠.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 298.8,
+   "en": "If you would be so kind as to just give us an overview of the different forms of stress, how we can learn to recognize those, pepper our minds with knowledge about stress and all its beautiful and not so beautiful forms.",
+   "ko": "괜찮으시다면 다양한 형태의 스트레스에 대한 개요를 알려주시고, 우리가 그것들을 어떻게 인식할 수 있는지, 그리고 스트레스의 아름답고 아름답지 않은 모든 형태에 대한 지식을 우리 마음속에 채워주실 수 있을까요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 313.3,
+   "en": "When we think about stress, we usually think feeling stress, reporting stress, and that's important. What our body is doing is also important, and it's not always related to our minds.",
+   "ko": "우리가 스트레스를 생각할 때 대개 스트레스를 느끼고 보고하는 것을 생각하는데, 그것도 중요합니다. 우리 몸이 무엇을 하고 있는지도 중요하며, 그것이 항상 우리 마음과 관련된 것은 아닙니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 323.9,
+   "en": "So measuring levels of the nervous system and how vigilant we are is another way that we can understand stress.",
+   "ko": "따라서 신경계의 수치와 우리가 얼마나 경계하고 있는지를 측정하는 것이 스트레스를 이해하는 또 다른 방법입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 331.2,
+   "en": "And that's particularly important and interesting because that's how stress gets under the skin, and we might not be aware.",
+   "ko": "그것은 특히 중요하고 흥미로운데, 그것이 바로 스트레스가 내면화되는 방식이며 우리는 이를 인지하지 못할 수도 있기 때문입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 337.3,
+   "en": "We're not in a report stress, but we're still holding tension and being much more sympathetically dominated, meaning that our body is vigilant and scanning for cues, and we don't feel safe.",
+   "ko": "스트레스를 보고하는 상태는 아니지만 여전히 긴장을 유지하고 훨씬 더 교감 신경이 지배적인 상태일 수 있습니다. 즉, 우리 몸이 경계하고 단서를 찾으며 안전하다고 느끼지 못하는 상태라는 뜻입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 348.9,
+   "en": "And so we're mobilizing a lot more energy than we need to. And stress is so expensive to the body.",
+   "ko": "그래서 우리는 필요 이상의 에너지를 동원하게 됩니다. 스트레스는 신체에 아주 큰 비용을 치르게 합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 357.7,
+   "en": "The stress response uses a tremendous amount of energy ATP that's made by our mitochondria. And if we have that kind of vigilant stress response on all day, we're just gonna feel exhausted.",
+   "ko": "스트레스 반응은 미토콘드리아에서 생성되는 엄청난 양의 에너지인 ATP를 사용합니다. 하루 종일 그런 경계적인 스트레스 반응을 보인다면 우리는 그저 지칠 수밖에 없습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 370.5,
+   "en": "And we don't necessarily get so threatened that we release a lot of cortisol, but our nervous system is going up and down all day.",
+   "ko": "코르티솔을 많이 분비할 정도로 위협을 느끼지는 않더라도, 우리 신경계는 하루 종일 오르락내리락합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 376.7,
+   "en": "Then there's kind of moderate stressful events that maybe take days or months to cope with. And what's important there is that noticing like right now, am I really coping acutely with something or can I restore?",
+   "ko": "그다음에는 대처하는 데 며칠 또는 몇 달이 걸릴 수 있는 중등도의 스트레스 사건들이 있습니다. 여기서 중요한 것은 지금 내가 무언가에 급성으로 대처하고 있는 것인지, 아니면 회복할 수 있는지를 알아차리는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 391.4,
+   "en": "So that kind of daily restoration is very important. And then there are chronically stressful situations that go on for years.",
+   "ko": "따라서 그러한 일상적인 회복이 매우 중요합니다. 그리고 수년 동안 지속되는 만성적인 스트레스 상황이 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 398.2,
+   "en": "Many of us, not all of us, but many of us have those in our life. These are situations I'll just use caregiving as an example that we can't change.",
+   "ko": "우리 모두는 아니지만 많은 이들이 삶에서 그런 상황을 겪습니다. 간병을 예로 들어보자면, 우리가 바꿀 수 없는 상황들입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 408.1,
+   "en": "We can't change other people. We can't change certain situations or resources. And we can be thinking about them, chronically problem solving, trying to wish things were different...",
+   "ko": "우리는 다른 사람을 바꿀 수 없습니다. 특정한 상황이나 자원도 바꿀 수 없죠. 우리는 그것들에 대해 계속 생각하고, 만성적으로 문제를 해결하려 하고, 상황이 다르기를 바랄 수도 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 422.0,
+   "en": "...or we can use acceptance, radical acceptance strategies, and other strategies to live well with them.",
+   "ko": "아니면 수용, 즉 근본적 수용 전략과 다른 전략들을 사용해 그것들과 함께 잘 살아갈 수도 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 429.2,
+   "en": "That's a really important strategy for people who feel like their life is going to be stressful forever because of X or Y.",
+   "ko": "이것은 X나 Y 때문에 자신의 삶이 영원히 스트레스로 가득할 것이라고 느끼는 사람들에게 정말 중요한 전략입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 438.4,
+   "en": "You can actually be dealing with uncontrollable chronic stress in ways that it's not to take that toll on your body.",
+   "ko": "통제할 수 없는 만성 스트레스에 대처하면서도 몸에 큰 타격을 주지 않는 방식으로 살아갈 수 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 447.1,
+   "en": "I mean, I study chronic stress and how it accelerates cell aging, and I can tell you, there's so much variance between people.",
+   "ko": "저는 만성 스트레스와 그것이 세포 노화를 어떻게 가속화하는지 연구하고 있는데, 사람들 사이에 아주 많은 차이가 있다고 말씀드릴 수 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 452.9,
+   "en": "People are so different, so among caregivers, some of them look as biologically young or younger than our controls. People with no identifiable, big, tough situation in their life.",
+   "ko": "사람들은 매우 다릅니다. 그래서 간병인들 중 일부는 대조군, 즉 삶에 뚜렷한 큰 어려움이 없는 사람들보다 생물학적으로 젊거나 더 젊어 보이기도 합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 464.5,
    "en": "I'd like to take a quick break and acknowledge our sponsor, Eight Sleep. Eight Sleep makes smart mattress covers with cooling, heating, and sleep tracking capacity.",
-   "ko": "잠시 쉬어가며 스폰서인 에이트 슬립(Eight Sleep)을 소개하겠습니다. 에이트 슬립은 냉각, 가열 및 수면 추적 기능이 있는 스마트 매트리스 커버를 만듭니다.",
-   "speaker": "Andrew Huberman",
+   "ko": "잠시 쉬어가며 스폰서인 Eight Sleep을 소개하겠습니다. Eight Sleep은 냉각, 가열 및 수면 추적 기능이 있는 스마트 매트리스 커버를 만듭니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 304.0,
-   "en": "Eight Sleep just launched the Pod 6, which is their most advanced sleep system. The Pod 6 is half the size of their previous models, it's 20% faster with its cooling and heating, and it has nine times as many sensors for tracking your sleep.",
-   "ko": "에이트 슬립은 가장 진보된 수면 시스템인 Pod 6를 방금 출시했습니다. Pod 6는 이전 모델의 절반 크기이며 냉각 및 가열 속도가 20% 더 빠르고 수면 추적을 위한 센서가 9배 더 많습니다.",
-   "speaker": "Andrew Huberman",
+   "start": 472.6,
+   "en": "Eight Sleep just launched the Pod 6, which is their most advanced sleep system. The Pod 6 is half the size of their previous models.",
+   "ko": "Eight Sleep은 최근 가장 진보된 수면 시스템인 Pod 6를 출시했습니다. Pod 6은 이전 모델의 절반 크기입니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 316.0,
-   "en": "The reason why Eight Sleep is so effective at improving your sleep quality and duration is because it helps control your core body temperature. And the reason for that is that in order to fall and stay deeply asleep, your core body temperature has to drop by about one to three degrees.",
-   "ko": "에이트 슬립이 수면의 질과 시간을 개선하는 데 효과적인 이유는 심부 체온 조절을 돕기 때문입니다. 그 이유는 깊이 잠들고 그 상태를 유지하려면 심부 체온이 약 1~3도 정도 떨어져야 하기 때문입니다.",
-   "speaker": "Andrew Huberman",
+   "start": 479.5,
+   "en": "It's 20% faster with its cooling and heating, and it has nine times as many sensors for tracking your sleep.",
+   "ko": "냉각 및 가열 속도가 20% 더 빨라졌으며, 수면 추적을 위한 센서가 9배 더 많아졌습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 330.0,
-   "en": "And to wake up feeling completely refreshed and energized, you actually want your body temperature to be increasing in the final hours of your sleep. Eight Sleep automatically regulates the temperature of your bed throughout the night, and is monitoring your sleep and dynamically adjusting the temperature of your sleep environment so you get the maximum amount of deep sleep and rapid eye movement sleep.",
-   "ko": "또한 완전히 상쾌하고 활기차게 깨어나려면 수면의 마지막 시간에 체온이 실제로 상승해야 합니다. 에이트 슬립은 밤새도록 침대 온도를 자동으로 조절하며, 수면 상태를 모니터링하고 수면 환경의 온도를 동적으로 조정하여 깊은 수면과 렘(REM) 수면을 최대한 보장합니다.",
-   "speaker": "Andrew Huberman",
+   "start": 485.6,
+   "en": "The reason why eight sleep is so effective at improving your sleep quality and duration is because it helps control at your core body temperature.",
+   "ko": "Eight Sleep이 수면의 질과 지속 시간을 개선하는 데 효과적인 이유는 심부 체온을 조절하는 데 도움을 주기 때문입니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 346.0,
-   "en": "I've been sleeping on an Eight Sleep mattress cover for nearly five years now, and with each new iteration of Eight Sleep, it gets better and better at figuring out what my body needs in order to get the best possible night's sleep.",
-   "ko": "저는 거의 5년 동안 에이트 슬립 매트리스 커버를 사용해 왔으며, 새로운 버전이 나올 때마다 제 몸이 최고의 밤잠을 자기 위해 무엇을 필요로 하는지 파악하는 능력이 점점 더 좋아지고 있습니다.",
-   "speaker": "Andrew Huberman",
+   "start": 492.8,
+   "en": "And the reason for that is that in order to fall and stay deeply asleep, your core body temperature has to drop by about one to three degrees.",
+   "ko": "그 이유는 깊은 잠에 들고 유지하기 위해서는 심부 체온이 약 1~3도 정도 떨어져야 하기 때문입니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 358.0,
-   "en": "If you would like to try Eight Sleep, go to eightsleep.com/huberman to get up to $200 off their new Pod 6. Eight Sleep ships to many countries worldwide, including Mexico and the UAE. Again, that's eightsleep.com/huberman to save up to $200.",
-   "ko": "에이트 슬립을 체험해보고 싶으시다면 eightsleep.com/huberman에 방문하여 신제품 Pod 6를 최대 200달러 할인된 가격에 구매하세요. 에이트 슬립은 멕시코와 UAE를 포함한 전 세계 여러 국가로 배송됩니다. 다시 한번 말씀드리면, 최대 200달러를 절약할 수 있는 주소는 eightsleep.com/huberman입니다.",
-   "speaker": "Andrew Huberman",
+   "start": 500.3,
+   "en": "And to wake up feeling completely refreshed and energized, you actually want your body temperature to be increasing in the final hours of your sleep.",
+   "ko": "그리고 완전히 상쾌하고 활기차게 깨어나려면 수면의 마지막 몇 시간 동안 체온이 올라가는 것이 좋습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 371.0,
-   "en": "In one of your papers, you distinguish between optimal aging, typical aging, and accelerated aging. How does one measure optimal versus accelerated aging? And why would it be that some stress is better than no stress when it comes to aging ideally?",
-   "ko": "박사님의 논문 중 하나에서 최적의 노화, 전형적인 노화, 그리고 가속화된 노화를 구분하셨는데요. 최적의 노화와 가속화된 노화는 어떻게 측정하나요? 그리고 이상적인 노화에 있어서 왜 약간의 스트레스가 스트레스가 전혀 없는 것보다 더 나은 걸까요?",
-   "speaker": "Andrew Huberman"
+   "start": 507.9,
+   "en": "Eight sleep automatically regulates the temperature of your bed throughout the night and is monitoring your sleep and dynamically adjusting the temperature of your sleep environment...",
+   "ko": "Eight Sleep은 밤새도록 침대의 온도를 자동으로 조절하고 수면을 모니터링하며 수면 환경의 온도를 동적으로 조절합니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 387.0,
-   "en": "Having no stress means we're not really living. Like we're not engaging in the gifts of life, which are inevitably have some challenge and risk. And let me give you an example. One study took elderly people who had retired and society kind of labels them as you're kind of done with your meaningful work in life and you are pretty much not able to contribute to society.",
-   "ko": "스트레스가 없다는 것은 우리가 정말로 살아있지 않다는 뜻입니다. 도전을 피할 수 없고 위험이 따르는 삶의 선물들에 참여하지 않고 있다는 거죠. 예를 하나 들어볼게요. 한 연구에서는 은퇴한 노인들을 대상으로 했는데, 사회는 보통 그들에게 이제 의미 있는 일은 끝났고 사회에 기여할 능력이 거의 없다는 꼬리표를 붙입니다.",
-   "speaker": "Elissa Epel"
+   "start": 516.1,
+   "en": "...so you get the maximum amount of deep sleep and rapid eye movement sleep. I've been sleeping on an eight sleep mattress cover for nearly five years now...",
+   "ko": "그래서 깊은 수면과 렘수면을 최대한 취할 수 있게 해줍니다. 저는 거의 5년 동안 Eight Sleep 매트리스 커버를 사용해 왔습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 410.0,
-   "en": "I mean there's so many negative stereotypes that people then kind of embody and then live. Um and this program brought them to work in schools and tutor young at risk students. And what happened to them is they went from feeling maybe safe and under stressed to feeling challenged but generative.",
-   "ko": "사람들이 내면화하고 살아가는 부정적인 고정관념이 너무 많죠. 이 프로그램은 그들을 학교로 데려가 위기 학생들을 가르치게 했습니다. 그들에게 일어난 변화는, 안전하고 스트레스가 적은 상태에서 도전적이지만 생산적인 기분을 느끼는 상태로 바뀐 것이었습니다.",
-   "speaker": "Elissa Epel"
+   "start": 523.8,
+   "en": "...and with each new iteration of eight sleep, it gets better and better at figuring out what my body needs in order to get the best possible night's sleep.",
+   "ko": "Eight Sleep의 새로운 버전이 나올 때마다 최상의 수면을 위해 제 몸에 무엇이 필요한지 파악하는 능력이 점점 더 좋아지고 있습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 425.0,
-   "en": "They they were feeling more purpose, they were feeling like they were growing, and they were feeling like their day had more meaning. They had these caring relationships with the students, and in this study they they took images of the hippocampus and those who engaged in the program, particularly the men, actually had growth of their hippocampus during this program.",
-   "ko": "그들은 더 많은 목적의식을 느꼈고, 성장하고 있다고 느꼈으며, 하루가 더 의미 있다고 느꼈습니다. 학생들과 배려하는 관계를 맺었죠. 이 연구에서 해마를 촬영했는데, 프로그램에 참여한 사람들, 특히 남성들은 프로그램 기간 동안 해마가 실제로 성장했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 531.2,
+   "en": "If you would like to try Ate Sleep, go to AteSleep.com slash Huberman to get up to $200 off their new pod six.",
+   "ko": "Eight Sleep을 체험해 보고 싶으시다면, AteSleep.com/Huberman에서 새로운 Pod 6을 최대 200달러 할인된 가격으로 만나보세요.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 443.0,
-   "en": "So at any stage in life, we can be growing and challenging ourselves, even in our much later years and growing our brain. And you know more than anyone like what does that hippocampal growth mean for their wellbeing and their cognitive function.",
-   "ko": "따라서 인생의 어느 단계에서나, 심지어 노년기에도 성장하고 스스로에게 도전하며 뇌를 성장시킬 수 있습니다. 해마의 성장이 웰빙과 인지 기능에 무엇을 의미하는지는 당신이 누구보다 잘 알 것입니다.",
-   "speaker": "Elissa Epel"
+   "start": 538.6,
+   "en": "Ate Sleep ships to many countries worldwide, including Mexico and the UAE. Again, that's AteSleep.com slash Huberman to save up to $200.",
+   "ko": "Eight Sleep은 멕시코와 아랍에미리트를 포함한 전 세계 여러 국가로 배송됩니다. 다시 한번 말씀드리면, 최대 200달러를 절약하시려면 AteSleep.com/Huberman으로 접속하세요.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 461.0,
-   "en": "I almost have to wonder if it's like exercise where you know so many people I think now everybody hopefully understands that exercise is going to lower blood pressure, reduce resting heart rate, improve musculoskeletal function and bone density, all that stuff.",
-   "ko": "마치 운동과 비슷하다는 생각이 드네요. 이제는 많은 사람들, 아니 모든 사람이 운동이 혈압을 낮추고, 안정 시 심박수를 줄이며, 근골격계 기능과 골밀도를 개선한다는 사실을 이해하고 있을 겁니다.",
-   "speaker": "Andrew Huberman"
+   "start": 547.4,
+   "en": "In one of your papers, you distinguish between optimal aging, typical aging and accelerated aging. How does one measure optimal versus accelerated aging?",
+   "ko": "박사님의 논문 중 하나에서 최적 노화, 일반 노화 및 가속 노화를 구분하셨습니다. 최적 노화와 가속 노화는 어떻게 측정하나요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 474.0,
-   "en": "But that if you took a snapshot of the bodily response during exercise, blood pressure is way way up, heart rate is way way up, stress hormones are way up, cortisol is through the roof during a hard workout and immediately afterwards. And yet that sets in motion a series of adaptations that brings you to a better place most of the time.",
-   "ko": "하지만 운동 중의 신체 반응을 스냅샷으로 찍어보면 혈압이 엄청나게 올라가고 심박수도 엄청나게 빠르며 스트레스 호르몬 수치도 높고, 힘든 운동 중이나 직후에는 코르티솔 수치가 치솟습니다. 하지만 그것은 대개 우리를 더 나은 상태로 이끄는 일련의 적응 과정을 작동시킵니다.",
-   "speaker": "Andrew Huberman"
+   "start": 559.0,
+   "en": "and why would it be that some stress is better than no stress when it comes to aging ideally?",
+   "ko": "그리고 이상적인 노화에 있어서 왜 스트레스가 전혀 없는 것보다 어느 정도 있는 것이 더 좋은 걸까요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 494.0,
-   "en": "Is there any evidence that short bouts of stress provided that they're managed well, meaning that we don't spend the next 24 or 48 hours ruminating on the stressor, but that we're able to move through the stressor and resolve it in some way, that that's actually beneficial for us because of the mobilization of energy stores and maybe even changing our threshold for reacting to stressors in the future?",
-   "ko": "짧은 스트레스가 잘 관리된다면, 즉 다음 24시간이나 48시간 동안 그 스트레스 요인에 대해 반추하지 않고 스트레스 요인을 통과하여 어떤 식으로든 해결할 수 있다면, 에너지 저장고의 동원과 향후 스트레스 요인에 반응하는 역치의 변화 덕분에 실제로 우리에게 유익하다는 증거가 있을까요?",
-   "speaker": "Andrew Huberman"
+   "start": 567.4,
+   "en": "Having no stress means we're not really living. Like we're not engaging in the gifts of life, which are inevitably have some challenge and risk.",
+   "ko": "스트레스가 전혀 없다는 것은 우리가 제대로 살고 있지 않다는 것을 의미합니다. 필연적으로 도전과 위험이 따르는 삶의 선물들에 참여하지 않고 있다는 뜻이죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 516.0,
-   "en": "We know as you said that physical stressors when they're short and repeated, like high intensity interval training, they are promoting not just aerobic fitness but stress fitness. People feel less rumination, less depression, less anxiety. So they're kind of tuning up the nervous system.",
-   "ko": "말씀하신 대로 고강도 인터벌 트레이닝처럼 짧고 반복적인 신체적 스트레스 요인은 유산소 체력뿐만 아니라 스트레스 체력을 증진시킨다는 것을 알고 있습니다. 사람들은 반추를 덜 하게 되고, 우울감과 불안감도 줄어듭니다. 신경계를 조율하는 셈이죠.",
-   "speaker": "Elissa Epel"
+   "start": 577.8,
+   "en": "And let me give you an example. One study took elderly people who were tired and society kind of labels them as you're kind of done with your meaningful work in life...",
+   "ko": "예를 하나 들어보겠습니다. 한 연구에서 지쳐 있는 노인들을 대상으로 했는데, 사회는 보통 그들을 인생에서 의미 있는 일은 이제 끝났다고 규정하곤 하죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 532.0,
-   "en": "What about psychological stressors? We know two things. So one is I do think that there is a level of engagement with moderate stressors that when we are used to them, we get fit and our stress resilience builds, meaning we're less threatened by them.",
-   "ko": "심리적 스트레스 요인은 어떨까요? 두 가지를 알 수 있습니다. 하나는 적당한 스트레스 요인에 익숙해지면 체력이 좋아지고 스트레스 회복력이 생겨서 스트레스 요인에 의한 위협을 덜 느끼게 된다고 생각합니다.",
-   "speaker": "Elissa Epel"
+   "start": 588.2,
+   "en": "...and you are pretty much not able to contribute to society. I mean, there's so many negative stereotypes of people then and kind of embody and then live.",
+   "ko": "그리고 사회에 더 이상 기여할 수 없다고 보죠. 당시 사람들에게는 그런 부정적인 고정관념이 많았고, 그것을 내면화하며 살았습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 548.0,
-   "en": "Two people can approach the exact same stressor and one person is having a pretty um overreactive stress response where they basically are feeling their survival is threatened, so it's high cortisol, high vasoconstriction, and uh blood pressure goes up equally in both, but the person who's feeling super threatened either their survival or their social survival, their ego, their blood pressure went up because of the vasoconstriction.",
-   "ko": "두 사람이 똑같은 스트레스 요인에 직면해도 한 사람은 생존이 위협받는다고 느끼며 과잉 스트레스 반응을 보일 수 있습니다. 코르티솔 수치가 높아지고 혈관이 수축되며 두 사람 모두 혈압은 똑같이 오르지만, 자신의 생존이나 사회적 생존, 즉 자아가 크게 위협받는다고 느끼는 사람은 혈관 수축 때문에 혈압이 오릅니다.",
-   "speaker": "Elissa Epel"
+   "start": 596.1,
+   "en": "And this program brought them to work in schools and tutor young at-risk students.",
+   "ko": "그리고 이 프로그램은 그들을 학교로 데려가 위기 청소년들을 가르치게 했습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 573.0,
-   "en": "The other person who's viewing the same stressor as I can do this, this is a great challenge and opportunity, I have what it takes. Those types of thoughts generate a different hemodynamic response which is actually more cardiac output, so blood pressure's going up but in this healthier way, more oxygenation to the brain, better problem solving.",
-   "ko": "같은 스트레스 요인을 '난 할 수 있어, 이건 훌륭한 도전이자 기회야, 난 능력이 있어'라고 바라보는 다른 사람은 다른 혈액 동태 반응을 보입니다. 심박출량이 증가하여 건강한 방식으로 혈압이 오르고, 뇌에 더 많은 산소가 공급되며 문제 해결 능력이 향상되죠.",
-   "speaker": "Elissa Epel"
+   "start": 603.3,
+   "en": "And what happened to them is they went from feeling maybe safe and under-stressed to feeling challenged, but generative. They were feeling more purpose.",
+   "ko": "그들에게 일어난 변화는, 안전하고 스트레스가 적다고 느꼈을 수도 있는 상태에서 도전적이지만 생산적인 기분을 느끼게 된 것입니다. 그들은 더 많은 목적의식을 느꼈습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 594.0,
-   "en": "They're able to maintain this positive outlook. So we've measured this threat challenge response in many lab studies and we know lots of things. So if you're having more of the challenge response, at the end of it you're less inflamed. So just in the lab within an hour or two we see that they they didn't trigger all that pro-inflammatory response.",
-   "ko": "그들은 긍정적인 전망을 유지할 수 있습니다. 많은 실험실 연구에서 이러한 위협 및 도전 반응을 측정했고 많은 것을 알아냈습니다. 도전 반응을 더 많이 보이면 결과적으로 염증이 덜 생깁니다. 실험실에서 한두 시간 만에 그들이 친염증 반응을 모두 유발하지 않았음을 확인했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 616.7,
+   "en": "They were feeling like they were growing, and they were feeling like their day had more meaning. They had these caring relationships with the students.",
+   "ko": "그들은 자신이 성장하고 있음을 느꼈고, 하루가 더 의미 있다고 느꼈습니다. 학생들과 배려하는 관계를 맺었죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 612.0,
-   "en": "And their telomeres tend to be longer, which is a measure we can talk more about but basically it looks like they have a slower speed of aging. So we could call this kind of a to be really simplistic, two types of psychological stress response, feeling threatened like you're going to fail, you're embarrassed.",
-   "ko": "그리고 텔로미어도 더 긴 경향이 있는데, 나중에 더 자세히 이야기하겠지만 기본적으로 노화 속도가 더 느린 것으로 보입니다. 정말 단순화해서 말하자면, 실패할 것 같거나 당황스러워 위협을 느끼는 것과 같은 두 가지 유형의 심리적 스트레스 반응이라 할 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 626.9,
+   "en": "And in these study, they took images of the hippocampus, and those who engaged in the program, particularly the men, actually had growth of their hippocampus during this program.",
+   "ko": "이 연구에서 해마 영상을 촬영했는데, 프로그램에 참여한 사람들, 특히 남성들은 프로그램 기간 동안 실제로 해마가 성장했습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 633.0,
-   "en": "That social pain response we know well that feels terrible. Um but that also that huge stress response when we, you know, we feel it in our stomach, our heart is pounding, it's just an over exaggerated response. That response biologically is different and the thoughts that go with it are different and we recover a lot slower.",
-   "ko": "우리가 잘 아는 끔찍한 기분의 사회적 고통 반응이죠. 하지만 위에서 느껴지고 심장이 두근거리는 거대한 스트레스 반응도 과장된 반응일 뿐입니다. 그 반응은 생물학적으로 다르며 그에 따르는 생각도 다르고 회복도 훨씬 느립니다.",
-   "speaker": "Elissa Epel"
+   "start": 638.5,
+   "en": "So at any stage in life, we can be growing and challenging ourselves, even in our much later years and growing our brain...",
+   "ko": "따라서 인생의 어느 단계에서든, 심지어 노년기에도 우리는 성장하고 자신에게 도전하며 뇌를 성장시킬 수 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 653.0,
-   "en": "And then there's the challenge response which it's more of that kind of activated, excited response. And the beauty is that there are lots of studies out there done by emotion and social psychologists that tilt people toward the challenge response. We can actually promote that challenge response.",
-   "ko": "반면 활기차고 흥분된 반응에 더 가까운 도전 반응이 있습니다. 다행인 것은 정서 및 사회 심리학자들의 많은 연구를 통해 사람들을 도전 반응 쪽으로 유도할 수 있다는 사실입니다. 우리는 실제로 그 도전 반응을 촉진할 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 647.1,
+   "en": "...and you know more than anyone, like, what does that hippocampal growth mean for their well-being and their cognitive function?",
+   "ko": "휴버맨 교수님이 누구보다 잘 아시겠지만, 그러한 해마의 성장이 그들의 안녕과 인지 기능에 무엇을 의미하겠습니까?",
+   "speaker": "Epel"
   },
   {
-   "start": 673.0,
-   "en": "What are the sorts of things that people, I, can do in order, including me I should say, can do in order to wage that challenge response? Is this purely based on mindset? Like instead of saying why me, why this, why now, I can't believe this is happening, is it a mental pivot to okay this is a great opportunity for growth.",
-   "ko": "저를 포함한 사람들이 도전 반응을 이끌어내기 위해 할 수 있는 일은 무엇인가요? 이것은 순수하게 마음가짐에 달려 있나요? '왜 하필 나야, 왜 이런 일이, 왜 지금, 이런 일이 일어나다니 믿을 수 없어'라고 말하는 대신 '좋아, 이건 성장을 위한 좋은 기회야'라고 정신적으로 선회하는 것인가요?",
-   "speaker": "Andrew Huberman"
+   "start": 654.1,
+   "en": "I almost have to wonder if it's like exercise where so many people, I think now everybody hopefully understands that exercise is gonna lower blood pressure...",
+   "ko": "운동과 비슷하다는 생각이 드네요. 이제는 누구나 운동이 혈압을 낮춘다는 것을 이해하길 바랍니다만...",
+   "speaker": "Huberman"
   },
   {
-   "start": 701.0,
-   "en": "I don't know how I'm going to manage this but I'll manage this, you want to stop me you got to kill me type of type of mindset? Is that the switch that then the body follows?",
-   "ko": "'어떻게 감당해야 할지 모르겠지만 감당해낼 거야, 나를 막으려면 날 죽여야 할 거야' 같은 마인드인가요? 그런 전환이 일어나면 몸이 따라오게 되는 건가요?",
-   "speaker": "Andrew Huberman"
+   "start": 663.5,
+   "en": "...reduce resting heart rate, improve musculoskeletal function and bone density, all that stuff, but that if you took a snapshot shot of the bodily response during exercise.",
+   "ko": "안정 시 심박수를 줄이고, 근골격계 기능과 골밀도를 개선하는 등의 효과가 있죠. 하지만 운동 중의 신체 반응을 스냅샷으로 찍어본다면 어떨까요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 711.0,
-   "en": "The whole trick here is that people need to find the the strength statements, the stress shields I call them, that fit them, that feels right and that they believe. Be the lion instead of the gazelle.",
-   "ko": "여기서 비결은 자신에게 잘 맞고, 적절하다고 느껴지며, 스스로 믿을 수 있는 '강점 진술', 제가 '스트레스 방패'라고 부르는 것을 찾는 것입니다. 가젤이 아닌 사자가 되는 것이죠.",
-   "speaker": "Elissa Epel"
+   "start": 673.1,
+   "en": "Blood pressure is way, way up. Heart rate is way, way up. Stress hormones are way up. Cortisol is through the roof during a hard workout and immediately afterwards.",
+   "ko": "혈압은 훨씬 높습니다. 심박수도 아주 높죠. 스트레스 호르몬도 급증합니다. 격렬한 운동 중과 직후에는 코르티솔 수치가 치솟습니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 725.0,
-   "en": "So the lion and gazelle are both, you know, high blood pressure, high stress, and the lion's chasing the gazelle but the gazelle's having this total threat vasoconstriction response because she might die. Lion might get dinner, right? So it's needing to mount the stress response because it's so excited to get the tasty dinner for, you know, the next few days.",
-   "ko": "사자와 가젤 모두 혈압이 높고 스트레스 수치가 높으며 사자가 가젤을 쫓고 있지만, 가젤은 죽을 수도 있기 때문에 완전한 위협 혈관 수축 반응을 보입니다. 하지만 사자는 저녁을 먹을 수도 있잖아요? 사자는 맛있는 저녁을 먹을 생각에 너무 신이 나서 스트레스 반응을 보일 필요가 있는 겁니다.",
-   "speaker": "Elissa Epel"
+   "start": 681.0,
+   "en": "And yet that sets in motion a series of adaptations that brings you to a better place most of the time.",
+   "ko": "하지만 그것은 대부분의 경우 당신을 더 나은 상태로 이끄는 일련의 적응 과정을 시작하게 합니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 750.0,
-   "en": "And so the lion is having that challenge response. And so we can remind ourselves be the lion. It's not that we're always lion or gazelle. We get to shape that. There's all these strategies and you got to use what works for you. Telling yourself I got this, I can do it, I can get through it, I have what it takes. Those are all good shields.",
-   "ko": "그래서 사자는 도전 반응을 보이고 있는 것입니다. 그래서 우리는 스스로에게 '사자가 되어라'라고 상기시킬 수 있습니다. 우리가 항상 사자이거나 가젤인 것은 아니에요. 우리가 그것을 형성해 나가는 겁니다. 여러 전략이 있으니 자신에게 맞는 것을 사용해야 합니다. '난 할 수 있어, 해낼 거야, 이겨낼 수 있어, 난 능력이 있어'라고 스스로에게 말하는 것들이 모두 좋은 방패가 됩니다.",
-   "speaker": "Elissa Epel"
+   "start": 686.0,
+   "en": "Is there any evidence that short bouts of stress provided that they're managed well, meaning that we don't spend the next 24 or 48 hours ruminating on the stressor...",
+   "ko": "짧은 스트레스가 잘 관리된다면, 즉 스트레스 요인에 대해 이후 24시간이나 48시간 동안 계속 반추하지 않는다면...",
+   "speaker": "Huberman"
   },
   {
-   "start": 769.0,
-   "en": "And another set is, you know, we some of us feel really stressed out by stress. Like once we get feel our heart racing, that leads to oh no, you know, this is bad for me. And so rather than getting stressed by stress, we actually want to remind ourselves that this stress response is empowering.",
-   "ko": "또 다른 하나는, 우리 중 일부는 스트레스 자체 때문에 정말 큰 스트레스를 받는다는 것입니다. 심장이 뛰는 것을 느끼는 순간, '이런, 이건 나한테 해로워'라는 생각으로 이어지죠. 그래서 스트레스 때문에 스트레스를 받기보다는 이 스트레스 반응이 힘을 실어준다는 사실을 스스로에게 상기시켜야 합니다.",
-   "speaker": "Elissa Epel"
+   "start": 696.4,
+   "en": "...but that we're able to move through the stressor and resolve solve it in some way, that that's actually beneficial for us because of the mobilization of energy stores...",
+   "ko": "오히려 스트레스를 극복하고 어떤 방식으로든 해결할 수 있다면, 에너지 저장소의 가동 덕분에 실제로 우리에게 유익하다는 증거가 있나요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 786.0,
-   "en": "This is going to help me cope, my body's excited, my body is doing just what it should right now. So that reframing in studies by Wendy Mendes and others, my my colleagues who do these reappraisal research, they have basically trained people to view stress as positive.",
-   "ko": "이 반응이 내가 대처하는 것을 도울 것이고, 내 몸은 고양되어 있으며, 지금 제 역할을 다하고 있다고 말이죠. 웬디 멘데스를 비롯한 재평가 연구를 하는 제 동료들의 연구에 따르면, 사람들에게 스트레스를 긍정적으로 바라보도록 훈련시켰습니다.",
-   "speaker": "Elissa Epel"
+   "start": 703.7,
+   "en": "...and maybe even changing our threshold for reacting to stressors in the future.",
+   "ko": "어쩌면 미래의 스트레스 요인에 반응하는 우리의 임계치까지 변화시킬 수도 있겠네요.",
+   "speaker": "Huberman"
   },
   {
-   "start": 801.0,
-   "en": "During the stressful situations in the lab people do better. They perform better. They feel more positive emotion. They problem solve better. They recover more quickly. So pretty powerful stuff.",
-   "ko": "실험실의 스트레스 상황에서도 사람들은 더 잘 해냈습니다. 수행 능력이 향상되었죠. 더 긍정적인 감정을 느꼈고 문제 해결도 더 잘했습니다. 회복도 더 빨랐고요. 꽤 강력한 효과죠.",
-   "speaker": "Elissa Epel"
+   "start": 708.6,
+   "en": "We know, as you said, that physical stressors, when they're short and repeated, like high intensity interval training, they are promoting not just aerobic fitness, but stress fitness.",
+   "ko": "말씀하신 대로 고강도 인터벌 트레이닝처럼 신체적 스트레스 요인이 짧고 반복적일 때, 그것이 유산소 체력뿐만 아니라 스트레스 체력도 증진시킨다는 것을 알고 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 815.0,
+   "start": 720.8,
+   "en": "People feel less rumination, less depression, less anxiety. So they're kind of tuning up the nervous system.",
+   "ko": "사람들은 반추를 덜 하게 되고, 우울감과 불안감도 줄어듭니다. 일종의 신경계 튜닝을 하는 셈이죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 726.9,
+   "en": "What about psychological stressors? We know two things.",
+   "ko": "심리적 스트레스 요인은 어떨까요? 우리는 두 가지 사실을 알고 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 730.1,
+   "en": "So one is I do think that there is a level of engagement with moderate stressors that when we are used to them, we get fit and our stress resilience builds, meaning we're less threatened by them.",
+   "ko": "하나는 적당한 스트레스 요인에 관여하는 수준이 어느 정도 있다면, 그것에 익숙해질 때 우리가 단련되고 스트레스 회복력이 쌓여 그것들로부터 덜 위협받게 된다는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 743.7,
+   "en": "Two people can approach the exact same stressor and one person is having a pretty overreactive stress response where they basically are feeling their survival is threatened.",
+   "ko": "두 사람이 똑같은 스트레스 요인에 직면해도, 한 사람은 생존이 위협받고 있다고 느낄 정도로 과잉 반응하는 스트레스 반응을 보일 수 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 755.5,
+   "en": "So it's high cortisol, high vasoconstriction, and blood pressure goes up equally in both, but the person who's feeling super threatened either their survival or their social survival of their ego...",
+   "ko": "코르티솔 수치가 높고 혈관 수축이 심해지며 혈압은 둘 다 똑같이 올라가지만, 생존이나 자아의 사회적 생존에 큰 위협을 느끼는 사람은...",
+   "speaker": "Epel"
+  },
+  {
+   "start": 768.3,
+   "en": "...their blood pressure went up because of the vasoconstriction. The other person who is viewing the same stressor as, I can do this. This is a great challenge and opportunity.",
+   "ko": "그들의 혈압은 혈관 수축 때문에 올라간 것입니다. 반면 같은 스트레스 요인을 '난 할 수 있어. 이건 훌륭한 도전이자 기회야'라고 바라보는 다른 사람은 다릅니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 777.8,
+   "en": "I have what it takes. Those types of thoughts output. So blood pressure is going up but in this healthier way, more oxygenation to the brain, better problem solving.",
+   "ko": "'나는 자격이 있어.' 이런 생각들이 나옵니다. 그래서 혈압이 오르더라도 더 건강한 방식으로 오르며, 뇌에 산소 공급이 더 잘 되고 문제 해결 능력도 좋아집니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 792.5,
+   "en": "They're able to maintain this positive outlook. So we've measured the threat challenge response in many lab studies and we know lots of things.",
+   "ko": "그들은 이러한 긍정적인 전망을 유지할 수 있습니다. 우리는 많은 실험실 연구를 통해 위협 대 도전 반응을 측정해 왔고 많은 사실을 알고 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 799.8,
+   "en": "So if you're having more of the challenge response, at the end of it, you're less inflamed.",
+   "ko": "도전 반응을 더 많이 보인다면, 결국 염증 반응이 덜 일어납니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 804.7,
+   "en": "So just in the lab within an hour or two, we see that they're, they didn't trigger all that pro-inflammatory response. And their telomeres tend to be longer...",
+   "ko": "실험실에서 한두 시간 내에 관찰해 보면, 그들은 그런 전염증성 반응을 유발하지 않았음을 알 수 있습니다. 그리고 그들의 텔로미어는 더 긴 경향이 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 813.1,
+   "en": "...which is a measure we can talk more about, but basically It looks like they have a slower speed of aging.",
+   "ko": "그것에 대해서는 나중에 더 이야기할 수 있겠지만, 기본적으로 그들은 노화 속도가 더 느린 것처럼 보입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 821.3,
+   "en": "So we could call this kind of a, to be really simplistic, two types of psychological stress response, feeling threatened, like you're gonna fail, you're embarrassed, that social pain response...",
+   "ko": "정말 단순하게 말하자면, 이것을 두 가지 유형의 심리적 스트레스 반응이라고 부를 수 있습니다. 실패할 것 같고 당황스러운 위협을 느끼는 사회적 고통 반응과...",
+   "speaker": "Epel"
+  },
+  {
+   "start": 832.6,
+   "en": "...we know well, that feels terrible, but that also that huge stress response, when we feel it in our stomach, our heart is pounding, it's just an over-exaggerated response,",
+   "ko": "우리가 잘 알고 있는 끔찍한 기분이죠. 하지만 위장에서 느껴지고 심장이 두근거리는 그 거대한 스트레스 반응은 그저 과장된 반응일 뿐입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 844.2,
+   "en": "that response biologically is different and the thoughts that go with it are different. And we recover a lot slower.",
+   "ko": "그 반응은 생물학적으로 다르며 수반되는 생각도 다릅니다. 그리고 회복도 훨씬 느립니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 851.3,
+   "en": "And then there's the challenge response, which it's more of that kind of activated, excited response.",
+   "ko": "그리고 도전 반응이 있는데, 그것은 일종의 활성화되고 흥분된 반응에 가깝습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 857.6,
+   "en": "And the beauty is that there are lots of studies out there done by emotions and social psychologists that tilt people toward the challenge response. We can actually promote that challenge response.",
+   "ko": "다행히 정서 및 사회 심리학자들이 수행한 많은 연구들이 사람들을 도전 반응 쪽으로 유도하는 법을 보여줍니다. 우리는 실제로 그 도전 반응을 촉진할 수 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 869.0,
+   "en": "And so when you asked about like, is it good to have a repeated stress response? Yes, if it's manageable, right, then we're kind of building the muscle of stress resilience.",
+   "ko": "그래서 반복적인 스트레스 반응을 갖는 것이 좋냐고 물으셨을 때, 네, 감당할 수 있는 수준이라면 맞습니다. 그러면 일종의 스트레스 회복력 근육을 키우게 되는 것이니까요.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 879.8,
+   "en": "What are the sorts of things that people I can do in order, including me, I should say, can do in order to wage that challenge response?",
+   "ko": "저를 포함해서 사람들이 그런 도전 반응을 일으키기 위해 할 수 있는 일들은 어떤 것들이 있을까요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 889.8,
+   "en": "Is this purely based on mindset? Like instead of saying, why me? Why this? Why now? I can't believe this is happening.",
+   "ko": "이것은 순전히 마음가짐에 달려 있나요? '왜 하필 나야? 왜 이런 일이? 왜 지금? 이런 일이 생기다니 믿을 수 없어'라고 말하는 대신 말이죠.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 896.9,
+   "en": "Is it a mental pivot to, okay, this is a great opportunity for growth. I don't know how I'm gonna manage this, but I'll manage this. You wanna stop me? You gotta kill me type of mindset.",
+   "ko": "'좋아, 이건 성장을 위한 좋은 기회야. 어떻게 감당할지는 모르겠지만 해낼 거야. 나를 막고 싶으면 죽여야 할걸' 같은 사고방식으로의 정신적 전환인가요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 908.0,
+   "en": "Is that the switch that then the body follows?",
+   "ko": "그것이 신체가 따라가게 되는 스위치인가요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 911.2,
+   "en": "The whole trick here is that people need to find the strength statements, the stress shields, I call them, that fit them, that feels right, and that they believe.",
+   "ko": "여기서 비결은 사람들이 자신에게 맞고 적절하게 느껴지며 스스로 믿을 수 있는 강점의 문장, 제가 '스트레스 방패'라고 부르는 것을 찾는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 921.3,
+   "en": "Be the lion instead of the gazelle. So the lion and gazelle are both, you know, high blood pressure, or high stress and the lion's chasing the gazelle.",
+   "ko": "가젤 대신 사자가 되세요. 사자와 가젤은 둘 다 혈압이 높거나 스트레스가 높은 상태에서 사자가 가젤을 쫓고 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 929.0,
+   "en": "The gazelle's having this total threat vasoconstriction response because she might die. Lion might get dinner, right?",
+   "ko": "가젤은 죽을 수도 있기 때문에 완전한 위협적 혈관 수축 반응을 보입니다. 사자는 저녁 식사를 얻을 수도 있고요, 그렇죠?",
+   "speaker": "Epel"
+  },
+  {
+   "start": 936.7,
+   "en": "So it's needing to mount the stress response because it's so excited to get the tasty dinner for the next few days. And so the lion is having that challenge response.",
+   "ko": "사자는 며칠 동안 먹을 맛있는 저녁 식사를 얻게 되어 너무 흥분했기 때문에 스트레스 반응을 일으켜야 합니다. 그래서 사자는 도전 반응을 보이는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 946.9,
+   "en": "And so we can remind ourselves, be the lion. It's not that we're always lion or gazelle. We get to shape that.",
+   "ko": "그래서 우리는 스스로에게 사자가 되라고 상기시킬 수 있습니다. 우리가 항상 사자이거나 가젤인 것은 아닙니다. 우리가 그것을 형성할 수 있죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 953.1,
+   "en": "There's all these strategies, and you gotta use what works for you. telling yourself, I got this, I can do it, I can get through it, I have what it takes. Those are all good shields.",
+   "ko": "모든 전략이 있지만, 자신에게 맞는 것을 사용해야 합니다. '난 할 수 있어, 해낼 수 있어, 이겨낼 수 있어, 난 그럴 능력이 있어'라고 스스로에게 말하는 것입니다. 이것들은 모두 좋은 방패가 됩니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 963.4,
+   "en": "And another set is, you know, we, some of us feel really stressed out by stress. Like once we get feel our heart racing, that leads to, oh no, you know, this is bad for me.",
+   "ko": "그리고 또 다른 부류는 스트레스 자체 때문에 정말 스트레스를 받는 사람들입니다. 심장이 뛰는 것을 느끼면 '오 안 돼, 이건 나한테 해로워'라고 생각하게 되죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 974.9,
+   "en": "And so rather than getting stressed by stress, we actually want to remind ourselves that this stress response is is empowering.",
+   "ko": "그래서 스트레스 때문에 스트레스를 받기보다는, 실제로 이 스트레스 반응이 힘을 실어주는 것이라고 스스로에게 상기시켜야 합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 983.1,
+   "en": "This is going to help me cope. My body is excited. My body is doing just what it should right now.",
+   "ko": "'이건 내가 대처하는 데 도움이 될 거야. 내 몸은 고조되어 있어. 내 몸은 지금 해야 할 일을 정확히 하고 있는 거야'라고요.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 990.0,
+   "en": "So that reframing in studies by Wendy Mendes and others, my colleagues who do this reappraisal research, they have basically trained people to view stress as positive.",
+   "ko": "이러한 재평가 연구를 수행하는 제 동료인 웬디 멘데스 등의 연구에서의 리프레이밍은 기본적으로 사람들에게 스트레스를 긍정적으로 보도록 훈련시켰습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1000.7,
+   "en": "During the stressful situations in the lab, people do better. They perform better.",
+   "ko": "실험실의 스트레스 상황에서 사람들은 더 잘 해냅니다. 더 나은 성과를 보여주죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1006.6,
+   "en": "They feel more positive emotion, they problem-solve better, they recover more quickly. So pretty powerful stuff.",
+   "ko": "그들은 더 긍정적인 감정을 느끼고 문제 해결을 더 잘하며 더 빨리 회복합니다. 정말 강력한 효과죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1014.2,
    "en": "I'd like to take a quick break and acknowledge our sponsor, AG1. I'm excited to share that AG1 has just launched their newest formulation, AG1 Pro.",
    "ko": "잠시 쉬어가며 스폰서인 AG1을 소개하겠습니다. AG1이 최신 포뮬러인 AG1 Pro를 출시했다는 소식을 전하게 되어 기쁩니다.",
-   "speaker": "Andrew Huberman",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 825.0,
-   "en": "AG1 Pro takes the clinically backed AG1 formula, which is a blend of vitamins, minerals, probiotics and adaptogens, and adds three important new ingredients. Creatine monohydrate, calcium HMB and zinc carnosine.",
-   "ko": "AG1 Pro는 비타민, 미네랄, 프로바이오틱스, 어댑토젠이 혼합된 임상적으로 입증된 AG1 포뮬러에 세 가지 중요한 성분을 새로 추가했습니다. 바로 크레아틴 모노하이드레이트, 칼슘 HMB, 징크 카르노신입니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1023.5,
+   "en": "AG1 Pro takes the clinically-backed AG1 formula, which is a blend of vitamins, minerals, probiotics, and adaptogens, and adds three important new ingredients...",
+   "ko": "AG1 Pro는 비타민, 미네랄, 프로바이오틱스, 어댑토젠이 혼합된 임상적으로 검증된 AG1 포뮬러에 세 가지 중요한 새로운 성분을 추가했습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 838.0,
-   "en": "Each serving has five grams of creatine monohydrate to support muscle strength and performance as well as brain health. Calcium HMB to support muscle recovery and reduce muscle breakdown and zinc carnosine to support and improve the lining of your gut.",
-   "ko": "각 서빙에는 근력과 수행 능력은 물론 뇌 건강을 지원하는 크레아틴 모노하이드레이트 5g이 들어 있습니다. 근육 회복을 돕고 근육 분해를 줄이는 칼슘 HMB와 장 내벽을 보호하고 개선하는 징크 카르노신도 포함되어 있죠.",
-   "speaker": "Andrew Huberman",
+   "start": 1032.1,
+   "en": "...creatine monohydrate, calcium, calcium, HMB, and zinc carnosine.",
+   "ko": "크레아틴 모노하이드레이트, 칼슘 HMB, 그리고 징크 카르노신입니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 854.0,
-   "en": "All three of these ingredients have compelling science to support them, and therefore I love seeing them added to the existing AG1 formula. As most of you know, I've been taking AG1 every day for nearly 14 years now. I started taking it long before I even knew what a podcast was.",
-   "ko": "이 세 가지 성분 모두 이를 뒷받침하는 강력한 과학적 근거가 있기에 기존 AG1 포뮬러에 추가된 것이 매우 반갑습니다. 아시다시피 저는 거의 14년 동안 매일 AG1을 복용해 왔습니다. 팟캐스트가 뭔지도 모르기 훨씬 전부터 복용하기 시작했죠.",
-   "speaker": "Andrew Huberman",
+   "start": 1035.7,
+   "en": "Each serving has 5 grams of creatine monohydrate to support muscle strength and performance, as well as brain health.",
+   "ko": "각 서빙에는 근력과 성능은 물론 뇌 건강을 지원하는 크레아틴 모노하이드레이트 5g이 포함되어 있습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 867.0,
-   "en": "It's a great product and it's now made even better with the new AG1 Pro formulation. If you would like to try AG1 Pro, you can go to drinkag1.com/huberman to get a special offer. AG1 is giving away a free bottle of Omega-3 CoQ10 with your first subscription.",
-   "ko": "정말 훌륭한 제품인데 새로운 AG1 Pro 포뮬러로 더욱 좋아졌습니다. AG1 Pro를 체험해보고 싶으시다면 drinkag1.com/huberman에서 특별 혜택을 받으실 수 있습니다. AG1은 첫 구독 시 오메가-3 CoQ10 한 병을 무료로 증정하고 있습니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1041.5,
+   "en": "Calcium, HMB to support muscle recovery and reduce muscle breakdown, and zinc carnosine to support and improve the lining of your gut.",
+   "ko": "칼슘 HMB는 근육 회복을 돕고 근육 분해를 줄여주며, 징크 카르노신은 장 내벽을 지원하고 개선합니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 884.0,
-   "en": "Again, go to drinkag1.com/huberman to get a free bottle of Omega-3 CoQ10 with your first AG1 subscription.",
-   "ko": "다시 한번 말씀드리지만, drinkag1.com/huberman에서 첫 AG1 구독과 함께 오메가-3 CoQ10 한 병을 무료로 받으세요.",
-   "speaker": "Andrew Huberman",
+   "start": 1048.5,
+   "en": "All three of these ingredients have compelling science to support them, and therefore I love seeing them added to the existing AG1 formula.",
+   "ko": "이 세 가지 성분 모두 이를 뒷받침하는 강력한 과학적 근거가 있으며, 따라서 기존 AG1 포뮬러에 추가된 것이 매우 반갑습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 893.0,
-   "en": "I'd love to talk a little bit about some of the other health metrics that you've explored. There's a graph in one of your papers, it's the Picard paper 2018. It essentially describes the relationship between mitochondrial health and mood in the context of people who have different type of mood tendencies.",
-   "ko": "박사님이 탐구하신 다른 건강 지표들에 대해서도 이야기해보고 싶습니다. 박사님의 논문 중 2018년 피카드(Picard) 논문에 그래프가 하나 있는데요. 기본적으로 기분 성향이 서로 다른 사람들을 대상으로 미토콘드리아 건강과 기분 사이의 관계를 설명하고 있습니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1055.4,
+   "en": "As most of you know, I've been taking AG1 every day for nearly 14 years now. I started taking it long before I even knew what a podcast was.",
+   "ko": "많은 분이 아시다시피, 저는 거의 14년 동안 매일 AG1을 복용해 왔습니다. 팟캐스트가 무엇인지 알기도 훨씬 전부터 복용하기 시작했죠.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 911.0,
-   "en": "If you would be willing to just kind of describe the top contour of that study and some of the the points that it that you find most interesting.",
-   "ko": "그 연구의 전반적인 개요와 박사님이 가장 흥미롭다고 생각하시는 몇 가지 포인트들을 설명해 주실 수 있을까요?",
-   "speaker": "Andrew Huberman"
+   "start": 1062.3,
+   "en": "It's a great product and it's now made even better with the new AG1 Pro formula.",
+   "ko": "훌륭한 제품이며 이제 새로운 AG1 Pro 포뮬러로 더욱 좋아졌습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 919.0,
-   "en": "Yeah, we've done these in-depth studies where we are looking at people under a lot of daily demand, caregivers, and then we look under look at, you know, normal people, parents of neurotypical children who still have a lot of stress.",
-   "ko": "네, 저희는 일상적인 요구 사항이 많은 간병인들과, 여전히 스트레스는 많지만 일반적인 발달을 하는 아이들을 둔 평범한 부모들을 관찰하는 심층 연구를 진행했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1067.2,
+   "en": "If you would like to try AG1 Pro, you can go to drinkagone.com slash Huberman to get a special offer.",
+   "ko": "AG1 Pro를 체험해 보고 싶으시다면 drinkagone.com/Huberman에서 특별 혜택을 받으실 수 있습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 933.0,
-   "en": "But we then ask, you know, do people under chronic stress have accelerated aging? So we look at telomeres, epigenetics, mitochondrial health. And then what explains those who look really good, who look resilient and don't look vulnerable?",
-   "ko": "그런 다음 만성 스트레스를 받는 사람들이 노화가 가속화되는지 질문합니다. 그래서 텔로미어, 후성유전학, 미토콘드리아 건강을 살펴보죠. 그리고 어떤 요인이 회복력이 있고 취약해 보이지 않는, 아주 건강해 보이는 사람들을 설명해 주는지 연구합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1074.0,
+   "en": "AG1 is giving away a free bottle of Omega-3 Coenzyme Q10 with your first subscription.",
+   "ko": "AG1은 첫 구독 시 오메가-3 코엔자임 Q10 한 병을 무료로 증정하고 있습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 952.0,
-   "en": "And so then we can find out like what's the magic sauce in the day that protects them from chronic stress. So Martin Picard, my colleague who has been obsessed with mitochondrial health as a pathway to understanding both stress and really health and disease. He has developed a way to measure mitochondrial health in humans.",
-   "ko": "그러면 만성 스트레스로부터 그들을 보호하는 일상의 '마법 소스'가 무엇인지 찾아낼 수 있습니다. 스트레스와 건강, 질병을 이해하는 통로로서 미토콘드리아 건강에 천착해 온 제 동료 마틴 피카드는 인간의 미토콘드리아 건강을 측정하는 방법을 개발했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1079.1,
+   "en": "Again, go to drinkagone.com slash Huberman to get a free bottle of Omega-3 Coenzyme Q10 with your first AG1 subscription.",
+   "ko": "다시 한번 말씀드리면, drinkagone.com/Huberman으로 가서 첫 AG1 구독과 함께 오메가-3 코엔자임 Q10 한 병을 무료로 받으세요.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 975.0,
-   "en": "So we can measure a bunch of enzymes and then we can adjust it for how many mitochondria we have. So we have this really nice index we can get from the blood. And in this study of young mothers who were who had either typical children or children with autism, we found that the caregiving moms had significantly lower dampened mitochondrial activity.",
-   "ko": "여러 효소를 측정한 다음 미토콘드리아 수에 맞춰 조정할 수 있습니다. 혈액에서 얻을 수 있는 아주 좋은 지표가 생기는 거죠. 일반 아동이나 자폐 아동을 둔 젊은 어머니들을 대상으로 한 이 연구에서, 간병하는 어머니들의 미토콘드리아 활동이 현저히 낮고 둔화되어 있음을 발견했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1087.4,
+   "en": "I'd love to talk a little bit about some of the other health metrics that you've explored. There's a graph in one of your papers. It's the Picard paper 2018.",
+   "ko": "박사님이 탐구하신 다른 건강 지표들에 대해 조금 이야기해 보고 싶습니다. 박사님의 논문 중 하나에 그래프가 하나 있는데요, 2018년 피카드 논문입니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 999.0,
-   "en": "What that means is they can't produce as much energy. So if they're feeling more exhausted from the chronic stress, we know why. It was quite dramatic and Martin commented some of those low levels even looked like people with some genetic reasons to have low mitochondrial activity.",
-   "ko": "그것은 그들이 그만큼의 에너지를 생산할 수 없다는 뜻입니다. 만성 스트레스로 인해 더 지친다면 그 이유를 알 수 있는 거죠. 그 수치는 꽤 극적이었는데, 마틴은 그 낮은 수치 중 일부는 유전적 원인으로 미토콘드리아 활동이 낮은 사람들처럼 보일 정도라고 언급했습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1095.2,
+   "en": "It essentially describes the relationship between mitochondrial health and mood in the context of people who have different type of mood tendencies.",
+   "ko": "본질적으로 그것은 기분 성향이 다른 사람들의 맥락에서 미토콘드리아 건강과 기분 사이의 관계를 설명합니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1020.0,
-   "en": "But here's the beauty of that study. We then get to look within their day at their mood and ask well what about the caregivers who have really great mitochondrial enzymes and and thus should be making a lot of ATP? They had more positive emotions both waking up and in the evening, but especially in the evening.",
-   "ko": "하지만 이 연구의 묘미는 따로 있습니다. 그들의 하루 기분을 살펴보고, 미토콘드리아 효소 수치가 아주 높아서 많은 ATP를 만들어내야 하는 간병인들은 어떤지 질문했습니다. 그들은 기상할 때와 저녁, 특히 저녁에 더 긍정적인 감정을 느꼈습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1103.9,
+   "en": "If you would be so kind as to just kind of describe the top contour of that study and some of the points that you find most interesting.",
+   "ko": "괜찮으시다면 그 연구의 주요 개요와 박사님이 가장 흥미롭다고 생각하시는 몇 가지 점을 설명해 주실 수 있을까요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 1044.0,
-   "en": "And what's so interesting in that is all of these daily diary studies of stress and mood. One of the things we know that matters for long term health is how positive you feel at night. So especially on a stressful day. So at the end of a stressful day can you muster some feelings of content, ease, confidence, joy?",
-   "ko": "스트레스와 기분에 관한 모든 일일 일기 연구에서 흥미로운 점은 장기적인 건강에 중요한 요소 중 하나가 밤에 얼마나 긍정적인 기분을 느끼느냐는 것입니다. 특히 스트레스가 많은 날에요. 스트레스 가득한 하루 끝에 만족감, 평온함, 자신감, 기쁨 같은 감정을 끌어낼 수 있나요?",
-   "speaker": "Elissa Epel"
+   "start": 1110.8,
+   "en": "Yeah, we've done these in depth studies where we are looking at people under a lot of daily demand caregivers.",
+   "ko": "네, 저희는 일상적인 요구가 많은 사람들인 간병인들을 대상으로 심층 연구를 진행했습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1068.0,
-   "en": "Do you have any of that? Or has it just wiped out your positivity? And so for people who feel either lower negative or higher positive, they tend to have better health trajectories. So like a decade later less depression, less heart disease, less early death.",
-   "ko": "그런 감정이 조금이라도 남아 있나요? 아니면 긍정적인 마음이 완전히 바닥났나요? 부정적인 감정을 덜 느끼거나 긍정적인 감정을 더 많이 느끼는 사람들은 건강 궤적이 더 좋은 경향이 있습니다. 10년 후에도 우울증, 심장병, 조기 사망률이 낮았죠.",
-   "speaker": "Elissa Epel"
+   "start": 1117.1,
+   "en": "caregivers and then we look at normal people, parents of neurotypical children who still have a lot of stress.",
+   "ko": "간병인들과 대조적으로 여전히 스트레스가 많지만 신경 전형적인 아이를 둔 부모들을 살펴보았습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1090.0,
-   "en": "So that's why we care so much about daily mood. In our study it looked like the daily mood was really quite correlated with the mitochondrial levels that same day. And then we measured mood like, you know, days away from that and it was much less correlated.",
-   "ko": "그렇기 때문에 저희는 일상의 기분을 매우 중요하게 생각합니다. 저희 연구에서는 당일의 기분이 그날의 미토콘드리아 수치와 상당히 밀접한 상관관계가 있는 것으로 나타났습니다. 며칠이 지난 후의 기분을 측정했을 때는 상관관계가 훨씬 낮았고요.",
-   "speaker": "Elissa Epel"
+   "start": 1123.6,
+   "en": "But we then ask, do people under chronic stress have accelerated aging? We look at telomeres, epigenetics, mitochondrial health.",
+   "ko": "그다음에 만성 스트레스를 받는 사람들이 가속화된 노화를 겪는지 질문을 던집니다. 텔로미어, 후성유전학, 미토콘드리아 건강을 살펴봅니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1104.0,
-   "en": "It's just our first study on this, but it really leads us to think that our mitochondria are sensitive to our thoughts and our feelings probably on a daily basis.",
-   "ko": "이에 대한 첫 번째 연구일 뿐이지만, 우리의 미토콘드리아가 아마도 매일매일 우리의 생각과 감정에 민감하게 반응한다는 생각을 갖게 합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1130.6,
+   "en": "And then what explains those who look really good, who look resilient and don't look vulnerable? And so then we can find out what's the magic sauce in the day that protects them from chronic stress.",
+   "ko": "그렇다면 정말 좋아 보이고, 회복력이 있어 보이며, 취약해 보이지 않는 사람들은 어떻게 설명할 수 있을까요? 그래서 그들을 만성 스트레스로부터 보호하는 일상의 '마법의 소스'가 무엇인지 찾아낼 수 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1118.0,
-   "en": "So for those of us that find ourselves in a in a state of chronic stress. Chronic stress of the sort that really the stressor, the fact that a very close relative or family member is dealing with a lifelong condition, or the fact that um we can't extract ourselves from a situation.",
-   "ko": "만성 스트레스 상태에 놓인 사람들의 경우를 봅시다. 가까운 친척이나 가족이 평생 지속되는 질환을 앓고 있거나, 어떤 상황에서 벗어날 수 없는 사실 자체가 스트레스 요인이 되는 그런 종류의 만성 스트레스 말입니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1141.2,
+   "en": "So Martin Picard, my colleague who has been obsessed with mitochondrial health as a pathway to understanding both stress and really health and disease.",
+   "ko": "제 동료인 마틴 피카드는 스트레스와 건강, 질병을 이해하는 경로로서 미토콘드리아 건강에 집착해 왔습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1141.0,
-   "en": "That we are not in full agency to remove the stressor. Radical acceptance of that fact then can ratchet into an understanding of okay and yet there are tools that we can use to not just offset the negative health effects but maybe even thrive in the context of this. Essentially turning what initially was thought of as a curse into a blessing, at least biologically speaking.",
-   "ko": "스트레스 요인을 제거할 수 있는 전권이 우리에게 없을 때 말이죠. 그 사실을 철저히 수용하면 부정적인 건강 영향을 상쇄할 뿐만 아니라 이 상황에서 번영할 수도 있는 도구가 있다는 이해로 나아갈 수 있습니다. 적어도 생물학적으로는 처음에 저주라고 생각했던 것을 축복으로 바꾸는 셈이죠.",
-   "speaker": "Andrew Huberman"
+   "start": 1153.4,
+   "en": "He has developed a way to measure mitochondrial health in humans. So we can measure a bunch of enzymes and then we can adjust it for how many mitochondria we have.",
+   "ko": "그는 인간의 미토콘드리아 건강을 측정하는 방법을 개발했습니다. 그래서 우리는 여러 효소를 측정하고 우리가 가진 미토콘드리아 수에 맞게 조정할 수 있습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1163.0,
+   "start": 1162.5,
+   "en": "So we have this really nice index we can get from the blood. and in this study of young mothers who were, who had either typical children or children with autism,",
+   "ko": "그래서 혈액에서 얻을 수 있는 아주 훌륭한 지표가 있습니다. 일반적인 아이나 자폐증 아이를 둔 젊은 어머니들을 대상으로 한 이 연구에서,",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1173.1,
+   "en": "we found that the caregiving moms had significantly lower dampened mitochondrial activity.",
+   "ko": "간병을 하는 어머니들이 미토콘드리아 활동이 현저하게 낮아져 있다는 것을 발견했습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1182.8,
+   "en": "What that means is they can't produce as much energy, so if they're feeling more exhausted from the chronic stress, we know It was quite dramatic.",
+   "ko": "그것이 의미하는 바는 그들이 에너지를 그만큼 생산할 수 없다는 것입니다. 만성 스트레스로 인해 더 지쳐 있다고 느낀다면 그 차이는 꽤 드라마틱했습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1193.2,
+   "en": "Martin commented some of those low levels even looked like people with some genetic reasons to have low mitochondrial activity. But here's the beauty of that study.",
+   "ko": "마틴은 그러한 낮은 수치 중 일부는 유전적인 이유로 미토콘드리아 활동이 낮은 사람들처럼 보이기까지 한다고 언급했습니다. 하지만 이 연구의 묘미는 따로 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1202.7,
+   "en": "We then get to look within their day at their mood and ask, well, what about the caregivers who have really great mitochondrial enzymes and thus should be making a lot of ATP?",
+   "ko": "그런 다음 우리는 그들의 하루 중 기분을 살펴보고, 미토콘드리아 효소가 아주 훌륭해서 ATP를 많이 만들어낼 간병인들은 어떠한지 질문합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1216.0,
+   "en": "They had more positive emotions, both waking up and in the evening, but especially in the evening.",
+   "ko": "그들은 일어날 때와 저녁 모두 긍정적인 감정을 더 많이 느꼈지만, 특히 저녁에 그러했습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1222.2,
+   "en": "And what's so interesting that is all of these daily diary studies of stress and mood, one of the things we know that matters for long-term health is how positive you feel at night.",
+   "ko": "스트레스와 기분에 관한 이 모든 일일 일기 연구에서 정말 흥미로운 점은 장기적인 건강에 중요한 것 중 하나가 밤에 얼마나 긍정적으로 느끼느냐 하는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1234.9,
+   "en": "So especially in a stressful day. So at the end of a stressful day, can you muster some feelings of content, ease, confidence, joy?",
+   "ko": "특히 스트레스가 많은 날에요. 스트레스가 많은 하루 끝에 만족감, 편안함, 자신감, 기쁨 같은 감정을 끌어낼 수 있나요?",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1244.0,
+   "en": "Do you have any of that? Or has it just wiped out your positivity? And so for people who feel either lower negative or higher positive, they tend to have better health trajectories.",
+   "ko": "그런 감정이 조금이라도 남아 있나요? 아니면 긍정성이 완전히 사라져 버렸나요? 부정적인 감정이 적거나 긍정적인 감정이 높은 사람들은 더 나은 건강 궤적을 보이는 경향이 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1256.0,
+   "en": "So like a decade later, less depression, less heart disease, less early death. So that's why we care so much about daily moods.",
+   "ko": "즉 10년 후에 우울증이 덜하고 심장병이 적으며 조기 사망률이 낮습니다. 그것이 우리가 일상적인 기분에 그토록 신경을 쓰는 이유입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1262.4,
+   "en": "In our study, it looks like the daily mood was really quite correlated with the mitochondrial levels that same day.",
+   "ko": "저희 연구에서 일일 기분은 그날의 미토콘드리아 수치와 정말 상당히 연관되어 있는 것으로 나타났습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1269.8,
+   "en": "And we measured mood like, you know, days away from that, it was much less correlated.",
+   "ko": "그리고 그날로부터 며칠이 지난 후의 기분을 측정했을 때는 상관관계가 훨씬 낮았습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1273.5,
+   "en": "It's just our first study on this, but it really leads us to think that our mitochondria are sensitive to our thoughts and our feelings, probably on a daily basis.",
+   "ko": "이것은 이에 관한 저희의 첫 번째 연구일 뿐이지만, 우리 미토콘드리아가 아마도 매일매일 우리의 생각과 감정에 민감하게 반응한다는 생각을 하게 만듭니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1284.6,
+   "en": "So for those of us that find ourselves in a state of chronic stress, chronic stress of the sort that really the stress or the fact that a very close relative or family member is dealing with a lifelong condition...",
+   "ko": "따라서 만성 스트레스 상태에 처한 사람들, 즉 가까운 친척이나 가족이 평생 지속되는 질환을 앓고 있는 것과 같은 스트레스 요인이나 사실 때문에...",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1301.1,
+   "en": "...or the fact that we can't extract ourselves from a situation that we are not in full agency to remove the stress or radical acceptance of that fact,",
+   "ko": "또는 스트레스를 제거할 완전한 능력이 없어 그 상황에서 벗어날 수 없다는 사실이나 그 사실에 대한 근본적인 수용에 대해,",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1312.4,
+   "en": "then can ratchet into an understanding of, okay, and yet there are tools that we can use to not just offset the negative health effects, but maybe even thrive in the context of this,",
+   "ko": "그렇다면 이제 이해의 단계를 높여서, 부정적인 건강 영향을 상쇄할 뿐만 아니라 이런 상황에서도 오히려 번성할 수 있도록 우리가 사용할 수 있는 도구들이 있다는 것을 알 수 있습니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1323.0,
+   "en": "essentially turning what initially was thought of as a curse into a blessing, at least biologically speaking.",
+   "ko": "본질적으로 적어도 생물학적으로 말하자면, 처음에 저주라고 생각했던 것을 축복으로 바꾸는 것입니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1328.3,
    "en": "What do we know about best practices for mitigating these essentially non-negotiable stressors?",
-   "ko": "본질적으로 피할 수 없는 이러한 스트레스 요인을 완화하기 위한 최선의 방법은 무엇일까요?",
-   "speaker": "Andrew Huberman"
+   "ko": "이러한 본질적으로 타협 불가능한 스트레스 요인들을 완화하기 위한 최선의 방법으로 무엇이 알려져 있나요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 1173.0,
-   "en": "I think it is partly how we view life and our our purpose in our own life. What's this game that, you know, we were born into? And even just the idea that bad things shouldn't happen sets us up for vulnerability to feel victimized to feel like we can't accept bad things that have happened.",
-   "ko": "부분적으로는 우리가 삶을 어떻게 바라보는지, 그리고 우리 삶의 목적이 무엇인지에 달려 있다고 생각합니다. 우리가 태어난 이 삶이라는 게임은 무엇일까요? '나쁜 일은 일어나서는 안 된다'는 생각조차 우리를 취약하게 만들어, 피해자가 된 기분을 느끼게 하고 일어난 나쁜 일을 받아들이지 못하게 합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1334.7,
+   "en": "I think it is partly how we view life and our purpose in our own life. What's this game that we were born into?",
+   "ko": "저는 그것이 부분적으로는 우리가 삶을 어떻게 바라보고 우리 삶의 목적을 무엇으로 보느냐에 달려 있다고 생각합니다. 우리가 태어난 이 게임은 무엇일까요?",
+   "speaker": "Epel"
   },
   {
-   "start": 1200.0,
-   "en": "So just stepping back and asking everyone listening, do you have a situation in your life that is unwanted and you can't change? How much time do you spend thinking about this? The more we spend time trying to problem solve or worry or just wishing things were different, the more we are creating a chronic stress state.",
-   "ko": "잠시 물러나서 청취자 여러분께 묻고 싶습니다. 여러분의 삶에 원치 않지만 바꿀 수 없는 상황이 있나요? 그것에 대해 생각하는 데 얼마나 많은 시간을 보내시나요? 문제를 해결하려고 애쓰거나 걱정하거나 그저 상황이 다르기를 바라는 데 시간을 보낼수록 우리는 만성 스트레스 상태를 만들게 됩니다.",
-   "speaker": "Elissa Epel"
+   "start": 1345.0,
+   "en": "Even just the idea that bad things shouldn't happen sets us up for vulnerability to feel victimized, to feel like we can't accept bad things that have happened.",
+   "ko": "나쁜 일은 일어나서는 안 된다는 생각조차 우리가 피해 의식을 느끼고, 일어난 나쁜 일을 받아들일 수 없다고 느끼게 하는 취약성을 만듭니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1225.0,
-   "en": "And so just 심지어 even just taking that first kind of step back to get perspective on what are the situations in my life that stress me out? And and which of these can I circle those that I can't change? Just that recognition of this isn't going to go away is incredibly powerful because we can as I say put the baggage down.",
-   "ko": "그래서 한 걸음 물러나 내 삶에서 나를 스트레스받게 하는 상황이 무엇인지 파악하는 것이 우선입니다. 그중에서 내가 바꿀 수 없는 것에 동그라미를 쳐보세요. 이것이 사라지지 않을 것이라는 사실을 인식하는 것만으로도 엄청난 힘이 됩니다. 제가 말하는 것처럼 '짐을 내려놓을' 수 있기 때문입니다.",
-   "speaker": "Elissa Epel"
+   "start": 1354.8,
+   "en": "So just stepping back and asking everyone, listening, do you have a situation in your life that is unwanted and you can't change? How much time do you spend thinking about this?",
+   "ko": "그러니 잠시 물러나서 듣고 계신 모든 분께 여쭤보고 싶습니다. 여러분의 삶에 원하지 않지만 바꿀 수 없는 상황이 있나요? 그것에 대해 생각하는 데 얼마나 많은 시간을 쓰시나요?",
+   "speaker": "Epel"
   },
   {
-   "start": 1249.0,
-   "en": "And give ourselves some relief and some freedom from the big space it holds in our mind and in our body. And this is not a one-time thing, it's a practice. Radical acceptance is something we practice over and over to help us loosen our grip on unwanted situations, on letting them control our well-being and taking up, you know, this mental real estate that's so precious. Our attention.",
-   "ko": "그리고 그것이 우리 마음과 몸에서 차지하는 거대한 공간으로부터 안도감과 자유를 얻을 수 있습니다. 이것은 한 번으로 끝나는 것이 아니라 연습입니다. 철저한 수용은 원치 않는 상황에 대한 집착을 늦추고, 그것이 우리의 웰빙을 통제하게 두지 않으며, 우리의 소중한 정신적 자산인 주의력을 앗아가지 않도록 반복해서 연습하는 것입니다.",
-   "speaker": "Elissa Epel"
+   "start": 1370.3,
+   "en": "The more we spend time trying to problem solve or worry or just wishing things were different, the more we are creating a chronic stress state.",
+   "ko": "문제를 해결하려고 하거나 걱정하거나 그저 상황이 다르기를 바라는 데 시간을 더 많이 보낼수록, 우리는 만성 스트레스 상태를 더 많이 만들게 됩니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1274.0,
-   "en": "I'm an expert at this because I have I'm a caregiver and I often need to refocus from wishing things were different trying to solve things to radical acceptance of this is how things are right now. And by just reminding ourselves that there is freedom within that that there are things that you can do you can actually live better, live well with these situations.",
-   "ko": "제가 이 분야의 전문가인 이유는 저 역시 간병인이기 때문입니다. 상황이 다르기를 바라고 해결하려고 애쓰는 대신, '지금은 상황이 이렇다'는 철저한 수용으로 초점을 다시 맞춰야 할 때가 많습니다. 그 안에 자유가 있다는 것, 할 수 있는 일이 있다는 것을 스스로에게 상기시킴으로써 이런 상황 속에서도 실제로 더 잘 살고 건강하게 살 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1382.9,
+   "en": "And so just even taking that first kind of step back to get perspective on what are the situations in my life that stress me out?",
+   "ko": "그래서 내 삶에서 나를 스트레스 받게 하는 상황들이 무엇인지 관점을 갖기 위해 첫 발을 뒤로 내딛는 것만으로도 도움이 됩니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1304.0,
-   "en": "So let me tell you what we found from our caregivers. We measure where their mind is at night. We ping them and we say in the last five minutes how much have you been wishing things were different? How much have you been engaged in focused in what you're doing right right before we pinged you? And just those two questions tell us so much about that person's wellbeing.",
-   "ko": "저희 간병인들에게서 발견한 것을 말씀드릴게요. 저희는 밤에 그들의 마음이 어디에 있는지 측정합니다. 메시지를 보내서 지난 5분 동안 상황이 다르기를 얼마나 바랐는지, 메시지를 받기 직전에 하던 일에 얼마나 몰입하고 집중했는지 묻습니다. 이 두 가지 질문만으로도 그 사람의 웰빙에 대해 많은 것을 알 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1393.3,
+   "en": "And which of these can I circle those that I can't change? Just that recognition of this isn't going away is incredibly powerful...",
+   "ko": "그리고 이 중에서 내가 바꿀 수 없는 것들에 동그라미를 쳐볼 수 있을까요? 이것이 사라지지 않을 것이라는 인식만으로도 엄청난 힘이 됩니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1329.0,
-   "en": "And actually yes the caregivers are doing more of what I'll call suffering, wishing things were different, not being present for their lives, but regardless of that difference whether people are a caregiver or not, this negative mind wandering state of not being present for your evening wishing things were different instead of being engaged predicts more unhappiness. It predicts shorter telomeres.",
-   "ko": "실제로 간병인들은 상황이 다르기를 바라고 삶에 온전히 집중하지 못하는 이른바 '고통'을 더 많이 겪고 있었습니다. 하지만 간병인 여부와 상관없이, 저녁 시간에 몰입하는 대신 상황이 다르기를 바라며 현재에 집중하지 못하는 부정적인 잡념 상태는 더 큰 불행을 예고합니다. 또한 더 짧은 텔로미어를 예측하죠.",
-   "speaker": "Elissa Epel"
+   "start": 1404.4,
+   "en": "...because we can, as I say, put the baggage down and give ourselves some relief and some freedom from the big space it holds in our mind and in our body.",
+   "ko": "왜냐하면 제가 말했듯이 짐을 내려놓고, 그것이 우리 마음과 몸에서 차지하고 있는 큰 공간으로부터 안도감과 자유를 얻을 수 있기 때문입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1353.0,
-   "en": "So it it suggests that it's a pattern that has gone on for days months and years that has been wearing on them. And so some of the metaphors that I think are helpful for this are think of this unwanted situation and think of how you're you're pulling a rope that's attached to a brick wall. And you're doing that because you care.",
-   "ko": "이는 수일, 수개월, 수년 동안 지속되어 온 패턴이 그들을 마모시켜 왔음을 시사합니다. 이를 설명하는 데 도움이 되는 은퇴 중 하나는, 이 원치 않는 상황을 벽돌 벽에 연결된 밧줄을 당기고 있는 상태라고 생각하는 것입니다. 여러분이 그 밧줄을 당기는 이유는 그 상황을 걱정하기 때문이죠.",
-   "speaker": "Elissa Epel"
+   "start": 1416.8,
+   "en": "And this is not a one-time thing, it's a practice. Radical acceptance is something we practice over and over to help us loosen our grip on unwanted situations,",
+   "ko": "그리고 이것은 일회성이 아니라 연습입니다. 근본적 수용은 원치 않는 상황에 대한 집착을 늦추고,",
+   "speaker": "Epel"
   },
   {
-   "start": 1376.0,
-   "en": "You want things to be better for yourself or this person or a group. I mean it's it's something you're passionate about and so you're pulling and pulling and every day you're pulling and and you can't move that brick wall so the only thing that's happening is that you're chafing your hands. What if you just drop the rope?",
-   "ko": "자신이나 상대방, 혹은 집단을 위해 상황이 나아지기를 바라는 것입니다. 열정을 쏟고 있는 일이기 때문에 매일같이 당기고 또 당깁니다. 하지만 그 벽돌 벽은 움직이지 않죠. 결국 일어나는 유일한 일은 손이 까이는 것뿐입니다. 만약 그냥 그 밧줄을 놓아버린다면 어떨까요?",
-   "speaker": "Elissa Epel"
+   "start": 1427.4,
+   "en": "on letting them control our well-being and taking up this mental real estate that's so precious, our attention.",
+   "ko": "그것들이 우리의 안녕을 통제하고 우리의 소중한 주의력이라는 정신적 자산을 차지하지 않도록 우리가 반복해서 연습하는 것입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1402.0,
-   "en": "I say that to myself, drop the rope. When I start get, you know, getting going on trying to solve unsolvable problems. The brick wall is still there, it's never going to move, yet my hands are free. And so I can be freed up to live in the ways that I do have control over.",
-   "ko": "저는 스스로에게 말합니다. '밧줄을 놓아라.' 해결할 수 없는 문제를 해결하려고 애쓰기 시작할 때 말이죠. 벽돌 벽은 여전히 그 자리에 있고 절대 움직이지 않겠지만, 제 손은 자유로워집니다. 그러면 제가 통제할 수 있는 방식으로 살아갈 수 있는 자유를 얻게 됩니다.",
-   "speaker": "Elissa Epel"
+   "start": 1435.4,
+   "en": "I'm an expert at this because I have, I'm a caregiver and I often need to refocus from Wishing things were different trying to solve things to radical acceptance of this is how things are right now",
+   "ko": "저 역시 간병인이기 때문에 이 분야의 전문가입니다. 저는 종종 상황이 다르기를 바라며 해결하려고 애쓰는 것에서 벗어나, 지금 이대로의 상황을 근본적으로 수용하는 것으로 초점을 다시 맞춰야 합니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1421.0,
-   "en": "As you described the this pulling on a brick wall I find it a very compelling image um and one that uh makes total sense to try and drop the rope as you describe it because of the incredibly high energetic demand that pulling on that rope represents.",
-   "ko": "벽돌 벽을 당기는 비유를 들으니 정말 공감이 갑니다. 그 밧줄을 당기는 데 드는 엄청난 에너지 소모를 생각할 때 말씀하신 대로 밧줄을 놓으려고 노력하는 것이 전적으로 타당해 보입니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1452.0,
+   "en": "and by just Reminding ourselves that there is freedom within that that there are things that you can do you can actually live better, live well with these situations.",
+   "ko": "그 안에도 자유가 있다는 것, 여러분이 할 수 있는 일들이 있다는 것, 실제로 이런 상황에서도 더 잘 살 수 있고 잘 지낼 수 있다는 것을 스스로에게 상기시키는 것만으로도 가능합니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1435.0,
-   "en": "As you said it's sort of a way of diverting resources toward 무언가 something that has no conclusion. Right? And in dropping the rope you can divert those resources toward other things.",
-   "ko": "말씀하신 대로 그것은 결말이 없는 무언가에 자원을 쏟아붓는 방식입니다. 그렇죠? 밧줄을 놓음으로써 그 자원을 다른 곳으로 돌릴 수 있게 됩니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1465.6,
+   "en": "So let me tell you what we found from our caregivers. We measure where their mind is at night.",
+   "ko": "저희가 간병인들로부터 발견한 사실을 말씀드리겠습니다. 저희는 밤에 그들의 마음이 어디에 있는지 측정합니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1448.0,
-   "en": "We really really really love control. And we want to control the future not just because it makes us feel powerful and happy, but because then we can relax. If we know what's going to happen next, if it's predictable, we're that much happier. We're not vigilant and looking ahead and being prepared for what might happen.",
-   "ko": "우리는 정말 통제하는 것을 좋아합니다. 미래를 통제하고 싶은 이유는 단순히 힘이 있고 행복하다고 느끼기 위해서만이 아니라, 그래야 안심할 수 있기 때문입니다. 다음에 무슨 일이 일어날지 안다면, 즉 예측 가능하다면 우리는 훨씬 더 행복해집니다. 앞날을 경계하며 무슨 일이 일어날지 대비하느라 전전긍긍하지 않아도 되니까요.",
-   "speaker": "Elissa Epel"
+   "start": 1470.3,
+   "en": "We ping them and we say in the last five minutes, how much have you been wishing things were different?",
+   "ko": "저희는 그들에게 신호를 보내 지난 5분 동안 상황이 다르기를 얼마나 바랐는지 묻습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1472.0,
-   "en": "Being comfortable with uncertainty is a beautiful but rare resilience factor. People who tolerate uncertainty have much less anxiety and depression and when stressful things happen they get over it more quickly.",
-   "ko": "불확실함을 편안하게 받아들이는 것은 아름답지만 보기 드문 회복 탄력성 요인입니다. 불확실성을 견뎌내는 사람들은 불안과 우울을 훨씬 덜 느끼며, 스트레스 상황이 닥쳤을 때 더 빨리 극복합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1475.8,
+   "en": "How much have you been engaged and focused in what you're doing right before we ping you?",
+   "ko": "저희가 신호를 보내기 직전에 하고 있던 일에 얼마나 몰입하고 집중했는지도 묻습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1489.0,
-   "en": "And I think there are practices we can do that help us feel ease with the uncertain future. Some of these mindful check-ins, noticing that we are carrying around uncertainty stress is one way. And then reframing uncertainty as the beauty of the mystery of life and the freedom that we can feel when we realize we don't control tomorrow.",
-   "ko": "불확실한 미래를 편안하게 느끼도록 돕는 연습들이 있다고 생각합니다. 마음 챙김 체크인을 통해 불확실성 스트레스를 짊어지고 있다는 것을 알아차리는 것이 한 가지 방법입니다. 그런 다음 불확실성을 인생의 신비가 주는 아름다움으로, 그리고 내일을 통제할 수 없다는 것을 깨달았을 때 느낄 수 있는 자유로 재정의하는 것입니다.",
-   "speaker": "Elissa Epel"
+   "start": 1481.9,
+   "en": "And just those two questions tell us so much about that person's wellbeing. And actually, yes, the caregivers are doing more of what I'll call suffering, wishing things were different, not being present for their lives.",
+   "ko": "그 두 가지 질문만으로도 그 사람의 안녕에 대해 많은 것을 알 수 있습니다. 실제로 간병인들은 상황이 다르기를 바라고 자신의 삶에 온전히 집중하지 못하는, 제가 '고통'이라 부르는 행위를 더 많이 하고 있었습니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1512.0,
-   "en": "We just go with it and we do our best and what delight there is in just viewing things with curiosity and just seeing what emerges. So even just our posture well here's an exercise for dealing with uncertainty.",
-   "ko": "그저 흐름에 몸을 맡기고 최선을 다하며, 호기심을 갖고 어떤 일이 벌어질지 지켜보는 것에서 즐거움을 찾는 거죠. 불확실성에 대처하는 자세를 위한 한 가지 연습이 여기 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1497.9,
+   "en": "But regardless of that difference, whether people are a caregiver or not, this negative mind-wandering state of not being present for your evening, wishing things were different instead of being engaged, predicts more unhappiness.",
+   "ko": "하지만 그러한 차이와 상관없이, 간병인이든 아니든 저녁 시간에 현재에 집중하지 못하고 몰입하는 대신 상황이 다르기를 바라는 부정적인 잡념 상태는 더 큰 불행을 예고합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1514.8,
+   "en": "It predicts shorter telomeres. So it suggests that it's a pattern that has gone on for days, months, and years that has been wearing on them.",
+   "ko": "그것은 더 짧은 텔로미어를 예고합니다. 즉, 며칠, 몇 달, 몇 년 동안 지속되어 온 패턴이 그들을 지치게 하고 있음을 암시합니다.",
+   "speaker": "Epel"
   },
   {
    "start": 1528.0,
-   "en": "Instead of like kind of that alert posture when we're like trying to take it all in and predict the next second and like just lean back. And take some slow breaths, we know that's going to help orient us. And realize that we can actually face time in that way by letting it come to us and receiving what happens.",
-   "ko": "모든 것을 파악하고 다음 순간을 예측하려는 기민한 자세 대신, 그냥 뒤로 기대보세요. 천천히 숨을 들이마시면 평온을 찾는 데 도움이 됩니다. 시간이 우리에게 다가오게 하고 일어나는 일을 받아들임으로써 그런 방식으로 시간을 마주할 수 있다는 것을 깨달으세요.",
-   "speaker": "Elissa Epel"
+   "en": "And some of the metaphors that I think are helpful for this are think of this unwanted situation and think of how you're pulling a rope that's attached to a brick wall.",
+   "ko": "이에 도움이 될 만한 은유 중 하나는, 이 원치 않는 상황을 벽돌 담장에 묶인 밧줄을 잡아당기고 있는 모습으로 생각해보는 것입니다.",
+   "speaker": "Epel"
   },
   {
-   "start": 1552.0,
-   "en": "And that's a completely different body stance than our usual go mode during the day. And that's just a way of saying I am in a in a receptive mode and I'm going to just be curious about what arises.",
-   "ko": "그것은 우리가 낮 동안 유지하는 평소의 활동 모드와는 완전히 다른 신체 자세입니다. 그것은 '나는 수용적인 상태에 있으며, 어떤 일이 일어나는지 호기심을 갖고 지켜보겠다'고 말하는 방식입니다.",
-   "speaker": "Elissa Epel"
+   "start": 1538.7,
+   "en": "And you're doing that because you care. You want things to be better for yourself or this person or a group.",
+   "ko": "당신은 관심이 있기 때문에 그렇게 하는 것입니다. 당신 자신이나 그 사람, 혹은 집단을 위해 상황이 나아지기를 원하니까요.",
+   "speaker": "Epel"
   },
   {
-   "start": 1567.0,
-   "en": "And so I actually learned that on a meditation retreat because I tend to be type A and I'll leave a retreat going from like very relaxed to like that leaning forward tense of like where's the to do list. And so carrying with me that posture of like let time unfold as it will without trying to control things.",
-   "ko": "사실 저는 명상 수련회에서 그것을 배웠습니다. 제가 성취욕이 강한 타입이라 수련회를 마칠 때쯤이면 아주 편안한 상태에서 '할 일 목록이 어디 있지?' 하며 몸을 앞으로 숙인 긴장 상태로 돌아가곤 했거든요. 그래서 상황을 통제하려 하지 않고 시간이 흐르는 대로 두는 그 자세를 늘 간직하려 합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1546.3,
+   "en": "I mean it's something you're passionate about and so you're pulling and pulling and every day you're pulling and you can't move that brick wall so the only thing that's happening is that you're chafing your hands.",
+   "ko": "열정을 가진 일이기 때문에 매일매일 당기고 또 당기지만, 그 벽돌 담장은 움직이지 않습니다. 결국 일어나는 일이라고는 손이 쓸려 상처가 나는 것뿐이죠.",
+   "speaker": "Epel"
   },
   {
-   "start": 1590.0,
-   "en": "I'd like to take a quick break and thank one of our sponsors, Roka. Roka makes eyeglasses and sunglasses that are of the absolute highest quality.",
-   "ko": "잠시 쉬어가며 스폰서 중 한 곳인 로카(Roka)에 감사를 표합니다. 로카는 최고 품질의 안경과 선글라스를 만듭니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1557.7,
+   "en": "What if you just drop the rope? I say that to myself. Drop the rope when I start getting going on trying to solve unsolvable problems.",
+   "ko": "그냥 밧줄을 놓아버리면 어떨까요? 저는 해결할 수 없는 문제를 해결하려고 애쓰기 시작할 때 스스로에게 말합니다. '밧줄을 놓아라.'",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1569.3,
+   "en": "The brick wall is still there, it's never gonna move. Yet my hands are free. And so I can be freed up to live in the ways that I do have control over.",
+   "ko": "벽돌 담장은 여전히 거기 있고 절대 움직이지 않을 것입니다. 하지만 내 손은 자유로워졌습니다. 그래서 내가 통제할 수 있는 방식으로 살아갈 자유를 얻게 됩니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1580.1,
+   "en": "As you described this pulling on a brick wall, I find it a very compelling image.",
+   "ko": "벽돌 담장을 잡아당기는 모습으로 묘사해 주시니 아주 강렬한 이미지로 다가오네요.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1585.6,
+   "en": "And one that makes total sense to try and drop the rope as you describe it because of the incredibly high energetic demand that pulling on that rope represents.",
+   "ko": "밧줄을 당기는 행위가 엄청나게 높은 에너지 소모를 의미하기 때문에, 말씀하신 대로 밧줄을 놓으려 노력하는 것이 전적으로 타당해 보입니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1596.2,
+   "en": "As you said, it's sort of a way of diverting resources toward something that has no conclusion, right? And in dropping the rope, you can divert those resources toward other things.",
+   "ko": "박사님 말씀처럼 그것은 결론이 없는 일에 자원을 쏟아붓는 방식이니까요, 그렇죠? 밧줄을 놓음으로써 그 자원을 다른 곳으로 돌릴 수 있습니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1609.5,
+   "en": "We really, really, really love control. And we want to control the future, not just because it makes us feel powerful and happy, but because then we can relax.",
+   "ko": "우리는 정말, 정말로 통제하는 것을 좋아합니다. 미래를 통제하고 싶어 하는 이유는 그것이 우리를 강력하고 행복하게 만들기 때문만은 아닙니다. 그렇게 해야 안심할 수 있기 때문이죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1623.4,
+   "en": "If we know what's gonna happen next, If it's predictable, we're that much happier. We're not vigilant and looking ahead and being prepared for what might happen.",
+   "ko": "다음에 무슨 일이 일어날지 안다면, 예측 가능하다면 그만큼 더 행복합니다. 경계하며 앞을 내다보고 일어날 수 있는 일에 대비하지 않아도 되니까요.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1634.9,
+   "en": "Being comfortable with uncertainty is a beautiful but rare resilience factor. People who tolerate uncertainty have much less anxiety and depression.",
+   "ko": "불확실성을 편안하게 받아들이는 것은 아름답지만 흔치 않은 회복력 요소입니다. 불확실성을 견뎌내는 사람들은 불안과 우울을 훨씬 덜 느낍니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1645.4,
+   "en": "And when stressful things happen, they get over it more quickly. And I think there are practices we can do that help us feel ease with the uncertain future.",
+   "ko": "그리고 스트레스 상황이 닥쳤을 때 더 빨리 극복합니다. 불확실한 미래에 대해 편안함을 느끼도록 도와주는 연습들이 있다고 생각합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1655.5,
+   "en": "Some of these mindful check-ins, noticing that we are carrying around uncertainty stress, is one way.",
+   "ko": "자신이 불확실성에 대한 스트레스를 안고 있다는 것을 알아차리는 마음 챙김 점검 같은 것이 한 가지 방법입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1664.5,
+   "en": "And then reframing uncertainty as the beauty of the mystery of life and the freedom that we can feel when we realize we don't control tomorrow.",
+   "ko": "그리고 불확실성을 삶의 신비가 주는 아름다움으로 재정의하고, 우리가 내일을 통제하지 못한다는 사실을 깨달을 때 느낄 수 있는 자유로 리프레이밍하는 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1676.2,
+   "en": "We just go with it and we do our best and what delight there is in just viewing things with curiosity and just seeing what emerges.",
+   "ko": "우리는 그냥 그 흐름에 맡기고 최선을 다할 뿐입니다. 호기심을 가지고 상황을 바라보고 무엇이 나타나는지 지켜보는 것에는 즐거움이 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1685.6,
+   "en": "So even just our posture, well here's an exercise for dealing with uncertainty. Instead of like kind of that alert posture when we're like trying to take it all in and predict the next second...",
+   "ko": "심지어 우리의 자세만으로도요. 자, 불확실성에 대처하는 연습 하나를 알려드리겠습니다. 모든 것을 파악하고 다음 순간을 예측하려 할 때 취하는 그런 경직된 자세 대신에...",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1695.6,
+   "en": "...and like just lean back and take some slow breaths we know that's gonna help orient us and realize that we can actually face time in that way by letting it come to us and receiving what happens.",
+   "ko": "그냥 뒤로 기대어 천천히 숨을 들이마셔 보세요. 그것이 우리의 방향을 잡아주고, 시간이 우리에게 오게 하고 일어나는 일을 받아들임으로써 실제로 그런 방식으로 시간을 마주할 수 있다는 것을 깨닫게 해 줄 것입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1713.3,
+   "en": "And that's a completely different body stance than our usual go mode during the day.",
+   "ko": "그것은 낮 동안의 일반적인 '활동 모드'와는 완전히 다른 신체 자세입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1718.6,
+   "en": "And that's just a way of saying, I am in a, you know, receptive mode and I'm going to just be curious about what arises.",
+   "ko": "그것은 '나는 지금 수용적인 모드에 있고, 무엇이 나타나든 그저 호기심을 가질 것이다'라고 말하는 방식입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1728.1,
+   "en": "And so I actually learn that on a meditation retreat because I tend to be type A and I leave a retreat going from like very relaxed to like that leaning forward tense of like, where's the to do list?",
+   "ko": "저는 명상 수련회에서 그것을 배웠습니다. 제가 A형 성격이라 수련회를 마칠 때 아주 편안한 상태였다가도 금세 '해야 할 일 목록이 어디 있지?' 하며 몸을 앞으로 숙이는 긴장 상태로 돌아가곤 했거든요.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1741.2,
+   "en": "And so caring with me, that posture of like, let time unfold as it will without trying to control things.",
+   "ko": "그래서 사물을 통제하려 하지 않고 시간이 흐르는 대로 두는 그런 자세를 유지하려고 노력합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1749.9,
+   "en": "I'd like to take a quick break and thank one of our sponsors, Roka. Roka makes eyeglasses and sunglasses that are the absolute highest quality.",
+   "ko": "잠시 쉬어가며 스폰서 중 하나인 Roka에 감사를 표하고 싶습니다. Roka는 절대적인 최상급 품질의 안경과 선글라스를 만듭니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1599.0,
-   "en": "Roka and I recently teamed up to create a new pair of red lens glasses. These red lens glasses are meant to be worn in the evening after the sun goes down. They filter out short wavelength light that comes from screens and from LED lights, which are the most common indoor lighting nowadays.",
-   "ko": "로카와 저는 최근 협력하여 새로운 레드 렌즈 안경을 제작했습니다. 이 레드 렌즈 안경은 해가 진 후 저녁 시간에 착용하도록 제작되었습니다. 스크린과 요즘 가장 흔한 실내 조명인 LED 조명에서 나오는 단파장 빛을 걸러줍니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1757.9,
+   "en": "Roka and I recently teamed up to create a new pair of Red Lens glasses. These red lens glasses are meant to be worn in the evening after the sun goes down.",
+   "ko": "Roka와 저는 최근 협력하여 새로운 레드 렌즈 안경을 만들었습니다. 이 레드 렌즈 안경은 해가 진 후 저녁에 착용하도록 고안되었습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1614.0,
-   "en": "I want to emphasize Roka red lens glasses are not traditional blue blockers. They do filter out blue light, but they filter out a lot more than just blue light. In fact, they filter out the full range of short wavelength light that suppresses the hormone melatonin.",
-   "ko": "로카 레드 렌즈 안경은 일반적인 블루라이트 차단 안경이 아니라는 점을 강조하고 싶습니다. 블루라이트도 차단하지만 그 이상의 역할을 하죠. 사실 멜라토닌 호르몬 분비를 억제하는 모든 범위의 단파장 빛을 차단합니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1766.4,
+   "en": "They filter out short wavelength light that comes from screens and from LED lights, which are the most common indoor lighting nowadays.",
+   "ko": "이 안경은 화면과 오늘날 가장 흔한 실내 조명인 LED 조명에서 나오는 단파장 빛을 걸러냅니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1626.0,
-   "en": "By the way, you want melatonin high in the evening and at night, makes it easy to fall and stay asleep. And those short wavelengths trigger increases in cortisol. Increases in cortisol are great in the early part of the day, but you do not want increases in cortisol in the evening and at night.",
-   "ko": "참고로 저녁과 밤에는 멜라토닌 수치가 높아야 잠들기 쉽고 숙면을 취할 수 있습니다. 그리고 그 단파장 빛은 코르티솔 증가를 유발합니다. 코르티솔 증가는 이른 아침에는 좋지만 저녁이나 밤에는 좋지 않습니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1772.9,
+   "en": "I want to emphasize Roca Red Lens glasses are not traditional blue blockers. They do filter out blue light, but they filter out a lot more than just blue light.",
+   "ko": "Roka 레드 렌즈 안경은 전통적인 블루라이트 차단경이 아니라는 점을 강조하고 싶습니다. 블루라이트도 걸러내지만 그보다 훨씬 더 많은 것을 걸러냅니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1639.0,
-   "en": "These Roka red lens glasses ensure normal healthy increases in melatonin and that your cortisol levels stay low, which is again what you want in the evening and at night. In doing so, these Roka red lens glasses really help you calm down and improve your transition to sleep.",
-   "ko": "로카 레드 렌즈 안경은 멜라토닌이 건강하게 정상적으로 증가하도록 돕고 코르티솔 수치를 낮게 유지해 줍니다. 이는 저녁과 밤에 꼭 필요한 상태죠. 그렇게 함으로써 로카 레드 렌즈 안경은 마음을 진정시키고 수면으로의 전환을 개선하는 데 큰 도움을 줍니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1780.6,
+   "en": "In fact, they filter out the full range of short wavelength light that suppresses the hormone melatonin. By the way, you want melatonin high in the evening and at night.",
+   "ko": "실제로 이 안경은 멜라토닌 호르몬을 억제하는 단파장 빛의 전 범위를 걸러냅니다. 참고로 저녁과 밤에는 멜라토닌 수치가 높은 것이 좋습니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1655.0,
-   "en": "If you'd like to try Roka, go to roka.com. That's r-o-k-a.com and enter the code huberman to save 20% off your first order. Again, that's roka.com and enter the code huberman at checkout.",
-   "ko": "로카를 체험해보고 싶으시다면 roka.com(r-o-k-a.com)에 방문하여 'huberman' 코드를 입력하고 첫 주문 시 20% 할인을 받으세요. 다시 한번 말씀드리면, roka.com에서 결제 시 'huberman' 코드를 입력하시면 됩니다.",
-   "speaker": "Andrew Huberman",
+   "start": 1788.3,
+   "en": "makes it easy to fall and stay asleep. And those short wavelengths trigger increases in cortisol.",
+   "ko": "그래야 잠들기 쉽고 숙면을 취할 수 있습니다. 그리고 그런 단파장 빛은 코르티솔 분비를 촉진합니다.",
+   "speaker": "Huberman",
    "ad": true
   },
   {
-   "start": 1669.0,
-   "en": "It's really interesting. It gets right to the heart of something that I spend a lot of time thinking about in the context of stress management and also just general thriving, which is that I think that about half of the messages that we get relate to stress and mind body interventions relate to adopting this forward center of mass.",
-   "ko": "정말 흥미롭네요. 스트레스 관리뿐만 아니라 전반적인 번영의 관점에서 제가 오랫동안 고민해 온 핵심적인 내용입니다. 스트레스와 심신 개입에 관해 우리가 접하는 메시지의 절반 정도는 이 '전방 중심 이동'을 채택하는 것과 관련이 있다고 생각하거든요.",
-   "speaker": "Andrew Huberman"
+   "start": 1794.4,
+   "en": "Increases in cortisol are great in the early part of the day, but you do not want increases in cortisol in the evening and at night.",
+   "ko": "코르티솔 수치 상승은 하루 중 이른 시간에는 좋지만, 저녁과 밤에는 코르티솔이 높아지는 것을 원치 않으실 겁니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 1688.0,
-   "en": "This idea of when challenge arises you smash into it, you go through it. On the other hand, there are these stress mitigation techniques both mental and physical, body oriented, mind oriented, etc. that are more of the sort that you described that are um they're not um being back on your heels so to speak, like letting things bulldoze you, but are more of this uh receptive mode.",
-   "ko": "도전이 닥쳤을 때 그것을 부수고 나아간다는 생각 말이죠. 반면 정신적, 육체적, 신체 중심적, 정신 중심적 스트레스 완화 기법들은 박사님이 설명하신 대로입니다. 뒷걸음질 치며 상황이 나를 휩쓸게 두는 것이 아니라 훨씬 더 '수용적인 모드'가 되는 것이죠.",
-   "speaker": "Andrew Huberman"
+   "start": 1800.8,
+   "en": "These roca red lens glasses ensure normal healthy increases in melatonin and that your cortisol levels stay low, which is again what you want in the evening and at night.",
+   "ko": "이 Roka 레드 렌즈 안경은 멜라토닌이 정상적이고 건강하게 증가하도록 돕고 코르티솔 수치를 낮게 유지해 주는데, 이것이 바로 저녁과 밤에 우리가 원하는 상태입니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 1710.0,
-   "en": "Do you think it's fair for us to adopt a sort of a general framework and model that that perhaps people could adopt for themselves if they like that of course it's not an either or but that having both of these in one's kit of tools could be valuable? Um because one is less energetically demanding but of course offers less opportunity for agency.",
-   "ko": "사람들이 원한다면 스스로 채택할 수 있는 일반적인 틀과 모델을 만드는 것이 타당할까요? 물론 둘 중 하나를 선택하는 것이 아니라, 이 두 가지 모두를 도구함에 두는 것이 가치가 있을까요? 하나는 에너지 소모가 적지만 당연히 주체성을 발휘할 기회는 적겠죠.",
-   "speaker": "Andrew Huberman"
+   "start": 1810.2,
+   "en": "In doing so, these roca red lens glasses really help you calm down and improve your transition to sleep.",
+   "ko": "그렇게 함으로써 이 Roka 레드 렌즈 안경은 여러분이 진정하고 수면으로 전환하는 과정을 돕습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 1733.0,
-   "en": "Um or at least apparently so. That's the leaning back. And then the the other certainly gives an opportunity for agency but we know from 100 years or more of psychology and psychiatric literature and from the emerging literature on stress mitigation that it's work. It's not something that is without a cost.",
-   "ko": "적어도 겉보기에는 그렇습니다. 그것이 뒤로 기대는 것입니다. 그리고 다른 하나는 확실히 주체성을 발휘할 기회를 주지만, 100년 이상의 심리학 및 정신의학 문헌과 스트레스 완화에 관한 최신 문헌을 통해 우리는 그것이 노동이라는 사실을 알고 있습니다. 대가 없는 것이 아니죠.",
-   "speaker": "Andrew Huberman"
+   "start": 1815.7,
+   "en": "If you'd like to try roca, go to roca.com That's R-O-K-A dot com and enter the code Huberman to save 20% off your first order.",
+   "ko": "Roka를 체험해 보고 싶으시다면 roca.com으로 접속하세요. R-O-K-A 닷컴에서 코드 Huberman을 입력하시면 첫 주문 시 20%를 할인받으실 수 있습니다.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 1750.0,
-   "en": "It can get you far better results than it were you to just let stress bulldoze you. Yeah. But that it's work. And so we have to emphasize that work um in very deliberate ways.",
-   "ko": "그냥 스트레스가 자신을 덮치게 두는 것보다 훨씬 더 좋은 결과를 얻을 수 있겠지만 그것은 힘든 일입니다. 따라서 우리는 그 노력을 매우 신중한 방식으로 강조해야 합니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1824.3,
+   "en": "Again, that's Roca dot com and enter the code Huberman at checkout.",
+   "ko": "다시 한번 말씀드리면, Roca 닷컴에서 결제 시 코드 Huberman을 입력하세요.",
+   "speaker": "Huberman",
+   "ad": true
   },
   {
-   "start": 1762.0,
-   "en": "When we know it's productive we should work. And when we know there's a brick wall we should let go. So I think of it I like this forward mass idea. I think of it as you muscle it and or you release it and we need both.",
-   "ko": "생산적일 때는 노력해야 합니다. 그리고 벽돌 벽이라는 것을 알았을 때는 놓아주어야 하죠. 저는 이 전방 중심 아이디어가 마음에 듭니다. 힘으로 밀어붙이거나 놓아버리는 것, 이 두 가지가 모두 필요하다고 생각합니다.",
-   "speaker": "Elissa Epel"
+   "start": 1828.3,
+   "en": "It's really interesting. It gets right to the heart of something that I spend a lot of time thinking about in the context of stress management and also just general thriving,",
+   "ko": "정말 흥미롭습니다. 제가 스트레스 관리와 전반적인 번영이라는 맥락에서 오랫동안 생각해 온 문제의 핵심을 찌르네요.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1780.0,
-   "en": "And so that letting go is a really important wise, you know, discerning way to mitigate stress in the right situations in the right time. And, you know, we can't muscle through everything, right? So another way I like to think about it is just the waves of life. Like I mean we are in an ocean and we have small waves, we have big waves.",
-   "ko": "적절한 상황과 적절한 때에 스트레스를 완화하는 지혜롭고 통찰력 있는 방법은 바로 '내려놓기'입니다. 모든 것을 힘으로 밀어붙일 수는 없으니까요. 제가 좋아하는 또 다른 생각은 삶의 파도입니다. 우리는 바다에 있고, 작은 파도도 큰 파도도 있죠.",
-   "speaker": "Elissa Epel"
+   "start": 1838.1,
+   "en": "which is that I think that about half of the messages that we get relate to stress and mind-body interventions relate to adopting this forward center of mass.",
+   "ko": "우리가 접하는 스트레스와 심신 개입에 관한 메시지의 약 절반은 이러한 전방 중심 이동을 채택하는 것과 관련이 있다고 생각합니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1803.0,
-   "en": "We're always going to be hit by the next wave. And so it's this skillful surfing or navigating that we can do better when we realize when we control things, when we can't, when we can truly feel safe and have ease versus when we need to kind of gently paddle.",
-   "ko": "우리는 항상 다음 파도를 맞이하게 될 것입니다. 그래서 우리가 통제할 수 있는 것과 없는 것, 언제 진정으로 안전하고 편안함을 느껴야 하는지, 언제 부드럽게 노를 저어야 하는지를 깨달았을 때 더 능숙하게 파도를 타거나 항해할 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1847.3,
+   "en": "This idea of when challenge arises, you smash into it, you go through it.",
+   "ko": "도전이 닥쳤을 때 그것에 정면으로 부딪히고 뚫고 나간다는 생각이죠.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1815.0,
-   "en": "For people that are listening to this and that and want to start to adopt practices. Do you think that spending some time creating a written or a spoken narrative is helpful? I mean we hear this but are there any data that support the use of journaling as a as a tool?",
-   "ko": "이 내용을 듣고 실제로 실천해보고 싶은 분들에게, 글이나 말로 서사를 만드는 데 시간을 보내는 것이 도움이 될까요? 흔히 듣는 이야기지만 일기 쓰기가 도구로서 효과적이라는 데이터가 있나요?",
-   "speaker": "Andrew Huberman"
+   "start": 1852.5,
+   "en": "On the other hand, there are these stress mitigation techniques, both mental and physical, body oriented, mind oriented, et cetera, that are more of the sort that you described that are,",
+   "ko": "반면에 정신적, 신체적, 신체 중심적, 마음 중심적 등등 박사님이 설명하신 종류의 스트레스 완화 기법들이 있습니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1831.0,
-   "en": "Definitely creating a coherent narrative is critical to our ability to make sense, find meaning, find resolution, have an identity around our lived experience. What happens to us. So narrative is kind of everything, right?",
-   "ko": "일관된 서사를 만드는 것은 이해하고, 의미를 찾고, 해결책을 찾고, 우리가 겪은 경험과 우리에게 일어난 일들에 대한 정체성을 갖는 능력에 분명히 중요합니다. 서사가 거의 전부라고 할 수 있죠.",
-   "speaker": "Elissa Epel"
+   "start": 1861.4,
+   "en": "they're not being back on your heels, so to speak, like letting things bulldoze you, but are more of this receptive mode.",
+   "ko": "말하자면 상황이 자신을 밀어붙이도록 방치하는 수동적인 상태가 아니라, 좀 더 이런 수용적인 모드인 것이죠.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1848.0,
-   "en": "In stress research it's it's not what happens to us, it's how we're interpreting it and how we're responding to it. And I've I've heard you say the exact same thing when you've talked about what is stress? It's it's really what narrative we're creating around it.",
-   "ko": "스트레스 연구에서 중요한 것은 우리에게 일어난 일이 아니라 우리가 그것을 어떻게 해석하고 어떻게 반응하느냐입니다. 스트레스가 무엇인지 이야기할 때 당신도 똑같은 말을 하는 걸 들었습니다. 스트레스는 정말 우리가 그 주변에 어떤 서사를 만드느냐에 달려 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1870.2,
+   "en": "Do you think it's fair for us to adopt a sort of a general framework and model that perhaps people can adopt for themselves if they like,",
+   "ko": "우리가 사람들이 원한다면 스스로 채택할 수 있는 일종의 일반적인 틀과 모델을 도입하는 것이 타당하다고 생각하시나요?",
+   "speaker": "Huberman"
   },
   {
-   "start": 1863.0,
-   "en": "So I think a narrative of purpose, fill in the blank about what your what's meaningful to you, but that is why we're different than just the rats that we study or the monkeys. We have the ability to do this projection to the future to ask what is our purpose in life. To see and know that we are going to die and we can have some control over how we live. And maybe even how we die and how we want to be remembered.",
-   "ko": "그러므로 자신에게 의미 있는 것이 무엇인지 채워 넣는 목적의 서사가 중요하다고 생각합니다. 그것이 우리가 연구하는 쥐나 원숭이와 다른 점이죠. 우리는 미래를 투사하고 삶의 목적이 무엇인지 질문할 능력이 있습니다. 우리가 죽을 것임을 알고 어떻게 살 것인지, 심지어 어떻게 죽을 것인지, 어떻게 기억되고 싶은지에 대해 어느 정도 통제력을 가질 수 있습니다.",
-   "speaker": "Elissa Epel"
+   "start": 1877.2,
+   "en": "that of course it's not an either or, but that having both of these in one's kit of tools could be valuable.",
+   "ko": "물론 둘 중 하나를 선택하는 문제가 아니라, 이 두 가지를 모두 자신의 도구함에 가지고 있는 것이 가치 있을 수 있다는 점 말이죠.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1885.0,
-   "en": "That is so beautiful. That helps us rise above this being monkeys in clothes.",
-   "ko": "정말 아름다운 일입니다. 그것이 우리가 옷 입은 원숭이 이상의 존재가 되도록 도와줍니다.",
-   "speaker": "Elissa Epel"
+   "start": 1884.7,
+   "en": "Because one is less energetically demanding, but of course offers less opportunity for agency, or at least apparently so, that's the leaning back.",
+   "ko": "하나는 에너지 소모가 적지만, 당연히 주체성을 발휘할 기회가 적죠, 적어도 겉보기에는요. 그것이 뒤로 기대는 자세입니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1895.0,
-   "en": "I want to first of all just say thank you for doing the incredibly important work you do. I also just want to thank you for taking the time today to share this information. I know I speak on behalf of many many people and I just really want to extend my gratitude.",
-   "ko": "먼저 박사님이 하시는 믿을 수 없을 만큼 중요한 연구에 감사를 표하고 싶습니다. 또한 오늘 시간을 내어 이 정보를 공유해 주신 것에 대해서도 감사드립니다. 많은 분을 대신해 진심으로 감사의 마음을 전하고 싶습니다.",
-   "speaker": "Andrew Huberman"
+   "start": 1893.6,
+   "en": "And then the other certainly gives an opportunity for agency, but we know from 100 years or more of psychology and psychiatric literature,",
+   "ko": "그리고 다른 하나는 분명히 주체성을 발휘할 기회를 주지만, 100년 이상의 심리학 및 정신 의학 문헌을 통해 우리는 알고 있습니다.",
+   "speaker": "Huberman"
   },
   {
-   "start": 1911.0,
+   "start": 1901.4,
+   "en": "and from the emerging literature on stress mitigation, that it's work. It's not something that is without a cost.",
+   "ko": "또한 스트레스 완화에 관한 신생 문헌들을 통해서도 그것이 노동이라는 것을 알 수 있습니다. 대가 없이는 불가능한 일이죠.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1910.5,
+   "en": "It can get you far better results than it were you to just let stress bulldoze you, but that it's work. And so we have to emphasize that work in very deliberate ways.",
+   "ko": "스트레스에 짓눌려 버리는 것보다 훨씬 더 좋은 결과를 가져다줄 수 있지만, 그것은 노력입니다. 따라서 우리는 그 노력을 매우 신중한 방식으로 강조해야 합니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1921.9,
+   "en": "When we know it's productive, we should work. And when we know there's a brick wall, we should let go.",
+   "ko": "그것이 생산적이라는 것을 안다면 우리는 노력해야 합니다. 그리고 벽돌 담장이 있다는 것을 알 때는 놓아주어야 하죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1927.4,
+   "en": "So I think of it, I like this forward mass idea. I think of it as you muscle it and or you release it and we need both.",
+   "ko": "그래서 저는 이 전방 질량 아이디어가 마음에 듭니다. 힘으로 밀어붙이거나 혹은 놓아주는 것으로 생각하며, 우리에게는 두 가지가 모두 필요합니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1936.0,
+   "en": "And so that letting go is a really important wise, discerning way to mitigate stress in the right situations in the right time.",
+   "ko": "따라서 그 '놓아주기'는 적절한 상황에서 적절한 때에 스트레스를 완화하는 정말 중요하고 지혜로우며 통찰력 있는 방법입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1946.4,
+   "en": "And we can't muscle through everything, right? So another way I like to think about it is just the waves of life. Like, I mean, we are in an ocean and we have small waves, we have big waves.",
+   "ko": "우리는 모든 것을 힘으로 해결할 수 없으니까요, 그렇죠? 제가 생각하는 또 다른 방식은 삶의 파도입니다. 우리는 바다에 있고 작은 파도와 큰 파도를 만납니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1957.0,
+   "en": "we're always going to be hit by the next wave. And so it's this skillful surfing or navigating that we can do better when we realize,",
+   "ko": "우리는 항상 다음 파도에 부딪히게 될 것입니다. 따라서 우리가 무언가를 깨달았을 때 더 잘 할 수 있는 것은 이 능숙한 서핑이나 항해입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1967.8,
+   "en": "when we control things, when we can truly feel safe and have ease versus when we need to kind of gently paddle.",
+   "ko": "우리가 상황을 통제하고 진정으로 안전함과 편안함을 느낄 수 있을 때와 완만하게 노를 저어야 할 때를 구분하는 것이죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 1975.3,
+   "en": "For people that are listening to this and that want to start to adopt practices, do you think that spending some time creating a written or a spoken narrative is helpful?",
+   "ko": "이 방송을 듣고 실천을 시작하려는 분들에게, 글이나 말로 서사를 만드는 시간을 갖는 것이 도움이 된다고 생각하시나요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1985.7,
+   "en": "I mean, we hear this, but are there any data that support the use of journaling as a tool?",
+   "ko": "그런 이야기를 듣기는 합니다만, 일기 쓰기를 도구로 사용하는 것을 뒷받침하는 데이터가 있나요?",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 1991.4,
+   "en": "Definitely creating a coherent narrative is critical to our ability to make sense, find meaning, find resolution, have a social identity around our lived experience, what happens to us.",
+   "ko": "일관된 서사를 만드는 것은 우리가 겪은 일, 즉 우리의 삶의 경험에 대해 의미를 찾고 해결책을 발견하며 사회적 정체성을 갖는 능력에 분명히 결정적입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2007.1,
+   "en": "So narrative is kind of everything, right? In stress research, it's not what happens to us. It's how we're interpreting it and how we're responding to it.",
+   "ko": "그래서 서사가 거의 전부라고 할 수 있죠, 그렇죠? 스트레스 연구에서 중요한 것은 우리에게 일어나는 일이 아닙니다. 우리가 그것을 어떻게 해석하고 어떻게 반응하느냐입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2014.4,
+   "en": "and I've heard you say the exact same thing when you've talked about what is stress. It's really what narrative we're creating around it.",
+   "ko": "그리고 휴버맨 교수님이 스트레스란 무엇인지에 대해 말씀하실 때 똑같은 말씀을 하시는 것을 들었습니다. 정말로 우리가 그 주변에 어떤 서사를 만드느냐의 문제죠.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2021.5,
+   "en": "So I think a narrative of purpose, fill in the blank about what you're, what's meaningful to you, but that is why we're different than just the rats that we study or the monkeys.",
+   "ko": "그래서 목적의 서사, 여러분에게 무엇이 의미 있는지 그 빈칸을 채워보세요. 그것이 바로 우리가 연구하는 쥐나 원숭이와 다른 점입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2032.0,
+   "en": "We have the ability to do this projection to the future, to ask what is our purpose in life, to see and know that we are going to die...",
+   "ko": "우리는 미래를 투영하고, 삶의 목적이 무엇인지 묻고, 우리가 죽을 것이라는 사실을 보고 알 수 있는 능력이 있습니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2042.0,
+   "en": "...and we can and have some control over how we live, and maybe even how we die, and how we want to be remembered. That is so beautiful.",
+   "ko": "그리고 우리는 어떻게 살지, 어쩌면 어떻게 죽을지, 그리고 어떻게 기억되고 싶은지에 대해 어느 정도 통제력을 가질 수 있습니다. 그것은 정말 아름다운 일입니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2050.8,
+   "en": "That helps us rise above this being monkeys and clothes.",
+   "ko": "그것이 우리가 옷 입은 원숭이 이상의 존재가 되도록 도와줍니다.",
+   "speaker": "Epel"
+  },
+  {
+   "start": 2055.1,
+   "en": "I want to first of all, just say thank you for doing the incredibly important work you do.",
+   "ko": "무엇보다도 먼저 박사님이 하시는 믿기지 않을 정도로 중요한 연구에 대해 감사의 말씀을 드리고 싶습니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 2059.0,
+   "en": "I also just want to thank you for taking the time today to share this information. I know I speak on behalf of many, many people, and I just really want to extend my gratitude.",
+   "ko": "또한 오늘 시간을 내어 이 정보를 공유해 주신 것에 감사드립니다. 많은 분을 대신해 진심으로 감사의 마음을 전하고 싶습니다.",
+   "speaker": "Huberman"
+  },
+  {
+   "start": 2067.3,
    "en": "Thank you so much. And thank you for your podcast.",
-   "ko": "정말 감사합니다. 박사님의 팟캐스트도 잘 듣고 있습니다.",
-   "speaker": "Elissa Epel"
+   "ko": "정말 감사합니다. 그리고 이 팟캐스트에도 감사드려요.",
+   "speaker": "Epel"
   },
   {
-   "start": 1914.0,
-   "en": "Oh, well, it's a labor of love and it's days like today and discussions like this that make it worthwhile. So thank you, Elissa.",
-   "ko": "팟캐스트는 제 열정의 산물이며 오늘 같은 날, 이런 대화들이 그 가치를 증명해 줍니다. 감사합니다, 엘리사 박사님.",
-   "speaker": "Andrew Huberman"
+   "start": 2071.1,
+   "en": "Well, it's a labor of love and it stays like today and discussions like this that make it worthwhile. Thank you, Elissa.",
+   "ko": "네, 이것은 사랑으로 하는 일이며, 오늘 같은 날과 이런 토론들이 그 일을 가치 있게 만들어 줍니다. 감사합니다, 엘리사 박사님.",
+   "speaker": "Huberman"
   }
  ]
 }
