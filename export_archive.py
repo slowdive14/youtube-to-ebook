@@ -566,7 +566,7 @@ def trigger_vercel_deploy():
         print(f"  [!] Vercel deploy hook failed: {e}")
 
 
-def publish_listening(entries, extra_files=None):
+def publish_listening(entries, extra_files=None, message=None):
     """
     Commit and push listening transcripts on their own: the followed-podcast
     step runs whether or not the day produced a digest issue. extra_files
@@ -584,7 +584,7 @@ def publish_listening(entries, extra_files=None):
         written, removed = save_entries(entries, ARCHIVE_REPO_PATH)
         print(f"  [OK] Listening: {len(written)} episode(s) saved, {len(removed)} old one(s) removed")
         paths.append(str(listening_dir(ARCHIVE_REPO_PATH)))
-    message = (
+    message = message or (
         f"Add listening episode(s): {', '.join(e['show'] for e in entries)}"
         if entries
         else "Mirror followed podcasts from Velora"

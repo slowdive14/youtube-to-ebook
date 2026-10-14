@@ -12,22 +12,28 @@ by its title — the official audio, from the publisher's own feed.
 Why the transcript comes from that audio and not from YouTube's captions: the
 podcast file carries ads the video doesn't, so caption times drift a minute or
 more by the middle of an episode. Transcribing the file Velora actually plays
-keeps every line on the right second. Measured on a 28-minute NPR episode:
-segment starts within ~2-3 s of the true time, ads correctly flagged, one
-request.
+keeps every line on the right second.
 
-Budget: one Gemini request per ~40 minutes of audio, on LISTENING_MODEL — a
-different model from the article pipeline, whose free-tier quota (20/day per
-model) is nearly spent by the morning run.
+Why the times come from local speech recognition and not from Gemini: Gemini
+writes good text but guesses its timestamps. On a 35-minute Huberman episode
+its lines ran 3-4 minutes ahead of the audio from the 10-minute mark on, and
+it silently dropped sentences. faster-whisper times every word from the audio
+itself (checked against clips cut at those times: exact), so it supplies the
+sentences and their starts, and Gemini only works on that text: grouping it
+into read-along segments, fixing misheard names, translating, flagging ads.
+
+Budget: one Gemini request (text only) per ~40 minutes of audio, on
+LISTENING_MODEL — a different model from the article pipeline, whose
+free-tier quota (20/day per model) is nearly spent by the morning run.
+Recognition runs on this PC's CPU: base.en did 35 minutes in under 2.
 """
 
 import hashlib
+import importlib.util
 import json
 import os
 import re
-import subprocess
 import tempfile
-import time
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
@@ -42,9 +48,19 @@ LISTENING_MODEL = os.getenv("LISTENING_MODEL", "gemini-3-flash-preview")
 LISTENING_FALLBACK_MODEL = os.getenv("LISTENING_FALLBACK_MODEL", "gemini-3.5-flash")
 # How many episodes a day get a transcript (each costs 1-2 requests).
 LISTENING_PER_DAY = int(os.getenv("LISTENING_PER_DAY", "2"))
-# Audio is transcribed in pieces of at most this length: a 40-minute stretch
-# is ~25k output tokens (English + Korean), well inside the 65k cap.
+# Local speech recognition model (faster-whisper). small.en spells names
+# better but is ~3x slower; Gemini fixes the obvious misses either way.
+WHISPER_MODEL = os.getenv("WHISPER_MODEL", "base.en")
+# The text goes to Gemini in pieces of at most this much audio: 40 minutes is
+# ~25k output tokens (English + Korean), well inside the 65k cap.
 CHUNK_SECONDS = 40 * 60
+# Recognition sometimes runs on without punctuation: a sentence also ends at a
+# silence this long, and is cut once it gets this long.
+PAUSE_SECONDS = 2.0
+MAX_SENTENCE_SECONDS = 30
+# Speech that no segment of Gemini's covers is shown on its own (English
+# only) once it is at least this many words; shorter misses are fillers.
+GAP_WORDS = 8
 # Episodes kept in the archive (older transcript files are deleted).
 KEEP_EPISODES = 60
 # A failure tries the next episode, but not indefinitely: when Gemini is
@@ -57,29 +73,31 @@ TITLE_MATCH = 0.85
 
 UA = "VeloraPodcast/1.0 (+https://velora-wine-chi.vercel.app; podcast feed reader)"
 
-PROMPT = """Transcribe this podcast audio for an English learner who will read along while listening.
+# No line numbers: asked to cite them, the model drifted by 1-3 sentences in
+# 30 of 140 segments while its text stayed right, so segments are placed by
+# their text instead (align_segments).
+PROMPT = """Below is a speech-recognition transcript of the podcast episode "{title}", one sentence per line. An English learner will read it along with the audio.
 
-Return ALL of it, start to finish, as consecutive segments. Each segment:
-- start: when the segment begins in THIS audio file, "M:SS" or "H:MM:SS" (absolute time from 0:00 of this file).
-- speaker: the speaker's name if known, else "Host" / "Guest".
-- en: exactly what is said (verbatim, clean punctuation, drop "um/uh").
-- ko: a natural Korean translation of that segment.
-- ad: true if the segment is an advertisement, sponsor read or network promo, else false.
+Split it into consecutive segments of 1-3 sentences (about 8-25 seconds of speech). Never put two speakers in one segment. Keep every line, in order. For each segment:
+- speaker: the speaker's name when the conversation makes it clear, else "Host" / "Guest".
+- en: the text of its sentences. Fix only clear recognition errors (misheard names or terms, punctuation); never add, drop, reorder or reword anything.
+- ko: a natural Korean translation of en.
+- ad: true for an advertisement, sponsor read or network promo, else false.
+JSON only.
 
-Segments are 1-3 sentences (about 8-25 seconds). Start a new segment whenever the speaker changes. Do not skip or summarise anything. JSON only."""
+{lines}"""
 
 SCHEMA = {
     "type": "ARRAY",
     "items": {
         "type": "OBJECT",
         "properties": {
-            "start": {"type": "STRING"},
             "speaker": {"type": "STRING"},
             "en": {"type": "STRING"},
             "ko": {"type": "STRING"},
             "ad": {"type": "BOOLEAN"},
         },
-        "required": ["start", "en", "ko", "ad"],
+        "required": ["en", "ko", "ad"],
     },
 }
 
@@ -167,99 +185,151 @@ def find_podcast_episode(title, published=None):
 # Transcribing it
 # ---------------------------------------------------------------------------
 
-def clock_to_seconds(value):
-    """'1:02:03' / '2:07' / '127' -> seconds, or None."""
-    parts = str(value).strip().split(":")
-    try:
-        nums = [float(p) for p in parts]
-    except ValueError:
-        return None
-    if not 1 <= len(nums) <= 3:
-        return None
-    total = 0.0
-    for n in nums:
-        total = total * 60 + n
-    return total
+WHISPER_HINT = 'Listening skipped: speech recognition missing (py -m pip install faster-whisper "av<17")'
 
 
-def clean_segments(raw, offset=0.0, limit=None):
+def whisper_available():
+    return importlib.util.find_spec("faster_whisper") is not None
+
+
+_whisper = None
+
+
+def recognize(path):
+    """[(start, end, text)] for every spoken word, and the audio's length."""
+    global _whisper
+    from faster_whisper import WhisperModel  # heavy; only loaded to transcribe
+
+    if _whisper is None:
+        _whisper = WhisperModel(WHISPER_MODEL, device="cpu", compute_type="int8")
+    # vad_filter skips music and silence, where recognition tends to invent
+    # words; not conditioning on the previous text stops repetition loops.
+    segments, info = _whisper.transcribe(
+        str(path), language="en", word_timestamps=True, vad_filter=True,
+        condition_on_previous_text=False, beam_size=1,
+    )
+    words = [(w.start, w.end, w.word) for seg in segments for w in seg.words or []]
+    return words, info.duration
+
+
+# "Dr." and initials ("U.S.", "J.") end with a period but not a sentence.
+ABBREVIATIONS = {"dr.", "mr.", "mrs.", "ms.", "prof.", "st.", "vs.", "jr.", "sr.", "e.g.", "i.e."}
+
+
+def _ends_sentence(word):
+    w = word.strip().rstrip("\"')]”’")
+    if not w.endswith((".", "?", "!")):
+        return False
+    return w.lower() not in ABBREVIATIONS and not re.fullmatch(r"(?:[A-Z]\.)+", w)
+
+
+def split_sentences(words):
     """
-    Model output -> ordered segments with start in seconds on the full file's
-    clock. Drops rows without text or a readable time, and any time that runs
-    backwards or past the chunk (a hallucinated timestamp would otherwise
-    break the highlighting for everything after it).
+    Recognized words -> sentences [{start, end, text, words}]. A sentence
+    ends at . ? !, at a silence of PAUSE_SECONDS, or once it reaches
+    MAX_SENTENCE_SECONDS. Each word carries its own leading space.
     """
+    sentences, current = [], []
+
+    def close():
+        text = "".join(w[2] for w in current).strip()
+        if text:
+            sentences.append({"start": current[0][0], "end": current[-1][1], "text": text, "words": list(current)})
+        current.clear()
+
+    for word in words:
+        if current and (
+            word[0] - current[-1][1] >= PAUSE_SECONDS
+            or word[1] - current[0][0] > MAX_SENTENCE_SECONDS
+        ):
+            close()
+        current.append(word)
+        if _ends_sentence(word[2]):
+            close()
+    if current:
+        close()
+    return sentences
+
+
+def sentence_blocks(sentences, span=CHUNK_SECONDS):
+    """[(i, j)] index ranges of sentences, each at most `span` seconds of audio."""
+    blocks, i = [], 0
+    while i < len(sentences):
+        j = i + 1
+        while j < len(sentences) and sentences[j]["end"] - sentences[i]["start"] <= span:
+            j += 1
+        blocks.append((i, j))
+        i = j
+    return blocks
+
+
+def _words(text):
+    return re.sub(r"[^a-z0-9' ]+", " ", text.lower()).split()
+
+
+def align_segments(words, rows):
+    """
+    Gemini's segments -> segments timed from the recognized words. Each is
+    found in the audio by its text (word-level matching), so the model never
+    decides a time: a segment starts at the word its text begins with. Speech
+    no segment covers (GAP_WORDS or more) becomes a segment of its own, in
+    English only; a segment whose text matches nothing joins the one before.
+    """
+    tokens = [(t, n) for n, w in enumerate(words) for t in _words(w[2])]
+    rows = [r for r in rows if isinstance(r, dict) and str(r.get("en", "")).strip()] if isinstance(rows, list) else []
+    if not tokens:
+        return []
+    said = [_words(str(r["en"])) for r in rows]
+    match = {}
+    flat = [t for ts in said for t in ts]
+    for a, b, size in SequenceMatcher(None, flat, [t for t, _ in tokens], autojunk=False).get_matching_blocks():
+        for d in range(size):
+            match[a + d] = b + d
+
+    def word_at(i):
+        return tokens[i][1] if i < len(tokens) else len(words)
+
     out = []
-    last = -1.0
-    for row in raw if isinstance(raw, list) else []:
-        if not isinstance(row, dict):
-            continue
-        en = str(row.get("en", "")).strip()
-        start = clock_to_seconds(row.get("start", ""))
-        if not en or start is None:
-            continue
-        if limit is not None and start > limit + 5:
-            continue
-        absolute = round(start + offset, 1)
-        if absolute < last:
-            continue
-        last = absolute
-        seg = {"start": absolute, "en": en, "ko": str(row.get("ko", "")).strip()}
-        speaker = str(row.get("speaker", "")).strip()
+    cursor = 0  # first heard token not yet covered
+
+    def add_gap(upto):
+        if upto - cursor >= GAP_WORDS:
+            for s in split_sentences(words[word_at(cursor):word_at(upto)]):
+                out.append({"start": round(s["start"], 1), "en": s["text"], "ko": ""})
+
+    pos = 0
+    for r, ts in zip(rows, said):
+        hits = [(j - pos, match[j]) for j in range(pos, pos + len(ts)) if j in match]
+        pos += len(ts)
+        en, ko = str(r["en"]).strip(), str(r.get("ko", "")).strip()
+        start = max(cursor, hits[0][1] - hits[0][0]) if hits else None
+        if start is None or start >= len(tokens):
+            if out:
+                out[-1]["en"] += " " + en
+                out[-1]["ko"] = f"{out[-1]['ko']} {ko}".strip()
+                continue
+            start = cursor
+        add_gap(start)
+        seg = {"start": round(words[word_at(start)][0], 1), "en": en, "ko": ko}
+        speaker = str(r.get("speaker", "")).strip()
         if speaker:
             seg["speaker"] = speaker
-        if row.get("ad"):
+        if r.get("ad"):
             seg["ad"] = True
         out.append(seg)
+        cursor = max(cursor, hits[-1][1] + 1) if hits else cursor
+    add_gap(len(tokens))
     return out
 
 
-def _duration(path):
-    """Audio length via ffprobe, or None when ffprobe isn't available."""
-    try:
-        out = subprocess.check_output(
-            ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)]
-        )
-        return float(out.decode().strip())
-    except (OSError, subprocess.CalledProcessError, ValueError):
-        return None
-
-
-def _chunks(path, duration, workdir):
-    """Split long audio into CHUNK_SECONDS pieces (stream copy, no re-encode).
-    Without ffmpeg the whole file goes in one request — a very long episode may
-    then come back cut short, which is still better than no transcript."""
-    if duration <= CHUNK_SECONDS + 5 * 60:
-        return [(0.0, Path(path))]
-    try:
-        subprocess.run(["ffmpeg", "-version"], check=True, capture_output=True)
-    except (OSError, subprocess.CalledProcessError):
-        print("  [!] ffmpeg not found: transcribing in one piece")
-        return [(0.0, Path(path))]
-    pieces = []
-    start = 0.0
-    n = 0
-    while start < duration - 5:
-        piece = Path(workdir) / f"chunk_{n}.mp3"
-        subprocess.run(
-            ["ffmpeg", "-v", "error", "-y", "-ss", str(start), "-t", str(CHUNK_SECONDS),
-             "-i", str(path), "-c", "copy", str(piece)],
-            check=True,
-        )
-        pieces.append((start, piece))
-        start += CHUNK_SECONDS
-        n += 1
-    return pieces
-
-
-def _generate(client, uploaded):
-    """One transcription call, falling back to a second model on overload or quota."""
+def _generate(client, prompt):
+    """One Gemini call, falling back to a second model on overload or quota."""
     last_error = None
     for model in [LISTENING_MODEL, LISTENING_FALLBACK_MODEL]:
         try:
             resp = client.models.generate_content(
                 model=model,
-                contents=[uploaded, PROMPT],
+                contents=[prompt],
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
                     response_schema=SCHEMA,
@@ -270,12 +340,12 @@ def _generate(client, uploaded):
         except Exception as e:  # noqa: BLE001 — any API failure tries the fallback
             last_error = e
             print(f"  [!] {model} failed: {str(e)[:120]}")
-    raise RuntimeError(f"transcription failed: {last_error}")
+    raise RuntimeError(f"Gemini failed: {last_error}")
 
 
-def transcribe_episode(audio_url, client, listed_duration=0):
-    """Download the episode and return its timed segments (EN + KO).
-    listed_duration (the directory's figure) stands in when ffprobe is missing."""
+def transcribe_episode(audio_url, client, title=""):
+    """Download the episode and return its timed segments (EN + KO) and length.
+    title helps Gemini spell the guest's name and the topic's terms."""
     with tempfile.TemporaryDirectory() as workdir:
         path = Path(workdir) / "episode.mp3"
         with requests.get(audio_url, headers={"User-Agent": UA}, stream=True, timeout=60) as r:
@@ -283,24 +353,17 @@ def transcribe_episode(audio_url, client, listed_duration=0):
             with open(path, "wb") as f:
                 for block in r.iter_content(1 << 16):
                     f.write(block)
-        duration = _duration(path) or float(listed_duration or 0)
-        if duration <= 0:
-            duration = float(CHUNK_SECONDS)  # unknown: assume one piece
-        segments = []
-        for offset, piece in _chunks(path, duration, workdir):
-            uploaded = client.files.upload(file=str(piece), config={"mime_type": "audio/mpeg"})
-            while uploaded.state and uploaded.state.name == "PROCESSING":
-                time.sleep(2)
-                uploaded = client.files.get(name=uploaded.name)
-            try:
-                raw = _generate(client, uploaded)
-            finally:
-                try:
-                    client.files.delete(name=uploaded.name)
-                except Exception:
-                    pass
-            segments += clean_segments(raw, offset=offset, limit=min(CHUNK_SECONDS, duration - offset))
-        return segments, round(duration)
+        words, duration = recognize(path)
+    sentences = split_sentences(words)
+    segments = []
+    for i, j in sentence_blocks(sentences):
+        block = sentences[i:j]
+        rows = _generate(client, PROMPT.format(title=title, lines="\n".join(s["text"] for s in block)))
+        segments += align_segments([w for s in block for w in s["words"]], rows)
+    untranslated = sum(1 for s in segments if not s["ko"])
+    if untranslated * 2 > len(segments):
+        raise RuntimeError(f"Gemini translated only {len(segments) - untranslated} of {len(segments)} segments")
+    return segments, round(duration)
 
 
 # ---------------------------------------------------------------------------
@@ -355,12 +418,46 @@ def already_done(repo_path, vid):
     return (listening_dir(repo_path) / f"{vid}.json").exists()
 
 
+def redo_entries(repo_path, ids=None, client=None):
+    """
+    Transcribe saved episodes again (same id, audio and details), e.g. after
+    the method changed. ids None = every saved episode. Returns the new
+    entries; a failure leaves that episode's old file as it was.
+    """
+    if not whisper_available():
+        print(f"  [!] {WHISPER_HINT}")
+        return []
+    folder = listening_dir(repo_path)
+    paths = [folder / f"{i}.json" for i in ids] if ids else sorted(folder.glob("*.json"))
+    client = client or genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+    entries = []
+    for path in paths:
+        try:
+            old = json.loads(path.read_text(encoding="utf-8"))
+            print(f"  [.] {old['show']}: transcribing '{old['title'][:60]}' again...")
+            segments, duration = transcribe_episode(
+                old["audioUrl"], client, title=f"{old['show']}: {old['title']}"
+            )
+        except Exception as e:
+            print(f"  [!] {path.stem} failed (kept as it was): {str(e)[:160]}")
+            continue
+        if len(segments) < 5:
+            print(f"  [!] {path.stem}: transcript came back nearly empty (kept as it was)")
+            continue
+        entries.append({**old, "duration": duration or old.get("duration", 0), "segments": segments})
+        print(f"  [OK] {len(segments)} segments over {duration // 60} min")
+    return entries
+
+
 def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_PER_DAY):
     """
     For each video that is a podcast episode, find its audio and transcribe it.
     Videos with no matching episode (YouTube-only channels) are skipped. Any
     failure skips that episode only — the digest itself is never affected.
     """
+    if not whisper_available():
+        print(f"  [!] {WHISPER_HINT}")
+        return []
     client = client or genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     entries = []
     failures = 0
@@ -376,7 +473,9 @@ def make_listening_entries(videos, client=None, repo_path=None, limit=LISTENING_
             continue
         print(f"  [.] {episode['show']}: transcribing '{episode['episodeTitle'][:60]}'...")
         try:
-            segments, duration = transcribe_episode(episode["audioUrl"], client, episode["duration"])
+            segments, duration = transcribe_episode(
+                episode["audioUrl"], client, title=f"{episode['show']}: {episode['episodeTitle']}"
+            )
         except Exception as e:
             failures += 1
             print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
@@ -602,6 +701,9 @@ def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=N
     feeds = read_podcast_list() if feeds is None else feeds
     if not feeds or limit <= 0:
         return []
+    if not whisper_available():
+        print(f"  [!] {WHISPER_HINT}")
+        return []
     client = client or genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
     done = last_done_by_show(repo_path)
 
@@ -623,7 +725,9 @@ def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=N
             continue
         print(f"  [.] {feed.get('title', '')}: transcribing '{ep.get('title', '')[:60]}'...")
         try:
-            segments, duration = transcribe_episode(ep["audioUrl"], client, ep.get("duration") or 0)
+            segments, duration = transcribe_episode(
+                ep["audioUrl"], client, title=f"{feed.get('title', '')}: {ep.get('title', '')}"
+            )
         except Exception as e:
             failures += 1
             print(f"  [!] Transcription failed (non-fatal): {str(e)[:160]}")
@@ -634,3 +738,23 @@ def make_podcast_entries(repo_path, client=None, limit=PODCASTS_PER_DAY, feeds=N
         entries.append(build_podcast_entry(feed, ep, segments, duration))
         print(f"  [OK] {len(segments)} segments over {duration // 60} min")
     return entries
+
+
+if __name__ == "__main__":
+    # Redo saved transcripts with the current method and publish them:
+    #   py listening.py --redo              every saved episode
+    #   py listening.py --redo <id> <id>    just these (file names without .json)
+    import sys
+
+    from dotenv import load_dotenv
+
+    load_dotenv()
+    if sys.argv[1:2] != ["--redo"]:
+        sys.exit("usage: py listening.py --redo [episode id ...]")
+    from export_archive import ARCHIVE_REPO_PATH, publish_listening
+
+    if not ARCHIVE_REPO_PATH:
+        sys.exit("ARCHIVE_REPO_PATH is not set in .env")
+    redone = redo_entries(ARCHIVE_REPO_PATH, ids=sys.argv[2:] or None)
+    if redone:
+        publish_listening(redone, message=f"Re-time listening transcript(s): {', '.join(e['show'] for e in redone)}")

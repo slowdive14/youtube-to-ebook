@@ -11,3 +11,7 @@ azure-cognitiveservices-speech
 notebooklm-mcp-cli
 boto3
 yt-dlp
+# Listening edition: word-timed speech recognition (faster-whisper 1.2 passes an
+# option av 19 rejects; av 16.1 is the newest checked to work)
+faster-whisper
+av<17
