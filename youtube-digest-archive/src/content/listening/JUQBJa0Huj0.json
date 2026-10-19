@@ -1,0 +1,1178 @@
+{
+ "id": "JUQBJa0Huj0",
+ "title": "Inside Putin’s Plan to Cripple Ukraine This Winter",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=JUQBJa0Huj0",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/5d4af67f-8924-4298-8fd7-19a04e793c81/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=5d4af67f-8924-4298-8fd7-19a04e793c81&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/da/f7/d9/daf7d938-73ce-6a74-0850-e5eff5fdc514/mza_11675050317656287109.jpg/600x600bb.jpg",
+ "duration": 1888,
+ "releaseDate": "2026-10-19T09:45:00Z",
+ "addedAt": "2026-10-19",
+ "segments": [
+  {
+   "start": 0.3,
+   "en": "I'm Valerie Hopkins. I cover Russia for the New York Times.",
+   "ko": "안녕하세요, 발레리 홉킨스입니다. 뉴욕타임스에서 러시아 소식을 전하고 있습니다.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 6.9,
+   "en": "It's pretty difficult to report from Russia. Often I'm the only New York Times reporter in the country.",
+   "ko": "러시아에서 취재하는 것은 꽤 어렵습니다. 종종 제가 현지에 있는 유일한 뉴욕타임스 기자일 때도 있죠.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 13.6,
+   "en": "When I'm talking to Russians, people sometimes ignore me or worse. First, it's not always easy approaching Russians as an American.",
+   "ko": "러시아 사람들과 대화할 때 사람들은 가끔 저를 무시하거나 그보다 더한 경우도 있습니다. 우선 미국인으로서 러시아인들에게 다가가는 것부터가 쉽지 않죠.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 28.6,
+   "en": "Sometimes these discussions are uncomfortable, but they're important because times readers really benefit from hearing what ordinary Russians think.",
+   "ko": "때로 이런 대화는 불편하지만 매우 중요합니다. 독자 여러분이 평범한 러시아인들의 생각을 듣는 것이 정말 도움이 되기 때문입니다.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 37.7,
+   "en": "Very often it's different from the expectations people might have.",
+   "ko": "그들의 생각은 사람들이 흔히 예상하는 것과는 매우 다를 때가 많습니다.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 42.1,
+   "en": "I keep working in Russia because what happens here matters and our audience deserves to get a broad perspective of the world that they live in.",
+   "ko": "제가 러시아에서 계속 일하는 이유는 이곳의 상황이 중요하고, 우리 독자들은 자신들이 사는 세상에 대해 폭넓은 시각을 가질 권리가 있기 때문입니다.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 51.3,
+   "en": "If you want to make sure we can keep doing this work, subscribe to The New York Times.",
+   "ko": "우리가 이 일을 계속해 나갈 수 있도록 돕고 싶으시다면, 뉴욕타임스를 구독해 주세요.",
+   "speaker": "Valerie Hopkins",
+   "ad": true
+  },
+  {
+   "start": 59.3,
+   "en": "From The New York Times, I'm Natalie Kitroeff. This is The Daily.",
+   "ko": "뉴욕타임스에서 전해드리는 나탈리 키트로프의 '더 데일리'입니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 71.2,
+   "en": "The last week in Ukraine has been one of the most dire stretches the country has lived through in more than four years before.",
+   "ko": "지난 한 주 동안 우크라이나는 지난 4년여를 통틀어 가장 비참한 시기를 보냈습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 78.7,
+   "en": "After making an energy deal with Vladimir Putin, President Trump waived new sanctions on Russia and is now openly feuding with Ukraine's leader.",
+   "ko": "블라디미르 푸틴과 에너지 협상을 맺은 후, 트럼프 대통령은 러시아에 대한 새로운 제재를 유예했고 현재 우크라이나 지도자와 공개적으로 갈등을 빚고 있습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 89.3,
+   "en": "Russia is taking advantage of the moment by relentlessly striking Kyiv, killing civilians and cutting off power for more than a million people.",
+   "ko": "러시아는 이 틈을 타 키이우를 가차 없이 공격하며 민간인을 살해하고 백만 명 이상의 전기를 끊고 있습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 98.8,
+   "en": "Today, my colleague, Constant Méheut, on how the US-Ukraine relationship took a turn for the worse and why Putin is now so confident that Russia can bomb Ukraine into submission this winter.",
+   "ko": "오늘은 제 동료인 콘스탄 메외 기자와 함께 미국과 우크라이나의 관계가 어떻게 악화되었는지, 그리고 왜 푸틴이 올겨울 폭격으로 우크라이나를 굴복시킬 수 있다고 확신하는지 알아보겠습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 117.3,
+   "en": "It's Monday, October 19th. Constant, thank you for being here. It's wonderful to have you.",
+   "ko": "10월 19일 월요일입니다. 콘스탄, 와주셔서 감사합니다. 모시게 되어 기쁘네요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 128.3,
+   "en": "Thank you for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 129.9,
+   "en": "So last week on the show, we talked about this deal that was struck between President Trump and President Vladimir Putin of Russia for the U.S. to buy billions of dollars in diesel from Russia.",
+   "ko": "지난주 방송에서 우리는 트럼프 대통령과 러시아의 블라디미르 푸틴 대통령 사이에 체결된, 미국이 러시아로부터 수십억 달러어치의 디젤을 구매하기로 한 계약에 대해 이야기했습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 140.6,
+   "en": "Russia, and we started to think about how that deal might affect the war in Ukraine.",
+   "ko": "러시아, 그리고 우리는 그 계약이 우크라이나 전쟁에 어떤 영향을 미칠지 생각하기 시작했죠.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 146.3,
+   "en": "It seems as though we have started to see impacts almost immediately in the form of, on the one hand, the rift between President Trump and President Zelensky of Ukraine widening in public and Russia pounding Ukraine more and more aggressively.",
+   "ko": "그 영향이 거의 즉각적으로 나타나고 있는 것 같습니다. 한편으로는 트럼프 대통령과 우크라이나의 젤렌스키 대통령 사이의 균열이 공개적으로 커지고 있고, 러시아는 우크라이나를 더욱 공격적으로 몰아붙이고 있습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 165.6,
+   "en": "You're on the ground in Ukraine. So can you just orient us?",
+   "ko": "현재 우크라이나 현지에 계신데, 상황을 좀 짚어주시겠어요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 169.9,
+   "en": "Well, it's probably been one of the worst weeks in the Ukraine-US relationship since the war began more than four years ago.",
+   "ko": "글쎄요, 전쟁이 시작된 지 4년이 넘은 지금 우크라이나와 미국 관계에 있어 아마도 최악의 한 주였을 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 180.3,
+   "en": "Since Trump announced that diesel deal, the public exchange between him and Zelensky has really turned hot.",
+   "ko": "트럼프가 디젤 협상을 발표한 이후, 그와 젤렌스키 사이의 공개적인 설전은 정말 뜨거워졌습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 190.3,
+   "en": "Zelensky could have settled this war many times, many, many times.",
+   "ko": "젤렌스키는 이 전쟁을 여러 번, 정말 여러 번 해결할 수도 있었습니다.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 194.7,
+   "en": "Trump has come out publicly and blamed Zelensky for the current state of the war.",
+   "ko": "트럼프는 공개적으로 나서서 현재의 전쟁 상태를 젤렌스키 탓으로 돌렸습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 199.5,
+   "en": "And we told him, do whatever you want, but don't hit the diesel fuel.",
+   "ko": "그리고 우리는 그에게 말했습니다. 당신 마음대로 하되, 디젤 연료는 건드리지 말라고요.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 203.7,
+   "en": "He blamed him for the diesel crisis. And what does he do? He goes and hits the diesel fuel.",
+   "ko": "그는 그를 디젤 위기의 주범으로 지목했습니다. 그런데 그는 어떻게 했나요? 가서 디젤 연료를 타격했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 208.5,
+   "en": "And he said that Ukrainians should vote him out of office.",
+   "ko": "그리고 그는 우크라이나 국민들이 투표로 그를 물러나게 해야 한다고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 212.1,
+   "en": "And I think it's time for Ukraine to get a new president.",
+   "ko": "저는 우크라이나가 새로운 대통령을 맞이할 때가 되었다고 생각합니다.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 217.7,
+   "en": "Zelensky, at first, try to maintain some semblance of calm.",
+   "ko": "젤렌스키는 처음에 어느 정도 침착함을 유지하려 노력했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 222.3,
+   "en": "It's a big aggressor, Russia. Only unity can stop them.",
+   "ko": "러시아는 거대한 침략자입니다. 오직 단결만이 그들을 막을 수 있습니다.",
+   "speaker": "Volodymyr Zelensky"
+  },
+  {
+   "start": 226.2,
+   "en": "And of course, the United States and Europe can do it, of course, I'm sure. I'm sure I said to President, we can do it very quickly.",
+   "ko": "물론 미국과 유럽이 해낼 수 있습니다, 정말 확신합니다. 대통령께도 우리가 매우 신속하게 해낼 수 있다고 말씀드렸습니다.",
+   "speaker": "Volodymyr Zelensky"
+  },
+  {
+   "start": 235.8,
+   "en": "But then soon after, he said that Trump actually prefers to strike business deals with Moscow, that he has an affinity for autocrats, and that he felt betrayed.",
+   "ko": "하지만 얼마 지나지 않아 그는 트럼프가 실제로는 모스크바와 비즈니스 거래를 하는 것을 선호하며, 독재자들에게 친밀감을 느끼고 있고, 자신은 배신감을 느꼈다고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 247.4,
+   "en": "Do you feel betrayed by what has been happening?",
+   "ko": "지금 일어나고 있는 일들에 대해 배신감을 느끼시나요?",
+   "speaker": "Interviewer"
+  },
+  {
+   "start": 254.2,
+   "en": "Really, yes, really a bit of a shock.",
+   "ko": "정말로요, 네, 정말이지 약간 충격적입니다.",
+   "speaker": "Volodymyr Zelensky"
+  },
+  {
+   "start": 255.7,
+   "en": "So, pretty strong words.",
+   "ko": "정말 강도 높은 발언이군요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 261.5,
+   "en": "And those strong words come right at the time when Russia is actually expanding its bombing campaign on Ukraine, sending salvos of missiles and drones every other night and using that moment to just pressure Ukraine even more into submission.",
+   "ko": "그리고 그런 강한 발언들은 러시아가 실제로 우크라이나에 대한 폭격 공세를 확대하고, 밤마다 미사일과 드론 세례를 퍼부으며 우크라이나를 더욱 굴복시키려고 압박하는 바로 그 시점에 나왔습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 282.5,
+   "en": "And as far as I understand it, these have been some of the most severe bombing campaigns in the entire war.",
+   "ko": "제가 알기로는 이번 폭격이 전쟁 전체를 통틀어 가장 심각한 수준 중 하나였다고 하는데요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 288.2,
+   "en": "Right. Russia is sending dozens of missiles, hundreds of drones in a single attack overnight.",
+   "ko": "맞습니다. 러시아는 하룻밤 사이 단 한 번의 공격으로 수십 발의 미사일과 수백 대의 드론을 보내고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 294.8,
+   "en": "They're also targeting Ukraine during the day with plenty of drones.",
+   "ko": "그들은 낮 시간에도 수많은 드론으로 우크라이나를 타격하고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 299.4,
+   "en": "And in terms of civilian death, just in the first week of October, there were more than 100 civilians killed in Ukraine.",
+   "ko": "민간인 사망자 측면에서 보면, 10월 첫째 주에만 우크라이나에서 100명 이상의 민간인이 목숨을 잃었습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 306.8,
+   "en": "This is a level of civilian casualties that is among the highest that we've seen since the very first month of the war.",
+   "ko": "이것은 전쟁 첫 달 이후 우리가 목격한 가장 높은 수준의 민간인 사상자 수치 중 하나입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 316.8,
+   "en": "So with all this escalation, it sounds like really just in the past week we are seeing this war hitting Ukrainian cities and civilians on a scale that we haven't seen in a long time.",
+   "ko": "이 모든 에스컬레이션을 보면, 정말 지난 한 주 동안 우크라이나 도시와 민간인들이 오랫동안 보지 못했던 규모로 전쟁의 타격을 입고 있는 것처럼 들리네요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 330.6,
+   "en": "Yeah, well, for years you didn't really feel the war that much in cities away from the front like Kyiv where I live.",
+   "ko": "네, 사실 몇 년 동안 제가 살고 있는 키이우처럼 전선에서 떨어진 도시들에서는 전쟁을 그렇게 크게 체감하지 못했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 339.5,
+   "en": "I arrived there about three years ago and sure there were occasional attacks, but it was nothing like what we're seeing today and the real problems were hundreds of miles away at the front where Ukrainian forces were losing ground to the Russians slowly but steadily.",
+   "ko": "약 3년 전에 그곳에 도착했을 때 가끔 공격이 있긴 했지만 오늘날 우리가 보는 것과는 전혀 달랐고, 진짜 문제는 수백 마일 떨어진 전선에서 우크라이나군이 러시아군에게 서서히 그러나 꾸준히 영토를 잃고 있다는 점이었습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 358.2,
+   "en": "And now it's almost a complete opposite. Things are actually going pretty well for Ukraine at the front because they've managed to stop the Russian advances in some cases, the Ukraine forces are even launching successful counter-attacks.",
+   "ko": "그런데 이제는 거의 정반대가 되었습니다. 전선에서는 우크라이나가 러시아의 진격을 저지하고 어떤 경우에는 성공적인 반격을 가하고 있기 때문에 상황이 꽤 잘 돌아가고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 373.2,
+   "en": "But further back, behind the front, in cities like Kyiv, Odessa, things have become way more dangerous because of those Russian bombardments.",
+   "ko": "하지만 전선 뒤편인 키이우나 오데사 같은 도시들은 러시아의 폭격 때문에 훨씬 더 위험해졌습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 383.7,
+   "en": "Talk to me about that shift. When did this reversal that you're describing actually begin to take shape?",
+   "ko": "그 변화에 대해 더 말씀해 주세요. 당신이 설명하는 이 반전이 실제로 언제부터 구체화되기 시작했나요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 390.0,
+   "en": "It really began this past summer.",
+   "ko": "본격적으로 시작된 건 지난여름부터였습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 392.2,
+   "en": "So what you have to understand Natalie is that Russia has two main ways of attacking Ukraine with ballistic missiles and with drones and Ukraine began having a real problem in defending against both the missiles and the drones.",
+   "ko": "나탈리, 이해하셔야 할 점은 러시아가 탄도 미사일과 드론이라는 두 가지 주요 수단으로 우크라이나를 공격하고 있고, 우크라이나가 이 두 가지 모두를 방어하는 데 심각한 문제를 겪기 시작했다는 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 410.6,
+   "en": "The missiles it has essentially only one reliable way of defending against them, those are the US-made Patriot Air Defense systems that are supplied by the US, by Western allies, but they're rarely supplied at the moment because they're also needed elsewhere, especially because of the war in Iran.",
+   "ko": "미사일 방어에 있어서 우크라이나가 의존할 수 있는 유일한 방법은 미국과 서방 동맹국들이 공급하는 미국산 패트리어트 방공 시스템뿐인데, 지금은 특히 이란 전쟁 때문에 다른 곳에서도 필요하다 보니 공급이 거의 이루어지지 않고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 432.3,
+   "en": "And so Ukraine was pushed to the back of the queue.",
+   "ko": "그래서 우크라이나는 우선순위에서 밀려나게 된 것이죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 435.1,
+   "en": "Right, and these Patriot interceptors, this is like the only way to defend against a missile attack like this for Ukraine. So, suddenly, the entire country becomes very vulnerable.",
+   "ko": "그렇군요. 패트리어트 요격 미사일이 우크라이나가 이런 미사일 공격을 막아낼 수 있는 사실상 유일한 방법인데, 갑자기 나라 전체가 매우 취약해진 것이군요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 447.0,
+   "en": "Correct. And you can see it here from the ground by just hearing a lot more explosions at night, which is a sign that they're running short of interceptors.",
+   "ko": "맞습니다. 현지에서는 밤에 훨씬 더 많은 폭발음이 들리는 것만으로도 이를 실감할 수 있는데, 이는 요격 미사일이 부족하다는 신호입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 456.6,
+   "en": "That means huge jump in civilian death, far from the front, in cities including Kyiv and others that are hundreds of miles from the front.",
+   "ko": "이는 전선에서 수백 마일 떨어진 키이우를 포함한 도시들에서 민간인 사망자가 급증하고 있다는 것을 의미합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 465.2,
+   "en": "This is something we didn't see before. You also have attacks on warehouses, on companies, on ports, on ships that are destroying the Ukrainian economy and that are way more efficient at doing so than in the past.",
+   "ko": "예전에는 볼 수 없었던 현상입니다. 또한 창고, 기업, 항구, 선박에 대한 공격이 이어지면서 우크라이나 경제를 파괴하고 있는데, 그 효율성이 과거보다 훨씬 높아졌습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 480.0,
+   "en": "Do you have a sense of how many of those ballistic missiles are actually getting through?",
+   "ko": "탄도 미사일 중 실제로 몇 발이나 방어망을 뚫고 들어오는지 파악이 되나요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 484.9,
+   "en": "Yeah, at the beginning of the year, Ukraine was intercepting from 30 to 40 percent of the ballistic missiles. And that gave you a sense of safety, not great, but safer than nothing.",
+   "ko": "네, 올해 초만 해도 우크라이나는 탄도 미사일의 30~40%를 요격했습니다. 아주 훌륭하진 않아도 아무것도 없는 것보다는 안전하다는 느낌을 주었죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 498.7,
+   "en": "Now, Ukraine is intercepting about 10% at best. And some nights, they're not even intercepting any of them.",
+   "ko": "지금 우크라이나는 기껏해야 약 10% 정도만 요격하고 있습니다. 어떤 밤에는 단 한 발도 요격하지 못할 때도 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 506.2,
+   "en": "Well, on top of this, you have the issue of the drones. So Ukraine used to be really good at shooting down the traditional drones that Russia was sending.",
+   "ko": "게다가 드론 문제도 있습니다. 우크라이나는 원래 러시아가 보내는 전통적인 드론들을 격추하는 데 매우 능숙했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 519.0,
+   "en": "They would use a range of different weapons, machine guns, helicopters, short-range rockets.",
+   "ko": "기관총, 헬리콥터, 단거리 로켓 등 다양한 무기를 동원했죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 526.5,
+   "en": "But then Russia over the summer introduced a new class of drones which are called the jet power drones.",
+   "ko": "하지만 러시아가 지난여름부터 '제트 동력 드론'이라 불리는 새로운 등급의 드론을 도입했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 534.4,
+   "en": "Now, just to explain what this is about.",
+   "ko": "이것이 무엇인지 설명해 드리자면요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 537.7,
+   "en": "Yes, please do. What is a jet power drone?",
+   "ko": "네, 설명해 주세요. 제트 동력 드론이란 게 정확히 뭔가요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 541.0,
+   "en": "Yes. So up until now, Russia was using drones that were propeller driven, you know, the same way that you'd have like some sort of an old plane that's powered by propellers.",
+   "ko": "네, 지금까지 러시아는 프로펠러로 구동되는 구식 비행기처럼 프로펠러로 움직이는 드론을 사용해 왔습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 554.6,
+   "en": "Those new drones, they have jet engines, right? Like the ones that you'll find on a plane today.",
+   "ko": "그런데 이 새로운 드론들은 요즘 비행기에서 볼 수 있는 것과 같은 제트 엔진을 달고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 561.6,
+   "en": "So just so I'm clear, you literally mean that the drones had like propellers that moved like the way you would see on an old timey airplane and that the new ones have jet engines?",
+   "ko": "그러니까 예전 드론들은 옛날 비행기처럼 프로펠러가 달려 있었는데, 새 드론들은 제트 엔진을 장착했다는 말씀이신가요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 573.2,
+   "en": "Exactly. Some experts essentially say that those jet power drones are like small cruise missiles, right? Like they can fly at about 370 miles per hour and that is roughly three times faster than the older drones.",
+   "ko": "정확합니다. 일부 전문가들은 이 제트 동력 드론이 작은 순항 미사일과 같다고 말합니다. 시속 약 370마일로 비행할 수 있는데, 이는 기존 드론보다 약 3배나 빠른 속도입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 589.0,
+   "en": "Now, the issue for Ukraine is that the new jet power drones are just faster and incredibly hard to shoot down.",
+   "ko": "문제는 이 새로운 제트 동력 드론이 너무 빨라서 격추하기가 믿을 수 없을 정도로 어렵다는 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 597.7,
+   "en": "And so Ukraine today is trying to come up with a new type of interceptor drone, AI-guided, also jet-powered.",
+   "ko": "그래서 현재 우크라이나는 AI로 유도되는 제트 동력의 새로운 요격용 드론을 개발하려고 노력 중입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 608.7,
+   "en": "But these things take a long time to develop, and that technology isn't ready yet.",
+   "ko": "하지만 이런 것들을 개발하는 데는 오랜 시간이 걸리고, 아직 기술이 완성되지 않았습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 615.2,
+   "en": "Basically, you're describing a situation in which Ukraine has very little ability to defend against either missiles or drones and is left extremely vulnerable.",
+   "ko": "기본적으로 미사일이나 드론 어느 쪽도 방어할 능력이 거의 없어 우크라이나가 극도로 취약한 상태에 놓여 있다는 말씀이시군요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 625.2,
+   "en": "I assume you can feel that on the ground just being there, right?",
+   "ko": "현지에 계시면서 그 상황을 직접 체감하고 계시겠죠?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 630.2,
+   "en": "Yes, and it feels terrifying for residents of Kyiv, like me, like my New York Times colleagues here as well.",
+   "ko": "네, 저와 제 뉴욕타임스 동료들을 포함한 키이우 주민들에게는 정말 공포스러운 일입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 638.8,
+   "en": "That means hearing air raid alerts going off pretty much all the time, sometimes 10 hours, 15 hours a day, which over time also takes a toll on you, you're on edge, you're wondering whether you should run to a shelter every time that there's an air raid alert.",
+   "ko": "하루에 10시간, 15시간씩 거의 항상 공습경보가 울린다는 뜻인데, 시간이 지날수록 심리적으로 매우 힘듭니다. 항상 긴장 상태이고 경보가 울릴 때마다 대피소로 뛰어가야 할지 고민하게 되죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 655.1,
+   "en": "And for some people, whether you're also just going to be the next person and killed in one of these attacks.",
+   "ko": "그리고 어떤 사람들에게는 자신이 다음 공격의 희생자가 되지는 않을까 하는 공포를 의미하기도 합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 661.3,
+   "en": "If you're on the street of Kyiv during the day, you might actually hear the Jet Power drones flying over you. They sound like a bit like a plane, but you cannot see them.",
+   "ko": "낮에 키이우 거리에 있으면 머리 위로 제트 동력 드론이 날아가는 소리가 들릴 때가 있습니다. 비행기 소리와 비슷하게 들리지만 눈에는 보이지 않습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 671.3,
+   "en": "Wow.",
+   "ko": "세상에.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 671.6,
+   "en": "And so you're looking up the sky, trying to understand where it is, which to be honest is probably not very useful because they fly so fast that if they're coming towards you, you won't really have any time to realize it.",
+   "ko": "그래서 하늘을 올려다보며 드론이 어디 있는지 찾으려 애쓰지만, 솔직히 말해서 별로 소용이 없습니다. 너무 빨라서 당신을 향해 날아오고 있다는 걸 깨닫기도 전에 이미 도착해 있을 테니까요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 684.3,
+   "en": "And more and more people are spending their nights in shelters in subway stations to avoid being struck by those missiles.",
+   "ko": "그리고 미사일 공격을 피하기 위해 지하철역 대피소에서 밤을 지새우는 사람들이 점점 늘어나고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 691.3,
+   "en": "And when they emerge from those shelters in those subway stations early in the morning what they see is just the scenes of devastation really plumes of smoke rising into the sky as buildings and factories have been struck.",
+   "ko": "이른 아침 지하철역 대피소에서 나왔을 때 그들이 마주하는 것은 참혹한 광경입니다. 건물과 공장이 타격받아 하늘로 치솟는 연기 기둥들을 보게 되죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 705.4,
+   "en": "They see on their telephones pictures of dead bodies in courtyards it's really a terrifying new reality in Kyiv and in other cities.",
+   "ko": "휴대전화로 뜰에 방치된 시신 사진들을 봅니다. 이것이 키이우와 다른 도시들에서 벌어지고 있는 정말 끔찍한 새로운 현실입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 716.7,
+   "en": "Yeah, it sounds completely horrifying. And for the Russians, what do we know about how they're thinking about the long-term strategy behind all of this bombing that's been targeting civilian infrastructure?",
+   "ko": "정말 끔찍하게 들리네요. 그렇다면 러시아 측은 민간 기반 시설을 겨냥한 이 모든 폭격 이면의 장기적인 전략에 대해 어떻게 생각하고 있는지 알려진 바가 있나요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 730.7,
+   "en": "Well, we got more insights into this a couple of weeks ago when Ukraine got its hands on a Russian war plan, which it shared to its European partners, and we obtained a copy of this plan.",
+   "ko": "글쎄요, 몇 주 전 우크라이나가 입수해 유럽 파트너들과 공유한 러시아의 전쟁 계획안을 통해 더 많은 통찰을 얻을 수 있었습니다. 저희도 그 계획서 사본을 확보했고요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 744.1,
+   "en": "And the plan lays out very clearly how Russia wants to take this to the next level during the winter.",
+   "ko": "그 계획서에는 러시아가 겨울 동안 어떻게 이 공격을 다음 단계로 끌어올리려 하는지가 매우 명확하게 담겨 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 752.2,
+   "en": "Russia wants to make life miserable for the civilians. They want to strike thermal power plants, electricity substations, hydroelectric plants, boiler houses, you name it.",
+   "ko": "러시아는 민간인들의 삶을 비참하게 만들고 싶어 합니다. 화력 발전소, 변전소, 수력 발전소, 보일러실 등 거의 모든 시설을 타격하려 합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 763.9,
+   "en": "They want to use all kinds of weapons that they have in their arsenal to do that. The missiles, especially the ballistic missiles that Ukraine cannot intercept, the jet power drones and some guided bombs that have had devastating effects on cities.",
+   "ko": "그들은 이를 위해 무기고에 있는 온갖 무기를 동원하려 합니다. 우크라이나가 요격할 수 없는 미사일, 특히 탄도 미사일과 제트 동력 드론, 그리고 도시들에 파괴적인 영향을 미친 유도 폭탄들을 말이죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 778.7,
+   "en": "And do they say the Russians in these plans, what the goal of that would be? Are they explicit about it?",
+   "ko": "이 계획서에서 러시아인들이 그 목표가 무엇인지 말하고 있나요? 명시적으로 드러나 있습니까?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 786.2,
+   "en": "They do. They highlight three major cities in Ukraine, Kyiv, Kharkiv, in the East, and Odessa in the South that are homes to millions of people altogether.",
+   "ko": "네, 그렇습니다. 그들은 수백만 명이 살고 있는 우크라이나의 세 주요 도시인 키이우, 동부의 하르키우, 그리고 남부의 오데사를 강조하고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 797.6,
+   "en": "And they want to cut off electricity supplies for those cities by 90%, reduce heating supplies by up to 90% and severely disrupt the water distribution and sewage system in those cities.",
+   "ko": "그들은 이들 도시의 전력 공급을 90% 차단하고, 난방 공급을 최대 90%까지 줄이며, 수도 및 하수 시스템을 심각하게 마비시키려 합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 812.6,
+   "en": "And remember that this comes at a time when the harsh Ukrainian winter is about to begin. So if they're successful, it could create a terrible humanitarian crisis.",
+   "ko": "우크라이나의 혹독한 겨울이 막 시작되려는 시점이라는 점을 기억해야 합니다. 따라서 그들이 성공한다면 끔찍한 인도주의적 위기가 닥칠 수 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 823.2,
+   "en": "Essentially bombing Ukraine into a position of potentially needing to surrender, you're saying?",
+   "ko": "결과적으로 우크라이나가 항복할 수밖에 없는 상황으로 몰아넣기 위해 폭격을 퍼붓겠다는 말씀이시군요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 832.3,
+   "en": "Exactly. Forcing people to ask their own government to end the war now.",
+   "ko": "정확합니다. 국민들이 자국 정부에 당장 전쟁을 끝내라고 요구하게 만드는 것이죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 840.6,
+   "en": "And Moscow sees a real opportunity now because as all of this campaign is happening, they see the deterioration of the Trump-Zelensky relation, which Ukraine knows makes them really vulnerable at the moment.",
+   "ko": "그리고 모스크바는 지금이 절호의 기회라고 보고 있습니다. 이 모든 공세가 진행되는 동안 트럼프와 젤렌스키의 관계가 악화되는 것을 지켜보고 있고, 우크라이나도 이 때문에 자신들이 지금 매우 취약하다는 것을 알고 있기 때문입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 894.0,
+   "en": "Download the Times app today and get free access for 30 days.",
+   "ko": "지금 타임즈 앱을 다운로드하고 30일 동안 무료로 이용해 보세요.",
+   "speaker": "Ad",
+   "ad": true
+  },
+  {
+   "start": 899.6,
+   "en": "Okay, Constant. Explain how Ukraine sees this worsening relationship with the U.S. and with President Trump as creating new vulnerabilities right now.",
+   "ko": "알겠습니다, 콘스탄. 미국 및 트럼프 대통령과의 관계 악화가 현재 우크라이나에 어떤 새로운 취약점을 만들어내고 있다고 보는지 설명해 주시죠.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 910.0,
+   "en": "Well, there are a couple of vulnerabilities related to the U.S. that Ukraine is really worried about at the moment.",
+   "ko": "글쎄요, 현재 우크라이나가 정말 우려하고 있는 미국 관련 취약점이 몇 가지 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 918.0,
+   "en": "The first one is satellite internet access from Starlink, which is this network controlled by SpaceX created by Elon Musk.",
+   "ko": "첫 번째는 일론 머스크가 만든 스페이스X가 통제하는 네트워크인 스타링크 위성 인터넷 접속 문제입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 929.2,
+   "en": "Now we're all familiar with Starlink as a regular internet provider for millions of people across the world, but there's also a version that is used by militaries, which is called Starshield.",
+   "ko": "스타링크는 전 세계 수백만 명에게 인터넷을 제공하는 일반적인 서비스로 잘 알려져 있지만, '스타실드'라고 불리는 군용 버전도 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 942.1,
+   "en": "And Ukraine has access to it through a contract with the Pentagon.",
+   "ko": "그리고 우크라이나는 펜타곤과의 계약을 통해 이 서비스를 이용하고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 946.1,
+   "en": "And Ukraine uses Starshield for all kinds of military operations across the front.",
+   "ko": "우크라이나는 전선 전체에서 온갖 종류의 군사 작전에 스타실드를 사용합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 952.0,
+   "en": "We're talking about terminals that are mounted on cars for soldiers driving near the front, that are mounted on ground drones for logistical missions or on flying drones whenever Ukraine is using them to attack an enemy position.",
+   "ko": "전선 근처에서 주행하는 군용 차량이나 물자 보급용 지상 드론, 그리고 적 진지를 공격할 때 사용하는 비행 드론에 장착된 터미널들을 말합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 969.2,
+   "en": "So if you have connectivity dropping or simply getting disrupted, it really impacts operations across the entire front line.",
+   "ko": "따라서 연결이 끊기거나 방해를 받게 되면 전선 전체의 작전에 정말 큰 타격을 줍니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 980.6,
+   "en": "And do we have any indication that the US deliberately pulled access to Starshield?",
+   "ko": "미국이 의도적으로 스타실드에 대한 접근을 차단했다는 징후가 있나요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 986.8,
+   "en": "Well, the Ukrainian government clearly pointing the finger at SpaceX, which is Elon Musk's company saying that it imposed restrictions on the speed at which those terminals could be used.",
+   "ko": "글쎄요, 우크라이나 정부는 일론 머스크의 회사인 스페이스X가 터미널의 사용 속도에 제한을 두었다며 명확하게 지목하고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1001.3,
+   "en": "But then Elon Musk on X said that Starshield is not under SpaceX control, but is under the US government's control and that if anyone wanted to impose those restrictions, it would be the US government and specifically the president of the United States.",
+   "ko": "하지만 그 후 일론 머스크는 X를 통해 스타실드는 스페이스X의 통제하에 있는 것이 아니라 미국 정부의 통제하에 있으며, 만약 누군가 제한을 가하려 했다면 그것은 미국 정부, 특히 미국 대통령일 것이라고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1020.7,
+   "en": "And then on Sunday, President Zelensky went on NBC and said that the restrictions imposed on Starshield were a message being sent by the US government.",
+   "ko": "그리고 일요일에 젤렌스키 대통령은 NBC에 출연하여 스타실드에 가해진 제한은 미국 정부가 보내는 메시지라고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1034.3,
+   "en": "It's opinion of our generals, of our government, and of course my also opinion that it was the message from American government to limit this bit and technically SpaceX did it.",
+   "ko": "우리 장군들과 정부, 그리고 저의 의견 역시 이것이 미국 정부가 이 부분을 제한하라는 메시지였으며 기술적으로는 스페이스X가 수행했다는 것입니다.",
+   "speaker": "Volodymyr Zelensky"
+  },
+  {
+   "start": 1048.6,
+   "en": "So he made it very clear that in his view the US government were behind the throttling of Starshield.",
+   "ko": "즉, 그는 자신의 관점에서 미국 정부가 스타실드 속도 제한의 배후에 있다는 점을 분명히 한 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1055.3,
+   "en": "And what has the White House said?",
+   "ko": "백악관은 뭐라고 하던가요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1056.4,
+   "en": "Well, President Trump came out and denied that the White House was behind the throttling of Starshield and he said that he didn't think it was Elon Musk either.",
+   "ko": "트럼프 대통령은 백악관이 스타실드 속도 제한의 배후라는 사실을 부인했고, 일론 머스크의 소행도 아닐 것이라고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1069.0,
+   "en": "So it remains unclear who is really responsible for this.",
+   "ko": "그래서 실제로 누구에게 책임이 있는지는 여전히 불분명한 상태입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1073.6,
+   "en": "But then beyond just Starshield, there's another area that has Ukraine really concerned, which is issues that they've been experiencing with early warnings about ballistic missile attacks.",
+   "ko": "하지만 스타실드 외에도 우크라이나를 정말 우려하게 만드는 또 다른 분야가 있는데, 바로 탄도 미사일 공격에 대한 조기 경보에서 겪고 있는 문제입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1088.6,
+   "en": "Those early warnings, they come primarily from intelligence shared by the United States.",
+   "ko": "그러한 조기 경보는 주로 미국이 공유하는 정보에서 나옵니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1095.2,
+   "en": "That's because the US is the only country that has enough satellites to truly see things in real time.",
+   "ko": "상황을 실시간으로 정확히 파악할 수 있는 충분한 위성을 보유한 국가는 미국뿐이기 때문입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1103.4,
+   "en": "If the intelligence coming from those satellites is not shared with the Ukrainians, that means that the Ukrainians cannot warn their population about an incoming ballistic or cruise missile.",
+   "ko": "위성에서 보내오는 정보가 우크라이나에 공유되지 않으면, 우크라이나는 국민들에게 탄도 미사일이나 순항 미사일이 날아오고 있다는 경고를 보낼 수 없음을 의미합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1117.2,
+   "en": "And that poses a huge issue also for their air defense capabilities because it means they no longer have enough time to prepare their interceptors to shoot down the incoming missiles.",
+   "ko": "이는 또한 방공 능력에도 큰 문제를 일으키는데, 날아오는 미사일을 요격하기 위해 요격기를 준비할 시간이 더 이상 충분하지 않다는 뜻이기 때문입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1132.1,
+   "en": "And Ukraine is saying they are not receiving that kind of information, which they were receiving before.",
+   "ko": "우크라이나 측은 예전에는 받았던 그런 정보를 지금은 받지 못하고 있다고 주장하는 것이군요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1137.8,
+   "en": "Correct. For any kind of ballistic missile attack, Ukraine normally would receive intelligence from the US that it's coming.",
+   "ko": "맞습니다. 평소라면 어떤 종류의 탄도 미사일 공격이든 우크라이나는 미국으로부터 공격 징후에 대한 정보를 받았을 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1147.4,
+   "en": "But on two specific occasions, Ukraine said they did not receive intelligence about incoming ballistic missiles.",
+   "ko": "하지만 우크라이나는 두 번의 특정한 경우에 날아오는 탄도 미사일에 대한 정보를 받지 못했다고 말했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1154.8,
+   "en": "Now, it could also be a technical issue that has happened in the past, but again, President Zelensky has been clear that he believes intelligence sharing was actually deliberately curtailed for a brief period.",
+   "ko": "물론 과거에도 있었던 기술적 문제일 수도 있지만, 젤렌스키 대통령은 정보 공유가 짧은 기간 동안 의도적으로 축소되었다고 믿는다는 점을 분명히 했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1169.5,
+   "en": "And what does the administration say about that?",
+   "ko": "행정부 측은 그에 대해 뭐라고 합니까?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1171.9,
+   "en": "Well, the Trump administration completely denies this and says that the intelligence was still flowing to Ukraine.",
+   "ko": "트럼프 행정부는 이를 완전히 부인하며 정보는 여전히 우크라이나로 전달되고 있다고 말합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1180.2,
+   "en": "Now from the perspective of people in Kyiv, people like me living in the city, it was obviously very unusual what happened.",
+   "ko": "저처럼 키이우에 살고 있는 사람들의 입장에서는 이번에 일어난 일이 분명히 매우 이례적이었습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1189.3,
+   "en": "usually Natalie when you hear an air raid alert even for ballistic missile, you know that you have two, three minutes ahead of you, which you can use to go to a shelter if it's nearby or in my case, I'd go to my bathroom to a corridor.",
+   "ko": "나탈리, 보통 탄도 미사일에 대한 공습경보가 울리면 대피소로 가거나 저처럼 화장실 복도로 피신할 수 있는 2~3분 정도의 여유가 있다는 걸 알 수 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1202.6,
+   "en": "But this time, I hear the air raid alert and I barely have time to process it that I'm already hearing the explosion, the impact of the ballistic missile.",
+   "ko": "그런데 이번에는 공습경보 소리를 듣고 상황을 파악할 겨를도 없이 이미 탄도 미사일이 폭발하고 충격이 가해지는 소리가 들렸습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1212.5,
+   "en": "So scary.",
+   "ko": "정말 무서웠겠네요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1214.7,
+   "en": "Really scary, but also really unusual, and I immediately wondered, oh, what's happening now?",
+   "ko": "정말 무서웠고 또 정말 이례적인 일이라 '대체 무슨 일이 벌어지고 있는 거지?'라는 생각이 즉시 들었습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1220.6,
+   "en": "And what is the impact of these two things, kind of, you know, at a high level of Starshield access, being shaky, and of intelligence sharing, they say lapsing?",
+   "ko": "그러니까 스타실드 접근이 불안정해진 것과 그들이 말하는 정보 공유의 중단이라는 이 두 가지 사건이 미치는 영향은 무엇인가요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1232.6,
+   "en": "Well, first of all, I think we need to make something clear, which is that the lapses in intelligence sharing, or at least this is how the Ukrainians describe it, have happened only a couple of times.",
+   "ko": "우선, 정보 공유 중단 혹은 적어도 우크라이나 측에서 설명하는 이 문제는 단 몇 차례만 발생했다는 점을 분명히 할 필요가 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1246.9,
+   "en": "But the issues with Starshield, they seem to be dragging on.",
+   "ko": "하지만 스타실드 문제는 계속 길어지고 있는 것으로 보입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1251.2,
+   "en": "Ukrainian officials, including Zelensky on Sunday, were reporting some disruptions to the drones that are using Starshield at the front.",
+   "ko": "일요일 젤렌스키를 포함한 우크라이나 관리들은 전선에서 스타실드를 사용하는 드론들에 일부 장애가 발생했다고 보고했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1262.4,
+   "en": "Clearly the longer these disruptions continue, the harder it will be for the Ukrainian military.",
+   "ko": "이러한 장애가 오래 지속될수록 우크라이나 군은 더욱 힘들어질 것이 분명합니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1269.7,
+   "en": "You know, you could have entire military operations being called off, and this will also endanger cities like Kyiv, which will be even more defenseless against Russian drones.",
+   "ko": "군사 작전 전체가 취소될 수도 있고, 이는 러시아 드론에 대해 더욱 무방비 상태가 될 키이우 같은 도시들을 위험에 빠뜨릴 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1282.8,
+   "en": "And the one thing that's been interesting to hear from Ukrainian officials is that they say that disruptions lasting several days to the Starshield system just cannot be simply explained by technical issues.",
+   "ko": "우크라이나 관리들로부터 들은 흥미로운 점 하나는, 스타실드 시스템에 며칠 동안 지속되는 장애가 단순히 기술적 문제만으로는 설명될 수 없다고 말한다는 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1297.3,
+   "en": "It sounds like they see this as an intentional act, an intentional decision. And also a little bit of a stab in the back, to be honest.",
+   "ko": "그들은 이것을 의도적인 행위나 결정으로 보는 것 같습니다. 솔직히 말해서 배신감을 느끼는 분위기도 있고요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1304.8,
+   "en": "Ukraine sees this as a betrayal from the Trump administration because they've essentially agreed to the one demand that President Trump was making, which was that Ukraine should stop its strikes on the oil refineries.",
+   "ko": "우크라이나는 이를 트럼프 행정부의 배신으로 간주합니다. 그들은 우크라이나가 정유소 타격을 중단해야 한다는 트럼프 대통령의 단 한 가지 요구에 본질적으로 동의했기 때문입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1323.2,
+   "en": "They stopped the strikes for three days and said, we're happy to do that, but we need also Russia to stop the strikes on our own energy infrastructure.",
+   "ko": "그들은 사흘 동안 공습을 중단하며 그렇게 하겠다고 했지만, 러시아 역시 우리의 에너지 기반 시설에 대한 공격을 중단해야 한다고 요구했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1332.8,
+   "en": "Russia didn't stop. The White House did not react to Russia not doing anything.",
+   "ko": "러시아는 멈추지 않았습니다. 백악관은 러시아가 아무 조치도 취하지 않은 것에 대해 아무런 반응을 보이지 않았죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1338.5,
+   "en": "And so Ukraine is left thinking, well, what have we got in this? We're basically losing our main tool or main lever in this fight, which is striking the oil refineries.",
+   "ko": "그래서 우크라이나는 '우리가 얻은 게 뭐지?'라고 생각하게 된 겁니다. 기본적으로 이 싸움에서 우리의 주요 도구이자 수단인 정유소 타격 능력을 잃고 있는 셈이니까요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1351.2,
+   "en": "If we're being asked to stop without anything in return, we've got to just resume the strikes. That's our only lever, which is what they did starting from Thursday.",
+   "ko": "아무런 대가 없이 중단하라는 요구를 받는다면, 우리는 다시 공습을 재개할 수밖에 없습니다. 그것이 우리의 유일한 수단이니까요. 그래서 그들은 목요일부터 다시 공습을 시작했습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1362.5,
+   "en": "It feels like from everything you've said, Constant, Ukraine is really backed into a corner and there is a lot in Russia's favor at this point.",
+   "ko": "콘스탄, 당신의 말을 종합해 보면 우크라이나가 정말 막다른 골목에 몰려 있고 현재 상황은 러시아에게 매우 유리하게 돌아가고 있는 것 같네요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1373.1,
+   "en": "Ukraine has a very limited ability to defend itself. The relationship with Trump is really on the rocks.",
+   "ko": "우크라이나는 자국을 방어할 능력이 매우 제한적이고, 트럼프와의 관계도 정말 위태롭습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1380.7,
+   "en": "And all of that can only be helpful to the Kremlin strategy of trying to bomb this country, as you said, into submission.",
+   "ko": "그리고 그 모든 것들은 당신이 말했듯 이 나라를 폭격해 굴복시키려는 크렘린의 전략에 도움이 될 뿐이겠군요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1389.5,
+   "en": "So is Russia right to be confident that its strategy could work this winter?",
+   "ko": "그렇다면 러시아가 올겨울 자신의 전략이 통할 것이라고 자신하는 것이 일리가 있는 건가요?",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1397.3,
+   "en": "It is right that its strategy could work way more effectively than in the past winters, for a number of reasons.",
+   "ko": "몇 가지 이유 때문에 지난겨울들보다 그들의 전략이 훨씬 더 효과적으로 먹힐 수 있는 것은 맞습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1408.6,
+   "en": "They have more sophisticated weapons. The Ukrainians have a serious shortage of air defenses.",
+   "ko": "그들은 더 정교한 무기를 보유하고 있습니다. 반면 우크라이나인들은 방공망이 심각하게 부족한 상태이고요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1417.0,
+   "en": "And also the entire power grid has been weakened by four years of war, which means that a strike today on a power plant will cause more damage than a strike on a power plant two years ago, simply because you start from a different basis.",
+   "ko": "또한 4년간의 전쟁으로 전력망 전체가 약해졌기 때문에, 단순히 상황 자체가 다르기 때문에 2년 전보다 오늘날의 발전소 타격이 훨씬 더 큰 피해를 줄 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1437.6,
+   "en": "You know, the winter is coming, this is a cold country.",
+   "ko": "아시다시피 겨울이 다가오고 있고, 이곳은 추운 나라입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1441.3,
+   "en": "You have to imagine people living in apartments where it's freezing cold because the radiators do not work, where they don't have running water because the water distribution system has been knocked out...",
+   "ko": "라디에이터가 작동하지 않아 꽁꽁 얼어붙은 아파트에 살면서 수도 시스템 마비로 수돗물조차 나오지 않는 상황에서 사는 사람들을 상상해 보십시오.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1456.4,
+   "en": "and where they maybe do not have a shelter nearby to protect themselves from incoming missiles, which anyway they won't know about because there might not be air warnings.",
+   "ko": "게다가 근처에 날아오는 미사일로부터 자신을 보호할 대피소조차 없을 수도 있고, 공습 경보조차 울리지 않아 미사일이 오는 줄도 모를 수 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1470.4,
+   "en": "On top of this, you have strikes that are also destroying the economy of Ukraine. They are destroying steel plants which provides jobs to tens of thousands of people.",
+   "ko": "설상가상으로 우크라이나 경제를 파괴하는 공습도 이어지고 있습니다. 수만 명의 일자리를 제공하는 제철소들이 파괴되고 있고요.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1482.9,
+   "en": "They are targeting the export routes of Ukraine by blockading the ports in the southern Odessa region.",
+   "ko": "그들은 남부 오데사 지역의 항구들을 봉쇄함으로써 우크라이나의 수출 경로를 겨냥하고 있습니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1492.3,
+   "en": "And all of this means also less money for the Ukrainian budget, which means less money for the Ukrainian war effort.",
+   "ko": "이 모든 것은 우크라이나의 예산이 줄어든다는 것을 의미하며, 이는 곧 전쟁 수행에 쓸 수 있는 돈이 적어진다는 뜻입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1499.4,
+   "en": "And what do you do if you cannot buy enough weapons, if you cannot pay the salaries of your soldiers?",
+   "ko": "무기를 충분히 살 수 없고 병사들의 월급조차 줄 수 없게 된다면 어떻게 하겠습니까?",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1505.3,
+   "en": "So this is sort of a slow burn effort to wear down the entire country.",
+   "ko": "따라서 이것은 나라 전체를 서서히 소진시키려는 일종의 고사 작전입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1511.4,
+   "en": "Constant, just stepping back. If the story of this war has been Ukraine defying the odds, being overpowered and then innovating time and time again to hold Russia back.",
+   "ko": "콘스탄, 좀 더 넓게 보죠. 만약 이 전쟁의 역사가 우크라이나가 열세를 딛고, 압도적인 힘에 맞서 매번 혁신적인 방법으로 러시아를 저지해온 것이었다면 말이죠.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1524.0,
+   "en": "It really feels as though we're at a moment now in which if Russia's plan succeeds, if Russia is able to leave Ukrainian cities 90% without power in a country that experiences months and months of brutally cold temperatures.",
+   "ko": "하지만 지금 이 순간은 만약 러시아의 계획이 성공해서, 몇 달 동안 혹독한 추위가 계속되는 나라의 도시들 중 90%를 전력 없이 방치하게 된다면 상황이 달라질 것 같습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1543.9,
+   "en": "It's honestly difficult to see how even Ukraine can innovate its way out of this.",
+   "ko": "솔직히 말해서 우크라이나조차도 이번만큼은 혁신적인 방법으로 이 상황을 헤쳐 나가기가 어려워 보입니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1552.2,
+   "en": "This is a people that will carry on despite what happens. This is a place where people have been through four winters of war.",
+   "ko": "이들은 어떤 일이 있어도 계속 나아갈 사람들입니다. 이곳은 사람들이 전쟁의 겨울을 이미 네 번이나 겪어낸 곳이죠.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1561.8,
+   "en": "They know how to stock up on water. They know how to stock up on gas heaters, they also know how to develop innovative interceptors to shoot down new types of weapons, missiles, drones.",
+   "ko": "그들은 물을 비축하는 법을 알고, 가스 히터를 준비하는 법을 알며, 새로운 종류의 무기나 미사일, 드론을 격추하기 위해 혁신적인 요격기를 개발하는 방법도 압니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1576.1,
+   "en": "This is not a country that will capitulate because of this bombing campaign. Yet this is the only card that Russia has to play and wants to play.",
+   "ko": "이런 폭격 작전 때문에 굴복할 나라가 아닙니다. 하지만 이것이 현재 러시아가 가진 유일한 카드이자 사용하고 싶어 하는 카드입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1595.3,
+   "en": "When the time comes for negotiations to properly resume, if this strategy of Russia is successful, Ukraine will be at a weak position and will be forced into concessions that it wouldn't want to do today.",
+   "ko": "협상이 본격적으로 재개될 시점이 왔을 때, 만약 러시아의 이 전략이 성공한다면 우크라이나는 불리한 위치에 서게 될 것이고 지금으로서는 원치 않는 양보를 강요받게 될 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1617.4,
+   "en": "And even as Ukraine has shifted through the winter, if it continues into next year without full Western military and financial support, it will emerge weaker economically, militarily.",
+   "ko": "또한 우크라이나가 이번 겨울을 무사히 넘긴다 하더라도, 서방의 전폭적인 군사적, 재정적 지원 없이 내년까지 상황이 이어진다면 경제적으로나 군사적으로 더 약해진 모습으로 나타날 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1636.9,
+   "en": "This doesn't mean that this is the end of Ukraine. We're not looking right now at the end of the war, but we're looking at a kind of weakening that is potentially irreversible and that leaves Ukraine with very few options.",
+   "ko": "이것이 우크라이나의 끝을 의미하는 것은 아닙니다. 당장 전쟁이 끝날 것으로 보이지는 않지만, 어쩌면 되돌릴 수 없는 수준의 약화로 인해 우크라이나가 선택할 수 있는 옵션이 거의 남지 않게 될 상황을 보고 있는 것입니다.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1660.3,
+   "en": "Constant, thank you so much for your time. We really appreciate it.",
+   "ko": "콘스탄, 시간 내주셔서 정말 감사합니다. 진심으로 감사드려요.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1664.0,
+   "en": "Thank you, Natalie.",
+   "ko": "감사합니다, 나탈리.",
+   "speaker": "Constant Méheut"
+  },
+  {
+   "start": 1673.1,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 다시 돌아오겠습니다.",
+   "speaker": "Natalie Kitroeff",
+   "ad": true
+  },
+  {
+   "start": 1687.5,
+   "en": "I'm MJ Franklin and this week on the Book Review podcast we are talking with our New York Times staff book critics.",
+   "ko": "안녕하세요, MJ 프랭클린입니다. 이번 주 '북 리뷰' 팟캐스트에서는 뉴욕타임스의 도서 비평가들과 이야기를 나눠봅니다.",
+   "speaker": "MJ Franklin",
+   "ad": true
+  },
+  {
+   "start": 1694.5,
+   "en": "I felt this was a particularly good year for fiction and I felt lucky to be alive in reading. You know what? Anger is good, time to be angry.",
+   "ko": "올해는 소설 부문에 있어 특히 훌륭한 해였다고 생각하고, 독서를 하며 살 수 있어 운이 좋았다고 느낍니다. 그거 아세요? 분노는 좋은 것이고, 이제는 화를 낼 시간입니다.",
+   "speaker": "Book Critic",
+   "ad": true
+  },
+  {
+   "start": 1701.0,
+   "en": "Some of the sentences are just so startling, even though they're very simple. And what is more affected by artificial intelligence than the natural intelligence of books?",
+   "ko": "어떤 문장들은 아주 단순하면서도 정말 놀랍습니다. 인공지능보다 책이 가진 타고난 지능에 더 큰 영향을 받는 게 또 있을까요?",
+   "speaker": "Book Critic",
+   "ad": true
+  },
+  {
+   "start": 1710.2,
+   "en": "Listen to the book review wherever you get your podcasts.",
+   "ko": "어디서든 팟캐스트를 통해 '북 리뷰'를 들어보세요.",
+   "speaker": "MJ Franklin",
+   "ad": true
+  },
+  {
+   "start": 1716.6,
+   "en": "Here's what else you need to know today.",
+   "ko": "오늘 전해드릴 다른 소식들입니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1718.8,
+   "en": "Over the weekend, anti-government protests in France devolved into some of the worst riots the country's seen in decades.",
+   "ko": "지난 주말, 프랑스의 반정부 시위가 수십 년 만에 최악의 폭동으로 치달았습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1733.4,
+   "en": "Demonstrators caused widespread damage to national symbols in buildings across the country.",
+   "ko": "시위대는 전국 각지에서 국가 상징물과 건물들에 광범위한 피해를 입혔습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1738.1,
+   "en": "including a government tourist building in Lyon and a 19th century city hall in Limoges that was largely destroyed by a fire.",
+   "ko": "리옹의 정부 관광 건물과 화재로 대부분 소실된 리모주의 19세기 시청 건물이 포함되었습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1749.3,
+   "en": "2,400 people were arrested and nearly 1,000 police officers were injured.",
+   "ko": "2,400명이 체포되었고 약 1,000명의 경찰관이 부상을 입었습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1761.2,
+   "en": "By Sunday, when the violence and protests had largely subsided, French President Emmanuel Macron appealed for quote, order and calm.",
+   "ko": "폭력 사태와 시위가 대체로 진정된 일요일, 에마뉘엘 마크롱 프랑스 대통령은 '질서와 평온'을 호소했습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1770.5,
+   "en": "He said he would seek to lower gas prices, a key complaint from some protesters, but didn't offer any concrete concessions.",
+   "ko": "그는 일부 시위자들의 주요 불만 사항인 가스 가격 인하를 모색하겠다고 밝혔지만, 구체적인 양보안은 제시하지 않았습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1780.0,
+   "en": "And President Trump's new press secretary, Katie Zachariah, was forced out of her role on Friday after just five days on the job.",
+   "ko": "트럼프 대통령의 새로운 대변인인 케이티 재커라이아가 부임한 지 불과 5일 만인 금요일에 해임되었습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1788.9,
+   "en": "Zachariah got off to a rough start with her first and only press briefing last week in which she read largely off a script.",
+   "ko": "재커라이아는 지난주 자신의 처음이자 마지막이 된 언론 브리핑에서 대부분 원고만 읽는 등 불안한 출발을 보였습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1796.1,
+   "en": "And then she faced an onslaught of headlines about whether she misrepresented herself as a lawyer, even though she'd never passed the bar exam.",
+   "ko": "그 후 그녀는 변호사 시험에 합격한 적이 없음에도 불구하고 자신을 변호사로 허위 표기했는지에 대한 빗발치는 보도에 직면했습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1804.3,
+   "en": "Trump said that he told Zachariah to reconsider her job because she was being treated badly by the media...",
+   "ko": "트럼프는 재커라이아가 언론으로부터 부당한 대우를 받고 있기 때문에 그녀에게 직무를 재고하라고 말했다고 밝혔습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1809.3,
+   "en": "and also said that she might continue to work for him in quote, some form, but maybe a more pleasant form.",
+   "ko": "또한 그녀가 '어떤 형태'로든 자신을 위해 계속 일할 수도 있겠지만, 아마도 더 즐거운 형태가 될 것이라고 덧붙였습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1822.6,
+   "en": "Today's episode was produced by Shannon Lynn, Ricky Novetsky, Rachele Bonjour and Eric Krupke.",
+   "ko": "오늘 에피소드는 섀넌 린, 리키 노베츠키, 라켈 본주르, 그리고 에릭 크룹케가 제작했습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1828.9,
+   "en": "It was edited by Chris Haxsell with help from MJ Davis Lin and Annie Minnoff.",
+   "ko": "크리스 핵설이 편집을 맡았으며, MJ 데이비스 린과 애니 미노프가 도움을 주었습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1834.4,
+   "en": "Contains music by Dan Powell and Rowan Niemisto and was engineered by Chris Wood.",
+   "ko": "댄 파월과 로완 니에미스토의 음악이 포함되었고, 크리스 우드가 엔지니어링을 담당했습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1840.2,
+   "en": "Our theme music is by Wonderly. That's it for the Daily, I'm Natalie Kitroeff.",
+   "ko": "테마 음악은 원덜리(Wonderly)가 제작했습니다. 오늘 '더 데일리'는 여기까지입니다. 저는 나탈리 키트로프였습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1850.2,
+   "en": "See you tomorrow.",
+   "ko": "내일 뵙겠습니다.",
+   "speaker": "Natalie Kitroeff"
+  },
+  {
+   "start": 1859.7,
+   "en": "This week on The Wirecutter Show, New York Times Frugal Traveler joins us to share her best tips for cheap travel.",
+   "ko": "이번 주 '와이어커터 쇼'에서는 뉴욕타임스 '알뜰 여행가'가 출연해 저렴한 여행을 위한 최고의 팁을 공유합니다.",
+   "speaker": "Wirecutter Host",
+   "ad": true
+  },
+  {
+   "start": 1866.3,
+   "en": "I haven't found Costco Travel to be great for the other types of travel that you can book through them, but the cars are pretty sweet.",
+   "ko": "코스트코 트래블을 통해 예약할 수 있는 다른 유형의 여행이 딱히 훌륭하다고 보지는 않지만, 렌터카 서비스는 정말 괜찮아요.",
+   "speaker": "Frugal Traveler",
+   "ad": true
+  },
+  {
+   "start": 1872.4,
+   "en": "Yeah, that's true. I know people that have booked their honeymoon for it.",
+   "ko": "맞아요, 정말 그래요. 그걸로 신혼여행을 예약한 사람들도 알고 있거든요.",
+   "speaker": "Wirecutter Host",
+   "ad": true
+  },
+  {
+   "start": 1874.5,
+   "en": "You know, if all you want is like fly and flop, it's great for that. I like that.",
+   "ko": "그냥 비행기 타고 가서 푹 쉬는 게 목적이라면 최고죠. 저도 마음에 들어요.",
+   "speaker": "Frugal Traveler",
+   "ad": true
+  },
+  {
+   "start": 1881.1,
+   "en": "Find the Wirecutter Show on the New York Times app or wherever you listen.",
+   "ko": "뉴욕타임스 앱이나 즐겨 듣는 플랫폼에서 '와이어커터 쇼'를 찾아보세요.",
+   "speaker": "Wirecutter Host",
+   "ad": true
+  }
+ ]
+}
