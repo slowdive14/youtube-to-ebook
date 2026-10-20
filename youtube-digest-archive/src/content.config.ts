@@ -13,6 +13,10 @@ const issues = defineCollection({
                 title: z.string(),
                 channel: z.string(),
                 url: z.string(),
+                // Subject area (select_videos.DOMAINS) — the archive's
+                // category filter. Every article has one since the
+                // 2026-10-20 backfill; '' only if labelling failed.
+                category: z.string().optional().default(''),
                 // Per-episode summary — also served as read-aloud material
                 // to Velora via /api/reading.
                 summary: z.string().optional().default(''),

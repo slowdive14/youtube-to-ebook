@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
-from select_videos import select_diverse_videos
+from select_videos import select_diverse_videos, label_videos
 from write_articles import write_articles_bilingual, generate_speaking_prompt
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
@@ -165,6 +165,14 @@ def run(video_url=None):
             print("No new videos to process.")
             print("=" * 60)
             return
+
+        # Step 1d: Each article's subject area is its category on the archive
+        # site. Step 1c already labelled what it picked from; label the rest
+        # (days with nothing to drop, --url runs) in one request.
+        unlabeled = [v for v in new_videos if not v.get("domain")]
+        if unlabeled:
+            print(f"\n[STEP 1d] Labelling {len(unlabeled)} video(s) by subject...")
+            label_videos(unlabeled)
 
         print(f"\n  -> {len(new_videos)} new video(s) to process\n")
 

@@ -13,6 +13,7 @@ from select_videos import (
     parse_domains,
     _heuristic_domain,
     classify_videos,
+    label_videos,
     select_diverse_videos,
 )
 
@@ -98,6 +99,46 @@ class TestClassifyVideos:
     def test_empty_input(self):
         assert classify_videos([]) == []
 
+    def test_without_fallback_a_missing_label_stays_empty(self):
+        # The archive backfill must not write a keyword guess in for good.
+        videos = [vid("AI agents"), vid("The war in Ukraine, explained")]
+        with patch("write_articles.client.models.generate_content",
+                   return_value=fake_response('{"videos":[{"index":0,"domain":"technology"}]}')):
+            assert [d for _, d in classify_videos(videos, fallback=False)] == ["technology", None]
+
+    def test_without_fallback_an_api_failure_labels_nothing(self):
+        videos = [vid("GPT-5 explained")]
+        with patch("write_articles.client.models.generate_content", side_effect=RuntimeError("503")):
+            assert [d for _, d in classify_videos(videos, fallback=False)] == [None]
+
+    def test_sends_the_summary_opening_and_the_chosen_model(self):
+        v = vid("Why we can't see progress")
+        v["summary"] = "A conversation about   economic growth\nand why it feels invisible. " + "x" * 500
+        with patch("write_articles.client.models.generate_content",
+                   return_value=fake_response(domains_json("business"))) as call:
+            classify_videos([v], model="gemini-3.5-flash")
+        kwargs = call.call_args.kwargs
+        assert kwargs["model"] == "gemini-3.5-flash"
+        assert "A conversation about economic growth and why it feels invisible." in kwargs["contents"]
+        assert "x" * 300 not in kwargs["contents"]  # only the opening goes in
+
+
+# ---------- label_videos ----------
+
+class TestLabelVideos:
+    def test_records_the_domain_on_each_video(self):
+        videos = [vid("AI agents"), vid("A sleep study")]
+        with patch("write_articles.client.models.generate_content",
+                   return_value=fake_response(domains_json("technology", "health"))):
+            label_videos(videos)
+        assert [v["domain"] for v in videos] == ["technology", "health"]
+
+    def test_falls_back_to_keywords_so_every_article_has_one(self):
+        videos = [vid("GPT-5 explained")]
+        with patch("write_articles.client.models.generate_content", side_effect=RuntimeError("down")):
+            label_videos(videos)
+        assert videos[0]["domain"] == "technology"
+
 
 # ---------- select_diverse_videos ----------
 
@@ -108,6 +149,13 @@ class TestSelectDiverseVideos:
                    return_value=fake_response(domains_json("technology", "technology", "culture", "health"))):
             kept = select_diverse_videos(videos, limit=3)
         assert [v["title"] for v in kept] == ["AI agents", "A jazz history", "Sleep study"]
+
+    def test_keeps_the_label_on_the_video_for_the_archive(self):
+        videos = [vid("AI agents"), vid("More AI news"), vid("A jazz history")]
+        with patch("write_articles.client.models.generate_content",
+                   return_value=fake_response(domains_json("technology", "technology", "culture"))):
+            kept = select_diverse_videos(videos, limit=2)
+        assert [v["domain"] for v in kept] == ["technology", "culture"]
 
     def test_prefers_spread_over_the_channel_order(self):
         # The second video would win on order alone; it loses because its

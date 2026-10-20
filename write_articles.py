@@ -815,6 +815,8 @@ def write_articles_for_videos(videos, language='en', detailed=False):
                 "title": video["title"],
                 "channel": video["channel"],
                 "url": video["url"],
+                # Subject area from Step 1c/1d — the archive's category
+                "category": video.get("domain") or "",
                 "article": article,
                 "summary": summary or "",
                 "section_summaries": section_summaries,

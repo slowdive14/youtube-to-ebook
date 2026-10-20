@@ -140,6 +140,8 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
             f'    channel: "{_escape_yaml(a["channel"])}"\n'
             f'    url: "{a["url"]}"'
         )
+        if a.get("category"):
+            entry += f'\n    category: "{a["category"]}"'
         summary = (a.get("summary") or "").strip()
         if summary:
             # YAML folded scalar: single newlines become spaces, blank lines

@@ -84,6 +84,14 @@ The channel list yields 6-9 new videos a day, which is more reading than anyone 
 - Falls back to a keyword heuristic (`_heuristic_domain`) if the API call fails, so the digest never dies on a classification error.
 - Unselected videos are **not** marked processed, so they stay eligible until their channel posts something newer and can appear on a slower day.
 
+### Article Categories (archive filter)
+The archive's index has category chips (AI·기술 / 정치·국제 / 경제·비즈니스 / 문화·사회 / 심리·건강 / 과학 / 기타) that narrow the list — and the section-level search — to one subject's episodes. Categories are the **same seven subject areas Step 1c uses** (`select_videos.DOMAINS`); labels and chip order live in `src/config.ts` `CATEGORIES`.
+- **Costs no new request type.** Step 1c already labels every video it looks at; the label is now kept as `video["domain"]` → `article["category"]` → frontmatter `articles[].category`. On days with nothing to drop (≤ `MAX_ARTICLES_PER_DAY` new videos) and `--url` runs, **Step 1d** (`label_videos`) labels them in one request — the same 1 classification already in the daily budget.
+- Categories are per **episode**, not per issue: an issue mixes subjects on purpose (that's what Step 1c is for). The index renders every episode, hides those past the 4-line preview, and a chip shows all of a card's matching episodes. `search-index.json` items carry `a` (the episode's position in `articles`, found from the `> Based on **"…"**` / `기반 기사` attribution quotes) so section hits are filtered by category too.
+- The chosen chip is kept in `?cat=` so a filtered list can be linked.
+- Old issues: `py scripts/backfill_categories.py` (default `--model gemini-3.5-flash`, 80 articles per request — the whole archive of 434 was 6 requests on 2026-10-20). It only adds/replaces `category:` lines, skips articles that have one (`--force` to redo), and leaves an article unlabelled rather than writing a keyword guess (`classify_videos(..., fallback=False)`).
+- `health` covers psychology and mental health (the prompt says so), which is most of what lands there — hence the label 심리·건강.
+
 ### Summary-First Reading (archive site)
 An issue is 6 episodes × 2 languages, so the full text is far too long to scroll. Every section therefore shows **only a one-line summary**; clicking it opens the full text. Reading the summary lines top-to-bottom is meant to convey the whole issue — that's the contract the generation prompt is written against.
 - **Generation**: `write_articles.generate_section_summaries(article_md, language)` — one Gemini call per article returning `{heading: summary}`. Stored on `article['section_summaries']`.

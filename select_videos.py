@@ -11,6 +11,9 @@ on the same news cycle. Classification is one Gemini call on titles alone,
 before transcripts are fetched, so a dropped video costs nothing beyond that
 call. If it fails we fall back to a keyword heuristic rather than dropping the
 digest.
+
+The label is kept on the video as video["domain"] and becomes the article's
+category on the archive site, so browsing by subject costs no extra request.
 """
 
 import sys
@@ -111,19 +114,31 @@ def parse_domains(text, count):
     return out
 
 
-def classify_videos(videos):
+# Enough of an episode summary to settle an ambiguous title ("Why we can't see
+# progress") without making a 100-video backfill request heavy.
+_SUMMARY_CHARS = 240
+
+
+def _listing_line(i, video):
+    line = f'{i}. "{video.get("title", "")}" — {video.get("channel", "")}'
+    summary = " ".join((video.get("summary") or "").split())
+    if summary:
+        line += f" — {summary[:_SUMMARY_CHARS]}"
+    return line
+
+
+def classify_videos(videos, model='gemini-2.5-flash', fallback=True):
     """Label every video with a subject area.
 
-    Returns [(video, domain)] in the input order, falling back to the keyword
-    heuristic for any video the model didn't label.
+    Returns [(video, domain)] in the input order. A video the model didn't
+    label gets the keyword heuristic's guess — or None with fallback=False,
+    which the archive backfill uses so a guess never gets written in for good.
+    A video's "summary", when it has one, goes in alongside its title.
     """
     if not videos:
         return []
 
-    listing = "\n".join(
-        f'{i}. "{v.get("title", "")}" — {v.get("channel", "")}'
-        for i, v in enumerate(videos)
-    )
+    listing = "\n".join(_listing_line(i, v) for i, v in enumerate(videos))
 
     labels = {}
     try:
@@ -131,10 +146,11 @@ def classify_videos(videos):
         from write_articles import client, _log_usage_metadata
 
         response = client.models.generate_content(
-            model='gemini-2.5-flash',
+            model=model,
             contents=CLASSIFY_PROMPT.format(listing=listing),
             config=types.GenerateContentConfig(
-                max_output_tokens=1000,
+                # ~15 tokens per row; a backfill sends dozens at once
+                max_output_tokens=max(1000, 30 * len(videos)),
                 temperature=0.1,
                 response_mime_type='application/json',
                 thinking_config=types.ThinkingConfig(thinking_budget=0),
@@ -143,9 +159,24 @@ def classify_videos(videos):
         _log_usage_metadata(response, label='Video-classify')
         labels = parse_domains(response.text or "", len(videos))
     except Exception as e:
-        print(f"  [!] Domain classification failed ({e}); using keyword fallback")
+        hint = "; using keyword fallback" if fallback else ""
+        print(f"  [!] Domain classification failed ({e}){hint}")
 
+    if not fallback:
+        return [(v, labels.get(i)) for i, v in enumerate(videos)]
     return [(v, labels.get(i) or _heuristic_domain(v)) for i, v in enumerate(videos)]
+
+
+def label_videos(videos):
+    """Record each video's subject area on it as video["domain"].
+
+    The archive shows it as the article's category. select_diverse_videos
+    labels the videos it looks at; this covers the runs where it has nothing
+    to drop (and --url runs), so every article gets a category — one request.
+    """
+    for video, domain in classify_videos(videos):
+        video["domain"] = domain
+    return videos
 
 
 def select_diverse_videos(videos, limit=None):
@@ -164,6 +195,8 @@ def select_diverse_videos(videos, limit=None):
         return list(videos)
 
     classified = classify_videos(videos)
+    for video, domain in classified:
+        video["domain"] = domain
 
     kept = []
     used_domains = set()

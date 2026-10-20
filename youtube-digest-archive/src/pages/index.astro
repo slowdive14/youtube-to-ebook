@@ -2,7 +2,7 @@
 // src/pages/index.astro
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { FEATURES } from '../config';
+import { FEATURES, CATEGORIES, categoryLabel } from '../config';
 
 const rawIssues = await getCollection('issues');
 const issues = rawIssues.sort((a, b) => {
@@ -15,10 +15,24 @@ const issueDay = (date: string | Date): string =>
 	date instanceof Date ? date.toISOString().slice(0, 10) : String(date).slice(0, 10);
 
 // Episodes shown on a card. Enough to tell what's inside without turning the
-// list into a wall — the rest are summarised as "+N편".
+// list into a wall — the rest are summarised as "+N편". A category filter
+// shows every matching episode, extras included.
 const PREVIEW = 4;
 
 const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0), 0);
+
+// One chip per category that has any episodes, counted in episodes: an issue
+// mixes subjects on purpose, so "N issues" would say little.
+const catCounts = new Map<string, number>();
+for (const issue of issues) {
+	for (const a of issue.data.articles ?? []) {
+		if (a.category) catCounts.set(a.category, (catCounts.get(a.category) ?? 0) + 1);
+	}
+}
+const chips = CATEGORIES.filter((c) => catCounts.has(c.id)).map((c) => ({
+	...c,
+	count: catCounts.get(c.id) ?? 0,
+}));
 ---
 
 <BaseLayout title="YouTube Digest — 아카이브">
@@ -44,6 +58,18 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 				/>
 				<button type="button" class="search-clear" id="search-clear" hidden aria-label="검색어 지우기">&times;</button>
 			</div>
+			{chips.length > 0 && (
+				<nav class="cat-filter" aria-label="카테고리">
+					<button type="button" class="cat-chip" data-cat="" aria-pressed="true">
+						전체 <span class="cat-count">{totalEpisodes}</span>
+					</button>
+					{chips.map((c) => (
+						<button type="button" class="cat-chip" data-cat={c.id} data-label={c.label} aria-pressed="false">
+							<span class="cat-dot" aria-hidden="true"></span>{c.label} <span class="cat-count">{c.count}</span>
+						</button>
+					))}
+				</nav>
+			)}
 			<p class="search-status" id="search-status" aria-live="polite"></p>
 		</>
 	)}
@@ -65,24 +91,24 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 						day: 'numeric',
 					});
 					const articles = issue.data.articles ?? [];
-					const preview = articles.slice(0, PREVIEW);
-					const rest = articles.length - preview.length;
+					const rest = articles.length - Math.min(articles.length, PREVIEW);
 					const hasAudio = FEATURES.audio && (issue.data.audioUrls?.length ?? 0) > 0;
 
-					// One lowercased haystack per card — 87 cards filter instantly
-					// in the browser, so there's no index to build or ship.
-					const haystack = [
-						issue.data.subject,
-						day,
-						formattedDate,
-						...articles.map((a) => `${a.title} ${a.channel} ${a.summary ?? ''}`),
-					]
-						.join(' ')
-						.toLowerCase();
+					// Lowercased haystacks, filtered in the browser — no index to
+					// build or ship. The card's covers the issue as a whole; each
+					// episode carries its own so a category filter can skip the
+					// other episodes' text.
+					const haystack = [issue.data.subject, day, formattedDate].join(' ').toLowerCase();
 
 					return (
 						<li>
-							<a href={`/issues/${issue.id}`} class="issue-card" data-search={haystack} data-slug={issue.id}>
+							<a
+								href={`/issues/${issue.id}`}
+								class="issue-card"
+								data-search={haystack}
+								data-slug={issue.id}
+								data-cats={articles.map((a) => a.category).join('|')}
+							>
 								<div class="issue-card-top">
 									<span class="issue-date">{formattedDate}</span>
 									{index === 0 && <span class="issue-flag is-new">최신호</span>}
@@ -91,12 +117,18 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 
 								<h2 class="issue-title">{issue.data.subject}</h2>
 
-								{preview.length > 0 && (
+								{articles.length > 0 && (
 									<ol class="issue-contents">
-										{preview.map((a, i) => (
-											<li>
+										{articles.map((a, i) => (
+											<li
+												class={i >= PREVIEW ? 'is-extra' : undefined}
+												hidden={i >= PREVIEW}
+												data-cat={a.category || undefined}
+												data-search={`${a.title} ${a.channel} ${a.summary ?? ''}`.toLowerCase()}
+											>
 												<span class="ep-num">{String(i + 1).padStart(2, '0')}</span>
 												<span class="ep-title">{a.title}</span>
+												{a.category && <span class="ep-cat">{categoryLabel(a.category)}</span>}
 												<span class="ep-channel">{a.channel}</span>
 											</li>
 										))}
@@ -106,7 +138,7 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 								<div class="issue-meta">
 									{articles.length > 0 && (
 										<span class="badge">
-											에피소드 {articles.length}편{rest > 0 && ` · 그 외 ${rest}편 더`}
+											에피소드 {articles.length}편{rest > 0 && <span data-rest>{` · 그 외 ${rest}편 더`}</span>}
 										</span>
 									)}
 									{issue.data.speakingPrompt && <span class="badge">오늘의 한 마디</span>}
@@ -150,11 +182,14 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 
 <script>
 	// Search runs in two layers so typing is never blocked:
-	//   1. Card level, instantly, from each card's inline haystack.
+	//   1. Card level, instantly, from the inline haystacks.
 	//   2. Section level, once /search-index.json arrives — ~4,700 headings
 	//      with their summaries, in both languages, each linking straight to
 	//      its anchor. Too big to inline, so it's prefetched the moment the
 	//      box is focused (and on idle), long before anyone finishes typing.
+	// The category chips narrow both layers to one subject's episodes, and
+	// the choice lives in ?cat= so a filtered list can be linked and survives
+	// the back button.
 	document.addEventListener('DOMContentLoaded', () => {
 		const input = document.getElementById('issue-search') as HTMLInputElement | null;
 		const clear = document.getElementById('search-clear');
@@ -163,7 +198,7 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 		const list = document.getElementById('issue-list');
 		if (!input || !list) return;
 
-		type Item = { s: string; t: string; d: string; l: number };
+		type Item = { s: string; t: string; d: string; l: number; a?: number };
 		type Entry = { id: string; subject: string; items: Item[] };
 
 		const items = Array.from(list.querySelectorAll<HTMLAnchorElement>('.issue-card')).map((card) => {
@@ -174,11 +209,19 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 				row,
 				id: card.dataset.slug || '',
 				hay: card.dataset.search || '',
+				cats: (card.dataset.cats || '').split('|'),
+				eps: Array.from(card.querySelectorAll<HTMLElement>('.issue-contents > li')),
+				rest: card.querySelector<HTMLElement>('[data-rest]'),
 				title,
 				titleText: title?.textContent || '',
 				hits: row.querySelector('.issue-hits') as HTMLElement,
 			};
 		});
+
+		const chips = Array.from(document.querySelectorAll<HTMLButtonElement>('.cat-chip'));
+		const known = new Set(chips.map((c) => c.dataset.cat || ''));
+		let cat = new URLSearchParams(location.search).get('cat') || '';
+		if (!known.has(cat)) cat = '';
 
 		let index: Map<string, Item[]> | null = null;
 		let loading = false;
@@ -231,12 +274,21 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 
 		const MAX_HITS = 4;
 
-		function paintHits(item: (typeof items)[number], term: string) {
+		/** Sections of this issue matching `term`, limited to the chosen
+		 *  category's episodes. A section whose episode is unknown (a = -1)
+		 *  is kept — the card itself already passed the category check. */
+		function sectionHits(item: (typeof items)[number], term: string): Item[] {
+			if (!term || !index) return [];
+			return (index.get(item.id) || []).filter((x) => {
+				if (!x.t.toLowerCase().includes(term) && !x.d.toLowerCase().includes(term)) return false;
+				const a = x.a ?? -1;
+				return !cat || a < 0 || item.cats[a] === cat;
+			});
+		}
+
+		function paintHits(item: (typeof items)[number], term: string, found: Item[]) {
 			const box = item.hits;
 			if (!box) return;
-			const found = term && index ? (index.get(item.id) || []).filter(
-				(x) => x.t.toLowerCase().includes(term) || x.d.toLowerCase().includes(term)
-			) : [];
 
 			if (found.length === 0) {
 				box.hidden = true;
@@ -266,38 +318,71 @@ const totalEpisodes = issues.reduce((n, i) => n + (i.data.articles?.length ?? 0)
 			const term = raw.toLowerCase();
 			let shown = 0;
 			let hitCount = 0;
+			let epCount = 0;
 
 			for (const item of items) {
-				const sectionHits =
-					term && index
-						? (index.get(item.id) || []).filter(
-								(x) => x.t.toLowerCase().includes(term) || x.d.toLowerCase().includes(term)
-							).length
-						: 0;
-				const match = !term || item.hay.includes(term) || sectionHits > 0;
+				const catEps = cat ? item.eps.filter((li) => li.dataset.cat === cat) : item.eps;
+				const found = sectionHits(item, term);
+				const match =
+					catEps.length > 0 &&
+					(!term ||
+						(!cat && item.hay.includes(term)) ||
+						catEps.some((li) => (li.dataset.search || '').includes(term)) ||
+						found.length > 0);
 
 				item.row.hidden = !match;
 				if (!match) continue;
 
 				shown++;
-				hitCount += sectionHits;
+				hitCount += found.length;
+				epCount += catEps.length;
+				for (const li of item.eps) {
+					li.hidden = cat ? li.dataset.cat !== cat : li.classList.contains('is-extra');
+				}
+				if (item.rest) item.rest.hidden = !!cat;
 				if (item.title) {
 					item.title.innerHTML = term ? mark(item.titleText, term) : esc(item.titleText);
 				}
-				paintHits(item, term);
+				paintHits(item, term, found);
 			}
 
 			if (clear) clear.hidden = !raw;
-			if (empty) empty.hidden = shown > 0 || !raw;
+			if (empty) empty.hidden = shown > 0 || (!raw && !cat);
 			if (status) {
+				const chip = chips.find((c) => (c.dataset.cat || '') === cat);
+				const label = cat && chip ? esc(chip.dataset.label || '') : '';
 				if (!raw) {
-					status.innerHTML = '';
+					status.innerHTML = label ? `${label} · 에피소드 <b>${epCount}</b>편` : '';
 				} else {
 					const detail = hitCount > 0 ? ` · 본문 ${hitCount}곳` : index ? '' : ' · 본문 검색 준비 중…';
-					status.innerHTML = `<b>${shown}</b>개 호${detail}`;
+					status.innerHTML = `${label ? `${label} · ` : ''}<b>${shown}</b>개 호${detail}`;
 				}
 			}
 		}
+
+		function setCategory(next: string) {
+			cat = next;
+			// A card's headline is its first episode's title, often another
+			// subject's — under a filter the matching episodes take its place.
+			list!.classList.toggle('is-filtered', !!cat);
+			for (const chip of chips) {
+				chip.setAttribute('aria-pressed', String((chip.dataset.cat || '') === cat));
+			}
+			const url = new URL(location.href);
+			if (cat) url.searchParams.set('cat', cat);
+			else url.searchParams.delete('cat');
+			history.replaceState(history.state, '', url);
+			run();
+		}
+
+		for (const chip of chips) {
+			chip.addEventListener('click', () => {
+				const next = chip.dataset.cat || '';
+				// Pressing the active chip again goes back to everything.
+				setCategory(next === cat ? '' : next);
+			});
+		}
+		if (cat) setCategory(cat);
 
 		// No debounce: this is a few thousand substring checks, cheaper than
 		// the frame a rAF would wait for.
