@@ -1,0 +1,1843 @@
+{
+ "id": "pod-a836277ad349",
+ "title": "Are Private Equity Firms Plundering the U.S. Economy? (Update)",
+ "show": "Freakonomics Radio",
+ "channel": "Freakonomics Radio + Stitcher",
+ "videoUrl": "",
+ "audioUrl": "https://mgln.ai/e/2/pdst.fm/e/dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/ba033623-4d2f-483b-8b11-2620ffa44371/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=ba033623-4d2f-483b-8b11-2620ffa44371&feed=Y8lFbOT4",
+ "imageUrl": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
+ "duration": 2885,
+ "releaseDate": "2026-10-22T16:50:00.000Z",
+ "addedAt": "2026-10-22",
+ "segments": [
+  {
+   "start": 3.0,
+   "en": "Hey there, it's Stephen Dubner. We recently published an episode featuring David Rubenstein, co-founder of the Carlisle Group, which is one of the biggest and most influential private equity firms in the world.",
+   "ko": "안녕하세요, 스티븐 더브너입니다. 저희는 최근 세계에서 가장 크고 영향력 있는 사모펀드 회사 중 하나인 칼라일 그룹의 공동 창립자 데이비드 루벤스타인과 함께한 에피소드를 공개했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 14.3,
+   "en": "Today, we are replaying for you an episode we made in 2023 about that industry. It's called our private equity firms plundering the US economy.",
+   "ko": "오늘은 2023년에 제작했던 사모펀드 업계에 관한 에피소드를 다시 들려드리려고 합니다. 제목은 '사모펀드 회사들이 미국 경제를 약탈하고 있는가?'입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 23.8,
+   "en": "It features a couple of pretty revealing stories about Carlisle. We have updated facts and figures as necessary.",
+   "ko": "이 에피소드에는 칼라일에 관한 꽤 충격적인 이야기들이 몇 가지 포함되어 있습니다. 필요한 경우 사실관계와 수치를 최신으로 업데이트했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 30.1,
+   "en": "If you have an idea for an episode or just want to let us know what you're thinking, our email is radio at Freakonomics.com. As always, thanks for listening.",
+   "ko": "에피소드에 대한 아이디어가 있거나 의견을 나누고 싶으시다면 radio@freakonomics.com으로 이메일을 보내주세요. 언제나 그렇듯, 청취해 주셔서 감사합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 53.9,
+   "en": "This is Freakonomics Radio, the podcast that explores the hidden side of everything with your host Stephen Dubner.",
+   "ko": "스티븐 더브너의 진행으로 세상만사의 숨겨진 이면을 파헤치는 팟캐스트, 프리코노믹스 라디오입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 71.7,
+   "en": "This is a story about what some people call piracy. These people with only dollar signs as their goal plundered something really wonderful.",
+   "ko": "이것은 일부 사람들이 해적 행위라고 부르는 것에 관한 이야기입니다. 오직 달러 표시만을 목표로 삼은 이들이 정말 멋진 무언가를 약탈했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 84.4,
+   "en": "And where is this so-called piracy happening? It's everywhere.",
+   "ko": "그리고 소위 말하는 이 해적 행위는 어디서 일어나고 있을까요? 바로 도처에 깔려 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 89.0,
+   "en": "It is possibly your kid's schools could be your employer, could be the mortgage on your house, missile defense systems, it's everywhere.",
+   "ko": "아마 여러분 자녀의 학교일 수도 있고, 여러분의 직장이나 주택 담보 대출, 미사일 방어 시스템일 수도 있습니다. 어디에나 존재하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 98.3,
+   "en": "The people who run these operations say they're misunderstood in that what they're doing is good for society. Others disagree.",
+   "ko": "이런 사업을 운영하는 사람들은 자신들이 하는 일이 사회에 유익하며 오해를 받고 있다고 말합니다. 다른 이들은 동의하지 않죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 106.9,
+   "en": "The problem is that we've got a business model whose incentives drive extreme and ultimately bad outcomes.",
+   "ko": "문제는 인센티브가 극단적이고 궁극적으로 나쁜 결과를 초래하는 비즈니스 모델을 가지고 있다는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 113.6,
+   "en": "Today on Freakonomics Radio, the rise and rise of the private equity industry. We'll start with a guest who at the time we made this episode had a pretty interesting job.",
+   "ko": "오늘 프리코노믹스 라디오에서는 거듭 성장을 거듭하고 있는 사모펀드 산업을 다룹니다. 이 에피소드를 제작할 당시에 꽤 흥미로운 직업을 가졌던 게스트와 함께 시작해 보겠습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 125.3,
+   "en": "My name is Brennan Boulou and I'm a special counsel at the Department of Justice.",
+   "ko": "제 이름은 브렌던 벌루이고 법무부 특별 고문으로 재직 중입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 129.7,
+   "en": "Boulou has since left government service. Now he's the CEO of the Public Integrity Project, a public interest law firm that fights government corruption.",
+   "ko": "벌루는 이후 공직을 떠났습니다. 현재 그는 정부 부패와 싸우는 공익 법률 회사인 '공공 청렴 프로젝트'의 CEO입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 139.2,
+   "en": "But during his time at the DOJ, Boulou was a prosecutor in the antitrust division. And he noticed something interesting.",
+   "ko": "하지만 법무부에 재직할 당시 벌루는 반독점 분과의 검사였습니다. 그리고 그는 흥미로운 점을 발견했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 146.9,
+   "en": "When companies proposed to buy big companies, they have to file documents with the Department of Justice antitrust division and with the FTC.",
+   "ko": "기업들이 대기업을 인수하려 할 때, 법무부 반독점 분과와 연방거래위원회(FTC)에 문서를 제출해야 합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 156.1,
+   "en": "I was looking at those documents and I was seeing all these acquisitions that were coming in.",
+   "ko": "저는 그 문서들을 검토하면서 들어오는 모든 인수 건들을 지켜보고 있었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 160.5,
+   "en": "And they were all companies that are being bought by institutions institutions that I had never heard of, like Blackstone, Carlisle, KKR, Apollo.",
+   "ko": "그런데 모두 제가 들어본 적도 없는 기관들, 예를 들어 블랙스톤, 칼라일, KKR, 아폴로 같은 곳들이 사들이는 회사들이었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 168.9,
+   "en": "I'd never heard of these. And so I started looking into it and started to learn about the idea of private equity. And suddenly I realized that they were buying up everything.",
+   "ko": "들어본 적 없는 이름들이었죠. 그래서 조사를 시작했고 사모펀드라는 개념에 대해 알게 되었습니다. 그러다 갑자기 그들이 모든 것을 사들이고 있다는 사실을 깨달았습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 177.3,
+   "en": "And that got me interested in the idea of this book project, which I started putting together in quarantine.",
+   "ko": "그것이 계기가 되어 책 프로젝트에 관심을 갖게 되었고, 격리 기간 동안 집필을 시작했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 182.2,
+   "en": "He's talking about the COVID quarantine case you've forgotten that happened.",
+   "ko": "그는 여러분이 잊고 있었을지 모를 코로나19 격리 기간에 대해 이야기하고 있습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 187.3,
+   "en": "Baloo's book project became an actual book, which he wanted to make clear, did not represent the views of the Justice Department. The title is Plunder, Private Equity's Plan to Pillage America.",
+   "ko": "벌루의 프로젝트는 실제 책으로 출간되었으며, 그는 이 책이 법무부의 견해를 대변하지 않는다는 점을 분명히 했습니다. 제목은 '약탈: 미국을 강탈하려는 사모펀드의 계획'입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 200.6,
+   "en": "The basic business model of private equity is very straightforward. Private equity firms take a little bit of their own money, some of investors' money, and a whole lot of borrowed money to buy up companies.",
+   "ko": "사모펀드의 기본 비즈니스 모델은 매우 단순합니다. 사모펀드 회사는 자기 자본 조금, 투자자 돈 일부, 그리고 엄청난 양의 차입금을 사용하여 회사를 인수합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 211.4,
+   "en": "They then try to make financial or operational improvements and then flip the company, hopefully for a profit, a few years later.",
+   "ko": "그런 다음 재무적 또는 운영상의 개선을 시도하고, 몇 년 후에 이익을 남기며 회사를 되파는 식이죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 218.6,
+   "en": "So we've been doing occasional episodes on this show about private equity over the last several years, often the downsides, not exclusively.",
+   "ko": "저희는 지난 몇 년 동안 이 쇼에서 사모펀드에 대해 가끔 다뤄왔는데, 전부는 아니지만 주로 그 단면들에 대해 이야기했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 226.9,
+   "en": "We recently ran a two-part series on how private equity firms have been buying up veterinary and other pet care facilities.",
+   "ko": "최근에는 사모펀드 회사들이 동물 병원과 기타 반려동물 관리 시설을 어떻게 사들이고 있는지에 대한 2부작 시리즈를 방송했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 233.1,
+   "en": "Now I have several friends and acquaintances who work in private equity and they complain to me that I've been alarmist and that the negative associations with private equity are overstated.",
+   "ko": "사모펀드 업계에서 일하는 제 친구들과 지인들은 제가 너무 호들갑을 떨고 있으며, 사모펀드에 대한 부정적인 인식이 과장되었다고 불평합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 247.3,
+   "en": "Of course, it's in their interest to say that. But when I listened to their explanations, these are nice, pro-social, well-educated people who don't beat their children or anything like that, I thought, well, maybe they're right.",
+   "ko": "물론 그렇게 말하는 것이 그들에게 유리하겠죠. 하지만 그들의 설명을 들어보면, 그들은 친사회적이고 교육도 잘 받았으며 자녀를 때리거나 하는 나쁜 사람들도 아니기에 '어쩌면 그들이 맞을지도 모르겠다'는 생각이 들었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 260.6,
+   "en": "Maybe I am becoming a little bit hyper about it or paranoid or panicked. And then Brendan, I read your book and I thought, oh my, I'm not nearly paranoid enough.",
+   "ko": "제가 너무 민감하게 굴거나 피해망상에 빠졌거나 당황하고 있는 걸지도 모른다고요. 그런데 브렌던, 당신의 책을 읽고 나서 생각했습니다. '세상에, 난 충분히 의심하지 않았구나'라고요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 271.7,
+   "en": "So let me hear just a sort of opening statement from you about the state of private equity in the US.",
+   "ko": "그러니 미국의 사모펀드 현황에 대해 당신의 기조 발언을 들어보고 싶습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 278.1,
+   "en": "So we already described what private equity is or what the business model is. Let me try to lay out what the basic problem with that business model is.",
+   "ko": "사모펀드가 무엇인지, 비즈니스 모델이 어떤지는 이미 설명했으니, 그 비즈니스 모델의 근본적인 문제가 무엇인지 설명해 보겠습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 286.2,
+   "en": "There are three issues with it. First is that private equity firms tend to buy companies and hold them only for a few years.",
+   "ko": "세 가지 문제가 있습니다. 첫째는 사모펀드 회사가 기업을 인수해서 단 몇 년만 보유하는 경향이 있다는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 293.2,
+   "en": "Second is that they tend to load the companies up they buy with a lot of debt and then they extract a lot of transaction and management fees from the company.",
+   "ko": "둘째는 인수한 회사에 많은 부채를 떠넘기고, 그 회사로부터 막대한 거래 수수료와 경영 수수료를 챙긴다는 점입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 300.4,
+   "en": "And then the third thing is they tend to be insulated financially and legally from the consequences of their actions.",
+   "ko": "그리고 세 번째는 그들이 행한 일의 결과로부터 재무적으로나 법적으로 보호받는 경향이 있다는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 307.7,
+   "en": "When the portfolio firm does something illegal or does something wrong, the private equity firm itself is rarely held liable.",
+   "ko": "포트폴리오 기업이 불법을 저지르거나 잘못을 저질러도, 사모펀드 회사 자체가 책임을 지는 경우는 거의 없습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 314.1,
+   "en": "What this means is when you've got short-term thinking, when you've got a lot of debt and a lot of fees, and we've got insulation from responsibility, it leads to all sorts of bad consequences.",
+   "ko": "즉, 단기적인 사고방식, 막대한 부채와 수수료, 그리고 책임으로부터의 격리가 결합되면 온갖 나쁜 결과로 이어진다는 뜻입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 323.7,
+   "en": "And you were talking about the series that you've been doing on veterinary clinics. Well, my girlfriend actually is a veterinarian and she's talking about all these private equity firms are buying up all the veterinary clinics in the area in which we live.",
+   "ko": "동물 병원 시리즈에 대해 말씀하셨는데요. 제 여자친구가 실제로 수의사인데, 저희가 사는 지역의 모든 동물 병원을 사모펀드들이 사들이고 있다고 말하더군요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 336.2,
+   "en": "And it leads to, at least as alleged by her friends and folks that I know, leads to diminished quality of care for pets, leads to increased prices, leads to less flexibility for workers.",
+   "ko": "그녀의 동료들과 제가 아는 사람들의 주장에 따르면, 이는 반려동물에 대한 진료 질 저하, 가격 상승, 노동자들의 유연성 감소로 이어집니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 347.6,
+   "en": "And all of those are the sorts of things that happen when you own a business only for a few short years and you don't have responsibility for what happens in the long term.",
+   "ko": "이 모든 것들은 단 몇 년만 사업체를 소유하고 장기적인 결과에 대해 책임을 지지 않을 때 발생하는 일들입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 356.1,
+   "en": "Now, there's a particular argument in the vet care space. And one story that we heard after we published that series was from a lot of younger vets who say they would like to buy the practice from the founding vet, let's say, of their practice, but they have such a big medical school debt that they can't afford to and that the older vets, even though they'd like to sell the practice to the younger practitioners, they can't.",
+   "ko": "동물 병원 업계에는 특유의 논란이 있습니다. 저희가 시리즈를 발표한 후 들은 이야기 중 하나는, 많은 젊은 수의사들이 자신이 일하는 병원의 설립자로부터 병원을 인수하고 싶어 하지만, 학자금 대출이 너무 많아 그럴 여력이 없다는 것입니다. 반면 나이 든 수의사들은 젊은 후배들에게 병원을 넘겨주고 싶어도 그럴 수가 없죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 379.5,
+   "en": "And therefore, they end up getting enticed to cash out their business by selling to a private equity firm. In a case like that, do you see any viable solutions?",
+   "ko": "그래서 결국 사모펀드 회사에 사업체를 매각하여 자금을 회수하라는 유혹에 빠지게 됩니다. 이런 경우에 어떤 실행 가능한 해결책이 있다고 보십니까?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 389.3,
+   "en": "Well, for something like that, you know, student debt relief would make a whole lot of difference for young vets to be able to afford these things.",
+   "ko": "그런 경우에는 학자금 대출 탕감이 젊은 수의사들이 병원을 인수하는 데 큰 도움이 될 수 있을 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 396.1,
+   "en": "Going back to my girlfriend, she's benefited tremendously from, you know, the pause on student loan repayments.",
+   "ko": "제 여자친구의 경우를 봐도, 학자금 대출 상환 유예 조치로부터 엄청난 혜택을 받았습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 401.7,
+   "en": "The challenge is not that there's a lack of interest in owning these things, it's that the folks who have the money who actually can own them don't have the long-term interest in operating them.",
+   "ko": "문제는 소유하려는 의지가 부족해서가 아니라, 실제로 소유할 돈이 있는 사람들이 장기적인 운영에는 관심이 없다는 데 있습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 410.9,
+   "en": "As you're describing the problem or the potential problem with a pet care rollup, let's say, how much of the problem as you see it is private equity per se versus consolidation generally?",
+   "ko": "반려동물 관리 업체 통합(rollup)의 잠재적 문제를 설명하셨는데, 이것이 사모펀드 자체의 문제입니까, 아니면 일반적인 기업 통합의 문제입니까?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 423.1,
+   "en": "That's a great question. Consolidation is its own unique challenge, and the solution historically has been the antitrust laws.",
+   "ko": "좋은 질문입니다. 기업 통합은 그 나름의 독특한 과제이며, 역사적으로 그 해결책은 반독점법이었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 432.4,
+   "en": "You can buy a business, you can buy a couple of businesses, but the more and more that you buy in a single product and geographic market, the more market power you obtain and that gives you power to raise prices and depress pay and cut quality care and all these sorts of things.",
+   "ko": "기업을 한두 개 살 수는 있지만, 특정 제품과 지역 시장에서 점점 더 많이 사들일수록 더 큰 시장 지배력을 갖게 되고, 이는 가격 인상, 임금 삭감, 진료 질 저하 등을 유발할 수 있는 힘을 줍니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 445.6,
+   "en": "That's what the antitrust laws are designed to address.",
+   "ko": "그것이 바로 반독점법이 해결하고자 하는 지점입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 449.6,
+   "en": "You've got a particular challenge with the rollups that private equity firms execute in that a lot of them are with very small businesses.",
+   "ko": "사모펀드 회사가 수행하는 통합 전략의 특이한 점은 그 중 상당수가 아주 작은 사업체들과 이루어진다는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 458.6,
+   "en": "You then also have the problems of private equity compounding the challenges that rollups create, which is that a traditional company might buy another business with cash. Private equity firms do this with debt.",
+   "ko": "또한 사모펀드는 통합 전략이 만드는 문제들을 더 악화시키기도 합니다. 전통적인 기업은 다른 기업을 현금으로 인수할 수 있지만, 사모펀드는 부채를 이용합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 471.5,
+   "en": "They do it with debt that not them, but that the company they buy takes on.",
+   "ko": "사모펀드 본인들이 아니라, 그들이 인수하는 회사가 짊어지는 부채로 말입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 476.8,
+   "en": "What that means is you've got a business that's getting rolled up, and so it's getting bigger and bigger and getting more market power.",
+   "ko": "이는 통합되는 기업이 점점 더 커지고 시장 지배력도 커진다는 것을 의미합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 483.3,
+   "en": "But oftentimes, it's going to hold a lot more debt, which means that it's got to execute ever riskier, ever worse business tactics just to stay in business.",
+   "ko": "하지만 종종 훨씬 더 많은 부채를 안게 되는데, 이는 단지 사업을 유지하기 위해 점점 더 위험하고 나쁜 비즈니스 전술을 실행해야 한다는 것을 의미합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 492.0,
+   "en": "What's the best way to think about private equity controlled firms as a share of the US economy?",
+   "ko": "미국 경제에서 사모펀드가 지배하는 기업들의 비중을 어떻게 이해하는 것이 좋을까요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 499.3,
+   "en": "So it's a little bit apples to oranges, but private equity in 2021 had $1.2 trillion in acquisitions. And US GDP was about $25 trillion.",
+   "ko": "직접적인 비교는 어렵지만, 2021년 사모펀드의 인수 규모는 1.2조 달러였고, 미국 GDP는 약 25조 달러였습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 512.3,
+   "en": "That's not to say that it was 1/25th of the economy, but just to give you a relative sense of scale.",
+   "ko": "경제의 25분의 1이라는 뜻은 아니지만, 상대적인 규모감을 느껴보시라고 드리는 말씀입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 519.3,
+   "en": "You went to college at Columbia, New York, correct?",
+   "ko": "뉴욕 콜롬비아 대학교를 나오셨죠, 맞나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 522.8,
+   "en": "Yep.",
+   "ko": "네.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 523.3,
+   "en": "Studied what?",
+   "ko": "무엇을 전공하셨나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 523.6,
+   "en": "Study philosophy. I wouldn't recommend it to anybody.",
+   "ko": "철학을 공부했습니다. 누구에게도 추천하고 싶지 않네요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 525.9,
+   "en": "Okay, but then law school at Stanford Law, correct?",
+   "ko": "알겠습니다. 하지만 그 후에 스탠포드 법학대학원을 나오셨죠?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 528.7,
+   "en": "Exactly.",
+   "ko": "맞습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 529.5,
+   "en": "I'm guessing that between those two degrees that you have plenty of friends who work in private equity, is that the case?",
+   "ko": "그 두 학위 사이에서 사모펀드 업계에 종사하는 친구들이 아주 많을 것 같은데, 실제로는 어떤가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 539.0,
+   "en": "I have various friends who are in finance and I think that they're all wonderful people. My argument about private equity isn't about the people that are in the industry. It's about the business model.",
+   "ko": "금융권에 종사하는 여러 친구들이 있고, 모두 훌륭한 사람들이라고 생각합니다. 사모펀드에 대한 제 주장은 업계 사람들에 대한 것이 아니라 비즈니스 모델에 관한 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 550.2,
+   "en": "Don't people create business models?",
+   "ko": "사람이 비즈니스 모델을 만드는 것 아닌가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 552.3,
+   "en": "I think that's a question for a historian or a sociologist.",
+   "ko": "그건 역사학자나 사회학자에게 물어봐야 할 질문인 것 같네요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 555.9,
+   "en": "Hey, you just told us you're a philosophy major.",
+   "ko": "방금 본인이 철학 전공이라고 하셨잖아요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 558.4,
+   "en": "No, you know, it's a slightly different argument. Private equity's critics and defenders focus on the people that run private equity firms.",
+   "ko": "아뇨, 제 말은 조금 다른 논지입니다. 사모펀드 비판론자들과 옹호론자들은 사모펀드 회사를 운영하는 '사람'에게 집중합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 566.2,
+   "en": "For the people that support private equity, they're masters of the universe. For people that oppose them, they're cartoon villains.",
+   "ko": "사모펀드를 지지하는 사람들에게 그들은 '세상의 지배자'들이고, 반대하는 사람들에게 그들은 만화 속 '악당'입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 573.9,
+   "en": "I would argue that that's strategically the wrong focus because it suggests that all you have to do is change the people and you change the business.",
+   "ko": "저는 그것이 전략적으로 잘못된 초점이라고 생각하는데, 사람만 바꾸면 사업이 바뀔 것이라고 암시하기 때문입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 582.1,
+   "en": "What I'm trying to explain is that the laws that we've created around this business model create incentives that lead to all sorts of disastrous outcomes.",
+   "ko": "제가 설명하려는 것은 우리가 이 비즈니스 모델 주변에 만든 법들이 온갖 재앙적인 결과를 초래하는 인센티브를 만들어낸다는 점입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 591.4,
+   "en": "And it's really extraordinary. I think that there are a few industries that have been more successful in pushing their agenda through every facet and lever of government.",
+   "ko": "정말 놀라운 일입니다. 정부의 모든 면과 수단을 동원해 자신들의 의제를 이토록 성공적으로 밀어붙인 산업은 거의 없다고 봅니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 602.5,
+   "en": "Private equity firms and investment firms have given something like $900 million to federal candidates since 1990.",
+   "ko": "사모펀드와 투자 회사들은 1990년 이후 연방 공직 후보자들에게 약 9억 달러를 기부했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 609.9,
+   "en": "One of the things that I think people don't necessarily recognize or maybe they're inured to is the extraordinary extent to which private equity firms have been able to bring in the brightest lights of government into the industry.",
+   "ko": "사람들이 잘 인식하지 못하거나 어쩌면 익숙해진 것 중 하나는, 사모펀드 회사들이 정부의 거물급 인사들을 업계로 영입해 온 엄청난 규모입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 624.6,
+   "en": "We're talking about secretaries of state, treasury, defense, CIA directors, several generals, former SEC chairs, and speakers of the house.",
+   "ko": "국무장관, 재무장관, 국방장관, CIA 국장, 여러 장군들, 전직 SEC 의장들, 그리고 하원의장들을 말하는 겁니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 635.1,
+   "en": "Two speakers of the house so far. And it's not just the bright light names of government they go into private equity. It's sort of the below the fold people as well.",
+   "ko": "지금까지 하원의장만 두 명입니다. 그리고 거물급 인사들만 사모펀드로 가는 게 아닙니다. 잘 알려지지 않은 실무자들도 마찬가지죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 644.2,
+   "en": "If you look at the lobbying disclosure forms of any of the large private equity firms, it's filled with chiefs of staff, legislative directors.",
+   "ko": "대형 사모펀드 회사의 로비 공개 서류를 보면 비서실장, 입법국장들로 가득 차 있습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 653.2,
+   "en": "And it just means that when private equity approaches somebody in government, it's often a friendly face. And when somebody's thinking about maybe leaving government, they've got a place that they can go to.",
+   "ko": "이는 사모펀드가 정부 인사에게 접근할 때 아는 얼굴인 경우가 많다는 뜻입니다. 또한 공직을 떠나려는 사람들에게는 갈 곳이 있다는 의미이기도 하죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 663.9,
+   "en": "I find that most even pretty smart people I know who don't work near finance or private equity don't really have any sense of what private equity is.",
+   "ko": "제 주변의 꽤 똑똑한 사람들조차 금융이나 사모펀드 근처에서 일하지 않으면 사모펀드가 무엇인지 전혀 모르더군요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 672.3,
+   "en": "I don't want to say in the shadows, but certainly outside of the spotlight for a long time. Your book threatens to change that. Was that an intention?",
+   "ko": "그늘에 있었다고까지 말하고 싶지는 않지만, 확실히 오랫동안 주목을 받지 못했죠. 당신의 책이 그것을 바꿀 것 같은데, 그것이 의도였나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 682.7,
+   "en": "I confess that I did not know what private equity was, probably until after I got this book deal.",
+   "ko": "고백하자면 저도 이 책 계약을 맺기 전까지는 사모펀드가 무엇인지 잘 몰랐습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 688.1,
+   "en": "But explaining what private equity is is deliberately hard because private equity firms often obscure what they do.",
+   "ko": "하지만 사모펀드가 무엇인지 설명하는 것은 의도적으로 어렵게 되어 있는데, 그들이 종종 자신들이 하는 일을 숨기기 때문입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 695.6,
+   "en": "Most of your evidence in this book has been previously reported in places like The New York Times, Wall Street Journal, many local newspapers, all of which you cite very generously, I have to say.",
+   "ko": "이 책의 대부분의 증거들은 이미 뉴욕타임스나 월스트리트저널, 그리고 많은 지역 신문에서 보도된 내용들이고, 당신은 이를 아주 관대하게 인용하셨더군요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 708.3,
+   "en": "In other words, for anyone who has wanted to see what's going on with private equity, the story's been out there for a while. So tell me what you're adding to the story.",
+   "ko": "즉, 사모펀드에 무슨 일이 일어나는지 알고 싶어 했던 사람들에게 이야기는 이미 나와 있었다는 거죠. 그렇다면 당신이 이 이야기에 무엇을 덧붙이고 있는지 말씀해 주십시오.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 718.1,
+   "en": "The challenge that we've got is that these stories tend to be specific to an industry. So you hear about what private equity is doing in veterinary clinics.",
+   "ko": "문제는 이런 이야기들이 특정 산업에 국한되는 경향이 있다는 것입니다. 동물 병원에서 사모펀드가 무엇을 하고 있는지처럼 말이죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 727.2,
+   "en": "You hear about what they're doing in nursing homes. You hear about what they're doing in prison services or single family homes. The list can go on and on.",
+   "ko": "요양원, 교도소 서비스, 또는 단독 주택에서 그들이 무엇을 하는지도 듣게 됩니다. 리스트는 끝도 없습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 735.3,
+   "en": "A lot of what will draw a private equity firm to a given company or to a given industry is stable and reliable cash flow because they bind the company with debt. So they need to be able to service the debt.",
+   "ko": "사모펀드가 특정 기업이나 산업에 끌리는 큰 이유는 안정적이고 신뢰할 수 있는 현금 흐름 때문입니다. 부채를 안기기 때문에 그 부채를 갚을 수 있어야 하니까요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 746.6,
+   "en": "So they need some consistent money coming in the door. What I was trying to explain is that these stories are united by a common thread and that thread is the laws and regulations that shape private equity and that create their incentives.",
+   "ko": "지속적으로 돈이 들어와야 하는 거죠. 제가 설명하려 했던 것은 이 이야기들이 하나의 공통된 맥락으로 연결되어 있다는 것이고, 그 맥락은 바로 사모펀드를 형성하고 인센티브를 부여하는 법과 규제들입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 762.5,
+   "en": "The example that I keep going to is Carlisle's acquisition of Manor Care.",
+   "ko": "제가 계속 드는 예시는 칼라일의 매너 케어 인수 건입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 768.3,
+   "en": "So the Carlisle group is a private equity firm, one of the largest and it bought HCR Manor Care, which is the second largest nursing home chain in America.",
+   "ko": "칼라일 그룹은 사모펀드 중 하나로, 미국에서 두 번째로 큰 요양원 체인인 HCR 매너 케어를 인수했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 776.7,
+   "en": "Carlisle bought the company with a lot of debt that Manor Care had to service. And as a result, they slashed staffing, health code violations spiked, complaints by residents rose.",
+   "ko": "칼라일은 매너 케어가 갚아야 할 막대한 부채를 안고 회사를 인수했습니다. 그 결과 인력을 감축했고, 보건 규정 위반이 급증했으며, 입소자들의 불만이 늘어났습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 786.3,
+   "en": "Ultimately, at least one person died in Manor Care's care, a woman named Annie Sally.",
+   "ko": "궁극적으로 매너 케어의 보살핌 아래 있던 애니 샐리라는 여성이 최소한 한 명 사망했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 792.6,
+   "en": "And when her family tried to sue Manor Care and Carlisle, a really interesting thing happened.",
+   "ko": "그녀의 가족이 매너 케어와 칼라일을 고소하려 했을 때, 정말 흥미로운 일이 일어났습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 799.2,
+   "en": "In court filings, the private equity firm said, oh no, no, we are not technically the owner of Manor Care.",
+   "ko": "법원 제출 서류에서 사모펀드 회사는 '아니요, 엄밀히 말해 우리는 매너 케어의 소유주가 아닙니다'라고 주장했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 807.0,
+   "en": "We in fact merely advise a series of funds whose limited partners through a series of shell corporations ultimately own the assets of Manor Care. We're not the ones to blame here.",
+   "ko": "'우리는 사실 일련의 펀드들에 조언을 할 뿐이며, 그 펀드들의 유한 책임 파트너들이 여러 유령 회사를 통해 궁극적으로 매너 케어의 자산을 소유하고 있습니다. 우리에게는 책임이 없습니다'라고요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 817.0,
+   "en": "Now that's sort of a legal sleight of hand because in public statements, Carlisle had said it bought it.",
+   "ko": "이것은 일종의 법적 기만술입니다. 공개적인 발표에서 칼라일은 자신들이 인수했다고 말했으니까요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 822.6,
+   "en": "In effect, it seems to have had operational control over the nursing home and it certainly loaded up the nursing home with all the debt that led to the kinds of consequences that resulted in Miss Sally's death.",
+   "ko": "사실상 그들은 요양원에 대한 운영 통제권을 가졌던 것으로 보이며, 샐리 씨의 사망으로 이어진 결과를 초래한 모든 부채를 요양원에 떠넘긴 것도 분명합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 834.7,
+   "en": "But because of fairly obscure legal doctrines like piercing the corporate veil, they were able to get the case against it dismissed.",
+   "ko": "하지만 '법인격 부인'과 같은 꽤 모호한 법적 원칙 때문에 그들에 대한 소송은 기각되었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 842.4,
+   "en": "And so what I hope that example shows is that there are lots of laws out there, lots of regulations that essentially give private equity firms operational control over the companies they buy, but very little responsibility when things go poorly.",
+   "ko": "따라서 이 사례가 보여주길 바라는 것은, 사모펀드 회사에 인수한 기업에 대한 운영 통제권은 부여하면서도 상황이 나빠졌을 때 책임은 거의 지지 않게 만드는 법과 규제가 많다는 점입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 858.7,
+   "en": "In terms of making things so complicated that almost no one, even government prosecutors, can really figure out their organizations, it reminds me of this old saying it might have been W.C. Fields.",
+   "ko": "정부 검사들조차 조직 구조를 파악할 수 없을 정도로 복잡하게 만드는 것을 보니, W.C. 필즈가 했을 법한 오래된 격언이 떠오르는군요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 869.5,
+   "en": "If you can't dazzle them with brilliance, baffle them with bullshit.",
+   "ko": "실력으로 압도할 수 없다면, 헛소리로 정신을 쏙 빼놓으라는 말 말이죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 874.1,
+   "en": "I'm curious if that's a strategic move, the degree to which things are Byzantine.",
+   "ko": "구조를 이토록 복잡하게 만드는 것이 전략적인 움직임인지 궁금합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 880.1,
+   "en": "One of the private equity industry's great accomplishments is they've made their work seem so normal and so boring.",
+   "ko": "사모펀드 업계의 큰 업적 중 하나는 자신들의 일을 아주 평범하고 지루해 보이게 만들었다는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 887.9,
+   "en": "I honestly think part of it's aesthetic, you know, that the folks that run private equity firms wear nice suits. They, you know, have tortoiseshell glasses.",
+   "ko": "솔직히 미적인 부분도 있다고 생각합니다. 사모펀드를 운영하는 사람들은 멋진 정장을 입고 거북등 껍질 안경을 쓰죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 896.2,
+   "en": "They went to a lot of great schools and all these sorts of things. I think that there's something about the private equity industry in that it's managed to present itself as so boring in a lot of ways or so opaque.",
+   "ko": "명문대를 졸업하는 등 여러 요인들이 있죠. 사모펀드 산업은 여러모로 지루하거나 불투명하게 보이도록 스스로를 포장해 왔습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 908.4,
+   "en": "that it's been more successful even than other financial firms.",
+   "ko": "그래서 다른 금융 회사들보다 더 성공적이었던 면도 있습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 913.2,
+   "en": "If you compare this to investment banks, which are highly regulated, either as banks or bank holding companies, which is not to say that those companies have not been successful sort of in a lobbying effort, or I think generally people have failed to lay a glove on private equity.",
+   "ko": "은행이나 은행 지주 회사로서 고도의 규제를 받는 투자 은행들과 비교해 보세요. 그 회사들이 로비에 성공하지 못했다는 건 아니지만, 일반적으로 사람들은 사모펀드에 타격을 입히는 데 실패해 왔습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 928.5,
+   "en": "The private equity industry has been dominated by American firms, and one of the industry's pioneers is named David Rubenstein.",
+   "ko": "사모펀드 산업은 미국 기업들이 주도해 왔으며, 이 산업의 개척자 중 한 명은 데이비드 루벤스타인입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 936.5,
+   "en": "He was a co-founder of the Carlisle Group and was for many years its co-CEO.",
+   "ko": "그는 칼라일 그룹의 공동 창립자였으며 수년 동안 공동 CEO를 역임했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 942.3,
+   "en": "Rubenstein appears frequently in Brendan Bellu's book. We asked Rubenstein for an interview for this episode, but he declined.",
+   "ko": "루벤스타인은 브렌던 벌루의 책에 자주 등장합니다. 저희는 이 에피소드를 위해 루벤스타인에게 인터뷰를 요청했지만 거절당했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 950.3,
+   "en": "We asked more than 20 other private equity CEOs and partners, and they too declined.",
+   "ko": "다른 20명 이상의 사모펀드 CEO와 파트너들에게도 요청했지만 그들도 거절했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 957.5,
+   "en": "But we did speak with Rubenstein back in 2018 for a series we called the secret life of a CEO. If you want to hear the full interview with Rubenstein, that's episode 322.",
+   "ko": "하지만 2018년에 'CEO의 비밀스런 삶'이라는 시리즈를 위해 루벤스타인과 대화한 적이 있습니다. 루벤스타인과의 전체 인터뷰를 듣고 싶으시다면 322회 에피소드를 확인해 보세요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 969.0,
+   "en": "I asked Brendan Boulou for his impressions of Rubenstein.",
+   "ko": "브렌던 벌루에게 루벤스타인에 대한 인상을 물었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 973.1,
+   "en": "The first is that I actually ran into him in a park once while I was in the middle of writing the book. It's a little bit like meeting a celebrity.",
+   "ko": "첫 번째는 책을 쓰는 도중에 우연히 공원에서 그를 마주친 적이 있다는 겁니다. 연예인을 만난 것 같은 기분이었죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 980.1,
+   "en": "I was sort of gobsmacked and I didn't know what to say to him.",
+   "ko": "저는 넋이 나가서 그에게 무슨 말을 해야 할지 몰랐습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 983.9,
+   "en": "So what'd you say?",
+   "ko": "그래서 뭐라고 했나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 984.9,
+   "en": "I didn't say anything. All I heard him say was $8 million as he was walking by to somebody else.",
+   "ko": "아무 말도 못 했습니다. 그가 다른 사람 옆을 지나가며 '800만 달러'라고 말하는 것만 들었죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 990.3,
+   "en": "He's on his cell phone or he's just talking to himself.",
+   "ko": "전화 중이었나요, 아니면 혼잣말을 한 건가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 993.5,
+   "en": "He was talking to an older woman, perhaps his wife or something like that.",
+   "ko": "나이 든 여성분과 대화 중이었는데, 아마 아내분이었던 것 같습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 997.3,
+   "en": "Rubenstein is a really interesting character. He's a striver who came up from working class Baltimore.",
+   "ko": "루벤스타인은 정말 흥미로운 인물입니다. 그는 볼티모어의 노동자 계급 출신으로 자수성가한 노력가입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1004.9,
+   "en": "He's phenomenally successful at building relationships with folks in politics and ultimately becomes an advisor to President Jimmy Carter, I believe at age 27.",
+   "ko": "그는 정계 인사들과의 관계 구축에 엄청난 성공을 거두었고, 제가 알기로는 27세의 나이에 지미 카터 대통령의 고문이 되었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1015.3,
+   "en": "He has this sort of monk-like aura in the White House. He works harder than anyone is incredibly dedicated to the president and works on a huge range of topics but ultimately for him tragedy strikes Carter isn't reelected and he's sort of thrown into the wind and has to figure out what he's going to do with himself and he stumbles upon private equity and a particular Sort of angle that has been phenomenally successful for him which is finding and hiring ex-government officials to come work for them.",
+   "ko": "그는 백악관에서 수도승 같은 분위기를 풍겼습니다. 누구보다 열심히 일했고 대통령에게 엄청나게 헌신적이었으며 방대한 주제를 다뤘지만, 결국 카터가 재선에 실패하면서 그에게 비극이 닥쳤고 그는 낙동강 오리알 신세가 되어 자신의 갈 길을 찾아야 했습니다. 그러다 사모펀드와 자신에게 엄청난 성공을 안겨준 특별한 관점을 발견했는데, 바로 전직 정부 관료들을 영입해 함께 일하는 것이었습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1048.5,
+   "en": "Their first was former Secretary of Defense, Frank Carlucci, and they figure out that there's a real draw for investors to meet these government officials.",
+   "ko": "그들의 첫 번째 영입 인사는 전 국방장관 프랭크 칼루치였고, 그들은 투자자들에게 이런 정부 관료들을 만나는 것이 큰 매력이라는 점을 알아챘습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1059.7,
+   "en": "Now, David Rubenstein has a reputation as a really good business person who has been around a long time and who in the last bunch of years has charitably used some of his personal billions to buy historical treasures that he then shares with the public rare copies of documents like the Magna Carta, the Declaration of Independence, and so on.",
+   "ko": "데이비드 루벤스타인은 오랫동안 활동해 온 훌륭한 기업가라는 평판을 가지고 있으며, 최근 몇 년 동안은 자신의 막대한 개인 자산 중 일부를 역사적 보물을 구입하는 데 자선적으로 사용하여 마그나 카르타나 독립 선언서 같은 희귀 문서들을 대중과 공유하고 있습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1081.1,
+   "en": "So how do you view that? Is that just reputation laundering? Is that a fortune built from plunder?",
+   "ko": "당신은 그것을 어떻게 보십니까? 그저 평판 세탁일 뿐인가요? 아니면 약탈로 쌓은 부인가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1087.6,
+   "en": "Or is that the well spent fortune of a man who worked hard and played by the rules?",
+   "ko": "아니면 열심히 일하고 규칙을 준수한 사람의 가치 있는 부의 사용인가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1092.8,
+   "en": "At the risk of being repetitive, I think that David Rubenstein personally is a very nice man.",
+   "ko": "반복하는 위험을 무릅쓰고 말씀드리면, 저는 개인적으로 데이비드 루벤스타인이 매우 좋은 사람이라고 생각합니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1097.1,
+   "en": "I've listened to a lot of interviews with him to try to get a sense of the person and I instinctively like him.",
+   "ko": "어떤 사람인지 알기 위해 그의 인터뷰를 많이 찾아봤는데, 본능적으로 그가 좋아지더군요.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1102.7,
+   "en": "He has a wry sense of humor that a lot of business executives don't. I think he has a self-awareness that I find very charming and I'm very impressed by the considerable donations he's made to a whole range of causes the challenges and we've got some examples of you know Carlisle making its money by essentially eventually eviscerating some of the companies that it buys.",
+   "ko": "그는 많은 경영인들이 갖지 못한 냉소적인 유머 감각을 가지고 있습니다. 매우 매력적인 자기 객관화 능력이 있다고 생각하며, 다양한 명분에 기부한 상당한 액수에도 깊은 인상을 받았습니다. 하지만 문제는 칼라일이 인수한 회사 중 일부를 본질적으로 해체하여 돈을 번 사례들이 있다는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1125.2,
+   "en": "Yeah. I wanted to ask you about the Plaza del Rey mobile home park in California that was a Carlisle investment.",
+   "ko": "네. 칼라일의 투자처였던 캘리포니아의 플라자 델 레이 모바일 홈 공원에 대해 여쭤보고 싶었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1131.6,
+   "en": "Can you give me that story quickly?",
+   "ko": "그 이야기를 짧게 들려주실 수 있나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1133.1,
+   "en": "So this is an area where private equity firms have been getting increasingly active is mobile homes.",
+   "ko": "모바일 홈은 사모펀드 회사들이 점점 더 활발하게 진출하고 있는 분야입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1139.5,
+   "en": "Carlisle bought the Plaza del Rey mobile home park in the Bay Area outside of San Jose. And the park was something of a pocket of affordability in an otherwise unaffordable area of the country.",
+   "ko": "칼라일은 산호세 외곽 베이 지역의 플라자 델 레이 모바일 홈 공원을 인수했습니다. 그곳은 물가가 비싼 이 지역에서 보기 드물게 저렴한 주거지였습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1153.3,
+   "en": "Now, the really important thing about the mobile home business model is mobile homes generally are not in fact mobile.",
+   "ko": "모바일 홈 비즈니스 모델에서 정말 중요한 점은 모바일 홈이 실제로는 전혀 이동식이 아니라는 것입니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1161.1,
+   "en": "They're sealed to the ground often with concrete and they're often the only source of wealth for the person that lives in them.",
+   "ko": "종종 콘크리트로 바닥에 고정되어 있으며, 그곳에 사는 사람들에게는 유일한 재산인 경우가 많습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1169.0,
+   "en": "So what'll happen is a person will buy a mobile home either with cash or with the mortgage and then they'll pay a lot fee for the Plaza del Rey, it dramatically hiked a lot fees to a level that was completely unaffordable for a lot of the residents.",
+   "ko": "사람들이 현금이나 대출로 모바일 홈을 산 뒤 부지 사용료를 내게 되는데, 칼라일은 플라자 델 레이의 부지 사용료를 주민들이 감당할 수 없는 수준으로 대폭 인상했습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1188.9,
+   "en": "This had two effects for the residents. One, it increased how much that they had to pay every month to the owner and ultimately to Carlisle.",
+   "ko": "이는 주민들에게 두 가지 영향을 미쳤습니다. 첫째, 소유주이자 궁극적으로 칼라일에게 매달 내야 하는 돈이 늘어났습니다.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1198.2,
+   "en": "At the same time, it eviscerated the equity that they had built up in their homes because it meant that other people wouldn't be able to buy those homes. and it meant that they were taking not only the residents' income, but their wealth.",
+   "ko": "동시에 다른 사람들이 그 집을 사려 하지 않게 되면서 그들이 집에 쌓아온 자산 가치를 파괴했습니다. 주민들의 수입뿐만 아니라 재산까지 앗아간 것이죠.",
+   "speaker": "Brennan Boulou"
+  },
+  {
+   "start": 1213.3,
+   "en": "As Boulou writes in Plunder, this led the residents of Plaza del Rey to ask their city council to impose rent controls.",
+   "ko": "벌루가 '약탈'에서 썼듯이, 이로 인해 플라자 델 레이 주민들은 시의회에 임대료 규제를 요청하게 되었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1222.3,
+   "en": "And if you read the reporting on this and talk to the folks that were involved in this, there's a really sort of tragic sense in which they're completely outgunned.",
+   "ko": "이에 대한 보도를 읽고 관련자들과 이야기해 보면, 그들이 완전히 압도당했다는 비극적인 느낌이 듭니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1231.3,
+   "en": "Carlisle's bringing in executives to these city council meetings explaining their positions. Meanwhile, the residents are collecting cans to try to afford a lawyer.",
+   "ko": "칼라일은 시의회 회의에 임원들을 보내 입장을 설명합니다. 그동안 주민들은 변호사를 고용할 돈을 마련하기 위해 캔을 모으고 있었죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1241.4,
+   "en": "There's a quote I think in the LA Times that they finally collected enough cans to have a third hour with a lawyer.",
+   "ko": "LA 타임스에 실린 인용구에 따르면, 그들은 마침내 변호사와 세 시간째 상담할 수 있을 만큼의 캔을 모았다고 합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1247.5,
+   "en": "This ultimately proved to be, at least according to public reporting, extremely profitable for Carlyle, which was able to sell the park for a significant profit to another investor just a few years later.",
+   "ko": "공개된 보도에 따르면 이것은 결국 칼라일에 엄청난 이익을 안겨주었고, 그들은 단 몇 년 만에 다른 투자자에게 공원을 매각하여 상당한 수익을 챙겼습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1260.1,
+   "en": "After the break, what happened when one of New York's most beloved, most distinctive grocery stores got the private equity treatment.",
+   "ko": "잠시 후, 뉴욕에서 가장 사랑받고 독특했던 식료품점 중 한 곳이 사모펀드의 손길을 거치며 어떤 일이 벌어졌는지 알아봅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1268.8,
+   "en": "This is Freakonomics Radio. I'm Stephen Dubner. We will be right back.",
+   "ko": "프리코노믹스 라디오입니다. 저는 스티븐 더브너이고요, 곧 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1282.0,
+   "en": "When I moved to New York City many years ago, I thought it was a ridiculous place to live. Too crowded, too chaotic, too expensive.",
+   "ko": "수년 전 제가 뉴욕으로 처음 이사 왔을 때, 이곳은 살기에 정말 말도 안 되는 곳이라고 생각했습니다. 너무 붐비고, 혼란스럽고, 비쌌으니까요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1292.7,
+   "en": "And then I found a grocery store called Fairway on the Upper West Side of Manhattan. Its slogan was like no other market.",
+   "ko": "그러다 맨해튼 어퍼 웨스트사이드에서 '페어웨이'라는 식료품점을 발견했습니다. 슬로건은 '다른 어떤 마켓과도 다르다'였죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1300.5,
+   "en": "Fairway was also crowded and chaotic, but not very expensive, and it was wonderful.",
+   "ko": "페어웨이 역시 붐비고 혼란스러웠지만, 그리 비싸지 않았고 정말 멋진 곳이었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1308.1,
+   "en": "We used to feel like food, which I did and do.",
+   "ko": ""
+  },
+  {
+   "start": 1311.4,
+   "en": "It sounds crazy to say that one grocery store could make an entire city more livable, but Fairway did.",
+   "ko": "식료품점 하나가 도시 전체를 더 살기 좋은 곳으로 만들 수 있다는 말이 이상하게 들릴 수도 있지만, 페어웨이는 실제로 그랬습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1318.8,
+   "en": "It was a dizzying, gorgeous, cornucopia of all these things, some of which you'd recognize, some of which you'd have absolutely no clue what you were looking at. like a million kinds of apples that I had never heard of before.",
+   "ko": "그곳은 어지러울 정도로 화려하고 풍요로운 곳이었는데, 익숙한 것도 있었지만 들어본 적도 없는 수백만 가지의 사과 품종처럼 도대체 무엇인지 알 수 없는 것들로 가득했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1332.8,
+   "en": "For me, the cheese section was the soul of the place. There were 300 cheeses behind the counter.",
+   "ko": "저에게 이곳의 핵심은 치즈 코너였습니다. 카운터 뒤에 300가지의 치즈가 있었죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1339.6,
+   "en": "The olive oils were amazing and plentiful and a million kinds of vinegar and tins of preserved fish.",
+   "ko": "올리브 오일은 놀라울 정도로 풍부했고, 수만 가지의 식초와 생선 통조림도 있었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1348.9,
+   "en": "They were really pioneers at like finding new things, finding things from around the world, finding people starting new food brands.",
+   "ko": "그들은 새로운 것을 찾아내고, 전 세계에서 물건을 가져오며, 새로운 식품 브랜드를 시작하는 사람들을 발굴하는 데 정말 선구자적이었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1356.5,
+   "en": "That is Hannah Howard. She is a food writer who also fell in love with Fairway.",
+   "ko": "한나 하워드입니다. 그녀 역시 페어웨이와 사랑에 빠진 음식 평론가죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1362.7,
+   "en": "It really was its own thing. A lot of times when I start to talk about all the amazing food, people think something fancy and it was really the opposite of fancy.",
+   "ko": "그곳은 정말 독보적이었습니다. 제가 그 놀라운 음식들에 대해 이야기할 때 사람들은 고급스러운 것을 상상하곤 하지만, 사실 고급스러움과는 거리가 멀었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1375.0,
+   "en": "It was always busy. So we're in Manhattan and there's always like an angry grandmother with a shopping cart who was not shy about ramming over you.",
+   "ko": "항상 붐볐죠. 맨해튼이니까 쇼핑 카트를 끌고 당신을 밀치고 지나가는 데 주저함이 없는 성난 할머니들도 늘 계셨고요.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1384.9,
+   "en": "And there was a sort of treasure hunt vibe where you never knew what you were going to discover. There were always these ropes of garlic and brussel sprouts before that was something I would see everywhere.",
+   "ko": "무엇을 발견하게 될지 모르는 보물 찾기 같은 분위기가 있었습니다. 어디서나 흔히 볼 수 있게 되기 전부터 마늘 다발과 방울양배추가 늘 있었죠.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1396.9,
+   "en": "When Howard graduated from college, she knew she somehow wanted to work with food. She tried the restaurant industry and didn't like it.",
+   "ko": "하워드는 대학을 졸업했을 때 어떤 방식으로든 음식 관련 일을 하고 싶어 했습니다. 레스토랑 업계에 발을 들였지만 마음에 들지 않았죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1405.1,
+   "en": "Yeah, I think it wasn't as creative as I hoped it would be. And at the time, I was doing a little bit of freelance writing, including a series about food entrepreneurs.",
+   "ko": "네, 제가 기대했던 것만큼 창의적이지 않았던 것 같아요. 당시 저는 음식 사업가들에 관한 시리즈를 포함해 프리랜서 글쓰기를 조금씩 하고 있었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1418.7,
+   "en": "And one of the people I interviewed was Stephen Jenkins, who was one of the VPs at Fairway Market. He was the cheese guy.",
+   "ko": "그때 인터뷰한 사람 중 한 명이 페어웨이 마켓의 부사장 중 한 명인 스티븐 젠킨스였어요. 치즈 전문가였죠.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1427.1,
+   "en": "He was waxing poetic about a lot of his journeys.",
+   "ko": "그는 자신의 많은 여정들에 대해 시적으로 읊조리듯 이야기했습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1430.9,
+   "en": "When you probably were visiting Fairway, it was newer to have some of these cheeses, European cheeses, Gouda's, and the fresh mozzarella, and he was discovering them and smuggling them in his suitcase.",
+   "ko": "당신이 페어웨이를 방문했을 때 보셨을 유럽 치즈나 고다, 신선한 모짜렐라 등은 당시엔 새로운 것들이었고, 그는 그것들을 발견해서 가방에 숨겨 들여오곤 했습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1445.6,
+   "en": "And I just asked him, I was like, hey, are you guys hiring? This was in 2011.",
+   "ko": "그래서 제가 그냥 물어봤죠. '혹시 사람 안 뽑나요?'라고요. 그게 2011년이었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1452.0,
+   "en": "Howard did get hired by Fairway, and she started out at the cheese counter.",
+   "ko": "하워드는 페어웨이에 고용되었고, 치즈 코너에서 일을 시작했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1457.1,
+   "en": "And my timing was great because they were growing at this point. they had just been purchased by the private equity firm Sterling.",
+   "ko": "운 좋게도 당시 페어웨이는 성장 중이었습니다. 사모펀드 회사인 스털링에 막 인수된 시점이었죠.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1467.4,
+   "en": "It was actually a few years earlier that Sterling Investment Partners, based in Westport, Connecticut, had made a big investment in Fairway.",
+   "ko": "사실 코네티컷주 웨스트포트에 본사를 둔 스털링 인베스트먼트 파트너스가 페어웨이에 대규모 투자를 한 것은 그보다 몇 년 전이었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1476.0,
+   "en": "By then, Fairway had already added a few locations beyond the original one, and the goal was to become a big chain.",
+   "ko": "그때 이미 페어웨이는 원래 지점 외에 몇 군데를 더 열었고, 목표는 거대 체인이 되는 것이었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1483.6,
+   "en": "We were growing so fast and so short staffed, so it was kind of like an all-hands-on deck all the time situation.",
+   "ko": "성장 속도는 너무 빠른데 인력은 부족해서, 늘 모든 직원이 총동원되어야 하는 상황이었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1489.0,
+   "en": "They told us we have 10 stores now and we're going to have 15 stores next year and we're going to be like Whole Foods.",
+   "ko": "그들은 현재 매장이 10개인데 내년에는 15개가 될 것이며, 홀푸드처럼 될 것이라고 말했습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1497.6,
+   "en": "We're going to be all around the country. We're going to be this huge brand synonymous with great food. And that was exciting and hopeful.",
+   "ko": "전국 어디에나 있게 될 것이고, 좋은 음식의 대명사가 되는 거대 브랜드가 될 거라고요. 정말 설레고 희망적이었습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1506.9,
+   "en": "Were you involved in the physical opening of new stores as well?",
+   "ko": "새 매장을 실제로 오픈하는 일에도 참여하셨나요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1510.3,
+   "en": "I was just because everyone was. The whole team was. I gave a lot of tours to bankers who were part of the IPO to show them around and explain what we were up to.",
+   "ko": "네, 모든 직원이 그랬으니까요. 팀 전체가 매달렸죠. 상장(IPO)에 참여하는 은행가들에게 매장을 안내하며 우리가 무엇을 하고 있는지 설명하기도 했습니다.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1524.3,
+   "en": "That's right. Stirling was planning an IPO, an initial public offering of fairway stock to recoup its investment. This was in 2013.",
+   "ko": "맞습니다. 스털링은 투자금을 회수하기 위해 2013년에 페어웨이의 기업 공개(IPO)를 계획하고 있었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1534.2,
+   "en": "So how did a single beloved chaotic food market on the Upper West Side turn into the epicenter of an IPO?",
+   "ko": "어떻게 어퍼 웨스트사이드의 사랑받던 작은 식료품점이 IPO의 중심지가 되었을까요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1542.7,
+   "en": "Okay, let's take a step back to the time before Fairway had taken on a private equity partner. The company was owned by three families.",
+   "ko": "페어웨이가 사모펀드 파트너를 영입하기 전으로 거슬러 올라가 봅시다. 당시 회사는 세 가족이 소유하고 있었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1552.2,
+   "en": "The key family for the purpose of this story is the Glickberg family, the founders.",
+   "ko": "이 이야기의 핵심 가족은 창업주인 글릭버그 가족입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1557.7,
+   "en": "The Glickbergs were involved in that they were always around. Howie Glickberg was there, his son Dan Glickberg was there, and there was a lot of talk about if he was going to become the next leader and the next face of the company.",
+   "ko": "글릭버그 가족은 늘 주변에 있었습니다. 하위 글릭버그와 그의 아들 댄 글릭버그가 있었고, 댄이 다음 리더이자 회사의 얼굴이 될지에 대해 많은 이야기가 오갔죠.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1570.9,
+   "en": "How would you describe the Glickbergs as business people, as keepers of this tradition, and so on?",
+   "ko": "전통의 수호자이자 비즈니스맨으로서 글릭버그 가족을 어떻게 묘사하시겠습니까?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1577.7,
+   "en": "They cared about the brand, they cared about their people, but I think there was also that famous grumpy New York, like gruff exterior, there was definitely nothing warm and fuzzy going on.",
+   "ko": "그들은 브랜드를 아꼈고 직원들도 아꼈지만, 전형적인 까칠한 뉴욕 사람들처럼 겉모습은 무뚝뚝했습니다. 따뜻하고 다정한 분위기는 전혀 아니었죠.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1592.1,
+   "en": "My god, my dad at his peak, he would walk through a store and he would point at every single little thing that was wrong.",
+   "ko": "세상에, 저희 아버지는 한창때 매장을 돌면서 잘못된 아주 작은 것 하나까지 다 지적하시곤 했습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1600.0,
+   "en": "Everybody in the business used to say, if Howie's not talking to you, that means you're doing a good job.",
+   "ko": "업계 사람들은 모두 말하곤 했죠. '하위가 당신에게 말을 걸지 않는다면, 그건 당신이 일을 잘하고 있다는 뜻이다'라고요.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1605.4,
+   "en": "And that is Howie's son, Dan Glickberg. I am a venture capital investor, former grocery guru.",
+   "ko": "이분은 하위의 아들인 댄 글릭버그입니다. 그는 벤처 캐피털 투자자이자 전직 식료품 전문가입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1613.5,
+   "en": "His father was the one who brought in sterling investment partners.",
+   "ko": "그의 아버지가 바로 스털링 인베스트먼트 파트너스를 영입한 장본인입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1617.1,
+   "en": "Yeah, so essentially what happened was there's three partners, three equal partners in the business, and one of the partners called up my dad one day.",
+   "ko": "네, 본질적으로 일어난 일은 이렇습니다. 사업에는 세 명의 동등한 파트너가 있었는데, 어느 날 그 중 한 명이 저희 아버지에게 전화를 했습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1625.4,
+   "en": "What my dad's partner told him was, I'm moving down to South Carolina, you can send my checks down there from now on. The partner wanted not only to retire, but to cash out of the business.",
+   "ko": "그 파트너는 사우스캐롤라이나로 이사할 테니 이제부터 자기 몫의 수표를 그쪽으로 보내달라고 했습니다. 은퇴뿐만 아니라 사업에서 손을 떼고 자금을 회수하고 싶어 했던 거죠.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1636.2,
+   "en": "My dad was always pretty risk averse, and he was definitely debt averse. So there was no way he was going to go to a bank and take out a loan to buy out his partner.",
+   "ko": "아버지는 늘 위험을 회피하는 편이었고 부채를 아주 싫어하셨습니다. 그래서 파트너의 지분을 사기 위해 은행에서 대출을 받을 생각은 전혀 없으셨죠.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1644.7,
+   "en": "So that's when they started having the discussions with private equity.",
+   "ko": "그래서 사모펀드와 논의를 시작하게 된 것입니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1648.8,
+   "en": "And that's how sterling investment partners in a deal valued at $150 million, wound up with an 80% stake in Fairway.",
+   "ko": "그렇게 스털링 인베스트먼트 파트너스는 1억 5천만 달러 가치의 거래를 통해 페어웨이 지분 80%를 갖게 되었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1657.9,
+   "en": "The Glickbergs, who still owned around 10%, were running the day-to-day, but the day-to-day became much more complicated as they began opening new stores.",
+   "ko": "약 10%의 지분을 보유한 글릭버그 가족이 일상적인 운영을 맡았지만, 매장을 확장하면서 운영은 훨씬 더 복잡해졌습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1667.3,
+   "en": "Sterling absolutely were not grocery operating experts.",
+   "ko": "스털링은 식료품점 운영 전문가가 전혀 아니었습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1670.6,
+   "en": "And the one thing I would say is that if you're going to get into a brick-and-mortar retail business like grocery that has extremely slim margins, You better have some experience or you better be able to go into your phone book and find some people that have a lot of experience.",
+   "ko": "식료품점처럼 마진이 극도로 낮은 오프라인 유통 사업에 뛰어들려면 본인이 경험이 있거나, 아니면 주변에 경험이 풍부한 사람을 수소문해서라도 찾았어야 했습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1689.0,
+   "en": "Sterling followed the standard private equity playbook and had fairway take on even more debt beyond the debt from Sterling's initial investment in order to fund the expansion.",
+   "ko": "스털링은 사모펀드의 표준적인 각본을 따랐고, 확장을 위한 자금을 마련하기 위해 스털링의 초기 투자 부채 외에 더 많은 부채를 페어웨이가 짊어지게 했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1700.7,
+   "en": "I think when they went public they had $200 million in debt, maybe more than $200 million in debt. The IPO was successful, especially for Sterling.",
+   "ko": "상장 당시 부채가 2억 달러 이상이었던 것으로 기억합니다. IPO는 성공적이었고, 특히 스털링에게는 더욱 그랬죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1710.8,
+   "en": "They received nearly half of the new money. Howie Glickberg also got a big check, and Dan Glickberg made some money too.",
+   "ko": "그들은 신규 자금의 거의 절반을 챙겼습니다. 하위 글릭버그도 큰 수표를 받았고, 댄 글릭버그 역시 돈을 좀 벌었죠.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1719.1,
+   "en": "But Dan Glickberg decided to leave Fairway just before the IPO. He thought they were headed for trouble.",
+   "ko": "하지만 댄 글릭버그는 IPO 직전에 페어웨이를 떠나기로 결심했습니다. 회사가 곤경에 처할 것이라고 생각했기 때문입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1726.6,
+   "en": "One piece of evidence, Fairway had negative same store sales.",
+   "ko": "한 가지 증거로, 페어웨이의 기존점 매출이 감소하고 있었습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1731.2,
+   "en": "So negative same store sales or when your sales this year are lower than when they were the previous year. We were burning a ton of capital.",
+   "ko": "기존점 매출 감소란 올해 매출이 전년보다 낮아지는 것을 말합니다. 우리는 엄청난 자본을 쏟아붓고 있었습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1741.1,
+   "en": "We were probably still spending too much building out each individual store. And, you know, all of those different pieces really brought us to bankruptcy because there was no way that we were ever going to be able to position the business in a way to stabilize it and then grow sales in order to pay off that debt.",
+   "ko": "각 매장을 짓는 데 너무 많은 돈을 쓰고 있었습니다. 그런 여러 요인들이 결국 파산으로 몰고 갔는데, 사업을 안정시키고 그 빚을 갚을 만큼 매출을 늘릴 방법이 전혀 없었기 때문입니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1760.9,
+   "en": "Fairway declared bankruptcy in 2016. By then there were 15 stores. Sterling wound down its investment while Fairway kept operating under new ownership.",
+   "ko": "페어웨이는 2016년에 파산을 선언했습니다. 당시 매장은 15개였습니다. 스털링은 투자를 정리했고 페어웨이는 새로운 주인 밑에서 운영을 계속했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1773.0,
+   "en": "But in 2020, it declared bankruptcy again. Fairway market is now owned by Village Supermarket. There are four stores left.",
+   "ko": "하지만 2020년에 다시 파산을 선언했습니다. 페어웨이 마켓은 현재 빌리지 슈퍼마켓이 소유하고 있으며, 매장은 이제 4개만 남았습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1782.3,
+   "en": "They're serviceable places to buy some things that you might need, but they are no longer the site of glory and excitement. That's Hannah Howard again.",
+   "ko": "필요한 물건을 살 수 있는 괜찮은 곳이긴 하지만, 더 이상 예전 같은 영광과 활기는 느낄 수 없습니다. 한나 하워드의 말입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1797.2,
+   "en": "The old fairway is to the current fairway as, let me think, like the best live music you've ever been to versus the annoying toy that your baby has that plays a jingle.",
+   "ko": "예전의 페어웨이와 지금의 페어웨이를 비교하자면, 음, 인생 최고의 라이브 공연과 아기 장난감에서 나오는 거슬리는 멜로디의 차이 같달까요.",
+   "speaker": "Hannah Howard"
+  },
+  {
+   "start": 1815.3,
+   "en": "There is blame to go all around here. It's not blame on my family. It's not blame on management. It's not blame on our private equity partners.",
+   "ko": "모두에게 책임이 있습니다. 저희 가족만의 잘못도, 경영진만의 잘못도, 사모펀드 파트너만의 잘못도 아닙니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1826.7,
+   "en": "It's blame to everybody. Like we screwed this up. We screwed it up. All of us.",
+   "ko": "모두의 잘못이죠. 우리가 망친 겁니다. 우리 모두가요.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1831.5,
+   "en": "We're just completely reactionary to any issue that popped up in the business rather than being proactive and saying, hey, here's how we're going to put systems in place.",
+   "ko": "우리는 시스템을 선제적으로 구축하기보다 사업에서 문제가 터지면 그때야 대응하기에 급급했습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1842.0,
+   "en": "So Howie doesn't have to walk through the stores and point out, hey, we have an inventory problem there. No price tags.",
+   "ko": "그래서 하위가 매장을 돌며 재고 문제나 가격표 부재 같은 걸 일일이 지적할 필요가 없는 시스템을 만들지 못한 거죠.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1847.9,
+   "en": "Why is that employee just standing in the corner with his hat on backwards? Like we didn't have any management systems in place.",
+   "ko": "'왜 직원이 구석에서 모자를 거꾸로 쓰고 서 있나?' 같은 일들이요. 관리 시스템이 전혀 없었던 겁니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1854.6,
+   "en": "I think from private equity perspective, I think that they raised pricing way too much because that's the easy thing to do. Right? They didn't have the right big picture either.",
+   "ko": "사모펀드 입장에서는 가격을 너무 많이 올렸다고 생각합니다. 그게 가장 쉬운 방법이니까요. 하지만 그들도 제대로 된 큰 그림을 보지 못했습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1865.2,
+   "en": "It was really just a race to the bottom at that point. I think fundamentally these people with just dollar signs as their goal plundered something really wonderful.",
+   "ko": "그 시점엔 그저 바닥을 향한 경주였을 뿐입니다. 근본적으로 오직 돈만 쫓는 사람들이 정말 멋진 무언가를 약탈한 것이라 생각합니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1880.5,
+   "en": "A lot of people have blamed private equity. Very few people have blamed management.",
+   "ko": "많은 사람들이 사모펀드를 비난하지만, 경영진을 비난하는 사람은 거의 없습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1885.1,
+   "en": "And I think at the end of the day, what I really want to say is an apology. I want to apologize to our customers.",
+   "ko": "결국 제가 정말 하고 싶은 말은 사과입니다. 우리 고객들에게 사과하고 싶습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1894.2,
+   "en": "I want to apologize to our employees who worked so hard to make the fairway experience what it was.",
+   "ko": "페어웨이를 특별하게 만들기 위해 열심히 일해주신 직원분들에게 사과드리고 싶습니다.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1902.8,
+   "en": "And that's not an apology for me, right? It's really an apology for my family, and it's also an apology from our private equity partners because we've never said that.",
+   "ko": "이건 저 개인의 사과가 아닙니다. 제 가족을 대신한 사과이자, 사모펀드 파트너들을 대신한 사과이기도 합니다. 우리는 한 번도 이런 말을 한 적이 없으니까요.",
+   "speaker": "Dan Glickberg"
+  },
+  {
+   "start": 1912.4,
+   "en": "We asked Sterling investment partners for a statement. They said, Sterling never sold any of its stock in Fairway following the IPO, and that Sterling did not even recover the full amount it had invested in Fairway.",
+   "ko": "저희는 스털링 인베스트먼트 파트너스에 입장을 요청했습니다. 그들은 상장 이후 페어웨이 주식을 한 번도 팔지 않았으며, 투자금 전액을 회수하지도 못했다고 밝혔습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1927.5,
+   "en": "Additionally, they said, the firms sought to act responsibly and honorably throughout its involvement with Fairway, its employees, and customers.",
+   "ko": "또한, 페어웨이와 그 직원들, 고객들과 관계를 맺는 동안 책임감 있고 명예롭게 행동하려 노력했다고 덧붙였습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1936.8,
+   "en": "After the break, a private equity insider on what the industry gets right and where it's going. Also, what is Brendan Boulou's endgame?",
+   "ko": "휴식 후, 사모펀드 내부자로부터 업계가 잘하고 있는 점과 나아갈 방향에 대해 들어봅니다. 또한 브렌던 벌루의 최종 목표는 무엇일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1948.6,
+   "en": "I'm Stephen Dubner, this is Freakonomics Radio, we'll be right back.",
+   "ko": "스티븐 더브너입니다. 프리코노믹스 라디오, 곧 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1961.2,
+   "en": "Sachin Kajuria spent eight years at Apollo Global Management, one of the world's largest private equity firms.",
+   "ko": "사친 카주리아는 세계 최대 사모펀드 회사 중 하나인 아폴로 글로벌 매니지먼트에서 8년을 보냈습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1968.2,
+   "en": "I was a partner before the IPO, and invested for the flagship funds across private equity, distressed, across a couple of structures, are working in a team of partners and other employees to deploy significant funds in different parts of the world.",
+   "ko": "저는 상장 전 파트너였으며, 사모펀드와 부실 채권 등 여러 구조에 걸쳐 주력 펀드를 투자했고, 다른 파트너 및 직원들과 팀을 이루어 전 세계에 막대한 자금을 운용했습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 1987.0,
+   "en": "You know, quite experience. These days, Kajoria is investing his own money and he has written a book called Two and Twenty, How the Masters of Private Equity Always Win.",
+   "ko": "대단한 경력이죠. 요즘 카주리아는 자신의 돈을 투자하고 있으며, 'Two and Twenty: 사모펀드의 거장들이 항상 이기는 법'이라는 책을 썼습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 1998.9,
+   "en": "Two and Twenty refers to how private equity firms get paid, a two percent fee on the assets they manage, and twenty percent of the investment profits.",
+   "ko": "'Two and Twenty'는 사모펀드가 관리 자산의 2%를 수수료로 받고, 투자 수익의 20%를 가져가는 보수 체계를 의미합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2008.2,
+   "en": "From the title, it may seem as if Kajoria has come to bury the industry that made him rich, but that's not the case. I asked him to describe the mission of his book.",
+   "ko": "제목만 보면 카주리아가 자신을 부자로 만들어준 업계를 비판하려는 것처럼 보일 수도 있지만, 실제로는 그렇지 않습니다. 저는 그에게 책의 집필 의도를 물었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2019.6,
+   "en": "The mission is first to make everyone aware that private equity is not alternative. It is mainstream. It's everywhere.",
+   "ko": "이 책의 사명은 첫째로 사모펀드가 '대안'이 아니라는 점을 모두에게 알리는 것입니다. 그것은 주류이며 어디에나 있습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2031.2,
+   "en": "It is possibly your kids' schools might be owned by private equity could be your employer, could be the mortgage on your house, could be the road that you drive on, could be the real estate you live in.",
+   "ko": "여러분의 자녀가 다니는 학교가 사모펀드 소유일 수도 있고, 여러분의 직장이나 주택 담보 대출, 여러분이 달리는 도로, 살고 있는 부동산일 수도 있습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2044.1,
+   "en": "Pet care, your dating app, if you like the movie Top Gun, you know, one of the fighter jet schools is owned by private equity?",
+   "ko": "반려동물 관리, 데이팅 앱, 심지어 영화 '탑건'을 좋아하신다면 전투기 조종사 훈련 학교 중 하나가 사모펀드 소유라는 사실을 알고 계셨나요?",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2051.2,
+   "en": "This is a $12 trillion industry today. And I think going forward in the 2030s, this could be a 20 trillion plus industry.",
+   "ko": "오늘날 이 산업은 12조 달러 규모입니다. 2030년대에는 20조 달러 이상의 산업이 될 것이라고 생각합니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2062.8,
+   "en": "That's assets under management that's unlevered. Add a little bit of leverage and you're talking tens of trillions of purchasing power.",
+   "ko": "이는 레버리지를 제외한 순수 관리 자산 규모입니다. 레버리지까지 더하면 수십조 달러의 구매력을 의미하죠.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2071.6,
+   "en": "People are going to have soon the choice about whether to invest in private equity and retail. Retail, meaning the way regular people invest, may be buying a mutual fund through their brokerage account or 401k.",
+   "ko": "곧 일반 투자자들도 사모펀드에 투자할지 선택할 기회를 갖게 될 것입니다. 여기서 일반 투자자란 증권 계좌나 401k 퇴직연금을 통해 뮤추얼 펀드에 투자하는 일반인들을 의미합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2084.9,
+   "en": "Most of the money that flows to private equity firms today comes from professionals and institutions like sovereign wealth funds, pension funds, university endowments.",
+   "ko": "현재 사모펀드로 유입되는 대부분의 자금은 국부펀드, 연기금, 대학 기금 같은 전문가와 기관들로부터 나옵니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2095.9,
+   "en": "Retail investors historically have not been allowed to invest in private equity, but that's changing.",
+   "ko": "역사적으로 일반 투자자들은 사모펀드 투자가 허용되지 않았지만, 이제 바뀌고 있습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2101.6,
+   "en": "Last year, President Trump signed an executive order aimed at expanding access to so-called alternative investments, like private equity, private credit, and crypto.",
+   "ko": "작년에 트럼프 대통령은 사모펀드, 사모 신용, 가상화폐와 같은 소위 대체 투자에 대한 접근성을 확대하기 위한 행정 명령에 서명했습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2111.4,
+   "en": "We covered that in another episode. Number 654 called 'Is the public ready for private equity'.",
+   "ko": "저희는 654회 에피소드인 '대중은 사모펀드에 투자할 준비가 되었는가'에서 이 주제를 다뤘습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2117.8,
+   "en": "That transition is still ongoing, but such a change would align nicely with Kaduria's mission.",
+   "ko": "그 전환은 여전히 진행 중이지만, 이러한 변화는 카주리아의 사명과 잘 맞아떨어집니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2124.7,
+   "en": "Everyone should be better educated about this because it's coming.",
+   "ko": "이것이 다가오고 있기 때문에 모두가 이에 대해 더 잘 알아야 합니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2129.8,
+   "en": "If it's not already at your door, you know about Apple, you know about Microsoft, Amazon, Tesla, consumer electronics, and so on, you know, you know all about that.",
+   "ko": "아직 체감하지 못할 수도 있지만, 여러분은 애플, 마이크로소프트, 아마존, 테슬라, 가전제품 등에 대해서는 이미 잘 알고 계십니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2139.2,
+   "en": "You don't really know enough probably as an individual about Blackstone, Carlisle, KKR, these are the giants of the industry.",
+   "ko": "하지만 개인으로서 블랙스톤, 칼라일, KKR 같은 업계의 거물들에 대해서는 충분히 알지 못할 것입니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2149.1,
+   "en": "And you should, for a lot of people, it's still a very opaque industry.",
+   "ko": "그래야만 합니다. 많은 사람들에게 이 업계는 여전히 매우 불투명하기 때문입니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2154.8,
+   "en": "When you have a lack of transparency or perceived lack of transparency, you have a lot of worry about what's really happening behind the curtain.",
+   "ko": "투명성이 부족하거나 그렇게 느껴질 때, 장막 뒤에서 실제로 무슨 일이 일어나는지에 대해 많은 걱정을 하게 됩니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2163.7,
+   "en": "Kaduri's main argument is that private equity firms are simply very good at making a lot of money. Why? One key, he says, is a mastery of complexity.",
+   "ko": "카주리아의 핵심 주장은 사모펀드가 단순히 돈을 버는 데 매우 능숙하다는 것입니다. 그 비결 중 하나는 복잡성을 장악하는 능력이라고 그는 말합니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2176.4,
+   "en": "If you think about most of our modern lives, we're looking for simplification. Is there an app for this? I want the book that gives me five principles on how to run my life.",
+   "ko": "현대인의 삶을 생각해보면 우리는 늘 단순함을 찾습니다. '이걸 위한 앱이 있나?', '인생 경영의 5가지 원칙 같은 책 없나?' 하고 말이죠.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2186.5,
+   "en": "It's actually the opposite in private investment. It's like, well, hang on a minute, what are people running from? What's just too hard? And hard can be defined in lots of ways.",
+   "ko": "비상장 투자에서는 정반대입니다. '잠깐만, 사람들이 무엇에서 도망치고 있지?', '뭐가 그렇게 어렵다는 거야?'라고 묻는 식이죠. '어렵다'는 말은 여러 의미를 가질 수 있습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2196.4,
+   "en": "This business is a good business but a tip-top, the management messed it up. Oh my god, is it going to die? Oh, so much work. I don't know.",
+   "ko": "'사업은 좋은데 경영진이 망쳐놨어. 세상에, 이거 망하는 거 아냐? 손이 너무 많이 가겠는데'라든가요.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2203.5,
+   "en": "Or this is a disruptive industry. Yeah, but is it just a fad? You know, is crypto coming? Is it going? Is it real? Oh, so much work.",
+   "ko": "혹은 '이건 파괴적 혁신 산업이야. 근데 그냥 유행 아냐? 가상화폐가 뜰까, 질까? 진짜일까? 아, 분석할 게 너무 많네' 같은 것들이죠.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2211.3,
+   "en": "The world is melting down. There's a financial crisis. Oh my god, this guy wants to buy an insurance company. What?",
+   "ko": "세상이 무너지고 금융 위기가 왔는데, '세상에, 저 사람은 보험 회사를 사고 싶어 하네? 뭐지?' 싶을 때도 있죠.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2217.0,
+   "en": "But didn't an insurance company just go bust? I don't know what so much work in that lies value. Complexity is a source of value with private investing.",
+   "ko": "'방금 보험 회사 하나가 파산하지 않았나?' 하고요. 그런 복잡하고 고된 작업 속에 가치가 있습니다. 비상장 투자에서 복잡성은 가치의 원천입니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2227.9,
+   "en": "So there's been quite a bit of academic research about the downstream effects of private equity investing, much of it negative.",
+   "ko": "사모펀드 투자의 파급 효과에 대한 학술적 연구가 꽤 많이 이루어졌는데, 그 중 상당수는 부정적입니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2235.5,
+   "en": "On the employee side, there's research about wages, work conditions, about longevity, once a private equity firm takes over a company.",
+   "ko": "고용 측면에서는 사모펀드가 기업을 인수한 뒤의 임금, 노동 조건, 기업의 지속 가능성 등에 대한 연구가 있습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2243.8,
+   "en": "And then on the consumer side too, especially when we're talking about healthcare, which has become a big area for private equity, nursing homes, hospitals, doctors, practices on and on.",
+   "ko": "소비자 측면에서도, 특히 사모펀드의 주요 분야가 된 헬스케어, 요양원, 병원, 의원 등에 대해 많은 연구가 진행되었습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2252.6,
+   "en": "many of the outcomes there have also been argued to be significantly negative.",
+   "ko": "그곳에서의 결과들 역시 상당히 부정적이라는 주장이 많습니다.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2258.8,
+   "en": "I would think that's a major concern for anyone even if they are just a retiree looking for an investment. But I didn't read about any of that in your book. Why not?",
+   "ko": "단지 투자를 원하는 은퇴자라 할지라도 이는 큰 걱정거리일 텐데, 당신의 책에서는 그런 내용을 읽지 못했습니다. 왜 그런가요?",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2270.6,
+   "en": "So it was important in all the cases we looked at for them to be pretty much personal examples. And happily, I wasn't involved in any of the ones that you mentioned that had those downstream effects.",
+   "ko": "우리가 다룬 모든 사례에서 개인적인 경험을 담는 것이 중요했습니다. 다행히 제가 관여했던 딜 중에는 말씀하신 부정적인 파급 효과를 낸 사례가 없었습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2285.1,
+   "en": "If you look on Bloomberg, if you look on the business press, you'll find lots of articles about large public companies doing things in a way that they shouldn't, whether it's Amazon with wages or it's this hospital, with this that the other, you see lots.",
+   "ko": "블룸버그나 경제지를 보면 아마존의 임금 문제든 특정 병원의 문제든, 대형 상장사들이 잘못된 방식으로 운영되는 기사를 아주 많이 볼 수 있습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2301.5,
+   "en": "I think it's very important not to confuse the style of investing with corporate behavior.",
+   "ko": "저는 투자 방식과 기업의 행태를 혼동하지 않는 것이 매우 중요하다고 생각합니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2309.2,
+   "en": "Is there something intrinsic about private markets investing that does all these bad things? No.",
+   "ko": "비상장 시장 투자가 본질적으로 이런 나쁜 일들을 저지르는 걸까요? 아니요.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2318.2,
+   "en": "Is there something intrinsic about private investing that is vastly superior in all circumstances to public investing? No, of course not.",
+   "ko": "그럼 비상장 투자가 모든 상황에서 상장 투자보다 월등히 우월한 본질적 특성이 있을까요? 물론 그것도 아닙니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2326.3,
+   "en": "And so I think you have to be a lot more nuanced on that and say, look, if the argument is, we've found that in this, this and this deal that all happen to be private equity deals. These practices were happening that didn't benefit consumers, communities, that should not happen.",
+   "ko": "따라서 더 미묘한 차이를 구별해야 합니다. '이런저런 사모펀드 딜에서 소비자나 지역사회에 도움이 되지 않는 관행이 발견되었다'면, 그것은 일어나서는 안 될 일입니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2345.2,
+   "en": "But it should not happen not as a function of being a private equity investment, one hopes, but more as a matter of corporate life in the same way that whether you look at Enron or whether you look at AIG or whether you look at Lehman Brothers, none of these things are private equity.",
+   "ko": "하지만 그것은 사모펀드 투자의 속성 때문이 아니라 기업 활동 전반의 문제로 보아야 합니다. 엔론이나 AIG, 리먼 브라더스 사례를 보더라도 그 중 어느 것도 사모펀드는 아니었으니까요.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2361.0,
+   "en": "And these things have caused enormous problems over the years.",
+   "ko": "그리고 그런 일들은 수년 동안 엄청난 문제들을 일으켜 왔습니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2364.1,
+   "en": "And so you've got to be pretty open about it and say, if you find a particular set of individuals or firms doing things they shouldn't do, of course, that shouldn't happen. And that should be addressed in the normal course of things.",
+   "ko": "그러니 열린 마음으로 봐야 합니다. 특정 개인이나 기업이 부적절한 일을 한다면 당연히 안 될 일이고, 그것은 정상적인 절차를 통해 해결되어야 합니다.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2375.7,
+   "en": "But I don't think it's the industry as a rule. I've never been in a meeting where somebody said, well, let's do that. It's good for us, but it's bad for somebody else. No way.",
+   "ko": "하지만 그것이 업계 전반의 규칙이라고 생각지는 않습니다. 저는 '우리에겐 좋지만 남에겐 나쁜 일을 하자'고 말하는 회의에 단 한 번도 참석해본 적이 없습니다. 절대 없죠.",
+   "speaker": "Sachin Kajuria"
+  },
+  {
+   "start": 2387.3,
+   "en": "Sachin, you could make a good argument here that plenty of firms misbehave and fail and crumble without private equity investments.",
+   "ko": "사친, 사모펀드 투자 없이도 많은 기업이 잘못 행동하고 실패하며 무너진다는 당신의 주장은 일리가 있네요.",
+   "speaker": "Stephen Dubner"
+  },
+  {
+   "start": 2396.6,
+   "en": "Brendan Ballou, the former Department of Justice Lawyer and author of Plunder is not particularly sympathetic to this argument.",
+   "ko": "전직 법무부 변호사이자 '약탈(Plunder)'의 저자인 브렌던 발루는 이 주장에 그다지 동조하지 않습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2404.5,
+   "en": "There was a really interesting instance where a private equity firm bought up a restaurant chain, pushed it into bankruptcy, and ultimately was able to push off the pension obligations of the employees and retirees onto a quasi-government agency.",
+   "ko": "사모펀드 회사가 레스토랑 체인을 인수해 파산으로 몰아넣고, 결국 직원과 퇴직자들의 연금 지급 의무를 준정부 기관에 떠넘긴 아주 흥미로운 사례가 있었습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2418.5,
+   "en": "When asked about this tactic, the co-founder under the private equity firm said simply, we don't make the rules.",
+   "ko": "이런 수법에 대해 질문을 받았을 때, 그 사모펀드의 공동 창립자는 단순히 '우리가 규칙을 만드는 게 아니다'라고 대답했죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2424.7,
+   "en": "You write that roughly one in five large companies acquired through leveraged buyouts go bankrupt in a decade. This is vastly more than the roughly 2% of comparable companies not acquired by private equity firms that do. Can you explain why that happens so often?",
+   "ko": "차입 매수를 통해 인수된 대기업 5곳 중 1곳이 10년 이내에 파산한다고 쓰셨더군요. 이는 사모펀드가 인수하지 않은 유사 기업들의 파산율인 약 2%보다 훨씬 높은 수치입니다. 왜 이런 일이 그렇게 자주 발생하는지 설명해 주시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2439.2,
+   "en": "The advocates of the private equity industry would say that this is essentially inevitable, that private equity firms buy up risky businesses with the hope of radically transforming them. So, it's only natural that a higher percentage of these businesses fail.",
+   "ko": "사모펀드 업계 지지자들은 이것이 본질적으로 불가피한 일이며, 사모펀드는 위험한 기업을 인수해 근본적으로 변화시키려 한다고 말할 것입니다. 따라서 이들 기업 중 더 높은 비율이 실패하는 것은 당연하다는 것이죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2455.1,
+   "en": "Maybe, but a lot of private equity acquisitions happen with a lot of debt. And then on top of that, the private equity firms manage to extract fees from the company that they own.",
+   "ko": "그럴 수도 있겠지만, 많은 사모펀드 인수는 막대한 부채를 안고 이루어집니다. 게다가 사모펀드 회사들은 자신들이 소유한 회사로부터 수수료를 뽑아내기까지 하죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2466.8,
+   "en": "So, management fees every quarter, every year for the privilege being owned by the private equity firm, dividend recapitalizations, which is the company essentially borrowing money to pay the private equity firm and its investors.",
+   "ko": "사모펀드에 소유된 특권에 대한 대가로 매 분기, 매년 지급하는 경영 수수료, 그리고 회사가 사모펀드와 투자자들에게 돈을 주기 위해 사실상 돈을 빌리는 자본 구조 재조정 배당 등이 있습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2478.3,
+   "en": "There's also the magic of the sale lease back, yes?",
+   "ko": "'매각 후 재임대(sale lease back)'의 마법도 있지 않나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2482.0,
+   "en": "Yeah, if you live in the Midwest, you might have been familiar with Shopko, which was sort of a Walmart competitor, Sun Capital, a private equity firm bought up Shopko, and then required Shopko to sell all of its physical stores and then lease the stores back in perpetuity.",
+   "ko": "네, 중서부에 사신다면 월마트의 경쟁사였던 숍코(Shopko)에 대해 잘 아실 겁니다. 사모펀드인 선 캐피털이 숍코를 인수한 뒤, 모든 오프라인 매장을 매각하고 그 매장들을 영구적으로 다시 임대하게 했죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2497.6,
+   "en": "Now you can see how that would make a lot of sense if you're a short-term investor. You get an initial pop of the sale, but it's tough for the long-term investor because it used to have assets that it could rely on, now it's saddled with these long-term lease obligations that it's going to have to pay.",
+   "ko": "단기 투자자 입장에서는 이것이 얼마나 말이 되는지 아실 겁니다. 매각을 통해 즉각적인 현금을 확보하지만, 장기 투자자에게는 힘든 일입니다. 의지할 수 있었던 자산은 사라지고, 이제는 지불해야 할 장기 임대 의무만 짊어지게 되었으니까요.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2513.6,
+   "en": "If I asked you to write a brief critique of your own book, what would that be?",
+   "ko": "본인의 책에 대해 스스로 짧은 비평을 써본다면 어떤 내용이 될까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2519.1,
+   "en": "Private equity has resulted in thousands of successful deals for hundreds of fabulously successful companies, and Ballou fails to acknowledge or explain that success.",
+   "ko": "'사모펀드는 수백 개의 엄청나게 성공한 기업들을 위해 수천 건의 성공적인 거래를 성사시켰으나, 발루는 그 성공을 인정하거나 설명하지 못했다'라고 하겠네요.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2532.2,
+   "en": "Okay, so why did you not explain that success more fully?",
+   "ko": "좋습니다, 그럼 왜 그 성공을 더 충분히 설명하지 않으셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2536.2,
+   "en": "My point is not that every private equity deal is a failure, not even the majority. The problem is that we've got a business model whose incentives drive extreme and ultimately bad outcomes.",
+   "ko": "제 요점은 모든 사모펀드 거래가 실패라는 것이 아닙니다. 대다수가 그런 것도 아니고요. 문제는 극단적이고 결국 좋지 않은 결과를 초래하도록 만드는 인센티브를 가진 비즈니스 모델이 있다는 것입니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2547.9,
+   "en": "Hopefully, this is a bit of a blueprint. There's a tremendous amount of expertise within the federal government on a whole range issues. Private equity is just one of them.",
+   "ko": "바라건대, 이 책이 일종의 청사진이 되었으면 합니다. 연방 정부 내에는 온갖 문제에 대한 엄청난 전문 지식이 있습니다. 사모펀드는 그중 하나일 뿐이죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2556.6,
+   "en": "So I'm hoping that this is a little bit of a blueprint for how we can get people who are really knowledgeable in government to talk publicly about these issues.",
+   "ko": "그래서 정부의 유능한 인재들이 이러한 이슈에 대해 공개적으로 이야기할 수 있게 만드는 일종의 청사진이 되기를 바랍니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2565.9,
+   "en": "In other words, Ballou was looking for Washington to regulate private equity more aggressively. A few years ago, the Securities and Exchange Commission tried introducing new rules aimed at bringing greater transparency to private equity firms and their activities, but the industry fought back, sued the SEC, and those rules were vacated in 2024.",
+   "ko": "다시 말해, 발루는 워싱턴이 사모펀드를 더 적극적으로 규제하기를 기대하고 있었습니다. 몇 년 전 증권거래위원회(SEC)는 사모펀드와 그 활동의 투명성을 높이기 위한 새로운 규칙을 도입하려 했지만, 업계는 이에 반발해 SEC를 고소했고, 해당 규칙들은 2024년에 무효화되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2588.4,
+   "en": "You can understand why the industry is pushing back against even this relatively minor regulation, they own the keys to a gigantic money-making machine getting bigger by the day. And if it costs a few million dollars in legal and lobbying fees to keep it running, that might be their best investment yet.",
+   "ko": "업계가 왜 이런 상대적으로 사소한 규제에도 반발하는지 이해할 수 있을 것입니다. 그들은 나날이 커져가는 거대한 돈 버는 기계의 열쇠를 쥐고 있으니까요. 이 기계를 계속 돌리기 위해 법률 및 로비 비용으로 수백만 달러를 쓰는 것이 그들에게는 최고의 투자가 될 수도 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2608.5,
+   "en": "The industry also likes to argue that its form of investor-driven capitalism is what keeps the American economy so dynamic and that it would be dangerous to mess with this formula.",
+   "ko": "업계는 또한 자신들의 투자자 중심 자본주의 형태가 미국 경제의 역동성을 유지하는 원동력이며, 이 공식을 건드리는 것은 위험할 것이라고 주장하기를 좋아합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2620.5,
+   "en": "Brendan Ballou doesn't buy that argument either. His book opens with a quote from the late Supreme Court Justice, Louis Brandeis, we must break the money trust or the money trust will break us.",
+   "ko": "브렌던 발루는 이 주장 역시 믿지 않습니다. 그의 책은 고 루이스 브랜다이스 대법관의 인용구로 시작합니다. '우리는 금융 트러스트를 타파해야 한다. 그렇지 않으면 금융 트러스트가 우리를 무너뜨릴 것이다.'",
+   "speaker": "Host"
+  },
+  {
+   "start": 2632.8,
+   "en": "Brandeis' concerns in the 1910s are almost shockingly similar to the concerns that we've got now. Back then you had the great trusts, the steel monopoly tobacco and sugar trust, And as Brandeis says, the money trusts controlling whole vast swaths of industry.",
+   "ko": "1910년대 브랜다이스의 우려는 현재 우리가 가지고 있는 우려와 놀라울 정도로 비슷합니다. 당시에는 철강 독점, 담배 및 설탕 트러스트 같은 거대 트러스트가 있었고, 브랜다이스가 말했듯이 금융 트러스트가 산업의 광범위한 영역을 장악하고 있었습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2652.4,
+   "en": "He and others talk about the emmiserating effects that this has on people, whether it's employees dying working for the railroads, while heirs to these fortunes have literal hunts for diamonds on their backyards.",
+   "ko": "그와 다른 이들은 이것이 사람들에게 미치는 비참한 영향에 대해 이야기합니다. 철도에서 일하다 죽어가는 직원들이 있는 반면, 이 막대한 부의 상속자들은 뒷마당에서 말 그대로 다이아몬드 사냥을 하는 식이었죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2665.5,
+   "en": "But Louis Brandeis and others helped to lead the progressive movement that constrained the powers of the trusts. He helped to create the Federal Trade Commission.",
+   "ko": "하지만 루이스 브랜다이스와 동료들은 트러스트의 권력을 제한하는 진보주의 운동을 이끄는 데 도움을 주었습니다. 그는 연방거래위원회(FTC) 창설을 도왔죠.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2673.8,
+   "en": "There was a huge blossoming of popular progressive legislation that didn't destroy capitalism the slightest. What it did is it constrained the powers of the trust and made the economy far more productive and far more fair.",
+   "ko": "대중적인 진보적 입법이 꽃을 피웠고, 이는 자본주의를 조금도 파괴하지 않았습니다. 오히려 트러스트의 권력을 제한하고 경제를 훨씬 더 생산적이고 공정하게 만들었습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2688.1,
+   "en": "Can you just name a couple other protections, especially worker protections that were invoked during that time?",
+   "ko": "당시에 발동되었던 다른 보호 조치들, 특히 노동자 보호 조치들을 몇 가지 말씀해 주시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2693.6,
+   "en": "Yeah, it's kind of amazing. It's almost a to-do list for the modern era, whether it's talking about the first labor laws, the first environmental laws.",
+   "ko": "네, 정말 놀랍습니다. 최초의 노동법이나 환경법을 언급하는 것은 마치 현대 시대를 위한 할 일 목록과도 같습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2701.8,
+   "en": "I don't want to overstate the progress of that moment. The 1910s were also an era that was incredibly regressive racially.",
+   "ko": "그 당시의 진보를 과장하고 싶지는 않습니다. 1910년대는 인종적으로 매우 퇴보적인 시대이기도 했으니까요.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2710.4,
+   "en": "So it's not a perfect guide, but it does have a certain rhyming quality for the present in that I think that there is often a sense of people leap from thinking of private equity or our current political or financial condition as sort of always as it is to sort of a sense of despair that it can never be changed.",
+   "ko": "그래서 완벽한 가이드는 아니지만, 현재와 일맥상통하는 부분이 있습니다. 사람들은 사모펀드나 현재의 정치, 금융 상황을 늘 그래왔던 것으로 여기다가, 결코 바꿀 수 없다는 절망감으로 빠지곤 하니까요.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2730.2,
+   "en": "And I think Brandeis' era shows that it can be because it has been changed before. And the avenues by which we do it are going to have to be a little creative.",
+   "ko": "브랜다이스 시대는 그것이 가능하다는 것을 보여준다고 생각합니다. 이전에도 바뀐 적이 있기 때문이죠. 그리고 우리가 이를 실행하는 방법은 조금 창의적이어야 할 것입니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2740.0,
+   "en": "Yes, action can happen in Congress, but a lot of elected officials receive significant contributions from the industry as they receive from many other industries.",
+   "ko": "물론 의회에서도 조치가 이루어질 수 있지만, 많은 선출직 공무원들이 다른 산업과 마찬가지로 이 업계로부터 상당한 기부금을 받습니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2748.6,
+   "en": "What we can be thinking about in addition to action in Congress is what role can federal regulators take, whether we're talking about the Securities and Exchange Commission, the FTC, the Treasury Department, Federal Reserve.",
+   "ko": "의회의 조치 외에도 우리가 생각할 수 있는 것은 증권거래위원회, FTC, 재무부, 연방준비제도 같은 연방 규제 기관들이 어떤 역할을 할 수 있는지입니다.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2764.8,
+   "en": "If I could just ask you to say like, is private equity on balance good or bad for the operation of our society? How would you start to think about describing that?",
+   "ko": "결과적으로 사모펀드가 우리 사회의 운영에 득이 되는지 실이 되는지 묻는다면, 어떻게 설명하기 시작하시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2777.0,
+   "en": "I suppose if I thought that it was good for society, I wouldn't have called the book Plunder.",
+   "ko": "사회에 좋다고 생각했다면 책 제목을 '약탈'이라고 짓지 않았을 것 같네요.",
+   "speaker": "Brendan Ballou"
+  },
+  {
+   "start": 2781.0,
+   "en": "Or no. Sorry, I forgot to take my anti-obvious pills this morning.",
+   "ko": "그렇겠죠. 죄송합니다, 오늘 아침에 '당연한 소리 방지약'을 먹는 걸 깜빡했네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2790.3,
+   "en": "That again was Brendan Ballou and his book is called Plunder, Private Equity's Plan to Pillage America, by the way. His veterinarian girlfriend is now his veterinarian wife.",
+   "ko": "지금까지 브렌던 발루였습니다. 참고로 그의 책 제목은 '약탈: 미국의 모든 것을 털어가는 사모펀드의 계획'입니다. 그의 수의사 여자친구는 이제 그의 수의사 아내가 되었답니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2803.0,
+   "en": "Thanks to him as well as to Sachin Khajuria, whose book is called Two and Twenty: How the Masters of Private Equity Always Win. Thanks also to Hannah Howard and Dan Glickberg for telling us the Fairway story.",
+   "ko": "발루 씨와 더불어 '2와 20: 사모펀드의 거물들은 어떻게 항상 승리하는가'의 저자 사친 카주리아에게도 감사드립니다. 페어웨이 이야기를 들려준 한나 하워드와 댄 글릭버그에게도 감사 인사를 전합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2815.1,
+   "en": "I would love to hear your thoughts on the private equity industry. Our email is radio at freakonomics.com. We will be back soon with a new episode.",
+   "ko": "사모펀드 업계에 대한 여러분의 생각을 듣고 싶습니다. 이메일 주소는 radio@freakonomics.com입니다. 곧 새로운 에피소드로 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2824.6,
+   "en": "Until then, take care of yourself. And if you can, someone else too. Freakonomics Radio is produced by Renbud Radio.",
+   "ko": "그때까지 건강 유의하시고, 여유가 된다면 주변 분들도 챙겨주세요. 프리코노믹스 라디오는 Renbud Radio에서 제작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2831.2,
+   "en": "This episode was produced by Ryan Kelly and updated by Dalvin Aboagye. It was edited by Pete Madden and mixed by Eleanor Osborne.",
+   "ko": "이번 에피소드는 라이언 켈리가 제작하고 달빈 아보아제가 업데이트했습니다. 피트 매든이 편집했고 엘리너 오스본이 믹싱했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2838.4,
+   "en": "Our staff also includes Claire Kurgan, Ellen Frankman, Elsa Hernandez, Emma Tyrrell, Jake Lummus, Jeremy Johnston, and Theo Jacobs.",
+   "ko": "저희 스태프에는 클레어 커건, 엘렌 프랭크먼, 엘사 에르난데스, 엠마 티렐, 제이크 러머스, 제레미 존스턴, 테오 제이콥스도 포함되어 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2846.9,
+   "en": "You can find our entire archive on any podcast app or at Freakonomics.com where we also publish transcripts and show notes.",
+   "ko": "모든 팟캐스트 앱이나 스크립트와 쇼 노트를 게시하는 Freakonomics.com에서 전체 아카이브를 확인하실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2854.8,
+   "en": "Our theme song is Mr. Fortune by the Hitchhikers, and our composer is Luis Guerra. As always, thank you for listening.",
+   "ko": "저희 테마곡은 Hitchhikers의 'Mr. Fortune'이며, 작곡가는 루이스 게라입니다. 언제나 그렇듯, 청취해 주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2865.3,
+   "en": "So a lot of people thought that cheese was one of the departments that defined us, and I hate cheese. My dad hates cheese, my grandfather hated cheese.",
+   "ko": "많은 사람들이 치즈가 우리를 정의하는 부서 중 하나라고 생각했지만, 전 치즈를 싫어해요. 저희 아버지도 치즈를 싫어하시고 할아버지도 치즈를 싫어하셨죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2879.0,
+   "en": "The Freakonomics Radio Network, the hidden side of everything.",
+   "ko": "프리코노믹스 라디오 네트워크, 모든 것의 숨겨진 이면.",
+   "speaker": "Host"
+  }
+ ]
+}
