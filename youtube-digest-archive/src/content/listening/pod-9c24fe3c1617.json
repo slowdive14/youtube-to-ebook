@@ -1,0 +1,839 @@
+{
+ "id": "pod-9c24fe3c1617",
+ "title": "Why we complain and how to do it better, with Robin Kowalski, PhD",
+ "show": "Speaking of Psychology",
+ "channel": "American Psychological Association",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9936485043.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/2b11ad0e-c8bf-11f1-a905-1f625f9a20dc/image/8577510a83cc8ea277800434a518b476.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 1479,
+ "releaseDate": "2026-10-21T07:30:00.000Z",
+ "addedAt": "2026-10-24",
+ "segments": [
+  {
+   "start": 1.6,
+   "en": "grousing, whining, quetching, complaining, whatever you call it, we all do it. Whether it's a gripe session with your co-workers about your unreasonable boss, or venting to your best friend about your spouse's most annoying habit, complaining can feel satisfying in the moment.",
+   "ko": "툴툴거리든, 징징대든, 투덜대든, 불평하든, 무엇이라 부르든 우리 모두는 그렇게 합니다. 직장 동료들과 비합리적인 상사에 대해 불평을 늘어놓는 시간이든, 배우자의 가장 짜증나는 습관에 대해 절친한 친구에게 화풀이하는 것이든, 불평은 그 순간만큼은 만족스럽게 느껴질 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 20.1,
+   "en": "But psychologists who study complaining say there's a right way and a wrong way to do it, and that complaining can have positive and negative effects on our mental health and our relationships with others.",
+   "ko": "하지만 불평을 연구하는 심리학자들은 불평에도 옳은 방법과 그른 방법이 있으며, 불평이 우리의 정신 건강과 타인과의 관계에 긍정적이고 부정적인 영향을 미칠 수 있다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 30.8,
+   "en": "So why do we like to complain? When does griping make us feel better, and when does it make us feel worse? Are there ways to complain more effectively?",
+   "ko": "그런데 왜 우리는 불평하는 것을 좋아할까요? 언제 불평이 기분을 좋게 해주고, 언제 기분을 더 나쁘게 만들까요? 더 효과적으로 불평하는 방법이 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 40.5,
+   "en": "And if you're worried that you complain too much, what can you do to shift your complaining habits? Welcome to Speaking of Psychology, the flagship podcast of the American Psychological Association that examines the links between psychological science and everyday life.",
+   "ko": "그리고 만약 자신이 너무 많이 불평하는 것 같아 걱정된다면, 불평하는 습관을 바꾸기 위해 무엇을 할 수 있을까요? 심리 과학과 일상생활 사이의 연결 고리를 살펴보는 미국 심리학회의 대표 팟캐스트, Speaking of Psychology에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 55.2,
+   "en": "I'm Kim Mills. My guest today is Dr. Robin Kowalski, a Centennial Professor of Psychology at Clemson University, where she studies complaining and other aversive behaviors such as teasing and bullying.",
+   "ko": "저는 킴 밀스입니다. 오늘 모신 손님은 클렘슨 대학교의 심리학 석좌교수인 로빈 코왈스키 박사님으로, 박사님은 불평하기와 놀림, 괴롭힘 같은 다른 혐오 행동들을 연구하십니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 73.0,
+   "en": "She has authored more than 100 journal articles and book chapters and several books including Complaining, Teasing, and Other Annoying Behaviors. Her research on complaining has been featured on the Today Show and in the Wall Street Journal, The Washington Post and The New York Times.",
+   "ko": "박사님은 100편 이상의 학술지 논문과 도서 챕터를 집필하셨으며, '불평, 놀림, 그리고 기타 짜증나는 행동들'을 포함한 여러 권의 책을 쓰셨습니다. 박사님의 불평에 관한 연구는 Today Show와 월스트리트 저널, 워싱턴 포스트, 뉴욕 타임스에 소개된 바 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 88.3,
+   "en": "In addition to doing research, she has received many honors for her teaching, including Clemson's Phil Prince Award for Excellence in Innovation in the Classroom, and a mention in the Princeton Review's list of the 300 best professors in the nation. Dr. Kowalski, thank you for joining me today.",
+   "ko": "연구 외에도 박사님은 클렘슨 대학교의 강의 혁신 부문 필 프린스 상을 비롯해 강의에 대한 많은 영예를 안으셨으며, 프린스턴 리뷰가 선정한 전국 최고의 교수 300인 명단에도 이름을 올리셨습니다. 코왈스키 박사님, 오늘 함께해 주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 105.6,
+   "en": "Thank you so much for having me. I'm excited to be here.",
+   "ko": "초대해 주셔서 감사합니다. 이 자리에 오게 되어 기쁩니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 108.0,
+   "en": "Good. Well, let's start with the big question. Why do we complain so much? What's the purpose?",
+   "ko": "좋습니다. 자, 큰 질문부터 시작해 보죠. 우리는 왜 그렇게 많이 불평하나요? 그 목적이 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 114.9,
+   "en": "Well, everybody does it, so it has to have a function and I think there's a lot of different reasons why people complain, albeit to different degrees. I think probably the most common reason we complain is just for catharsis, you know, just to get our dissatisfaction off our chest.",
+   "ko": "글쎄요, 모든 사람이 불평을 한다는 것은 분명 어떤 기능이 있기 때문일 것이고, 정도의 차이는 있겠지만 사람들이 불평하는 데는 여러 가지 이유가 있다고 생각합니다. 아마도 불평하는 가장 흔한 이유는 그저 카타르시스를 위해서, 그러니까 가슴 속의 불만을 털어놓기 위해서일 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 129.3,
+   "en": "It just makes us feel better. Even if, let's say it's a person that we're dissatisfied with, even if they can't hear us, it still makes us feel better to do it. So I think that's the most common function.",
+   "ko": "그냥 기분이 나아지니까요. 설령 우리가 불만을 품은 대상이 그 말을 듣지 못하더라도, 불평을 내뱉는 것만으로도 기분이 나아집니다. 그래서 이것이 가장 흔한 기능이라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 139.3,
+   "en": "I think it also allows us to get information. So it really serves what we call in my field a social comparison function.",
+   "ko": "또한 정보를 얻기 위해서이기도 합니다. 제 전문 분야에서 말하는 '사회적 비교 기능'을 수행하는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 147.6,
+   "en": "You know, if I complain about the weather, I maybe wanted to get somebody else's perception of is it really as hot as I think it is or maybe it's just me, maybe I'm getting sick. You know, maybe there's something wrong with me.",
+   "ko": "예를 들어 날씨에 대해 불평한다면, 내가 생각하는 것만큼 정말 더운지, 아니면 나만 그런 건지, 내가 아픈 건지 다른 사람의 생각을 확인하고 싶어서일 수 있습니다. 내게 문제가 있는 건 아닌지 확인하려는 거죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 158.3,
+   "en": "Students, students oftentimes will complain about a professor or about how hard a test was because they want to get a gauge of was it really that hard? Maybe I just wasn't prepared for it.",
+   "ko": "학생들은 종종 교수님이나 시험의 난이도에 대해 불평하는데, 시험이 정말 그렇게 어려웠는지 가늠해 보고 싶기 때문입니다. 어쩌면 내가 준비를 덜 했던 것일 수도 있으니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 166.8,
+   "en": "So I think we oftentimes complain about something to get a response from other people. I also think we complain to get other people to account for their behavior.",
+   "ko": "그래서 종종 타인의 반응을 얻기 위해 무언가에 대해 불평을 한다고 봅니다. 또한 타인에게 자신의 행동에 대해 해명하게 하려고 불평하기도 하죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 176.5,
+   "en": "So we might complain, if our spouse is always late getting home from work, for example, we might be like, why are you always late getting home? And oftentimes has that whine attached to it.",
+   "ko": "예를 들어 배우자가 항상 퇴근이 늦는다면, '당신은 왜 항상 집에 늦게 와?'라고 불평할 수 있는데, 여기에는 종종 징징거리는 말투가 섞여 있기 마련입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 187.4,
+   "en": "But we're wanting them to offer an explanation. Were they at the gym again? Or did they stay at work late? What was the reason? So we complain about the behavior in order for them to offer us an explanation.",
+   "ko": "하지만 우리는 그들이 설명을 해주기를 원합니다. 또 헬스장에 있었던 건지, 아니면 회사에 늦게까지 남았던 건지, 이유가 무엇이었는지 알고 싶은 거죠. 즉, 상대방의 설명을 듣기 위해 그 행동에 대해 불평하는 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 199.6,
+   "en": "You've identified two different types of complaining, right? Expressive complaining, which is just venting, right, which you've described, and instrumental complaining. So what are the differences?",
+   "ko": "박사님께서는 두 가지 유형의 불평을 정의하셨죠? 방금 설명하신 그냥 털어놓는 식의 '표현적 불평'과 '도구적 불평'입니다. 그 차이점은 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 209.7,
+   "en": "So expressive complaining is exactly what you said, it's just that complaining, that cathartic complaining just to get it off our chest. Instrumental complaining is complaining that's designed to bring about a very specific function.",
+   "ko": "표현적 불평은 말씀하신 대로 가슴 속의 응어리를 풀기 위한 정화 목적의 불평입니다. 반면 도구적 불평은 매우 구체적인 결과를 이끌어내기 위해 고안된 불평입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 221.7,
+   "en": "You know, a lot of your retail complaining, you know, if we buy a product and we're dissatisfied with that product, and then we go to the company and say, you know, my new vacuum cleaner is not working. You know, there's something wrong with it.",
+   "ko": "구매한 상품에 대해 불만을 제기하는 많은 경우들이 그렇죠. 제품을 샀는데 만족스럽지 않아서 업체에 가서 '새 진공청소기가 작동하지 않아요. 문제가 있는 것 같아요'라고 말하는 경우입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 231.5,
+   "en": "Then that's instrumental complaining because we want them to either fix it or to just, you know, trade it in for a different one that hopefully will work. So it's intended to bring about a very specific outcome.",
+   "ko": "이것이 도구적 불평인데, 업체가 제품을 수리해 주거나 잘 작동하는 다른 제품으로 교환해 주기를 원하기 때문입니다. 즉, 매우 구체적인 결과를 얻기 위한 의도가 있는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 242.3,
+   "en": "Now, you wrote an article in Psychology Today called \"Complaining: How to Do It with Finesse.\" So let's talk about that.",
+   "ko": "박사님께서 '심리학 투데이'에 '능숙하게 불평하는 법'이라는 글을 기고하셨죠. 그에 대해 이야기해 봅시다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 249.2,
+   "en": "How can people complain more effectively and what separates an effective instrumental complaint from one that just alienates people?",
+   "ko": "어떻게 하면 더 효과적으로 불평할 수 있을까요? 그리고 효과적인 도구적 불평과 그저 사람들을 멀어지게 만드는 불평의 차이는 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 257.9,
+   "en": "So I think there's a couple of key components to this: one, I think we need to complain in moderation and two, I think we need to complain strategically. You know everybody complains to different degrees.",
+   "ko": "여기에 몇 가지 핵심 요소가 있다고 생각합니다. 첫째는 불평을 적당히 조절해야 한다는 것이고, 둘째는 전략적으로 불평해야 한다는 것입니다. 사람마다 불평하는 정도가 다르니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 268.6,
+   "en": "You know, you've got some people who complain infrequently although they still complain some and then you've got people some people who complain all the time. But you really need to complain in moderation.",
+   "ko": "불평을 가끔 하는 사람도 있지만, 항상 불평만 하는 사람도 있습니다. 하지만 정말로 적당히 조절해서 불평해야 합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 279.5,
+   "en": "If you complain excessively, you're going to wear out your audience. Your friends are going to get tired of it and they're not going to want to spend time with you. It's just, it's wearing.",
+   "ko": "지나치게 불평하면 듣는 사람을 지치게 만듭니다. 친구들도 싫증을 느끼고 당신과 시간을 보내고 싶어 하지 않을 것입니다. 그냥 진이 빠지는 일이니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 289.4,
+   "en": "It also can make other people aware of their own dissatisfaction and maybe they don't want to be made aware of that. So again, it creates a distancing in relationships. So you need to complain to moderation.",
+   "ko": "또한 다른 사람들도 각자의 불만을 깨닫게 할 수 있는데, 그들은 그런 걸 원하지 않을 수도 있습니다. 그래서 관계에 거리감이 생기게 되죠. 그러니 적당히 불평해야 합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 299.1,
+   "en": "I think the second component to it though is you really need to do it strategically. You need to pick your audience carefully.",
+   "ko": "두 번째 요소는 전략적으로 해야 한다는 것입니다. 대상을 신중하게 선택해야 하죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 304.8,
+   "en": "I mean, the truth is if you have a problem with a product or service, you should complain to the manufacturer about it or go back to the store. You know, I'm incessantly dissatisfied with my internet service.",
+   "ko": "사실 제품이나 서비스에 문제가 있다면 제조사에 불평하거나 매장으로 돌아가야 합니다. 제가 인터넷 서비스에 끊임없이 불만을 가지고 있다고 칩시다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 316.6,
+   "en": "But you know, me venting about that to my neighbors, well, it makes me feel better. So on the expressive end, I'm doing better on the instrumental end, it's still not going to rectify any problem I have with my internet service.",
+   "ko": "이웃에게 그에 대해 화풀이하면 제 기분은 나아지겠지만, 표현적인 측면에서는 나아질지 몰라도 도구적인 측면에서는 제 인터넷 서비스의 문제를 해결해 주지는 못할 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 329.4,
+   "en": "Whereas if I call the company up and I'm like, okay, here's my list. And it's usually a list of things. You know, it's too slow, it's not working, it's this, it's that.",
+   "ko": "반면에 제가 통신 회사에 전화를 걸어 '여기 제 불만 목록입니다'라고 말한다면 어떨까요? 보통 여러 가지가 있겠죠. 너무 느리다거나 작동이 안 된다거나 이런저런 것들이요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 338.0,
+   "en": "Then again, presumably the company will do something to rectify that situation. So that's being strategic. You know, it's not just venting.",
+   "ko": "그러면 아마도 회사 측에서 상황을 바로잡기 위해 조치를 취할 것입니다. 이것이 전략적인 접근입니다. 그냥 화풀이만 하는 게 아니죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 345.5,
+   "en": "It's hopefully in moderation, depends on how bad the service is. And it's doing it strategically.",
+   "ko": "서비스가 얼마나 엉망인지에 따라 다르겠지만, 적당히 조절하면서 전략적으로 불평하는 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 352.0,
+   "en": "Is expressive complaining which we've already described as just venting? Is that good for our emotional and mental health? Or does it sometimes just make us feel worse?",
+   "ko": "방금 단순한 화풀이라고 설명한 표현적 불평은 우리의 정서와 정신 건강에 좋을까요? 아니면 때로는 기분을 더 나쁘게만 만들까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 362.0,
+   "en": "I think it's both. I think it depends on how often you do it. I based a lot of my theorizing I guess on complaining on Dr. James Pennebaker's research on disclosure of traumatic events.",
+   "ko": "둘 다라고 생각합니다. 얼마나 자주 하느냐에 달려 있죠. 제 불평에 관한 이론화 과정은 제임스 페네베이커 박사의 트라우마 사건 공개에 관한 연구에 상당 부분 기초하고 있습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 373.0,
+   "en": "And I'm not saying that complaining is the same as disclosing a traumatic event. But his research showed that if you disclose a traumatic event that you've never disclosed before, it produces improved physical and psychological health.",
+   "ko": "불평하는 것이 트라우마 사건을 공개하는 것과 같다는 말은 아닙니다. 하지만 그의 연구는 이전에 공개한 적 없는 트라우마 사건을 털어놓으면 신체적, 심리적 건강이 개선된다는 것을 보여주었습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 383.9,
+   "en": "So to your question, you know, I think if we don't complain all the time. If we don't complain incessantly, again, if we do it in moderation and we're strategic about it, and so we're inhibiting sometimes, I think that's when you get the benefit of complaining.",
+   "ko": "질문으로 돌아가서, 우리가 항상 불평만 하지 않는다면, 그러니까 끊임없이 불평하지 않고 적당히 조절하면서 전략적으로 한다면, 즉 때로는 억제할 줄 안다면 그때 불평의 이점을 얻을 수 있다고 봅니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 398.8,
+   "en": "You're gonna get, maybe initially your affect will be negative because you're thinking about what you're dissatisfied with, but in time, once you express it and kind of are thinking about your dissatisfaction, sometimes it's in our head, it's more muddled than it is when we actually express it and get it out.",
+   "ko": "처음에는 불만스러운 점을 생각하느라 정서적으로 부정적일 수 있지만, 일단 그것을 표현하고 불만에 대해 생각하다 보면 기분이 나아집니다. 때로는 머릿속에 담아두고 있을 때가 실제로 표현하고 밖으로 꺼낼 때보다 훨씬 더 혼란스럽거든요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 415.5,
+   "en": "But if you complain all the time and you're never inhibiting, then where's the benefit? Where's the, you know, all our Pennebaker research, there's got to be some inhibition to get the release of.",
+   "ko": "하지만 전혀 억제하지 않고 항상 불평만 한다면 무슨 이득이 있겠습니까? 페네베이커의 연구에서도 알 수 있듯이, 무언가 배출하기 위해서는 어느 정도의 억제가 선행되어야 합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 427.5,
+   "en": "And again, I'm not equating complaining with the disclosure of traumatic events, but I think there's some similarities in terms of that release of the inhibition, release of the dissatisfaction. And I think that's when you get the benefit.",
+   "ko": "다시 말씀드리지만 불평하기를 트라우마 사건의 고백과 동일시하는 것은 아닙니다. 다만 억눌린 감정의 해소나 불만의 배출이라는 측면에서 어느 정도 유사성이 있다고 보며, 그럴 때 이점을 얻을 수 있다고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 438.9,
+   "en": "Is there a relationship between complaining and happiness? In other words, do people who complain more tend to be more or less happy than people who complain less?",
+   "ko": "불평과 행복 사이에 상관관계가 있을까요? 다시 말해, 불평을 많이 하는 사람이 적게 하는 사람보다 더 행복하거나 덜 행복한 경향이 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 452.0,
+   "en": "So we have done some research on that and I do think there's a relationship there, but I think it's really mediated by mindfulness. And I think that's to your point earlier about being an effective complainer. I think it all boils down to awareness.",
+   "ko": "저희가 그에 관한 연구를 해본 결과 관계가 있다고 생각합니다만, 그것은 마음챙김에 의해 매개된다고 봅니다. 이는 앞서 말씀하신 효과적으로 불평하는 사람이 되는 것과 관련이 있는데, 결국 관건은 '인식'입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 466.6,
+   "en": "I think the more aware we are of our complaining, so to use the mindfulness terms, the more mindful we are about our own complaining, then the more effective we're gonna be. And if we're an effective complainer, then we're gonna get the improvement in our affect and then we're gonna be happier.",
+   "ko": "자신의 불평을 더 많이 의식할수록, 즉 마음챙김 용어를 빌리자면 자신의 불평에 더 집중할수록 더 효과적인 불평을 할 수 있게 됩니다. 그리고 효과적인 불평자가 된다면 정서가 개선될 것이고, 결과적으로 더 행복해질 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 488.4,
+   "en": "So I think it's that awareness mindfulness link. And you know, it's interesting because there is a Will Bowen, he's a motivational speaker, but he talks about complaining.",
+   "ko": "그래서 저는 그것이 인식과 마음챙김의 연결고리라고 생각합니다. 흥미롭게도 동기부여 연설가인 윌 보웬이라는 분이 불평에 대해 이야기합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 499.7,
+   "en": "And he started this movement originally, and he had people like the Livestrong bracelets, he had people wear these little purple bracelets, and it had the Complaint Free World, which was his organization.",
+   "ko": "그는 원래 이런 운동을 시작하면서 사람들에게 리브스트롱 팔찌 같은 작은 보라색 팔찌를 차게 했어요. 거기에는 그의 단체인 '불평 없는 세상'이라는 문구가 적혀 있었죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 511.3,
+   "en": "And he predicated all this on the idea that it takes 21 days to make or break a habit, and with the idea that complaining is a habit. And while I don't share all of his ideas, the premise of, okay, if I complain, I need to move it to the other wrist and start my 21-day period over.",
+   "ko": "그는 습관을 만들거나 깨는 데 21일이 걸린다는 생각과 불평이 습관이라는 생각에 기초하여 이 모든 것을 추진했습니다. 그의 모든 생각에 동의하는 것은 아니지만, 불평을 하면 팔찌를 반대쪽 손목으로 옮기고 21일의 기간을 다시 시작해야 한다는 전제는 훌륭하다고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 528.1,
+   "en": "I think it all works because of the mindfulness, because of the awareness. You know, if I'm having to take the bracelet off and move it, and my next-door neighbor is a mental health counselor and in her prior clinic, one of her therapists used it in marriage counseling.",
+   "ko": "이 방법이 효과가 있는 이유는 마음챙김, 즉 인식 때문이라고 봅니다. 팔찌를 빼서 옮겨야 하니까요. 제 이웃이 정신 건강 상담사인데, 이전에 일하던 클리닉의 한 상담사가 이것을 부부 상담에 활용했다고 하더군요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 543.4,
+   "en": "And so if you started complaining about your spouse, then you had to take the bracelet off and move it to the other wrist. And again, it's awareness.",
+   "ko": "배우자에 대해 불평하기 시작하면 팔찌를 빼서 다른 쪽 손목으로 옮겨야 했던 거죠. 다시 말씀드리지만, 핵심은 인식입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 549.8,
+   "en": "When I first started doing research in this area, oh my gosh, everybody was complaining. It was like it was coming out of the woodwork. No, they weren't complaining any more than they had been, but now I was aware of it.",
+   "ko": "제가 이 분야의 연구를 처음 시작했을 때, 세상에, 모든 사람이 불평을 하고 있더군요. 마치 여기저기서 불평이 쏟아져 나오는 것 같았습니다. 그들이 이전보다 더 많이 불평한 게 아니라, 이제 제가 그것을 의식하게 된 것이었죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 562.0,
+   "en": "And not only was I aware of how much they were complaining, I was also aware of how much I was complaining. But you can't modify it if you're not aware of it.",
+   "ko": "다른 사람들이 얼마나 많이 불평하는지뿐만 아니라, 저 자신도 얼마나 많이 불평하는지 깨닫게 되었습니다. 인식하지 못한다면 그것을 고칠 수도 없겠죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 570.6,
+   "en": "And what got you interested in doing research into complaining?",
+   "ko": "박사님께서 불평에 관한 연구를 하게 된 계기는 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 574.9,
+   "en": "That's a great story. So I was looking for my own research niche. I was still a few years out of grad school and I was still doing what my advisors had done and I wanted my own my own path.",
+   "ko": "아주 재미있는 이야기가 있습니다. 저는 저만의 연구 분야를 찾고 있었습니다. 대학원을 졸업한 지 몇 년 되지 않았을 때라 여전히 지도 교수님들이 하셨던 일을 계속하고 있었는데, 저만의 길을 가고 싶었죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 587.4,
+   "en": "So I was talking to one of my former advisors and he said, well you're such a good complainer. Why don't you study that? Now I'm sure he meant that facetiously. That's what we're going to say anyway. I'm going to stick to that story.",
+   "ko": "그래서 예전 지도 교수님 한 분과 이야기를 나누는데 그분이 '자네는 불평을 참 잘하니까 그걸 연구해 보는 게 어때?'라고 하시더군요. 분명 농담조로 하신 말씀이었겠지만, 어쨌든 저는 그렇게 받아들이기로 했고 그 이야기를 고수하고 있습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 600.3,
+   "en": "But I thought, that's a good idea. So I started getting in the literature and at that time there was only one study in psychology that had been conducted on complaining.",
+   "ko": "하지만 저는 '그거 좋은 생각이네'라고 생각했죠. 그래서 문헌 조사를 시작했는데, 당시 심리학계에서 불평에 관해 수행된 연구는 단 하나뿐이었습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 608.8,
+   "en": "And it was by somebody that I knew and for him it was just a sort of fly-by-night study. So I was like, wow, now what? In my own research niche, I've got the world as my oyster in this case.",
+   "ko": "제가 아는 분이 하신 연구였는데, 그분에게는 그저 일시적인 관심사 정도의 연구였죠. 그래서 저는 '와, 이제 어쩌지? 이 분야에서는 내가 하고 싶은 대로 다 할 수 있겠네'라고 생각했습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 620.5,
+   "en": "And I loved it and it's been many years that I've been involved in this field. And I find it just as exciting now as I did when I first started it. I think it's because it's a behavior that every single person engages in.",
+   "ko": "저는 그 일이 좋았고 벌써 이 분야에 몸담은 지 여러 해가 지났습니다. 처음 시작했을 때만큼이나 지금도 이 일이 아주 흥미롭습니다. 아마도 모든 사람이 하는 행동이기 때문인 것 같아요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 634.6,
+   "en": "And speaking of that, is it just human nature to focus on the negative? Is that why we complain? Are there some personality traits that make people more or less prone to be complainers?",
+   "ko": "그 점에 관해서 말인데, 부정적인 것에 집중하는 것이 그저 인간의 본성일까요? 그래서 우리가 불평하는 걸까요? 불평을 더 많이 하거나 적게 하게 만드는 성격적 특성이 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 649.2,
+   "en": "So I am going to answer that by saying, I think we have a distorted perception of our own complaining. You know, we've done some research where we had people evaluate their own complaining and other people's complaining.",
+   "ko": "그 질문에 대해서는 우리가 자신의 불평에 대해 왜곡된 인식을 가지고 있다고 답하고 싶습니다. 저희는 사람들이 자신의 불평과 타인의 불평을 평가하도록 하는 연구를 수행했습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 660.6,
+   "en": "And they perceive their own complaining much more positively than they perceived other people's complaining. So I think that either we're not identifying our complaints as complaints because complaining has such a pejorative tone to it...",
+   "ko": "그 결과 사람들은 자신의 불평을 타인의 불평보다 훨씬 더 긍정적으로 인식하고 있었습니다. '불평'이라는 단어 자체가 부정적인 뉘앙스를 풍기기 때문에 자신의 불평을 불평으로 정의하지 않거나,",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 678.6,
+   "en": "...or we're interpreting it as what other people would identify as complaining but we're just thinking of it as confiding, you know, particularly if it's expressive complaining. So we're putting a positive slant on it.",
+   "ko": "타인이 보기에는 분명 불평인 것도 우리는 특히 표현적 불평일 경우 그저 '털어놓는 것'이라고 생각하기 때문입니다. 긍정적인 방향으로 해석하는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 691.1,
+   "en": "So I think there's this almost misattribution of our own behavior relative to other people's behavior. But I think you're right. I think we do have this tendency: pessimists more than optimists, obviously, people with different types of locus of control.",
+   "ko": "따라서 타인의 행동에 비해 자신의 행동에 대해서는 일종의 오귀인이 일어나는 것 같습니다. 하지만 당신의 말이 맞습니다. 낙관론자보다는 비관론자가, 그리고 다양한 유형의 통제 소재를 가진 사람들이 그런 경향을 보입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 705.1,
+   "en": "There are people with a higher propensity to complain. I do think there are certain people that tend to be more likely to focus on the negative and more likely to express it.",
+   "ko": "불평하는 성향이 더 강한 사람들이 있습니다. 부정적인 것에 더 집중하고 그것을 표현할 가능성이 더 높은 특정 사람들이 분명히 존재한다고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 714.8,
+   "en": "You were quoted in a recent Washington Post piece about the department that handles all the complaints that come into the Washington, D.C. public transit system.",
+   "ko": "최근 워싱턴 포스트 기사에서 워싱턴 D.C. 대중교통 시스템으로 들어오는 모든 불만을 처리하는 부서에 관한 내용에 박사님의 말이 인용되었더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 724.4,
+   "en": "And that got me thinking, what's the emotional cost of being on the receiving end of constant complaining, especially for people who do it for a living like customer service reps?",
+   "ko": "그걸 보고 궁금해졌습니다. 끊임없는 불평을 받아내야 하는 사람들, 특히 고객 서비스 담당자처럼 그것을 직업으로 삼는 사람들의 감정적 대가는 어느 정도일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 735.5,
+   "en": "You know, I've thought about that a lot because I've been contacted by companies before to talk about that. And I think the cost can be high if that's all you're doing is listening to people's complaints.",
+   "ko": "이전에 여러 기업들로부터 그에 관한 강연 요청을 받은 적이 있어서 저도 많이 생각해 본 부분입니다. 하루 종일 사람들의 불평만 듣고 있다면 그 대가는 상당히 클 수 있습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 746.3,
+   "en": "I got a letter one time from somebody that said that they were getting ready to give up a very high paying job that involved listening to people's complaints for the company because they couldn't do it anymore. They couldn't listen to people's complaints.",
+   "ko": "한번은 어떤 분에게 편지를 받았는데, 회사에서 사람들의 불평을 들어주는 업무를 포함한 고액 연봉의 직장을 그만둘 준비를 하고 있다고 하시더군요. 더 이상은 사람들의 불평을 들을 수 없었기 때문이었죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 757.7,
+   "en": "I think it takes a certain kind of person who can be that listener. I'm not sure exactly what the characteristics of that person are. I wish I could figure that out.",
+   "ko": "그런 경청자가 될 수 있는 데는 특별한 기질이 필요하다고 생각합니다. 그런 사람의 특징이 정확히 무엇인지는 모르겠지만, 저도 그것을 알아낼 수 있으면 좋겠네요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 768.7,
+   "en": "I think it genuinely, you know, some people just don't have the patience for it. Some people are, you know, just going to be like, \"Oh, just get over it.\"",
+   "ko": "정말로 어떤 사람들은 인내심이 부족합니다. 어떤 사람들은 그냥 '아, 그냥 잊어버려'라고 말해버릴 수도 있겠죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 776.2,
+   "en": "Yeah, that would be me.",
+   "ko": "맞아요, 제가 그럴 것 같네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 777.1,
+   "en": "Me too. That's exactly what I would say.",
+   "ko": "저도요. 저도 딱 그렇게 말할 것 같습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 780.7,
+   "en": "But I think it takes a certain kind of person. And I think people have to know that before they go into that kind of position.",
+   "ko": "하지만 특별한 사람이 필요한 일이죠. 그런 직책을 맡기 전에 사람들이 그 점을 미리 알아야 한다고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 787.5,
+   "en": "Because you know, if you don't respond quote-unquote correctly, then you're just going to set the person who's complaining up to complain more.",
+   "ko": "왜냐하면 이른바 '올바르게' 대응하지 않으면, 불평하는 사람을 자극해 더 많은 불평을 하게 만들 뿐이니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 796.6,
+   "en": "So what is the correct way to respond to a complaint?",
+   "ko": "그렇다면 불평에 대응하는 올바른 방법은 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 800.2,
+   "en": "So I think what you do is, you know, it depends, if you gauge that the other person is complaining for cathartic reasons. I think you give them their space short term, and then I think you try to redirect it.",
+   "ko": "상대방이 감정 해소를 위해 불평하고 있다고 판단된다면 상황에 따라 다르게 대처해야 합니다. 단기적으로는 그들이 쏟아낼 공간을 마련해 주고, 그 다음에는 대화의 방향을 전환해야 한다고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 812.3,
+   "en": "And, you know, maybe if my neighbor is complaining about the cable company, then I think you let them complain, get it off their chest, and if they keep on and on and on about it...",
+   "ko": "가령 이웃이 케이블 회사에 대해 불평한다면, 우선은 불평하게 내버려 두고 속을 털어내게 합니다. 그런데 만약 불평이 계속 이어진다면 어떻게 해야 할까요?",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 821.2,
+   "en": "then the redirect is, well, have you called the company? Have you discussed this with them? Have you gone online and expressed your complaint? I think there's a redirect that becomes necessary.",
+   "ko": "그때는 '회사에 전화는 해보셨나요? 상담은 받아보셨어요? 온라인에 불만을 남겨보셨나요?'라고 방향을 돌려줘야 합니다. 그런 식의 방향 전환이 필요해지는 시점이 있죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 830.5,
+   "en": "And if it ultimately continues, then I think you have to tell them, maybe complain yourself, \"It bothers me when you continue to complain so much, because I feel like you're not doing anything about it.\"",
+   "ko": "그럼에도 계속된다면 직접 불평을 해야 할 수도 있습니다. '당신이 아무런 조치도 취하지 않으면서 계속 불평만 하니까 저도 힘이 드네요'라고 말이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 842.6,
+   "en": "We're going to take a short break. When we return, we'll talk about complaining in the age of social media and how online forums such as Yelp and Yahoo have changed how people complain.",
+   "ko": "잠시 짧은 휴식을 갖겠습니다. 돌아와서는 소셜 미디어 시대의 불평하기와 옐프(Yelp), 야후(Yahoo) 같은 온라인 포럼이 사람들의 불평 방식을 어떻게 변화시켰는지 이야기 나눠보겠습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 856.4,
+   "en": "Now, do you think that social media, these kinds of forums, has changed the shape of public complaining and the fact that our complaints have a bigger audience than they used to and more permanence?",
+   "ko": "이제 소셜 미디어나 이런 종류의 포럼들이 공개적인 불평의 형태를 바꿨다고 생각하시나요? 우리의 불평이 예전보다 더 많은 사람들에게 전달되고 더 오래 지속된다는 사실에 대해서는 어떻게 보시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 869.1,
+   "en": "All of that is absolutely true. I mean, social media has given a platform for people to, especially anonymously, in many cases, express their complaints and then people can feed and respond to those complaints.",
+   "ko": "그 모든 말씀이 전적으로 맞습니다. 소셜 미디어는 사람들이, 특히 익명으로 불평을 표현할 수 있는 플랫폼을 제공했고, 다른 사람들이 그 불평에 동조하거나 반응할 수 있게 되었습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 882.4,
+   "en": "Interestingly, our research showed that people don't use social media as much for retail complaining as much as we thought that they would. So I was somewhat surprised by that.",
+   "ko": "흥미롭게도 저희 연구 결과에 따르면 사람들은 우리가 생각했던 것만큼 소매 서비스에 대한 불평을 소셜 미디어에 많이 하지는 않았습니다. 그 점은 저도 좀 놀랐어요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 892.2,
+   "en": "But that could have just been the nature of our particular sample because I think that deserves some follow-up because I was somewhat surprised by that.",
+   "ko": "하지만 그것은 저희 연구 표본의 특성 때문일 수도 있어서 후속 연구가 필요하다고 생각합니다. 저도 상당히 의외라고 느꼈거든요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 900.0,
+   "en": "But what that has done, and to the point we were talking about earlier, I think that has forced companies to hire people that do nothing but deal with some of the company's responses; it's the same response to every complaint.",
+   "ko": "하지만 이로 인해 발생한 변화는, 앞서 언급했듯이 기업들이 고객 대응만 전담하는 인력을 고용하게 만들었다는 점입니다. 그런데 모든 불평에 똑같은 답변을 내놓는 경우가 많죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 917.1,
+   "en": "I think that's really ineffective because I find that irritating and I'm not the one complaining.",
+   "ko": "저는 그것이 정말 비효율적이라고 생각합니다. 불평하는 당사자가 아닌 제가 봐도 짜증이 날 정도니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 922.9,
+   "en": "So I think if you're gonna do it, if you're gonna have a social media platform, if you're gonna allow people to complain on that social media platform, then you have to have somebody who's gonna respond in a way that's... you know, you can't say to everybody, \"Oh yeah, we'll refund.\"",
+   "ko": "그래서 소셜 미디어 플랫폼을 운영하고 사람들이 그곳에서 불평하도록 허용할 생각이라면, 제대로 대응할 수 있는 사람이 있어야 한다고 봅니다. 모든 사람에게 '네, 환불해 드릴게요'라고만 할 수는 없으니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 939.0,
+   "en": "I mean you can't immediately satisfy everybody's needs, but I think you can respond in a way that makes people feel like they've been heard. At the end of the day, everybody just wants to feel like they matter, and I think that will allay a lot of people's complaints.",
+   "ko": "모든 사람의 요구를 즉각 만족시킬 수는 없겠지만, 최소한 자신의 말이 경청되고 있다는 느낌을 받게 할 수는 있습니다. 결국 모든 사람은 자신이 소중하게 여겨진다고 느끼고 싶어 하며, 그런 대응이 많은 사람들의 불평을 가라앉힐 수 있다고 봅니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 953.4,
+   "en": "But speaking of how companies respond, you know, Lily Tomlin used to do this very famous bit where she played Ernestine, the telephone operator, and she'd always get a laugh with the line, \"We're the phone company; we don't care, we don't have to.\"",
+   "ko": "기업들의 대응 방식 이야기가 나와서 말인데, 릴리 톰린이 전화 교환수 어니스틴을 연기했던 아주 유명한 코미디가 있었죠. '우리는 전화 회사예요. 상관 안 해요, 그럴 필요가 없거든요'라는 대사로 항상 웃음을 자아냈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 964.6,
+   "en": "And isn't there some truth to the fact that these big monopolistic companies, they don't care? I mean, do big companies really care if their customers are unhappy?",
+   "ko": "이런 거대 독점 기업들이 정말 신경을 쓰지 않는다는 데 어느 정도 진실이 담겨 있지 않을까요? 제 말은, 대기업들이 고객이 불만을 갖는 것을 정말로 신경 쓰기는 하느냐는 겁니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 974.0,
+   "en": "I think on some level they care, but you know, a given person is really just a drop in the bucket for them.",
+   "ko": "어느 정도는 신경을 쓴다고 생각하지만, 개개인은 그들에게 그저 빙산의 일각일 뿐이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 981.8,
+   "en": "But the problem for them by adopting that ideology is, you know, people are going to complain to their friends and family and then those friends and family will complain about it to somebody else. And so what starts with one person can become a much bigger group.",
+   "ko": "하지만 그런 사고방식을 가졌을 때의 문제는, 사람들이 친구와 가족에게 불평하게 되고, 그 친구와 가족이 또 다른 사람에게 불평을 전달하게 된다는 점입니다. 한 명으로 시작된 것이 훨씬 더 큰 집단이 될 수 있는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 999.8,
+   "en": "So I think they probably are more concerned than it appears that they are.",
+   "ko": "그래서 겉으로 보이는 것보다는 아마 더 우려하고 있을 것입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1004.2,
+   "en": "I think a lot of us have the impression that people are more likely to post something negative. They complain when they're unhappy, rather than posting something on social media where they feel good about things.",
+   "ko": "우리 중 많은 이들은 사람들이 기분 좋은 일보다는 불행할 때 불평하는 내용을 올릴 가능성이 더 높다는 인상을 가지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1016.2,
+   "en": "And is that just an impression? Or is it really true that we're much more motivated to get out there and say something bad than we are to get out out there and say something good?",
+   "ko": "그것이 그저 기분 탓일까요? 아니면 실제로 우리가 좋은 말을 하는 것보다 나쁜 말을 하는 데 훨씬 더 강력한 동기 부여를 받는 게 사실인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1024.3,
+   "en": "I think it depends on the person. I'm not somebody who posts a lot anyway, but I do think that people, if you're gonna take the time to post, it's usually gonna be motivated by, \"This is really bugging me.\"",
+   "ko": "사람에 따라 다르다고 생각합니다. 저는 원래 게시물을 많이 올리는 편은 아닙니다만, 사람들이 시간을 내서 글을 올릴 때는 대개 '이게 정말 나를 괴롭혀'라는 동기에서 비롯된다고 봅니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1036.2,
+   "en": "I think that things that are really positive that people post like their children's graduations or a job opportunity, those are less frequent than just the daily annoyances that we have that we wanna complain about.",
+   "ko": "자녀의 졸업이나 취업 기회처럼 사람들이 올리는 정말 긍정적인 일들은 우리가 불평하고 싶어 하는 일상의 짜증나는 일들보다 빈도가 낮습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1049.6,
+   "en": "So I think, because if you think about it, I was actually having this conversation earlier this morning with somebody, we were talking about, oh, this is always something. It's just always something that goes wrong in the house.",
+   "ko": "생각해 보면 그렇죠. 오늘 아침에도 누군가와 이런 이야기를 나눴는데, '항상 무슨 일이 생기네, 집안에는 늘 뭔가 잘못되는 일이 생겨'라고 말이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1057.5,
+   "en": "Or, you know, every day there's some minor annoyance. But those minor annoyances cause you to complain to other people. And that's what we were doing.",
+   "ko": "또는 매일 사소하게 짜증나는 일들이 생기죠. 그런 사소한 짜증들이 다른 사람에게 불평하게 만듭니다. 저희가 아침에 그랬던 것처럼요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1066.0,
+   "en": "And then those are the things that people will oftentimes post on social media. Again, I think it's usually to just get some validation of, \"Oh, yeah, me too,\" or \"This is how I resolved that\" or whatever it is.",
+   "ko": "그리고 그런 것들을 사람들이 종종 소셜 미디어에 올립니다. 대개는 '맞아, 나도 그래'라는 공감을 얻거나, '난 이렇게 해결했어' 같은 반응을 얻기 위해서라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1076.0,
+   "en": "So I think that's part of what motivates the negative complaining.",
+   "ko": "그래서 그런 점들이 부정적인 불평을 하게 만드는 동기의 일부라고 봅니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1078.8,
+   "en": "What about advice for someone who feels like they complain too much and they want to dial it back? I mean, what are the things that people can do besides that wristband that you mentioned?",
+   "ko": "불평을 너무 많이 한다고 느껴서 이를 좀 줄이고 싶은 분들을 위한 조언이 있을까요? 박사님이 말씀하신 그 손목 밴드 말고 사람들이 할 수 있는 일이 또 무엇이 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1088.9,
+   "en": "But it relates to the wristband. So it's truly being mindful. The other thing I would do is I think journaling is really important.",
+   "ko": "결국 손목 밴드와 일맥상통합니다. 진정으로 마음챙김을 하는 것이죠. 제가 추천하고 싶은 또 다른 방법은 일기 쓰기입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1095.7,
+   "en": "And I know I mentioned this earlier, but when we have things in our head, it's just like that mountain out of a molehill thing, things in our head seem just so big. And oh, just I, you know, it's like if you have a list of things to do...",
+   "ko": "앞서 말씀드렸듯이, 머릿속으로만 생각하면 '침소봉대'처럼 아주 사소한 일도 거창하게 느껴집니다. 해야 할 일 목록이 있을 때처럼요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1108.2,
+   "en": "it's just like such a huge list until you write it down and then it doesn't seem quite as overwhelming. It's the same way with our sources of dissatisfaction.",
+   "ko": "직접 적기 전까지는 엄청나게 긴 목록 같지만, 적고 나면 그렇게 압도적으로 느껴지지 않죠. 우리의 불만 거리들도 마찬가지입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1116.3,
+   "en": "And oftentimes, particularly if you're a chronic complainer, I think journaling can be very important. You know, because we can take all the dissatisfaction that's in our head and we can get it down on the computer or on a piece of paper.",
+   "ko": "특히 만성적으로 불평하는 분들에게는 일기 쓰기가 매우 중요할 수 있습니다. 머릿속의 모든 불만을 컴퓨터나 종이에 옮겨 적을 수 있기 때문입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1127.9,
+   "en": "And I still think there's value in writing things out by hand. But wherever you put it, wherever you write it, at least it gets that mulling out of our head where we're mulling it over and making it bigger than it should be.",
+   "ko": "저는 여전히 손으로 직접 쓰는 것에 가치가 있다고 생각합니다. 하지만 어디에 쓰든, 최소한 머릿속으로만 되뇌며 문제를 필요 이상으로 크게 키우는 일을 멈추게 해줍니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1141.5,
+   "en": "And when we articulate it in writing, it loses some of its potency. And I think that it's a very effective technique for dealing with complaining for anybody...",
+   "ko": "불만을 글로 표현하고 나면 그 기세가 어느 정도 꺾입니다. 불평하는 습관이 있는 누구에게나 매우 효과적인 기술이라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1154.4,
+   "en": "but especially for chronic complainers who detect that they are wearing out their audience. They know they're not complaining effectively, they're starting to wear on people.",
+   "ko": "특히 자신의 불평이 주변 사람들을 지치게 만든다는 것을 감지한 만성 불평자들에게는 더욱 그렇습니다. 자신이 효과적으로 불평하지 못하고 사람들을 힘들게 한다는 걸 스스로 알고 있으니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1164.9,
+   "en": "And I think it increases their mindfulness because if they're journaling about their complaining, then they realize how much they're complaining. So I think it's a highly effective technique.",
+   "ko": "불평에 관해 일기를 쓰면 자신이 얼마나 많이 불평하는지 깨닫게 되어 마음챙김 능력이 향상됩니다. 그래서 저는 이것이 매우 효과적인 기법이라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1175.5,
+   "en": "And do you try to counterbalance that with some positive things while you're journaling?",
+   "ko": "일기를 쓰는 동안 긍정적인 내용으로 균형을 맞추려고 노력하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1180.5,
+   "en": "Oh, absolutely. And honestly, the journaling ultimately leads to more... you know, I think there's a pattern that people see once they start with all this negativity of, \"Oh, I'm upset about this, blah, blah, blah, blah, blah.\"",
+   "ko": "오, 물론입니다. 솔직히 일기 쓰기는 결국 더 많은 긍정으로 이어집니다. '이것 때문에 화가 나, 어쩌고 저쩌고' 하는 식의 부정적인 감정으로 시작하더라도 일정한 패턴을 발견하게 되거든요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1192.2,
+   "en": "I think over time they start to see a shift and the writing becomes more positive. So I think that's part of the benefit of it, that the negative affect starts to show this gradual shift toward positivity.",
+   "ko": "시간이 지나면서 글이 점점 더 긍정적으로 변하는 것을 보게 될 것입니다. 부정적인 정서가 서서히 긍정으로 옮겨가는 것, 그것이 일기 쓰기의 이점 중 하나라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1205.8,
+   "en": "And then they just get the benefit of journaling period, of just writing about whatever, you know, \"I saw a beautiful sunset today\" or whatever.",
+   "ko": "그러면 '오늘 아름다운 노을을 봤어' 같은 소소한 일들을 적는 일기 쓰기 그 자체의 혜택을 누리게 되는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1214.5,
+   "en": "Are there demographic differences in complaining? Do we know by nationality or age or even whether men complain more than women or vice versa?",
+   "ko": "불평에 인구통계학적 차이가 있을까요? 국가나 연령, 혹은 남성이 여성보다 불평을 더 많이 하는지 그 반대인지 알 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1225.0,
+   "en": "So we have looked at the gender. I want to be super careful how I say this. So in one of our studies, we had people list their pet peeves, which really are very specific complaints that people have.",
+   "ko": "성별 차이에 대해서 연구해 본 적이 있습니다. 매우 조심스럽게 말씀드리고 싶네요. 저희의 한 연구에서 사람들에게 자신이 아주 싫어하는 것들(pet peeves), 즉 매우 구체적인 불만 사항들을 나열하게 했습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1238.0,
+   "en": "And the instructions were to list pet peeves that they had with a relational partner. And women listed four times as many pet peeves as men did.",
+   "ko": "연애 파트너에게 느끼는 불쾌한 점들을 적어보라는 지시였는데, 여성이 남성보다 4배나 더 많은 목록을 작성했습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1246.7,
+   "en": "Now, that's the fact, that was the data. So, does that mean that women are just bigger complainers? Maybe?",
+   "ko": "이것은 실제 데이터에 근거한 사실입니다. 그럼 여성이 그냥 불평이 더 많은 걸까요? 그럴 수도 있겠죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1257.2,
+   "en": "Does it mean that men are more annoying?",
+   "ko": "혹시 남성들이 더 짜증나게 행동한다는 뜻은 아닐까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1259.3,
+   "en": "Okay, you said it not me. That was where I was going with that, possibly.",
+   "ko": "제 입으로 말하진 않았지만 제가 하려던 말이 바로 그거였습니다. 그럴 가능성도 있죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1264.7,
+   "en": "But, you know, what I think it means is that there's a difference in how they perceive it. I think that women view it as confiding, you know, this expression of pet peeves as confiding, and men are more likely to view it as complaints.",
+   "ko": "하지만 제가 생각하기에 이것은 인식의 차이입니다. 여성은 이러한 불쾌한 점을 표현하는 것을 '속마음을 털어놓는 것'이라고 보는 반면, 남성은 이를 '불평'으로 간주할 가능성이 더 큽니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1278.1,
+   "en": "So honestly, I think it's sort of a loose difference numerically, because I think both men and women do it, but I think there's a difference in the perception of what they're actually doing.",
+   "ko": "그래서 솔직히 수치상의 차이는 모호하다고 생각합니다. 남녀 모두 불평을 하지만, 자신이 실제로 하고 있는 행동을 어떻게 받아들이느냐에 차이가 있는 것이죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1288.7,
+   "en": "In terms of nationality, we've never done any cross-cultural research, but I would love to. And one of the things that I think would happen is you complain when your expectations haven't been met. That's what fuels your dissatisfaction.",
+   "ko": "국적에 관해서는 아직 교차 문화 연구를 수행하지 못했지만 꼭 해보고 싶습니다. 기대치가 충족되지 않을 때 불평이 나온다는 것이 제 가설입니다. 그것이 불만의 원동력이니까요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1304.9,
+   "en": "And I so wanna do this before I retire. I think that cultures that have the most to complain about, where there's such poverty, I would suspect that they complain the least.",
+   "ko": "은퇴하기 전에 이 연구를 꼭 하고 싶습니다. 불평할 거리가 가장 많은 문화권, 즉 빈곤이 심한 곳일수록 오히려 불평이 가장 적을 것이라고 추측합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1318.3,
+   "en": "Particularly compared to Western culture, where we have basically whatever we want at our disposal and we complain all the time. I think it's a difference in expectation.",
+   "ko": "원하는 것을 거의 다 가질 수 있으면서도 끊임없이 불평하는 서구 문화와 비교하면 더욱 그렇죠. 이것은 기대치의 차이라고 봅니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1327.1,
+   "en": "You know, we expect everything to just go flawlessly. And when it doesn't, we're just like, they did, you know, complaining and complaint and complaint.",
+   "ko": "우리는 모든 것이 완벽하게 돌아가기를 기대합니다. 그리고 그렇게 되지 않으면 끊임없이 불평을 쏟아내죠.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1334.5,
+   "en": "But people in cultures that aren't accustomed to having everything at their disposal... and, you know, they just, I don't, and again, this is pure speculation on my part, but I think they complain the least.",
+   "ko": "하지만 모든 것을 마음대로 누리는 데 익숙하지 않은 문화권의 사람들은... 순전히 제 추측이긴 합니다만, 불평을 가장 적게 할 것이라고 생각합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1345.3,
+   "en": "And, you know, in my field in social psychology, we talk about relative deprivation. And I just, I would love to do that study to see if that's the case.",
+   "ko": "사회심리학에서는 '상대적 박탈감'에 대해 이야기하곤 하죠. 실제로 그러한지 꼭 연구를 통해 확인해 보고 싶습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1354.0,
+   "en": "Yeah.",
+   "ko": "네, 그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1354.4,
+   "en": "And just to wind up, what are you working on now? What are the big issues that you're looking into, the questions you want to answer?",
+   "ko": "마지막으로, 지금은 어떤 연구를 하고 계신가요? 박사님이 조사하고 계신 주요 사안이나 답을 찾고 싶은 질문이 있다면 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1361.8,
+   "en": "So that cross-cultural thing is one, ever. That's been a perpetual one for me. We just had a study published just a few months ago and it was looking at everyday versus retail complaining.",
+   "ko": "앞서 말씀드린 교차 문화 연구는 제 영원한 과제 중 하나입니다. 그리고 불과 몇 달 전에 일상의 불평과 소매 서비스 불평을 비교하는 연구를 발표했습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1373.5,
+   "en": "And there is a fair amount of research on retail complaining, but there's really not a ton on everyday complaining. And that's the direction I want to go with it.",
+   "ko": "소매 서비스 불평에 대한 연구는 꽤 많지만, 일상적인 불평에 대한 연구는 그리 많지 않습니다. 그것이 제가 나아가고 싶은 방향입니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1383.2,
+   "en": "You know, I mean, we know the functions that it serves. We know what some of the outcomes are for relationships, but I really want to get it more of the nitty-gritty about everyday complaining.",
+   "ko": "불평의 기능이나 관계에 미치는 결과에 대해서는 어느 정도 알고 있지만, 일상적 불평의 세부적인 실태에 대해 더 깊이 파고들고 싶습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1392.7,
+   "en": "I'd like to get it more of the affective benefits and cost of it. We know the global perspective, yeah, makes you feel worse initially, but if you do it effectively, it makes you feel better.",
+   "ko": "불평의 정서적 이점과 대가에 대해 더 자세히 알아보고 싶습니다. 거시적으로는 처음에는 기분이 나빠지지만 효과적으로 하면 나중에 좋아진다는 걸 알지만요.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1403.5,
+   "en": "But I would love to do some longitudinal research looking at people's everyday complaints.",
+   "ko": "사람들의 일상적인 불평을 관찰하는 종단적 연구를 꼭 해보고 싶습니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1409.2,
+   "en": "Well, Dr. Kowalski, I want to thank you for joining me today. This has been fun.",
+   "ko": "코왈스키 박사님, 오늘 함께해 주셔서 감사합니다. 정말 즐거운 시간이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1412.1,
+   "en": "It has been fun. Thank you so much for having me.",
+   "ko": "저도 즐거웠습니다. 초대해 주셔서 정말 감사합니다.",
+   "speaker": "Dr. Robin Kowalski"
+  },
+  {
+   "start": 1414.2,
+   "en": "You can find previous episodes of Speaking of Psychology on our website at speakingofpsychology.org or on Apple, Spotify, YouTube, or wherever you get your podcasts. And if you like what you've heard, please subscribe and leave a review.",
+   "ko": "Speaking of Psychology의 이전 에피소드는 저희 웹사이트 speakingofpsychology.org나 애플, 스포티파이, 유튜브 등 팟캐스트를 들으시는 어디에서나 찾아보실 수 있습니다. 방송이 좋으셨다면 구독과 리뷰 부탁드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1427.9,
+   "en": "If you have comments or ideas for future episodes, you can email us at speakingofpsychology@apa.org. Speaking of psychology is produced by Lee Weinerman. Thank you for listening for the American Psychological Association. I'm Kim Mills.",
+   "ko": "의견이 있으시거나 향후 에피소드에 대한 아이디어가 있으시면 speakingofpsychology@apa.org로 이메일을 보내주세요. Speaking of Psychology는 리 와이너먼이 제작합니다. 미국 심리학회 팟캐스트를 들어주셔서 감사합니다. 저는 킴 밀스였습니다.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
