@@ -1,0 +1,2080 @@
+{
+ "id": "pod-fa7bf8b19f82",
+ "title": "Why Pessimism Makes Dumb Ideas Sound Smart - David Deutsch - #1164",
+ "show": "Modern Wisdom",
+ "channel": "Chris Williamson",
+ "videoUrl": "",
+ "audioUrl": "https://prfx.byspotify.com/e/pscrb.fm/rss/p/claritaspod.com/measure/traffic.megaphone.fm/SIXMSB4638282457.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/38f5cb80-2c75-11f1-aa69-3bd75423085e/image/28404876bdb4918884356cf922a20c22.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 4296,
+ "releaseDate": "2026-10-17T05:00:00.000Z",
+ "addedAt": "2026-10-24",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "People of the UK and Ireland, I'm coming to you live. Imagine that. Me on stage in your city.",
+   "ko": "영국과 아일랜드 여러분, 제가 라이브로 여러분을 찾아갑니다. 상상해 보세요. 여러분의 도시에서 무대에 선 제 모습을요.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 5.0,
+   "en": "Dublin is completely sold out, but everywhere else has got limited tickets left and you can get yours now at Chris Williamson.live.",
+   "ko": "더블린 공연은 완전히 매진되었지만, 다른 지역은 티켓이 소량 남아 있으니 지금 바로 ChrisWilliamson.live에서 예매하세요.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 10.8,
+   "en": "This is a custom-built live show. I absolutely adore it. I've spent over a year working on it.",
+   "ko": "이것은 맞춤형으로 제작된 라이브 쇼입니다. 저는 이 쇼를 정말 사랑합니다. 1년 넘게 공을 들여 준비했습니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 15.1,
+   "en": "So if you're a fan of everything modern wisdom, come and see me on stage this October around the UK and Ireland, Chris Williamson.live.",
+   "ko": "그러니 Modern Wisdom의 모든 것을 사랑하는 팬이라면 이번 10월 영국과 아일랜드 곳곳에서 열리는 제 공연을 보러 오세요. ChrisWilliamson.live에서 확인하세요.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 22.1,
+   "en": "I'm kind of fascinated in your worldview from a personal perspective, from a person's perspective.",
+   "ko": "저는 개인의 관점에서, 즉 한 사람의 관점에서 당신의 세계관에 매료되었습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 30.1,
+   "en": "You know, we can talk about how important it is for a society or for civilization or for humanity as a whole to think about the importance of optimism and our capacity to solve problems and stuff like that.",
+   "ko": "사회나 문명, 혹은 인류 전체가 낙관주의의 중요성과 우리의 문제 해결 능력 등에 대해 생각하는 것이 얼마나 중요한지 이야기할 수도 있겠죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 39.4,
+   "en": "I'm kind of interested in how an individual takes that as well. I think that might be an interesting tension.",
+   "ko": "저는 개인이 그것을 어떻게 받아들이는지에도 관심이 있습니다. 흥미로운 긴장감이 있을 것 같거든요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 46.4,
+   "en": "Obviously, we've had all of this most recent stuff about anthropic researchers leaving and over fears of AI and then super intelligence and recursive stuff.",
+   "ko": "분명히, 최근 앤스로픽 연구원들이 AI에 대한 공포, 초지능, 그리고 재귀적 문제 등으로 인해 퇴사했다는 소식들이 있었습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 56.4,
+   "en": "I don't know if you're interested in that if you're kind of a little bit bored of it, I've been talking about it a lot.",
+   "ko": "당신이 그 주제에 관심이 있는지, 아니면 좀 지루해하는지는 모르겠지만, 저는 그 이야기를 꽤 많이 해왔습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 60.8,
+   "en": "I'm also interested in how your worldview has changed over the last 15 years since the last book, human potential and stuff like that.",
+   "ko": "또한 지난 15년 동안, 즉 지난 책 이후로 인간의 잠재력 같은 것들에 대한 당신의 세계관이 어떻게 변했는지 궁금합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 68.3,
+   "en": "So we can start off and then scurry down whatever rabbit holes sound interesting if that seems good to you.",
+   "ko": "그래서 일단 시작해 보고, 괜찮으시다면 흥미로워 보이는 어떤 주제든 깊이 파고들어 보죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 73.2,
+   "en": "Sure. Wonderful. So by the way, I think I agree with that maxim.",
+   "ko": "좋습니다. 멋지네요. 그런데, 저는 그 격언에 동의합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 78.7,
+   "en": "So, you know, whenever someone doesn't understand you, it's your fault, not theirs. unless they're a golden retriever. Literally.",
+   "ko": "그러니까, 누군가 당신을 이해하지 못할 때 그것은 그들의 잘못이 아니라 당신의 잘못이라는 것 말이죠. 상대가 골든 리트리버가 아니라면요. 글자 그대로요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 90.5,
+   "en": "Are you telling me that I've got to get out of jail free card today?",
+   "ko": "오늘 저에게 면죄부를 주시는 건가요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 94.8,
+   "en": "Yeah, yeah, you're human, yes.",
+   "ko": "네, 네, 당신은 인간이니까요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 97.5,
+   "en": "Say more on that. Why is it the fault of misunderstanding? Why does that lie in an odd direction to?",
+   "ko": "그 점에 대해 더 말씀해 주세요. 왜 오해가 당신의 잘못인가요? 왜 그것이 그런 방향으로 작용하는 걸까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 104.7,
+   "en": "So I'm, as you will know, I'm a follower of the philosopher Karl Popper and he has a theory of knowledge which is in my view streets ahead of everyone else in the 20th century.",
+   "ko": "아시다시피 저는 철학자 칼 포퍼를 따르는 사람입니다. 그는 지식 이론을 가지고 있는데, 제가 보기에는 20세기의 다른 누구보다도 훨씬 앞서 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 123.2,
+   "en": "He's a strange kind of reputation because he's very well known, highly respected, you know, ten top philosophers or something like that.",
+   "ko": "그는 좀 묘한 명성을 가지고 있는데, 매우 잘 알려져 있고 높이 존경받으며, 소위 10대 철학자 중 한 명으로 꼽히기도 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 138.6,
+   "en": "And in science, especially, they always talk about Popper's criterion for distinguishing science from philosophy or from pseudo science.",
+   "ko": "특히 과학 분야에서는 과학과 철학, 혹은 유사 과학을 구별하는 포퍼의 기준에 대해 항상 이야기합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 149.1,
+   "en": "And yet, his actual philosophy is not very well understood.",
+   "ko": "하지만 그의 실제 철학은 그리 잘 이해되지 않고 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 154.1,
+   "en": "And one of the tenets of his different, but knowledge as created by the process of evolution, as created by a scientist, a mathematician, a child learning to speak their first language, those processes are all more alike than they are different.",
+   "ko": "그의 원칙 중 하나는, 진화 과정에 의해 창조된 지식이나 과학자, 수학자, 혹은 첫 언어를 배우는 아이가 창조한 지식이나 그 과정들이 서로 다르기보다는 훨씬 더 유사하다는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 182.8,
+   "en": "The differences are pretty inessential. and in particular the process of learning something new, like learning a new law or physics that one has discovered, or learning an existing piece of knowledge, like from someone else, that is all the same process mentally.",
+   "ko": "그 차이점들은 꽤 부수적입니다. 특히 자신이 발견한 새로운 법칙이나 물리학을 배우는 것이나, 타인으로부터 기존의 지식을 배우는 것이나, 정신적으로는 모두 동일한 과정입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 208.8,
+   "en": "In all of them, the knowledge that is learned comes comes from within the learner. So you're learning something, you can't download it like a computer.",
+   "ko": "그 모든 경우에서 학습되는 지식은 학습자의 내면에서 나옵니다. 그래서 무언가를 배울 때 컴퓨터처럼 다운로드할 수는 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 222.9,
+   "en": "You have to guess what the other person means. And at first you will guess wrong. And so you will have to test those guesses and so on.",
+   "ko": "상대방이 의미하는 바를 추측해야 합니다. 처음에는 틀리게 추측할 것이고, 그 추측들을 테스트하는 등의 과정을 거쳐야 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 232.8,
+   "en": "So if that process goes wrong. It is because the teacher or the professor or the communicator has not pitched it to meet your problem situation.",
+   "ko": "따라서 그 과정이 잘못된다면, 그것은 교사나 교수, 혹은 전달자가 당신의 문제 상황에 맞게 내용을 조절하지 못했기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 256.8,
+   "en": "So yes, go ahead. Why? What is it that most people misunderstand about being wrong?",
+   "ko": "네, 계속 말씀하시죠. 왜 그럴까요? 사람들이 '틀리는 것'에 대해 가장 오해하고 있는 점은 무엇인가요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 264.5,
+   "en": "I think we all have this aversion to making mistakes, to not understanding, to putting errors into the way that we understand the world or how it is that we're interpreting something else.",
+   "ko": "우리 모두는 실수를 하거나, 이해하지 못하거나, 세상을 이해하는 방식이나 무언가를 해석하는 방식에 오류가 생기는 것에 대해 거부감을 가지고 있다고 생각합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 276.5,
+   "en": "Is there a better framing for how people should think about wrongness?",
+   "ko": "사람들이 '틀림'에 대해 생각해야 할 더 나은 프레임이 있을까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 280.4,
+   "en": "Yes. So as Popper said, I'm going to have to stop me quoting him every minute or two.",
+   "ko": "네. 포퍼가 말했듯이... 제가 1~2분마다 그를 인용하는 걸 멈춰야겠네요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 291.8,
+   "en": "we all alike in our infinite ignorance or longer, we may all know different things, different pieces of knowledge, but in our infinite ignorance we are all alike.",
+   "ko": "우리는 모두 무한한 무지 속에서 평등합니다. 우리는 서로 다른 지식을 알고 있을지 모르지만, 우리의 무한한 무지 속에서는 모두 똑같습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 306.6,
+   "en": "So this all comes from the idea that since there's an infinite distance to go and and we all have different finite amounts of knowledge.",
+   "ko": "이 모든 것은 가야 할 거리는 무한하고 우리 모두는 서로 다른 유한한 양의 지식을 가지고 있다는 생각에서 비롯됩니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 318.0,
+   "en": "We are all at, like I say in my book, we're all at the beginning of infinity. We're only ever at the beginning.",
+   "ko": "제 책에서 말했듯이, 우리는 모두 무한의 시작에 서 있습니다. 우리는 언제나 시작 단계일 뿐입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 327.6,
+   "en": "And so we have something common with everyone else who is also at the beginning.",
+   "ko": "그래서 우리는 똑같이 시작 단계에 있는 다른 모든 사람들과 공통점을 가지고 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 334.1,
+   "en": "And to hold oneself up as an authority is a philosophical mistake as well as a what can you call it a sociological mistake or a cultural mistake.",
+   "ko": "따라서 스스로를 권위자로 내세우는 것은 사회학적 혹은 문화적 실수일 뿐만 아니라 철학적 실수이기도 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 351.1,
+   "en": "It's a power play rather than a participation in the growth of knowledge which we should all be participating in.",
+   "ko": "그것은 우리 모두가 참여해야 할 지식의 성장에 동참하는 것이 아니라 권력 투쟁일 뿐입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 361.7,
+   "en": "How should someone hold strong convictions if we all kind of need to remember that we can be completely mistaken at all times and we are vast in our ignorance and partial in our knowledge.",
+   "ko": "우리 모두가 언제든 완전히 틀릴 수 있고, 우리의 무지는 광대하며 지식은 부분적이라는 것을 기억해야 한다면, 어떻게 강한 신념을 가질 수 있을까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 373.9,
+   "en": "Yes, well as you're suggesting here it's psychological matter so we should not be looking for certainty we should be looking to correct errors so when when sometimes when people say oh I'm certain about something.",
+   "ko": "네, 말씀하신 대로 그것은 심리적인 문제입니다. 따라서 우리는 확신을 찾을 것이 아니라 오류를 수정하려고 노력해야 합니다. 사람들이 무언가에 대해 확신한다고 말할 때처럼요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 394.2,
+   "en": "It means that they have investigated all the possible ways it could be different and they satisfied themselves that those are all wrong and they have their reasons and they, but more often certainty is regarded as a virtue in past times.",
+   "ko": "그것은 상황이 달라질 수 있는 모든 가능성을 조사했고, 그것들이 모두 틀렸음을 스스로 확인했으며, 그에 대한 이유가 있다는 뜻입니다. 하지만 과거에는 확신이 미덕으로 여겨지는 경우가 더 많았습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 414.2,
+   "en": "times, faith, obedience, that sort of state of mind was regarded as virtuous. And people judged not only each other, but themselves, according to how much of that they had.",
+   "ko": "신념, 순종 같은 마음가짐이 고결한 것으로 여겨졌죠. 사람들은 서로를 판단할 뿐만 아니라, 자신들이 그런 마음을 얼마나 가졌는지에 따라 스스로를 판단했습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 433.2,
+   "en": "Now, in modern times, especially with the growth of knowledge accelerating more and more in in the last couple of hundred years, everyone's had the experience of, well, every adult that's had the experience of being proved wrong about something that they were sure was right or something happened that they were sure would never happen.",
+   "ko": "이제 현대에는, 특히 지난 수백 년 동안 지식의 성장이 가속화되면서, 모든 성인은 자신이 옳다고 확신했던 것이 틀렸음이 증명되거나 절대 일어나지 않을 것이라 확신했던 일이 일어나는 경험을 해보았습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 457.6,
+   "en": "And so one should infer from that experience, people don't, but one should infer from that experience that the subjective sensation of being certain is no guide to the truth.",
+   "ko": "사람들은 잘 그러지 않지만, 그런 경험을 통해 확신한다는 주관적 감각이 진실로 향하는 가이드가 아니라는 결론을 내려야 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 476.2,
+   "en": "It's no guide at all. Neither is, and this is a bit even harder to internalize, neither is the extent of knowledge or ignorance because somebody can be very ignorant or even very malevolent and yet on a particular thing they might have the truth and you might not.",
+   "ko": "전혀 가이드가 되지 못합니다. 또한 내면화하기 더 어려운 점은, 지식이나 무지의 정도 또한 가이드가 아니라는 점입니다. 누군가 매우 무지하거나 심지어 악의적일지라도, 특정 사안에 대해서는 그들이 진실을 알고 당신은 모를 수 있기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 502.0,
+   "en": "So it's no good saying, that's a bad person I won't listen to them because you might be missing the one truth that would save you.",
+   "ko": "따라서 '저 사람은 나쁜 사람이니 듣지 않겠다'라고 말하는 것은 좋지 않습니다. 당신을 구할 수도 있는 단 하나의 진실을 놓칠 수도 있기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 513.3,
+   "en": "So again, like I say in the book, if your enemy says that he's going to come and kill you, it might be advisable to believe your enemy when you disbelieve your friend who says, oh, don't mind him. He's just, the bark is worse than his bite.",
+   "ko": "다시 말하지만, 제 책에서 언급했듯이 만약 적이 당신을 죽이러 오겠다고 말한다면, \"신경 쓰지 마, 걔는 말만 그래\"라고 말하는 친구의 말을 믿지 말고 차라리 적의 말을 믿는 것이 현명할 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 536.3,
+   "en": "So you see, it has nothing to do with being knowledgeable. It has nothing to do with being benevolent. We are all alike in our fallibility.",
+   "ko": "보시다시피, 그것은 박학다식함과는 상관없습니다. 자비로움과도 상관없죠. 우리 모두는 실수를 저지르기 쉽다는 점에서 똑같습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 546.2,
+   "en": "So the only way to judge ideas is not by someone's authority or by one's own authority or by how sure one is, but only by the criterion of whether you have a good explanation for why that truth has had its errors corrected better than all the other truths you've heard or can think of?",
+   "ko": "따라서 아이디어를 판단하는 유일한 방법은 누군가의 권위나 자신의 권위, 혹은 얼마나 확신하느냐가 아니라, 그 진실이 당신이 듣거나 생각할 수 있는 다른 모든 진실보다 오류가 더 잘 수정되었다는 타당한 설명이 있는지에 대한 기준뿐입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 572.9,
+   "en": "I can imagine a situation where this becomes, or at least it feels to an individual very effortful to go through the entire working of the equation in order to arrive at the truth as opposed to using the shortcuts, as opposed to saying, well, this person seems to be from an illustrious background and they have been right about other things before, seemingly, or other people seem to respect their opinion or they're saying it with a level of fervor that implies that they know what they're talking about,",
+   "ko": "진실에 도달하기 위해 지름길을 택하는 대신, 즉 '이 사람은 배경이 화려하고 전에도 옳았던 적이 있는 것 같고, 다른 사람들도 존중하는 것 같고, 확신에 차서 말하니 잘 알고 있겠지'라고 생각하는 대신 모든 과정을 거치는 것이 개인에게 매우 힘들게 느껴지는 상황을 상상할 수 있습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 601.0,
+   "en": "what is a practical way for people to not take half of the afternoon to decide which sandwich they want, or which would be a more optimal yogurt to purchase, how can people sort of apply this to life without it becoming clunky and slowing them down?",
+   "ko": "어떤 샌드위치를 먹을지, 어떤 요거트를 사는 게 최선일지 결정하느라 오후 시간을 다 허비하지 않으려면 어떻게 해야 할까요? 삶이 투박해지거나 느려지지 않으면서 어떻게 이것을 삶에 적용할 수 있을까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 619.9,
+   "en": "So we have a theory about situations that we're in. You know, you talk about sandwiches, so I go into town and buy a sandwich from a sandwich shop.",
+   "ko": "우리는 우리가 처한 상황에 대한 이론을 가지고 있습니다. 샌드위치를 예로 드셨으니, 제가 시내에 가서 샌드위치 가게에서 샌드위치를 산다고 해보죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 634.8,
+   "en": "And how do I know it's not poisoned? How do I know it's not off? How do I know that I haven't been handed the wrong sandwich and so on?",
+   "ko": "독이 들어있지 않은지 어떻게 알까요? 상하지 않았다는 건요? 샌드위치가 바뀌지 않았다는 건 어떻게 알까요?",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 644.6,
+   "en": "Well, as you say, Hey, if I went back to first principles to work all that out, it would take all afternoon and I would be starving to death by the time I did anything.",
+   "ko": "말씀하신 대로, 그 모든 것을 확인하기 위해 근본 원리부터 따진다면 오후 내내 걸릴 것이고, 제가 무언가를 할 때쯤이면 굶어 죽을 지경이겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 656.7,
+   "en": "So the rational thing to do, as I said, is to form a theory.",
+   "ko": "그러니 제가 말씀드린 대로 합리적인 행동은 이론을 형성하는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 661.3,
+   "en": "I have a theory about how chains of sandwich shops work, how they are regulated, for example, by the government or by the market or the shop may have a particular ethos that I think they really do have rather than are pretending and so on.",
+   "ko": "저는 샌드위치 체인점이 어떻게 운영되는지, 예를 들어 정부나 시장에 의해 어떻게 규제되는지, 혹은 그 가게가 겉치레가 아닌 실제적인 가치관을 가지고 있는지 등에 대한 이론을 가지고 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 684.0,
+   "en": "In the case where I can't say that, then I will have to use different criteria and in that particular case I myself would not buy a sandwich unless unless I had that kind of history and that kind of idea of where this is coming from, where it's coming from intellectually, as well as where it's coming from physically in mind.",
+   "ko": "그렇게 말할 수 없는 경우에는 다른 기준을 사용해야 합니다. 그 경우에는 제가 그런 이력이나, 이것이 지적 혹은 물리적으로 어디서 왔는지에 대한 생각이 없다면 샌드위치를 사지 않을 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 712.6,
+   "en": "So you don't have to go through the whole thing because in short, not only am I able to criticize ideas myself, I'm able to formulate and criticize ideas about other people.",
+   "ko": "요약하자면, 제 스스로 아이디어를 비판할 수 있을 뿐만 아니라 타인에 대한 아이디어를 형성하고 비판할 수 있기 때문에 모든 과정을 다 거칠 필요는 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 730.2,
+   "en": "It's just that when I formulate an idea about the knowledge of the doctor or the airline engineers who prepared the airplane that I'm going to fly on. I don't go by their reputation. I go by that theory.",
+   "ko": "다만 의사나 제가 탈 비행기를 정비한 엔지니어의 지식에 대해 아이디어를 형성할 때, 저는 그들의 평판을 따르는 것이 아니라 그 이론을 따릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 756.8,
+   "en": "A small fact can destroy a larger reputation. If I'm due to fly it, and then I read in the newspaper in the morning that that airline has had a scandal where their engineers have been shoddy in preparing the plane.",
+   "ko": "작은 사실 하나가 거대한 평판을 무너뜨릴 수 있습니다. 비행기를 타기로 했는데, 아침 신문에서 그 항공사의 엔지니어들이 정비를 부실하게 했다는 스캔들을 읽는다면 저는 비행기를 타지 않을 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 773.8,
+   "en": "I may well not fly. Even though I may also think that the chance of the plane going wrong with me on it are actually tiny, but maybe now there only one in a thousand and ideally I'd like it to be one in a million.",
+   "ko": "제가 탄 비행기에 문제가 생길 확률이 실제로는 아주 낮다고 생각할지라도, 아마 이제는 100만 분의 1이 아닌 1,000분의 1이 되었을 수 있으니까요. 그래서 비행기를 타지 않을 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 792.6,
+   "en": "But I could be wrong, always. Does that mean is certainty something that we should ever aspire to?",
+   "ko": "하지만 저는 언제나 틀릴 수 있습니다. 그렇다면 확신이라는 것이 우리가 추구해야 할 가치인가요?",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 801.0,
+   "en": "No, we should aspire not to have any.",
+   "ko": "아니요, 우리는 아무런 확신도 갖지 않도록 노력해야 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 804.3,
+   "en": "Should we aspire to uncertainty then?",
+   "ko": "그럼 불확실성을 추구해야 하나요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 808.0,
+   "en": "Yes, I mean, if you want a life of scientific research, then it's highly desirable that you enjoy the sensation of being baffled, of being in the state of conflict, of thinking, well, now it looks like this is true, but it can't be true.",
+   "ko": "네, 과학 연구의 삶을 원한다면 당혹스러운 기분이나 갈등 상태, 즉 '지금은 이것이 진실 같아 보이지만 그럴 리가 없어'라고 생각하는 상태를 즐기는 것이 매우 바람직합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 828.8,
+   "en": "And that sensation is, for example, what attracts me to scientific research. I don't think one should even aspire to believe anything.",
+   "ko": "예를 들어, 그런 감각이 저를 과학 연구로 이끄는 것입니다. 저는 무언가를 믿으려고 노력해서도 안 된다고 생각합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 842.1,
+   "en": "I think come down to us from Plato and later from Christianity and Islam and so on. Most religions don't value belief. They value ritual and conformity and ways of life.",
+   "ko": "그것은 플라톤에서 시작되어 기독교와 이슬람교 등으로 이어져 내려왔다고 생각합니다. 대부분의 종교는 믿음 그 자체에 가치를 두지 않습니다. 그들은 의례와 순응, 그리고 삶의 방식에 가치를 둡니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 866.0,
+   "en": "Belief was something introduced introduced my Christianity.",
+   "ko": "믿음은 기독교에 의해 도입된 개념입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 869.5,
+   "en": "And it's rather weird if you think about it, as Percy Shelley said in the essay for which he got expelled from Oxford University, he pointed out that you can't believe or disbelieve something by an act of will.",
+   "ko": "생각해 보면 좀 이상하죠. 퍼시 셸리가 옥스퍼드 대학에서 제명당하게 만든 에세이에서 지적했듯이, 의지적인 행동으로 무언가를 믿거나 믿지 않을 수는 없기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 889.6,
+   "en": "It's got to become via your therefore calling disbelief an immoral thing doesn't make sense.",
+   "ko": "그것은 자연스럽게 형성되어야 하는 것이기에, 불신을 비도덕적인 것으로 부르는 것은 말이 되지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 900.7,
+   "en": "Yeah, do you know Oscar Wilde's idea of the Oxford Manor? Have you come across this?",
+   "ko": "네, 오스카 와일드의 '옥스퍼드 매너'라는 개념을 아시나요? 들어본 적 있으신가요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 905.6,
+   "en": "Don't think so, no.",
+   "ko": "아니요, 모르는 것 같네요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 907.0,
+   "en": "Beautiful. It's just this one line that refers to the Oxford Manor as the ability to play gracefully with ideas rather than sort of falling into violent or rigid opinions.",
+   "ko": "멋지군요. '옥스퍼드 매너'를 격렬하거나 경직된 의견에 빠지기보다 아이디어를 우아하게 다루는 능력이라고 일컫는 구절이 있습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 919.4,
+   "en": "And I think in my world, which is significantly less salubrious than academia, but maybe just as cutthroat and as much back biting. The internet is really quick to show its own smarts by pointing out the flaws of others.",
+   "ko": "학계보다는 덜 쾌적할지 모르지만, 아마 그만큼이나 치열하고 험담이 많은 제 세계에서도 마찬가지라고 생각합니다. 인터넷은 타인의 결점을 지적함으로써 자신의 영리함을 뽐내는 데 매우 빠릅니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 941.5,
+   "en": "And one of the problems that I've found is that the ability to put on a hypothetical hat or in my parlance a bro scientist hat. Look, I'm just trying to play gracefully with ideas, please give me enough degrees of freedom here to maybe be wrong.",
+   "ko": "제가 발견한 문제 중 하나는 가설적인 모자, 제 표현으로는 '브로 사이언티스트' 모자를 쓰는 능력입니다. \"이봐요, 난 그냥 아이디어를 가지고 우아하게 놀아보려는 것뿐이에요. 내가 틀릴 수도 있게 충분한 자유도를 주세요\"라고 말하는 거죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 958.0,
+   "en": "But because, how do you say it, like production and publication of ideas are one and the same on the internet? So you're coming up with things in real time, and then they're kind of broadcast out into the world, which means there is no scratch pad, there is no whiteboard that's not publicly available.",
+   "ko": "하지만 인터넷에서는 아이디어의 생산과 출판이 동일하게 이루어진다고 해야 할까요? 실시간으로 무언가를 생각해 내면 그것이 세상에 방송됩니다. 즉, 공개되지 않은 연습장이나 화이트보드가 없다는 뜻입니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 973.9,
+   "en": "The whiteboard and the lecture kind of become one and the same. And that means that's been lost, at least in a way that a lot of people consume ideas and understand information and sort of see the debate go on.",
+   "ko": "화이트보드와 강의가 하나가 되어버리는 셈이죠. 그것은 적어도 많은 사람이 아이디어를 소비하고 정보를 이해하며 토론이 진행되는 것을 지켜보는 방식에 있어서 무언가가 사라졌음을 의미합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 987.2,
+   "en": "And I get the sense that kind of what's happened over the last decade or so is a slow increase in the seductivity of certainty and a derogation of uncertainty or incongruence or, you know, like a lack of coherence or something like that.",
+   "ko": "그리고 지난 10여 년 동안 확신의 유혹은 서서히 커진 반면, 불확실성이나 부조화, 혹은 일관성 부족 같은 것들은 폄하되어 왔다는 느낌을 받습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1008.2,
+   "en": "because it becomes a target immediately for people on the internet or critics or naysayers or enemies or whatever to kind of point the finger.",
+   "ko": "왜냐하면 그것은 즉시 인터넷상의 사람들이나 비평가, 반대자, 적들이 손가락질할 수 있는 표적이 되기 때문입니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1019.0,
+   "en": "Look, he doesn't know that much about this thing because he was pontificating and playing in trying to play gracefully with ideas. Therefore, that means that he must be wrong about that as well.",
+   "ko": "\"보세요, 그는 아이디어를 우아하게 다루려다 허풍을 떨었으니 이 일에 대해 잘 모르는 게 분명해요. 그러니 다른 것도 틀렸을 거예요\"라고 말이죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1030.7,
+   "en": "Which is, I guess in one way we could call this weaponized uncertainty certainty that it is being used as a tool to kind of dismiss someone as a wider thinker as opposed to, hey, this is cool.",
+   "ko": "이것을 어떤 면에서는 '무기화된 확신'이라고 부를 수 있을 것 같습니다. \"와, 멋지다\"라고 말하는 대신 누군가를 사상가로서 묵살하기 위한 도구로 사용되는 것이죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1043.0,
+   "en": "He's prepared to, I mean, he missed the mark with that, but it's fun. He's able to try and play gracefully with ideas. I thought that kind of related to you.",
+   "ko": "\"비록 빗나가긴 했지만 재미있네, 아이디어를 우아하게 다룰 줄 아네\"라고 해주는 대신에요. 이것이 당신과 관련이 있다고 생각했습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1051.0,
+   "en": "Yes. Ideally, Twitter or X is the ideal medium for conjecture, for just throwing ideas out and and then having them criticized and come back to you and so on.",
+   "ko": "맞습니다. 이상적으로는 트위터나 X가 추측을 위한, 즉 아이디어를 그냥 던져보고 비판을 받아 다시 돌아오게 하는 데 아주 이상적인 매체입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1065.5,
+   "en": "But because of the phenomenon you're talking about, you can't really do that. And I have long ago stopped doing that on Twitter.",
+   "ko": "하지만 말씀하신 현상 때문에 실제로는 그렇게 할 수 없습니다. 그래서 저는 오래전에 트위터에서 그런 행동을 멈췄습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1076.2,
+   "en": "So I think twice and three times and four times before putting something on Twitter, on X. And one thing that's possible, it's possible to take a middle ground and say, I either ask it as a question, or does anyone think so and so is true?",
+   "ko": "그래서 저는 트위터나 X에 무언가를 올리기 전에 두 번, 세 번, 네 번 생각합니다. 그리고 절충안으로 질문의 형식을 빌려 \"누가 ~가 사실이라고 생각하나요?\"라고 묻는 것이 가능하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1097.4,
+   "en": "Or you could say, I guess so and so might be true. Or if so and so were true, then it might answer this other question.",
+   "ko": "아니면 \"~가 사실일지도 모르겠네요\"라거나, \"~가 사실이라면 이 다른 질문에 대한 답이 될 수도 있겠네요\"라고 말할 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1108.3,
+   "en": "Look at the throat clearing land acknowledgement that we need to do before we actually put an idea out in a desperate attempt to dampen its impact.",
+   "ko": "아이디어를 내놓기 전에 그 충격을 완화하려고 필사적으로 '목을 가다듬는' 식의 사전 예고를 해야 하는 상황을 보세요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1115.8,
+   "en": "Yes, yes. Well, I think it's inevitable. I mean, there are plenty of other places to publish conjectures.",
+   "ko": "네, 맞아요. 뭐, 불가피한 일이라고 생각합니다. 추측을 발표할 다른 장소들은 얼마든지 있으니까요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1128.0,
+   "en": "The dinner table maybe? Yes, in private or in a private chat or in a more public thing where one labels it as conjecture.",
+   "ko": "저녁 식탁 같은 곳 말인가요? 네, 사석이나 비공개 채팅, 혹은 추측이라고 명시한 좀 더 공개적인 자리에서 할 수 있겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1141.7,
+   "en": "For example, I'm just finishing a book on the Fermi paradox or the Fermi problem. I have some conjectures there, which I think are slightly strange.",
+   "ko": "예를 들어, 저는 페르미 역설 혹은 페르미 문제에 관한 책을 거의 다 써가고 있습니다. 거기에는 제가 보기에 약간 이상한 추측들이 들어있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1158.2,
+   "en": "I think they're possible solutions to the Fermi problem, but I am sure certain, you know, which I shouldn't be, that they are not true.",
+   "ko": "그것들이 페르미 문제의 가능한 해결책이라고 생각하지만, 확신해서는 안 됨에도 불구하고 그것들이 사실이 아니라고 확신합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1171.3,
+   "en": "But I just would like to put them out there in the form look how easy it is to make up ideas about this and for them to be wrong. That's the idea.",
+   "ko": "하지만 저는 이 문제에 대해 아이디어를 만들어내고 그것이 틀리기가 얼마나 쉬운지 보여주는 형식으로 내놓고 싶습니다. 그게 제 의도입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1181.1,
+   "en": "So I've written it as a science fiction story set in another universe, not in our universe. So I don't have to answer for the discrepancies between this universe and our universe.",
+   "ko": "그래서 저는 그것을 우리 우주가 아닌 다른 우주를 배경으로 한 SF 소설로 썼습니다. 덕분에 이 우주와 우리 우주 사이의 불일치에 대해 설명할 필요가 없죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1193.9,
+   "en": "So I just mentioned that because that's one of many many ways one can get criticism of conjectures, but also always it is one should think carefully about when to expose an idea to criticism.",
+   "ko": "추측에 대한 비판을 받을 수 있는 여러 방법 중 하나라서 말씀드린 것이지만, 아이디어를 언제 비판에 노출할지도 항상 신중하게 생각해야 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1214.9,
+   "en": "If one does it too early, it may cut off lines of lines of thought, which although false, would lead to something true if I'm confused",
+   "ko": "너무 일찍 노출하면, 비록 틀렸을지라도 혼란스러운 과정을 거쳐 결국 진실로 이어질 수 있는 사고의 흐름이 끊길 수도 있기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1227.5,
+   "en": "Oh, that's so cool. That is so cool.",
+   "ko": "와, 정말 멋지네요. 정말 근사합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1230.6,
+   "en": "A quick aside, you've probably heard me talk about element before, and that's because I've started every single morning the same way for the last five years now, which is a cold glass of water with elements in it.",
+   "ko": "잠시 다른 이야기를 하자면, 제가 Element에 대해 이야기하는 걸 들어보셨을 겁니다. 지난 5년 동안 매일 아침을 Element를 탄 시원한 물 한 잔으로 시작했기 때문이죠.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1239.2,
+   "en": "Element is an electrolyte drink mix with everything that you need and nothing that you don't.",
+   "ko": "Element는 당신에게 필요한 모든 것이 들어있고 불필요한 것은 전혀 없는 전해질 음료 믹스입니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1242.3,
+   "en": "It's a science-backed electrolyte ratio of sodium, potassium, and magnesium, no sugar, no coloring, no artificial ingredients.",
+   "ko": "나트륨, 칼륨, 마그네슘의 과학적으로 검증된 전해질 비율을 갖추고 있으며, 설탕, 색소, 인공 성분은 전혀 들어있지 않습니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1248.3,
+   "en": "ingredients, it reduces muscle cramps and fatigue, supports brain function and helps to regulate your appetite throughout the day.",
+   "ko": "근육 경련과 피로를 줄여주고 뇌 기능을 지원하며 하루 종일 식욕을 조절하는 데 도움을 줍니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1254.1,
+   "en": "I genuinely notice the difference when I take it versus when I don't, which is why I don't shut up about it and also why it's used by everyone, from Dr. Andrew Huberman to Olympic athletes and FBI sniper teams, the good sniper teams, not the bad ones.",
+   "ko": "마셨을 때와 안 마셨을 때의 차이가 정말 확실해서 제가 계속 추천하는 것이고, 앤드류 후버만 박사님부터 올림픽 선수들, FBI 스나이퍼 팀(나쁜 팀 말고 좋은 팀요)까지 모두가 사용하는 이유이기도 합니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1267.5,
+   "en": "Also, there are no questions, ask for refund policy. So if you don't like it for any reason, they'll just give you your money back.",
+   "ko": "또한 묻지도 따지지도 않는 환불 정책이 있습니다. 어떤 이유로든 마음에 들지 않으면 그냥 돈을 돌려받을 수 있습니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1273.0,
+   "en": "Plus, they offer free shipping in the US. Right now, you can get a free sample pack If elements most popular flavors with your first purchase by going to link in the description below or heading to drinklmnt.com slash modern wisdom that's drinklmnt.com slash modern wisdom",
+   "ko": "게다가 미국 내 무료 배송 혜택도 있습니다. 지금 바로 아래 설명란의 링크나 drinklmnt.com/modernwisdom에 접속하셔서 첫 구매 시 가장 인기 있는 맛으로 구성된 무료 샘플 팩을 받아보세요.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 1288.8,
+   "en": "so you're saying that if you have this nascent early stage idea and you put that out somebody comes in with a certainty in criticism which cuts off at the knees, the progress of this particular idea of yours,",
+   "ko": "그러니까 당신의 말은, 태동 단계의 초기 아이디어를 내놓았을 때 누군가 확신에 찬 비판을 던지면 그 아이디어의 진전이 싹부터 잘려버린다는 거군요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1308.6,
+   "en": "you rob yourself from the opportunity of being wrong in a new way or wrong in multiple new ways, which would give you the idea. That is so fun.",
+   "ko": "그렇게 되면 새로운 방식으로, 혹은 여러 가지 새로운 방식으로 틀려볼 기회를 스스로 박탈하게 되고, 결국 아이디어를 얻을 기회도 잃게 되는 거죠. 정말 재미있네요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1318.0,
+   "en": "Also, I've got to call you out for this. The fact that you have been able to deal or try and play gracefully with ideas with regards to the Fermi problem by constructing an entire new fictional universe in an attempt to get yourself a few million light years of distance away from potential criticism is kind of hilarious.",
+   "ko": "그리고 이 점은 짚고 넘어가야겠네요. 잠재적인 비판으로부터 수백만 광년의 거리를 두기 위해 완전히 새로운 가상의 우주를 만들어 페르미 문제에 대한 아이디어를 우아하게 다루려 하셨다는 사실이 정말 재미있습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1338.3,
+   "en": "What have you come to believe about the, it's also cool that you call it the Fermi problem, not the paradox, I suppose. What have you come to believe about the Fermi problem?",
+   "ko": "페르미 역설이 아니라 페르미 '문제'라고 부르시는 것도 멋지네요. 페르미 문제에 대해 어떤 믿음을 갖게 되셨나요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1347.4,
+   "en": "We don't know the answer. You could also call it the Fermi mystery, but it's not so unusual. usual, we don't know most things.",
+   "ko": "우리는 답을 모릅니다. 페르미 미스터리라고 부를 수도 있겠지만, 그리 특별한 일은 아닙니다. 평소에도 우리는 대부분의 것을 모릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1359.3,
+   "en": "So we don't know whether we are alone in the universe. We might be or we might not be.",
+   "ko": "우주에 우리뿐인지도 모릅니다. 그럴 수도 있고 아닐 수도 있죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1365.6,
+   "en": "The point I wanted to make is that it's easy to come up with explanations for why the aliens or their robots are not here yet.",
+   "ko": "제가 말하고 싶은 요점은 외계인이나 그들의 로봇이 왜 아직 여기에 오지 않았는지에 대한 설명을 만들어내는 것은 쉽다는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1381.1,
+   "en": "So this is this is not of the form of the form of problems I like, namely, it looks as though it must be so-and-so, and yet it also looks as though it can't be so-and-so.",
+   "ko": "그래서 이것은 제가 좋아하는 문제의 형태, 즉 '~인 것 같으면서도 동시에 ~일 리가 없는 것 같은' 형태가 아닙니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1396.4,
+   "en": "So that's the kind of thing that I enjoy thinking about, because there are two things which appear to be in collision and like quantum gravity.",
+   "ko": "저는 그런 것들을 생각하는 것을 즐깁니다. 양자 중력처럼 두 가지가 충돌하는 것처럼 보이기 때문이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1410.4,
+   "en": "And no matter how you think about it, no matter how whatever angle you look at it, it still seems like a collision. But the firming problem is not really a collision between one fantasy and another fantasy. We just don't know. Get over it.",
+   "ko": "어떻게 생각하든, 어떤 각도에서 보든 여전히 충돌하는 것처럼 보입니다. 하지만 페르미 문제는 한 환상과 다른 환상 사이의 충돌 같은 게 아닙니다. 우리는 그냥 모를 뿐입니다. 인정해야죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1433.1,
+   "en": "Okay, getting back down to Terra Firma, is it fair to say that you hold optimism as a philosophical stance?",
+   "ko": "알겠습니다. 다시 현실로 돌아와서, 당신이 낙관주의를 철학적 입장으로 견지하고 있다고 말해도 될까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1441.2,
+   "en": "Yes, yes, although by optimism, I don't mean having a cheerful outlook on life or thinking that everything is going to be all right as a matter of principle.",
+   "ko": "네, 맞습니다. 하지만 제가 말하는 낙관주의는 인생에 대해 쾌활한 전망을 갖거나 원칙적으로 모든 것이 다 잘 될 것이라고 생각하는 것을 의미하지는 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1450.8,
+   "en": "I mean that whenever something goes, it's more of an explanation for failure than a prophecy of success.",
+   "ko": "제 말은, 어떤 일이 벌어질 때 그것은 성공에 대한 예언이라기보다 실패에 대한 설명에 가깝다는 뜻입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1460.3,
+   "en": "It's like whenever something goes wrong, it's because we had not yet created the knowledge to make it go right. It's always a matter of knowledge.",
+   "ko": "마치 어떤 일이 잘못되었을 때, 그것은 우리가 그 일을 바로잡을 지식을 아직 창조하지 못했기 때문이라는 것과 같습니다. 그것은 항상 지식의 문제입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1474.5,
+   "en": "So what you asked earlier about when you fail to persuade someone of something or when you fail to teach someone something, it's because you haven't yet thought of the way of meeting their problem and of whether you really should be meeting their problem or maybe you should both go and something better.",
+   "ko": "아까 질문하신 것처럼 누군가를 설득하지 못하거나 가르치지 못했다면, 그것은 당신이 그들의 문제에 대처할 방법을 아직 생각하지 못했거나, 정말로 대처해야 하는지, 아니면 둘 다 더 나은 무언가를 찾아야 하는지에 대해 생각하지 못했기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1496.0,
+   "en": "So, you know, why does it really necessary for this other person to agree with you on this thing? So, that's a uniform application of optimism.",
+   "ko": "그러니까, 왜 상대방이 이 문제에 대해 당신과 꼭 동의해야 할까요? 이것이 낙관주의의 일관된 적용입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1514.9,
+   "en": "And pessimism is the opposite. It's where you regard failure as a barrier, as a barrier to ever getting out of the situation or solving the problem or going from bad to good.",
+   "ko": "반면 비관주의는 그 반대입니다. 실패를 상황을 벗어나거나 문제를 해결하거나, 나쁜 상태에서 좋은 상태로 나아가는 것을 막는 장벽으로 간주하는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1529.7,
+   "en": "Going from bad to good is always possible. And when we fail, it is always because we don't yet have the knowledge to succeed?",
+   "ko": "나쁜 상태에서 좋은 상태로 가는 것은 언제나 가능합니다. 우리가 실패할 때는 항상 성공할 지식이 아직 없기 때문일까요?",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1544.0,
+   "en": "Should this broader worldview around optimism, should that extend to how we feel about our own lives individually?",
+   "ko": "낙관주의에 대한 이런 폭넓은 세계관이 우리 각자의 개인적인 삶에 대해서 느끼는 방식까지 확장되어야 할까요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1555.0,
+   "en": "Because I have to assume that if you see failure as a way marker en route towards success, that's quite agentic, it's sort of personal determination, I have some sovereignty here.",
+   "ko": "실패를 성공으로 향하는 길 위의 이정표로 본다면, 그것은 꽤 주체적이고 개인적인 결단력이 있으며, 나에게 어떤 통제권이 있다는 뜻이기 때문입니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1568.9,
+   "en": "I imagine it must be difficult because you mentioned it's not just having a sort of cheerful, rosy outlook on life, but I imagine it in some ways it must be quite difficult to maintain a non-rosy, non-cheerful outlook on life if you have a world view that is predicated on this kind of optimism,",
+   "ko": "당신이 말씀하신 것처럼 단지 쾌활하고 낙관적인 전망을 하는 것만은 아니기에 어려울 것 같기도 하지만, 이런 종류의 낙관주의에 근거한 세계관을 가지고 있다면 오히려 비낙관적이고 우울한 전망을 유지하는 것이 어떤 면에서는 꽤 어려울 것 같기도 합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1585.3,
+   "en": "because you're going to see your own personal struggles through the lens of, well, I just need some more knowledge and I'm sure that I can overcome this thing or I can make the decision that I don't need to overcome this thing.",
+   "ko": "자신의 개인적인 시련을 '지식이 좀 더 필요할 뿐이고, 난 분명히 이걸 극복할 수 있거나 극복할 필요가 없다는 결정을 내릴 수 있어'라는 관점으로 바라보게 될 테니까요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1594.8,
+   "en": "I'm interested in how this sort of relates to the individual and how they do deal with adversity and challenges in their own life.",
+   "ko": "이것이 개인과 어떤 관련이 있는지, 그리고 개인이 자신의 삶에서 역경과 도전에 어떻게 대처하는지에 관심이 있습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1603.2,
+   "en": "So optimism is no guarantee that you will solve the problem. You might have a terminal illness and the doctor says to you, you've got X time to live and you might think, well, Well, you might think correctly.",
+   "ko": "낙관주의가 문제를 해결해 준다는 보장은 없습니다. 당신이 불치병에 걸렸고 의사가 살날이 얼마 남지 않았다고 말할 때, 당신은 이렇게 생각할 수도 있고 그 생각이 맞을 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1618.6,
+   "en": "That's because we don't yet have the medical knowledge. Okay, that doesn't mean that there exists a way of you to quickly bone up on all the relevant medical knowledge, solve that problem, cure that disease, and then survive.",
+   "ko": "그것은 우리가 아직 의학적 지식을 가지고 있지 않기 때문입니다. 물론 그렇다고 해서 당신이 모든 관련 의학 지식을 빨리 익혀서 그 문제를 해결하고 병을 고쳐 생존할 방법이 존재한다는 뜻은 아닙니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1634.3,
+   "en": "Although that has happened remarkably often. Somebody who's been diagnosed with something that's supposedly terminal has just speedrun the solution for it and fixed themselves.",
+   "ko": "하지만 놀랍게도 그런 일이 자주 일어났습니다. 불치병 판정을 받은 누군가가 해결책을 신속하게 찾아내어 스스로를 치료한 사례들 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1644.1,
+   "en": "ourselves. Yes, it has happened.",
+   "ko": "우리 스스로 말이죠. 네, 그런 일이 있었죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1648.0,
+   "en": "That's like those wartime medics where they were the only medic available in the tent and somehow they'd got shot and you see these guys without an aesthetic, with a scalpel out operating on himself. It feels a little bit like that.",
+   "ko": "텐트에 유일하게 남은 군의관이 총에 맞았는데, 마취제도 없이 메스를 꺼내 스스로 수술하는 모습과 비슷하네요. 약간 그런 느낌입니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1662.4,
+   "en": "Yes, yes. And the lack of knowledge there might extend further than just the knowledge of how to perform an operation on yourself.",
+   "ko": "네, 그렇습니다. 그리고 거기서의 지식 부족은 단지 스스로 수술하는 방법에 대한 지식보다 더 광범위할 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1673.0,
+   "en": "I mean, you know, there's a war going on. That in itself should not have happened with better knowledge. It would not have happened.",
+   "ko": "제 말은, 전쟁이 일어나고 있다는 사실 말입니다. 더 나은 지식이 있었다면 전쟁 자체가 일어나지 않았을 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1681.8,
+   "en": "But again, that's not a formula for correcting it yourself in the tent. So on the other hand, you can't say what you will solve. You might solve it. But in regard to what you do, you do not think this is insoluble.",
+   "ko": "하지만 다시 말하지만, 그것이 텐트 안에서 스스로를 치료하는 공식이 되어주지는 않습니다. 반면에 당신이 무엇을 해결할지는 단정할 수 없지만, 당신이 하는 일에 관해서 이것이 해결 불가능하다고 생각하지 마세요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1704.9,
+   "en": "You do not think this is how far reason can reach and from now on reason doesn't have any access. That's always false.",
+   "ko": "'이것이 이성이 닿을 수 있는 한계이며 이제부터 이성은 아무런 힘도 쓰지 못한다'라고 생각하지 마세요. 그것은 언제나 틀린 생각입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1720.5,
+   "en": "Yeah, I wonder why do you think it is that pessimism so often masquerades is sophistication?",
+   "ko": "네, 왜 비관주의가 그렇게 자주 정교함이나 세련됨으로 위장한다고 생각하시는지 궁금합니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1727.1,
+   "en": "Ah, I thought you were going to ask a different question. Yeah, why it, why it masquerades as a sophistication because it, so say you're writing a story about some characters who, who you, you, you're making the reader like the characters",
+   "ko": "아, 다른 질문을 하실 줄 알았네요. 네, 왜 비관주의가 세련됨으로 위장하느냐 하면... 예를 들어 당신이 독자들이 좋아할 만한 어떤 캐릭터들에 관한 이야기를 쓰고 있다고 해보죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1747.6,
+   "en": "and suddenly one of the characters because it's going to get killed and you know, and you're thinking, can they be saved? Can they be saved? And in the last chapter, they're not saved.",
+   "ko": "그런데 갑자기 캐릭터 중 한 명이 죽을 위기에 처하고, 당신은 '그들이 구원받을 수 있을까? 살아날 수 있을까?'라고 생각합니다. 그리고 마지막 장에서 그들은 구원받지 못합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1760.2,
+   "en": "Now, that is easy to write because knowledge in fiction is very hard to create just as in real life.",
+   "ko": "그것은 쓰기 쉽습니다. 현실에서처럼 허구 속에서도 지식을 창조하는 것은 매우 어렵기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1774.5,
+   "en": "To make a realistic story about how this situation, which you've set up to look as though that favored character is going to die, how that can end up with them being saved, is hard. It's similarly hard to solving it in real life.",
+   "ko": "사랑받는 캐릭터가 죽을 것처럼 설정한 이 상황에서 그들이 어떻게 구원받을 수 있는지에 대해 현실적인 이야기를 만드는 것은 어렵습니다. 현실에서 문제를 해결하는 것만큼이나 어렵죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1793.8,
+   "en": "So some authors just pull the solution out of a hat. This is a Deus Ex machina as the ancient Greeks presumably didn't say. So if you do that, the audience will be disappointed. They'll say, oh, you know, we've been had.",
+   "ko": "그래서 어떤 작가들은 그냥 뜬금없는 해결책을 내놓습니다. 고대 그리스인들은 아마 그렇게 말하지 않았겠지만, 이것이 바로 '데우스 엑스 마키나'입니다. 그렇게 하면 관객들은 실망하며 \"아, 속았네\"라고 말하겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1816.2,
+   "en": "I've just spent, you know, two hours watching this movie or several days reading this long novel. And the author has led me along and then he's tricked me at the end. He's it was all a dream. We hit for example.",
+   "ko": "\"이 영화를 보는 데 두 시간을 썼고, 이 긴 소설을 읽는 데 며칠을 보냈는데, 작가가 나를 끌고 가더니 마지막에 속였어. 전부 꿈이었다니\"와 같은 식으로요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1836.3,
+   "en": "Yeah, that's another that's another way of doing it. So it's all a dream.",
+   "ko": "네, 그것도 한 방법이죠. 다 꿈이었다는 것 말이에요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1840.4,
+   "en": "So but similarly what is not really realized is that the opposite tactic of saying not only does he die, but everybody dies like in Hamlet That is equally a cop-out anyone can write that ending just like anyone can write the Deus Ex machina ending.",
+   "ko": "하지만 비슷하게 사람들이 잘 깨닫지 못하는 점은, '햄릿'에서처럼 주인공뿐만 아니라 모두가 죽는다는 식의 반대 전략도 있다는 것입니다. 그것은 누구나 쓸 수 있는 책임 회피형 결말입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1863.6,
+   "en": "What you need to do is to solve the problem so that you will have told the reader some knowledge.",
+   "ko": "당신이 해야 할 일은 문제를 해결해서 독자에게 어떤 지식을 전달하는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1872.2,
+   "en": "If it's a good novel, it should be knowledge about life in general, which they can use to understand the world and their own life and their friends and so on. It should enrich the person.",
+   "ko": "좋은 소설이라면 독자가 세상과 자신의 삶, 친구 등을 이해하는 데 사용할 수 있는 인생 전반에 대한 지식이어야 합니다. 사람을 풍요롭게 만들어야 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1886.4,
+   "en": "But having it end and unhappily is always a cheat. And that's true whether it's a happier or sad ending pulled out of a hat.",
+   "ko": "하지만 불행하게 끝내는 것은 언제나 속임수입니다. 그것이 뜬금없는 행복한 결말이든 슬픈 결말이든 마찬가지입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1901.9,
+   "en": "What's a current problem that you think people are most unnecessarily pessimistic about right now?",
+   "ko": "사람들이 지금 가장 불필요하게 비관하고 있다고 생각하시는 현재의 문제는 무엇인가요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1911.5,
+   "en": "Well, I guess it's the AI doom scenario. It might be the climate catastrophe scenario. I'm not sure exactly whether it's the same people who are worried about both or different kinds of...",
+   "ko": "글쎄요, AI 파멸 시나리오인 것 같습니다. 기후 재앙 시나리오일 수도 있고요. 이 두 가지를 모두 걱정하는 사람들이 같은 부류인지, 아니면 다른 부류인지는 확실하지 않지만...",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1928.3,
+   "en": "I think the third diagram is probably got a good bit of crossover, yeah.",
+   "ko": "제 생각에 벤다이어그램으로 그려보면 겹치는 부분이 꽤 많을 것 같네요.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 1932.8,
+   "en": "They are both examples of looking at a problem and thinking of it as a barrier. So you say say, so and so could happen, we could all die.",
+   "ko": "둘 다 문제를 장벽으로 간주하는 사례들입니다. 그래서 당신은 \"이런저런 일이 일어날 수 있고, 우리 모두 죽을 수 있어\"라고 말하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1947.2,
+   "en": "You're not taking into account that that is always true, that has always been true every day that the human species has existed. It's always been true that we could be hit by a comet and all die.",
+   "ko": "당신은 그것이 항상 사실이었으며, 인류가 존재해 온 매일매일이 그랬다는 점을 고려하지 않고 있습니다. 혜성이 충돌해 우리 모두가 죽을 수 있다는 사실은 언제나 사실이었습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1962.5,
+   "en": "In fact, just recently, the probability of that has gone down drastically because we've finally turned our attention as a species to the problem of diverting comets and asteroids.",
+   "ko": "사실 최근에야 인류가 마침내 혜성과 소행성의 궤도를 바꾸는 문제에 관심을 기울이기 시작했기 때문에 그 확률은 급격히 낮아졌습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1975.8,
+   "en": "But if they're big enough, we still can't do it. But still, though, the probability of it has gone down.",
+   "ko": "하지만 그것들이 충분히 크다면 우리는 여전히 아무것도 할 수 없습니다. 그렇더라도 확률은 낮아졌죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1982.8,
+   "en": "People used to worry about things like the oxygen will run out of the air because we're consuming oxygen and where's it going to come from.",
+   "ko": "사람들은 우리가 산소를 소비하고 있으니 공기 중의 산소가 바닥날 것이고, 그것이 어디서 보충될지 걱정하곤 했습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 1993.0,
+   "en": "And people have worried about things that aren't even a rational fear like the apocalypse or the world is going to end on such and such a day and will all be judged wanting and so on.",
+   "ko": "그리고 사람들은 종말이나 세상이 어느 날 끝날 것이고 우리 모두가 부족하다고 심판받을 것이라는 등의 이성적이지 않은 공포에 대해서도 걱정해 왔습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2013.2,
+   "en": "So yeah, at the moment I think it's the AI thing and the climate catastrophe thing. It's not that those fears couldn't come true, it's that when you see them in perspective, you see it's an arbitrary choice to pick those things in a slightly different universe.",
+   "ko": "그래서 네, 현재로서는 AI 문제와 기후 재앙 문제인 것 같습니다. 그런 공포가 실현되지 않을 거라는 말이 아니라, 원근법적으로 바라보면 약간 다른 우주에서 그 문제들을 선택한 것은 임의적인 선택일 뿐이라는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2034.9,
+   "en": "We're still worrying about something else, or we're worrying about whatever the next thing is, which we can't predict yet.",
+   "ko": "우리는 여전히 다른 무언가를 걱정하고 있거나, 아직 예측할 수 없는 다음 무언가를 걱정하고 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2042.6,
+   "en": "You hold, I would imagine, a rather unpopular opinion in the modern world, which is that AGIs aren't going to pose much greater risk than humans already are.",
+   "ko": "당신은 현대 사회에서 꽤 인기 없는 의견을 가지고 계신 것 같은데, 바로 AGI가 이미 인류가 처한 위험보다 더 큰 위험을 초래하지는 않을 것이라는 생각입니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2055.6,
+   "en": "What's your perspective at the moment on this AGI. I mentioned to you earlier on this Jacob Coxen guy who was at OpenAI, I think for about three years, he was at anthropic recently and he tweeted yesterday,",
+   "ko": "현재 AGI에 대한 당신의 관점은 어떠신가요? 앞서 제가 말씀드린 오픈AI에 3년 정도 있었고 최근에는 앤스로픽에 있었던 제이콥 콕슨이라는 사람이 어제 트윗을 올렸습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2067.4,
+   "en": "I resigned from anthropic today, I spent the last three years doing pre-training research about open AI and anthropic. Neither company is acting responsibly, they are racing towards self-improving super intelligence and gambling with our lives.",
+   "ko": "\"저는 오늘 앤스로픽을 사임했습니다. 지난 3년 동안 오픈AI와 앤스로픽에서 사전 학습 연구를 했습니다. 두 회사 모두 책임감 있게 행동하지 않고 있으며, 자기 개선 초지능을 향해 질주하며 우리의 삶을 담보로 도박을 하고 있습니다.\"",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2078.6,
+   "en": "Some other safety researcher from anthropic said there's a more than 10% chance that advanced AI could kill all humans within the the next decade, models, potentially have a low risk at the moment, but future systems can become more capable, etc.",
+   "ko": "앤스로픽의 또 다른 안전 연구원은 향후 10년 이내에 고등 AI가 모든 인류를 죽일 확률이 10% 이상이라고 말했습니다. 현재 모델들은 잠재적으로 낮은 위험을 가지고 있지만, 미래의 시스템은 더 유능해질 수 있다는 등의 이유였죠.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2092.1,
+   "en": "How do you come to, given your background, quantum computing, etc? How do you come to think about this conversation?",
+   "ko": "당신의 배경인 양자 컴퓨팅 등을 고려할 때, 이 대화에 대해 어떻게 생각하시나요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2099.6,
+   "en": "So I think it's another justified fear, as I just said, for reasons I just said. But, you know, I'm old and I remember when people were saying this about nuclear reactors.",
+   "ko": "방금 말씀드린 이유들로 인해, 그것 역시 정당한 공포라고 생각합니다. 하지만 아시다시피 저는 나이가 좀 있고, 사람들이 원자력 발전소에 대해 이런 말을 하던 때를 기억합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2114.5,
+   "en": "And they said it so loudly and so often that people stop making nuclear reactors, thereby causing the present climate problem.",
+   "ko": "사람들은 원자력 발전에 대해 아주 크고 자주 소리를 높였고, 결국 사람들은 원자로를 만드는 것을 멈췄습니다. 그로 인해 현재의 기후 문제가 발생했죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2123.0,
+   "en": "So they didn't know, they picked, from my point of view, they picked at random one of there are many bad things that could happen, but we don't know whether they will or won't, but there's no particular reason to think that they will, even though they could.",
+   "ko": "그들은 알지 못했습니다. 제 관점에서 그들은 일어날 수 있는 수많은 나쁜 일 중 하나를 무작위로 선택했을 뿐입니다. 그것이 일어날지 아닐지는 모르지만, 일어날 수 있다는 이유만으로 일어날 것이라고 생각할 특별한 이유는 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2143.4,
+   "en": "And they picked that one at random and they alarmed everybody and people took drastic action to avoid that alarm with catastrophic results.",
+   "ko": "그들은 그것을 무작위로 골라 모두를 놀라게 했고, 사람들은 그 공포를 피하기 위해 극단적인 조치를 취했으며, 그 결과는 참담했습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2153.9,
+   "en": "The worst effect on the environment that our species has ever had was the turn away from nuclear power.",
+   "ko": "인류가 환경에 끼친 최악의 영향은 원자력 발전으로부터 등을 돌린 것이었습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2164.4,
+   "en": "So if we turn away from artificial intelligence because of a similar fiction, will it be? No, I was going to say it might well be a bigger catastrophe.",
+   "ko": "그래서 만약 우리가 비슷한 허구 때문에 인공지능으로부터 등을 돌린다면 어떻게 될까요? 아니, 더 큰 재앙이 될 수도 있다고 말하려던 참이었습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2180.8,
+   "en": "I think I was a bit tempted to say something dramatic. No, I think it would be a big catastrophe, but not as big. Mm-hmm. Mm-hmm.",
+   "ko": "제가 좀 극적인 말을 하고 싶었던 것 같네요. 아니요, 그것은 큰 재앙이 되겠지만, 원자력만큼 크지는 않을 것 같습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2188.4,
+   "en": "Tell me if this sounds familiar. You train regularly, you eat reasonably well, you feel fine, but you're just kind of going off vibes.",
+   "ko": "이런 상황이 익숙한지 말씀해 주세요. 규칙적으로 운동하고, 꽤 잘 챙겨 먹고, 기분도 괜찮지만, 그냥 막연한 느낌에 의존하고 있지는 않으신가요?",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2196.2,
+   "en": "Most people have absolutely no idea what's going on inside their body, and that is why I partnered with Function.",
+   "ko": "대부분의 사람은 자신의 몸 안에서 무슨 일이 일어나고 있는지 전혀 모릅니다. 그것이 제가 Function과 파트너십을 맺은 이유입니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2201.4,
+   "en": "Function gives you access to more than a 106C advanced lab tests, spanning hormones, heart health, kidney function, and even detects early signals linked to more than 50 types of cancer.",
+   "ko": "Function은 호르몬, 심장 건강, 신장 기능 등 100가지 이상의 정밀 검사를 제공하며, 심지어 50가지 이상의 암과 관련된 초기 신호를 감지합니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2211.1,
+   "en": "To put that in perspective, your typical annual physical might test 20 markers. function runs over 160. It's huge.",
+   "ko": "비교해 보자면, 일반적인 연간 건강검진은 약 20가지 항목을 검사합니다. 하지만 Function은 160가지 이상을 검사하죠. 엄청난 차이입니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2217.6,
+   "en": "Best of all, you test twice a year and everything lives inside of a simple dashboard. So you track trends over time, make sure you're moving in the right direction.",
+   "ko": "무엇보다 좋은 점은 1년에 두 번 검사를 받고 모든 결과가 간단한 대시보드에 저장된다는 것입니다. 그래서 시간에 따른 변화 추이를 추적하고 올바른 방향으로 가고 있는지 확인할 수 있습니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2224.0,
+   "en": "And this level of testing would usually cost thousands, but with function it is 365 dollars per year. Just one dollar a day to actually know what's happening inside of your body.",
+   "ko": "이 정도 수준의 검사는 보통 수천 달러가 들지만, Function과 함께라면 연간 365달러입니다. 하루 단 1달러로 여러분의 몸속에서 실제로 무슨 일이 일어나는지 알 수 있습니다.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2232.4,
+   "en": "And right now you can get $25 offering it down to 340 bucks. Get the exact same blood panels that I use and save $25 by going to the link in the description below or heading to function health.com slash modern wisdom.",
+   "ko": "지금 바로 25달러 할인을 받아 340달러에 이용하실 수 있습니다. 설명란의 링크나 functionhealth.com/modernwisdom에 접속하셔서 제가 받는 것과 똑같은 혈액 검사 패널을 25달러 할인된 가격으로 받아보세요.",
+   "speaker": "Chris Williamson",
+   "ad": true
+  },
+  {
+   "start": 2247.2,
+   "en": "I don't know. I spent a good bit of time over the last few months in SF and talking to people on every side of the fence, including sort of with the fence up inside of them as well, straddling both sides.",
+   "ko": "잘 모르겠네요. 지난 몇 달 동안 샌프란시스코에서 꽤 많은 시간을 보내며 양측 입장을 모두 가진 사람들을 포함해 각계각층의 사람들과 이야기를 나누었습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2260.4,
+   "en": "Certainly at least a relatively uncontroversial opinion seems to be LLMs are not the architecture that can get us to something that is very scary, that is going to be able to take over the world.",
+   "ko": "적어도 상대적으로 논란의 여지가 없는 의견은, LLM이 세계를 장악할 수 있는 매우 무서운 무언가로 우리를 데려다줄 아키텍처는 아니라는 점인 것 같습니다.",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2277.5,
+   "en": "Is that something that you would agree with?",
+   "ko": "당신도 그 점에 동의하시나요?",
+   "speaker": "Chris Williamson"
+  },
+  {
+   "start": 2279.4,
+   "en": "Absolutely, I think that follows directly from a Popper's epistemology, because the LLMs do not have a module in them capable of creativity.",
+   "ko": "전적으로 동의합니다. 그것은 포퍼의 인식론에서 직접적으로 도출되는 결론이라고 생각합니다. LLM에는 창의성을 발휘할 수 있는 모듈이 없기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2294.8,
+   "en": "So they are, I mean, they can do remarkable things, and a few years ago, I wouldn't have guessed that this kind of functionality is on the horizon for another 50 years.",
+   "ko": "그러니까 제 말은, 그것들은 놀라운 일을 할 수 있고, 몇 년 전만 해도 이런 기능이 향후 50년 안에는 나타나지 않을 것이라고 짐작했을 거라는 겁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2309.7,
+   "en": "And yet it came all at once, and everything worked one after the other. And the people who did it think that AGI is going to work as well for the same reason.",
+   "ko": "그런데 모든 것이 한꺼번에 나타났고, 하나씩 순조롭게 작동했습니다. 그리고 그것을 만든 사람들은 같은 이유로 AGI도 잘 작동할 것이라고 생각합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2319.3,
+   "en": "But the present LLM-based AIs not only have they not shown any sign of AGI, but we know how they work, or at least some people know how they work.",
+   "ko": "하지만 현재의 LLM 기반 AI는 AGI의 징후를 보이지 않았을 뿐만 아니라, 우리는 그것들이 어떻게 작동하는지 알고 있습니다. 적어도 어떤 사람들은 알고 있죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2337.4,
+   "en": "We do know that the people who designed them did not say, now we know what creativity really really is. Now we can program it and all we need is some supercomputers and we'll, they didn't say that.",
+   "ko": "그것을 설계한 사람들이 \"이제 우리는 창의성이 진짜 무엇인지 안다. 이제 우리는 그것을 프로그래밍할 수 있고 슈퍼컴퓨터만 있으면 된다\"라고 말하지 않았다는 것을 우리는 알고 있습니다. 그들은 그렇게 말하지 않았죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2353.9,
+   "en": "They said, now we can build a language model which we'll be able to speak English properly. And I would be like, good luck with that. And they did.",
+   "ko": "그들은 \"이제 영어를 제대로 말할 수 있는 언어 모델을 만들 수 있다\"라고 말했습니다. 저는 속으로 \"행운을 빌어요\"라고 했겠지만, 그들은 해냈습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2366.0,
+   "en": "But it's one thing to achieve functionality that makes sense epistemologically and to achieve it much faster than was thought.",
+   "ko": "하지만 인식론적으로 말이 되는 기능을 생각보다 훨씬 빠르게 달성하는 것과,",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2377.9,
+   "en": "And it's another to achieve a functionality that violates our best theory of what knowledge is. And that's another thing.",
+   "ko": "지식이 무엇인지에 대한 우리의 최선의 이론에 위배되는 기능을 달성하는 것은 전혀 별개의 문제입니다. 그것은 또 다른 일이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2387.8,
+   "en": "People who think that LLMs are going to deliver AGI don't say, for example, well, Popper had only an approximation to the true theory of knowledge.",
+   "ko": "LLM이 범용 인공지능(AGI)을 구현할 것이라고 생각하는 사람들은, 예를 들어 포퍼의 지식 이론은 진정한 이론에 근접한 수준일 뿐이었다고 말하지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2402.2,
+   "en": "He didn't realize that there's a gap in his theory, and this gap we have filled. We know how to fill that gap.",
+   "ko": "그는 자신의 이론에 간극이 있다는 것을 깨닫지 못했고, 우리가 그 간극을 메웠으며, 우리는 그 간극을 어떻게 메우는지 안다는 식의 말도 하지 않죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2412.0,
+   "en": "And so if you just use his old theory, you'll say that AGI is impossible this way. But if you know what we know, then you'll see why it's possible.",
+   "ko": "그래서 그의 예전 이론만 사용한다면 이런 방식으로는 AGI가 불가능하다고 하겠지만, 우리가 아는 것을 안다면 왜 그것이 가능한지 알게 될 것이라고 주장하는 것도 아닙니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2422.7,
+   "en": "They're not claiming that. They're saying it'll just happen. If they have more compute, compute, if they have more computer power available.",
+   "ko": "그들은 그렇게 주장하는 게 아닙니다. 그들은 그냥 일어날 일이라고 말합니다. 연산 능력, 즉 더 많은 컴퓨터 파워를 사용할 수 있게 된다면 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2433.2,
+   "en": "But it's a previous kind of slight blip of the same type was when chess engines first started defeating the best grandmasters at chess.",
+   "ko": "하지만 이전에도 이와 비슷한 현상이 있었는데, 바로 체스 엔진이 최고의 그랜드마스터들을 이기기 시작했을 때입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2451.6,
+   "en": "So a lot of people will say, well, some people will say, no, they'll never do it because humans humans have got some special thing in their brains and whatever.",
+   "ko": "그러면 많은 사람이, 어떤 사람들은 아니라고, 인간의 뇌에는 뭔가 특별한 것이 있기 때문에 기계는 절대 그렇게 하지 못할 거라고 말할 겁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2460.2,
+   "en": "And other people were saying, no, it's just a matter of doing it more computer power.",
+   "ko": "또 다른 사람들은 아니라고, 그저 더 많은 컴퓨터 파워의 문제일 뿐이라고 말했죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2465.3,
+   "en": "But that's different because they had a theory of why it just requires more computer power.",
+   "ko": "하지만 그것은 다릅니다. 왜 그것이 더 많은 컴퓨터 파워만을 필요로 하는지에 대한 이론이 있었기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2470.4,
+   "en": "And when they achieved it, this is the thing that hardly ever mentioned. When a chess engine beats a grandmaster, they're doing it in a different way.",
+   "ko": "그리고 그것을 달성했을 때, 거의 언급되지 않는 사실이 있습니다. 체스 엔진이 그랜드마스터를 이길 때, 그들은 다른 방식으로 수행한다는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2483.5,
+   "en": "the computation that is going on in the chess engine is a radically different kind of computation from the computation that's going on in the Grandmaster.",
+   "ko": "체스 엔진에서 일어나는 연산은 그랜드마스터의 머릿속에서 일어나는 연산과는 근본적으로 다른 종류의 연산입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2493.6,
+   "en": "The Grandmaster is doing only like one millionth of the amount of computing power of computation than the chess engine does.",
+   "ko": "그랜드마스터는 체스 엔진이 수행하는 연산량의 100만 분의 1 정도밖에 하지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2506.4,
+   "en": "And yet, can reach a very high level, not quite as high as the machine, as the program, but still they are doing a completely different thing and although we know how to write the program of a chess engine, we do not know how to write the program of a you know, my greatest games and how I want them all, you know, something like that.",
+   "ko": "그럼에도 매우 높은 수준에 도달할 수 있습니다. 기계나 프로그램만큼은 아닐지라도, 여전히 완전히 다른 일을 하고 있는 것이죠. 우리는 체스 엔진 프로그램을 짜는 법은 알지만, 그랜드마스터의 '나의 최고의 게임들' 같은 사고방식을 가진 프로그램을 짜는 법은 모릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2542.0,
+   "en": "And a chess engine can't. If you ask a chess engine how it won, it will say, well, if you do this move, then that will happen.",
+   "ko": "체스 엔진은 그렇게 할 수 없습니다. 체스 엔진에게 어떻게 이겼느냐고 물으면, '이 수를 두면 저런 일이 벌어질 것'이라고 답하겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2550.6,
+   "en": "And if that happens, this will happen. If that happens, this will have down to it, you know, have them any steps it can do nowadays. And a grandmaster will not say that.",
+   "ko": "'그리고 저런 일이 벌어지면 이런 일이 벌어질 것'이라며 요즘 기계가 할 수 있는 수많은 단계까지 내려가며 설명할 겁니다. 하지만 그랜드마스터는 그렇게 말하지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2561.7,
+   "en": "A grandmaster I can't follow it down to anywhere near as many steps as a chess engine can.",
+   "ko": "그랜드마스터는 체스 엔진만큼 많은 단수를 내다볼 수 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2573.2,
+   "en": "But a grandmaster will say something like, well, I thought that if I give up this pawn, it's going to create a weakness on the G file.",
+   "ko": "대신 그랜드마스터는 '이 폰을 희생하면 G파일에 약점이 생길 거라고 생각했다'는 식으로 말할 겁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2585.2,
+   "en": "And by weakness, he doesn't mean that he's followed down all the possible continuations, whereas something that can follow down all the continua- and by the way, some of those continuations may not lead to victory.",
+   "ko": "여기서 '약점'이라는 것은 가능한 모든 수의 진행을 다 따라가 봤다는 뜻이 아닙니다. 모든 진행을 따라가는 기계와는 다르죠. 참고로 그런 진행 중 일부는 승리로 이어지지 않을 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2603.2,
+   "en": "He might say, I thought this might work, but then five moves later, the bastard found a way out of it. And that can also happen.",
+   "ko": "그는 '이게 통할 줄 알았는데, 다섯 수 뒤에 상대가 빠져나갈 길을 찾았다'고 말할 수도 있습니다. 그런 일도 일어날 수 있죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2614.5,
+   "en": "That also can't happen to a chess engine. So there are different types of program.",
+   "ko": "그런 일은 체스 엔진에게는 일어날 수 없습니다. 그러니 서로 다른 종류의 프로그램이 있는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2621.8,
+   "en": "We do not know how to write the Grandmaster type of chess program, let alone an AGI.",
+   "ko": "우리는 AGI는커녕 그랜드마스터 스타일의 체스 프로그램조차 어떻게 짜는지 모릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2628.8,
+   "en": "When the Grandmaster gets up, he then starts performing computations of of orders of magnitude greater complexity than playing chess.",
+   "ko": "그랜드마스터가 자리에서 일어나면, 그는 체스를 둘 때보다 몇 단계는 더 복잡한 연산을 수행하기 시작합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2639.3,
+   "en": "It's just that he's not engaging competitively in something that requires insight.",
+   "ko": "다만 통찰력을 요구하는 일에 경쟁적으로 참여하고 있지 않을 뿐입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2647.9,
+   "en": "What is creativity, in your opinion? How do you think about explaining that simply?",
+   "ko": "당신이 생각하는 창의성이란 무엇인가요? 그것을 어떻게 간단하게 설명하시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2655.0,
+   "en": "The way I use the term is perhaps different from the way philosophers and others use it.",
+   "ko": "제가 이 용어를 사용하는 방식은 아마 철학자들이나 다른 사람들이 사용하는 방식과는 다를 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2661.5,
+   "en": "Creativity, I think, is not that impressive a thing, just creativity by itself. I use that word to mean the ability to create new knowledge.",
+   "ko": "창의성 그 자체만으로는 그리 대단한 것이 아니라고 생각합니다. 저는 그 단어를 새로운 지식을 창출하는 능력이라는 의미로 사용합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2675.9,
+   "en": "So evolution is a creative process in that sense, in that it starts off with an animal that can't fly and then a few million years later it's just created an animal that can and it can fly because it genes encode knowledge of how to fly, including implicitly knowledge of aerodynamics and all sorts of things that we don't even have a handle on yet.",
+   "ko": "그런 의미에서 진화는 창의적인 과정입니다. 날지 못하는 동물에서 시작해 몇 백만 년 후 날 수 있는 동물을 만들어내니까요. 그 동물이 날 수 있는 이유는 유전자가 공기역학에 대한 암묵적인 지식 등 우리가 아직 파악조차 못한 온갖 지식을 포함하여 비행 방법에 대한 지식을 암호화하고 있기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2704.7,
+   "en": "But so it has created knowledge. The thing that humans have and that no existing other species has, although there were species in the past that had this is explanatory creativity, where we can, like with the chess master, not only we can say, I prefer this move to that move, you can say why.",
+   "ko": "결과적으로 지식을 창조한 셈이죠. 인간만이 가지고 있고 현존하는 다른 어떤 종도 가지고 있지 않은 것, 비록 과거에는 가졌던 종들이 있었을지 모르지만, 그것은 바로 '설명적 창의성'입니다. 체스 마스터처럼 단순히 '이 수가 저 수보다 좋다'고 말하는 것을 넘어 '왜' 그런지 말할 수 있는 능력 말입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2729.9,
+   "en": "So I want to pick up this burning branch from the wildfire, like the, say the first person who invented a campfire. I'm just writing about this in my in my forthcoming book actually.",
+   "ko": "예를 들어 산불에서 타오르는 가지를 집어 들고 싶어 한다고 해봅시다. 인류 최초로 모닥불을 발명한 사람처럼 말이죠. 사실 지금 집필 중인 책에서도 이 내용을 쓰고 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2751.8,
+   "en": "I want to pick this up because I want to carry it with me and if I carry it with me, maybe the predators who might otherwise attack me and I'm carrying food from the latest kill will run away from me instead of me running away from them.",
+   "ko": "'이걸 들고 다니고 싶어, 이걸 들고 있으면 나를 공격하려던 포식자들이, 내가 방금 잡은 먹잇감을 들고 있을 때 나한테 도망치는 대신 내가 도망가지 않아도 되겠지'라고 생각하는 겁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2770.2,
+   "en": "Now that idea, that's not induction, that's not any of the pre-Popper ways of thinking of the growth of knowledge. He's not doing something he's seen before.",
+   "ko": "이런 생각은 귀납법이 아닙니다. 포퍼 이전의 지식 성장 이론 중 어느 것과도 맞지 않죠. 그는 전에 본 적이 있는 일을 하는 게 아닙니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2785.7,
+   "en": "He's imagining something that he've never seen before, that no one has ever seen before, namely carrying a branch for protection against their predators.",
+   "ko": "그는 자신도, 그 누구도 본 적 없는 일, 즉 포식자로부터 보호하기 위해 나뭇가지를 들고 다니는 일을 상상하고 있는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2796.2,
+   "en": "And then as he walks home with it, then he'll say, oh, well, it's getting dark, but I can still see. Maybe if I get this all the way home, we'll all be able to be protected from the wild animals.",
+   "ko": "그리고 그것을 들고 집으로 걸어가면서 '오, 어두워지고 있는데 여전히 잘 보이네. 이걸 집까지 가져가면 우리 모두 야생 동물로부터 보호받을 수 있을지도 몰라'라고 말하겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2814.6,
+   "en": "And so on, that's the kind of thinking that is not, it cannot be characterized as optimizing for a given outcome like checkmate or like proving a mathematical theorem.",
+   "ko": "그런 식의 사고는 체크메이트나 수학 정리 증명처럼 주어진 결과에 최적화하는 것으로 규정될 수 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2830.5,
+   "en": "It's more like discovering a new mathematical object, which is interesting, but you can't give a computer a criterion of interesting. So humans can change the axioms to better axioms.",
+   "ko": "그것은 흥미로운 새로운 수학적 대상을 발견하는 것에 가깝습니다. 하지만 컴퓨터에게는 '흥미로움'의 기준을 줄 수 없죠. 그래서 인간은 공리를 더 나은 공리로 바꿀 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2849.6,
+   "en": "And humans are not just meeting a fixed criterion, and also humans can change their mind.",
+   "ko": "인간은 그저 정해진 기준을 충족하는 존재가 아니며, 또한 생각을 바꿀 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2857.2,
+   "en": "He might decide, well, we might scare off the predators this way, but we're getting burnt by the flames, and it's not going to last us all the way home, so we better throw it away now and run home.",
+   "ko": "그는 '이렇게 포식자를 쫓아낼 수는 있겠지만, 불꽃 때문에 데이고 있고 집까지 가지도 못할 테니 그냥 지금 버리고 집으로 뛰어가는 게 낫겠다'고 결정할 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2875.7,
+   "en": "That's the sort of thing you can think if you have a genuine problem situation in mind rather than a criterion to meet.",
+   "ko": "그것이 충족해야 할 기준이 아니라 진짜 문제 상황을 염두에 두고 있을 때 할 수 있는 생각입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2885.0,
+   "en": "What do you make given the importance of understanding education, modesty, or sort of nobility, humility when it comes to learning? What do you make of the current education system?",
+   "ko": "학습에 있어서 교육, 겸손, 혹은 고결함의 중요성을 고려할 때, 현재의 교육 시스템에 대해서는 어떻게 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2897.0,
+   "en": "So I think that our society's present attitude to education, both for children and for universities and for everybody in their own life, is based on a wrong theory.",
+   "ko": "저는 아이들, 대학, 그리고 각자의 삶에서의 교육에 대한 우리 사회의 현재 태도가 잘못된 이론에 근거하고 있다고 생각합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2914.5,
+   "en": "It's what Popper calls the bucket theory of the mind, of the mind, which is that knowledge Knowledge is a kind of fluid, which some people have and some people don't have of a particular kind.",
+   "ko": "포퍼가 '마음의 바구니 이론'이라고 부른 것인데, 지식이란 어떤 사람들은 가지고 있고 어떤 사람들은 가지고 있지 않은 일종의 유체와 같다는 생각입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2928.4,
+   "en": "And the task is for the person who has it to pour it into the bucket, that is the recipient is a kind of bucket for knowledge, which is initially empty, and you pour the knowledge in. So that is very bad in a number of ways.",
+   "ko": "그래서 지식을 가진 사람이 그것을 바구니에 붓는 것이 과제가 됩니다. 즉, 받는 사람은 처음에는 비어 있는 지식 바구니이고, 거기에 지식을 붓는 것이죠. 이것은 여러 면에서 매우 좋지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2948.9,
+   "en": "In fact, education is the last holdout of pre-enlightenment theories of knowledge. Everywhere else, we at least give lip service to enlightenment theories, like you don't give someone authority to override the wishes of someone else.",
+   "ko": "사실 교육은 계몽주의 이전의 지식 이론이 마지막까지 남아 있는 곳입니다. 다른 모든 분야에서는 최소한 말로라도 계몽주의 이론을 따릅니다. 타인의 의사를 무시할 권한을 누구에게도 주지 않는 것처럼 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2967.4,
+   "en": "else, you don't necessarily respect the opinion of someone else just because of their status and so on. We may not enact this perfectly, as we were saying earlier in this conversation, but it's largely agreed that this is what we should be doing.",
+   "ko": "또 타인의 지위 때문에 그 의견을 반드시 존중해야 하는 것도 아니라는 점 등입니다. 우리가 앞서 대화에서 나눈 것처럼 이를 완벽하게 실행하지는 못할지라도, 이것이 우리가 지향해야 할 방향이라는 점에는 대체로 동의합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2987.3,
+   "en": "In education, it's the other way around. We judge education by how well and how accurately you fill the bucket.",
+   "ko": "하지만 교육에서는 정반대입니다. 교육을 얼마나 잘, 그리고 얼마나 정확하게 바구니를 채웠느냐로 판단합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 2995.6,
+   "en": "So So one of the things that's wrong with that is that when something goes wrong, which it nearly always does, then you will immediately jump to the conclusion, so what has gone wrong?",
+   "ko": "여기서 잘못된 점 중 하나는 문제가 발생했을 때(거의 항상 발생하지만), 즉시 무엇이 잘못되었는지 결론을 내리려 한다는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3007.8,
+   "en": "Will the bucket, it's either leaky or it didn't want to receive the fluid, but there can't be anything wrong with the fluid because the fluid is knowledge.",
+   "ko": "바구니가 새거나 유체를 받기 싫어했다고 생각하죠. 하지만 유체 자체에는 문제가 있을 수 없는데, 그 유체가 바로 지식이기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3017.8,
+   "en": "That is by definition what we want to transfer. by definition, transferring it is success. So we measure success according to say exam results or something.",
+   "ko": "그것은 정의상 우리가 전달하고자 하는 것입니다. 정의상 그것을 전달하는 것이 성공이죠. 그래서 우리는 시험 결과 같은 것으로 성공을 측정합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3028.1,
+   "en": "And then because of the natural arms race or self-sustaining situation that happens in many human situations that aren't rational.",
+   "ko": "그리고 이성적이지 않은 많은 인간 관계에서 일어나는 자연스러운 군비 경쟁이나 자기 유지적 상황 때문에 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3051.2,
+   "en": "The incentive is to spend more and more time on meeting a criterion and less and less time on things that can't be measured, which are the important things.",
+   "ko": "기준을 맞추는 데 점점 더 많은 시간을 쓰고, 정작 중요한 측정할 수 없는 것들에는 점점 더 적은 시간을 쓰게 되는 동기가 생깁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3064.2,
+   "en": "So, at least with chess, you can measure how good a grandmaster is. Although you cannot easily measure how good a grandmaster is at explaining, or at teaching or at giving a running commentary on chess games.",
+   "ko": "체스의 경우, 최소한 그랜드마스터가 얼마나 실력이 좋은지는 측정할 수 있습니다. 하지만 그 그랜드마스터가 얼마나 잘 설명하는지, 잘 가르치는지, 체스 경기를 얼마나 잘 해설하는지는 쉽게 측정할 수 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3080.9,
+   "en": "There is no criterion for that. There's no mechanical way. You can say, well, I've got 93% on the explaining my moves test, so I must be good at explaining my moves.",
+   "ko": "거기에는 기준이 없습니다. 기계적인 방법이 없죠. '내 수 설명하기 테스트에서 93점을 받았으니 나는 설명을 잘하는 게 틀림없어'라고 말할 수는 없다는 겁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3094.0,
+   "en": "There is no such thing. And everything that is important in education is of that type and not of the testable type.",
+   "ko": "그런 건 존재하지 않습니다. 그리고 교육에서 중요한 모든 것은 시험할 수 있는 유형이 아니라 바로 그런 유형의 것들입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3101.9,
+   "en": "I omit things where being able to execute the criterion perfectly is the task, like being an airline pilot.",
+   "ko": "물론 항공기 조종사처럼 기준을 완벽하게 실행하는 것이 임무인 경우는 제외합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3119.8,
+   "en": "But even an airline pilot, you know, an airline pilot who doesn't know what the different controls do is not going to be a good airline pilot. But even with an airline pilot, understanding is extremely important.",
+   "ko": "하지만 항공기 조종사라 하더라도, 각 제어 장치가 무엇을 하는지 모르는 조종사는 좋은 조종사가 될 수 없습니다. 조종사에게도 이해는 매우 중요합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3134.3,
+   "en": "It may not be as important as being able to operate the controls, but it is extremely important. But things that we learn in school and in most university courses are not like that.",
+   "ko": "조종 장치를 조작하는 능력만큼 중요하지는 않을지 모르지만, 극도로 중요하죠. 하지만 학교와 대부분의 대학 과정에서 배우는 것들은 그렇지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3146.2,
+   "en": "The course and the exam are designed as proxies for the thing that you actually want. And they are very poor proxies.",
+   "ko": "강의와 시험은 당신이 실제로 원하는 것의 대용물로 설계되었습니다. 그리고 그것들은 매우 부실한 대용물입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3156.9,
+   "en": "The only reason they are proxies at all is that people who really want to do the thing are willing to waste their time learning to pass the criterion.",
+   "ko": "그것들이 대용물 노릇을 하는 유일한 이유는, 그 일을 정말로 하고 싶은 사람들이 기준을 통과하기 위해 기꺼이 시간을 낭비하며 배우기 때문입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3165.5,
+   "en": "Before we continue, how many times have you found yourself hugging the toilet, throwing up not because you drank too much alcohol, but because the non-alcoholic beers that you drank tasted like garbage.",
+   "ko": "계속하기 전에, 술을 너무 많이 마셔서가 아니라 마셨던 무알코올 맥주 맛이 너무 형편없어서 변기를 붙잡고 구토했던 적이 얼마나 많으셨나요?",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3174.1,
+   "en": "And that is why I'm such a huge fan of Athletic Brewing Co.",
+   "ko": "그것이 바로 제가 애슬레틱 브루잉 컴퍼니의 열렬한 팬인 이유입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3177.1,
+   "en": "Their non-alcoholic brews taste just as good as the real thing and the best part, But there's no hangover. No headaches, no more ruining your daughter's dance recital.",
+   "ko": "그들의 무알코올 맥주는 진짜 맥주만큼 맛이 좋고, 가장 좋은 점은 숙취가 없다는 것입니다. 두통도 없고, 딸의 무용 발표회를 망칠 일도 없죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3185.2,
+   "en": "I didn't want to stop enjoying tasty drinks. I just wanted to stop paying for it the next day. And you can too.",
+   "ko": "저는 맛있는 음료를 즐기는 것을 멈추고 싶지 않았습니다. 그저 다음 날 대가를 치르는 것을 멈추고 싶었을 뿐이죠. 여러분도 그럴 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3190.3,
+   "en": "Find Athletic Brewing Co's best-selling lineup at grocery or liquor stores near you, or best option, get a full variety pack of four flavors shipped direct to your door.",
+   "ko": "가까운 식료품점이나 주류 판매점에서 애슬레틱 브루잉의 베스트셀러 제품군을 찾아보시거나, 가장 좋은 방법은 네 가지 맛이 담긴 버라이어티 팩을 문 앞까지 바로 배송받으시는 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3198.2,
+   "en": "Right now, get 15% off your first online order by going to the link in the description below or heading to athleticbrewing.com slash modern wisdom using the code modernwisdom at checkout.",
+   "ko": "지금 아래 설명란의 링크를 이용하거나 athleticbrewing.com/modernwisdom으로 이동해 결제 시 modernwisdom 코드를 사용하시면 첫 온라인 주문에서 15% 할인을 받으실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3206.9,
+   "en": "That's athleticbrewing.com slash modern wisdom and modern wisdom at checkout. Need a beer, terms and conditions apply. Athletic Brewing Company fit for all times.",
+   "ko": "athleticbrewing.com/modernwisdom에서 할인 코드 modernwisdom을 사용하세요. 맥주가 필요할 때, 약관이 적용됩니다. 모든 순간에 적합한 애슬레틱 브루잉 컴퍼니입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3215.0,
+   "en": "What is a better approach than for somebody who wants to learn a lot from people who know a lot? Should people exit? Formal education as quickly as possible?",
+   "ko": "많이 아는 사람들로부터 많은 것을 배우고 싶은 사람에게 더 나은 접근 방식은 무엇일까요? 사람들은 정규 교육을 가능한 한 빨리 그만두어야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3225.6,
+   "en": "We presumably can't upend the entire system right now immediately. What's your advice?",
+   "ko": "우리가 당장 시스템 전체를 뒤엎을 수는 없겠지만요. 당신의 조언은 무엇입니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3230.4,
+   "en": "I, I, I, upending is outside my wheelhouse, like, you know, I don't know how to formulate good political policies that will gain wide acceptance.",
+   "ko": "시스템을 뒤엎는 것은 제 전문 분야가 아닙니다. 널리 받아들여질 수 있는 훌륭한 정치적 정책을 수립하는 법을 저는 모르니까요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3245.1,
+   "en": "But technically, we can, we do now with the internet, we do have the means of completely upending the system and not having any compulsory education, certainly for children.",
+   "ko": "하지만 기술적으로는 가능합니다. 인터넷 덕분에 시스템을 완전히 뒤엎고, 특히 아이들을 위한 의무 교육을 없앨 수 있는 수단이 지금 우리에게 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3259.6,
+   "en": "But I think there are more and more ways of adapting university education to technologies like the internet and also collaborative technologies where you have, for example, access to somebody.",
+   "ko": "하지만 인터넷 같은 기술과 협업 기술에 대학 교육을 적응시킬 수 있는 방법들이 점점 더 많아지고 있다고 생각합니다. 예를 들어 누군가에게 접근할 수 있는 것처럼 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3280.5,
+   "en": "access to somebody can be very valuable, where compulsory subordination to that very same person would be very bad for you.",
+   "ko": "누군가에게 접근할 수 있는 것은 매우 가치 있을 수 있지만, 바로 그 사람에게 강제로 종속되는 것은 당신에게 매우 나쁠 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3292.4,
+   "en": "So today, you can write an email, anyone can write an email to any famous person and have a reasonable chance of getting an answer even if it's only read my book, you dolt.",
+   "ko": "오늘날에는 누구나 유명인에게 이메일을 쓸 수 있고, 비록 그 답장이 '내 책이나 읽어라, 멍청아'일지라도 답장을 받을 가능성이 어느 정도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3306.7,
+   "en": "Yes, yeah, yeah.",
+   "ko": "네, 그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3307.8,
+   "en": "But even that, even that is a lot better than what things used to be like, say, even 30 years ago.",
+   "ko": "하지만 그조차도 30년 전과 비교하면 훨씬 나은 상황입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3317.4,
+   "en": "But even 30 years ago, it would have been better, in my opinion, not to have compulsory subjects and not to have compulsory education of any kind.",
+   "ko": "제 생각에는 30년 전이라도 의무 과목이나 어떤 종류의 의무 교육도 없었더라면 더 좋았을 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3327.7,
+   "en": "What do you think about discipline and forcing yourself to do things?",
+   "ko": "자기 훈련이나 자신을 억지로 하게 만드는 것에 대해서는 어떻게 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3333.2,
+   "en": "I've seen that you appear to be very anti this, despite it being kind of the one of the most popular worldviews at the moment to put your feelings to one side and push through and sort of ignore how you feel.",
+   "ko": "감정을 한쪽으로 치워두고 밀어붙이며 자신의 기분을 무시하는 것이 현재 가장 인기 있는 세계관 중 하나임에도 불구하고, 당신은 이에 대해 매우 반대하는 입장인 것 같습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3348.8,
+   "en": "What's your perspective on discipline and like many things in epistemology and in psychology, the same words, the same terms can be used to describe absolutely opposite things.",
+   "ko": "자기 훈련에 대한 제 관점은 이렇습니다. 인식론이나 심리학의 많은 것들처럼, 같은 단어와 용어가 정반대의 상황을 묘사하는 데 사용될 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3363.2,
+   "en": "So, for example, take a mountaineer who enjoys climbing Mount Everest or difficult mountains, who looks for difficult climb, where other people have failed, perhaps other people have been killed, and he goes on the climb, and on the climb he undergoes severe privation, and what would be suffering to almost anyone else.",
+   "ko": "예를 들어 에베레스트나 험난한 산을 타는 것을 즐기는 등반가를 보죠. 다른 사람들이 실패하거나 죽었을 수도 있는 어려운 등반 코스를 찾아 나서고, 그 과정에서 심각한 고통과 다른 누구에게는 고난일 일을 겪습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3390.3,
+   "en": "But to him, it's just privation. It's getting cold. Every fiber of his being wants to go back down and get back in the warm, but he wants to get to the top.",
+   "ko": "하지만 그에게 그것은 단지 거쳐야 할 과정일 뿐입니다. 추위가 닥치고 온 몸의 세포가 따뜻한 아래로 내려가고 싶어 해도, 그는 정상을 원합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3404.4,
+   "en": "And all the pain and suffering and discomfort, it's not It's not that he overrides it, though, in a sense he does. But what's really happening is that that's what he's there for.",
+   "ko": "그 모든 고통과 고난, 불편함을 그가 억누르는 것이 아닙니다. 어떤 의미에서는 그렇다고 할 수 있겠지만, 실제로는 그가 그것을 위해 그곳에 있는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3419.8,
+   "en": "That's why he chose this climb. If it were easy, he wouldn't have chosen it.",
+   "ko": "그것이 그가 이 등반을 선택한 이유입니다. 쉬웠다면 선택하지 않았을 테니까요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3426.6,
+   "en": "So what is for one person, this is the reason he's alive. This is the reason he gets up in the morning.",
+   "ko": "어떤 사람에게 이것은 자신이 살아있는 이유이며, 아침에 일어나는 이유가 됩니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3437.0,
+   "en": "It is in anticipation of doing this thing. For almost anyone else, it would be torture. What's more, almost anyone else couldn't do it well enough.",
+   "ko": "이 일을 할 것이라는 기대감 때문이죠. 다른 거의 모든 사람에게 그것은 고문일 것이며, 심지어 제대로 해내지도 못할 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3448.1,
+   "en": "They would eventually fall off. It's only because he loves it that he has put in the amount of practice and work and thinking and analysis and so on that allows him to reach the top of this difficult climb.",
+   "ko": "결국 떨어지고 말겠죠. 그가 이 일을 사랑하기 때문에 엄청난 연습과 노력, 사고와 분석 등을 쏟아부었고, 그 덕분에 이 어려운 등반의 정상에 도달할 수 있는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3465.2,
+   "en": "This is in the case of mountaineering, we're talking about actual pain and so on, but most things don't have actual pain, physical pain, but they do have psychological pain, boredom, despair, fear and all that kind of thing.",
+   "ko": "등반의 경우 실제적인 통증을 이야기하고 있지만, 대부분의 일은 실제적인 신체적 고통이 아니라 지루함, 절망, 공포 같은 심리적 고통을 수반합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3489.6,
+   "en": "So in that sense, I think the mountaineer is a good analogy to all learning. All learning should be like that.",
+   "ko": "그런 의미에서 등반가는 모든 학습에 대한 좋은 비유라고 생각합니다. 모든 학습이 이와 같아야 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3502.8,
+   "en": "It should be something thing that you would pay the price to have it, just like the mountaineer does, or like I was talking the other day to Formula One driver, and I was saying, God, you know, in Formula One racing, you have to have reactions that are approximately one half the length of a human reaction time.",
+   "ko": "등반가처럼, 혹은 며칠 전 대화한 포뮬러 원 드라이버처럼 그것을 얻기 위해 대가를 치를 만한 것이어야 합니다. F1 레이싱에서는 인간 반응 속도의 절반 정도에 달하는 반응 속도가 필요하다고 말했죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3531.2,
+   "en": "So that means that you must start doing the thing before you have the information in front of you, because you have understood the course and the vehicle and so on well enough, and you must do that again and again and again during the race.",
+   "ko": "그 말은 눈앞에 정보가 나타나기 전에 행동을 시작해야 한다는 뜻입니다. 코스와 차량 등을 충분히 이해하고 있어야 하며, 경주 내내 이를 반복해야 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3548.6,
+   "en": "And every so often you will spin enough and you will risk your life and so on. And so most people again would hate to do that.",
+   "ko": "가끔은 차가 스핀하기도 하고 목숨을 걸어야 하기도 합니다. 대다수의 사람들은 그런 일을 아주 싫어하겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3559.2,
+   "en": "You know, most people would pay a lot to not have to do that, but also if they were forced to do it, they wouldn't do it well because they do not love it.",
+   "ko": "그런 일을 하지 않기 위해 큰돈을 지불할 사람도 많겠지만, 억지로 시킨다 해도 사랑하지 않기 때문에 잘해내지 못할 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3570.2,
+   "en": "So I think having discipline and forcing yourself could be a form of words that describes this mountaineer. And in that case, it is wonderful.",
+   "ko": "따라서 자기 훈련을 하고 자신을 채찍질한다는 표현이 이 등반가의 상황을 묘사하는 말일 수도 있습니다. 그런 경우라면 그것은 멋진 일이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3585.8,
+   "en": "It is in a sense the best thing in the world. Whereas somebody forcing themselves to get a GCSE maths thing and spending the the whole summer preparing for the GCSE maths and just scraping through and then starting the very next day, forgetting everything they knew, that is the epitome of something bad.",
+   "ko": "어떤 의미에서는 세상에서 가장 좋은 것입니다. 반면, GCSE 수학 점수를 따려고 억지로 여름 내내 준비해서 겨우 통과한 뒤, 바로 다음 날부터 배운 것을 다 잊어버리는 것은 나쁜 것의 전형입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3616.7,
+   "en": "That's something that shouldn't happen. It's in a rational society. That would never happen.",
+   "ko": "그런 일은 일어나서는 안 됩니다. 이성적인 사회라면 그런 일은 절대 일어나지 않을 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3624.3,
+   "en": "If that happened even once, it would be headline in the newspaper and heads would roll.",
+   "ko": "만약 그런 일이 단 한 번이라도 일어난다면 신문 헤드라인을 장식하고 책임자들이 물러나야 할 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3631.6,
+   "en": "So from an individual's perspective, obviously we are still contending with and navigating the world and it is in some ways scarce or misaligned what it is that we want to do. So sometimes you have to do that.",
+   "ko": "개인의 관점에서 볼 때, 우리는 여전히 세상을 헤쳐 나가고 있으며, 우리가 하고 싶은 일은 어떤 면에서 부족하거나 일치하지 않을 때가 있습니다. 그래서 가끔은 그렇게 해야만 하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3645.5,
+   "en": "You have to use your, I will get it done muscle. You don't want to take the trash out. The trash sucks and it smells and you don't want to do it, but you have to do it.",
+   "ko": "'해내고 말겠다'는 근육을 써야 합니다. 쓰레기를 내다 버리고 싶지 않겠죠. 쓰레기는 지저분하고 냄새나서 하기 싫지만, 해야만 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3653.6,
+   "en": "So you're going to do it. Your perspective here is that if we were to construct a rational society, it would be people doing things that are in alignment with what they want to do and in the interim between where we are now and hopefully a future world where that's the case, you're going to have to apply some of this but the goal is to use less and less a bit over time.",
+   "ko": "그래서 당신은 그것을 할 것입니다. 당신의 관점은 우리가 이성적인 사회를 건설한다면 사람들이 자신이 원하는 것과 일치하는 일을 하게 될 것이며, 그런 미래가 오기 전까지는 이런 강제성을 어느 정도 적용해야 하겠지만 그 목표는 시간이 흐를수록 이를 점점 줄여가는 것이라는 말씀이군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3672.8,
+   "en": "Less and less over time but also less and less in your life. So first of all, the answer is to get it over with.",
+   "ko": "시간이 흐를수록 줄어들 뿐만 아니라 삶 속에서도 줄어들어야 합니다. 우선 첫 번째 해답은 빨리 끝내버리는 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3683.9,
+   "en": "So you should be leading your good life, not being overwhelmed by the bad things. And then once you're getting it over with, you can improve the situation.",
+   "ko": "나쁜 일들에 압도되지 않고 좋은 삶을 영위해야 합니다. 그리고 일단 그 일을 처리하고 나면 상황을 개선할 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3699.8,
+   "en": "There are no situations or almost no situations in everyday life that cannot be improved a little.",
+   "ko": "일상생활에서 조금이라도 개선될 수 없는 상황은 없거나 거의 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3706.8,
+   "en": "So you can apply knowledge to getting it over with a little, you know, I don't know, buy a better rubbish bin, which is not so disgusting to empty.",
+   "ko": "지식을 활용해 일을 좀 더 수월하게 만들 수 있습니다. 예를 들어 비우는 게 덜 끔찍한 더 좋은 쓰레기통을 사는 식으로 말이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3722.6,
+   "en": "Or live in a place where the rubbish bin emptying is easier or is a shorter way. or by a different type of bags that you enjoy seeing briefly as you take it toward the exactly exactly.",
+   "ko": "혹은 쓰레기통 비우기가 더 쉽거나 거리가 더 짧은 곳에 사는 거죠. 아니면 버리러 가는 동안 잠깐이라도 보기 즐거운 디자인의 봉투를 사는 것도 방법이겠고요. 정확합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3741.4,
+   "en": "So and then there's also the opportunity to just learn to enjoy it. So they're even taking the rubbish out has aspects that one can enjoy.",
+   "ko": "그리고 그것을 즐기는 법을 배우는 기회도 있습니다. 쓰레기를 버리는 일조차 즐길 수 있는 측면이 있거든요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3755.2,
+   "en": "For example, example, if one has been working on the computer all day and one's limbs are forgotten how to move, then at least going out with the rubbish takes you into the fresh air.",
+   "ko": "예를 들어 하루 종일 컴퓨터 앞에서 일하느라 팔다리가 움직이는 법을 잊었을 때, 쓰레기를 버리러 나가는 것만으로도 신선한 공기를 마실 수 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3774.3,
+   "en": "And you can see the neighborhood and you can say hello to the person across the road who is also taking out their rubbish and so on.",
+   "ko": "이웃 동네를 구경할 수도 있고, 똑같이 쓰레기를 버리러 나온 길 건너 사람과 인사할 수도 있죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3784.9,
+   "en": "So there's nothing that can't be improved at least a bit. And it's bad to be in the state of mind that I should have discipline and therefore reducing it is reducing the good thing.",
+   "ko": "조금이라도 개선될 수 없는 일은 없습니다. '자기 훈련을 해야 해, 그러니 훈련을 줄이는 것은 좋은 것을 줄이는 거야'라는 마음가짐은 좋지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3799.4,
+   "en": "It's not. Reducing the thing you don't like is always good.",
+   "ko": "그렇지 않습니다. 싫어하는 것을 줄이는 것은 언제나 좋은 일입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3804.5,
+   "en": "You mentioned the good life. What if you come to believe about how people should prioritize their focus in order to achieve something that resembles a good life?",
+   "ko": "좋은 삶을 언급하셨는데요. 좋은 삶에 가까운 것을 성취하기 위해 사람들이 무엇에 우선순위를 두어야 한다고 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3818.0,
+   "en": "Like with many things, diversity is the key. So I don't think there's a formula which applies to everybody.",
+   "ko": "많은 일들이 그렇듯 다양성이 핵심입니다. 그래서 저는 모든 사람에게 적용되는 공식이 있다고 생각하지 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3826.7,
+   "en": "In fact, I don't think there's a formula that applies to any two people. people. Any two people are very different.",
+   "ko": "사실 어떤 두 사람에게도 공통으로 적용되는 공식은 없을 겁니다. 사람들은 저마다 매우 다릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3832.8,
+   "en": "In fact, more different than we are really capable of understanding. Humans are, individual humans are as different from each other as humans in general are from other species.",
+   "ko": "사실 우리가 이해할 수 있는 것 이상으로 다릅니다. 개별 인간들은 인간 종 전체가 다른 종들과 다른 것만큼이나 서로 다릅니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3848.6,
+   "en": "A person is like a different species. So what some people People like to live a life of intellectual problem-solving.",
+   "ko": "한 사람은 마치 다른 종과 같습니다. 어떤 사람들은 지적인 문제 해결의 삶을 사는 것을 좋아합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3864.1,
+   "en": "There is a wonderful passage in Popper's autobiography where he says that the thing to do in life is to find a problem, fall in love with it, live with it for the rest of your life, get married to it, live with it for the rest of your life, until death do you part.",
+   "ko": "포퍼의 자서전에 멋진 구절이 있는데, 인생에서 해야 할 일은 문제를 찾아 그와 사랑에 빠지고, 평생을 함께 살며, 그와 결혼해 죽음이 갈라놓을 때까지 평생을 함께하는 것이라고 말합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3886.4,
+   "en": "And if you happen to solve it, then the tone in which he says that is, if you're unlucky enough to happen to solve it, then there will be delightful problem children.",
+   "ko": "그리고 만약 운 좋게(?) 문제를 해결하게 된다면, 그가 말하는 뉘앙스로는 불행히도 문제를 해결하게 된다면, 그 뒤에는 즐거운 '문제아들'이 생겨날 것이라고 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3901.5,
+   "en": "And it's quite interesting that he uses the phrase problem children deliberately to highlight the fact the problem in his philosophy has these two opposite meanings.",
+   "ko": "그가 '문제아들'이라는 표현을 의도적으로 사용해 자신의 철학에서 '문제'라는 단어가 가진 두 가지 상반된 의미를 강조했다는 점이 꽤 흥미롭습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3915.3,
+   "en": "So we can say, you know, problem children is a term, a sort of euphemism that was invented for children that you would not want to live with.",
+   "ko": "우리가 흔히 '문제아'라고 하면 함께 살고 싶지 않은 아이들을 가리키는 일종의 완곡어법으로 쓰이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3924.7,
+   "en": "Whereas he is using it for something that you really ought to live with.",
+   "ko": "반면 그는 당신이 정말로 함께 살아야 할 대상을 가리키는 데 그 말을 씁니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3930.1,
+   "en": "And a lot of people who are the survivors of doing unusual things and then advocate that people should do these unusual things.",
+   "ko": "특이한 일을 해내고 살아남아 다른 이들에게도 그런 일을 하라고 권하는 많은 사람들이 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3944.7,
+   "en": "They often gloss over the difference between good discipline and bad discipline, good problem and bad problem.",
+   "ko": "그들은 종종 좋은 훈련과 나쁜 훈련, 좋은 문제와 나쁜 문제의 차이를 얼버무리곤 합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3955.0,
+   "en": "And they will say things that are exactly right for them because they were following the good path, if I can put it that way.",
+   "ko": "표현하자면 그들은 '좋은 길'을 따랐기 때문에 자신들에게는 정확히 맞는 말을 할 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3963.6,
+   "en": "But it's often taken to mean that you have to knuckle down and do your chores and then your homework and then go to bed.",
+   "ko": "하지만 그것은 종종 꾹 참고 집안일을 하고, 숙제를 한 다음 잠자리에 들어야 한다는 뜻으로 오해받곤 하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3972.4,
+   "en": "And that's the opposite of what you should be doing, even though it can be described in the same words.",
+   "ko": "그것은 비록 같은 말로 표현될 수 있을지언정, 당신이 해야 할 일과는 정반대의 일입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 3980.7,
+   "en": "Yeah, there's this line from John Steinbeck, which is pretty fun. He says, I wonder why progress looks so much like destruction.",
+   "ko": "존 스타인벡의 구절 중에 재미있는 게 있죠. 그는 '왜 발전은 그토록 파괴처럼 보이는지 궁금하다'고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3988.8,
+   "en": "And when doing a little bit of thinking about my golden retriever translation of your worldview on mass, civilizationally, across time, individually, you know, existentially.",
+   "ko": "대중적으로, 문명적으로, 시간을 가로질러, 개인적으로, 그리고 존재론적으로 당신의 세계관을 나름대로 해석해 보았을 때 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4003.4,
+   "en": "It kind of, I think that's probably, that's not a bad summation. I wonder why progress looks so much like destruction, or you could say feel so much like destruction or is accused of being so much of destruction?",
+   "ko": "그것이 꽤 괜찮은 요약인 것 같습니다. '왜 발전은 그토록 파괴처럼 보이는지, 혹은 파괴처럼 느껴지는지, 혹은 왜 그토록 파괴라고 비난받는지' 말입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4016.3,
+   "en": "Yes, the last one is perhaps the best because what it feels, it could feel either way, that's the trouble.",
+   "ko": "네, 마지막 표현이 아마 가장 적절할 것입니다. 어떻게 느껴지는지는 양쪽 다 가능하기 때문에 그것이 문제입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4021.5,
+   "en": "And you can't really tell from the outside necessarily because people can force themselves as well as being forced by other people.",
+   "ko": "사람은 타인에 의해서뿐만 아니라 스스로를 강제할 수도 있기 때문에 겉만 봐서는 알 수 없습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4029.7,
+   "en": "And they can be pursuing a very hard path, which they want to pursue, which is joyful to them.",
+   "ko": "그들은 스스로 원해서 자신에게 기쁨을 주는 아주 험난한 길을 가고 있을 수도 있습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4037.2,
+   "en": "Without that being noticeable, either the only time that that's noticeable, the only times that that's noticeable is when the thing they're pursuing happens to have a good reputation.",
+   "ko": "그것은 겉으로 드러나지 않습니다. 드러나는 유일한 경우는 그들이 추구하는 것이 우연히도 평판이 좋을 때뿐이죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4046.9,
+   "en": "Like, like, if somebody spends 10 hours a day practicing chess or practicing some martial art or whatever it is, people will see what they're doing.",
+   "ko": "예를 들어 누군가 하루 10시간씩 체스나 무술 연습을 한다면, 사람들은 그가 무엇을 하는지 알게 될 것입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4062.7,
+   "en": "They are adopting the discipline and making themselves power through to being good at this thing which society thinks is a good thing, but a very similar thing like a video game, which is almost the same thing psychologically, but which is socially frowned on.",
+   "ko": "사회적으로 좋게 여겨지는 일을 잘하기 위해 스스로를 훈련하고 밀어붙이는 것으로 보겠죠. 하지만 심리적으로는 거의 같지만 사회적으로 눈살을 찌푸리게 만드는 비디오 게임 같은 일이라면 어떨까요?",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4086.7,
+   "en": "People will say that's not a good thing to be devoting yourself to. They will be blind to the effort and creativity that's going into it, and they will instead try to apply a discipline in the opposite direction.",
+   "ko": "사람들은 그런 일에 몰두하는 것은 좋지 않다고 말할 것입니다. 그들은 그 일에 들어가는 노력과 창의성에는 눈을 감고, 대신 반대 방향으로 훈련을 강요하려 들겠죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4101.9,
+   "en": "I've learned from over a thousand podcast episodes the easier that you make your health routine, the more consistent you'll be.",
+   "ko": "천 번 이상의 팟캐스트 에피소드를 통해 배운 것은, 건강 루틴을 더 쉽게 만들수록 더 꾸준히 지킬 수 있다는 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4107.0,
+   "en": "It's like golf, right? You want to keep it simple and not make a bunch of pills. You want the eye of the tiger, not the DUI of the tiger.",
+   "ko": "골프와 같죠? 단순하게 유지하고 싶지, 수많은 알약을 먹고 싶진 않잖아요. 당신은 열정적인 눈빛을 원하지, 숙취에 찌든 눈을 원하지 않습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4114.1,
+   "en": "That's why I'm such a huge fan of AG1. One scoop contains 75 vitamins, minerals, probiotics and whole food source ingredients in a single daily drink.",
+   "ko": "그것이 바로 제가 AG1의 열렬한 팬인 이유입니다. 단 한 스푼에 75가지 비타민, 미네랄, 프로바이오틱스 및 자연 식품 유래 성분이 들어있어 매일 한 잔으로 충분합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4121.3,
+   "en": "And that's why I've been taking it every single morning for nearly five years now. And they've taken it a step further with AG1 next gen backed by four clinical trials.",
+   "ko": "그래서 저는 거의 5년 동안 매일 아침 AG1을 마셔왔습니다. 게다가 네 가지 임상 시험으로 입증된 차세대 AG1으로 한 단계 더 발전했죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4128.0,
+   "en": "In those trials that were shown to fill common nutrient gaps, improve key nutrient levels in just three months and increase healthy gut bacteria by ten times, even in people who already eat well.",
+   "ko": "임상 시험 결과, 단 3개월 만에 흔한 영양 결핍을 메우고 주요 영양소 수치를 개선했으며, 식습관이 이미 좋은 사람들조차 장내 유익균이 10배나 증가한 것으로 나타났습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4136.3,
+   "en": "Plus, if you're still unsure, they've got a 90-day money-back guarantee, so you can buy it and try it every single day for three months, and if you don't like it, they will give you all of your money back.",
+   "ko": "또한 여전히 망설여진다면 90일 환불 보장 제도가 있으니, 3개월 동안 매일 마셔보시고 마음에 들지 않으면 전액 환불받으실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4145.2,
+   "en": "Right now, you can get 20% off a welcome kit and that 90-day money-back guarantee by going to the link in the description below, or heading to drinkAG1.com slash modern wisdom. That's drinkAG1.com slash modern wisdom.",
+   "ko": "지금 아래 설명란의 링크를 클릭하시거나 drinkAG1.com/modernwisdom으로 접속하시면 웰컴 키트 20% 할인과 90일 환불 보장 혜택을 받으실 수 있습니다. drinkAG1.com/modernwisdom입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4156.4,
+   "en": "You mentioned that you were working on a book, that's a fiction book. Have you got anything else that's in the pipeline as well, or is that it?",
+   "ko": "소설을 집필 중이라고 말씀하셨는데요. 그 외에 진행 중인 다른 작업이 또 있나요, 아니면 그것뿐인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 4163.4,
+   "en": "Yes, at least two other books. One is a textbook on quantum mechanics, quantum theory, rather, which I'm writing with Sam Kuiper and Chiara Marletto, my colleagues.",
+   "ko": "네, 적어도 두 권이 더 있습니다. 하나는 제 동료인 샘 카이퍼, 키아라 마를레토와 함께 쓰고 있는 양자 역학, 아니 양자 이론 교과서입니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4177.5,
+   "en": "Because we think that existing textbooks and existing ways of teaching quantum theory are just misconceived in many ways and we want to get it right. So that's one thing.",
+   "ko": "기존의 교과서나 양자 이론 교육 방식이 여러 면에서 잘못 이해되고 있다고 생각해서, 그것을 바로잡고 싶거든요. 그것이 한 가지이고요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4192.6,
+   "en": "Another thing is I'm writing the third book in my sort of sequel to my first two books, The Fabric of Reality and The Beginning of Infinity, I'm writing another one, very difficult.",
+   "ko": "다른 하나는 제 첫 두 권의 책인 '세계의 구조'와 '무한의 시작'의 후속작 격인 세 번째 책을 쓰고 있는데, 매우 어렵습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4207.0,
+   "en": "I think it's an example of mountaineering rather than being forced. Taking the trash out.",
+   "ko": "억지로 하는 쓰레기 버리기보다는 산을 오르는 것과 같은 일이라고 생각합니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4216.5,
+   "en": "Yeah, but it's tentatively called Irrationality, though I don't quite like the title because it gives the wrong impression at least at first.",
+   "ko": "네, 가제는 '비합리성(Irrationality)'이지만, 최소한 처음에는 오해를 불러일으킬 수 있어서 그 제목이 아주 마음에 들지는 않습니다.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4229.9,
+   "en": "The subtitle at the moment is How thinking works and what the obstacles to it are. So that's I think a better title but it's a bit clunky.",
+   "ko": "현재 부제는 '사고는 어떻게 작동하며 그 장애물은 무엇인가'입니다. 그게 더 나은 제목 같긴 하지만 좀 투박하죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4246.7,
+   "en": "And whilst doing textbook plus difficult third album to previously quite complex initial two books. You also got the fiction book put together as well.",
+   "ko": "이전에 꽤 복잡했던 초기 두 권에 이어 세 번째 어려운 신작과 교과서 작업까지 하시면서, 소설책까지 함께 집필하고 계신 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4259.3,
+   "en": "Yes, I've also got my day job. So apart from those three, yes.",
+   "ko": "네, 본업도 있고요. 그 세 가지 외에도 하는 일이 있죠.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4265.4,
+   "en": "Oh, well, at least you're keeping yourself busy. David Deutsch, ladies and gentlemen, David, you're awesome. I appreciate you.",
+   "ko": "오, 정말 바쁘게 지내시네요. 신사 숙녀 여러분, 데이비드 도이치였습니다. 데이비드, 당신은 정말 멋진 분입니다. 감사드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4269.8,
+   "en": "It's very nice to hear a fellow accent as well. What should people be looking out for over the next couple of months? When is there something going to drop before the end of the year?",
+   "ko": "같은 억양을 듣게 되어 정말 반가웠습니다. 앞으로 몇 달 동안 사람들이 기대할 만한 소식이 있을까요? 올해가 가기 전에 발표될 것이 있습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 4277.8,
+   "en": "One of the books, one of the fiction book do we know and that's going to come out?",
+   "ko": "그 책들 중 하나인 소설책이 언제 나올지 알 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 4281.0,
+   "en": "I think that's unlikely in the next couple of months. But in the next year, fingers crossed. One of them may drop.",
+   "ko": "앞으로 몇 달 안에는 힘들 것 같습니다. 하지만 내년에는 운이 좋다면 한 권 정도 나올 수도 있겠네요.",
+   "speaker": "David Deutsch"
+  },
+  {
+   "start": 4289.6,
+   "en": "Beautiful. David, I appreciate you very much. Thank you for the day.",
+   "ko": "좋습니다. 데이비드, 정말 감사드립니다. 오늘 시간 내주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4293.3,
+   "en": "Thank you for having me. Very pleasant.",
+   "ko": "초대해 주셔서 감사합니다. 즐거운 시간이었습니다.",
+   "speaker": "David Deutsch"
+  }
+ ]
+}
