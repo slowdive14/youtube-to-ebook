@@ -1,0 +1,649 @@
+{
+ "id": "Z8fMW2IyU54",
+ "title": "The A.I.-Powered Cameras Watching Border Towns, and a Midterms Attack Ad Causes Outrage",
+ "show": "The Headlines",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=Z8fMW2IyU54",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/6be9f004-3e81-4fb7-9ff7-a70c01563962/episodes/9fa75437-e93a-46e7-8752-9939f8d695f5/audio/128/default.mp3?aid=rss_feed&awCollectionId=6be9f004-3e81-4fb7-9ff7-a70c01563962&awEpisodeId=9fa75437-e93a-46e7-8752-9939f8d695f5&feed=ydACIPHO",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/8a/52/fc8a527d-8979-adf2-977b-06304a816969/mza_684749869280596722.jpg/600x600bb.jpg",
+ "duration": 945,
+ "releaseDate": "2026-10-23T09:56:21Z",
+ "addedAt": "2026-10-24",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "I'm Raymond Zhong. I cover climate and the environment for the New York Times.",
+   "ko": "저는 레이먼드 종입니다. 뉴욕 타임스에서 기후와 환경 분야를 담당하고 있죠.",
+   "speaker": "Raymond Zhong",
+   "ad": true
+  },
+  {
+   "start": 3.4,
+   "en": "I recently spent eight weeks on a research ship going to Antarctica. The planet's getting warmer, ice is melting away.",
+   "ko": "최근에는 8주 동안 연구선을 타고 남극에 다녀왔습니다. 지구가 따뜻해지면서 얼음이 녹아내리고 있습니다.",
+   "speaker": "Raymond Zhong",
+   "ad": true
+  },
+  {
+   "start": 9.7,
+   "en": "Sea level rise is going to change our coastal cities. It's one thing to read about what scientists have discovered when they write papers, but it's another thing entirely to be there with them.",
+   "ko": "해수면 상승은 우리 해안 도시들을 변화시킬 것입니다. 과학자들이 논문을 통해 발견한 내용을 읽는 것과 그들과 현장에 함께 있는 것은 완전히 다른 일입니다.",
+   "speaker": "Raymond Zhong",
+   "ad": true
+  },
+  {
+   "start": 19.3,
+   "en": "This is what we do at the New York Times. We want to bring you closer to the biggest stories that matter for how we all live in the world.",
+   "ko": "이것이 바로 뉴욕 타임스가 하는 일입니다. 우리 모두의 삶에 중요한 의미를 갖는 거대한 이야기들을 여러분께 더 가까이 전해드리고자 합니다.",
+   "speaker": "Raymond Zhong",
+   "ad": true
+  },
+  {
+   "start": 25.3,
+   "en": "If you'd like to support this work, you can become a subscriber at NYTimes.com. Subscribe.",
+   "ko": "이러한 활동을 후원하고 싶으시다면, NYTimes.com에서 구독자가 되어 주십시오. 구독하세요.",
+   "speaker": "Raymond Zhong",
+   "ad": true
+  },
+  {
+   "start": 33.2,
+   "en": "From the New York Times, it's the headlines. I'm Will Jarvis, in for Tracy Mumford, today's Friday, October 23rd.",
+   "ko": "뉴욕 타임스에서 전해드리는 헤드라인입니다. 트레이시 엄퍼드를 대신해 진행을 맡은 윌 자비스입니다. 오늘은 10월 23일 금요일입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 39.6,
+   "en": "Here's what we're covering. Along the US-Mexico border from California to Texas, the Times has been tracking the rise of a new kind of government surveillance.",
+   "ko": "오늘 다룰 내용입니다. 캘리포니아에서 텍사스에 이르는 미국-멕시코 국경을 따라, 뉴욕 타임스는 새로운 형태의 정부 감시 체계가 부상하는 것을 추적해 왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 53.6,
+   "en": "Over the past few years, federal authorities have installed hundreds of AI-powered cameras as part of an effort to secure the border.",
+   "ko": "지난 몇 년 동안 연방 당국은 국경 보안 강화 노력의 일환으로 수백 대의 AI 기반 카메라를 설치했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 60.7,
+   "en": "The cameras sit on tall towers with panoramic views of schools, homes, parks, beaches. They can capture detailed images from up to two miles away.",
+   "ko": "이 카메라들은 학교, 주택, 공원, 해변의 전경을 볼 수 있는 높은 타워에 설치되어 있습니다. 최대 2마일 떨어진 곳에서도 상세한 이미지를 포착할 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 71.1,
+   "en": "They also have motion detecting radar, infrared capabilities, and can use AI software to track vehicles and people.",
+   "ko": "또한 동작 감지 레이더, 적외선 기능도 갖추고 있으며, AI 소프트웨어를 사용해 차량과 사람을 추적할 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 78.6,
+   "en": "One of the most powerful aspects of these cameras is that they're part of a larger network, right? There's a bunch of them in a row.",
+   "ko": "이 카메라들의 가장 강력한 측면 중 하나는 거대한 네트워크의 일부라는 점입니다. 여러 대가 일렬로 배치되어 있죠.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 84.4,
+   "en": "And so the point of the technology is that they can pick up someone in one camera and then track them across different camera fields of view.",
+   "ko": "따라서 이 기술의 핵심은 한 카메라에서 포착된 사람을 다른 카메라의 시야를 넘나들며 추적할 수 있다는 것입니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 93.4,
+   "en": "Bora Erden is part of a team of Times reporters that analyzed the locations of the new surveillance towers and used mapping software to understand what exactly the cameras can see.",
+   "ko": "보라 에르덴은 새로운 감시 타워의 위치를 분석하고 매핑 소프트웨어를 사용해 카메라가 정확히 무엇을 볼 수 있는지 파악한 뉴욕 타임스 기자 팀의 일원입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 103.4,
+   "en": "They found that more than a million people in Mexico and the U.S. live within sight of the expanding surveillance system.",
+   "ko": "그들은 멕시코와 미국의 백만 명 이상의 사람들이 확장되는 감시 시스템의 가시권 내에 살고 있다는 사실을 발견했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 109.9,
+   "en": "So my colleagues and I went down to the border to try to talk to folks about how they feel about these towers.",
+   "ko": "그래서 제 동료들과 저는 국경으로 내려가 주민들이 이 타워들에 대해 어떻게 느끼는지 이야기를 나눠보았습니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 115.5,
+   "en": "Some of the folks that we spoke to don't want border patrol surveilling them. They don't want these towers near their houses.",
+   "ko": "저희가 만난 몇몇 사람들은 국경 순찰대가 자신들을 감시하는 것을 원하지 않았습니다. 그들은 이 타워들이 집 근처에 있는 것을 원치 않습니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 122.2,
+   "en": "And they feel like they don't want the government watching them, basically. Other people that we spoke to feel ambivalent about it.",
+   "ko": "기본적으로 정부가 자신들을 지켜보는 것이 싫다는 것이죠. 저희가 만난 또 다른 사람들은 이에 대해 복합적인 감정을 느끼고 있었습니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 129.0,
+   "en": "They feel like this is the reality of living on the US-Mexico border. You have a lot of border infrastructure. You have a lot of border patrol agents driving through.",
+   "ko": "그들은 이것이 미국-멕시코 국경에 사는 현실이라고 생각합니다. 국경 인프라가 많고, 국경 순찰대원들이 차를 몰고 다닙니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 137.2,
+   "en": "And these towers are just part of the border landscape. But the vast majority of people are simply not aware that the cameras are there.",
+   "ko": "그리고 이 타워들도 단지 국경 풍경의 일부일 뿐이라는 거죠. 하지만 대다수의 사람들은 카메라가 거기 있다는 사실조차 전혀 모르고 있습니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 145.9,
+   "en": "They just don't know what the towers are. People that notice the towers kind of think they're cell towers or other communication infrastructure, they don't really know that they're Department of Homeland Security towers at all.",
+   "ko": "그들은 그 타워가 무엇인지 모릅니다. 타워를 알아보는 사람들도 휴대폰 기지국이나 다른 통신 시설이라고 생각할 뿐, 국토안보부의 타워라는 사실은 전혀 모릅니다.",
+   "speaker": "Bora Erden"
+  },
+  {
+   "start": 157.6,
+   "en": "In response to questions from the Times, US officials didn't provide any information about how effective the towers have been at catching migrants or drug smugglers.",
+   "ko": "뉴욕 타임스의 질문에 대해 미국 관리들은 이 타워들이 이주민이나 마약 밀수업자를 잡는 데 얼마나 효과적이었는지에 대한 정보는 제공하지 않았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 165.9,
+   "en": "Though in a statement, Customs and Border Protection said the new towers are, quote, essential to border security.",
+   "ko": "다만 관세국경보호청은 성명에서 새로운 타워들이 국경 보안에 '필수적'이라고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 172.6,
+   "en": "Going forward, the Trump administration has plans to build even more of the AI towers.",
+   "ko": "앞으로 트럼프 행정부는 더 많은 AI 타워를 건설할 계획을 가지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 177.6,
+   "en": "It's secured funding to install 1,500 of them, not just along the southern border, but also near Canada, in Puerto Rico, and in coastal areas across the US.",
+   "ko": "남부 국경뿐만 아니라 캐나다 인근, 푸에르토리코, 그리고 미국 전역의 해안 지역에 1,500개의 타워를 설치하기 위한 예산을 확보했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 194.6,
+   "en": "In Washington, all I know is I want my people to be honest, and if they're not going to be honest, they have to be—",
+   "ko": "워싱턴에서 제가 아는 전부는 제 부하들이 정직하기를 원한다는 것입니다. 만약 그들이 정직하지 않다면, 그들은—",
+   "speaker": "Guest"
+  },
+  {
+   "start": 200.8,
+   "en": "The Times has learned that the Department of Justice has opened a criminal investigation into Corey Lewandowski, a Trump ally and former top aide to the Secretary of Homeland Security.",
+   "ko": "뉴욕 타임스는 법무부가 트럼프의 측근이자 전 국토안보부 장관 수석 보좌관인 코리 레반도프스키에 대한 범죄 수사에 착수했다는 사실을 파악했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 212.4,
+   "en": "According to two people with knowledge of the situation, Lewandowski has been accused of personally profiting from his role, though it's not immediately clear what specific actions are under investigation.",
+   "ko": "상황을 잘 아는 두 명의 소식통에 따르면, 레반도프스키는 자신의 직책을 이용해 개인적 이득을 취한 혐의를 받고 있지만, 구체적으로 어떤 행위가 수사 대상인지는 즉각 확인되지 않았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 223.1,
+   "en": "Lewandowski joined DHS last year in what was supposed to be a part-time role as an unpaid advisor to Kristi Noem, who was leading the department at the time.",
+   "ko": "레반도프스키는 지난해 당시 부처를 이끌던 크리스티 놈의 무급 자문역이라는 파트타임 직책으로 국토안보부에 합류했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 232.0,
+   "en": "But he wielded power far beyond the scope of that role, holding meetings in her office without her, and getting involved in the approval of government contracts.",
+   "ko": "하지만 그는 그녀 없이 그녀의 사무실에서 회의를 주재하고 정부 계약 승인에 관여하는 등, 해당 직책의 범위를 훨씬 뛰어넘는 권력을 휘둘렀습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 241.1,
+   "en": "Some homeland security officials also raised concerns that he was using his role to enrich himself, according to people familiar with internal discussions.",
+   "ko": "내부 논의를 잘 아는 사람들에 따르면, 일부 국토안보부 관리들은 그가 자신의 직책을 사리사욕을 채우는 데 이용하고 있다는 우려를 제기하기도 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 249.2,
+   "en": "It's not the first time Lewandowski's conduct has come into question. Over the years, he's faced allegations of trying to bring a handgun into a congressional office building.",
+   "ko": "레반도프스키의 행실이 문제가 된 것은 이번이 처음이 아닙니다. 수년 동안 그는 의회 사무실 건물에 권총을 반입하려 했다는 혐의를 받아왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 258.3,
+   "en": "Roughing up a female reporter, and making unwanted sexual advances to the wife of a Trump donor.",
+   "ko": "여성 기자를 거칠게 다루고, 트럼프 기부자의 아내에게 원치 않는 성적 접근을 했다는 의혹도 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 264.5,
+   "en": "In that last case, he faced misdemeanor charges and reached a plea deal that included eight hours of impulse control counseling.",
+   "ko": "마지막 사건에서 그는 경범죄 혐의로 기소되었으며, 8시간의 충동 조절 상담을 포함하는 형량 조정 합의에 도달했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 271.6,
+   "en": "The new DOJ inquiry is a rare example in Trump's second term of one of the president's allies or appointees facing an investigation for wrongdoing.",
+   "ko": "이번 법무부 조사는 트럼프 2기 행정부에서 대통령의 측근이나 임명직 인사가 비리 혐의로 조사를 받는 드문 사례입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 280.1,
+   "en": "In a statement, a lawyer for Lewandowski denied suggestions that his client had done anything improper or illegal.",
+   "ko": "성명에서 레반도프스키의 변호인은 의뢰인이 부적절하거나 불법적인 일을 저질렀다는 암시를 부인했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 285.8,
+   "en": "In Ohio, a controversial and highly personal attack ad in the state's governor's race has become a political flashpoint dividing the Republican Party.",
+   "ko": "오하이오주 주지사 선거에서 논란이 많고 지극히 개인적인 공격 광고가 공화당을 분열시키는 정치적 발화점이 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 301.0,
+   "en": "My daughter needs help, and she can't help you if she needs help herself.",
+   "ko": "제 딸은 도움이 필요합니다. 본인이 도움이 필요한 처지라면 여러분을 도울 수 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 306.9,
+   "en": "In the ad, the mother of Amy Acton, the Democratic candidate, accuses her daughter of lying and exaggerating about her childhood struggles.",
+   "ko": "이 광고에서 민주당 후보인 에이미 액턴의 어머니는 딸이 어린 시절의 고난에 대해 거짓말을 하고 과장하고 있다고 비난합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 315.0,
+   "en": "The two have not spoken since Acton was 12 years old back in the 1970s.",
+   "ko": "두 사람은 액턴이 12살이었던 1970년대 이후로 대화를 나누지 않았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 319.2,
+   "en": "At that time, the mother backed her husband after he was arrested on charges that he raped Acton and the mother lost custody of her.",
+   "ko": "그 당시 어머니는 남편이 액턴을 성폭행한 혐의로 체포된 후 남편을 옹호했고, 액턴에 대한 양육권을 박탈당했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 327.2,
+   "en": "I mean, I think it was a horrible and hideous thing to do. A sad thing.",
+   "ko": "정말 끔찍하고 가증스러운 일이었다고 생각합니다. 슬픈 일이죠.",
+   "speaker": "Amy Acton"
+  },
+  {
+   "start": 332.5,
+   "en": "Acton has expressed outrage at the ad, which was put out by the campaign of her Republican opponent, Vivek Ramaswamy.",
+   "ko": "액턴은 공화당 경쟁자인 비벡 라마스와미 선거 캠프에서 내보낸 이 광고에 격분했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 339.7,
+   "en": "A range of others across the political spectrum have also spoken out against it, including Ohio's sitting Republican governor, who called it, quote, deeply, deeply troubling.",
+   "ko": "현직 오하이오 공화당 주지사를 포함해 정치권 전반의 다양한 인사들도 이 광고를 '매우, 매우 우려스럽다'고 비판하며 목소리를 높였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 350.0,
+   "en": "But some in the party have hailed it as a bombshell. Vice President J.D. Vance downplayed criticism of the ad as whining.",
+   "ko": "그러나 당내 일각에서는 이를 폭탄 선언이라며 환영했습니다. J.D. 밴스 부통령은 광고에 대한 비판을 징징거리는 소리라며 일축했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 357.7,
+   "en": "And last night, President Trump urged Rama Swami to keep airing it. It's a big thing. It's like a big story about he must take that ad down immediately.",
+   "ko": "그리고 어젯밤, 트럼프 대통령은 라마스와미에게 광고를 계속 내보낼 것을 촉구했습니다. 큰 사건입니다. 광고를 당장 내려야 한다는 큰 이야기들이 돌고 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 366.6,
+   "en": "He must know the mother is calling the daughter a terrible person and a liar.",
+   "ko": "어머니가 딸을 끔찍한 사람이며 거짓말쟁이라고 부르고 있다는 것을 그도 분명히 알고 있을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 372.8,
+   "en": "Overall, the Ohio governor's race has been one of the ugliest in the nation, with both sides leaning into sharply worded attacks.",
+   "ko": "전반적으로 오하이오 주지사 선거는 양측 모두 날 선 공격을 퍼부으며 전국에서 가장 추잡한 선거 중 하나가 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 381.1,
+   "en": "For example, some ads have called Rama Swami a con man and a swindler. But many say the ad with the mother went too far.",
+   "ko": "예를 들어, 어떤 광고들은 라마스와미를 사기꾼이자 협잡꾼이라고 불렀습니다. 하지만 많은 이들은 어머니가 등장하는 광고가 선을 넘었다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 388.9,
+   "en": "One conservative radio host who advised Rama Swami's 2024 presidential campaign told the times that when it comes to that ad, quote, it is a very fine line that the Rama Swami campaign are walking.",
+   "ko": "라마스와미의 2024년 대선 캠페인을 자문했던 한 보수 라디오 진행자는 이 광고에 대해 라마스와미 캠프가 '매우 아슬아슬한 줄타기'를 하고 있다고 뉴욕 타임스에 전했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 400.3,
+   "en": "Adding that they're taking a huge bet. For its part, Rama Swami's campaign has doubled down, saying this week that it plans to spend $4 million airing the ad in the state.",
+   "ko": "그들은 거대한 도박을 하고 있다고 덧붙였습니다. 라마스와미 캠프 측은 이번 주에 이 광고를 주 전역에 방영하기 위해 400만 달러를 지출할 계획이라며 입장을 고수했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 420.7,
+   "en": "Across Indonesia, protesters have taken to the streets, demanding that the government take action to stop fires that are raging in the country's rainforests.",
+   "ko": "인도네시아 전역에서 시위대가 거리로 나와 정부에 열대우림에서 맹렬히 타오르는 산불을 끄기 위한 조치를 취할 것을 요구하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 431.3,
+   "en": "For months, millions of people across the region have been living under a stifling blanket of haze as record-breaking fires fueled by drought and El Nino have burned out of control.",
+   "ko": "수개월 동안 이 지역의 수백만 명의 사람들이 가뭄과 엘니뇨로 인해 통제 불능 상태로 번진 기록적인 산불로 발생한 숨 막히는 연무 속에서 살고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 441.9,
+   "en": "The smoke has gotten so thick that traffic has been forced to accrawl. Many schools have been closed and there's a growing health crisis.",
+   "ko": "연기가 너무 자욱해져서 차량 통행이 거북이걸음을 하고 있습니다. 많은 학교가 휴교했고 건강 위기가 고조되고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 450.4,
+   "en": "According to the Indonesian health ministry, hundreds of thousands of people, many of them children, have suffered acute respiratory illnesses recently.",
+   "ko": "인도네시아 보건부에 따르면 최근 수십만 명의 사람들, 그중 상당수가 어린이들이 급성 호흡기 질환을 앓고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 458.6,
+   "en": "One radiologist who works near where some of the fires are burning told the times that of the roughly 60 chest x-rays he looks at a day, about a third show signs of respiratory issues.",
+   "ko": "산불 현장 근처에서 근무하는 한 방사선 전문의는 뉴욕 타임스에 자신이 하루에 보는 약 60장의 흉부 엑스레이 중 약 3분의 1에서 호흡기 질환 징후가 나타난다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 469.4,
+   "en": "Out on the streets, protesters are now demanding that the country's president declare a national emergency and take steps to prevent the slash and burn agricultural practices.",
+   "ko": "거리의 시위대들은 이제 대통령이 국가 비상사태를 선포하고, 화전 농업 관행을 방지하기 위한 조치를 취할 것을 요구하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 479.1,
+   "en": "that many have blamed for setting the stage for the fires.",
+   "ko": ""
+  },
+  {
+   "start": 482.4,
+   "en": "The president has ordered up additional firefighting resources, but has also defended the government's response so far, saying that, quote, ultimately the only real solution is rain.",
+   "ko": "대통령은 추가 소방 자원 투입을 지시했지만, '궁극적으로 유일한 진짜 해결책은 비'라고 말하며 지금까지의 정부 대응을 옹호하기도 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 500.7,
+   "en": "And finally, please explain to me why I should pay a cleaning fee that costs just as much as an entire night at a hotel only to be expected to clean the property myself before I check out.",
+   "ko": "마지막으로, 왜 제가 호텔 하룻밤 숙박비만큼 비싼 청소비를 내면서도 체크아웃 전에 직접 숙소를 청소해야 하는지 설명 좀 해주세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 509.0,
+   "en": "Over the years, people booking on Airbnb have found that their vacation stay can come with a to-do list from the host.",
+   "ko": "수년 동안 에어비앤비를 이용하는 사람들은 휴가 중 숙박에 호스트가 제공한 할 일 목록이 포함될 수 있다는 사실을 알게 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 516.2,
+   "en": "And they had me put the trash cans in my car for the trash service down the road because there's a rural area and I was pretty pissed off about that.",
+   "ko": "지방이라서 쓰레기 수거함까지 제 차에 쓰레기통을 싣고 가게 하더라고요. 정말 화가 났죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 525.5,
+   "en": "It's been a head scratcher for some people who found themselves washing sheets and towels on top of paying a cleaning fee.",
+   "ko": "청소비를 내면서도 시트와 수건을 직접 세탁해야 하는 상황에 처한 사람들에게는 정말 이해할 수 없는 일이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 532.6,
+   "en": "Now after many many complaints, Airbnb says it's going to rein in what hosts are reasonably allowed to ask of guests starting next month.",
+   "ko": "수많은 불만이 제기된 후, 에어비앤비는 다음 달부터 호스트가 게스트에게 합리적으로 요구할 수 있는 범위를 제한하겠다고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 541.6,
+   "en": "Essentially, no more long chores lists, no more taking out the trash or having to do the dishes.",
+   "ko": "본질적으로 더 이상 긴 집안일 목록은 없으며, 쓰레기를 내다 버리거나 설거지를 할 필요도 없습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 547.0,
+   "en": "The company said that now hosts cannot make people do anything that would quote require significant time or effort, or would typically be performed by a cleaner.",
+   "ko": "회사는 이제 호스트가 게스트에게 '상당한 시간이나 노력이 필요하거나 일반적으로 청소업체가 수행하는' 일은 시킬 수 없다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 556.5,
+   "en": "Some hosts are pushing back, saying the new rules are unreasonable, and even starting an online petition with thousands of signatures, calling on the company to reverse the rule change.",
+   "ko": "일부 호스트들은 새로운 규정이 불합리하다며 반발하고 있으며, 수천 명의 서명을 받은 온라인 청원을 시작해 회사의 규정 변경 철회를 요구하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 565.9,
+   "en": "The new policy comes at a time when Airbnb, which is almost 20 years old, is adjusting its business model and expanding its offerings.",
+   "ko": "이 새로운 정책은 설립된 지 거의 20년이 된 에어비앤비가 비즈니스 모델을 조정하고 서비스를 확장하고 있는 시점에 나왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 573.7,
+   "en": "It added grocery delivery, car rentals, and even hotel listings. The exact thing it originally pitched itself as an alternative to.",
+   "ko": "식료품 배달, 렌터카, 심지어 호텔 매물까지 추가했습니다. 원래 에어비앤비가 대안으로 내세웠던 바로 그 대상을 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 582.0,
+   "en": "The Airbnb CEO said in a recent earnings call that the company is trying to become a one-stop shop for travel.",
+   "ko": "에어비앤비 CEO는 최근 실적 발표에서 회사가 여행을 위한 원스톱 숍이 되기 위해 노력하고 있다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 588.3,
+   "en": "He also told The Times in an interview that Airbnb recognizes that chores have become, yeah, a lot. He said hosts needed to remember that quote, These people are on vacation and they're on vacation from their chores.",
+   "ko": "그는 또한 뉴욕 타임스와의 인터뷰에서 집안일이 너무 많아졌다는 점을 에어비앤비도 인식하고 있다고 말했습니다. 그는 호스트들이 '이 사람들은 휴가 중이며, 집안일로부터도 휴가 중이다'라는 점을 기억해야 한다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 602.6,
+   "en": "Those are the headlines. And if you are not a time subscriber yet, you can get a full month of free access to everything we publish when you download the Time's app now.",
+   "ko": "이상으로 헤드라인이었습니다. 아직 뉴욕 타임스 구독자가 아니시라면, 지금 앱을 다운로드하고 저희가 발행하는 모든 콘텐츠에 대한 한 달 무료 이용권을 받으실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 611.4,
+   "en": "This show is made by Margaret Kadefah, Jake Lucas, Jan Stewart, Tracy Mumford, and me, Will Jarvis. Original theme by Dan Powell.",
+   "ko": "이 프로그램은 마거릿 카데파, 제이크 루커스, 잰 스튜어트, 트레이시 엄퍼드, 그리고 저 윌 자비스가 만듭니다. 오리지널 테마곡은 댄 파월이 작곡했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 618.7,
+   "en": "Special thanks to Isabella Anderson, Sam Dolnick, Miles McKinley, Zoe Murphy, and Chris Wood. Now, time for the quiz.",
+   "ko": "이사벨라 앤더슨, 샘 돌닉, 마일스 맥킨리, 조이 머피, 크리스 우드에게 특별히 감사의 인사를 전합니다. 이제 퀴즈 시간입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 628.3,
+   "en": "Every week we ask you a few questions about stories the time says been covering, can you get them all? Here we go. First up.",
+   "ko": "매주 저희는 뉴욕 타임스가 다룬 기사들에 대한 몇 가지 질문을 드립니다. 다 맞힐 수 있을까요? 시작합니다. 첫 번째 질문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 637.6,
+   "en": "German police arrested two people suspected of attacking a weapons manufacturer in Munich. Across Europe over the past few years, there has been a flurry of small-scale sabotage.",
+   "ko": "독일 경찰이 뮌헨의 한 무기 제조업체를 공격한 혐의로 두 명을 체포했습니다. 지난 몇 년간 유럽 전역에서는 소규모 사보타주가 빈번하게 발생했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 648.7,
+   "en": "Western intel agencies think Russia is behind a plot to put explosives on cargo planes. And recently, there's been a new string of apparent attacks, including one just this week, on a very specific type of target.",
+   "ko": "서방 정보 기관들은 화물기에 폭발물을 설치하려는 음모의 배후에 러시아가 있다고 보고 있습니다. 그리고 최근, 바로 이번 주를 포함해 매우 특정한 유형의 목표물을 겨냥한 일련의 명백한 공격이 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 662.7,
+   "en": "Your question, what has been getting hit? A hint, think communications equipment, and the war in Ukraine.",
+   "ko": "질문입니다. 무엇이 공격을 받고 있을까요? 힌트는 통신 장비와 우크라이나 전쟁을 생각해보세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 676.4,
+   "en": "The answer? Starlink systems. The internet service from the company SpaceX has helped Ukraine communicate and steer drones on the battlefield.",
+   "ko": "정답은 스타링크 시스템입니다. 스페이스X의 인터넷 서비스는 우크라이나가 전장에서 통신하고 드론을 조종하는 데 도움을 주었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 685.9,
+   "en": "Starlink uses satellites, but also relies on antennas on the ground. And recently, authorities in Lithuania, Albania, Bulgaria, and Poland say Starlink ground stations in their countries have been vandalized.",
+   "ko": "스타링크는 위성을 사용하지만 지상의 안테나에도 의존합니다. 최근 리투아니아, 알바니아, 불가리아, 폴란드 당국은 자국 내 스타링크 지상 기지국이 파손되었다고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 697.2,
+   "en": "And at least one case sat on fire. European officials who've pointed the finger at Russia for previous sabotage attempts have suggested the Kremlin could be behind the whole Starlink situation too.",
+   "ko": "최소 한 건은 방화 사건이었습니다. 이전 사보타주 시도의 배후로 러시아를 지목했던 유럽 관리들은 크렘린이 이 스타링크 상황 전체의 배후에 있을 수 있다고 시사했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 708.6,
+   "en": "Though Russia's denied any involvement in attacks on Europe. Okay next question.",
+   "ko": "비록 러시아는 유럽 공격에 대한 어떠한 개입도 부인하고 있지만요. 좋습니다, 다음 질문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 716.5,
+   "en": "This week we told you about how President Trump has officially designated a stretch of dramatic mountainous desert in Arizona as Chiracawa National Park.",
+   "ko": "이번 주 저희는 트럼프 대통령이 애리조나주의 극적인 산악 사막 지대를 치리카후아 국립공원으로 공식 지정했다는 소식을 전해드렸습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 725.7,
+   "en": "So, in honor of the nation's 64th National Park, we've got a little lightning round for you with a few questions about other parks out there. Ready?",
+   "ko": "그래서 미국의 64번째 국립공원 탄생을 기념하여, 다른 국립공원들에 관한 몇 가지 질문을 드리는 번개 퀴즈 시간을 마련했습니다. 준비되셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 734.5,
+   "en": "Let's start with the very first National Park. Which was, do you know it? Yellowstone, founded in 1872.",
+   "ko": "가장 먼저 지정된 첫 번째 국립공원부터 시작하죠. 어디인지 아시나요? 1872년에 설립된 옐로스톤입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 745.5,
+   "en": "Next one, for about half the year, one particular spot in this National Park gets the first glimpse of sunrise before any other place in the country.",
+   "ko": "다음 질문입니다. 일 년 중 약 절반 동안, 이 국립공원의 한 특정 지점은 미국에서 가장 먼저 일출을 볼 수 있는 곳입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 757.6,
+   "en": "That is Cadillac Mountain in Acadia National Park up on the coast of Maine. Alright, your third one is the home of a roughly 380 foot tall tree known as Hyperion, the tallest tree in the world.",
+   "ko": "바로 메인주 해안에 있는 아카디아 국립공원의 캐딜락 마운틴입니다. 좋습니다, 세 번째 질문입니다. 세계에서 가장 큰 나무로 알려진 약 380피트 높이의 '하이페리온'이 있는 곳입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 774.6,
+   "en": "Hyperion is in Redwood National Park. If you said Sequoia National Park, you're probably thinking of the massive tree known as General Sherman.",
+   "ko": "하이페리온은 레드우드 국립공원에 있습니다. 만약 세쿼이아 국립공원이라고 답하셨다면, 아마 '제너럴 셔먼'이라는 거대한 나무를 생각하신 걸 겁니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 784.5,
+   "en": "Which is not the tallest at a measly 275 feet, but it is technically the biggest tree by volume.",
+   "ko": "그 나무는 275피트로 가장 크지는 않지만, 부피 면에서는 기술적으로 가장 큰 나무입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 792.6,
+   "en": "And last question in the lightning round, this one's a bit trickier. According to the National Parks Conservation Association, this is the only park that is fully closed to the public during the winter.",
+   "ko": "번개 퀴즈 마지막 질문입니다. 이건 좀 더 까다로운데요. 국립공원 보존 협회에 따르면, 겨울 동안 대중에게 완전히 폐쇄되는 유일한 공원입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 803.7,
+   "en": "That's because weather conditions there can get too extreme. If you're thinking Alaska, think again, it's actually in the Midwest.",
+   "ko": "그곳의 기상 조건이 너무 극심할 수 있기 때문입니다. 알래스카를 생각하셨다면 다시 생각해보세요. 사실 중서부에 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 810.3,
+   "en": "The answer? Isle Royale National Park, way out in the middle of Lake Superior, which can be battered by ice-cold 20-foot tall waves in winter.",
+   "ko": "정답은? 슈피리어호 한복판에 있는 아일 로열 국립공원입니다. 겨울에는 얼음처럼 차가운 20피트 높이의 파도가 몰아치는 곳이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 828.1,
+   "en": "And last question? How can something this simple be this good? This is a BMO, which literally translates to bun with cheese.",
+   "ko": "마지막 질문입니다. 어떻게 이렇게 단순한 게 이렇게 맛있을 수 있을까요? 이것은 문자 그대로 '치즈를 곁들인 빵'으로 번역되는 BMO입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 834.6,
+   "en": "In one capital city, there is a food trend that has absolutely taken over. It's one of the most iconic bakery orders, which can be eaten in lunch, morning or as a snack.",
+   "ko": "한 수도에서 완전히 유행하고 있는 음식 트렌드가 있습니다. 점심, 아침, 또는 간식으로 먹을 수 있는 가장 상징적인 베이커리 주문 메뉴 중 하나입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 845.9,
+   "en": "It's just bread, butter, and cheese. But the ultra-simple sandwiches have become a best-seller at bakeries across the city.",
+   "ko": "그냥 빵, 버터, 그리고 치즈뿐입니다. 하지만 이 초간단 샌드위치는 도시 전역의 빵집에서 베스트셀러가 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 853.3,
+   "en": "One bakery chain says it sells 30,000 of them every month. Your question, do you know what city has gone cheese sandwich crazy?",
+   "ko": "한 베이커리 체인은 매달 3만 개를 판매한다고 합니다. 질문입니다. 어느 도시가 이 치즈 샌드위치에 열광하고 있는지 아시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 864.2,
+   "en": "A hint? Here is the name of it in the local language. Ball, me est, roe, with butter and cheese.",
+   "ko": "힌트를 드릴까요? 현지어로 된 이름은 버터와 치즈를 곁들인 '볼레메오스트'입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 872.1,
+   "en": "The answer? Copenhagen. Copenhagen.",
+   "ko": "정답은? 코펜하겐입니다. 코펜하겐이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 875.2,
+   "en": "I admit that when I started doing this reporting, I was skeptical. I wasn't sure how good these things could really be.",
+   "ko": "솔직히 이 취재를 시작했을 때 저는 회의적이었습니다. 이게 정말 얼마나 맛있을지 확신이 없었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 880.5,
+   "en": "It's just bread, butter, and cheese. But when I arrived in Denmark and I had my first bullmettost, I really developed a respect for how much effort has gone into these.",
+   "ko": "그냥 빵, 버터, 치즈일 뿐이니까요. 하지만 덴마크에 도착해서 첫 볼레메오스트를 먹어보고는, 여기에 얼마나 많은 노력이 들어갔는지 정말 존경하게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 888.8,
+   "en": "My colleague Amelia Nirenberg has been covering the phenomenon. Bakeries are constantly experimenting with the dough and the bake and the flour and the butter and the cheese.",
+   "ko": "제 동료 아멜리아 니렌버그가 이 현상을 취재해 왔습니다. 제과점들은 반죽과 굽기, 밀가루, 버터, 치즈를 끊임없이 실험하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 900.1,
+   "en": "Trying to make sure that there's this distinctive. There's is the most perfect possible version of this incredibly simple sandwich.",
+   "ko": "자신들의 샌드위치가 이 단순한 샌드위치의 가장 완벽한 버전이 되도록 노력하고 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 907.5,
+   "en": "And what food critics told me is basically that the simplicity is the point you could do a lot with a fancy dish to hide your sins.",
+   "ko": "음식 평론가들이 제게 말한 것은 기본적으로 단순함이 핵심이라는 것이었습니다. 화려한 요리는 결점을 숨기기 위해 많은 것을 할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 915.4,
+   "en": "But if you just have three ingredients like there's nowhere to hide you can't fake it your fundamentals have to be excellent or it's not worth doing.",
+   "ko": "하지만 재료가 세 가지뿐이라면 숨을 곳이 없습니다. 속일 수가 없죠. 기본이 훌륭해야지, 그렇지 않으면 할 가치가 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 927.1,
+   "en": "That is it for this week's news quiz If you want to let us know how you did or if you find a great deal on flights to Copenhagen or email is the headlines at at nytimes.com.",
+   "ko": "이번 주 뉴스 퀴즈는 여기까지입니다. 여러분이 얼마나 맞혔는지 알려주고 싶으시거나 코펜하겐행 저렴한 항공편을 찾으셨다면, 저희 이메일 theheadlines@nytimes.com으로 연락주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 936.6,
+   "en": "The show will be back on Monday with Tracey Mumford.",
+   "ko": "이 프로그램은 월요일에 트레이시 엄퍼드와 함께 다시 돌아오겠습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
