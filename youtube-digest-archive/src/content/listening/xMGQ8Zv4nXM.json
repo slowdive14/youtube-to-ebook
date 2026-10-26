@@ -1,0 +1,1355 @@
+{
+ "id": "xMGQ8Zv4nXM",
+ "title": "The $10 Billion Midterm Ad War",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=xMGQ8Zv4nXM",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/644711de-301b-4b0c-ae4b-c283d6fc948e/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=644711de-301b-4b0c-ae4b-c283d6fc948e&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/ea/41/2fea41ed-fbd8-a761-77e4-4123842e0624/mza_7176097274200819018.jpg/600x600bb.jpg",
+ "duration": 2118,
+ "releaseDate": "2026-10-26T09:46:41Z",
+ "addedAt": "2026-10-26",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "33 presidents. I called the president at 3:30 in the morning, and he answered.",
+   "ko": "33명의 대통령. 새벽 3시 30분에 대통령에게 전화를 걸었는데, 전화를 받으시더군요.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 4.3,
+   "en": "Seven decades in space. We want to see what's beyond the next star.",
+   "ko": "70년에 걸친 우주 탐사. 우리는 다음 별 너머에 무엇이 있는지 알고 싶습니다.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 7.9,
+   "en": "60 Super Sundays. They were probably the best team in the league every single year.",
+   "ko": "60번의 슈퍼 선데이. 그들은 아마 매년 리그 최고의 팀이었을 겁니다.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 11.7,
+   "en": "53,500 puzzles. I use a different starting word every day.",
+   "ko": "53,500개의 퍼즐. 저는 매일 다른 시작 단어를 사용합니다.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 16.4,
+   "en": "25,000 recipes. And I love a one-can recipe because I don't love washing cans.",
+   "ko": "25,000개의 레시피. 그리고 저는 통조림 캔 하나로 끝내는 레시피를 좋아해요. 캔 씻는 걸 싫어하거든요.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 21.7,
+   "en": "The New York Times, celebrating 175 years of helping you understand the world. Subscribe now for a special offer at nytimes.com/subscribe.",
+   "ko": "여러분이 세상을 이해하도록 도와온 175년을 기념하는 뉴욕 타임스. 지금 nytimes.com/subscribe에서 특별 혜택으로 구독하세요.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 56.3,
+   "en": "Each other, you get to act like this.",
+   "ko": "서로에게, 이런 식으로 행동하게 되죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 58.7,
+   "en": "Over the past few days, the background noise of this fall's midterm elections, campaign advertising, exploded into public consciousness because of a highly controversial TV commercial in Ohio.",
+   "ko": "지난 며칠 동안, 이번 가을 중간 선거의 배경 소음이었던 선거 광고가 오하이오의 매우 논란이 많은 TV 광고로 인해 대중의 의식 속으로 폭발적으로 들어왔습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 70.9,
+   "en": "Which highlighted the two very different stories that Democratic and Republican candidates across the country are telling in the final days of campaigning.",
+   "ko": "이 광고는 전국의 민주당과 공화당 후보들이 선거 운동 마지막 날에 들려주고 있는 두 가지 매우 다른 이야기를 강조했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 80.6,
+   "en": "Today, National Political Correspondent Shane Goldmacher takes us inside the most expensive midterm ad campaign in American history. It's Monday, October 26th.",
+   "ko": "오늘, 국가 정치 전문기자 셰인 골드마커가 미국 역사상 가장 비싼 중간 선거 광고 캠페인의 내부로 우리를 안내합니다. 10월 26일 월요일입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 101.9,
+   "en": "Shane, welcome back to the show.",
+   "ko": "셰인, 다시 모시게 되어 반갑습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 104.5,
+   "en": "Thanks for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 105.6,
+   "en": "My pleasure. So I have a question for you. In your role as National Political Correspondent, how many campaign ads do you estimate that you have watched for this midterm election? Just give me a number.",
+   "ko": "천만에요. 궁금한 게 하나 있습니다. 국가 정치 전문기자로서 이번 중간 선거를 위해 시청한 선거 광고가 대략 몇 개나 된다고 생각하시나요? 숫자만 말씀해 주세요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 119.7,
+   "en": "Oh man, hundreds, yeah, hundreds and hundreds of TV ads. I am the person who has voluntarily signed up to get every new television ad in every congressional race emailed to me.",
+   "ko": "세상에, 수백 개요. 네, 수백 수천 개의 TV 광고를 봤죠. 저는 모든 의회 선거의 새로운 TV 광고를 이메일로 받겠다고 자발적으로 신청한 사람입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 133.6,
+   "en": "What does that even look like?",
+   "ko": "그게 대체 어떤 모습인가요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 134.7,
+   "en": "It looks like an obliteration of my inbox. But you get every single ad that runs anywhere in these midterms directly sent to you.",
+   "ko": "제 받은 편지함이 초토화된 모습이죠. 하지만 이번 중간 선거 어디서든 방영되는 모든 광고가 당신에게 직접 전달됩니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 143.5,
+   "en": "In House and Senate races.",
+   "ko": "하원과 상원 선거 모두요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 144.3,
+   "en": "It doesn't mean I'm watching all of them, but I will at the end of many days take a chunk of time to just sit for 40 minutes and suffer through what the parties are putting on television, unwind with a brewski in a series of attacks.",
+   "ko": "모든 광고를 다 본다는 뜻은 아니지만, 하루 일과가 끝나면 40분 정도 시간을 내어 각 정당이 텔레비전에 내보내는 것들을 인내심을 갖고 지켜봅니다. 맥주 한 잔을 마시며 일련의 공격적인 광고들을 보며 긴장을 풀기도 하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 160.7,
+   "en": "Yes. Your math is a math like this. So just explain why you spend so much of your time doing that.",
+   "ko": "그렇군요. 당신의 계산법은 이렇군요. 그럼 왜 그렇게 많은 시간을 들여 그런 일을 하는지 설명해 주세요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 168.1,
+   "en": "And we talked about this a little bit through various campaigns, but I think it bears repeating why you dwell in the land and sometimes the sewer of American campaign advertising so meaningfully.",
+   "ko": "여러 캠페인을 통해 이 이야기를 조금 나누긴 했지만, 왜 당신이 미국 선거 광고라는 영역, 때로는 그 시궁창 같은 곳에 그렇게 의미 있게 머무는지 다시 한번 짚어볼 필요가 있을 것 같습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 181.6,
+   "en": "I just think that campaigns spend an enormous amount of time thinking about what they're going to put in these ads. They spend the majority of their money on digital and television ads.",
+   "ko": "선거 캠프들이 이 광고에 무엇을 담을지 고민하는 데 엄청난 시간을 쏟는다고 생각하기 때문입니다. 그들은 예산의 대부분을 디지털 및 텔레비전 광고에 지출하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 193.8,
+   "en": "That is how they communicate to people. And that is the greatest distillation of what they think is their message and can help them win.",
+   "ko": "그것이 그들이 대중과 소통하는 방식입니다. 그리고 그것은 그들이 승리에 도움이 된다고 생각하는 핵심 메시지를 가장 잘 응축해 놓은 결과물입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 201.9,
+   "en": "You can tell when somebody goes negative, what that means. You can tell what issues are resonating, and it changes, right? The tenor, the topics of the ads change from cycle to cycle.",
+   "ko": "누군가 네거티브 전략을 쓸 때 그게 무엇을 의미하는지 알 수 있습니다. 어떤 이슈가 호응을 얻고 있는지도 알 수 있는데, 그건 계속 변하죠. 선거 주기마다 광고의 논조와 주제가 바뀝니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 212.2,
+   "en": "You can see a campaign get more desperate over weeks and months as they go more negative. When somebody starts negative, maybe they're behind. You learn so much just by watching.",
+   "ko": "네거티브 공세가 심해지는 걸 보면서 몇 주, 몇 달에 걸쳐 캠페인이 얼마나 절박해지는지 볼 수 있습니다. 처음부터 네거티브로 시작한다면 아마 뒤처지고 있는 것일 수도 있죠. 그냥 보는 것만으로도 많은 걸 배울 수 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 223.2,
+   "en": "You call a lot of people, talk to a lot of people; that's important too, obviously. But this sort of sets the mood music of the entire election for me.",
+   "ko": "많은 사람에게 전화하고 대화하는 것도 물론 중요합니다. 하지만 제게는 이런 광고들이 선거 전체의 분위기를 설정해 줍니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 229.8,
+   "en": "Right, it's an X-ray, I think you've said to me in the past. Campaign ads are an X-ray that doesn't lie of what campaigns are hopeful of and worried about and what they think the electorate is up to.",
+   "ko": "맞아요, 전에도 말씀하셨듯이 이건 엑스레이 같은 거죠. 선거 광고는 캠프가 무엇에 희망을 걸고 무엇을 걱정하는지, 유권자들이 어떤 생각을 하고 있는지 속임 없이 보여주는 엑스레이입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 245.3,
+   "en": "Yes. And you have to remember that these TV ads are the chance that candidates have and Super PACs have to introduce themselves to the most important set of voters.",
+   "ko": "네. 그리고 이 TV 광고가 후보자와 슈퍼 팩(Super PAC)이 가장 중요한 유권자 층에게 자신들을 소개할 수 있는 기회라는 점을 기억해야 합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 256.3,
+   "en": "Which is people who don't actually want to pay attention to the campaign, people who are too busy working, too busy living their life, who are apathetic about politics.",
+   "ko": "여기서 가장 중요한 유권자란 선거에 관심을 갖고 싶어 하지 않는 사람들, 일하느라 혹은 바쁘게 사느라 너무 바쁜 사람들, 정치에 무관심한 사람들을 말합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 264.6,
+   "en": "So campaigns spend an enormous amount of money and energy figuring out what is the one message that you can force-feed somebody while watching football, make them suffer through on YouTube pre-roll.",
+   "ko": "그래서 캠프는 미식축구를 시청 중인 누군가에게 강제로 주입하거나 유튜브 광고를 통해 억지로 보게 만들 수 있는 단 하나의 메시지가 무엇일지 고민하는 데 막대한 돈과 에너지를 씁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 275.7,
+   "en": "That introduces your candidate, says, hey, I'm a different kind of Democrat, or I'm a different kind of Republican, or says, I'm the guy who's going to cut your taxes, the gal who's going to cut your costs, picking which one thing you want to emphasize for those disengaged voters.",
+   "ko": "그 메시지는 후보를 소개하며 '나는 다른 유형의 민주당원입니다' 혹은 '나는 다른 유형의 공화당원입니다'라고 하거나, '제가 당신의 세금을 깎아줄 사람입니다' 혹은 '제가 당신의 생활비를 줄여줄 사람입니다'라고 말하죠. 정치에 관심 없는 유권자들을 위해 강조하고 싶은 딱 한 가지를 선택하는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 290.7,
+   "en": "Right. And many, many races become decisive, especially in a lot of the tight races that we've been talking about with you, with our colleagues throughout these midterms.",
+   "ko": "맞습니다. 그리고 이번 중간 선거 기간 동안 당신이나 다른 동료들과 이야기해 온 많은 박빙의 선거구에서 이런 광고들이 결정적인 역할을 하게 되죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 300.3,
+   "en": "So let's talk about the stories that both parties are telling in this midterm election, especially in this frantic last week or so of this election.",
+   "ko": "그럼 양당이 이번 중간 선거에서, 특히 선거를 일주일 정도 앞둔 이 긴박한 시기에 어떤 이야기를 들려주고 있는지 이야기해 봅시다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 312.9,
+   "en": "And let's start with a story that the Democrats have been telling in these ads.",
+   "ko": "민주당이 이 광고들을 통해 전해온 이야기부터 시작해 보죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 317.7,
+   "en": "I think that the story that Democrats are telling is pretty simple. They're trying to fill in for voters the story of Donald Trump.",
+   "ko": "민주당이 들려주는 이야기는 꽤 단순하다고 생각합니다. 그들은 유권자들에게 도널드 트럼프에 대한 이야기를 채워 넣으려 노력하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 324.6,
+   "en": "Are you better off now than you were a few years ago? There's one path to saving America. Elect enough Democrats to Congress to stop Trump.",
+   "ko": "몇 년 전보다 지금 더 살기 좋아졌습니까? 미국을 구하는 길은 하나뿐입니다. 트럼프를 막기 위해 충분한 수의 민주당원을 의회로 보내주십시오.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 334.5,
+   "en": "The president typically is the lead driver of every election, of midterm elections in particular, and he's unpopular, and they're trying to tell the audience why.",
+   "ko": "대통령은 보통 모든 선거, 특히 중간 선거의 핵심 동인인데, 그는 인기가 없고 민주당은 대중에게 그 이유를 설명하려 하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 344.3,
+   "en": "Trump's war abroad costs taxpayers a billion dollars a day on a war we have no business fighting. Our schools crumble, our factories shudder, our gas prices skyrocket.",
+   "ko": "트럼프의 해외 전쟁은 우리가 상관할 바 없는 전쟁에 납세자들의 돈을 하루에 10억 달러씩 쏟아붓고 있습니다. 우리 학교는 무너지고, 공장은 멈추고, 가스 가격은 치솟고 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 353.6,
+   "en": "And they're telling a story that Trump made promises of change to improve the economy, to lower prices, and telling how and why he failed.",
+   "ko": "그리고 트럼프가 경제를 개선하고 물가를 낮추겠다는 변화를 약속했지만, 그가 어떻게 그리고 왜 실패했는지에 대한 이야기를 하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 362.4,
+   "en": "It's a story that includes tariffs in some places, the war in Ukraine and other places, the cost of living.",
+   "ko": "어떤 곳에서는 관세를, 다른 곳에서는 우크라이나 전쟁과 생활비를 포함하는 이야기입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 368.1,
+   "en": "The endless war in Ukraine is costing us all billions for bombs brutal at our gas pumps.",
+   "ko": "끝나지 않는 우크라이나 전쟁으로 폭탄 제조에 수십억 달러가 들어가고 있으며, 이는 주유소 가격에 잔인하게 반영되고 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 375.0,
+   "en": "There's an entire genre of Democratic ads this year of Democratic candidates standing at a gas station pumping gas, or in particular, Democrats standing in a grocery store saying Donald Trump failed you.",
+   "ko": "올해 민주당 광고에는 후보들이 주유소에서 기름을 넣거나, 특히 식료품점에 서서 도널드 트럼프가 여러분을 실망시켰다고 말하는 광고 장르가 통째로 존재합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 388.6,
+   "en": "And that is why these groceries are so expensive, that is why this regular fuel costs five, six dollars a gallon.",
+   "ko": "그래서 이 식료품들이 비싼 것이고, 일반 연료비가 갤런당 5~6달러나 하는 것이라고 말이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 395.6,
+   "en": "And it's a pretty simple story to tell. Donald Trump promised no new wars; instead, there's a war on, and people see the direct link between that war and these price increases.",
+   "ko": "들려주기 꽤 간단한 이야기입니다. 도널드 트럼프는 새로운 전쟁은 없을 것이라고 약속했지만, 대신 전쟁이 일어났고 사람들은 그 전쟁과 물가 상승 사이의 직접적인 연관성을 보고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 406.7,
+   "en": "Someone you just interviewed, James Talarico, the Democratic—",
+   "ko": "방금 인터뷰하신 민주당의 제임스 탈라리코 씨도—",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 409.8,
+   "en": "You do listen to the show.",
+   "ko": "저희 방송을 들으시는군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 410.6,
+   "en": "I do, I do. The single most expensive ad that he's put money behind this cycle features basically all of the above.",
+   "ko": "그럼요. 이번 선거 주기에서 그가 가장 많은 돈을 들인 광고에는 기본적으로 위에 언급한 모든 내용이 포함되어 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 419.4,
+   "en": "I'm James Talarico. In the State House, I brought both parties together to make life more affordable.",
+   "ko": "제임스 탈라리코입니다. 저는 주 의회에서 생활비를 더 감당할 수 있게 만들기 위해 양당을 하나로 모았습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 425.6,
+   "en": "In this ad, he starts in a grocery store holding a brown bag of groceries, and he tips through all the things that now cost too much.",
+   "ko": "이 광고에서 그는 식료품이 든 갈색 종이봉투를 들고 식료품점에서 시작하며, 현재 너무 비싸진 모든 것들을 하나하나 짚어봅니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 434.8,
+   "en": "Too many Texans feel like they're drowning. The cost of groceries, gas, health care.",
+   "ko": "너무 많은 텍사스 사람들이 물에 빠진 기분을 느낍니다. 식료품비, 가스비, 의료비 때문이죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 440.0,
+   "en": "Then he makes his way to his car, a reminder of gas, and says, we're going to try to cut costs, elect me. That's what I'm going to do.",
+   "ko": "그런 다음 가스비를 상기시키는 자신의 차로 이동하며 말합니다. '생활비를 줄이도록 노력하겠습니다, 저를 뽑아주세요. 제가 바로 그 일을 하겠습니다.'",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 447.2,
+   "en": "I approve this message because it shouldn't be this hard to keep your head above water.",
+   "ko": "겨우 생계를 유지하는 것이 이렇게 힘들어서는 안 되기에, 저는 이 메시지를 승인합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 451.8,
+   "en": "And I think what it's trying to tap into is the broad sense that people feel like they're falling behind and someone—the elites—are getting ahead.",
+   "ko": "이 광고가 공략하려는 지점은 사람들이 뒤처지고 있고, 엘리트라는 누군가만 앞서나가고 있다는 광범위한 박탈감이라고 생각합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 460.2,
+   "en": "And when Democrats are talking about cost of living, they apply it to like a huge range of things. There have been a number of ads about drugs and drug prices in particular.",
+   "ko": "민주당이 생활비에 관해 이야기할 때, 그들은 그것을 아주 넓은 범위에 적용합니다. 특히 의약품과 약값에 관한 광고들이 많이 나왔죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 470.5,
+   "en": "And so in Iowa, Democrats are running against Ashley Hinson, who's a congresswoman. Josh Turek is the Democratic nominee.",
+   "ko": "아이오와에서는 민주당이 하원의원인 애슐리 힌슨에 맞서 선거 운동을 벌이고 있습니다. 민주당 후보는 조쉬 투렉이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 477.4,
+   "en": "And a Super PAC supporting him has an ad filmed in a drug store with a series of people basically saying it's all more expensive, way more expensive because of Ashley Hinson.",
+   "ko": "그를 지원하는 슈퍼 팩은 약국에서 촬영한 광고를 내보냈는데, 여러 사람이 등장해 기본적으로 애슐리 힌슨 때문에 모든 것이 더 비싸졌다, 훨씬 더 비싸졌다고 말합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 489.1,
+   "en": "Things are more expensive because of Ashley Hinson. Ashley Hinson took over a hundred and sixty thousand dollars from drug companies. Then she voted to raise our prices.",
+   "ko": "애슐리 힌슨 때문에 물가가 더 비싸졌습니다. 애슐리 힌슨은 제약 회사로부터 16만 달러 이상을 받았습니다. 그러고는 우리의 약값을 올리는 데 투표했죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 499.7,
+   "en": "And they tie her to campaign contributions that she's taken, votes that she's taken, and saying she's the reason you pay so much when you go to the drug store.",
+   "ko": "그들은 그녀가 받은 선거 기부금과 그녀가 행사한 투표를 연관 지으며, 당신이 약국에 갈 때 그렇게 많은 돈을 내는 이유가 그녀 때문이라고 말하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 510.7,
+   "en": "She sold us out before and she'll sell us out again.",
+   "ko": "그녀는 전에도 우리를 배신했고, 앞으로도 또 그럴 겁니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 514.7,
+   "en": "And so what that anti-Hinson ad is doing is something that Democrats are doing all across the country in a lot of different races. And that is directly tying accusations of corruption, Republican corruption, to your personal cost of living.",
+   "ko": "이 반(反) 힌슨 광고가 하는 방식은 민주당이 전국 곳곳의 많은 선거에서 취하고 있는 방식입니다. 바로 공화당의 부패 혐의를 개인의 생활비와 직접적으로 연결하는 것이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 531.7,
+   "en": "Say more about that. I mean, it's not the most intuitive thing where people think about corruption and maybe somebody's buying and selling some president or a lawmaker in Washington.",
+   "ko": "그 점에 대해 더 말씀해 주세요. 제 말은, 사람들이 부패라고 하면 보통 워싱턴의 어떤 대통령이나 국회의원을 매수하고 매도하는 것 같은 걸 떠올리지, 이게 직관적으로 바로 와닿지는 않거든요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 539.3,
+   "en": "And making the person who benefits from it rich.",
+   "ko": "그리고 그 수혜자를 부자로 만들어주는 것 말이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 541.8,
+   "en": "Yes, and the idea is tapping into people's sense that they are falling behind and someone else, the elites, not them, is getting ahead.",
+   "ko": "맞습니다. 그 아이디어는 자신이 뒤처지고 있고, 자신이 아닌 엘리트 같은 다른 누군가가 앞서나가고 있다는 사람들의 감정을 자극하는 것이군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 550.5,
+   "en": "And you see this in a slew of different spaces where Democrats are saying, this Republican in Congress is getting rich and you, dear person watching this ad unwillingly, you're getting poorer.",
+   "ko": "민주당원들이 '이 공화당 의원은 부자가 되고 있는데, 본의 아니게 이 광고를 보고 계신 여러분은 가난해지고 있습니다'라고 말하는 것을 여러 곳에서 볼 수 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 562.9,
+   "en": "That your spending power is going down, and you have someone to blame. It's the people in power. Pick us, try something new.",
+   "ko": "여러분의 구매력은 떨어지고 있고, 탓할 사람이 있다는 거죠. 바로 권력을 가진 사람들입니다. 우리를 선택해서 새로운 시도를 해보라는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 570.9,
+   "en": "This would seem on the part of Democrats to be a somewhat clever linking of two very good issues for them.",
+   "ko": "민주당 입장에서는 자신들에게 매우 유리한 두 가지 이슈를 꽤 영리하게 연결한 것으로 보이네요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 578.9,
+   "en": "Yeah, you're tapping into people's natural frustration and anger with the existing party in power and saying things aren't getting better for you. And the reason is that they are corrupt, that they are looking out for themselves.",
+   "ko": "네, 현재 집권당에 대한 사람들의 본능적인 좌절감과 분노를 자극하면서 상황이 나아지지 않고 있다고 말하는 거죠. 그리고 그 이유는 그들이 부패했고, 자신들의 이익만 챙기기 때문이라는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 592.1,
+   "en": "And Trump is the mood music of the midterms. He is in a lot of these ads—such and such a person votes with the president 100% of the time—but the corruption allegations tend to be about the local Republicans.",
+   "ko": "그리고 트럼프는 이번 중간 선거의 배경 음악 같은 존재입니다. 그는 많은 광고에 등장합니다. '누구누구 후보는 대통령과 100% 의견을 같이한다'는 식으로요. 하지만 부패 혐의는 주로 지역 공화당원들에 관한 것이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 604.0,
+   "en": "Not so much Trump, not so much Trump, but it is tapping into Trump's party and the perceptions and that that corruption is costing you.",
+   "ko": "트럼프 본인보다는 트럼프의 정당과 그들에 대한 인식, 그리고 그 부패가 당신에게 비용을 치르게 하고 있다는 점을 공략하는 거군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 611.8,
+   "en": "It's not just that they're corrupt because, you know, focus groups and polls show everybody thinks everyone is corrupt. That's not enough anymore.",
+   "ko": "그들이 단지 부패했기 때문만은 아닙니다. 포커스 그룹 조사나 여론 조사를 보면 누구나 모두가 부패했다고 생각하거든요. 그것만으로는 이제 충분하지 않습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 618.2,
+   "en": "It's not enough. No, it's not even close, right? And everyone presumes everyone's corrupt.",
+   "ko": "충분하지 않죠. 근처에도 못 가죠. 누구나 다들 부패했다고 가정하니까요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 621.9,
+   "en": "But these people's corruption, they're saying, is actually costing you money.",
+   "ko": "하지만 이들의 부패는 실제로 당신에게 금전적 손해를 입히고 있다고 말하는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 626.3,
+   "en": "Wow. That's really, really interesting.",
+   "ko": "와, 정말 흥미롭네요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 628.2,
+   "en": "And a lot of these places are places where Trump might have once been popular and he is no longer popular. And so the theme is, they say to find someone you agree with 100% of the time, look in the mirror.",
+   "ko": "그리고 이런 광고가 나오는 많은 곳은 트럼프가 한때 인기가 있었지만 더 이상은 아닌 곳들입니다. 그래서 주제는 이렇습니다. '자신과 100% 동의하는 사람을 찾으려면 거울을 보라'고들 하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 641.4,
+   "en": "So who did Gabe Evans agree with 100% of the time? Donald Trump. You know Gabe Evans votes with Trump a hundred percent of the time. Jeff Crank. He votes with Donald Trump one hundred percent of the time.",
+   "ko": "그렇다면 게이브 에반스는 누구와 100% 동의했을까요? 도널드 트럼프입니다. 게이브 에반스가 100% 트럼프와 뜻을 같이해 투표한다는 걸 여러분은 아실 겁니다. 제프 크랭크도요. 그는 도널드 트럼프와 100% 일치하게 투표합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 654.2,
+   "en": "Mike Collins is a dyed-in-the-wool Trump fanatic and MAGA extremist. He's voted with Trump one hundred percent of the time. Jen Kagan. She is a fool for Trump.",
+   "ko": "마이크 콜린스는 골수 트럼프 광팬이자 MAGA 극단주의자입니다. 그는 100% 트럼프와 함께 투표했습니다. 젠 케이건은 트럼프에게 눈이 먼 사람입니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 666.3,
+   "en": "You see this over and over—percentage of time they vote with Trump in these swing districts where Trump is unpopular? They don't have to make a more complicated argument.",
+   "ko": "트럼프가 인기 없는 경합 지역에서 그들이 트럼프와 얼마나 일치하게 투표하는지 보여주는 수치들을 계속 보게 됩니다. 더 복잡한 논리를 세울 필요도 없죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 673.9,
+   "en": "They say this member of Congress, this senator, is with Trump. Not with you. Vote for the Democrat.",
+   "ko": "그들은 '이 하원 의원은, 이 상원 의원은 트럼프 편입니다. 당신 편이 아니라요. 민주당을 뽑으세요'라고 말합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 680.6,
+   "en": "You see this in Maine. Susan Collins was the deciding vote for Trump's cuts to Medicare and Medicaid. Her ad is about Susan Collins saying she's just like Trump.",
+   "ko": "메인주에서도 이런 모습을 볼 수 있습니다. 수잔 콜린스는 트럼프의 메디케어 및 메디케이드 삭감안에 결정적인 표를 던졌습니다. 그녀를 겨냥한 광고는 수잔 콜린스가 트럼프와 똑같다고 말합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 691.1,
+   "en": "She wrote Trump's bill to increase ICE funding with no restrictions, no restraints.",
+   "ko": "그녀는 아무런 제한이나 제약 없이 ICE(이민세관집행국) 자금을 늘리는 트럼프의 법안을 작성했습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 696.7,
+   "en": "She has a different reputation. She might have changed over time, but she votes with Trump X percent of the time.",
+   "ko": "그녀는 평판이 좀 다릅니다. 시간이 흐르면서 변했을 수도 있지만, 어쨌든 트럼프와 몇 퍼센트의 비율로 일치하게 투표한다는 거죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 701.7,
+   "en": "Collins has voted for Trump 96% of the time and she's hurting me.",
+   "ko": "콜린스는 트럼프에게 96%의 찬성표를 던졌고, 그것이 저를 힘들게 하고 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 708.3,
+   "en": "Then state after state, it's 85%, 93%, 99%, 100% voting with Trump. And that is seen by Democrats in some cases as a sufficient indictment of the Republican candidate.",
+   "ko": "그 후 주마다 85%, 93%, 99%, 100% 트럼프와 함께 투표했다는 수치가 나옵니다. 민주당은 어떤 경우에 이것이 공화당 후보를 비판하기에 충분한 증거라고 봅니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 719.8,
+   "en": "You're with this guy, he's so unpopular, he presided over higher costs of all these things. This is the go-to in a place where Donald Trump is unpopular.",
+   "ko": "이 사람과 함께한다는 것, 즉 인기도 없고 물가 상승을 초래한 사람과 한통속이라는 것이죠. 도널드 트럼프가 인기 없는 지역에서는 이것이 단골 전략입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 730.2,
+   "en": "The challenge for Democrats is to win the Senate; they have to win places where he's not really popular, but he's not so unpopular that he's an albatross for the party.",
+   "ko": "민주당의 과제는 상원에서 승리하는 것입니다. 트럼프가 아주 인기가 있지는 않지만, 그렇다고 당에 큰 짐이 될 정도로 인기가 없지도 않은 지역에서 이겨야 하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 739.1,
+   "en": "And it's in those places where the Democrats have to get a little bit more creative. They have to come up with an ad that sells them as a different kind of Democrat.",
+   "ko": "그런 곳에서 민주당은 좀 더 창의적이어야 합니다. 자신들이 다른 유형의 민주당원임을 내세우는 광고를 만들어야 하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 747.4,
+   "en": "Such as?",
+   "ko": "예를 들면요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 748.2,
+   "en": "So I think maybe the best example is Adam Hamilton, who leads the largest church in Kansas, is the Democratic nominee in a state that very few people expected to be highly competitive.",
+   "ko": "가장 좋은 예는 캔자스에서 가장 큰 교회를 이끄는 아담 해밀턴일 것입니다. 그는 경쟁이 치열할 것이라고 예상한 사람이 거의 없었던 주의 민주당 후보입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 763.4,
+   "en": "Yeah, state where Democrats haven't won a Senate seat in almost a century, and now it is ranked as a toss-up by most political prognosticators.",
+   "ko": "맞아요, 민주당이 거의 한 세기 동안 상원 의석을 차지하지 못한 주인데, 이제 대부분의 정치 예측가들에 의해 접전 지역으로 분류되고 있죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 771.2,
+   "en": "And Adam Hamilton's campaign is very much, I'm not your typical Democrat.",
+   "ko": "그리고 아담 해밀턴의 캠페인은 '나는 전형적인 민주당원이 아니다'라는 점을 강조합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 776.1,
+   "en": "Here in Kansas, we're right smack-dab in the middle of the country.",
+   "ko": "여기 캔자스는 미국 땅 정중앙에 위치해 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 779.2,
+   "en": "And one of the ads he did early on, it was literally him standing in the middle of a field saying, we're right in the middle of the country, and that's where I am.",
+   "ko": "그가 초기에 내보낸 광고 중 하나는 그가 말 그대로 들판 한가운데 서서 '우리는 나라의 정중앙에 있고, 제가 있는 곳도 바로 여기(중도)입니다'라고 말하는 것이었습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 788.4,
+   "en": "We have to fix our broken politics by meeting in the middle. Adam Hamilton for Senate, it's time for something different.",
+   "ko": "우리는 중도에서 만남으로써 망가진 정치를 바로잡아야 합니다. 상원 의원 후보 아담 해밀턴, 이제는 뭔가 달라질 때입니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 795.2,
+   "en": "I'm middle politically. And the word 'Democrat'? Not in this ad.",
+   "ko": "나는 정치적으로 중도라는 거죠. 그리고 '민주당원'이라는 단어는 이 광고에 나오지 않습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 799.3,
+   "en": "Middle.",
+   "ko": ""
+  },
+  {
+   "start": 799.6,
+   "en": "You can watch on an ad and have literally no idea whether Hamilton is running as a Democrat or Republican or like a candidate from Mars.",
+   "ko": ""
+  },
+  {
+   "start": 808.0,
+   "en": "Yeah, and this is for all of Trump's unpopularity. This is the risk for Democrats is they need voters to vote for them, or to not vote, who don't like Democrats.",
+   "ko": "네, 트럼프의 인기 부족에도 불구하고 말이죠. 민주당의 리스크는 민주당을 좋아하지 않는 유권자들이 자신들에게 투표하게 하거나 아예 투표를 하지 않게 만들어야 한다는 점입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 817.1,
+   "en": "So these races are not just about one party. The Democrats aren't just trying to win votes. They're trying to get Republicans unenthusiastic.",
+   "ko": "그래서 이 선거들은 단지 한 정당만의 문제가 아닙니다. 민주당은 표를 얻으려고만 하는 것이 아니라, 공화당원들의 열기를 꺾으려 하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 825.8,
+   "en": "And one of the tools they're using in Kansas and elsewhere is Jeffrey Epstein.",
+   "ko": "캔자스 등지에서 그들이 사용하는 도구 중 하나가 제프리 엡스틴입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 830.8,
+   "en": "It was one of the worst child abuse scandals in history, dozens of young girls sexually trafficked by Jeffrey Epstein.",
+   "ko": "수십 명의 어린 소녀들이 제프리 엡스틴에 의해 성매매된, 역사상 최악의 아동 학대 스캔들 중 하나였습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 838.1,
+   "en": "The first ad coming in from national Democrats in this race: Marshall voted to keep the Epstein file sealed.",
+   "ko": "이 선거에서 전국 민주당이 내보낸 첫 번째 광고는 '마셜이 엡스틴 파일 봉인을 유지하는 데 투표했다'는 내용이었습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 844.5,
+   "en": "It was not about Donald Trump. It was about linking the Republican incumbent there to Jeffrey Epstein.",
+   "ko": "도널드 트럼프에 관한 것이 아니었습니다. 그 지역의 공화당 현직 의원을 제프리 엡스틴과 연결 짓는 것이었죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 849.2,
+   "en": "Roger Marshall used his office to protect pedophiles. He doesn't belong in the Senate.",
+   "ko": "로저 마셜은 소아성애자들을 보호하기 위해 자신의 직위를 이용했습니다. 그는 상원에 있을 자격이 없습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 854.5,
+   "en": "Saying he had blocked the release of the Epstein files. And this tactic very much seems to be about taking Republicans who might vote Republican if they voted and saying, ugh, I'm unhappy with the Republican Party.",
+   "ko": "그가 엡스틴 파일의 공개를 막았다고 주장하는 것이죠. 이 전술은 투표를 한다면 공화당에 투표할 수도 있는 공화당원들을 겨냥해 '에휴, 공화당에 정말 실망했어'라고 느끼게 만드는 것으로 보입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 868.1,
+   "en": "It was Trump who had said there's something hidden in the Epstein files. It was Trump and the Republicans who had said, we're going to release the files. And then they came into power and they were trying to stop the Epstein files from being released.",
+   "ko": "엡스틴 파일에 숨겨진 것이 있다고 말한 건 트럼프였습니다. 파일을 공개하겠다고 말한 것도 트럼프와 공화당원들이었죠. 그런데 그들이 권력을 잡자 엡스틴 파일의 공개를 막으려 했습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 879.3,
+   "en": "And there was a real revolt, really one of the first revolts from the MAGA wing of the party, frustrated, disappointed with Donald Trump. It was his own party objecting to him over this issue.",
+   "ko": "그리고 도널드 트럼프에게 좌절하고 실망한 당내 MAGA 세력으로부터 실제 반발이 일어났는데, 이는 사실상 첫 번째 반발 중 하나였습니다. 이 사안에 대해 그의 당내 인사들이 그에게 반대한 것이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 890.6,
+   "en": "And Democrats are trying to take that little scab and jab it open.",
+   "ko": "민주당은 그 작은 상처를 후벼 파서 더 크게 벌리려 하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 894.6,
+   "en": "So what Democrats achieve by running ads painting their Republican opponents in a place like Kansas as protecting Jeffrey Epstein is not what you might think it is on its face, which is just to tie Epstein to those candidates.",
+   "ko": "그러니까 캔자스 같은 곳에서 공화당 상대 후보가 제프리 엡스틴을 보호하고 있다는 식의 광고를 내보냄으로써 민주당이 얻는 것은, 겉으로 보이는 것처럼 단지 엡스틴을 그 후보들과 연결 짓는 것만이 아니군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 908.7,
+   "en": "It might be that, but you're saying it's about telling Republican voters who were always upset about Epstein that their party hasn't gotten that right and that they should be disappointed in the entire Republican Party and perhaps just not even vote.",
+   "ko": "그럴 수도 있겠지만, 엡스틴 문제로 줄곧 화가 나 있던 공화당 유권자들에게 당신들의 당이 이 문제를 제대로 처리하지 못했으니 공화당 전체에 실망해야 하며, 어쩌면 투표조차 하지 말아야 한다고 말하는 것이라는 말씀이시죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 927.5,
+   "en": "I mean, it doesn't sound like they're saying that directly, but that's the intended outcome. It's to reach out to voters who might not go for the Democrat and it's to get that Republican to just feel, honestly, kind of just crappy about their party.",
+   "ko": "직접적으로 그렇게 말하는 것처럼 들리지는 않겠지만, 그것이 의도된 결과입니다. 민주당을 찍지 않을 것 같은 유권자들에게 다가가 그 공화당원들이 솔직히 자신의 당에 대해 좀 기분 나쁘게 느끼도록 만드는 거죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 940.0,
+   "en": "I want to explain this in a kind of complicated way, which is: I'm watching these ads in 30-second increments. But the campaigns think about them in a story. They start with one thing, they end somewhere else.",
+   "ko": "이걸 좀 복잡한 방식으로 설명해 보자면 이렇습니다. 저는 이 광고들을 30초 단위로 봅니다. 하지만 캠프에서는 이것을 하나의 이야기로 생각하죠. 어떤 한 가지로 시작해서 다른 결론으로 끝납니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 956.2,
+   "en": "And the Epstein stuff fits into this broader story because it's also about people who you trusted to put in power doing something for the quote-unquote 'elites' and not for you.",
+   "ko": "그리고 엡스틴 건은 이 더 큰 이야기의 일부가 됩니다. 왜냐하면 이것 역시 여러분이 믿고 권력을 준 사람들이 여러분이 아닌 소위 '엘리트'들을 위해 무언가를 하고 있다는 내용이기 때문입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 967.9,
+   "en": "It's not really quite corruption in the same way, but if you think about this as a broader story arc, it's a piece of it.",
+   "ko": ""
+  },
+  {
+   "start": 975.9,
+   "en": "And",
+   "ko": ""
+  },
+  {
+   "start": 975.9,
+   "en": "It's a piece that is clearly aimed at getting those disillusioned Republicans to stay disillusioned right now. It's a permission structure. You voted for Republicans in 2024, but guess what? It's been a disappointment.",
+   "ko": "이것은 분명히 환멸을 느낀 공화당원들이 계속 그 환멸 속에 머물게 하려는 의도입니다. 일종의 '허용 구조'인 셈이죠. 2024년에 공화당에 투표했지만, 결과가 어땠나요? 실망뿐이었죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 988.1,
+   "en": "Try us out. And if you don't try us out, don't try anything at all.",
+   "ko": "우리를 한번 믿어보세요. 그게 안 된다면 차라리 아무것도 하지 마시고요.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 994.6,
+   "en": "All right, well, Shane, we're going to take a quick break. When we come back, more ads. We're going to talk about the story that Republicans are telling in their midterm advertising. We'll be right back.",
+   "ko": "알겠습니다, 셰인. 잠시 휴식 시간을 갖겠습니다. 돌아와서 광고 이야기를 더 나눠보죠. 공화당원들이 중간 선거 광고에서 들려주는 이야기에 대해 다뤄보겠습니다. 곧 돌아오겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1017.4,
+   "en": "Hi, Sarah Koenig here, asking you to check out my new show from Serial Productions and the New York Times. It's called Metro with Sarah Koenig.",
+   "ko": "안녕하세요, 사라 케니그입니다. 시리얼 프로덕션과 뉴욕 타임스가 함께 만든 제 새 쇼를 확인해 보세요. '사라 케니그와 함께하는 메트로'입니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 1026.0,
+   "en": "Stories about New York City and its most fascinating raw material, New Yorkers. Each episode of Metro takes the bigness of New York and makes it human-scale and relevant, no matter where you live.",
+   "ko": "뉴욕시와 그 도시의 가장 매혹적인 원재료인 뉴욕 사람들에 대한 이야기입니다. 메트로의 각 에피소드는 뉴욕의 거대함을 여러분이 어디에 살든 상관없이 인간적인 규모로 느끼고 공감할 수 있게 만듭니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 1046.2,
+   "en": "Find it wherever you listen to your podcasts.",
+   "ko": "팟캐스트를 듣는 곳이라면 어디에서든 찾아보세요.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 1050.3,
+   "en": "Shane, talk now about the Republican advertising and the story that Republicans are telling.",
+   "ko": "셰인, 이제 공화당의 광고와 그들이 들려주는 이야기에 대해 이야기해 보죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1057.4,
+   "en": "I'm curious how much Republicans are actually running on their record of governance over the past two years in all this advertising.",
+   "ko": "이 모든 광고에서 공화당원들이 지난 2년 동안의 국정 운영 기록을 실제로 얼마나 내세우고 있는지 궁금합니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1066.4,
+   "en": "So we've started by talking about a lot of the ads that are interesting, but I do think it's important to note that some of the most effective ads are boring.",
+   "ko": "흥미로운 광고들 위주로 이야기를 시작했지만, 가장 효과적인 광고 중 일부는 지루하다는 점을 언급하는 게 중요할 것 같습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1073.4,
+   "en": "And those ads make a pretty plain case that Trump came in and he cut your taxes. Which he did.",
+   "ko": "그런 광고들은 트럼프가 집권해서 여러분의 세금을 감면해 주었다는 아주 평이한 주장을 담고 있습니다. 실제로 그는 그렇게 했고요.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1081.7,
+   "en": "He did.",
+   "ko": "그랬죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1082.2,
+   "en": "That the quote-unquote 'big beautiful bill' in 2025 had massive tax cuts. And they highlight some of the specific elements in it that are popular when pulled out in polling.",
+   "ko": "소위 '크고 아름다운 법안'이라 불리는 2025년 법안에 대규모 세금 감면이 포함되어 있었다는 거죠. 그리고 여론 조사에서 인기가 높았던 특정 요소들을 강조합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1092.6,
+   "en": "There is a congresswoman running for reelection in South Texas, Monica De La Cruz. She has an ad that is sort of a perfect encapsulation of this.",
+   "ko": "텍사스 남부에서 재선에 도전하는 모니카 데 라 크루즈 하원 의원이 있습니다. 그녀의 광고가 이 점을 완벽하게 요약해서 보여줍니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1101.0,
+   "en": "Today, life costs more, but you sent me to Congress to do something about it. No tax on tips. No tax on overtime. Up to $11,000 more in your pocket every year.",
+   "ko": "오늘날 생활비는 더 많이 들지만, 여러분은 그 문제를 해결하라고 저를 의회로 보내셨습니다. 팁에 세금을 매기지 않겠습니다. 초과 근무 수당에도 세금을 매기지 않겠습니다. 매년 최대 11,000달러를 더 돌려받으실 수 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1126.1,
+   "en": "And so this is the Republican story: that it was the Democrats and President Biden who drove up the costs and that they've been chipping away at this problem and that they just need more time to finish the job.",
+   "ko": "이것이 공화당의 이야기입니다. 비용을 인상시킨 것은 민주당과 바이든 대통령이며, 자신들은 이 문제를 조금씩 해결해 왔으므로 일을 마무리할 시간이 더 필요하다는 것이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1140.4,
+   "en": "I suspect that that is a relatively tough case to make two years into this second term. I mean, there's a reason that the party in power almost always loses in midterm elections. Because that's generally a tough case to make.",
+   "ko": "두 번째 임기 2년 차에 그런 주장을 하는 건 상대적으로 어려울 것 같습니다. 집권당이 중간 선거에서 거의 매번 패배하는 데는 이유가 있죠. 그런 논리가 일반적으로 설득력을 얻기 힘들기 때문입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1158.4,
+   "en": "We tried. We're trying.",
+   "ko": "우리는 노력했습니다. 노력하는 중입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1160.1,
+   "en": "Yeah, we're trying.",
+   "ko": "네, 노력 중이죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1161.0,
+   "en": "I mean, 'finish the job' was literally a phrase that Joe Biden also wanted to use, and it's a phrase that Republicans are using now too, right? It's the other people's fault. We've done as best as we could. Just give us a little bit more time.",
+   "ko": "제 말은, '일을 마무리하자'는 조 바이든이 사용하고 싶어 했던 문구이기도 한데, 지금 공화당원들도 그 문구를 쓰고 있다는 겁니다. '다른 사람들 잘못입니다, 우리는 최선을 다했습니다, 시간을 조금만 더 주세요'라는 식이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1171.9,
+   "en": "But for some Republicans, that's not quite enough. And what you're seeing in their ads is a pitch that they're actually bipartisan, that they don't agree with Donald Trump 100% of the time.",
+   "ko": "하지만 일부 공화당원들에게 그것만으로는 부족합니다. 그래서 그들의 광고에서는 자신들이 실제로 초당적이며, 도널드 트럼프와 100% 동의하지는 않는다는 점을 내세우고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1185.7,
+   "en": "Drinking a Labatt and watching the Red Wings, man, it just doesn't get any more Michigan than that.",
+   "ko": "라바트 맥주를 마시며 레드윙스 경기를 보는 것, 이보다 더 미시간다울 순 없죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1190.3,
+   "en": "And I think the one that stands out most to me is Mike Rogers, the Republican nominee for Senate in Michigan, a critical race against the Democrat Abdul El-Sayed.",
+   "ko": "제게 가장 인상 깊었던 것은 민주당의 압둘 엘-사예드와 치열하게 맞붙고 있는 미시간주의 공화당 상원 의원 후보 마이크 로저스입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1200.8,
+   "en": "And here in Michigan, we know that Canada is not our enemy. We need to end this tariff war now.",
+   "ko": "이곳 미시간에서 우리는 캐나다가 우리의 적이 아니라는 것을 압니다. 우리는 지금 이 관세 전쟁을 끝내야 합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1204.1,
+   "en": "And tariffs are a big deal in Michigan. Detroit, you're just over a bridge to Canada.",
+   "ko": "미시간에서 관세는 큰 이슈입니다. 디트로이트는 다리 하나만 건너면 바로 캐나다니까요.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1210.3,
+   "en": "And so in this ad you see Mike Rogers sitting at a bar holding a Labatt—a Canadian beer—saying we need to end this tariff war now. Doesn't say Trump's name.",
+   "ko": "그래서 이 광고를 보면 마이크 로저스가 바에 앉아 캐나다 맥주인 라바트를 들고 '지금 관세 전쟁을 끝내야 한다'고 말하는 것을 볼 수 있습니다. 트럼프의 이름은 언급하지 않죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1225.2,
+   "en": "No Trump's name. Doesn't say who instituted those tariffs, but everybody watching in Michigan will get it.",
+   "ko": "트럼프의 이름은 없군요. 누가 그 관세를 도입했는지 말하지 않지만, 미시간에서 시청하는 사람이라면 누구나 알 겁니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1230.8,
+   "en": "Yes, also not saying that he's a Republican, right? The inverse of that Adam Hamilton ad. He's not saying I'm Mike Rogers, I'm a Republican, vote for me so I can keep Donald Trump in power.",
+   "ko": "네, 또한 자신이 공화당원이라는 말도 하지 않습니다. 아담 해밀턴 광고의 반대 버전인 셈이죠. '나는 마이크 로저스고 공화당원입니다, 도널드 트럼프가 계속 권력을 잡을 수 있게 나를 뽑아주세요'라고 말하지 않습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1240.7,
+   "en": "Instead, the text on the screen is, 'Bring both parties together.' And by the way, my opponent is too liberal, too extreme. Vote for me, the guy willing to break with Trump on tariffs.",
+   "ko": "대신 화면에는 '양당을 하나로 모으자'라는 텍스트가 나옵니다. 그러면서 상대 후보는 너무 진보적이고 극단적이라고 하죠. 관세 문제에서 트럼프와 결별할 의지가 있는 자신을 뽑아달라는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1253.2,
+   "en": "How many Republicans are running that kind of ad in these midterms?",
+   "ko": "이번 중간 선거에서 그런 종류의 광고를 내보내는 공화당원들이 얼마나 되나요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1257.3,
+   "en": "You can basically track Trump's approval rating as it's gone down and see a growing number of Republicans start to run ads touting their bipartisanship.",
+   "ko": "트럼프의 지지율이 하락하는 추세를 따라가 보면, 자신의 초당적 면모를 내세우는 광고를 시작하는 공화당원들이 늘어나는 것을 볼 수 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1267.4,
+   "en": "I've worked with Democrats and Republicans to get things done. Zack Nunn is the third most bipartisan member of Congress.",
+   "ko": "저는 일을 처리하기 위해 민주당, 공화당 모두와 협력해 왔습니다. 잭 넌은 의회에서 세 번째로 초당적인 의원입니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1285.3,
+   "en": "He's walking around saying I crossed party lines since six months ago. It might have been okay to be more in line with the main line of the Republican Party. Now it's advantageous to be more bipartisan.",
+   "ko": "그는 돌아다니며 6개월 전부터 당의 경계를 넘나들었다고 말합니다. 예전에는 공화당의 주류 노선을 따르는 게 괜찮았을지 몰라도, 지금은 더 초당적인 모습을 보이는 게 유리하니까요.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1294.6,
+   "en": "Both sides throwing out attacks. Both sides creating one heck of a mess. Ashley Hinson, the Senate candidate in Iowa, running a number of ads talking about bipartisanship.",
+   "ko": "양쪽 모두 공격을 퍼붓고 있습니다. 양쪽 모두 난장판을 만들고 있죠. 아이오와의 상원 후보인 애슐리 힌슨은 초당적 협력을 강조하는 광고를 여러 편 내보내고 있습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1304.9,
+   "en": "It's funny in a commercial, but not in Washington. To get stuff done out there, you've got to bring folks together.",
+   "ko": "광고로 보면 웃기지만, 워싱턴에서는 그렇지 않습니다. 일을 처리하려면 사람들을 하나로 모아야 합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1311.3,
+   "en": "She's a mom in her kitchen and she has her kids literally having a food fight. And she's saying that's both parties. That's a mess. We can bring people together.",
+   "ko": "그녀는 부엌에 있는 엄마로 등장하는데, 아이들이 실제로 음식 싸움을 하고 있습니다. 그녀는 그것이 양당의 모습이라고 말하죠. 난장판이라는 겁니다. 우리는 사람들을 하나로 모을 수 있다고 강조하면서요.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1320.5,
+   "en": "I'm Ashley Hinson. I approve this message because if my boys can get along sometimes, so can Washington.",
+   "ko": "저는 애슐리 힌슨입니다. 제 아들들도 가끔은 사이좋게 지낼 수 있다면, 워싱턴도 그럴 수 있다고 믿기에 이 메시지를 승인합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1329.0,
+   "en": "Maybe the number one person is Susan Collins in Maine. Who for years has run as a sort of distinct brand from Trumpism and Republicanism.",
+   "ko": "아마 대표적인 인물은 메인주의 수잔 콜린스일 것입니다. 그녀는 수년간 트럼프주의나 전형적인 공화당 노선과는 구별되는 독자적인 브랜드로 선거를 치러왔습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1343.3,
+   "en": "Senator Collins stood up to her own party, voting to protect Congress's power to authorize extended military conflicts.",
+   "ko": "콜린스 의원은 장기화된 군사 갈등을 승인하는 의회의 권한을 보호하기 위해 투표하며 자신의 정당에 맞섰습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1350.2,
+   "en": "And she's saying, I'm Susan Collins, you know me. I'm bipartisan. I work across the lines. I get things done for Maine. I'm not like the Republicans in Washington.",
+   "ko": "그녀는 '저는 수잔 콜린스입니다, 여러분도 저를 아시죠. 저는 초당적입니다. 당파를 초월해 협력하며 메인주를 위해 성과를 냅니다. 저는 워싱턴의 다른 공화당원들과는 다릅니다'라고 말하고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1360.8,
+   "en": "So 'bipartisan' in these ads is code for 'I'm the kind of Republican even in this era of MAGA Republicanism, even in this era when the president is so unpopular, that you can trust.'",
+   "ko": "그러니까 이 광고들에서 '초당적'이라는 말은, MAGA 공화당의 시대나 대통령이 인기가 없는 이 시기에도 믿을 수 있는 그런 유형의 공화당원이라는 암호인 셈이군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1373.4,
+   "en": "Because if I use that word, I'm willing to move away from Trump.",
+   "ko": "그 단어를 쓴다는 건 트럼프와 거리를 둘 용의가 있다는 뜻이니까요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1379.1,
+   "en": "Yes. This makes sense in these bluish-purple states. You're not surprised to see that in Maine, but what is interesting is seeing it in places like Iowa, states that President Trump won all three times.",
+   "ko": "네. 파란색이나 보라색 성향의 주에서는 말이 됩니다. 메인주에서 그런 모습을 보는 건 놀랍지 않죠. 하지만 흥미로운 건 아이오와처럼 트럼프 대통령이 세 번 모두 승리한 곳에서도 이런 모습이 보인다는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1390.3,
+   "en": "That's what tells you the political climate has deteriorated for Republicans.",
+   "ko": "그것이 바로 정치적 상황이 공화당에 불리하게 돌아가고 있음을 말해주는 지표입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1395.0,
+   "en": "Okay. What you're describing so far sounds largely defensive, but my sense is that there's no shortage of Republican advertising in this campaign that is very much on the offense.",
+   "ko": "알겠습니다. 지금까지 설명하신 내용은 주로 방어적으로 들리지만, 제 짐작으로는 이번 선거에서 공세적인 공화당 광고도 부족하지 않을 것 같습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1408.0,
+   "en": "I would be hard-pressed to think of a major race in this country where Republicans are not running a lot of ads about their Democratic opponents because the Republican brand is damaged right now.",
+   "ko": "공화당 브랜드가 현재 타격을 입었기 때문에, 공화당원들이 민주당 상대 후보에 대한 광고를 많이 내보내지 않는 주요 선거구는 생각하기 어렵습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1420.0,
+   "en": "And so they don't want you to think just about them or their distance from Trump. They want to demonize and disqualify the Democrats.",
+   "ko": "그들은 유권자들이 자신들이나 트럼프와의 거리감에 대해서만 생각하는 것을 원치 않습니다. 민주당원들을 악마화하고 자격을 박탈하려 하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1427.8,
+   "en": "They want open borders, free healthcare for illegals, men in girls' locker rooms, and want to set violent criminals free.",
+   "ko": "그들은 국경 개방, 불법 체류자들을 위한 무상 의료, 여학생 락커룸에 들어가는 남성을 원하며 강력 범죄자들을 석방하려 합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1435.9,
+   "en": "Call them too liberal, call them too radical. Cite their policy positions, make them seem scary.",
+   "ko": "그들을 너무 진보적이고 극단적이라고 부르죠. 그들의 정책적 입장을 인용해 무섭게 보이도록 만듭니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1445.4,
+   "en": "What else is he hiding?",
+   "ko": ""
+  },
+  {
+   "start": 1447.0,
+   "en": "And more than anything, under one big umbrella.",
+   "ko": ""
+  },
+  {
+   "start": 1449.7,
+   "en": "Janelle Stelson. Adam Hamilton. Charles Booker. Just too liberal. Too liberal for Kentucky, for Pennsylvania, for Kansas.",
+   "ko": "자넬 스텔슨. 아담 해밀턴. 찰스 부커. 그저 너무 진보적입니다. 켄터키, 펜실베이니아, 캔자스에 있기에 너무 진보적이죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1461.9,
+   "en": "That phrase is in ad after ad after ad. And again, so much of this battlefield in both the House and the Senate is in traditionally conservative districts or states, places that did vote for Donald Trump. And so it's often effective.",
+   "ko": "그 문구는 광고마다 계속 등장합니다. 그리고 다시 한번 말씀드리자면, 하원과 상원 모두 전통적으로 보수적인 지역이나 주, 즉 도널드 트럼프를 뽑았던 곳들이 전쟁터이기 때문에 이 전략은 종종 효과적입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1479.5,
+   "en": "Every mom in Texas should be worried about",
+   "ko": ""
+  },
+  {
+   "start": 1482.4,
+   "en": "James Talarico supports parents being charged with child abuse if they do not support transitioning their children.",
+   "ko": "제임스 탈라리코는 자녀의 성전환을 지지하지 않는 부모가 아동 학대 혐의로 기소되는 것을 지지합니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1501.1,
+   "en": "It is a mother of five saying he is outside the mainstream specifically on the trans issue. And she says pretty ominously, 'Do not vote for James Talarico.'",
+   "ko": "다섯 아이의 어머니가 나와서 그가 특히 트랜스젠더 이슈에서 주류와 동떨어져 있다고 말하는 광고입니다. 그녀는 꽤 불길하게 '제임스 탈라리코에게 투표하지 마세요'라고 말하죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1515.6,
+   "en": "And it fits into a whole genre of ads, which is sort of moms in kitchens worried about Democrats going too far left.",
+   "ko": "이것은 민주당이 너무 왼쪽으로 치우치는 것을 걱정하는 부엌에 있는 엄마들 같은 광고 장르에 속합니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1523.8,
+   "en": "But as we get closer to the election, you see often something a little bit darker and more personal. I mean, I think the ad that everyone's been talking about is in Ohio.",
+   "ko": "하지만 선거가 가까워질수록 더 어둡고 사적인 내용이 자주 보입니다. 제 생각에 지금 모두가 이야기하는 광고는 오하이오의 광고일 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1536.7,
+   "en": "My name is Donna Arthur, and I am Amy Acton's mother. She's lied her entire life. Don't let her become your governor.",
+   "ko": "제 이름은 도나 아서이고, 에이미 액튼의 어머니입니다. 그녀는 평생 거짓말을 해왔습니다. 그녀가 여러분의 주지사가 되게 하지 마세요.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 1568.4,
+   "en": "But what this ad leaves out entirely is the backstory about why Amy Acton's mother is estranged from her daughter.",
+   "ko": "하지만 이 광고가 완전히 빠뜨린 것은 에이미 액튼의 어머니가 왜 딸과 소원해졌는지에 대한 배경 이야기입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1579.4,
+   "en": "Amy Acton says they have not spoken since she was 12. And that's because her mother lost custody of both her and her brother and that her stepfather had been indicted on charges of raping her.",
+   "ko": "에이미 액튼은 그녀가 12살 때 이후로 어머니와 대화한 적이 없다고 합니다. 어머니가 그녀와 남동생 모두에 대한 양육권을 잃었고, 계부가 그녀를 성폭행한 혐의로 기소되었기 때문이죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1595.9,
+   "en": "Her stepfather pled not guilty and he fled the state before a trial.",
+   "ko": ""
+  },
+  {
+   "start": 1601.2,
+   "en": "And so the person in this ad, her mom, was married to the man who allegedly raped her.",
+   "ko": "그러니까 이 광고에 등장하는 그녀의 엄마는 딸을 성폭행한 혐의를 받는 남자와 결혼한 상태였던 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1608.2,
+   "en": "Yeah, and suddenly is narrating a TV ad. And this ad has caused a firestorm.",
+   "ko": "네, 그런데 갑자기 TV 광고의 내레이션을 맡고 있군요. 이 광고는 엄청난 비난을 불러일으켰습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1615.1,
+   "en": "The state's Republican governor has called for it to be taken down; numerous Republicans across the country said, this crosses a line.",
+   "ko": "해당 주의 공화당 주지사는 광고를 내리라고 요구했고, 전국적으로 수많은 공화당원이 이건 선을 넘었다고 말했습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1622.1,
+   "en": "Why use estranged family members with these kinds of allegations in their past to raise questions about somebody's character?",
+   "ko": ""
+  },
+  {
+   "start": 1630.7,
+   "en": "And so this is the kind of thing that you see a campaign do in these sort of desperate, darker last weeks of a race.",
+   "ko": ""
+  },
+  {
+   "start": 1637.8,
+   "en": "The fallout from this ad would seem to be a kind of case study for what can happen when a campaign decides to go this personally negative, that it can backfire kind of spectacularly.",
+   "ko": "이 광고의 여파는 캠페인이 이렇게 개인적인 네거티브를 하기로 결정했을 때 어떤 일이 벌어질 수 있는지, 얼마나 대대적으로 역풍을 맞을 수 있는지 보여주는 사례 연구가 될 것 같네요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1654.4,
+   "en": "and even your own party ends up denouncing you.",
+   "ko": ""
+  },
+  {
+   "start": 1659.5,
+   "en": "I think this is a rare ad that has done its damage, but",
+   "ko": ""
+  },
+  {
+   "start": 1664.0,
+   "en": "The fear that Republicans have is the attention on this isn't just going to potentially damage Ramaswamy, but the entire Republican ticket in a state that is crucial for the Senate.",
+   "ko": "공화당원들이 두려워하는 점은, 이에 대한 관심이 라마스와미뿐만 아니라 상원 선거에 결정적인 주의 공화당 후보 명단 전체에 타격을 줄 수도 있다는 것입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1676.2,
+   "en": "and also has at least one key house race.",
+   "ko": ""
+  },
+  {
+   "start": 1681.2,
+   "en": "Shane, stepping back, it seems like the Republican strategy is to defend their legislative accomplishments and if that's insufficient, distance yourself from Trump, and if that's insufficient, really just take out the hatchet and hurl it at your opponent.",
+   "ko": "셰인, 정리해 보자면 공화당의 전략은 입법 성과를 방어하고, 그것이 부족하면 트럼프와 거리를 두고, 그것마저 부족하면 아예 도끼를 꺼내 상대에게 던지는 것 같군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1706.8,
+   "en": "Yeah, I think that you can even simplify the Republican strategy to 'compare us to the Democrats,' right? They are desperate for voters to not just think about Republicans because they don't like Trump.",
+   "ko": "네, 공화당의 전략을 '우리와 민주당을 비교해 보라'고 더 단순화할 수 있을 것 같습니다. 그들은 유권자들이 단지 트럼프가 싫다는 이유로 공화당 전체를 부정적으로 생각하지 않기를 절실히 바라고 있죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1722.9,
+   "en": "They don't like the direction of the country.",
+   "ko": ""
+  },
+  {
+   "start": 1724.4,
+   "en": "They know Republicans are in power and",
+   "ko": ""
+  },
+  {
+   "start": 1725.8,
+   "en": "They're saying, consider this a contrast between these scary Democrats. We're not all aligned with Trump on everything. We did do some things for you. Just make this a comparison because—",
+   "ko": "그들은 '이 무서운 민주당원들과 우리를 대조해 보십시오'라고 말합니다. 모든 면에서 트럼프와 뜻을 같이하는 건 아니며, 여러분을 위해 한 일들도 있다는 거죠. 그냥 비교를 해달라는 겁니다. 왜냐하면—",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1737.1,
+   "en": "Between us, not Trump and our rivals, but us and our—",
+   "ko": "트럼프와 경쟁자가 아니라, 우리와 경쟁자 사이에서요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1740.5,
+   "en": "Because if it's an up-or-down on the Republicans, it's a 'down,' right? But if you say, how do you feel about Republicans compared to a socialist, they want people to think about that comparison when they vote.",
+   "ko": "공화당에 대한 찬반 투표가 되면 '반대'가 나올 것이기 때문이죠. 하지만 사회주의자와 비교했을 때 공화당은 어떠냐고 묻는다면, 유권자들이 투표할 때 그 비교를 떠올리기를 바라는 겁니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1758.1,
+   "en": "And that's what the story of all of those ads put together is.",
+   "ko": ""
+  },
+  {
+   "start": 1761.3,
+   "en": "Think of this as a choice election in some regard.",
+   "ko": ""
+  },
+  {
+   "start": 1764.3,
+   "en": "Maybe this is unanswerable, but I think we have to ask it.",
+   "ko": ""
+  },
+  {
+   "start": 1766.7,
+   "en": "Seems like the right final question. Because you've watched all these ads, which side has told their story best? Which side has basically put forward the most effective ads?",
+   "ko": "마지막 질문으로 적절할 것 같네요. 이 모든 광고를 지켜보셨는데, 어느 쪽이 자신의 이야기를 더 잘 전달했나요? 기본적으로 어느 쪽이 가장 효과적인 광고를 내놓았다고 보십니까?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1777.5,
+   "en": "I think the party out of power has an easier story to tell in general, and it's especially easy right now because they're telling a story people already sort of feel.",
+   "ko": "일반적으로 야당이 이야기를 전하기가 더 쉽다고 생각합니다. 특히 지금은 사람들이 이미 어느 정도 느끼고 있는 이야기를 하고 있기 때문에 더 쉽죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1789.4,
+   "en": "which is they voted for Trump and the Republicans hoping for change, hoping for economic relief.",
+   "ko": ""
+  },
+  {
+   "start": 1796.3,
+   "en": "They see a war in Ukraine that has driven up costs. They see tariffs that have driven up costs, and they're blaming Republicans for that.",
+   "ko": "사람들은 물가를 올린 우크라이나 전쟁을 보고, 물가를 올린 관세를 보며 그 책임을 공화당에 돌리고 있습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1810.2,
+   "en": "And two years ago, it was the Democrats on their heels on the economy.",
+   "ko": ""
+  },
+  {
+   "start": 1816.0,
+   "en": "The most famous ad from the 2024 campaign was Trump's 'Kamala Harris is for they/them. President Trump is for you.' Yes, it was casting her as too liberal and too extreme.",
+   "ko": "2024년 대선에서 가장 유명한 광고는 트럼프의 '카멀라 해리스는 그들(성소수자)을 위하고, 트럼프 대통령은 여러분을 위합니다'였습니다. 네, 그녀를 너무 진보적이고 극단적인 인물로 묘사했죠.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1826.7,
+   "en": "But the rest of that ad was about Trump is fighting for your economic well-being.",
+   "ko": ""
+  },
+  {
+   "start": 1831.1,
+   "en": "And what Democrats have done over the nearly two years, they've been out of power and said, actually, we do want to fight for your economic well-being.",
+   "ko": ""
+  },
+  {
+   "start": 1844.8,
+   "en": "And so the ads are these 30-second little snippets that you see along the way, but they're amplifying your life experience.",
+   "ko": ""
+  },
+  {
+   "start": 1853.6,
+   "en": "And the advantage that the party out of power has right now is the story voters are telling themselves is being echoed in that advertising.",
+   "ko": "그리고 현재 야당이 가진 이점은 유권자들이 스스로에게 들려주는 이야기가 그 광고들에 그대로 반영되고 있다는 점입니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1865.3,
+   "en": "and the Republicans are saying, wait a second, but also consider this.",
+   "ko": ""
+  },
+  {
+   "start": 1869.4,
+   "en": "A harder argument.",
+   "ko": ""
+  },
+  {
+   "start": 1870.8,
+   "en": "It's just a trickier story to tell.",
+   "ko": ""
+  },
+  {
+   "start": 1876.2,
+   "en": "Well, Shane, thank you very much. Let's watch more ads together.",
+   "ko": "셰인, 정말 감사합니다. 광고를 좀 더 같이 보시죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1884.1,
+   "en": "No, I'm done.",
+   "ko": "아니요, 전 다 봤습니다.",
+   "speaker": "Shane Goldmacher"
+  },
+  {
+   "start": 1903.1,
+   "en": "We'll be right back.",
+   "ko": "잠시 후에 돌아오겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1907.6,
+   "en": "This week on The Wirecutter Show, we're talking about face sunscreen. Find out how the new FDA-approved ingredient is changing formulations, and whether our expert thinks it's worth it.",
+   "ko": "이번 주 와이어커터 쇼에서는 얼굴용 자외선 차단제에 대해 이야기합니다. 새로 승인된 FDA 성분이 어떻게 제형을 바꾸고 있는지, 그리고 전문가가 그만한 가치가 있다고 생각하는지 알아보세요.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 1927.6,
+   "en": "The Wirecutter Show is on the New York Times app or wherever you'd like to listen.",
+   "ko": "와이어커터 쇼는 뉴욕 타임스 앱이나 팟캐스트를 듣는 어디에서나 만나보실 수 있습니다.",
+   "speaker": "Narrator",
+   "ad": true
+  },
+  {
+   "start": 1938.8,
+   "en": "Here's what else you need to know today. Venezuela's most popular opposition leader, María Corina Machado, returned to the country on Sunday after nearly a year in exile.",
+   "ko": "오늘 전해드릴 다른 소식입니다. 베네수엘라의 가장 인기 있는 야권 지도자 마리아 코리나 마차도가 거의 1년 동안의 망명 생활을 마치고 일요일에 귀국했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1951.4,
+   "en": "Her arrival increases pressure on Venezuela's authoritarian government, which is backed by the United States, to begin a transition toward democracy.",
+   "ko": ""
+  },
+  {
+   "start": 1961.6,
+   "en": "Anne.",
+   "ko": ""
+  },
+  {
+   "start": 1964.3,
+   "en": "You've noticed that he seems very focused on home renovations.",
+   "ko": ""
+  },
+  {
+   "start": 1970.6,
+   "en": "He should be on HGTV.",
+   "ko": ""
+  },
+  {
+   "start": 1972.9,
+   "en": "Over the weekend, former President Barack Obama made his first appearance at a midterm campaign rally on behalf of Ohio Democrat Amy Acton and delivered unusually personal attacks against President Trump.",
+   "ko": "주말 동안 버락 오바마 전 대통령은 오하이오주 민주당 후보 에이미 액튼을 위해 중간 선거 유세에 처음으로 모습을 드러냈으며, 트럼프 대통령을 향해 이례적으로 개인적인 비난을 쏟아냈습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 2008.4,
+   "en": "Meanwhile, President Trump is intensifying efforts to intervene in the midterm elections. Soon after, the administration sent letters to local election officials across California, demanding that they help identify potential non-citizens on the voter rolls.",
+   "ko": "한편, 트럼프 대통령은 중간 선거에 개입하려는 노력을 강화하고 있습니다. 직후, 정부는 캘리포니아 전역의 지역 선거 관리들에게 서한을 보내 유권자 명부에서 시민권자가 아닐 가능성이 있는 사람들을 식별하는 데 협조할 것을 요구했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 2044.7,
+   "en": "and set aside all of their balance.",
+   "ko": ""
+  },
+  {
+   "start": 2047.9,
+   "en": "To",
+   "ko": ""
+  },
+  {
+   "start": 2052.6,
+   "en": "Today's episode was produced by Carlos Prieto, Adrienne Hurst, Jessica Cheung, and Rochelle Bonja. It was edited by Marc Georges and Devin Taylor, contains music by Marion Lozano and Dan Powell, and was engineered by Alyssa Moxley.",
+   "ko": "오늘 에피소드는 카를로스 프리에토, 에이드리언 허스트, 제시카 청, 로셸 본자가 제작했습니다. 마크 조지스와 데빈 테일러가 편집했고, 마리온 로자노와 댄 파월의 음악이 포함되었으며, 알리사 목슬리가 엔지니어링을 맡았습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 2068.9,
+   "en": "Our theme music is by Wonderly. That's it for the Daily. I'm Michael Barbaro. See you tomorrow.",
+   "ko": "주제곡은 원더리의 작품입니다. 오늘 '더 데일리'는 여기까지입니다. 저는 마이클 바바로였습니다. 내일 뵙겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 2093.2,
+   "en": "I'm Gilbert Cruz. This week on the Book Review podcast, we have a special Halloween treat, or trick, or treat. Two horror writers recommend some titles that are sure to keep you up at night.",
+   "ko": "길버트 크루즈입니다. 이번 주 북 리뷰 팟캐스트에서는 특별한 할로윈 선물 혹은 장난, 선물을 준비했습니다. 두 명의 공포 작가가 밤잠을 설치게 할 책들을 추천합니다.",
+   "speaker": "Gilbert Cruz",
+   "ad": true
+  },
+  {
+   "start": 2104.7,
+   "en": "I am a big fan of sentient houses in general.",
+   "ko": ""
+  },
+  {
+   "start": 2107.6,
+   "en": "I think this is one of the scariest books that I've ever read.",
+   "ko": ""
+  },
+  {
+   "start": 2109.8,
+   "en": "Listen to the Book Review, wherever you get your podcasts. That door shouldn't be open. Who left it open?",
+   "ko": "팟캐스트를 듣는 어디에서나 북 리뷰를 들어보세요. 저 문은 열려 있으면 안 되는데. 누가 열어둔 거죠?",
+   "speaker": "Gilbert Cruz",
+   "ad": true
+  }
+ ]
+}
