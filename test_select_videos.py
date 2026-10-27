@@ -116,9 +116,9 @@ class TestClassifyVideos:
         v["summary"] = "A conversation about   economic growth\nand why it feels invisible. " + "x" * 500
         with patch("write_articles.client.models.generate_content",
                    return_value=fake_response(domains_json("business"))) as call:
-            classify_videos([v], model="gemini-3.5-flash")
+            classify_videos([v], model="gemini-3.6-flash")
         kwargs = call.call_args.kwargs
-        assert kwargs["model"] == "gemini-3.5-flash"
+        assert kwargs["model"] == "gemini-3.6-flash"
         assert "A conversation about economic growth and why it feels invisible." in kwargs["contents"]
         assert "x" * 300 not in kwargs["contents"]  # only the opening goes in
 

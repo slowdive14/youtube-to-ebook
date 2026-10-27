@@ -7,9 +7,10 @@ this labels them the same way, from each article's title, channel and the
 opening of its episode summary.
 
 Many articles go in one request (--batch, default 80), so the whole archive
-of ~430 articles is about 6 requests. Runs on gemini-3.5-flash by default, NOT
-the pipeline's gemini-2.5-flash: free-tier quotas are per model (20/day) and
-the morning run spends ~15 of 2.5-flash's.
+of ~430 articles is about 6 requests. Starts at gemini-3.6-flash by default,
+NOT the pipeline's first model (gemini_models.DEFAULT_CHAIN[0]): free-tier
+quotas are per model and the morning run needs that one. When a model runs
+out, the request moves on down the chain.
 
 Only `category:` lines are added; nothing else in the file changes. Articles
 that already have one are left alone unless --force. An article the model
@@ -114,8 +115,8 @@ def main():
     parser.add_argument("--batch", type=int, default=80, help="articles per request")
     parser.add_argument("--delay", type=float, default=5.0, help="seconds between requests")
     parser.add_argument("--force", action="store_true", help="relabel articles that have a category")
-    parser.add_argument("--model", default="gemini-3.5-flash",
-                        help="Gemini model (default keeps off the pipeline's 2.5-flash quota)")
+    parser.add_argument("--model", default="gemini-3.6-flash",
+                        help="first Gemini model to ask (default keeps off the pipeline's first model)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 

@@ -305,14 +305,15 @@ def _vision_pick(client, caption, candidate_paths):
         with open(p, "rb") as f:
             parts.append(types.Part.from_bytes(data=f.read(), mime_type="image/jpeg"))
     try:
-        resp = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=parts,
-            config=types.GenerateContentConfig(
+        from gemini_models import generate
+        resp = generate(
+            client,
+            parts,
+            types.GenerateContentConfig(
                 max_output_tokens=200,
                 temperature=0.1,
-                thinking_config=types.ThinkingConfig(thinking_budget=0),
             ),
+            fast=True,
         )
         from write_articles import _log_usage_metadata
         _log_usage_metadata(resp, label='Vision-pick')

@@ -23,8 +23,11 @@ from dotenv import load_dotenv
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini client
+# Configure Gemini client. Every call goes through gemini_models.generate,
+# which moves to the next free model when one runs out of quota.
 client = genai.Client(api_key=GEMINI_API_KEY)
+
+from gemini_models import generate, NoModelLeft  # noqa: E402 — after load_dotenv
 
 # Rate limit settings
 REQUEST_DELAY = 15  # seconds between requests to avoid rate limits
@@ -220,22 +223,22 @@ TRANSCRIPT:
                 print(f"  [.] Waiting {REQUEST_DELAY}s between requests...")
                 time.sleep(REQUEST_DELAY)
 
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(
+            response = generate(
+                client,
+                prompt,
+                types.GenerateContentConfig(
                     max_output_tokens=8000,
                     temperature=0.7,
-                )
+                ),
             )
             _log_usage_metadata(response, label='Article')
             return response.text
 
         except Exception as e:
             error_str = str(e).lower()
-            
+
             # Check for overload (503), rate limit (429), or internal error (500)
-            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            is_transient = not isinstance(e, NoModelLeft) and any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
             
             if is_transient and attempt < MAX_RETRIES - 1:
                 print(f"  [!] API Issue detected ({error_str[:60]}...).")
@@ -371,9 +374,10 @@ def _call_summary_api(prompt, max_output_tokens):
     truncation. The caller decides whether to retry for truncation.
     Returns (None, '') only after all transient retries are exhausted.
 
-    CRITICAL: Gemini 2.5 Flash enables "thinking" by default, and thinking
-    tokens are counted against max_output_tokens. For a focused extraction
-    task that yields silent mid-word truncation, so thinking_budget=0.
+    CRITICAL: Gemini enables "thinking" by default, and thinking tokens are
+    counted against max_output_tokens. For a focused extraction task that
+    yields silent mid-word truncation, so the call asks for the least
+    thinking the model accepts (fast=True).
     """
     retry_wait = 5
     for attempt in range(MAX_RETRIES):
@@ -381,14 +385,14 @@ def _call_summary_api(prompt, max_output_tokens):
             if attempt > 0:
                 time.sleep(retry_wait)
 
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(
+            response = generate(
+                client,
+                prompt,
+                types.GenerateContentConfig(
                     max_output_tokens=max_output_tokens,
                     temperature=0.5,
-                    thinking_config=types.ThinkingConfig(thinking_budget=0),
-                )
+                ),
+                fast=True,
             )
 
             _log_usage_metadata(response, label='Summary')
@@ -400,7 +404,7 @@ def _call_summary_api(prompt, max_output_tokens):
 
         except Exception as e:
             error_str = str(e).lower()
-            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            is_transient = not isinstance(e, NoModelLeft) and any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
             if is_transient and attempt < MAX_RETRIES - 1:
                 print(f"  [!] Summary API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
                 retry_wait *= 2
@@ -507,11 +511,12 @@ def generate_section_summaries(article_md, language='en', is_first=True):
 
 
 def generate_section_guide(article_md, language='en', is_first=True, segments=None,
-                           model='gemini-2.5-flash'):
+                           model=None):
     """Summarize every section of a finished article in one Gemini call.
 
-    ``model`` exists for backfills: free-tier quotas are per model, so a
-    backfill run on a different model can't eat the daily pipeline's budget.
+    ``model`` is the first model to ask (the rest of the chain follows). It
+    exists for backfills: free-tier quotas are per model, so a backfill that
+    starts lower down the chain leaves the newest model to the daily pipeline.
 
     Returns ``(summaries, times)``:
       - summaries: {heading_text: summary} — the click-to-expand line under
@@ -631,15 +636,16 @@ Reply with JSON only:
             if attempt > 0:
                 time.sleep(retry_wait)
 
-            response = client.models.generate_content(
-                model=model,
-                contents=prompt,
-                config=types.GenerateContentConfig(
+            response = generate(
+                client,
+                prompt,
+                types.GenerateContentConfig(
                     max_output_tokens=3000,
                     temperature=0.4,
                     response_mime_type='application/json',
-                    thinking_config=types.ThinkingConfig(thinking_budget=0),
-                )
+                ),
+                first=model,
+                fast=True,
             )
             _log_usage_metadata(response, label='Section-summaries')
             text = response.text or ""
@@ -651,7 +657,7 @@ Reply with JSON only:
 
         except Exception as e:
             error_str = str(e).lower()
-            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            is_transient = not isinstance(e, NoModelLeft) and any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
             if is_transient and attempt < MAX_RETRIES - 1:
                 print(f"  [!] Section-summary API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
                 retry_wait *= 2
@@ -1080,21 +1086,21 @@ def select_frame_moments(video, article, n=4):
         try:
             if attempt > 0:
                 time.sleep(retry_wait)
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(
+            response = generate(
+                client,
+                prompt,
+                types.GenerateContentConfig(
                     max_output_tokens=2000,
                     temperature=0.4,
-                    thinking_config=types.ThinkingConfig(thinking_budget=0),
-                )
+                ),
+                fast=True,
             )
             _log_usage_metadata(response, label='Frame-select')
             moments = parse_frame_moments(response.text or "")
             return clamp_and_dedupe(moments, duration=duration, max_n=n)
         except Exception as e:
             error_str = str(e).lower()
-            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            is_transient = not isinstance(e, NoModelLeft) and any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
             if is_transient and attempt < MAX_RETRIES - 1:
                 print(f"  [!] Frame-select API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
                 retry_wait *= 2
@@ -1351,15 +1357,15 @@ def generate_speaking_prompt(en_articles, avoid=None):
         try:
             if attempt > 0:
                 time.sleep(retry_wait)
-            response = client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=prompt,
-                config=types.GenerateContentConfig(
+            response = generate(
+                client,
+                prompt,
+                types.GenerateContentConfig(
                     max_output_tokens=1500,
                     temperature=0.85,
                     response_mime_type='application/json',
-                    thinking_config=types.ThinkingConfig(thinking_budget=0),
-                )
+                ),
+                fast=True,
             )
             _log_usage_metadata(response, label='Speaking-prompt')
             sp = parse_speaking_prompt(response.text or "")
@@ -1369,7 +1375,7 @@ def generate_speaking_prompt(en_articles, avoid=None):
             return sp
         except Exception as e:
             error_str = str(e).lower()
-            is_transient = any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
+            is_transient = not isinstance(e, NoModelLeft) and any(msg in error_str for msg in ['503', 'overloaded', '429', 'quota', '500', 'internal server error'])
             if is_transient and attempt < MAX_RETRIES - 1:
                 print(f"  [!] Speaking-prompt API issue ({error_str[:60]}...). Retrying in {retry_wait}s...")
                 retry_wait *= 2
@@ -1391,7 +1397,7 @@ if __name__ == "__main__":
         "transcript": "Hello everyone, today we're going to talk about something really exciting. I've been working on this project for months and I can't wait to share it with you. The main idea is simple but powerful..."
     }
 
-    print("Testing article generation with gemini-2.5-flash...")
+    print("Testing article generation (model chain from gemini_models)...")
     article = write_article(test_video, is_first=True)
     if article:
         print("\nGenerated article:\n")

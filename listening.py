@@ -43,9 +43,13 @@ import requests
 from google import genai
 from google.genai import types
 
+# The first model asked. It is the one these transcripts were tuned and
+# checked on; when it is overloaded or out of quota, the rest of
+# gemini_models' chain follows.
 LISTENING_MODEL = os.getenv("LISTENING_MODEL", "gemini-3-flash-preview")
-# Tried when the main model is overloaded (503) or out of quota (429).
-LISTENING_FALLBACK_MODEL = os.getenv("LISTENING_FALLBACK_MODEL", "gemini-3.5-flash")
+# A 40-minute block is ~25k output tokens, which a slow free-key model can
+# take many minutes to write.
+LISTENING_TIMEOUT = 30 * 60
 # How many episodes a day get a transcript (each costs 1-2 requests).
 LISTENING_PER_DAY = int(os.getenv("LISTENING_PER_DAY", "2"))
 # Local speech recognition model (faster-whisper). small.en spells names
@@ -323,24 +327,23 @@ def align_segments(words, rows):
 
 
 def _generate(client, prompt):
-    """One Gemini call, falling back to a second model on overload or quota."""
-    last_error = None
-    for model in [LISTENING_MODEL, LISTENING_FALLBACK_MODEL]:
-        try:
-            resp = client.models.generate_content(
-                model=model,
-                contents=[prompt],
-                config=types.GenerateContentConfig(
-                    response_mime_type="application/json",
-                    response_schema=SCHEMA,
-                    max_output_tokens=65536,
-                ),
-            )
-            return json.loads(resp.text or "[]")
-        except Exception as e:  # noqa: BLE001 — any API failure tries the fallback
-            last_error = e
-            print(f"  [!] {model} failed: {str(e)[:120]}")
-    raise RuntimeError(f"Gemini failed: {last_error}")
+    """One Gemini call, moving down the model chain on overload or quota."""
+    from gemini_models import generate
+    try:
+        resp = generate(
+            client,
+            [prompt],
+            types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=SCHEMA,
+                max_output_tokens=65536,
+            ),
+            first=LISTENING_MODEL,
+            timeout=LISTENING_TIMEOUT,
+        )
+    except Exception as e:  # noqa: BLE001 — the episode is skipped, never the digest
+        raise RuntimeError(f"Gemini failed: {e}") from e
+    return json.loads(resp.text or "[]")
 
 
 def transcribe_episode(audio_url, client, title=""):

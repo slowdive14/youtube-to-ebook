@@ -127,13 +127,15 @@ def _listing_line(i, video):
     return line
 
 
-def classify_videos(videos, model='gemini-2.5-flash', fallback=True):
+def classify_videos(videos, model=None, fallback=True):
     """Label every video with a subject area.
 
     Returns [(video, domain)] in the input order. A video the model didn't
     label gets the keyword heuristic's guess — or None with fallback=False,
     which the archive backfill uses so a guess never gets written in for good.
     A video's "summary", when it has one, goes in alongside its title.
+    `model` is the first model to ask; the rest of gemini_models' chain
+    follows when it is out of quota.
     """
     if not videos:
         return []
@@ -143,18 +145,19 @@ def classify_videos(videos, model='gemini-2.5-flash', fallback=True):
     labels = {}
     try:
         from google.genai import types
-        from write_articles import client, _log_usage_metadata
+        from write_articles import client, generate, _log_usage_metadata
 
-        response = client.models.generate_content(
-            model=model,
-            contents=CLASSIFY_PROMPT.format(listing=listing),
-            config=types.GenerateContentConfig(
+        response = generate(
+            client,
+            CLASSIFY_PROMPT.format(listing=listing),
+            types.GenerateContentConfig(
                 # ~15 tokens per row; a backfill sends dozens at once
                 max_output_tokens=max(1000, 30 * len(videos)),
                 temperature=0.1,
                 response_mime_type='application/json',
-                thinking_config=types.ThinkingConfig(thinking_budget=0),
             ),
+            first=model,
+            fast=True,
         )
         _log_usage_metadata(response, label='Video-classify')
         labels = parse_domains(response.text or "", len(videos))

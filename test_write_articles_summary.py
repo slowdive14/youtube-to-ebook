@@ -154,7 +154,8 @@ def video():
 
 class TestGenerateSummaryConfig:
     def test_thinking_is_disabled_in_config(self, video):
-        """Phase 2 contract: summary calls must set thinking_budget=0."""
+        """Phase 2 contract: summary calls must minimize thinking — budget 0 on
+        Gemini 2.5, the minimal level on Gemini 3 (which refuses budget 0)."""
         with patch('write_articles.client') as mock_client, \
              patch('write_articles.time.sleep'):
             mock_client.models.generate_content.return_value = _mock_response(
@@ -165,11 +166,11 @@ class TestGenerateSummaryConfig:
             assert mock_client.models.generate_content.called
             kwargs = mock_client.models.generate_content.call_args.kwargs
             cfg = kwargs['config']
-            # The config must carry a ThinkingConfig with budget 0
+            # The config must carry the least-thinking setting for its model
+            from gemini_models import fast_thinking
             thinking_cfg = getattr(cfg, 'thinking_config', None)
             assert thinking_cfg is not None, "thinking_config must be set"
-            budget = getattr(thinking_cfg, 'thinking_budget', None)
-            assert budget == 0, f"thinking_budget must be 0, got {budget}"
+            assert thinking_cfg == fast_thinking(kwargs['model'])
 
     def test_token_cap_is_at_least_4000(self, video):
         with patch('write_articles.client') as mock_client, \

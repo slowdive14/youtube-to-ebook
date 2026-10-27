@@ -223,10 +223,11 @@ class TestGenerate:
             d = generate_speaking_prompt([SAMPLE_ARTICLE])
             assert d is not None
             assert d["frame"].startswith("I think")
-            # thinking disabled like the other extraction calls
-            cfg = mock_client.models.generate_content.call_args.kwargs["config"]
-            tc = getattr(cfg, "thinking_config", None)
-            assert tc is not None and getattr(tc, "thinking_budget", None) == 0
+            # thinking minimized like the other extraction calls, in the form
+            # the model asked accepts (budget 0 on 2.5, minimal level on 3.x)
+            from gemini_models import fast_thinking
+            kwargs = mock_client.models.generate_content.call_args.kwargs
+            assert kwargs["config"].thinking_config == fast_thinking(kwargs["model"])
 
     def test_empty_articles_returns_none_without_call(self):
         with patch("write_articles.client") as mock_client:

@@ -203,10 +203,11 @@ class TestSelectFrameMoments:
             moments = select_frame_moments(video, article, n=4)
             assert len(moments) == 2
             assert moments[0]["seconds"] == 90
-            # thinking disabled like the other extraction calls
-            cfg = mock_client.models.generate_content.call_args.kwargs["config"]
-            tc = getattr(cfg, "thinking_config", None)
-            assert tc is not None and getattr(tc, "thinking_budget", None) == 0
+            # thinking minimized like the other extraction calls, in the form
+            # the model asked accepts (budget 0 on 2.5, minimal level on 3.x)
+            from gemini_models import fast_thinking
+            kwargs = mock_client.models.generate_content.call_args.kwargs
+            assert kwargs["config"].thinking_config == fast_thinking(kwargs["model"])
 
     def test_no_segments_returns_empty_without_api_call(self):
         video = {"title": "T", "channel": "C", "transcript_segments": []}

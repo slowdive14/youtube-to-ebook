@@ -10,11 +10,12 @@ in the same single request. Existing [[SUM]] lines are replaced.
 One Gemini request per article per language (same as the summary backfill)
 plus one free transcript fetch per video, shared by its EN and KO halves.
 
-Runs on gemini-3.5-flash by default, NOT the pipeline's gemini-2.5-flash.
-Free-tier quotas are per model (20 requests/day each), and the daily pipeline
-spends ~15 of 2.5-flash's 20 every morning — a backfill on the same model
-would make the next morning's run fail. Every Pacific day contains exactly one
-pipeline run, so there is no "quiet window" on the same model.
+Starts at gemini-3.6-flash by default, NOT the pipeline's first model
+(gemini_models.DEFAULT_CHAIN[0]). Free-tier quotas are per model (~20
+requests/day each), and every Pacific day contains exactly one morning
+pipeline run, so there is no "quiet window" on the pipeline's model. When the
+backfill's model runs out, requests move on down the chain and reach the
+pipeline's model last.
 
 Works article by article: an article that already has clips is left alone
 (including any hand corrections), so a partly-done issue can be completed
@@ -131,8 +132,8 @@ def main():
     parser.add_argument("--limit", type=int, default=0, help="only the N newest issues")
     parser.add_argument("--delay", type=float, default=4.0, help="seconds between API calls")
     parser.add_argument("--force", action="store_true", help="redo articles that already have clips")
-    parser.add_argument("--model", default="gemini-3.5-flash",
-                        help="Gemini model (default keeps off the pipeline's 2.5-flash quota)")
+    parser.add_argument("--model", default="gemini-3.6-flash",
+                        help="first Gemini model to ask (default keeps off the pipeline's first model)")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
