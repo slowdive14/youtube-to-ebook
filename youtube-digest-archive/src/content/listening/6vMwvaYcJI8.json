@@ -1,0 +1,311 @@
+{
+ "id": "6vMwvaYcJI8",
+ "title": "In 'Friends and Family,' a police encounter strains a friendship between two moms",
+ "show": "NPR's Book of the Day",
+ "channel": "NPR Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=6vMwvaYcJI8",
+ "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510364/npr.simplecastaudio.com/c3f326c7-02ae-4df0-b95a-b35e58973e1a/episodes/1d4ef2ae-eb99-4acc-9e46-44b1ca29acf5/audio/128/default.mp3?awCollectionId=c3f326c7-02ae-4df0-b95a-b35e58973e1a&awEpisodeId=1d4ef2ae-eb99-4acc-9e46-44b1ca29acf5&feed=tZrJMl4P&t=podcast&e=nx-s1-6019729&p=510364&d=535&size=8570298",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/4d/f3/be4df3ee-9e29-a241-ad76-bff3340367ec/mza_2252231738948951863.jpg/600x600bb.jpg",
+ "duration": 655,
+ "releaseDate": "2026-10-28T07:00:00Z",
+ "addedAt": "2026-10-28",
+ "segments": [
+  {
+   "start": 1.9,
+   "en": "Hey, it's NPR's Book of the Day. I'm Andrew Limbong. You can try to do the best for your kid and come up short.",
+   "ko": "안녕하세요, NPR의 '오늘의 책'입니다. 저는 앤드류 림봉입니다. 자녀를 위해 최선을 다하려고 노력해도 뜻대로 되지 않을 때가 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 9.5,
+   "en": "You can read all the books and listen to all the podcasts and do all of that stuff and still find yourself in a position where you're out of your depth.",
+   "ko": "관련 서적을 모두 읽고 팟캐스트를 전부 듣는 등 온갖 노력을 다해도, 여전히 자신이 감당하기 벅찬 상황에 처해 있음을 깨닫게 될 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 17.4,
+   "en": "The new novel Friends and Family looks at two mom friends, one of whom for reasons you'll find out in the interview, needs to talk to her kid about the police.",
+   "ko": "신간 소설 '프렌즈 앤 패밀리(Friends and Family)'는 두 엄마 친구의 이야기를 다룹니다. 그중 한 명은 인터뷰를 통해 알게 될 어떤 이유로 자녀에게 경찰에 대해 이야기해야 하는 상황에 놓입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 26.7,
+   "en": "It's written by Natalie Bazil, whose own kid had a run-in with the police. Bazil talks to NPR's Juana Summers about how that incident led to this novel, and about the limits of privilege for black Americans. That's coming up.",
+   "ko": "이 책은 실제로 자녀가 경찰과 마찰을 빚었던 나탈리 바질이 집필했습니다. 바질은 NPR의 주아나 서머즈와 함께 그 사건이 어떻게 이 소설로 이어졌는지, 그리고 흑인 미국인들이 누리는 특권의 한계에 대해 이야기 나눕니다. 곧 시작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 41.2,
+   "en": "This election season, let the NPR Politics podcast save your time and your sanity.",
+   "ko": "이번 선거철에는 NPR 정치 팟캐스트가 여러분의 시간과 정신 건강을 지켜드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 46.2,
+   "en": "It will help you understand key races, which polls you can safely ignore, and what might happen if power shifts in Congress.",
+   "ko": "주요 경합지 이해를 돕고, 어떤 여론조사를 무시해도 되는지, 의회 권력이 바뀔 경우 어떤 일이 일어날지 짚어드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 53.2,
+   "en": "Our short daily episodes come out every afternoon so you can spend less time scrolling through each chaotic news cycle. Make NPR Politics your hub for midterm election coverage.",
+   "ko": "매일 오후 짧은 에피소드가 업데이트되므로 혼란스러운 뉴스 사이클을 일일이 확인하는 시간을 줄일 수 있습니다. NPR 정치를 중간선거 보도의 중심지로 삼아보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 78.8,
+   "en": "To the real Titans of this industry. You can find Machine Gods from NPR on the NPR app, or wherever you get your podcasts.",
+   "ko": "이 업계의 진정한 거물들에게. NPR의 '머신 가즈(Machine Gods)'는 NPR 앱이나 팟캐스트를 듣는 모든 곳에서 만나보실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 94.2,
+   "en": "Author Natalie Bazil was headed out of town in 2016 when her phone rang. When she picked up, she learned a neighbor had called the police on her teenage daughter and her friends.",
+   "ko": "작가 나탈리 바질은 2016년 어느 날 마을을 떠나던 중 전화를 받았습니다. 전화를 받았을 때, 그녀는 한 이웃이 자신의 십 대 딸과 친구들을 경찰에 신고했다는 사실을 알게 되었습니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 104.3,
+   "en": "The police questioned the kids and then they left, but the incident was especially intense for the only other black kid in the group, a kid with white adoptive parents.",
+   "ko": "경찰은 아이들을 심문한 뒤 떠났지만, 그 사건은 그룹 내 유일한 다른 흑인 아이에게 특히 강렬한 충격이었습니다. 그 아이는 백인 양부모를 둔 아이였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 113.5,
+   "en": "And the dynamics that unfolded between our family and the family of this young man were fascinating as we tried to get to the bottom of who called and why and how are we going to deal with this incident?",
+   "ko": "누가 왜 신고했는지, 그리고 이 사건에 어떻게 대처할 것인지 파악하려 노력하는 과정에서 우리 가족과 그 청년의 가족 사이에 펼쳐진 역학 관계는 매우 흥미로웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 126.5,
+   "en": "It became very obvious to me that there was a novel there, even as I was reacting as a parent.",
+   "ko": "부모로서 반응하는 와중에도, 이 이야기가 소설이 될 수 있다는 사실이 제게는 매우 분명해졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 131.8,
+   "en": "This incident is the spark for Bazil's new novel Friends and Family. It zeros in on the intricacies of a close friendship between two moms, Babs a black woman and Nora, a white woman with an adopted son, after an encounter with the police.",
+   "ko": "이 사건은 바질의 새 소설 '프렌즈 앤 패밀리'의 기폭제가 되었습니다. 이 책은 경찰과의 마주침 이후, 흑인 여성 밥스와 입양된 아들을 둔 백인 여성 노라라는 두 엄마의 긴밀한 우정 속에 담긴 복잡한 내막을 파고듭니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 145.6,
+   "en": "And through the lens of their friendship, Bazil wrestles with questions of race and allyship that are personal to both herself and her family.",
+   "ko": "그리고 그들의 우정이라는 렌즈를 통해, 바질은 자신과 가족 모두에게 개인적인 문제인 인종과 연대(allyship)에 관한 질문들과 씨름합니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 153.7,
+   "en": "We live in San Francisco, a city that prides itself on being progressive and open-minded and inclusive, and that was also part of the interest to me and the attraction was this idea that this kind of thing isn't supposed to happen in San Francisco.",
+   "ko": "우리는 진보적이고 개방적이며 포용적인 도시라고 자부하는 샌프란시스코에 살고 있습니다. 이런 일이 샌프란시스코에서는 일어나지 않아야 한다는 생각이 제게는 흥미로웠고 매력적인 부분이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 170.0,
+   "en": "These kinds of things happen elsewhere.",
+   "ko": "이런 일들은 다른 곳에서나 일어나는 법이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 172.1,
+   "en": "You've said that that incident made you question your own relative privilege, as well as what it protected you from. What do you mean by that?",
+   "ko": "그 사건을 계기로 본인이 가진 상대적 특권은 물론, 그 특권이 무엇으로부터 보호해 주었는지 의문을 갖게 되었다고 하셨는데요. 어떤 의미인가요?",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 178.5,
+   "en": "You know, in the wake of that incident, Juana, as I really began to look at the assumptions that I had made as an African-American woman, who, you know, has worked hard.",
+   "ko": "아시다시피 주아나 씨, 그 사건 이후 제가 열심히 일하며 살아온 한 아프리카계 미국인 여성으로서 가졌던 가정들을 정말로 들여다보기 시작했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 190.5,
+   "en": "My husband and I have also, you know, we've been married a long time. We've put our backs into climbing, you know, the any number of ladders, social and economic.",
+   "ko": "남편과 저는 결혼 생활도 오래되었고, 사회적, 경제적 사다리를 오르기 위해 온 힘을 다해 노력하며 살아왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 201.0,
+   "en": "And, you know, watching these events unfold. And then writing the book, I really had to ask myself, you know, what assumptions have I made about my safety, about my relative privilege, about how I see the world?",
+   "ko": "그런데 이런 일들이 벌어지는 것을 지켜보며, 그리고 책을 쓰면서 제 자신에게 정말 물어야 했습니다. 제 안전과 상대적 특권, 그리고 세상을 바라보는 방식에 대해 어떤 가정을 하고 있었는지를요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 217.0,
+   "en": "And it was really an opportunity for me to reflect on, you know, the rules that maybe I have bought into, the ideas that I have bought into as just an American.",
+   "ko": "그것은 단지 한 미국인으로서 제가 수용해 왔을지 모를 규칙들, 제가 믿어왔던 생각들을 되돌아볼 수 있는 진정한 기회였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 228.7,
+   "en": "I have to say, Natalie, as I was reading your book, the thing that kept coming up for me over and over again was just replaying in my head some of the conversations that I had with white friends in and around 2020 after the killing of George Floyd.",
+   "ko": "나탈리 씨, 책을 읽으면서 2020년 조지 플로이드 사망 사건 이후 백인 친구들과 나눴던 대화들이 머릿속에서 계속해서 되풀이되었습니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 241.0,
+   "en": "It was something that tested a number of my oldest friendships and some of them did not survive because I realized we frankly weren't speaking the same language or living in the same reality. And I wonder if that came up for you too as you were writing?",
+   "ko": "그것은 저의 오래된 우정들을 시험대에 올린 사건이었고, 우리가 솔직히 같은 언어를 말하고 있지 않거나 같은 현실 속에 살고 있지 않다는 것을 깨달으면서 몇몇 관계는 끝나버렸습니다. 집필하시면서 작가님께도 그런 경험이 있었는지 궁금합니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 253.3,
+   "en": "Absolutely. Although I started the book in 2016, 2017 in the wake of this police encounter, I was still working on the book in 2020 in the wake of George Floyd and all of the social upheaval that happened then.",
+   "ko": "물론입니다. 경찰과의 마주침 이후인 2016년, 2017년에 집필을 시작했지만, 조지 플로이드 사건과 그로 인한 모든 사회적 격변이 일어났던 2020년에도 여전히 이 책을 작업하고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 269.8,
+   "en": "And I had to grapple with those feelings of rage and anger and disappointment and frustration. And I really had to examine my friendships with people.",
+   "ko": "분노와 화, 실망감, 좌절감과 씨름해야 했고, 제 인간관계들을 정말로 면밀히 살펴보아야 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 282.1,
+   "en": "You know, I have plenty of white friends and most of them have really, they are good people and want to do the right thing. But it was a struggle.",
+   "ko": "백인 친구들이 많고 그들 중 대부분은 정말 좋은 사람들이며 옳은 일을 하고 싶어 합니다. 하지만 그것은 고군분투였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 292.1,
+   "en": "I won't lie to really examine those friendships and to figure out what I was willing to explain what I was willing to indulge, what I didn't have time for. And it was really a challenging time. It was a challenging time. But it made for a better book, I think.",
+   "ko": "솔직히 말씀드리면, 그 우정들을 되짚어보며 무엇을 기꺼이 설명하고, 무엇을 기꺼이 받아들일지, 아니면 무엇에 더 이상 시간을 낭비하지 않을지 결정하는 것은 정말 힘든 시간이었습니다. 하지만 그 덕분에 더 좋은 책이 나올 수 있었다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 313.2,
+   "en": "Babs has spent years helping Nora understand how to raise Nathan, who is her black son. And I was really interested in this and how you thought about the emotional labor that we as black people and especially as black women are often expected to perform in interracial relationships.",
+   "ko": "밥스는 노라가 흑인 아들인 네이선을 어떻게 키워야 하는지 이해할 수 있도록 수년간 도왔습니다. 흑인으로서, 특히 흑인 여성으로서 인종 간 관계에서 흔히 요구받는 정서적 노동에 대해 작가님이 어떻게 생각하시는지 정말 궁금했습니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 329.5,
+   "en": "I think in my own life, I was feeling exhausted, you know, especially 2020, 2021, 2022, I was looking at the time and the energy that I had invested, that invisible labor that I had done to really prop up and support so many people.",
+   "ko": "제 삶 속에서 저는 지쳐가고 있었던 것 같아요. 특히 2020년에서 2022년 사이, 수많은 사람을 지탱하고 지원하기 위해 제가 쏟아부은 시간과 에너지, 그 보이지 않는 노동을 돌아보게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 348.7,
+   "en": "And I thought it was important for Babs to be a character who is willing to acknowledge to herself ultimately that she's tired. You know, she needs a break.",
+   "ko": "그래서 밥스라는 캐릭터가 결국 스스로가 지쳤음을 기꺼이 인정하는 인물이 되는 것이 중요하다고 생각했습니다. 그녀에겐 휴식이 필요했던 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 359.0,
+   "en": "She needs to step back a bit and look at what she needs rather than always putting other people first, especially with Nora, who, you know, as things unfold, she realizes she has been doing a lot of work to keep this woman propped up to help her understand. And Babs reaches a breaking point.",
+   "ko": "항상 남을 우선시하기보다 한 발짝 물러나 자신에게 필요한 것이 무엇인지 살펴볼 필요가 있었습니다. 특히 이야기가 전개되면서 밥스는 노라를 지탱해 주고 이해시키기 위해 자신이 엄청난 노력을 해왔다는 걸 깨닫고 임계점에 도달하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 380.2,
+   "en": "Babs and Nora are two really different moms, but I do feel like they both believe they're doing what is best for their children and to protect their children. But that definitely does not look the same.",
+   "ko": "밥스와 노라는 정말 다른 엄마들이지만, 두 사람 모두 자녀를 위해 최선의 노력을 다하고 자녀를 보호하고 있다고 믿는 것 같아요. 하지만 그 방식은 확실히 같아 보이지 않습니다.",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 392.9,
+   "en": "How do their respective races and levels of privilege shape what safety and protection means as it relates to their kids?",
+   "ko": "그들 각자의 인종과 특권의 정도가 자녀와 관련된 안전과 보호의 의미를 어떻게 형성하나요?",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 402.0,
+   "en": "You know, I think in the case of Nora the wealthy third generation San Franciscan who has really known nothing but privilege I think Nora comes into this thinking that love and kindness and open-heartedness and her wealth can almost lift Nathan, her adopted black son, out of race, right, into class.",
+   "ko": "부유한 샌프란시스코 3세대로서 특권만을 누려온 노라의 경우, 사랑과 친절, 열린 마음 그리고 자신의 부가 입양한 흑인 아들 네이선을 인종의 굴레에서 벗어나게 해 줄 수 있다고 생각한 것 같습니다. 계층의 영역으로 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 428.0,
+   "en": "I think that she goes through life thinking, you know, that there's very little that money can't buy. And when this eruption happens, I think that Nora really hopes that that kind of open-heartedness will be enough to protect her son.",
+   "ko": "그녀는 돈으로 살 수 없는 것은 거의 없다고 생각하며 살아왔을 겁니다. 그리고 이 격변이 일어났을 때, 노라는 그런 열린 마음만으로도 아들을 보호하기에 충분하기를 진심으로 바랐을 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 444.5,
+   "en": "Meanwhile, Babs knows that for all of her and Nora's relative privilege, there are certain things that the world just is unforgiving about. And that is what she really brings to that friendship.",
+   "ko": "반면 밥스는 자신과 노라가 누리는 상대적 특권에도 불구하고, 세상이 결코 용납하지 않는 어떤 것들이 있다는 사실을 알고 있습니다. 그리고 그것이 그녀가 그 우정에 실제로 가져오는 통찰입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 460.6,
+   "en": "And that is what she is trying her hardest to tell Nora is, listen, you may have all the money in the world. You may love this child to death, but there are certain lessons that the world is going to teach this young man that your wealth and privilege cannot shield him from, and that's what she so desperately wants Nora to understand.",
+   "ko": "그녀가 노라에게 필사적으로 전하려는 메시지는 이것입니다. '당신이 세상의 모든 돈을 가졌고 이 아이를 죽도록 사랑하더라도, 세상이 이 청년에게 가르쳐 줄 어떤 교훈들은 당신의 부와 특권으로 막아줄 수 없다'는 것이죠. 그녀는 노라가 이 점을 이해하기를 간절히 원합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 485.6,
+   "en": "And ultimately it leads her to make a series of choices when she realizes, you know, maybe Nora's not going to get it.",
+   "ko": "그리고 결국 노라가 결코 이해하지 못할 수도 있다는 것을 깨달았을 때, 밥스는 일련의 선택을 내리게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 492.2,
+   "en": "This might be a question that's hard to answer, and I don't even know how I would answer it myself, but do you think that white Americans and black Americans can be in full relationship with each other?",
+   "ko": "답하기 어려운 질문일 수도 있고, 저조차도 어떻게 답해야 할지 모르겠지만, 백인 미국인과 흑인 미국인이 서로 온전한 관계를 맺는 것이 가능하다고 생각하시나요?",
+   "speaker": "Guest Host"
+  },
+  {
+   "start": 501.1,
+   "en": "Ooh, that's tough. You know, I want to say yes. I want to say yes because I look at the friendships that I have with both white and black women, especially. And I do think that there is a lot of trust there. There's a lot of intimacy.",
+   "ko": "우와, 어렵네요. 그렇다고 말하고 싶어요. 특히 제가 백인 여성 및 흑인 여성들과 맺고 있는 우정들을 보면 그렇습니다. 그 관계 속에는 많은 신뢰와 친밀함이 있다고 생각하니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 522.6,
+   "en": "But I think it requires a level of vulnerability. And I think that, you know, especially in the last couple of years, the last few years, that has become harder. those relationships are tested more and I think very, you know, fewer and fewer of them survive.",
+   "ko": "하지만 그것은 어느 정도의 취약함을 드러내는 것을 필요로 합니다. 특히 지난 몇 년간 그것이 더 어려워졌다고 생각해요. 그런 관계들은 더 많은 시험을 받게 되었고, 살아남는 관계는 점점 더 줄어들고 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 539.4,
+   "en": "But I think at the end of the day I need to be optimistic. I need to believe that, you know, there are people out there in the world who want authentic connections, who might make mistakes, who might say the wrong thing, but there's no malice there.",
+   "ko": "하지만 결국 저는 낙관적이어야 한다고 생각합니다. 세상에는 진정성 있는 관계를 원하는 사람들이 있고, 비록 실수를 하거나 실언을 할지라도 악의는 없는 사람들이 있다는 것을 믿고 싶어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 555.2,
+   "en": "Because if I give up on that, that makes my world smaller. So although there are frustrations at times, I do think that, you know, friendship, real friendship is possible, but it takes work.",
+   "ko": "그것을 포기해 버리면 제 세상이 너무 좁아지기 때문입니다. 가끔 좌절할 때도 있지만, 진정한 우정은 가능하다고 믿습니다. 다만 노력이 필요할 뿐이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 584.5,
+   "en": "The 2026 midterm elections are upon us. On November 3rd, voters will determine what the next two years of their local leadership and the balance of national government will look like.",
+   "ko": "2026년 중간선거가 다가오고 있습니다. 11월 3일, 유권자들은 향후 2년간의 지역 지도부 구성과 국가 정부의 균형이 어떤 모습일지 결정하게 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 595.7,
+   "en": "Listen to the NPR News Now podcast for all the updates you need ahead of and after November 3rd from NPR News.",
+   "ko": "11월 3일 전후로 필요한 모든 소식을 NPR 뉴스의 'NPR 뉴스 나우(NPR News Now)' 팟캐스트에서 확인하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 632.0,
+   "en": "On Your Turn with Allison Aubrey, two dream analysts explain the power of dreams as a guide for self-exploration.",
+   "ko": "앨리슨 오브리의 '유어 턴(Your Turn)'에서 두 명의 꿈 분석가가 자아 탐색의 가이드로서 꿈이 가진 힘에 대해 설명합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 639.2,
+   "en": "Sometimes, dreams really contain the secret that we need to overcome difficulties, get unstuck, see a different way, and move forward.",
+   "ko": "때때로 꿈은 우리가 어려움을 극복하고, 정체된 상황에서 벗어나 새로운 길을 보며 앞으로 나아가는 데 필요한 비밀을 담고 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 648.2,
+   "en": "All this and more on Your Turn, available on the NPR app, or wherever you get your podcasts.",
+   "ko": "이 모든 것과 그 이상의 이야기를 NPR 앱이나 팟캐스트 플랫폼의 '유어 턴'에서 만나보세요.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}

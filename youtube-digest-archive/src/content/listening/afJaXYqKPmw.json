@@ -1,0 +1,1632 @@
+{
+ "id": "afJaXYqKPmw",
+ "title": "Can You Use AI To Make Good Art? — With Fred Graver",
+ "show": "The Every Podcast",
+ "channel": "Every",
+ "videoUrl": "https://www.youtube.com/watch?v=afJaXYqKPmw",
+ "audioUrl": "https://episode.flightcast.com/01M5ZMA6CQA7GRSPWFZ1E7JB59.mp3",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/71/be/f0/71bef0ec-dbd1-c3a9-64c0-91a546285ab9/mza_3860599204860023380.jpg/600x600bb.jpg",
+ "duration": 3091,
+ "releaseDate": "2026-10-28T20:23:44Z",
+ "addedAt": "2026-10-28",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "The industry is in a tailspin. There are fewer opportunities for writers and producers and people who make things.",
+   "ko": "업계가 곤두박질치고 있습니다. 작가, 프로듀서, 무언가를 만드는 사람들을 위한 기회가 줄어들고 있죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 6.4,
+   "en": "And I really had the conviction that AI can help you figure out who you are, how you have to survive in this world, and also how to make things that will then promote you and promote your career.",
+   "ko": "저는 AI가 여러분이 누구인지, 이 세상에서 어떻게 살아남아야 하는지, 그리고 여러분의 경력을 홍보할 수 있는 것들을 어떻게 만들지 파악하는 데 도움을 줄 수 있다는 확신이 있었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 18.7,
+   "en": "Depending on who you ask, right now is an apocalypse for creative people, or it's like the best time to be alive ever.",
+   "ko": "누구에게 묻느냐에 따라 지금은 창의적인 사람들에게 종말이거나, 아니면 역사상 살기에 가장 좋은 시기일 수도 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 26.4,
+   "en": "I think it's one of the most important questions about AI as a technology, can you use it to make good art, or can you only use it to make slop?",
+   "ko": "기술로서의 AI에 관한 가장 중요한 질문 중 하나라고 생각합니다. AI를 사용해 훌륭한 예술을 만들 수 있을까요, 아니면 그저 조잡한 결과물만 만들 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 35.5,
+   "en": "That's why I'm extremely excited for this episode. My co-host Natalia Quintero interviewed Fred Graver.",
+   "ko": "그래서 이번 에피소드가 매우 기대됩니다. 제 공동 진행자인 나탈리아 킨테로가 프레드 그레이버를 인터뷰했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 40.8,
+   "en": "Fred is a four-time Emmy award-winning filmmaker and technologist who is using AI all the time to make really great stuff in film.",
+   "ko": "프레드는 에미상을 4회 수상한 영화 제작자이자 기술자로, 영화 분야에서 훌륭한 결과물을 만들기 위해 항상 AI를 활용하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 51.5,
+   "en": "And he came on to share how he uses it, how it can be used as a creative tool.",
+   "ko": "그는 AI를 어떻게 활용하는지, 어떻게 창의적인 도구로 쓰일 수 있는지 공유하기 위해 출연했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 56.2,
+   "en": "And the dirty secret in Hollywood that a lot of people use it even if they want to admit to it. So Natalia, tell us about the conversation.",
+   "ko": "그리고 많은 사람이 인정하고 싶어 하더라도 할리우드에서 AI를 사용하고 있다는 공공연한 비밀에 대해서도요. 그럼 나탈리아, 대화 내용에 대해 말씀해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 64.2,
+   "en": "It was so cool to talk to Fred and to learn from someone who's been a leader at the top of their industry for so many decades.",
+   "ko": "수십 년 동안 업계 정상에서 리더로 활동해 온 프레드와 이야기하고 배울 수 있어서 정말 좋았어요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 72.2,
+   "en": "And what's interesting is that Fred has actually done this a few times. He started his career as a Disney Imagineer.",
+   "ko": "흥미로운 점은 프레드가 실제로 이런 경험을 몇 번이나 했다는 거예요. 그는 디즈니 이매지니어(Imagineer)로 커리어를 시작했어요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 80.8,
+   "en": "That's the coolest thing. The kind of the dream job. And then he built this incredible career at VH1 and MTV.",
+   "ko": "정말 멋진 일이죠. 일종의 꿈의 직장 같은 곳이잖아요. 그 후 VH1과 MTV에서 놀라운 경력을 쌓았죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 91.2,
+   "en": "And then he kind of threw it all away and became the head of TV at Twitter when it was a startup. And that didn't totally make sense.",
+   "ko": "그러다 그 모든 것을 버리고 스타트업 시절의 트위터에서 TV 부문 책임자가 되었어요. 전혀 앞뒤가 맞지 않는 선택 같았지만요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 98.7,
+   "en": "But he had this really interesting thesis of wanting to get closer and closer to the audience. And now he's done it again.",
+   "ko": "그는 관객에게 점점 더 가까이 다가가고 싶다는 정말 흥미로운 논리를 가지고 있었어요. 그리고 이제 그는 다시 한번 그 일을 해냈습니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 106.8,
+   "en": "He's basically built what will be compound producing and rebuilt the production process from the ground up using his decades expertise as an Emmy award-winning artist to do it all over again.",
+   "ko": "그는 에미상 수상 아티스트로서의 수십 년 경력을 바탕으로 제작 과정을 기초부터 재구축하여 이른바 '컴파운드 프로듀싱(compound producing)'이라는 체계를 만들었습니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 120.9,
+   "en": "And we all get to use his skills. So if you want to be a producer, now you can produce like Fred.",
+   "ko": "그리고 우리 모두 그의 기술을 사용할 수 있게 되었죠. 그러니 프로듀서가 되고 싶다면 이제 프레드처럼 제작할 수 있습니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 127.6,
+   "en": "I love it. It's a great episode. Let's dive in.",
+   "ko": "좋네요. 정말 훌륭한 에피소드입니다. 바로 시작해 보죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 143.0,
+   "en": "So Fred, thank you so much for being with us. And I want to start by actually just maybe getting a little bit of background on your career and how you got here.",
+   "ko": "프레드, 함께해 주셔서 정말 감사합니다. 먼저 커리어에 대한 배경과 어떻게 이 자리까지 오게 되셨는지 이야기하며 시작하고 싶어요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 153.3,
+   "en": "This maybe let's start at the top. You're a professional writer.",
+   "ko": "가장 처음부터 시작해 볼까요. 전문 작가로 활동하셨죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 158.6,
+   "en": "Yes.",
+   "ko": "네.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 159.0,
+   "en": "How did you get into that?",
+   "ko": "어떻게 그 일을 시작하게 되셨나요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 160.1,
+   "en": "I came to New York and I could type over a hundred words a minute and we are back in the day of IBM Selectrics and printers copies and all of that",
+   "ko": "뉴욕에 왔을 때 타자 속도가 분당 100단어가 넘었어요. IBM 셀렉트릭 타자기와 인쇄본을 쓰던 시절이었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 172.1,
+   "en": "and I went to work and oh and I knew how to copy edit and I went to work at the National Lampoon and I was hired there because I could type and I could copy edit and I wouldn't screw up the joke.",
+   "ko": "저는 교열하는 법도 알고 있어서 '내셔널 람푼'에서 일하게 되었는데, 타이핑과 교열을 할 줄 알면서도 농담의 흐름을 망치지 않았기 때문에 채용되었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 186.0,
+   "en": "So a bad copy editor would go, well this isn't grammatically correct and I would understand, no that's the joke.",
+   "ko": "실력 없는 교열자라면 '이건 문법적으로 맞지 않아'라고 했겠지만, 저는 '아니, 이게 바로 농담이야'라고 이해했죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 192.6,
+   "en": "And I began editing stuff at the National Lampoon and writing for the National Lampoon. So that's how I got started.",
+   "ko": "그렇게 내셔널 람푼에서 편집과 집필을 시작하게 되었습니다. 그게 제 시작이었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 200.8,
+   "en": "Which for people who are watching, in the Every audience, yes, your technical skills count. They will often get you in the door, particularly to jump ahead.",
+   "ko": "시청하고 계신 에브리 독자분들에게 말씀드리자면, 네, 여러분의 기술적인 능력도 중요합니다. 특히 앞서 나가기 위해서는 그 능력이 기회의 문을 열어주는 경우가 많죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 214.8,
+   "en": "You know, the whole kind of you're going to get replaced by somebody who knows how to use AI. People who understand what's happening under the hood are going to be incredibly in demand, I think.",
+   "ko": "아시다시피 AI를 사용할 줄 아는 사람에게 대체될 것이라는 이야기가 있잖아요. 시스템이 어떻게 돌아가는지 이해하는 사람들이 앞으로 엄청난 수요가 있을 것이라고 생각합니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 226.6,
+   "en": "So I went to work from there for David Letterman for Late Night with David Letterman and stayed there for a long time. It was a great gig and then went to work for Norman Lear.",
+   "ko": "그 후 데이비드 레터먼의 '레이트 나이트 위드 데이비드 레터먼'에서 오랫동안 일했습니다. 정말 멋진 일이었죠. 그러고 나서 노먼 리어와 함께 일하게 되었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 241.7,
+   "en": "In the 70s, Norman was the king of television. I think he had four or five hit shows in the top ten of the Nielsen rankings at one time.",
+   "ko": "70년대에 노먼은 텔레비전의 제왕이었습니다. 한때 닐슨 시청률 톱 10 안에 대여섯 개의 히트작을 올리기도 했죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 251.1,
+   "en": "He also was socially aware and very smart and he was doing some new things with television and I got hired, I worked with him.",
+   "ko": "그는 사회적 문제에도 관심이 많고 매우 영리했으며 텔레비전 분야에서 새로운 시도들을 하고 있었어요. 저는 채용되어 그와 함께 일하게 되었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 257.8,
+   "en": "It was an incredible learning experience which then translated into my being a comedy writer and I worked for Cheers and In Living Color and then I heard a modem.",
+   "ko": "그건 엄청난 배움의 경험이었고, 그 덕분에 코미디 작가가 되어 '치어스'와 '인 리빙 컬러'에서 일했습니다. 그러다 모뎀 소리를 듣게 되었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 269.6,
+   "en": "The first time I heard a modem, which was actually in the 80s, I just went, okay, this changes everything.",
+   "ko": "80년대에 처음 모뎀 소리를 들었을 때, 저는 '좋아, 이건 모든 걸 바꿔놓을 거야'라고 생각했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 276.0,
+   "en": "Everything's going to be on something on your desk and you're going to be able to do everything yourself. My first tech gig was I was working with the Disney Imagineers.",
+   "ko": "모든 것이 책상 위 기기로 들어오고, 스스로 모든 것을 할 수 있게 될 것이라고 말이죠. 저의 첫 테크 관련 업무는 디즈니 이매지니어들과 일하는 것이었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 290.7,
+   "en": "And there was this effort back in the day, it was Mike Ovitz and Jeffrey Katzenberg and those guys and they were terrified, this is like the late 90s, early 2000s, they were terrified by the internet.",
+   "ko": "당시 마이크 오비츠나 제프리 카젠버그 같은 사람들이 있었는데, 90년대 후반에서 2000년대 초반쯤이었죠. 그들은 인터넷을 매우 두려워했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 303.6,
+   "en": "But you know they began putting real bets down on what is this thing going to be. So I was there and I was at MTV Networks in the kind of early web days",
+   "ko": "하지만 그들은 이 기술이 무엇이 될지에 대해 본격적으로 베팅을 하기 시작했습니다. 그래서 저는 웹 초기 시절 MTV 네트워크에 있었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 315.4,
+   "en": "and then I took another right turn I got hired by Twitter this would be late 2000s right it's like the second year that Twitter was around",
+   "ko": "그 후 또 다른 전환점을 맞이해 트위터에 채용되었습니다. 2000년대 후반이었으니 트위터가 생긴 지 2년 정도 되었을 때였죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 324.6,
+   "en": "and the theory was if famous people that people love celebrities or TV shows are on Twitter then people will get on Twitter and and that's the best advertising we could do",
+   "ko": "그때의 이론은 사람들이 좋아하는 유명인이나 TV 프로그램이 트위터를 하면 일반인들도 트위터에 들어올 것이고, 그게 우리가 할 수 있는 최고의 광고라는 것이었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 336.6,
+   "en": "and so that was my job was to get the bird and real use cases onto the screen probably best case that ever happened was the famous Ellen DeGeneres selfie.",
+   "ko": "그래서 제 일은 트위터를 화면에 띄우고 실제 활용 사례를 보여주는 것이었습니다. 아마도 가장 성공적인 사례는 유명한 엘런 드제너러스의 셀카였을 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 350.2,
+   "en": "Blew up, but that was how many million dollars worth of advertising. I did that.",
+   "ko": "엄청난 화제가 되었죠. 그건 수백만 달러 가치의 광고 효과였습니다. 제가 그 일을 했죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 356.1,
+   "en": "And then I was doing some consulting and things and somebody said to me, hey, there's this machine learning thing that's AI and the engineers don't understand how people talk",
+   "ko": "그러다 컨설팅 같은 일을 하고 있었는데, 누군가 제게 말하더군요. 'AI라는 머신러닝 기술이 있는데, 엔지니어들은 사람들이 어떻게 말하는지 모른다'고요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 373.0,
+   "en": "and people don't know what to talk about when they get to the machine. And so I became a conversation designer at Microsoft.",
+   "ko": "사람들은 기계 앞에서 무슨 말을 해야 할지 모르고요. 그래서 마이크로소프트에서 대화 디자이너가 되었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 383.7,
+   "en": "I was literally scripting bots and I was working with the AI teams and it was it was weirdly fascinating because you're just dealing with this what's going to what will that conversation be?",
+   "ko": "말 그대로 봇의 대본을 쓰고 AI 팀과 협업했는데, 대화가 어떻게 흘러갈지 다루는 일이라 기묘할 정도로 매력적이었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 403.3,
+   "en": "And also, it is a conversation. I think with a lot of people, when they freak out about AI, and they freak out about an enormous box of things instead of all the things that are inside,",
+   "ko": "또한 이것은 대화입니다. 많은 분이 AI에 대해 겁을 낼 때, 그 안에 든 내용물보다는 거대한 상자 자체를 보고 겁을 먹죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 413.6,
+   "en": "but they're kind of like, they use it as a search engine, or it gave me the wrong, and we don't realize, no, it's a relationship.",
+   "ko": "혹은 단순히 검색 엔진으로만 사용하거나 틀린 답을 줬다고 불평하곤 하지만, 사실 이건 하나의 관계입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 421.7,
+   "en": "I was doing that, I was writing, then they moved me to writing presentations. Microsoft's great kind of secret sauce is they have decades of data about how people use their software",
+   "ko": "그 일을 하다가 글을 쓰게 되었고, 나중에는 프레젠테이션 작성을 맡게 되었습니다. 마이크로소프트의 비결은 사람들이 소프트웨어를 어떻게 사용하는지에 대한 수십 년간의 데이터를 보유하고 있다는 점입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 433.3,
+   "en": "and what they realize they really needed to do. So if your United Airlines and people are calling in to do whatever they're going to do, can we have an AI bot, can we have co-pilot,",
+   "ko": "그리고 사람들이 정말로 필요로 하는 것이 무엇인지 파악하고 있죠. 예를 들어 유나이티드 항공 고객들이 전화를 걸어올 때, AI 봇이나 코파일럿을 활용할 수 있을까요?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 447.6,
+   "en": "go through everything we already know from 30 years of you guys using software to help them solve their problem.",
+   "ko": "30년 동안 소프트웨어를 사용하며 쌓인 데이터를 훑어서 그들의 문제를 해결하도록 돕는 것이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 454.9,
+   "en": "And so I did that for quite a while writing these presentations saying here's what AI is and here's what it does and and here's your problems and the solution to your problems oddly enough are Microsoft products.",
+   "ko": "그래서 꽤 오랫동안 'AI란 무엇인가', 'AI가 무엇을 하는가', '여러분의 문제는 무엇이며 그 해결책은 묘하게도 마이크로소프트 제품이다'라는 내용의 프레젠테이션을 작성했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 471.0,
+   "en": "Of course they are. Well it's so interesting to me about your career though is that at every sort of major turning point you kind of you have turned towards technology",
+   "ko": "물론 그렇겠죠. 당신의 커리어에서 흥미로운 점은 매 중요한 전환점마다 기술 쪽을 향했다는 거예요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 483.0,
+   "en": "as early as joining the Disney Imagineers which at the time was revolutionary and the work that they did has been so revolutionary.",
+   "ko": "당시 혁신적이었던 디즈니 이매지니어에 합류한 것부터 말이죠. 그들이 한 일은 정말 혁명적이었습니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 493.6,
+   "en": "What do you think has been the core insight that you've taken at every turn? Like from the Imagineers to, you know, you worked in like the golden era of TV,",
+   "ko": "매 전환점마다 얻은 핵심적인 통찰력은 무엇이라고 생각하시나요? 이매지니어부터 TV의 황금기까지 거치면서 말이죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 506.4,
+   "en": "but you also turned from that to go to Twitter, which must have been a bold move. Like there must have been sort of like a key insight that led there.",
+   "ko": "거기서 트위터로 옮겨간 것은 대담한 행보였을 겁니다. 그곳으로 이끈 핵심적인 통찰이 있었을 텐데요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 516.1,
+   "en": "But like what were the key insights in those different pivot points?",
+   "ko": "그런 여러 전환점에서의 핵심 통찰력은 무엇이었나요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 519.6,
+   "en": "There's two answers. One is is the real answer which reveals me to be a terribly shallow person. Sometimes you look at something and you just go I want in.",
+   "ko": "두 가지 답변이 있습니다. 하나는 제가 굉장히 단순한 사람임을 드러내는 진짜 답변입니다. 가끔은 뭔가를 보고 그냥 '나도 참여하고 싶어'라고 생각하게 되거든요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 531.4,
+   "en": "And for me growing up I grew up on the south side of Chicago and I would I watched way too much television and all I thought to myself is I want to be on the other side of that screen. I want in.",
+   "ko": "시카고 남부에서 자라면서 텔레비전을 너무 많이 봤고, 그저 '저 화면 반대편에 있고 싶다'는 생각뿐이었습니다. 나도 끼고 싶다는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 543.3,
+   "en": "So it's I want in there. It's I want in because there's some very funny people doing stuff here and I like funny people and I get along with them really well. I want in.",
+   "ko": "그래서 그곳에 참여하고 싶은 겁니다. 아주 재미있는 사람들이 뭔가를 하고 있고, 저는 재미있는 사람들을 좋아하니까요. 나도 끼고 싶은 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 554.6,
+   "en": "The technology turn for me, again, I hear a modem and this was in the days of like CompuServe and there's no there's no browser, there's only it's just,",
+   "ko": "기술적인 전환에 대해 말하자면, 저는 모뎀 소리를 들었습니다. 컴퓨서브 시절이었고 브라우저도 없이 텍스트뿐이었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 565.5,
+   "en": "but the first thing I joined was the Whole Earth Electronic Link, The WELL. And so the Twitter people, I was Chloe Sladden and Dick Costolo and I met with them",
+   "ko": "하지만 제가 처음 가입한 것은 '웰'이었습니다. 트위터 사람들도 마찬가지였어요. 클로이 슬래든과 딕 코스톨로를 만났을 때",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 580.1,
+   "en": "and I was like yeah these are my people and I think they're doing something so new and different. It'll just be fun. It'll be really great.",
+   "ko": "저는 '그래, 이 사람들이 내 동료들이다'라고 생각했죠. 아주 새롭고 다른 일을 하고 있다고 생각했습니다. 정말 멋진 일이 될 것 같았죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 590.1,
+   "en": "And so there was that but still once I saw what AI was capable of. It was like, yeah, I want in. For me, it's a little harder right now.",
+   "ko": "그런 과정이 있었지만, AI가 무엇을 할 수 있는지 보았을 때 다시 한번 '참여하고 싶다'고 느꼈습니다. 지금 제게는 조금 더 어려운 상황이긴 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 606.7,
+   "en": "My old tribe is not thrilled with the prospect of what this is going to be or what it might mean. And yet, there's a new group of people, which I want to be very careful. It's not defined by age.",
+   "ko": "저의 옛 동료들은 AI의 전망에 대해 전혀 반기지 않습니다. 하지만 새로운 집단이 있죠. 주의하고 싶은 건, 이게 나이로 정의되지는 않는다는 점입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 622.2,
+   "en": "It's defined by a sensibility and a mindset. There's a new group of people who are storytellers and who are in what I still call show business because they don't think like David Ellison.",
+   "ko": "그것은 감수성과 사고방식으로 정의됩니다. 새로운 스토리텔러 그룹이 있고, 그들은 제가 여전히 '쇼 비즈니스'라고 부르는 업계에 종사하고 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 634.7,
+   "en": "They think like people like let's get a blanket and a garage and put on something and They're beginning to see okay. Wait a minute. There's this thing Oh, what does C-Dance do or how can I do this with Google?",
+   "ko": "그들은 '담요 한 장 깔고 차고에서 뭐라도 시작해 보자'라고 생각하는 사람들입니다. 그들은 '잠깐, C-Dance는 뭘 할 수 있지? 구글로는 어떻게 할 수 있을까?'라며 보기 시작했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 649.0,
+   "en": "Google Story Studio, or how can I go, oh wait, this is really interesting, and then we can kind of getting in and playing with it.",
+   "ko": "구글 스토리 스튜디오나 다른 것들을 보며 '잠깐, 이거 정말 흥미로운데'라고 생각하고 직접 뛰어들어 시도해 보는 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 657.2,
+   "en": "And those people, to me, that's the group where I go like, okay, I want in, or at this point, I really do feel like, okay, I might be one of the first kind of settlers.",
+   "ko": "제게 그런 사람들은 '나도 참여하고 싶어'라고 느끼게 만드는 집단입니다. 지금 시점에서는 제가 초기 정착자 중 한 명이 된 것 같은 기분이 들기도 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 669.2,
+   "en": "If there was one key insight that you took away from working early on with the Imagineers, what might have that been?",
+   "ko": "초기에 이매지니어들과 일하면서 얻은 핵심 통찰력 하나를 꼽는다면 무엇일까요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 676.9,
+   "en": "The Imagineers were founded by Disney to help him build stuff in the theme parks. And anytime new technology came around, the Imagineers, a group of the Imagineers, would be assigned to figure out what does that mean to us.",
+   "ko": "이매지니어는 디즈니의 테마파크 건설을 돕기 위해 설립되었습니다. 새로운 기술이 나올 때마다 이매지니어 팀은 그 기술이 우리에게 어떤 의미가 있는지 파악하는 임무를 맡았습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 693.1,
+   "en": "The most threatening thing in the late 90s for Disney was that technology was going to give the audience unprecedented access to IP that you could suddenly digitize a copyright.",
+   "ko": "90년대 후반 디즈니에 가장 위협적이었던 것은, 기술이 관객에게 지적 재산권(IP)에 대한 전례 없는 접근 권한을 줄 것이라는 점이었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 712.7,
+   "en": "You could take Snow White and the Seven Dwarves and let your imagination run free and this is terrifying.",
+   "ko": "'백설공주와 일곱 난쟁이'를 가져와서 마음껏 상상력을 발휘할 수 있다는 사실은 공포 그 자체였습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 720.2,
+   "en": "At the same time you could also see that the audience is going to be in this new place and they're going to want to have access to that stuff.",
+   "ko": "동시에 관객들이 이 새로운 공간에 머물 것이고, 그곳에서 그런 콘텐츠에 접근하고 싶어 할 것이라는 점도 알 수 있었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 731.1,
+   "en": "So the insight was suddenly there was a brand new tension. There was a new tension between what the audience and creators would have access to and be able to make",
+   "ko": "그래서 통찰은 갑자기 완전히 새로운 긴장감이 조성되었다는 것이었습니다. 관객과 창작자가 접근하고 만들 수 있는 것과,",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 748.0,
+   "en": "versus what you were able to make given the moat around your business and the barbarians were building bridges over the moat. Mm-hmm.",
+   "ko": "비즈니스를 둘러싼 해자 덕분에 여러분만이 만들 수 있었던 것 사이의 긴장이죠. 그리고 야만인들이 그 해자 위로 다리를 건설하고 있었습니다. 네.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 760.0,
+   "en": "Fast forwarding to MTV, VH1, and the work that you did there, what do you think might have been, like, your key takeaway than having worked in, like, the golden era of television?",
+   "ko": "MTV와 VH1에서의 업무로 넘어가서, TV의 황금기에 일하면서 얻은 핵심적인 교훈은 무엇이었나요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 774.4,
+   "en": "Yeah, the key takeaway for me, again, was open it up to the audience, and that's your survival. So...",
+   "ko": "네, 제게 핵심 교훈은 다시 한번 말씀드리자면 '관객에게 개방하라, 그것이 생존 전략이다'라는 것이었습니다. 그래서...",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 782.2,
+   "en": "And what does that mean?",
+   "ko": "그게 무슨 뜻인가요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 782.9,
+   "en": "So, for example, I created a show called Best Week Ever, and it was doing very well, and we had created a Tumblr just for the producers to talk to each other.",
+   "ko": "예를 들어, 제가 '베스트 위크 에버'라는 쇼를 만들었는데 반응이 아주 좋았어요. 그리고 제작진끼리 소통하기 위해 텀블러 블로그를 만들었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 795.8,
+   "en": "And we realized suddenly that there were 10 or 15,000 people reading our Tumblr, and it literally was just like read the audience signal, see what's going on, and it was a complete accident.",
+   "ko": "그런데 갑자기 수많은 사람이 우리 텀블러를 읽고 있다는 사실을 알게 되었습니다. 말 그대로 관객의 신호를 읽게 된 것인데, 완전히 우연이었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 808.6,
+   "en": "That's so interesting because it then sounds like your move to Twitter was kind of like further embracing the audience, right? Like moving.",
+   "ko": "흥미롭네요. 그렇다면 트위터로 옮긴 것도 관객을 더 깊이 포용하기 위한 행보였다는 거군요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 815.6,
+   "en": "It almost seems like at every point in your career you've taken a step closer to the audience.",
+   "ko": "커리어의 매 순간마다 관객에게 한 걸음 더 다가간 것 같아요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 821.5,
+   "en": "I think that's really true. And I think what is great about AI, so you know, you're talking about kind of codifying things.",
+   "ko": "정말 맞는 말씀입니다. 그리고 AI의 훌륭한 점은, 말씀하신 대로 무언가를 체계화하는 것에 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 829.6,
+   "en": "If you start out as a writer and you want to use AI, I have kind of a few things that I kind say you should do. you should create a who I am as a writer document.",
+   "ko": "작가로서 AI를 사용하고 싶다면 제가 권장하는 몇 가지가 있습니다. 먼저 '작가로서의 나'라는 문서를 만들어야 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 841.1,
+   "en": "And you should throw in your inspirations, what you love, what you read, what you aspire to do, all of that. And then you also have a document that this is the thing I'm working on, right?",
+   "ko": "당신의 영감, 좋아하는 것, 열망하는 것 등 모든 것을 담아야 하죠. 그리고 지금 작업 중인 프로젝트에 대한 문서도 갖춰야 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 853.4,
+   "en": "And it could be, and by the way, you don't even need to be specific about you. Like I have this idea. I have this thing that I really, really, really want to kind of get at.",
+   "ko": "자신에 대해 구체적으로 밝힐 필요조차 없습니다. '이런 아이디어가 있다. 내가 정말로 도달하고 싶은 것이 있다'와 같은 식이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 862.3,
+   "en": "I want to think about in the same kind of way that like Joan Didion once said I don't know what I think about something until I write about it. I have this thing I want to explore and AI is great at that",
+   "ko": "조안 디디온의 말처럼 글을 쓰기 전까지는 모르는 생각을 탐구하고 싶은 겁니다. 탐구하고 싶은 주제가 있을 때 AI는 그 역할을 아주 잘 수행합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 871.6,
+   "en": "and then you go you begin Putting as much as you know about that thing in and and the first thing you can say to AI is Does this idea and this person that I'm describing have anything to do with each other?",
+   "ko": "당신이 아는 내용을 최대한 입력하고 AI에게 '이 아이디어와 내가 묘사하는 이 인물이 서로 연관성이 있는가?'라고 물어보며 시작하는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 885.9,
+   "en": "Right and and and then you kind around with it and the third question is who's out there? Right? Is there an audience out there for this thing? Right? What platforms are they on?",
+   "ko": "그렇게 시도해 본 다음, 세 번째 질문은 '누가 저 밖에 있는가?'입니다. 이 작품을 위한 관객이 실재하는지, 그들은 어떤 플랫폼에 있는지 묻는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 897.7,
+   "en": "How do they consume media? What are the questions they care about that relate to the thing I'm writing or even bigger questions that they care about? So many other Atlantic did this I think.",
+   "ko": "그들이 미디어를 어떻게 소비하는지, 제가 쓰는 글과 관련된 고민이나 더 큰 질문들이 무엇인지 묻는 겁니다. '애틀랜틱'도 이런 식으로 했던 것 같아요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 907.6,
+   "en": "They created the focus group for something, right? And you could actually literally do that. Like create a focus group of eight people from a range where there's a guy over here who's the guy you really wish you hadn't invited",
+   "ko": "포커스 그룹을 만들었던 것 같아요. 여러분도 그렇게 할 수 있습니다. 가령 8명의 포커스 그룹을 만드는데, 그중 한 명은 정말 초대하고 싶지 않았던 사람으로 설정하는 식이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 918.2,
+   "en": "into the focus group because he's really negative and you have somebody who really loves what you're doing and and begin working on the idea that you're working on to get feedback.",
+   "ko": "너무 부정적인 사람과 당신의 작업을 정말 좋아하는 사람을 함께 포함해 피드백을 받으며 아이디어를 다듬어 나가는 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 928.9,
+   "en": "And so none of that is about AI writing for you. Yeah. Everything is about having AI as kind of a virtual writers room as a group of intelligences that can help you think through things.",
+   "ko": "이건 AI가 당신을 대신해 글을 쓰는 것과는 다릅니다. 모든 것은 AI를 일종의 가상 작가실로 활용하는 것, 즉 당신의 생각을 돕는 지능의 집합체로 두는 것에 관한 것입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 939.9,
+   "en": "So referencing compound writing which is a great plug in that Katie Parrot on her film. Yeah, give her all the credit she can. Which I am a big fan of Katie, she's fantastic.",
+   "ko": "케이티 패럿이 만든 훌륭한 플러그인인 '컴파운드 라이팅'을 언급하셨는데요. 맞아요, 그녀의 공로를 충분히 인정해야죠. 저도 케이티의 팬인데, 그녀는 정말 대단해요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 950.8,
+   "en": "And that was built off of Kieran Klossen's compound engineering plugin. And what makes so much sense about those plugins is that they are built by experts in their domain, right?",
+   "ko": "그건 키런 클로슨의 '컴파운드 엔지니어링' 플러그인을 기반으로 만들어졌습니다. 이런 플러그인들이 합리적인 이유는 해당 분야의 전문가들이 만들었기 때문이죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 964.5,
+   "en": "So the reason why I use compound engineering is because I'm not an engineer and I trust Kieran as a really brilliant engineer and she's now actually a whole team that maintains that particular plugin.",
+   "ko": "제가 컴파운드 엔지니어링을 사용하는 이유는 제가 엔지니어가 아니기 때문이고, 유능한 엔지니어인 키런을 신뢰하기 때문입니다. 지금은 전담 팀이 그 플러그인을 관리하고 있죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 974.9,
+   "en": "And so when I want to build a new product, I want to defer to experts in that field to follow the steps that they would take in order to build a product so that I'm doing it safely and following best practices.",
+   "ko": "그래서 새로운 제품을 만들고 싶을 때, 저는 안전하고 모범적인 사례를 따르기 위해 해당 분야 전문가들이 제품을 만들 때 거치는 단계를 그대로 따르고자 합니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 988.9,
+   "en": "It's the same for writing, right? Katie has codified at least her approach to writing the kind of writing that she does. One of the things that you've been exploring is how to codify writing in your capacity.",
+   "ko": "집필도 마찬가지입니다. 케이티는 자신의 글쓰기 방식을 체계화했죠. 당신도 자신의 역량 내에서 집필을 체계화하는 방법을 탐구해 오셨는데요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1003.5,
+   "en": "Can you speak a little bit more about that.",
+   "ko": "그에 대해 좀 더 말씀해 주시겠어요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1005.8,
+   "en": "Yeah, yeah. So think about, there's a kind of core that exists, and what you pour into that core are two different things.",
+   "ko": "네, 좋습니다. 어떤 핵심 체계가 존재한다고 생각할 때, 그 핵심에 쏟아붓는 것은 두 가지로 나뉩니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1017.3,
+   "en": "One is expertise around, so in my case, it's expertise around creating entertainment product, right? And there's a fair amount of kind of product design and product management that goes into this.",
+   "ko": "하나는 전문 지식입니다. 제 경우에는 엔터테인먼트 결과물을 만드는 전문 지식이겠죠. 여기에는 상당한 수준의 제품 디자인과 제품 관리가 포함됩니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1034.4,
+   "en": "And you get the expertise of everybody and so much of this has been published and so much of this is freely available. You could go into everybody from David O. Selznick to Francis Coppola to Quentin Tarantino to all the way down the line.",
+   "ko": "모두의 전문 지식을 활용할 수 있는데, 이미 많은 내용이 공개되어 있죠. 데이비드 O. 셀즈닉부터 프란시스 코폴라, 쿠엔틴 타란티노 등 수많은 전문가의 지식을 접할 수 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1052.8,
+   "en": "There's all the expertise. It goes around writing. It goes around producing. It goes around Editing it goes around marketing and distribution",
+   "ko": "그곳엔 모든 전문 지식이 있습니다. 집필, 제작, 편집뿐만 아니라 마케팅과 배급까지 아우르죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1060.1,
+   "en": "it even there's even people who are just really brilliant who were just like business operations and legal people and there's this you can put all of that and that's I'm building that where I kind of like going in and going like",
+   "ko": "사업 운영이나 법률 분야의 뛰어난 전문가들도 있죠. 이 모든 것을 통합할 수 있고, 제가 바로 그런 시스템을 구축하고 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1073.3,
+   "en": "There you're going to make a thousand and one decisions in the next week probably so half of this is is, here's the experts, right? And that AI has ingested all this, thought about it.",
+   "ko": "다음 주에 아마 수천 가지 결정을 내려야 할 텐데, 그 절반은 전문가들의 영역입니다. AI가 이 모든 것을 학습하고 고찰해 두었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1086.4,
+   "en": "And if you're going, OK, the marketing people and the writers are disagreeing, right? The writer thinks these characters are answering these questions, and the marketing people say, I can't sell that, right?",
+   "ko": "만약 마케팅 팀과 작가들 사이에 이견이 있다고 합시다. 작가는 캐릭터의 의도를 강조하지만, 마케팅 팀은 상업성이 없다고 하겠죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1098.7,
+   "en": "Well, what are other ways people have solved those issues? Just to give you advice, just to suggest, or kind of help you mediate that,",
+   "ko": "이럴 때 다른 사람들은 어떻게 해결했는지 묻는 겁니다. 조언이나 제안을 받거나 중재를 돕는 용도입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1107.9,
+   "en": "which by the way, also results in less friction because so much of this in show business gets personal, people get in a huff, they walk away, they have horrible fights.",
+   "ko": "쇼 비즈니스에서는 감정적으로 흐르기 쉬운 일들이 많아 마찰이 잦은데, AI를 통하면 이런 마찰도 줄어듭니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1121.4,
+   "en": "The best part about this is when the movie comes out of the TV series premieres, everybody's patting themselves on the back, oh we made it despite this. I'm like stop why did you didn't have to do it in the first place?",
+   "ko": "작품이 공개될 때 다들 '어려움에도 불구하고 해냈어'라며 자축하죠. 하지만 저는 '애초에 그렇게 힘들게 할 필요가 없었는데 왜 그랬어요?'라고 묻고 싶습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1132.4,
+   "en": "The other half though is also your personal culture. So if you're a production company or a studio or you have a way of doing things and thinking about things and you can put that into the hub of the AI central core as well.",
+   "ko": "나머지 절반은 당신의 개인적인 문화입니다. 제작사나 스튜디오가 가진 고유의 방식과 사고방식을 AI의 중앙 핵심 허브에 입력할 수 있죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1149.9,
+   "en": "And everybody who's part of the process has already also said here's a document about who I am, here's what my career is all about, here's the kind of way I work.",
+   "ko": "그리고 프로세스에 참여하는 모든 사람이 자신에 대한 정보와 일하는 방식을 담은 문서를 이미 제출한 상태인 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1158.3,
+   "en": "And so now you've got this kind of really great, a petri dish of cultural documents that AI can help you think through.",
+   "ko": "이제 AI가 여러분의 고민을 도와줄 수 있는 훌륭한 문화적 문서의 배양 접시가 마련된 셈입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1168.4,
+   "en": "And the last thing I'll say is, you know, people in show business still make things the way Henry Ford made cars. There's this assembly line. And if you say to them, no, make it a circle.",
+   "ko": "마지막으로, 쇼 비즈니스 사람들은 여전히 헨리 포드가 자동차를 만들던 조립 라인 방식으로 무언가를 만듭니다. 그런데 그들에게 이걸 순환 구조로 만들라고 하면 달라집니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1181.4,
+   "en": "So by the way, the marketing and business people are talking to the writer and the pre-production people now. Now, before you start making decisions that get locked in or whatever,",
+   "ko": "이제 마케팅 담당자들이 결정이 확정되기 전 단계에서 작가 및 프리 프로덕션 담당자들과 대화하게 됩니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1191.8,
+   "en": "sometimes the production company has got 10 people, 15 people. Sometimes it's a writer who at this point is the entire team. Right.",
+   "ko": "때로는 제작사에 10~15명의 인원이 있고, 어떨 때는 작가 혼자가 전체 팀인 경우도 있죠. 맞아요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1201.2,
+   "en": "So what I love about plugins in particular is that they demystify what is otherwise a really complicated process into simple steps, right?",
+   "ko": "제가 플러그인을 특히 좋아하는 이유는 복잡한 과정을 단순한 단계로 명확하게 보여주기 때문이에요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1211.0,
+   "en": "Which is, it's the only thing that AI can do really well. It's like follow directions clearly. And I find, at least say, to be as powerful as the instructions are.",
+   "ko": "그게 바로 AI가 정말 잘하는 일이죠. 지시를 명확하게 따르는 것이요. 저는 AI의 성능이 지시사항의 정교함에 달려 있다고 봅니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1222.7,
+   "en": "So what I love about, again, like the engineering tools that, or the plugins that our team has put out, is that when it comes to engineering, I understand that there's basically like three steps to engineering.",
+   "ko": "저희 팀이 내놓은 엔지니어링 도구나 플러그인에 대해 다시 말씀드리면, 엔지니어링에는 기본적으로 세 단계가 있다는 것을 이해하고 있습니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1235.2,
+   "en": "And what Kieran has done is just kind of like codified what excellence looks like in those three steps. So first you make a plan, there's all kinds of things involved with making a good plan, so we'll follow the instructions on that.",
+   "ko": "키런이 한 일은 그 세 단계에서 탁월함이 무엇인지를 체계화한 것입니다. 먼저 좋은 계획을 세우는 데 필요한 지침을 따릅니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1247.8,
+   "en": "Then we follow that plan and build something based on that PRD or that set of requirements, and then we'll review that plan and build on it. It's that loop that you discussed.",
+   "ko": "그다음 요구 사항 정의서(PRD)를 기반으로 무언가를 만들고, 마지막으로 그 계획을 검토하고 보완합니다. 당신이 말한 그 순환 루프죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1260.1,
+   "en": "In its most basic form, do you think is that loop for writing or producing in your case?",
+   "ko": "가장 기본적인 형태로 볼 때, 당신의 경우 집필이나 제작의 루프도 그런가요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1266.8,
+   "en": "We'll break it into three steps. right? Well, there's ideation, ideation, and we'll call it architecture or design.",
+   "ko": "세 단계로 나누어 보죠. 아이디어 구상, 그리고 아키텍처 혹은 디자인이라 부를 만한 단계가 있겠죠?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1277.8,
+   "en": "It is the thing that produces a script, right? And that's the first thing. Is you get something that is a written document that is the best embodiment of the idea you're trying to work on.",
+   "ko": "그건 시나리오를 만들어내는 과정입니다. 작업하고자 하는 아이디어를 가장 잘 구현한 문서를 얻는 것이 첫 번째죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1295.0,
+   "en": "The next phase is production and it's everything from how do we prepare to make this thing and it's a very similar process whether you're working with a straight-on regular kind of movie or TV series",
+   "ko": "다음 단계는 제작입니다. 제작 준비부터 모든 과정이 포함되는데, 일반적인 영화나 TV 시리즈든 과정은 매우 유사합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1312.4,
+   "en": "or a hybrid series that uses some AI or even in all I'm working with a studio studio now and we're making an AI animated series.",
+   "ko": "AI를 일부 활용하는 하이브리드 시리즈나, 제가 지금 함께 작업 중인 AI 애니메이션 시리즈도 마찬가지입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1322.6,
+   "en": "And the way we're doing it is they've hired a bunch of writers to create something, there's an animation studio in India that's doing the animation, some of it's with AI so it is.",
+   "ko": "여러 작가가 스토리를 만들고, 인도의 스튜디오에서 애니메이션을 제작하는데 그중 일부는 AI를 사용합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1333.1,
+   "en": "And then there's a group of computer scientists in Zurich. I don't know why they're in Zurich. It sounds, I keep imagining a gold fingers layer up in Zurich and they're like, we're watching.",
+   "ko": "그리고 취리히에는 컴퓨터 과학자 그룹이 있습니다. 왜 취리히인지는 모르겠지만, 마치 '골드핑거'의 은신처에서 우리를 지켜보는 것 같은 상상이 듭니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1345.0,
+   "en": "And they're trying to figure out how do you build AI software that would keep the people with it. So there's this production process that's everything from pre-production considerations to keeping everybody going within the production.",
+   "ko": "그들은 사람들을 계속 참여하게 만드는 AI 소프트웨어를 연구 중입니다. 즉, 사전 제작부터 제작 인원을 유지하는 것까지 포함된 프로세스가 있는 것이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1359.3,
+   "en": "And I would include editing in there as well. And there's a lot of stuff in there. There's storyboards.",
+   "ko": "저는 편집도 그 단계에 포함합니다. 거기에는 스토리보드를 포함해 아주 많은 것들이 들어있죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1365.7,
+   "en": "There's all the, you know, it's fascinating to me that Martin Scorsese is like one of the first people to kind of come out and go, oh, I'm working with this company that's using creating storyboards with AI, and people freaked out about it.",
+   "ko": "마틴 스코세이지 같은 분이 가장 먼저 AI로 스토리보드를 만드는 회사와 협업 중이라고 밝혔을 때 사람들이 경악했던 게 흥미롭습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1377.6,
+   "en": "Like, well, what about the storyboard artist? And I think Scorsese, I don't know. Scorsese, he's like, you're going to have to get another job. It's the mob.",
+   "ko": "사람들은 스토리보드 아티스트를 걱정했죠. 스코세이지는 아마 '다른 일을 찾아봐야 할 거다'라고 생각했을지도 모르겠네요. 냉혹한 비즈니스니까요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1388.0,
+   "en": "So there's the production phase, and AI can help with that. And then there's the, how do you reach the audience with this thing phase? How do you market and distribute this?",
+   "ko": "제작 단계가 있고 AI는 그 단계를 도울 수 있습니다. 그리고 관객에게 어떻게 도달할지, 어떻게 마케팅하고 배급할지 결정하는 단계가 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1397.5,
+   "en": "What's fascinating to me about having worked with a couple of production studios in Hollywood is the marketing people are all in on figuring out how to use AI",
+   "ko": "할리우드 제작사들과 일하며 흥미로웠던 점은, 마케팅 담당자들이 AI 활용법을 찾는 데 전력을 다하고 있다는 사실입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1410.3,
+   "en": "to the point where they will create a campaign for something and they've worked with companies that are doing it with AI. They will watch intent to purchase a ticket or ticket purchases based on a trailer",
+   "ko": "캠페인을 직접 만들고 AI 전문 업체와 협업하는 수준이죠. 그들은 예고편에 대한 관객의 반응과 실제 티켓 구매 여부를 모니터링합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1425.0,
+   "en": "and they will rewrite the trailer almost on an hour by hour basis to go okay let's Let's try this, let's try that. And that, again, AI can be part of that process.",
+   "ko": "그리고 거의 매 시간 단위로 예고편을 다시 편집하며 이것저것 시도해 보죠. 이 과정에서도 AI가 역할을 할 수 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1437.5,
+   "en": "What I think is fascinating is, again, you make it a circle, so that here's the ideation and design and architecture phase. And it works, why not?",
+   "ko": "제가 흥미롭게 생각하는 점은 이걸 순환 구조로 만드는 것입니다. 아이디어 구상과 디자인 단계가 효과가 있다면 왜 안 하겠어요?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1448.6,
+   "en": "Have the marketing people right away going, well, let's create a proxy trailer for that. Let's see if we can sell tickets to that even though it doesn't exist yet,",
+   "ko": "마케팅 담당자들이 즉시 '가상의 예고편을 만들어보자. 아직 존재하지 않지만 티켓이 팔릴지 확인해 보자'라고 하는 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1456.5,
+   "en": "right which is essentially what show business is always been about right so those are the three phases and I that's where I think in every step AI can speak to the people who are doing it",
+   "ko": "이게 바로 쇼 비즈니스의 본질이죠. 이 세 단계의 매 순간 AI가 담당자들과 소통하며 정보를 제공할 수 있다고 생각합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1466.6,
+   "en": "and and can inform the decisions that everybody's making.",
+   "ko": "그리고 모두가 내리는 결정에 도움을 줄 수 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1471.8,
+   "en": "So let me make sure I got that so it's ideation yeah and then it's basically like the production which includes a bunch of things and then there's like the marketing like the connecting to the audience yep in a loop",
+   "ko": "제대로 이해했는지 확인해 볼게요. 아이디어 구상, 그리고 제작, 마지막으로 관객과 연결되는 마케팅, 이렇게 세 단계가 순환하는 거군요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1483.4,
+   "en": "Yeah. How do you... Thank you for, by the way, cutting it down to three. I've never done it before. And that was very helpful.",
+   "ko": "네. 세 단계로 요약해 주셔서 감사해요. 한 번도 이렇게 정리해 본 적이 없는데, 아주 도움이 되네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1491.8,
+   "en": "Okay. I mean, this is so helpful to me. I'm the reason why I enjoy using AI and why I got into using AI is because, you know, anthropic describes themselves as like AI for problem solvers.",
+   "ko": "좋아요. 제게도 아주 큰 도움이 됩니다. 제가 AI 사용을 시작한 이유는 앤스로픽이 스스로를 '문제 해결사를 위한 AI'라고 설명했기 때문이에요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1507.0,
+   "en": "And I think it's such a smart description because I think it's totally really right. For ambitious people, you just want to do great work. And AI at its best, I find allows me to do great work.",
+   "ko": "정말 맞는 말이라고 생각해요. 야심 있는 사람들은 그저 훌륭한 작업을 하고 싶어 할 뿐이고, AI는 제가 그렇게 하도록 도와주니까요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1519.8,
+   "en": "But also when I'm getting creative and doing work that is fun and not in my line of expertise, it's easy to make AI slop.",
+   "ko": "하지만 창의력을 발휘해 재미로 하는 일이나 전문 분야가 아닌 작업을 할 때는 조잡한 결과물을 만들기 쉽죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1529.9,
+   "en": "Which is where these plugins are such helpful sort of like boundaries, right? They're sort of like the rails in a bowling alley that like keep you from going off into the dark side of like AI slop.",
+   "ko": "그래서 이런 플러그인들이 가이드 레일처럼 조잡한 결과물이라는 어두운 길로 빠지지 않게 잡아주는 경계선 역할을 해줍니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1542.5,
+   "en": "How is it that you find these three steps might help someone who is not familiar with using AI in this kind of like writing capacity or actually someone who is an expert in in sort of like being a writer or producer.",
+   "ko": "이런 집필 분야에서 AI 사용이 익숙하지 않은 사람이나, 혹은 실제 작가나 프로듀서 전문가에게 이 세 단계가 어떻게 도움이 될 수 있을까요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1558.7,
+   "en": "How would these three steps help them, you know, build even more beautiful, valuable work that is not AI Slop.",
+   "ko": "이 세 단계가 그들이 조잡하지 않은, 더 아름답고 가치 있는 작품을 만드는 데 어떻게 도움이 될까요?",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1568.0,
+   "en": "The first match you've thrown into the gas can here are the words AI Slop, right? It is the thing that terrifies everyone, right?",
+   "ko": "당신이 휘발유통에 던진 첫 번째 성냥은 'AI 조잡함'이라는 단어군요. 그게 바로 모든 사람을 겁먹게 만드는 것이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1581.6,
+   "en": "And again, I go back to my kind of show business metaphor or framework, right? If all you need is a sheet and a garage and some chairs to put on a show, why doesn't everybody put on a show?",
+   "ko": "다시 저의 쇼 비즈니스 비유로 돌아가 보죠. 천 한 장과 차고, 의자 몇 개만 있으면 공연을 올릴 수 있는데 왜 모든 사람이 공연을 하지 않을까요?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1598.3,
+   "en": "Well first thing, not everybody's going to put on a show. Annie Leibovitz once said, everybody has a camera that's better than the camera that I used for 30 years in their pocket,",
+   "ko": "우선, 모든 사람이 공연을 하려 하지는 않기 때문입니다. 애니 레보비츠는 모든 사람이 자신이 30년 동안 사용한 것보다 더 좋은 카메라를 갖고 있다고 말했죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1610.2,
+   "en": "but there are very, very few people who are taking pictures like I take. So the first step here is in defining who you are and what you're trying to do and thinking deeply about them.",
+   "ko": "하지만 그녀처럼 사진을 찍는 사람은 극히 드뭅니다. 따라서 첫 번째 단계는 자신이 누구인지, 무엇을 하려는지 정의하고 깊이 고민하는 것입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1626.1,
+   "en": "And in fact, I say in all three steps, you want to begin by thinking deeply. There was a book that was very popular for a long time and you don't hear much about it called Flow.",
+   "ko": "사실 세 단계 모두 깊은 생각에서 시작해야 합니다. '몰입'이라는 유명한 책이 그에 대해 잘 설명하고 있죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1638.3,
+   "en": "And it was all about what it is to be in that state where you're composing or writing or painting or whatever and you're just locked in. You're in the zone.",
+   "ko": "작곡이나 집필 등 무언가에 완전히 빠져들어 '무아지경'에 있는 상태에 관한 내용입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1649.4,
+   "en": "For me, in all three of these steps, if you haven't begun by going there first, you're not going to get a good product. You have to start with uniquely you.",
+   "ko": "제 생각에 이 세 단계에서 먼저 그 상태에 도달하지 못한다면 좋은 결과물을 얻을 수 없습니다. 오직 당신만의 고유함에서 시작해야 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1663.2,
+   "en": "What you know, spend a day or two dumping everything you know about what you're going to do onto a page, right? Do it by hand, do it by whisper, do it by whatever, but empty out.",
+   "ko": "당신이 아는 모든 것을 쏟아부으세요. 손으로 쓰든 말로 하든 상관없지만, 일단 다 비워내야 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1679.6,
+   "en": "You will never have that opportunity again once you open AI. There's one chance to kind of be yourself and confront the idea or confront how am I going to produce this really, really well",
+   "ko": "AI를 여는 순간 그런 기회는 다시 오지 않습니다. 온전히 자신이 되어 아이디어와 마주하거나, 어떻게 잘 제작할지 고민할 기회는 딱 한 번뿐입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1694.4,
+   "en": "or confront how will we reach the audience. And all three of these are really important expertise and very, I don't think anybody has all three. Maybe, no, I don't think anybody.",
+   "ko": "관객에게 도달할 방법을 고민하는 것도 마찬가지죠. 이 세 가지는 모두 정말 중요한 전문 분야이고, 한 사람이 다 갖추기는 매우 어렵습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1704.0,
+   "en": "I think people, any single person knows how to find all three people, but you have to empty out. You have to do this yourself as a human being.",
+   "ko": "각 분야의 사람을 찾는 법을 아는 사람은 있겠지만, 일단 비워내야 합니다. 인간으로서 스스로 이 과정을 거쳐야 합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1713.7,
+   "en": "Then, the nice part is it's a very lonely business. And for all of us, it's like, well, great, I can throw all this stuff out. What am I going to do with it once I do it?",
+   "ko": "그다음은, 이 일이 매우 외로운 비즈니스라는 점입니다. 다 쏟아낸 뒤에 이제 이걸로 무엇을 할지 고민하게 되죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1722.6,
+   "en": "Ah, now there's AI, now there's Claude or ChatGPT and we can have this discussion about which one I like or anybody like.",
+   "ko": "그때 바로 AI가 있습니다. 클로드나 챗GPT 같은 것들이죠. 어떤 걸 더 선호하는지는 나중에 이야기할 수 있겠죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1731.6,
+   "en": "But you go in and you say, this is who I am, this is what I'm doing. Let's talk about this. One of the things that I love that I actually did very early on, I asked Claude, I'm a writer, I'm a producer, I'm trying to do these things, how can you help me?",
+   "ko": "당신은 '나는 이런 사람이고 이런 일을 하고 있다. 이에 대해 이야기해 보자'라고 말합니다. 제가 초기에 클로드에게 어떻게 도와줄 수 있는지 물었던 것이 정말 좋았습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1750.5,
+   "en": "What can you do for me? Oh, should I be using Claude Code? Should I be using Beckman Co-work? Was this separate thing? Should I be using Co-work?",
+   "ko": "나를 위해 무엇을 해줄 수 있는지, 어떤 도구를 써야 할지 등을 물었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1757.5,
+   "en": "I read about these skills. What about, you know, and there'll be people on Substack publishing crazy stuff. And by the way, you don't need those subscriptions. You can have Every.",
+   "ko": "서브스택에서 온갖 정보를 접하겠지만, 그런 구독은 필요 없습니다. 에브리만 있으면 되니까요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1769.4,
+   "en": "But you know, there's people publishing all this stuff and I will feed it into Claude. And I'll say, is this useful? And Claude might say, no, we're already doing that. Or, yes, I can build that with you. Right?",
+   "ko": "사람들이 올리는 자료들을 클로드에 넣고 유용한지 물으면, 클로드는 이미 하고 있거나 같이 만들어볼 수 있다고 답할 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1780.3,
+   "en": "And so I built a process that began with myself and then began with a almost conversation or relationship with the AI that helped me do it better.",
+   "ko": "그렇게 저는 자신으로부터 시작해서, 작업을 더 잘할 수 있게 도와주는 AI와의 대화나 관계를 시작하는 프로세스를 만들었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1792.6,
+   "en": "And so in each of those steps, so if you have, I have many friends who are producers and that's a tough job. You are the drill sergeant. You're making sure things get done faster, better and cheaper,",
+   "ko": "각 단계에서 말이죠. 제 친구 중에는 프로듀서가 많은데 정말 힘든 직업입니다. 훈련 교관처럼 더 빠르고 더 좋고 더 저렴하게 일이 진행되도록 해야 하죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1805.9,
+   "en": "paper, right? And you can keep your schedules, you can keep people in touch with each other, you can find tax incentives, you can find what the union is requiring, you can find all of these things in one tool, and the same with marketing.",
+   "ko": "일정을 관리하고, 사람들을 연결하고, 세제 혜택이나 노조 요구 사항을 확인하는 이 모든 일을 하나의 도구로 할 수 있습니다. 마케팅도 마찬가지고요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1821.4,
+   "en": "You've got these tools within Claude, specifically Claude and Chat GPT now. It almost feels like everything for everybody all the time everywhere. It's starting to get there.",
+   "ko": "클로드나 챗GPT 안에 이런 도구들이 다 들어있습니다. 이제는 언제 어디서나 누구에게나 모든 것을 제공하는 것처럼 느껴지기 시작했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1835.8,
+   "en": "The question is, can it do your version of everything all the time for you when you need to have it done? And that's where the real skill is. That's where you kind of go in and go. This is my culture. This is what I care about. This is what the priorities are.",
+   "ko": "문제는 당신이 원할 때 당신 방식대로 그 모든 것을 해줄 수 있느냐는 것이고, 거기에 진짜 실력이 달려 있습니다. 당신의 문화와 우선순위를 개입시켜야 하는 지점이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1853.4,
+   "en": "That's so interesting. So it sounds like you're saying before you can really get any any value out of these tools, you really need to not touch these tools and really go inward, like really understand.",
+   "ko": "정말 흥미롭네요. 그러니까 이 도구들로부터 진정한 가치를 얻으려면 먼저 도구를 만지지 말고 내면으로 들어가서 스스로를 정말 이해해야 한다는 말씀이시군요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 1863.9,
+   "en": "I really firmly believe that. And I don't know, I firmly firmly believe that. It could be that's how I started back in the day.",
+   "ko": "저는 정말 확고하게 그렇게 믿습니다. 예전에 제가 그렇게 시작했기 때문일 수도 있겠네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1875.1,
+   "en": "If you try, wanted to convince somebody to do something, you'd write something or, and you'd pitch them, right? And it was everything that you knew about the thing you were trying to do.",
+   "ko": "누군가를 설득하려면 글을 쓰거나 피칭을 해야 했고, 그건 당신이 하려는 일에 대해 아는 모든 것이었습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1887.7,
+   "en": "And you'd edit that, you'd figure it out, you'd go, I've only got 120 seconds with this executive. Or it's a five minute meeting.",
+   "ko": "그걸 수정하고 다듬으면서 주어진 짧은 시간 안에 핵심을 전달하려 애썼죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1896.3,
+   "en": "And the minute they start talking about their weekend in the palms, you're sunk, right? But, oh, now it's down to two minutes. That's how I began. And I still believe after a lot of...",
+   "ko": "상대방이 딴소리를 시작하면 시간이 줄어들어 망하기 일쑤였죠. 그렇게 시작했습니다. 그리고 여전히 믿습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1910.9,
+   "en": "Actually, I'll give you an example. Yeah, after a lot of experiments, I still believe that's the way to do it.",
+   "ko": "실제 예를 들어보죠. 많은 실험 끝에 여전히 그게 올바른 방법이라고 믿습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1916.4,
+   "en": "I think I was using compound writing and then I was using Claude Code to try and figure out a way to in kind of five bullet points hammer away at any idea I might have.",
+   "ko": "컴파운드 라이팅과 클로드 코드를 사용해 어떤 아이디어든 다섯 개의 핵심 항목으로 요약하는 방법을 찾아보려 했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1930.9,
+   "en": "So I gave it three or four ideas and it was, we were refining it. Well that's not quite right. Then Claude said, let me come up with an idea and I'll test it against myself. Oh, okay Claude.",
+   "ko": "아이디어를 다듬고 있었는데, 클로드가 직접 아이디어를 내고 테스트해 보겠다고 하더군요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1944.3,
+   "en": "So the idea it came up with was a series, a web series that would be like Brooklyn coffee shop, but it was a group of 60 and 70-somethings who were running the Facebook page for a senior citizen home.",
+   "ko": "클로드가 낸 아이디어는 노인 요양원의 페이스북 페이지를 운영하는 60~70대 그룹에 관한 웹 시리즈였습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1964.6,
+   "en": "And it gave all the pros and cons how it would be produced, who the audience is, how you'd reach them. And I'm sitting there reading and going, okay, that's not a terrible idea. Wow.",
+   "ko": "제작 방식과 타겟 관객 등을 다 제시했는데, 읽으면서 정말 괜찮은 아이디어라고 생각했습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1981.5,
+   "en": "And so then I was like, tell me more. What else do you know about this? And it was kind of churning things out.",
+   "ko": "더 자세히 물어보자 계속해서 내용을 쏟아냈습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 1989.4,
+   "en": "I only feel that the reason I bring it up is I think Claude has learned from me and it's kind of like yeah let me dump everything I know about the 60 plus audience and vertical series like Brooklyn coffee shop and it made that great I think a great Facebook connection",
+   "ko": "이유는 클로드가 저로부터 학습했다고 느끼기 때문입니다. 클로드가 60대 이상 관객과 세로형 시리즈에 대해 아는 것을 쏟아부었고, 그들을 페이스북과 아주 잘 연결했죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2005.7,
+   "en": "which is where that audience is. And I kind of like oh okay great but I feel like it's because it learned kind of that piece of me. And who you are. Yeah, that's interesting.",
+   "ko": "그게 관객들이 있는 곳이니까요. 좋았지만, 결국 클로드가 저의 그런 일면을 배웠기 때문이라고 느낍니다. 당신이 누구인지를요. 네, 흥미롭네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2015.1,
+   "en": "I mean, one of the sort of like key questions I would certainly have is for like the next generation of producers and writers, how could they have shot at being the next Fred Graver because they, you know, the TV industry doesn't exist in the way that it did.",
+   "ko": "다음 세대 작가들에게 중요한 질문은, 예전 같은 TV 산업이 없는 지금 어떻게 제2의 프레드 그레이버가 될 수 있느냐는 것입니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 2030.6,
+   "en": "And it sounds like maybe what you're saying is so long as you give yourself the space to go in words and build your own compass and understand who you are and what you want and what it is that you're trying to say at any given moment in time,",
+   "ko": "내면을 들여다보고 자신만의 나침반을 만들며, 자신이 누구인지와 무엇을 말하고 싶은지 이해할 수 있는 공간을 갖는다면 가능하다는 말씀 같아요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 2044.5,
+   "en": "you can have AI work for you in the different capacities that you would usually need a team to instead of working for AI. If you have a compass, you can have it work for you.",
+   "ko": "팀이 필요했던 역할을 AI가 대신하게 함으로써 AI가 당신을 위해 일하게 만들 수 있다는 것이죠. 나침반만 있다면요.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 2057.3,
+   "en": "If you don't have a compass, you're just kind of following Claude in whatever direction it's taking you in. Which is essentially how you have a career in...",
+   "ko": "나침반이 없다면 그저 클로드가 이끄는 대로 휩쓸려 갈 뿐입니다. 그게 바로 커리어를 쌓는 방식입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2068.7,
+   "en": "And then when you say media, I just keep thinking, David Zaslav and people who are just like trying to control the vertical. You know, to have a career as a storyteller, that's the test.",
+   "ko": "미디어라고 하면 거대 권력을 지배하려는 사람들이 떠오르지만, 스토리텔러로서 커리어를 갖는다는 건 결국 시험대와 같습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2079.7,
+   "en": "Do you have something to say? And what's great about AI tools is there are, it can help you say it. There are so many ways to help you say it. But it can't give you, if you ask it to tell you what it is you should be saying, you'll get, you know, it goes to the mean. Right?",
+   "ko": "당신이 할 말이 있나요? AI 도구는 그 말을 하도록 도와줍니다. 하지만 무슨 말을 해야 할지 물으면 그저 평범한 결과물만 줄 뿐입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2103.4,
+   "en": "It won't do the thing. And some people don't have that thing. I hate to be a jerk about it, but some people just don't have it.",
+   "ko": "AI는 핵심을 만들어주지 못합니다. 그리고 어떤 사람들은 그 핵심이 없죠. 독하게 들리겠지만, 정말로 그게 없는 사람들이 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2111.4,
+   "en": "People send their kids to my wife. I met my wife at Letterman and so they come all the time, once a month? Somebody shows up for coffee and they're like, I want to be a writer. and I would always say, I will always say, and I'm not sure about it.",
+   "ko": "사람들이 제 아내에게 자식들을 보냅니다. 한 달에 한 번은 누군가 찾아와 커피를 마시며 작가가 되고 싶다고 하죠. 그럼 저는 항상 이렇게 말합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2128.9,
+   "en": "Hey, tell me about the last thing you wrote. If it was more than two weeks ago or a month ago, I kind of go, is there something else you like to do? This is hard, it's lonely, it's full of rejection, and if you're not addicted to the thing,",
+   "ko": "마지막으로 쓴 글이 뭔지 묻고, 만약 오래전이라면 다른 하고 싶은 일은 없는지 묻습니다. 이 일은 힘들고 외로운데, 중독되지 않았다면요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2149.1,
+   "en": "if you don't have to do this, and if you don't have something unique that you just is this burning there, there might be other places we can go.",
+   "ko": "반드시 해야만 하는 게 아니고 내면에 불타오르는 독특한 게 없다면 다른 길을 찾는 게 나을 수도 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2158.4,
+   "en": "Where the hard problem is right now, and this is where I stub my toe all the time, I believe that that is for the first two pieces of the circle. I think all that is coming into place. It's the third piece that's really, really, really hard.",
+   "ko": "지금 어려운 문제는 제가 항상 걸려 넘어지는 부분인데, 순환 고리의 첫 두 단계는 자리가 잡히고 있다고 봅니다. 하지만 정말 어려운 건 세 번째 단계입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2179.1,
+   "en": "I was really lucky to come up in the second half of the 20th century. It was, as you said, the golden days. You got development deals to have an office for a network with the promise that you would write two things. Oh my God!",
+   "ko": "저는 20세기 후반에 활동을 시작해서 운이 좋았습니다. 글 두 개를 쓰겠다는 약속만으로 사무실을 내주는 개발 계약을 맺기도 했으니까요. 세상에나!",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2196.9,
+   "en": "And they flew you first class and it was glorious. That's gone. As Bruce Springsteen said, say boys those jobs ain't coming back.",
+   "ko": "일등석을 타던 영광스러운 시절이었죠. 이제는 사라졌습니다. 브루스 스프링스틴이 노래했듯이, 그런 일자리는 다시 돌아오지 않습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2209.7,
+   "en": "And so I mean maybe this takes me to your thesis right so you shared your thesis we're hosting a conference in a few weeks called Thesis it's about what happens after automation and you wrote your perspective on like what your thesis is of what happens what comes next.",
+   "ko": "당신의 논지에 대해 여쭤보고 싶네요. 몇 주 후에 저희가 'Thesis'라는 컨퍼런스를 개최하는데, 자동화 이후의 미래에 대한 당신의 관점을 적어주셨죠.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 2226.9,
+   "en": "Yeah so so So essentially I was saying those first two pieces, the new writer's room, will include AI. Right? I remember the first time I walked into a writer's room and they had a Google Doc up on a screen",
+   "ko": "네, 저는 새로운 작가실에는 AI가 포함될 것이라고 말했습니다. 처음 작가실에 들어갔을 때 화면에 구글 문서를 띄워 놓았던 기억이 나네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2241.4,
+   "en": "that was capturing what everybody was talking about and helping to write. They were trying to outline a story for an episode. And I was like, oh my God, that's so great because you were always before then going like, you know, you know, Kevin, did you get that? Did you read it back to us?",
+   "ko": "모두의 말을 기록하며 집필을 돕고 있었죠. 정말 대단해 보였습니다. 그전까지는 항상 일일이 기록을 확인해야 했거든요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2258.6,
+   "en": "Make sure you got it right. Now it was there in front of everybody. I think in that same way you will have AI in there and they will be asking questions like, okay this is the season arc. We're here.",
+   "ko": "이제는 모두 앞에 결과물이 보입니다. 같은 방식으로 작가실에 AI가 있게 될 것이고, 사람들은 시즌의 흐름을 짚어가며 질문을 던지겠죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2273.0,
+   "en": "What happens if this character is doing that or even more to the point. Right so there's a There's a micro example and there's a macro example which is okay we're looking at successful TikTok series that are we'll go back to we'll help Claude with his idea.",
+   "ko": "캐릭터의 행동에 대한 가설이나 핵심 질문을 던질 겁니다. 미시적, 거시적 사례가 있는데, 성공한 틱톡 시리즈를 보며 클로드의 아이디어를 돕는 상황을 가정해 보죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2295.0,
+   "en": "The audience is 55 and older. I need to understand the audience where they are, what their concerns are. If it was set here what could I dive into? I need characters that reflect their problems Let's talk about that stuff.",
+   "ko": "55세 이상 관객의 거점과 고민을 이해해야 합니다. 배경이 정해지면 무엇을 탐구할지, 그들의 문제를 반영하는 캐릭터는 어떨지 등에 대해 이야기를 나누는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2311.3,
+   "en": "And there's one that you could do it singularly. I think it's much better if you've suddenly got three people with different perspectives. And by the way, another way to remove friction in the production process, everyone can hate the AI.",
+   "ko": "혼자 할 수도 있겠지만, 다른 관점의 세 사람이 모이면 훨씬 좋습니다. 참고로 제작 과정에서 마찰을 줄이는 방법은 모두가 AI를 미워하는 것입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2328.2,
+   "en": "So it's kind of like, I love what you're saying, Natalia, Claude's an idiot. But you're working everything out. And you also have this. you really have an expansive intelligence that is thinking about things, if you've set it up right, it's thinking about things that you would not have thought of.",
+   "ko": "동료의 말은 좋지만 AI는 멍청하다고 하면서 문제를 풀어가는 거죠. 제대로 설정만 한다면 당신이 생각지 못한 것들을 생각하는 광범위한 지능을 갖게 되는 셈입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2345.4,
+   "en": "And so that has to be in there and you have to be pushing it and I think that becomes part of the process. Yeah. Wait, do you happen to remember your thesis? I'm curious if you could maybe state a version of it.",
+   "ko": "그게 과정의 일부가 되어야 하죠. 네. 혹시 당신의 논지를 기억하시나요? 어떤 내용인지 말씀해 주실 수 있는지 궁금합니다.",
+   "speaker": "Natalia"
+  },
+  {
+   "start": 2357.3,
+   "en": "Yeah, I think I can. And then by the way, we can also talk about how I use the dev edit to create the original version and then Georgia had to keep paring it down to something.",
+   "ko": "네. 덧붙여서 제가 원본을 만들기 위해 '데브 에디트'를 사용한 방식과, 조지아가 그것을 어떻게 계속 다듬어야 했는지도 이야기할 수 있겠네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2368.2,
+   "en": "And what she ended up paring it down to was supporting the show business truism. I may be the only person on the Every Podcast ever who uses the term show business all the time.",
+   "ko": "결국 추려낸 내용은 쇼 비즈니스의 진리를 뒷받침하는 것이었습니다. 제가 이 팟캐스트에서 '쇼 비즈니스'라는 단어를 가장 많이 쓰는 사람일 것 같네요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2380.8,
+   "en": "I'm realizing, I'm realizing, and old man Graver shows up and talks about show business. this.",
+   "ko": "늙은 그레이버가 나타나 쇼 비즈니스에 대해 떠들고 있다는 걸 깨닫고 있습니다. 이 내용을요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2391.3,
+   "en": "So the truism is success is knowing what the audience wants before the audience knows it.",
+   "ko": "그러니까 자명한 이치는, 관객이 알기도 전에 그들이 무엇을 원하는지 아는 것이 성공이라는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2402.0,
+   "en": "Where AI is really helpful, so go back to my old man series, it could tell me right now a whole bunch of stuff that would slot right into that.",
+   "ko": "AI가 정말 도움이 되는 부분은, 제 '노인' 시리즈로 돌아가 보자면, 지금 당장이라도 거기에 딱 들어맞는 수많은 정보들을 제게 알려줄 수 있다는 점입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2413.0,
+   "en": "What it wouldn't tell me is the personal quirks that would make these characters endearing, right?",
+   "ko": "하지만 AI가 제게 말해주지 못하는 것은 이 캐릭터들을 사랑스럽게 만드는 개인적인 독특한 습성들입니다, 그렇죠?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2423.9,
+   "en": "For example, the guy who did the voices, who does the voice of Homer Simpson, he improvise, don't, to me that's the whole story.",
+   "ko": "예를 들어, 호머 심슨의 목소리를 연기한 성우가 즉흥 연기를 하는데, 제게는 그게 이야기의 전부나 다름없거든요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2436.5,
+   "en": "It's like, okay, we knew the whole thing and then he improvised that. So it's, AI can help you to all bunch of stuff and then there's these kind of what What is inside of you that nobody else has?",
+   "ko": "마치 '좋아, 우린 모든 걸 다 알고 있었는데 그가 그걸 즉흥적으로 해냈어' 같은 거죠. 그러니 AI는 온갖 것들을 도와줄 수 있지만, 그 다음에는 다른 누구에게도 없는 당신 내면의 무언가가 필요한 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2447.6,
+   "en": "And then there's two or three people or more in a writer's room. It's fascinating. It's what's inside all of you.",
+   "ko": "그리고 작가의 방에는 두세 명 혹은 그 이상의 사람들이 있죠. 흥미로워요. 그건 여러분 모두의 내면에 있는 것들입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2453.0,
+   "en": "Okay, there's a guy over there. He went to Harvard. We had to take him. And then there's a couple of other people.",
+   "ko": "좋아요, 저기 한 친구가 있네요. 하버드 출신이라 우리가 뽑아야 했죠. 그리고 또 몇몇 사람들이 더 있고요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2459.8,
+   "en": "And you've got an improv background or you've got this background or sometimes I know I've been in some writer's rooms where you literally brought somebody in who just knows the setting of the show.",
+   "ko": "즉흥 연기 배경이 있거나 다른 배경이 있을 수도 있고, 때로는 쇼의 설정에 대해서만 잘 아는 사람을 말 그대로 데려온 작가의 방에 저도 있어 본 적이 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2471.5,
+   "en": "I worked on an ill-fated show for the producer Jim Brooks that was about a 14-year-old tennis phenom. In fact, the show was called Phenom.",
+   "ko": "제작자 짐 브룩스와 함께 14세 테니스 천재에 관한 비운의 쇼를 작업한 적이 있습니다. 사실 그 쇼의 제목 자체가 '피넘(Phenom)'이었죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2483.3,
+   "en": "We had in the writers' room somebody who coached teenagers into their tennis championships. He was great at going like, oh, I do something horrible there. It was always kind of helpful.",
+   "ko": "작가진 중에 십대들을 테니스 챔피언십까지 코칭했던 분이 있었어요. 그분은 '오, 저 상황에서 전 끔찍한 짓을 저지를 것 같네요' 같은 피드백을 정말 잘 주셨고, 항상 큰 도움이 됐습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2500.2,
+   "en": "So you've got this writer's room, you've got AI, and that's how it comes together.",
+   "ko": "그러니까 이 작가의 방이 있고, AI가 있고, 그렇게 해서 하나로 합쳐지는 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2506.4,
+   "en": "Yeah, I mean, it kind of feels to be like a full circle, you know, that your thesis is essentially you have to know what your audience wants before the audience knows.",
+   "ko": "네, 그러니까 일종의 선순환처럼 느껴지네요. 당신의 논지는 기본적으로 관객이 알기 전에 그들이 무엇을 원하는지 알아야 한다는 것이니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2520.3,
+   "en": "And going back to being a kid in the South Side of Chicago on the other side of the TV, It's like every step you've taken in your career has been to be on the other side of the television and to close the gap between being the audience and being the producer.",
+   "ko": "시카고 남부에서 TV 너머를 보던 어린 시절로 돌아가 보면, 당신의 커리어에서 밟아온 모든 단계는 TV의 반대편에 서서 관객과 제작자 사이의 간극을 좁히는 과정이었던 것 같습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2537.9,
+   "en": "And now it's like we're at the singularity where you are at the audience and the producer.",
+   "ko": "그리고 이제 우리는 당신이 관객이면서 동시에 제작자인 특이점에 도달한 것 같네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2543.1,
+   "en": "So you have the opportunity to like have that core insight, but also to do all of the work to create the show that you think could kind of produce that whole insight into a story that is entertaining and we connect to a broader audience.",
+   "ko": "그래서 그런 핵심적인 통찰력을 가질 수 있을 뿐만 아니라, 그 통찰력을 재미있는 이야기로 만들어 더 넓은 관객과 연결될 수 있는 쇼를 제작하는 모든 작업을 직접 할 수 있는 기회를 갖게 된 거죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2556.5,
+   "en": "I had never thought of it as the singularity. It's the Fred singularity.",
+   "ko": "그걸 특이점이라고 생각해 본 적은 없었는데. '프레드 특이점'이군요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2562.5,
+   "en": "Yeah, I have a very good friend, Danny Hillis, who studied AI with Marvin Minsky in the 80s. And he constantly jokes that, yeah, I should just get the brain implant now. which, by the way, if I can, I will.",
+   "ko": "네, 80년대에 마빈 민스키와 함께 AI를 공부했던 대니 힐리스라는 아주 친한 친구가 있어요. 그는 항상 제가 이제 뇌에 임플란트를 심어야 한다고 농담을 하곤 하죠. 참고로, 할 수만 있다면 전 할 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2585.0,
+   "en": "That's awesome.",
+   "ko": "멋지네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2586.8,
+   "en": "Yeah, I think that's true. And I think, again, the hard part right now is for those of you who are business people and we're watching, it's that third piece here where Kevin Kelly has this great thousand true fans theory, right?",
+   "ko": "네, 그게 맞는 것 같아요. 그리고 시청하고 계신 비즈니스 종사자분들에게 지금 힘든 부분은, 케빈 켈리가 말한 저 유명한 '1,000명의 진정한 팬' 이론과 관련된 세 번째 부분입니다, 그렇죠?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2603.2,
+   "en": "You're a musician, you're a photographer, whatever. If you could just get a thousand people to give you $10 a month for a bunch of stuff that you do online, you can make a living.",
+   "ko": "음악가든 사진작가든 무엇이든 간에, 온라인에서 하는 일들에 대해 한 달에 10달러씩 지불할 용의가 있는 1,000명의 사람들만 확보할 수 있다면 생계를 꾸릴 수 있다는 거죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2614.7,
+   "en": "And nobody has set that up yet for people who do what I do, who no longer have the wonderful golden age of television. And I feel like that's what we finally need.",
+   "ko": "더 이상 TV의 황금 시대를 누리지 못하는 저와 같은 일을 하는 사람들을 위해 그런 시스템을 구축한 사람은 아직 없습니다. 그래서 저는 그것이 우리에게 마침내 필요한 것이라고 생각합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2628.9,
+   "en": "If you're able to create a really, really funny animated sitcom, and Fox is only buying one a year. Where do the other 50 good ideas go?",
+   "ko": "만약 당신이 정말 재미있는 애니메이션 시트콤을 만들 수 있는데, Fox가 일 년에 한 편만 산다면 어떨까요? 나머지 50개의 좋은 아이디어는 어디로 갈까요?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2641.0,
+   "en": "I keep looking at that point as if it's an actual place here. I keep looking at that third sector and going somehow we need that to happen.",
+   "ko": "저는 그 지점을 마치 실제 장소인 것처럼 계속 주시하고 있습니다. 그 제3의 영역을 바라보며 어떻게든 그 일이 일어나야 한다고 생각하죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2651.7,
+   "en": "So you have a great Substack and speaking of a thousand great fans. I'm a fan of your Substack. Where can people people find you.",
+   "ko": "훌륭한 뉴스레터(Substack)를 운영하고 계시고, 진정한 팬 이야기가 나와서 말인데 저도 구독자 중 한 명입니다. 사람들이 당신을 어디에서 찾을 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2660.3,
+   "en": "Oh sure it's a Substack it's called the AI Writers Studio or is it just AI Writers Studio? AI Writers Studio. Oh, one word dot com. Right? The dot com will get there.",
+   "ko": "아, 물론이죠. 'AI Writers Studio'라는 뉴스레터입니다. 아니면 그냥 'AI Writers Studio'인가요? 'AIWritersStudio'. 오, 한 단어로 된 닷컴입니다. 맞죠? 닷컴으로 접속하시면 됩니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2674.7,
+   "en": "Oh, Jesus, I should have known this.",
+   "ko": "세상에, 제가 이걸 알고 있었어야 했는데.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2676.4,
+   "en": "No, you're so good. It's on Substack. Yeah. Search my name Fred Graver. And you can't miss it. Yeah. Okay.",
+   "ko": "아니에요, 괜찮습니다. 서브스택에 있어요. 네. 제 이름 프레드 그레이버를 검색하세요. 절대 놓치지 않으실 겁니다. 네. 좋습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2683.6,
+   "en": "All right. So you've done that emptying out process. What happens that you're sitting on your computer, you have all of these notes. What do you do?",
+   "ko": "좋아요. 그렇게 비워내는 과정을 거쳤습니다. 컴퓨터 앞에 앉아 이 모든 노트들을 가지고 있을 때 어떤 일이 일어나나요? 무엇을 하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2691.7,
+   "en": "I have a couple of skills that I've built that are my readers, right? And they're the famous kind of readers over your shoulder.",
+   "ko": "제가 구축한 몇 가지 스킬들이 제 독자 역할을 해줍니다, 그렇죠? 소위 어깨너머로 지켜보는 독자 같은 것들이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2702.8,
+   "en": "There's people that I think think like me or would look at this. I've lived in Claude for a long time, so it's the room I keep going back to.",
+   "ko": "저처럼 생각하거나 이걸 살펴봐 줄 사람들이라고 생각합니다. 오랫동안 클로드(Claude)를 사용해 와서, 그곳은 제가 계속해서 돌아가는 방과 같습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2710.8,
+   "en": "And I will say Claude, this is this. Here's a folder of all my work you know what I work on is I'm going to do let's talk about this right and I think it's",
+   "ko": "그리고 저는 '클로드, 이건 이런 거야. 여기 내 모든 작업물이 담긴 폴더가 있어. 내가 작업하는 게 뭔지 알지? 이제 이것에 대해 이야기해 보자'라고 말합니다. 제 생각엔 그게",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2722.4,
+   "en": "and and then I'll say what I you know because prompting it's kind of like what I need back from you is an analysis of does this sound like me like something I would work on",
+   "ko": "그리고 나서 제가 말하죠. 프롬프팅이란 게 '내가 너에게 원하는 건 이게 내 말투 같은지, 내가 작업할 법한 내용인지에 대한 분석이야' 같은 거니까요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2735.9,
+   "en": "is there an audience for this on on some platform somewhere that feels real, and what will I need to get to a finished product, a script, or to get it to screen that I don't have now?",
+   "ko": "어딘가의 플랫폼에 실질적으로 존재할 만한 관객이 있는지, 그리고 지금 내가 가지고 있지 않은 것들 중에서 결과물이나 대본, 또는 화면에 올리기 위해 필요한 게 무엇인지 묻습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2753.9,
+   "en": "And the reason I asked that last question is, do I really want to go down the road? I have a lot of, everybody has a lot of ideas, right?",
+   "ko": "마지막 질문을 하는 이유는, 제가 정말 이 길을 가고 싶은지 확인하기 위해서입니다. 누구나 그렇듯 저도 아이디어가 많거든요, 그렇죠?",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2761.1,
+   "en": "But it's like, do you really want to go down the hard road of writing all of this to get to find people to help you make it or whatever? And I will have a very long conversation with Claude about the reality of that idea.",
+   "ko": "하지만 이걸 다 써서 제작을 도와줄 사람들을 찾는 등 그 험난한 길을 정말 가고 싶은가 하는 거죠. 그래서 저는 그 아이디어의 현실성에 대해 클로드와 아주 긴 대화를 나눕니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2775.4,
+   "en": "So let's say we get to it and I go, okay, great. You know what? I'm working on this. And I know kind of my steps for subsequent drafts and all that where I'm going to need to go from A to B.",
+   "ko": "그래서 결론에 도달해서 '좋아, 좋아. 내가 이걸 작업할게'라고 하면, 저는 다음 초안을 위한 단계들과 A에서 B로 가기 위해 필요한 것들을 대략 알게 됩니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2789.2,
+   "en": "And I will tell Claude, here's what we're going to do. And here's what I think the schedule is. And here's what I'm going to deliver this.",
+   "ko": "그리고 클로드에게 '우린 이렇게 할 거야. 일정은 이렇고, 내가 이걸 언제까지 제출할게'라고 말합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2795.0,
+   "en": "I have a Claude agent that is my morning check-in and and He's very unpleasant and I've asked him to be very unpleasant and",
+   "ko": "제게는 아침마다 체크인을 해주는 클로드 에이전트가 있는데, 아주 불친절해요. 제가 아주 불친절하게 대해달라고 부탁했거든요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2806.3,
+   "en": "So so when I opened up the computer again that night to say I've got another idea the first thing in the morning I will get back is wait a minute You're working on this",
+   "ko": "그래서 그날 밤 컴퓨터를 다시 켜서 다른 아이디어가 생겼다고 말하면, 다음 날 아침에 제일 먼저 받는 답변은 '잠깐만요, 당신은 지금 이걸 작업 중이잖아요'입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2818.0,
+   "en": "You told me you wanted me to talk about this and then in the night you came in with this other thing. What are we doing wing, right?",
+   "ko": "'당신은 나한테 이것에 대해 이야기하고 싶다고 해놓고, 밤중에 이 딴 걸 들고 왔잖아요. 지금 뭐 하자는 거죠?' 같은 식이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2825.0,
+   "en": "Because you owe this, you owe your thesis statement to every tomorrow afternoon, right? That's a kind of a practical thing, but then the other thing is like it knows, it knows what frameworks I use.",
+   "ko": "왜냐하면 당신은 매일 오후마다 당신의 논지 진술을 지켜야 할 의무가 있으니까요, 그렇죠? 그건 일종의 실용적인 부분이고, 또 다른 점은 클로드가 제가 어떤 프레임워크를 사용하는지 안다는 겁니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2839.4,
+   "en": "I love the Ken Adams because therefore framework. It's what Pixar uses in a lot of their stuff. It's the simplest way to do anything.",
+   "ko": "저는 켄 아담스의 '때문에, 그래서' 프레임워크를 좋아합니다. 픽사(Pixar)가 많은 작품에서 사용하는 방식이죠. 무엇이든 할 수 있는 가장 간단한 방법입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2849.6,
+   "en": "And I'll go here's my story, here's what I think I'm doing, help me figure out if that's doing the work. Plus by the way am I still answering questions from my audience.",
+   "ko": "그리고 '여기 내 이야기가 있고, 이게 내가 하려는 거야. 이게 제대로 작동하는지 확인해 줘'라고 하죠. 아울러 제가 여전히 관객의 질문에 답하고 있는지도 확인합니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2859.8,
+   "en": "So I'm constantly writing myself, I'm constantly asking Claude to look at what I've written. The compound part is it knows what decisions I've already made.",
+   "ko": "그래서 저는 끊임없이 글을 쓰고, 클로드에게 제가 쓴 것을 봐달라고 끊임없이 요청합니다. 심화된 부분은 클로드가 제가 이미 내린 결정들을 알고 있다는 점이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2874.0,
+   "en": "And by the way, you've clearly rejected the decision you made three days ago, where's that going? Again, writing is a lonely business.",
+   "ko": "그리고 '그나저나, 당신은 3일 전에 내린 결정을 명백히 거부했네요, 그건 어떻게 되는 거죠?'라고 묻기도 합니다. 다시 말하지만, 글쓰기는 외로운 일입니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2884.0,
+   "en": "When you have somebody to talk to about these things or three people. So I'll go from Claude and I'll take what I'm doing and work on it. I'll go back to ChatGPT.",
+   "ko": "이런 것들에 대해 이야기할 상대가 한 명이라도, 혹은 세 명이라도 있다면 다르죠. 그래서 클로드에서 하던 일을 가져와 작업을 한 뒤, ChatGPT로 갑니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2894.8,
+   "en": "ChatGPT is the film school student who has read every guide, seen everything, does not know what it means. It's great at I know you're trying to do this and here's the, as they say in the Olympics, the compulsories.",
+   "ko": "ChatGPT는 모든 가이드를 읽고 모든 것을 보았지만 그 의미는 모르는 영화 학교 학생 같습니다. '당신이 이걸 하려는 건 알겠는데, 올림픽으로 치면 여기 필수 과제들이 있어요' 같은 지적을 아주 잘하죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2911.3,
+   "en": "Here's what you haven't done or what you are accomplishing. It's very useful in that sense.",
+   "ko": "'당신이 하지 않은 것 혹은 당신이 성취하고 있는 것'을 알려줍니다. 그런 의미에서 매우 유용하죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2916.8,
+   "en": "And then I might even go to NotebookLM to say, hey, look at my documents, look at this stuff. And can I listen to the podcast? I am so shallow.",
+   "ko": "그리고 나서는 NotebookLM에 가서 제 문서나 자료들을 봐달라고 할 수도 있습니다. 그리고 팟캐스트를 들어볼 수도 있죠. 전 참 단순해요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2928.8,
+   "en": "I am a sucker for those two podcast hosts going, well, we're talking about something fascinating today. I love NotebookLM on podcasts. They're so great.",
+   "ko": "저는 그 두 팟캐스트 진행자가 '자, 오늘은 매혹적인 주제에 대해 이야기해 보겠습니다'라고 하는 걸 정말 좋아합니다. NotebookLM 팟캐스트 기능을 사랑해요. 정말 훌륭하거든요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2940.2,
+   "en": "It's the best, it's the best thing for a writer. They love what you're working on. Yeah, so that's roughly kind of like, and it just rinse and repeat.",
+   "ko": "그건 최고죠, 작가에게는 최고의 기능이에요. 그들은 당신이 작업 중인 것을 정말 좋아하죠. 네, 대략 그런 식이고 그냥 계속 반복하는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2951.1,
+   "en": "So do you think we might be able to get access to one or two of those skills? Because it sounds like such a valuable, I mean, you know, even this process that you've mentioned that Pixar uses.",
+   "ko": "그럼 저희가 그 스킬들 중 한두 가지를 이용해 볼 수 있을까요? 정말 가치 있게 들리거든요. 제 말은, 당신이 언급한 픽사가 사용하는 프로세스만 해도 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2961.8,
+   "en": "I wouldn't have known that. But once you've codified it, it's such a helpful sort of shortcut to actually following it.",
+   "ko": "전혀 몰랐을 텐데, 일단 체계화하고 나면 실제로 그걸 따라가는 데 아주 유용한 지름길이 될 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2968.0,
+   "en": "I have what I teach an online class at the Barcelona School of Art and Design. The reason is is that European film schools have embraced AI in a big way that American film schools are afraid to do.",
+   "ko": "저는 바르셀로나 디자인 예술 학교에서 온라인 강의를 하고 있습니다. 유럽의 영화 학교들은 미국의 영화 학교들이 두려워하는 방식으로 AI를 대대적으로 수용했기 때문이죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2983.0,
+   "en": "And I created a skill that helps you create a pitch deck for your idea, which is kind of great.",
+   "ko": "그리고 아이디어를 위한 피치 덱(기획안) 제작을 돕는 스킬을 만들었는데, 꽤 괜찮습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 2992.0,
+   "en": "And within that skill, there is the Ken Adams like, okay, can you in one slide do a, here's the normal world, then this happens because that happens, they do that.",
+   "ko": "그 스킬 안에는 켄 아담스 스타일로 '자, 슬라이드 한 장에 평범한 세상을 담고, 어떤 일이 일어나고, 그 때문에 저런 일이 생겨서, 그들이 그렇게 한다'는 과정을 담을 수 있게 되어 있습니다.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 3002.9,
+   "en": "And it basically makes you create the log line and the characters and all that stuff and won't let you, and it won't let you finish the whole, each step, they won't let you do a step until you've completed the other side.",
+   "ko": "기본적으로 로그라인과 캐릭터 등을 만들게 하는데, 한 단계를 완료하지 않으면 다음 단계로 넘어가지 못하게 되어 있습니다. 기획의 다른 면을 다 채울 때까지는 끝내주지 않죠.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 3016.1,
+   "en": "I'm happy to share that with you.",
+   "ko": "기꺼이 공유해 드릴게요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 3018.0,
+   "en": "I am so excited to try it. Yes, definitely would love that. And it might not be that good. You can tell me. That's, let me know.",
+   "ko": "정말 써보고 싶네요. 네, 꼭 그러고 싶습니다. 별로일 수도 있지만요. 그럼 제게 말씀해 주세요. 알려주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3025.3,
+   "en": "Well, perfect. I mean, it's so fun though. I mean, cause then it's like it'll be, it'll be a second in your brain, you know, to like try to follow that process and understand how you might approach. Doing that particular step in production.",
+   "ko": "완벽해요. 제 말은, 정말 재미있을 거라는 거예요. 그 과정을 따르고 제작의 특정 단계에 어떻게 접근할지 이해하려고 노력하는 게 당신의 뇌 속에서 순식간에 일어날 테니까요.",
+   "speaker": "Fred Graver"
+  },
+  {
+   "start": 3040.6,
+   "en": "Yeah, terrific. Thanks for doing us for this conversation with Fred Graver. If you want to use the skill that Fred shared, It's in the description below.",
+   "ko": "네, 훌륭합니다. 프레드 그레이버와 함께한 이 대화에 참여해 주셔서 감사합니다. 프레드가 공유한 스킬을 사용하고 싶으시다면 아래 설명란에 링크가 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3046.9,
+   "en": "It's really fun to use. I highly recommend it. And you can also find us at every.to. We'll see you next time.",
+   "ko": "사용하기 정말 재미있으니 강력히 추천합니다. every.to에서도 저희를 만나보실 수 있습니다. 다음에 뵙겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3054.2,
+   "en": "If you like this video, you should check out every.to. We have a two week free trial for anyone who's watching or listening at the link in the description. Every is the only subscription you need to stay at the edge of AI.",
+   "ko": "이 영상이 마음에 드셨다면 every.to를 확인해 보세요. 시청하시거나 듣고 계신 모든 분들을 위해 설명란의 링크에 2주 무료 체험권을 준비했습니다. Every는 AI의 최첨단에 서기 위해 필요한 유일한 구독 서비스입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3065.6,
+   "en": "It is the one subscription that if you're super AI-pilled and you want to learn how to use it to do the best work of your life, it's got everything you need. It has education and equipment.",
+   "ko": "만약 당신이 AI에 진심이고 그것을 사용해 최고의 성과를 내는 법을 배우고 싶다면, 이 하나의 구독에 필요한 모든 것이 담겨 있습니다. 교육과 도구들 말이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3074.4,
+   "en": "On the education side, we review every new model that drops and tell you what's good. On the equipment side, we have software tools specifically made for you, like an agent that helps you AI-pill your whole company, all bundled together under one subscription.",
+   "ko": "교육 측면에서는 새로 출시되는 모든 모델을 리뷰하고 무엇이 좋은지 알려드립니다. 도구 측면에서는 회사 전체에 AI를 도입하도록 돕는 에이전트와 같이 여러분을 위해 특별히 제작된 소프트웨어 툴들을 하나의 구독으로 묶어 제공합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3088.0,
+   "en": "So get two weeks free now at the link in the description.",
+   "ko": "지금 바로 설명란의 링크에서 2주 무료 체험을 시작하세요.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
