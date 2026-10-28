@@ -1,0 +1,2479 @@
+{
+ "id": "pod-72a8d8fc0ac1",
+ "title": "Musk, Bezos, and the Battle to Control Space",
+ "show": "The Next Big Idea",
+ "channel": "Next Big Idea Club",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/YAP4242987994.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/a6ab495a-883e-11ec-8c25-c7992afe5f38/image/09bc0267e5751affd95e56450e5e5d5b.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 3571,
+ "releaseDate": "2026-10-22T09:30:00.000Z",
+ "addedAt": "2026-10-28",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "I'm Caleb Bissinger. This is the next big idea.",
+   "ko": "저는 케일럽 비신저입니다. 이것은 '넥스트 빅 아이디어'입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3.3,
+   "en": "For the last few years, the global space race has been dominated by two private citizens, Elon Musk and Jeff Bezos.",
+   "ko": "지난 몇 년 동안 세계적인 우주 경쟁은 일론 머스크와 제프 베이조스라는 두 민간인에 의해 주도되어 왔습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 10.9,
+   "en": "They've launched thousands of satellites. They've designed lunar landing modules, drawn up ambitious plans to build AI data centers in space.",
+   "ko": "그들은 수천 개의 위성을 발사했습니다. 달 착륙 모듈을 설계했고, 우주에 AI 데이터 센터를 건설하겠다는 야심 찬 계획을 세웠죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 19.8,
+   "en": "I wanted to understand why these two multi-multi-billionaires are so obsessed with galaxies far, far, far away.",
+   "ko": "저는 이 두 초거대 억만장자들이 왜 그토록 멀고 먼 은하계에 집착하는지 이해하고 싶었습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 27.2,
+   "en": "And more importantly, what are their efforts to conquer the cosmos mean for the rest of us down here on Earth?",
+   "ko": "그리고 더 중요한 것은, 우주를 정복하려는 그들의 노력이 여기 지구에 있는 나머지 우리에게 무엇을 의미하느냐는 것입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 33.6,
+   "en": "So I called up Josh Tyrangiel. He wrote the cover story for this month's issue of the Atlantic.",
+   "ko": "그래서 저는 조쉬 티랑겔에게 전화를 걸었습니다. 그는 이번 달 '애틀랜틱'지의 커버스토리를 썼습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 37.8,
+   "en": "It's called \"Choose Your Overlord: Musk vs. Bezos.\" For most of human history, Josh writes, the power to decide where a civilization went next belonged to governments.",
+   "ko": "제목은 \"당신의 군주를 선택하라: 머스크 대 베이조스\"입니다. 조쉬의 글에 따르면, 인류 역사의 대부분 동안 문명이 다음으로 나아갈 방향을 결정하는 권한은 정부에 있었습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 48.1,
+   "en": "It's a measure of how much has changed that a retail executive from Seattle and a South African-born engineer are well positioned to now exercise that power.",
+   "ko": "시애틀 출신의 유통업계 경영자와 남아프리카공화국 태생의 엔지니어가 이제 그 권력을 행사할 수 있는 위치에 있다는 사실은 세상이 얼마나 많이 변했는지를 보여주는 척도입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 57.5,
+   "en": "He adds, both say they hope to preserve human life from the specter of climate change and expand mankind's understanding of the universe.",
+   "ko": "그는 덧붙입니다. 두 사람 모두 기후 변화의 공포로부터 인류의 삶을 보존하고 우주에 대한 인류의 이해를 넓히기를 희망한다고 말합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 64.9,
+   "en": "Both would also like to dominate a market that unlike every other market they've previously conquered has no ceiling and few established rules.",
+   "ko": "또한 두 사람 모두 이전에 정복했던 다른 모든 시장과 달리 한계가 없고 확립된 규칙도 거의 없는 시장을 지배하고 싶어 합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 75.0,
+   "en": "Josh and I spoke late last week. Our conversation after these ads.",
+   "ko": "조쉬와 저는 지난주 후반에 이야기를 나누었습니다. 광고 후에 대화를 이어가겠습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 85.8,
+   "en": "Today's episode is brought to you by Granola, Hostinger, Life at the Speed of Play, Sequencing, and Storyblocks.",
+   "ko": "오늘 에피소드는 Granola, Hostinger, Life at the Speed of Play, Sequencing, 그리고 Storyblocks의 후원으로 제작되었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 92.2,
+   "en": "Granola is an AI-powered notepad built for the way real people actually meet. Try it totally free for three months at granola.ai/idea.",
+   "ko": "Granola는 실제 사람들이 소통하는 방식을 위해 만들어진 AI 기반 메모장입니다. granola.ai/idea에서 3개월 동안 완전 무료로 체험해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 101.2,
+   "en": "Creating a website doesn't have to cost thousands. With Hostinger, you can begin at your own pace and build from there.",
+   "ko": "웹사이트 제작에 수천 달러를 들일 필요가 없습니다. Hostinger와 함께라면 여러분의 속도에 맞춰 시작하고 그 위에서 구축해 나갈 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 106.6,
+   "en": "Go to hostinger.com/nbi and use code NBI for 10% off now.",
+   "ko": "지금 hostinger.com/nbi를 방문하여 코드 NBI를 입력하고 10% 할인을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 111.2,
+   "en": "Life at the Speed of Play is a new book by renowned serial entrepreneur and Silicon Valley investor Mark Pincus.",
+   "ko": "'Life at the Speed of Play'는 유명한 연쇄 창업가이자 실리콘밸리 투자자인 마크 핀커스의 신간입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 117.6,
+   "en": "It also happens to be one of Rufus' all-time favorite business books. And if you purchase one copy at getmarksbook.com/next, Mark will send you two.",
+   "ko": "이 책은 루퍼스가 가장 좋아하는 비즈니스 서적 중 하나이기도 합니다. getmarksbook.com/next에서 한 권을 구매하시면 마크가 두 권을 보내드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 126.1,
+   "en": "Sequencing makes genetic testing kits and DNA reports for health and wellness.",
+   "ko": "Sequencing은 건강과 웰빙을 위한 유전자 검사 키트와 DNA 보고서를 만듭니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 129.7,
+   "en": "They're offering Next Big Idea listeners up to 10% off a full genome test, plus free shipping when you go to sequencing.com and use promo code IDEA.",
+   "ko": "Next Big Idea 청취자 여러분께 전체 게놈 테스트 최대 10% 할인 혜택을 드립니다. sequencing.com에서 프로모션 코드 IDEA를 사용하고 무료 배송 혜택도 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 139.0,
+   "en": "Head to storyblocks.com/nbi to access the human-made stock media library that's essential to our workflow.",
+   "ko": "저희 업무 흐름에 필수적인 전문가용 스톡 미디어 라이브러리를 이용하시려면 storyblocks.com/nbi로 가보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 146.3,
+   "en": "For a limited time, they're offering 15% off any annual plan, and that discount is only available through our link.",
+   "ko": "한정된 기간 동안 모든 연간 요금제에 대해 15% 할인을 제공하며, 이 할인은 저희 링크를 통해서만 가능합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 152.2,
+   "en": "Again, that's storyblocks.com/nbi for 15% off annual plans.",
+   "ko": "다시 한번 말씀드립니다. 연간 요금제 15% 할인을 받으시려면 storyblocks.com/nbi를 방문하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 170.1,
+   "en": "Josh, welcome to the Next Big Idea.",
+   "ko": "조쉬, 넥스트 빅 아이디어에 오신 것을 환영합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 172.8,
+   "en": "Thanks so much for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 174.4,
+   "en": "Why are Elon Musk and Jeff Bezos, the two richest men on the planet, so obsessed with outer space?",
+   "ko": "지구상에서 가장 부유한 두 사람인 일론 머스크와 제프 베이조스는 왜 그토록 우주에 집착하는 걸까요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 181.9,
+   "en": "Oh man, it goes back to youth and dreaming and being a nerdy kid, and they both just genuinely love space.",
+   "ko": "세상에, 그건 어린 시절의 꿈과 괴짜 소년이었던 때로 거슬러 올라갑니다. 두 사람 모두 진심으로 우주를 사랑합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 190.6,
+   "en": "And the one incontrovertible thing, regardless of how mixed their motives may become, the hairball of intent that has developed as they become two of the richest men in the world, they love space, they're just fascinated by it.",
+   "ko": "그들의 동기가 얼마나 복합적으로 얽혀 있든, 세계 최고의 부자가 되면서 형성된 그 복잡한 의도의 뭉치 속에서도 한 가지 명백한 사실은 그들이 우주를 사랑하고 매료되어 있다는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 203.6,
+   "en": "They dream about it, they read about it, they think about it, they talk about it all the time. And this goes back to their youth. Bezos has been thinking about the moon since he was 16 years old.",
+   "ko": "그들은 항상 우주를 꿈꾸고, 우주에 대해 읽고, 생각하고, 말합니다. 이것은 그들의 어린 시절로 거슬러 올라가죠. 베이조스는 16살 때부터 달에 대해 생각했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 215.4,
+   "en": "One of the things that I think the hardcore Bezos fans know is that when Amazon first was taking off and he was becoming wealthy, and reporters would flock back to Miami to try and unpack the myth of who this guy was...",
+   "ko": "베이조스의 열성 팬들이 알고 있는 사실 중 하나는, 아마존이 처음 도약하고 그가 부유해지기 시작했을 때 기자들이 이 남자의 실체를 파헤치기 위해 마이애미로 몰려들었다는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 230.8,
+   "en": "Inevitably, they would go to his high school girlfriend. And she just said, like, point-blank in this moment that has been sort of vastly overlooked.",
+   "ko": "그들은 필연적으로 그의 고등학교 시절 여자친구를 찾아갔죠. 그녀는 지금까지 상당히 간과되어 온 이 순간에 단도직입적으로 말했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 239.2,
+   "en": "She's like, \"You do realize the only reason he's trying to get rich is to go to space, right?\" And people are like, \"Oh.\" But it's true. It really has been the driving force in his life for a really long time.",
+   "ko": "그녀는 \"그가 돈을 벌려고 하는 유일한 이유가 우주에 가기 위해서라는 걸 알고 있죠?\"라고 말했습니다. 사람들은 그냥 웃어넘겼지만 사실이었죠. 그것은 정말 오랫동안 그의 삶을 이끄는 원동력이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 249.6,
+   "en": "And the same with Elon, you know? I mean, Elon is not technically an engineer, but he has never stopped thinking about aerospace and engineering and cosmic exploration.",
+   "ko": "일론도 마찬가지입니다. 일론은 엄밀히 말하면 엔지니어는 아니지만, 항공우주와 엔지니어링, 그리고 우주 탐험에 대해 생각하는 것을 멈춘 적이 없습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 260.6,
+   "en": "So it's a real thing for both.",
+   "ko": "그러니 두 사람 모두에게 이것은 진심인 셈이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 262.5,
+   "en": "I mean, I have lots of reasons why I think I'm not a billionaire, but certainly reading the piece, one was like, I don't understand the... like to me, they see space and they see endless possibility.",
+   "ko": "제가 억만장자가 되지 못한 수많은 이유가 있겠지만, 기사를 읽으면서 느낀 한 가지는 제가 그들을 이해하지 못한다는 거였어요. 제 눈에 그들은 우주를 보며 무한한 가능성을 봅니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 273.1,
+   "en": "It just is frightening to me. It's cold, it's dark, it's mostly empty. And maybe if I had a different view on space, I would have a different bank balance.",
+   "ko": "저에게 우주는 그저 두려운 곳일 뿐입니다. 차갑고 어둡고 거의 비어 있잖아요. 만약 제가 우주에 대해 다른 견해를 가졌더라면 제 은행 잔고도 달라졌을지 모르죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 281.5,
+   "en": "But it's so... it was so funny trying to put myself into their... either as young men or now as middle-aged men, their fascination with the great beyond because it just doesn't do it for me.",
+   "ko": "청년 시절이든 지금처럼 중년이든, 저 너머의 위대한 공간에 대한 그들의 매혹을 이해해보려 노력하는 게 참 우스웠어요. 저에겐 전혀 와닿지 않거든요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 291.5,
+   "en": "Yeah, and look, one, horses for courses, right? Like, different people, different things, and I love that.",
+   "ko": "그렇죠, 사람마다 취향이 다른 법이니까요. 사람마다 다른 거니까요. 전 그런 점이 좋습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 297.9,
+   "en": "My job, in addition to trying to, like, tell the story, get all the facts... I might have more of an ability to empathize than you on a Jeff, right?",
+   "ko": "제 직업은 이야기를 들려주고 모든 사실을 파악하는 것 외에도... 어쩌면 제가 당신보다 제프에게 더 공감하는 능력이 있을지도 모르겠네요, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 308.2,
+   "en": "And so there are these distinctions between all of us as human beings. And what I try to do is understand why they love this stuff and then also understand how that love is different from the way someone like you or I might approach this problem, right?",
+   "ko": "인간으로서 우리 모두에게는 이런 차이점이 있습니다. 제가 하려는 것은 그들이 왜 이것을 사랑하는지 이해하고, 그 사랑이 당신이나 저 같은 사람이 이 문제에 접근하는 방식과 어떻게 다른지 파악하는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 322.6,
+   "en": "One of the distinctions: you and I are very happy here on Earth. It's quite nice and I'd like to spend as much of my time here as possible, right?",
+   "ko": "차이점 중 하나는, 당신과 저는 여기 지구에서 매우 행복하다는 것입니다. 지구는 꽤 괜찮고 저는 가능한 한 많은 시간을 여기서 보내고 싶거든요, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 331.2,
+   "en": "I've no interest in spending two years on a spaceship to get to Mars where everything is intended to kill me. I'm good.",
+   "ko": "모든 것이 저를 죽이려 드는 화성에 가기 위해 우주선에서 2년을 보낼 생각은 전혀 없습니다. 저는 괜찮아요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 338.8,
+   "en": "But also, were I to think about space, I would probably be thinking about it just based on who I am and the way I think very differently than the way they do.",
+   "ko": "또한, 제가 우주에 대해 생각한다면 저라는 사람과 제 사고방식에 기초할 것이고, 그들의 생각과는 매우 다를 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 347.0,
+   "en": "They see space fundamentally as both this incredibly important thing for humankind, this wildly cool thing, and this obvious economic opportunity that they are intended to dominate.",
+   "ko": "그들은 기본적으로 우주를 인류에게 엄청나게 중요한 것이자 매우 멋진 것인 동시에, 자신들이 지배해야 할 명백한 경제적 기회로 봅니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 359.7,
+   "en": "You cannot disentangle those things from the way they perceive their companies, the way they perceive their time, and really what they want to do for the next couple of decades.",
+   "ko": "그들이 자신의 회사를 인식하는 방식, 시간을 인지하는 방식, 그리고 향후 수십 년 동안 정말로 하고 싶은 일에서 이러한 요소들을 분리할 수 없습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 369.7,
+   "en": "We see those distinctions. They do not.",
+   "ko": "우리는 그러한 구분을 보지만, 그들은 그렇지 않습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 372.3,
+   "en": "And so you write in this new piece, \"These two billionaires are in the early stages of a race to vertically integrate the galaxy.\" What does that mean, \"vertically integrate the galaxy?\"",
+   "ko": "그래서 당신은 이번 기사에 \"이 두 억만장자는 은하계를 수직 계열화하기 위한 경쟁의 초기 단계에 있다\"고 썼습니다. \"은하계를 수직 계열화한다\"는 것이 무슨 뜻인가요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 383.5,
+   "en": "So when Jeff Bezos started Blue Origin in 2000 and Elon Musk started SpaceX in 2003, they did not have a whole blueprint of how this was going to be a business.",
+   "ko": "제프 베이조스가 2000년에 블루 오리진을 시작하고 일론 머스크가 2003년에 스페이스X를 시작했을 때, 그들은 이것이 어떻게 비즈니스가 될지에 대한 완벽한 청사진을 가지고 있지 않았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 393.4,
+   "en": "They had some money, they wanted to spend it, and they had an inkling that there might be a business one day.",
+   "ko": "그들은 약간의 돈이 있었고 그것을 쓰고 싶어 했으며, 언젠가 사업이 될 수도 있다는 막연한 예감만 가지고 있었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 398.2,
+   "en": "For most of their existence, there wasn't a business. Launching rockets is not terribly profitable. It's hugely risky. Every flight has terrible risk associated with it.",
+   "ko": "회사가 존재했던 대부분의 기간 동안 사업다운 사업은 없었습니다. 로켓 발사는 그다지 수익성이 높지 않습니다. 엄청나게 위험하죠. 모든 비행에는 끔찍한 위험이 따릅니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 408.0,
+   "en": "The machines are expensive. There's a limited number of customers. But along the way, and this is a credit to their ingenuity, they did discover a way to...",
+   "ko": "기계는 비싸고 고객 수는 한정되어 있습니다. 하지만 그 과정에서, 이것은 그들의 독창성 덕분이기도 한데, 그들은 방법을 발견했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 422.5,
+   "en": "He realized, \"Okay, well, if launch doesn't work, what can I launch that's good, and that will pay for my launch?\"",
+   "ko": "그는 깨달았습니다. \"로켓 발사 자체가 돈이 안 된다면, 내 발사 비용을 충당해 줄 만한 가치 있는 무엇을 쏘아 올릴 수 있을까?\"",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 428.8,
+   "en": "And telecommunications, boring old telecommunications was the answer.",
+   "ko": "그 해답은 통신, 따분하고 오래된 통신 사업이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 433.2,
+   "en": "And so Starlink, because it's got \"star\" in the name, because it's a sexy satellite, it sounds more interesting than it actually is. It's just really effective broadband communication, and the margins on that are great.",
+   "ko": "스타링크는 이름에 '스타'가 들어가고 섹시한 위성이라서 실제보다 더 흥미롭게 들립니다. 하지만 본질은 매우 효과적인 광대역 통신일 뿐이고, 그 수익 마진이 엄청납니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 444.7,
+   "en": "And so that's a really important part, right? So step one of their businesses is launch capability, hard business to get into, not terribly profitable.",
+   "ko": "그것이 정말 중요한 부분이죠, 그렇죠? 그래서 그들 사업의 1단계는 발사 능력입니다. 진입하기 어렵고 수익성은 별로 없는 사업이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 452.8,
+   "en": "Step two, satellite communications. And Bezos through Amazon and through Blue Origin is also launching Kuiper, all these other satellite components.",
+   "ko": "2단계는 위성 통신입니다. 베이조스도 아마존과 블루 오리진을 통해 카이퍼와 다른 모든 위성 구성 요소들을 발사하고 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 463.1,
+   "en": "Very sophisticated, good businesses, right? A couple of years ago what they realized was, \"Oh, there are a couple more rungs on this ladder that could be incredibly profitable.\"",
+   "ko": "매우 정교하고 좋은 사업들이죠, 그렇죠? 몇 년 전 그들이 깨달은 것은 \"아, 이 사다리에는 엄청난 수익을 안겨줄 수 있는 몇 단계가 더 있구나\" 하는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 472.7,
+   "en": "And rung number three, which again, you can't get to without the first two, is data centers in space.",
+   "ko": "그리고 세 번째 단계는, 앞의 두 단계 없이는 도달할 수 없는 것인데, 바로 우주 데이터 센터입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 477.4,
+   "en": "And we have been saying \"data centers in space\" out loud and feeling kind of silly about it for the last six months.",
+   "ko": "지난 6개월 동안 저희는 '우주 데이터 센터'라고 입 밖으로 내뱉으면서도 스스로 좀 황당하다고 느껴왔습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 483.2,
+   "en": "It seems insane. When you dig into it, the costs of compute on Earth are really high.",
+   "ko": "말도 안 되는 소리 같죠. 하지만 깊이 파고들어 보면 지구상의 컴퓨팅 비용은 정말 높습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 491.5,
+   "en": "They're high because we have a lot of people on Earth who don't want data centers near them. NIMBYism is a big deal. The power supply—even if you can afford the power, finding the power, hooking into grids is really, really hard, right?",
+   "ko": "지구에 데이터 센터가 근처에 오는 걸 원치 않는 사람들이 많기 때문에 비용이 높습니다. 님비 현상이 큰 문제죠. 전력 공급도 문제인데, 전력 비용을 감당할 수 있더라도 전력을 찾고 그리드에 연결하는 것 자체가 정말 어렵습니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 504.0,
+   "en": "And they believe in a world in which AI is going to be completely integrated into the fabric of all society. And the cost, not just to train models, but for inference, is going to be through the roof.",
+   "ko": "그들은 AI가 사회 전체의 구조에 완전히 통합될 세상을 믿습니다. 그리고 모델 학습뿐만 아니라 추론을 위한 비용도 천정부지로 솟을 것이라고 봅니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 516.4,
+   "en": "So they've scientifically both been working very, very hard on what compute in space looks like. And they believe that that investment will pay off tremendously.",
+   "ko": "그래서 두 사람 모두 우주에서의 컴퓨팅이 어떤 모습일지에 대해 과학적으로 매우 열심히 연구해 왔습니다. 그리고 그 투자가 엄청난 보상으로 돌아올 것이라고 믿고 있죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 526.4,
+   "en": "And by the way, it sounds crazy, but as I wrote in the piece, if it's crazy, everybody else in AI wants to bum-rush the asylum. They all want in.",
+   "ko": "그런데 이게 미친 소리 같지만, 제가 기사에 쓴 것처럼 만약 이게 정말 미친 짓이라면 AI 업계의 다른 모든 이들도 그 수용소에 들이닥치고 싶어 하는 꼴입니다. 다들 동참하고 싶어 하거든요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 535.3,
+   "en": "They want launch capability. Sam Altman openly mused about, \"Should I make a space company?\" And he tried to buy Stoke Space, which is a small startup, but a successful one.",
+   "ko": "그들은 발사 능력을 원합니다. 샘 알트먼은 \"나도 우주 회사를 만들어야 하나?\"라고 공개적으로 고민했죠. 그는 작지만 성공적인 스타트업인 스토크 스페이스를 인수하려고 시도하기도 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 545.6,
+   "en": "What that gets you to is the fourth rung, which is unfettered access to compute for an AI model back on Earth.",
+   "ko": "이를 통해 도달하게 되는 것이 네 번째 단계인, 지구에 있는 AI 모델을 위한 무제한 컴퓨팅 접근권입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 553.4,
+   "en": "If you run those four things together, you have this incredible flywheel. And the real first blueprint of it is in that SpaceX perspective, which I described in the piece as a blueprint for the East India Company of space.",
+   "ko": "이 네 가지를 결합하면 엄청난 선순환 구조(플라이휠)가 생깁니다. 그 실제적인 첫 청사진은 제가 기사에서 '우주의 동인도 회사'를 위한 청사진이라고 묘사한 스페이스X의 관점에 담겨 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 567.3,
+   "en": "This is how you do it. The numbers, they came up with a total addressable market of something like $30 trillion.",
+   "ko": "이것이 바로 방법입니다. 그들이 산출한 수치에 따르면 잠재적 시장 규모(TAM)는 약 30조 달러에 달합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 575.2,
+   "en": "Sure. Nobody knows whether the numbers are real. I want to proviso here. Nobody knows whether the tech is real yet.",
+   "ko": "물론이죠. 그 수치가 진짜인지는 아무도 모릅니다. 여기서 단서를 달자면, 그 기술이 이미 구현 가능한지도 아직 아무도 모릅니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 585.1,
+   "en": "There are parts of it that are real and demonstrable. There are parts that aren't.",
+   "ko": "실제적이고 증명 가능한 부분도 있고, 그렇지 않은 부분도 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 588.4,
+   "en": "No one certainly knows the timelines, but what's important for listeners and readers to take away is they believe this. They are driving their money and their investment after this plan.",
+   "ko": "일정은 확실히 아무도 모르지만, 청취자와 독자분들이 알아야 할 중요한 사실은 그들이 이것을 믿고 있다는 점입니다. 그들은 이 계획을 위해 돈과 투자를 쏟아붓고 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 605.0,
+   "en": "I had thought before your piece that, oh, the data center in space thing is just Elon being Elon.",
+   "ko": "당신의 기사를 읽기 전까지 저는 우주 데이터 센터라는 게 그냥 일론 머스크다운 발상일 뿐이라고 생각했습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 610.4,
+   "en": "But the more I've dug in and the more you've talked about in your piece, like, yes, Sam Altman talked about buying a rocket company, I think Eric Schmidt, former CEO of Google, recently purchased a rocket launch company to try to do the same thing.",
+   "ko": "하지만 제가 더 깊이 파고들고 당신이 기사에서 언급한 것처럼, 샘 알트먼이 로켓 회사 인수를 논의했고 구글의 전 CEO 에릭 슈미트도 같은 일을 하려고 최근 로켓 발사 회사를 인수했더군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 621.1,
+   "en": "So there are a lot of people who are very wealthy, very smart, and very involved in this, who really believe this is the next frontier.",
+   "ko": "그러니 아주 부유하고 똑똑하며 이 분야에 깊이 관여하고 있는 많은 사람들이 이것이 정말 다음 개척지라고 믿고 있는 셈입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 628.8,
+   "en": "I understand the scale issue, right? Like, no one wants a data center in their backyard, but you could make a massive data center floating out in outer space, and no one's going to be bothered by it.",
+   "ko": "규모 문제는 이해가 가요. 그렇죠? 아무도 자기 뒷마당에 데이터 센터가 들어오는 걸 원치 않지만, 우주 공간에 거대한 데이터 센터를 띄우면 아무도 방해받지 않을 테니까요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 638.3,
+   "en": "It seems to me so difficult. Like, how do you service this thing? How do you get the... I mean, I'm so non-technical, but that to me seems like the big barrier.",
+   "ko": "그런데 저에겐 너무 어려워 보여요. 대체 이걸 어떻게 수리하나요? 어떻게... 그러니까, 저는 기술적으로 문외한이지만 그게 가장 큰 장벽처럼 보입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 647.8,
+   "en": "If you have this thing floating out in space, how do you actually make it useful to us down here on planet Earth?",
+   "ko": "이 물건이 우주에 떠 있다면, 실제로 여기 지구에 있는 우리에게 어떻게 유용하게 만들 수 있을까요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 652.8,
+   "en": "Your intuition is totally correct. If something goes wrong, it's really hard to fix it in space. And in fact, you just kind of write it off, right?",
+   "ko": "당신의 직관이 완전히 옳습니다. 우주에서 무언가 잘못되면 수리하기가 정말 어렵습니다. 사실상 그냥 포기해야 하죠, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 660.0,
+   "en": "Like you're not going up to fix a compute satellite and reinstall chips, like it's not happening.",
+   "ko": "컴퓨팅 위성을 수리하고 칩을 다시 설치하러 올라갈 수는 없으니까요, 그런 일은 일어나지 않습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 667.4,
+   "en": "That said, you also have other advantages, right? Like you have an unlimited source of energy in the sun and you tilt your panels one way and you get great heat.",
+   "ko": "그렇긴 하지만 다른 장점도 있습니다. 태양이라는 무한한 에너지원이 있고, 패널을 한쪽으로 기울이면 엄청난 열을 얻을 수 있죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 678.6,
+   "en": "You tilt them the other way and you have an unlimited source of coolant because that's the way space works. So that's pretty valuable.",
+   "ko": "반대쪽으로 기울이면 무한한 냉각원을 얻을 수 있습니다. 우주의 원리가 그렇거든요. 그래서 꽤 가치가 있죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 685.6,
+   "en": "Because it's already hooked up to communication satellites, you have this loop whereby you can constantly use it.",
+   "ko": "이미 통신 위성과 연결되어 있기 때문에 지속적으로 사용할 수 있는 루프가 형성되어 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 691.2,
+   "en": "They're not talking about one massive data center in space. They're talking about... Elon filed with the FCC that he wants to put a million Starlink AI satellites in space.",
+   "ko": "그들은 우주에 거대한 데이터 센터 하나를 두는 걸 말하는 게 아닙니다. 일론은 100만 개의 스타링크 AI 위성을 우주에 띄우고 싶다고 FCC에 신청했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 704.6,
+   "en": "Currently, we're at about 11,000 Starlink satellites in space. So you can imagine the scale at which they are playing or imagining what orbit's going to look like is crazy.",
+   "ko": "현재 우주에는 약 11,000개의 스타링크 위성이 있습니다. 그러니 그들이 구상하는 규모나 궤도의 모습이 얼마나 어마어마한지 상상할 수 있을 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 715.8,
+   "en": "But they genuinely believe it will be cheaper. And that's the thing, right?",
+   "ko": "하지만 그들은 진심으로 그것이 더 저렴해질 것이라고 믿습니다. 바로 그게 핵심이죠, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 720.8,
+   "en": "Ultimately, what both theorize when it comes to space is that if you can reduce the cost of launching each kilogram into orbit, anything is possible, right?",
+   "ko": "궁극적으로 두 사람 모두 우주에 대해 세운 가설은, 궤도에 1kg을 올리는 비용을 줄일 수만 있다면 무엇이든 가능하다는 것입니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 731.5,
+   "en": "And so that's why the key insight that both of them had—and it's not original to them, but they pursued it further than anybody—is that you need to make reusable rockets.",
+   "ko": "그래서 두 사람 모두가 가졌던 핵심 통찰력은—그들이 처음 생각해낸 건 아니지만 누구보다 끈질기게 추구했죠—바로 재사용 가능한 로켓을 만들어야 한다는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 741.4,
+   "en": "And this is a very easy thing for people to understand. Like if you and I are flying from New York to LA and at the end of that journey, they ditch the plane, the ticket would probably be pretty expensive, right?",
+   "ko": "이건 사람들이 이해하기 매우 쉬운 일입니다. 만약 당신과 제가 뉴욕에서 LA로 비행기를 타고 가는데, 도착하자마자 비행기를 버린다면 티켓 가격이 엄청나게 비싸지겠죠, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 753.0,
+   "en": "And if you play that out, if you can reuse the boosters, reuse the rockets, reuse the landing modules, all of a sudden your prices come down.",
+   "ko": "그걸 확장해 보면, 부스터를 재사용하고, 로켓을 재사용하고, 착륙 모듈을 재사용할 수 있다면 갑자기 가격이 내려가게 됩니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 760.8,
+   "en": "And yeah, so if you have to ditch one satellite because it doesn't work, it's not a big deal because you're not launching satellites periodically. You're launching them multiple times a day.",
+   "ko": "네, 그래서 위성 하나가 작동하지 않아 버려야 하더라도 큰 문제가 되지 않습니다. 위성을 가끔씩 쏘는 게 아니라 하루에도 여러 번 쏘아 올릴 것이기 때문입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 770.6,
+   "en": "And so that's ultimately where both guys... that's where their visions are. Multiple launches a day, things constantly going up, ultimately leading to the colonization of the moon.",
+   "ko": "그래서 결국 두 사람의 비전은 그곳에 닿아 있습니다. 하루에 여러 번 발사하고, 물건들이 끊임없이 올라가며, 궁극적으로는 달 식민지 건설로 이어지는 것이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 782.8,
+   "en": "And I think they both have been very open about the fact they don't expect moon colonization to happen in their lifetimes, let alone Mars colonization, but that's what they're thinking about.",
+   "ko": "그리고 두 사람 모두 화성 식민지화는 고사하고 달 식민지화조차 자신들의 생애에는 일어나지 않을 것이라는 점을 매우 솔직하게 밝혀왔지만, 그것이 그들이 생각하는 미래입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 793.2,
+   "en": "Now, for listeners who are like, \"Okay, you know what, if these really super-rich guys want to colonize the moon and put a million satellites up into orbit, like whatever, who cares?\" Make this potent for people.",
+   "ko": "자, 이제 \"그래, 이 엄청난 부자들이 달을 식민지화하고 100만 개의 위성을 궤도에 띄우고 싶어 한다면 그런가 보다, 누가 신경이나 쓰겠어?\"라고 생각하는 청취자분들을 위해, 이것이 왜 중요한지 실감 나게 설명해 주세요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 806.1,
+   "en": "What is at stake? Why should everyone listening care what these guys are up to in outer space?",
+   "ko": "무엇이 걸려 있나요? 왜 듣고 계신 모든 분이 이 사람들이 우주에서 무엇을 꾸미고 있는지 신경 써야 할까요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 812.9,
+   "en": "Yeah, I mean, look, I'm going to tell you a present-day example, which is in 2024, SpaceX launched 80% of the mass in orbit, 80%.",
+   "ko": "네, 현재의 예를 하나 들어볼게요. 2024년에 스페이스X는 궤도에 있는 전체 질량의 80%를 발사했습니다. 80% 말이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 825.3,
+   "en": "Its next closest competitor was China, the government of China. Blue Origin is way, way down. Everybody else is like nowhere to be found.",
+   "ko": "그다음으로 가까운 경쟁자는 중국, 즉 중국 정부였습니다. 블루 오리진은 훨씬 뒤처져 있고, 다른 곳들은 보이지도 않는 수준입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 834.4,
+   "en": "And the United States commercially and governmentally, SpaceX is indispensable infrastructure.",
+   "ko": "미국 상업계와 정부 입장에서 스페이스X는 없어서는 안 될 인프라입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 843.3,
+   "en": "And we learned that in multiple ways. The first in 2022, Musk denied Starlink service to Ukraine during a military mission.",
+   "ko": "우리는 여러 가지 방식으로 그것을 깨달았습니다. 첫 번째는 2022년에 머스크가 군사 작전 중인 우크라이나에 스타링크 서비스 제공을 거부했던 일입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 852.8,
+   "en": "The fact that one person, one very wealthy actor, has super-national capabilities in something that is as important as telecommunications should have everyone's attention.",
+   "ko": "한 개인, 한 명의 부유한 행위자가 통신만큼 중요한 분야에서 국가를 초월하는 능력을 갖추고 있다는 사실은 모든 이의 주의를 끌기에 충분합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 864.2,
+   "en": "It's very, very important. You can respect the audacity and the innovation and the ingenuity and the risks that he took, while also not suggesting that one person should have that kind of power over global affairs, right?",
+   "ko": "이것은 매우 중요합니다. 그의 대담함과 혁신, 독창성, 그리고 그가 감수한 위험을 존중할 수는 있지만, 동시에 한 개인이 글로벌 문제에 대해 그런 종류의 권력을 가져야 한다는 뜻은 아니니까요, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 880.3,
+   "en": "So that's a present-day example. Now extend it, right? There's a treaty, there's a lunar treaty about the moon, but it doesn't apply to companies.",
+   "ko": "이것이 현재의 예시입니다. 이제 더 확장해 보죠. 달에 관한 조약이 있지만, 그것은 민간 회사에는 적용되지 않습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 888.9,
+   "en": "The only thing that applies to companies is that companies ultimately are responsible to the governments of their countries.",
+   "ko": "회사에 적용되는 유일한 원칙은 회사가 궁극적으로 해당 국가의 정부에 책임이 있다는 것뿐입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 894.4,
+   "en": "But when you have that much of a lockdown on your capability, getting there first—the moon is full of rare earth minerals—is a huge deal.",
+   "ko": "하지만 당신이 그 정도로 능력을 독점하고 있는 상황에서 희토류가 풍부한 달에 먼저 도착하는 것은 엄청난 사건입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 905.2,
+   "en": "And so the other thing that happens—and this is a very conventional story about fair trade and antitrust—is that, you know, SpaceX really got to where it is as the UPS of space, right?",
+   "ko": "그리고 또 하나 일어나는 일—이것은 공정 거래와 반독점에 관한 매우 전형적인 이야기입니다—스페이스X가 정말로 '우주의 UPS'로서 지금의 자리에 올랐다는 점입니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 917.0,
+   "en": "So if you're a commercial satellite maker, if you're the government, you want to launch spy satellites, where are you going to go, right?",
+   "ko": "상업용 위성 제작자이거나 첩보 위성을 발사하려는 정부라면 어디로 가겠습니까? 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 924.6,
+   "en": "The problem is that they now make their own satellites and have a tremendous demand to launch them.",
+   "ko": "문제는 그들이 이제 자체 위성을 만들고 있으며, 그것들을 발사하려는 엄청난 수요가 있다는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 929.9,
+   "en": "And so what a lot of satellite people told me who are not SpaceX or Blue Origin is that they're very concerned that they're now going to be essentially eliminated from their path to space.",
+   "ko": "그래서 스페이스X나 블루 오리진 소속이 아닌 많은 위성 관계자들이 저에게 말한 것은, 그들이 이제 우주로 나아가는 길에서 본질적으로 배제될까 봐 매우 우려하고 있다는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 941.8,
+   "en": "And so let's just start with what we can actually comprehend, which is the present day. That's why you ought to be worried.",
+   "ko": "그러니 우리가 실제로 이해할 수 있는 것, 즉 현재 상황부터 시작해 봅시다. 그것이 바로 여러분이 걱정해야 할 이유입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 956.1,
+   "en": "I recently found myself on the website for a really popular history podcast. I'm not going to say the name, but maybe you can guess it.",
+   "ko": "최근에 저는 아주 인기 있는 역사 팟캐스트의 웹사이트를 방문하게 되었습니다. 이름을 말하진 않겠지만, 아마 짐작하실 수 있을 거예요.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 962.1,
+   "en": "And I got to say, this website is incredible. You can search through their hundreds and hundreds of archived episodes by theme, topic, subject matter, era. It's really, really cool.",
+   "ko": "정말이지 이 웹사이트는 대단했습니다. 수백 개의 지난 에피소드들을 테마, 주제, 소재, 시대별로 검색할 수 있었죠. 정말 멋졌습니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 973.3,
+   "en": "And as I was playing with it, I thought to myself, \"Gosh, it'd be awesome to have something like this for the Next Big Idea.\"",
+   "ko": "그것을 보면서 저는 '와, 우리 넥스트 빅 아이디어에도 이런 게 있으면 정말 좋겠다'고 생각했습니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 978.2,
+   "en": "The problem is that I'm not a website developer. I don't know how to code.",
+   "ko": "문제는 제가 웹사이트 개발자가 아니라는 거죠. 저는 코딩할 줄 모릅니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 982.6,
+   "en": "And so I thought, \"Well, that's just a pipe dream that's never going to happen, Caleb.\" Then I found Hostinger.",
+   "ko": "그래서 저는 '그래, 케일럽, 그건 그냥 일어날 수 없는 헛된 꿈일 뿐이야'라고 생각했습니다. 그러다 Hostinger를 발견했죠.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 987.8,
+   "en": "I've been playing around with their AI builder. And I just talked to it about the site that I envision for the Next Big Idea...",
+   "ko": "저는 그들의 AI 빌더를 살펴보고 있었습니다. 그리고 제가 넥스트 빅 아이디어를 위해 구상하고 있는 사이트에 대해 말해주었죠.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 993.4,
+   "en": "And almost instantly it spits back working versions of this dream Next Big Idea website. I'm shocked by how easy it is and how fun.",
+   "ko": "그러자 거의 즉시 제가 꿈꾸던 넥스트 빅 아이디어 웹사이트의 실제 작동 버전이 나왔습니다. 얼마나 쉽고 재미있는지 깜짝 놀랐어요.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1002.4,
+   "en": "I can't wait to finally get this thing launched and share it with you.",
+   "ko": "드디어 이 사이트를 론칭해서 여러분과 공유할 날이 기다려집니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1005.6,
+   "en": "I think it's going to be a great new way for listeners like you to discover some of the great episodes we have buried deep in the archives of the show.",
+   "ko": "청취자 여러분께서 쇼의 아카이브 깊숙이 묻혀 있는 훌륭한 에피소드들을 발견할 수 있는 아주 좋은 새로운 방법이 될 거라고 생각합니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1013.0,
+   "en": "Snag Hostinger services at their lowest prices before the sale ends. Create your website today for just $1.99.",
+   "ko": "세일이 끝나기 전에 Hostinger 서비스를 최저가로 이용해 보세요. 오늘 단돈 1.99달러로 웹사이트를 만드세요.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1020.4,
+   "en": "Go to hostinger.com/nbi and use code NBI for an additional 10% off Black Friday and Cyber Monday pricing.",
+   "ko": "hostinger.com/nbi를 방문하여 코드 NBI를 입력하고 블랙 프라이데이 및 사이버 먼데이 가격에서 추가 10% 할인을 받으세요.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1029.8,
+   "en": "Sometimes anxiety, depression, ADHD, those things can be more than just a rough patch. You might need more than talk therapy or self-help tools.",
+   "ko": "때로는 불안, 우울증, ADHD 같은 것들이 단순한 일시적 고난 그 이상일 수 있습니다. 대화 치료나 자기 계발 도구 이상의 것이 필요할 수도 있죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1038.1,
+   "en": "Talkiatry connects you with real psychiatric care so you can actually understand what's going on and get a treatment plan that works.",
+   "ko": "Talkiatry는 여러분을 실제 정신과 치료와 연결하여 상황을 정확히 이해하고 효과적인 치료 계획을 세울 수 있도록 도와줍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1045.3,
+   "en": "Talkiatry is a hundred percent online psychiatry practice that provides comprehensive evaluations, diagnoses, and ongoing medication management.",
+   "ko": "Talkiatry는 100% 온라인 정신과 진료소로, 종합 평가, 진단 및 지속적인 약물 관리를 제공합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1053.1,
+   "en": "for conditions like ADHD, anxiety, depression, and more.",
+   "ko": ""
+  },
+  {
+   "start": 1057.4,
+   "en": "Unlike therapy-only platforms, Talkiatry is psychiatry. You're seeing a medical provider who can diagnose mental health conditions and prescribe medication when it's appropriate.",
+   "ko": "심리치료만 하는 플랫폼과 달리, Talkiatry는 정신의학입니다. 여러분은 정신 건강 상태를 진단하고 적절한 경우 약물을 처방할 수 있는 의료인을 만나게 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1068.5,
+   "en": "All 800 clinicians are in network with major insurers, so you can use your existing insurance instead of paying monthly subscriptions or out-of-network costs.",
+   "ko": "800명의 모든 임상의는 주요 보험사 네트워크에 등록되어 있어, 월 구독료나 비급여 비용 대신 기존 보험을 사용할 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1078.0,
+   "en": "Head to talkiatry.com/idea to complete the short assessment and get matched with an in-network psychiatrist in just a few minutes.",
+   "ko": "talkiatry.com/idea를 방문하여 간단한 자가 진단을 마치고 몇 분 만에 보험 적용이 가능한 정신과 의사와 연결되어 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1086.5,
+   "en": "That's T-A-L-K-I-A-T-R-Y dot com slash idea to get matched in minutes.",
+   "ko": ""
+  },
+  {
+   "start": 1094.5,
+   "en": "Talkiatry dot com slash idea.",
+   "ko": ""
+  },
+  {
+   "start": 1097.6,
+   "en": "When Mark Pincus came on this podcast, I told him that the four best business books I've ever read are Good to Great by Jim Collins, The Lean Startup by Eric Ries, Build by Tony Fadell, and Mark's new book, Life at the Speed of Play.",
+   "ko": "마크 핀커스가 이 팟캐스트에 출연했을 때, 저는 제가 읽은 최고의 비즈니스 서적 네 권이 짐 콜린스의 '좋은 기업을 넘어 위대한 기업으로', 에릭 리스의 '린 스타트업', 토니 파델의 '빌드', 그리고 마크의 신간인 'Life at the Speed of Play'라고 말했습니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1113.2,
+   "en": "What I love about Mark's book is that it isn't just a business book. It's part memoir, part business playbook, and part instruction manual for how to live a rich, innovative, ferocious life.",
+   "ko": "마크의 책이 좋은 이유는 그것이 단순한 비즈니스 서적이 아니기 때문입니다. 그것은 회고록이자, 비즈니스 전략집이며, 풍요롭고 혁신적이며 열정적인 삶을 살기 위한 지침서이기도 합니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1125.6,
+   "en": "Mark is the legendary Silicon Valley entrepreneur behind Zynga and one of the most prolific idea generators around.",
+   "ko": "마크는 징가의 배후에 있는 전설적인 실리콘밸리 기업가이자 가장 창의적인 아이디어 제조기 중 한 명입니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1131.9,
+   "en": "One of the central ideas in the book is that ideas are easy. The hard part is figuring out which ones are actually worth pursuing.",
+   "ko": "책의 핵심 아이디어 중 하나는 아이디어는 쉽다는 것입니다. 어려운 부분은 그중 어떤 것이 실제로 추구할 가치가 있는지 알아내는 것이죠.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1140.6,
+   "en": "He gives you a battle-tested framework for rapidly testing ideas, separating the promising ones from the terrible ones and killing the losers before they waste years of your life.",
+   "ko": "그는 아이디어를 신속하게 테스트하고, 유망한 것과 형편없는 것을 구분하며, 인생의 몇 년을 낭비하기 전에 실패작을 솎아내는 실전 검증된 프레임워크를 제공합니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1150.4,
+   "en": "It's an instant national bestseller, it's only about 170 pages, and it reads less like a business book than like you're sitting at Mark's kitchen table, getting 30 years of hard-won lessons.",
+   "ko": "이 책은 출간 즉시 베스트셀러가 되었으며, 약 170페이지 분량으로 비즈니스 서적이라기보다는 마크의 식탁에 앉아 30년 동안 힘들게 얻은 교훈을 듣는 것처럼 읽힙니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1162.2,
+   "en": "And Mark has a great offer right now for Next Big Idea listeners. Go to getmarksbook.com/next. Buy one copy and Mark will personally pay to send you a second copy for free.",
+   "ko": "그리고 지금 마크가 넥스트 빅 아이디어 청취자들을 위해 특별한 제안을 준비했습니다. getmarksbook.com/next를 방문하세요. 한 권을 사면 마크가 직접 비용을 지불해 두 번째 권을 무료로 보내드립니다.",
+   "speaker": "Caleb Bissinger",
+   "ad": true
+  },
+  {
+   "start": 1188.5,
+   "en": "Now that we've sort of set up the stakes here, let's... I want to rewind and talk a little bit about how we ended up in this position where these two billionaires... I mean, Musk has been leading the race.",
+   "ko": "이제 상황 설명을 어느 정도 마쳤으니, 시간을 되돌려 어떻게 이 두 억만장자가 이런 상황에 놓이게 되었는지 조금 이야기해보고 싶습니다. 그러니까, 머스크가 이 경쟁을 주도해 왔죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1196.8,
+   "en": "So I think Bezos has been catching up and we'll talk about that at the end. But let's just talk about how we got here. And let's start with Bezos.",
+   "ko": "베이조스가 추격하고 있는 것 같은데, 그건 마지막에 이야기하도록 하죠. 우선 어떻게 여기까지 오게 됐는지 이야기해 봅시다. 베이조스부터 시작해 볼까요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1203.0,
+   "en": "As you alluded to earlier, he has wanted to go to space since he was a scrawny little kid in Southern Florida.",
+   "ko": "앞서 언급하셨듯이, 그는 플로리다 남부의 빼빼 마른 꼬마였을 때부터 우주에 가고 싶어 했습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1209.0,
+   "en": "And he sets up Blue Origin in 2000. At this point, he's running Amazon.",
+   "ko": "그리고 2000년에 블루 오리진을 세웠죠. 당시 그는 아마존을 운영하고 있었습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1214.4,
+   "en": "And it's a really weird origin story. I think for the first few years of the company's existence, it's a complete secret. It has just one employee who you can tell us about.",
+   "ko": "정말 특이한 창업 스토리죠. 회사 설립 후 처음 몇 년 동안은 완전히 비밀이었습니다. 직원이 단 한 명뿐이었는데, 그에 대해 말씀해 주실 수 있나요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1224.9,
+   "en": "Like for a guy who was so ruthless in terms of the way that he built the everything store in Amazon, he took a really different approach to how he built Blue Origin. Why don't you walk us through that origin story?",
+   "ko": "아마존이라는 '만물상'을 세울 때의 그 냉혹한 방식과 비교하면, 블루 오리진을 세울 때는 정말 다른 접근 방식을 취했습니다. 그 창업 스토리를 좀 들려주시겠어요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1236.7,
+   "en": "What's so interesting about his interaction with space—you just put your finger on it—is that he's hyper-logical.",
+   "ko": "그의 우주에 대한 태도에서 정말 흥미로운 점은—방금 짚어주셨듯이—그가 매우 논리적이라는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1242.0,
+   "en": "I mean, for most of my adult life, this is the person in the public 공간 who is the most hyper-logical, data-driven, disciplined.",
+   "ko": "제 성인 생활 대부분 동안, 공적 영역에서 이만큼 논리적이고, 데이터 중심적이며, 규율이 잡힌 사람은 없었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1249.8,
+   "en": "He was a consultant at D.E. Shaw. He saw internet usage growth at like 2,300% annually.",
+   "ko": "그는 D.E. Shaw의 컨설턴트였습니다. 그는 인터넷 사용량이 매년 2,300%씩 성장하는 것을 보았죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1257.3,
+   "en": "He did a very quick bit of math and said, \"Okay, all these people are coming to the internet and I want to sell them stuff.\"",
+   "ko": "그는 아주 빠르게 계산을 마치고 말했습니다. \"좋아, 이 모든 사람들이 인터넷으로 몰려오고 있으니 난 그들에게 물건을 팔 거야.\"",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1264.4,
+   "en": "He wanted to sell them things that have no physical container, right? That no single store could have. He looked at books. There were 3 million titles. He's like, \"Books? Done.\"",
+   "ko": "그는 물리적 공간의 한계가 없는 것들을 팔고 싶어 했습니다. 그렇죠? 일반 매장 하나에 다 담을 수 없는 것 말이죠. 그는 책을 봤고, 300만 개의 제목이 있었습니다. 그는 \"책? 이거다\"라고 결론 내렸죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1275.1,
+   "en": "Completely unemotional. Completely analytical. When he founded Blue Origin, it was a secret for three years.",
+   "ko": "전혀 감정적이지 않았습니다. 완전히 분석적이었죠. 그가 블루 오리진을 설립했을 때, 그것은 3년 동안 비밀이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1283.2,
+   "en": "And I think some of that was he liked success. He's not comfortable with failure. He really just loves space so much that he thought, \"Okay, we're going to do it differently. I'm going to not indulge new ideas, but just see where it goes.\"",
+   "ko": "제 생각에 부분적으로는 그가 성공을 좋아하기 때문이었을 겁니다. 그는 실패를 견디지 못하거든요. 또한 그는 우주를 너무 사랑해서 \"좋아, 이건 다르게 해보자. 새로운 아이디어에 매몰되지 말고 그저 어디로 가는지 지켜보자\"라고 생각했던 거죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1297.5,
+   "en": "And so he hired Neal Stephenson, who's a very famous science fiction writer, was one of the first employees, I think maybe the first.",
+   "ko": "그래서 그는 매우 유명한 공상과학 소설가인 닐 스티븐슨을 고용했고, 그는 아마도 첫 번째 직원이거나 초기 직원 중 한 명이었을 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1303.9,
+   "en": "And you know, for the first couple of years, the instruction was not \"build a company, make a product, size it, go to market.\"",
+   "ko": "그리고 아시다시피 처음 몇 년 동안의 지침은 \"회사를 세우고, 제품을 만들고, 규모를 키워서 시장에 내놓으라\"는 것이 아니었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1311.7,
+   "en": "The instructions were, \"Hey, is there a different way to get to space? Like, did Robert Goddard and Wernher von Braun get it wrong somehow?\"",
+   "ko": "지침은 이랬습니다. \"이봐요, 우주로 가는 다른 방법이 있을까요? 로버트 고다드나 베르너 폰 브라운이 뭔가 잘못 생각한 건 아닐까요?\"",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1321.3,
+   "en": "And so they ran these model simulations for years. And eventually they determined no, that they didn't get anything wrong.",
+   "ko": "그래서 그들은 수년 동안 모델 시뮬레이션을 돌렸습니다. 그리고 결국 그들이 틀리지 않았다는 결론을 내렸죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1329.2,
+   "en": "But for the first decade or so, numerous people describe Blue Origin to me as basically like a science project or a research lab with no real reason to move.",
+   "ko": "하지만 첫 10년 정도는, 수많은 사람들이 저에게 블루 오리진을 기본적으로 움직여야 할 실제 이유가 없는 과학 프로젝트나 연구소 같았다고 묘사했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1340.3,
+   "en": "And so I think—and the people I've spoken to affirmed this—is that like, that's what you do when you are irrationally in love with something.",
+   "ko": "제 생각에—그리고 제가 대화한 사람들도 이를 확인해 주었는데—그것은 무언가에 비이성적으로 사랑에 빠졌을 때나 하는 행동입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1349.2,
+   "en": "And you are following it because you love it so much you can't really bear to rein it in, combined with this other really tangible problem: he was the CEO of Amazon.",
+   "ko": "너무 사랑해서 억제할 수 없기 때문에 그것을 따르고 있는 것이고, 여기에 또 다른 매우 현실적인 문제인 '그는 아마존의 CEO였다'는 사실이 결합된 결과였죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1358.8,
+   "en": "And so it's not like you can moonlight and just be like, \"Oh, see you later, investors, I'm over here.\"",
+   "ko": "투자자들에게 \"나중에 봐요, 전 여기서 부업 좀 할게요\"라고 할 수 있는 상황이 아니었으니까요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1365.0,
+   "en": "So he gradually got to a place where he would spend a day a week and a lot of Saturdays working in the Blue Origin offices. But that's not really what a CEO needs.",
+   "ko": "그래서 그는 점차 일주일에 하루, 그리고 많은 토요일을 블루 오리진 사무실에서 일하는 지경에 이르렀습니다. 하지만 그것은 진정한 CEO에게 필요한 모습은 아니었죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1375.3,
+   "en": "And he also, again, back to this notion of just like leading with your heart as opposed to your head, he never really had a CEO.",
+   "ko": "그리고 그는 다시 머리가 아닌 마음이 이끄는 대로 하는 바람에, 정말로 CEO 역할을 할 사람을 두지 않았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1382.5,
+   "en": "The president, a really smart guy named Rob Meyerson, who did really smart things. But like, the CEO spot was vacant, and I think the message of that was like, \"It's waiting till I come.\"",
+   "ko": "회장인 롭 마이어슨은 똑똑한 사람이고 훌륭한 일을 해냈지만, CEO 자리는 공석이었고 그 메시지는 \"내가 올 때까지 기다려라\"는 것이었다고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1394.9,
+   "en": "And then if you want to contrast that with the way Musk launched SpaceX, because it is a competition...",
+   "ko": "이제 그것을 경쟁 관계인 머스크가 스페이스X를 시작한 방식과 대조해 본다면...",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1401.7,
+   "en": "Musk very famously had this crazy idea after he made some money out of PayPal, which was he wanted to do this scientific experiment publicity stunt.",
+   "ko": "머스크는 페이팔로 돈을 번 후 이 미친 아이디어를 냈는데, 바로 과학 실험을 겸한 홍보 이벤트를 하고 싶어 했다는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1411.7,
+   "en": "He was going to send a rocket to Mars, send a robot to Mars. The robot would grab some Mars regolith and then plant something.",
+   "ko": "화성에 로켓을 보내고 로봇을 보내서, 로봇이 화성의 토양을 채취한 다음 무언가를 심는 것이었죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1421.8,
+   "en": "And basically it's the scene in \"The Martian\" where Matt Damon makes, you know, potato plants. And he wanted to do this to encourage awareness of Mars, right? He had no idea what he was doing. None.",
+   "ko": "기본적으로 영화 '마션'에서 맷 데이먼이 감자를 키우는 장면 같은 거죠. 그는 화성에 대한 인식을 높이기 위해 이 일을 하고 싶어 했습니다. 하지만 그는 자신이 무엇을 하고 있는지 전혀 몰랐습니다. 전혀요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1433.5,
+   "en": "And what he learned when he tried to buy ICBMs from the Russians is like, they just thought, \"Who is this idiot?\" They literally spat on his shoes.",
+   "ko": "러시아에서 대륙간탄도미사일(ICBM)을 사려고 했을 때 그가 배운 건, 그들이 \"이 멍청이는 뭐야?\"라고 생각했다는 것입니다. 그들은 말 그대로 그의 신발에 침을 뱉었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1443.1,
+   "en": "And then he very quickly, on the flight back, very famously opened his laptop and realized he could do this cheaper.",
+   "ko": "그러자 그는 돌아오는 비행기 안에서 아주 유명한 일화처럼 노트북을 열었고, 자신이 더 싸게 할 수 있다는 것을 깨달았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1448.9,
+   "en": "And so the key thing that I think is at the origin of the differences between the companies is that from the very beginning, Musk had no questions about the engineering.",
+   "ko": "그래서 두 회사의 차이점의 근원이 되는 핵심 요소는, 머스크가 처음부터 엔지니어링에 대해 의심하지 않았다는 점이라고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1458.1,
+   "en": "He's like, \"I don't need to reinvent a new way to get to space.\" But what he looked at was like, \"Why is it so goddamn expensive?\"",
+   "ko": "그는 \"우주에 가기 위한 새로운 방법을 재발명할 필요는 없어\"라고 생각했죠. 대신 그는 \"왜 이렇게 빌어먹게 비싼 거야?\"라고 생각했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1465.8,
+   "en": "And I think he realized very quickly that it was expensive because of the kinds of people who actually got to space first.",
+   "ko": "그리고 그는 처음에 우주에 진출했던 사람들의 유형 때문에 비용이 비싸다는 것을 아주 빨리 깨달았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1473.1,
+   "en": "They had essentially created a cartel, the costs were fixed, the government was not terribly curious about why the costs were so high.",
+   "ko": "그들은 본질적으로 카르텔을 형성했고 비용은 고정되었으며, 정부는 왜 비용이 그렇게 높은지에 대해 그다지 궁금해하지 않았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1480.4,
+   "en": "And he is, for all of his flaws, he is an excellent disruptor. And so he recruited a team of people who were set about only one thing, which is we are going to move as quickly as possible, as thriftily as possible, skipping as many steps as possible to get to space.",
+   "ko": "그는 모든 결점에도 불구하고 훌륭한 파괴적 혁신가입니다. 그래서 그는 오직 한 가지 목표, 즉 우주에 도달하기 위해 가능한 한 빨리, 가능한 한 검소하게, 가능한 한 많은 단계를 건너뛰며 움직이겠다는 팀을 모집했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1496.5,
+   "en": "The people I spoke to at Blue Origin who were there at that time were aware that they had a competitor. They took them very seriously and they noticed two things about them.",
+   "ko": "당시 블루 오리진에 있었던 제가 대화한 사람들은 경쟁자가 있다는 사실을 알고 있었습니다. 그들은 경쟁자를 매우 진지하게 받아들였고, 그들에 대해 두 가지를 주목했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1507.9,
+   "en": "The first was they moved incredibly fast. The second was they were having a lot more fun.",
+   "ko": "첫 번째는 그들이 믿을 수 없을 정도로 빠르게 움직인다는 것이었고, 두 번째는 그들이 훨씬 더 즐겁게 일하고 있다는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1513.8,
+   "en": "They just seemed to be having a much better time because they had a business plan. They knew what they were doing. They were unafraid to fail publicly.",
+   "ko": "그들은 비즈니스 계획이 있었기 때문에 훨씬 더 좋은 시간을 보내는 것처럼 보였습니다. 그들은 자신이 무엇을 하고 있는지 알고 있었고, 공개적으로 실패하는 것을 두려워하지 않았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1521.3,
+   "en": "And so they watched that and thought, \"Huh, they seem to be moving a lot faster than we are.\"",
+   "ko": "그래서 블루 오리진 사람들은 그것을 지켜보며 \"허, 저들이 우리보다 훨씬 빨리 움직이는 것 같은데\"라고 생각했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1527.7,
+   "en": "Yeah, it did sound fun. I mean, reckless to an extent.",
+   "ko": "네, 정말 재미있어 보였겠네요. 어느 정도 무모해 보이기도 했겠지만요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1531.1,
+   "en": "But there's a story you tell in the piece where one of the engineers discovers that... I can't remember what it is, it's like a seal or something, and they realize that, \"Oh, we can just repurpose what you get in a car wash.\"",
+   "ko": "기사에서 말씀하신 이야기 중에 한 엔지니어가... 정확히 뭔지 기억은 안 나지만 씰(밀봉재) 같은 것이었는데, \"오, 세차장에서 쓰는 걸 그냥 재활용하면 되겠는데\"라고 깨닫는 대목이 있더군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1542.2,
+   "en": "We don't need to build it from scratch, which is delightful in a charming collage-like way, somewhat terrifying if you're then going to use that repurposed car wash seal or whatever it is to launch things into space.",
+   "ko": "처음부터 만들 필요가 없다는 건 매력적인 콜라주 방식처럼 즐겁게 들리기도 하지만, 그 재활용된 세차장 부품을 우주 발사체에 사용한다고 생각하면 좀 무섭기도 하네요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1557.1,
+   "en": "Yeah, and I want to call out Ashlee Vance, a great writer and friend of mine who discovered that in his initial Elon Musk biography, but it all tracks, right?",
+   "ko": "네, 그 사실을 처음 일론 머스크 전기에서 밝혀낸 제 친구이자 훌륭한 작가인 애슐리 반스를 언급하고 싶네요. 하지만 모든 게 일맥상통합니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1570.4,
+   "en": "Everything I discovered was that they just tried to get to space as quickly as possible.",
+   "ko": "제가 발견한 모든 것은 그들이 그저 가능한 한 빨리 우주에 도달하려고 노력했다는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1575.4,
+   "en": "One key difference is that—and people told me about this again and again—Elon never thinks about downside, ever. He doesn't think about financial downside. He doesn't think about the downside of a rocket blowing up.",
+   "ko": "한 가지 핵심적인 차이점은—사람들이 반복해서 저에게 말해준 것인데—일론은 단 한 번도 부정적인 측면(다운사이드)을 생각하지 않는다는 것입니다. 재정적 손실도, 로켓이 폭발할 위험도 생각하지 않아요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1587.3,
+   "en": "He kind of just bakes it in and moves ahead. And that spirit, particularly for the race that he was in, was very productive.",
+   "ko": "그는 그냥 그런 것들을 과정의 일부로 받아들이고 나아갑니다. 그리고 그런 정신은 그가 처한 경쟁 상황에서 특히 매우 생산적이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1594.1,
+   "en": "And it allowed him to not see the flaws in hiring kids who were still in college—like he cold-called aerospace students who were in college and said, \"Come work for SpaceX.\"",
+   "ko": "덕분에 그는 아직 대학생인 인재를 채용하는 것에 대해서도 전혀 거리낌이 없었습니다. 항공우주공학 전공 대학생들에게 다짜고짜 전화를 걸어 \"스페이스X에 와서 일해\"라고 말했으니까요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1606.0,
+   "en": "Many of them just were like, \"Is this a joke? What is this?\" Because at that point, it was Northrop Grumman, Lockheed, or NASA, right?",
+   "ko": "그들 중 대다수는 \"이거 장난인가? 이게 대체 뭐야?\"라는 반응이었습니다. 당시에는 노스롭 그루먼, 록히드 마틴, 아니면 NASA뿐이었으니까요, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1614.8,
+   "en": "I think there is this sort of lone genius myth attached to Elon. And one of the things that this piece reveals is that actually a lot of the brilliance of SpaceX was his ability to recruit really, really smart people, give them a long leash and make it fun for them.",
+   "ko": "일론 머스크에게는 '고독한 천재'라는 신화가 따라다닙니다. 하지만 이 기사가 밝혀낸 것 중 하나는, 사실 스페이스X의 훌륭함 중 상당 부분이 정말 똑똑한 사람들을 영입하고 그들에게 큰 자율권을 주며 즐겁게 일하게 만든 그의 능력에서 나왔다는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1630.3,
+   "en": "It's certainly a lot more exciting, I think, to have worked in SpaceX in those early days than it would have been to be working at Lockheed.",
+   "ko": "록히드 마틴에서 일하는 것보다 그 초기 시절의 스페이스X에서 일하는 것이 훨씬 더 흥미진진했을 거라고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1634.8,
+   "en": "One of the things about the piece that sort of surprised me just because of their reputations, right? And Elon is a browser with too many tabs, and some of those tabs are not safe for work, and not safe for like—",
+   "ko": "그들의 평판 때문에 기사에서 저를 좀 놀라게 했던 것 중 하나가 있는데요. 일론은 탭이 너무 많이 열려 있는 브라우저 같고, 그중 일부 탭은 업무용으로 적절하지 않거나... 그러니까—",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1645.3,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1645.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.3,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.7,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "Yeah.",
+   "ko": ""
+  },
+  {
+   "start": 1646.8,
+   "en": "All those tabs may have resulted in the death of 700,000 people in the last year. So, like—",
+   "ko": "그 모든 탭이 지난 1년 동안 70만 명의 죽음을 초래했을지도 모르죠. 그러니—",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1650.9,
+   "en": "Exactly, right? But he also is disciplined enough in weird ways to hire well, delegate, have clear lines of authority.",
+   "ko": "맞아요, 그렇죠? 하지만 그는 묘한 방식으로 사람을 잘 뽑고, 권한을 위임하고, 명확한 권한 라인을 가질 만큼 충분히 훈련되어 있기도 합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1660.6,
+   "en": "And so SpaceX isn't where it is without Gwynne Shotwell, who's one of the earliest employees.",
+   "ko": "그래서 초기 직원 중 한 명인 그윈 쇼트웰 없이는 지금의 스페이스X도 없었을 겁니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1666.9,
+   "en": "And basically, she was visiting SpaceX when it was just nothing. A friend of hers had been poached, so she went to lunch with them.",
+   "ko": "기본적으로 그녀는 스페이스X가 아무것도 아니었을 때 그곳을 방문했습니다. 친구가 스카우트되어서 같이 점심을 먹으러 간 거였죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1675.1,
+   "en": "She walked through the office afterward, meets Elon, and that afternoon she has an offer for a job in business development. She's a rock star.",
+   "ko": "그 후 그녀는 사무실을 둘러보다 일론을 만났고, 그날 오후에 사업 개발직 제안을 받았습니다. 그녀는 정말 대단한 인물이죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1684.1,
+   "en": "Yeah. I mean, almost since the day she arrived, they have had the most productive partnership in 21st-century business.",
+   "ko": "맞습니다. 그녀가 합류한 날 이후로 두 사람은 21세기 비즈니스에서 가장 생산적인 파트너십을 유지해 왔습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1691.0,
+   "en": "She runs all the stuff that he doesn't want to do that he has no feel for. He focuses on technology.",
+   "ko": "그녀는 그가 하고 싶어 하지 않거나 감각이 없는 모든 일을 처리합니다. 그는 기술에 집중하죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1698.4,
+   "en": "He's not technically a rocket scientist, but he hangs with the rocket scientists. He pushes them incredibly hard. People like working at SpaceX. They really do. And Gwen has a huge role in that.",
+   "ko": "그는 엄밀히 말해 로켓 공학자는 아니지만, 로켓 공학자들과 어울립니다. 그는 그들을 엄청나게 몰아붙이죠. 사람들은 스페이스X에서 일하는 걸 좋아합니다. 정말로요. 그리고 그윈이 그 점에 큰 역할을 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1710.2,
+   "en": "You know, when I referenced earlier that Bezos sort of left that CEO seat open. Again, like, I think he did that out of love, out of opportunity.",
+   "ko": "아까 베이조스가 CEO 자리를 비워뒀다고 언급했잖아요. 다시 말하지만, 저는 그가 우주에 대한 애정 때문에, 그리고 기회를 기다리며 그렇게 했다고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1719.9,
+   "en": "He wanted to get to Blue Origin at some point. Numerous people told me he was trying to pivot out of Amazon a lot earlier than some people know.",
+   "ko": "그는 어느 시점에 블루 오리진으로 옮겨가고 싶어 했습니다. 많은 사람들이 그가 알려진 것보다 훨씬 더 일찍 아마존에서 벗어나려 했다고 저에게 말해주었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1728.3,
+   "en": "But if you want it to be a successful business—and the person who runs Amazon should probably know this—you really do have to have some sort of driving force behind it.",
+   "ko": "하지만 사업이 성공하기를 원한다면—아마존을 운영하는 사람이라면 마땅히 알아야 할 사실이지만—그 뒤에 강력한 추진력이 있어야 합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1740.1,
+   "en": "And he really didn't for a number of years at Blue Origin's founding.",
+   "ko": "그런데 그는 블루 오리진 설립 후 몇 년 동안 정말 그렇게 하지 않았습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1744.0,
+   "en": "Could he be a control freak? Is that part of it? Could he not want to delegate?",
+   "ko": "그가 통제광이라서 그런 걸까요? 그것도 이유일까요? 권한을 위임하고 싶지 않았던 걸까요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1749.9,
+   "en": "You know, it's interesting. Both of them are control freaks in many ways.",
+   "ko": "재미있는 질문이네요. 두 사람 모두 여러 면에서 통제광입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1754.5,
+   "en": "I don't want to overstate the affection that he has for the company, which he just simply could not let go of. But I think a lot of those mistakes were made out of affection.",
+   "ko": "그가 단순히 놓지 못했던 회사에 대한 애정을 과장하고 싶지는 않습니다. 하지만 그런 실수 중 상당수는 애정 때문에 비롯되었다고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1764.1,
+   "en": "He wanted to be there. He wanted to be thinking through it.",
+   "ko": "그는 거기 있고 싶어 했고, 스스로 고민하고 싶어 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1767.4,
+   "en": "Also, one dynamic that we talk about how you and I might be different from these guys... like as this quarter-century story is unfolding, they are becoming unfathomably wealthy.",
+   "ko": "또한, 당신과 제가 이들과 어떻게 다를 수 있는지에 대한 한 가지 역학 관계를 말해보자면... 이 25년간의 이야기가 펼쳐지는 동안 그들은 상상할 수 없을 정도로 부유해졌습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1779.6,
+   "en": "And that process does have an impact on the way you relate to the world and who you trust and how many people you trust.",
+   "ko": "그리고 그 과정은 세상을 대하는 방식, 누구를 신뢰하는지, 얼마나 많은 사람을 신뢰하는지에 확실히 영향을 미칩니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1786.1,
+   "en": "And also whether you're kind of like living in your own reality distortion field.",
+   "ko": "그리고 당신이 일종의 '현실 왜곡장' 속에 살고 있는지 여부에도 영향을 미치죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1790.0,
+   "en": "So it's hard to get truth out of your employees, right? The more you become this kind of cultural god at a company, it's really hard to dent that.",
+   "ko": "그래서 직원들로부터 진실을 듣기가 어려워집니다, 그렇죠? 회사 내에서 일종의 문화적 신 같은 존재가 될수록 그것을 깨뜨리기는 정말 어렵습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1799.0,
+   "en": "So I think it's all of those factors that led to this scenario where SpaceX just races ahead, has a business plan, really becomes indispensable to commerce.",
+   "ko": "그래서 저는 이 모든 요인들이 결합되어 스페이스X가 앞서 나가고, 사업 계획을 세우고, 상거래에 없어서는 안 될 존재가 된 이 시나리오를 만들었다고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1809.1,
+   "en": "And Blue Origin is kind of there, there's a big investment, but up until recently, one couldn't call it even a credible competitor.",
+   "ko": "반면 블루 오리진은 큰 투자가 이루어지긴 했지만, 최근까지도 신뢰할 만한 경쟁자라고 부르기는 어려운 상태로 머물러 있었죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1818.2,
+   "en": "No, it was Beatles and Monkees.",
+   "ko": "아니죠, 그건 마치 비틀즈와 몽키즈(아이돌 밴드) 같은 격이었죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1819.6,
+   "en": "Yeah, totally. Totally.",
+   "ko": "네, 전적으로 동감합니다. 정말 그래요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1820.7,
+   "en": "Was Bezos embarrassed? Why this at all? I mean, clearly he's watching SpaceX race ahead.",
+   "ko": "베이조스는 당황했을까요? 왜 이런 일이 일어난 걸까요? 제 말은, 그가 스페이스X가 앞서 나가는 걸 분명히 지켜보고 있었을 텐데요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1827.0,
+   "en": "Clearly his team is seeing them make these breakthroughs and have these successes that Blue Origin is light-years away from achieving on their own.",
+   "ko": "블루 오리진이 스스로 달성하기에는 광년이나 떨어져 있는 돌파구와 성공을 스페이스X가 만들어내는 걸 그의 팀도 분명히 보고 있었을 겁니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1836.0,
+   "en": "You don't build Amazon if you're not a seriously competitive dude. Is he watching this and thinking, \"Damn it, Elon\"?",
+   "ko": "지독하게 승부욕이 강한 사람이 아니라면 아마존을 세울 수 없었겠죠. 그가 이걸 지켜보며 \"젠장, 일론\"이라고 생각하고 있을까요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1843.0,
+   "en": "Let me get to the \"Elon of it\" in a minute. One of the things people told me is that you have no idea how stubborn Jeff can be in the defense of an idea that he is the only one who believes in and that he actually enjoys it.",
+   "ko": "머스크에 관한 이야기는 잠시 후에 하죠. 사람들이 저에게 해준 말 중 하나는, 제프가 자기만 믿는 아이디어를 옹호할 때 얼마나 고집스러울 수 있는지 상상도 못 할 정도이며, 그가 실제로 그것을 즐긴다는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1857.4,
+   "en": "And that is a strength in some ways, but it's a tremendous weakness if you happen to be wrong because it does defy people from coming to you and arguing.",
+   "ko": "그것은 어떤 면에서는 강점이지만, 만약 당신이 틀렸을 경우에는 엄청난 약점이 됩니다. 사람들이 당신에게 와서 반박하는 것을 막기 때문이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1867.8,
+   "en": "So listen, I don't know if he's embarrassed. The other thing that is true of him, and true of Elon, is that he thinks in almost dynastic cycles.",
+   "ko": "그러니 들어보세요, 그가 창피해했는지는 모르겠습니다. 그와 머스크 모두에게 해당하는 사실은, 그들이 거의 '왕조적 주기' 단위로 생각한다는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1876.8,
+   "en": "We look at the quarter-century of investment, and Blue Origin has not yet paid off, and think, \"That's a long time.\" His business plan to get to space and beyond is a century.",
+   "ko": "우리는 25년간의 투자를 보고 블루 오리진이 아직 성과를 내지 못한 것에 대해 \"참 오래 걸리네\"라고 생각합니다. 하지만 우주와 그 너머로 가기 위한 그의 사업 계획은 100년 단위입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1890.1,
+   "en": "In his mind, I think he really believes we can make up this gap.",
+   "ko": "그의 마음속에서는 이 격차를 메울 수 있다고 진심으로 믿고 있을 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1895.3,
+   "en": "Part of what actually initiated the story is I was curious, you know, there are all these meme-able things about Jeff Bezos in the last 10 years, and his personal life, the yacht, his new wife, his physique.",
+   "ko": "이 기사를 쓰게 된 계기 중 하나는 제가 호기심을 가졌기 때문입니다. 지난 10년 동안 제프 베이조스의 사생활, 요트, 새 아내, 체격 등 밈이 될 만한 요소들이 아주 많았죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1907.5,
+   "en": "I was really curious what that was about, ultimately. And so that led me down the path.",
+   "ko": "궁극적으로 그것이 무엇을 의미하는지 정말 궁금했습니다. 그래서 그 길을 따라 조사하게 됐죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1911.9,
+   "en": "And what I found from pretty much everybody I spoke to was like, \"Yeah, those changes all sit downstream of the biggest change in his life, which is leaving Amazon and devoting as many hours and as much of his intellectual capacity as he can to the problem of getting to space...\"",
+   "ko": "제가 대화한 거의 모든 사람으로부터 알아낸 것은 \"네, 그런 변화들은 모두 그의 인생에서 가장 큰 변화, 즉 아마존을 떠나 우주로 가는 문제에 가능한 한 많은 시간과 지적 능력을 쏟기로 한 결정의 하류에 있는 것들입니다\"라는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1928.4,
+   "en": "...and then ultimately linking that up with Prometheus, which is his AI model that he just recently came out of the closet about and said, \"This is what I'm doing.\"",
+   "ko": "그리고 그것을 결국 최근에 그가 공개적으로 밝힌 자신의 AI 모델인 프로메테우스와 연결하는 것이죠. \"이게 바로 내가 하고 있는 일이다\"라고요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1936.6,
+   "en": "He's the co-CEO. And so all of the changes in his life as irrational as they may seem, as disruptive as they were, are part of this much bigger change...",
+   "ko": "그는 공동 CEO입니다. 그래서 그의 삶에서 일어난 모든 변화들이 비이성적으로 보이고 파격적이었을지라도, 그것은 훨씬 더 큰 변화의 일부입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1946.3,
+   "en": "...which is he's not interested in being perceived as a billionaire, however you perceive it. He's interested in being perceived as a historical figure who was able to pull off this thing.",
+   "ko": "즉, 그는 당신이 어떻게 생각하든 단순히 한 명의 억만장자로 인식되는 데 관심이 없습니다. 그는 이 일을 해낸 역사적 인물로 기억되는 데 관심이 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1959.6,
+   "en": "And so he's rearranged his time, rearranged the company, rearranged his personal life.",
+   "ko": "그래서 그는 시간을 재배치하고, 회사를 재편하고, 사생활까지 재조정했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1965.4,
+   "en": "You know, Lauren Sanchez really likes space. Like really is a huge aerospace nerd as well.",
+   "ko": "아시다시피 로런 산체스도 우주를 정말 좋아합니다. 정말 엄청난 항공우주 마니아예요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1971.1,
+   "en": "She is the Space-herself.",
+   "ko": "그녀 자체가 우주인 셈이네요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 1973.3,
+   "en": "She has sort of got close to space, sort of, with... okay, okay. Yeah, I mean, closer than you and I are going to get.",
+   "ko": "그녀는 우주에 좀 가까워졌죠, 그러니까... 뭐, 네. 당신이나 저보다는 훨씬 가깝죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1978.8,
+   "en": "She flies helicopters, like, that's a real thing. And so this rearrangement of his priorities, which we were all sort of looking at the superficial bits of it, underneath it was him really gearing up to go to war and to get Blue Origin into a position where it is credible.",
+   "ko": "그녀는 헬리콥터를 조종하는데, 그건 진짜니까요. 우리가 겉모습만 보던 그의 우선순위 재조정의 이면에는, 전쟁을 준비하고 블루 오리진을 신뢰할 수 있는 위치로 올리기 위한 그의 진심이 있었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 1997.7,
+   "en": "And we're going to see whether he can do it.",
+   "ko": "그가 그것을 해낼 수 있을지 지켜봐야겠죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2000.8,
+   "en": "That's really interesting. Yeah, I mean, you're saying all the stuff that Bezos has gotten the most attention for in the last few years is the stuff that he's actually paying the least amount of time on...",
+   "ko": "정말 흥미롭네요. 그러니까 당신 말은 지난 몇 년 동안 베이조스가 가장 많은 관심을 받았던 일들이 사실 그가 가장 적은 시간을 들이고 있는 일들이라는 거군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2009.0,
+   "en": "...like the extravagant wedding, letting the Washington Post flounder. I mean, he's gotten a lot of negative press for those things, rightly so, but I think in his world, that's a minuscule commitment compared to the focus for him, which is space.",
+   "ko": "호화로운 결혼식이나 워싱턴 포스트를 방치하는 것 같은 일들 말이죠. 그런 일로 부정적인 언론 보도가 많았고 그럴 만도 하지만, 그의 세계에서는 우주라는 목표에 비하면 그런 것들은 아주 사소한 일일 뿐이라는 거네요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2023.0,
+   "en": "It is. And now let's circle back to what I promised, which is the Elon thing, which is that, you know, several people told me that he thinks Elon is puerile and dangerous.",
+   "ko": "그렇습니다. 이제 아까 약속했던 일론에 대한 이야기로 돌아가 보죠. 여러 사람들이 저에게 제프가 일론을 유치하고 위험하다고 생각한다고 말해주었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2035.5,
+   "en": "And so having a competitor to SpaceX in the mind of a lot of people at Blue Origin is a really important patriotic component to their work...",
+   "ko": "그래서 블루 오리진의 많은 사람들에게 스페이스X의 경쟁자가 되는 것은 그들의 업무에서 정말 중요한 애국적 요소이기도 합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2044.3,
+   "en": "...because a bunch of national security people I spoke to said the same thing, which is like, \"Look, it's a super weird situation that we are now kind of negotiating with a billionaire to conduct statecraft.\"",
+   "ko": "제가 대화한 많은 국가 안보 관계자들도 똑같은 말을 했기 때문입니다. \"국정 운영을 수행하기 위해 억만장자와 협상해야 하는 지금의 상황은 정말 기이하다\"고요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2057.0,
+   "en": "That said, better to have one American company that can do that than none. Certainly better to have two.",
+   "ko": "그렇긴 해도, 그런 일을 할 수 있는 미국 회사가 아예 없는 것보다는 하나라도 있는 게 낫고, 두 개라면 확실히 더 좋겠죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2064.0,
+   "en": "And so Mark Kelly, you know, senator from Arizona, who of course I think people know went to space, he was a space shuttle pilot, his view on this...",
+   "ko": "그리고 아시다시피 우주 왕복선 조종사로서 우주에 다녀온 애리조나주 상원의원 마크 켈리의 견해는 이렇습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2072.0,
+   "en": "...and he's had his run-ins with Elon, his view on it is like, \"Look, SpaceX got there fair and square. They didn't do anything wrong to be this dominant. I want them to be successful.\"",
+   "ko": "그도 일론과 마찰이 있었지만, 그의 생각은 이렇습니다. \"스페이스X는 정당하게 그 자리에 올랐습니다. 이렇게 지배적인 위치가 되기 위해 잘못된 일을 한 건 아니죠. 저는 그들이 성공하길 바랍니다.\"",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2083.0,
+   "en": "\"But it's really important that Blue Origin be successful too, so that we have options, more American successes. And boy, it'd be great if we had two more, four more, six more.\"",
+   "ko": "\"하지만 우리에게 선택지가 있고 더 많은 미국의 성공 사례가 생기도록 블루 오리진도 성공하는 것이 정말 중요합니다. 두 개, 네 개, 여섯 개의 회사가 더 생긴다면 정말 좋겠지요.\"",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2095.5,
+   "en": "And I think, you know, for the response that I've gotten so far is that there's a segment of readers who just who tuned out the space race, and they just haven't realized all of the investment that's been made to create this kind of vertical integration, right?",
+   "ko": "지금까지 제가 받은 반응을 보면, 우주 경쟁에 관심을 끊었던 독자층이 있고, 그들은 이런 식의 수직 계열화를 만들기 위해 얼마나 많은 투자가 이루어졌는지 깨닫지 못하고 있습니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2110.2,
+   "en": "But there's also an element of, \"Well, how did we let this happen, what are we going to do about it?\"",
+   "ko": "하지만 동시에 \"글쎄요, 우리가 어쩌다 이런 일이 일어나게 뒀을까요, 이제 어떻게 해야 할까요?\"라는 시각도 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2115.8,
+   "en": "And I think the answer is like, it's not impossible to call it back. I hope people understand there is a likelihood that our future, not civilizationally, but our future is going to depend on our ability to use space to our advantage.",
+   "ko": "제 생각에 그 답은, 되돌리는 것이 불가능하지 않다는 것입니다. 문명적인 차원뿐만 아니라 우리의 미래가 우주를 우리에게 유리하게 활용하는 능력에 달려 있을 가능성이 크다는 점을 사람들이 이해했으면 좋겠습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2131.4,
+   "en": "We want as many people represented there as possible. We want it to be just like we want on this planet: fair, equitable, competitive. So we may need to correct that somehow.",
+   "ko": "우리는 가능한 한 많은 사람이 그곳을 대표하기를 원합니다. 이 지구상에서 원하는 것처럼 공정하고, 형평성 있고, 경쟁적이기를 원하죠. 그래서 우리는 그것을 어떻게든 바로잡아야 할지도 모릅니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2142.2,
+   "en": "I'm glad that you brought up Mark Kelly and some of the national security concerns here and some of the sovereignty issues because this is a political story as much as it is an engineering story, an aerospace story, an AI story.",
+   "ko": "마크 켈리와 국가 안보 문제, 그리고 주권 문제를 언급해 주셔서 기쁩니다. 왜냐하면 이것은 공학, 항공우주, AI 이야기인 만큼이나 정치적인 이야기이기 때문입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2155.3,
+   "en": "I think we have... some of us have been paying more attention than others, usually we've been paying more attention than I have to what's been happening in the space race in the last few years.",
+   "ko": "제 생각에 우리 중 일부는 다른 사람들보다, 특히 저보다 더 많이 지난 몇 년간 우주 경쟁에서 일어난 일들에 관심을 기울여 왔습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2163.0,
+   "en": "I think something most people have been paying attention to is the political transformations of Elon Musk and Jeff Bezos.",
+   "ko": "대부분의 사람들이 주목해 온 것은 일론 머스크와 제프 베이조스의 정치적 변신일 것입니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2168.4,
+   "en": "And I'm wondering how much you think those transformations are connected to space, how much of it...",
+   "ko": "저는 그런 변화들이 우주와 얼마나 관련이 있다고 생각하시는지 궁금합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2174.5,
+   "en": "You're not getting to space and you're not dominating without NASA contracts, you're not launching a million Starlink satellites without some FCC sign-off, you don't build launch pads without the Pentagon having some say over it.",
+   "ko": "NASA의 계약 없이는 우주에 갈 수도, 지배할 수도 없습니다. FCC의 승인 없이는 100만 개의 스타링크 위성을 발사할 수 없고, 펜타곤의 발언권 없이는 발사대를 건설할 수도 없습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2187.4,
+   "en": "So clearly you need to have friends in Washington, and we have seen both Elon and Jeff capitulate to the current president.",
+   "ko": "그러니 분명히 워싱턴에 우군이 필요하고, 우리는 일론과 제프 모두 현직 대통령에게 굴복하는 것을 보았습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2195.9,
+   "en": "So talk about their political evolution and how that connects to what they're trying to do with Blue Origin and SpaceX.",
+   "ko": "그들의 정치적 진화와 그것이 블루 오리진 및 스페이스X에서 하려는 일과 어떻게 연결되는지 말씀해 주세요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2203.2,
+   "en": "You're asking me to do a hard thing, which is gauge people's sincerity and their beliefs. And particularly around these two people.",
+   "ko": "당신은 저에게 사람들의 진심과 신념을 가늠하라는 어려운 요청을 하고 계시네요. 특히 이 두 사람에 대해서 말이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2209.4,
+   "en": "The answer is I don't know. And I talk to a lot of people about this. What I can tell you is that they are both very transactional.",
+   "ko": "답은 '모른다'입니다. 저는 이 일로 많은 사람들과 이야기를 나눴습니다. 제가 말씀드릴 수 있는 것은 두 사람 모두 매우 거래적이라는 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2217.1,
+   "en": "They're both incredibly stubborn and very, very focused on a big goal, which is space colonization, space economic domination.",
+   "ko": "두 사람 모두 엄청나게 고집이 세고 우주 식민지화, 우주 경제 지배라는 거대한 목표에 매우 집중하고 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2227.6,
+   "en": "And so I do think both look at things like political opposition is basically just a problem to be solved.",
+   "ko": "그래서 저는 두 사람 모두 정치적 반대 같은 것들을 기본적으로 해결해야 할 문제로만 본다고 생각합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2237.5,
+   "en": "Elon has solved it in two extraordinarily efficient ways. One is he bought the whale, paid $44 billion for Twitter, which everybody laughed at...",
+   "ko": "일론은 이를 두 가지 아주 효율적인 방식으로 해결했습니다. 하나는 '고래'를 사는 것이었죠. 모두가 비웃었지만 440억 달러를 들여 트위터를 샀습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2249.4,
+   "en": "...but turns out that was a pretty easy way to buy a communications channel that had tremendous influence on an election.",
+   "ko": "하지만 결과적으로 그것은 선거에 엄청난 영향을 미치는 통신 채널을 사는 아주 쉬운 방법이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2255.7,
+   "en": "He's spending, I think, now upwards of $300 million on electing Republican candidates in the midterms. Can't argue with the results. It's been pretty effective, right?",
+   "ko": "그는 현재 중간 선거에서 공화당 후보들을 당선시키기 위해 3억 달러 이상을 쓰고 있는 것으로 보입니다. 결과에 대해서는 논란의 여지가 없죠. 꽤 효과적이었습니다, 그렇죠?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2265.0,
+   "en": "He has a seat at the table of government unquestionably. Bezos, you know, look, Bezos was very much in the first term of the Trump presidency. He was one of the most powerful antagonists President Trump had...",
+   "ko": "그는 의심할 여지 없이 정부의 주요 의사 결정 과정에 참여하고 있습니다. 베이조스의 경우, 트럼프 행정부 1기 때 그는 트럼프 대통령이 가진 가장 강력한 대적자 중 한 명이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2278.7,
+   "en": "...both through the Washington Post and very openly disagreeing with Trump's views on immigration. I think you would read his posts and hear his speech and you'd think, \"Well, that's a center-left Democrat.\"",
+   "ko": "워싱턴 포스트를 통해서나 트럼프의 이민 견해에 공개적으로 반대하면서 말이죠. 그의 글을 읽고 연설을 들으면 \"음, 중도 좌파 민주당원이군\"이라고 생각했을 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2292.6,
+   "en": "My reporting just revealed is that as it became clear there was going to be a second Trump administration, it became clear that Blue Origin was significantly behind Elon Musk.",
+   "ko": "제 취재 결과 밝혀진 것은, 트럼프 2기 행정부가 들어설 것이 확실해지면서 블루 오리진이 일론 머스크보다 상당히 뒤처져 있다는 사실이 분명해졌다는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2303.9,
+   "en": "Two things had already been made clear. One was that Elon was going to have a huge role in whatever the next presidential term is going to be.",
+   "ko": "이미 두 가지 사실이 명확해졌습니다. 하나는 일론이 다음 대통령 임기가 무엇이든 큰 역할을 할 것이라는 점이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2312.4,
+   "en": "Also, Amazon Web Services was under fire from Oracle and others unfairly, by the way. But the president had made it clear, like, \"If you're against me, I'm going to be against you.\"",
+   "ko": "또한, 아마존 웹 서비스가 오라클 등으로부터 부당하게 공격을 받고 있었습니다. 그런데 대통령은 \"내 편이 아니면 적이다\"라는 점을 분명히 했죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2323.4,
+   "en": "You know, Marty Baron, the famous editor of the Washington Post, former editor, said, \"Look, it seems pretty clear what happened.\"",
+   "ko": "전 워싱턴 포스트 편집국장인 마티 배런은 \"무슨 일이 일어났는지 아주 명확해 보인다\"고 말했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2330.2,
+   "en": "He came to the conclusion that all of his other businesses would be in jeopardy if the Washington Post continued to thrive as an independent, opinionated thorn in the side of the president.",
+   "ko": "워싱턴 포스트가 대통령의 눈엣가시 같은 독립적이고 비판적인 존재로 계속 남는다면, 그의 다른 모든 사업이 위험에 처할 것이라는 결론에 도달했다는 것이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2342.3,
+   "en": "What he said almost verbatim is that if the Washington Post was the thing he had to sacrifice to make sure those other businesses survived, so be it.",
+   "ko": "그가 거의 문자 그대로 한 말은, 다른 사업들을 살리기 위해 워싱턴 포스트를 희생해야 한다면 그렇게 하겠다는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2350.7,
+   "en": "I don't think that Jeff Bezos did that without some thought. I don't think that it was cold-blooded, but I think in the end, the results are the results.",
+   "ko": "제프 베이조스가 아무 생각 없이 그런 결정을 내렸다고는 생각하지 않습니다. 냉혈한 같은 결정이었다고도 생각하지 않지만, 결국 결과가 모든 걸 말해줍니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2359.7,
+   "en": "The scoreboard tells the tale, and their sincerity around these beliefs is irrelevant because that's where we are.",
+   "ko": "결과판이 모든 걸 보여주고 있으며, 우리가 처한 현실 앞에서 그들의 신념에 대한 진정성 여부는 무의미합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2367.6,
+   "en": "I want to go back a minute ago, you said that Bezos views Musk as puerile and dangerous. How does that go in the opposite direction? How does Musk view Bezos?",
+   "ko": "잠시 전으로 돌아가 보죠. 베이조스가 머스크를 유치하고 위험하다고 본다고 말씀하셨는데, 반대는 어떤가요? 머스크는 베이조스를 어떻게 보나요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2377.3,
+   "en": "So one of the interesting things in their dynamic is the age difference, right? And it's not a huge difference, but it's like seven years.",
+   "ko": "그들의 역학 관계에서 흥미로운 점 중 하나는 나이 차이입니다. 그렇죠? 아주 큰 차이는 아니지만 7살 정도 차이가 납니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2383.7,
+   "en": "And I would say that it's seven years that really spanned a pretty important component in American culture, which is social media.",
+   "ko": "그 7년은 미국 문화에서 정말 중요한 요소인 소셜 미디어가 확산된 시기와 맞물립니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2390.9,
+   "en": "And when I referenced earlier that SpaceX would post videos of its failures, that's the kind of thing that a person who grows up with too much internet does, right?",
+   "ko": "앞서 SpaceX가 실패 영상을 올린다고 언급했는데, 그건 인터넷을 너무 많이 접하며 자란 사람이 할 법한 행동이죠, 안 그래요?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2401.0,
+   "en": "Bezos is just older enough to not think that way instinctively, to protect secrets, to comport himself for the most part in a way that is just like, I am here, I'm not going to tell you every thought that I have in my head.",
+   "ko": "베이조스는 본능적으로 그렇게 생각하지 않을 만큼 나이가 있고, 비밀을 지키며, 대부분의 경우 '난 여기 있고, 내 머릿속에 있는 모든 생각을 다 말해주지는 않겠다'는 식의 태도를 유지합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2418.0,
+   "en": "And so my reporting in a couple instances, people very close to Bezos told me, like he would look at these things that Elon would post and just be disgusted. Just hold it in disdain.",
+   "ko": "제 취재 과정에서 몇몇 사례를 보면 베이조스의 측근들이 말하길, 베이조스는 일론이 올리는 것들을 보며 혐오감을 느끼고 경멸했다고 합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2430.2,
+   "en": "Okay.",
+   "ko": "그렇군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2431.7,
+   "en": "Elon, it's no secret what he thinks of Jeff Bezos. He's been tweeting at him for 10 years and taunting him and occasionally congratulating him when Blue Origin does something successfully.",
+   "ko": "일론이 제프 베이조스에 대해 어떻게 생각하는지는 비밀도 아니죠. 그는 10년 동안 그에게 트윗을 보내며 비아냥거리기도 하고, 가끔 블루 오리진이 성공적인 성과를 내면 축하해주기도 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2444.5,
+   "en": "But like it's a critical difference. Like you never, it's not like a secret what Elon is feeling about any individual, whereas Bezos is much, much more restrained, much less suited to the current media environment in a way.",
+   "ko": "하지만 이건 결정적인 차이입니다. 일론이 누군가에 대해 느끼는 감정은 전혀 비밀이 아닌 반면, 베이조스는 훨씬 더 절제되어 있고 어떤 면에서는 현재의 미디어 환경에 훨씬 덜 적합하죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2458.3,
+   "en": "So, yeah, we know what Elon thinks pretty much at all times.",
+   "ko": "그래서 우리는 일론이 거의 항상 무슨 생각을 하는지 알고 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2461.7,
+   "en": "And the New York Times reported this week or last week that Elon has donated $276 million to Republicans in the midterm campaign cycle.",
+   "ko": "그리고 뉴욕 타임즈는 이번 주나 지난주에 일론이 중간 선거 기간 동안 공화당에 2억 7,600만 달러를 기부했다고 보도했습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2469.9,
+   "en": "I think that brings, as you alluded to earlier, his total donations in the past year to over $300 million.",
+   "ko": "앞서 언급하셨듯이, 이로써 지난 한 해 동안 그의 총 기부액은 3억 달러가 넘는 것 같습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2474.6,
+   "en": "I think some people thought that after his early exit from DOGE and seeming like maybe he and Trump had a falling out and some of the statements Elon made that he was maybe going to spend less time involved in politics and more time building rockets.",
+   "ko": "일부 사람들은 그가 초기에 DOGE에서 물러나고 트럼프와 사이가 틀어진 것처럼 보였던 점, 그리고 일론의 몇몇 발언들을 보고 그가 정치에 관여하는 시간을 줄이고 로켓을 만드는 데 더 많은 시간을 보낼 것이라고 생각했던 것 같습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2489.2,
+   "en": "I think he said he was going to start a different political party at some point. Have you been surprised by what's coming out about his involvement in the midterms?",
+   "ko": "그는 언젠가 다른 정당을 창당하겠다고 말하기도 했었죠. 그의 중간 선거 개입에 대해 드러나고 있는 사실들에 놀라셨나요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2497.4,
+   "en": "I guess a little bit because I did sort of take him at his word that he was just moving past after the initial falling out with Trump and DOGE that he's just kind of moving on.",
+   "ko": "조금 놀랐습니다. 트럼프 및 DOGE와 처음에 틀어진 이후로 그가 그냥 미련 없이 나아가고 있다는 말을 곧이곧대로 믿었거든요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2509.1,
+   "en": "But he has tremendous business interests that are dependent on legislation. Those numbers are absurd to you and I.",
+   "ko": "하지만 그는 입법에 의존하는 엄청난 사업적 이해관계를 가지고 있습니다. 그 액수는 당신이나 저 같은 사람들에겐 말도 안 되는 금액이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2520.7,
+   "en": "When you look at his wealth, it's just sprinkling change on these races that will make his life easier. And so it's again, it's this very logical deployment of resource to ultimately get what you want.",
+   "ko": "그의 자산을 생각하면, 자신의 삶을 편하게 만들어 줄 선거에 잔돈을 뿌리는 수준일 뿐입니다. 그래서 이건 결국 원하는 것을 얻기 위한 매우 논리적인 자원 배치인 셈이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2535.1,
+   "en": "Mark Kelly, when I talked to him, one of the things that he brought up and I think he's right about is like the most powerful thing we can do to diversify our options in space is campaign finance reform.",
+   "ko": "마크 켈리와 이야기를 나눴을 때 그가 제기한 문제 중 하나이자 저도 옳다고 생각하는 것은, 우주에서의 옵션을 다양화하기 위해 우리가 할 수 있는 가장 강력한 일은 선거 자금 개혁이라는 점입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2547.1,
+   "en": "Because what you don't want is someone with essentially close to a monopoly business, who also is this close to the legislators and the regulators.",
+   "ko": "본질적으로 독점에 가까운 사업을 하는 사람이 입법자 및 규제 당국과 이토록 가까운 관계를 맺는 것은 결코 바람직하지 않기 때문입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2555.7,
+   "en": "Yeah. Then you really have a problem kind of disaggregating the actor from the action.",
+   "ko": "맞습니다. 그러면 행위자와 행위를 분리해서 생각하기가 정말 어려워지는 문제가 발생하죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2562.4,
+   "en": "So I guess if you were to think like him, it's like, of course I'll do this. This is going to save me money later. It's going to save me time.",
+   "ko": "그래서 그의 입장에서 생각해보면 '당연히 이렇게 해야지. 나중에 돈도 아껴주고 시간도 아껴줄 텐데'라고 생각할 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2571.3,
+   "en": "It's not like I'm going to miss the dollars. And the system allows me to do this. So sure.",
+   "ko": "돈이 아까운 것도 아니고 시스템이 허용해주니까 당연히 하는 거죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2581.7,
+   "en": "I recently found myself on the website for a really popular history podcast. I'm not going to say the name, but maybe you can guess it. And I got to say, this website is incredible.",
+   "ko": "최근에 아주 유명한 역사 팟캐스트 웹사이트에 들어갔습니다. 이름은 밝히지 않겠지만 짐작하실 수도 있을 거예요. 그런데 정말 웹사이트가 대단하더라고요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2590.5,
+   "en": "You can search through their hundreds and hundreds of archived episodes by theme, topic, subject matter. It's really, really cool.",
+   "ko": "수백 개의 에피소드 아카이브를 주제나 토픽별로 검색할 수 있습니다. 정말 멋지더군요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2598.9,
+   "en": "And as I was playing with it, I thought to myself, gosh, it'd be awesome to have something like this for the Next Big Idea. The problem is that I'm not a website developer.",
+   "ko": "그걸 살펴보면서 우리 Next Big Idea에도 이런 게 있으면 좋겠다는 생각이 들었습니다. 문제는 제가 웹 개발자가 아니라는 거였죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2606.9,
+   "en": "I don't know how to code. And so I thought, well, that's just a pipe dream that's never going to happen, Caleb. Then I found Hostinger.",
+   "ko": "코딩을 할 줄 모르거든요. 그래서 '케일럽, 그건 절대 일어날 수 없는 꿈 같은 일이야'라고 생각했죠. 그러다 Hostinger를 발견했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2613.5,
+   "en": "I've been playing around with their AI builder. And I just talked to it about the site that I envision for the Next Big Idea, and almost instantly it spits back working versions of this dream Next Big Idea website.",
+   "ko": "그들의 AI 빌더를 사용해봤습니다. 제가 구상하는 Next Big Idea 사이트에 대해 말만 했을 뿐인데, 거의 즉시 꿈에 그리던 웹사이트의 실제 작동 버전이 만들어졌습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2625.4,
+   "en": "I'm shocked by how easy it is and how fun I can't wait to finally get this thing launched and share it with you.",
+   "ko": "얼마나 쉽고 재미있는지 놀랐습니다. 어서 빨리 런칭해서 여러분께 보여드리고 싶네요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2631.2,
+   "en": "I think it's going to be a great new way for listeners like you to discover some of the great episodes we have buried deep in the archives of the show.",
+   "ko": "여러분 같은 청취자들이 저희 쇼의 아카이브 깊숙이 묻혀 있는 훌륭한 에피소드들을 발견할 수 있는 아주 좋은 방법이 될 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2638.6,
+   "en": "Snag Hostinger services at their lowest prices before the sale ends. Create your website today for just $1.99.",
+   "ko": "할인이 끝나기 전에 Hostinger 서비스를 최저가로 이용해 보세요. 오늘 단 1.99달러로 웹사이트를 만드세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2646.0,
+   "en": "Go to hostinger.com slash NBI and use code NBI for an additional 10% off Black Friday and Cyber Monday pricing.",
+   "ko": "hostinger.com/NBI로 가서 코드 NBI를 입력하고 블랙 프라이데이 및 사이버 먼데이 가격에서 추가 10% 할인을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2655.5,
+   "en": "Sometimes anxiety, depression, ADHD, those things can be more than just a rough patch. You might need more than talk therapy or self-help tools.",
+   "ko": "때때로 불안, 우울증, ADHD 같은 것들은 단순한 슬럼프 이상일 수 있습니다. 상담 치료나 자가 도움 도구 이상의 것이 필요할 수도 있죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2663.7,
+   "en": "Talkiatry connects you with real psychiatric care so you can actually understand what's going on and get a treatment plan that works.",
+   "ko": "Talkiatry는 실제 정신과 치료와 연결해 주어 현재 상태를 제대로 이해하고 효과적인 치료 계획을 세울 수 있게 도와줍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2670.9,
+   "en": "Talkiatry is a hundred percent online psychiatry practice that provides comprehensive evaluations, diagnoses, and ongoing medication management for conditions like ADHD, anxiety, depression, and more.",
+   "ko": "Talkiatry는 ADHD, 불안, 우울증 등에 대해 종합적인 평가, 진단 및 지속적인 약물 관리를 제공하는 100% 온라인 정신과 진료 플랫폼입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2683.1,
+   "en": "Unlike therapy-only platforms, Talkiatry is psychiatry. You're seeing a medical provider who can diagnose mental health conditions and prescribe medication when it's appropriate.",
+   "ko": "상담만 제공하는 플랫폼과 달리 Talkiatry는 정신과입니다. 정신 건강 상태를 진단하고 적절할 때 약을 처방할 수 있는 의료진을 만나게 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2694.2,
+   "en": "All 800 clinicians are in network with major insurers, so you can use your existing insurance instead of paying monthly subscriptions or out of network costs.",
+   "ko": "800명의 모든 임상의는 주요 보험사와 연계되어 있어, 월 구독료나 비급여 비용 대신 기존 보험을 사용할 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2703.7,
+   "en": "Head to talkiatry.com slash idea to complete the short assessment and get matched with an in-network psychiatrist in just a few minutes.",
+   "ko": "talkiatry.com/idea로 이동하여 짧은 설문을 작성하면 단 몇 분 만에 보험이 적용되는 정신과 의사와 매칭됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2712.1,
+   "en": "That's T-A-L-K-I-A-T-R-Y.com slash idea to get matched in minutes. Talkiatry.com slash idea.",
+   "ko": "T-A-L-K-I-A-T-R-Y.com/idea에서 단 몇 분 만에 매칭받으세요. talkiatry.com/idea입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2723.3,
+   "en": "When Mark Pincus came on this podcast, I told him that the four best business books I've ever read are Good to Great by Jim Collins, The Lean Startup by Eric Ries, Build by Tony Fadell, and Mark's new book, Life at the Speed of Play.",
+   "ko": "마크 핑커스가 팟캐스트에 출연했을 때, 저는 제가 읽은 최고의 비즈니스 서적 네 권으로 짐 콜린스의 '좋은 기업을 넘어 위대한 기업으로', 에릭 리스의 '린 스타트업', 토니 파델의 '빌드', 그리고 마크의 신간 'Life at the Speed of Play'를 꼽았습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2738.9,
+   "en": "What I love about Mark's book is that it isn't just a business book. It's part memoir, part business playbook, and part instruction manual for how to live a rich, innovative, ferocious life.",
+   "ko": "마크의 책이 좋은 이유는 단순한 비즈니스 서적이 아니기 때문입니다. 일종의 회고록이자 비즈니스 지침서이며, 풍요롭고 혁신적이며 열정적인 삶을 사는 법에 대한 매뉴얼이기도 합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2751.1,
+   "en": "Mark is the legendary Silicon Valley entrepreneur behind Zynga, and one of the most prolific idea generators around.",
+   "ko": "마크는 징가(Zynga)를 세운 전설적인 실리콘밸리 기업가이자 가장 왕성한 아이디어 뱅크 중 한 명입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2757.4,
+   "en": "One of the central ideas in the book is that ideas are easy. The hard part is figuring out which ones are actually worth pursuing.",
+   "ko": "책의 핵심 아이디어 중 하나는 아이디어 자체는 쉽다는 것입니다. 어려운 것은 어떤 아이디어가 실제로 추진할 가치가 있는지 알아내는 것이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2766.3,
+   "en": "He gives you a battle-tested framework for rapidly testing ideas, separating the promising ones from the terrible ones and killing the losers before they waste years of your life.",
+   "ko": "그는 아이디어를 신속하게 테스트하고, 유망한 것과 형편없는 것을 구분하며, 인생의 아까운 시간을 낭비하기 전에 가능성 없는 것들을 솎아내는 실전 검증된 프레임워크를 제공합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2776.1,
+   "en": "It's an instant national bestseller, it's only about 170 pages, and it reads less like a business book than like you're sitting at Mark's kitchen table, getting 30 years of hard-won lessons.",
+   "ko": "즉시 베스트셀러가 된 이 책은 약 170페이지 분량으로, 비즈니스 서적이라기보다 마크의 식탁에 앉아 그가 30년 동안 힘들게 얻은 교훈을 듣는 것처럼 읽힙니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2786.7,
+   "en": "And Mark has a great offer right now for Next Big Idea listeners. Go to getmarksbook.com slash next buy one copy and Mark will personally pay to send you a second copy for free.",
+   "ko": "마크가 현재 Next Big Idea 청취자들을 위해 특별한 혜택을 준비했습니다. getmarksbook.com/next에서 책 한 권을 구매하시면 마크가 개인적으로 비용을 지불하여 두 번째 권을 무료로 보내드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2801.3,
+   "en": "That's getmarksbook.com slash next.",
+   "ko": "getmarksbook.com/next로 접속하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2813.7,
+   "en": "Let's talk about AI. You know, obviously Elon, one of the co-founders or founders of OpenAI, he has his own AI company now. He's very involved.",
+   "ko": "AI 이야기를 해보죠. 아시다시피 OpenAI의 공동 창립자 중 한 명인 일론은 이제 자신만의 AI 회사를 가지고 있고 매우 깊이 관여하고 있습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2823.1,
+   "en": "I had forgotten or never known until I read your piece. I sort of wondered where Jeff Bezos was in terms of artificial intelligence.",
+   "ko": "당신의 기사를 읽기 전까지는 잊고 있었거나 전혀 몰랐는데요. 제프 베이조스는 인공지능 분야에서 어떤 위치에 있는지 궁금했습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2830.9,
+   "en": "And I had sort of thought, oh, maybe he's just focused on rockets and he doesn't care so much about AI. But I was completely wrong about that.",
+   "ko": "그는 그냥 로켓에만 집중하고 AI에는 별 관심이 없을 거라고 생각했었죠. 하지만 완전히 틀린 생각이었습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2836.2,
+   "en": "And I think in 2025, he became the co-CEO of a company called Prometheus, which is sort of an AI company that an unusual one.",
+   "ko": "그리고 2025년에 그는 좀 독특한 AI 회사인 프로메테우스(Prometheus)의 공동 CEO가 되었습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2843.9,
+   "en": "And this is his first operational role since leaving Amazon. So it's a big deal that I somehow feel like was underreported at the time or I was just not paying enough attention.",
+   "ko": "이는 아마존을 떠난 이후 그의 첫 경영 복귀입니다. 당시엔 잘 보도되지 않았거나 제가 주의를 기울이지 않았던 것 같은데, 정말 대단한 일이죠.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2853.5,
+   "en": "So what is Prometheus? What is Jeff after there? How does it differ from what the so-called frontier labs, the Anthropic's and the OpenAIs and the Google Deep Minds are up to?",
+   "ko": "프로메테우스는 어떤 회사인가요? 제프는 거기서 무엇을 노리고 있나요? 앤스로픽, OpenAI, 구글 딥마인드 같은 이른바 개척자 연구소들과는 어떻게 다른가요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 2864.6,
+   "en": "Yeah, I mean, it's funny. I heard some rumors about this company called Prometheus, I think in 2024.",
+   "ko": "재미있게도 2024년에 프로메테우스라는 회사에 대한 소문을 들었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2872.3,
+   "en": "And given how Bezos founded Blue Origin, which was he kept it in a garage for three years, it should have been a tell, right? I should have known that something was going on.",
+   "ko": "베이조스가 블루 오리진을 3년 동안 차고에 숨겨두고 창업했던 점을 생각하면 진작 눈치챘어야 했는데 말이죠. 무언가 진행되고 있다는 걸 알았어야 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2881.0,
+   "en": "And basically, it's a company that they just sort of announced in several months ago, they announced that he was going to be the co-CEO, that there was a fair amount of investment in it, that they hired about 150 people and real AI researchers, like high quality people.",
+   "ko": "몇 달 전 발표된 이 회사는 베이조스가 공동 CEO를 맡고 상당한 투자가 이루어졌으며, 약 150명의 우수한 AI 연구진을 고용했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2895.9,
+   "en": "And yeah, listen, how he spends his time is the clearest way to read his priorities. He is bouncing between Blue Origin and Prometheus pretty regularly.",
+   "ko": "그가 시간을 어떻게 쓰는지가 우선순위를 읽는 가장 확실한 방법입니다. 그는 현재 블루 오리진과 프로메테우스를 꽤 정기적으로 오가고 있죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2906.2,
+   "en": "But there's a key difference, right? Grok, GPT, Claude, these are largely large language models with some coding that's now part of their business model. That's not what Bezos wants to do.",
+   "ko": "하지만 핵심적인 차이가 있습니다. Grok, GPT, Claude는 주로 거대 언어 모델이며 코딩 능력이 비즈니스 모델의 일부가 되었죠. 베이조스가 하고 싶은 건 그런 게 아닙니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2919.6,
+   "en": "He wants to create what he's called an artificial general engineer. What he means by that is, if you look at an LLM, it's been trained on trillions and trillions of words and it's a punctuation, all sorts of other stuff.",
+   "ko": "그는 소위 '인공 일반 엔지니어(Artificial General Engineer)'를 만들고 싶어 합니다. LLM은 수조 개의 단어와 문장 부호 등을 학습했지만 실질적인 차이가 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2932.7,
+   "en": "There's a real lack of real world physical data. And so if you're going to invent things like heavy machinery, robots, rockets, things that might work for you on the moon, those ideas from the sketchbook are at some point going to have to interact with the physics of the universe.",
+   "ko": "현실 세계의 물리적 데이터가 정말 부족하다는 점이죠. 중장비, 로봇, 로켓처럼 달에서 작동할 물건을 발명하려면 스케치북 속 아이디어가 우주의 물리 법칙과 상호작용해야 합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2951.9,
+   "en": "There's almost no data on how that could be modeled. And so what Prometheus is ultimately trying to build is a model that can help people come up with ideas in the physical world, model them through AI, and eliminate so much of the trial and error that goes on in the process of inventing an engineering machinery and other things, right?",
+   "ko": "그걸 어떻게 모델링할지에 대한 데이터가 거의 없습니다. 그래서 프로메테우스가 궁극적으로 만들려는 것은 물리적 세계의 아이디어를 돕고 AI로 모델링하여, 기계 등을 발명하고 설계하는 과정에서 발생하는 수많은 시행착오를 제거하는 모델입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2974.0,
+   "en": "And so when I finally sort of got it, I was like, oh, wow, imagine if Blue Origin had had this in those first handful of years, when they were trying to figure out, is there a different way to get there?",
+   "ko": "이걸 깨닫고 나니 이런 생각이 들더군요. 블루 오리진이 창업 초기 몇 년 동안 우주에 가는 다른 방법이 있는지 고민할 때 이런 게 있었다면 어땠을까 하고요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2984.9,
+   "en": "Where Neal Stephenson and other people spent three years learning no, if you were able to use this kind of AI model, what you would learn in probably a matter of days is no. You can't get to space that way.",
+   "ko": "닐 스티븐슨과 다른 사람들이 3년 동안 '아니오'라는 답을 얻기 위해 고생했는데, 이런 AI 모델을 썼다면 아마 며칠 만에 '안 된다, 그 방식으론 우주에 갈 수 없다'는 걸 알았을 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 2998.9,
+   "en": "And so he's really deeply fascinated by this notion. It is, again, a very long-term notion. There's not a lot of physical data.",
+   "ko": "그래서 그는 이 개념에 정말 깊이 매료되어 있습니다. 다시 말하지만 매우 장기적인 관점의 구상이죠. 물리적 데이터는 아직 많지 않습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3008.0,
+   "en": "From my understanding, they are getting some. They are synthesizing some. They're making progress, but this is a really important component of what, if you want to go to space and you want to have lots and lots of robots in your warehouses, you can imagine what it would mean to have a machine that makes lots of machines.",
+   "ko": "제가 알기로는 어느 정도 데이터를 확보하고 있고 합성도 하면서 진전을 보이고 있습니다. 이건 우주에 가고 싶고 창고에 수많은 로봇을 두고 싶을 때, 즉 수많은 기계를 만드는 기계를 갖는다는 것이 어떤 의미인지 상상해 보면 정말 중요한 요소입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3025.2,
+   "en": "And so that's what his model is about. So that's his long-term play.",
+   "ko": "그의 모델은 바로 그런 것입니다. 그것이 그의 장기적인 전략이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3029.6,
+   "en": "Let's talk about some of the near-term stuff. Throughout this conversation, we've been talking about all the ways that SpaceX has historically been far out ahead in this race, but I think in recent years, even months, Blue Origin has been playing some really good catch up and is now a formidable rival, I would say, to SpaceX.",
+   "ko": "단기적인 이슈에 대해 이야기해 보죠. 대화 내내 SpaceX가 역사적으로 이 경쟁에서 얼마나 앞서 있었는지 말했지만, 최근 몇 년, 아니 몇 달 사이 블루 오리진이 정말 무섭게 추격해오며 이제는 SpaceX의 강력한 라이벌이 되었다고 생각합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3046.2,
+   "en": "And some people, I think, would argue is on the cusp of pulling ahead. So can you talk a little bit about what Blue Origin, how they've managed to turn things around and what are the near-term opportunities for them?",
+   "ko": "어떤 사람들은 추월하기 직전이라고 주장하기도 할 텐데요. 블루 오리진이 어떻게 상황을 반전시켰는지, 그리고 그들에게 어떤 단기적인 기회들이 있는지 말씀해 주시겠어요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3058.8,
+   "en": "So yeah, listen, I would say they're not close to pulling ahead and they're not really a formidable rival.",
+   "ko": "음, 제 생각에는 추월할 정도로 가깝지도 않고 아직은 그렇게 강력한 라이벌도 아닙니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3063.9,
+   "en": "Okay.",
+   "ko": "그렇군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3064.7,
+   "en": "But there is one area, and I'll get to it, where they could be. One of the things that Bezos I think realized was, okay, I need leadership that knows me, but also we kind of have to stop messing around.",
+   "ko": "하지만 그렇게 될 수도 있는 분야가 하나 있는데 곧 설명해 드리죠. 베이조스가 깨달은 것 중 하나는 자신을 잘 아는 리더십이 필요하다는 것과, 이제 어설프게 행동하는 건 그만둬야 한다는 것이었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3077.8,
+   "en": "And so he brought in a CEO named Dave Limp, who was at Amazon for, you know, like about 13 years.",
+   "ko": "그래서 그는 아마존에서 약 13년 동안 근무했던 데이브 림프를 CEO로 영입했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3084.1,
+   "en": "And Dave is constitutionally perfect for the job. He doesn't come from aerospace or rocket science. He comes from consumer electronics inside Amazon.",
+   "ko": "데이브는 천성적으로 이 자리에 딱 맞는 인물입니다. 그는 항공 우주나 로켓 과학 출신이 아니라 아마존의 가전 부문 출신이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3093.0,
+   "en": "He made like the Alexa or something. Alexa and Echo. He oversaw the satellite program inside Amazon.",
+   "ko": "알렉사 같은 걸 만들었죠. 알렉사와 에코 말입니다. 그는 아마존 내부의 위성 프로그램도 총괄했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3099.7,
+   "en": "And ironically said, well, we can't depend on Blue Origin to launch all of these satellites. We need to go with SpaceX and other providers of launch because he was just being realistic.",
+   "ko": "그리고 역설적이게도 '이 위성들을 모두 발사하는 데 블루 오리진에만 의존할 수 없다. SpaceX나 다른 발사 서비스 제공업체와 협력해야 한다'고 말했죠. 그는 단지 현실적이었던 겁니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3110.5,
+   "en": "He's not a pushover, but he knows how to read Jeff's mind in the same way that Gwynne Shotwell knows how to read Elon's mind. So there's a much more trust there.",
+   "ko": "그는 만만한 사람이 아니지만, 그윈 샷웰이 일론의 마음을 읽는 것처럼 제프의 마음을 읽을 줄 압니다. 그래서 신뢰 관계가 훨씬 두텁죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3119.8,
+   "en": "He's brought in a very different kind of leadership and a very different voice. He's killed some programs that weren't really making a lot of sense for the future of the company.",
+   "ko": "그는 매우 다른 종류의 리더십과 목소리를 가져왔습니다. 회사의 미래에 별 도움이 되지 않는 몇몇 프로그램들을 정리했죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3127.9,
+   "en": "And he believes that the key is we have to manufacture rockets and launch them and test them faster and faster and faster if we're going to catch up.",
+   "ko": "그리고 그는 따라잡으려면 로켓을 제조하고 발사하고 테스트하는 속도를 점점 더 높여야 한다고 믿습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3134.9,
+   "en": "And Dave Limp told me point blank, he's like, SpaceX is far ahead. What we want to do is become a successful option for lots of commerce for our own ambitions.",
+   "ko": "데이브 림프는 제게 단도직입적으로 말했습니다. SpaceX가 훨씬 앞서 있다고요. 자신들이 원하는 것은 독자적인 야망을 위해 수많은 상거래의 성공적인 선택지가 되는 것이라고요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3146.9,
+   "en": "And the only way to get there is to get there, right? And so I think there's momentum there, and I think the people inside Blue Origin feel some momentum, where the most momentum exists is around the moon.",
+   "ko": "거기에 도달하는 유일한 방법은 실제로 행동하는 것뿐이죠. 그래서 저는 그곳에 추진력이 있다고 생각하며 블루 오리진 내부 사람들도 그것을 느끼고 있다고 봅니다. 가장 큰 동력은 달 탐사 분야에 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3158.6,
+   "en": "The irony of this is that Musk for years wanted to go to Mars.",
+   "ko": "아이러니하게도 머스크는 수년 동안 화성에 가고 싶어 했습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3162.9,
+   "en": "Yeah, he was the Mars guy. He wasn't talking about Mars so much these days.",
+   "ko": "맞아요, 그는 화성에 미친 사람이었죠. 요즘은 화성 이야기를 별로 안 하더군요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3166.3,
+   "en": "Yeah, and part of that is because when Jeff finally said, look, we got to start competing for government contracts, there was this moment in the initial Trump transition back in 2017 when a team of people from Blue Origin went, understood that the Trump administration was looking for a kind of signal thing, and said, we've launched, you know, we've tested a rocket in the desert, we've launched and landed it five times, we can get to the moon.",
+   "ko": "네, 그 이유 중 하나는 제프가 마침내 정부 계약 경쟁에 뛰어들겠다고 선언했기 때문입니다. 2017년 트럼프 정부 초기 정권 인수기에 블루 오리진 팀이 트럼프 행정부가 상징적인 성과를 찾고 있다는 것을 파악하고 이렇게 말했죠. '사막에서 로켓 테스트를 마쳤고, 다섯 번이나 발사하고 착륙시켰습니다. 우리가 달에 갈 수 있습니다.'",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3192.7,
+   "en": "And this kind of captivated the Trump people. There has been, for the first time, like actual continuity between Trump, Biden, Trump in space program.",
+   "ko": "이게 트럼프 측 사람들을 사로잡았습니다. 처음으로 우주 프로그램에 있어서 트럼프, 바이든, 다시 트럼프로 이어지는 실질적인 연속성이 생겼죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3200.9,
+   "en": "Right, and they went ahead and they designed a program. There were fits and starts. SpaceX originally bid on it and won it because they came in at half the number of the Blue Origin bid.",
+   "ko": "그들은 프로그램을 설계하기 시작했습니다. 우여곡절이 있었죠. SpaceX가 원래 입찰에 참여해 낙찰받았는데, 블루 오리진 입찰가의 절반 가격을 제시했기 때문입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3211.9,
+   "en": "And they went kicking and screaming, ultimately, NASA mission-wise. Bezos actually offered to pay the difference out of his own pocket. He offered to contribute first a billion and then two billion, and NASA basically was like, no thanks, man.",
+   "ko": "그들은 강하게 반발하며 나아갔고 결국 NASA 임무 측면에서 베이조스는 차액을 자기 주머니에서 내겠다고 제안했습니다. 처음엔 10억 달러, 그다음엔 20억 달러를 기부하겠다고 했지만 NASA는 거절했죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3225.2,
+   "en": "Yeah, ultimately largely through like the persuasion of the senators from Washington State, NASA ended up giving out two contracts for the development of lunar lander and a pathway to get there.",
+   "ko": "결국 주로 워싱턴주의 상원의원들의 설득을 통해 NASA는 달 착륙선 개발과 도달 경로 확보를 위해 두 건의 계약을 체결하게 되었습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3238.1,
+   "en": "And so when you look at the plans or how SpaceX plans to get to the moon and how Blue Origin plans to get to the moon, what you can see is Blue Origin has a more practical plan. They've really focused on their lander, they're less moving parts.",
+   "ko": "그래서 SpaceX와 블루 오리진이 각각 달에 가려는 계획을 비교해 보면 블루 오리진이 더 현실적인 계획을 갖고 있음을 알 수 있습니다. 그들은 착륙선에 집중했고 가동 부품이 더 적거든요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3253.8,
+   "en": "It's totally possible that they're gonna be the vehicle that NASA chooses to go to the moon.",
+   "ko": "NASA가 달 탐사를 위해 선택할 우주선이 블루 오리진의 것이 될 가능성도 충분합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3260.2,
+   "en": "When I was talking to people deep in, I mean, the deepest aerospace nerds in the world, you know, what they told me is like, yeah, but God, when you look at what SpaceX is doing, which is Starship, right, the vehicle they want to use to get to the moon is Starship, which is really an enormous rocket, mostly designed to carry up to 60 Starlink satellites because it's good for business.",
+   "ko": "제가 업계 깊숙한 곳에 있는, 세계 최고의 항공우주 괴짜들과 이야기를 나눴을 때 그들이 그러더군요. SpaceX가 하고 있는 스타십(Starship)을 보라고요. 달에 갈 때 쓰려는 그 스타십은 사실 사업성을 위해 스타링크 위성을 60개까지 실어 나르도록 설계된 거대한 로켓이라고 말이죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3282.8,
+   "en": "And they want to repurpose that to get to the moon, Josh said, you know, what you could really do is use Starship as the refueler and as the depot for a Blue Origin lander to get to the Moon.",
+   "ko": "그들은 그걸 달 탐사용으로 전용하려고 하죠. 누군가 말하길, 스타십을 연료 보급선이자 창고로 쓰고 블루 오리진의 착륙선을 이용해 달에 내리는 것이 실제로 더 나은 방법일 수 있다고 하더군요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3295.0,
+   "en": "That would actually be the way you'd really want to do it.",
+   "ko": "그게 사실 정말 바람직한 방식이 될 것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3298.1,
+   "en": "That's the peanut butter and jelly. It really is.",
+   "ko": "피넛 버터와 젤리 같은 찰떡궁합이네요. 정말 그렇습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3300.6,
+   "en": "And like, I was not out there looking for some sort of Pat narrative solution to a story, but there's a couple things that go with that.",
+   "ko": "어떤 뻔한 결말을 찾으려던 건 아니었지만, 거기에는 몇 가지 의미가 더 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3309.0,
+   "en": "One, it really harkens back to NASA's earlier era where they would distribute contracts to very different manufacturers to do different things. And when we went to the moon the first time and when we had the Apollo mission, there are lots of companies that contributed the parts, the components, the boosters.",
+   "ko": "첫째로, 이건 서로 다른 제조사들에게 여러 역할을 맡겨 계약을 분산했던 NASA의 초기 시대를 연상시킵니다. 우리가 처음 달에 갔던 아폴로 미션 때도 수많은 기업이 부품, 구성 요소, 부스터를 기여했죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3328.3,
+   "en": "So one, it harkens back to that. Two, it's just practical. It does, it's very possible to get us there faster and cleaner and potentially cheaper.",
+   "ko": "그때의 향수를 불러일으키는 동시에 현실적이기도 합니다. 우리를 더 빠르고, 깔끔하고, 잠재적으로 더 저렴하게 그곳에 데려다줄 가능성이 높거든요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3337.8,
+   "en": "But it also reasserts the kind of national dominion over this process in a way that, you know, it's kind of a good acid test. Who are you guys doing this for?",
+   "ko": "또한 이 과정에 대한 국가적 지배력을 재확인해주며 일종의 '리트머스 시험지' 역할을 합니다. '당신들은 누구를 위해 이 일을 하고 있는가?'라고 묻는 거죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3348.2,
+   "en": "If you're really doing it for the glory of all mankind, if you're really patriotic Americans, and NASA says, well, we really like you to work together, are you going to be able to do that? Would you?",
+   "ko": "정말로 인류의 영광을 위해, 진정한 애국심을 가진 미국인으로서 이 일을 한다면, NASA가 협력을 요청했을 때 기꺼이 응할 수 있겠냐는 겁니다. 그럴 수 있을까요?",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3359.6,
+   "en": "People might be listening and thinking, they can send all these rockets into space. They can launch all these satellites. What's the big deal? Like, well, you know, why can't they just figure out how to get to the moon today?",
+   "ko": "청취자분들은 '로켓도 쏘아 올리고 위성도 잔뜩 띄우는데 그게 뭐 그리 대수냐, 왜 지금 당장 달에 가는 법을 못 알아내는 거지?'라고 생각하실 수도 있을 것 같습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3368.2,
+   "en": "Two reasons, right? One is when we went to the moon, our risk tolerance as a nation was significantly higher. We sent those guys to the moon in a tin can, right? It was incredibly thin.",
+   "ko": "두 가지 이유가 있습니다. 첫째는 우리가 달에 갔을 당시 국가적인 위험 감수 수준이 훨씬 높았다는 겁니다. 당시 대원들을 깡통 같은 우주선에 태워 보냈잖아요. 외벽이 정말 얇았죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3380.1,
+   "en": "I mean, I think the width of a nickel, the exposure to radiation, the danger was off the charts. And so when you speak to engineers today and they talk about those missions, they're like, there's nobody going to the moon in that, right?",
+   "ko": "동전 두께 정도였을 거예요. 방사능 노출이나 위험 수위가 상상을 초월했죠. 그래서 요즘 엔지니어들에게 당시 임무에 관해 물어보면 '저런 걸 타고 달에 갈 사람은 아무도 없다'고들 합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3394.6,
+   "en": "And we didn't stay very long. And so you didn't need to pack lots of heavy equipment. And so I get why it's counterintuitive, because we're like, well, our computers are so much smaller, and this iPhone has all the computing power it took to get...",
+   "ko": "게다가 오래 머물지도 않았기에 무거운 장비를 많이 챙길 필요도 없었죠. 컴퓨터도 훨씬 작아지고 아이폰 한 대에 당시 달에 가던 컴퓨팅 파워가 다 들어있는데 왜 못 가냐는 의문이 들 수 있다는 걸 이해합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3408.2,
+   "en": "But we're less risk tolerant. We want to stay longer. We have more heavy machinery. And so every ounce you add to a spacecraft makes the work that much harder.",
+   "ko": "하지만 지금은 위험 감수 성향이 낮아졌고, 더 오래 머물길 원하며, 더 무거운 기계를 가져가려 합니다. 우주선에 무게가 더해질 때마다 작업 난이도는 기하급수적으로 높아지죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3421.0,
+   "en": "And so that's really... I mean, there's lots of other sophisticated reasons, but if you want to know the simplest, like that's kind of the simplest reason why we haven't gone back.",
+   "ko": "정말 그렇습니다. 복잡하고 전문적인 이유가 많겠지만, 가장 단순하게 말하자면 우리가 아직 다시 가지 못한 이유는 바로 그것입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3431.0,
+   "en": "I think what people are realizing now is that there are good reasons to go. Some of it's national security. Some of it's just there are all these rare earths there. And it would be interesting to see what value they have.",
+   "ko": "이제 사람들은 달에 가야 할 타당한 이유가 있다는 걸 깨닫고 있습니다. 국가 안보 때문이기도 하고, 그곳에 묻힌 희토류의 가치가 궁금하기도 하죠.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3443.0,
+   "en": "And if you want to explore deeper space, it's actually the best place to launch from. If you can figure out fuel because gravity is so much less significant, you need much less thrust. You can go further.",
+   "ko": "심우주를 탐사하고 싶다면 달은 가장 좋은 발사 기지이기도 합니다. 중력이 훨씬 약하기 때문에 연료 문제만 해결하면 훨씬 적은 추진력으로 더 멀리 갈 수 있습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3456.4,
+   "en": "Also, it's close. There's no communications delay. So there's good reasons to go back. It's a reasonable program, but it's still really hard.",
+   "ko": "또한 가깝고 통신 지연도 없죠. 다시 갈 이유는 충분하고 타당한 계획이지만, 여전히 정말 어려운 일입니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3466.0,
+   "en": "If you get a call from Jeff or Elon and they say, hey, I read the piece, I'd love to talk it over with you on a flight to space. Would you go?",
+   "ko": "만약 제프나 일론이 전화해서 '기사 잘 읽었습니다, 우주로 가는 비행기 안에서 같이 이야기 좀 하시죠'라고 한다면, 가시겠어요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3477.8,
+   "en": "So they're not sending me solo. We're both going to do it. There's like mutually assured destruction.",
+   "ko": "절 혼자 보내는 게 아니라 같이 가는 거군요. 일종의 '상호 확증 파괴' 같은 거네요.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3483.0,
+   "en": "Yeah, you got to go with them. One of them. I mean, you don't have to pick who you want to go with, but would you go?",
+   "ko": "네, 그들 중 한 명과 동행해야 합니다. 누구와 갈지 고르실 필요는 없지만, 가긴 하실 건가요?",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3488.8,
+   "en": "I think I would have to say yes about it. Because we're here for the experiences, right? And I'm here for the knowledge and I want to know. And like, yeah, I think I'd probably sign up.",
+   "ko": "가겠다고 말해야 할 것 같네요. 우리는 경험을 위해 여기 있는 거잖아요? 지식을 얻고 싶고 궁금하기도 하니, 아마 신청할 것 같습니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3499.7,
+   "en": "Well, I hope they give you a call. I hope they're listening. Yeah, I think they're probably a big fan.",
+   "ko": "그들이 전화하기를, 그리고 이 방송을 듣고 있기를 바랍니다. 아마 당신의 열성 팬일 거예요.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3504.6,
+   "en": "And with all their free time, they're listening to a minor podcast where we know you can listen like at 1.25 speed. So maybe that's the hack that I see. Yeah, I see.",
+   "ko": "시간이 남아돌아서 1.25배속으로 들을 수 있는 이런 소규모 팟캐스트를 듣고 있을지도 모르죠. 그게 비결일 수도 있겠네요. 네, 알겠습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3513.5,
+   "en": "Josh, this has been such a treat. The article is fantastic. We'll have links in the episode notes. Thanks for coming on the show.",
+   "ko": "조쉬, 정말 즐거운 시간이었습니다. 기사가 정말 환상적이에요. 에피소드 노트에 링크를 남겨두겠습니다. 출연해 주셔서 감사합니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3519.0,
+   "en": "It's my pleasure. Thanks.",
+   "ko": "천만예요. 감사합니다.",
+   "speaker": "Josh Tyrangiel"
+  },
+  {
+   "start": 3528.0,
+   "en": "Josh Tyrangiel's cover story on the Atlantic is on newsstands now. You can also find a link in the episode notes.",
+   "ko": "조쉬 티란젤의 애틀랜틱 커버 스토리는 지금 가판대에서 만나보실 수 있습니다. 에피소드 노트에서도 링크를 확인하실 수 있습니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3534.1,
+   "en": "If you enjoyed the show, please let us know by leaving a rating or review on Apple Podcasts. Spotify really helps new people discover the Next Big Idea.",
+   "ko": "방송이 좋으셨다면 애플 팟캐스트에 별점이나 리뷰를 남겨주세요. 스포티파이는 새로운 분들이 Next Big Idea를 발견하는 데 큰 도움이 됩니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3542.3,
+   "en": "And if there's stuff you want to discuss with me one-on-one, send me an email. You can reach me at podcast at nextbigideaclub.com.",
+   "ko": "저와 일대일로 나누고 싶은 이야기가 있다면 이메일을 보내주세요. podcast@nextbigideaclub.com으로 연락하시면 됩니다.",
+   "speaker": "Caleb Bissinger"
+  },
+  {
+   "start": 3548.4,
+   "en": "Today's show was produced by me, Caleb Bissinger. It was mixed by Mike Tota. Our video editor is Maxi Frini. Stephen Christensen is our executive producer. Thanks for listening. We'll be back on Monday.",
+   "ko": "오늘 쇼는 저, 케일럽 비싱어가 제작했습니다. 믹싱은 마이크 토타, 영상 편집은 맥시 프리니가 맡았습니다. 총괄 프로듀서는 스티븐 크리스텐슨입니다. 들어주셔서 감사합니다. 월요일에 뵙겠습니다.",
+   "speaker": "Caleb Bissinger"
+  }
+ ]
+}
