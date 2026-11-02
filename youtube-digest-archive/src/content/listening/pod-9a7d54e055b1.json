@@ -1,0 +1,1296 @@
+{
+ "id": "pod-9a7d54e055b1",
+ "title": "Helping humans and wildlife coexist, with Suzanne MacDonald, PhD",
+ "show": "Speaking of Psychology",
+ "channel": "American Psychological Association",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9369801425.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/b7e3a25e-cef6-11f1-bdd1-df03fb6f96a5/image/8577510a83cc8ea277800434a518b476.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 2220,
+ "releaseDate": "2026-10-28T07:30:00.000Z",
+ "addedAt": "2026-11-02",
+ "segments": [
+  {
+   "start": 0.3,
+   "en": "If you live anywhere near a city, you've probably had a run-in with a raccoon knocking over your trash, startling your pets, or breaking into the bin, you were sure was raccoon-proof.",
+   "ko": "도시 근처에 사신다면 쓰레기통을 뒤엎거나 반려동물을 깜짝 놀라게 하거나, 또는 분명히 너구리 방지용이라고 확신했던 쓰레기통을 뚫고 들어오는 너구리와 마주친 적이 있을 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 12.5,
+   "en": "As cities and suburbs expand, we are increasingly building roads and neighborhoods and places that once had fewer humans.",
+   "ko": "도시와 교외가 확장됨에 따라, 우리는 예전에는 사람이 거의 살지 않았던 곳에 점점 더 많은 도로와 동네를 건설하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 19.9,
+   "en": "Some species struggle, others adapt, and raccoons with their reputation as cute and clever trash pandas are one of the most visible and popular examples of successful adaptation.",
+   "ko": "어떤 종은 어려움을 겪고 어떤 종은 적응하는데, 귀엽고 영리한 '쓰레기 판다'라는 명성을 가진 너구리는 성공적인 적응을 보여주는 가장 눈에 띄고 인기 있는 사례 중 하나입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 32.3,
+   "en": "Today we're going to talk to a psychologist who studies what happens when humans and wildlife mix, whether it's raccoons, turtles, elephants, or great apes.",
+   "ko": "오늘은 너구리, 거북이, 코끼리, 유인원 등 인간과 야생 동물이 섞여 살 때 어떤 일이 벌어지는지 연구하는 심리학자와 이야기를 나눠보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 41.7,
+   "en": "Why are some animals so good at living among humans? How does urban living change animals' behavior? And how can learning more about how animals think and behave help us protect and coexist with them when our habitats overlap?",
+   "ko": "왜 어떤 동물들은 인간 사이에서 그렇게 잘 살아가는 걸까요? 도시 생활은 동물의 행동을 어떻게 변화시킬까요? 그리고 동물의 사고와 행동 방식에 대해 더 많이 배우는 것이 서식지가 겹칠 때 동물을 보호하고 공존하는 데 어떤 도움이 될까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 60.3,
+   "en": "Welcome to Speaking of Psychology, the flagship podcast of the American Psychological Association that examines the links between psychological science and everyday life. I'm Kim Mills.",
+   "ko": "심리학과 일상 생활 사이의 연결 고리를 살펴보는 미국 심리학회의 대표 팟캐스트, Speaking of Psychology에 오신 것을 환영합니다. 저는 김 밀스입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 74.7,
+   "en": "My guest today is Dr. Suzanne MacDonald, a professor of psychology at York University in Toronto where she studies animal cognition and behavior.",
+   "ko": "오늘의 게스트는 토론토 요크 대학교의 심리학 교수인 수잔 맥도날드 박사님으로, 동물의 인지와 행동을 연구하고 계십니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 83.8,
+   "en": "Her current research includes work with great apes, urban turtles, llamas, crows, and yes raccoons. She conducts field studies around the world from Kenya to her own backyard in Toronto.",
+   "ko": "박사님의 현재 연구에는 유인원, 도시 거북, 라마, 까마귀, 그리고 너구리가 포함됩니다. 케냐에서부터 토론토에 있는 박사님의 뒷마당에 이르기까지 전 세계를 무대로 현장 연구를 수행하고 계시죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 97.2,
+   "en": "Dr. MacDonald is an APA fellow and has authored dozens of research papers on topics ranging from spatial cognition and primates to urban turtle behavior.",
+   "ko": "맥도날드 박사님은 미국 심리학회 석학 회원이며, 영장류의 공간 인지부터 도시 거북의 행동에 이르기까지 다양한 주제에 대해 수십 편의 연구 논문을 집필하셨습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 107.1,
+   "en": "She has also worked as the on-call animal behaviorist at the Toronto Zoo and has spoken about her work to many media outlets including CBS News, CBC, the BBC News and the Atlantic.",
+   "ko": "또한 토론토 동물원에서 상시 대기 동물 행동 전문가로 활동하셨으며, CBS 뉴스, CBC, BBC 뉴스, 애틀랜틱 등 수많은 언론 매체를 통해 자신의 연구 결과를 발표해 오셨습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 118.8,
+   "en": "Dr. MacDonald, thank you for joining me.",
+   "ko": "맥도날드 박사님, 함께 해주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 121.4,
+   "en": "I'm delighted to be here. Thank you for having me.",
+   "ko": "이 자리에 오게 되어 기쁩니다. 초대해 주셔서 감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 124.6,
+   "en": "As I just mentioned, you study many different types of animals, but I heard you say in one interview that nobody ever wants to talk to you about anything but raccoons.",
+   "ko": "방금 언급했듯이 박사님은 정말 다양한 종류의 동물을 연구하시는데, 한 인터뷰에서 너구리 말고는 아무도 다른 이야기를 하려 하지 않는다고 말씀하시는 걸 들었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 133.0,
+   "en": "So of course, we will get to other animals, but let's start with the raccoons. How did you become the go-to expert on raccoon behavior?",
+   "ko": "그래서 물론 나중에 다른 동물들도 다루겠지만, 너구리 이야기부터 시작해 보죠. 어떻게 너구리 행동 분야의 독보적인 전문가가 되셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 141.5,
+   "en": "Well you know your guess is as good as mine.",
+   "ko": "글쎄요, 저도 여러분만큼이나 궁금할 따름입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 143.2,
+   "en": "Oh, really?",
+   "ko": "아, 정말인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 144.9,
+   "en": "I don't know. I remember years ago, CBC approached me and said they were gonna do a documentary on raccoons. And could I be interviewed?",
+   "ko": "잘 모르겠어요. 몇 년 전 CBC에서 연락이 와서 너구리에 관한 다큐멘터리를 만들 예정인데 인터뷰가 가능한지 물었던 기억이 납니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 156.1,
+   "en": "And I said, well, I could be, but I have no idea about raccoons and nobody really does either. There was a psychologist back in the early 1900s who studied raccoons, but they hadn't really been studied since then.",
+   "ko": "그래서 전 '할 수는 있지만 전 너구리에 대해 전혀 모르고, 사실 다른 사람들도 마찬가지예요'라고 답했죠. 1900년대 초에 너구리를 연구한 심리학자가 한 명 있었지만, 그 이후로는 제대로 된 연구가 없었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 167.9,
+   "en": "So I said, if we're gonna do a documentary, we should study them. So that's how I started studying. And they were so interesting. I mean, how could you not love them?",
+   "ko": "그래서 전 다큐멘터리를 만들 거라면 제대로 연구를 해봐야 한다고 말했죠. 그렇게 연구를 시작하게 됐습니다. 그리고 너구리들은 정말 흥미로웠어요. 그러니까, 어떻게 이들을 사랑하지 않을 수 있겠어요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 178.0,
+   "en": "Well, why do you think people are so interested in raccoons? I mean, what do they love? What do we love about raccoons out of all the animals that come into our daily lives?",
+   "ko": "글쎄요, 왜 사람들이 너구리에게 그렇게 관심이 많다고 생각하시나요? 그러니까 사람들이 무엇을 좋아하는 걸까요? 일상에서 마주치는 수많은 동물 중에서 너구리의 어떤 점을 좋아하는 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 185.9,
+   "en": "I think we have a love-hate relationship with them. So I have studied that attitude toward raccoons, people in the cities.",
+   "ko": "우리는 너구리와 애증의 관계에 있다고 생각합니다. 그래서 저는 도시 사람들이 너구리에 대해 갖는 태도를 연구해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 194.8,
+   "en": "Half of the people love raccoons because they're so mischievous and they look at their little faces in their little hands and you know they just look like somebody want to hug",
+   "ko": "사람들의 절반은 너구리가 아주 장난스럽고, 작은 손과 작은 얼굴을 보고 있으면 안아주고 싶을 만큼 귀여워서 너구리를 좋아합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 205.7,
+   "en": "but the other half really really hate raccoons because they get in their garbage. We call just you know full disclosure. We call trash garbage here in Toronto.",
+   "ko": "하지만 나머지 절반은 너구리가 쓰레기통을 뒤지기 때문에 정말 싫어합니다. 솔직히 말씀드리자면, 여기 토론토에서는 'trash'를 'garbage'라고 부릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 213.6,
+   "en": "So I will say garbage can but it really means trash cans. And so the other half of people really hate raccoons because of the damage that has been done to their house. It's certainly in Toronto. That's for sure. Yeah.",
+   "ko": "그래서 제가 'garbage can'이라고 말하겠지만 실제로는 'trash cans'를 의미합니다. 어쨌든 나머지 절반의 사람들은 집에 입히는 피해 때문에 너구리를 정말 싫어하죠. 적어도 토론토에서는 확실히 그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 226.2,
+   "en": "Well, so just today there was a story in the New York Times about pygmy raccoons in Cozumel that make toys out of trash and show each other how to do so. You're nodding. So did you see the story? Do you know the research?",
+   "ko": "자, 마침 오늘 뉴욕 타임즈에 코수멜의 피그미 너구리들이 쓰레기로 장난감을 만들고 서로 가르쳐준다는 기사가 실렸습니다. 고개를 끄덕이시네요. 기사를 보셨나요? 그 연구를 알고 계신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 241.1,
+   "en": "I know the research, yeah. I'm not sure that these are toys, but certainly it's really interesting.",
+   "ko": "네, 그 연구는 알고 있습니다. 그것들이 정말 장난감인지는 확실치 않지만, 확실히 정말 흥미롭죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 247.2,
+   "en": "What do you think they might be? I mean, have you ever seen behavior like this similar to it? And what does it mean?",
+   "ko": "그것들이 무엇일 거라고 생각하시나요? 그러니까 이와 비슷한 행동을 본 적이 있으신가요? 그리고 그것은 무엇을 의미할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 254.5,
+   "en": "I'm not sure what it means, but I do know that I think these toys, I think these are the ones that put the cardboard in the water or the whatever it is in the water, paper. Yeah, paper.",
+   "ko": "무엇을 의미하는지는 확실하지 않지만, 이 장난감들이라는 것이 골판지나 종이 같은 것을 물에 넣는 행동과 관련이 있는 것 같아요. 네, 종이 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 265.7,
+   "en": "And they molded into something, but that's a really raccoon thing to do. So raccoons evolved around rivers and everything they do, if they can, they take whatever they have and they put it in water.",
+   "ko": "그리고 그것을 어떤 모양으로 빚어내기도 하는데, 그건 정말 너구리다운 행동입니다. 너구리는 강 주변에서 진화했기 때문에 무엇이든 할 수만 있다면 물에 넣으려 하거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 277.8,
+   "en": "That's just what they do. So this is not unusual that they would take paper and put it in water and then ball it up because that's what they do. That's what they do.",
+   "ko": "그게 그냥 그들의 본성입니다. 그래서 종이를 가져다가 물에 넣고 공처럼 뭉치는 것은 전혀 특이한 일이 아니에요. 그냥 너구리들이 늘 하는 일이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 285.9,
+   "en": "Back in the 50s, psychologists actually trained raccoons for TV commercials and they had them doing stuff like that.",
+   "ko": "50년대에 심리학자들이 TV 광고를 위해 너구리들을 훈련시켰는데, 바로 그런 행동들을 시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 294.6,
+   "en": "And the raccoons invariably were not very good on the TV commercials because they would take the objects and they'd run away with them.",
+   "ko": "그런데 너구리들은 변함없이 광고 촬영을 잘 해내지 못했습니다. 물건을 집어 들고는 그냥 도망가 버렸거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 302.0,
+   "en": "So that's what raccoons do is they take stuff, they put it in water, they fiddle around with it with their hands because their hands are so so that's their superpower they can see with their hand.",
+   "ko": "너구리들은 물건을 가져다 물에 넣고 손으로 이리저리 만지작거립니다. 손이 그들의 초능력이나 다름없거든요. 손으로 사물을 '본다'고 할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 313.1,
+   "en": "And so I'm not sure what this actual behavior is, but I certainly have seen raccoons, you know, North American raccoons take things and put them in water. I've never given them paper. I should probably do that.",
+   "ko": "그래서 이 실제 행동이 무엇인지는 확실치 않지만, 북미 너구리들이 물건을 가져다 물에 넣는 것은 분명히 본 적이 있습니다. 종이를 줘 본 적은 없는데, 한번 해봐야겠네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 327.5,
+   "en": "Yeah. And I'm trying to imagine what kind of commercial would require raccoons. What would you be selling?",
+   "ko": "네. 그리고 도대체 어떤 광고에 너구리가 필요했을지 상상해보고 있어요. 무엇을 팔려고 했을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 335.5,
+   "en": "I'll tell you. So it was a bank and obviously I wasn't there. So I'm just relaying what I tell my students all the time",
+   "ko": "말씀드릴게요. 은행 광고였는데, 당연히 제가 거기 있었던 건 아니고요. 학생들에게 늘 해주는 이야기를 전해드리는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 344.0,
+   "en": "It was a bank commercial and they wanted the raccoon to take a coin and put it in a piggy bank and what they found is that raccoons would rub the coin between their hands and then they would instead of putting in a piggy bank, they would run away with it.",
+   "ko": "은행 광고였는데 너구리가 동전을 집어서 저금통에 넣기를 바랐죠. 그런데 너구리들은 동전을 양손 사이에 넣고 비비더니, 저금통에 넣는 대신 그걸 들고 도망가 버렸다고 하더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 358.5,
+   "en": "So that's what raccoons do. They don't give up things very easily, that's for sure.",
+   "ko": "그게 너구리의 본모습입니다. 물건을 쉽게 포기하지 않죠, 그건 확실해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 363.9,
+   "en": "So, you know, the raccoon has a very interesting behavioral repertoire, and I think that's one of the reasons we like them, because they are so active and they do such interesting things with their hands.",
+   "ko": "그러니까 너구리는 매우 흥미로운 행동 목록을 가지고 있고, 우리가 그들을 좋아하는 이유 중 하나도 그들이 매우 활동적이고 손으로 아주 흥미로운 일들을 하기 때문이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 377.9,
+   "en": "And if you think about other species that we see in the city, Even our dogs and cats, they don't do things with their hands, but raccoons do things with their hands.",
+   "ko": "도시에서 볼 수 있는 다른 종들, 심지어 우리 개나 고양이조차도 손으로 무언가를 하지는 않지만 너구리는 손으로 무언가를 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 388.6,
+   "en": "So raccoons have fingers where they can do a lot of interesting things, but they don't have opposable thumbs, right?",
+   "ko": "그럼 너구리는 흥미로운 일들을 많이 할 수 있는 손가락이 있지만, 대립하는 엄지손가락은 없는 거죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 394.5,
+   "en": "Exactly, but they grasp, right? So they can grasp. They can't touch all their fingers together like we can, but they absolutely can grasp objects very well,",
+   "ko": "맞습니다. 하지만 쥘 수는 있어요. 우리처럼 모든 손가락 끝을 맞닿게 할 수는 없지만 물건을 아주 잘 쥘 수는 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 403.2,
+   "en": "which allows and their little fingers are so good at getting into under things and digging in things, and so they're really, really good with their hands.",
+   "ko": "덕분에 그 작은 손가락으로 물건 아래를 파고들거나 속을 뒤지는 걸 아주 잘하죠. 정말이지 손재주가 아주 좋습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 411.6,
+   "en": "And as I said, that's their superpower. They have an extraordinary number of areas in their brain devoted to input from the receptors in their hands.",
+   "ko": "말씀드렸듯이 그게 그들의 초능력입니다. 너구리의 뇌에는 손의 감각 수용체로부터 오는 정보를 처리하는 영역이 엄청나게 많이 할당되어 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 423.2,
+   "en": "So they basically, when they touch an object, they see it in their brain because they evolved around rivers and they work at night.",
+   "ko": "그래서 기본적으로 물건을 만질 때 뇌로 그것을 봅니다. 강가에서 진화했고 밤에 활동하기 때문이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 431.5,
+   "en": "And so they need to be able to put their hands in the water and understand what they're feeling under the water. And so that's how they evolved.",
+   "ko": "그래서 물속에 손을 넣고 무엇을 느끼고 있는지 이해할 수 있어야 했고, 그렇게 진화해 온 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 437.8,
+   "en": "Well, other animals make things that we humans interpret as toys and some like crows and chimps will even make tools. So what does this tell us about the lives of animals?",
+   "ko": "음, 다른 동물들도 우리 인간이 장난감으로 해석할 만한 것들을 만들고, 까마귀나 침팬지 같은 일부 동물들은 도구도 만듭니다. 이것이 동물의 삶에 대해 무엇을 말해줄까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 450.7,
+   "en": "I mean, tools are a practical thing, but how should we understand things that look to us like toys?",
+   "ko": "도구는 실용적인 것이지만, 우리 눈에 장난감처럼 보이는 것들을 어떻게 이해해야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 456.5,
+   "en": "Yeah, that's why I'm not sure that these are toys. Raccoons do spend a lot of time, especially the young ones playing, if you work with rehabilitated raccoons like orphan raccoons in a sanctuary, they absolutely play with toys that we give them.",
+   "ko": "네, 그래서 저도 그것들이 장난감인지 확신할 수 없는 겁니다. 너구리들은 특히 어린 시절에 많은 시간을 놀면서 보냅니다. 보호소의 고아 너구리 같은 재활 너구리들과 함께 지내보면 우리가 주는 장난감을 가지고 정말 잘 놀거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 471.5,
+   "en": "Anything they can use with their hands, they're all about that. So I'm not sure, you know, Orangutans use toys. All the species you would think would play with toys. They play with toys.",
+   "ko": "손으로 다룰 수 있는 거라면 무엇이든 좋아합니다. 오랑우탄도 장난감을 사용하죠. 장난감을 가지고 놀 것 같은 거의 모든 종이 실제로 장난감을 가지고 놉니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 482.6,
+   "en": "Your dog plays with toys. I was actually at the Toronto Zoo with my students here a few days ago and we saw a giant Nile soft-shell turtle playing with the toys.",
+   "ko": "집의 개도 장난감을 가지고 놀죠. 며칠 전 학생들과 토론토 동물원에 갔을 때 거대한 나일 부드러운등껍질거북이 장난감을 가지고 노는 걸 봤습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 490.5,
+   "en": "So playing with toys is ubiquitous across the animal kingdom.",
+   "ko": "이처럼 장난감을 가지고 노는 행위는 동물계 전반에 걸쳐 보편적입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 496.9,
+   "en": "And is that, I mean, is this because they're bored or is this somehow mentally enriching to them? Do we know, is this too anthropomorphic a question for me to ask you?",
+   "ko": "그게 그러니까 지루해서일까요, 아니면 정신적으로 풍요로워지는 걸까요? 우리가 알 수 있을까요, 아니면 제가 너무 의인화된 질문을 드린 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 505.9,
+   "en": "Not at all, you can ask anything. But really, we don't know because we can't interview them and say, 'hey, why are you doing that?'",
+   "ko": "전혀요, 뭐든 물어보셔도 됩니다. 하지만 솔직히 우리는 알 수 없어요. 그들에게 인터뷰를 하면서 '어이, 왜 그러고 있는 거야?'라고 물어볼 수는 없으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 515.3,
+   "en": "But certainly, play serves a lot of functions. So object play in particular increases skills, certainly with raccoons, it increases their hand-eye coordination, which they need to survive.",
+   "ko": "하지만 분명 놀이는 많은 기능을 수행합니다. 특히 사물 놀이는 기술을 향상시키는데, 너구리의 경우 생존에 필요한 손과 눈의 협응력을 높여줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 527.7,
+   "en": "So just like in humans, that's what play does for us too, right? It increases our skills. We have object play to learn how to do things. We have social play to learn how to cooperate with others. We have just rough and tumble play to get physical skills.",
+   "ko": "인간과 마찬가지로 우리에게도 놀이는 그런 역할을 하죠? 기술을 향상시켜 줍니다. 사물 놀이를 통해 무언가를 하는 법을 배우고, 사회적 놀이를 통해 협동하는 법을 배우죠. 또 몸싸움 놀이를 통해 신체적 기술을 얻기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 541.0,
+   "en": "So play serves a lot of functions. You usually see it in younger animals of a species while they're gaining all these functions and the adults just like in humans, and to sit around and just watch the young ones play, but sometimes they do play as well.",
+   "ko": "이처럼 놀이는 많은 기능을 합니다. 대개 한 종의 어린 개체들이 이런 기능들을 습득하는 동안 놀이를 많이 하고, 성체들은 인간처럼 그냥 앉아서 어린 개체들이 노는 걸 지켜보곤 하지만 때로는 직접 놀기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 557.9,
+   "en": "And raccoon adults will play, and for sure, and most adults will play if they have, if they've eaten and they have, you know, extra time.",
+   "ko": "성체 너구리들도 당연히 놀고, 대부분의 성체 동물들도 배불리 먹고 시간이 남으면 놀이를 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 567.2,
+   "en": "But the reality of most animals' lives, adult animals' lives, is that they got a lot to do. So they don't have time to play.",
+   "ko": "하지만 대부분의 성체 동물의 삶은 현실적으로 할 일이 아주 많습니다. 그래서 놀 시간이 없죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 574.0,
+   "en": "But in the cities, their food needs are met, over-met, really. So they do have lots of time. So you see that in urban raccoons, for example, that they do behave much more like younger ones, because they're not on the search for food all the time.",
+   "ko": "하지만 도시에서는 식량 욕구가 충족되다 못해 넘쳐납니다. 그래서 시간이 아주 많죠. 예를 들어 도시 너구리를 보면 항상 먹이를 찾아 헤매지 않아도 되기 때문에 훨씬 더 어린 너구리처럼 행동하는 것을 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 592.5,
+   "en": "What are the other differences that you see between urban and rural raccoons? And why are these changes happening?",
+   "ko": "도시 너구리와 시골 너구리 사이에서 볼 수 있는 다른 차이점은 무엇인가요? 그리고 왜 이런 변화가 일어나는 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 600.3,
+   "en": "Well, I think we're responsible as usual. It's always down to the humans, right? So we have built these cities, this infrastructure and raccoons are built to explore stuff like that. So, yay for them.",
+   "ko": "글쎄요, 늘 그렇듯 우리의 책임이라고 생각합니다. 항상 인간 때문이죠, 그렇죠? 우리가 이런 도시와 기반 시설을 만들었고 너구리는 그런 것들을 탐험하도록 타고났으니까요. 그들에겐 잘된 일이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 616.3,
+   "en": "They've managed to figure out how to live with us and the more they figure us out by getting into our trash cans, or getting into our attics or getting into our garages and figuring out how to open doors and do all that stuff, we try to outsmart them with our giant human brains.",
+   "ko": "그들은 우리와 공존하는 법을 알아냈고, 쓰레기통을 뒤지거나 다락방이나 차고에 침입해 문을 여는 법을 배우며 우리를 파악해갑니다. 그러면 우리는 거대한 인간의 뇌로 그들보다 한 수 앞서려 노력하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 639.3,
+   "en": "And the more we do that, the more they get smarter. So we are actually causing this evolutionary arms race to make the ones who can outsmart us survive and the ones who can't, they don't survive.",
+   "ko": "우리가 그럴수록 너구리들은 더 똑똑해집니다. 우리는 사실상 우리를 속일 수 있는 개체는 살아남고 그렇지 못한 개체는 도태되는 진화적 군비 경쟁을 유발하고 있는 셈입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 653.2,
+   "en": "That's natural selection and it's fine.",
+   "ko": "그것이 자연 선택이고, 뭐 괜찮습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 656.7,
+   "en": "Are there other wild species living near us humans that are going through similar changes?",
+   "ko": "인간 근처에 살면서 비슷한 변화를 겪고 있는 다른 야생 종들이 또 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 664.1,
+   "en": "I mean, I can't say because I don't have data and you know psychologists like data, but absolutely, obviously, where the city is selecting some species that can live with us and the others are not going to be in the city.",
+   "ko": "데이터가 없어서 확답은 못 드리겠지만—심리학자들은 데이터를 좋아하니까요—분명히 도시는 우리와 함께 살 수 있는 종들을 선택하고 있고, 그렇지 못한 종들은 도시에서 사라질 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 680.7,
+   "en": "So they're either going to not be around or they're going to go elsewhere. So crows, for example, crows do super well with us because they, I personally think most crows are smarter than we are.",
+   "ko": "그래서 죽거나 다른 곳으로 떠나겠죠. 예를 들어 까마귀는 우리와 아주 잘 지내는데, 개인적으로 대부분의 까마귀가 우리보다 똑똑하다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 692.5,
+   "en": "And they figure out our routines. They're, you know, if you think of a raccoon and then you've got to think like a different level for crows. They're so much smarter than raccoons are. I have, it's just, you can't even imagine.",
+   "ko": "까마귀들은 우리의 일과를 파악합니다. 너구리를 생각하다가 까마귀를 생각하면 아예 차원이 달라요. 까마귀는 너구리보다 훨씬 더 똑똑합니다. 상상도 못 할 정도예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 706.6,
+   "en": "So when I first started studying raccoons, I thought 'oh, this will be interesting because raccoons are like the monkeys of North America, right?' We don't have monkeys in North America. I thought 'oh, well, maybe raccoons fill that niche.'",
+   "ko": "처음 너구리 연구를 시작했을 때 '오, 북미에는 원숭이가 없으니 너구리가 북미의 원숭이 같은 존재겠네?'라고 생각하며 흥미로울 거라 기대했습니다. 너구리가 그 틈새를 메우고 있을 거라 생각했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 718.0,
+   "en": "How awesome that will be to study and no, it's not true at all. But crows absolutely are like flying primates and they love what we build through them, but we give them so much that they can use",
+   "ko": "공부하기 정말 좋겠다고 생각했지만, 전혀 아니었습니다. 오히려 까마귀가 정말로 '하늘을 나는 영장류'에 가깝습니다. 그들은 우리가 만든 환경을 좋아하고, 우리는 그들이 이용할 수 있는 것들을 너무나 많이 제공하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 731.3,
+   "en": "and so the densities of these animals like crows, like raccoons, like rats, even opossums, it's much higher in cities.",
+   "ko": "그래서 까마귀, 너구리, 쥐, 심지어 주머니쥐 같은 동물들의 밀도가 도시에서 훨씬 더 높습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 741.1,
+   "en": "So you can tell that they're not only just surviving us, they're actually thriving in our environments whereas other species, you don't see them in the cities.",
+   "ko": "다른 종들은 도시에서 볼 수 없는 반면, 이들은 단순히 살아남는 것을 넘어 우리의 환경에서 번성하고 있다는 것을 알 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 749.7,
+   "en": "I've read that some researchers have found or think that they found that crows, for example, form actual relationships with humans and that they hold grudges too if they don't like you. Have you seen that research?",
+   "ko": "어떤 연구자들은 까마귀가 인간과 실제 관계를 형성하고, 마음에 들지 않으면 원한을 품기도 한다는 사실을 발견했거나 발견했다고 믿는다는 기사를 읽었습니다. 그런 연구를 보신 적이 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 761.3,
+   "en": "Oh, God, yes. I've seen that research and that's my lived experiences 100%.",
+   "ko": "세상에, 그럼요. 그 연구도 봤고 제 경험상으로도 100% 사실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 768.1,
+   "en": "So I have a crow friend and he is fantastic. And I've had him for about, I haven't had him. I've had the relationship for about 10 years.",
+   "ko": "제게도 까마귀 친구가 하나 있는데 정말 환상적입니다. 그 녀석과 알고 지낸 지, 그러니까 그 관계를 맺어온 지 벌써 10년 정도 됐네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 777.2,
+   "en": "And it takes time to build a friendship, whether it's with a crow or with a human. And mutual respect has to be there. And so we have that.",
+   "ko": "까마귀든 인간이든 우정을 쌓는 데는 시간이 걸립니다. 그리고 상호 존중이 있어야 하죠. 우리는 그런 게 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 786.7,
+   "en": "And he has now, every year he has offspring with his mate. And the offspring get to know me as well, but we're not friends, but they get to know me.",
+   "ko": "그 녀석은 이제 매년 짝과 함께 새끼를 낳습니다. 새끼들도 저를 알게 되지만, 친구는 아니고 그냥 저라는 존재를 인식하는 정도죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 796.4,
+   "en": "But this year, one of the offspring, one of the males, oh my God, he had the audacity to dive bomb me, and my crow took it out on him, and went after him and pecked him.",
+   "ko": "그런데 올해는 새끼 중 한 마리인 수컷 녀석이 감히 저에게 급강하 공격을 하더군요. 그랬더니 제 친구 까마귀가 그 녀석을 쫓아가서 쪼며 혼을 내주더라고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 808.2,
+   "en": "And if I could do a voice over it, it'd be like, 'not that one, don't hit that one, do not.'",
+   "ko": "제가 거기에 더빙을 한다면 '그 사람은 안 돼, 때리지 마, 절대 안 돼' 같은 느낌이었을 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 815.8,
+   "en": "And they really, really can identify individuals. So they do absolutely hold grudges. If you've done something to them, they don't forget that at all.",
+   "ko": "까마귀들은 정말로 개개인을 식별할 수 있습니다. 그래서 분명히 원한을 품기도 하죠. 그들에게 무언가 잘못을 했다면 절대 잊지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 826.0,
+   "en": "And if you've done something good, they don't forget that either. So they really do, they can tell us apart. They can tell the cars we drive, they know the routines we have, they absolutely know our behavior just as much, actually better than we know their behavior.",
+   "ko": "잘해준 것도 잊지 않고요. 까마귀들은 정말 우리를 구별할 줄 압니다. 우리가 어떤 차를 타는지도 알고 우리의 일과도 꿰고 있어요. 그들은 우리가 그들을 아는 것보다 훨씬 더 잘 우리 행동을 파악하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 841.2,
+   "en": "Wow. Yeah. It's weird.",
+   "ko": "와. 네. 참 신기하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 845.8,
+   "en": "You were recently quoted in an article in the Atlantic called, 'Are Raccoons Evolving Into Pets?' Now, I'm pretty sure I know the answer, but for our listeners, is keeping a raccoon as a pet a good idea?",
+   "ko": "최근 '너구리는 반려동물로 진화하고 있는가?'라는 애틀랜틱 기사에 인용되셨는데요. 답을 알 것 같긴 하지만, 청취자들을 위해 말씀해주시죠. 너구리를 반려동물로 키우는 것이 좋은 생각일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 859.1,
+   "en": "Yeah, yes. So you do know the answer. And the answer is always no. No. Every time a student asks me, no, that is not a good idea, a bad idea, very bad idea. Don't do that.",
+   "ko": "네, 답을 알고 계시는군요. 대답은 언제나 '아니오'입니다. 학생들이 물어볼 때마다 전 안 된다고 합니다. 좋은 생각이 아니에요. 나쁜 생각이고 아주 위험한 생각입니다. 하지 마세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 869.5,
+   "en": "So I know there are maybe listeners who have had raccoons as pets. But when you get them as babies all adorable so sweet with their little bitey teeth and their little scratchy claws",
+   "ko": "너구리를 반려동물로 키워본 청취자분들도 계실지 모르겠습니다. 새끼 때는 아주 귀엽고, 깨물기 좋아하는 작은 이빨과 할퀴기 좋아하는 작은 발톱도 사랑스럽죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 880.3,
+   "en": "And then within a few months they become giant and they destroy your house. So they are very destructive, they are wild animals.",
+   "ko": "하지만 몇 달만 지나면 덩치가 커지고 온 집안을 엉망으로 만듭니다. 그들은 파괴력이 대단하고 엄연한 야생 동물입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 889.4,
+   "en": "I had a conversation with a reporter from a Japanese newspaper, because there are now raccoons in Japan, because people have brought them, and they're taking over and it's not good.",
+   "ko": "한 일본 신문기자와 이야기를 나눈 적이 있는데, 사람들이 너구리를 들여오는 바람에 이제 일본에도 너구리가 살게 되었고, 그들이 지역을 장악하고 있어 상황이 좋지 않다고 하더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 903.1,
+   "en": "And he said, 'but they're so cute.' And I said, 'well, you know, tigers are cute. You want them in your city? Okay, well, you don't want these either, do you?'",
+   "ko": "기자가 '하지만 너무 귀엽잖아요'라고 하길래 제가 그랬죠. '호랑이도 귀여워요. 도시에 호랑이가 살길 원하세요? 이 녀석들도 마찬가지랍니다.'",
+   "speaker": "Guest"
+  },
+  {
+   "start": 911.1,
+   "en": "You don't want wild animals in your house. It's not good for them, for the animals. It's not good for you.",
+   "ko": "집안에 야생 동물을 들이는 건 원치 않으실 겁니다. 동물에게도 좋지 않고 여러분에게도 좋지 않아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 917.0,
+   "en": "We, it's not allowed in Canada, but in various US states people do have raccoons and they put them on Instagram and it looks adorable and everyone says 'oh I want one too.' No you don't, you really don't.",
+   "ko": "캐나다에서는 허용되지 않지만, 미국의 여러 주에서는 사람들이 너구리를 키우기도 하고 인스타그램에 올리기도 하죠. 사랑스러워 보이니까 다들 '나도 한 마리 갖고 싶다'고 하지만, 아니요, 정말로 원치 않으실 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 929.4,
+   "en": "They're like extremely powerful toddlers that can bite you. You don't want that in your house.",
+   "ko": "그들은 당신을 물 수 있는 엄청나게 힘이 센 유아와 같습니다. 그런 존재를 집에 두고 싶진 않으실 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 935.4,
+   "en": "You also helped design Toronto's raccoon resistant trash cans but I understand that the raccoons figured out how to beat them. Is it possible to build a raccoon proof trash bin and are they really little geniuses or are they just persistent?",
+   "ko": "토론토의 너구리 방지용 쓰레기통 설계를 돕기도 하셨는데, 너구리들이 그걸 뚫는 법을 알아냈다고 들었습니다. 너구리 차단 쓰레기통을 만드는 게 가능하긴 할까요? 그리고 그들은 정말 작은 천재일까요, 아니면 그냥 끈기가 대단한 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 952.6,
+   "en": "Well, that's an excellent question. And notice you said raccoon resistant trash cans.",
+   "ko": "좋은 질문입니다. 그리고 당신이 '너구리 차단'이 아니라 '너구리 방지' 쓰레기통이라고 말한 점에 주목해 보세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 957.6,
+   "en": "So by and large, most of the organic bins—we call them green bins, they are for organic waste, which is really attractive to raccoons—and by and large, they're working really, really well.",
+   "ko": "대체로 유기물 쓰레기통—우리는 '그린 빈'이라고 부르는데, 너구리들이 아주 좋아하는 음식물 쓰레기용이죠—은 대부분 아주 아주 잘 작동하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 970.3,
+   "en": "So the only ones that aren't working well are if a rat has opened up a hole in one because the raccoons can get their hands in.",
+   "ko": "잘 안 되는 경우는 쥐가 구멍을 뚫어 놓았을 때뿐입니다. 그러면 너구리가 그 틈으로 손을 집어넣을 수 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 978.1,
+   "en": "And there is one female that I'm aware of who has figured out how to knock it over and break the mechanism to get in.",
+   "ko": "그리고 제가 아는 암컷 한 마리는 통을 쓰러뜨려 잠금 장치를 부수고 들어가는 법을 터득했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 985.0,
+   "en": "She's the only one and she has not taught it and nobody they don't learn from each other that way. So everyone just lines up and waits for her to open it and then they get what they can.",
+   "ko": "그 녀석이 유일하고, 누구에게 가르쳐주지도 않았으며 다른 녀석들도 그런 식으로 배우지는 못합니다. 그래서 다른 녀석들은 그냥 줄을 서서 기다리다가 그 녀석이 통을 열면 각자 챙길 걸 챙깁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 995.0,
+   "en": "Overall people are quite happy. I have heard from people in Toronto saying, 'oh my bin is really great. There are no more raccoons there at all.'",
+   "ko": "전반적으로 사람들은 꽤 만족해합니다. 토론토 사람들로부터 '우리 쓰레기통 정말 좋아요. 이제 너구리가 전혀 안 와요'라는 말을 듣곤 하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1003.7,
+   "en": "The ones that you've seen, you may have seen online with raccoons figuring out the mechanism, but it turns out those were heavily curated videos where the mechanism was actually broken because the city went to investigate and actually it was broken.",
+   "ko": "온라인에서 너구리가 장치를 여는 영상을 보셨을 수도 있지만, 사실 그건 장치가 이미 고장 난 상태에서 촬영된 조작된 영상인 것으로 밝혀졌습니다. 시에서 조사해 보니 실제로 고장이 나 있었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1023.0,
+   "en": "So I don't know whether the homeowners broke it or whether it just broke, but if it's working, if the bin is as it should be, they can't get in.",
+   "ko": "집주인이 부순 건지 아니면 그냥 고장이 난 건지는 모르겠지만, 쓰레기통이 정상적으로 작동한다면 너구리들은 절대 못 들어옵니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1034.0,
+   "en": "And it is, I think, impossible to build a raccoon proof or rat proof or any animal, anything proof because somebody's gonna figure it out at some point. You know?",
+   "ko": "하지만 너구리나 쥐, 그 어떤 동물의 침입도 완벽히 막는 '완전 차단' 통을 만드는 건 불가능하다고 생각합니다. 누군가는 결국 언젠가 방법을 찾아낼 테니까요. 아시겠죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1044.5,
+   "en": "We're going to take a short break. When we return, we'll talk about Dr. MacDonald's research with other species starting with urban turtles.",
+   "ko": "잠시 쉬어가겠습니다. 돌아와서 맥도날드 박사님의 도시 거북을 비롯한 다른 종들에 대한 연구 이야기를 나눠보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1053.8,
+   "en": "Well, let's talk about some of your other work. So you've also studied urban turtles. Let's talk about that. How did you get interested in studying turtles? What kinds of questions have you investigated?",
+   "ko": "자, 박사님의 다른 연구들에 대해 이야기해 보죠. 도시 거북도 연구하셨는데, 그 이야기를 해볼까요? 어떻게 거북 연구에 관심을 갖게 되셨나요? 어떤 질문들을 탐구해 오셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1065.2,
+   "en": "Well, this is not so psychology-ish, but it's turning into that. So originally it started out because I'm also in biology. I am in psychology and biology.",
+   "ko": "음, 처음에는 그렇게 심리학적이진 않았지만 점점 그렇게 변해가고 있습니다. 원래 제가 생물학 쪽에도 몸담고 있어서 시작하게 됐어요. 저는 심리학과 생물학을 같이 전공하고 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1075.8,
+   "en": "And one of our conservation authorities here needed somebody to study turtle movement because we're trying to prevent turtles from getting squished on the roads.",
+   "ko": "이곳의 한 자연 보호국에서 도로 위에서 로드킬을 당하는 거북이를 방지하기 위해 거북이의 이동을 연구할 사람이 필요했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1085.9,
+   "en": "So in every city, major roads often bisect wetlands. So they cut them in half and turtles don't know that.",
+   "ko": "모든 도시에서 주요 도로들이 종종 습지를 가로지릅니다. 습지를 반으로 쪼개 놓는데 거북이들은 그걸 모르죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1093.7,
+   "en": "So they wanna go from one side to the other when they wanna lay their eggs or they wanna mate. And they go, they try to go across these major roads and it ends in disaster.",
+   "ko": "거북이들은 알을 낳거나 짝짓기를 하고 싶을 때 습지의 한쪽에서 다른 쪽으로 가고 싶어 합니다. 그래서 이 주요 도로들을 건너려다가 참변을 당하게 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1103.5,
+   "en": "So thousands and thousands of turtles are often squished on the roads every year. Road mortality is the number one way that they're going to die.",
+   "ko": "그래서 매년 수천 마리의 거북이가 도로 위에서 으깨지곤 합니다. 로드킬이 그들이 죽는 가장 큰 원인입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1111.8,
+   "en": "And these are long lived animals that do not recover from this kind of mortality. You know, their populations don't recover.",
+   "ko": "거북이는 수명이 긴 동물이라 이런 식의 폐사로부터 쉽게 회복되지 못합니다. 아시다시피 개체 수가 회복되지 않아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1119.3,
+   "en": "So the city of Brampton, which is near Toronto, wanted to build a corridor underneath the road and get the turtles to use the corridor. So we were studying that.",
+   "ko": "그래서 토론토 인근의 브램턴 시에서는 도로 아래에 통로를 만들어 거북이들이 그 통로를 이용하게 하고 싶어 했습니다. 우리는 그걸 연구하고 있었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1129.5,
+   "en": "And now it's moved into looking at turtles in urban areas. How are they doing? How are their demographics? You know, are young turtles or is it all old turtles, you know, how many males and how many females?",
+   "ko": "그리고 이제는 도시 지역 거북이들이 어떻게 지내는지 살펴보는 것으로 연구가 확대되었습니다. 그들의 인구 통계는 어떤지, 어린 거북이가 있는지 아니면 늙은 거북이뿐인지, 암수 비율은 어떤지 등을 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1141.7,
+   "en": "And we're also looking to see if bolder turtles—so this is where the psychology comes in, in personality, we talk about boldness and shyness—and bolder turtles are more likely to get injured or get into traps than shy turtles.",
+   "ko": "또한 대담한 거북이—이 대목에서 심리학이 등장하는데요, 성격에 대해 이야기할 때 대담함과 수줍음을 말하곤 하죠—가 수줍음이 많은 거북이보다 부상을 당하거나 덫에 걸릴 확률이 더 높은지도 살펴보고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1160.2,
+   "en": "So this is super super interesting to my psych students. And turtles are thinking about things, more things than you would think.",
+   "ko": "이건 제 심리학 학생들에게 아주 아주 흥미로운 주제입니다. 거북이들도 당신이 생각하는 것보다 더 많은 것들을 생각하고 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1167.7,
+   "en": "But certainly we didn't start out thinking about that. And that's why I mentioned that Nile soft-shell turtle playing because my students were amazed to see this turtle playing with the ball.",
+   "ko": "처음부터 그런 생각을 했던 건 아닙니다. 아까 나일 부드러운등껍질거북의 놀이에 대해 언급한 것도 제 학생들이 거북이가 공을 가지고 노는 걸 보고 깜짝 놀랐기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1178.7,
+   "en": "So there's a lot more going on there than you might think. And if we preserve the turtles, then we're gonna preserve the habitat. So it's all connected.",
+   "ko": "거북이에게는 생각보다 훨씬 더 많은 일이 일어나고 있습니다. 그리고 우리가 거북이를 보존한다면 서식지도 보존하게 될 것입니다. 모든 게 다 연결되어 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1189.9,
+   "en": "And turtles can learn to use a corridor underneath the highway?",
+   "ko": "그럼 거북이들도 고속도로 아래에 있는 통로를 이용하는 법을 배울 수 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1194.5,
+   "en": "Yeah, so there's tons of money put into this, we have a project. And they put up little fences along the road, like not tall fences, but short ones.",
+   "ko": "네, 이 프로젝트에 엄청난 돈이 투입되었습니다. 도로를 따라 높지 않은 낮은 펜스를 설치했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1203.9,
+   "en": "And you'll see that along some wetlands to kind of funnel the turtles as they're walking into this corridor underneath the road so that they can get through safely.",
+   "ko": "습지를 따라 거북이들을 도로 밑 통로로 유도하기 위해 깔때기처럼 모아주는 장치를 보실 수 있을 텐데, 덕분에 거북이들이 안전하게 지나갈 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1215.4,
+   "en": "And then we can measure to see if that worked. And what we actually do is put cameras up.",
+   "ko": "그리고 그것이 효과가 있는지 측정할 수 있습니다. 실제로 저희는 카메라를 설치해 둡니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1220.3,
+   "en": "And what you can see is that raccoons will sit in the corridor and wait for the turtles to come in because it's like a moving buffet coming right to them.",
+   "ko": "거기서 무엇을 볼 수 있냐면, 너구리들이 통로에 앉아서 거북이들이 들어오기를 기다립니다. 너구리들에게는 걸어 들어오는 뷔페나 다름없으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1228.1,
+   "en": "So we curse the raccoons because they sit at the nest and they wait for the hatchlings to come out. They got that figured out. Yeah.",
+   "ko": "그래서 우린 너구리들을 욕하곤 하죠. 둥지에 앉아서 부화한 새끼들이 나오기만을 기다리거든요. 그들은 다 꿰뚫고 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1240.8,
+   "en": "Well, you've also done work with Orangutans studying, I read their reaction to music and to photographs. Can you tell us about that work?",
+   "ko": "음, 오랑우탄에 대한 연구도 하셨는데, 음악과 사진에 대한 그들의 반응을 연구하셨다는 기사를 읽었습니다. 그 연구에 대해 말씀해주실 수 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1249.7,
+   "en": "Sure. I've been working with Orangutans for many decades and my graduate students have done some fantastic things.",
+   "ko": "물론이죠. 저는 수십 년 동안 오랑우탄을 연구해 왔고 제 대학원생들도 환상적인 일들을 해냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1257.3,
+   "en": "One graduate student and I are looking at food preference, which is one of the most fun studies, honestly, because we're giving them a choice between two types of food, and then we're looking at quantity discrimination and all the things that psychologists do.",
+   "ko": "한 대학원생과 저는 음식 선호도를 조사하고 있는데, 솔직히 가장 재미있는 연구 중 하나입니다. 두 가지 음식을 주고 선택하게 한 다음, 양을 구별하는지 등 심리학자들이 하는 온갖 실험을 하거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1275.0,
+   "en": "But the basic thing where you put two food items and let them choose is so fun because they love doing that.",
+   "ko": "두 가지 음식을 놓고 고르게 하는 기본적인 실험 자체가 아주 재미있습니다. 오랑우탄들이 그걸 아주 좋아하거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1282.0,
+   "en": "And then when you give them something they don't like, like broccoli, they actually fling it back, they're just so awesome.",
+   "ko": "그런데 브로콜리처럼 좋아하지 않는 걸 주면 실제로 그걸 다시 내던져 버립니다. 정말 대단한 녀석들이에요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1291.0,
+   "en": "They'd rather have an empty plate than have broccoli, frankly, and I'm with them on that. I don't like broccoli either, but just see their facial expressions.",
+   "ko": "솔직히 그들은 브로콜리를 먹느니 빈 접시를 택할 겁니다. 그 점에선 저도 공감해요. 저도 브로콜리를 안 좋아하거든요. 하지만 그들의 표정을 한번 보세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1297.8,
+   "en": "It's just like, 'what are you even, why are you even asking me this? Like, why would I entertain eating this broccoli? It's not even a food.' Anyway, so we do things like that.",
+   "ko": "마치 '나한테 왜 이런 걸 물어보는 거야? 내가 왜 이 브로콜리를 먹어야 해? 이건 음식도 아니야'라고 말하는 것 같아요. 어쨌든 그런 연구들을 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1314.2,
+   "en": "So we have looked at whether they like music, which was simply a question of, 'hey, in the zoo, wouldn't it be nice if they could have the music genre that they like?' Maybe they're big rock and roll fans, maybe they're rap fans, I don't know.",
+   "ko": "그리고 그들이 음악을 좋아하는지도 살펴봤는데, '동물원에서 그들이 좋아하는 장르의 음악을 들을 수 있다면 좋지 않을까?'라는 단순한 의문에서 시작되었습니다. 록 팬일 수도 있고 랩 팬일 수도 있잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1328.9,
+   "en": "And that's what we wanted to find out. And it turns out they're fans of no music.",
+   "ko": "그걸 알아내고 싶었습니다. 그런데 알고 보니 그들은 무음악의 팬이더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1333.3,
+   "en": "When you give them these choices, they will tell you, just like they don't like broccoli. They don't want to listen to music. I think it's too much for them.",
+   "ko": "선택권을 주면 브로콜리를 싫어하듯 분명히 의사 표현을 합니다. 음악을 듣고 싶어 하지 않아요. 그들에게는 소음이 너무 심한 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1343.0,
+   "en": "So they will turn it off when you give them the choice. But being able to have a choice, I think, is the biggest thing as a psychologist.",
+   "ko": "그래서 선택권을 주면 음악을 꺼버립니다. 하지만 심리학자로서 선택권을 가질 수 있다는 것 자체가 가장 중요한 지점이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1351.3,
+   "en": "See, choice and control is so important for humans and it is so important for our cousins as well.",
+   "ko": "보시다시피 선택과 통제는 인간에게 매우 중요하며, 우리의 친척인 영장류들에게도 매우 중요합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1358.3,
+   "en": "So certainly the great apes want to have choice and control over what they do. And when they live in human care, giving them choice and control can greatly improve their lives, which is the big picture, which is what we're studying.",
+   "ko": "유인원들은 분명히 자신이 하는 일에 대해 선택권과 통제권을 갖고 싶어 합니다. 그들이 인간의 보살핌 속에서 살 때 선택과 통제를 제공하는 것은 그들의 삶을 크게 개선할 수 있고, 그것이 우리가 연구하는 큰 그림입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1374.6,
+   "en": "Well, let's talk more about your work with zoos. I mean, how has your research changed the way that zoos care for particular animals?",
+   "ko": "자, 동물원과 관련된 연구에 대해 좀 더 이야기해 보죠. 박사님의 연구가 동물원이 특정 동물을 돌보는 방식에 어떤 변화를 주었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1383.0,
+   "en": "Well, I like to think it's had a positive impact, but certainly the work with Orangutans and gorillas where we use computers with them and give them lots of cognitive stimulation, cognitive enrichment, it's called.",
+   "ko": "긍정적인 영향을 미쳤다고 생각하고 싶습니다. 특히 오랑우탄이나 고릴라를 대상으로 컴퓨터를 사용하고 많은 인지적 자극을 주는, 이른바 '인지 강화' 작업이 그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1398.8,
+   "en": "I think we're actually measuring now to see if that does impact them in a positive way.",
+   "ko": "그것이 실제로 그들에게 긍정적인 영향을 미치는지 지금 측정하고 있는 단계입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1404.3,
+   "en": "So rather than just assuming that 'oh, well, I'm sure they love to do this and they seem to enjoy it', we actually are looking to see if that has an impact on their activity levels, how much they play, whether they're actually having improved welfare.",
+   "ko": "그저 '아, 분명 이걸 좋아할 거야, 즐거워 보이네'라고 짐작만 하는 게 아니라, 실제로 활동량이나 놀이 시간, 그리고 복지가 정말 개선되었는지 살펴보고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1419.9,
+   "en": "And I think that's where the field is going, rather than just assuming that if you do these things for animals in captivity that it will be better. That music study actually taught me that.",
+   "ko": "단순히 갇혀 있는 동물에게 이런 것들을 해주면 좋아질 거라고 가정하기보다, 실제 데이터를 확인하는 방향으로 이 분야가 나아가고 있습니다. 음악 연구가 제게 그걸 가르쳐주었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1432.0,
+   "en": "We assumed that it would be fun for them to listen to something, but it turns out if you ask them, they don't actually want that.",
+   "ko": "무언가를 듣는 게 재미있을 거라고 생각했지만, 정작 물어보니 그들은 그걸 원치 않았던 것처럼 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1439.3,
+   "en": "So I think that's sort of where we're going. The idea in my mind is always like a vending machine of things, where they get to choose what things they want to have, and we can assess whether having those things makes them happier.",
+   "ko": "그래서 우리가 나아가는 방향도 그런 식입니다. 제 머릿속에는 항상 자판기 같은 개념이 있는데, 동물들이 원하는 것을 고르게 하고 그것이 그들을 더 행복하게 만드는지 평가하는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1452.2,
+   "en": "So, you know, in individual species, whatever they're doing, sometimes they're doing what we call stereotypical behaviors.",
+   "ko": "개별 종에 따라 그들이 무엇을 하든, 가끔은 우리가 '정형 행동'이라고 부르는 것들을 할 때가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1462.2,
+   "en": "So it's kind of like us if we, some people bite their nails or they suck their hair, or constantly move their leg. That's kind of an indicator that there's some anxiety or something is not right.",
+   "ko": "우리가 손톱을 깨물거나 머리카락을 빨거나 끊임없이 다리를 떠는 것과 비슷합니다. 불안하거나 무언가 잘못되었다는 신호죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1477.0,
+   "en": "Polar bears pace back and forth, tigers swim in a circle. Primates will overgroom, birds will pluck their feathers, those kinds of things.",
+   "ko": "북극곰은 앞뒤로 왔다 갔다 하고 호랑이는 원을 그리며 수영합니다. 영장류는 과도하게 그루밍을 하고 새들은 깃털을 뽑기도 하죠. 그런 것들입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1487.7,
+   "en": "So if we can reduce those behaviors, then I mean I am assuming we're having a positive impact on them. So those are the kinds of things that we're focused on trying to, one animal at a time, improve their well-being.",
+   "ko": "따라서 그런 행동을 줄일 수 있다면 그들에게 긍정적인 영향을 미치고 있다고 볼 수 있습니다. 그래서 저희는 한 마리씩 동물의 복지를 개선하는 데 집중하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1505.1,
+   "en": "And I know you've done field work in Kenya and other countries around the world, looking at elephants, lions, and other endangered animals.",
+   "ko": "케냐를 비롯해 전 세계 여러 나라에서 코끼리, 사자, 그리고 다른 멸종 위기 동물들을 관찰하며 현장 연구를 해오신 걸로 압니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1514.1,
+   "en": "How does that work connect to what you see closer to home in Canada? I mean, what's the overarching through line in your work?",
+   "ko": "그 연구가 캐나다 집 근처에서 보시는 것들과 어떻게 연결되나요? 그러니까 박사님 연구를 관통하는 핵심적인 주제는 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1523.2,
+   "en": "Well, that's a good question. I have to think about that for a minute. I think probably it's that human-wildlife or human-animal coexistence.",
+   "ko": "좋은 질문이네요. 잠시 생각해봐야겠어요. 아마도 인간과 야생 동물, 혹은 인간과 동물의 공존일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1533.2,
+   "en": "So I've done lots of things around the world, as you say. And usually it has something to do with how can we protect these animals from what we have horribly done to them, because humans are not great.",
+   "ko": "말씀하신 대로 전 세계에서 많은 일을 해왔습니다. 보통은 우리가 동물들에게 저지른 끔찍한 일들로부터 그들을 어떻게 보호할 것인가에 관한 것이죠. 인간은 그리 훌륭하지 못하니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1546.8,
+   "en": "I think we can all agree on that.",
+   "ko": ""
+  },
+  {
+   "start": 1549.3,
+   "en": "And how can we exist peacefully together? So animals have been doing, you know, elephants for example.",
+   "ko": "그리고 어떻게 하면 평화롭게 함께 존재할 수 있을까요? 동물들은 늘 하던 대로 하고 있습니다. 예를 들어 코끼리 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1557.7,
+   "en": "They have the same route for thousands, well millions of years, and humans come in and they put their farms and their towns in that route.",
+   "ko": "그들은 수천 년, 아니 수백만 년 동안 같은 경로를 이용해 왔는데, 인간이 나타나서 그 경로에 농장과 마을을 세웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1565.6,
+   "en": "And then the elephants try to come through the town and people go, 'oh my god, there's elephants in my town.' Yeah, well, you know, they were there first and that's kind of my impression.",
+   "ko": "그리고 코끼리들이 마을을 지나가려 하면 사람들은 '세상에, 마을에 코끼리가 나타났어'라고 소리치죠. 하지만 제 생각엔 그들이 먼저 거기 있었던 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1575.6,
+   "en": "Same thing with raccoons too. It's like, well, they were there first. This was their town before you even, you know, hundreds of years. It's their town. We just moved into it.",
+   "ko": "너구리도 마찬가지입니다. 그들이 먼저 거기 살고 있었어요. 우리가 오기 수백 년 전부터 그들의 마을이었습니다. 우리는 그저 나중에 이사 온 것뿐이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1587.0,
+   "en": "So that's kind of my attitude and that, you know, hyenas live with humans in Kenya, big cats live with humans in Kenya, and how can we make it safer for the animals and safer for the humans?",
+   "ko": "그게 제 태도입니다. 케냐에서 하이에나나 대형 고양잇과 동물들이 인간과 함께 살고 있듯이, 어떻게 하면 동물과 인간 모두에게 더 안전한 환경을 만들 수 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1601.1,
+   "en": "Obviously, we don't want to say, 'oh yeah, let's have leopards come in our living room', but we do want to say 'the leopards, this is their home too.' Let's make sure we can all live together and share the land.",
+   "ko": "당연히 '표범을 거실로 들이자'는 말은 아니지만 '표범들에게도 여기가 집이다'라고 인정해줘야 합니다. 우리 모두가 함께 살며 땅을 공유할 수 있도록 해야죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1612.4,
+   "en": "Well, speaking of living together, so a couple of years ago I went on Safari to Africa, which was a wonderful experience.",
+   "ko": "함께 사는 것 이야기가 나와서 말인데, 몇 년 전에 아프리카 사파리를 다녀왔는데 정말 멋진 경험이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1619.2,
+   "en": "I'm just wondering if that kind of tourism is helping animals in the wild because it leads to more conservation or does our driving around in these open safari jeep shooting pictures disturb the animals?",
+   "ko": "그런 관광이 보존으로 이어져 야생 동물에게 도움이 되는 것인지, 아니면 탁 트인 사파리 지프를 타고 돌아다니며 사진을 찍는 것이 동물들을 방해하는 것인지 궁금합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1632.2,
+   "en": "Do we even know whether this type of tourism is harming more than it's helping?",
+   "ko": "이런 종류의 관광이 도움보다 해를 더 많이 끼치는지 알 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1638.0,
+   "en": "What a great question and where did you go, South Africa or Kenya or what?",
+   "ko": "정말 좋은 질문이네요. 어디로 다녀오셨나요? 남아프리카인가요, 케냐인가요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1641.9,
+   "en": "I was in Southern Africa, I was in five countries in Southern Africa.",
+   "ko": "남부 아프리카에 있었어요. 남부 아프리카의 다섯 개 나라를 돌았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1645.6,
+   "en": "Cool. So it really, I think that question really depends on the management strategies in the countries.",
+   "ko": "멋지네요. 그 질문에 대한 답은 각 나라의 관리 전략에 달려 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1652.0,
+   "en": "So some countries like I asked because South Africa has a different management strategy than Kenya, for example.",
+   "ko": "예를 들어 남아프리카는 케냐와 관리 전략이 다르기 때문에 여쭤본 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1658.9,
+   "en": "In Kenya, all the wildlife belong to Kenyans, in South Africa, private landowners can own the animals that are on their land. So it's a very different approach.",
+   "ko": "케냐에서는 모든 야생 동물이 케냐 국민의 소유이지만, 남아프리카에서는 개인 토지 소유주가 자기 땅에 있는 동물을 소유할 수 있습니다. 아주 다른 접근 방식이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1669.2,
+   "en": "So I think it's not a sort of, you can't really answer that question for the whole continent, but certainly on a country by country basis.",
+   "ko": "그래서 대륙 전체에 대해 답할 수는 없고, 나라별로 따져봐야 한다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1677.0,
+   "en": "I think Kenya got it figured out that the animals know that when there's a vehicle and people stay on the vehicle, that that is no threat to them because they're not harmed by vehicles.",
+   "ko": "케냐의 경우, 동물들은 차량이 오더라도 사람들이 차 안에만 있으면 자신들에게 해를 끼치지 않는다는 걸 알고 위협으로 느끼지 않는 법을 터득한 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1690.9,
+   "en": "But in South Africa, when they see a vehicle, sometimes there are hunters on that vehicle that shoot them and their conspecifics. And so they don't particularly like the vehicle.",
+   "ko": "하지만 남아프리카에서는 차량을 봤을 때 가끔 사냥꾼들이 타고 있어 자신들이나 동료를 쏘기도 합니다. 그래서 차량을 별로 좋아하지 않죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1702.1,
+   "en": "So I think we have to take into account the cognition of the animals. You know, how do they view us? And how have we made them view us?",
+   "ko": "그래서 우리는 동물의 인지 능력을 고려해야 합니다. 그들이 우리를 어떻게 보는지, 그리고 우리가 그들에게 어떤 인상을 심어주었는지 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1712.0,
+   "en": "Because certainly elephants will remember, right? They remember, 'oh, that guy had a gun and he shot my brother. So I don't like vehicles.'",
+   "ko": "코끼리들은 분명히 기억할 테니까요, 그렇죠? '오, 저 인간은 총을 가졌고 내 형제를 쐈어. 그러니까 난 저 차가 싫어'라고 기억하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1724.5,
+   "en": "Whereas if a vehicle is never ever a problem for them and all it does is drive by and make loud grumbling noises, that's fine. They're not too upset by that in Kenya.",
+   "ko": "반면 차량이 전혀 문제가 되지 않고 그저 시끄러운 소리를 내며 지나가기만 한다면 괜찮습니다. 케냐의 동물들은 그런 것에 별로 화내지 않아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1738.3,
+   "en": "So I do think we have to give the animals a lot of credit that they can discriminate between good humans and bad humans and also that they will not only hold a grudge, but they remember who hurt them.",
+   "ko": "그래서 저는 동물들이 좋은 인간과 나쁜 인간을 구별할 수 있고, 원한을 품을 뿐만 아니라 누가 자신을 아프게 했는지 기억한다는 점을 인정해야 한다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1756.4,
+   "en": "So I think there's lots that can be studied there, looking at country by country differences on how animals view the presence of humans. But certainly in my experience, that's what I think.",
+   "ko": "동물들이 인간의 존재를 어떻게 보는지에 대한 국가별 차이를 연구할 여지가 많다고 봅니다. 제 경험상으로는 확실히 그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1768.0,
+   "en": "I saw you published a paper a few years ago on the future of artificial intelligence in animal monitoring.",
+   "ko": "몇 년 전 동물 모니터링 분야에서 인공지능의 미래에 관한 논문을 발표하신 것을 봤습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1774.7,
+   "en": "How have developments in AI and other technologies changed the kind of work that you're able to do and where are we going?",
+   "ko": "AI와 다른 기술의 발전이 박사님이 하시는 연구의 종류를 어떻게 바꾸었으며, 우리는 어디로 가고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1782.7,
+   "en": "Well, what I can tell you is it's a lot harder than it sounds. So you know, we're like, 'oh, AI, this will be great. Everybody's just AI, AI, AI.'",
+   "ko": "음, 말씀드릴 수 있는 건 생각보다 훨씬 어렵다는 것입니다. 다들 '오, AI가 나오면 정말 좋겠지'라며 AI 이야기만 하지만요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1791.2,
+   "en": "It turns out AI depends on humans training the AI. And what we do in a millisecond when we look at an animal and know immediately whether it's a female or male,",
+   "ko": "알고 보니 AI는 인간이 AI를 훈련시키는 것에 전적으로 의존하더군요. 우리가 동물을 보고 암컷인지 수컷인지 단 1밀리초 만에 알아채는 것,",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1806.8,
+   "en": "and whether she's happy or sad, takes AI years and years of training to figure that out because they're not set up for that.",
+   "ko": "그리고 기쁜지 슬픈지 파악하는 것을 AI가 해내려면 수년간의 훈련이 필요합니다. AI는 그런 식으로 설계되어 있지 않거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1817.9,
+   "en": "So we're not going to replace human observers anytime soon. My students are always like, 'oh, well, let's just get AI to do the data collection.'",
+   "ko": "그래서 조만간 인간 관찰자를 대체하지는 못할 겁니다. 제 학생들은 항상 '그냥 AI한테 데이터 수집을 시키면 안 되나요?'라고 하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1824.5,
+   "en": "Okay, well, you're going to get nothing because AI doesn't even know. AI is trained on humans, and other species have wildly different behaviors and different facial expressions and all those things.",
+   "ko": "그러면 아무것도 얻지 못할 겁니다. AI는 인간을 기반으로 훈련되었고, 다른 종들은 인간과는 완전히 다른 행동과 표정 등을 가지고 있기 때문이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1838.0,
+   "en": "So it really is not easy. We're doing a project now. My postdoc, Dr. Espinosa, is doing a project looking at free-ranging dogs in India.",
+   "ko": "그래서 정말 쉽지 않습니다. 지금 진행 중인 프로젝트가 하나 있는데, 제 박사 후 연구원인 에스피노사 박사가 인도에서 자유롭게 돌아다니는 개들을 관찰하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1849.1,
+   "en": "And we're using drones to follow packs of dogs, and you can actually track them using AI to figure out who's with whom and where they go, and their home ranges, stuff like that.",
+   "ko": "드론을 이용해 개 무리를 쫓는데, AI를 사용해 누가 누구와 함께 다니는지, 어디로 가는지, 서식지가 어디인지 등을 실제로 추적할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1861.0,
+   "en": "But when it gets down to very subtle behaviors, AI is no good.",
+   "ko": "하지만 아주 미묘한 행동 분석으로 들어가면 AI는 쓸모가 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1868.2,
+   "en": "Now for those of us who would like to keep wild animals wild, what are some things that we can or should do?",
+   "ko": "자, 야생 동물을 야생 그대로 두고 싶은 우리들이 할 수 있거나 해야 할 일은 무엇일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1875.5,
+   "en": "I know that very few of us are in a position to stop deforestation or urban sprawl, but are there things that we can do as individuals to help? For example, should we stop feeding backyard birds?",
+   "ko": "산림 벌채나 도시 확장을 막을 수 있는 위치에 있는 사람은 거의 없지만, 개인이 도울 수 있는 일이 있을까요? 예를 들어, 뒷마당의 새들에게 먹이 주는 것을 중단해야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1888.4,
+   "en": "Oh, you know, that's a really tough one because it seems like the best idea to feed them, especially when the winter is really cold and you know, we're in Canada.",
+   "ko": "오, 참 어려운 문제네요. 특히 겨울이 아주 춥고 캐나다 같은 곳에 살 때는 먹이를 주는 게 최고의 아이디어처럼 보이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1898.5,
+   "en": "So I always say, look, when it's really, really cold and birds have nowhere else and it's covered in snow, then putting out seeds is okay.",
+   "ko": "그래서 저는 항상 정말 너무 춥고 눈에 뒤덮여 새들이 갈 곳이 없을 때는 씨앗을 좀 내놓는 게 괜찮다고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1907.1,
+   "en": "But in the summertime, what you're doing is you're attracting other species, you're attracting rats and squirrels and raccoons and whatever. And you're also spreading a variety of diseases if you have a backyard feeder.",
+   "ko": "하지만 여름에는 쥐, 다람쥐, 너구리 같은 다른 종들을 불러들이게 됩니다. 그리고 뒷마당에 먹이통이 있으면 다양한 질병을 퍼뜨릴 수도 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1918.9,
+   "en": "But I'm hesitant to say 'don't do it' because it does give people so much joy and having joy is a special limited resource.",
+   "ko": "그렇지만 '하지 마세요'라고 말하기는 망설여집니다. 사람들에게 아주 큰 기쁨을 주니까요. 기쁨을 느끼는 건 아주 소중하고 제한된 자원이잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1927.7,
+   "en": "But certainly feeding raccoons or coyotes or any of these middle-sized mesocarnivores, no, bad idea. Don't do that because all it will do is they'll bring their friends and they'll get aggressive and they'll take it out on your pets.",
+   "ko": "하지만 너구리나 코요테 같은 중형 포식자들에게 먹이를 주는 건 절대 안 됩니다. 친구들을 데려올 거고 공격적으로 변해서 당신의 반려동물을 해칠 수도 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1943.5,
+   "en": "But it's a tough line to draw. I'm not going to watch an animal starve to death in the winter. I'm going to feed them in the winter for sure.",
+   "ko": "선을 긋기가 참 어렵습니다. 저도 겨울에 동물이 굶어 죽는 걸 지켜보진 못할 거예요. 겨울에는 분명 먹이를 줄 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1956.1,
+   "en": "But I don't think you need to worry about animals. They are not pets. They will find their way. And in the summer and the fall when there's lots of food, it's OK. You can just let them be.",
+   "ko": "하지만 동물들을 너무 걱정하실 필요는 없습니다. 그들은 반려동물이 아니에요. 스스로 살아갈 길을 찾을 겁니다. 먹이가 풍부한 여름과 가을에는 그냥 내버려 두셔도 괜찮습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1970.1,
+   "en": "But even with the turtles, with the hatchlings, we're working with great indigenous partners the Turtle Protectors here in Toronto and they protect the nests of turtles.",
+   "ko": "거북이 새끼들의 경우에도, 우리는 이곳 토론토의 훌륭한 토착 파트너인 '거북이 보호대'와 협력하여 거북이 둥지를 보호하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1979.8,
+   "en": "And they make sure the hatchlings come out and don't get eaten and you might say 'well, that's interfering with nature', but you know we've changed nature.",
+   "ko": "그들은 새끼들이 무사히 부화해서 잡아먹히지 않도록 돕습니다. '그건 자연의 섭리를 방해하는 것 아니냐'고 할 수도 있겠지만, 우리가 이미 자연을 바꿔놓았잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1987.9,
+   "en": "These are in parks with cars and people stepping on the hatchlings and so anytime that we've disturbed the habitat, I don't think it's such a bad idea if we try to give them a hand.",
+   "ko": "공원에는 차들이 다니고 사람들은 새끼들을 밟기도 합니다. 이처럼 우리가 서식지를 훼손했다면, 그들에게 도움의 손길을 내미는 것이 나쁜 생각이라고 보지는 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1999.6,
+   "en": "When we go to a national park, for example, we don't have to worry about that. But in our urban settings, when we make it really, really hard for these species, I don't think it's the worst idea to do what we can to help them out.",
+   "ko": "예를 들어 국립공원에 갈 때는 그런 걱정을 할 필요가 없죠. 하지만 도시 환경에서 이 종들의 삶을 정말 힘들게 만들었다면, 우리가 도울 수 있는 일을 하는 게 최악의 선택은 아닐 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2014.7,
+   "en": "So looking for local groups where you can volunteer and help with the guidance of scientists?",
+   "ko": "과학자들의 지도를 받으며 자원봉사를 하고 도움을 줄 수 있는 지역 단체를 찾아보는 게 좋겠군요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2020.9,
+   "en": "Absolutely. And I think evidence-based helping is the way to go, right? Sometimes you think you're helping, but you're not helping. And, you know, I've done that too.",
+   "ko": "그럼요. 증거에 기반한 도움이 정답이라고 생각합니다. 가끔은 돕는다고 생각하지만 실제로는 그렇지 않은 경우도 있거든요. 저도 그런 적이 있고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2028.7,
+   "en": "I've been doing this since I was a child. And all the things I thought that were a good idea, probably not a good idea. But having a team with you and having a plan, that's what we do with the Turtle Protectors who are a fantastic group",
+   "ko": "어릴 때부터 이런 일을 해왔지만 제가 좋은 생각이라고 믿었던 것들이 사실은 그렇지 않았던 적이 많습니다. 하지만 환상적인 단체인 '거북이 보호대'와 함께 계획을 세우고 팀을 이루는 것이 중요합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2042.8,
+   "en": "and they're protecting turtles as their name suggests. And we can give them the data they need to know where to do it, how to do it, what not to do, what to do.",
+   "ko": "그들은 이름 그대로 거북이들을 보호하고 있습니다. 우리는 그들에게 어디서, 어떻게 해야 하는지, 무엇을 하지 말고 무엇을 해야 하는지에 대한 데이터를 제공할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2053.9,
+   "en": "And I think that's the perfect thing to have, a team that has that sort of basis in evidence.",
+   "ko": "그런 증거 기반의 팀을 갖추는 것이 완벽한 방법이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2063.4,
+   "en": "Just to wrap up, I know you've mentioned a few of the things that you and your students are working on. Are there any other research projects we didn't cover that you'd like to talk about?",
+   "ko": "마무리하면서, 박사님과 학생들이 연구 중인 몇 가지를 언급해 주셨는데요. 우리가 다루지 않은 다른 연구 프로젝트 중에 말씀하고 싶은 것이 더 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2071.8,
+   "en": "No, I think everything, I think we've talked about it all. I mean, there's always something. So there's always something to get interested in.",
+   "ko": "아니요, 다 말씀드린 것 같네요. 물론 항상 새로운 것이 생기겠지만요. 늘 흥미를 끄는 것들이 생기기 마련이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2080.3,
+   "en": "Every time I read something, I go, 'oh, there's a good study.' So a lot of my students are actually gonna be doing projects in a place called Reptilia, a place that has reptiles.",
+   "ko": "무언가를 읽을 때마다 '오, 좋은 연구네'라고 생각하죠. 제 학생 중 많은 이들이 '렙틸리아'라는 파충류가 있는 곳에서 프로젝트를 진행할 예정입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2094.8,
+   "en": "Because I think that reptile welfare—turtles and snakes and lizards—their well-being is completely underappreciated.",
+   "ko": "거북이, 뱀, 도마뱀 같은 파충류들의 복지가 그동안 너무나 과소평가되어 왔다고 생각하기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2106.7,
+   "en": "As I said, we saw that turtle playing and everyone was amazed, right? So we assume we put a snake in a box, but in the wild it doesn't sit in a box.",
+   "ko": "말씀드렸듯이 거북이가 노는 걸 보고 다들 놀랐잖아요? 우린 그냥 뱀을 상자에 넣어두지만, 야생의 뱀은 상자 안에만 가만히 있지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2117.9,
+   "en": "So I think trying to figure out how to identify welfare, good and bad in species that are not mammals is a really interesting challenge.",
+   "ko": "그래서 포유류가 아닌 종들에게 무엇이 좋고 나쁜 복지인지 식별하는 법을 알아내는 것은 정말 흥미로운 도전입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2130.7,
+   "en": "And so I think we're gonna try to work on that because they don't have facial expressions and they don't have the behaviors that we're used to, but that doesn't mean they're not experiencing something.",
+   "ko": "파충류들은 표정도 없고 우리가 익숙한 행동도 하지 않지만, 그렇다고 해서 그들이 아무것도 느끼지 못하는 건 아닙니다. 그래서 내년에는 그 부분을 연구해 보려 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2140.4,
+   "en": "So that I think will be fun for this upcoming year.",
+   "ko": ""
+  },
+  {
+   "start": 2144.5,
+   "en": "Well, Dr. MacDonald, I want to thank you for joining me today. This has been very interesting.",
+   "ko": "맥도날드 박사님, 오늘 함께 해주셔서 감사합니다. 정말 흥미로운 시간이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2149.3,
+   "en": "Thank you so much and it's been great.",
+   "ko": "정말 감사합니다. 즐거운 시간이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2151.9,
+   "en": "You can find previous episodes of Speaking of Psychology on our website at speakingofpsychology.org or on Apple, Spotify, YouTube, or wherever you get your podcasts.",
+   "ko": "Speaking of Psychology의 지난 에피소드는 저희 웹사이트 speakingofpsychology.org나 애플, 스포티파이, 유튜브 등 팟캐스트를 들으시는 어디에서나 찾아보실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2161.8,
+   "en": "And if you like what you've heard, please subscribe and leave a review. If you have comments or ideas for future podcasts, you can email us at speakingofpsychology at apa.org.",
+   "ko": "방송이 좋으셨다면 구독과 리뷰 부탁드립니다. 의견이나 향후 방송에 대한 아이디어가 있으시면 speakingofpsychology@apa.org로 이메일을 보내주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2172.5,
+   "en": "Speaking of psychology is produced by Lea Winerman. Thank you for listening to the American Psychological Association. I'm Kim Mills.",
+   "ko": "Speaking of Psychology는 리 와이너먼이 제작합니다. 미국 심리학회의 방송을 들어주셔서 감사합니다. 저는 김 밀스였습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
