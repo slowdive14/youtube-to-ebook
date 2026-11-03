@@ -1,0 +1,1393 @@
+{
+ "id": "pod-848a9bfaded6",
+ "title": "Essentials: How Smells Influence Our Hormones, Health & Behavior | Dr. Noam Sobel",
+ "show": "Huberman Lab",
+ "channel": "Scicomm Media",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/SCIM9049912461.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/0e7652e4-d35f-11f1-b3a7-b7d05ab514d4/image/c939ff80ce31857dd7c3855498b342f4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 2096,
+ "releaseDate": "2026-10-29T08:00:00.000Z",
+ "addedAt": "2026-11-03",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based tools for mental health, physical health, and performance.",
+   "ko": "정신 건강, 신체 건강 및 성과를 위한 가장 강력하고 실용적인 과학 기반 도구들을 위해 지난 에피소드들을 다시 살펴보는 휴버맨 랩 에센셜에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 11.3,
+   "en": "I'm Andrew Huberman, and I'm a professor of neurobiology and ophthalmology at Stanford School of Medicine. And now for my discussion with Dr. Noam Sobel.",
+   "ko": "저는 스탠퍼드 의과대학의 신경생물학 및 안과 교수인 앤드류 휴버맨입니다. 이제 노암 소벨 박사님과의 토론을 시작하겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 20.4,
+   "en": "Dr. Sobel, Noam, welcome.",
+   "ko": "소벨 박사님, 노암, 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 22.5,
+   "en": "Thank you.",
+   "ko": "감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 23.3,
+   "en": "Must say, I am extremely excited for this conversation. I've been a huge fan of your work.",
+   "ko": "이번 대화가 정말 기대된다고 말씀드리고 싶네요. 저는 당신의 연구의 열렬한 팬이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 27.6,
+   "en": "And today I'd love for you to share with us all about the amazing landscape of chemosensation, in particular, olfaction or sense of smell, and some related perceptual abilities or subconscious abilities, including pheromones, etc.",
+   "ko": "오늘 박사님께서 화학 감각의 놀라운 풍경, 특히 후각이나 냄새 감각, 그리고 페로몬 등을 포함한 관련된 지각 능력이나 잠재의식적 능력에 대해 우리와 공유해 주셨으면 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 41.3,
+   "en": "To get everybody on the same page, I'd like to just start off by asking what are the major components of our ability to smell? Obviously, where I like to think it involves the nose at some level.",
+   "ko": "모두가 같은 이해도를 가질 수 있도록, 먼저 우리의 후각 능력의 주요 구성 요소가 무엇인지 묻는 것부터 시작하고 싶습니다. 당연히 어느 정도는 코가 관여하겠지요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 53.5,
+   "en": "If you could just give us the top contour or even deep contour, of you like, of the parts list and the various roles they play.",
+   "ko": "괜찮으시다면 부품 목록과 각각이 수행하는 다양한 역할에 대해 대략적인 윤곽이나 혹은 심도 있는 윤곽을 알려주실 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 63.1,
+   "en": "Primary olfaction is referred to as orthonasal olfaction that is through our nose. We sniff and sniffing is a big thing.",
+   "ko": "일차적인 후각은 코를 통한 '정향 후각'이라고 불립니다. 우리는 킁킁거리며 냄새를 맡는데, 이 '킁킁거리기'는 매우 중요한 행위입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 69.5,
+   "en": "I have a sense we might talk about that a lot today in all sorts of contexts. So we sniff in through our nose and to answer your general question of the organization of the system.",
+   "ko": "오늘 온갖 맥락에서 그 이야기를 많이 할 것 같다는 예감이 드네요. 어쨌든 우리는 코를 통해 냄새를 들이마시는데, 시스템 구성에 관한 일반적인 질문에 답을 드려보죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 80.5,
+   "en": "So molecules, airborne molecules travel up our nose, a distance in the human of about six or seven centimeters to about here, where they interact with, I will use the word sheet of receptors, but sheet is a bit misleading here.",
+   "ko": "공기 중의 분자들은 우리 코 위로 올라가는데, 인간의 경우 약 6~7cm 정도 이동하여 이쯤에서 수용체 시트와 상호 작용합니다. 하지만 시트라는 단어는 여기서 약간 오해의 소지가 있을 수 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 97.2,
+   "en": "It's not a sheet, it's very convoluted. We have about seven million such receptors lining a structure known as the olfactory epithelium.",
+   "ko": "그것은 시트가 아니라 매우 복잡하게 얽혀 있습니다. 후각 상피라고 알려진 구조를 따라 약 700만 개의 수용체가 줄지어 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 106.6,
+   "en": "This is the sensory surface of the olfactory system, the olfactory epithelium. Again, about probably about six or seven million receptors in the human probably of about 350 different kinds.",
+   "ko": "이곳이 후각 시스템의 감각 표면인 후각 상피입니다. 다시 말씀드리지만, 인간에게는 아마도 약 600만 내지 700만 개의 수용체가 있으며, 종류는 대략 350가지 정도 될 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 121.0,
+   "en": "So that's amazing. That means a meaningful percentage of your genome is devoted just to this, just to the kinds of olfactory receptor subtypes you have in your nose.",
+   "ko": "정말 놀라운 일이죠. 이는 여러분 게놈의 상당 부분이 오로지 이것에, 즉 코에 있는 후각 수용체 아형의 종류를 결정하는 데 할당되어 있다는 뜻이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 130.8,
+   "en": "So odorants interact with these receptors here in our epithelium where they undergo what is referred to as transduction that is the odorants are docked at a receptor and turn into a neural signal.",
+   "ko": "냄새 물질은 우리 상피에 있는 수용체들과 상호 작용하며 '변환'이라는 과정을 거치는데, 즉 냄새 물질이 수용체에 결합하여 신경 신호로 바뀌는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 143.5,
+   "en": "And this neural signal, in fact, action potential is not gradient potentials of any kind, propagates via the olfactory nerve.",
+   "ko": "그리고 이 신경 신호, 사실 점진적 전위가 아닌 활동 전위는 후각 신경을 통해 전파됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 151.4,
+   "en": "Through the thinnest part of our skull, which is perforated, it has a lot of holes, the nerve goes through those holes and synapses at the first target in the brain, which is the olfactory bulb.",
+   "ko": "두개골에서 가장 얇고 구멍이 숭숭 뚫린 부분을 통해 신경이 그 구멍들을 지나 뇌의 첫 번째 목표 지점인 후각 신경구에서 시냅스를 형성합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 163.4,
+   "en": "The pattern of that synapsing follows what's referred to is the most extreme case of convergence in the mammalian nervous system.",
+   "ko": "이 시냅스 패턴은 포유류 신경계에서 가장 극단적인 수렴 사례라고 불리는 방식을 따릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 171.8,
+   "en": "More specifically, what happens is that all the receptors of one subtype converge to one location in the bulb. And this location is referred to as a glomerulus or in plural glomeruli.",
+   "ko": "더 구체적으로 말하면, 한 아형의 모든 수용체가 신경구의 한 위치로 수렴됩니다. 그리고 이 위치를 사구체 또는 복수형으로 사구체들이라고 부릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 184.5,
+   "en": "And that may be a slight oversimplification. It's in fact two glomeruli.",
+   "ko": "그것은 약간의 지나친 단순화일 수 있습니다. 사실은 두 개의 사구체거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 188.1,
+   "en": "The textbook view of how things work is that every such receptor subtype is responsive to a small subset of different molecular shapes, what sometimes refers to as odotopes, the molecular aspects of the odorant.",
+   "ko": "작동 방식에 대한 교과서적인 관점은, 각각의 수용체 아형이 다양한 분자 모양의 작은 하위 집합, 즉 때때로 냄새 물질의 분자적 특성인 '오도토프'라고 불리는 것에 반응한다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 201.8,
+   "en": "And each odotope will activate a different subset of receptors. Then because of this convergence, you end up having on the bulb in a way a map reflecting receptor identity.",
+   "ko": "그리고 각 오도토프는 서로 다른 수용체 하위 집합을 활성화합니다. 그런 다음 이러한 수렴 덕분에 신경구에는 수용체의 정체성을 반영하는 일종의 지도가 생성되게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 214.2,
+   "en": "So let's say this coffee activates receptors of type 1, 3, and 7. So the glomeruli of receptors 1, 3, and 7 will light up, quote unquote, when I smell the coffee.",
+   "ko": "예를 들어, 이 커피가 1번, 3번, 7번 유형의 수용체를 활성화한다고 가정해 봅시다. 그러면 제가 커피 냄새를 맡을 때 1번, 3번, 7번 수용체의 사구체에 이른바 '불이 들어오게' 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 225.1,
+   "en": "And if you can take a snapshot of that, theoretically, you would have the map of coffee. This is sort of the textbook view of how the system works.",
+   "ko": "그것을 스냅샷으로 찍을 수 있다면 이론적으로는 커피 지도를 갖게 되는 셈이죠. 이것이 시스템이 어떻게 작동하는지에 대한 일종의 교과서적인 견해입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 232.2,
+   "en": "And then information goes from the bulb to several targets in the brain. I mean, what is referred to as primary olfactory cortex is piriform cortex and entorhinal cortex.",
+   "ko": "그런 다음 정보는 신경구에서 뇌의 여러 목표 지점으로 이동합니다. 일차 후각 피질이라고 불리는 것은 서양배 모양 피질과 내후각 피질입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 241.1,
+   "en": "This is on the ventral surface of the brain, the lower portion of our temporal lobe and information goes there directly, but it also goes directly to the amygdala.",
+   "ko": "이것은 뇌의 복측 표면, 즉 우리 측두엽의 아래쪽 부분에 있으며 정보가 거기로 직접 전달되지만, 편도체로도 직접 전달됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 249.4,
+   "en": "It probably goes directly to the hypothalamus. It may go directly to the cerebellum. It goes all over the brain.",
+   "ko": "아마도 시상하부로 직접 갈 수도 있고, 소뇌로 직접 갈 수도 있을 겁니다. 뇌의 도처로 퍼져나가죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 256.8,
+   "en": "So information projects widely from there. And as far as people understand, the map that may exist on the bulb doesn't exist in the rest of the brain, and the understanding of how coding occurs in the rest of the brain is murky.",
+   "ko": "따라서 정보는 거기서부터 널리 투사됩니다. 사람들이 이해하는 바에 따르면, 신경구에 존재할 수 있는 지도는 뇌의 나머지 부분에는 존재하지 않으며, 나머지 뇌에서 코딩이 어떻게 일어나는지에 대한 이해는 아직 모호합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 272.0,
+   "en": "Okay. Again, in our lab, we already said, you know, yeah, we know this. This is all news.",
+   "ko": "좋습니다. 다시 말하지만, 우리 실험실에서 우리는 이미 '그래, 이건 다 아는 사실이야'라고 말했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 276.3,
+   "en": "But to people who come from different worlds, we have to reiterate this. Sometimes when I give public lectures to non-olfaction audiences, I reiterate this, humans have an utterly remarkable sense of smell.",
+   "ko": "하지만 다른 분야의 사람들에게는 이 점을 반복해서 강조해야 합니다. 제가 후각 전문가가 아닌 청중들에게 대중 강연을 할 때 가끔 강조하는 것인데, 인간은 정말 놀라운 후각을 가지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 290.0,
+   "en": "We look at human behavior a lot. We try to look at it through our nose in the way we look at what people are doing.",
+   "ko": "우리는 인간의 행동을 많이 관찰합니다. 사람들이 무엇을 하는지 살펴볼 때 우리는 코를 통해 관찰하려고 노력하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 297.7,
+   "en": "You know, we try to think, you know, if I was a dog, what would I think of this? And, you know, if you look at dogs, right, they, you know, when they interact, they visibly sniff each other.",
+   "ko": "우리는 생각하려 노력합니다. '내가 개라면 이것에 대해 어떻게 생각할까?'라고요. 개들을 보면 서로 상호 작용할 때 눈에 띄게 서로 킁킁거리며 냄새를 맡잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 310.4,
+   "en": "It's very obvious. They walk up to each other and they sniff each other. And yet, humans don't typically walk up to a stranger and carefully sniff them, right?",
+   "ko": "매우 분명하죠. 서로에게 다가가서 냄새를 맡습니다. 하지만 인간은 보통 낯선 사람에게 다가가서 주의 깊게 냄새를 맡지는 않죠, 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 318.2,
+   "en": "I mean, it's, we're sort of obliged to sniff our babies. That's considered almost something you're supposed to do.",
+   "ko": "제 말은, 우리는 아기들의 냄새를 맡을 의무가 있는 것과 같습니다. 그것은 거의 당연히 해야 할 일로 여겨지죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 324.9,
+   "en": "And it's not culturally taboo to sniff our loved ones. It sort of doesn't seem like an odd thing to do, but we don't sniff strangers, right? Well, or do we?",
+   "ko": "그리고 사랑하는 사람의 냄새를 맡는 것은 문화적으로 금기시되지 않습니다. 딱히 이상한 일처럼 보이지도 않죠. 하지만 낯선 사람의 냄새를 맡지는 않잖아요, 그렇죠? 글쎄요, 정말 안 그럴까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 336.8,
+   "en": "So we're finding one more mechanisms where we do this, and the one I'm referring to now for one example, is we started looking at hand-shaking.",
+   "ko": "우리가 실제로 이런 행동을 한다는 또 다른 메커니즘을 발견하고 있는데, 지금 예로 들고 있는 것은 악수를 살펴보기 시작한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 346.2,
+   "en": "There's really poor understanding of how this behavior evolved. Like where did this thing come from? You know, if you look for the Wikipedia version, right, then they'll tell you that it's to show that you're not holding a weapon in your hand.",
+   "ko": "이 행동이 어떻게 진화했는지에 대해서는 이해가 정말 부족합니다. 도대체 어디서 시작된 걸까요? 위키피디아 같은 데를 찾아보면 손에 무기를 들고 있지 않다는 것을 보여주기 위한 것이라고 할 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 359.7,
+   "en": "But there's really no good evidence for that. And we started looking at people hand-shaking and we noticed, or it seemed to us, that we're noticing that, you know, people will shake hands and then we'll go like this and like.",
+   "ko": "하지만 그것에 대한 확실한 증거는 사실 없어요. 우리가 악수하는 사람들을 관찰하기 시작했는데, 사람들이 악수를 한 다음 이렇게 얼굴 쪽으로 손을 가져가는 것을 알아차리게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 371.4,
+   "en": "For those of you listening, not watching, Noam is taking his hand and wiping it on his face.",
+   "ko": "영상을 보지 않고 듣고만 계신 분들을 위해 설명하자면, 노암이 손을 얼굴에 대고 닦는 시늉을 하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 377.5,
+   "en": "Yeah, or touching his side of his face. Yeah, these things that we do all the time after a handshake.",
+   "ko": "네, 또는 얼굴 옆면을 만지기도 하죠. 악수 후에 우리가 항상 하는 이런 행동들 말입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 383.8,
+   "en": "Well, so first of all, we do them all the time, just period, right? The baseline here is really high and we'll get to that in a second.",
+   "ko": "일단, 우리는 그냥 평소에도 이런 행동을 항상 합니다. 이 기저 빈도가 정말 높은데, 그 부분은 잠시 후에 설명하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 388.6,
+   "en": "But these behaviors that you could easily not notice, right? And so we asked whether that's a real thing. And this was a study led by Idan Frumin in our lab at the time.",
+   "ko": "하지만 이런 행동들은 쉽게 눈치채지 못할 수도 있습니다, 그렇죠? 그래서 우리는 그것이 실제 현상인지 물었습니다. 이것은 당시 우리 실험실의 이단 프루민이 주도한 연구였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 401.2,
+   "en": "So what we did is we brought in participants to our lab. And we sat them in the room, experiment room and told them the experiment would start soon and they should wait for us there.",
+   "ko": "우리가 한 일은 참가자들을 우리 실험실로 데려온 것이었습니다. 그리고 그들을 실험실 방에 앉혀두고 곧 실험이 시작될 것이니 거기서 기다리라고 말했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 412.8,
+   "en": "They didn't know what they were coming for. Unbeknownst to them, they were already being videoed and they would sit there for three minutes.",
+   "ko": "그들은 자신이 무엇 때문에 왔는지 몰랐습니다. 그들도 모르는 사이에 이미 영상이 찍히고 있었고, 그들은 거기서 3분 동안 앉아 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 420.0,
+   "en": "And during those three minutes, we could later quantify how much indeed they just by baseline, how much they touch their nose or their forehead or their chin or how many times their hand reaches their face.",
+   "ko": "그 3분 동안, 우리는 나중에 그들이 코나 이마, 턱을 얼마나 만지는지, 혹은 손이 얼굴에 몇 번이나 닿는지 그 기본 빈도를 수치화할 수 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 431.7,
+   "en": "And by the way, that baseline is not low. And then three minutes later, an experimenter would walk into the room and would share a consistent text.",
+   "ko": "참고로 그 기본 빈도는 낮지 않습니다. 그러고 나서 3분 후에 실험자가 방으로 들어와서 정해진 대사를 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 438.9,
+   "en": "It would be, you know, we're still setting up our equipment in the other room. And so just wait here and we'll be right back with you. But in the meantime, just wait here.",
+   "ko": "\"옆방에서 아직 장비를 설치 중입니다. 잠시만 여기서 기다려 주시면 금방 다시 오겠습니다. 그러니 그동안 여기서 좀 기다려 주세요.\" 같은 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 447.5,
+   "en": "And in half of the cases included a handshake. This was a new experimenter, not the one who put them in the room. So that's the first time they met.",
+   "ko": "그리고 사례의 절반에는 악수가 포함되었습니다. 이 사람은 그들을 방으로 안내한 사람이 아닌 새로운 실험자였습니다. 즉, 그들이 처음 만나는 상황이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 454.1,
+   "en": "So it'd be, hello, I'm, you know, so and so they would put out their hand and shake their hand or not. And so you had handshake and no handshake conditions.",
+   "ko": "\"안녕하세요, 저는 누구누구입니다\"라고 하며 손을 내밀어 악수를 하거나 하지 않았습니다. 그래서 악수를 하는 조건과 하지 않는 조건이 생겼죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 460.4,
+   "en": "And then you can quantify that behavior of the hand going to the nose after handshake. And there was a remarkable increase in the hand going to the nose after handshake. It's unreal.",
+   "ko": "그러고 나서 악수 후 손이 코로 가는 행동을 수치화할 수 있습니다. 악수 후에 손이 코로 가는 횟수가 놀라울 정도로 증가했습니다. 정말 믿기 힘들 정도예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 472.6,
+   "en": "So interesting. So the hand goes to the nose.",
+   "ko": "매우 흥미롭군요. 손이 코로 가는군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 474.4,
+   "en": "Now we did a few controls here to verify that this is an olfactory behavior. One is unbeknownst to participants, we measured nasal airflow and people not only bring their hand to their nose, they sniff it.",
+   "ko": "여기서 우리는 이것이 후각적 행동인지 확인하기 위해 몇 가지 대조 실험을 했습니다. 하나는 참가자들 모르게 콧속의 기류를 측정했는데, 사람들은 손을 코로 가져갈 뿐만 아니라 킁킁거리며 냄새를 맡았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 485.8,
+   "en": "So and this is perfectly timed. They go like this. Okay, so they're sniffing their hands.",
+   "ko": "그리고 이것은 완벽하게 타이밍이 맞습니다. 이렇게 하는 거죠. 즉, 자기 손 냄새를 맡고 있는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 490.5,
+   "en": "So this was an olfactory behavior. No doubt about it. I mean, we're quite confident.",
+   "ko": "그러니 이것은 후각적 행동이었습니다. 의심의 여지가 없죠. 저희는 꽤 확신하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 495.1,
+   "en": "And there's an interesting thing going on here too, because people didn't only smell the hand that shook. They also smelled the other hand.",
+   "ko": "그리고 여기서 재미있는 일이 또 하나 있는데, 사람들이 악수한 손의 냄새만 맡은 게 아니라는 겁니다. 다른 쪽 손의 냄새도 맡았거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 502.3,
+   "en": "And we think that there is something going on here, comparing self to other. And we think a lot of self-sampling might reflect that.",
+   "ko": "우리는 여기서 자신과 타인을 비교하는 무언가가 일어나고 있다고 생각합니다. 그리고 많은 자기 샘플링 행동이 그것을 반영하고 있을 수 있다고 보죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 511.3,
+   "en": "I'd like to take a quick break and acknowledge one of our sponsors, Element. Element is an electrolyte drink that has everything you need and nothing you don't.",
+   "ko": "잠시 휴식 시간을 갖고 저희 후원사 중 하나인 엘리먼트(Element)를 소개하고자 합니다. 엘리먼트는 여러분에게 필요한 모든 것을 갖추고 불필요한 것은 전혀 들어있지 않은 전해질 음료입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 519.0,
+   "en": "That means the electrolytes, sodium, magnesium, and potassium in the correct amounts, but no sugar. Proper hydration is critical for optimal brain and body function.",
+   "ko": "적절한 양의 나트륨, 마그네슘, 칼륨과 같은 전해질은 포함되어 있지만 설탕은 전혀 없다는 뜻입니다. 적절한 수분 공급은 뇌와 신체의 최적 기능을 위해 매우 중요합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 527.7,
+   "en": "Even a slight degree of dehydration can diminish cognitive and physical performance. It's also important that you get adequate electrolytes.",
+   "ko": "약간의 탈수 증상만으로도 인지 및 신체적 능력이 저하될 수 있습니다. 또한 충분한 전해질을 섭취하는 것도 중요합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 534.4,
+   "en": "The electrolytes, sodium, magnesium, and potassium, are vital for functioning of all the cells in your body, especially your neurons or your nerve cells.",
+   "ko": "나트륨, 마그네슘, 칼륨과 같은 전해질은 신체의 모든 세포, 특히 뉴런이나 신경 세포의 기능에 필수적입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 542.3,
+   "en": "Drinking element dissolved in water makes it very easy to ensure that you're getting adequate hydration and adequate electrolytes.",
+   "ko": "물에 탄 엘리먼트를 마시면 충분한 수분과 전해질을 매우 쉽게 섭취할 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 548.4,
+   "en": "To make sure that I'm getting proper amounts of hydration and electrolytes, I dissolve one packet of element in about 16 to 32 ounces of water when I first wake up in the morning and I drink that basically first thing in the morning.",
+   "ko": "적절한 양의 수분과 전해질을 섭취하기 위해, 저는 아침에 일어나자마자 엘리먼트 한 포를 약 16~32온스의 물에 녹여서 가장 먼저 마십니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 559.4,
+   "en": "I'll also drink element dissolved in water during any kind of physical exercise that I'm doing, especially on hot days when I'm sweating a lot and losing water and electrolytes.",
+   "ko": "또한 신체 운동을 할 때도 물에 탄 엘리먼트를 마시는데, 특히 땀을 많이 흘려 수분과 전해질을 잃기 쉬운 더운 날씨에는 더욱 그렇습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 567.5,
+   "en": "Element has a bunch of great tasting flavors. I love the raspberry, I love the citrus flavor.",
+   "ko": "엘리먼트에는 맛있는 풍미가 많이 있습니다. 저는 라즈베리 맛과 시트러스 맛을 아주 좋아합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 572.2,
+   "en": "Right now, element has a limited edition lemonade flavor that is absolutely delicious. I hate to say that I love one more than all the others, but this lemonade flavor is right up there with my favorite other one, which is raspberry or watermelon.",
+   "ko": "현재 엘리먼트에는 한정판 레모네이드 맛이 있는데 정말 맛있습니다. 다른 것보다 하나를 더 좋아한다고 말하기는 어렵지만, 이 레모네이드 맛은 제가 가장 좋아하는 라즈베리나 수박 맛과 어깨를 나란히 합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 584.1,
+   "en": "Again, I can't pick just one flavor. I love them all. If you'd like to try element, you can go to drinkelement.com slash Huberman spelled drink L M N T dot com slash Huberman to claim a free element sample pack with a purchase of any element drink mix.",
+   "ko": "다시 말하지만, 딱 하나의 맛만 고를 수 없어요. 다 좋아하거든요. 엘리먼트를 맛보고 싶으시다면, drinkelement.com/Huberman(스펠링은 drink L M N T dot com slash Huberman)에 접속하여 제품 구매 시 무료 샘플 팩을 신청하실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 598.4,
+   "en": "Again, that's drinkelement.com slash Huberman to claim a free sample pack.",
+   "ko": "무료 샘플 팩을 받으시려면 다시 한번 drinkelement.com/Huberman으로 접속해 주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 603.7,
+   "en": "There's a study we published by Inbal Ravreby in our lab where Inbal came with this basic interest in this phenomenon that's loosely referred to as click friendships.",
+   "ko": "우리 실험실의 인발 라브레비가 발표한 연구가 있는데, 인발은 흔히 '클릭 우정'이라고 불리는 현상에 기본적인 관심을 가지고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 619.2,
+   "en": "So people you meet and you click right away. Everybody experienced this in their life, you know, to some extent.",
+   "ko": "만나자마자 바로 마음이 통하는 사람들 말이죠. 누구나 살면서 어느 정도는 이런 경험을 해봤을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 625.7,
+   "en": "And the question is, what was there, right? What was it? Was it because you looked the same, could be, was it because you know you had the same sports team that you liked or is there something deeper here?",
+   "ko": "문제는 그 이면에 무엇이 있느냐는 것이죠. 그게 무엇이었을까요? 비슷하게 생겨서였을까요, 그럴 수도 있겠죠. 아니면 좋아하는 스포츠 팀이 같아서였을까요, 아니면 그보다 더 깊은 무언가가 있는 걸까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 639.4,
+   "en": "And Inbal's theory was that a similarity in body odor may contribute to this. That people who smell the same will click in some way.",
+   "ko": "인발의 이론은 체취의 유사성이 여기에 기여할 수 있다는 것이었습니다. 체취가 비슷한 사람들은 어떤 식으로든 마음이 통할 것이라는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 650.5,
+   "en": "And so to address that she actually recruited click friends from all over Israel. She posted all over social media to identify pairs of friends.",
+   "ko": "그래서 이를 확인하기 위해 그녀는 이스라엘 전역에서 '클릭 친구'들을 모집했습니다. 소셜 미디어 곳곳에 게시물을 올려 친구 쌍들을 찾아냈죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 659.3,
+   "en": "So these are our same-sex, non-romantic dyads. So these are friends, men and women, whose friendship started as a click.",
+   "ko": "이들은 동성의, 비연애적인 2인조였습니다. 즉, 첫눈에 마음이 통해 우정이 시작된 남녀 친구들이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 666.6,
+   "en": "And then she sampled their body odor. And we have a protocol for this.",
+   "ko": "그리고 그녀는 그들의 체취를 샘플링했습니다. 저희는 이를 위한 프로토콜을 가지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 673.2,
+   "en": "They are given a odorless shampoo and soap to use for three weeks or something. And then they sleep two nights in this t-shirt where they have to sleep alone.",
+   "ko": "그들에게는 3주 정도 사용할 무향 샴푸와 비누가 제공됩니다. 그러고 나서 혼자 자야 하는 티셔츠를 입고 이틀 밤을 잡니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 682.6,
+   "en": "And then we extract the body odor from the t-shirt. and we have a way to extract a method to extract body odor.",
+   "ko": "그런 다음 티셔츠에서 체취를 추출합니다. 저희는 체취를 추출하는 방법과 기술을 가지고 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 689.5,
+   "en": "And then she first asked whether indeed click friends are more similar in their body odor than you would expect by chance.",
+   "ko": "그러고 나서 그녀는 실제로 '클릭 친구'들이 우연히 기대할 수 있는 수준보다 체취가 더 비슷한지 먼저 확인했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 697.2,
+   "en": "And she first tested this with the device, a machine we call an electronic nose. So an electronic nose is sort of a very poor effort to mimic what the mammalian nose does.",
+   "ko": "그녀는 먼저 우리가 '전자 코'라고 부르는 기계 장치로 이를 테스트했습니다. 전자 코는 포유류의 코가 하는 일을 모방하려는 다소 부족한 시도라고 할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 707.8,
+   "en": "Basically, it's a bunch of sensors that respond to airborne molecules. In this case, sensors referred to as MOX sensors, as metal oxide covered sensors.",
+   "ko": "기본적으로 공기 중의 분자에 반응하는 일련의 센서들입니다. 이 경우 금속 산화물 피복 센서인 MOX 센서라고 불리는 것들이 사용되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 715.7,
+   "en": "And so she used an electronic nose to sample these body odors. And she found that click friends are indeed more similar to each other than you would expect by chance, by random dyads.",
+   "ko": "그녀는 전자 코를 사용해 이 체취들을 샘플링했습니다. 그리고 '클릭 친구'들이 무작위로 짝지어진 경우보다 서로 훨씬 더 비슷하다는 사실을 발견했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 726.3,
+   "en": "And this was a significant difference. And after she found that a device could do this, she had other participants do this.",
+   "ko": "이것은 유의미한 차이였습니다. 장치가 이를 해낼 수 있다는 것을 발견한 후, 그녀는 다른 참가자들에게도 같은 실험을 하게 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 735.0,
+   "en": "So she had people smelling the click friends versus non-click friends, and they judged them as being more similar to each other than not.",
+   "ko": "사람들에게 '클릭 친구'와 '비클릭 친구'의 냄새를 맡게 했더니, 사람들도 이들이 서로 더 비슷하다고 판단했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 743.2,
+   "en": "Now again, you might wonder, is this causal or not, right? Because maybe Click Friends go to the same restaurant together all the time or whatever, live in the same neighborhood, and that's why they smell the same.",
+   "ko": "여기서 다시 한번, 이것이 인과 관계인지 아닌지 궁금하실 겁니다, 그렇죠? 클릭 친구들은 항상 같이 같은 식당에 가거나 같은 동네에 살아서 냄새가 비슷해진 걸 수도 있으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 754.9,
+   "en": "So to address causality, she recruited total strangers and first smelled them with the electronic nose and then engaged them in a social interaction, something called the mirror game.",
+   "ko": "그래서 인과 관계를 규명하기 위해 그녀는 완전히 낯선 사람들을 모집하여 먼저 전자 코로 냄새를 측정한 다음, '거울 게임'이라고 불리는 사회적 상호 작용에 참여시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 767.4,
+   "en": "So in the mirror game, one person moves their hands and the other person is really close to them, like right here, so they can smell each other and has to move their hands with the other person.",
+   "ko": "거울 게임에서는 한 사람이 손을 움직이면 다른 사람이 바로 옆에서 서로의 냄새를 맡을 수 있을 정도로 가까이 서서 상대방과 똑같이 손을 움직여야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 778.3,
+   "en": "And one prediction there panned out, but another didn't. The one that didn't, so she predicted that people who would smell more similar to each other would be better at the mirror game, that is, they would follow each other better.",
+   "ko": "거기서 한 가지 예측은 적중했지만 다른 하나는 빗나갔습니다. 빗나간 예측은 체취가 더 비슷한 사람들이 거울 게임을 더 잘할 것이라는, 즉 서로의 움직임을 더 잘 따라 할 것이라는 예측이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 791.1,
+   "en": "That did not pan out, however. She then also had, the interaction was completely non-verbal.",
+   "ko": "하지만 그것은 들어맞지 않았습니다. 그 후 그녀는 또한 상호 작용을 완전히 비언어적으로 진행하게 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 797.2,
+   "en": "They were not allowed to speak with each other and she did an entire round robin so everybody played with everybody else. This was an insane experiment to run.",
+   "ko": "그들은 서로 대화하는 것이 허용되지 않았고, 모든 사람이 모든 사람과 게임을 하도록 라운드 로빈 방식으로 진행했습니다. 정말 엄청난 실험이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 804.0,
+   "en": "She then at the end of the experiment each person rated each other person as to how much they think they would want to be their friends.",
+   "ko": "실험이 끝난 후 각 사람은 다른 사람들에 대해 자신이 얼마나 그들과 친구가 되고 싶은지 평가했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 810.8,
+   "en": "And also on a bunch of ratings how nice they think they are how affectionate they think a bunch of ratings, okay? All of this was predicted by the electronic nose.",
+   "ko": "또한 상대방이 얼마나 친절하다고 생각하는지, 얼마나 다정하다고 생각하는지 등 여러 항목을 평가하게 했습니다. 놀랍게도 이 모든 것이 전자 코에 의해 예측되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 819.2,
+   "en": "So people who smell more similar to each other think that the other person is more likely to be their friend, is more likely to be a nice person, etc.",
+   "ko": "즉, 체취가 더 비슷한 사람들은 상대방이 자신의 친구가 될 가능성이 더 높고, 더 좋은 사람일 가능성이 높다고 생각하는 식입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 828.7,
+   "en": "So we could actually predict friendship using the electronic nose. So this is not a result of friendship. It plays into the causal elements of building friendship.",
+   "ko": "따라서 우리는 전자 코를 사용해 실제로 우정을 예측할 수 있었습니다. 이것은 우정의 결과가 아니라, 우정을 형성하는 인과적 요소로 작용하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 840.1,
+   "en": "People are constantly smelling themselves, constantly smelling others. I want to touch on some other so-called pheromone effects.",
+   "ko": "사람들은 끊임없이 자신의 냄새를 맡고, 다른 사람의 냄새를 맡습니다. 저는 이른바 다른 페로몬 효과들에 대해서도 짚어보고 싶습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 847.5,
+   "en": "Whether or not it's a classic pheromone effect or whether or not it's olfaction or something else, this is chemosensory signaling between individuals.",
+   "ko": "그것이 고전적인 페로몬 효과든, 후각이든, 아니면 다른 무엇이든 간에, 이것은 개인 간의 화학 감각 신호 전달입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 855.5,
+   "en": "It all becomes semantics. Yes, sort of like nerdy inside ball. It's all semantics.",
+   "ko": "결국 용어 문제죠. 네, 일종의 전문적인 말장난 같은 겁니다. 다 의미론적인 문제예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 860.0,
+   "en": "So I don't, in our publications, we don't use the term pheromone, you know, because it would not help me and it would probably only hurt us.",
+   "ko": "그래서 저희 간행물에서는 페로몬이라는 용어를 사용하지 않습니다. 도움이 되기는커녕 아마 해가 될 뿐일 테니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 867.0,
+   "en": "And so, you know, we talk about chemosignals and humans definitely emit chemosignals from their body. And these chemosignals influence other humans and influence their behavior.",
+   "ko": "그래서 저희는 '화학 신호'에 대해 이야기하며, 인간은 분명히 몸에서 화학 신호를 방출합니다. 그리고 이 화학 신호는 다른 사람들에게 영향을 미치고 그들의 행동에도 영향을 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 877.9,
+   "en": "The flavor of the month for the past 10 years in this field is what's referred to as the smell of fear.",
+   "ko": "지난 10년 동안 이 분야에서 가장 화제가 된 주제는 이른바 '공포의 냄새'입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 884.2,
+   "en": "Humans emit a particular body odor when they're in a state of fear, and this body odor influences other humans in effect, increasing their autonomic arousal, their sympathetic state.",
+   "ko": "인간은 공포 상태일 때 특정한 체취를 내뿜으며, 이 체취는 실제로 다른 인간에게 영향을 미쳐 그들의 자율 신경계 각성과 교감 신경 상태를 강화합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 897.2,
+   "en": "So in effect, you could say that fear is contagious a bit, so the smell of fear is contagious.",
+   "ko": "결과적으로 공포는 어느 정도 전염된다고 할 수 있고, 공포의 냄새가 전염되는 셈입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 903.0,
+   "en": "By the way, culturally, we know for ages that dogs can smell fear in humans, but actually that was only really shown about a year and a half ago in a study.",
+   "ko": "참고로 개가 인간의 공포를 맡을 수 있다는 사실은 오래전부터 문화적으로 알려져 왔지만, 실제로 연구를 통해 증명된 것은 약 1년 반 전의 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 912.8,
+   "en": "So it was always said, but it wasn't really shown effectively. It was shown about a year and a half ago in a study that dogs indeed can smell human fear.",
+   "ko": "항상 말해져 왔지만 효과적으로 증명되지는 않았었는데, 약 1년 반 전 연구에서 개가 실제로 인간의 공포를 맡을 수 있다는 사실이 밝혀졌죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 921.5,
+   "en": "And humans can smell human fear. So several labs starting from Denise Chen and Haviland Jones, and then in our lab and in other labs...",
+   "ko": "그리고 인간도 인간의 공포를 맡을 수 있습니다. 데니스 첸과 해빌랜드 존스를 시작으로 저희 실험실과 다른 실험실들에서...",
+   "speaker": "Guest"
+  },
+  {
+   "start": 930.3,
+   "en": "...if you collect body odor from people in a state of fear and collect body odor from the same people when they're not in a state of fear, other people can determine which is the state of fear or not and this influences their behavior.",
+   "ko": "공포 상태의 사람들에게서 체취를 수집하고, 동일 인물이 공포 상태가 아닐 때의 체취를 수집하면, 다른 사람들이 어느 쪽이 공포 상태인지 가려낼 수 있으며 이것이 그들의 행동에 영향을 미친다는 것을 확인했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 944.3,
+   "en": "And they just highlight again, you know, that we're incredibly olfactory animals.",
+   "ko": "그 사실들은 우리가 정말 놀라울 정도로 후각적인 동물이라는 점을 다시 한번 강조해주네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 948.7,
+   "en": "We had a guest on this podcast who I'm sure you're familiar, Charles Zuker. A professor Columbia has done incredible work in vision and olfaction, a thirst sensing.",
+   "ko": "이 팟캐스트에 박사님도 잘 아실 찰스 주커 교수님이 출연하셨습니다. 컬럼비아 대학의 교수님으로 시각과 후각, 갈증 감지에 대해 놀라운 연구를 하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 956.2,
+   "en": "And I talked a little bit about this is that there's something in the breath of romantic partners that's hopefully appetitive, not aversive.",
+   "ko": "저는 연인 사이의 호흡에는 거부감이 아닌 호감을 불러일으키는 무언가가 있다는 것에 대해 조금 이야기를 나누었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 966.3,
+   "en": "As well as in children, he was talking about the smell of his grandchild, the back of their neck, and how he misses that smell because when he thinks about missing his grandchild or children, it's that smell that's associated with that feeling.",
+   "ko": "아이들의 경우도 마찬가지인데, 그는 손자의 목덜미 냄새에 대해 이야기하며, 손자나 자녀가 보고 싶을 때 그 감정과 연결되는 것이 바로 그 냄새라고 하더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 982.6,
+   "en": "Hexadecanal. Hexadecanal? Yes.",
+   "ko": "헥사데카날(Hexadecanal) 말이죠. 헥사데카날요? 네.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 985.3,
+   "en": "This is a study run by Eva Mishor, who was a graduate student in our lab. Eva was interested in aggression.",
+   "ko": "이것은 저희 실험실 대학원생이었던 에바 미쇼르가 진행한 연구입니다. 에바는 공격성에 관심이 많았죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 993.9,
+   "en": "And so when she started off, we said, okay, let's do chemo signaling of aggression. She actually was going to like MMA clubs and collecting body odors.",
+   "ko": "그래서 그녀가 시작할 때 우리는 공격성의 화학 신호 전달을 연구해 보자고 했습니다. 그녀는 실제로 MMA 클럽 같은 곳에 가서 체취를 수집하기도 했어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1003.2,
+   "en": "And we had all sorts of ideas going. And she worked on that for quite a bit. It never went anywhere really.",
+   "ko": "우리는 온갖 아이디어를 짜냈고 그녀는 꽤 오랫동안 그 일을 했습니다. 하지만 딱히 성과가 없었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1010.0,
+   "en": "At the same time, Heinz Breer. He was studying in his lab a molecule, hexadecanol, that was a chemosignal in mice that promotes social buffering.",
+   "ko": "동시에 하인츠 브리어는 자신의 실험실에서 쥐의 사회적 완충 작용을 촉진하는 화학 신호인 헥사데카놀 분자를 연구하고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1021.9,
+   "en": "So when lots of mice are together, they feel good about being in a group, and that's social buffering.",
+   "ko": "많은 쥐가 함께 있을 때 집단에 있는 것에 대해 기분 좋게 느끼는 것, 그것이 사회적 완충 작용입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1027.2,
+   "en": "And it's promoted by hexadecanol, which they emit in their feces. So Breer and his colleague, Storzmann, they discovered the receptor for this.",
+   "ko": "그리고 그것은 쥐들이 대변으로 배출하는 헥사데카놀에 의해 촉진됩니다. 브리어와 그의 동료 스토르츠만은 이것의 수용체를 발견했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1036.0,
+   "en": "And then they went and discovered that the receptor is very highly conserved throughout mammalian evolution and therefore they hypothesized that maybe this is a universal mammalian signal.",
+   "ko": "그러고 나서 그들은 이 수용체가 포유류 진화 과정 전반에 걸쳐 매우 고도로 보존되어 있다는 사실을 발견했고, 따라서 이것이 아마도 보편적인 포유류의 신호일 것이라는 가설을 세웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1049.4,
+   "en": "Now, which is unusual because in chemo signaling, typically you tend to think of things as being very species specific.",
+   "ko": "화학 신호 전달에서는 대개 종 특이성이 매우 강하다고 생각하기 때문에 이는 이례적인 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1056.2,
+   "en": "So he approached us and said, look, you've got to study this stuff in humans, right? Because he knows us as the human people, right?",
+   "ko": "그래서 그는 우리에게 다가와 인간을 대상으로 이 물질을 연구해 보라고 제안했습니다. 그는 우리가 인간을 연구하는 팀이라는 걸 알고 있었으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1061.6,
+   "en": "I mean, we go to these olfaction conferences where lots of people study mice and zebrafish and whatnot and we're the human group.",
+   "ko": "제 말은, 수많은 사람이 쥐나 제브라피쉬 등을 연구하는 후각 학회에 가면 저희가 바로 인간 연구 그룹이거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1070.2,
+   "en": "Eventually, he just FedExed us hexadecanal and Eva was not going anywhere with her aggression studies with sweat from human participants and yet she built the entire paradigm to study human aggression.",
+   "ko": "결국 그는 우리에게 헥사데카날을 보냈고, 에바는 인간 참가자의 땀을 이용한 공격성 연구에서 성과를 내지 못하고 있었지만 인간의 공격성을 연구하기 위한 전체 패러다임은 구축해 놓은 상태였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1085.3,
+   "en": "So they're standard paradigms. This is a paradigm known as the TAP, the Taylor Aggression Paradigm.",
+   "ko": "그것들은 표준 패러다임들입니다. 이것은 TAP, 즉 테일러 공격성 패러다임으로 알려진 방식입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1091.1,
+   "en": "And what's nice about this is that it then allows you to quantify aggression and so you have a measure of aggression. Again, the Taylor Aggression Paradigm obviously invented by Taylor, very well validated, studied all over, you know, a very standard protocol.",
+   "ko": "이것의 장점은 공격성을 수치화할 수 있어 측정 지표를 갖게 된다는 점입니다. 테일러에 의해 발명된 이 패러다임은 매우 잘 검증되었고 도처에서 연구된 매우 표준적인 프로토콜입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1105.1,
+   "en": "So we brought in participants and had them play the Tyler or the tap, either under exposure to hexadecanal or control.",
+   "ko": "그래서 우리는 참가자들을 데려와 헥사데카날에 노출되거나 대조군인 상태에서 TAP 게임을 하도록 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1115.5,
+   "en": "And I'll first tell you the result with men, which is that hexadecanal consistently reduced aggression. People were less aggressive under hexadecanal.",
+   "ko": "남성들의 결과부터 말씀드리면, 헥사데카날은 일관되게 공격성을 감소시켰습니다. 사람들은 헥사데카날의 영향 하에서 덜 공격적이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1127.1,
+   "en": "The effect size was quite meaningful compared to the effects seen in the aggression world in research, really, really strong effects, so unusually strong.",
+   "ko": "공격성 연구 분야에서 관찰되는 일반적인 효과와 비교했을 때 그 크기가 상당히 유의미했고, 정말 매우 강력한 효과였습니다. 이례적으로 강했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1137.2,
+   "en": "So hexadecanal lowered aggression in men, and we were like, cool, this is sort of what we were hoping to see consistent with the hypothesis and consistent with it seems to do in mice.",
+   "ko": "헥사데카날이 남성의 공격성을 낮췄을 때, 저희는 가설과 일치하고 쥐에게서 나타난 결과와도 일치해서 좋다고 생각했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1148.3,
+   "en": "But then we looked at data from women, and hexadecanal increased aggression equally significantly.",
+   "ko": "그런데 여성들의 데이터를 보니, 헥사데카날이 남성의 결과만큼이나 유의미하게 여성의 공격성을 증가시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1154.8,
+   "en": "Is this thought to be something related to maternal protectiveness?",
+   "ko": "이것이 모성 보호 본능과 관련된 것이라고 생각되나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1157.3,
+   "en": "We're getting there. So she went and did the entire experiment again, and this time she did it within the fMRI magnet so that we can also track brain activity while this was happening.",
+   "ko": "이제 그 이야기를 하려 합니다. 그래서 에바는 실험 전체를 다시 수행했는데, 이번에는 이 과정이 일어나는 동안 뇌 활동도 추적할 수 있도록 fMRI 자석 안에서 진행했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1169.1,
+   "en": "And first of all, it replicated again. So once again, hexadecanal made men less aggressive and women more aggressive.",
+   "ko": "무엇보다도 결과가 다시 재현되었습니다. 다시 한번, 헥사데카날은 남성을 덜 공격적으로, 여성은 더 공격적으로 만들었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1176.6,
+   "en": "And yet I was telling everybody, you know, but you know, this makes no sense to me. And then her insight, which of course afterwards is like, duh, is no, there's a place where this makes perfect sense.",
+   "ko": "그런데도 저는 모두에게 '이건 도무지 이해가 안 가네'라고 말하고 있었죠. 그러자 에바가 통찰을 내놓았는데, 나중에 생각해보니 당연한 것이었지만, 이것이 완벽하게 말이 되는 상황이 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1188.6,
+   "en": "And that is if you're a mammalian offspring because paternal aggression is often directed at you. There's infanticide all over.",
+   "ko": "만약 당신이 포유류의 새끼라면 상황이 달라집니다. 아버지의 공격성은 종종 새끼를 향하기 때문이죠. 도처에서 영아 살해가 일어납니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1198.1,
+   "en": "And sadly, there's male aggression towards human children as well. And maternal aggression is often protective.",
+   "ko": "슬프게도 인간 아이들에게도 남성의 공격성이 나타납니다. 반면 모성 공격성은 종종 보호를 목적으로 하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1206.2,
+   "en": "If you're in offspring, if you have a molecule that will make your mother more aggressive and your daddy less aggressive, both of those are good for you. So you're winning.",
+   "ko": "당신이 새끼라면, 엄마는 더 공격적으로 만들고 아빠는 덜 공격적으로 만드는 분자가 있다면 둘 다 당신에게 유익합니다. 당신이 승리하는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1215.0,
+   "en": "The bottom line of all this is that hexadecanal is the most abundant semi volatile in baby heads. It's tons of it coming out of baby heads.",
+   "ko": "이 모든 것의 결론은 헥사데카날이 아기 머리에서 가장 풍부하게 나오는 반휘발성 성분이라는 것입니다. 아기 머리에서 엄청나게 뿜어져 나옵니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1224.0,
+   "en": "Babies are conducting chemical warfare, right? They're reducing aggression in their fathers or males around them and increasing aggression in their mothers or females around them, and both of those things are good for them.",
+   "ko": "아기들이 화학전을 벌이고 있는 셈이죠, 그렇죠? 주변의 아버지나 남성들의 공격성은 낮추고, 어머니나 여성들의 공격성은 높여서 자신들에게 유리한 환경을 만드는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1238.4,
+   "en": "I'd like to take a quick break and acknowledge our sponsor, AG1. I'm excited to share that AG1 has just launched their newest formulation, AG1 Pro.",
+   "ko": "잠시 쉬면서 저희 후원사인 AG1을 소개하겠습니다. AG1이 최신 포뮬러인 AG1 Pro를 출시했다는 소식을 전하게 되어 기쁩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1246.7,
+   "en": "AG1 Pro takes the clinically-backed AG1 formula, which is a blend of vitamins, minerals, probiotics, and adaptogens, and adds three important new ingredients, creatine monohydrate, calcium HMB, and zinc carnosine.",
+   "ko": "AG1 Pro는 비타민, 미네랄, 프로바이오틱스, 어댑토젠이 혼합된 임상적으로 입증된 AG1 포뮬러에 크레아틴 모노하이드레이트, 칼슘 HMB, 아연 카르노신이라는 세 가지 중요한 신규 성분을 추가했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1260.1,
+   "en": "Each serving has 5 grams of creatine monohydrate to support muscle strength and performance, as well as brain health.",
+   "ko": "각 1회 제공량에는 근력과 수행 능력은 물론 뇌 건강을 지원하는 크레아틴 모노하이드레이트 5g이 들어 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1265.7,
+   "en": "Calcium HMB to support muscle recovery and reduce muscle breakdown, and zinc carnosine to support and improve the lining of your gut.",
+   "ko": "칼슘 HMB는 근육 회복을 돕고 근육 분해를 줄여주며, 아연 카르노신은 장 내벽을 보호하고 개선하는 데 도움을 줍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1272.7,
+   "en": "All three of these ingredients have compelling science to support them, and therefore I love seeing them added to the existing AG1 formula.",
+   "ko": "이 세 가지 성분 모두 이를 뒷받침하는 강력한 과학적 근거가 있으며, 따라서 기존 AG1 포뮬러에 추가된 것을 보니 매우 반갑습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1279.6,
+   "en": "As most of you know, I've been taking AG1 every day for nearly 14 years now. I started taking it long before I even knew what a podcast was.",
+   "ko": "많은 분이 아시다시피, 저는 거의 14년 동안 매일 AG1을 복용해 왔습니다. 팟캐스트가 무엇인지 알기도 훨씬 전부터 복용하기 시작했죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1287.0,
+   "en": "It's a great product, and it's now made even better with the new AG1 Pro Formula. If you would like to try AG1 Pro, you can go to drinkag1.com slash Huberman to get a special offer.",
+   "ko": "훌륭한 제품이었는데, 이제 새로운 AG1 Pro 포뮬러로 더욱 업그레이드되었습니다. AG1 Pro를 체험해보고 싶으시다면 drinkag1.com/Huberman에서 특별 혜택을 받으실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1298.3,
+   "en": "AG1 is giving away a free bottle of Omega 3 co-enzyme Q10 with your first subscription. Again, go to drinkag1.com slash Huberman to get a free bottle of Omega 3 co-enzyme Q10 with your first AG1 subscription.",
+   "ko": "AG1 첫 구독 시 오메가 3 코엔자임 Q10 한 병을 무료로 증정합니다. 다시 한번, drinkag1.com/Huberman으로 가셔서 첫 구독 시 무료 증정품을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1311.7,
+   "en": "What is the relationship between odors and hormones and in particular crying?",
+   "ko": "냄새와 호르몬, 특히 눈물 사이에는 어떤 관계가 있습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1318.8,
+   "en": "Tears are a bodily liquid, emotional tears, that we emit in emotional situations where these are situations where nonverbal communication is critical and key.",
+   "ko": "눈물은 신체 액체로, 비언어적 의사소통이 중요하고 핵심적인 정서적 상황에서 흘리는 감정적인 눈물입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1331.0,
+   "en": "The most influential text I think till this day in emotion research is Darwin's book, the Expression of the Emotions in Man and Animals, I think is the full name of the book.",
+   "ko": "감정 연구에 있어 오늘날까지 가장 영향력 있는 텍스트는 다윈의 저서인 '인간과 동물의 감정 표현'이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1342.1,
+   "en": "And an entire chapter, chapter six, is devoted to tears. So Darwin systematically went through the expressions of emotions and for each one went to their functional antecedent and explained everything very nicely.",
+   "ko": "그리고 전체 장 중 6장은 눈물에 할애되어 있습니다. 다윈은 감정의 표현들을 체계적으로 훑으며 각각의 기능적 전조를 찾아 아주 훌륭하게 설명했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1353.6,
+   "en": "And then he got stuck with tears, right? Because tears are an obviously emotional expression and he could not find a functional antecedent.",
+   "ko": "그러다 눈물에서 막혔죠, 그렇죠? 눈물은 명백한 감정 표현인데 기능적인 전조를 찾을 수 없었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1362.9,
+   "en": "So he ended up saying, this is an epiphenomenon. So we thought, well, maybe the function is a chemical signal.",
+   "ko": "그래서 그는 결국 이것이 일종의 부수 현상이라고 말했습니다. 그래서 저희는 그 기능이 화학적 신호일지도 모른다고 생각했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1369.4,
+   "en": "With that in mind, we harvested emotional tears. So we collected tears and we exposed participants to these tears.",
+   "ko": "그 점을 염두에 두고 감정적인 눈물을 채취했습니다. 눈물을 모아서 참가자들을 그 눈물에 노출시켰죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1377.2,
+   "en": "First of all, the tears are completely odorless. You cannot detect them at all, completely odorless.",
+   "ko": "우선 눈물은 완전히 무취입니다. 전혀 감지할 수 없어요, 완벽하게 냄새가 없죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1384.9,
+   "en": "And yet, when you sniff them, you have a pronounced reduction in testosterone within about 20 minutes, half an hour.",
+   "ko": "그런데도 그 냄새를 맡으면 약 20분에서 30분 이내에 테스토스테론 수치가 뚜렷하게 감소합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1398.1,
+   "en": "This is men and women smelling women's tears?",
+   "ko": "이것은 남녀가 여성의 눈물 냄새를 맡는 경우인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1400.7,
+   "en": "Men smelling women's tears, but not perceiving any odor. Nothing. Just sniffing them, and you have about 14% drop in free testosterone.",
+   "ko": "남성들이 여성의 눈물 냄새를 맡되 아무런 냄새도 느끼지 못하는 경우입니다. 아무것도요. 그저 냄새를 맡기만 해도 유리 테스토스테론이 약 14% 감소합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1413.2,
+   "en": "And people who study testosterone, which is not me, but they tell me this is a really strong effect. Like it's hard to even pharmacologically get an effect like that that fast, I mean, not in pharmacology.",
+   "ko": "테스토스테론을 연구하는 사람들(저는 아니지만요)은 이것이 정말 강력한 효과라고 말합니다. 약리학적으로도 그렇게 빠른 효과를 얻기는 어렵다고 하더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1423.5,
+   "en": "Yeah, years ago I spent time studying endocrine effects of this sort and that's a tremendous effect size.",
+   "ko": "네, 저도 수년 전에 이런 종류의 내분비 효과를 연구했었는데, 그것은 엄청난 효과 크기군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1429.8,
+   "en": "And so here I'll point out in passing that one of the concerns we had because of the effort to run this study is that nobody would ever try to replicate it...",
+   "ko": "여기서 덧붙이자면, 이 연구를 수행하면서 걱정했던 것 중 하나가 아무도 이 실험을 재현하려 하지 않을까 하는 점이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1443.3,
+   "en": "...and to our joy about two years later, an independent group from South Korea, Oh et al., who I don't know at all, replicated the testosterone effect to a T, I mean like same numbers.",
+   "ko": "그런데 기쁘게도 약 2년 후, 제가 전혀 모르는 한국의 오 교수팀(Oh et al.)이 테스토스테론 효과를 정확히 똑같이, 그러니까 수치까지 동일하게 재현해냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1458.2,
+   "en": "So it lowers testosterone. And we then also looked using MRI at the effect on brain activity and saw a pronounced effect on activity, a dampening, a lowering of activity under an arousing state...",
+   "ko": "그래서 그것은 테스토스테론을 낮춥니다. 그러고 나서 저희는 MRI를 사용하여 뇌 활동에 미치는 영향도 조사했는데, 각성 상태에서 활동이 억제되고 낮아지는 뚜렷한 효과를 보았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1479.2,
+   "en": "...a lowering of activity, both in the hypothalamus and in the fusiform gyrus for whatever reason I don't know.",
+   "ko": "시상하부와 방추상회 모두에서 활동이 낮아졌는데, 이유는 아직 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1487.2,
+   "en": "The recognition area.",
+   "ko": "인식 영역이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1488.1,
+   "en": "Amongst other things, yes. And we don't know why. But pronounced.",
+   "ko": "그 외에도 여러 기능이 있죠. 네, 이유는 모릅니다만 확실히 나타납니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1494.1,
+   "en": "Usually in our chemo signaling work, we look at what happens in rodents and we see if the same things happening in humans.",
+   "ko": "보통 저희의 화학 신호 전달 연구에서는 설치류에서 일어나는 일을 관찰하고 인간에게서도 같은 일이 일어나는지 확인합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1499.2,
+   "en": "This was a rare case where after we did this work, more or less identical effects were discovered in rodents.",
+   "ko": "이번 연구는 저희가 먼저 연구를 한 후에 설치류에서도 거의 동일한 효과가 발견된 드문 경우였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1504.8,
+   "en": "So a paper published in Nature two years later found that mouse tears, mouse pup tears, lower aggression in male adult mice towards them. In a smell-dependent way.",
+   "ko": "2년 후 네이처에 발표된 논문에 따르면, 새끼 쥐의 눈물이 성인 수컷 쥐의 공격성을 낮춘다는 사실이 밝혀졌습니다. 후각 의존적인 방식으로요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1518.2,
+   "en": "Yeah, yeah.",
+   "ko": "네, 그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1518.8,
+   "en": "And they also actually found the actual component in tears that, so the tear pheromone, that lowers aggression.",
+   "ko": "그리고 그들은 실제로 공격성을 낮추는 눈물 속의 실제 성분, 즉 눈물 페로몬을 찾아냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1526.0,
+   "en": "Right, so this has us thinking of tears as, you can think of tears as like a chemical blanket in a way that you're covering yourself up again with, you know, to protect against aggression, right?",
+   "ko": "그래서 우리는 눈물을 일종의 화학적 담요처럼 생각하게 되었습니다. 공격성으로부터 자신을 보호하기 위해 다시 한번 몸을 덮는 보호막 같은 것이죠, 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1537.3,
+   "en": "Smell being such a rich source of behavioral and hormonal and other sorts of deep, deep information, what is your experience with generating smells in silico and computers?",
+   "ko": "냄새가 행동과 호르몬, 그리고 다른 깊고 깊은 정보의 풍부한 원천이라는 점에서, 컴퓨터상에서 냄새를 생성하는 것에 대한 박사님의 경험은 어떠신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1551.2,
+   "en": "And here folks, if for those of you that aren't catching on to this, and I don't expect that everyone would because what we're really alluding to here is the idea that you'll put into a search engine blueberry pancakes recipe...",
+   "ko": "청취자 여러분, 혹시 이해가 잘 안 가시는 분들을 위해 부연하자면(모두가 이해할 거라 기대하지는 않습니다), 여기서 우리가 언급하는 것은 검색 엔진에 '블루베리 팬케이크 레시피'라고 입력하면...",
+   "speaker": "Host"
+  },
+  {
+   "start": 1565.9,
+   "en": "...and that not only will you get photos of those blueberry pancakes and a recipe, but you will get the hopefully validated odor of those pancakes and that recipe coming at you in real time through the computer.",
+   "ko": "그 팬케이크 사진과 레시피뿐만 아니라, 컴퓨터를 통해 실시간으로 검증된 그 팬케이크와 레시피의 냄새까지 전달받을 수 있다는 아이디어입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1580.4,
+   "en": "So Google had an April Fool's spoof. All right. And they put out this video of Google Smell, okay?",
+   "ko": "구글이 만우절 장난을 친 적이 있습니다. '구글 스멜'이라는 영상을 올렸죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1589.2,
+   "en": "And it had all these like classic like sales images of you know, holding up your phone to a rose and it generating rose and all these things, right? So Google is now trying to do that, to digitize smell.",
+   "ko": "장미에 휴대폰을 갖다 대면 장미 향을 생성하는 전형적인 광고 이미지 같은 것들이 가득했죠. 이제 구글은 실제로 냄새를 디지털화하려고 노력하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1605.5,
+   "en": "And there are other companies that are trying to do this as well. And recently in our lab, we've had, and I hope this doesn't come across as overly arrogant, but we've had a sort of mini breakthrough on this front.",
+   "ko": "다른 회사들도 이를 시도하고 있고요. 최근 저희 실험실에서도, 오만하게 들리지 않았으면 좋겠습니다만, 이 분야에서 일종의 작은 돌파구를 마련했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1616.7,
+   "en": "To call something a mini breakthrough as far from arrogant.",
+   "ko": "작은 돌파구라고 부르는 것은 전혀 오만한 게 아니죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1620.3,
+   "en": "And this is a paper led by Aharon Ravia from our lab and Kobi Snitz also, a major contributor there, a paper published in Nature.",
+   "ko": "이것은 저희 실험실의 아하론 라비아가 주도하고 코비 스니츠가 주요 기여자로 참여하여 네이처에 발표된 논문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1630.9,
+   "en": "In this paper, we develop an algorithmic framework where we can predict the perceptual similarity of any two molecular mixtures with very, very high accuracy.",
+   "ko": "이 논문에서 우리는 어떤 두 가지 분자 혼합물의 지각적 유사성을 매우 높은 정확도로 예측할 수 있는 알고리즘 프레임워크를 개발했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1646.6,
+   "en": "So if you give me two molecular mixtures, I can predict how similar you will smell them to be. Okay? Not only could we predict that, but we could design it so we can generate mixtures with known similarities.",
+   "ko": "즉, 두 가지 분자 혼합물을 주시면 당신이 그 냄새를 얼마나 비슷하게 느낄지 예측할 수 있습니다. 그뿐만 아니라, 알려진 유사성을 가진 혼합물을 생성할 수 있도록 설계할 수도 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1661.0,
+   "en": "The result was highlighted and you'll appreciate this coming from vision is that using our algorithmic solution we generated olfactory metamers.",
+   "ko": "그 결과가 강조되었는데, 시각을 전공하신 교수님께서도 흥미로워하시겠지만, 저희 알고리즘 솔루션을 사용하여 '후각적 메타머'를 생성해냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1670.8,
+   "en": "So we measured mixtures completely non-overlapping in their molecular structure, but they smell exactly the same. Okay?",
+   "ko": "우리는 분자 구조가 전혀 겹치지 않으면서도 냄새는 완전히 똑같은 혼합물을 측정했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1679.0,
+   "en": "Now, if you would come to a classic perfumer or most classic perfumers and tell them that you can generate two mixtures with zero molecules in common, but smell exactly the same, they would tell you no.",
+   "ko": "고전적인 조향사들에게 공통된 분자가 하나도 없는데 똑같은 냄새가 나는 두 가지 혼합물을 만들 수 있다고 하면 그들은 아니라고 말할 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1692.9,
+   "en": "And yet we did and anybody can recreate them. This is simple actually.",
+   "ko": "하지만 저희는 해냈고 누구나 재현할 수 있습니다. 사실 간단해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1697.7,
+   "en": "And in the paper, we do a few things like we generate a metamer for Chanel Number Five with no component from Chanel Number Five in it.",
+   "ko": "논문에서 우리는 샤넬 No.5에 들어있는 성분을 하나도 쓰지 않고 샤넬 No.5와 똑같은 냄새가 나는 메타머를 생성하는 등의 작업도 수행했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1705.4,
+   "en": "I'd like to take a quick break and acknowledge our sponsor, 8Sleep. 8Sleep makes smart mattress covers with cooling, heating, and sleep tracking capacity.",
+   "ko": "잠시 쉬면서 저희 후원사인 에잇슬립(8Sleep)을 소개하겠습니다. 에잇슬립은 냉각, 가열 및 수면 추적 기능이 있는 스마트 매트리스 커버를 만듭니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1713.7,
+   "en": "8Sleep just launched the Pod 6, which is their most advanced sleep system.",
+   "ko": "에잇슬립은 가장 진보된 수면 시스템인 Pod 6를 방금 출시했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1717.9,
+   "en": "The Pod 6 is half the size of their previous models. It's 20% faster with its cooling and heating, and it has 9 times as many sensors for tracking your sleep.",
+   "ko": "Pod 6는 이전 모델의 절반 크기입니다. 냉각 및 가열 속도가 20% 더 빠르고, 수면 추적을 위한 센서가 9배 더 많습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1726.7,
+   "en": "The reason why 8Sleep is so effective at improving your sleep quality and duration is because it helps control your core body temperature.",
+   "ko": "에잇슬립이 수면의 질과 지속 시간을 개선하는 데 효과적인 이유는 심부 체온 조절을 돕기 때문입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1733.7,
+   "en": "And the reason for that is that in order to fall and stay deeply asleep, your core body temperature has to drop by about 1 to 3 degrees.",
+   "ko": "그 이유는 깊은 잠에 들고 유지하기 위해서는 심부 체온이 약 1~3도 정도 떨어져야 하기 때문입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1741.5,
+   "en": "And to wake up feeling completely refreshed and energized, you actually want your body temperature to be increasing in the final hours of your sleep.",
+   "ko": "그리고 완전히 상쾌하고 활기차게 일어나려면, 수면의 마지막 몇 시간 동안은 체온이 다시 올라가는 것이 좋습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1749.3,
+   "en": "8Sleep automatically regulates the temperature of your bed throughout the night and is monitoring your sleep and dynamically adjusting the temperature of your sleep environment so you get the maximum amount of deep sleep and rapid eye movement sleep.",
+   "ko": "에잇슬립은 밤새도록 침대 온도를 자동으로 조절하고 수면 상태를 모니터링하여, 깊은 수면과 렘수면을 최대한 취할 수 있도록 수면 환경의 온도를 동적으로 조정합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1761.5,
+   "en": "I've been sleeping on an 8Sleep mattress cover for nearly five years now, and with each new iteration of 8Sleep, it gets better and better at figuring out what my body needs in order to get the best possible night's sleep.",
+   "ko": "저는 거의 5년 동안 에잇슬립 매트리스 커버를 사용해 왔는데, 새로운 버전이 나올 때마다 제가 최고의 수면을 취하기 위해 몸에 무엇이 필요한지 점점 더 잘 파악해 내더군요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1772.7,
+   "en": "If you would like to try 8Sleep, go to eightsleep.com slash Huberman to get up to $200 off their new Pod 6.",
+   "ko": "에잇슬립을 사용해 보고 싶으시다면 eightsleep.com/Huberman으로 가셔서 신제품 Pod 6를 최대 200달러 할인된 가격에 구매하실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1779.9,
+   "en": "8Sleep ships to many countries worldwide, including Mexico and the UAE. Again, that's eightsleep.com slash Huberman to save up to $200.",
+   "ko": "에잇슬립은 멕시코와 아랍에미리트를 포함한 전 세계 여러 나라로 배송됩니다. 다시 한번 말씀드리면, 최대 200달러를 절약하시려면 eightsleep.com/Huberman을 이용해 주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1788.9,
+   "en": "In a way, we've generated the infrastructure for digitizing smell because, again, what our algorithm predicts, our framework predicts is similarity. But in a way, that's enough for you.",
+   "ko": "어떤 의미에서 우리는 냄새 디지털화를 위한 인프라를 구축한 셈입니다. 다시 말씀드리지만, 저희 알고리즘과 프레임워크가 예측하는 것은 유사성이기 때문이죠. 하지만 그것만으로도 충분합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1800.6,
+   "en": "Why is that enough? We have a map of 4,000 molecules for each one we know their perceived smell.",
+   "ko": "왜 충분할까요? 우리는 4,000개의 분자 지도를 가지고 있고, 각각의 분자가 어떤 냄새로 인식되는지 알고 있기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1810.2,
+   "en": "Now you can make up any mixture you want for me. I can project it into that map and measure its pairwise distance from all the points in the map.",
+   "ko": "이제 당신이 어떤 혼합물을 만들어 주든, 저는 그것을 지도로 투사하여 지도의 모든 지점으로부터의 거리를 측정할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1819.1,
+   "en": "If it falls on lemon, then what you generated smells like lemon. And if it falls on tomato, then what you generated smells like tomato.",
+   "ko": "만약 그것이 레몬 위에 떨어진다면, 당신이 만든 것은 레몬 냄새가 나는 것이죠. 토마토 위에 떨어진다면 토마토 냄새가 나는 거고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1827.7,
+   "en": "So we now solve that problem. We can predict the odor of any molecular mixture. We can say how it's going to smell.",
+   "ko": "그래서 이제 그 문제를 해결했습니다. 우리는 어떤 분자 혼합물의 냄새도 예측할 수 있습니다. 그것이 어떤 냄새가 날지 말할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1835.6,
+   "en": "What we can do is then find a set of components, which we call odor primaries, that can be used to mix any odor that you can perceive. And that's what we're working on now.",
+   "ko": "우리가 할 수 있는 것은 '후각 원색'이라고 부르는 일련의 성분들을 찾아내서, 여러분이 느낄 수 있는 어떤 냄새든 혼합해낼 수 있도록 하는 것입니다. 그것이 현재 저희가 작업 중인 내용입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1846.6,
+   "en": "So this is in collaboration with the lab of Jonathan Williams and Max Planck in Mainz.",
+   "ko": "이것은 마인츠에 있는 막스 플랑크 연구소의 조나단 윌리엄스 연구실과 협력하여 진행하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1852.2,
+   "en": "Jonathan Williams is an atmospheric chemist, but he's really good at using GC-MS, these tools that measure molecules.",
+   "ko": "조나단 윌리엄스는 대기 화학자이지만, 분자를 측정하는 도구인 GC-MS를 다루는 데 매우 능숙합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1861.7,
+   "en": "So Jonathan Williams measured odorants in Germany, transmitted the information to us over IP. we fed that into our algorithmic framework and recreated it from a device that mixes primaries.",
+   "ko": "조나단 윌리엄스가 독일에서 냄새 물질을 측정하여 IP를 통해 정보를 보냈습니다. 저희는 그것을 알고리즘 프레임워크에 입력했고, 원색을 혼합하는 장치를 통해 재현해냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1876.7,
+   "en": "And we tried to do four different odorants in our proof of concept test. One of them was rose, and we failed at recreating rose.",
+   "ko": "우리는 개념 증명 테스트에서 네 가지 서로 다른 냄새 물질을 시도했습니다. 그중 하나는 장미였는데, 장미를 재현하는 데는 실패했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1889.0,
+   "en": "In fact, we created something that had a percept, but most people perceived it as bubble gum. The second one we tried to do was anise, and we failed at recreating anise, and most people said it was cherry, which is not very far, but it failed.",
+   "ko": "사실 무언가 느껴지는 것은 만들었지만 대부분의 사람은 풍선껌 냄새로 인식했죠. 두 번째로 시도한 것은 아니스(anise)였는데, 역시 재현에 실패했고 대부분의 사람은 체리라고 말했습니다. 아주 멀지는 않지만 실패한 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1905.3,
+   "en": "The third was gasoline, and we were slightly but significantly better than chance at recreating gasoline. And the fourth was violets, and 15 of 16 people said violets.",
+   "ko": "세 번째는 휘발유였는데, 우연보다는 약간 높지만 유의미하게 휘발유 재현에 성공했습니다. 그리고 네 번째는 제비꽃이었는데, 16명 중 15명이 제비꽃이라고 답했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1917.0,
+   "en": "So the first odor ever transmitted over IP is violets. Don't hold your breath for this to be on your table tomorrow.",
+   "ko": "그래서 IP를 통해 전송된 최초의 냄새는 제비꽃입니다. 당장 내일 식탁에서 이 기술을 볼 수 있을 거라 기대하지는 마세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1925.5,
+   "en": "All we have in hand is this very initial proof of concept, but we're on the path.",
+   "ko": "저희가 현재 손에 쥔 것은 아주 초기 단계의 개념 증명일 뿐이지만, 그래도 길 위에 서 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1930.5,
+   "en": "We're talking now of trying to achieve the olfactory equivalent of circa 1956 black and white TV, okay, basically, right?",
+   "ko": "지금 우리는 기본적으로 1956년경의 흑백 TV와 동등한 수준의 후각 기술을 달성하려는 것에 대해 이야기하고 있는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1942.0,
+   "en": "I mean, I'm not dreaming, let's say, of being able to transmit to you the difference between a Cabernet or a Merlot, right?",
+   "ko": "제 말은, 카베르네와 메를로 와인의 미세한 차이까지 전송할 수 있는 꿈을 꾸고 있는 건 아니라는 뜻입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1947.8,
+   "en": "But if I can generate something that's vaguely wine, that will be an amazing success from my perspective, right?",
+   "ko": "하지만 모호하게나마 와인 같은 무언가를 만들어낼 수 있다면, 제 입장에서는 엄청난 성공일 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1954.3,
+   "en": "But jump ahead in your imagination to 4K odor transmission, then medical diagnostics is what you want to be talking about because this is over extension, but you can almost say that every disease will have an odor.",
+   "ko": "하지만 상상력을 발휘해 4K급 냄새 전송이 가능해진 시대로 도약해 보면, 그때는 의료 진단에 대해 이야기하고 싶어질 겁니다. 과장일 수도 있겠지만, 거의 모든 질병은 특유의 냄새를 가지고 있다고 말할 수 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1971.3,
+   "en": "I mean every disease is a specific metabolic process. Metabolic processes have metabolites, metabolites have a smell of olfaction once it's digitized and high resolution, which again, in our hands, it's not going to be.",
+   "ko": "모든 질병은 특정한 대사 과정입니다. 대사 과정에는 대사 산물이 있고, 대사 산물은 냄새가 나죠. 그것이 디지털화되고 고해상도가 되면 알 수 있겠지만, 다시 말하지만 저희 손으로는 아직 안 될 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1985.5,
+   "en": "I mean, we're talking, you know, in my retirement, maybe I'll read about this one day if I'll still have vision. I mean, this is not close.",
+   "ko": "그러니까 제 은퇴 후에나, 시력이 남아 있다면 언젠가 이에 대한 소식을 읽게 될지도 모를 만큼 머나먼 이야기입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1993.0,
+   "en": "But when olfaction digitization is brought to the equivalent of 4K vision and audition that you have now, then it will be in medical diagnosis.",
+   "ko": "하지만 후각 디지털화가 지금의 4K 시각이나 청각과 동등한 수준으로 발전한다면 의료 진단에 활용될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2004.9,
+   "en": "Excuse me for the imagery, but you will have an electronic nose in your bathroom. Each one of us will have in the toilet. And it will be doing diagnostics all the time.",
+   "ko": "이런 묘사를 해서 실례합니다만, 화장실에 전자 코가 설치될 겁니다. 우리 모두의 변기에 설치되어 항상 진단을 수행하게 되겠죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2015.7,
+   "en": "And that's where it's going to go. But again, not anywhere in the very close future.",
+   "ko": "그것이 미래의 방향입니다. 하지만 다시 말씀드리지만 아주 가까운 미래에 일어날 일은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2022.9,
+   "en": "Noam, I want to say thank you for your time today. First of all, this was a tremendously interesting conversation.",
+   "ko": "노암, 오늘 시간 내주셔서 감사합니다. 무엇보다도 정말 엄청나게 흥미로운 대화였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2032.5,
+   "en": "We touched on so many things. Hormone smells, the architecture of the olfactory system.",
+   "ko": "호르몬 냄새부터 후각 시스템의 구조까지 정말 많은 것들을 다루었네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2037.3,
+   "en": "I know that people listening to this are realizing, but I'm going to say it anyway, what an incredible gift you've given us as an expert in this field, giving us this tour of the work that you and others who you've credited so generously have done and the spirit that you bring to it.",
+   "ko": "청취자분들도 느끼시겠지만, 이 분야의 전문가로서 박사님께서 직접 진행하신 연구와 동료들의 연구를 이렇게 투어하듯 들려주신 것, 그리고 그 과정에 담긴 열정은 정말 대단한 선물입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2056.1,
+   "en": "Whatever drives that spirit, as the great late Ben Barres used to say, keep going because we are all benefiting tremendously.",
+   "ko": "고(故) 벤 바레스 교수가 말했듯이 그 열정이 무엇이든 계속 나아가 주십시오. 우리 모두가 엄청난 혜택을 입고 있으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2063.2,
+   "en": "And I also just want to say that, you know, for people listening to this, the spirit of science is one of, as you mentioned, there's complex politics and all these things, but it's absolutely clear that you delight in the work you do.",
+   "ko": "또한 청취자분들께 말씀드리고 싶은 것은, 과학의 정신이란 복잡한 정치나 그런 것들도 있겠지만 박사님께서 자신의 일을 진심으로 즐거워하고 계신다는 점이 아주 분명하다는 사실입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2077.0,
+   "en": "And so I delight in it. I'm grateful for it. I'm grateful for your time today.",
+   "ko": "그래서 저도 즐겁습니다. 감사합니다. 오늘 시간 내주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2080.6,
+   "en": "And so on behalf of me and the many, many people listening to this, I just want to extend a huge debt of gratitude.",
+   "ko": "저와 이 방송을 듣고 계신 수많은 분을 대신하여 깊은 감사의 마음을 전합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2086.9,
+   "en": "Thank you so much. Thank you so much for very warm words.",
+   "ko": "정말 감사합니다. 따뜻한 말씀 감사합니다.",
+   "speaker": "Guest"
+  }
+ ]
+}
