@@ -75,7 +75,7 @@ class TestChain:
 
 class TestConfigFor:
     def test_gemini_25_gets_a_zero_budget(self):
-        assert fast_thinking("gemini-2.5-flash").thinking_budget == 0
+        assert fast_thinking("gemini-2.5-flash-lite").thinking_budget == 0
 
     def test_gemini_3_gets_minimal_level(self):
         # 3.5 Flash-Lite refuses thinking_budget=0 with a 400.
@@ -185,12 +185,16 @@ class TestGenerate:
         assert client.asked == ["gemini-3.8-flash"]
 
     def test_fast_settings_follow_the_model_that_answers(self):
-        client = FakeClient({m: RuntimeError(DAILY) for m in DEFAULT_CHAIN[:3]})
+        client = FakeClient({m: RuntimeError(DAILY) for m in DEFAULT_CHAIN[:-1]})
         generate(client, "hi", types.GenerateContentConfig(temperature=0.1), fast=True)
-        # 3.8 / 3.6 / 3-preview were asked with a level, 2.5-flash with a budget
-        assert client.asked[-1] == "gemini-2.5-flash"
+        # the Gemini 3 models were asked with a level, 2.5 Flash-Lite with a budget
+        assert client.asked[-1] == "gemini-2.5-flash-lite"
         assert client.configs[-1].thinking_config.thinking_budget == 0
         assert client.configs[0].thinking_config.thinking_budget is None
+
+    def test_gemini_25_flash_is_not_asked(self):
+        # From 2026-12-01 it is answered by 3.5 Flash-Lite, which refuses its budget.
+        assert "gemini-2.5-flash" not in DEFAULT_CHAIN
 
     def test_first_starts_there(self):
         client = FakeClient({})

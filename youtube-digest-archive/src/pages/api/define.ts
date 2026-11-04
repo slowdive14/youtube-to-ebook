@@ -56,7 +56,7 @@ Keep it concise. No English explanations.`;
 
   try {
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent?key=${apiKey}`,
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -65,7 +65,7 @@ Keep it concise. No English explanations.`;
           generationConfig: {
             temperature: 0.3,
             maxOutputTokens: isWord ? 512 : 1024,
-            thinkingConfig: { thinkingBudget: 0 },
+            thinkingConfig: { thinkingLevel: 'MINIMAL' },
           },
         }),
       }

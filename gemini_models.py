@@ -14,10 +14,16 @@ Measured on this project's free key on 2026-10-27:
   Flash-Lite, 1,550 on 3.8 Flash and 1,710 on 2.5 Flash. The pipeline is a
   morning batch nobody waits on, so it starts at the newest Flash and keeps
   Lite as the last resort. The site's routes, where a learner is waiting,
-  start at Flash-Lite instead (youtube-digest-archive/src/lib/gemini.ts).
+  use 3.5 Flash-Lite (youtube-digest-archive/src/pages/api/define.ts and
+  speak-feedback.ts).
 - 3.5 Flash-Lite refuses thinking_budget=0 with a 400. Gemini 3 models take
   thinking_level="minimal" instead, so `fast` requests are given whichever
   setting their model accepts.
+
+2.5 Flash left the chain on 2026-11-04: from 2026-12-01 Google answers it
+with 3.5 Flash-Lite, which is already in the chain, and which would refuse the
+zero thinking budget a `fast` request gives a 2.5 model (a 400 is fatal here,
+so the day's step would fail instead of moving on).
 """
 
 import os
@@ -29,7 +35,6 @@ DEFAULT_CHAIN = (
     "gemini-3.8-flash",
     "gemini-3.6-flash",
     "gemini-3-flash-preview",
-    "gemini-2.5-flash",       # served only to keys that used 2.5 before (this one did)
     "gemini-3.5-flash-lite",
     "gemini-3.1-flash-lite",
     "gemini-2.5-flash-lite",
