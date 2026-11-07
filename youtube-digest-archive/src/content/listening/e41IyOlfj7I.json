@@ -1,0 +1,1926 @@
+{
+ "id": "e41IyOlfj7I",
+ "title": "The laws of the universe are unable to explain these origin mysteries | Paul Davies: Full Interview",
+ "show": "The Big Think Interview",
+ "channel": "Big Think",
+ "videoUrl": "https://www.youtube.com/watch?v=e41IyOlfj7I",
+ "audioUrl": "https://traffic.megaphone.fm/APO2429667860.mp3",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource211/v4/82/7b/fc/827bfc8f-b7d0-a456-0f66-53cc2e463fd7/16a437b0-08c5-44c5-9e09-6251d7b70e08.jpg/600x600bb.jpg",
+ "duration": 3666,
+ "releaseDate": "2026-11-06T05:00:00Z",
+ "addedAt": "2026-11-06",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "My name is Paul Davies. I'm a theoretical physicist and cosmologist by profession.",
+   "ko": "제 이름은 폴 데이비스입니다. 저는 직업상 이론 물리학자이자 우주론자입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 4.8,
+   "en": "I'm a Regents Professor at Arizona State University, where I'm also the Director of the Beyond Center for Fundamental Concepts in Science. I've written over 30 books.",
+   "ko": "저는 애리조나 주립대학교의 리전트 교수이며, 그곳에서 과학의 기본 개념을 탐구하는 '비욘드 센터'의 소장이기도 합니다. 저는 30권 이상의 책을 집필했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 15.4,
+   "en": "The most recent is What's Eating the Universe and other cosmic questions and before that, the Demon in the Machine, which is all about the nature of life.",
+   "ko": "가장 최근 저서는 '우주를 먹어치우는 것은 무엇인가와 다른 우주적 질문들'이고, 그 전에는 생명의 본질에 관한 '기계 속의 악마'라는 책을 썼습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 32.2,
+   "en": "1. What is life? Definition and information?",
+   "ko": "1. 생명이란 무엇인가? 정의와 정보?",
+   "speaker": "Host"
+  },
+  {
+   "start": 37.2,
+   "en": "There are really three origin mysteries I like to say. There's the origin of the universe, the origin of life and the origin of consciousness.",
+   "ko": "제가 즐겨 말하는 세 가지 기원의 미스터리가 있습니다. 우주의 기원, 생명의 기원, 그리고 의식의 기원입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 45.5,
+   "en": "Now, most of my career I've been working in cosmology and I would say that we are trying to understand the origin of the universe pretty well.",
+   "ko": "제 경력의 대부분 동안 저는 우주론 분야에서 연구해 왔으며, 우리가 우주의 기원을 꽤 잘 이해하려고 노력하고 있다고 말할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 52.9,
+   "en": "The origin of consciousness is a really tough one because we don't even know how to frame the questions.",
+   "ko": "의식의 기원은 정말 어려운 문제인데, 질문을 어떻게 구성해야 할지도 모르기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 58.2,
+   "en": "We don't know the right conceptual structure to apply when it comes to the nature of consciousness. I think it's still deeply mysterious.",
+   "ko": "의식의 본질에 관해서는 어떤 개념적 구조를 적용해야 할지 모릅니다. 저는 그것이 여전히 깊은 미스터리라고 생각합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 68.0,
+   "en": "The origin of life is a tough one, but we're sort of on the case. And I can imagine that within a few decades we might have a pretty good understanding.",
+   "ko": "생명의 기원 또한 어려운 문제이지만, 우리는 어느 정도 그 사례를 파악하고 있습니다. 그리고 몇십 년 안에는 꽤 좋은 이해를 할 수 있을 것이라고 상상합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 76.3,
+   "en": "There's always a danger of getting hung up on the words and the definitions. There's a very famous definition of life which is based on the definition of pornography, I know it when I see it.",
+   "ko": "단어와 정의에 얽매일 위험은 항상 있습니다. 포르노그래피의 정의인 '보면 안다'에 기초한 매우 유명한 생명의 정의가 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 89.4,
+   "en": "But if you want a snappy definition, one that's quite popular at the moment is that life is chemistry plus information.",
+   "ko": "하지만 아주 명쾌한 정의를 원하신다면, 현재 꽤 인기 있는 정의 중 하나는 생명이란 화학에 정보를 더한 것이라는 점입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 97.9,
+   "en": "It's not like life is some sort of magic matter, or it's got some extremely rare ingredients.",
+   "ko": "생명이 무슨 마법 같은 물질이거나 매우 희귀한 성분을 가진 것은 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 105.5,
+   "en": "If you take human beings and break them down to their molecular structure and then try and sell the components on the open market, you wouldn't get more than a few cents for the stuff that we're made of.",
+   "ko": "인간을 분자 구조로 분해하여 그 구성 요소를 시장에 내다 판다면, 우리 몸을 구성하는 물질값으로 몇 센트도 받지 못할 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 120.5,
+   "en": "There's nothing very special or rare inside our bodies. So it's not what we're made of, not the hardware.",
+   "ko": "우리 몸 안에는 특별하거나 희귀한 것이 전혀 없습니다. 따라서 중요한 것은 우리가 무엇으로 만들어졌는가, 즉 하드웨어가 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 128.4,
+   "en": "It is really what we do, our behaviour. And that's where in the realm of what we'd call software.",
+   "ko": "중요한 것은 우리가 실제로 하는 일, 즉 우리의 행동입니다. 그것이 바로 우리가 소프트웨어라고 부르는 영역입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 135.7,
+   "en": "So I would express it this way, though it's sometimes in conflict.",
+   "ko": "그래서 저는 때로는 상충하기도 하지만 이렇게 표현하겠습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 144.8,
+   "en": "But I would say that the software aspect has really been rather neglected until recently when it comes to trying to understand the origin of life.",
+   "ko": "하지만 생명의 기원을 이해하려는 노력에 있어서 소프트웨어적인 측면은 최근까지 상당히 무시되어 왔다고 말씀드리고 싶습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 154.1,
+   "en": "But it's clear that to have a full understanding of life, we had to integrate those two. I think we are very far from having done that.",
+   "ko": "하지만 생명을 완전히 이해하기 위해서는 그 두 가지를 통합해야 한다는 것은 분명합니다. 제 생각에 우리는 아직 그렇게 하는 데서 매우 멀리 떨어져 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 161.9,
+   "en": "And the question of what is life, of course, is not a new one. It's not just part of the scientific era.",
+   "ko": "그리고 생명이란 무엇인가라는 질문은 물론 새로운 것이 아닙니다. 과학 시대의 산물만은 아니죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 168.3,
+   "en": "It goes back thousands of years in the history of philosophy. Because living things do stand out and they struck the early Greek philosophers as being something really special.",
+   "ko": "그것은 철학의 역사에서 수천 년 전으로 거슬러 올라갑니다. 생명체는 눈에 띄기 마련이고 초기 그리스 철학자들에게 정말 특별한 무언가로 다가왔기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 179.5,
+   "en": "For example, Aristotle had a thought about how to connect living organisms with the wider scheme of things.",
+   "ko": "예를 들어, 아리스토텔레스는 살아있는 유기체를 더 넓은 체계와 어떻게 연결할지에 대한 생각을 가지고 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 187.5,
+   "en": "And his view, the nature of causation was such that one could really attribute life like properties not just to living organisms themselves, but to the universe as a whole.",
+   "ko": "그의 견해에 따르면 인과관계의 본질은 단순히 살아있는 유기체뿐만 아니라 우주 전체에 생명과 같은 속성을 부여할 수 있는 그런 것이었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 199.4,
+   "en": "That is, when you drop a stone, it falls to the ground. Why is that?",
+   "ko": "즉, 돌을 떨어뜨리면 바닥으로 떨어집니다. 왜 그럴까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 204.0,
+   "en": "Not as we would think today because of the force of gravity, but because it had a natural place down there was trying to get to its natural place.",
+   "ko": "오늘날 우리가 생각하듯 중력 때문이 아니라, 그곳에 자연스러운 위치가 있고 그 자연스러운 위치로 돌아가려고 했기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 213.7,
+   "en": "And so in that sense, it was goal-oriented.",
+   "ko": "그래서 그런 의미에서 그것은 목표 지향적이었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 216.8,
+   "en": "And if we go back 100, 150 years, there was this notion that, well, you know, maybe life requires some additional force or an élan vital, as what it was expressed in French.",
+   "ko": "그리고 100년, 150년 전으로 거슬러 올라가면, 생명에는 어떤 추가적인 힘이나 프랑스어로 표현되는 '엘랑 비탈(élan vital)'이 필요할지도 모른다는 개념이 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 232.2,
+   "en": "So, something to animate the matter, that you might have complex matter, but you need to sort of have some other type of essence which would infuse it and would make it come alive and do its amazing things.",
+   "ko": "즉, 복잡한 물질이 있더라도 그것에 생기를 불어넣고 살아 움직이게 하며 놀라운 일을 하게 만드는 또 다른 유형의 정수가 필요하다는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 248.6,
+   "en": "And so that was known as vitalism, and over the years came to be associated with a number of other things in physics like electricity perhaps, or maybe radioactivity, or some mysterious force that we didn't yet fully understand.",
+   "ko": "그것이 생기론으로 알려지게 되었고, 세월이 흐르면서 전기나 방사능, 혹은 우리가 아직 완전히 이해하지 못한 어떤 신비로운 힘과 같은 물리학의 여러 다른 것들과 연관되기에 이르렀습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 268.3,
+   "en": "And those ideas I think became pretty thoroughly discredited.",
+   "ko": "그리고 제 생각에 그러한 생각들은 상당히 철저하게 불신받게 되었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 273.2,
+   "en": "Now, Darwin had a brilliant theory of how life evolves once it gets going on planet Earth, how it has evolved over billions of years to give us the complexity of the biosphere that we see today.",
+   "ko": "다윈은 생명체가 지구상에서 일단 시작되면 어떻게 진화하는지, 수십억 년에 걸쳐 어떻게 진화하여 오늘날 우리가 보는 생물권의 복잡성을 만들어냈는지에 대한 훌륭한 이론을 가지고 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 285.0,
+   "en": "But he wouldn't be drawn on how life got started in the first place. So addressing the question of what is life, you're inevitably come up against his question, well, how does non-life turn into life?",
+   "ko": "하지만 그는 처음에 생명이 어떻게 시작되었는지에 대해서는 언급하지 않았습니다. 그래서 생명이란 무엇인가라는 질문을 다룰 때, 여러분은 '생명이 아닌 것이 어떻게 생명으로 변하는가?'라는 그의 질문에 필연적으로 부딪히게 됩니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 295.7,
+   "en": "What is that extra special thing it acquires on that pathway? Darwin said, it's a wonderful quote, it's mere rubbish at this time talking of the origin of life. One might as well while talking about the origin of matter.",
+   "ko": "그 경로에서 얻게 되는 그 특별한 것은 무엇일까요? 다윈은 생명의 기원에 대해 말하는 것은 현시점에서 '그저 헛소리'일 뿐이며, 물질의 기원에 관해 이야기하는 것과 마찬가지라며 멋진 인용구를 남겼습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 308.5,
+   "en": "But by about the 1920s, there was increasing interest in what we might call the chemical pathway. I think it's pretty obvious that life is based on chemistry.",
+   "ko": "하지만 1920년대쯤 되자 우리가 화학적 경로라고 부를 수 있는 것에 대한 관심이 높아졌습니다. 생명이 화학에 기반하고 있다는 것은 꽤 분명하다고 생각합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 319.0,
+   "en": "So what sort of chemical magic took place to conjure life into being in the first stages? And there were attempts to cook up life in the lab.",
+   "ko": "그렇다면 초기 단계에서 생명을 탄생시키기 위해 어떤 화학적 마법이 일어났을까요? 그리고 실험실에서 생명을 만들어내려는 시도들이 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 330.8,
+   "en": "In the early 1950s, the chemist Harold Urey managed to interest a young student Stanley Miller in attempting to recreate the conditions on the early Earth.",
+   "ko": "1950년대 초, 화학자 해럴드 유리는 젊은 학생 스탠리 밀러에게 초기 지구의 조건을 재현해 보려는 시도에 관심을 갖게 했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 342.3,
+   "en": "They didn't really know what those conditions were, but they had a guess that there would be certain gases in the atmosphere and water and lightning and so on.",
+   "ko": "그들은 당시 조건이 어떠했는지 정확히 알지 못했지만, 대기 중에 특정한 가스와 물, 번개 등이 있었을 것이라고 추측했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 351.0,
+   "en": "And so Miller did this early experiment in which he put a number of gases in a flask and sparked electricity through it for a week and was gratified to find that the building blocks of proteins called amino acids, simple molecules, were made in this process.",
+   "ko": "그래서 밀러는 플라스크에 여러 가스를 넣고 일주일 동안 전기를 스파크시키는 초기 실험을 했고, 이 과정에서 아미노산이라 불리는 단백질의 구성 요소인 단순한 분자들이 만들어졌다는 사실을 발견하고 기뻐했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 371.2,
+   "en": "And there was sort of brown sludge in the bottom of the flask. And so that really looked like that was on the pathway to life. But again, you see this lack of definition of life.",
+   "ko": "플라스크 바닥에는 갈색 찌꺼기 같은 것이 생겼습니다. 그래서 그것은 정말로 생명으로 향하는 경로에 있는 것처럼 보였습니다. 하지만 다시 한번, 여기서 생명에 대한 정의의 부족함을 보게 됩니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 384.5,
+   "en": "It was an attempt to define life in terms of its chemical components, not in terms of what it does. So I would say that that was addressing the problem of the hardware of life, but not the software.",
+   "ko": "그것은 생명이 무엇을 하는가가 아니라 화학적 구성 요소의 관점에서 생명을 정의하려는 시도였습니다. 그래서 저는 그것이 생명의 하드웨어 문제는 다루었지만 소프트웨어 문제는 다루지 않았다고 말하겠습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 397.2,
+   "en": "And if we fast forward to today, I think this is still a very deep problem. If you want to focus a definition of life just on the hardware, just on its chemical components, well, we made a bit of progress.",
+   "ko": "오늘날로 빠르게 넘어가 보아도 이것은 여전히 매우 깊은 문제라고 생각합니다. 생명의 정의를 단순히 하드웨어, 즉 화학적 구성 요소에만 집중하고자 한다면 어느 정도 진전은 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 410.8,
+   "en": "Not much, I might say, from that early Miller-Urey experiment. People have gone on to do more of these prebiotic experiments, but they haven't got very far down that pathway to life.",
+   "ko": "초기 밀러-유리 실험 이후로 그리 많지는 않다고 말할 수 있겠네요. 사람들은 이러한 생명 발생 이전의 실험들을 계속해 왔지만, 생명으로 향하는 경로에서 그리 멀리 가지는 못했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 423.3,
+   "en": "Now, quantum mechanics, with its brilliant start in 1925, went on within a very few years to explain the nature of matter all the way from subatomic particles up to stars.",
+   "ko": "이제 1925년에 화려하게 시작된 양자 역학은 불과 몇 년 만에 아원자 입자에서 별에 이르기까지 물질의 본질을 설명해 나갔습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 436.9,
+   "en": "And Erwin Schrodinger, he was one of the founders of quantum mechanics, wrote a book called what is life.",
+   "ko": "그리고 양자 역학의 창시자 중 한 명인 에르빈 슈뢰딩거는 '생명이란 무엇인가'라는 책을 썼습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 441.8,
+   "en": "In his book, Schrodinger drew attention to the fact that life is, as I've stated in earlier, chemistry plus information, that the information content of life was key to how it operates.",
+   "ko": "그의 저서에서 슈뢰딩거는 제가 앞서 언급했듯이 생명은 화학에 정보를 더한 것이며, 생명의 정보 함량이 생명이 작동하는 방식의 핵심이라는 사실에 주목했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 454.4,
+   "en": "He was also very clear that for the stability of that information, one had to use quantum mechanics. He came up with a metaphor, which is a rather beautiful one, he said that this biological information would have to be stored in something like an aperiodic crystal.",
+   "ko": "그는 또한 그 정보의 안정성을 위해서는 양자 역학을 이용해야 한다는 점을 분명히 했습니다. 그는 다분히 아름다운 비유를 내놓았는데, 이 생물학적 정보가 '비주기적 결정'과 같은 곳에 저장되어야 한다고 말했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 471.3,
+   "en": "What does that mean? Well, a crystal is, of course, familiar to everybody. It's a very simple thing. It's a very stable structure.",
+   "ko": "그것이 무슨 뜻일까요? 결정은 물론 누구에게나 친숙합니다. 그것은 매우 단순하고 매우 안정적인 구조입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 477.2,
+   "en": "I think of a salt crystal. It's just a geometrically repeating pattern of atoms. No problem about that except that that can't store very much information because it's just too simple.",
+   "ko": "소금 결정을 생각해 보세요. 그것은 단순히 기하학적으로 반복되는 원자들의 패턴일 뿐입니다. 너무 단순해서 많은 정보를 저장할 수 없다는 점만 제외하면 아무런 문제가 없습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 487.9,
+   "en": "So he wanted something that had the stability of a crystal, but would not just have that simple periodicity, but have a vast number of alternative arrangements and permutations of its components.",
+   "ko": "그래서 그는 결정의 안정성을 가지면서도 단순한 주기성만 있는 것이 아니라 구성 요소의 엄청난 수의 대안적 배열과 치환을 가질 수 있는 것을 원했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 501.0,
+   "en": "So we had this idea of an aperiodic crystal. Didn't know at the time what that molecule might be, but it took Crick and Watson's famous analysis of DNA to declare that that was the life molecule.",
+   "ko": "그래서 그는 이 비주기적 결정이라는 아이디어를 냈습니다. 당시에는 그 분자가 무엇인지 몰랐지만, 크릭과 왓슨의 유명한 DNA 분석을 통해 그것이 생명의 분자임이 선언되었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 514.6,
+   "en": "And now we would say it contains the book of life, it codes the information that is necessary to build the organism in that aperiodic crystal called DNA.",
+   "ko": "이제 우리는 그것이 생명의 책을 담고 있으며, DNA라 불리는 그 비주기적 결정 속에 유기체를 구축하는 데 필요한 정보를 암호화하고 있다고 말합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 525.9,
+   "en": "I think the concept of information is absolutely critical to understanding the distinction between life and non-life.",
+   "ko": "저는 정보라는 개념이 생명과 무생물의 구분을 이해하는 데 절대적으로 중요하다고 생각합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 533.1,
+   "en": "People use this term information in a very informal way in daily life, and we have after all information technology. And so what is it, and why is it that this thing called information is the key to life?",
+   "ko": "사람들은 일상생활에서 정보라는 용어를 매우 비격식적인 방식으로 사용하며, 결국 우리에게는 정보 기술이 있습니다. 그렇다면 그것은 무엇이며, 왜 정보라고 불리는 이것이 생명의 열쇠일까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 547.4,
+   "en": "A pretty good general definition of information is reduction in uncertainty. Just give you a simple example.",
+   "ko": "정보에 대한 꽤 괜찮은 일반적인 정의는 불확실성의 감소입니다. 간단한 예를 하나 들어보겠습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 555.4,
+   "en": "You might flip a coin and may come down heads, may come down tails. You don't know which, but if you look and find out that uncertainty, 50-50, is reduced to our certain heads.",
+   "ko": "동전을 던지면 앞면이 나올 수도 있고 뒷면이 나올 수도 있습니다. 어느 쪽인지 알 수 없지만, 확인해서 그 50대 50의 불확실성이 확실한 앞면으로 줄어든다면 어떨까요.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 567.5,
+   "en": "That means you've acquired a bit of information. I use that word advisedly because the technical definition is indeed one bit. It's short for a binary digit.",
+   "ko": "그것은 여러분이 정보를 조금 얻었다는 뜻입니다. 제가 그 단어를 신중하게 사용한 이유는 기술적 정의가 실제로 '1비트'이기 때문입니다. 그것은 이진수의 약자입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 576.3,
+   "en": "And so the information from inspecting a flipped coin is one bit of reduction in your uncertainty.",
+   "ko": "따라서 던진 동전을 확인해서 얻는 정보는 여러분의 불확실성을 1비트 줄인 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 583.4,
+   "en": "And you can build upon that, and that's where quantifying information, and there's an entire branch of science and engineering information theory, which is just based on that rather austere definition.",
+   "ko": "그리고 이를 기반으로 정보를 수량화할 수 있으며, 그 다소 엄격한 정의에 기반한 정보 이론이라는 과학 및 공학의 전 분야가 존재합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 595.8,
+   "en": "But when it comes to life, it's very clear that there's something else involved. Because if we think, for example, of bacteria, you could take out its DNA, this is routinely done, you can edit that DNA and put it back and get the bacterium to do something a bit different.",
+   "ko": "하지만 생명에 있어서는 다른 무언가가 관여하고 있음이 매우 분명합니다. 예를 들어 박테리아를 생각해 보면, DNA를 추출할 수 있는데 이는 일상적으로 수행되는 작업이며, 그 DNA를 편집하여 다시 넣으면 박테리아가 조금 다른 일을 하게 만들 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 611.3,
+   "en": "But if you take out its DNA and just scramble it, just shuffle the base pairs of that DNA and put it back so that it's just gobbledygook, then the bacterium is in effect dead.",
+   "ko": "하지만 DNA를 꺼내서 마구 섞고, 그 DNA의 염기 쌍을 뒤섞어 다시 넣어서 아무 의미 없는 정보가 되게 한다면, 그 박테리아는 사실상 죽은 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 622.7,
+   "en": "I've got the same amount of information in the DNA, but it's not going to do anything and it will slowly just decompose. In other words, it's like a book.",
+   "ko": "DNA에는 같은 양의 정보가 들어있지만, 아무것도 하지 못하고 서서히 분해될 것입니다. 즉, 그것은 책과 같습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 630.9,
+   "en": "If you take the words in that book and then just shuffle them randomly and then you'd have a book with the same information content but it wouldn't mean anything. And that's the point about life.",
+   "ko": "책 속의 단어들을 무작위로 섞는다면 정보 함량은 같은 책이 되겠지만 아무런 의미가 없을 것입니다. 그리고 그것이 생명의 핵심입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 641.6,
+   "en": "The information in the DNA and I might say it's only a small part of the total information content of living organisms is a whole lot of what we call epigenetic information outside of DNA as well.",
+   "ko": "DNA 속의 정보는 살아있는 유기체의 전체 정보 함량 중 아주 작은 부분일 뿐이며, DNA 외부에도 소위 후성유전학적 정보라고 부르는 많은 정보가 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 652.7,
+   "en": "We take the whole thing. It is so effective because it means something. So that's the software component. That's been refined over billions of years.",
+   "ko": "우리는 그 전체를 봅니다. 그것이 의미를 갖기 때문에 매우 효과적인 것입니다. 그것이 바로 수십억 년 동안 다듬어진 소프트웨어 구성 요소입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 664.1,
+   "en": "It's an operating system. And when a bacterium divides and makes a new organism, when it replicates, it has to upload that information, that program into the progeny for the whole thing to function.",
+   "ko": "그것은 운영체제입니다. 박테리아가 분열하여 새로운 유기체를 만들 때, 즉 복제할 때 전체가 기능할 수 있도록 그 정보, 즉 프로그램을 자손에게 업로드해야 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 681.9,
+   "en": "So this is the way that life works. And without the instructions, it isn't life. It's just complex chemistry.",
+   "ko": "이것이 생명이 작동하는 방식입니다. 지시 사항이 없으면 그것은 생명이 아닙니다. 단지 복잡한 화학일 뿐입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 689.5,
+   "en": "So how did they come to exist in the first place? How did that genetic code arise? It's pretty clever, sophisticated sort of thing.",
+   "ko": "그렇다면 그것들은 처음에 어떻게 존재하게 되었을까요? 그 유전 암호는 어떻게 생겨났을까요? 그것은 꽤 영리하고 정교한 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 698.8,
+   "en": "What did it, was there a simpler precursor code? If you go back four billion years, whether organisms were using a doublet code instead of a triplet code, where there are less amino acids.",
+   "ko": "무엇이 그것을 만들었을까요, 더 단순한 선구자 암호가 있었을까요? 40억 년 전으로 거슬러 올라가면 유기체가 트리플렛 암호 대신 더 적은 아미노산이 있는 더블렛 암호를 사용했을지도 모릅니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 710.0,
+   "en": "But how did that notion of coded information come about in the first place?",
+   "ko": "하지만 암호화된 정보라는 개념은 처음에 어떻게 생겨났을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 716.3,
+   "en": "So I think that is, for me, the point about the origin of life is how did the molecules, the complex molecules that make up life, write their own code, their own computer code, because that's what it amounts to.",
+   "ko": "그래서 생명의 기원에 대한 저의 핵심적인 생각은, 생명을 구성하는 복잡한 분자들이 어떻게 자신들의 암호, 즉 컴퓨터 코드를 스스로 작성했느냐는 것입니다. 사실상 그것과 다름없으니까요.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 730.4,
+   "en": "How did that happen? I think that's a deep mystery. I don't think we've got anywhere close to understanding that particular step.",
+   "ko": "어떻게 그런 일이 일어났을까요? 저는 그것이 깊은 미스터리라고 생각합니다. 우리가 그 특정한 단계를 이해하는 데 조금이라도 근접했다고 생각하지 않습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 739.9,
+   "en": "But for me, if I think about what was the critical point in which you say, it's alive, in that pathway from just complex chemistry to a truly living thing.",
+   "ko": "하지만 저에게 있어서, 단순한 복잡한 화학에서 진정한 생명체로 넘어가는 그 경로에서 '이것은 살아있다'라고 말할 수 있는 임계점이 무엇인지 생각해 본다면 이렇습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 751.2,
+   "en": "It's at the point that you get that abstract mathematical code appearing. We don't know how that happened, but that would be the point for me, at which you would say it's the origin of life.",
+   "ko": "그것은 바로 추상적인 수학적 암호가 나타나는 시점입니다. 어떻게 그런 일이 일어났는지는 모르지만, 저에게는 그 시점이 생명의 기원이라고 말할 수 있는 지점일 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 763.7,
+   "en": "So if I stand back and look at the magic of life, the way it is performing its amazing feats, then it just seems to me that the correct words that come to my mind are information management.",
+   "ko": "그래서 한 걸음 물러서서 생명의 마법과 그것이 수행하는 놀라운 업적들을 바라보면 제 마음에 떠오르는 적절한 단어는 '정보 관리'인 것 같습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 780.5,
+   "en": "It's the way that the information is not just a headcount of bits, not just the content, but the way that information is managing or organizing or supervising what life does.",
+   "ko": "그것은 정보가 단순히 비트의 개수나 내용에 그치지 않고, 정보가 생명이 하는 일을 관리하거나 조직하거나 감독하는 방식을 의미합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 793.3,
+   "en": "And so that information has to be in a context. It's got to be embedded in a bigger system, and it has to have that biological functionality on that larger scale.",
+   "ko": "따라서 그 정보는 맥락 속에 있어야 합니다. 더 큰 시스템 안에 내장되어야 하며, 더 큰 규모에서 생물학적 기능을 가져야 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 806.3,
+   "en": "That's a very hard thing for physicists to think about, because we're used to understanding what goes on in the world in terms of forces and interactions and so on, by thinking locally, you know, what is happening at a particular point.",
+   "ko": "그것은 물리학자들이 생각하기에 매우 어려운 일입니다. 왜냐하면 우리는 특정 지점에서 일어나는 일, 즉 국소적으로 생각함으로써 세상에서 일어나는 일을 힘과 상호작용의 관점에서 이해하는 데 익숙하기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 820.8,
+   "en": "To give an example, you might shoot a proton at a nucleus and shatters the nucleus. And then how do we describe what goes on in that interaction?",
+   "ko": "예를 들어, 핵에 양성자를 쏘아 핵을 산산조각 낼 수 있습니다. 그렇다면 그 상호작용에서 일어나는 일을 어떻게 설명할까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 833.8,
+   "en": "Well, it's in terms of the forces concentrated in that nuclear volume. We wouldn't appeal to the entire lab when trying to figure out what's going on.",
+   "ko": "글쎄요, 그것은 그 핵의 부피에 집중된 힘의 관점에서 설명됩니다. 무슨 일이 일어나고 있는지 파악하려고 할 때 실험실 전체를 끌어들이지는 않겠죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 845.2,
+   "en": "But when it comes to biology, you have to look at the organism as a whole. It's the collective organization of the whole thing.",
+   "ko": "하지만 생물학에 있어서는 유기체를 전체로서 바라보아야 합니다. 그것은 전체의 집합적인 조직화입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 852.1,
+   "en": "And that's the difficulty. It's trying to understand how information embedded in the organism stored in the DNA and in other features of the organism as well can be deployed in a manner that supervises that overall organization.",
+   "ko": "그리고 그것이 어려운 점입니다. DNA와 유기체의 다른 특징들에 저장되어 내장된 정보가 어떻게 전반적인 조직을 감독하는 방식으로 배치될 수 있는지 이해하려고 노력하는 것이죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 870.2,
+   "en": "There are many, many examples that I could cite, but that's the gist of it. What is that semantic or meaningful or contextual information? That is information plus. It's not just a matter of bits.",
+   "ko": "제가 들 수 있는 예는 아주 많지만, 이것이 핵심입니다. 의미론적이거나 의미가 있거나 맥락적인 정보란 무엇일까요? 그것은 정보에 무언가를 더한 것입니다. 단순히 비트의 문제가 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 884.3,
+   "en": "So I've said several times that the information content of life is like the book of instructions, if you like, and the information management is in much more than the DNA.",
+   "ko": "그래서 저는 생명의 정보 함량이 일종의 지침서와 같으며, 정보 관리는 DNA 그 이상의 영역에 있다고 여러 번 말씀드렸습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 896.3,
+   "en": "And so we have this term, genetics, and the gene is a particular sequence of letters as in DNA, and we can think of that as genetic information.",
+   "ko": "그래서 우리에게는 유전학이라는 용어가 있고, 유전자는 DNA에 있는 특정한 글자 서열이며 이를 유전 정보라고 생각할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 905.3,
+   "en": "But it's very clear that there is a lot of other information which is called epigenetic. It just means outside of the genome. The question is, where is this information stored?",
+   "ko": "하지만 후성유전학이라고 불리는 다른 많은 정보가 있다는 것은 매우 분명합니다. 그것은 단지 게놈 외부를 의미합니다. 문제는 이 정보가 어디에 저장되어 있느냐는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 914.9,
+   "en": "There's networks of genes that switch each other on and off, and so these networks are one place that information can be stored.",
+   "ko": "서로를 켜고 끄는 유전자 네트워크가 있으며, 이 네트워크는 정보가 저장될 수 있는 한 장소입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 922.3,
+   "en": "There's another way which is the DNA just doesn't sort of sit there like you see in the textbooks. It's all folded up in complex patterns, and those patterns themselves can store information.",
+   "ko": "또 다른 방식은 DNA가 교과서에서 보는 것처럼 가만히 있는 게 아니라는 것입니다. 그것은 복잡한 패턴으로 모두 접혀 있으며, 그 패턴 자체에 정보를 저장할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 933.1,
+   "en": "But the question is really whether information outside of the genome can survive from one generation to the next. Can it be inherited?",
+   "ko": "하지만 진짜 질문은 게놈 외부의 정보가 한 세대에서 다음 세대로 살아남을 수 있느냐는 것입니다. 그것이 유전될 수 있을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 943.4,
+   "en": "Back in the 19th century, when it became clear that life has evolved over billions of years, there were rival theories about how this might happen.",
+   "ko": "생명체가 수십억 년 동안 진화해 왔다는 사실이 분명해진 19세기에, 이것이 어떻게 일어날 수 있는지에 대한 상충하는 이론들이 있었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 952.0,
+   "en": "And one of these is, of course, well known as Darwin's theory of random variation and natural selection. But the other was due to the French biologist Lamarck.",
+   "ko": "그중 하나는 물론 다윈의 무작위 변이와 자연 선택 이론으로 잘 알려져 있습니다. 하지만 다른 하나는 프랑스 생물학자 라마르크에 의한 것이었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 960.7,
+   "en": "And Lamarck had the idea that maybe characteristics that organisms acquired during their lifetime could somehow be passed on to their progeny and give you a sort of trivial example.",
+   "ko": "라마르크는 생명체가 일생 동안 획득한 형질이 어떻게든 자손에게 전달될 수 있다는 생각을 가졌는데, 간단한 예를 들어보겠습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 975.6,
+   "en": "Giraffes, long necks, they're stretching to get food higher and higher.",
+   "ko": "기린은 목이 긴데, 점점 더 높은 곳에 있는 먹이를 먹으려고 목을 뻗습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 980.0,
+   "en": "So maybe a giraffe that had to stretch its neck even higher during its lifetime and sort of acquired an elongated neck as a result, would then pass it on to its progeny.",
+   "ko": "그래서 일생 동안 목을 더 높이 뻗어야 했고 그 결과 길어진 목을 갖게 된 기린이 그 형질을 자손에게 물려준다는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 993.0,
+   "en": "So its babies would have longer necks than average. In other words, the characteristics you acquire during a lifetime will be passed on.",
+   "ko": "그러면 그 새끼들은 평균보다 더 긴 목을 갖게 될 것입니다. 즉, 일생 동안 얻은 형질이 전달된다는 것이죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1001.8,
+   "en": "And that theory fell out of favor. It seems very easy to find counter examples.",
+   "ko": "그리고 그 이론은 지지를 잃었습니다. 반례를 찾기가 매우 쉬워 보이기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1008.2,
+   "en": "Think for example of a blacksmith acquiring huge muscles by hammering away every day. Does the blacksmith have babies born with big muscles?",
+   "ko": "예를 들어, 매일 망치질을 해서 거대한 근육을 갖게 된 대장장이를 생각해 보세요. 그 대장장이가 큰 근육을 가지고 태어나는 아기를 낳을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1019.8,
+   "en": "Well, the answer is no. It looks like the genes in the blacksmith, if you like, are sort of fixed early on and passed on to the offspring and have nothing to do with the activity of the blacksmith in his lifetime.",
+   "ko": "답은 아니오입니다. 대장장이의 유전자는 일찍이 고정되어 자손에게 전달되는 것처럼 보이며, 대장장이가 평생 동안 하는 활동과는 아무런 관련이 없습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1039.0,
+   "en": "And this is a rather controversial subject. It's called epigenetic inheritance.",
+   "ko": "그리고 이것은 다소 논란이 되는 주제입니다. 그것은 '후성유전'이라고 불립니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1045.1,
+   "en": "Now, it's very clear you can work at the cellular level, you know, a skin cell can make a skin cell and a liver cell can make a liver cell and so on. So it's identity.",
+   "ko": "이제 세포 수준에서는 매우 분명하게 작용합니다. 피부 세포는 피부 세포를 만들 수 있고 간 세포는 간 세포를 만들 수 있는 식이죠. 그것은 정체성입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1054.5,
+   "en": "They have identical DNA, but the identity, the gene expression is different in these different cells, and yet it can be passed on. But can you have intergenerational epigenetic inheritance?",
+   "ko": "그것들은 동일한 DNA를 가지고 있지만, 서로 다른 세포에서 유전자 발현이라는 정체성은 다르며 그것은 전달될 수 있습니다. 하지만 세대 간 후성유전이 가능할까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1068.2,
+   "en": "Well, I mean by that, is it possible for an organism to pass on some of the information, not in its genes, but in the body as a whole, pass that on to its progeny. Very controversial.",
+   "ko": "제 말은, 유기체가 유전자가 아닌 신체 전체에 있는 정보의 일부를 자손에게 전달하는 것이 가능하냐는 것입니다. 매우 논란이 많습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1083.0,
+   "en": "Clearly happens in plants, but what about people? You know, is it the case that what you do in your lifetime might affect your children whether they be taller or shorter or thinner or fatter or even their behavior.",
+   "ko": "식물에게는 분명히 일어나지만, 사람은 어떨까요? 여러분이 일생 동안 하는 일이 자녀가 더 크거나 작거나, 마르거나 뚱뚱해지는 것, 혹은 그들의 행동에까지 영향을 미칠 수 있을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1100.3,
+   "en": "Is that possible? There's a little bit of evidence that it might be, but it's contentious.",
+   "ko": "그것이 가능할까요? 그럴 수도 있다는 증거가 조금은 있지만 논쟁의 여지가 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1106.8,
+   "en": "As you might imagine, anything involving human beings becomes a very contentious issue. And then the problem is the mechanism. How would that be passed on through the eggs and the sperm?",
+   "ko": "짐작하시겠지만, 인간과 관련된 모든 일은 매우 논쟁적인 이슈가 됩니다. 그리고 문제는 메커니즘입니다. 그것이 어떻게 난자와 정자를 통해 전달될 수 있을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1117.7,
+   "en": "Is it possible that they could carry with them something other than the DNA, some chemical or structural information that would affect how the children develop? It seems like an open question.",
+   "ko": "그것들이 DNA 외에 아이들이 어떻게 발달하는지에 영향을 줄 수 있는 어떤 화학적 또는 구조적 정보를 가지고 있을 가능성이 있을까요? 그것은 열린 질문인 것 같습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1130.6,
+   "en": "I can be convinced. I know of some experiments with mice that show that it is possible, even through the male line, the sperm, for the progeny to be influenced in some way by the experiences of the fathers, in that case.",
+   "ko": "저는 납득할 수 있습니다. 쥐를 대상으로 한 몇몇 실험을 알고 있는데, 그 경우 아비의 경험에 의해 정자라는 부계 라인을 통해서도 자손이 어떤 방식으로든 영향을 받을 수 있음을 보여줍니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1147.5,
+   "en": "So it's easy to think of ways in which this might happen. There's some amazing experiments by Michael Levin and his colleagues at Tufts University using planaria, they're very popular because it's called a head and a tail.",
+   "ko": "그래서 이런 일이 일어날 수 있는 방식을 생각하기란 쉽습니다. 터프츠 대학교의 마이클 레빈과 그의 동료들이 수행한 놀라운 실험이 있는데, 머리와 꼬리가 있다고 불려 매우 인기 있는 플라나리아를 이용한 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1163.0,
+   "en": "And if you chop a worm in two, the head grows a tail and the tail grows a head. So you've then got two worms for the price of one and you can go on doing that sort of chopping them up.",
+   "ko": "벌레를 둘로 자르면 머리 쪽에서는 꼬리가 자라고 꼬리 쪽에서는 머리가 자랍니다. 그래서 한 마리 가격에 두 마리의 벌레를 얻게 되며, 그런 식으로 계속해서 잘라나갈 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1172.9,
+   "en": "In fact you can chop a worm like that up into you know hundred different sections. And somehow these sections remember which was the front and which was the back and they grow into a hundred different worms and that's all very amazing.",
+   "ko": "사실 그런 벌레 한 마리를 백 개의 서로 다른 부분으로 자를 수 있고, 웬일인지 이 부분들은 어디가 앞이고 어디가 뒤였는지를 기억하여 백 마리의 서로 다른 벌레로 자라나는데, 이 모든 것이 매우 놀랍습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1186.9,
+   "en": "Now you can chemically manipulate them such that you can make two headed worms and two tailed worms. But now you ask the question, what happens if you chop a two-headed worm in half?",
+   "ko": "이제 그것들을 화학적으로 조작해서 머리가 둘인 벌레와 꼬리가 둘인 벌레를 만들 수 있습니다. 하지만 이제 질문을 던져보죠. 머리가 둘인 벌레를 반으로 자르면 어떻게 될까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1199.1,
+   "en": "Does that reconstitute the original worm? Two worms now with a head and a tail.",
+   "ko": "그것이 원래의 벌레로 재구성될까요? 머리와 꼬리가 있는 두 마리의 벌레가 될까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1204.7,
+   "en": "Now, it turns out that the two-headed worm makes two more, two-headed worms. In other words, it's like a new lineage.",
+   "ko": "알고 보니 머리가 둘인 벌레는 두 마리의 머리 둘 달린 벌레를 더 만듭니다. 즉, 그것은 새로운 혈통과 같습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1211.5,
+   "en": "And so, in a lab across town, you can have a whole population of two-tailed worms, and in your lab you've got a whole population of two-headed worms. You might think these are different species, but they have identical DNA.",
+   "ko": "그래서 옆 동네 실험실에는 꼬리 둘 달린 벌레 개체군 전체가 있을 수 있고, 여러분의 실험실에는 머리 둘 달린 벌레 개체군 전체가 있을 수 있습니다. 여러분은 이것들이 서로 다른 종이라고 생각할 수도 있지만, 그것들은 동일한 DNA를 가지고 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1223.5,
+   "en": "So this shows that the morphology, the actual, the phenotype is the term that biologists use for these worms depends on much more than the DNA content.",
+   "ko": "이는 형태학, 즉 생물학자들이 이 벌레들에 대해 사용하는 용어인 실제 표현형이 DNA 함량 그 이상의 것에 달려 있음을 보여줍니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1235.7,
+   "en": "It's that information is somehow stored, possibly electrically, possibly chemically. It's not really understood.",
+   "ko": "그 정보가 전기적이든 화학적이든 어떤 방식으로든 저장되어 있는 것입니다. 아직 제대로 이해되지 않았습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1242.7,
+   "en": "Somehow stored and can reconstitute the worms into that particular shape afterwards.",
+   "ko": "그것은 어찌 됐든 저장되어 나중에 벌레들을 그 특정한 모양으로 재구성할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1249.7,
+   "en": "So that's a clue that in just focusing on genes, we're missing a big part of the picture.",
+   "ko": ""
+  },
+  {
+   "start": 1260.4,
+   "en": "Chapter two, life, entropy, and the laws we're missing.",
+   "ko": "제2장, 생명, 엔트로피, 그리고 우리가 놓치고 있는 법칙들.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1266.3,
+   "en": "There was a famous scientist called Rolf Landauer who uttered the phrase, information is physical, and it stuck in my mind and in the minds of a lot of other people.",
+   "ko": "롤프 란다우어라는 유명한 과학자가 '정보는 물리적이다'라는 말을 남겼는데, 그것이 제 마음과 다른 많은 사람의 마음속에 각인되었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1275.6,
+   "en": "Inasmuch as we can talk about information in the abstract just as you go into a computer sciences department, you talk to a software engineer on their writing of this computer code and they'll talk about it as if it's a separate thing.",
+   "ko": "여러분이 컴퓨터 과학과에 가서 소프트웨어 엔지니어가 작성 중인 컴퓨터 코드에 대해 이야기할 때 그것을 별개의 것인 양 추상적으로 이야기할 수 있는 것과 마찬가지입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1294.0,
+   "en": "But of course, it always has to be instantiated in material, some sort of material substrate. And so information isn't something that can just sort of float around in the ether on its own, doing its own thing.",
+   "ko": "하지만 물론 그것은 항상 물질, 즉 일종의 물질적 기질에 구체화되어야 합니다. 따라서 정보는 스스로 무언가를 하며 에테르 속을 그냥 떠다닐 수 있는 것이 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1306.7,
+   "en": "It's got to be instantiated in matter. So then we come up against this very interesting thing. The matter does what matter has to do.",
+   "ko": "그것은 물질 속에 구현되어야 합니다. 그래서 우리는 이 매우 흥미로운 사실에 직면하게 됩니다. 물질은 물질이 해야 할 일을 한다는 것이죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1315.1,
+   "en": "It's got laws of physics that describe how it should behave. And we can't say, oh, just because it's encoding information, it's going to behave differently.",
+   "ko": "그것은 어떻게 행동해야 하는지를 설명하는 물리학 법칙을 가지고 있습니다. 단지 정보를 인코딩하고 있다는 이유만으로 그것이 다르게 행동할 것이라고 말할 수는 없습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1325.6,
+   "en": "These laws are mathematical relationships. And that's a really important point to get across.",
+   "ko": "이 법칙들은 수학적 관계입니다. 그리고 그것은 꼭 전달해야 할 정말 중요한 포인트입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1331.3,
+   "en": "So when physicists talk about laws, they don't just mean ways of thinking about the world. They mean organizing principles, which are mathematical relationships.",
+   "ko": "따라서 물리학자들이 법칙을 말할 때는 단순히 세상을 생각하는 방식을 의미하는 것이 아닙니다. 수학적 관계인 조직화 원리를 의미합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1341.7,
+   "en": "To give you a simple example, you might want to play chess on your computer. The shapes on the screen move around according to the laws of chess.",
+   "ko": "간단한 예를 들어보자면, 컴퓨터로 체스를 두고 싶을 때 화면 위의 모양들은 체스 법칙에 따라 움직입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1350.6,
+   "en": "Or does that mean that down among the circuitry, you've got the laws of physics sort of squabbling with the laws of chess? Well, who's going to win here?",
+   "ko": "그렇다고 해서 회로 아래쪽에서 물리학 법칙이 체스 법칙과 다투고 있다는 뜻일까요? 자, 여기서 누가 이길까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1359.7,
+   "en": "Of course, because it's perfectly consistent. It's just that the laws of physics, we come back to this, that operate locally, the standard laws of physics we understand, and local effects,",
+   "ko": "물론이죠, 그것은 완벽하게 일관되기 때문입니다. 우리가 이해하는 표준 물리학 법칙인 국소적으로 작용하는 물리학 법칙과 국소적 효과들로 다시 돌아가 봅시다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1370.5,
+   "en": "the laws of chess have to do with the overall organization of the shapes on the screen and the rules of the game and so on.",
+   "ko": "체스의 법칙은 화면 위 모양들의 전반적인 조직화와 게임의 규칙 등과 관련이 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1378.6,
+   "en": "And so we're dealing here, we're trying to understand if we want to reconcile, if we're talking about life or consciousness, we want to reconcile laws which describe the global or the context or the overall arrangement of things with the local laws at the bottom.",
+   "ko": "그래서 우리는 여기서 생명이나 의식에 관해 이야기할 때, 사물의 전역적 혹은 맥락적 혹은 전반적인 배치를 설명하는 법칙과 바닥에 깔린 국소적 법칙을 화해시키려 노력하고 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1395.0,
+   "en": "Some people think that the mystery of life is all about the second law of thermodynamics and it's going against the trend from order to chaos here, living organisms.",
+   "ko": "어떤 사람들은 생명의 신비가 열역학 제2법칙에 관한 모든 것이며, 살아있는 유기체가 질서에서 혼돈으로 가는 경향을 거스르고 있다고 생각합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1406.1,
+   "en": "The other way they create order out of order.",
+   "ko": "다른 방식으로 그들은 질서로부터 질서를 만들어냅니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1408.6,
+   "en": "And that has suggested to some non-scientists that there's some sort of mystical mysterious extra ingredient or a life force or something sort of spiritual or the guiding hand of a deity or something which is bringing these effects about.",
+   "ko": "그래서 일부 비과학자들에게는 이러한 효과를 가져오는 어떤 신비롭고 불가사의한 추가 성분이나 생명력, 혹은 영적인 것이나 신의 인도 같은 것이 있다는 생각을 하게 했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1425.4,
+   "en": "That's a total misunderstanding of the laws of thermodynamics. I must emphasize that living organisms are open systems.",
+   "ko": "그것은 열역학 법칙을 완전히 오해한 것입니다. 저는 살아있는 유기체가 열린 시스템이라는 점을 강조해야겠습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1434.9,
+   "en": "The second law strictly stated, says that in a closed system, the entropy can never go down, but living organisms are not closed systems.",
+   "ko": "엄밀히 말하면 제2법칙은 닫힌 시스템에서 엔트로피는 결코 감소할 수 없다고 말하지만, 살아있는 유기체는 닫힌 시스템이 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1444.0,
+   "en": "There is a throughput of energy and material from their environment. And if you like, the way to put it is that they can export their entropy or their chaos into the wider environment.",
+   "ko": "환경으로부터 에너지와 물질이 유입되기 때문입니다. 달리 말하자면, 그들은 자신의 엔트로피나 혼돈을 더 넓은 환경으로 배출할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1457.4,
+   "en": "So when we eat food, this helps us maintain our own internal order, but we're breaking the food down and acquiring the food in the first place, we're creating a lot of chaos and disorder in the surrounding environment.",
+   "ko": "그래서 우리가 음식을 먹을 때, 이것은 우리 자신의 내부 질서를 유지하는 데 도움이 되지만, 음식을 분해하고 애초에 음식을 얻는 과정에서 주변 환경에 많은 혼돈과 무질서를 만들어냅니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1473.5,
+   "en": "I should say that this is not deeply mysterious. My refrigerator can perform a similar feat because one of the best expressions of the second law of thermodynamics is that heat flows from hot to cold spontaneously.",
+   "ko": "이것은 결코 깊이 신비로운 일이 아니라고 말하고 싶습니다. 제 냉장고도 비슷한 일을 수행할 수 있는데, 왜냐하면 열역학 제2법칙의 가장 좋은 표현 중 하나는 열이 뜨거운 곳에서 차가운 곳으로 자발적으로 흐른다는 것이기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1489.0,
+   "en": "Now my refrigerator, of course, does exactly what I've said is against the second law of thermodynamics. It takes heat from inside the refrigerator and pumps it out into the kitchen,",
+   "ko": "물론 제 냉장고는 제가 방금 말한 열역학 제2법칙에 어긋나는 일을 정확히 수행합니다. 냉장고 내부에서 열을 빼앗아 주방으로 뿜어냅니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1499.6,
+   "en": "which is taking heat from a cold region and putting it out into the hot region, going against the trend of the second law of thermodynamics.",
+   "ko": "즉, 차가운 영역에서 열을 가져와 뜨거운 영역으로 내보냄으로써 열역학 제2법칙의 경향을 거스르는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1507.4,
+   "en": "But it can do that because I'm paying the electricity bills for it to happen. You see, it's not happening spontaneously.",
+   "ko": "하지만 그것이 가능한 이유는 제가 전기 요금을 지불하기 때문입니다. 보시다시피 그것은 자발적으로 일어나는 것이 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1513.2,
+   "en": "If you take the system as a whole, that includes the electricity supply and the generator across town, all of that means that the entropy goes up. But locally, it can go down.",
+   "ko": "전기 공급과 저 멀리 있는 발전기를 포함하여 시스템 전체를 본다면, 그 모든 것은 엔트로피가 증가함을 의미합니다. 하지만 국소적으로는 감소할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1523.8,
+   "en": "We can think of living organisms as just sort of little entropy wells if you like. They can achieve this going against the second law, but at the expense of the wider environment.",
+   "ko": "우리는 살아있는 유기체를 일종의 작은 엔트로피 우물로 생각할 수 있습니다. 그들은 더 넓은 환경을 희생하여 제2법칙을 거스르는 일을 해낼 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1535.4,
+   "en": "Now the way I have thinking about life and the second law of thermodynamics is that information is like negative entropy that if you gain information about something you're reducing the amount of chaos or disorder.",
+   "ko": "이제 생명과 열역학 제2법칙에 대해 생각해보면, 정보는 마이너스 엔트로피와 같아서 무언가에 대한 정보를 얻으면 혼돈이나 무질서의 양을 줄이게 된다는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1548.5,
+   "en": "And one of the founders of thermodynamics, James Maxwell, came up with a curious idea in a letter to a friend in which he imagined a box of gas with a membrane in the middle, and a little hole in that membrane.",
+   "ko": "열역학의 창시자 중 한 명인 제임스 맥스웰은 친구에게 보낸 편지에서 가운데에 막이 있고 그 막에 작은 구멍이 있는 가스 상자를 상상하며 기묘한 아이디어를 냈습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1563.2,
+   "en": "And then one of those molecules would go through the hole and go to the other side of the box and vice versa. And in equilibrium, there'd be a traffic in both directions that were balanced out.",
+   "ko": "그리고 그 분자들 중 하나가 구멍을 통해 상자의 반대편으로 가고 그 반대도 마찬가지일 것입니다. 평형 상태에서는 양방향의 이동이 균형을 이룰 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1573.6,
+   "en": "But now imagine he said that you had a little creature later came to be called a demon who could operate a shutter mechanism and could see the molecules coming along",
+   "ko": "하지만 이제 그는 셔터 메커니즘을 작동시킬 수 있고 다가오는 분자들을 볼 수 있는, 나중에 '악마'라고 불리게 된 작은 생명체가 있다고 상상해 보라고 했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1584.4,
+   "en": "and supposing the demon saw a fast-moving molecule coming from one side of the box and would think yes I'll open the shutter and let that one go through but the slow-moving molecules will be rejected.",
+   "ko": "그리고 악마가 상자 한쪽에서 빠르게 움직이는 분자가 오는 것을 보고 '그래, 셔터를 열어서 저 분자를 통과시켜야지'라고 생각하지만, 느리게 움직이는 분자들은 거부한다고 가정해 봅시다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1598.3,
+   "en": "Then over time there'd be an accumulation of fast-moving molecules on the other side of the membrane, which in terms of temperature would mean a higher temperature.",
+   "ko": "그러면 시간이 흐름에 따라 막의 반대편에 빠르게 움직이는 분자들이 축적될 것이고, 이는 온도의 관점에서 더 높은 온도를 의미할 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1607.6,
+   "en": "The molecules jiggling faster means it's hotter on that side. So the demon would be able to create a temperature difference between the two sides in complete violation of the second law of thermodynamics.",
+   "ko": "분자들이 더 빠르게 흔들린다는 것은 그쪽이 더 뜨겁다는 뜻입니다. 따라서 악마는 열역학 제2법칙을 완전히 위반하며 양쪽 사이에 온도 차이를 만들 수 있게 됩니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1619.5,
+   "en": "It says heat goes from hot to cold. This is an example of it being pushed in the other direction, not by paying electricity bills for a refrigerator, which does the same, but by using the information about the molecular motions.",
+   "ko": "법칙은 열이 뜨거운 곳에서 차가운 곳으로 흐른다고 말합니다. 이것은 냉장고처럼 전기료를 내는 것이 아니라 분자 운동에 대한 정보를 이용해 반대 방향으로 밀어붙이는 예입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1636.0,
+   "en": "What this suggests is that information is a type of fuel.",
+   "ko": "이것이 시사하는 바는 정보가 일종의 연료라는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1639.5,
+   "en": "It's something which could be used to in principle create a little engine, you create a temperature difference and then you could run a motor of a temperature difference entirely from the power of information, that information is a fuel.",
+   "ko": "원칙적으로 작은 엔진을 만드는 데 사용될 수 있는 것으로, 온도 차이를 만들고 오로지 정보의 힘으로 그 온도 차이를 이용해 모터를 돌릴 수 있다는 것이니 정보는 연료입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1656.1,
+   "en": "Now, the interesting thing is that nature discovered Maxwell's demons billions of years ago because our bodies are full of them. They're sort of chattering away inside us.",
+   "ko": "이제 흥미로운 점은 자연이 수십억 년 전에 맥스웰의 악마를 발견했다는 것인데, 우리 몸이 그것들로 가득 차 있기 때문입니다. 그것들은 우리 안에서 쉬지 않고 일하고 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1667.2,
+   "en": "They're pumps and levers and all sorts of little mechanisms, little engines and so on that are carrying out these operations, playing the margins of the Second Law of Thermodynamics.",
+   "ko": "그것들은 펌프와 레버, 그리고 이러한 작업을 수행하는 온갖 작은 메커니즘과 엔진들로서 열역학 제2법칙의 한계 지점에서 활동하고 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1682.1,
+   "en": "I must emphasize they don't violate the Second Law of Thermodynamics, but they come very close to what we might regard as perfection, very close to the theoretical limit permitted by the Second Law of Thermodynamics.",
+   "ko": "강조하건대 그것들이 열역학 제2법칙을 위반하는 것은 아니지만, 우리가 완벽하다고 간주할 수 있는 수준에 매우 근접하며, 열역학 제2법칙이 허용하는 이론적 한계에 매우 가깝습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1698.2,
+   "en": "So life has refined this information processing or information as fuel right down to the point of having lots of legions of these little molecular machines which are effectively Maxwell demons carrying out the business of life.",
+   "ko": "그래서 생명은 이 정보 처리, 즉 연료로서의 정보를 정교하게 다듬어 사실상 생명의 업무를 수행하는 맥스웰의 악마인 수많은 분자 기계 군단을 보유하게 되었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1713.9,
+   "en": "And the universe as a whole is undoubtedly on a one-way slide to a higher and higher entropy state, less and less useful sources of energy. And that's a cosmological story.",
+   "ko": "그리고 우주 전체는 의심할 여지 없이 점점 더 높은 엔트로피 상태, 즉 유용한 에너지원이 점점 더 적어지는 방향으로 일방통행 중입니다. 그것이 우주론적인 이야기입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1726.4,
+   "en": "So life is not going against the trend of the Second Law of Thermodynamics, it's simply playing the margins of it.",
+   "ko": "따라서 생명은 열역학 제2법칙의 경향을 거스르는 것이 아니라, 단순히 그 한계 지점에서 활동하고 있는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1733.8,
+   "en": "And if I might just back up and say that we talked earlier about Schrödinger. Schrödinger wrote this remarkable book, What Is Life?",
+   "ko": "잠시 뒤로 돌아가서 우리가 앞서 슈뢰딩거에 대해 이야기했다는 점을 말씀드리고 싶습니다. 슈뢰딩거는 '생명이란 무엇인가'라는 이 주목할 만한 책을 썼습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1740.8,
+   "en": "And in it, he said, we must be prepared to find a new kind of physical law operating in it. The operative word there is kind, not just a new physical law.",
+   "ko": "그 책에서 그는 우리가 생명체 안에서 작동하는 새로운 종류의 물리 법칙을 발견할 준비를 해야 한다고 말했습니다. 여기서 핵심 단어는 단순한 '새로운 물리 법칙'이 아니라 '새로운 종류'입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1751.4,
+   "en": "In other words, he wasn't saying, well, there's all the laws of physics we know and there would be one that we haven't discovered yet that will explain life. It would be a new kind of law.",
+   "ko": "즉, 그는 우리가 아는 모든 물리학 법칙 외에 생명을 설명할 아직 발견되지 않은 법칙이 하나 더 있을 것이라고 말한 것이 아닙니다. 그것은 새로운 종류의 법칙일 것이라는 뜻이었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1762.3,
+   "en": "And I've taken that very seriously during my career. And I think that it does need a new kind of law. It doesn't just need another force or something of that sort.",
+   "ko": "그리고 저는 제 경력 동안 그 말을 매우 진지하게 받아들였습니다. 그리고 정말로 새로운 종류의 법칙이 필요하다고 생각합니다. 단순히 또 다른 힘이나 그런 것이 필요한 게 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1771.9,
+   "en": "What it needs is a new concept of law.",
+   "ko": "필요한 것은 법칙에 대한 새로운 개념입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1777.0,
+   "en": "And it's something which I've already hinted at, that the way information and matter, the hardware and the software, the way they interact in living organisms, we don't have any sort of law-like framework on a general basis for describing that.",
+   "ko": "그리고 그것은 제가 이미 암시했듯이, 정보와 물질, 하드웨어와 소프트웨어가 살아있는 유기체에서 상호작용하는 방식을 설명할 수 있는 일반적인 법칙과 같은 틀이 우리에게 없다는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1794.3,
+   "en": "We do need something that would put that biological information in context. That is, I've explained how a gene is a set of instructions for a particular molecular system to do something like make a protein.",
+   "ko": "우리는 그 생물학적 정보를 맥락 속에 놓을 수 있는 무언가가 필요합니다. 즉, 제가 유전자가 단백질을 만드는 것과 같은 일을 하기 위한 특정 분자 시스템의 지침 세트라고 설명한 것처럼 말이죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1810.5,
+   "en": "It has biological functionality. We have to relate the global context of the organism to the local instruction set.",
+   "ko": "그것은 생물학적 기능을 가집니다. 우리는 유기체의 전역적인 맥락을 국소적인 지침 세트와 연관시켜야 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1819.9,
+   "en": "If we talk about law and gravitational or something, why does an object fall? It's because the gravitational field at this point is acting on it. It's a local thing.",
+   "ko": "우리가 중력 법칙 같은 것에 대해 이야기할 때, 물체는 왜 떨어질까요? 그것은 이 지점의 중력장이 물체에 작용하기 때문입니다. 그것은 국소적인 일입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1828.8,
+   "en": "When we're talking about living organisms, somehow we have to take into account the organization of the entire system, the context of the assemblage. And we've got to embed that in some sort of new type of physical law.",
+   "ko": "살아있는 유기체에 관해 이야기할 때, 우리는 어떻게든 전체 시스템의 조직화, 즉 집합체의 맥락을 고려해야 합니다. 그리고 우리는 그것을 어떤 새로운 유형의 물리 법칙에 담아내야 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1844.1,
+   "en": "I think we're not going to do this just by inventing new local laws. We've got to have a new way of thinking about laws.",
+   "ko": "단순히 새로운 국소적 법칙을 발명하는 것만으로는 이 일을 해낼 수 없다고 생각합니다. 법칙에 대한 새로운 사고방식이 필요합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1850.2,
+   "en": "Laws of physics at the bottom level with some higher level laws of organization at the top level. We've got to mesh these two in some way.",
+   "ko": "바닥 수준의 물리 법칙과 최상위 수준의 어떤 고차원적인 조직화 법칙이 있어야 합니다. 우리는 이 둘을 어떤 식으로든 맞물리게 해야 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1859.0,
+   "en": "The people have tried. I mean, I'm not saying this is a lost cause in lots of attempts to describe what is often called top-down causation,",
+   "ko": "사람들이 시도해 왔습니다. 소위 하향식 인과관계라고 불리는 것을 설명하려는 많은 시도가 헛수고라고 말하는 것은 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1869.5,
+   "en": "what's happening at the global level, it's affecting what's happening at the local level, you can write down equations and things and some of these are moderately successful,",
+   "ko": "전역적인 수준에서 일어나는 일이 국소적인 수준에서 일어나는 일에 영향을 미치는 것에 대해 방정식을 세울 수도 있고, 그중 일부는 어느 정도 성공적이기도 합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1878.7,
+   "en": "but I don't think we've really understood at a truly fundamental level how the higher levels of organization and the lower levels of the laws of physics really meshed together in a fundamental way, in a general sense.",
+   "ko": "하지만 고차원의 조직화 수준과 저차원의 물리 법칙이 어떻게 일반적인 의미에서 근본적으로 맞물리는지 진정으로 이해했다고는 생각하지 않습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1894.7,
+   "en": "There are some ideas sloshing around, I won't get into them that are a bit technical. This is all very tentative, but I think we're never going to probably explain life without having that new kind of physical law as Schrodinger was asking for.",
+   "ko": "몇 가지 아이디어가 떠돌고 있지만, 기술적인 내용이라 들어가지는 않겠습니다. 이 모든 것은 매우 조심스럽지만, 슈뢰딩거가 요청했던 그 새로운 종류의 물리 법칙 없이는 아마 생명을 설명하지 못할 것이라고 생각합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1914.2,
+   "en": "Chapter 3. Are We Alone? The Search for a Second Genesis?",
+   "ko": "제3장. 우리는 혼자인가? 제2의 창세기를 찾아서.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1919.1,
+   "en": "Part of the problem about coming up with the definition of life and the origin of life is that we're guided almost entirely by life on Earth.",
+   "ko": "생명의 정의와 기원을 밝혀내는 데 있어 문제 중 하나는 우리가 거의 전적으로 지구상의 생명체에만 의존하고 있다는 점입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1930.3,
+   "en": "And so we can look at what were the conditions on the early earth, and what are the conditions necessary to sustain life on earth today? We don't know that these were the same things.",
+   "ko": "그래서 우리는 초기 지구의 조건이 어떠했는지, 오늘날 지구상의 생명을 유지하는 데 필요한 조건은 무엇인지 살펴볼 수 있습니다. 하지만 이 두 가지가 같았는지는 알 수 없습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1940.8,
+   "en": "It may be that the origin of life requires one set of conditions, but for it to thrive, it's a different set of conditions. We know life can move around.",
+   "ko": "생명의 기원에는 한 가지 조건 세트가 필요할 수 있지만, 생명이 번성하기 위해서는 다른 조건 세트가 필요할 수도 있습니다. 우리는 생명이 이동할 수 있다는 것을 압니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1949.6,
+   "en": "Maybe early Mars was a better place for life to get going, but early earth was a better place for it to flourish.",
+   "ko": "아마도 초기 화성이 생명이 시작되기에 더 좋은 곳이었을 수도 있지만, 초기 지구는 생명이 번성하기에 더 좋은 곳이었을 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1956.7,
+   "en": "But because life, primitive microbial life, can go from Mars to earth in impact ejecta, that's no problem. It starts on Mars, flourishes on earth. We don't really know.",
+   "ko": "원시 미생물과 같은 생명체는 충격 분출물을 통해 화성에서 지구로 이동할 수 있으므로 그것은 문제가 되지 않습니다. 화성에서 시작해서 지구에서 번성하는 것이죠. 우리는 정말 알 수 없습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1969.9,
+   "en": "So, when we're going to look for life beyond earth, there's a tendency to think, well, we should look for earth-like planets.",
+   "ko": "그래서 지구 너머에서 생명을 찾으려 할 때, 지구와 비슷한 행성을 찾아야 한다는 경향이 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1978.1,
+   "en": "When I was a student, I was really interested in the idea of life beyond earth. But in those days, one might have professed an interest in looking for aliens, it was considered self-evident that there couldn't be any life beyond Earth",
+   "ko": "제가 학생이었을 때, 저는 지구 너머의 생명체라는 아이디어에 정말 관심이 많았습니다. 하지만 그 시절에는 외계 생명체를 찾는 데 관심을 표명하는 것조차, 지구 너머에는 생명이 존재할 수 없다는 것이 자명하게 여겨졌습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1990.6,
+   "en": "because life is so complex, it would have happened only once.",
+   "ko": "생명이 너무 복잡하기 때문에 오직 한 번만 일어났을 것이기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 1995.4,
+   "en": "Francis Crick, for example, who discovered the structure of DNA said life seems almost a miracle, so many other conditions necessary for it to get going.",
+   "ko": "예를 들어 DNA의 구조를 발견한 프랜시스 크릭은 생명이 시작되기 위해 필요한 다른 조건들이 너무 많아서 거의 기적처럼 보인다고 말했습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2004.5,
+   "en": "So the prevailing view a few decades ago was that life is a bizarre, freak accident, a chemical fluke of such improbability that you'd only get it once in the whole universe.",
+   "ko": "그래서 수십 년 전의 지배적인 견해는 생명이 기이하고 별난 사고이며, 우주 전체에서 단 한 번만 일어날 법한 매우 희박한 확률의 화학적 요행이라는 것이었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2017.0,
+   "en": "And then over the decades, the pendulum sort of swung. And so now very distinguished scientists are prepared to say that the universe is teeming with life.",
+   "ko": "그러다가 수십 년에 걸쳐 추의 방향이 바뀌었습니다. 그래서 이제는 매우 저명한 과학자들도 우주에 생명체가 넘쳐난다고 말할 준비가 되어 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2026.1,
+   "en": "But I often criticise that by saying, well, when I was a student, nobody took that seriously. Now, you're all saying it's teeming with life. What's changed?",
+   "ko": "하지만 저는 종종 \"내가 학생일 때는 아무도 그것을 진지하게 받아들이지 않았는데, 이제는 다들 생명체로 넘쳐난다고 말하는군요. 무엇이 변했습니까?\"라고 비판합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2035.6,
+   "en": "And the answer that I often get is, oh, we know that life can now live under a much wider range of circumstances than when I was a student.",
+   "ko": "그리고 제가 자주 듣는 대답은, 제가 학생이었을 때보다 훨씬 더 넓은 범위의 환경에서 생명이 살 수 있다는 사실을 이제 우리가 알고 있다는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2045.1,
+   "en": "Used to be thought that even hardy microbes couldn't survive temperatures above 50 or 60 degrees Celsius. Then it was found that there are organisms living in hot springs, much higher temperatures than that.",
+   "ko": "과거에는 강인한 미생물조차 섭씨 50도나 60도 이상의 온도에서는 생존할 수 없다고 생각했습니다. 그러다가 그보다 훨씬 높은 온도의 온천에서 사는 유기체들이 발견되었습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2059.3,
+   "en": "And same goes for other physical conditions, extremes of cold, extremes of chemical pollution, extremes of salinity.",
+   "ko": "극한의 추위, 극한의 화학적 오염, 극한의 염도 등 다른 물리적 조건에 대해서도 마찬가지입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2067.6,
+   "en": "And so these collective nouns for these organisms that survive under these conditions is extremophiles.",
+   "ko": "그래서 이러한 조건에서 생존하는 유기체들을 총칭하는 명칭이 '극한 미생물'입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2075.2,
+   "en": "And so people point to that and they say, well, now we know that life can survive under such a wide range of conditions, they greatly increase the amount of real estate out there that we might search to find life.",
+   "ko": "그래서 사람들은 그것을 지적하며 이제 생명이 매우 넓은 범위의 조건에서 생존할 수 있다는 것을 알게 되었다고 말합니다. 그것은 우리가 생명을 찾기 위해 탐색할 수 있는 우주의 영역을 크게 늘려줍니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2089.5,
+   "en": "And it's true that it may be by a factor of 10 or something that there are more places that we could look.",
+   "ko": ""
+  },
+  {
+   "start": 2095.8,
+   "en": "But if the odds against life forming from non-life are one in a trillion trillion, you know, an extra factor of ten isn't going to help you very much.",
+   "ko": "하지만 비생명체에서 생명체가 형성될 확률이 1조의 1조 분의 1이라면, 탐색 영역이 10배 늘어나는 것은 별 도움이 되지 않을 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2106.1,
+   "en": "I would like a demonstration or of the discovery, just one other sample of life. One microbe here on Earth that is life but not as we know it would do it.",
+   "ko": "저는 단 하나의 다른 생명 샘플이라도 발견되거나 입증되기를 바랍니다. 지구상에서 우리가 아는 것과는 다른 생명체인 미생물 하나만 발견되어도 충분할 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2117.5,
+   "en": "Two samples of life on Earth surely means that there would be life everywhere.",
+   "ko": "지구상에 두 가지 형태의 생명 샘플이 있다는 것은 분명 도처에 생명이 존재한다는 것을 의미할 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2122.2,
+   "en": "Everyone has their favourite place to look. I like to think of Mars as the best possibility, but there's a lot of emphasis on the frigid outer moons of the solar system, Europa and Enceladus, that's a moon of Saturn.",
+   "ko": "누구나 각자 선호하는 탐색 장소가 있습니다. 저는 화성이 가장 가능성이 높다고 생각하지만, 태양계 외곽의 차가운 위성들인 유로파와 토성의 위성인 엔셀라두스도 많이 강조됩니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2135.4,
+   "en": "It's got an icy crust, and underneath it is a liquid ocean. The icy crust has cracks in it and spewing out of these cracks are gases,",
+   "ko": "그곳에는 얼음 지각이 있고 그 아래에는 액체 바다가 있습니다. 얼음 지각에는 틈이 있고 이 틈에서 가스가 뿜어져 나옵니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2144.2,
+   "en": "And the Cassini mission flew through this plume and detected organic molecules. Now organic doesn't necessarily mean living.",
+   "ko": "그리고 카시니 탐사선이 이 기둥을 통과하며 유기 분자를 발견했습니다. 여기서 유기물이라고 해서 반드시 살아있다는 뜻은 아닙니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2154.5,
+   "en": "Organic molecules are complex carbon molecules. They may be a product of living organisms or they may just be a product of complex carbon chemistry.",
+   "ko": "유기 분자는 복잡한 탄소 분자입니다. 그것들은 생명체의 산물일 수도 있고, 단순히 복잡한 탄소 화학의 산물일 수도 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2163.2,
+   "en": "How can you tell the difference? How would we know whether there is anything spewing out in this plume that was maybe once living and got mashed up, or is maybe still living.",
+   "ko": "그 차이를 어떻게 알 수 있을까요? 이 기둥에서 뿜어져 나오는 것들 중에 한때 살아있다가 으깨진 것이 있는지, 아니면 여전히 살아있는 것이 있는지 어떻게 알 수 있을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2174.8,
+   "en": "What you'd like to do is have an instrument to put on board a spacecraft that will fly through that plume, collect the material spewing out and would deliver a verdict on whether it's living or not.",
+   "ko": "우리가 원하는 것은 우주선에 그 기둥을 통과하며 뿜어져 나오는 물질을 수집하고 그것이 살아있는지 아닌지에 대한 판결을 내릴 수 있는 장비를 탑재하는 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2191.0,
+   "en": "We don't know quite what that instrument would be. What would be a definitive sign of life, or for that matter what would distinguish between something that was living and is now broken down into components.",
+   "ko": "그 장비가 정확히 무엇이 될지는 모릅니다. 무엇이 생명의 결정적인 징후가 될까요, 혹은 살아있었지만 지금은 구성 요소로 분해된 것과 무엇을 구별할 수 있을까요.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2206.7,
+   "en": "So that's death, if you like. That would be a death meter. Do we have a death meter? Something that could say, yes, it's dead, but it was living versus no, it isn't quite living yet, versus it is alive.",
+   "ko": "원하신다면 그것을 '죽음'이라고 하죠. '사망 측정기'가 되겠네요. 우리에게 사망 측정기가 있나요? \"예, 이것은 죽었지만 한때 살아있었습니다\"와 \"아니오, 아직 완전히 살아있는 것은 아닙니다\", 그리고 \"이것은 살아있습니다\"를 구분할 수 있는 무언가 말입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2219.7,
+   "en": "And that immediately gets you into some very interesting questions. We tend to obviously dwell on death for human beings and the loss of consciousness and people worry about, you know, is there some sort of existence after death and so on.",
+   "ko": "그리고 그것은 즉시 매우 흥미로운 질문들로 여러분을 이끕니다. 우리는 분명히 인간의 죽음과 의식의 상실에 대해 깊이 생각하는 경향이 있고, 사람들은 사후 세계가 있는지 등을 걱정합니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2237.4,
+   "en": "But I'd like to be a bit more scientific, boil it down to something much simpler to think about. If we take, say, a bacterium,",
+   "ko": "하지만 저는 좀 더 과학적으로 접근하여 훨씬 더 간단하게 생각할 수 있는 것으로 요약하고 싶습니다. 예를 들어 박테리아를 들어보죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2256.2,
+   "en": "there are bacteria which have been trapped in ice, for example, and can be sort of resuscitated after millions of years or trapped in salt crystals or in a fridge.",
+   "ko": "예를 들어 얼음 속에 갇혀 있다가 수백만 년 후에 소생할 수 있는 박테리아나 소금 결정 또는 냉장고 속에 갇힌 박테리아들이 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2271.5,
+   "en": "They're not dead, but they're not living either. And I think of it a little bit like a clock. Well, it's a stopped clock, still a clock.",
+   "ko": "그것들은 죽은 것도 아니지만 살아있는 것도 아닙니다. 저는 그것을 시계와 비슷하다고 생각합니다. 멈춘 시계도 여전히 시계인 것과 같죠.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2280.0,
+   "en": "It still has the potential to tell the time if you get it started again. but if it's a stopped clock, it's not a dead clock, it's a dormant clock.",
+   "ko": "다시 시작하기만 하면 여전히 시간을 알려줄 잠재력이 있습니다. 하지만 멈춘 시계는 죽은 시계가 아니라 휴면 중인 시계입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2290.8,
+   "en": "And the same thing with bacteria that they're not dead when they're frozen. They're simply dormant and they can come alive again in the full expression.",
+   "ko": "박테리아도 마찬가지로 얼어붙었을 때 죽은 것이 아닙니다. 그것들은 단순히 휴면 상태일 뿐이며 다시 온전히 살아날 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2302.3,
+   "en": "But now that raises a further question because it's entirely possible that life has travelled from Earth to Mars or Mars to Earth inside impact ejecta.",
+   "ko": "하지만 이제 추가적인 질문이 생깁니다. 생명체가 충격 분출물에 실려 지구에서 화성으로, 또는 화성에서 지구로 이동했을 가능성이 충분하기 때문입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2316.1,
+   "en": "We know Mars and Earth are hit from time to time by comets and asteroids that splatter rocks all around the solar system and organisms can hitch a ride in these rocks and travel from Mars to Earth or Earth to Mars.",
+   "ko": "우리는 화성과 지구가 때때로 혜성과 소행성의 충돌을 받아 태양계 전역에 암석을 흩뿌린다는 사실을 알고 있으며, 유기체들은 이 암석에 무임승차하여 화성에서 지구로 또는 지구에서 화성으로 이동할 수 있습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2331.0,
+   "en": "Now, obviously, that's possible. We don't know if it's happened, but it seems entirely likely that it would have done.",
+   "ko": "그것은 분명 가능합니다. 실제로 일어났는지는 모르지만, 그랬을 가능성이 매우 높아 보입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2337.2,
+   "en": "The biggest hazard in interplanetary space is not the cold because these microbes would become dormant. It is in fact the radiation.",
+   "ko": "행성 간 공간에서 가장 큰 위험은 추위가 아닙니다. 이 미생물들은 휴면 상태가 될 것이기 때문입니다. 사실 그것은 방사능입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2347.8,
+   "en": "Sitting inside a rock in space, a dormant bacterium is going to be bombarded by cosmic rays and some radiation from the rock itself until it's going to sustain damage during its journey.",
+   "ko": "우주 공간의 바위 안에 앉아 있는 휴면 박테리아는 우주선과 바위 자체에서 나오는 일부 방사능의 포격을 받게 될 것이고, 결국 여정 동안 손상을 입게 될 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2361.8,
+   "en": "I'm supposing it's a million years before it finally hits the earth. Will it come alive again? How much damage can it sustain before it's gone beyond the point of no return?",
+   "ko": "그것이 마침내 지구에 충돌하기까지 백만 년이 걸린다고 가정해 봅시다. 그것이 다시 살아날 수 있을까요? 돌아올 수 없는 지점을 넘기 전까지 얼마나 많은 손상을 견딜 수 있을까요?",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2374.6,
+   "en": "The point I'm trying to make is if a bacterium is alive or dead. You can cool it down and stop it working and it can sustain a certain level of damage, but at some particular point it won't start up again and then you might pronounce it to be dead.",
+   "ko": "제가 말씀드리고 싶은 점은 박테리아가 살아있느냐 죽었느냐 하는 것입니다. 온도를 낮춰 작동을 멈추게 할 수 있고 어느 정도의 손상은 견딜 수 있겠지만, 어느 특정 시점이 되면 다시 시작되지 않을 것이고 그때 여러분은 그것이 죽었다고 선언할 것입니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2393.8,
+   "en": "But now let's consider a more complicated case like Titan, the moon of Saturn, and Titan is very cold.",
+   "ko": "하지만 이제 토성의 위성인 타이탄과 같이 더 복잡한 사례를 생각해 봅시다. 타이탄은 매우 춥습니다.",
+   "speaker": "Paul Davies"
+  },
+  {
+   "start": 2399.0,
+   "en": "It would be unlikely to have life as we know it, but it's full of organic molecules. It's like a petrochemical smog in its atmosphere.",
+   "ko": "우리가 아는 생명체가 존재할 가능성은 낮지만, 유기 분자로 가득 차 있습니다. 대기는 마치 석유화학 스모그와 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2407.2,
+   "en": "We could imagine that it's been carrying out like a sort of cosmic Miller-Urey experiment. It's been cooking up pre-biotic chemistry for for four billion years, four and a half billion years.",
+   "ko": "일종의 우주적 밀러-유리 실험을 수행해 온 것으로 상상할 수 있습니다. 40억 년, 아니 45억 년 동안 생명 탄생 이전의 화학 반응을 준비해 온 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2420.6,
+   "en": "And so, has it, did it succeed in making life even if it wouldn't be life quite as we know it? And how will we know?",
+   "ko": "그렇다면, 우리가 아는 것과는 전혀 다른 형태일지라도 생명체를 만드는 데 성공했을까요? 그리고 우리가 그것을 어떻게 알 수 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2428.8,
+   "en": "Imagine you sent some sort of life meter to Titan and it went down through the atmosphere and it then delivered a verdict.",
+   "ko": "타이탄에 일종의 생명 측정기를 보내 대기를 뚫고 내려가 판결을 내린다고 상상해 보십시오.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2438.1,
+   "en": "It might say, well, we didn't find any life on Titan but it did get 93.4% of the way to life. or it only got 5% of the way to life.",
+   "ko": "그 측정기는 '타이탄에서 생명체를 발견하지는 못했지만, 생명체 형성 단계의 93.4%까지 도달했다'거나 '5%만 도달했다'고 말할 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2451.2,
+   "en": "What would you make of that? Well, what I just said seems sort of ridiculous.",
+   "ko": "여러분은 그것을 어떻게 생각하시겠습니까? 사실 제가 방금 한 말은 다소 터무니없어 보입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2455.5,
+   "en": "We don't have, it's hard enough to come up with a definition of life. We don't really have a definition of almost life.",
+   "ko": "우리는 생명에 대한 정의를 내리는 것조차 어렵습니다. '거의 생명체인 것'에 대한 정의는 정말이지 갖고 있지 않죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2462.4,
+   "en": "We couldn't tell by looking that it was nearly there, and I give it another billion years, and it might make life. We don't even know how to think about that.",
+   "ko": "그것이 거의 완성 단계에 있는지, 아니면 10억 년만 더 있으면 생명체가 탄생할지 겉만 보고는 알 수 없습니다. 우리는 그것을 어떻게 생각해야 할지도 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2471.8,
+   "en": "And that's a very good metaphor. Richard Dawkins, the biologist, wrote a book called Climbing Mount Improbable.",
+   "ko": "그리고 그것은 매우 좋은 은유입니다. 생물학자 리처드 도킨스는 '불가능의 산을 오르기'라는 책을 썼습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2478.3,
+   "en": "And it addresses the question of life started out very simple, just microbes.",
+   "ko": "이 책은 아주 단순한 미생물에서 시작된 생명체에 대한 질문을 다룹니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2483.3,
+   "en": "And today we have the whole complex biosphere, and some people find that miraculous.",
+   "ko": "그리고 오늘날 우리는 이 복잡한 생물권 전체를 갖게 되었고, 어떤 사람들은 그것을 기적이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2488.1,
+   "en": "But the way he likes to describe it is that it's like a climbing a mountain and each step might be very improbable that you get more complexity, more order, and so on.",
+   "ko": "하지만 그가 즐겨 설명하는 방식은 산을 오르는 것과 같아서, 한 걸음 한 걸음 더 큰 복잡성과 더 높은 질서를 얻는 것이 매우 희박한 확률일 수 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2501.5,
+   "en": "But that's That's what natural selection does. It acts like a ratchet, locking in the efficient, more complex order and killing off the ones that doesn't work so well.",
+   "ko": "하지만 그것이 바로 자연 선택이 하는 일입니다. 그것은 라쳇처럼 작동하여 효율적이고 더 복잡한 질서를 고정하고, 잘 작동하지 않는 것들은 도태시킵니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2515.3,
+   "en": "And so, laboriously, you climb up this mountain improbable step by step by step. Well, of course, it didn't start with microbes.",
+   "ko": "그렇게 고생스럽게 이 '불가능의 산'을 한 걸음 한 걸음 오르는 것이죠. 물론, 시작이 미생물은 아니었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2522.8,
+   "en": "There's a mountain improbable that starts with chemistry. You've got to climb all the way from simple chemistry to complex chemistry to living chemistry, chemistry, the chemistry of living matter.",
+   "ko": "화학에서 시작되는 '불가능의 산'이 있습니다. 단순한 화학에서 복잡한 화학으로, 그리고 생명 활동의 화학, 즉 생물질의 화학에 이르기까지 기나긴 길을 올라야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2532.7,
+   "en": "How do you climb that mountain improbable in that prebiotic sense? And is there any way of measuring what would be the elevation up mountain probable?",
+   "ko": "그런 생명 탄생 이전의 관점에서 어떻게 그 '불가능의 산'을 오를 수 있을까요? 그리고 '불가능의 산'의 해발 고도가 어느 정도인지 측정할 방법이 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2543.4,
+   "en": "Can we look at a particular complex chemical mixture and give it a probability and say how close it has come to actually forming life? Well, I don't think we can.",
+   "ko": "우리가 특정한 복잡한 화학 혼합물을 보고 확률을 부여하여 그것이 실제로 생명체를 형성하는 데 얼마나 가까워졌는지 말할 수 있을까요? 글쎄요, 저는 그럴 수 없다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2556.1,
+   "en": "I think we lack not only lack a definition of life, we lack a definition of even how close you might be getting to life.",
+   "ko": "생명에 대한 정의가 부족할 뿐만 아니라, 생명체에 얼마나 근접했는지에 대한 정의조차 없기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2565.8,
+   "en": "And more to the point, we don't even know whether the pathway from non-life to life was just some sort of seamless upward march of complexity starting out simple over millions and millions of years, getting more and more complex, more and more call this really complex thing living,",
+   "ko": "더 중요한 점은, 무생물에서 생물로 가는 경로가 수백만 년에 걸쳐 단순함에서 시작해 끊임없이 복잡성이 증가하며 점점 더 복잡해진 끝에 이 복잡한 것을 생명이라 부르게 되는 매끄러운 과정인지,",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2588.5,
+   "en": "or whether it's more like a phase transition like a gas bursting into flame, that you would go along this pathway, it would get more and more complex and suddenly they'd be a jump.",
+   "ko": "아니면 기체가 화염으로 분출되는 것과 같은 상전이에 더 가까워서, 이 경로를 따라 점점 더 복잡해지다가 갑자기 도약이 일어나는 것인지조차 모른다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2599.6,
+   "en": "And you would say it's sprung into life at that particular point.",
+   "ko": "그리고 바로 그 특정 시점에 생명이 탄생했다고 말하게 되는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2603.6,
+   "en": "And then if we had a life meter that could say where you are on that pathway, has that jump happened, then it will be worth sending that meter out into the universe to look for somewhere else where that jump may have occurred.",
+   "ko": "만약 그 경로의 어디쯤에 있는지, 그 도약이 일어났는지를 알 수 있는 생명 측정기가 있다면, 그 측정기를 우주로 보내 그런 도약이 일어났을 법한 다른 곳을 찾아볼 가치가 있을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2619.1,
+   "en": "But we haven't got to that stage yet. We don't know how to build a life meter, because we don't really know how to understand this pathway and the threshold of life and what will constitute almost life.",
+   "ko": "하지만 우리는 아직 그 단계에 도달하지 못했습니다. 우리는 이 경로와 생명의 임계값, 그리고 무엇이 '거의 생명체'를 구성하는지 이해하는 법을 모르기 때문에 생명 측정기를 만드는 법도 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2632.0,
+   "en": "So astrobiologists love looking for Earth-like planets beyond the solar system and that's very natural. But the most Earth-like planet we know is Earth itself.",
+   "ko": "그래서 외계 생물학자들은 태양계 너머에서 지구와 닮은 행성을 찾는 것을 좋아하며, 이는 매우 자연스러운 일입니다. 하지만 우리가 아는 가장 지구와 닮은 행성은 지구 그 자체입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2642.3,
+   "en": "And so that raises the question of the bellwether. If life arises readily under Earth-like conditions, might it have happened more than once right here on our home planet?",
+   "ko": "이것은 지표가 되는 질문을 던지게 합니다. 만약 지구와 같은 조건에서 생명체가 쉽게 발생한다면, 바로 이곳 우리 고향 행성에서 생명 탄생이 한 번 이상 일어났을 수도 있지 않을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2654.6,
+   "en": "How do we know it didn't, as anybody actually looked? And it turns out that nobody has really taken very seriously the idea that life could have arisen on Earth many times over.",
+   "ko": "일어나지 않았다는 걸 어떻게 알까요? 누가 실제로 찾아본 적이 있나요? 알고 보니 지구에서 생명체가 여러 번 발생했을 수 있다는 생각을 진지하게 받아들인 사람은 아무도 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2665.6,
+   "en": "Now, it could be that life started 500 times on Earth and only one form of life has survived to the present day.",
+   "ko": "지구에서 생명이 500번 시작되었고 오늘날까지 단 하나의 생명체 형태만 살아남았을 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2674.6,
+   "en": "But can we be absolutely sure that there is no other sample of life on Earth, hiding somewhere in some little niche beyond the reach of known life?",
+   "ko": "하지만 알려진 생명체의 손길이 닿지 않는 어딘가 작은 틈새에 숨어 있는 또 다른 생명체의 표본이 지구상에 없다고 절대적으로 확신할 수 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2684.8,
+   "en": "Could it be that descendants from another genesis four billion years ago are still here in Earth's biosphere today?",
+   "ko": "40억 년 전 또 다른 기원에서 비롯된 후손들이 오늘날 지구 생물권에 여전히 존재하고 있을 가능성은 없을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2694.3,
+   "en": "This is a very speculative idea, sometimes called the shadow biosphere, that alongside the biosphere that we now love, in some angle among the organisms, the microorganisms that are all around us, might be some microorganisms from another genesis event. then.",
+   "ko": "이것은 매우 추측적인 아이디어로, 때로는 '그림자 생물권'이라고 불리기도 합니다. 우리가 지금 사랑하는 생물권과 나란히, 우리 주변의 유기체나 미생물들 사이 어딘가에 또 다른 기원에서 탄생한 미생물이 존재할 수 있다는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2716.7,
+   "en": "This would be not just different branch on the known tree of life, but a different tree entirely. How could we tell?",
+   "ko": "이것은 알려진 생명의 나무의 다른 가지가 아니라 완전히 다른 나무일 것입니다. 우리가 어떻게 그것을 알 수 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2726.4,
+   "en": "How will we know if such things are out there? We've spotted them.",
+   "ko": "그런 것들이 저기에 있는지 어떻게 알 수 있을까요? 우리가 그것들을 발견했을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2731.2,
+   "en": "And it turns out the answer when you look at this very carefully is no, we probably wouldn't have noticed them. They could be there all around us.",
+   "ko": "이 문제를 매우 주의 깊게 살펴보면 대답은 '아니오'입니다. 우리는 아마 알아차리지 못했을 것입니다. 그것들은 우리 주변 어디에나 있을 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2738.3,
+   "en": "So it could be that there's second sample of life, alien life if you like, right under our noses, or even in our noses and nobody has really made an effort to look.",
+   "ko": "따라서 우리 코앞에, 아니 어쩌면 우리 콧속에 제2의 생명체 표본, 말하자면 외계 생명체가 있을 수도 있는데 아무도 그것을 찾으려고 노력하지 않았을 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2750.8,
+   "en": "Now, there's a counter-argument that people like to make, which is that once one form of life gets going, it sort of appropriates all the resources and changes the conditions in order to sustain its own existence, so that this would act against the survival of any other type of organism. organism.",
+   "ko": "자, 사람들이 즐겨 하는 반론이 있는데, 일단 한 형태의 생명체가 자리를 잡으면 모든 자원을 독차지하고 자신의 생존을 유지하기 위해 조건을 바꾸기 때문에 다른 유형의 유기체가 생존하는 것을 방해한다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2770.9,
+   "en": "The classic example is when photosynthesis was discovered by life, I don't know, two and a half, three billion years ago. Then it led to the buildup of oxygen in the atmosphere.",
+   "ko": "고전적인 예로, 약 25억 년에서 30억 년 전쯤 생명체가 광합성을 발견했을 때가 있습니다. 그로 인해 대기에 산소가 축적되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2784.3,
+   "en": "We tend to think of oxygen as a good thing, and it is for you and me. But it's a terrible corrosive poison.",
+   "ko": "우리는 산소를 좋은 것으로 생각하는 경향이 있고, 당신과 저에게는 실제로 그렇습니다. 하지만 그것은 무시무시한 부식성 독극물입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2791.4,
+   "en": "And when it first appeared, it threatened to wipe out life totally. It And it was only that life was able to, some life, was able to adapt and actually turn a sin into a virtue and use that oxygen as an energy source, that we are where we are today with an oxygen rich atmosphere.",
+   "ko": "산소가 처음 등장했을 때, 그것은 생명체를 완전히 쓸어버릴 위협이 되었습니다. 오직 일부 생명체만이 적응하여 그 독을 장점으로 바꾸고 산소를 에너지원으로 사용할 수 있었기에, 오늘날 우리가 산소가 풍부한 대기 속에서 살 수 있게 된 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2811.7,
+   "en": "But the buildup of oxygen has led to more than allowing life to become more energy rich and more complex. It's also changed the nature of rocks, for example.",
+   "ko": "하지만 산소의 축적은 생명체가 더 많은 에너지를 얻고 더 복잡해지도록 만든 것 이상의 결과를 가져왔습니다. 예를 들어, 그것은 암석의 성질도 변화시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2825.1,
+   "en": "For example, contrast the Earth with Mars. You look at Mars, it's noticeably red because that red is really rust.",
+   "ko": "예를 들어, 지구와 화성을 대조해 보십시오. 화성을 보면 눈에 띄게 붉은데, 그 붉은색은 사실 녹이기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2832.5,
+   "en": "And so Mars doesn't have this recycling mechanism. It doesn't have plate tectonics. It doesn't have plates that move around and volcanoes, it has volcanoes, but it doesn't manage to cycle all of these elements and so on.",
+   "ko": "화성에는 이런 재순환 메커니즘이 없습니다. 판 구조론도 없고, 움직이는 판이나 화산도 없습니다. 화산이 있긴 하지만 이런 원소들을 모두 순환시키지는 못합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2849.0,
+   "en": "So there's a feedback loop between the life on Earth and the cycles that drive life on Earth and each affects the other.",
+   "ko": "따라서 지구상의 생명체와 생명을 유지하는 순환 사이에는 피드백 루프가 존재하며, 서로 영향을 주고받습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2859.5,
+   "en": "It's very unclear how often you would come across a planet quite like the Earth, which has these interlocking cycles, the biological and the geological and the atmospheric, all working together to change each other and sustain each other, which is done, not just for a short duration, but literally over billions of years.",
+   "ko": "생물학적, 지질학적, 대기적 순환이 서로 얽혀서 서로를 변화시키고 지탱하며, 그것도 짧은 기간이 아니라 말 그대로 수십억 년 동안 지속되는 지구와 같은 행성을 얼마나 자주 만날 수 있을지는 매우 불투명합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2881.5,
+   "en": "So these cycles have co-evolved. It may be a very special set of circumstances.",
+   "ko": "따라서 이러한 순환은 함께 진화해 왔습니다. 이것은 매우 특별한 상황들의 집합일 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2887.4,
+   "en": "It may be that it is a rare earth to use a title of a famous book. It could be as a rare earth.",
+   "ko": "유명한 책의 제목을 빌리자면, 그것은 '희귀한 지구'일 수도 있습니다. 말 그대로 희귀한 경우일 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2895.0,
+   "en": "And I think most people have the idea of searching for alien beings as flesh and blood organisms, weird looking animals that that you might find on another planet.",
+   "ko": "대부분의 사람들은 외계인을 다른 행성에서 발견할 수 있는 피와 살로 이루어진 유기체나 이상하게 생긴 동물로 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2907.0,
+   "en": "But it's very clear that if there are technological civilizations out there, that they were very soon, if they got to our level of development, begin to outsource their intellectual heavy lifting to, I prefer calling them design systems.",
+   "ko": "하지만 저 너머에 기술 문명이 존재한다면, 그들이 우리 수준의 발전에 도달하자마자 지적인 고된 업무를 다른 곳에 맡기기 시작했을 것이 분명합니다. 저는 그것을 '설계된 시스템'이라 부르고 싶습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2925.6,
+   "en": "It's not our artificial as a bad term. I think of it as design intelligence. We got Darwinian intelligence very slow.",
+   "ko": "'인공적'이라는 용어가 나쁘다는 게 아닙니다. 저는 그것을 '설계된 지능'이라고 생각합니다. 우리는 매우 느린 다윈주의적 지능을 가졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2932.4,
+   "en": "So it's taken billions of years to get to this point. And then designed intelligence can be very rapid.",
+   "ko": "이 지점에 도달하는 데 수십억 년이 걸렸습니다. 하지만 설계된 지능은 매우 빠르게 발전할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2938.6,
+   "en": "And once you embed the design principles in the designed intelligence, once AI gets the design principles for the next generation and so on, it very rapidly takes off.",
+   "ko": "설계된 지능에 설계 원리를 심어 놓으면, 일단 AI가 다음 세대를 위한 설계 원리를 얻게 되는 순간 급속도로 발전하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2951.6,
+   "en": "I can imagine an AI system in the not too distant future that would use components from living organisms, you know, from neuro tissue being incorporated and people still are doing this, even now, incorporating those into some larger system.",
+   "ko": "머지않은 미래에 생명체의 구성 요소, 즉 신경 조직 같은 것을 통합한 AI 시스템을 상상할 수 있습니다. 사실 지금도 사람들은 이런 것들을 더 큰 시스템에 통합하고 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2971.1,
+   "en": "And we're going to lose this distinction between is it living, is it non living? And it really just boils down to is it designed and is it designing the next generation and so on.",
+   "ko": "우리는 생물인가 무생물인가 하는 구분을 잃게 될 것입니다. 결국 그것이 설계되었는가, 그리고 다음 세대를 설계하고 있는가 하는 문제로 귀결될 뿐이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2984.8,
+   "en": "So if we ever do contact ET, and I'm pretty skeptical, but if we ever do it, it's overwhelmingly likely not to be some sort of Hollywood style flesh and blood being, but it's going to be something we might want to call AI, but we lack a term for what this super intelligent multi-generation designed system might be.",
+   "ko": "그러니 우리가 언젠가 외계인과 접촉한다면(저는 꽤 회의적입니다만), 그것은 할리우드 영화 스타일의 피와 살을 가진 존재가 아니라, 우리가 AI라고 부르고 싶어 할 무엇일 가능성이 압도적으로 높습니다. 하지만 우리는 이 초지능적인 다세대 설계 시스템이 무엇인지 정의할 용어가 부족합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3011.7,
+   "en": "But it's clear that just from the way we're going, it's clear that this entity would have godlike features that we would be dealing with something which would be probably well beyond their level of understanding.",
+   "ko": "하지만 우리가 가고 있는 방향으로 보아, 이 존재는 신과 같은 특성을 가질 것이며 우리는 아마도 그들의 이해 수준을 훨씬 뛰어넘는 무언가를 마주하게 될 것임이 분명합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3026.5,
+   "en": "And if we combine AI with quantum computing, so it's where it gets really interesting and really profound, so we got QAI, Quantum Artificial Intelligence, or Quintelligence, as Frank Wilczek calls it, then all bets are off because now we're dealing with an entity that can explore not only all of the possibilities that we can explore in our own minds, but all possible quantum alternatives, all possible worlds.",
+   "ko": "AI를 양자 컴퓨팅과 결합하면 상황은 정말 흥미롭고 심오해집니다. 프랭크 윌첵이 부르는 것처럼 QAI(양자 인공지능)나 '퀀텔리전스'가 되면, 이제 우리는 우리 마음속에서 탐색할 수 있는 모든 가능성뿐만 아니라 모든 가능한 양자적 대안과 모든 가능한 세상을 탐색할 수 있는 존재를 상대하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3057.4,
+   "en": "So we're dealing with some sort of entity that that teleological or conscious or it might be an agent of some sort, which has an infinitely greater range of possibilities and experiences and processes that it can operate than we do.",
+   "ko": "우리는 목적론적이거나 의식을 가졌거나, 혹은 우리가 할 수 있는 것보다 무한히 넓은 범위의 가능성과 경험, 그리고 처리 과정을 운영할 수 있는 일종의 행위자를 상대하게 되는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3076.4,
+   "en": "And if we're dealing with it, ET, that has civilization that's been going for 500 million years or something, it's overwhelmingly likely. It's going to be dominated by these godlike, totally mysterious, awesome entities.",
+   "ko": "만약 우리가 5억 년 정도 지속된 문명을 가진 외계인과 마주한다면, 그들은 이러한 신과 같고 완전히 신비롭고 경외심을 불러일으키는 존재들에 의해 지배되고 있을 가능성이 압도적으로 높습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3098.1,
+   "en": "Chapter 4. The Goldilocks Enigma. Is the universe fine-tuned for life?",
+   "ko": "4장. 골디락스 수수께끼. 우주는 생명체를 위해 정교하게 조정되었는가?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3104.2,
+   "en": "So now putting on my physicist hat and looking at the universe as a whole, I'm struck by the nature of physical laws, the fact that the universe is ordered in a very precise mathematical manner and that these underlying laws are not only beautiful and powerful and represent mathematical relationships that enable the universe to run in such an efficient way, but they're also consistent with the existence of life.",
+   "ko": "이제 물리학자의 모자를 쓰고 우주 전체를 바라보면, 저는 물리 법칙의 본질에 놀라곤 합니다. 우주가 매우 정밀한 수학적 방식으로 질서 잡혀 있다는 사실과, 이러한 기저의 법칙들이 아름답고 강력할 뿐만 아니라 우주가 효율적으로 작동할 수 있게 하는 수학적 관계를 나타내며, 또한 생명체의 존재와도 일맥상통한다는 사실에 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3138.5,
+   "en": "And so this is a subject often goes under the name of the anthropic principle is a very bad name.",
+   "ko": "이것은 흔히 '인류 원리'라는 이름으로 불리는 주제인데, 사실 매우 좋지 않은 이름입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3145.1,
+   "en": "But what it basically means is the following that if you take the various laws of physics and the initial conditions for the universe, the way the big bang went bang, and if you say, well, suppose we change something a little bit, say you wanted to make all electrons a little bit heavier, or the weak nucleophores a little bit weaker, you know, could you muck around with those things in such a way as to still have life?",
+   "ko": "하지만 그것이 기본적으로 의미하는 바는 다음과 같습니다. 다양한 물리 법칙과 우주의 초기 조건, 즉 빅뱅이 일어난 방식을 놓고 만약 무언가를 조금 바꾼다고 가정해 봅시다. 가령 모든 전자를 조금 더 무겁게 만들거나 약한 핵력을 조금 더 약하게 만든다면, 그렇게 하고도 생명체가 존재할 수 있을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3171.0,
+   "en": "And it turns out that the answer is no, that some of the laws of physics are so exquisitely sensitive that the tiniest change would wreck the prospects of life. Those changes would be literally lethal.",
+   "ko": "결과는 '아니오'입니다. 일부 물리 법칙은 매우 정교하게 민감해서 아주 작은 변화만으로도 생명체의 탄생 가능성을 망칠 수 있습니다. 그런 변화는 말 그대로 치명적일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3185.0,
+   "en": "Now obviously we can't do the real experiment, but we can do the mathematical experiment. We can figure out how would the world change?",
+   "ko": "물론 실제로 실험을 할 수는 없지만, 수학적 실험은 할 수 있습니다. 세상이 어떻게 변할지 계산해 볼 수 있는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3191.5,
+   "en": "Gravity was a bit stronger, or if the electrical forces were a bit weaker or something. When you do that, you'll find that some rather small changes would wreck the chances of life.",
+   "ko": "중력이 조금 더 강해지거나 전기력이 조금 더 약해지거나 하는 것들 말입니다. 그렇게 하면 아주 작은 변화만으로도 생명체가 존재할 가능성이 사라진다는 것을 알게 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3203.2,
+   "en": "For example, it might prevent complex nuclei from forming. You might end up with a universe that consists entirely of neutrons or entirely of just hydrogen.",
+   "ko": "예를 들어, 복잡한 원자핵이 형성되는 것을 방해할 수도 있습니다. 중성자로만 이루어진 우주나 수소로만 이루어진 우주가 될 수도 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3214.6,
+   "en": "We know carbon, the life-giving element. So you can look at all those things and conclude that the laws of nature and the universe as a whole seem to be, and this is where the terminology gets a bit controversial, seem to be fine-tuned for life.",
+   "ko": "우리는 생명의 원소인 탄소를 알고 있습니다. 그러니 이 모든 것들을 살펴보고 자연 법칙과 우주 전체가 생명체를 위해 '정교하게 조정된' 것처럼 보인다는 결론을 내릴 수 있습니다. 물론 여기서 '정교한 조정'이라는 용어는 다소 논란의 여지가 있지만요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3233.3,
+   "en": "People talk about the fine tuning argument. Now fine tuning doesn't necessarily mean that there was a designer who deliberately picked those values in order that there should be life.",
+   "ko": "사람들은 '정교한 조정 논증'에 대해 이야기합니다. 여기서 정교한 조정이 반드시 생명체가 존재하게 하기 위해 누군가 의도적으로 그 값들을 고른 설계자가 있다는 뜻은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3244.3,
+   "en": "But what it does mean is that if those numbers were a bit different, there wouldn't be any life and we wouldn't be here having this conversation.",
+   "ko": "하지만 그 수치들이 조금만 달랐어도 생명체는 존재하지 않았을 것이고, 우리가 여기서 이런 대화를 나누고 있지도 못했을 것이라는 뜻입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3251.2,
+   "en": "So what are we to make of this? I call this the Goldilocks Enigma that the universe looks like it's just right for life.",
+   "ko": "그렇다면 우리는 이것을 어떻게 이해해야 할까요? 저는 이것을 우주가 생명체에게 딱 적당해 보인다는 의미에서 '골디락스 수수께끼'라고 부릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3257.9,
+   "en": "So we have really three possible explanations for Goldilocks. We've got, it's just a fluke, it happened that way, and there's nothing special about life anyway.",
+   "ko": "골디락스에 대한 세 가지 가능한 설명이 있습니다. 첫째는 그것이 단지 우연이며, 어쨌든 생명체에 특별한 것은 없다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3266.6,
+   "en": "There was a designer or a god who sort of made the universe fine-tuned it in order that life should arise.",
+   "ko": "둘째는 생명체가 탄생할 수 있도록 우주를 정교하게 조정한 설계자나 신이 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3272.9,
+   "en": "And the other response that you can take to this is the multiverse explanation that the universe is just right for life, because it isn't just one universe, there's an infinite number of them, and it starts out sort of random, the big bangs, lots of bangs going off, scattered around space and time, and each one comes with its own set of laws.",
+   "ko": "세 번째 대응 방식은 우주가 생명체에 딱 맞는 이유가 단 하나의 우주만 있는 것이 아니라 무수히 많은 다중 우주가 존재하기 때문이라는 설명입니다. 우주는 시공간 곳곳에서 무작위로 수많은 빅뱅이 일어나며 시작되었고, 각 우주는 저마다의 법칙을 가지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3292.3,
+   "en": "And so in some of these universes, gravity will be a bit stronger, and in some the electrons will be a bit heavier and so on. And in the vast, vast majority of those universes, there won't be life.",
+   "ko": "따라서 어떤 우주에서는 중력이 조금 더 강할 것이고, 어떤 우주에서는 전자가 조금 더 무거울 것입니다. 그리고 대다수의 우주에는 생명체가 존재하지 않을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3303.6,
+   "en": "And so there's no one around to bemoan the fact that they're not Goldilocks' universes. But here and there, just by the laws of chance, you're going to find that there will be a Goldilocks universe and in that universe there will be living creatures like ourselves who arise and reflect on what does it all mean.",
+   "ko": "그래서 그곳들이 골디락스 우주가 아니라는 사실을 한탄할 사람조차 없습니다. 하지만 확률의 법칙에 따라 여기저기에서 골디락스 우주가 발견될 것이고, 그 우주에서는 우리와 같은 생명체가 태어나 이 모든 것이 무엇을 의미하는지 생각하게 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3322.4,
+   "en": "And so those three ideas are out there and that discussion continues to take place and really it boils down to this stage of matter of personal choice.",
+   "ko": "이 세 가지 아이디어가 존재하며 논의가 계속되고 있는데, 사실 이 단계에서는 개인적인 선택의 문제로 귀결됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3331.7,
+   "en": "But there is actually Davies's fourth way. I've been talking about the laws of physics in in the traditional way of sort of fixed immutable mathematical relationships.",
+   "ko": "하지만 사실 '데이비스의 네 번째 방식'이 있습니다. 저는 지금까지 물리 법칙을 고정되고 불변하는 수학적 관계라는 전통적인 방식으로 이야기해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3342.0,
+   "en": "I said, stamped on the origin of the universe, the outset, like the maker's mark. So in other words, the laws are fixed.",
+   "ko": "우주의 기원에 제작자의 마크처럼 찍혀 있는 것이라고 말이죠. 즉, 법칙은 고정되어 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3350.6,
+   "en": "But maybe that's a simplistic way of looking at it. It's the way that physicists have looked at the laws ever since Newton as immutable, eternal, universal mathematical relationships.",
+   "ko": "하지만 어쩌면 그것은 너무 단순한 시각일지도 모릅니다. 뉴턴 이후 물리학자들이 법칙을 불변하고 영원하며 보편적인 수학적 관계로 바라본 방식이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3362.2,
+   "en": "But maybe be we should think in terms of flexi-laws or something that's a bit more malleable.",
+   "ko": "하지만 어쩌면 우리는 조금 더 유연한 법칙, 즉 '가변적 법칙' 같은 관점에서 생각해야 할지도 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3367.7,
+   "en": "This is where it does get rather subtle because if it's a is there any way in which the emergence of life and mind can be connected in some way, some causal way with the nature of the laws that gives rise is there like a feedback loop between observers like ourselves and the laws that enable the emergence of observers?",
+   "ko": "이 지점이 다소 미묘해지는데, 생명과 정신의 출현이 그것을 낳은 법칙의 본질과 어떤 식으로든, 어떤 인과적인 방식으로 연결될 수 있을까요? 우리와 같은 관찰자와 관찰자의 출현을 가능하게 한 법칙 사이에 일종의 피드백 루프가 존재하는 것일까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3395.9,
+   "en": "You think, well, if the laws are fixed, that's ridiculous. But earlier, I mean, a very rough analogy, we were talking about the Earth, the way that nature of our planet, of planet Earth, and the life upon it are connected together.",
+   "ko": "법칙이 고정되어 있다면 말도 안 되는 소리라고 생각하시겠죠. 하지만 아까 지구에 대해 이야기하며 우리 행성의 본질과 그 위의 생명체가 어떻게 연결되어 있는지 거친 비유를 들었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3418.2,
+   "en": "So the existence of life affects the way the Earth behaves and so on. Is there some sort of cosmic feedback loop?",
+   "ko": "생명체의 존재가 지구가 움직이는 방식 등에 영향을 준다는 것이죠. 그렇다면 일종의 우주적 피드백 루프가 존재할까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3424.7,
+   "en": "So the existence of life affects the laws that then give rise to that life. And at that side, you would think that's completely impossible, but actually there is a loophole.",
+   "ko": "생명체의 존재가 그 생명체를 탄생시킨 법칙에 영향을 주는 것 말입니다. 그렇게 생각하면 완전히 불가능해 보이지만, 사실 틈새가 하나 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3435.9,
+   "en": "And that loophole arises in quantum mechanics, quantum physics. And the reason is because I've been saying, well, the laws are the traditional ways that the laws are fixed at the beginning.",
+   "ko": "그 틈새는 양자 역학, 즉 양자 물리학에서 나타납니다. 그 이유는 제가 법칙이 처음에 고정되어 있다는 전통적인 방식을 말해왔기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3448.7,
+   "en": "But actually because quantum mechanics is based on the notion of uncertainty, people have heard of Heisenberg's uncertainty principle, and what it means is even if you set up very precisely a quantum system at a certain state now, you can't be certain how it's going to be in one second time.",
+   "ko": "하지만 사실 양자 역학은 불확정성이라는 개념에 기반하고 있습니다. 하이젠베르크의 불확정성 원리에 대해 들어보셨을 텐데, 이는 지금 어떤 양자 시스템을 특정 상태로 아주 정밀하게 설정하더라도 1초 뒤에 어떻게 될지 확신할 수 없다는 뜻입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3466.8,
+   "en": "But that uncertainty goes back in time as well. It's a fallacy to suppose that there is a fixed history connecting the Big Bang origin of the universe with the world today.",
+   "ko": "그런데 그 불확실성은 과거로도 거슬러 올라갑니다. 우주의 기원인 빅뱅과 오늘날의 세상을 연결하는 고정된 역사가 있다고 가정하는 것은 오류입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3476.7,
+   "en": "And about 30 years ago, John Wheeler, the physicist, discovered that you could do an experiment, called the delayed choice experiment in which you decide now what it shall have been in the past.",
+   "ko": "약 30년 전, 물리학자 존 휠러는 현재의 결정이 과거의 상태를 결정하는 '지연된 선택 실험'을 할 수 있다는 것을 발견했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3488.5,
+   "en": "So in quantum mechanics, something like a photon can be described as a particle or it could be described as a wave, depending on the circumstances.",
+   "ko": "양자 역학에서 광자 같은 것은 상황에 따라 입자로 묘사될 수도 있고 파동으로 묘사될 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3498.6,
+   "en": "And you, the experimenter can choose, I will do an experiment that will disclose the wave-like nature. Or I shall do an experiment that will disclose the particle-like nature.",
+   "ko": "그리고 실험자인 당신은 파동의 성질을 드러내는 실험을 할지, 아니면 입자의 성질을 드러내는 실험을 할지 선택할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3509.3,
+   "en": "But it turns out, if you ask the question, well once it's a particle or a wave, one nanosecond ago, even before your choice, it would have been what you decided in the present moment because quantum fuzziness engulfs the past.",
+   "ko": "그런데 알고 보니, 당신의 선택 이전인 1나노초 전에도 그것이 입자였는지 파동이었는지를 묻는다면, 양자적 모호함이 과거를 집어삼키기 때문에 그것은 당신이 현재 결정한 대로 되어 있었을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3525.3,
+   "en": "Now, you're not sending information back in time, you're not changing the past. The past is ambiguous, so we know some things about the past but not everything.",
+   "ko": "정보를 과거로 보내거나 과거를 바꾸는 것이 아닙니다. 과거는 모호하며, 우리는 과거에 대해 몇 가지는 알지만 전부는 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3535.1,
+   "en": "So if something we do today resolves an ambiguity in the past, then it's not backward causation, but it is a way in which what happens now is linked to what happens in the past.",
+   "ko": "따라서 우리가 오늘 하는 일이 과거의 모호함을 해결한다면, 그것은 역인과관계는 아니지만 현재 일어나는 일이 과거에 일어난 일과 연결되는 방식인 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3550.1,
+   "en": "No doubt that this is the case in quantum physics. You can decide now what reality shall have been in the past.",
+   "ko": "양자 물리학에서는 이것이 사실임에 의심의 여지가 없습니다. 과거의 실재가 어떠했을지를 지금 결정할 수 있는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3558.1,
+   "en": "We extend that from was it a wave, was it a particle? To are the laws of physics themselves part of this quantum landscape?",
+   "ko": "그것이 파동이었나 입자였나 하는 질문을 넘어, 물리 법칙 그 자체가 이러한 양자적 풍경의 일부인지까지 확장해 봅시다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3566.2,
+   "en": "Was it this law of physics? Was it that law of physics? Now we begin to see that there's an access, a way in which the existence of life and mind can gain some sort of purchase over the nature of the laws that have emerged in the universe by having flexibility in the laws and having this sort of quantum retroaction effect in this very subtle way.",
+   "ko": "이 물리 법칙이었을까요, 아니면 저 물리 법칙이었을까요? 이제 우리는 생명과 정신의 존재가 법칙의 유연성과 이러한 미묘한 양자적 소급 효과를 통해 우주에 나타난 법칙의 본질에 모종의 영향력을 얻을 수 있는 통로가 있음을 알게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3594.0,
+   "en": "So it's very easy to misunderstand what I'm saying. I'm not saying that we now have changed the past to ensure our own existence, but there There is a consistency, there's a feedback loop that operates in quantum physics.",
+   "ko": "제 말을 오해하기 쉽습니다. 제가 지금 우리의 존재를 보장하기 위해 과거를 바꿨다고 말하는 것이 아닙니다. 다만 양자 물리학에서는 일관성, 즉 작동하는 피드백 루프가 존재한다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3608.6,
+   "en": "So that's number four. So you've now got, it's just an accident. God did it.",
+   "ko": "그것이 네 번째 방식입니다. 이제 당신은 '단순한 우연이다', '신이 했다'라는 설명을 갖게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3614.1,
+   "en": "There's an infinite number of universes with life very rare, but popping up somewhere, or there's a way in which life and the universe form part of a common existence loop.",
+   "ko": "또는 생명체가 매우 드물지만 어딘가에서 불쑥 나타나는 무수히 많은 우주가 있거나, 아니면 생명과 우주가 공동의 존재 루프를 형성하는 방식이 있는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3624.9,
+   "en": "And that idea, I should say, is not my idea. It's the one I favor.",
+   "ko": "그리고 그 아이디어는 제 아이디어가 아니라는 점을 말씀드려야겠네요. 하지만 제가 선호하는 아이디어입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3628.3,
+   "en": "It was the idea that John Wheeler, the physicist, favored many years ago as a big influence on me. And he was the one who came up with this delay choice experiment.",
+   "ko": "그것은 수년 전 물리학자 존 휠러가 선호했던 아이디어였고 저에게 큰 영향을 주었습니다. 그가 바로 이 지연된 선택 실험을 고안해낸 사람입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3639.2,
+   "en": "And it was sort of springboard for his idea that participants in the universe, that is, beings who have minds and choices and can do experiments and make measurements in quantum and physics could be part of the whole existence story and I find that very appealing.",
+   "ko": "그 실험은 우주의 참여자들, 즉 마음과 선택권을 가지고 양자 물리학 실험과 측정을 수행할 수 있는 존재들이 전체 존재 이야기의 일부가 될 수 있다는 그의 아이디어의 발판이 되었고, 저는 그것이 매우 매력적이라고 생각합니다.",
+   "speaker": "Guest"
+  }
+ ]
+}
