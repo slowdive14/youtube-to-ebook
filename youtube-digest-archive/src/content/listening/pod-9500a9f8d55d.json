@@ -1,0 +1,884 @@
+{
+ "id": "pod-9500a9f8d55d",
+ "title": "Simplified Speech #256 – Naps",
+ "show": "Culips Everyday English Podcast",
+ "channel": "Culips English Podcast",
+ "videoUrl": "",
+ "audioUrl": "https://media.blubrry.com/culips/content.blubrry.com/culips/SS256_Regular.mp3",
+ "imageUrl": "https://esl.culips.com/wp-content/uploads/2023/09/culipsart2-1-1-1.jpg",
+ "duration": 790,
+ "releaseDate": "2026-11-03T18:07:37.000Z",
+ "addedAt": "2026-11-08",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Hello everyone, welcome to the Qloops English podcast.",
+   "ko": "안녕하세요 여러분, 큐룹스 잉글리시 팟캐스트에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3.3,
+   "en": "My name is Andrew and Qloops is a podcast for people who are learning English and this is our simplified speech series which features clear, natural and easy to understand English conversations.",
+   "ko": "제 이름은 앤드류이고, 큐룹스는 영어를 배우는 사람들을 위한 팟캐스트입니다. 그리고 이것은 명확하고 자연스럽고 이해하기 쉬운 영어 대화를 특징으로 하는 저희의 간소화된 스피치 시리즈입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 15.3,
+   "en": "Before we start with today's conversation, I do want to say a huge thank you to Irina, one of our Qloops members.",
+   "ko": "오늘의 대화를 시작하기 전에, 저희 큐룹스 멤버 중 한 명인 이리나에게 정말 큰 감사를 전하고 싶습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 23.3,
+   "en": "She suggested today's topic, and to her whole study group.",
+   "ko": "그녀가 오늘의 주제를 제안해 주었거든요. 그녀의 스터디 그룹 전체에게도 감사드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 32.8,
+   "en": "This episode is also just a little bit different.",
+   "ko": "이번 에피소드는 평소와는 조금 다릅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 35.9,
+   "en": "Some of you have asked us for shorter episodes, so we're testing out something new.",
+   "ko": "청취자 여러분 중 몇 분이 더 짧은 에피소드를 요청하셔서, 새로운 것을 테스트해 보고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 40.9,
+   "en": "And today our conversation is just around 10 minutes long, so it's perfect if you want to bite-sized lesson or if you'd like to listen to the same episode two or three times for practice.",
+   "ko": "오늘 저희 대화는 약 10분 정도 분량이라, 부담 없는 짧은 수업을 원하시거나 같은 에피소드를 연습 삼아 두세 번 듣고 싶으신 분들에게 아주 완벽합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 53.3,
+   "en": "Q-Libs members can study with this episode in the Q-Libs app.",
+   "ko": "큐립스 회원분들은 큐립스 앱에서 이 에피소드로 공부하실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 57.0,
+   "en": "You'll get audio explanations of the key expressions with examples, a quiz, an interactive transcript that follows along as you listen, flashcards, speaking practice, and more.",
+   "ko": "예문과 함께 핵심 표현에 대한 오디오 설명, 퀴즈, 들으면서 따라가는 대화록, 단어 카드, 말하기 연습 등을 이용하실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 70.1,
+   "en": "To become a member, go to qloops.com or visit the link in the description for this episode.",
+   "ko": "회원이 되시려면 qloops.com을 방문하시거나 이 에피소드 설명란의 링크를 확인해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 76.3,
+   "en": "And guys, we need your help.",
+   "ko": "그리고 여러분, 저희의 도움이 필요합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 77.8,
+   "en": "What should we call these shorter episodes?",
+   "ko": "이렇게 짧은 에피소드들을 뭐라고 부르면 좋을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 80.7,
+   "en": "Simplified speech shorts, mini simplified speech, something else, let us know on our Discord server if you have a great idea.",
+   "ko": "간소화된 스피치 쇼츠, 미니 간소화된 스피치, 혹은 다른 좋은 아이디어가 있으시다면 저희 디스코드 서버에 알려주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 89.2,
+   "en": "Okay, now let's welcome in Indiana and begin.",
+   "ko": "자, 그럼 인디애나를 환영하며 시작해 보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 92.9,
+   "en": "Here we go. Enjoy.",
+   "ko": "시작합니다. 즐겁게 들어주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 97.2,
+   "en": "Joining me now to talk all about NAPs is my co-host Indiana and Indiana.",
+   "ko": "낮잠에 대한 모든 이야기를 나누기 위해 저의 공동 진행자인 인디애나가 함께하고 있습니다. 인디애나,",
+   "speaker": "Host"
+  },
+  {
+   "start": 103.4,
+   "en": "I have a question for you.",
+   "ko": "제가 질문 하나 할게요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 105.2,
+   "en": "Right off the bat, it is, are you anapper?",
+   "ko": "단도직입적으로 물어볼게요. 낮잠을 즐겨 자는 편인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 109.4,
+   "en": "Are you anapper?",
+   "ko": "낮잠을 자주 자냐고요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 110.4,
+   "en": "I am really not a napper.",
+   "ko": "저는 정말 낮잠을 안 자는 편이에요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 115.3,
+   "en": "I usually take naps like a couple times a year, maximum, I think.",
+   "ko": "많이 자봐야 1년에 한두 번 정도 낮을 자는 것 같아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 120.7,
+   "en": "Whoa!",
+   "ko": "와!",
+   "speaker": "Host"
+  },
+  {
+   "start": 121.3,
+   "en": "If I'm like really exhausted, I'll nap.",
+   "ko": "정말 녹초가 되었을 때만 낮잠을 자요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 124.5,
+   "en": "Yeah, that's simple as.",
+   "ko": "네, 그게 전부예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 126.4,
+   "en": "I do not really nap.",
+   "ko": "정말 낮잠은 잘 안 자요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 128.0,
+   "en": "What about you, Andrew?",
+   "ko": "앤드류는요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 129.0,
+   "en": "Are you a napper?",
+   "ko": "낮잠 즐겨 주무시나요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 130.0,
+   "en": "I love naps, but I'm not a huge napper.",
+   "ko": "낮잠을 좋아하긴 하지만, 그렇다고 엄청 자주 자는 건 아니에요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 135.7,
+   "en": "As much as I love them, I find it a little bit difficult to take them just with my schedule.",
+   "ko": "낮잠을 정말 좋아하는데도 제 스케줄상 낮잠을 자기가 좀 어렵더라고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 142.7,
+   "en": "But if I'm tired and I have some time available and I can squeeze in a nap, then absolutely I love a nap.",
+   "ko": "하지만 피곤하고 시간이 날 때 짬을 내어 낮잠을 잘 수 있다면, 당연히 정말 좋아하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 151.5,
+   "en": "Yeah, I think like my work schedule just doesn't call for it.",
+   "ko": "제 일 스케줄에는 낮잠이 들어갈 틈이 없는 것 같아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 155.8,
+   "en": "And I'm not somebody who really, yeah, I'm just not, I'm not, I don't like how I feel after a nap.",
+   "ko": "그리고 저는 낮잠 자고 난 뒤의 그 느낌을 별로 안 좋아해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 164.1,
+   "en": "Do you know what I mean, Andrew?",
+   "ko": "제 말 무슨 뜻인지 아시죠, 앤드류?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 165.3,
+   "en": "Like, if you nap for too long, you sort of start to get this kind of cotton mouth feeling, like after you were drinking after your nap, like your mouth feels absolutely terrible, feels dry and smelly and your head is just so fuzzy if you don't time your nap right.",
+   "ko": "낮잠을 너무 오래 자면 입안이 바짝 마르는 느낌이 들잖아요. 낮잠 자고 일어나면 입안이 정말 끔찍하고, 건조하고 텁텁해지고요. 낮잠 시간을 제대로 못 맞추면 머리도 엄청 멍해지고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 183.5,
+   "en": "So like, yeah, if it's like an hour nap.",
+   "ko": "그러니까 한 1시간 정도 자면요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 185.3,
+   "en": "I'm completely destroyed after and it defeats the purpose of the nap.",
+   "ko": "일어나서 완전히 녹초가 되고 낮잠을 자는 의미가 없어져 버려요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 189.1,
+   "en": "So it's not really my thing, but Yeah, do you ever have these awful side effects from naps afterwards?",
+   "ko": "그래서 제 취향은 아닌데, 낮잠 자고 나서 이런 끔찍한 부작용을 겪으신 적 없으신가요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 197.2,
+   "en": "Well, I know what you mean.",
+   "ko": "글쎄요, 무슨 말씀인지 알겠어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 199.3,
+   "en": "I've had that happen before and The word that I would use to describe that feeling is groggy.",
+   "ko": "저도 그런 적이 있거든요. 그런 느낌을 표현할 때 쓰는 단어가 바로 'groggy(멍한, 기운이 없는)'예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 205.8,
+   "en": "So groggy is that feeling when you wake up and you don't feel clear-headed, you feel the opposite.",
+   "ko": "그로기 상태란 일어났을 때 머리가 맑지 않고 오히려 그 정반대의 느낌이 드는 상태를 말해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 214.6,
+   "en": "Maybe you feel a little bit dizzy or like you're not thinking too clearly.",
+   "ko": "어지럽거나 생각이 잘 안 돌아가는 느낌이 들 수도 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 219.4,
+   "en": "Maybe your body feels heavy and your mind feels heavy.",
+   "ko": "몸과 마음이 모두 무겁게 느껴지기도 하고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 223.4,
+   "en": "Almost like you are taking some cold medicine or some medicine to sedate you a little bit.",
+   "ko": "마치 감기약이나 약간 진정시키는 약을 먹은 것 같은 느낌이에요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 229.6,
+   "en": "That's that groggy feeling.",
+   "ko": "그게 바로 그로기 상태의 느낌이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 231.3,
+   "en": "And I do get that if I take a nap that's too long.",
+   "ko": "저도 너무 긴 낮잠을 자면 그런 느낌을 받아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 235.0,
+   "en": "And I really tried to avoid taking long naps.",
+   "ko": "그래서 긴 낮잠은 정말 안 자려고 노력해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 239.8,
+   "en": "I love a short nap.",
+   "ko": "저는 짧은 낮잠을 정말 좋아해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 242.1,
+   "en": "If I take a nap, maximum, maximum, maximum would be 20 minutes, but usually it would be more between 10 and 15 minutes.",
+   "ko": "낮잠을 잔다면 길어도 정말 최대 20분이고, 보통은 10분에서 15분 사이 정도예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 252.4,
+   "en": "So my naps are like real power naps, I think.",
+   "ko": "그러니까 제 낮잠은 말 그대로 진짜 '파워 냅(짧고 깊은 낮잠)'인 셈이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 257.1,
+   "en": "Yeah, those are, I find, are much more effective for like actually regaining some of your energy and continuing on through the day.",
+   "ko": "네, 그런 낮잠이 실제로 에너지를 회복하고 하루를 계속 살아가는 데 훨씬 더 효과적이라는 생각이 들어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 265.1,
+   "en": "That's the way to go.",
+   "ko": "그게 바로 올바른 방법이네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 266.3,
+   "en": "I would agree. Yeah.",
+   "ko": "동의해요. 맞아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 268.3,
+   "en": "So one thing that I like to do is a coffee nap.",
+   "ko": "그래서 제가 좋아하는 것 중 하나가 바로 '커피 냅(커피 낮잠)'이에요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 272.0,
+   "en": "Have you ever heard of a coffee nap, Indiana?",
+   "ko": "인디애나는 커피 냅에 대해 들어본 적 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 275.6,
+   "en": "I have.",
+   "ko": "있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 276.6,
+   "en": "I've never done them on purpose, but I've done them accidentally.",
+   "ko": "의도하고 해본 적은 없지만, 어쩌다 보니 우연히 해본 적은 있어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 280.4,
+   "en": "They're pretty good, but please explain further what a coffee nap is for our listeners.",
+   "ko": "꽤 괜찮더라고요. 하지만 청취자분들을 위해 커피 냅이 무엇인지 조금 더 자세히 설명해 주세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 285.2,
+   "en": "So I don't know if this is pseudoscience, fake science, or what, but the idea behind the coffee nap is that if you're feeling tired, then you can drink a cup of coffee.",
+   "ko": "이게 의사이언스(유사 과학)인지 가짜 과학인지 뭔지는 잘 모르겠지만, 커피 냅의 핵심 아이디어는 피곤할 때 커피 한 잔을 마신다는 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 300.2,
+   "en": "But after drinking coffee, the caffeine that's in the coffee doesn't usually hit right away.",
+   "ko": "그런데 커피를 마신 후에도 커피에 들어 있는 카페인이 보통 바로 작용하지는 않거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 306.5,
+   "en": "There's a delayed onset.",
+   "ko": "작용이 나타나는 데 시간이 좀 걸려요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 308.7,
+   "en": "So that just means that it takes time before the caffeine is effective, this delayed onset.",
+   "ko": "즉, 카페인이 효과를 발휘하기까지 시간이 걸린다는 뜻이죠. 이런 지연된 작용을 이용하는 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 313.6,
+   "en": "set and that delayed onset might be 15 or 20 minutes.",
+   "ko": "그리고 그 지연 시간은 대략 15분에서 20분 정도일 수 있어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 317.8,
+   "en": "So you drink your cup of coffee and then you feel really tired.",
+   "ko": "그러니까 커피 한 잔을 마시고 나면 엄청 피곤함을 느끼잖아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 321.5,
+   "en": "So you close your eyes for a few moments and then after maybe 10, 15 minutes, that caffeine starts to hit and that caffeine jolt will wake you up.",
+   "ko": "그래서 잠시 눈을 감고 있는 거죠. 그러고 나서 10분에서 15분쯤 지나면 카페인이 작용하기 시작하고, 그 카페인 덕분에 잠에서 깨어나게 되는 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 334.1,
+   "en": "And then you get the opposite of feeling groggy.",
+   "ko": "그렇게 하면 멍한 느낌의 반대 효과를 얻을 수 있어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 337.8,
+   "en": "You feel super refreshed and renewed when you wake up because you got the the benefits of that power nap, plus you get the caffeine hitting at the same time.",
+   "ko": "짧은 낮잠의 이점을 얻으면서 동시에 카페인 효과까지 같이 받기 때문에, 일어났을 때 엄청 상쾌하고 활력이 되살아나는 느낌을 받거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 348.2,
+   "en": "And when possible, I like to do this in the afternoon.",
+   "ko": "그리고 가능하면 오후에 이걸 하는 걸 좋아해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 352.8,
+   "en": "Maybe I would say for me, the perfect time would be like 1.32 in the afternoon.",
+   "ko": "제 생각에 완벽한 시간은 오후 1시 30분쯤인 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 359.3,
+   "en": "Maybe I've had lunch, maybe I'm feeling just a little bit, just de-energized after lunch, and then that caffeine nap, when it hits, and it hits right.",
+   "ko": "점심을 먹고 나서 점심 직후라 약간 기운이 빠질 때쯤, 그때 커피 냅을 하면 효과가 제대로 와닿죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 371.2,
+   "en": "It's so refreshing and so good and I feel like I have enough energy to last me until I go to sleep at the end of the day",
+   "ko": "정말 상쾌하고 좋아서 하루가 끝나 잠자리에 들 때까지 버틸 수 있는 에너지가 충분히 충전된 기분이 들어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 378.9,
+   "en": "That is a good strategy a nice hack there Do you find though that if you do this kind of coffee nap that late in the day Like it sounds like after lunch 130 like is is having coffee so late and then napping at that time going to affect your sleep When you get to bed, you know later that night",
+   "ko": "좋은 전략이고 멋진 꿀팁이네요. 그런데 하루 중 그렇게 늦은 시간에(점심 직후인 1시 30분처럼요) 이런 커피 냅을 하면, 그렇게 늦은 시간에 커피를 마시고 낮잠을 자는 게 그날 밤 잠자리에 들 때 수면에 영향을 주지는 않나요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 398.1,
+   "en": "Well, like I said, I don't do this too frequently, so it's not like it's an everyday thing, maybe once every two weeks or something, so I don't find that, yeah, it's had a huge impact on me.",
+   "ko": "글쎄요, 아까 말했듯이 이걸 너무 자주 하지는 않거든요. 매일 하는 것도 아니고 2주에 한 번 정도 하니까 제 수면에 엄청난 영향을 준다고는 느끼지 못해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 413.1,
+   "en": "These days, to be honest, I try to limit myself to just coffee in the morning and not drink coffee after lunch.",
+   "ko": "사실 요즘은 아침에만 커피를 마시고 점심 이후에는 커피를 안 마시려고 제한을 두는 편이에요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 421.7,
+   "en": "However, if I'm feeling really tired and I do have time in my schedule where I can squeeze in one of these naps, then I'll try it.",
+   "ko": "하지만 정말 피곤하고 스케줄상 이런 낮잠을 짬을 내어 잘 수 있는 시간이 있다면 시도해 보죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 430.0,
+   "en": "But yeah, usually I haven't noticed it having an effect on my sleep.",
+   "ko": "그래도 보통은 제 수면에 영향이 가는 걸 잘 못 느꼈어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 435.2,
+   "en": "I know a lot of experts say don't drink coffee after the morning and don't drink it in the afternoon because it will affect your sleep.",
+   "ko": "많은 전문가들이 수면에 영향을 주니까 아침 이후나 오후에는 커피를 마시지 말라고 말한다는 걸 저도 알아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 442.6,
+   "en": "Personally, it hasn't done that for me.",
+   "ko": "개인적으로는 저에게는 그런 영향이 없더라고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 446.0,
+   "en": "All right, Andrew, well, I have a question for you not about your own napping habits, but about napping in Korea because I remember in Japan, when I lived in Japan for four months studying abroad, I noticed every time I went to the library there were a lot of students napping there which was kind_of weird for me in a public place to be just sleeping out in the open.",
+   "ko": "좋아요, 앤드류. 그럼 당신의 낮잠 습관에 관한 게 아니라 한국에서의 낮잠에 대한 질문이 있어요. 제가 일본에서 4개월 동안 교환학생으로 살았을 때 기억하기로는, 도서관에 갈 때마다 거기서 낮잠을 자는 학생들이 정말 많았거든요. 공공장소에서 대놓고 자는 게 저한테는 좀 이상하게 느껴졌었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 473.0,
+   "en": "It's not really a thing in the United States.",
+   "ko": "미국에서는 그런 문화가 별로 없잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 475.7,
+   "en": "Like I guess surely at University campus libraries, sometimes people are sneakily taking a nap.",
+   "ko": "제 생각에 대학교 도서관에서는 사람들이 남몰래 낮잠을 자기도 하겠지만요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 481.9,
+   "en": "But it's not really so publicly accepted, I would say, to do that.",
+   "ko": "하지만 공공장소에서 그렇게 자는 게 대놓고 용인되는 분위기는 아니라고 봐요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 486.0,
+   "en": "So I'm just wondering, Andrew, have you ever seen people sleeping at the library or on the bus or anywhere else in Korea?",
+   "ko": "그래서 묻고 싶은데 앤드류, 한국 도서관이나 버스 혹은 다른 장소에서 사람들이 자는 걸 본 적 있으신가요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 493.8,
+   "en": "What's the deal over there?",
+   "ko": "거기는 어떤가요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 495.5,
+   "en": "Well, Indiana, first, I should say, that I loved a library nap when I was a university student between classes.",
+   "ko": "글쎄요, 인디애나. 우선 말씀드려야 할 건, 저도 대학생 때 수업 사이에 도서관에서 낮잠 자는 걸 정말 좋아했다는 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 505.6,
+   "en": "I always took a nap.",
+   "ko": "항상 낮잠을 잤었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 507.1,
+   "en": "I'd go to the the university library on my campus.",
+   "ko": "캠퍼스에 있는 대학 도서관에 가곤 했어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 510.4,
+   "en": "And you know how they have kind of unique desks in a library at a university?",
+   "ko": "대학교 도서관에 가면 독특한 책상들이 있는 거 아시죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 516.0,
+   "en": "It's almost like a cubby.",
+   "ko": "거의 칸막이 독서실 책상 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 517.8,
+   "en": "Like you have three sides to it.",
+   "ko": "삼면이 막혀 있는 것처럼요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 520.0,
+   "en": "So you have a little bit of privacy and a little reading light.",
+   "ko": "그래서 약간의 프라이버시가 보장되고 작은 독서등도 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 523.1,
+   "en": "I turn off the reading light and put my hoodie over my head and take a nap.",
+   "ko": "저는 독서등을 끄고 후드 모자를 머리에 뒤집어쓴 채 낮잠을 잤어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 528.4,
+   "en": "And it was great.",
+   "ko": "정말 최고였죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 529.6,
+   "en": "So definitely I did it back in Canada.",
+   "ko": "그러니까 캐나다에 있을 때도 분명히 그렇게 했고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 531.9,
+   "en": "And I think a lot of other students do too.",
+   "ko": "다른 많은 학생들도 그렇게 할 거라고 생각해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 534.3,
+   "en": "But yeah, I also noticed in Korea, That was a little culture shock for me, especially on public transportation.",
+   "ko": "하지만 네, 한국에서도 그걸 느꼈는데 특히 대중교통에서 자는 건 저한테 약간 문화 충격이었어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 542.5,
+   "en": "Now, I wouldn't say it's totally super rare to see someone sleeping or napping on a bus or subway back in North America, but I think there's a lot less trust among people in society.",
+   "ko": "북미에서도 버스나 지하철에서 자거나 낮잠 자는 사람을 보는 게 완전히 드문 일이라고 할 수는 없지만, 사회 속 사람들 간의 신뢰가 훨씬 부족하다고 생각해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 556.8,
+   "en": "So for me personally, I don't think I'd ever want to totally pass out on the subway, maybe be like in Toronto or something if I were back in Canada, because I'd be worried somebody's going to steal my phone while I'm sleeping or maybe somehow get to my wallet and take my wallet.",
+   "ko": "그래서 제 개인적으로는, 예를 들어 캐나다로 돌아가 토론토 같은 곳에 있더라도 지하철에서 완전히 꼿아떨어지듯 잠들고 싶지는 않을 것 같아요. 자는 동안 누군가 제 핸드폰을 훔쳐가거나 어떻게든 제 지갑에 손을 대서 가져갈까 봐 걱정될 테니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 572.8,
+   "en": "So I wouldn't want to not be paying attention in that way.",
+   "ko": "그런 식으로 방심하고 싶지 않은 거죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 576.9,
+   "en": "But here in Korea, and I think the same thing happens in Japan as well, it's a higher trust society.",
+   "ko": "하지만 여기 한국에서는, 그리고 일본에서도 마찬가지라고 생각하는데, 훨씬 신뢰도가 높은 사회예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 583.6,
+   "en": "So you don't have to worry about anybody picking your pockets while you sleep.",
+   "ko": "그래서 자는 동안 누군가 소매치기를 할까 봐 걱정할 필요가 없죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 589.1,
+   "en": "That makes a lot of sense, yeah, whether it would be the higher frequency of napping on public transit.",
+   "ko": "정말 일리가 있네요. 대중교통에서 낮잠을 자는 빈도가 더 높은 이유가 바로 그 때문이겠군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 595.9,
+   "en": "Yeah, like on a plane, totally.",
+   "ko": "맞아요, 비행기 안에서처럼요. 완전히 그렇죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 597.9,
+   "en": "You're trying to sleep as much as possible.",
+   "ko": "비행기에서는 최대한 자려고 하잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 599.4,
+   "en": "But yeah, I've definitely never seen somebody sleeping on a bus in the US.",
+   "ko": "하지만 미국 버스에서 자는 사람은 정말 본 적이 없어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 604.7,
+   "en": "One last question here for you before we sign off, and that is about the Da Vinci sleep schedule.",
+   "ko": "마무리하기 전에 마지막 질문 하나 더 드릴게요. 바로 다빈치의 수면 스케줄에 관한 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 612.8,
+   "en": "Da Vinci, I don't know if this is fact.",
+   "ko": "다빈치가 실제로 그랬는지 사실인지는 모르겠어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 615.8,
+   "en": "In fact, I'm pretty sure this is just legend and rumor.",
+   "ko": "사실 이건 그냥 전설이자 소문에 불과하다고 확신하지만요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 619.0,
+   "en": "I'm not sure if he actually operated on the schedule, but he has rumored to have had this unique sleep schedule where he would nap every four hours for 20 minutes.",
+   "ko": "실제로 그런 스케줄로 살았는지는 확실치 않지만, 그가 4시간마다 20분씩 낮잠을 자는 독특한 수면 스케줄을 가졌었다는 소문이 있잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 632.8,
+   "en": "And that would be the only time that he slept was just these naps.",
+   "ko": "그가 잔 시간이라고는 오직 그런 낮잠들이 전부였다고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 636.8,
+   "en": "So I guess he'd have a little nap and that would give him enough energy to make it through that four hour cycle and then he'd repeat.",
+   "ko": "제 생각엔 잠깐 낮잠을 자고 나면 그 4시간 주기를 버틸 수 있는 에너지를 얻게 되고, 그걸 반복했던 것 같아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 643.1,
+   "en": "And yeah, we know Da Vinci is this amazing genius, right?",
+   "ko": "그리고 다빈치가 정말 대단한 천재라는 건 다들 알잖아요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 647.6,
+   "en": "And I guess the idea is that he would just be working on his ideas and his projects instead of spending time sleeping.",
+   "ko": "제 생각에 그 아이디어의 핵심은 잠자는 데 시간을 낭비하는 대신 자신의 아이디어와 프로젝트에 매진했다는 것 같아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 656.6,
+   "en": "Personally, I think sleep is amazing and the more of it we can get, the better.",
+   "ko": "개인적으로 저는 잠이 정말 최고라고 생각하고, 잠을 많이 잘수록 더 좋다고 봐요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 661.3,
+   "en": "I think it's counterproductive to sleep less, not productive, but yeah, I don't know.",
+   "ko": "잠을 적게 자는 건 생산적이기는커녕 오히려 역효과를 낳는다고 생각해요. 하지만 뭐, 잘 모르겠네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 667.2,
+   "en": "What do you think of this Da Vinci sleep schedule?",
+   "ko": "이 다빈치 수면 스케줄에 대해 어떻게 생각하시나요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 669.8,
+   "en": "How long do you think you'd be able to keep that up for?",
+   "ko": "본인이라면 그걸 얼마나 유지할 수 있을 것 같으세요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 672.2,
+   "en": "20 minute nap every four hours.",
+   "ko": "4시간마다 20분씩 낮잠 자기요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 675.3,
+   "en": "I think like living in the society we live in today, probably a day.",
+   "ko": "요즘 우리가 살아가는 사회에서라면, 아마 하루 정도 버틸 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 681.2,
+   "en": "I don't think I could keep this up with social life, work obligations, the way the world turns and works like daytime is when all the activity happens and nighttime is quiet time.",
+   "ko": "사회생활, 업무상의 의무, 그리고 세상이 돌아가는 방식(낮에는 온갖 활동이 일어나고 밤은 조용한 시간인 것)을 고려하면 이걸 계속 유지할 수는 없을 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 692.7,
+   "en": "Like I don't think that this would be sustainable at all.",
+   "ko": "전혀 지속 가능하지 않을 거라고 봐요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 695.5,
+   "en": "But I would totally love to try it.",
+   "ko": "하지만 정말 한번 시도해보고는 싶어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 697.5,
+   "en": "like if there was a sleep study, if there was like a some sort of research lab that would pay me, like, hey, take a break from work for a couple weeks and try to just live in our facility and do the Da Vinci nap, the Da Vinci sleep schedule.",
+   "ko": "만약 수면 연구 같은 게 있다면요. 예를 들어 어떤 연구소에서 돈을 주면서 '몇 주 동안 일에서 벗어나 우리 시설에서 살면서 다빈치 낮잠, 다빈치 수면 스케줄을 한번 해보세요'라고 한다면요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 712.9,
+   "en": "I would totally try that, you know, and see how I would go.",
+   "ko": "그렇다면 정말 시도해보고 제가 어떻게 될지 확인해보고 싶어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 715.6,
+   "en": "But yeah, I don't think it would last very long at all.",
+   "ko": "하지만 네, 그리 오래 가지는 못할 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 719.4,
+   "en": "Yeah, I think I would probably be able to keep it up maybe for a day or two, but I could just just imagine going into day three and being super tired and just being like, why am I doing this?",
+   "ko": "저도 하루나 이틀 정도는 유지할 수 있겠지만, 3일째가 되면 엄청 피곤해져서 '내가 대체 왜 이러고 있지?'라고 생각할 모습이 눈에 훤해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 733.7,
+   "en": "When you're tired, you can't be productive.",
+   "ko": "피곤할 때는 생산적일 수가 없으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 736.3,
+   "en": "And so, yeah, like I said, I think it would be counterproductive.",
+   "ko": "그래서 아까 말했듯이 오히려 역효과가 날 거라고 생각해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 738.9,
+   "en": "And then it's just better to sleep and get a good rest and then attack your projects with full energy.",
+   "ko": "차라리 잠을 자고 푹 쉰 다음에 온전한 에너지를 가지고 프로젝트에 매진하는 게 훨씬 더 낫죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 745.0,
+   "en": "Mm, definitely.",
+   "ko": "음, 맞아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 746.8,
+   "en": "I agreed.",
+   "ko": "동의해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 748.2,
+   "en": "Indiana, let's leave things here for now.",
+   "ko": "인디애나, 오늘은 여기서 이야기를 마무리하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 750.5,
+   "en": "That was a fun conversation.",
+   "ko": "정말 재미있는 대화였어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 752.3,
+   "en": "Thank you for sharing your opinion and your insights.",
+   "ko": "의견과 통찰을 나눠주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 754.8,
+   "en": "And I would like to throw things over to our listeners.",
+   "ko": "그리고 이제 마이크를 청취자 여러분께 넘겨드리려고 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 758.4,
+   "en": "Guys, what do you think about napping?",
+   "ko": "여러분은 낮잠에 대해 어떻게 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 760.7,
+   "en": "Are you a napper like I am?",
+   "ko": "저처럼 낮잠을 즐겨 자는 편이신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 762.7,
+   "en": "Or not so big of a napper like Indiana?",
+   "ko": "아니면 인디애나처럼 낮잠을 별로 안 좋아하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 765.8,
+   "en": "Let us know on our Discord server.",
+   "ko": "저희 디스코드 서버에 알려주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 767.8,
+   "en": "It's a great place to connect with our worldwide community where we practice and improve our English together.",
+   "ko": "전 세계 청취자 커뮤니티와 연결되어 함께 영어를 연습하고 실력을 키울 수 있는 아주 좋은 공간입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 774.4,
+   "en": "The link to join is in the description for this episode and it's free for everyone to join.",
+   "ko": "참여 링크는 이 에피소드 설명란에 있으며 누구나 무료로 가입하실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 779.2,
+   "en": "So we can't wait to hear what you have to say.",
+   "ko": "여러분의 이야기가 정말 기대됩니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 781.4,
+   "en": "But for now, we're gonna take off.",
+   "ko": "하지만 지금은 이만 물러나야겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 783.9,
+   "en": "Guys, take care and we'll talk to you in the next episode.",
+   "ko": "여러분, 건강하시고 다음 에피소드에서 또 뵙겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 787.2,
+   "en": "Until then, goodbye.",
+   "ko": "그때까지 안녕히 계세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 789.1,
+   "en": "Catch you next time.",
+   "ko": "다음에 또 만나요.",
+   "speaker": "Guest"
+  }
+ ]
+}
