@@ -1,0 +1,1222 @@
+{
+ "id": "raFEJooD9UA",
+ "title": "Secrets, Chips and Spycraft: The Nvidia C.E.O. Scandal",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=raFEJooD9UA",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/60e9e1cf-51c5-41b1-af3d-736ef4484e18/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=60e9e1cf-51c5-41b1-af3d-736ef4484e18&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/67/41/6c/67416c7c-13bd-4e3e-85db-e96ba3edaef7/mza_14550220822687966242.jpg/600x600bb.jpg",
+ "duration": 2053,
+ "releaseDate": "2026-11-10T10:55:29Z",
+ "addedAt": "2026-11-10",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "I gave my brother a New York Times subscription. She sent me a New York Times subscription, so I have access to all the games.",
+   "ko": "남동생에게 뉴욕 타임스 구독권을 선물했어요. 그녀가 제게 뉴욕 타임스 구독권을 보내준 덕분에 모든 게임을 이용할 수 있게 되었죠.",
+   "speaker": "Ad Voice 1",
+   "ad": true
+  },
+  {
+   "start": 7.2,
+   "en": "We'll do a Wordle, Mini, and Spelling Bee. It has given us a personal connection.",
+   "ko": "우리는 워들, 미니, 스펠링 비를 같이 해요. 그것은 우리에게 개인적인 유대감을 주었습니다.",
+   "speaker": "Ad Voice 2",
+   "ad": true
+  },
+  {
+   "start": 12.9,
+   "en": "We exchange articles, and so having read the same article, we can discuss it.",
+   "ko": "우리는 기사를 서로 공유하고, 같은 기사를 읽었기 때문에 그에 대해 토론할 수 있습니다.",
+   "speaker": "Ad Voice 3",
+   "ad": true
+  },
+  {
+   "start": 17.4,
+   "en": "The coverage, the options, not just news. That's a diversified desk.",
+   "ko": "보도 범위와 옵션들이 뉴스에만 국한되지 않아요. 정말 다양한 데스크를 갖추고 있죠.",
+   "speaker": "Ad Voice 4",
+   "ad": true
+  },
+  {
+   "start": 21.8,
+   "en": "I was really excited to give him a New York Times cooking subscription so that we could share recipes. And we even just shared a recipe the other day.",
+   "ko": "우리가 레시피를 공유할 수 있도록 그에게 뉴욕 타임스 쿠킹 구독권을 선물하게 되어 정말 기뻤어요. 바로 며칠 전에도 레시피를 공유했답니다.",
+   "speaker": "Ad Voice 5",
+   "ad": true
+  },
+  {
+   "start": 29.5,
+   "en": "The New York Times contributes to our quality time together. You have all of that information on your fingertips.",
+   "ko": "뉴욕 타임스는 우리가 함께 보내는 양질의 시간에 기여합니다. 손가락 끝으로 그 모든 정보를 접할 수 있죠.",
+   "speaker": "Ad Voice 6",
+   "ad": true
+  },
+  {
+   "start": 35.9,
+   "en": "It enriches our relationship, broadening our horizons. It was such a cool and thoughtful gift.",
+   "ko": "그것은 우리의 시야를 넓혀주고 관계를 풍요롭게 해줍니다. 정말 멋지고 사려 깊은 선물이었어요.",
+   "speaker": "Ad Voice 7",
+   "ad": true
+  },
+  {
+   "start": 41.9,
+   "en": "We're reading the same stuff, we're making the same food, we're on the same page.",
+   "ko": "우리는 같은 것을 읽고, 같은 음식을 만들고, 같은 생각을 공유하고 있습니다.",
+   "speaker": "Ad Voice 8",
+   "ad": true
+  },
+  {
+   "start": 48.2,
+   "en": "Connect even more with someone you care about. Learn more about giving a New York Times subscription as a gift at nytimes.com.",
+   "ko": "소중한 사람과 더 깊이 연결되세요. 뉴욕 타임스 구독 선물에 대한 자세한 내용은 nytimes.com에서 확인하세요.",
+   "speaker": "Ad Voice 9",
+   "ad": true
+  },
+  {
+   "start": 56.0,
+   "en": "From the New York Times, I'm Natalie Kitroff. A real life spy thriller? This is the Daily.",
+   "ko": "뉴욕 타임스에서 전해드리는 저는 나탈리 키트로프입니다. 현실판 스파이 스릴러라고요? 여기는 '더 데일리'입니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 67.9,
+   "en": "Sounds like a honey trap and a really good movie.",
+   "ko": "미인계(허니 트랩) 같기도 하고 정말 잘 만든 영화 같기도 하네요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 71.1,
+   "en": "Sex and spy scandal engulfing one of a US technology giant. We needed to talk about NVIDIA. This story is incredible.",
+   "ko": "미국의 한 기술 대기업을 뒤흔들고 있는 섹스와 스파이 스캔들입니다. 우리는 엔비디아에 대해 이야기해야 했습니다. 이 이야기는 정말 믿기지 않을 정도입니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 82.0,
+   "en": "Today, the extraordinary story of how the head of NVIDIA.",
+   "ko": "오늘, 엔비디아의 수장이 어떻게 되었는지에 대한 놀라운 이야기를 전해드립니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 86.6,
+   "en": "That's right, the biggest name in semiconductors, the man driving the AI boom was the company at the center of the AI revolution.",
+   "ko": "그렇습니다. 반도체 분야 최대 거물인 AI 붐을 주도하는 그 인물이 AI 혁명의 중심에 있는 회사였습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 94.0,
+   "en": "To put it crudely, Jensen Huang was apparently honey trapped by China.",
+   "ko": "노골적으로 말하자면, 젠슨 황은 중국의 미인계에 빠진 것으로 보입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 98.4,
+   "en": "Came to admit that he'd had an affair with a woman that U.S. officials say is a Chinese spy.",
+   "ko": "미국 당국자들이 중국 스파이라고 지목한 여성과 불륜 관계였음을 인정하게 된 것이죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 105.7,
+   "en": "It sounds like Mr. Huang is explaining to his wife, his company, and the government.",
+   "ko": "마치 황 회장이 자신의 아내와 회사, 그리고 정부에 해명하고 있는 것처럼 들립니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 109.8,
+   "en": "I speak with my colleague, Tripp Mickle, about what the growing scandal means for the CEO, Jensen Huang, for his $4 trillion company and for the global battle for supremacy and artificial intelligence.",
+   "ko": "동료인 트립 미클 기자와 함께 이 커지는 스캔들이 CEO 젠슨 황과 그의 4조 달러 가치 기업, 그리고 인공지능 분야의 글로벌 패권 경쟁에 어떤 의미를 갖는지 이야기 나눠보겠습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 124.9,
+   "en": "What a mess. What a mess.",
+   "ko": "정말 엉망진창이네요. 정말 난장판입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 129.0,
+   "en": "It's Tuesday, November 10th. Tripp, welcome back to the daily.",
+   "ko": "11월 10일 화요일입니다. 트립, '더 데일리'에 다시 오신 걸 환영합니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 137.8,
+   "en": "Thanks so much for having me.",
+   "ko": "불러주셔서 감사합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 139.1,
+   "en": "Okay, so I and I think everyone else have been completely glued to this story, which is honestly something out of a movie, it feels like this.",
+   "ko": "좋아요, 저를 포함한 모든 사람들이 이 이야기에 완전히 몰입해 있는데, 솔직히 마치 영화 속 한 장면 같아요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 148.5,
+   "en": "Spy working on behalf of the Chinese government infiltrates one of the most valuable companies in the world by having an affair with its founder.",
+   "ko": "중국 정부를 위해 일하는 스파이가 세계에서 가장 가치 있는 기업 중 하나인 이 회사의 창업자와 불륜을 저지르며 침투했다니 말이죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 157.5,
+   "en": "You and many of our colleagues here at the Times have been leading on this reporting and I wanna know absolutely everything. Starting with why this matters at the highest level.",
+   "ko": "트립 기자와 타임스의 많은 동료들이 이 보도를 주도해 왔는데, 저는 모든 것을 알고 싶습니다. 우선, 이것이 왜 그렇게 중요한 문제인지부터 시작해 보죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 170.5,
+   "en": "This story has a little bit of everything, right? It's got sex and spies and semiconductors like what can be more engrossing than that combination.",
+   "ko": "이 이야기에는 거의 모든 것이 담겨 있습니다. 섹스, 스파이, 그리고 반도체까지요. 이보다 더 사람을 사로잡는 조합이 어디 있겠습니까.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 179.5,
+   "en": "But when you think about why this story matters, you have to look at what has changed in the world at large over the past three years. And the biggest fundamental change is artificial intelligence.",
+   "ko": "하지만 이 이야기가 왜 중요한지 생각해보려면 지난 3년 동안 세상에서 무엇이 변했는지를 봐야 합니다. 그리고 가장 근본적인 변화는 인공지능입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 191.8,
+   "en": "And the increasing belief that artificial intelligence is going to be an industrial revolution. And the company behind that industrial revolution, the company that's enabling it is NVIDIA.",
+   "ko": "그리고 인공지능이 차세대 산업 혁명이 될 것이라는 믿음이 커지고 있죠. 그리고 그 산업 혁명의 배후에 있는 회사, 그것을 가능하게 하는 회사가 바로 엔비디아입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 204.8,
+   "en": "NVIDIA has a 90% market share in the artificial intelligence chips that are used to build and run AI system.",
+   "ko": "엔비디아는 AI 시스템을 구축하고 가동하는 데 사용되는 인공지능 칩 시장에서 90%의 점유율을 차지하고 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 212.8,
+   "en": "So every time you go to chat GPT or Claude or Grok or anything Gemini, anything else, and you put in a query, odds are some portion of that response that you get is powered by NVIDIA's technology.",
+   "ko": "그래서 여러분이 챗GPT나 클로드, 그록, 제미나이 같은 서비스를 이용할 때마다 질문을 입력하면, 여러분이 받는 답변의 상당 부분이 엔비디아의 기술로 구동되고 있을 가능성이 큽니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 228.4,
+   "en": "And so this has ramifications for everybody. It has ramifications for policy makers in Washington.",
+   "ko": "따라서 이것은 모두에게 영향을 미칩니다. 워싱턴의 정책 입안자들에게도 영향을 미치죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 235.8,
+   "en": "It has geopolitical ramifications for the US-China relationship. And it has ramifications for you, me, and everybody else who has a 401k because NVIDIA is such a big company in terms of its value and in terms of its prominence in the S&P 500.",
+   "ko": "미중 관계에는 지정학적 영향을 미칩니다. 또한 엔비디아는 기업 가치와 S&P 500에서의 비중이 워낙 크기 때문에 401k 퇴직연금을 가진 저와 당신, 그리고 모든 사람에게 영향을 미칩니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 254.0,
+   "en": "And in terms of what it means to where artificial intelligence is going, that the stock market, literally, it moves up and down based on how NVIDIA is trading.",
+   "ko": "또한 인공지능이 나아갈 방향에 있어서 주식 시장은 말 그대로 엔비디아의 주가 흐름에 따라 요동칩니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 264.5,
+   "en": "Okay. So this story matters a lot, and not just because it is filled with incredibly tantalizing details, twists and turns, but because a lot of our economic health is riding on this industry and on this company.",
+   "ko": "그렇군요. 그래서 이 이야기가 매우 중요한 것이군요. 단지 흥미진진한 세부 묘사와 반전이 가득해서가 아니라, 우리 경제의 많은 부분이 이 산업과 이 회사에 달려 있기 때문이죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 281.2,
+   "en": "And on this one man, Jensen Huang. And so it's hard to begin to wrap your head around how important Jensen Huang is to artificial intelligence and this company itself.",
+   "ko": "그리고 이 한 사람, 젠슨 황에게도 달려 있죠. 젠슨 황이 인공지능과 이 회사 자체에 얼마나 중요한 인물인지 이해하기조차 힘들 정도입니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 294.7,
+   "en": "He has a flat structure with 60 direct reports. There's no clear indication of who his successor might be if he were to get hit by a bus tomorrow.",
+   "ko": "그는 60명의 직속 보고자를 둔 수평적 조직 구조를 가지고 있습니다. 만약 그가 내일 당장 불의의 사고를 당한다면 누가 후계자가 될지 명확한 징후조차 없습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 303.8,
+   "en": "And now he's become enmeshed in arguably the most explosive geopolitical controversy in corporate history.",
+   "ko": "그런데 이제 그는 기업 역사상 가장 폭발적인 지정학적 논란에 휘말리게 된 것입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 315.1,
+   "en": "Okay. At this point, we should note that yesterday a Chinese government spokesman rejected the claim that the woman at the center of all of this was a Chinese spy and dismissed the reporting as nothing but a smear against China.",
+   "ko": "알겠습니다. 이 시점에서 어제 중국 정부 대변인이 이 모든 사건의 중심에 있는 여성이 중국 스파이라는 주장을 부인하며, 해당 보도를 중국에 대한 비방일 뿐이라고 일축했다는 점을 언급해야겠네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 329.8,
+   "en": "But let's talk about how we got to this place, where one of the most powerful CEOs in the world gets tangled up in such an explosive, high-stakes mess. Like, where does this story begin?",
+   "ko": "하지만 어떻게 세계에서 가장 강력한 CEO 중 한 명이 이런 폭발적이고 위험천만한 혼란에 휘말리게 되었는지 이야기해 봅시다. 이 이야기는 어디서부터 시작되나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 346.8,
+   "en": "You have to back up to last August when Anna Swanson and I got a message from a tech industry contact of ours who said, hey, you really need to drop everything and look at this company called Megaspeed.",
+   "ko": "작년 8월로 거슬러 올라가야 합니다. 안나 스완슨과 제가 기술 업계의 한 정보원으로부터 연락을 받았는데, 그는 '당장 모든 걸 제쳐두고 메가스피드라는 회사를 조사해봐야 한다'고 말했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 361.7,
+   "en": "It's a Singaporean data center firm. I mean, it's literally a company that buys chips from NVIDIA and builds data centers.",
+   "ko": "그곳은 싱가포르의 데이터 센터 기업입니다. 말 그대로 엔비디아에서 칩을 사서 데이터 센터를 구축하는 회사죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 371.9,
+   "en": "And there's nothing about that on the surface that says this is something we should drop what we're doing into the time and resources to figuring out what this company is and why it matters.",
+   "ko": "표면적으로는 우리가 하던 일을 멈추고 시간과 자원을 투입해 이 회사가 무엇인지, 왜 중요한지 파악해야 할 만한 점은 전혀 없었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 382.6,
+   "en": "But NVIDIA was selling chips to this company at a time of increasing controversy over where AI chips go.",
+   "ko": "하지만 엔비디아는 AI 칩이 어디로 흘러가는지에 대한 논란이 커지던 시기에 이 회사에 칩을 팔고 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 393.3,
+   "en": "The US government has been concerned for years about the arms race, so to speak, between the US and China over, who's gonna achieve supremacy and artificial intelligence.",
+   "ko": "미국 정부는 인공지능 분야에서 누가 패권을 쥐게 될지를 두고 미중 간에 벌어지는 일종의 군비 경쟁에 대해 수년 동안 우려해 왔습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 404.7,
+   "en": "And when the AI revolution started in late 2022, the US had restricted China from buying NVIDIA's best chips and best technology because it wanted to stop China from being able to build technology that was as sophisticated and comprehensive as what U.S. companies were building.",
+   "ko": "그리고 2022년 말 AI 혁명이 시작되었을 때, 미국은 중국이 미국 기업들이 만드는 것만큼 정교하고 포괄적인 기술을 구축하는 것을 막기 위해 엔비디아의 최고급 칩과 기술을 사지 못하도록 제한했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 426.8,
+   "en": "But there was a big loophole. And that loophole was that NVIDIA could sell chips to companies in Southeast Asia, and that those companies could then provide access to that technology remotely to Chinese companies.",
+   "ko": "하지만 큰 허점이 있었습니다. 그 허점은 엔비디아가 동남아시아 기업들에게 칩을 팔 수 있고, 그 기업들이 중국 기업들에게 해당 기술에 원격으로 접속할 수 있게 해준다는 것이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 443.5,
+   "en": "And as we began to examine Megaspeed, it was pretty clear they're kind of the poster child for exploiting this loophole.",
+   "ko": "우리가 메가스피드를 조사하기 시작했을 때, 그들이 이 허점을 이용하는 대표적인 사례라는 것이 꽤 명확해졌습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 451.0,
+   "en": "How so? How so?",
+   "ko": "어째서요? 어떻게 그렇다는 거죠?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 453.4,
+   "en": "I mean, in the span of roughly two years, they had purchased more than $4.8 billion in chips from NVIDIA.",
+   "ko": "제 말은, 대략 2년이라는 시간 동안 그들이 엔비디아로부터 48억 달러 이상의 칩을 구매했다는 겁니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 461.6,
+   "en": "I mean, they went from being a company that nobody knew of overnight to a company that had become one of NVIDIA's largest customers in the region.",
+   "ko": "아무도 모르던 회사에서 하룻밤 사이에 그 지역에서 엔비디아의 가장 큰 고객 중 하나가 된 것입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 472.4,
+   "en": "And I mean, this was a company with clear ties to China. So we wanted to learn more about those ties and dispatch our colleague Paul Mozur from Taipei to Singapore to visit the Megaspeed office.",
+   "ko": "그리고 이 회사는 중국과 분명한 유대 관계가 있는 회사였습니다. 그래서 우리는 그 관계에 대해 더 알고 싶었고, 타이베이에 있던 동료 폴 모저 기자를 싱가포르로 보내 메가스피드 사무실을 방문하게 했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 485.6,
+   "en": "And when he showed up, he found that there were only two employees at the office.",
+   "ko": "그런데 그가 가보니 사무실에는 직원이 단 두 명뿐이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 489.7,
+   "en": "And when he spoke to them, they said that most all of their customers were Chinese and most of the executives were Chinese and rarely came to Singapore. In fact, most of them stayed mostly in China.",
+   "ko": "그가 그들과 이야기를 나눠보니, 고객의 거의 대부분이 중국인이고 경영진도 대부분 중국인이며 싱가포르에는 거의 오지 않는다고 했습니다. 사실 대부분 중국에 머물고 있었죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 503.1,
+   "en": "This was significant because at the time NVIDIA was telling us that Megaspeed didn't really have ties to China.",
+   "ko": "이것은 중요한 사실이었습니다. 당시 엔비디아는 메가스피드가 중국과 별다른 관련이 없다고 우리에게 말하고 있었거든요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 509.4,
+   "en": "Paul also went and found that Megaspeed was owned by a shell company and he visited the shell company and found that it was based in an accounting firm almost like a shell company mill.",
+   "ko": "폴은 또한 메가스피드가 유령 회사의 소유라는 것을 알아냈고, 그 유령 회사를 방문해보니 거의 유령 회사 제조기 같은 회계 법인에 주소를 두고 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 522.5,
+   "en": "All of this was mystifying for us. Unusual, just because why would such a big company be housed within the accounting firm?",
+   "ko": "이 모든 것이 우리에겐 의문이었습니다. 그렇게 큰 회사가 왜 회계 법인 안에 입주해 있겠습니까? 매우 특이한 일이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 529.8,
+   "en": "Right. You're buying $4.8 billion of chips. You would think you could spring for your own office space, right? Right.",
+   "ko": "맞아요. 48억 달러어치 칩을 사는 정도면 자체 사무실 공간 정도는 마련할 수 있을 텐데 말이죠. 그렇죠?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 538.5,
+   "en": "So, it sounds like you're finding there are a lot of questions to be asked about this company's connections to China and how it became such a major buyer of these chips basically out of the blue.",
+   "ko": "그러니까, 이 회사의 중국 연계성과 어떻게 갑자기 이렇게 큰 칩 구매자가 되었는지에 대해 물어야 할 질문이 아주 많다는 것을 알아내고 계셨던 거군요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 549.8,
+   "en": "Yeah, absolutely. I mean, and as we dug into this company and looked at it, we found that they had aroused the suspicions of the Commerce Department and Commerce officials who are supposed to track where chips are going around the world.",
+   "ko": "네, 맞습니다. 이 회사를 파헤치면서 우리는 전 세계 칩의 행방을 추적해야 하는 상무부와 상무부 관리들의 의심을 사고 있었다는 것을 발견했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 563.2,
+   "en": "And so they dispatch investigators to visit one of the data centers. And when they showed up in September of 2024, they found that Megaspeed still had a lot of the NVIDIA technology in boxes, which raised suspicion that that technology was being shipped in and then onward to potentially China.",
+   "ko": "그래서 그들은 조사관을 보내 데이터 센터 중 한 곳을 방문하게 했습니다. 2024년 9월에 그들이 도착했을 때, 메가스피드는 여전히 많은 엔비디아 기술 장비들을 상자째로 보관하고 있었는데, 이는 그 기술이 수입된 뒤 잠재적으로 중국으로 재전송되고 있다는 의심을 불러일으켰습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 581.2,
+   "en": "It really raised the prospects that this was a smuggling not just a data center operation.",
+   "ko": "이것은 단순히 데이터 센터 운영이 아니라 밀수 작전일 가능성을 강력하게 시사했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 587.0,
+   "en": "Fascinating. And at the center of all of this was this woman named Alice Wang or Wang La, a Chinese citizen, who claimed to be the company's chief executive officer on her LinkedIn, and who had a biography that detailed that she used to be a TV journalist.",
+   "ko": "흥미롭군요. 그리고 이 모든 것의 중심에는 앨리스 왕, 혹은 왕라라고 불리는 중국인 여성이 있었는데, 그녀는 자신의 링크드인에 회사의 CEO라고 자처했고, 경력 사항에는 전직 TV 기자였다고 적혀 있었죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 606.8,
+   "en": "And this just made us question, how did she get all this money? How did she come to be in charge of this company?",
+   "ko": "이로 인해 우리는 의문을 갖게 되었습니다. 그녀가 어떻게 그 많은 돈을 구했을까요? 어떻게 이 회사를 책임지게 된 걸까요?",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 614.2,
+   "en": "And then most of all, most mystifying, how did she get so close to Jensen Huang, the person who is at the forefront of artificial intelligence?",
+   "ko": "그리고 무엇보다 가장 의문스러운 점은, 그녀가 어떻게 인공지능의 선두에 있는 인물인 젠슨 황과 그렇게 가까워질 수 있었느냐는 것이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 622.4,
+   "en": "How close a relationship are you aware that they have at this point? Like what do you know about that?",
+   "ko": "현재 시점에서 그들이 어느 정도로 가까운 사이라고 파악하고 계신가요? 무엇을 알고 계시죠?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 630.1,
+   "en": "We don't know a lot, but she's been photographed with him on a few different occasions and videoed with him at various industry gatherings.",
+   "ko": "많이 알지는 못하지만, 그녀는 몇 차례 그와 함께 사진이 찍혔고 여러 업계 모임에서 그와 함께 있는 모습이 영상에 담기기도 했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 639.1,
+   "en": "And so we do some reporting. We speak to a man who took a photograph of them at an industry party at a bar in Taipei.",
+   "ko": "그래서 우리는 취재를 좀 했습니다. 타이베이의 한 바에서 열린 업계 파티에서 그들의 사진을 찍은 남성과 이야기를 나눴습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 648.6,
+   "en": "And there's a photograph of Jensen sitting beside Alice as they prepared a toast with whiskey. And the gentleman who took the photograph is a tech executive named Parker Schmidt.",
+   "ko": "사진 속에는 젠슨이 위스키로 건배를 준비하며 앨리스 옆에 앉아 있는 모습이 담겨 있었습니다. 사진을 찍은 신사는 파커 슈미트라는 기술 기업 임원이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 659.0,
+   "en": "And Parker got on the phone and he said, you know, the wild thing about that photo is we were hanging out with Alice at this party. And she said something to the effect of, I bet I can get Jensen here.",
+   "ko": "파커는 전화 통화에서 '그 사진의 놀라운 점은 우리가 그 파티에서 앨리스와 어울리고 있었다는 것'이라며, 그녀가 '내가 젠슨을 여기로 오게 할 수 있다는데 내기를 걸죠'라는 식의 말을 했다고 전했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 670.8,
+   "en": "And sure enough, a few minutes later, Jensen showed up. An indication that, I mean, she may have him on speed dial or something like that, at least.",
+   "ko": "그리고 정말로 몇 분 뒤에 젠슨이 나타났습니다. 이는 적어도 그녀가 그를 단축번호에 저장해 두었거나 그와 비슷한 관계일 수 있음을 시사하죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 679.8,
+   "en": "Right. That was the way it was perceived by others at this party.",
+   "ko": "그렇군요. 그 파티에 있던 다른 사람들도 그렇게 받아들였다는 거군요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 683.4,
+   "en": "And you gotta remember, like, this is in Taipei. This is where he is rock star among rock stars. And this is the industry that he is building and leading.",
+   "ko": "기억하셔야 할 건 여기가 타이베이라는 점입니다. 그는 그곳에서 록스타 중의 록스타입니다. 그리고 이곳은 그가 세우고 이끌고 있는 산업 현장이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 693.2,
+   "en": "So to be able to in moments summon the most important figure in the industry really catches people's attention.",
+   "ko": "그러니 업계에서 가장 중요한 인물을 즉석에서 불러낼 수 있다는 사실은 사람들의 시선을 끌기에 충분합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 701.8,
+   "en": "All right, so you drop this reporting what happens now?",
+   "ko": "좋아요, 그럼 이 보도를 내보내고 나서 지금은 어떻게 되었나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 705.7,
+   "en": "Not much. It's quiet and NVIDIA keeps doing business with Megaspeed and We don't hear a lot for a while.",
+   "ko": "별일 없었습니다. 잠잠했고, 엔비디아는 계속 메가스피드와 거래를 이어갔으며 한동안 소식이 뜸했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 711.8,
+   "en": "And then about a month ago We hear that our colleagues in Washington on the national security beat all of a sudden are hearing things about Alice Wang and She's resurfaced in our universe.",
+   "ko": "그러다 약 한 달 전쯤, 국가 안보를 담당하는 워싱턴의 우리 동료들이 갑자기 앨리스 왕에 대한 이야기를 듣기 시작했고, 그녀가 다시 우리 시야에 나타났습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 724.4,
+   "en": "And we start to do some reporting. And it turns out that she has been under US surveillance for about a year, if not longer.",
+   "ko": "그래서 우리는 취재를 시작했습니다. 알고 보니 그녀는 1년 정도, 어쩌면 그보다 더 오래전부터 미국의 감시를 받아왔던 것이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 736.9,
+   "en": "And in the course of surveilling her and her communication, US intelligence services have determined that she's a Chinese asset funneling information to Beijing.",
+   "ko": "그녀와 그녀의 통신 내용을 감시하는 과정에서 미국 정보 기관은 그녀가 베이징에 정보를 흘리는 중국 측 자산이라고 결론 내렸습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 750.2,
+   "en": "A spy. A spy basically.",
+   "ko": "스파이군요. 기본적으로 스파이인 거네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 754.4,
+   "en": "And lo and behold, who do they find out she's in touch with? Jensen Huang.",
+   "ko": "그런데 이게 웬걸요, 그녀가 누구와 연락하고 있는지 알아냈을까요? 바로 젠슨 황이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 764.4,
+   "en": "We'll be right back.",
+   "ko": "잠시 후에 돌아오겠습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 772.7,
+   "en": "Hey, it's Vaughan Vreeland from New York Times Cooking. Baking season is here. Almost any cake can be turned into a one-bowl cake.",
+   "ko": "안녕하세요, 뉴욕 타임스 쿠킹의 본 브릴랜드입니다. 베이킹의 계절이 왔습니다. 거의 모든 케이크는 한 개의 볼로 만들 수 있는 원볼 케이크로 변신할 수 있죠.",
+   "speaker": "Vaughan Vreeland",
+   "ad": true
+  },
+  {
+   "start": 780.9,
+   "en": "There's nothing better than a freshly baked croissant from my oven. Oh my god, I could eat five billion of these. That is a brownie.",
+   "ko": "오븐에서 갓 구워낸 크루아상보다 더 좋은 건 없죠. 세상에, 이건 50억 개라도 먹을 수 있겠어요. 이건 브라우니네요.",
+   "speaker": "Vaughan Vreeland",
+   "ad": true
+  },
+  {
+   "start": 787.9,
+   "en": "Don't be afraid. This is so forgiving. These are deluxe cookies. Bake with New York Times cooking this season.",
+   "ko": "두려워하지 마세요. 아주 너그러운 레시피니까요. 이건 고급 쿠키입니다. 이번 시즌에는 뉴욕 타임스 쿠킹과 함께 베이킹해보세요.",
+   "speaker": "Vaughan Vreeland",
+   "ad": true
+  },
+  {
+   "start": 795.8,
+   "en": "Find all the recipes at nytcooking.com. Subscribe now for a limited time offer.",
+   "ko": "모든 레시피는 nytcooking.com에서 확인하실 수 있습니다. 한정 기간 혜택을 위해 지금 구독하세요.",
+   "speaker": "Vaughan Vreeland",
+   "ad": true
+  },
+  {
+   "start": 804.2,
+   "en": "All right, so you learn that the US intelligence community has for the past year or so been surveilling this woman that they suspect is a Chinese spy.",
+   "ko": "좋아요, 그러니까 미국 정보 기관이 지난 1년 정도 중국 스파이로 의심되는 이 여성을 감시해 왔다는 사실을 알게 되신 거군요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 813.5,
+   "en": "They know this woman is talking quite a bit with NVIDIA CEO Jensen Huang, what do they come to know about the nature of the relationship between these two?",
+   "ko": "그들은 이 여성이 엔비디아의 CEO 젠슨 황과 꽤 자주 대화한다는 것을 알고 있는데, 두 사람 관계의 성격에 대해 무엇을 알아냈나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 825.1,
+   "en": "They know that they have a very close relationship that they've obviously been doing business together and that some people in the Intel community suspect that the relationship is intimate.",
+   "ko": "그들은 두 사람이 매우 긴밀한 관계이며 분명히 사업을 함께 해왔다는 것을 알고 있고, 정보 기관의 일부 사람들은 그 관계가 사적인 연인 관계라고 의심하고 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 836.4,
+   "en": "And this obviously sets off alarm bells within the US government because- Right, you'd think.",
+   "ko": "이것은 분명 미국 정부 내에 경고음을 울리게 합니다. 왜냐하면- 그렇죠, 당연히 그렇겠죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 843.7,
+   "en": "Jensen Huang, over the course of the past two years, has gone from somebody who did not even know President Trump to one of President Trump's closest allies, who has a huge voice and influence over USAI policy, and who has regular phone calls with the president.",
+   "ko": "젠슨 황은 지난 2년 동안 트럼프 대통령을 알지도 못하던 사람에서 미국의 AI 정책에 거대한 목소리와 영향력을 행사하며 대통령과 정기적으로 통화하는 가장 가까운 동맹 중 한 명이 되었으니까요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 862.2,
+   "en": "They're in touch all the time. I mean, we saw recently, Jensen Huang was on stage at an event, and he got a call from the president and took it live.",
+   "ko": "그들은 수시로 연락을 주고받습니다. 최근 젠슨 황이 행사 무대 위에 있을 때 대통령으로부터 전화를 받아 실시간으로 통화하는 모습도 보았죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 871.3,
+   "en": "So they're clearly very close. And I assume that the worry or the question on the minds of these intelligence officers is what is Alice Wang trying to get out of Jensen and what does she manage to glean from him?",
+   "ko": "확실히 매우 가깝군요. 정보 요원들의 마음속에 있는 우려나 의문은 앨리스 왕이 젠슨에게서 무엇을 얻어내려 하고, 그에게서 어떤 정보를 수집했느냐는 것이겠네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 888.2,
+   "en": "Right. And the US intelligence community determines that she's working on behalf of China's Ministry of State Security, which is essentially their CIA.",
+   "ko": "맞습니다. 그리고 미국 정보 기관은 그녀가 기본적으로 중국의 CIA인 국가안전부(MSS)를 위해 일하고 있다고 판단했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 898.3,
+   "en": "Wow. And they determine that she is trying to learn more about American AI chips. In other words, you know, NVIDIA's magic and potentially trying to influence US policy on AI chips for China.",
+   "ko": "와우. 그리고 그들은 그녀가 미국의 AI 칩, 다시 말해 엔비디아의 핵심 기술에 대해 더 많이 알아내려 하고, 잠재적으로 중국을 위한 미국의 AI 칩 정책에 영향을 미치려 한다고 결론 내렸습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 917.0,
+   "en": "In other words, encouraging Jensen to try to advocate for China to get more AI chips.",
+   "ko": "즉, 젠슨이 중국이 더 많은 AI 칩을 얻을 수 있도록 옹호하게끔 유도하려 했다는 것이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 924.4,
+   "en": "And the concern in the worry here is she's incredibly close to him, which means she could have access to his devices. She could be communicating with him at all of times she could be weighing in on issues in real time.",
+   "ko": "여기서 우려되는 점은 그녀가 그와 매우 가깝기 때문에 그의 기기에 접근할 수 있었을 수도 있다는 것입니다. 언제든 그와 소통하며 실시간으로 문제에 개입할 수도 있었겠죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 937.0,
+   "en": "We don't know. We haven't seen the surveillance, but you can imagine the type of questions that the intel community was agonizing over as it was reviewing the surveillance.",
+   "ko": "우리는 알 수 없습니다. 감시 내용을 보지 못했으니까요. 하지만 정보 당국이 감시 내용을 검토하며 얼마나 많은 고민을 했을지는 상상할 수 있을 겁니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 947.7,
+   "en": "And so what do they do when they find this out? Like how do they respond to this information?",
+   "ko": "그럼 이걸 알아냈을 때 그들은 어떻게 하나요? 이 정보에 어떻게 대응하죠?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 953.5,
+   "en": "They take it to the top. They briefed the president on this about a year ago, and they let him know that Jensen Huang has a relationship, a close relationship with this woman who they've determined to be a Chinese spy.",
+   "ko": "그들은 최고위층에 보고합니다. 약 1년 전 대통령에게 이 사실을 보고했고, 젠슨 황이 중국 스파이로 판명된 여성과 가까운 관계를 맺고 있다는 것을 알렸습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 970.0,
+   "en": "And the president chooses not to do anything.",
+   "ko": "그런데 대통령은 아무런 조치도 취하지 않기로 선택합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 973.8,
+   "en": "And when you say he decides to not do anything, what do you mean by that? Like what exactly does that look like?",
+   "ko": "아무것도 하지 않기로 했다는 게 무슨 뜻인가요? 정확히 어떤 상황인 거죠?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 982.0,
+   "en": "Well usually in circumstances like this, what happens for a US citizen that surfaces in surveillance and an intelligence operation like this is that the FBI would provide a defensive briefing for that individual, essentially notifying them and saying, hey, you need to be aware, you have come up in surveillance.",
+   "ko": "보통 이런 상황에서, 이런 정보 작전의 감시망에 걸린 미국 시민에게는 FBI가 방어적 브리핑을 제공합니다. 기본적으로 '당신이 감시 대상에 올랐으니 주의해야 한다'고 알려주는 거죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1002.5,
+   "en": "We know the person you're talking to is part of an intelligence operation. We suggest you probably presumably distance yourself from them.",
+   "ko": "'당신이 대화하고 있는 상대가 정보 작전의 일부라는 것을 알고 있다. 그 사람과 거리를 두는 것을 권고한다'고 말이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1011.5,
+   "en": "In this instance, since that is not what happened. Jensen was not notified about this. Nothing happened. Literally, the president took no action.",
+   "ko": "이번 경우에는 그런 일이 일어나지 않았습니다. 젠슨은 통보받지 못했습니다. 아무 일도 없었죠. 문자 그대로 대통령이 아무런 조치도 취하지 않았습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1020.5,
+   "en": "Why? Why wasn't he notified? What's the justification for that?",
+   "ko": "왜죠? 왜 통보받지 못한 건가요? 그에 대한 정당한 이유가 있나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1024.7,
+   "en": "It's unclear to us in that time, in that moment last fall, why the president didn't take action.",
+   "ko": "지난해 가을 그 당시 대통령이 왜 조치를 취하지 않았는지는 저희에게도 불분명합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1032.7,
+   "en": "We don't know if that's because they didn't want, potentially Jensen Huang to say something to her and then that kind of pollutes the surveillance or creates a situation where they're no longer able to surveil her, if that was a priority, or if there was something else going on, there's some other dynamic.",
+   "ko": "젠슨 황이 그녀에게 무언가 말해서 감시를 망치거나 더 이상 감시할 수 없는 상황이 생기는 걸 원치 않았기 때문인지, 아니면 다른 역학 관계가 작용하고 있었는지는 알 수 없습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1049.4,
+   "en": "I mean, there are many variables at play. And we have to remember he's a close ally of Jensen Huang, and this is a president who is very aware of how the stock market is performing and the economy is performing.",
+   "ko": "여러 변수가 작용했을 겁니다. 그리고 그는 젠슨 황의 긴밀한 동맹이며, 주식 시장과 경제 상황에 매우 민감한 대통령이라는 점을 기억해야 합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1065.5,
+   "en": "And what is the one thing driving both of those things, artificial intelligence, and NVIDIA.",
+   "ko": "그리고 그 두 가지를 모두 주도하고 있는 단 하나의 존재가 바로 인공지능, 그리고 엔비디아입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1071.8,
+   "en": "Okay, so Trump knows about it. The US government knows about it. What happens? What happens next?",
+   "ko": "알겠습니다. 트럼프도 알고 있고 미국 정부도 알고 있네요. 그럼 다음에는 무슨 일이 일어나나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1080.0,
+   "en": "I know we've said this once before, but not much. Fast forward to the spring, and Marco Rubio asked for an update on the intelligence about the surveillance.",
+   "ko": "전에도 말씀드렸지만 별일 없었습니다. 봄으로 넘어가면 마르코 루비오 의원이 감시 정보에 대한 업데이트를 요청했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1091.2,
+   "en": "And he drafts another memo and he makes it more clear that she is a Chinese spy, that she is working for China's intelligence services.",
+   "ko": "그리고 그는 또 다른 메모를 작성하며 그녀가 중국 스파이이며 중국 정보 기관을 위해 일하고 있다는 점을 더욱 명확히 했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1101.7,
+   "en": "The timing of this memo is shortly before President Trump took off for his summit in Beijing with Xi Jinping.",
+   "ko": "이 메모가 작성된 시점은 트럼프 대통령이 시진핑 주석과의 베이징 정상회담을 위해 떠나기 직전이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1111.0,
+   "en": "And when the US government pulls together its list of executive delegates to go on that trip, you have Tim Cook, You have other chip executives. It's a 17-person list, but there's one name that's omitted, and that is Jensen. He's not invited.",
+   "ko": "미국 정부가 동행할 기업 사절단 명단을 짤 때 팀 쿡과 다른 칩 기업 임원들이 포함되었습니다. 17명의 명단 중 단 한 명의 이름이 빠졌는데, 그게 바로 젠슨이었습니다. 그는 초대받지 못했죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1130.9,
+   "en": "But if I'm not mistaken, Jensen Huang does end up going on this trip to China. So what happened?",
+   "ko": "하지만 제가 알기로는 결국 젠슨 황도 이번 중국 방문에 동행한 것으로 압니다. 어떻게 된 건가요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1138.7,
+   "en": "Yeah, I mean, in the run-up to the trip to Beijing, there's media coverage about Jensen not being there. the president decides to extend the last minute invitation to Jensen and Jensen flies to Alaska, meets Air Force One on the tarmac and boards and they take off together to go to Beijing.",
+   "ko": "네, 베이징 방문을 앞두고 젠슨이 빠졌다는 언론 보도가 나왔습니다. 그러자 대통령은 막판에 젠슨을 초대하기로 결정했고, 젠슨은 알래스카로 날아가 활주로에서 에어포스 원에 합류해 함께 베이징으로 떠났습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1158.8,
+   "en": "Okay, so I think that brings us to a couple of weeks ago when you and our colleagues published this bombshell report saying that Jensen Huang was the target of this Chinese spy plot.",
+   "ko": "좋아요, 이제 몇 주 전 트립 기자와 동료들이 젠슨 황이 중국 스파이 음모의 표적이었다는 폭탄 선언 같은 보도를 냈던 시점으로 오게 된 것 같네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1169.0,
+   "en": "Is this when he first figures out that he's been caught up in all this surveillance?",
+   "ko": "이때가 그가 자신이 이 모든 감시에 휘말렸다는 사실을 처음으로 알게 된 시점인가요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1173.9,
+   "en": "Yeah, the day before we went out with publication, we went to NVIDIA and ask them for comment.",
+   "ko": "네, 보도 전날 우리는 엔비디아에 연락해 코멘트를 요청했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1179.4,
+   "en": "And one of the things they said was that they were confident that if the US government believes that any person is a threat to American industry, it would let us know.",
+   "ko": "그들이 말한 것 중 하나는, 미국 정부가 어떤 인물이 미국 산업에 위협이 된다고 판단했다면 자신들에게 알려주었을 것이라고 확신한다는 것이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1189.7,
+   "en": "In other words, the US government has not told us about this surveillance. It has not told us about this US intelligence conclusion that she has a spy. All of this is news to them when we go to them and ask them to comment on the story.",
+   "ko": "다시 말해 미국 정부는 이 감시에 대해 알려주지 않았다는 겁니다. 그녀가 스파이라는 정보 기관의 결론도 알려주지 않았고요. 우리가 코멘트를 요청했을 때 이 모든 것은 그들에게 처음 듣는 소식이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1205.8,
+   "en": "Did you talk to Jensen Huang himself?",
+   "ko": "젠슨 황 본인과 직접 이야기해 보셨나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1208.4,
+   "en": "He didn't respond to our inquiries directly as company spoke to us on his behalf, but Bloomberg News spoke to him a day after our story published.",
+   "ko": "회사가 그를 대신해 답변했을 뿐 그는 우리의 문의에 직접 응하지 않았습니다. 하지만 우리 보도가 나간 다음 날 블룸버그 뉴스가 그와 인터뷰를 했죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1220.0,
+   "en": "And one of the things that Jensen said in that interview with Bloomberg News was he said that his interactions with Ms. Wang had been related to Megaspeed, quote, and it was all completely normal and not unusual, end quote.",
+   "ko": "그 인터뷰에서 젠슨은 왕 씨와의 교류는 메가스피드와 관련된 것이었으며, 인용하자면 '그것은 모두 완전히 정상적이었으며 특이할 것이 없었다'고 말했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1236.0,
+   "en": "Basically, the company and Jensen Huang himself are saying nothing to see here. There's nothing unusual about this.",
+   "ko": "기본적으로 회사와 젠슨 황 본인은 '여기서 문제 될 건 아무것도 없다'고 말하고 있는 겁니다. 전혀 이상할 게 없다는 거죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1242.5,
+   "en": "The company's saying, look, if this was a problem, we wouldn't know about it. we would have been told.",
+   "ko": "회사는 '보세요, 만약 이게 문제였다면 우리가 몰랐을 리 없습니다. 통보를 받았겠죠'라고 말합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1248.0,
+   "en": "And by the way, this is just a chief executive having a relationship with a customer like he has relationships with thousands of customers. It's not unusual.",
+   "ko": "게다가 이건 수천 명의 고객과 관계를 맺는 것처럼 CEO가 한 고객과 관계를 맺은 것뿐이며 전혀 이상하지 않다는 논리죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1259.4,
+   "en": "But their position doesn't hold because as more and more press comes out, the news begins to tighten, and Jensen Huang decides that he needs to confess.",
+   "ko": "하지만 언론 보도가 계속되면서 압박이 거세지자 그들의 입장은 견디지 못했고, 젠슨 황은 고백을 결심합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1273.5,
+   "en": "And so over the course of this past weekend, He let the board and every employee in the company know that he'd been having an affair with this woman.",
+   "ko": "그래서 지난 주말 동안 그는 이사회와 회사 모든 직원들에게 자신이 이 여성과 불륜 관계였다는 사실을 알렸습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1285.8,
+   "en": "And one of the things he says is, I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.",
+   "ko": "그는 '아내에게 충실하지 못했습니다. 저의 행동이 아내와 아이들에게 상처를 주었습니다. 제가 한 일에 변명의 여지가 없습니다. 깊이 사죄드립니다'라고 말했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1296.7,
+   "en": "And does he say in that email whether or not he knew that this woman was a spy?",
+   "ko": "그 이메일에서 그녀가 스파이라는 사실을 알고 있었는지에 대해서도 언급했나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1302.7,
+   "en": "No, he doesn't address that dimension of it. In fact, what he actually does and what the company does is that they say he's going to continue to lead this company.",
+   "ko": "아니요, 그 부분은 다루지 않았습니다. 사실 그와 회사가 실제로 한 일은 그가 계속해서 회사를 이끌 것이라고 발표한 것입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1311.4,
+   "en": "It's both a note of apology, but then also a note of reassurance to the people who work there who really look up to him and idolize him and know that he is absolutely critical to what that company does.",
+   "ko": "그것은 사과문인 동시에, 그를 우러러보고 숭배하며 그가 회사의 업무에 절대적으로 중요하다는 것을 아는 직원들을 안심시키기 위한 메시지이기도 했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1323.8,
+   "en": "Well, and also to the stock market, presumably, which is so dependent on the health of this one giant company.",
+   "ko": "물론 이 거대 기업 하나의 건전성에 크게 의존하고 있는 주식 시장을 향한 것이기도 하겠군요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1329.7,
+   "en": "Right. And which all of a sudden has to make sense of this new fresh doubt about whether or not Jensen Huang will be leading this company going forward.",
+   "ko": "맞습니다. 주식 시장은 갑자기 젠슨 황이 앞으로도 이 회사를 이끌 수 있을지에 대한 새로운 의구심을 해소해야 하는 상황에 처했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1340.5,
+   "en": "And while the board tried to reassure the market by saying that it doesn't think once again that there was anything problematic, that no classified information was shared with her, etc., what the board has decided to do is open an independent investigation into the relationship.",
+   "ko": "이사회는 기밀 정보가 공유되지 않았다는 등 문제가 없다는 말로 시장을 안심시키려 했지만, 결국 이 관계에 대한 독립적인 조사를 시작하기로 결정했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1357.5,
+   "en": "And this whole concept of Jensen's leadership of NVIDIA being open to scrutiny raises fresh doubt about the leadership of the company.",
+   "ko": "젠슨의 엔비디아 리더십이 조사의 대상이 된다는 것 자체가 회사의 리더십에 대한 새로운 의구심을 불러일으키고 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1368.4,
+   "en": "So in this investigation, I have to assume that part of what they're looking at here is the question that we all have, which is how successful was Alice Wang? Was she able to influence Jensen on USAI policy?",
+   "ko": "그렇다면 이 조사에서 우리 모두가 가진 의문, 즉 앨리스 왕이 얼마나 성공적이었는지, 그녀가 미국의 AI 정책에 대해 젠슨에게 영향을 미칠 수 있었는지를 살펴볼 것이라고 짐작됩니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1385.1,
+   "en": "and in general, how much information was she able to glean from him? What do we know about those two things?",
+   "ko": "그리고 전반적으로 그녀가 그로부터 얼마나 많은 정보를 캐낼 수 있었을까요? 그 두 가지에 대해 우리가 아는 것이 있나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1392.4,
+   "en": "This investigation is going to have to run the gamut from the micro questions to the macro that you just raised.",
+   "ko": "이번 조사는 미세한 문제부터 방금 제기하신 거시적인 질문에 이르기까지 모든 범위를 아우르게 될 것입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1397.9,
+   "en": "And the micro ones are, what was the nature of NVIDIA's business dealings with Megaspeed? All of a sudden, that needs to be investigated by the company itself.",
+   "ko": "미시적인 부분은 엔비디아와 메가스피드의 비즈니스 거래 성격이 무엇이었느냐는 것이며, 이제는 회사 차원에서 이를 조사해야 합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1407.5,
+   "en": "And then on the macro side, it's how successful might she have been in influencing Jensen Huang's policy position and his advocacy in Washington, because that's something that the company has also had a stake in and been invested in as well.",
+   "ko": "거시적인 측면에서는 앨리스 왕이 워싱턴에서의 젠슨 황의 정책적 입장과 옹호 활동에 얼마나 성공적으로 영향을 미쳤을 것인가 하는 점인데, 이는 회사 역시 이해관계가 얽혀 있는 부분이기 때문입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1423.6,
+   "en": "And on that issue, we know that Jensen's position on selling chips to China has not changed. Jensen Huang has been consistent in advocating to sell more chips to China throughout this kind of AI boom period.",
+   "ko": "이 문제에 대해 우리가 아는 점은 중국에 칩을 판매하는 것에 대한 젠슨의 입장은 변하지 않았다는 것입니다. 젠슨 황은 이 AI 붐 기간 내내 중국에 더 많은 칩을 팔아야 한다고 일관되게 주장해 왔습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1441.6,
+   "en": "He really believes that in order for the US to remain preeminent in artificial intelligence, that the only way to do that is to prevent Chinese companies from developing competing chips that they may sell for less or that may outperform what NVIDIA and AMD and others produce,",
+   "ko": "그는 미국이 인공지능 분야에서 우위를 유지하기 위한 유일한 방법은 중국 기업들이 엔비디아나 AMD 등이 생산하는 것보다 저렴하거나 성능이 뛰어난 경쟁 칩을 개발하지 못하도록 막는 것이라고 굳게 믿고 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1464.5,
+   "en": "which are right now, by far and away, much better in terms of the power they consume and the performance that they offer compared to what the Chinese offer.",
+   "ko": "현재 엔비디아 등의 칩은 중국산에 비해 전력 소비나 성능 면에서 훨씬 뛰어납니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1474.6,
+   "en": "Right. You've talked about this on the show before that Huang has long wanted to remain dominant in this market and that he believes the way to do that is to sell chips to China so they become reliant on US-made chips.",
+   "ko": "맞아요. 전에도 방송에서 말씀하셨듯이 황 회장은 이 시장에서 오랫동안 지배력을 유지하고 싶어 하며, 그 방법은 중국이 미국산 칩에 의존하도록 중국에 칩을 파는 것이라고 믿고 있죠.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1488.8,
+   "en": "What you're saying, it sounds like, is that it's hard to parse whether Alice Wang was influencing Huang when this is something that he kind of already wanted to do sell to China.",
+   "ko": "당신의 말씀은, 황 회장이 이미 중국에 판매하기를 원하고 있었기 때문에 앨리스 왕이 그에게 영향을 미쳤는지를 가려내기가 어렵다는 뜻처럼 들리네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1500.9,
+   "en": "That's completely right. But there's a caveat here, right? Now we have to look back at this entire two years of advocacy and lobbying, and we have to look at it through a new lens with a new piece of information.",
+   "ko": "전적으로 맞습니다. 하지만 여기에 주의할 점이 있습니다. 이제 우리는 지난 2년간의 모든 옹호와 로비를 새로운 정보라는 렌즈를 통해 다시 들여다봐야 합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1514.0,
+   "en": "And that is that while he was pushing for this, he had a Chinese mistress with a vested interest in those same objectives.",
+   "ko": "즉, 그가 이를 추진하는 동안 동일한 목표에 이해관계가 얽힌 중국인 내연녀를 두고 있었다는 사실 말이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1523.4,
+   "en": "Tripp, you told us earlier that this company, NVIDIA, is really run by this one man, Jensen Huang, that he has a ton of control, maybe more than most CEOs, over this one company, which I'd imagine puts the board in a pretty tough spot as they go to investigate this.",
+   "ko": "트립 기자, 아까 엔비디아가 정말 젠슨 황이라는 한 사람에 의해 운영되고 있으며, 대부분의 CEO보다 훨씬 더 강력한 통제력을 가지고 있다고 하셨는데, 이사회가 이를 조사하는 데 상당히 곤혹스러운 입장에 처할 것 같네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1541.6,
+   "en": "you'd think there are a lot of incentives there to not want to rock the boat, to disrupt the company's leadership.",
+   "ko": "회사의 리더십을 흔들거나 풍파를 일으키고 싶지 않은 유인이 아주 많을 것 같다는 생각이 듭니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1549.6,
+   "en": "Correct. This is a board that has been very deferential to Jensen, and they've been deferential for a reason.",
+   "ko": "정확합니다. 이사회는 젠슨에게 매우 정중하고 유화적인 태도를 보여왔으며, 그럴 만한 이유가 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1556.6,
+   "en": "I mean, this guy took this company from being worth less than a trillion dollars a few years ago to being worth more than four trillion dollars.",
+   "ko": "몇 년 전 1조 달러도 안 되던 회사의 가치를 4조 달러 이상으로 끌어올린 인물이니까요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1564.4,
+   "en": "In the process, he's made a lot of these board members really, really wealthy as well, because a number of them were early investors in NVIDIA. They bankrolled it at the outset.",
+   "ko": "그 과정에서 많은 이사회 구성원들도 엄청난 부자로 만들었습니다. 그들 중 상당수가 초창기에 엔비디아에 투자하고 자금을 댔던 사람들이기 때문입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1573.9,
+   "en": "NVIDIA is set up with a single point of failure. I mean, he has 60 direct reports. There's no clear successor, and there's no real plan B.",
+   "ko": "엔비디아는 단일 장애점(single point of failure)을 가지고 있습니다. 60명의 직속 보고자가 있고 명확한 후계자도, 실질적인 플랜 B도 없습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1584.1,
+   "en": "So the repercussions, like, could he be fired? Could he be suspended? We could kind of puzzle over like those outcomes, but it's really hard to think that that's where this ends up given the nature of this board and given the importance he holds for the future of that company.",
+   "ko": "그가 해고되거나 정직될 수도 있을까요? 그런 결과들을 고민해 볼 순 있겠지만, 이사회의 성향과 그가 회사의 미래에 갖는 중요성을 고려할 때 그렇게 끝날 것이라고 보기는 정말 힘듭니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1605.1,
+   "en": "What about for President Trump? Has any of this had a visible impact on Jensen Huang standing with the president?",
+   "ko": "트럼프 대통령과의 관계는 어떤가요? 이 일이 트럼프 대통령과 젠슨 황의 관계에 가시적인 영향을 주었나요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1613.5,
+   "en": "At this moment, it seems like water off a duck's back. I mean, he spoke on Sunday after Jensen Huang revealed that he'd had the affair and he defended Jensen.",
+   "ko": "현재로서는 별 영향이 없는 것 같습니다. 젠슨 황이 불륜 사실을 공개한 후 일요일에 트럼프 대통령이 발언을 했는데, 그는 젠슨을 옹호했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1624.7,
+   "en": "But he said that he would probably take him on the next trip to China. Oh.",
+   "ko": "심지어 다음 중국 방문 때도 그를 데려갈 것이라고 말했죠. 오.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1629.6,
+   "en": "And he also said, quote, I haven't heard he's done anything wrong. He dealt with somebody, but you know, so does everybody else.",
+   "ko": "그리고 그는 '그가 잘못한 게 있다는 소리는 못 들었다. 누군가와 어울렸을 뿐인데, 뭐 다른 사람들도 다 그렇지 않나'라고 말했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1639.6,
+   "en": "Meaning this kind of stuff just happens. That's what the president is saying. I guess so.",
+   "ko": "이런 일은 그냥 일어날 수 있는 일이라는 거군요. 대통령은 그렇게 말하고 있네요. 그런 것 같네요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1645.2,
+   "en": "I want to ask about the timing of all of this because now we have these new democratic majorities coming into Congress in January. That seems as though it could lead to a more aggressive approach in Washington toward all of this.",
+   "ko": "이 모든 일의 시점에 대해 묻고 싶은데, 내년 1월에 의회에 새로운 민주당 다수당이 들어서게 됩니다. 이로 인해 워싱턴에서 이 모든 상황에 대해 더 공격적인 접근이 이루어질 수도 있을 것 같거든요.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1659.7,
+   "en": "What should we expect?",
+   "ko": "무엇을 예상할 수 있을까요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1661.4,
+   "en": "I mean, the timing of this couldn't have been worse if you're Jensen Huang. I mean, the Senate just flipped.",
+   "ko": "젠슨 황의 입장에서 본다면 타이밍이 이보다 나쁠 수는 없습니다. 상원의 다수당이 바뀌었으니까요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1666.9,
+   "en": "And that means that the Democratic Senator from Massachusetts, Senator Elizabeth Warren, is going to be taking over the Senate Banking Committee.",
+   "ko": "이는 매사추세츠주 출신 민주당 상원의원인 엘리자베스 워런 의원이 상원 은행위원회를 맡게 된다는 것을 의미합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1675.3,
+   "en": "They have responsibility for export of chips abroad. And she will have the gavel. And there's almost, I don't know, a hundred percent chance that she asks him to testify.",
+   "ko": "그들은 해외 칩 수출에 대한 책임을 집니다. 그녀가 위원장직을 맡게 되면, 그가 증언하도록 요구할 가능성이 거의 100%입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1687.3,
+   "en": "She's already asked him to come in and brief the Senate banking committee earlier this year. And he declined. I mean, we may be at a point now where he doesn't have a choice.",
+   "ko": "올해 초에도 그녀는 그에게 상원 은행위원회 브리핑에 참석해달라고 요청했지만 그는 거절했습니다. 이제 그는 선택의 여지가 없는 상황에 처할 수도 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1697.2,
+   "en": "And then if you step back even further before she even gets the gavel, we just had a midterm election where most of America sent a strong message to Washington in that it was fed up with Silicon Valley's influence over Washington policy, particularly on AI and Jensen Huang's the face of AI.",
+   "ko": "더 거슬러 올라가면, 중간 선거에서 대다수 미국인들은 실리콘 밸리가 워싱턴 정책, 특히 AI에 미치는 영향력에 신물이 났다는 강력한 메시지를 보냈습니다. 젠슨 황은 바로 그 AI의 얼굴이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1719.6,
+   "en": "So anybody looking to score points right now, whether it's Republicans or Democrats on tech before the end of the year, they have somebody they can bring in.",
+   "ko": "따라서 올해가 가기 전 기술 분야에서 점수를 따려는 공화당원이나 민주당원이라면 누구든 그를 불러낼 수 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1729.3,
+   "en": "And we've already seen three Republicans say that they want a briefing from Jensen. So this is coming fast and it's changing and taking shape in real time.",
+   "ko": "벌써 세 명의 공화당 의원이 젠슨의 브리핑을 원한다고 말했습니다. 상황이 급박하게 돌아가고 있고 실시간으로 변하고 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1739.0,
+   "en": "All right. I have what may seem like an intentionally provocative question here, Tripp, but bear with me.",
+   "ko": "좋아요. 좀 의도적으로 도발적인 질문일 수도 있겠지만, 들어보세요 트립.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1745.0,
+   "en": "If it turns out that this woman that they suspect is a Chinese spy didn't actually glean all that much from Huang and that Huang pushed for a more lenient U.S. policy toward selling chips to China because he wanted to, not because of her influence. What then would be the damage that has been done from all of this?",
+   "ko": "만약 중국 스파이로 의심되는 여성이 실제로 황 회장에게서 별다른 정보를 얻지 못했고, 황 회장이 중국에 대한 칩 판매 완화 정책을 추진한 게 그녀의 영향이 아니라 본인 의사였다면, 이 모든 일로 인한 피해는 무엇이 될까요?",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1770.6,
+   "en": "He's been compromised. How can lawmakers, people in the Trump administration, listen to him and not have this in the back of his mind?",
+   "ko": "그의 신뢰도가 손상되었습니다. 입법가들이나 트럼프 행정부 인사들이 이 일을 염두에 두지 않고 그의 말을 들을 수 있을까요?",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1778.5,
+   "en": "It's so doubt out for everyone about what he says, whether he's being honest. And it also shows that he's vulnerable, right?",
+   "ko": "그가 하는 말이 정직한지에 대해 모든 사람에게 의구심을 심어주었습니다. 또한 그가 취약하다는 것을 보여주기도 했죠, 그렇지 않나요?",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1790.6,
+   "en": "I mean, this is a guy that had the Midas touch. He could do no wrong the last three years. And this is a major misstep,",
+   "ko": "그는 마이더스의 손을 가진 사람이었습니다. 지난 3년 동안 실패란 없었죠. 그런데 이번 일은 중대한 실수입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1801.1,
+   "en": "a major misstep that could wind up forcing him to spend time in the coming months and next year testifying about the past rather than focusing on deciding and designing the artificial intelligence chips and the artificial intelligence changes of the future.",
+   "ko": "미래의 인공지능 칩을 설계하고 변화를 결정하는 데 집중하는 대신, 앞으로 몇 달간 그리고 내년까지 과거의 일에 대해 증언하며 시간을 보내야 할지도 모르는 중대한 실수 말이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1825.0,
+   "en": "This is a real inflection point for the company, for the US economy, for artificial intelligence because we don't know what lies ahead after this point. The way we see Jensen Huang has changed forever.",
+   "ko": "이 시점 이후에 어떤 일이 벌어질지 알 수 없기에, 이는 회사와 미국 경제, 인공지능 분야에 있어 진정한 전환점입니다. 우리가 젠슨 황을 바라보는 시선은 영원히 바뀌었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1849.4,
+   "en": "Well, Tripp, thank you so much. It's been a pleasure.",
+   "ko": "트립 기자, 정말 감사합니다. 즐거운 대화였습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1853.1,
+   "en": "Thanks for having me.",
+   "ko": "불러주셔서 감사합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1861.8,
+   "en": "We'll be right back.",
+   "ko": "잠시 후에 돌아오겠습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1865.7,
+   "en": "This week on The Wirecutter Show, we're getting ready for hosting over the holidays. Tune in for tips on making your guests feel at home.",
+   "ko": "이번 주 '와이어커터 쇼'에서는 연말연시 손님맞이를 준비합니다. 손님들을 편안하게 모시는 비결을 확인해 보세요.",
+   "speaker": "Ad Voice",
+   "ad": true
+  },
+  {
+   "start": 1874.0,
+   "en": "Are they a blackout sleeper? I don't mean do they blackout to go to sleep. I mean, what kind of light do they require, because that is a very specific thing.",
+   "ko": "그분들이 암막 상태에서 주무시는 분들인가요? 술에 취해 필름이 끊긴다는 뜻이 아니라, 잠잘 때 어떤 조명이 필요한지 묻는 겁니다. 그건 아주 개인적인 취향이거든요.",
+   "speaker": "Ad Voice",
+   "ad": true
+  },
+  {
+   "start": 1882.7,
+   "en": "Do they have allergies, food sensitivities? Are they coffee tea drinkers? What time do they like to get up?",
+   "ko": "알레르기나 가리는 음식이 있나요? 커피나 차를 즐기시나요? 몇 시에 일어나는 걸 좋아하시나요?",
+   "speaker": "Ad Voice",
+   "ad": true
+  },
+  {
+   "start": 1889.5,
+   "en": "Find the Wirecutter show on the New York Times app or wherever you like to listen.",
+   "ko": "뉴욕 타임스 앱이나 자주 이용하시는 팟캐스트 플랫폼에서 '와이어커터 쇼'를 만나보세요.",
+   "speaker": "Ad Voice",
+   "ad": true
+  },
+  {
+   "start": 1896.9,
+   "en": "Here's what else you need to know today.",
+   "ko": "오늘 전해드릴 다른 소식들입니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1899.4,
+   "en": "Impeaching Pete Hegseth, Secretary of Defense for high crimes and misdemeanors.",
+   "ko": "중대한 범죄 및 비행 혐의로 피트 헤그세스 국방장관에 대한 탄핵 절차에 들어갑니다.",
+   "speaker": "News Anchor"
+  },
+  {
+   "start": 1905.1,
+   "en": "On Monday, Representative Thomas Massie moved to force a vote on impeaching Secretary of Defense Pete Hegseth.",
+   "ko": "월요일, 토머스 매시 하원의원은 피트 헤그세스 국방장관에 대한 탄핵안 표결을 강행했습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1913.6,
+   "en": "Massie, the Kentucky Republican who is set to leave Congress after losing his primary in May to a challenger backed by President Trump, introduced eight articles of impeachment against Hegseth.",
+   "ko": "지난 5월 트럼프 대통령이 지지한 후보에게 경선에서 패배해 의회를 떠날 예정인 켄터키주 공화당 의원 매시는 헤그세스에 대해 8가지 탄핵 소추안을 제출했습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1927.0,
+   "en": "The resolution said that Hegseth had abused his authority on many fronts, accusing him of violating federal law by carrying out the war with Iran without congressional authorization and carrying out unlawful strikes against drug traffickers in Latin America.",
+   "ko": "결의안은 헤그세스가 여러 방면에서 권한을 남용했다고 명시하며, 의회 승인 없이 이란과의 전쟁을 수행하고 라틴 아메리카 마약 밀매업자들에 대해 불법 공격을 감행함으로써 연방법을 위반했다고 비난했습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1943.3,
+   "en": "Hegseth has rejected the allegations, calling the impeachment effort a political sham. If the House approves the charges, the measure will go to the Senate.",
+   "ko": "헤그세스 장관은 탄핵 시도를 '정치적 가짜 쇼'라고 부르며 혐의를 부인했습니다. 하원에서 탄핵안이 통과되면 상원으로 넘어가게 됩니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1954.6,
+   "en": "And California voters rejected Proposition 40, killing a measure that would have created the nation's first wealth tax.",
+   "ko": "그리고 캘리포니아 유권자들은 주민 발의안 40호를 부결시켜, 미국 최초의 부유세 신설 방안을 무산시켰습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1963.6,
+   "en": "The proposal would have imposed a one-time 5% tax on the personal assets of billionaires in the state and devoted most of the revenue to health care.",
+   "ko": "이 제안은 주 내 억만장자들의 개인 자산에 대해 일회성으로 5%의 세금을 부과하고 그 수익 대부분을 의료 서비스에 투입하는 내용이었습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1974.3,
+   "en": "But it suffered from having a weak coalition of supporters who couldn't compete with a well-funded ad campaign attacking the measure.",
+   "ko": "그러나 이 제안을 공격하는 자금력이 풍부한 광고 캠페인에 대항하기에는 지지 세력의 결집력이 부족했습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1984.5,
+   "en": "Today's episode was produced by Olivia Natt, Lexi Diao, and Eric Krupke.",
+   "ko": "오늘 에피소드는 올리비아 냇, 렉시 디아오, 에릭 크룹케가 제작했습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 1990.2,
+   "en": "It was edited by Paige Cowett and Liz O. Baylen. contains music by Dan Powell, Rowan Niemisto, and Marion Lozano, and was engineered by Alyssa Moxley.",
+   "ko": "페이지 카웻과 리즈 오 베일런이 편집을 맡았습니다. 음악은 댄 파월, 로완 니미스토, 마리온 로자노가 담당했고, 엔지니어링은 알리사 목슬리가 맡았습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 2001.4,
+   "en": "Our theme music is by Wonderly. Special thanks to Anna Swanson. That's it for the Daily. I'm Natalie Kitroff. See you tomorrow.",
+   "ko": "시그널 음악은 원더리가 만들었습니다. 안나 스완슨에게 특별한 감사를 전합니다. 오늘 '더 데일리'는 여기까지입니다. 저는 나탈리 키트로프였습니다. 내일 뵙겠습니다.",
+   "speaker": "Natalie Kitroff"
+  },
+  {
+   "start": 2023.0,
+   "en": "For decades, the Brooklyn Democratic Party operated as a tightly controlled machine until this summer when elections ushered in a bunch of self-described reformers.",
+   "ko": "수십 년 동안 브루클린 민주당은 엄격하게 통제되는 조직으로 운영되어 왔습니다. 하지만 올여름 선거에서 자칭 개혁파들이 대거 등장하며 변화가 시작되었습니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 2036.2,
+   "en": "Ever since, the party has been in the grip of a bruising, chaotic, and sometimes thrilling fight.",
+   "ko": "그 이후로 당은 격렬하고 혼란스러우며 때로는 짜릿한 싸움의 소용돌이에 휘말려 있습니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 2042.0,
+   "en": "In the latest episode of Metro with me, Sarah Koenig, stories of people trying to maintain their influence and losing control along the way. Metro, listen wherever you get your podcasts.",
+   "ko": "저 사라 코닉과 함께하는 '메트로'의 최신 에피소드에서, 영향력을 유지하려 애쓰다가 통제력을 잃어가는 사람들의 이야기를 들어보세요. '메트로'는 팟캐스트를 들으시는 모든 곳에서 청취 가능합니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  }
+ ]
+}
