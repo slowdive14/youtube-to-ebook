@@ -1,0 +1,1018 @@
+{
+ "id": "pod-79349ea3ee0d",
+ "title": "Why nostalgia is good for you, with Tim Wildschut, PhD",
+ "show": "Speaking of Psychology",
+ "channel": "American Psychological Association",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION5083352078.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/c2464020-da28-11f1-8f25-cf1cb45cf77a/image/8577510a83cc8ea277800434a518b476.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 1892,
+ "releaseDate": "2026-11-11T05:00:00.000Z",
+ "addedAt": "2026-11-11",
+ "segments": [
+  {
+   "start": 0.7,
+   "en": "Think about your warmest memories. Maybe it's the smell of your grandparents' kitchen or the feel of a summer day that stretched out endlessly when you were a kid.",
+   "ko": "당신의 가장 따뜻한 기억들에 대해 생각해 보세요. 아마도 조부모님 댁 부엌의 냄새나 어린 시절 끝없이 이어졌던 여름날의 느낌일 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 11.6,
+   "en": "Recollections like these often come with mixed emotions. You feel happy, but also a little sad, knowing that you can't go back in time.",
+   "ko": "이러한 회상은 종종 복합적인 감정을 동반합니다. 행복하면서도 시간을 되돌릴 수 없다는 사실에 약간의 슬픔을 느끼기도 하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 20.4,
+   "en": "For centuries, nostalgia was thought of as something negative, a conditional link to sadness and depression.",
+   "ko": "수세기 동안 향수는 슬픔과 우울함에 조건부로 연결된 부정적인 것으로 여겨져 왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 26.7,
+   "en": "But in recent decades, psychological research has shown that nostalgia can actually be good for our mental health and well-being. So why is that?",
+   "ko": "하지만 최근 수십 년 동안의 심리학 연구에 따르면 향수는 실제로 우리의 정신 건강과 웰빙에 도움이 될 수 있다고 합니다. 왜 그럴까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 36.2,
+   "en": "Where does nostalgia come from and what are its benefits and its potential downsides?",
+   "ko": "향수는 어디에서 오며, 그 혜택과 잠재적인 단점은 무엇일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 41.6,
+   "en": "How is technology and our ability to record nearly every moment of our lives, changing the way we experience nostalgia?",
+   "ko": "기술과 우리 삶의 거의 모든 순간을 기록하는 능력이 우리가 향수를 경험하는 방식을 어떻게 바꾸고 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 49.9,
+   "en": "And can you feel nostalgic for things you never knew from a time before you were born?",
+   "ko": "그리고 당신이 태어나기 전의 일, 즉 전혀 알지 못했던 것에 대해서도 향수를 느낄 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 55.9,
+   "en": "Welcome to Speaking of Psychology, the flagship podcast of the American Psychological Association, that examines the links between psychological science and everyday life.",
+   "ko": "심리 과학과 일상생활의 연결 고리를 살펴보는 미국 심리학회의 대표 팟캐스트, Speaking of Psychology에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 65.6,
+   "en": "I'm Kim Mills. My guest today is Dr. Tim Wildschut, a professor of social and personality psychology at Southampton University in the UK.",
+   "ko": "저는 킴 밀스입니다. 오늘 모신 손님은 영국 사우스햄튼 대학교의 사회 및 성격 심리학 교수인 팀 빌트슈트 박사입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 79.4,
+   "en": "He's a leading researcher on nostalgia whose work has helped overturn the long-held view of nostalgia as primarily a negative emotion.",
+   "ko": "그는 향수에 관한 주요 연구자로, 향수를 주로 부정적인 감정으로 보던 오래된 견해를 뒤집는 데 기여했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 87.6,
+   "en": "Dr. Wildschut has published hundreds of peer-reviewed journal articles and his work has been covered by publications including The New York Times and The Washington Post.",
+   "ko": "빌트슈트 박사는 수백 편의 동료 검토 학술지 논문을 발표했으며, 그의 연구는 뉴욕 타임즈와 워싱턴 포스트를 포함한 출판물에 소개되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 97.2,
+   "en": "He received his PhD from the University of North Carolina at Chapel Hill and is a fellow of the Academy of Social Sciences. Dr. Wildschut, thank you for joining me.",
+   "ko": "그는 채플힐 소재 노스캐롤라이나 대학교에서 박사 학위를 받았으며 사회과학 아카데미의 펠로우입니다. 빌트슈트 박사님, 함께해주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 106.9,
+   "en": "Thank you for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 108.2,
+   "en": "How do you define nostalgia in your work? Does the academic definition mostly track with the way people think of it in everyday use?",
+   "ko": "연구에서 향수를 어떻게 정의하시나요? 학술적 정의가 사람들이 일상적으로 생각하는 방식과 대체로 일치합니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 117.1,
+   "en": "Yes, we define nostalgia as a sentimental affection for the past, particularly for a meaningful memories often involving other people.",
+   "ko": "네, 저희는 향수를 과거에 대한 감상적인 애착, 특히 다른 사람들과 관련된 의미 있는 기억에 대한 애착으로 정의합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 131.3,
+   "en": "That's how people tend to use it in everyday language.",
+   "ko": "그것이 사람들이 일상 언어에서 사용하는 방식이기도 하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 136.6,
+   "en": "It hasn't always been used in that way, as you mentioned, even in the 1950s, nostalgia was often equated with homesickness.",
+   "ko": "언급하셨듯이 항상 그런 식으로 사용된 것은 아닙니다. 1950년대만 해도 향수는 종종 향수병과 동일시되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 148.7,
+   "en": "But gradually, that has changed both in the way people use it in everyday language and the way it's been used in the scientific literature.",
+   "ko": "하지만 점차 사람들이 일상 언어에서 사용하는 방식과 과학 문헌에서 사용되는 방식 모두에서 변화가 생겼습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 159.2,
+   "en": "How does nostalgia differ from merely reminiscing or even ruminating?",
+   "ko": "단순한 추억 회상이나 심지어 반추와 향수는 어떻게 다른가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 166.7,
+   "en": "I think compared to rumination, certainly, nostalgia is more positive.",
+   "ko": "반추와 비교했을 때 향수는 확실히 더 긍정적이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 175.3,
+   "en": "It focuses on, as I mentioned, very meaningful, unique memories that really stand out in your recollection.",
+   "ko": "앞서 언급했듯이 향수는 기억 속에서 정말 돋보이는 아주 의미 있고 독특한 기억에 초점을 맞춥니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 184.7,
+   "en": "And I think reminiscence is a more general term. It can cover a lot of ways of engaging with the past.",
+   "ko": "그리고 회상은 좀 더 일반적인 용어라고 생각합니다. 과거와 관계 맺는 많은 방식을 포괄할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 194.4,
+   "en": "Sometimes reminiscence might be counterfactual. So if only I could go back in time and change things. And it may take on a ruminative or brooding character.",
+   "ko": "때때로 회상은 사실과 반대될 수도 있습니다. '내가 그때로 돌아가서 상황을 바꿀 수만 있다면' 같은 식이죠. 그리고 그것은 반추하거나 곱씹는 성격을 띨 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 208.5,
+   "en": "And nostalgia is quite discrete, unique emotions.",
+   "ko": "반면 향수는 상당히 별개이고 독특한 감정입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 213.6,
+   "en": "So it really is about these very unique memories that really stand out for being particularly meaningful, particularly warm often.",
+   "ko": "그래서 이것은 특히 의미 있고 종종 특히 따뜻하게 느껴지는 아주 독특한 기억들에 관한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 227.9,
+   "en": "And as I mentioned previously often evolved relationships with other people. So it may be about friends, family members, brothers, sisters, parents, grandparents.",
+   "ko": "그리고 이전에 언급했듯이 종종 타인과의 관계를 포함합니다. 그래서 친구, 가족, 형제, 자매, 부모님, 조부모님에 관한 것일 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 242.8,
+   "en": "So it's a, for many people, it's a way of bringing these individuals, these important individuals closer, even if they may not be physically close, you can still bring them close in memory and enjoy the benefits of experiencing that closeness.",
+   "ko": "그래서 많은 사람들에게 이것은 물리적으로 가깝지 않더라도 이러한 중요한 개인들을 가까이 불러오는 방법이며, 기억 속에서 그들을 가깝게 느끼고 그 친밀함을 경험함으로써 얻는 혜택을 누리는 방법입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 262.5,
+   "en": "Now, I mentioned in the introduction that you found in your research that nostalgia has psychological benefits. Can you talk about that? I mean, how is nostalgia good for us?",
+   "ko": "서두에서 교수님의 연구를 통해 향수가 심리적 혜택이 있다는 사실을 발견했다고 언급했는데요. 그 부분에 대해 말씀해 주시겠어요? 그러니까, 향수가 우리에게 어떻게 좋은가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 273.8,
+   "en": "Yeah, there are a number of benefits. I will highlight three of them, which I think are the most robust ones.",
+   "ko": "네, 여러 가지 혜택이 있습니다. 그중 가장 강력하다고 생각되는 세 가지를 강조해 보겠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 281.5,
+   "en": "The first one is social connectedness, and I've already alluded to that.",
+   "ko": "첫 번째는 사회적 연결감이며, 이미 암시한 바 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 286.6,
+   "en": "Nostalgia is often about other people, and you bring them close, and you enjoy the benefits of that closeness.",
+   "ko": "향수는 흔히 타인에 관한 것이며, 여러분은 그들을 가깝게 불러들여 그 친밀함의 혜택을 누립니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 293.9,
+   "en": "If you're warm, protected, like you can trust others.",
+   "ko": "마치 다른 사람을 신뢰할 수 있는 것처럼 따뜻하고 보호받는 느낌을 받는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 297.8,
+   "en": "You're reminded that you had good relationships in the past, good friends, and also that you can be a good friend or a relationship partner to others.",
+   "ko": "과거에 좋은 관계와 좋은 친구들이 있었다는 사실, 그리고 여러분 또한 타인에게 좋은 친구나 파트너가 될 수 있다는 사실을 상기하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 308.4,
+   "en": "And so nostalgia increases interpersonal competence and your confidence in interpersonal interactions, new interpersonal interactions, meeting new people, and so on.",
+   "ko": "따라서 향수는 대인 관계 능력과 새로운 사람을 만나는 것과 같은 대인 상호 작용에서의 자신감을 높여줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 321.2,
+   "en": "And from social connectedness, then flow a host of other benefits. Another key benefit is meaning in life.",
+   "ko": "그리고 사회적 연결감으로부터 다른 수많은 혜택이 흘러나옵니다. 또 다른 주요 혜택은 삶의 의미입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 329.7,
+   "en": "So nostalgia reminds you of the things that made life worth living.",
+   "ko": "향수는 삶을 살 가치가 있게 만든 것들을 상기시켜 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 335.5,
+   "en": "Part of that is relationships, but not just that, it might also be beautiful scenery you've witnessed and memorable holidays, vacations, you've been to places you've visited and so on.",
+   "ko": "관계도 그 일부지만 그게 다는 아닙니다. 여러분이 본 아름다운 풍경, 기억에 남는 휴일이나 휴가, 방문했던 장소 등일 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 348.7,
+   "en": "So nostalgia reminds you of the things that made life worth living that imbued life with meaning, the things that really matter in life.",
+   "ko": "그래서 향수는 삶에 의미를 부여하고 삶을 살 가치가 있게 만든 것들, 즉 인생에서 정말 중요한 것들을 상기시켜 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 358.3,
+   "en": "And then a third key benefit is self continuity. Nostalgia helps you to identify the common threads that run through your life.",
+   "ko": "그리고 세 번째 주요 혜택은 자아 연속성입니다. 향수는 여러분의 삶을 관통하는 공통된 실마리를 찾는 데 도움을 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 368.6,
+   "en": "These were the things I enjoyed as a child. I still enjoy them now as an adult and or I want to pass them on to my children and these are also things that I will probably continue to value in the future.",
+   "ko": "'이것들은 내가 어렸을 때 즐겼던 것들이다. 성인이 된 지금도 여전히 즐기고 있고, 내 아이들에게 물려주고 싶으며, 앞으로도 계속 가치 있게 여길 것들이다'라고 생각하게 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 385.5,
+   "en": "Things like hobbies, I enjoyed cycling as a child, I still enjoy cycling, I want to get my kids into cycling and I cannot imagine you know a life without cycling.",
+   "ko": "취미 같은 것 말입니다. 저는 어릴 때 사이클링을 즐겼고, 지금도 즐기며, 아이들에게도 가르쳐주고 싶고, 사이클링 없는 삶은 상상할 수 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 400.4,
+   "en": "So that comes with many nostalgic memories of, you know, can be your first bike or anything associated with that. And so it reminds, nostalgia helps you to identify these common threads.",
+   "ko": "그것은 첫 자전거라든가 그와 관련된 많은 향수 어린 기억을 동반합니다. 향수는 이러한 공통된 실마리를 식별하도록 도와줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 419.3,
+   "en": "It may also be things like traditions or rituals, Christmas celebrations, celebrations where you had certain family traditions, ways of celebrating that that you carry through pass on to the next generation and so it helps to identify those values in life.",
+   "ko": "또한 전통이나 의식, 크리스마스 축하 행사, 다음 세대에 물려줄 특정 가족 전통이 있는 축하 방식 등일 수도 있으며, 이는 인생의 그러한 가치들을 확인하는 데 도움을 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 438.5,
+   "en": "What are some of the potential downsides of nostalgia? I mean, can you get too wrapped up in looking backwards?",
+   "ko": "향수의 잠재적인 단점은 무엇인가요? 그러니까, 과거를 돌아보는 데 너무 몰두하게 될 수도 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 444.9,
+   "en": "In our research, we have rarely encountered downsides, which is not meant to say that we have never encountered them.",
+   "ko": "저희 연구에서 단점을 발견한 경우는 드뭅니다만, 그렇다고 단 한 번도 없었다는 뜻은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 454.9,
+   "en": "So there's some notable cases where, for example, we did a study with Syrian refugees living in Saudi Arabia.",
+   "ko": "주목할 만한 몇 가지 사례가 있는데, 예를 들어 사우디아라비아에 거주하는 시리아 난민들을 대상으로 연구를 진행했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 467.1,
+   "en": "So during the Syrian Civil War, many Syrians fled to neighboring Saudi Arabia.",
+   "ko": "시리아 내전 기간 동안 많은 시리아인이 이웃 나라인 사우디아라비아로 피신했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 476.0,
+   "en": "And we did an experiment there among that population where we instructed some of them to recall an nostalgic memory and others to recall an ordinary memory.",
+   "ko": "우리는 그 인구 집단을 대상으로 실험을 진행하여 일부에게는 향수 어린 기억을, 다른 일부에게는 평범한 기억을 떠올리도록 지시했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 492.2,
+   "en": "That's a common experimental induction that we have used. and then asked them to report on the psychological benefits that we just discussed.",
+   "ko": "그것은 저희가 사용해 온 일반적인 실험적 유도 방식입니다. 그 후 앞서 논의한 심리적 혜택에 대해 보고하도록 요청했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 505.0,
+   "en": "Although they experienced some of the psychological benefits of nostalgia, for example, they had increased meaning in life, they also experienced some downsides of nostalgia.",
+   "ko": "그들이 삶의 의미가 증가하는 등 향수의 심리적 혜택을 일부 경험하기도 했지만, 동시에 향수의 몇 가지 단점도 경험했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 521.2,
+   "en": "for example, they scored lower on inspiration and optimism, things that are future oriented.",
+   "ko": "예를 들어, 그들은 미래 지향적인 요소인 영감과 낙관주의에서 낮은 점수를 받았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 530.9,
+   "en": "Perhaps that was because they had really lost their home and they had lost their way, their way of life had been completely destroyed.",
+   "ko": "아마도 그것은 그들이 실제로 집을 잃고 삶의 방식을 잃었으며, 그들의 삶의 터전이 완전히 파괴되었기 때문일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 542.5,
+   "en": "Perhaps one can speculate that being reminded of that way of life made the loss very salient and made them less optimistic about the future.",
+   "ko": "그런 삶의 방식을 떠올리는 것이 상실감을 매우 두드러지게 만들었고, 미래에 대해 덜 낙관적으로 만들었다고 추측해 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 556.4,
+   "en": "So we did a similar study with people residing in Gaza and there we observed a similar mixed pattern.",
+   "ko": "가자에 거주하는 사람들을 대상으로도 비슷한 연구를 진행했는데, 거기서도 비슷한 혼재된 패턴을 관찰했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 566.2,
+   "en": "So yes, some of the benefits of nostalgia emerged, even under extreme circumstances. So for example, nostalgia increased social connectedness, the sense of belongingness.",
+   "ko": "극단적인 상황에서도 향수의 혜택 중 일부가 나타났습니다. 예를 들어, 향수는 사회적 연결감과 소속감을 높였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 581.7,
+   "en": "But it also had some downsides as we observed in the population of Syrian refugees.",
+   "ko": "하지만 시리아 난민 집단에서 관찰한 것처럼 몇 가지 단점도 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 589.8,
+   "en": "So perhaps there are some very extreme circumstances under which bring to mind these very valuable experiences, memories from the past confront one or make salient the losses that you've experienced.",
+   "ko": "따라서 과거의 소중한 경험과 기억을 떠올리는 것이 상실감을 직면하게 하거나 두드러지게 만드는 매우 극단적인 상황이 있을 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 609.1,
+   "en": "A little caveat is that both of these studies were done in middle eastern cultures and perhaps it may be a language issue.",
+   "ko": "한 가지 주의할 점은 이 두 연구 모두 중동 문화권에서 이루어졌으며 언어 문제일 수도 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 622.3,
+   "en": "So it would be very interesting to do a similar study in a Middle Eastern country where there isn't this trauma.",
+   "ko": "따라서 이러한 트라우마가 없는 중동 국가에서 유사한 연구를 진행하는 것은 매우 흥미로울 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 633.7,
+   "en": "Are there particular things that tend to trigger nostalgia? I mean, a lot of us, I'm sure, are aware of Marcel Proust and the Madeleine. So what sets us off?",
+   "ko": "향수를 불러일으키는 특별한 것들이 있을까요? 우리 중 많은 이가 마르셀 프루스트와 마들렌에 대해 알고 있을 텐데요. 무엇이 우리를 자극합니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 644.7,
+   "en": "Yeah, Proust is, of course, a beautiful example. So sense tastes can trigger nostalgia. Music can trigger nostalgia quite powerfully.",
+   "ko": "네, 프루스트는 물론 아름다운 예입니다. 감각적인 맛이 향수를 자극할 수 있죠. 음악도 아주 강력하게 향수를 불러일으킬 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 657.1,
+   "en": "So there are these sensory triggers of nostalgia. Another trigger of nostalgia is a psychological threat, and we are actually quite surprised by that in the initial studies.",
+   "ko": "이러한 감각적 자극제가 있고요. 향수의 또 다른 자극제는 심리적 위협인데, 초기 연구에서 저희도 그 점에 상당히 놀랐습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 672.5,
+   "en": "So in the earliest studies on nostalgia, we started out really in a very simple way by asking participants, okay, when do you become nostalgic, write about it.",
+   "ko": "향수에 관한 초기 연구에서 저희는 참가자들에게 '언제 향수를 느끼는지'에 대해 써보라고 요청하는 아주 간단한 방식으로 시작했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 686.8,
+   "en": "So it's very descriptive work, very exploratory. And to our surprise, these participants mentioned negative states.",
+   "ko": "매우 기술적이고 탐색적인 작업이었죠. 그런데 놀랍게도 참가자들은 부정적인 상태를 언급했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 695.8,
+   "en": "So I become nostalgic when I'm a bit down or when I'm a bit lonely. Nostalgia is the holiday of my mind, one person wrote. So when I need a break.",
+   "ko": "'기분이 좀 우울하거나 외로울 때 향수를 느낀다'고요. 한 사람은 '향수는 내 마음의 휴일이다'라고 썼습니다. 휴식이 필요할 때라는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 707.9,
+   "en": "You remember something pleasant?",
+   "ko": "즐거운 일을 기억해 내는 거군요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 709.7,
+   "en": "Yeah, yeah, it's like the sound of music comes to mind, you know, when the bee stings, when you think of your favorite things.",
+   "ko": "맞아요, '사운드 오브 뮤직'의 노래가 생각나네요. 벌에 쏘였을 때 자신이 가장 좋아하는 것들을 생각하는 것 말이에요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 719.8,
+   "en": "Yeah, so inspired by those findings, we conducted experiments.",
+   "ko": "네, 그래서 그런 발견들에 영감을 받아 저희는 실험을 진행했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 724.3,
+   "en": "So in one experiment, we induced negative mood and compared to positive mood and neutral mood.",
+   "ko": "한 실험에서 저희는 부정적인 기분을 유도하고 이를 긍정적인 기분 및 중립적인 기분과 비교했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 732.8,
+   "en": "And we found that participants who were placed in a negative mood reported more nostalgia than those in the neutral or positive mood condition.",
+   "ko": "그 결과, 부정적인 기분에 놓인 참가자들이 중립적이거나 긍정적인 기분 상태인 참가자들보다 더 많은 향수를 느꼈다고 보고했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 742.0,
+   "en": "And then another experiment, we induced loneliness. So we had some way of making people believe that they were a bit lonely compared to others.",
+   "ko": "그리고 또 다른 실험에서는 외로움을 유도했습니다. 사람들이 다른 사람들보다 약간 외롭다고 믿게 만드는 방법을 사용했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 754.4,
+   "en": "And in another condition, we had a way of making people believe that they're less lonely than most other people. And when people thought they were lonely, they were more nostalgic.",
+   "ko": "다른 조건에서는 사람들이 대부분의 다른 사람들보다 덜 외롭다고 믿게 만들었습니다. 그리고 사람들이 자신이 외롭다고 생각할 때 더 향수를 느꼈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 769.0,
+   "en": "So since then, not just us, but different laboratories have done these studies as well, showing that various psychological threats trigger nostalgia, so it can be social anxiety or loneliness or disillusionment.",
+   "ko": "그 이후 저희뿐만 아니라 여러 연구실에서도 이러한 연구를 진행하여 사회적 불안, 외로움, 환멸 등 다양한 심리적 위협이 향수를 유발한다는 사실을 보여주었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 788.8,
+   "en": "We also have evidence that it's not just psychological threats, but even environmental or external threats can trigger nostalgia.",
+   "ko": "심리적 위협뿐만 아니라 환경적 또는 외부적 위협도 향수를 유발할 수 있다는 증거도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 798.3,
+   "en": "So people tend to be more nostalgic on cold days or when they hear thunder, things that are threatening a little bit alarming and those circumstances trigger nostalgia as well.",
+   "ko": "그래서 사람들은 추운 날이나 천둥소리가 들릴 때처럼 약간 위협적이고 불안한 상황에서 더 향수를 느끼는 경향이 있으며, 그러한 상황들이 향수를 자극하기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 818.5,
+   "en": "So, yeah, the sensory trigger is very powerful, but there are also these sort of threats, these things that make you feel uncomfortable and look for a source of comfort to compensate.",
+   "ko": "감각적 자극도 매우 강력하지만, 여러분을 불편하게 만들고 그 보상으로 위안을 찾게 만드는 이러한 종류의 위협들도 존재합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 832.9,
+   "en": "Are there different points in life when we're more prone to nostalgia? I'm asking because I'm wondering are older people more nostalgic than younger people and do children experience nostalgia?",
+   "ko": "인생에서 향수를 더 느끼기 쉬운 시기가 따로 있나요? 노인이 젊은이보다 더 향수를 느끼는지, 그리고 아이들도 향수를 경험하는지 궁금해서 여쭤봅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 844.7,
+   "en": "Again, the results are a bit surprising because the relationship between age and nostalgia that maybe a caricature of nostalgia would predict isn't really there.",
+   "ko": "이번에도 결과는 좀 놀라운데, 향수에 대한 일반적인 고정관념이 예측하는 나이와 향수 사이의 관계가 실제로는 존재하지 않기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 860.0,
+   "en": "Maybe older people are a little bit more nostalgic than younger people, but the association between age and nostalgia is very small, negligible, I would say, almost.",
+   "ko": "노인이 젊은이보다 조금 더 향수를 느낄 수는 있지만, 나이와 향수 사이의 연관성은 매우 작아서 거의 무시할 수 있는 수준이라고 할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 873.0,
+   "en": "And what really stands out much more to me at least is that the intensity of nostalgia that young people can experience, even very young people.",
+   "ko": "적어도 저에게 정말 눈에 띄는 것은 젊은 사람들, 심지어 아주 어린 아이들도 경험할 수 있는 향수의 강도입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 886.6,
+   "en": "Like, children as young as 9, 10 can experience nostalgia.",
+   "ko": "9세나 10세 정도의 어린아이들도 향수를 경험할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 893.2,
+   "en": "So in some countries, I'm told, like for example, Japan, China, very young children will use the word nostalgia in those languages.",
+   "ko": "일본이나 중국 같은 일부 국가에서는 아주 어린 아이들도 해당 언어로 향수라는 단어를 사용한다고 들었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 906.4,
+   "en": "I don't think in the UK or the US or the Netherlands where I grew up. I don't think children, very young children, use the word nostalgia.",
+   "ko": "제가 자란 영국이나 미국, 네덜란드에서는 아주 어린 아이들이 향수라는 단어를 쓰지는 않는 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 916.8,
+   "en": "But you can very, very easily explain it to them. So we used cartoons.",
+   "ko": "하지만 아이들에게 아주 쉽게 설명해 줄 수 있습니다. 저희는 만화를 이용했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 926.0,
+   "en": "For example, one cartoon shows a girl looking at a photograph and she has this thought bubble. And in the thought bubble, you can see her skip rope with her friends.",
+   "ko": "예를 들어, 한 만화에서는 한 소녀가 사진을 보고 있고 생각 풍선이 떠 있습니다. 그 생각 풍선 안에는 소녀가 친구들과 줄넘기를 하는 모습이 보이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 938.1,
+   "en": "And we would say, okay, this is Leah. And she's thinking of skipping rope with her friends and it makes her feel happy, but also a little sad.",
+   "ko": "우리는 이렇게 말합니다. '이 아이는 레아야. 레아는 친구들과 줄넘기를 하던 때를 생각하고 있어. 그 생각은 레아를 행복하게 만들지만 동시에 조금 슬프게도 해.'",
+   "speaker": "Guest"
+  },
+  {
+   "start": 949.7,
+   "en": "Leah's experiencing nostalgia, do you experience nostalgia? And when you approach it that way the kids get it immediately.",
+   "ko": "'레아는 향수를 경험하고 있어, 너도 향수를 경험하니?' 그런 식으로 접근하면 아이들은 즉시 이해합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 959.5,
+   "en": "They have implicit knowledge and you can use that to teach them the meaning of the word.",
+   "ko": "아이들은 암묵적인 지식을 가지고 있으며, 이를 이용해 단어의 의미를 가르칠 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 966.4,
+   "en": "And when we do that, first of all, you get very reliable individual differences. So some kids score high on the scale and some kids score low.",
+   "ko": "그렇게 해보면 우선 매우 신뢰할 만한 개인차를 발견할 수 있습니다. 어떤 아이들은 척도 점수가 높고 어떤 아이들은 낮죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 979.1,
+   "en": "So there is already that variation and that then correlates with some of the same variables that you see in adults.",
+   "ko": "이미 그런 변동이 존재하며, 이는 성인에게서 볼 수 있는 것과 동일한 변수들과 상관관계를 보입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 990.5,
+   "en": "So in adults, there's a very robust replicable correlation between nostalgia and empathy.",
+   "ko": "성인의 경우 향수와 공감 능력 사이에는 매우 견고하고 재현 가능한 상관관계가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 998.3,
+   "en": "So more nostalgic adults are more empathetic and the same thing with the little children. The more nostalgic kids are more empathetic. So I find that really interesting.",
+   "ko": "향수를 더 많이 느끼는 성인이 더 공감 능력이 뛰어난데, 이는 어린아이들도 마찬가지입니다. 향수를 더 많이 느끼는 아이들이 더 공감 능력이 좋죠. 저는 그 점이 정말 흥미롭습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1012.6,
+   "en": "We're going to take a short break. When we return, we'll talk about historical nostalgia and whether it's possible to feel nostalgic for a time before you were born.",
+   "ko": "잠시 쉬어가겠습니다. 돌아와서는 역사적 향수와 자신이 태어나기 전의 시대에 대해서도 향수를 느끼는 것이 가능한지에 대해 이야기 나누겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1023.0,
+   "en": "I want to talk about something I've been reading a lot about, which is Gen Z getting very interested in flip phones and vinyl records and fashion from the early 2000s.",
+   "ko": "요즘 많이 접하고 있는 이야기에 대해 해보고 싶은데요. 바로 Z세대가 플립폰, 바이닐 레코드, 그리고 2000년대 초반 패션에 큰 관심을 보이고 있다는 점입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1039.1,
+   "en": "Can you feel nostalgia from a time that you never actually experienced?",
+   "ko": "자신이 실제로 경험해 보지 못한 시대에 대해서도 향수를 느낄 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1045.1,
+   "en": "That's a difficult one. I think when it comes to studying nostalgia, it's important to sort of, from a researcher's perspective, it's important to sort of delineate the construct.",
+   "ko": "어려운 질문이네요. 향수를 연구할 때는 연구자의 입장에서 개념의 범위를 설정하는 것이 중요하다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1064.1,
+   "en": "You're going to study and say, okay, we'll study everything within this domain, but these are the boundaries. One reason for that is not to become overwhelmed.",
+   "ko": "'이 영역 안의 모든 것을 연구하겠지만, 이것이 경계다'라고 정하는 거죠. 한 가지 이유는 너무 광범위해지지 않기 위해서입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1074.8,
+   "en": "Another reason is to have some sort of definitional clarity about what is and what isn't nostalgia.",
+   "ko": "또 다른 이유는 무엇이 향수이고 무엇이 아닌지에 대한 정의적 명확성을 갖기 위해서입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1081.6,
+   "en": "And so we've always regarded or limited ourselves to nostalgia for events that you've personally experienced. So that's how we delineated it.",
+   "ko": "그래서 저희는 항상 본인이 개인적으로 경험한 사건에 대한 향수로 범위를 한정해 왔습니다. 그것이 저희가 경계를 정한 방식입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1096.8,
+   "en": "And so if you haven't personally experienced it, it may look like nostalgia and resemble it, but it's not nostalgia.",
+   "ko": "따라서 개인적으로 경험하지 않았다면 향수처럼 보이고 닮았을 수는 있지만, 그것은 향수가 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1104.6,
+   "en": "Now, that is in a way an arbitrary boundary that motivated by the things I mentioned, the need for definitional clarity, the need to not become overwhelmed by everything that maybe could be considered nostalgia.",
+   "ko": "어떻게 보면 그것은 정의의 명확성과 너무 광범위해지지 않으려는 필요성에 의해 동기 부여된 임의적인 경계입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1125.8,
+   "en": "because there are loads of phenomena that you could argue you are nostalgia, but we would say aren't really because you haven't personally experienced it.",
+   "ko": "향수라고 주장할 수 있는 현상은 아주 많지만, 본인이 직접 경험하지 않았다면 저희는 그것을 진정한 향수라고 보지 않기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1136.3,
+   "en": "Anyway, a long winded way to say, we don't consider that nostalgia, but it may serve some of the same psychological benefits as nostalgia.",
+   "ko": "장황하게 말씀드렸습니다만, 요점은 저희는 그것을 향수로 간주하지 않지만, 향수와 동일한 심리적 혜택 중 일부를 제공할 수는 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1149.4,
+   "en": "We haven't done research on it, and there's very little research on this historical nostalgia. To me it comes across as quite an aesthetic thing.",
+   "ko": "저희는 그에 대한 연구를 하지 않았고, 이러한 역사적 향수에 대한 연구는 거의 없습니다. 저에게 그것은 꽤 미학적인 것으로 다가옵니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1161.2,
+   "en": "You see things from another era that sort of look beautiful or intriguing. And perhaps a better label for that would be antiquarianism.",
+   "ko": "다른 시대의 것들이 아름답거나 흥미로워 보이는 것이죠. 아마도 그것에 대한 더 나은 명칭은 골동품 애호일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1174.6,
+   "en": "I think that yeah, it's a very aesthetic preference for things from another era that clearly shows some kind of excellence in the way it was manufactured or a certain beauty that is attractive.",
+   "ko": "제조 방식의 우수성이나 매력적인 특정 아름다움을 명확히 보여주는 다른 시대의 물건에 대한 매우 미학적인 선호라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1191.8,
+   "en": "I understand you believe nostalgia is more prevalent today than it has been in the past and some of that may have been triggered by the pandemic.",
+   "ko": "과거보다 오늘날 향수가 더 널리 퍼져 있으며, 그중 일부는 팬데믹으로 인해 유발되었을 수 있다고 믿으신다고 알고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1200.5,
+   "en": "Maybe you can explain why you think nostalgia may be on the rise or is it that people are just more aware of it, like yourself studying it?",
+   "ko": "왜 향수가 증가하고 있다고 생각하시는지, 아니면 교수님처럼 이를 연구하는 사람들 덕분에 사람들이 더 잘 인식하게 된 것인지 설명해 주시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1208.9,
+   "en": "I think one of the fascinating things about nostalgia is that you can really trace it back a very long time.",
+   "ko": "향수에 관한 매혹적인 점 중 하나는 정말 아주 오래전까지 거슬러 올라갈 수 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1219.8,
+   "en": "The Gilgamesh Epic is about this friendship where Gilgamesh laments the loss of his friend Enkidu and remembers the experiences they had together and the battles they fought and it's very nostalgic.",
+   "ko": "길가메시 서사시는 길가메시가 친구 엔키두의 죽음을 슬퍼하며 함께했던 경험과 싸웠던 전투들을 기억하는 우정에 관한 이야기인데, 매우 향수 어린 내용입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1238.3,
+   "en": "So it's almost like as soon as people started recording these stories in writing, what did they write about nostalgia?",
+   "ko": "사람들이 이러한 이야기들을 글로 기록하기 시작하자마자, 그들이 쓴 것이 바로 향수에 관한 것이었다고 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1253.3,
+   "en": "Of course, the Odyssey is a similar story. It's about this longing to return home that drives on our hero.",
+   "ko": "물론 오디세이아도 비슷한 이야기입니다. 그것은 주인공을 움직이게 하는 고향으로 돌아가고 싶은 열망에 관한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1268.3,
+   "en": "He's stuck on an island with a beautiful sea nymph, Calypso, and still he longs to return to his wife Penelope and his son and his dog.",
+   "ko": "그는 아름다운 바다의 님프 칼립소와 함께 섬에 갇혀 있으면서도 여전히 아내 페넬로페와 아들, 그리고 자신의 개에게 돌아가기를 갈망합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1280.7,
+   "en": "So again, a very nostalgic story, but you can go even further back, arguably, before any recorded history and look at, for example, stone tools that were left behind.",
+   "ko": "이 역시 매우 향수 어린 이야기지만, 기록된 역사 이전으로 더 거슬러 올라가서 남겨진 석기 같은 것들을 볼 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1297.9,
+   "en": "There's evidence that not 심지어 homo sapiens, but ancestors to homo sapiens, had a preference for collecting stone tools that have been used already and repurposing them.",
+   "ko": "호모 사피엔스뿐만 아니라 그 조상들도 이미 사용된 석기를 수집하여 재사용하는 것을 선호했다는 증거가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1314.3,
+   "en": "even though it might have been easier to just make a new, a manufacture new tool.",
+   "ko": "새로운 도구를 만드는 것이 더 쉬웠을 수도 있는데도 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1320.1,
+   "en": "There's some evidence from excavations in Israel where these tools had like two layers of patinations, so an old layer and a newer layer showing that they'd been reused and repurposed.",
+   "ko": "이스라엘의 발굴 현장에는 이러한 도구들에 오래된 층과 새로운 층의 두 겹의 파티나가 있어 재사용되고 용도가 변경되었음을 보여주는 증거가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1335.3,
+   "en": "So they liked their old tools. And they had mounted their old tools and then made them into new tools.",
+   "ko": "그들은 낡은 도구를 좋아했던 것입니다. 낡은 도구를 고정해서 새로운 도구로 만들기도 했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1343.9,
+   "en": "So again, that sort of we don't have a record to say that they felt nostalgia, but it's indicative.",
+   "ko": "그들이 향수를 느꼈다고 말할 기록은 없지만, 이는 시사하는 바가 큽니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1352.8,
+   "en": "So you can go back all the way, yeah, several hundred thousand years and see this evidence of what certainly looks like nostalgia.",
+   "ko": "수십만 년 전까지 거슬러 올라가서 확실히 향수처럼 보이는 이러한 증거를 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1365.3,
+   "en": "So I would say it's a basic emotion that's really part and parcel of who we are and has always been with us.",
+   "ko": "그래서 향수는 우리 존재의 핵심적인 부분이며 항상 우리와 함께해 온 기본적인 감정이라고 말하고 싶습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1377.2,
+   "en": "You know, today we take photos and videos constantly. Our cell phones, our social media accounts, resurface these memories for us all the time, whether we want them or not, right?",
+   "ko": "오늘날 우리는 끊임없이 사진과 동영상을 찍습니다. 휴대폰과 소셜 미디어 계정은 우리가 원하든 원치 않든 항상 이러한 기억들을 다시 떠오르게 하죠, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1389.5,
+   "en": "They get fed to us. Do you think these constant reminders of the past are changing how people experience nostalgia?",
+   "ko": "기억들이 우리에게 제공되는 셈이죠. 이러한 끊임없는 과거의 상기물이 사람들이 향수를 경험하는 방식을 바꾸고 있다고 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1397.4,
+   "en": "I think they certainly make it easy to feel nostalgic when you want to. They put nostalgia at the tip of your fingers, really.",
+   "ko": "원할 때 향수를 느끼는 것을 확실히 쉽게 만들어준다고 생각합니다. 정말로 손가락 끝만 움직이면 향수를 느낄 수 있게 해주죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1409.7,
+   "en": "In the past, probably people would experience nostalgia more when they met up with friends, talk to friends, shared memories and experiences that they had had together.",
+   "ko": "과거에는 아마도 친구들을 만나서 이야기를 나누고 함께했던 기억과 경험을 공유할 때 향수를 더 많이 경험했을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1425.3,
+   "en": "These days, certainly in some cultures, people maybe interact less with each other and more with their phones and so we'd experience nostalgia more frequently in that way.",
+   "ko": "요즘은 확실히 어떤 문화권에서는 사람들이 서로 덜 소통하고 휴대폰을 더 많이 사용하기 때문에 그런 방식으로 향수를 더 자주 경험하게 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1441.1,
+   "en": "I mentioned in some cultures, and I'll just digress slightly, but I was recently spent a few days with my family in Rome, and we had an apartment in a complex several stories high.",
+   "ko": "어떤 문화권이라고 말씀드렸는데, 잠시 딴길로 새자면 최근에 가족과 로마에서 며칠을 보냈는데 수 층 높이의 아파트 단지에 머물렀습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1458.3,
+   "en": "And I was looking across this park. And on a Saturday night, the park was filled with young people to the brim, and there wasn't a phone in sight.",
+   "ko": "공원을 내려다보고 있었는데, 토요일 밤에 공원이 젊은이들로 가득 찼지만 휴대폰을 들고 있는 사람은 한 명도 보이지 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1469.4,
+   "en": "They were all talking in groups and moving from one little huddle to the next little huddle and just chatting and laughing.",
+   "ko": "모두 무리를 지어 이야기하고 있었고, 한 무리에서 다음 무리로 옮겨 다니며 수다를 떨고 웃고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1481.3,
+   "en": "And it was a real eye-opener. I thought, gosh, these kids, the lessons they'll learn doing that and the skills they develop doing that.",
+   "ko": "정말 놀라운 광경이었습니다. 저는 '세상에, 저 아이들이 저렇게 하면서 배우는 교훈과 기술들이 대단하겠구나'라고 생각했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1491.3,
+   "en": "And probably they might have been exchanging nostalgic stories there too and many of them memories that they shared.",
+   "ko": "그리고 아마 거기서도 서로 향수 어린 이야기를 주고받았을 것이고, 그중 상당수는 그들이 공유한 기억이었을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1502.8,
+   "en": "But I was struck by that and thought, gosh, that is really different, very different from what I might observe here in Southampton. I think it would be exceedingly rare.",
+   "ko": "저는 그 모습에 충격을 받았고, 이곳 사우스햄튼에서 볼 수 있는 풍경과는 정말 다르다고 생각했습니다. 여기서는 극히 드문 일일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1516.3,
+   "en": "And people spend more time on their phones or behind their screens.",
+   "ko": "사람들은 휴대폰이나 화면 앞에서 더 많은 시간을 보냅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1521.2,
+   "en": "So I think probably yes, nostalgia through screens is very common, but there are also cultural differences there, and some cultures still have this sort of communal sharing of memories and those traditions.",
+   "ko": "그래서 화면을 통한 향수가 매우 흔하다고 생각하지만, 거기에는 문화적 차이도 있으며 일부 문화권에서는 여전히 기억을 공동으로 공유하는 전통이 남아 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1538.1,
+   "en": "In addition to the personal nostalgia that we've been talking about, you've studied something called collective nostalgia.",
+   "ko": "지금까지 이야기한 개인적인 향수 외에도 교수님은 집단적 향수라는 것을 연구하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1545.6,
+   "en": "Can you talk about that and explain how it differs from the nostalgia we've been talking about?",
+   "ko": "그것에 대해 말씀해 주시고, 우리가 지금까지 이야기한 향수와는 어떻게 다른지 설명해 주시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1555.4,
+   "en": "Collective nostalgia often takes the form of national nostalgia, so it might be nostalgia for an ostensible, glorious national past.",
+   "ko": "집단적 향수는 종종 국가적 향수의 형태를 띠는데, 표면적으로 영광스러웠던 국가의 과거에 대한 향수일 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1567.4,
+   "en": "And it's a complex beast because in quite a number of studies, it's linked to anti-immigrant sentiment and opposition to immigrant rights, and ethnocentrism and so on, but not in all studies.",
+   "ko": "이것은 복잡한 문제인데, 꽤 많은 연구에서 이러한 국가적 향수가 반이민 정서, 이민자 권리에 대한 반대, 민족 중심주의 등과 연결되지만 모든 연구에서 그런 것은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1589.4,
+   "en": "So it depends on the content of the national nostalgia.",
+   "ko": "즉, 국가적 향수의 내용에 따라 달라집니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1594.6,
+   "en": "National nostalgia can also be about the time when we were more tolerant and more accepting of diversity and celebrated diversity.",
+   "ko": "국가적 향수는 우리가 더 관용적이었고 다양성을 더 잘 수용하며 축하했던 시절에 관한 것일 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1608.4,
+   "en": "So there are these different conceptions of what this ostensible, glorious past looked like.",
+   "ko": "표면적으로 영광스러웠던 과거가 어떤 모습이었는지에 대해 서로 다른 관념이 존재하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1617.1,
+   "en": "Some people may have one view of what the past looked like, and others will long for other aspects of their nation's past.",
+   "ko": "어떤 사람들은 과거의 모습에 대해 한 가지 견해를 가질 수 있고, 다른 사람들은 국가 과거의 다른 측면을 갈망할 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1628.1,
+   "en": "And so depending on the content, it can either predict opposition to immigration or tolerance or welcoming of immigrants.",
+   "ko": "따라서 내용에 따라 이민에 대한 반대를 예측할 수도 있고, 이민자에 대한 관용이나 환영을 예측할 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1641.2,
+   "en": "So that's just one example, but it really depends on what the content of this national or collective nostalgia is.",
+   "ko": "그것은 단지 하나의 예일 뿐이며, 정말로 이 국가적 또는 집단적 향수의 내용이 무엇인지에 달려 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1651.3,
+   "en": "Of course, it is not always about nations. It can also be about organizations or smaller units than nations.",
+   "ko": "물론 항상 국가에 관한 것만은 아닙니다. 조직이나 국가보다 작은 단위에 관한 것일 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1661.6,
+   "en": "Well, just to wrap up, what's next for you? What are you working on now? What are the big questions you're trying to answer?",
+   "ko": "자, 마무리하면서 교수님의 향후 계획은 무엇인가요? 현재 어떤 연구를 하고 계시며, 답을 찾고자 하는 큰 질문들은 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1668.7,
+   "en": "One line of research that we focused on recently has to do with attitudes towards AI, because AI of course is on everyone's mind.",
+   "ko": "최근 저희가 집중하고 있는 연구 중 하나는 AI에 대한 태도와 관련이 있습니다. AI는 당연히 모두의 관심사니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1682.6,
+   "en": "It's very novel, it precipitates change, and we study how nostalgia shapes attitudes and reactions to that.",
+   "ko": "그것은 매우 새롭고 변화를 촉진하며, 저희는 향수가 그에 대한 태도와 반응을 어떻게 형성하는지 연구합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1695.0,
+   "en": "So on the one hand, nostalgia promotes, or reduces skepticism about change.",
+   "ko": "한편으로 향수는 변화에 대한 회의론을 조장하거나 줄이기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1702.6,
+   "en": "Is this a good thing? Is it going too quick and so on?",
+   "ko": "'이것이 좋은 일인가? 너무 빠르게 진행되는 것은 아닌가?' 같은 질문들이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1706.5,
+   "en": "And that predicts negative reactions to AI, but there's also another process and that runs through connectedness.",
+   "ko": "이는 AI에 대한 부정적인 반응을 예측하게 하지만, 연결감을 통해 진행되는 또 다른 과정도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1715.9,
+   "en": "So when you feel socially connected and secure, that fosters exploration and openness to new ideas.",
+   "ko": "사회적으로 연결되어 있고 안전하다고 느끼면, 새로운 아이디어에 대한 탐구와 개방성이 촉진됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1726.7,
+   "en": "So nostalgia can also foster openness and adoption of AI through this social connectedness mechanism.",
+   "ko": "따라서 향수는 이러한 사회적 연결 메커니즘을 통해 AI에 대한 개방성과 채택을 촉진할 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1739.6,
+   "en": "So, yeah, when things change, on the one hand nostalgia induces this skepticism, this reluctance, when things move very quickly.",
+   "ko": "그렇습니다. 상황이 바뀔 때, 상황이 매우 빠르게 변할 때 한편으로 향수는 이러한 회의론과 주저함을 유발합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1750.2,
+   "en": "On the other hand, this sense of connectedness makes you more prepared to sort of give it a go and see how things pan out.",
+   "ko": "다른 한편으로 이러한 연결감은 여러분이 한번 시도해 보고 상황이 어떻게 전개되는지 지켜볼 준비를 더 잘 갖추게 해줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1760.0,
+   "en": "Might this be useful? Might this be helpful for other people, for me?",
+   "ko": "'이게 유용할까? 다른 사람이나 나에게 도움이 될까?' 하고 생각하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1764.9,
+   "en": "Another example would be the benefits of sharing nostalgia with others. So what kind of impressions do we form of nostalgic people?",
+   "ko": "또 다른 예는 다른 사람들과 향수를 공유함으로써 얻는 혜택입니다. 우리는 향수를 느끼는 사람들에 대해 어떤 인상을 가질까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1775.3,
+   "en": "When I share my nostalgic memories, what kind of impressions do others form of me as opposed to when I share another type of memory?",
+   "ko": "제가 향수 어린 기억을 공유할 때, 다른 종류의 기억을 공유할 때와 비교해서 타인이 저에 대해 어떤 인상을 형성할까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1786.4,
+   "en": "Our findings suggest that we perceive nostalgic individuals as quite agreeable and warm and so on, as you might expect.",
+   "ko": "저희의 연구 결과에 따르면, 예상하시겠지만 우리는 향수를 느끼는 개인을 꽤 우호적이고 따뜻한 사람 등으로 인식합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1797.6,
+   "en": "So you could say that nostalgia is really also for sharing.",
+   "ko": "그래서 향수는 정말로 공유를 위한 것이기도 하다고 말할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1801.8,
+   "en": "It's not just something for yourself, but something I would encourage people to share with others.",
+   "ko": "단순히 자신만을 위한 것이 아니라, 다른 사람들과 공유하라고 권하고 싶은 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1809.7,
+   "en": "Well, thank you. That's a good tip. So I want to thank you, Dr. Wildschut, for joining me today.",
+   "ko": "정말 감사합니다. 좋은 팁이네요. 오늘 함께해주신 빌트슈트 박사님께 감사드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1814.9,
+   "en": "This has been a lot of fun to talk to you about the good old days.",
+   "ko": "좋았던 옛 시절에 대해 이야기 나눌 수 있어 정말 즐거웠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1818.0,
+   "en": "Thank you very much. It's been great to be on your podcast.",
+   "ko": "천만에요. 팟캐스트에 출연하게 되어 즐거웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1822.4,
+   "en": "You can find previous episodes of Speaking of Psychology on our website at speakingofpsychology.org or on Apple, Spotify, YouTube, or wherever you get your podcasts.",
+   "ko": "Speaking of Psychology의 이전 에피소드는 웹사이트 speakingofpsychology.org나 애플, 스포티파이, 유튜브 등 팟캐스트를 이용하는 어디에서나 찾으실 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1832.6,
+   "en": "And if you like what you've heard, please subscribe and leave a review. If you have comments or ideas for future podcasts, you can email us at speakingofpsychology at apa.org.",
+   "ko": "방송이 좋았다면 구독해주시고 리뷰를 남겨주세요. 향후 팟캐스트에 대한 의견이나 아이디어가 있다면 speakingofpsychology@apa.org로 이메일을 보내주시기 바랍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1843.8,
+   "en": "Speaking of psychology is produced by Lea Winerman. For the American Psychological Association, I'm Kim Mills.",
+   "ko": "Speaking of Psychology는 레아 위너먼이 제작합니다. 미국 심리학회를 대신하여, 저는 킴 밀스였습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
