@@ -1,0 +1,958 @@
+{
+ "id": "VeDTXQ9hDVI",
+ "title": "Can children remember past lives?",
+ "show": "Here & Now Anytime",
+ "channel": "NPR Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=VeDTXQ9hDVI",
+ "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510051/npr.simplecastaudio.com/a14b69c2-63a5-430e-bbf8-8c76275e14cd/episodes/66a58508-c4b4-4d9f-a361-cc5b5896cf35/audio/128/default.mp3?awCollectionId=a14b69c2-63a5-430e-bbf8-8c76275e14cd&awEpisodeId=66a58508-c4b4-4d9f-a361-cc5b5896cf35&feed=XciAg_Eg&t=podcast&e=nx-s1-6037559&p=510051&d=1638&size=26208635",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/43/41/b74341d7-bc72-7bd7-02a3-463417803147/mza_2035527702752370785.jpeg/600x600bb.jpg",
+ "duration": 1653,
+ "releaseDate": "2026-11-11T20:00:00Z",
+ "addedAt": "2026-11-11",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Support for here and now anytime comes from MathWorks, creator of MATLAB and Simulink Software, to design and develop engineered systems, accelerating the pace of discovery in engineering and science.",
+   "ko": "Here & Now Anytime은 공학 및 과학 분야의 발견 속도를 가속화하는 시스템을 설계하고 개발하는 MATLAB 및 Simulink 소프트웨어의 제작사, MathWorks의 후원으로 제공됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 13.0,
+   "en": "Learn more at mathworks.com. WBUR Podcasts. Boston.",
+   "ko": "mathworks.com에서 자세히 알아보세요. WBUR 팟캐스트, 보스턴입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 21.1,
+   "en": "The child has nightmares or phobias that seem to be related to the memory of the death that they remember.",
+   "ko": "아이들은 자신이 기억하는 죽음의 기억과 관련이 있어 보이는 악몽이나 공포증을 겪습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 31.1,
+   "en": "Meet one of the scientists studying kids who claim to have memories of past lives.",
+   "ko": "전생의 기억이 있다고 주장하는 아이들을 연구하는 과학자 중 한 명을 만나보세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 45.9,
+   "en": "It's Wednesday, November 11th, and this is here and now anytime from NPR and WBUR Boston. I'm Chris Bentley.",
+   "ko": "11월 11일 수요일, NPR과 WBUR 보스턴이 함께하는 Here & Now Anytime입니다. 저는 크리스 벤틀리입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 54.8,
+   "en": "On today's show, the scandal at NVIDIA is reviewing some major lapses in government oversight. The Commerce Department is resisting blacklisting Megaspeed.",
+   "ko": "오늘 방송에서는 엔비디아의 스캔들이 정부 감시의 주요 허점을 어떻게 드러내고 있는지 살펴봅니다. 상무부는 메가스피드를 블랙리스트에 올리는 것을 반대하고 있습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 64.2,
+   "en": "It's astonishing. What is the point of export controls if you don't blacklist companies that are run by Chinese spies?",
+   "ko": "정말 놀라운 일입니다. 중국 스파이가 운영하는 회사를 블랙리스트에 올리지 않는다면 수출 통제가 무슨 소용이 있겠습니까?",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 70.1,
+   "en": "Also, what El Niño means for you. Regardless of where you live, those impacts are going to be very profound.",
+   "ko": "또한 엘니뇨가 여러분에게 어떤 의미인지도 알아봅니다. 어디에 사시든 그 영향은 매우 지대할 것입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 82.4,
+   "en": "But first, sometimes someone brings up a story that gets everyone talking at our editorial meetings.",
+   "ko": "하지만 먼저, 가끔 편집 회의에서 모두의 화두가 되는 이야기를 누군가 꺼내곤 합니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 89.7,
+   "en": "So when Robin Young and producer Karen Miller-Medson told us, they talked to a scientist at the University of Virginia who studies stories of children who claim or whose parents claim to have knowledge of a past life. We wanted to know more.",
+   "ko": "로빈 영과 카렌 밀러-메드슨 프로듀서가 전생의 기억이 있다고 주장하는 아이들이나 부모들의 사례를 연구하는 버지니아 대학교의 과학자와 이야기를 나눴다고 했을 때, 저희는 더 알고 싶어졌습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 103.7,
+   "en": "I'm just going to let Robin introduce this one.",
+   "ko": "이 소식은 로빈이 직접 소개하도록 하겠습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 106.9,
+   "en": "Now, they're not saying the R word, reincarnation. They're just saying we have data.",
+   "ko": "연구진은 환생이라는 표현을 쓰지 않습니다. 그저 데이터가 있다고 말할 뿐이죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 112.1,
+   "en": "And now those researchers at the University of Virginia's Division of Perceptual Studies also have a new study showing that the time between the past person's death, a death the children remember, and the child's birth, something scientists call the intermission time, is the shortest when the past person died suddenly like from an accident.",
+   "ko": "버지니아 대학교 지각 연구 부서의 연구진은 아이들이 기억하는 전생 인물의 사망 시점과 아이의 출생 사이의 시간, 즉 과학자들이 '중간기'라고 부르는 시간이 사고와 같이 갑작스럽게 사망했을 때 가장 짧다는 새로운 연구 결과를 발표했습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 131.0,
+   "en": "In some cultures, Hindu, Buddhist, there is a belief that when someone dies too soon, they do come back through another body to complete unfinished business.",
+   "ko": "힌두교나 불교 같은 일부 문화권에는 너무 일찍 죽으면 못다 한 일을 마치기 위해 다른 몸을 통해 다시 태어난다는 믿음이 있습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 139.6,
+   "en": "But if this is making the hair on the back of our necks stand up, we can only imagine those hundreds of families.",
+   "ko": "하지만 이 이야기가 우리의 소름을 돋게 만든다면, 수백 명의 유가족은 어떠할지 상상만 할 뿐입니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 146.2,
+   "en": "Neuroscience researcher Saeedeh Sadeghi is here. And Saeedeh, you know this is stunning, but you've said you are not making a statement about metaphysics.",
+   "ko": "신경과학 연구원인 사이이다 사데기가 나와 있습니다. 사이이다 씨, 정말 놀라운 이야기지만, 당신은 형이상학에 대해 언급하는 것이 아니라고 말씀하셨죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 154.5,
+   "en": "Yes, exactly. I didn't come to this research with any sort of belief in reincarnation or anything. I was just curious.",
+   "ko": "네, 맞습니다. 저는 환생에 대한 어떤 믿음을 가지고 이 연구를 시작한 것이 아닙니다. 단지 호기심 때문이었죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 162.2,
+   "en": "And me and my co-authors do our best to just be agnostic and just faithful to data and what we observe without jumping into making theories about metaphysics.",
+   "ko": "저와 공동 저자들은 형이상학적인 이론을 성급하게 만들기보다는, 불가지론적인 태도를 유지하며 데이터와 관찰한 결과에만 충실하려고 최선을 다하고 있습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 172.7,
+   "en": "And the data overall about what children are saying.",
+   "ko": "아이들이 말하는 데이터 전반에 대해 말씀해 주세요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 176.6,
+   "en": "You know, we're reading from some of your examples from the lab about a child who picked out an extra in a photograph from a 1930s Hollywood brochure and told his parents 'that's me'.",
+   "ko": "연구실 사례 중 하나를 보면, 1930년대 할리우드 브로셔 사진에서 한 엑스트라를 지목하며 부모에게 '이게 나야'라고 말한 아이가 있었다고요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 186.5,
+   "en": "And then provided details including 55 obscure but verifiable facts about what turned out to be Hollywood agent Marty Martyn, including his street name and his favorite food.",
+   "ko": "그리고 할리우드 에이전트 마티 마틴으로 밝혀진 인물에 대해 거주했던 거리 이름과 좋아했던 음식을 포함하여 모호하지만 검증 가능한 55가지 사실을 상세히 말했더군요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 199.4,
+   "en": "What? I mean, what? Can you give us more examples like this? What are you hearing and verifying?",
+   "ko": "세상에, 정말인가요? 이런 사례를 더 들어주실 수 있나요? 어떤 이야기들을 듣고 검증하시나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 204.1,
+   "en": "Yeah, so typically as soon as they can talk, they may start spontaneously talking about what seems like a past life memory, like a name. 'I had this name. I lived in this place.'",
+   "ko": "네, 보통 말을 할 수 있게 되자마자 이름 같은 전생의 기억인 듯한 이야기를 자발적으로 하기 시작합니다. '제 이름은 이거였어요. 전 이 장소에 살았어요' 같은 식으로요.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 217.5,
+   "en": "A lot of them mentioned that they missed their old parents and a lot of them also talk about how they died. You know toddler talking about a traumatic death is kind of surprising to a lot of parents.",
+   "ko": "많은 아이가 예전 부모님이 보고 싶다고 말하고, 어떻게 죽었는지에 대해서도 이야기합니다. 아기가 충격적인 죽음에 대해 이야기하는 것은 많은 부모에게 꽤 놀라운 일이죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 229.8,
+   "en": "Yeah. Well, there was a three-year-old who said he flew a World War II plane off an aircraft carrier called the Natoma Bay.",
+   "ko": "그렇군요. 나토마 베이라는 항공모함에서 2차 세계대전 전투기를 조종했다고 말한 세 살짜리 아이도 있었죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 237.8,
+   "en": "Right. Yeah. James Leininger is a famous case. James Leininger was this Louisiana toddler who began dreaming about being a World War II pilot.",
+   "ko": "맞습니다. 제임스 라이닝거는 유명한 사례죠. 제임스 라이닝거는 루이지애나에 사는 유아였는데, 자신이 2차 세계대전 조종사가 되는 꿈을 꾸기 시작했습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 248.4,
+   "en": "Right. There are people I know who are saying, wait a second, what about what researchers call cultural contamination? People who really do have a belief in this sort of thing happening so they may be looking for it.",
+   "ko": "그렇군요. 제 주변에는 '문화적 오염'에 대해 묻는 사람들도 있습니다. 이런 일이 일어날 수 있다고 실제로 믿는 사람들이 그런 현상을 의도적으로 찾으려 할 수도 있다는 거죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 260.8,
+   "en": "Yeah. That's a valid initial reaction, but we see you're seeing it in American cases also. By saying American cases, but by people who don't come from completely Hindu or...",
+   "ko": "네, 충분히 가능한 초기 반응입니다만, 미국 사례에서도 그런 현상이 나타납니다. 미국 사례라고 말씀드린 것은, 힌두교 배경이 전혀 없는 사람들 사이에서도...",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 272.7,
+   "en": "Well I should say you know the first Americans are indigenous peoples and they have some beliefs in this. But I hear what you're saying people without much traditional culture that believes in reincarnation without those backgrounds.",
+   "ko": "미국 원주민들은 이런 믿음을 가지고 있기도 하죠. 하지만 말씀하신 요지는 환생을 믿는 전통적인 문화나 배경이 없는 사람들의 이야기라는 거죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 285.3,
+   "en": "And like in all cases, when investigators, researchers get involved, they have two goals. One is to see if there is a unique previous person that matches the child's statements.",
+   "ko": "다른 모든 사례와 마찬가지로 조사관이나 연구진이 참여할 때는 두 가지 목표가 있습니다. 하나는 아이의 진술과 일치하는 고유한 전생 인물이 있는지 확인하는 것입니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 297.4,
+   "en": "And second, to see if there is any way that the child could have known about this through ordinary processes.",
+   "ko": "두 번째는 아이가 일상적인 과정을 통해 이를 알게 되었을 가능성이 있는지 확인하는 것입니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 305.1,
+   "en": "Could the child have overheard the adults or somehow did the parents have any motivation to encourage the child to say these things?",
+   "ko": "어른들의 말을 엿들었을 수도 있고, 부모가 아이에게 이런 말을 하도록 부추길 동기가 있었는지 등을 보는 거죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 312.3,
+   "en": "And in many of the cases we see that there's almost no way the child could have known about this.",
+   "ko": "그리고 많은 사례에서 아이가 이를 알 수 있는 방법이 거의 없었다는 것을 확인합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 320.1,
+   "en": "But I just want to raise, aren't there parents who feed a two-year-old or three-year-old this information? Show them pictures, coach them. Couldn't that happen?",
+   "ko": "하지만 2~3살짜리 아이에게 이런 정보를 주입하는 부모도 있지 않을까요? 사진을 보여주거나 연습을 시키는 거죠. 그런 일이 일어날 수도 있지 않나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 331.1,
+   "en": "Well, it's something to consider, but in many cases it's just not an explanation. For example, it's not just verbal statements.",
+   "ko": "충분히 고려해 볼 만한 사항이지만, 많은 경우 그것만으로는 설명이 되지 않습니다. 예를 들어, 단순히 말뿐만이 아닙니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 340.9,
+   "en": "The child has nightmares or phobias that seem to be related to the memory of the death that they remember.",
+   "ko": "아이들은 자신이 기억하는 죽음의 기억과 관련된 악몽이나 공포증을 겪기도 하니까요.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 349.4,
+   "en": "More than half of the children who remember drowning in the past life have a phobia of water and a lot of them the phobia is even before the child could talk.",
+   "ko": "전생에 익사한 기억이 있는 아이들의 절반 이상이 물 공포증을 가지고 있는데, 많은 경우 그 공포증은 아이가 말을 하기 전부터 나타납니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 359.7,
+   "en": "So it's very hard to imagine that the child could be such a good actor and a lot of the parents are in fact not happy when they hear that some people freak out.",
+   "ko": "따라서 아이가 그렇게 뛰어난 연기를 한다고 생각하기는 매우 어렵습니다. 사실 많은 부모는 이런 이야기를 듣고 기뻐하기는커녕 당혹스러워하거나 겁을 먹기도 합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 369.4,
+   "en": "It's not like everyone likes their child like this. It's more than just memories, its behavior also.",
+   "ko": "아이들이 이런 기억을 가지는 것을 모든 부모가 반기는 것은 아닙니다. 전생을 기억하는 행동은 단순한 기억을 넘어 행동으로까지 이어집니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 376.6,
+   "en": "Well some of the statements that these parents are hearing and you're hearing in the labs: 'that happened before I was in mommy's tummy', 'you're not my mommy, daddy, I have another mommy, daddy'.",
+   "ko": "이 부모들이 듣고 당신이 연구실에서 듣는 말들 중에는 '엄마 뱃속에 있기 전에 일어난 일이에요', '당신은 내 엄마 아빠가 아니에요, 나에겐 다른 엄마 아빠가 있어요' 같은 것들이 있죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 387.9,
+   "en": "As you said, 'when I was big I used to have blue eyes' or 'have a car', 'work downtown', 'I died in a car accident'. I mean, these are things you've heard.",
+   "ko": "말씀하신 대로 '내가 어른이었을 때 내 눈은 파란색이었어요'라거나 '차가 있었어요', '시내에서 일했어요', '차 사고로 죽었어요' 같은 말들 말입니다. 이런 것들을 들어보셨죠?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 396.7,
+   "en": "Yeah, yeah. There are parents, especially like children saying, 'I miss my old parents.' We see in some cases the child insists, 'I want to go and see my old family.' It's something that a lot of the times concerns parents.",
+   "ko": "네, 그렇습니다. 특히 아이들이 '예전 부모님이 보고 싶어요'라고 말하는 경우도 있죠. 어떤 경우에는 아이가 '예전 가족을 보러 가고 싶다'고 고집을 피우기도 합니다. 이는 부모들에게 큰 걱정거리가 되곤 하죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 410.5,
+   "en": "Right. Well, but I thought it could be awfully painful for the child, too, if they miss another family. But you say, I think I've read that these memories start to fade when they get to be around seven.",
+   "ko": "그렇겠네요. 다른 가족을 그리워한다면 아이에게도 몹시 고통스러운 일일 수 있겠어요. 하지만 제가 읽기로는 이런 기억들이 일곱 살 정도가 되면 흐려지기 시작한다고 하더군요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 422.7,
+   "en": "They do. So children usually stop talking about them at around that age. Although we don't know if it's fading or it's just them... some of them, it seems like they just don't want to bring it up anymore.",
+   "ko": "맞습니다. 그래서 아이들은 대개 그 나이쯤 되면 그런 이야기를 멈춥니다. 기억이 사라지는 것인지, 아니면 단지... 어떤 아이들은 더 이상 그 이야기를 꺼내고 싶지 않아 하는 것 같기도 합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 436.3,
+   "en": "In general, I think it probably is related to the development of identity. You know, at a very young age, the identity isn't still very well established. And by the age of six or seven, the identity becomes much more established.",
+   "ko": "일반적으로 저는 이것이 정체성 발달과 관련이 있다고 생각합니다. 아주 어린 나이에는 정체성이 아직 잘 확립되지 않았지만, 6~7세가 되면 정체성이 훨씬 더 확고해지니까요.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 449.6,
+   "en": "Well, let's take James again. This Louisiana toddler had violent night terrors about a flaming plane crash. By the age of three, he told his parents he was a World War II pilot. He even named a fellow pilot, Jack Larson. He's three.",
+   "ko": "제임스의 사례를 다시 보죠. 루이지애나에 사는 이 유아는 불타는 비행기 추락 사고에 대해 격렬한 야경증을 앓았습니다. 세 살이 되었을 때 그는 부모에게 자신이 2차 세계대전 조종사였다고 말했죠. 동료 조종사인 잭 라슨의 이름까지 말했어요. 겨우 세 살인데 말이죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 466.7,
+   "en": "You researchers matched his dozens of very specific claims to a real pilot, James Huston Jr., shot down over the Pacific in 1945. When you make that discovery, do you then contact the descendants of James Huston Jr.?",
+   "ko": "연구진은 그의 수십 가지 구체적인 주장이 1945년 태평양 상공에서 격추된 실제 조종사 제임스 휴스턴 주니어와 일치한다는 것을 확인했습니다. 그런 발견을 하면 제임스 휴스턴 주니어의 후손들에게 연락을 하나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 482.0,
+   "en": "In this case, I think the parents did find them through a military reunion. Ideally, we ask the parents not to do it directly, so researchers get involved and independently verify all the statements.",
+   "ko": "이 사례의 경우, 부모님이 군대 동창회를 통해 그들을 찾은 것으로 알고 있습니다. 이상적으로는 부모님이 직접 하지 않도록 요청하고, 연구진이 개입하여 모든 진술을 독립적으로 검증합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 499.0,
+   "en": "But I'm wondering what an emotional bomb that is to find out that there's a child that knows all these facts about your deceased loved one. Of course, you know, they may be thinking that this child might embody their loved one.",
+   "ko": "하지만 세상을 떠난 사랑하는 사람에 대해 이 모든 사실을 알고 있는 아이가 있다는 것을 알게 되는 것이 얼마나 큰 감정적 충격일지 궁금합니다. 당연히 그들은 이 아이가 사랑하는 사람의 화신일지도 모른다고 생각할 수도 있겠죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 512.3,
+   "en": "Yeah, when we want to approach these families, it's always hard because we don't know how they react, what's their belief, and how do they feel about it? How do they react? It depends a lot on the family.",
+   "ko": "네, 그런 가족들에게 접근하는 것은 늘 어렵습니다. 그들이 어떻게 반응할지, 그들의 신념은 무엇인지, 그리고 어떻게 느낄지 모르기 때문이죠. 반응은 가족마다 매우 다릅니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 525.8,
+   "en": "There are some cases who do believe that this is their deceased loved one. And there are cases who don't want to talk or they don't want to think about it. It's not an easy thing to deal with.",
+   "ko": "이 아이가 세상을 떠난 사랑하는 사람이라고 믿는 경우도 있고, 이야기하고 싶어 하지 않거나 생각조차 하기 싫어하는 경우도 있습니다. 다루기 쉬운 문제는 아니죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 542.8,
+   "en": "Well, and I'm sure for many listeners right now, it's not. What would you say to people? I mean, you actually said something to popular mechanics about how, look, there's a pattern, keep looking, don't look away.",
+   "ko": "지금 듣고 계신 많은 청취자분에게도 쉬운 일은 아닐 겁니다. 사람들에게 어떤 말씀을 해주고 싶으신가요? '파퓰러 메카닉스'지에 일정한 패턴이 있으니 외면하지 말고 계속 지켜보라고 말씀하셨던데요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 557.0,
+   "en": "Right. You know, my initial reaction when I first hear about the idea of reincarnation was that this is like, this is a religious belief. I don't need to believe in anything.",
+   "ko": "맞습니다. 사실 저도 환생이라는 개념을 처음 들었을 때의 반응은 이건 종교적 믿음일 뿐이라는 것이었습니다. 저는 무엇을 믿을 필요가 없다고 생각했죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 567.8,
+   "en": "I think I'm just curious and I think I invite everyone to be just curious and observe the evidence. Reincarnation is, I think, a filler word for an unknown process. We don't know how it happens.",
+   "ko": "저는 그저 호기심이 생겼고, 모든 분이 그저 호기심을 갖고 증거를 관찰해 보시길 권합니다. 환생은 우리가 알지 못하는 과정에 대한 임시 용어라고 생각합니다. 그것이 어떻게 일어나는지는 모릅니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 581.6,
+   "en": "We don't need to jump into making theory of an afterlife. After life, I don't think we have data to make that theory, but we can just keep looking and observing. This is core to our human identity, our consciousness, who are we?",
+   "ko": "사후 세계에 대한 이론을 성급하게 만들 필요는 없습니다. 사후 세계에 대해서는 이론을 정립할 만한 데이터가 없다고 생각하지만, 계속해서 조사하고 관찰할 수는 있습니다. 이것은 인간의 정체성, 의식, 그리고 '우리는 누구인가'라는 질문의 핵심이니까요.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 595.2,
+   "en": "And just briefly too. Do you worry about some of these children?",
+   "ko": "짧게 하나 더 여쭐게요. 이 아이들이 걱정되지는 않으신가요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 598.7,
+   "en": "Yes, I do. I think a lot of these children have what seems like PTSD symptoms from a trauma that they remember from a past life.",
+   "ko": "네, 걱정됩니다. 많은 아이가 전생에서 기억하는 트라우마로 인해 PTSD 증상 같은 것을 보인다고 생각합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 610.1,
+   "en": "So I think it's important to understand these children and facilitate these memories and the environment that they are in.",
+   "ko": "그래서 이 아이들을 이해하고, 그들이 처한 환경과 이런 기억들을 잘 다독여주는 것이 중요합니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 619.5,
+   "en": "Like you know a lot of parents contact us with concerns about what to do and I think more research is needed. How to interact with these children and what's the best way to help them?",
+   "ko": "아시다시피 많은 부모가 어떻게 해야 할지 걱정하며 저희에게 연락을 해오는데, 더 많은 연구가 필요하다고 생각합니다. 어떻게 이 아이들과 소통하고 도울 수 있는 최선의 방법이 무엇인지 말이죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 632.0,
+   "en": "So what we are looking at right now is how are these children different from other children? how are they, how is their brain different, how is their cognitive functions different.",
+   "ko": "그래서 저희가 지금 연구하고 있는 것은 이 아이들이 다른 아이들과 어떻게 다른가 하는 점입니다. 뇌는 어떻게 다른지, 인지 기능은 어떻게 다른지 등을 보고 있죠.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 641.5,
+   "en": "So it might be that maybe more children have some sort of behavioral or emotional residue from past life, but these are the children who are capable to talk about it.",
+   "ko": "어쩌면 더 많은 아이가 전생의 행동적 또는 정서적 잔재를 가지고 있을 수도 있지만, 이 아이들은 그것을 말로 표현할 능력이 있는 아이들일 뿐일 수도 있습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 654.3,
+   "en": "In other words, there's others who can't find the words to express what they're feeling and these can, and so there may be more.",
+   "ko": "즉, 자신이 느끼는 것을 말로 표현하지 못하는 다른 아이들도 있고, 이 아이들은 표현할 수 있는 것이니, 실제로는 더 많을 수도 있다는 거군요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 660.6,
+   "en": "Yeah, yeah, yeah. These children on average seem to have advanced verbal skills.",
+   "ko": "네, 그렇습니다. 이 아이들은 평균적으로 언어 능력이 뛰어난 편인 것 같습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 665.0,
+   "en": "It's fascinating. I'm a little teary. I'm feeling for these kids. Oh, yeah.",
+   "ko": "놀랍네요. 조금 눈물이 나려고 해요. 아이들이 안타까워서요. 정말 그렇네요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 672.4,
+   "en": "And you know, and this may be the answer to a parent's prayer, you know, what's going on with my child, and it may be just a truly frightening thing. So we're glad you're there.",
+   "ko": "부모들에게는 '내 아이에게 무슨 일이 일어나고 있는 걸까'라는 기도의 응답일 수도 있고, 정말 두려운 일일 수도 있겠네요. 당신 같은 연구자가 있어서 다행입니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 684.6,
+   "en": "Dr. Saeedeh Sadeghi, Neuroscience researcher at the University of Virginia's Division of perceptual studies which investigates cases where young children report evidence of past lives. Saeedeh, thank you so much.",
+   "ko": "어린아이들이 보고하는 전생의 증거 사례를 조사하는 버지니아 대학교 지각 연구 부서의 신경과학 연구원, 사이이다 사데기 박사였습니다. 사이이다 씨, 정말 감사합니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 698.2,
+   "en": "Of course. Thank you. Thanks for having me.",
+   "ko": "천만에요. 감사합니다. 불러주셔서 고맙습니다.",
+   "speaker": "Saeedeh Sadeghi"
+  },
+  {
+   "start": 705.9,
+   "en": "Before we head to the break, if you tried to listen to yesterday's episode and noticed the title didn't line up with the audio, thanks for listening. And you're right.",
+   "ko": "잠시 쉬어가기 전에, 어제 에피소드를 들으려 하셨을 때 제목과 오디오가 일치하지 않는 것을 발견하신 분들께 감사의 말씀을 전합니다. 여러분의 말씀이 맞습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 715.7,
+   "en": "Monday's audio got uploaded again instead of Tuesday's episode. So sorry about that. We are human, after all.",
+   "ko": "화요일 에피소드 대신 월요일 오디오가 다시 업로드되었습니다. 정말 죄송합니다. 결국 저희도 사람이니까요.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 723.3,
+   "en": "But that's been fixed, and you can listen to the previous episode, like normal, right now. It's good, so scroll back in your feed to Tuesday, November 10th, and check it out.",
+   "ko": "지금은 수정되었으며, 평소처럼 이전 에피소드를 들으실 수 있습니다. 내용이 좋으니 피드에서 11월 10일 화요일로 거슬러 올라가 확인해 보세요.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 733.0,
+   "en": "And again, sorry about that. We'll be right back in a minute.",
+   "ko": "다시 한번 사과드립니다. 잠시 후 다시 돌아오겠습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 745.1,
+   "en": "So what's the takeaway for the US government from the scandal at NVIDIA? Here's the background.",
+   "ko": "엔비디아 스캔들에서 미국 정부가 얻어야 할 교훈은 무엇일까요? 배경은 이렇습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 751.2,
+   "en": "CEO Jensen Huang had an affair with an executive at a Singapore-based customer of NVIDIA's called Megaspeed. American spies say that executive was a Chinese asset.",
+   "ko": "젠슨 황 CEO가 메가스피드라는 싱가포르 소재 엔비디아 고객사의 임원과 불륜 관계를 가졌습니다. 미국 스파이들은 그 임원이 중국의 자산이라고 말합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 764.0,
+   "en": "The US started restricting exports of powerful semiconductors used for AI back in the first Trump administration, but it really ramped up in 2022 under Biden.",
+   "ko": "미국은 트럼프 행정부 1기 때부터 AI에 사용되는 강력한 반도체의 수출을 제한하기 시작했지만, 바이든 행정부 시절인 2022년에 본격적으로 강화되었습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 774.3,
+   "en": "Chris McGuire helped write that policy targeting China. He's now with the Council on Foreign Relations, and he told Indira Lakshmanan, those export controls have been completely undermined.",
+   "ko": "중국을 겨냥한 그 정책 수립을 도왔던 크리스 맥과이어는 현재 대외관계위원회에 소속되어 있으며, 그는 인디라 락슈마난에게 그러한 수출 통제가 완전히 무력화되었다고 말했습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 786.0,
+   "en": "The policy of the United States is to prevent the export of these chips to any Chinese companies. So not just to China, but to any Chinese companies anywhere in the world.",
+   "ko": "미국의 정책은 이 칩들이 중국 기업에 수출되는 것을 막는 것입니다. 단순히 중국 본토뿐만 아니라 전 세계 어디에 있든 중국 기업이라면 말이죠.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 795.8,
+   "en": "The problem is that you have shell companies outside of China that China sets up to divert the chips back in.",
+   "ko": "문제는 중국이 칩을 다시 들여오기 위해 중국 외부에 유령 회사를 세운다는 점입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 802.2,
+   "en": "And companies are supposed to do their own due diligence to make sure that they know that these companies are not actually funneling them back to China.",
+   "ko": "그리고 기업들은 이 회사들이 실제로 중국으로 칩을 빼돌리고 있지 않은지 확인하기 위해 스스로 실사를 수행해야 합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 809.8,
+   "en": "The Commerce Department had started to act in several ways. In the Biden administration, there had started to be an investigation in the Megaspeed. This continued into the Trump administration.",
+   "ko": "상무부는 여러 가지 방법으로 조치를 취하기 시작했습니다. 바이든 행정부에서 메가스피드에 대한 조사가 시작되었고, 이는 트럼프 행정부로 이어졌습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 818.9,
+   "en": "That investigation, according to the New York Times yesterday, was curtailed because the head of the export control division at the Commerce Department, Jeff Kessler, talked about that investigation to NVIDIA's general council.",
+   "ko": "어제 뉴욕 타임스에 따르면, 상무부 수출 통제국의 수장인 제프 케슬러가 해당 조사 내용을 엔비디아의 법률 고문에게 발설하면서 조사가 축소되었습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 833.3,
+   "en": "The New York Times reported that the Department of Justice took the investigation away from commerce because they could no longer trust it.",
+   "ko": "뉴욕 타임스는 법무부가 더 이상 상무부를 신뢰할 수 없게 되자 조사를 상무부로부터 넘겨받았다고 보도했습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 839.6,
+   "en": "But this is something that people have looked into, but the Commerce Department hasn't taken action and they haven't cut chips off to Megaspeed and Megaspeed today could still buy chips because there hasn't been any policy action that was taken.",
+   "ko": "하지만 이것은 사람들이 조사해 온 사안임에도 불구하고 상무부는 조치를 취하지 않았으며 메가스피드에 대한 칩 공급을 중단하지도 않았습니다. 정책적인 조치가 취해지지 않았기 때문에 메가스피드는 오늘날에도 여전히 칩을 구매할 수 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 851.8,
+   "en": "Those regulations, the Biden administration put into effect those the Commerce Department is actually openly refusing to implement. So that's why we have the gap that's created this problem.",
+   "ko": "바이든 행정부가 발효시킨 규제들을 상무부는 실제로 공개적으로 이행을 거부하고 있습니다. 그래서 이 문제를 야기한 격차가 생긴 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 860.9,
+   "en": "So you are on the National Security Council in the Biden administration when these first chip controls were put into place.",
+   "ko": "당신은 이 첫 번째 칩 규제가 시행될 당시 바이든 행정부의 국가안보회의에 소속되어 있었습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 869.3,
+   "en": "And I'm wondering if the U.S. government knew that there were suspicions about Megaspeed. If they knew that there were suspicions that this Megaspeed executive was actually a Chinese espionage asset.",
+   "ko": "미국 정부가 메가스피드에 대한 의혹을 알고 있었는지 궁금합니다. 이 메가스피드 임원이 실제로는 중국의 간첩 자산이라는 의혹을 알고 있었나요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 882.3,
+   "en": "If President Trump was informed about this allegedly before his trip to China, and he still brought Jensen Huang with him on Air Force One. What does this tell us?",
+   "ko": "트럼프 대통령이 중국 방문 전에 이에 대해 보고를 받았음에도 불구하고 젠슨 황을 에어포스 원에 태웠다는 의혹이 있는데, 이것이 우리에게 시사하는 바는 무엇일까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 892.9,
+   "en": "Has the U.S. lost control of semiconductor export controls under the Trump administration?",
+   "ko": "트럼프 행정부 하에서 미국이 반도체 수출 통제권을 잃은 것일까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 897.9,
+   "en": "I think they absolutely have a hundred percent. I think this policy is no longer being seriously enforced.",
+   "ko": "저는 백 퍼센트 그렇다고 생각합니다. 이 정책은 더 이상 진지하게 집행되지 않고 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 904.2,
+   "en": "And as a result, you are seeing tens of billions, potentially even hundreds of billions of dollars of chips that are flowing to China.",
+   "ko": "그 결과 수백억 달러, 어쩌면 수천억 달러에 달하는 칩이 중국으로 흘러들어가는 것을 보고 계십니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 911.8,
+   "en": "This year alone, by my estimates, $80 billion of chips have gone to Singapore, Malaysia, and Thailand. They're the number two, four, and five importer of AI chips in the world.",
+   "ko": "제 추산으로는 올해에만 800억 달러 상당의 칩이 싱가포르, 말레이시아, 태국으로 수출되었습니다. 이 나라들은 세계에서 AI 칩 수입국 순위 2위, 4위, 5위를 차지하고 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 923.6,
+   "en": "These are not countries with robust AI industries. Now, I'm not saying all of those chips are going to China, but a decent chunk of them probably are.",
+   "ko": "이들 국가는 AI 산업이 탄탄한 나라들이 아닙니다. 모든 칩이 중국으로 간다는 말은 아니지만, 상당 부분이 그럴 가능성이 높습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 931.2,
+   "en": "About half the chips that don't go to the United States go to these three countries. And there's a lot of entities like Megaspeed there.",
+   "ko": "미국으로 가지 않는 칩의 약 절반이 이 세 나라로 갑니다. 그리고 그곳에는 메가스피드 같은 업체들이 아주 많습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 937.9,
+   "en": "And the problem really is enforcement. It's that we're no longer enforcing these controls, we're no longer updating them, we're no longer administering them.",
+   "ko": "문제는 진정으로 집행입니다. 우리는 더 이상 이러한 통제를 집행하지도, 업데이트하지도, 관리하지도 않고 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 946.6,
+   "en": "On top of that, once there was information that Megaspeed was being run by Chinese spies, the Commerce Department could have put them on a blacklist, should have put them on a blacklist, but they didn't. And they still haven't.",
+   "ko": "게다가 메가스피드가 중국 스파이에 의해 운영되고 있다는 정보가 있었을 때 상무부는 그들을 블랙리스트에 올릴 수 있었고 올려야 했지만, 그렇게 하지 않았습니다. 그리고 지금까지도 하지 않고 있죠.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 959.2,
+   "en": "To this day, the Financial Times reported two days ago to this day, the Commerce Department is resisting blacklisting Megaspeed. It's astonishing.",
+   "ko": "이틀 전 파이낸셜 타임스 보도에 따르면, 상무부는 오늘날까지도 메가스피드를 블랙리스트에 올리는 것을 거부하고 있습니다. 정말 경악스러운 일입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 967.2,
+   "en": "What is the point of export controls if you don't blacklist companies that are run by Chinese spies?",
+   "ko": "중국 스파이가 운영하는 회사를 블랙리스트에 올리지 않는다면 수출 통제가 무슨 의미가 있겠습니까?",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 973.0,
+   "en": "And also companies that are acting as shell companies, allegedly, you know, setting up fake data centers, putting in dummy chips and then taking the real NVIDIA chips out the back door and shipping them to China, according to the reports.",
+   "ko": "또한 보고에 따르면, 가짜 데이터 센터를 세우고 가짜 칩을 꽂아둔 뒤 뒷문으로 진짜 엔비디아 칩을 빼돌려 중국으로 배송하는 유령 회사 역할을 하는 기업들도 있다고 하더군요.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 988.4,
+   "en": "NVIDIA CEO Jensen Huang has become very close to President Trump. Huang has been pressing the president to loosen export controls to allow more chips into China.",
+   "ko": "엔비디아의 젠슨 황 CEO는 트럼프 대통령과 매우 가까운 사이가 되었습니다. 황 CEO는 더 많은 칩이 중국으로 들어갈 수 있도록 수출 통제를 완화해 달라고 대통령을 압박해 왔습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1000.5,
+   "en": "And I'm wondering why action was not taken. Had Jensen Huang and his company, one of the highest valuation companies in the world worth trillions of dollars, had Jensen Huang become essentially too big to fail, too powerful for Washington to regulate?",
+   "ko": "왜 아무런 조치가 취해지지 않았는지 궁금합니다. 수조 달러의 가치를 지닌 세계 최고의 기업 중 하나인 엔비디아와 젠슨 황이 본질적으로 '대마불사'가 되어 워싱턴이 규제하기에는 너무 강력해진 것일까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1020.3,
+   "en": "I don't think so. So I think that if anything, there's so much demand for NVIDIA products that actually cutting off their sales to China or to Southeast Asia wouldn't have any impact.",
+   "ko": "그렇게 생각하지 않습니다. 엔비디아 제품에 대한 수요가 너무 많아서 중국이나 동남아시아로의 판매를 차단하더라도 실제로는 아무런 타격이 없을 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1031.6,
+   "en": "We cut off their sales to the Chinese market in 2022 initially, and then it's kind of gradually gone down to where they now have 0%. And NVIDIA has not lost a single sale as a result of that.",
+   "ko": "처음 2022년에 중국 시장 판매를 차단했고, 이후 점차 줄어들어 현재는 0%가 되었습니다. 하지만 그 결과로 엔비디아의 매출이 단 하나도 줄어들지 않았습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1043.6,
+   "en": "They have the most in-demand product in the world. Every single large US tech company is begging Jensen and NVIDIA for more chips. All these companies also want chips and they can't get them.",
+   "ko": "그들은 세계에서 가장 수요가 많은 제품을 가지고 있습니다. 미국의 모든 대형 기술 기업이 젠슨과 엔비디아에 더 많은 칩을 달라고 애걸하고 있죠. 이 모든 회사도 칩을 원하지만 구하지 못하고 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1055.0,
+   "en": "And part of the reason we have a shortage is because we're shipping the chips to Megaspeed. It really doesn't make a lot of sense. I do not think they're too big to fail. They're a critical company.",
+   "ko": "우리가 공급 부족을 겪는 이유 중 하나는 칩을 메가스피드로 보내고 있기 때문입니다. 정말 말이 안 되는 상황이죠. 저는 그들이 대마불사라고 생각하지 않습니다. 중요한 기업일 뿐이죠.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1063.2,
+   "en": "But we could actually reallocate sales with controls and ways that would benefit US national security and also US economic and technological development.",
+   "ko": "하지만 우리는 통제 조치를 통해 미국의 국가 안보와 경제적, 기술적 발전에 도움이 되는 방향으로 판매처를 재배정할 수 있습니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1070.8,
+   "en": "You make a really important point that US companies have complained that they don't have enough chips And yet Jensen Huang has argued that if China is getting the best chips from the US Then it won't develop its own competitive chip market and that means a win for the US Do you buy that argument?",
+   "ko": "미국 기업들이 칩이 부족하다고 불평하고 있다는 점은 매우 중요한 지적입니다. 하지만 젠슨 황은 중국이 미국의 최상급 칩을 공급받는다면 자체적으로 경쟁력 있는 칩 시장을 개발하지 않을 것이며, 이는 미국의 승리를 의미한다고 주장해 왔습니다. 그 논리에 동의하시나요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1089.7,
+   "en": "I don't buy that at all because China wants to Indigenize its own chip making capability as fast as possible, and they will just use all the chips that we sell them to both help them and to bridge the gap until they can.",
+   "ko": "전혀 동의하지 않습니다. 중국은 가능한 한 빨리 자체 칩 제조 능력을 국산화하고 싶어 하며, 우리가 파는 칩들을 그 간극을 메우는 데 활용할 것이기 때문입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1102.1,
+   "en": "The assertion that export controls have actually caused them to surge investment into manufacturing actually isn't borne out by the data. They want to do everything they can to build the chips as fast as possible.",
+   "ko": "수출 통제가 오히려 중국의 제조 부문 투자를 급증시켰다는 주장은 데이터로 입증되지 않았습니다. 그들은 원래부터 최대한 빨리 칩을 만들기 위해 할 수 있는 모든 것을 하려 합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1112.6,
+   "en": "The fact is they're way behind. The best Chinese chips are about 17 times worse than the best US chip. They make about 10 times fewer than us. That's a massive, massive gap. and it's something that we really should use to our advantage.",
+   "ko": "사실 그들은 한참 뒤처져 있습니다. 중국 최고의 칩은 미국의 최고급 칩보다 성능이 약 17배 떨어지며, 생산량도 우리보다 10배 정도 적습니다. 이는 엄청난 격차이며, 우리가 우리에게 유리하게 활용해야 할 부분입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1126.7,
+   "en": "Chris, summarize for us ultimately what is at stake here? In a nutshell, what is the national security threat?",
+   "ko": "크리스, 궁극적으로 여기에 무엇이 걸려 있는지 요약해 주시겠어요? 간단히 말해서 국가 안보 위협은 무엇입니까?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1135.4,
+   "en": "Back to where controls are the only tool that we have to slow down China in AI? And the question here is really who's going to lead an AI? Is it going to be the United States or is it going to be China?",
+   "ko": "왜 통제가 AI 분야에서 중국을 늦출 수 있는 유일한 도구일까요? 문제는 정말 누가 AI를 주도할 것인가 하는 점입니다. 미국일까요, 아니면 중국일까요?",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1147.3,
+   "en": "Right now, we probably have about a six-month lead over China in AI, And I think that is largely actually due to the export controls.",
+   "ko": "현재 우리는 AI 분야에서 중국에 약 6개월 정도 앞서 있으며, 이는 상당 부분 수출 통제 덕분이라고 생각합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1155.0,
+   "en": "The reason that we have a lead is because of our lead in computing power. And if we didn't have the controls, China would probably have the biggest data centers in the world and probably have the best models.",
+   "ko": "우리가 앞서 있는 이유는 컴퓨팅 성능에서의 우위 때문입니다. 만약 통제가 없었다면 중국이 세계 최대의 데이터 센터와 최고의 모델을 보유하게 되었을 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1165.7,
+   "en": "If China had the best AI models, what that would mean is they would have the best cyber offense and defense capabilities in the world. They would have unfettered access probably into every single US laptop, US phone, US military device, US telecommunications equipment.",
+   "ko": "만약 중국이 최고의 AI 모델을 갖게 된다면, 그것은 중국이 세계 최고의 사이버 공격 및 방어 능력을 갖게 된다는 의미입니다. 미국의 모든 노트북, 휴대폰, 군용 기기, 통신 장비에 자유롭게 접근할 수 있게 될 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1181.4,
+   "en": "it would be an unprecedented vulnerability for the United States and unprecedented access for China. And that's just on the cyber front. They would also have unprecedented technological advantages and use those economically.",
+   "ko": "이는 미국에 전례 없는 취약성을, 중국에는 전례 없는 접근 권한을 부여하는 일이 될 것입니다. 이는 사이버 측면일 뿐이며, 그들은 전례 없는 기술적 우위를 점하고 이를 경제적으로도 활용할 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1193.3,
+   "en": "This is a technology that is going to impact every element of our society and also geopolitical competition. And the president's right when he says we absolutely have to lead over China, but we're actually threatening that lead when we're not taking export control seriously.",
+   "ko": "이 기술은 우리 사회의 모든 요소와 지정학적 경쟁에 영향을 미칠 것입니다. 대통령이 중국보다 앞서야 한다고 말하는 것은 옳지만, 우리가 수출 통제를 진지하게 다루지 않는다면 그 주도권은 위협받게 될 것입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1208.3,
+   "en": "So members of Congress on both sides of the aisle are now pushing to tighten export controls based on what you know about their efforts. Are these the right steps to take?",
+   "ko": "여야를 막론하고 의원들이 이제 수출 통제 강화를 추진하고 있습니다. 그들의 노력에 비추어 볼 때, 이것이 적절한 조치라고 보십니까?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1218.7,
+   "en": "I think the bills should pass. What Congress has to look into and the administration has to look into is how did the Commerce Department not act?",
+   "ko": "법안은 통과되어야 한다고 봅니다. 의회와 행정부가 조사해야 할 것은 상무부가 왜 행동하지 않았느냐는 점입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1227.7,
+   "en": "How did it know that this organization was being run by Chinese spies and was funneling chips to China and yet let it receive $5 billion of chips.",
+   "ko": "이 조직이 중국 스파이에 의해 운영되고 중국으로 칩을 빼돌리고 있다는 사실을 알면서도 어떻게 50억 달러 상당의 칩을 받게 방치했는지 말입니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1236.8,
+   "en": "How many other chips have gone as a result? I think this is probably the largest technology transfer in history that has been facilitated by this of controlled goods to a US adversary because of commerce's lack of implementation of control.",
+   "ko": "그 결과 얼마나 많은 칩이 더 나갔을까요? 상무부의 통제 미이행으로 인해 통제 대상 물품이 미국의 적대국으로 넘어간, 역사상 가장 큰 규모의 기술 이전 사례가 될 것이라 생각합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1251.6,
+   "en": "So commerce needs to fill gaps in controls. They should make sure that no one can buy a large numbers of AI chips who is not trusted.",
+   "ko": "따라서 상무부는 통제의 허점을 메워야 합니다. 신뢰할 수 없는 사람이 대량의 AI 칩을 구매할 수 없도록 해야 합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1259.2,
+   "en": "They should make sure that no one can rent access to compute who otherwise couldn't buy it. They should make sure that China can't buy AI chips in the United States.",
+   "ko": "또한 칩을 직접 구매할 수 없는 사람이 컴퓨팅 접근 권한을 임대할 수 없도록 해야 합니다. 중국이 미국 내에서 AI 칩을 구매할 수 없도록 해야 합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1268.6,
+   "en": "Right now, the only place in the world where China can buy AI chips legally is right here in America. There's all sorts of just crazy loopholes in these controls that really just need to be closed right now.",
+   "ko": "현재 전 세계에서 중국이 AI 칩을 합법적으로 살 수 있는 유일한 곳이 바로 이곳 미국입니다. 지금 당장 차단해야 할 말도 안 되는 허점들이 통제 시스템 곳곳에 존재합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1279.8,
+   "en": "And commerce needs to actually take this matter of policy seriously. And if they're not going to, then I think Congress really needs to hold their feet to the fire, There need to be investigations and there need to be hearings because this is really detrimental to us national security",
+   "ko": "상무부는 이 정책 사안을 진지하게 받아들여야 합니다. 그렇게 하지 않는다면 의회가 강력히 책임을 물어야 하며, 이것이 미국의 국가 안보에 매우 해롭기 때문에 조사와 청문회가 필요합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1293.6,
+   "en": "Chris McGuire worked for president Joe Biden overseeing chip export control policy in the White House He's now a senior fellow for China and emerging technologies at the Council on Foreign Relations Chris. Thank you so much for joining us",
+   "ko": "백악관에서 조 바이든 대통령을 도와 칩 수출 통제 정책을 감독했던 크리스 맥과이어와 이야기 나눴습니다. 그는 현재 대외관계위원회에서 중국 및 신흥 기술 부문 선임 연구원으로 활동하고 있습니다. 크리스, 오늘 함께해주셔서 감사합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1307.3,
+   "en": "Thanks for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Chris McGuire"
+  },
+  {
+   "start": 1309.3,
+   "en": "Coming up what to expect from the super El Niño scrambling weather patterns across the country this winter stick around.",
+   "ko": "잠시 후, 이번 겨울 전국적으로 날씨 패턴을 뒤흔들 슈퍼 엘니뇨로부터 무엇을 기대할 수 있을지 알아봅니다. 채널 고정해 주세요.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1323.1,
+   "en": "El Niño. Every three to five years part of the Pacific Ocean warms up and discombobulates the weather patterns that we're used to.",
+   "ko": "엘니뇨. 3~5년마다 태평양의 일부 해수면 온도가 상승하여 우리가 익숙한 날씨 패턴을 혼란에 빠뜨립니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1332.5,
+   "en": "This year's El Niño is set to be the strongest in a very long time. But what it means for you depends on where you are.",
+   "ko": "올해의 엘니뇨는 매우 오랜 기간 중 가장 강력할 것으로 예상됩니다. 하지만 이것이 여러분에게 어떤 의미인지는 사시는 지역에 따라 다릅니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1340.8,
+   "en": "Celeste Guajardo has been looking into it for grist. She tells Indira Lakshmanan climate change is amping up the natural cycle of El Niño, which can be plenty disruptive on its own.",
+   "ko": "셀레스트 과하르도가 '그리스트'를 위해 이 사안을 조사했습니다. 그녀는 인디라 락슈마난에게 기후 변화가 그 자체로도 충분히 파괴적인 엘니뇨의 자연적 주기를 더욱 증폭시키고 있다고 말합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1351.3,
+   "en": "El Niño really scrambles the entire global weather pattern. And a lot of it has to do with the amount of heat that is leaving from the ocean and being injected into the atmosphere. So the atmosphere is just supercharged with all this extra heat.",
+   "ko": "엘니뇨는 전 세계의 날씨 패턴을 뒤섞어 놓습니다. 이는 바다에서 방출되어 대기로 유입되는 열의 양과 큰 관련이 있습니다. 그래서 대기는 이 추가적인 열기로 인해 과충전된 상태가 됩니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1366.6,
+   "en": "You know, some people have likened it to a Kraken or a monstrous event. I think it really depends on where you live in the country. the different kinds of impacts that you're going to see.",
+   "ko": "어떤 사람들은 이것을 크라켄이나 괴물 같은 사건에 비유하기도 합니다. 나라 안의 어디에 사느냐에 따라 보게 될 영향의 종류가 정말 달라질 것이라고 생각합니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1377.8,
+   "en": "But regardless of where you live, those impacts are going to be very profound.",
+   "ko": "하지만 어디에 사시든 그 영향은 매우 지대할 것입니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1382.0,
+   "en": "All right, let's talk about regionally in the United States what we can expect to see. We already know that sea level rise is a major issue in California. Further West and Hawaii, they've seen several devastating storms.",
+   "ko": "좋습니다. 미국 내 지역별로 무엇을 예상할 수 있는지 이야기해 보죠. 캘리포니아에서는 해수면 상승이 주요 문제라는 것을 이미 알고 있습니다. 더 서쪽인 하와이에서는 여러 차례 파괴적인 폭풍을 겪었고요.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1397.4,
+   "en": "How is El Niño going to affect weather patterns out west?",
+   "ko": "엘니뇨가 서부의 날씨 패턴에 어떤 영향을 미칠까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1400.7,
+   "en": "So California is predicted to get extreme rainfall, so much rainfall that out there Governor Gavin Newsom already declared a state of emergency back in September to start preparing for this event.",
+   "ko": "캘리포니아에는 기록적인 폭우가 내릴 것으로 예상되는데, 개빈 뉴섬 주지사가 이미 지난 9월에 이 현상에 대비하기 위해 비상사태를 선포했을 정도입니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1416.0,
+   "en": "And in Hawaii and the Pacific Islands, they're expected to face drier conditions and those conditions could mean less water available for people or agriculture. And also dry conditions can elevate wildfire risk.",
+   "ko": "하와이와 태평양 제도에서는 더 건조한 기후에 직면할 것으로 보이며, 이는 생활용수나 농업용수가 부족해질 수 있음을 의미합니다. 또한 건조한 상태는 산불 위험을 높일 수 있습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1430.4,
+   "en": "Hmm. All right. Well, we've been reporting on historic flooding in the four corners region where Arizona, Colorado, New Mexico and Utah meet. Are you expecting El Niño to contribute to more flooding there?",
+   "ko": "흠, 그렇군요. 애리조나, 콜로라도, 뉴멕시코, 유타주가 만나는 포코너스 지역의 기록적인 홍수에 대해서도 보도해 왔는데요. 엘니뇨가 그 지역의 홍수를 더 악화시킬 것으로 보시나요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1442.9,
+   "en": "Yes. You know, we have been seeing really, really high floods already in the city of Clovis, New Mexico since September 20th. There's been almost 29 inches of rain that has fallen there. That's more than eight times the historical average.",
+   "ko": "네. 이미 9월 20일부터 뉴멕시코주 클로비스 시에서는 엄청난 홍수가 발생하고 있습니다. 그곳에는 거의 29인치의 비가 내렸는데, 이는 과거 평균치보다 8배 이상 많은 양입니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1460.3,
+   "en": "That gives us a pretty good idea of just how much flooding is expected in the coming months. At the same time, this region is suffering from historic drought.",
+   "ko": "이는 앞으로 몇 달 동안 얼마나 많은 홍수가 예상되는지 잘 보여줍니다. 동시에 이 지역은 역사적인 가뭄을 겪고 있기도 합니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1469.6,
+   "en": "So the rain that's going to come from El Niño could help alleviate drought conditions. It's not going to eliminate it entirely, but it can help recharge a little bit of those depleted aquifers.",
+   "ko": "따라서 엘니뇨로 인한 비가 가뭄 해소에 도움이 될 수 있습니다. 가뭄을 완전히 없애지는 못하겠지만, 고갈된 대수층을 조금이나마 채우는 데 도움이 될 수 있습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1482.4,
+   "en": "Well, is there anywhere that might have better weather thanks to El Niño?",
+   "ko": "그럼 엘니뇨 덕분에 날씨가 더 좋아질 만한 곳도 있을까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1489.0,
+   "en": "Well, I think better weather is pretty subjective. Depends on how you define that. The Midwest is likely going to see a little bit warmer temperatures and a drier winter.",
+   "ko": "글쎄요, 더 좋은 날씨라는 건 꽤 주관적이죠. 어떻게 정의하느냐에 따라 다릅니다. 중서부 지역은 기온이 조금 더 높고 건조한 겨울을 보낼 가능성이 큽니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1500.0,
+   "en": "The northeast will also see a little bit warmer, but actually, wetter. So forecasters there are warning about high impact winter storms.",
+   "ko": "동북부 지역 또한 조금 더 따뜻해지겠지만, 실제로는 더 습할 것입니다. 그래서 그곳 예보관들은 영향력이 큰 겨울 폭풍에 대해 경고하고 있습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1509.0,
+   "en": "and people are particularly looking at the I-95 corridor between New York and Boston. That is one area that could be hit with really strong winter storms.",
+   "ko": "특히 뉴욕과 보스턴 사이의 I-95 고속도로 구간을 주시하고 있습니다. 그곳은 정말 강력한 겨울 폭풍이 몰아칠 수 있는 지역 중 하나입니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1520.6,
+   "en": "Oh, doesn't sound good for us. All right, well, we know that human caused climate change is warming our planet. Can we also expect that El Niño-like effects are gonna just become a permanent state?",
+   "ko": "오, 우리에겐 좋은 소식이 아니군요. 인간이 초래한 기후 변화가 지구를 온난화시키고 있다는 것은 알고 있습니다. 엘니뇨와 같은 현상이 상시적인 상태가 될 것이라고 예상할 수 있을까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1536.0,
+   "en": "The short answer is yes. I think this event, we can use it to imagine what the climate may look like by default in, let's say, two decades as planetary temperatures continue to rise.",
+   "ko": "짧게 대답하자면 '그렇다'입니다. 지구의 온도가 계속 상승함에 따라, 약 20년 후에 기후가 기본적으로 어떤 모습일지 상상하는 데 이번 현상을 활용할 수 있다고 생각합니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1550.0,
+   "en": "So yes, this event can kind of give us a glimpse into the future.",
+   "ko": "네, 이번 사건은 미래를 엿볼 수 있는 기회를 제공한다고 볼 수 있습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1554.6,
+   "en": "All right, Celeste, given how much we're able to predict about the possible negative effects, are local and state governments doing anything to help prepare residents for potentially devastating winter weather events.",
+   "ko": "좋습니다, 셀레스트. 가능한 부정적 영향들에 대해 이만큼 예측할 수 있는 상황에서, 지방 및 주 정부가 잠재적으로 파괴적인 겨울 기상 현상에 대비해 주민들을 돕기 위해 무언가를 하고 있나요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1569.5,
+   "en": "You know, just yesterday in New York, Mayor Zoron Mamdami announced details on how the city is mobilizing to get ready.",
+   "ko": "아시다시피 바로 어제 뉴욕에서 조란 맘다미 시장이 시가 어떻게 준비를 위해 움직이고 있는지 상세 내용을 발표했습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1577.2,
+   "en": "Some of those efforts include opening more warming shelters or making efforts to clear ice and snow faster. I also think individual preparation is really important, too.",
+   "ko": "난방 보호소를 더 많이 열거나 얼음과 눈을 더 빨리 치우기 위해 노력하는 것 등이 포함됩니다. 저는 개인적인 준비도 정말 중요하다고 생각합니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1587.8,
+   "en": "You know, I would suggest that people sign up for local emergency alerts and you can know your evacuation route in case you need to leave.",
+   "ko": "사람들에게 지역 비상 알림에 가입하고, 대피해야 할 경우를 대비해 대피 경로를 숙지해 두라고 제안하고 싶습니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1596.4,
+   "en": "Celeste Guajardo is a climate reporter with our editorial partners at Grist Celeste. Thank you so much.",
+   "ko": "편집 파트너사인 그리스트의 기후 전문 기자인 셀레스트 과하르도였습니다. 셀레스트, 정말 감사합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1602.2,
+   "en": "Thank you.",
+   "ko": "감사합니다.",
+   "speaker": "Celeste Guajardo"
+  },
+  {
+   "start": 1609.8,
+   "en": "That's it for the show today. Good luck with that El Niño. Here & Now Anytime comes from NPR and WBUR Boston.",
+   "ko": "오늘 순서는 여기까지입니다. 엘니뇨에 잘 대비하시길 바랍니다. Here & Now Anytime은 NPR과 WBUR 보스턴에서 제공합니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1618.0,
+   "en": "Today's stories were produced by Karen Miller-Metson, Sam Rapelson and Jessica Carissa. Our editors were Todd Montgomery, Nikhayala Rodriguez and Michael Scotto.",
+   "ko": "오늘의 이야기는 카렌 밀러-메드슨, 샘 라펠슨, 제시카 카리사가 제작했습니다. 편집은 토드 몽고메리, 니카얄라 로드리게스, 마이클 스코토가 맡았습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1625.6,
+   "en": "technical direction from Caleb Green and Matt Reed. Our theme music is by Mike Mascado, Max Leedman and me, Chris Bentley.",
+   "ko": "기술 감독은 케일럽 그린과 맷 리드가 맡았습니다. 테마 음악은 마이크 마스카도, 맥스 리드먼, 그리고 저 크리스 벤틀리가 만들었습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1633.0,
+   "en": "Our digital producers are Alison Hagen and Grace Griffin and here our now executive producer is Alan Price. Thanks for listening. We'll be back with you tomorrow.",
+   "ko": "디지털 프로듀서는 앨리슨 헤이건과 그레이스 그리핀이며, Here & Now의 책임 프로듀서는 앨런 프라이스입니다. 청취해 주셔서 감사합니다. 내일 다시 찾아뵙겠습니다.",
+   "speaker": "Chris Bentley"
+  }
+ ]
+}

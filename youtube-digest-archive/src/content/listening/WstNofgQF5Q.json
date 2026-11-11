@@ -1,0 +1,910 @@
+{
+ "id": "WstNofgQF5Q",
+ "title": "A New Vision for Human Work After Automation",
+ "show": "The Every Podcast",
+ "channel": "Every",
+ "videoUrl": "https://www.youtube.com/watch?v=WstNofgQF5Q",
+ "audioUrl": "https://episode.flightcast.com/01M717KBM0K828PAMMP3ZPWV8P.mp3",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/34/00/ea/3400eaf6-f079-897e-2ff7-e98c212e7a09/mza_16721741595739163306.jpg/600x600bb.jpg",
+ "duration": 1607,
+ "releaseDate": "2026-11-11T15:30:00Z",
+ "addedAt": "2026-11-11",
+ "segments": [
+  {
+   "start": 0.3,
+   "en": "Hey, welcome back to the Every Podcast, where we talk about the future of work.",
+   "ko": "일의 미래에 대해 이야기하는 Every Podcast에 다시 오신 여러분을 환영합니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 4.4,
+   "en": "I'm Natalia Contero, and at Every, our team of writers and builders use AI every day, so we can tell you how the frontier is shifting, what actually works, and what you need to know.",
+   "ko": "저는 Natalia Contero입니다. Every의 작가들과 제작자들은 매일 AI를 사용하며 기술의 최전선이 어떻게 변하고 있는지, 실제로 무엇이 효과가 있는지, 여러분이 알아야 할 핵심 정보를 전해드리고 있습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 16.1,
+   "en": "So last week at Every, we hosted our first-ever conference, Thesis. It was a full day of talks in Brooklyn featuring speakers from Anthropic, OpenAI, Notion, Lovable, Ode, and many more.",
+   "ko": "지난주 Every는 브루클린에서 첫 번째 컨퍼런스인 'Thesis'를 개최했습니다. Anthropic, OpenAI, Notion, Lovable, Ode 등 다양한 기업의 연사들이 참여해 하루 종일 강연을 펼쳤습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 31.4,
+   "en": "If you missed it, we'll have all of the talks available at every.to/TV. We built the whole day around one question: What does great human work look like after automation?",
+   "ko": "혹시 놓치셨다면 every.to/TV에서 모든 강연을 보실 수 있습니다. 저희는 '자동화 이후 훌륭한 인간의 업무는 어떤 모습일까?'라는 단 하나의 질문을 중심으로 행사를 기획했습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 46.2,
+   "en": "Dan Shipper, Every co-founder and CEO, closed the conference with his answer, which you'll hear later in this episode.",
+   "ko": "Every의 공동 창업자이자 CEO인 Dan Shipper가 내놓은 답으로 컨퍼런스의 막을 내렸는데요, 이번 에피소드에서 그 내용을 들으실 수 있습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 52.9,
+   "en": "He took our quarterly customer survey results and built a custom CRM, then a video game, and then personally reached out to a pretty vast number of our customers.",
+   "ko": "그는 분기별 고객 설문 조사 결과를 토대로 맞춤형 CRM과 비디오 게임을 만들었고, 수많은 고객들에게 개인적으로 연락을 취했습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 64.5,
+   "en": "In pre-AI terms, he did the work of about five people: a data scientist, a game developer, a marketer, an engineer, and a salesperson.",
+   "ko": "AI 이전 시대로 치면 데이터 과학자, 게임 개발자, 마케터, 엔지니어, 영업 사원까지 약 5인분의 업무를 수행한 셈입니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 73.7,
+   "en": "But instead, he did all of that work with a single Claude subscription over the course of a single week.",
+   "ko": "하지만 그는 단 일주일 동안 Claude 유료 계정 하나만으로 이 모든 일을 해냈습니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 79.6,
+   "en": "And if you ask Claude what it sees in the same survey, you'll probably get a generic answer that anyone could get. And that's actually Dan's point.",
+   "ko": "만약 여러분이 똑같은 설문에 대해 Claude에게 물어본다면 누구나 얻을 수 있는 평범한 답변을 받게 될 것입니다. 그리고 이것이 바로 Dan이 강조하는 핵심입니다.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 89.7,
+   "en": "Great work is the perspective you bring to the model. So for the podcast this week, Dan's closing talk from our conference, Thesis. Enjoy.",
+   "ko": "훌륭한 업무란 모델에 본인만의 관점을 투영하는 것입니다. 이번 주 팟캐스트에서는 컨퍼런스 Thesis에서 Dan이 했던 마무리 강연을 전해드립니다. 즐겁게 감상하세요.",
+   "speaker": "Natalia Contero"
+  },
+  {
+   "start": 111.8,
+   "en": "Thesis. Did everyone have a good time?",
+   "ko": "Thesis. 다들 즐거운 시간 보내셨나요?",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 119.4,
+   "en": "Well, we gathered here to answer one question, which is: what is the future of great human work after automation? I hope you got some good answers to that.",
+   "ko": "우리는 '자동화 이후 훌륭한 인간의 업무의 미래는 무엇인가'라는 질문에 답하기 위해 여기 모였습니다. 그에 대한 좋은 답을 얻으셨기를 바랍니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 129.0,
+   "en": "Did you get some good answers? Yes? Yes? All right. I want to add my take. Hope I can bring it together a little bit.",
+   "ko": "좋은 답을 얻으셨나요? 네? 좋습니다. 저의 견해도 덧붙이고 싶네요. 이번 행사 내용을 조금이나마 정리해 드릴 수 있기를 바랍니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 138.7,
+   "en": "So I really love this question. And obviously, because we built the conference around it, it's really the question that we try to answer every day at Every.",
+   "ko": "저는 이 질문을 정말 좋아합니다. 저희가 컨퍼런스 주제로 삼은 것만 봐도 알 수 있듯이, Every에서 매일 답을 찾으려 노력하는 질문이기도 하죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 147.6,
+   "en": "And what's really interesting about this question is you're really trying to predict the future. And there's two, I think, real methods for predicting the future.",
+   "ko": "흥미로운 점은 이 질문이 곧 미래를 예측하려는 시도라는 것입니다. 미래를 예측하는 데는 두 가지 실제적인 방법이 있다고 생각합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 159.1,
+   "en": "One is what I'll call the aggregate, where you gather lots and lots of data, and then you extrapolate a trend line.",
+   "ko": "하나는 제가 '집합적 관점'이라 부르는 것인데, 방대한 데이터를 수집한 다음 추세선을 도출하는 방식입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 166.4,
+   "en": "And the other is called the intimate, where you zoom in on one real case or real situation, and then you extrapolate from there.",
+   "ko": "다른 하나는 '밀착적 관점'으로, 하나의 실제 사례나 상황을 깊이 파고들어 거기서부터 추론해 나가는 방식입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 174.7,
+   "en": "And in our culture, we tend to emphasize the aggregate. The aggregate is objective, it's quantitative, and the intimate kind of feels a little bit anecdotal.",
+   "ko": "우리 문화에서는 집합적 관점을 강조하는 경향이 있습니다. 그것은 객관적이고 정량적인 반면, 밀착적 관점은 다소 개인적인 일화처럼 느껴지기도 하니까요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 190.6,
+   "en": "And it's also extremely powerful. The reason we have AI is the aggregate is, for example, scaling laws.",
+   "ko": "하지만 밀착적 관점 역시 매우 강력합니다. 우리가 AI를 갖게 된 이유도 집합적 관점인 '스케일링 법칙' 덕분입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 200.0,
+   "en": "We found that if you put more data and compute on one end of the system, you get more capability out.",
+   "ko": "시스템의 한쪽 끝에 더 많은 데이터와 컴퓨팅 자원을 투입하면 더 뛰어난 성능이 나온다는 것을 발견한 것이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 208.6,
+   "en": "And all of us here are here because we're riding that curve that you can see in the aggregate.",
+   "ko": "여기 계신 우리 모두는 그 집합적 데이터에서 볼 수 있는 곡선에 올라타 있는 셈입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 215.2,
+   "en": "We also use the aggregate to answer this question that we have come here for: What does work look like after automation?",
+   "ko": "우리는 또한 자동화 이후의 업무 모습이라는 질문에 답하기 위해 집합적 관점을 사용합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 226.1,
+   "en": "A good example is GPT-Eval from OpenAI. It's a benchmark which measures how good models are at doing economically valuable tasks.",
+   "ko": "OpenAI의 GPT-Eval이 좋은 예입니다. 이는 모델이 경제적으로 가치 있는 작업을 얼마나 잘 수행하는지 측정하는 벤치마크입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 234.9,
+   "en": "And the way it works is they have a bunch of experts pick tasks from their job, real tasks, and they turn it into a prompt.",
+   "ko": "진행 방식은 전문가들이 자신의 실제 업무에서 과제를 선정해 이를 프롬프트로 만드는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 243.0,
+   "en": "They give the prompt to a model, and they give a prompt to a human that's not using AI.",
+   "ko": "그 프롬프트를 모델에게 주고, AI를 사용하지 않는 사람에게도 줍니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 249.9,
+   "en": "And then blind experts pick which one is better, the human version or the AI version. And the prompts are very, very detailed.",
+   "ko": "그다음 블라인드 테스트를 통해 전문가들이 인간의 결과물과 AI의 결과물 중 어느 것이 더 나은지 고릅니다. 프롬프트는 매우 상세하죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 261.9,
+   "en": "And in 2024, with GPT-4o, AI won against a human expert 12.4% of the time. In 2025, it was 47.6. And in 2026, it was about 83%.",
+   "ko": "2024년 GPT-4o의 경우 AI가 인간 전문가를 이긴 비율은 12.4%였습니다. 2025년에는 47.6%였고, 2026년에는 약 83%였습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 281.3,
+   "en": "And this is with GPT-5.4. So I'm sure it's higher now. I'm sure this benchmark is saturated.",
+   "ko": "이것은 GPT-5.4 기준이므로 지금은 더 높을 것이고, 이 벤치마크는 이미 포화 상태일 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 285.9,
+   "en": "And you look at that, and AI is beating a human 83% of the time according to blind human experts at expert work.",
+   "ko": "결과를 보면 블라인드 전문가 평가에서 AI가 전문적인 업무의 83% 확률로 인간을 이기고 있는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 293.0,
+   "en": "And I can also see this in my work, in the way that I work. If we look at my week last week, we ran our quarterly customer survey.",
+   "ko": "이런 현상은 제 업무 방식에서도 나타납니다. 지난주 제 일정을 보면 분기별 고객 설문 조사를 진행했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 305.4,
+   "en": "And in the cracks of my calendar, in the middle of all of the things that I had going on, I analyzed the survey data in a way that once would have required a data scientist or growth person to do it.",
+   "ko": "바쁜 일정 사이사이에 설문 데이터를 분석했는데, 예전 같으면 데이터 과학자나 성장 전략 담당자가 필요했을 일이었죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 316.2,
+   "en": "Like I asked a ton of different questions and got a ton of different reports and outputs. I made a video game for the team to play.",
+   "ko": "수많은 질문을 던져 다양한 보고서와 결과물을 얻었고, 팀원들이 즐길 수 있는 비디오 게임도 만들었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 324.0,
+   "en": "So we played in our all-hands game to compete to see who knows our customer best. It was a live real-time video game.",
+   "ko": "누가 고객을 가장 잘 아는지 경쟁하는 올핸즈 미팅용 게임을 했는데요, 실시간 라이브 비디오 게임이었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 331.3,
+   "en": "I realized that there's actually a really interesting opportunity to sell Every to teams from all of this work and then as one does, I've put it in my own CRM and started using that to reach out to people.",
+   "ko": "이 작업을 통해 Every를 기업 팀 단위로 판매할 흥미로운 기회를 발견했고, 늘 그렇듯 제 전용 CRM에 입력해 사람들에게 연락하기 시작했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 344.7,
+   "en": "You may have gotten an email from me last week if so. Apologies. But it's kind of stunning. It's amazing.",
+   "ko": "혹시 지난주에 저에게 이메일을 받으셨다면 사과드립니다. 하지만 이건 정말 놀랍고 대단한 일입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 353.2,
+   "en": "But if you look at it and compare it to human work, this is in 2020 terms like a data scientist, a game developer, a product marketer, an engineer, a BDR, and maybe 200K.",
+   "ko": "2020년 기준으로 인간의 노동과 비교해 보면 데이터 과학자, 게임 개발자, 제품 마케터, 엔지니어, 영업 대표까지 포함해 아마 20만 달러 정도의 가치가 있을 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 365.2,
+   "en": "And I got all of this for free as part of my Claude subscription. And you think about that. You really think about that.",
+   "ko": "하지만 저는 Claude 구독료만 내고 이 모든 걸 거저 얻었습니다. 이 점을 한 번 깊이 생각해 보세요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 373.9,
+   "en": "You look at a table like this and you are like, we are so fucked. We're so fucked.",
+   "ko": "이런 지표를 보면 '우린 이제 다 끝났어'라는 생각이 절로 들 겁니다. 완전히 망했다고 말이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 381.6,
+   "en": "And to me, it does this thing that I've been calling it. It creates an agency rupture because we identify ourselves with the things that we do, with the work that we do.",
+   "ko": "제 생각에 이것은 제가 이름 붙인 '주체성의 파열'을 일으킵니다. 우리는 우리가 하는 일과 업무를 통해 스스로를 정의하기 때문입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 395.3,
+   "en": "And if you see a model doing work like you do, it strikes at our sense of self.",
+   "ko": "그런데 모델이 나처럼 일하는 것을 보면 우리의 자아 의식에 타격이 옵니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 404.0,
+   "en": "And I also think that while the aggregate is a very useful lens, especially when it comes to new technology, it also misses things. It can be misleading.",
+   "ko": "또한 집합적 관점이 신기술을 바라보는 유용한 도구이긴 하지만 놓치는 부분도 있다고 생각합니다. 오해를 불러일으킬 수도 있죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 415.7,
+   "en": "And you only see what's missing if you get up close. So let's do that.",
+   "ko": "가까이서 들여다봐야만 무엇이 빠졌는지 알 수 있습니다. 그럼 한 번 해보죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 423.4,
+   "en": "So again, we've got these two different ways of predicting the future: the aggregate. Let's go into the intimate.",
+   "ko": "미래를 예측하는 두 가지 방식 중 집합적 관점을 봤으니, 이제 밀착적 관점으로 넘어가 봅시다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 430.1,
+   "en": "Let's see how things look in the intimate where you zoom in on one real case, you really understand all the messiness of it and all the different interconnecting variables and then try to extrapolate from there.",
+   "ko": "하나의 실제 사례에 집중해서 그 복잡함과 얽혀 있는 변수들을 온전히 이해하고 거기서부터 추론해 나가는 밀착적 관점에서는 어떠한지 살펴봅시다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 442.8,
+   "en": "So if you look back at this table and you think about my week last week doing all of this which would have taken five people in 2020 and I'm doing all of that work with a team of agents in the cracks of my week,",
+   "ko": "다시 그 지표를 떠올리며 2020년이라면 5명이 매달렸을 일을 제가 에이전트들과 함께 자투리 시간을 이용해 처리했다는 사실을 생각해 보면,",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 459.0,
+   "en": "while I'm doing a totally other separate set of tasks, I think that this is actually how a lot of people in this room are working already and probably if you're not, you will be in the near future.",
+   "ko": "전혀 다른 일을 병행하면서 말이죠. 여기 계신 많은 분도 이미 이렇게 일하고 계실 것이고, 아니라면 머지않아 그렇게 될 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 474.0,
+   "en": "And it feels almost normal to work this way. Like it's not even that remarkable that I analyze my survey or, you know, build the Vibe Checker to send a mass amount of cold emails with my agents.",
+   "ko": "이제 이런 방식은 거의 일상처럼 느껴집니다. 설문을 분석하거나 에이전트와 대량 메일을 보내기 위해 Vibe Checker를 만드는 게 그리 놀라운 일도 아니죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 484.7,
+   "en": "But this is actually really not normal even a few years ago. So think about in 2022, like before ChatGPT came out, we only had GPT-3.",
+   "ko": "하지만 불과 몇 년 전만 해도 이건 전혀 정상이 아니었습니다. ChatGPT가 나오기 전, GPT-3만 있었던 2022년을 생각해보세요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 494.0,
+   "en": "And there were a lot of people looking at this chart, this aggregate chart and saying, this is not going to continue, it's just a stochastic parrot.",
+   "ko": "당시 많은 이들이 집합적 데이터 차트를 보며 이건 지속되지 않을 것이고, 그저 '확률적 앵무새'일 뿐이라고 말했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 504.6,
+   "en": "And a lot of other people were being like, this is the end of all jobs already. Like we're not going to have anything to do in two years, it's all over. Go to the bunker in New Zealand, that's it.",
+   "ko": "반면 다른 사람들은 벌써 모든 직업이 끝장났다고 했습니다. 2년 안에 할 일이 없어질 테니 뉴질랜드 벙커로 피신하라고 말이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 516.8,
+   "en": "And for me and for Every, we take this intimate perspective. In fact, we try to be in close.",
+   "ko": "저와 Every는 밀착적 관점을 취합니다. 사실 최대한 가까이서 관찰하려 노력하죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 523.6,
+   "en": "And so in 2022, I was using GPT-3. And I realized that it felt like if I extrapolated out from using that tool, it would feel like using a team of people in a couple of years just by using an AI.",
+   "ko": "2022년에 GPT-3를 쓰면서 느낀 건, 이 도구를 기반으로 추론해 보면 몇 년 후에는 AI 하나만으로 팀 단위의 성과를 낼 수 있겠다는 것이었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 542.0,
+   "en": "So I wrote that rather than replacing individuals, recent advances in AI will empower them to make an impact on scale matching some of the biggest businesses, research labs, and creative organizations of today.",
+   "ko": "그래서 저는 AI가 개인을 대체하기보다는, 개인이 거대 기업이나 연구소, 창의적 조직에 맞먹는 영향력을 발휘하도록 도울 것이라고 썼습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 552.3,
+   "en": "And I really think that that's true now. That's true. And you could see it if you put your hands in GPT-3 and used it and extrapolated.",
+   "ko": "지금 그 말은 현실이 되었습니다. GPT-3를 직접 써보고 추론해 봤다면 알 수 있었던 사실이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 561.2,
+   "en": "And so I want to try to do that again today here with all of us to be like, if we take this and how we're working today, what does that mean for the future and then what does that mean for the future of great human work and are we really fucked?",
+   "ko": "오늘 여러분과 함께 다시 한번 추론해 보고 싶습니다. 우리의 현재 작업 방식이 미래에 어떤 의미인지, 훌륭한 인간의 업무란 무엇인지, 그리고 우리가 정말 망한 것인지에 대해서요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 575.4,
+   "en": "And what's really interesting is, again, if I look at this table in a vacuum, you might assume, like, why would I need a team? I have a team. I've got the agents right here.",
+   "ko": "흥미로운 점은 이 수치만 놓고 보면 '팀이 왜 필요해? 여기 에이전트들이 있는데'라고 생각할 수도 있다는 겁니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 588.4,
+   "en": "But there must be something missing from this table because I do have a team where we are 30 people.",
+   "ko": "하지만 분명 이 표에는 빠진 것이 있습니다. 저희 팀은 30명이나 되거든요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 595.9,
+   "en": "And by the way, the team here did such a fantastic job in this conference. Can we just give them a hand? Like, incredible, incredible group of humans, and their Claudes, but mostly the humans.",
+   "ko": "그건 그렇고, 우리 팀원들이 이번 컨퍼런스를 정말 잘 준비해 줬습니다. 박수 한 번 주시겠어요? 정말 대단한 사람들과 그들의 Claude들, 하지만 주로 사람들이 해냈습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 611.6,
+   "en": "And so I think we can answer this. If we answer this question, it's going to tell us a lot about this larger question that we're trying to answer.",
+   "ko": "이 질문에 답할 수 있다면 우리가 풀고자 하는 더 큰 질문에 대해서도 많은 것을 알 수 있을 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 618.7,
+   "en": "And I want to zoom in even more on this particular customer survey that I ran. So when we ran this Q4 customer survey, I gave it to the team.",
+   "ko": "제가 진행한 이번 고객 설문 조사를 더 자세히 들여다보고 싶습니다. 4분기 설문 조사를 하고 나서 팀원들에게 데이터를 공유했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 630.6,
+   "en": "So everybody had access to the data and to do their own analysis.",
+   "ko": "그래서 모두가 데이터에 접근해 각자의 분석을 진행할 수 있었죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 633.6,
+   "en": "And what I got out of it was there's actually a really cool opportunity to sell Every for teams and I made my whole custom CRM and I started emailing people.",
+   "ko": "제가 얻은 결론은 기업 팀 단위 판매 기회였고, 그래서 전용 CRM을 만들어 사람들에게 메일을 보내기 시작했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 642.9,
+   "en": "But what Yash got out of it and Yash is our go-to-market engineer, what Yash got out of it, he's a monomaniac about growth, about growing paid subs.",
+   "ko": "하지만 시장 진출 엔지니어인 Yash는 달랐습니다. 그는 유료 구독자 성장에 집착하는 사람이거든요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 654.1,
+   "en": "And what he got out of it was a lot of first time subscribers to Every churn after the first month because we send too much email.",
+   "ko": "그가 발견한 것은 너무 많은 이메일 발송 때문에 신규 구독자들이 첫 달 이후 대거 이탈한다는 사실이었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 663.5,
+   "en": "And what Douglas, who is our head of marketing and put together this conference, what he got out of it was actually a lot of our readers feel lonely.",
+   "ko": "마케팅 책임자이자 이번 컨퍼런스를 총괄한 Douglas가 얻은 통찰은 독자들이 외로움을 느낀다는 것이었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 674.3,
+   "en": "There's this interesting psychographic of people in this room where we all feel like we love AI, we're using it for all these things, but everyone else at our work and in our lives kind of looks at us like we're crazy.",
+   "ko": "이 공간에 있는 사람들은 AI를 사랑하고 잘 활용하지만, 직장이나 일상의 다른 사람들은 우리를 이상하게 쳐다본다는 흥미로운 심리적 공통점이 있습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 688.5,
+   "en": "And a lot of people on our list come to us because we're the only place where we're like, yeah, you can actually do really great stuff with this. And that's what Douglas found.",
+   "ko": "많은 이들이 저희를 찾는 이유는 AI로 정말 멋진 일을 할 수 있다고 말해주는 유일한 곳이기 때문입니다. Douglas는 그것을 포착한 거죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 699.9,
+   "en": "And Jack, who is a senior editor, he made a claymation family feud game show explaining the results.",
+   "ko": "수석 에디터인 Jack은 설문 결과를 설명하기 위해 클레이메이션 스타일의 가족 대항 퀴즈 쇼를 만들었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 713.1,
+   "en": "It's time for the survey showdown. Here's your host, Dan Shipper.",
+   "ko": "설문 조사 쇼다운 시간입니다! 진행자 Dan Shipper를 모십니다.",
+   "speaker": "Jack"
+  },
+  {
+   "start": 718.2,
+   "en": "Thank you. Thank you. Tonight the VibeChecks take on the context windows.",
+   "ko": "감사합니다, 감사합니다. 오늘 밤 VibeCheck 팀이 Context Window 팀과 맞붙습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 722.6,
+   "en": "Okay, the VibeChecks? So extremely informative but also very fun. And I want to reiterate, they use AI to do all this.",
+   "ko": "VibeCheck 팀이라니? 정말 유익하면서도 재미있네요. 다시 강조하지만, 팀원들은 이 모든 과정에 AI를 사용했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 733.4,
+   "en": "Like, we're using the same survey, we're using the same Claude, but different people on the team found very, very different and important things that they emphasize.",
+   "ko": "같은 설문 데이터와 같은 Claude를 썼지만, 팀원마다 각자 중요하게 생각하는 완전히 다른 발견을 해낸 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 743.5,
+   "en": "And that's kind of interesting because if you look at what Claude says, because anyone can hand Claude this survey, what Claude says about the survey with just a default prompt which is just like what he's seen the data,",
+   "ko": "흥미로운 건 누구나 Claude에게 이 설문을 줄 수 있다는 점입니다. 그냥 기본 프롬프트로 데이터에서 무엇이 보이는지 물어보면 Claude는 이렇게 답합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 754.6,
+   "en": "it says the writing is the business, the bundle is what makes people stick, the risk is focused in too much volume.",
+   "ko": "글쓰기가 핵심이고 번들이 고정 고객을 만들며, 너무 많은 양이 리스크라고 말이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 761.5,
+   "en": "And all of this is actually, it's true, like these are real insights, but everybody has access to this now and so it's cheap.",
+   "ko": "이건 다 맞는 말이고 실제적인 통찰이지만, 이제 누구나 접근할 수 있기에 가치가 낮습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 771.4,
+   "en": "And so not a single person on the team just submitted a response to the survey that looked like the default response.",
+   "ko": "그래서 우리 팀원 중 누구도 그런 뻔한 기본 답변 수준의 결과물을 내놓지 않았습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 783.4,
+   "en": "They all did something very different. And I think that's really, really interesting to pull on.",
+   "ko": "모두가 아주 다른 것을 해냈습니다. 저는 이 점이 정말 파고들어 볼 만한 흥미로운 부분이라고 생각합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 791.0,
+   "en": "And another really interesting part of this is for each of these people on the team, they did all of this analysis while getting prepared for this event.",
+   "ko": "또 다른 흥미로운 점은 팀원들이 이 행사를 준비하는 동시에 이런 분석을 해냈다는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 800.7,
+   "en": "And everybody knows if you've ever put together a conference, it is like an all-consuming thing.",
+   "ko": "컨퍼런스를 준비해 본 분이라면 아시겠지만, 이건 모든 에너지를 쏟아부어야 하는 일입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 806.5,
+   "en": "And still, Yash and Douglas, for example, who were intimately involved every part of this, did their own analysis and came up with interesting things.",
+   "ko": "그런데도 모든 과정에 깊이 관여했던 Yash와 Douglas 같은 이들은 각자 분석을 해서 흥미로운 통찰을 내놓았습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 814.8,
+   "en": "And Yash, for example, he did the analysis, and he wrote a PR to make the change to move the number that he wanted to move.",
+   "ko": "예를 들어 Yash는 분석을 마친 뒤 지표를 개선하기 위해 직접 코드를 수정해 PR을 올렸습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 823.9,
+   "en": "And while he was doing that, he was also helping build the live stream experience for this event, which is crazy.",
+   "ko": "그러면서 동시에 이 행사의 라이브 스트리밍 환경을 구축하는 것도 도왔는데, 정말 말도 안 되는 일이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 830.2,
+   "en": "If you have not seen this, we live stream the entire thing with this custom video player that thousands and thousands of people were watching all day. It's like really amazing. And he did that.",
+   "ko": "수천 명의 사람들이 하루 종일 지켜본 이 맞춤형 비디오 플레이어로 전체 행사를 생중계했는데, 정말 놀랍게도 그걸 그가 해냈습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 841.6,
+   "en": "I think he had some help, but he did a lot of that, and he did it while doing this analysis that took him to do.",
+   "ko": "도움을 좀 받긴 했겠지만 대부분 직접 했고, 심지어 그 분석 작업까지 병행하며 해낸 겁니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 849.2,
+   "en": "And I know what you may be thinking is, well, couldn't I just have prompted Claude for what Yash and Douglas and Jack found.",
+   "ko": "아마 여러분은 'Claude에게 Yash나 Douglas, Jack이 찾은 걸 찾아달라고 하면 안 되나?'라고 생각하실 수도 있습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 860.2,
+   "en": "And I think that's a really interesting question. And the answer is yes. We've actually experimented with this.",
+   "ko": "매우 흥미로운 질문입니다. 정답은 '그렇다'입니다. 저희는 실제로 이 실험을 해봤습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 867.5,
+   "en": "So Mike Taylor, who's our head of EVALS, tried to figure out if he could predict what I would say in Slack.",
+   "ko": "평가 팀장인 Mike Taylor는 제가 슬랙에서 할 말을 AI가 예측할 수 있는지 실험해 봤습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 877.8,
+   "en": "And the answer is yes, he can predict what I would say in Slack. But there's an interesting caveat.",
+   "ko": "결과는 가능했습니다. 하지만 흥미로운 조건이 하나 붙습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 885.4,
+   "en": "He can do it 93% of the time, but there's an interesting caveat which is he can only do it if Claude can give 400 answers for each question.",
+   "ko": "93%의 확률로 맞힐 수 있지만, Claude가 질문 하나당 400개의 답변 후보를 내놓아야만 가능하다는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 894.8,
+   "en": "So Claude knows when it's trying to predict something in Slack, if Claude can give 400 answers at the same time, one of the things I'm going to say is in there.",
+   "ko": "즉, Claude가 동시에 400개의 답변을 생성하면 그중 하나에는 반드시 제가 할 말이 포함되어 있다는 뜻입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 905.4,
+   "en": "But it can't rank them. If you ask Claude to rank them, the thing that I say is only in the top 10% like 60% of the time.",
+   "ko": "하지만 우선순위를 매기지는 못합니다. 순위를 매기라고 하면 제가 할 말이 상위 10% 안에 들 확률은 60% 정도에 불과하죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 917.5,
+   "en": "So it's kind of a coin flip. And that's really interesting because it means we're getting into this world where generation is really cheap, but ranking is hard.",
+   "ko": "반반의 확률인 셈입니다. 이는 생성을 아주 쉽지만 순위를 정하는 것은 어려운 세상에 우리가 들어섰음을 의미합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 935.5,
+   "en": "I actually wouldn't be able to find it in all of the noise that I'd have to sort through in order to get the thing that they would get.",
+   "ko": "수많은 노이즈 사이에서 팀원들이 찾아낸 것과 같은 정답을 골라내는 것은 제 능력 밖의 일이었을 겁니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 943.0,
+   "en": "And that should tell you something really important about why teams are valuable in AI and ultimately why humans are valuable in AI.",
+   "ko": "이것은 AI 시대에 왜 팀이 가치 있는지, 그리고 궁극적으로 왜 인간이 중요한지 알려주는 아주 중요한 대목입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 955.2,
+   "en": "If you're on a team and you're a human, you have a responsibility for a particular area of the world that helps you narrow down what you look for, like how you prompt the model.",
+   "ko": "인간으로서 팀의 일원이라면 세상의 특정 영역에 대한 책임이 있고, 이는 프롬프트를 작성할 때 무엇을 찾아야 할지 좁히는 데 도움을 줍니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 968.8,
+   "en": "And then you have your own perspective. You have a perspective that determines what you pick out of that world and call important and take action on.",
+   "ko": "또한 당신만의 관점이 있습니다. 그 관점은 세상에서 무엇을 골라내어 중요하다고 부르고 행동으로 옮길지 결정합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 982.3,
+   "en": "And I think if you want to look at it this way, for all of us who analyzed this survey last week, there were millions and millions of different paths available in the data.",
+   "ko": "지난주 설문을 분석한 우리 모두에게 데이터 속에는 수백만 가지의 길이 열려 있었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 996.9,
+   "en": "Millions and millions of different insights we could have pulled out. And our responsibilities in the business help to narrow down where we look.",
+   "ko": "뽑아낼 수 있는 통찰도 수만 가지였죠. 비즈니스에서 각자의 책임이 우리가 살펴봐야 할 지점을 좁혀준 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1011.6,
+   "en": "And our perspective lights up a few of those. It helps us to rank those things. And then you pick one and you take it forward.",
+   "ko": "그리고 우리의 관점이 그중 몇 가지를 비춥니다. 그것들에 순위를 매기게 하고, 결국 하나를 골라 추진하게 만드는 것이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1021.8,
+   "en": "And you've gone from this millions and millions of latent possibilities to one thing that you're the only one who would rank that because it's you.",
+   "ko": "그렇게 수많은 잠재적 가능성 사이에서 오직 당신만이 선택했을 단 하나의 결과물에 도달하게 됩니다. 그것이 바로 '당신'이기 때문이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1033.0,
+   "en": "It's the thing that lights up for you. And if you zoom out, a team allows you to explore a much, much larger space of possibilities.",
+   "ko": "그것이 당신에게 의미 있게 다가온 것입니다. 넓게 보면 팀은 훨씬 더 넓은 가능성의 영역을 탐색할 수 있게 해줍니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1046.4,
+   "en": "Where each person has a perspective that allows them to rank and filter the parts of the world that they care about based on their responsibility and their perspective.",
+   "ko": "각자가 자신의 책임과 관점에 따라 관심 있는 영역을 필터링하고 순위를 매길 수 있기 때문입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1053.2,
+   "en": "And that's much more powerful than whatever the default answer I would get from a default prompt.",
+   "ko": "이는 제가 기본 프롬프트로 얻을 수 있는 어떠한 답변보다 훨씬 더 강력합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1060.9,
+   "en": "And that's why it's really valuable to have Yash or Douglas or Jack or anybody else on the team accessing the survey data and pulling insights out.",
+   "ko": "그래서 Yash나 Douglas, Jack 같은 팀원들이 직접 데이터를 보고 통찰을 뽑아내는 과정이 정말로 가치 있는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1070.8,
+   "en": "rather than just being like, what would Yash think of this?",
+   "ko": ""
+  },
+  {
+   "start": 1075.8,
+   "en": "And then I know what you're thinking. Okay. Claude can't rank now, but give it a year. It probably will be able to rank.",
+   "ko": "그럼 여러분은 이렇게 생각하시겠죠. '지금은 Claude가 순위를 못 매기지만, 1년 뒤엔 할 수 있지 않을까?'",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1083.5,
+   "en": "And I think that that is probably true. It probably will get a lot better at ranking. And if we ask that question, we probably would set it up something like this.",
+   "ko": "아마 맞을 겁니다. 순위를 매기는 능력도 훨씬 좋아지겠죠. 그렇다면 우리는 질문을 이런 식으로 던지게 될 겁니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1097.7,
+   "en": "2027 Claude's can be a lot better at ranking. How is 2026 Yash going to fare versus 2027 Claude?",
+   "ko": "2027년의 Claude는 순위를 훨씬 잘 매길 텐데, 그럼 2026년의 Yash가 2027년의 Claude를 이길 수 있을까?",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1107.0,
+   "en": "And I think if you really look at this, both sides of this equation are totally rigged. So let's take it step by step.",
+   "ko": "하지만 이 방정식은 양쪽 모두 조작된 것과 같습니다. 차근차근 짚어봅시다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1116.2,
+   "en": "First of all, why are we comparing 2026 Yash to 2027 Claude? In 2027, Yash is going to be 2027 Yash with a whole bundle of new experiences and perspectives.",
+   "ko": "먼저, 왜 2026년의 Yash와 2027년의 Claude를 비교합니까? 2027년이 되면 Yash도 새로운 경험과 관점을 장착한 2027년의 Yash가 되어 있을 텐데요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1129.8,
+   "en": "And he's going to be using 2027 Claude. I have no doubt. It might be ChatGPT, it might be Gemini, but he's going to be using a model.",
+   "ko": "그 역시 2027년의 Claude를 쓰고 있을 겁니다. ChatGPT든 Gemini든 어떤 모델이든 사용하고 있겠죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1137.8,
+   "en": "And so now we're like, okay, 2027 Yash versus 2027 Claude. And if you look at the 2027 Claude on the right side, someone had to set that Claude up.",
+   "ko": "그럼 이제 2027년의 Yash가 쓰는 Claude 대 그냥 2027년의 Claude의 대결입니다. 오른쪽의 그냥 Claude도 누군가는 설정을 해줘야 합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1150.9,
+   "en": "I don't care if it's a persistent agent or it's like you spun up some harness and it's off doing its thing. Someone had to start it.",
+   "ko": "지속적인 에이전트든 뭐든 간에 누군가는 그 모델을 구동시켜야 한다는 말입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1160.0,
+   "en": "There's no like immaculate conception of Claude happening in 2027, I don't think.",
+   "ko": "2027년에 Claude가 저절로 태어나서 일을 하지는 않을 테니까요.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1164.8,
+   "en": "And so what you're really saying in this equation is we're comparing 2027 Yash with 2027 Claude versus probably the default prompt of 2027 Claude.",
+   "ko": "즉, 우리가 실제로 비교하는 것은 '2027년 Claude를 활용하는 2027년 Yash' 대 '2027년 Claude의 기본 프롬프트 결과'입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1177.1,
+   "en": "And if you do that, now you start to realize, well, we've got 2027 Claude on both sides of this equation. We can just cancel him out.",
+   "ko": "이렇게 보면 방정식의 양변에 2027년 Claude가 있으니 서로 지워버릴 수 있습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1185.7,
+   "en": "And that's how math works in the intimate. I don't make the rules. But seriously, this is for real.",
+   "ko": "밀착적 관점에서의 수학은 이렇습니다. 제가 만든 규칙은 아니지만, 정말로 그렇습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1197.3,
+   "en": "If you think about this, you are actually really comparing what I would rather have: 2027 Yash who is using this model or just the default prompt.",
+   "ko": "여러분이 고민해야 할 진짜 비교 대상은 '모델을 사용하는 2027년의 Yash'냐, 아니면 '그냥 기본 프롬프트'냐 하는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1206.6,
+   "en": "And Yash has a responsibility to a particular area of the world and a perspective and the default prompt embodies the average answer, so it's not that valuable.",
+   "ko": "Yash에게는 특정 영역에 대한 책임과 관점이 있지만, 기본 프롬프트는 평균적인 답변만을 내놓기에 가치가 떨어집니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1217.6,
+   "en": "And my answer is I pick Yash every day. I pick Yash every day, every time.",
+   "ko": "제 대답은 명확합니다. 저는 언제나, 매일 Yash를 선택할 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1224.9,
+   "en": "And I think if you ask me why, we have to go back to when everyone has access to the model, whether it's 2026, or 2027, or 2028, it's going to be broadly distributed.",
+   "ko": "그 이유를 묻는다면, 2026년이든 27년이든 누구나 모델을 사용할 수 있게 되어 모델이 널리 보급될 미래를 생각해야 합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1246.8,
+   "en": "You've got Claude on both sides of the equation. And because of that, that raises the floor for everyone.",
+   "ko": "방정식의 양쪽에 모델이 존재한다는 것은 모두의 최소 수준이 높아진다는 것을 의미합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1251.7,
+   "en": "And the default answers you get from the model, they look impressive to us right now, but because everyone will have them, they become not that valuable.",
+   "ko": "지금은 모델의 기본 답변이 인상적일지 몰라도 누구나 갖게 되면 가치는 사라집니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1260.8,
+   "en": "They're just status quo, they're the baseline. And yes, the floor keeps moving, but the floor keeps getting distributed to everybody.",
+   "ko": "그저 현상 유지를 위한 기준점이 될 뿐이죠. 최소 수준은 계속 올라가겠지만 모두에게 똑같이 주어질 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1270.4,
+   "en": "And so what's valuable, the alpha, is where you push the model using your perspective and your responsibility for a particular area of the world.",
+   "ko": "따라서 진짜 가치 있는 것, 즉 '알파'는 당신의 관점과 책임을 통해 모델을 어디까지 밀어붙이느냐에 달려 있습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1280.3,
+   "en": "And yes, that may get consumed into tomorrow's floor as capabilities increase.",
+   "ko": "물론 기술이 발전함에 따라 그 알파가 내일의 '최소 수준'이 되어버릴 수도 있겠죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1288.4,
+   "en": "But if you're continuing to use the model, you're not frozen back in 2026 when you're using the old version of the model, you're using that new model yourself.",
+   "ko": "하지만 당신 역시 멈춰 있지 않고 새로운 모델을 계속 사용하고 있을 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1296.5,
+   "en": "And so those new capabilities rapidly become cheap and what is actually expensive and rare is how you use them using your perspective.",
+   "ko": "새로운 기능들은 금방 흔해지겠지만, 당신의 관점으로 그것을 어떻게 활용하느냐는 여전히 귀하고 희소한 가치로 남을 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1307.4,
+   "en": "And so now we've kind of started to get back to the question that we started with, which is if you remember the aggregate, all you see is this line going up that looks like it's going to replace all of us.",
+   "ko": "이제 처음 질문으로 돌아와 봅시다. 집합적 관점만 보면 우리 모두를 대체할 것처럼 치솟는 저 곡선만 보일 뿐입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1323.6,
+   "en": "and it looks like human work is going going to zero.",
+   "ko": ""
+  },
+  {
+   "start": 1326.5,
+   "en": "And if you look at the aggregate from the intimate, what we've started to find is that we have the same line, but humanity, human perspective, the way that we use the models rides on top.",
+   "ko": "하지만 밀착적 관점에서 보면 그 곡선 위에 인간의 관점과 활용 방식이 더해져 함께 나아가고 있다는 걸 알게 됩니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1343.1,
+   "en": "And I think that is a more accurate view of how work will happen in the future with these models than just saying, oh, we're just gonna get replaced because look at this chart.",
+   "ko": "단순히 차트만 보고 '우린 대체될 거야'라고 말하는 것보다 이것이 미래 업무 방식을 훨씬 더 정확하게 보여준다고 생각합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1362.0,
+   "en": "And this is what I've been talking and writing about for several years now, this way of working and being in the economy called the Allocation Economy.",
+   "ko": "이것이 제가 수년 동안 써온 '할당 경제'라는 새로운 작업 방식이자 경제 모델입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1371.4,
+   "en": "I wrote this article in 2024 where I wrote, you won't be judged on how much you know, but instead on how well you can allocate and manage the resources to get work done.",
+   "ko": "저는 2024년에 '당신은 얼마나 많이 아느냐가 아니라, 업무를 완수하기 위해 자원을 얼마나 잘 할당하고 관리하느냐로 평가받을 것'이라고 썼습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1382.2,
+   "en": "You'll be allocating work to AI models and making sure the work gets done well. And there are some really, really interesting implications if you believe this.",
+   "ko": "당신은 AI 모델에 일을 할당하고 그 일이 잘 끝났는지 확인할 것입니다. 이를 믿는다면 정말 흥미로운 결과들이 도출됩니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1393.1,
+   "en": "We're going to be allocating work to models and the default capabilities are distributed to everyone, so the responsibility and the perspective that you bring to the model is the thing that's valuable.",
+   "ko": "기본 기능은 모두에게 주어지므로, 당신이 모델에 부여하는 책임과 관점이 곧 당신의 가치가 된다는 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1404.9,
+   "en": "The first interesting flip is it should flip how we measure AI. Right now when we measure AI capabilities, we measure them based on consensus.",
+   "ko": "첫 번째 반전은 AI를 측정하는 방식이 바뀌어야 한다는 것입니다. 지금 우리는 모두가 동의하는 기준인 '합의'를 바탕으로 AI 성능을 측정합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1416.6,
+   "en": "Is it good at problems that we all agree are worth solving? So like math problems are easy because we can validate them.",
+   "ko": "우리가 해결할 가치가 있다고 생각하는 문제들을 잘 푸는가 하는 식이죠. 수학 문제는 검증이 쉽기 때문에 측정하기 좋습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1428.5,
+   "en": "But again, by this logic, those capabilities are now distributed. They are no longer as valuable.",
+   "ko": "하지만 제 논리에 따르면 그런 기능들은 이제 보편화되어 예전만큼 가치 있지 않습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1435.9,
+   "en": "And what we should be measuring instead is how good is it at doing my work from my perspective. And this is like kind of a weird flip.",
+   "ko": "대신 우리는 '나의 관점에서 나의 업무를 얼마나 잘 수행하는가'를 측정해야 합니다. 이건 일종의 인식의 전환입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1451.2,
+   "en": "It's a weird cultural inversion because I think for all of us we have this feeling that getting to a settled answer or being able to know a settled answer is where all the value is.",
+   "ko": "우리는 보통 정해진 답을 찾거나 아는 것에 모든 가치가 있다고 믿어왔기에 이는 기묘한 문화적 역전이기도 합니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1466.7,
+   "en": "like we're thinking about math and science science and computer programming where your perspective doesn't actually matter.",
+   "ko": ""
+  },
+  {
+   "start": 1473.3,
+   "en": "And my view is that stuff has become much less valuable because it's commoditized. And now the value comes from you having a non-consensus perspective.",
+   "ko": "하지만 그런 것들은 이미 상품화되어 가치가 떨어졌습니다. 이제 가치는 합의되지 않은 당신만의 독특한 관점에서 나옵니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1484.0,
+   "en": "A perspective that you can use to push the model to make something that you think is good. And if you internalize that, then you start to think of model progress as something that works for you.",
+   "ko": "당신이 좋다고 생각하는 것을 만들기 위해 모델을 밀어붙이는 힘 말이죠. 이를 받아들인다면 모델의 발전은 당신을 대체하는 것이 아니라 당신을 위해 일하는 도구가 될 것입니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1515.6,
+   "en": "And I think this is why the intimate matters. When you look at what's going on in the aggregate versus the intimate, the aggregate has to freeze you.",
+   "ko": "이것이 바로 밀착적 관점이 중요한 이유입니다. 집합적 관점은 모델의 진보를 측정하기 위해 인간을 특정 시점에 고정해 버립니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1527.9,
+   "en": "In order to measure model progress, it has to freeze humans in 2020 and compare it to humans in 2020.",
+   "ko": "모델의 성능을 재기 위해 2020년의 인간과 현재의 모델을 비교하는 식이죠.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1536.4,
+   "en": "And I think the intimate empowers you to see what you might build and who you might become. And we have all lived that perspective this whole conference.",
+   "ko": "하지만 밀착적 관점은 당신이 무엇을 만들 수 있고 어떤 사람이 될 수 있는지 보게 합니다. 우리는 이번 컨퍼런스 내내 그 관점을 직접 경험했습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1556.9,
+   "en": "This whole day was about getting intimate with what it is like to work with these tools and work with other people who are working with these tools.",
+   "ko": "오늘은 이런 도구들을 활용해 일한다는 것, 그리고 그렇게 일하는 다른 사람들과 함께한다는 것이 어떤 의미인지 깊이 들여다보는 시간이었습니다.",
+   "speaker": "Dan Shipper"
+  },
+  {
+   "start": 1567.2,
+   "en": "And you all agree, you all know how valuable that is because if you could just look at a capability chart and know everything you need, just know you wouldn't",
+   "ko": ""
+  },
+  {
+   "start": 1577.4,
+   "en": "And I think now that the people in this room understand this and feel this, it's our job to go and spread it to the rest of the world. Thank you.",
+   "ko": "이제 여기 계신 여러분이 이를 이해하고 느꼈으니, 이를 세상에 널리 알리는 것이 우리의 일입니다. 감사합니다.",
+   "speaker": "Dan Shipper"
+  }
+ ]
+}
