@@ -1,0 +1,633 @@
+{
+ "id": "zlttl1NXAKk",
+ "title": "Huang’s Downfall Could Shake the Economy, and Detainees Have Disappeared From an ICE Database",
+ "show": "The Headlines",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=zlttl1NXAKk",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/6be9f004-3e81-4fb7-9ff7-a70c01563962/episodes/3ace44d2-e1be-49bf-9161-fea95c96364f/audio/128/default.mp3?aid=rss_feed&awCollectionId=6be9f004-3e81-4fb7-9ff7-a70c01563962&awEpisodeId=3ace44d2-e1be-49bf-9161-fea95c96364f&feed=ydACIPHO",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/8a/52/fc8a527d-8979-adf2-977b-06304a816969/mza_684749869280596722.jpg/600x600bb.jpg",
+ "duration": 1013,
+ "releaseDate": "2026-11-13T10:59:37Z",
+ "addedAt": "2026-11-13",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "33 presidents. I called the president at 4:30 in the morning, and he answered.",
+   "ko": "33명의 대통령. 새벽 4시 30분에 대통령에게 전화를 걸었는데, 받으시더라고요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4.3,
+   "en": "Seven decades in space. We want to see what's beyond the next star.",
+   "ko": "70년의 우주 탐사. 우리는 다음 별 너머에 무엇이 있는지 알고 싶습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 7.9,
+   "en": "60 Super Sundays. They were probably the best team in the league every single year.",
+   "ko": "60번의 슈퍼 선데이. 그들은 아마 매년 리그 최고의 팀이었을 겁니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 11.7,
+   "en": "53,500 puzzles. I use a different starting word every day.",
+   "ko": "53,500개의 퍼즐. 저는 매일 다른 시작 단어를 사용해요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 16.4,
+   "en": "25,000 recipes. And I love a one-can recipe because I don't love washing pans.",
+   "ko": "25,000개의 레시피. 그리고 저는 한 캔으로 끝내는 레시피를 좋아해요. 설거지하는 걸 안 좋아하거든요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 21.7,
+   "en": "The New York Times, celebrating 175 years of helping you understand the world.",
+   "ko": "세상을 이해하도록 도운 175주년을 기념하는 뉴욕 타임즈입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 26.2,
+   "en": "Subscribe now for a special offer at NYTimes.com slash subscribe.",
+   "ko": "지금 NYTimes.com/subscribe에서 특별 혜택으로 구독하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 33.7,
+   "en": "From the New York Times, it's the headlines. I'm Tracy Mumford.",
+   "ko": "뉴욕 타임즈의 '더 헤드라인'입니다. 저는 트레이시 멈포드입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 37.0,
+   "en": "Today's Friday, November 13th. Here's what we're covering.",
+   "ko": "오늘은 11월 13일 금요일입니다. 오늘 다룰 내용들입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 44.5,
+   "en": "So everything that's going on with Nvidia and especially with Jensen Huang's resignation has just raised a lot of questions about what's going to happen with the company, with the AI industry, and even beyond that.",
+   "ko": "엔비디아에서 벌어지는 일들, 특히 젠슨 황의 사임 소식은 회사와 AI 산업, 그리고 그 너머에 어떤 일이 일어날지에 대해 많은 의문을 불러일으켰습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 59.9,
+   "en": "I spoke to an expert on Thursday who asked, can one CEO's sex life take down the economy? Ben Casselman is the Times' chief economics correspondent.",
+   "ko": "목요일에 한 전문가와 이야기를 나눴는데, 그분은 한 CEO의 사생활이 경제를 무너뜨릴 수 있느냐고 물었습니다. 타임즈의 수석 경제 특파원 벤 캐슬먼입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 70.5,
+   "en": "And look, the literal answer here is obviously no. But Nvidia really does play a unique role.",
+   "ko": "물론 문자 그대로의 답은 당연히 '아니요'입니다. 하지만 엔비디아는 정말 독특한 역할을 수행하고 있습니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 78.6,
+   "en": "And that isn't just because it makes something like 90% of the advanced chips that go into all of these AI models, it's because they play this role of almost being a central bank for the AI industry.",
+   "ko": "그것은 단순히 모든 AI 모델에 들어가는 최첨단 칩의 약 90%를 만들기 때문만이 아닙니다. 그들이 AI 산업의 중앙은행 같은 역할을 하고 있기 때문입니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 93.8,
+   "en": "They have played this really fundamental role in financing and providing loan guarantees to their customers and suppliers to the companies that run the data centers, to the companies that are designing these models.",
+   "ko": "그들은 데이터 센터를 운영하는 기업이나 모델을 설계하는 기업 등 고객사와 공급업체에 자금을 조달하고 대출 보증을 제공하는 근본적인 역할을 해왔습니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 109.3,
+   "en": "And every time that there starts to be sort of a wobble in the AI story, every time the market sort of starts to freak out a little bit.",
+   "ko": "AI 업계가 흔들릴 때마다, 시장이 조금씩 공포에 질리기 시작할 때마다 말이죠.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 117.9,
+   "en": "More often than not, it's Nvidia and it's Jensen Huang that kind of have stepped in to steady the ship.",
+   "ko": "대개는 엔비디아와 젠슨 황이 상황을 수습하고 중심을 잡기 위해 나섰습니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 125.3,
+   "en": "They provide a financial backstop or Huang himself just comes out and sort of reassures everybody that the AI boom is still on track.",
+   "ko": "그들은 재정적 보완책을 제공하거나 황 본인이 직접 나타나 AI 붐이 여전히 궤도에 올라와 있다고 모두를 안심시킵니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 135.6,
+   "en": "If they stop playing that role, if they pull back in some way, that could really have profound implications for the entire AI boom.",
+   "ko": "그들이 그 역할을 멈추거나 어떤 방식으로든 물러난다면, 전체 AI 붐에 정말 엄청난 영향을 미칠 수 있습니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 145.9,
+   "en": "So while I don't think it's literally true that one sex scandal is going to bring down the US economy, financial markets are built on confidence to a significant degree.",
+   "ko": "그래서 성 스캔들 하나가 미국 경제를 무너뜨릴 거라는 게 문자 그대로 사실이라고 생각하진 않지만, 금융 시장은 상당 부분 신뢰를 바탕으로 구축됩니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 157.2,
+   "en": "And you never know what is going to be the precipitating incident that kind of brings everything down.",
+   "ko": "그리고 무엇이 모든 것을 무너뜨리는 기폭제가 될지는 아무도 모르는 일이죠.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 162.7,
+   "en": "I wouldn't predict that that's what's gonna happen here, but it does really point to the degree to which these sort of interconnected financial pieces and their reliance on AI have become a real vulnerability for the U.S. economy.",
+   "ko": "그런 일이 일어날 거라고 단정 짓지는 않겠지만, 이는 서로 연결된 금융 조각들과 AI에 대한 의존도가 미국 경제의 실질적인 취약점이 되었다는 점을 시사합니다.",
+   "speaker": "Ben Casselman"
+  },
+  {
+   "start": 180.7,
+   "en": "Meanwhile, a Senate committee has summoned Jensen Huang to testify over national security concerns related to his affair with a woman suspected of being a Chinese spy. The committee has also summoned Commerce Secretary Howard Lutnick.",
+   "ko": "한편, 상원 위원회는 중국 스파이로 의심되는 여성과의 불륜에 따른 국가 안보 우려로 젠슨 황을 증언대에 세우기로 했습니다. 위원회는 또한 하워드 러트닉 상무장관도 소환했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 197.4,
+   "en": "In his role, Lutnick has control over government restrictions on technology sales, like limits on the transfer of NVIDIA's advanced AI chips to China.",
+   "ko": "러트닉 장관은 엔비디아의 첨단 AI 칩의 대중국 이전 제한과 같은 기술 판매에 대한 정부 규제 권한을 가지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 209.0,
+   "en": "While many top Trump administration officials have pushed for tighter restrictions to try and keep China from gaining an economic or military edge, they have frequently clashed with Lutnick, who's repeatedly delayed or deferred technology controls, according to people familiar with the discussions.",
+   "ko": "트럼프 행정부의 많은 고위 관료들이 중국의 경제적, 군사적 우위를 막기 위해 더 엄격한 규제를 추진했지만, 논의에 정통한 관계자들에 따르면 기술 통제를 반복적으로 지연하거나 유예한 러트닉과 자주 충돌했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 227.0,
+   "en": "Commerce department officials told the Times that within the agency, NVIDIA was treated differently than other companies.",
+   "ko": "상무부 관계자들은 타임즈에 기관 내에서 엔비디아가 다른 회사들과는 다르게 대우받았다고 전했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 235.1,
+   "en": "NVIDIA's General Counsel was given direct access to shape new rules that affect the company, with department staff describing seeing comments from NVIDIA's top lawyer in drafts of government policies.",
+   "ko": "엔비디아의 법무 총괄은 회사에 영향을 미치는 새로운 규칙 제정에 직접 참여할 기회를 얻었으며, 상무부 직원들은 정부 정책 초안에서 엔비디아 수석 변호사의 의견을 보았다고 설명했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 248.9,
+   "en": "A spokesman for the Commerce Department said that it was routine for the government to consult with companies as it finalizes rules.",
+   "ko": "상무부 대변인은 정부가 규칙을 확정할 때 기업과 협의하는 것은 일상적인 일이라고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 255.5,
+   "en": "Still, there are also concerns about possible conflicts of interest when it comes to Lutnick and NVIDIA.",
+   "ko": "그럼에도 불구하고 러트닉과 엔비디아 사이의 이해충돌 가능성에 대한 우려도 제기되고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 262.5,
+   "en": "The investment firm he steered for decades, and which is now run by his sons, has a wide range of business interests that rely on NVIDIA chips, including some related to data centers in Southeast Asia.",
+   "ko": "그가 수십 년간 이끌었고 현재는 아들들이 운영하는 투자 회사는 동남아시아의 데이터 센터와 관련된 사업을 포함해 엔비디아 칩에 의존하는 광범위한 비즈니스 이해관계를 가지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 277.2,
+   "en": "In response to questions from the Times, NVIDIA declined to comment. The Commerce Department said Lutnick had fully divested from the investment firm and has not had any interactions with the firm about NVIDIA.",
+   "ko": "타임즈의 질문에 대해 엔비디아는 논평을 거부했습니다. 상무부는 러트닉이 투자 회사에서 완전히 손을 뗐으며 엔비디아와 관련해 해당 회사와 어떠한 상호작용도 하지 않았다고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 288.9,
+   "en": "Back in September, a professor at a nursing program in California was at home in her pajamas when a group of federal agents showed up to arrest her.",
+   "ko": "지난 9월, 캘리포니아의 한 간호 프로그램 교수가 파자마 차림으로 집에 있을 때 연방 요원들이 들이닥쳐 그녀를 체포했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 306.0,
+   "en": "The woman, who is originally from Nigeria, was able to call her family that day from ICE custody to say what had happened. But then she went dark.",
+   "ko": "나이지리아 출신인 이 여성은 그날 이민세관집행국(ICE) 구금 시설에서 가족에게 전화를 걸어 상황을 알릴 수 있었습니다. 하지만 그 후 소식이 끊겼습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 316.4,
+   "en": "Her siblings tried to look up her name in a public database of immigration detainees, but they couldn't find her. Her lawyer tried too and couldn't find her either.",
+   "ko": "그녀의 형제자매들이 이민 구금자 공개 데이터베이스에서 그녀의 이름을 검색해 보았지만 찾을 수 없었습니다. 변호사도 시도해 보았지만 마찬가지였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 326.0,
+   "en": "Her family said it felt like she had fallen quote, \"into an abyss.\" Then, days later, she called her brother from a detention center in Louisiana, halfway across the country.",
+   "ko": "가족들은 그녀가 마치 '심연 속으로' 떨어진 것 같았다고 말했습니다. 며칠 후, 그녀는 나라 반대편인 루이지애나의 구치소에서 오빠에게 전화를 걸어왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 337.1,
+   "en": "Now, the Times has learned that her disappearance from the database was not an accident, but rather part of a new Trump administration policy.",
+   "ko": "이제 타임즈는 그녀가 데이터베이스에서 사라진 것이 우연이 아니라 트럼프 행정부의 새로운 정책의 일부라는 사실을 알게 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 345.7,
+   "en": "With the Department of Homeland Security no longer publicly listing most migrants who have final deportation orders.",
+   "ko": "국토안보부가 최종 추방 명령을 받은 대부분의 이주민을 더 이상 공개 명단에 올리지 않기로 한 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 354.5,
+   "en": "The DHS database had been a key tool for families and lawyers to track detainees as they were shuffled around a network of hundreds of ICE facilities nationwide.",
+   "ko": "국토안보부 데이터베이스는 구금자들이 전국의 수백 개 ICE 시설로 옮겨질 때 가족과 변호사가 그들을 추적할 수 있는 핵심 도구였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 365.0,
+   "en": "And knowing exactly what jurisdiction a detainee is in can be essential for filing paperwork to fight their deportation.",
+   "ko": "구금자가 정확히 어느 관할 구역에 있는지 아는 것은 추방에 대응하기 위한 서류를 제출하는 데 필수적일 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 373.8,
+   "en": "Now, with many people's names wiped out of the public records, lawyers say it's created chaos and made it much harder to provide migrants with legal aid.",
+   "ko": "이제 많은 사람의 이름이 공공 기록에서 지워지면서, 변호사들은 이것이 혼란을 야기하고 이주민들에게 법적 지원을 제공하는 것을 훨씬 더 어렵게 만들었다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 383.8,
+   "en": "In a lawsuit filed last month, the National Immigration Law Center and other groups said that more than 20,000 people had been removed from the database, or around 30% of all detainees.",
+   "ko": "지난달 제기된 소송에서 국립이민법센터 등 단체들은 2만 명 이상의 이름이 데이터베이스에서 삭제되었으며, 이는 전체 구금자의 약 30%에 해당한다고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 395.0,
+   "en": "In response to questions from the Times, DHS said in a statement that detainees have several ways of communicating with family and lawyers.",
+   "ko": "타임즈의 질문에 대해 국토안보부는 성명을 통해 구금자들이 가족 및 변호사와 소통할 수 있는 여러 방법이 있다고 답했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 403.8,
+   "en": "And that quote, \"the appropriate process for someone with final deportation orders is removal, plain and simple.\"",
+   "ko": "그리고 '최종 추방 명령을 받은 사람에 대한 적절한 절차는 추방일 뿐이다'라고 덧붙였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 433.5,
+   "en": "Analyzing speech to try to predict people's risk of developing dementia. Pam Belluck is a health and science reporter at the Times.",
+   "ko": "사람들의 치매 발병 위험을 예측하기 위해 언어를 분석하는 연구입니다. 타임즈의 보건 과학 기자 팜 벨럭입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 441.4,
+   "en": "She says more than 6 million Americans, roughly 10 percent of people 65 and older, currently have dementia, including Alzheimer's, the most common type of the condition.",
+   "ko": "그녀는 65세 이상 인구의 약 10%인 600만 명 이상의 미국인이 현재 가장 흔한 유형인 알츠하이머를 포함한 치매를 앓고 있다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 452.8,
+   "en": "In light of that, scientists have been looking for ways to get ahead of new cases, including the cutting-edge research Pam's been covering, where they use AI algorithms along with sensors attached to people's lips and faces to track subtle changes in people's speech.",
+   "ko": "이에 따라 과학자들은 새로운 사례를 미리 파악할 방법을 찾아왔는데, 팜 기자가 취재한 최첨단 연구에서는 AI 알고리즘과 입술 및 얼굴에 부착된 센서를 사용해 사람들의 언어에서 미묘한 변화를 추적합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 469.9,
+   "en": "Speech contains a goldmine of information because there's so many aspects of what our brains are doing to create speech.",
+   "ko": "언어는 우리 뇌가 말을 만들기 위해 수행하는 아주 많은 측면을 담고 있기 때문에 정보의 보물창고와 같습니다.",
+   "speaker": "Pam Belluck"
+  },
+  {
+   "start": 478.0,
+   "en": "So scientists are analyzing things like how fast people talk, how often they pause during a sentence, the richness and complexity of the vocabulary that they use, the pitch and the cadence of their speech.",
+   "ko": "그래서 과학자들은 사람들이 말하는 속도, 문장 중간에 멈추는 빈도, 사용하는 어휘의 풍부함과 복잡성, 그리고 목소리의 높낮이와 억양 등을 분석하고 있습니다.",
+   "speaker": "Pam Belluck"
+  },
+  {
+   "start": 492.3,
+   "en": "In preliminary results, this team found that their speech analysis could identify people who were at high risk for developing Alzheimer's 77% of the time compared to 47% of the time for regular cognitive testing.",
+   "ko": "예비 결과에서 이 팀은 자신들의 언어 분석이 알츠하이머 발병 위험이 높은 사람들을 77%의 확률로 식별할 수 있음을 발견했는데, 이는 47%인 일반 인지 검사와 대조적입니다.",
+   "speaker": "Pam Belluck"
+  },
+  {
+   "start": 507.2,
+   "en": "Pam says researchers even see a future where there could be an app where people record samples of their speech to help predict their dementia risk.",
+   "ko": "팜 기자는 연구자들이 사람들이 자신의 목소리 샘플을 녹음해 치매 위험을 예측하는 데 도움을 주는 앱이 나오는 미래까지 내다보고 있다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 515.7,
+   "en": "The goal being to arm patients and doctors with as much information as possible as early as possible to combat these disorders.",
+   "ko": "목표는 이러한 질환에 맞서기 위해 환자와 의사에게 가능한 한 빨리 최대한 많은 정보를 제공하는 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 529.5,
+   "en": "And finally, last night the Mexican singer, Biby Quintana took the stage at the Latin Grammys where she was nominated for Song of the Year.",
+   "ko": "마지막으로, 어젯밤 멕시코 가수 비비 킨타나가 올해의 노래 후보로 오른 라틴 그래미 무대에 섰습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 542.9,
+   "en": "There, she built her career and became known throughout Latin America in part by giving old ballads new heroines.",
+   "ko": "그곳에서 그녀는 오래된 발라드에 새로운 여주인공을 등장시킴으로써 경력을 쌓았고 라틴 아메리카 전역에 이름을 알렸습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 559.0,
+   "en": "Corridos, traditional Mexican folk ballads, are usually sung by men about men, telling the stories of revolutionaries, outlaws, folk heroes, and more recently, drug traffickers.",
+   "ko": "멕시코의 전통 민요인 코리도는 주로 남성이 남성에 대해 노래하며, 혁명가, 무법자, 민속 영웅, 그리고 최근에는 마약 밀매업자의 이야기를 다룹니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 571.5,
+   "en": "Quintana though wanted to tell a different story about the violence faced by women in Mexico.",
+   "ko": "하지만 킨타나는 멕시코 여성들이 직면한 폭력에 대해 다른 이야기를 하고 싶어 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 583.8,
+   "en": "Mexican activists have estimated that every day, 10 women there are killed because of their gender.",
+   "ko": "멕시코의 활동가들은 그곳에서 매일 10명의 여성이 성별 때문에 살해당한다고 추산하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 591.2,
+   "en": "For Quintana, it was personal. She told the Times that after a close friend was murdered by a man she'd said was harassing her at work, she became obsessed with the idea of self-defense.",
+   "ko": "킨타나에게 이것은 개인적인 일이었습니다. 그녀는 직장에서 자신을 괴롭힌다고 했던 남성에게 친한 친구가 살해당한 후 자위권이라는 개념에 사로잡혔다고 타임즈에 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 603.3,
+   "en": "Quintana spent a decade visiting prisons across Mexico and interviewing women who'd ended up in jail after they fought back against their attackers.",
+   "ko": "킨타나는 10년 동안 멕시코 전역의 교도소를 방문하며 공격자에게 맞서 싸우다 감옥에 가게 된 여성들을 인터뷰했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 613.3,
+   "en": "Eventually, she released a whole album of Corridos telling the true stories of those women.",
+   "ko": "결국 그녀는 그 여성들의 실화를 담은 코리도 앨범을 발표했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 625.3,
+   "en": "The president of the record label Universal Music Mexico, told the Times that Quintana has found a way to sing quote, \"not only about love, heartbreak, life, but also the social reality of this country that many of us recognize, but few dare to talk about.\"",
+   "ko": "유니버설 뮤직 멕시코의 사장은 킨타나가 '사랑, 이별, 삶뿐만 아니라 우리 중 많은 이가 인지하고 있지만 감히 말하지 못하는 이 나라의 사회적 현실'에 대해 노래할 방법을 찾아냈다고 타임즈에 전했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 644.9,
+   "en": "Those are the headlines. If you'd like to play the Friday news quiz, stick around, it's just after these credits.",
+   "ko": "여기까지가 주요 소식이었습니다. 금요일 뉴스 퀴즈를 풀고 싶으시다면 채널 고정해 주세요. 제작진 소개 후에 바로 시작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 651.2,
+   "en": "This show is made by Will Jarvis, Margaret Kadifa, Jake Lucas, Jan Stewart, and me, Tracy Mumford, original theme by Dan Powell.",
+   "ko": "이 프로그램은 윌 자비스, 마거릿 카디파, 제이크 루카스, 잰 스튜어트, 그리고 저 트레이시 멈포드가 만듭니다. 오리지널 테마곡은 댄 파월이 작곡했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 658.2,
+   "en": "Special thanks to Isabella Anderson, Sam Dolnick, Miles McKinley, Zoe Murphy, and Chris Wood.",
+   "ko": "이사벨라 앤더슨, 샘 돌닉, 마일즈 매킨리, 조이 머피, 그리고 크리스 우드에게 특별히 감사의 마음을 전합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 666.7,
+   "en": "Now time for the quiz. Every week we ask you a few questions about stories the times has been covering. Can you get them all?",
+   "ko": "이제 퀴즈 시간입니다. 매주 저희는 타임즈가 다룬 기사들에 대해 몇 가지 질문을 드립니다. 다 맞힐 수 있으신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 678.4,
+   "en": "It'll be the most beautiful arch in the world. It's more beautiful than the Arc de Triomphe.",
+   "ko": "세계에서 가장 아름다운 아치가 될 것입니다. 개선문보다 더 아름답죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 685.0,
+   "en": "In Washington, President Trump's controversial plan for a giant new arch is currently in limbo.",
+   "ko": "워싱턴에서 트럼프 대통령의 거대한 새 아치 건설이라는 논란의 계획은 현재 불확실한 상태입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 691.2,
+   "en": "We see what this is all about. This is a tribute to Donald Trump. He has told us that specifically.",
+   "ko": "우리는 이것이 무엇인지 알고 있습니다. 이것은 도널드 트럼프를 향한 헌사입니다. 그가 우리에게 구체적으로 그렇게 말했습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 697.2,
+   "en": "Despite a lot of criticism and pushback from lawmakers, a federal planning commission recently said construction on the monument could go forward right before a federal judge stepped in to temporarily block the project.",
+   "ko": "의원들의 많은 비판과 반대에도 불구하고, 연방 계획 위원회는 최근 기념물 건설을 진행할 수 있다고 밝혔으나, 곧바로 연방 판사가 개입해 프로젝트를 일시적으로 중단시켰습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 710.7,
+   "en": "Amid the ongoing legal back and forth, the Trump administration has started changing how it refers to the structure. It used to just call it the triumphal arch.",
+   "ko": "계속되는 법적 공방 속에서 트럼프 행정부는 이 구조물을 부르는 방식을 바꾸기 시작했습니다. 이전에는 그냥 '개선문'이라고 불렀죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 720.8,
+   "en": "Now it's stuck another word in front of that to make it the blank triumphal arch, potentially as a way to help justify the project.",
+   "ko": "이제는 프로젝트 정당화를 돕기 위한 방법으로 그 앞에 다른 단어를 붙여서 'ㅇㅇ 개선문'이라고 부르고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 729.7,
+   "en": "Your question, what have they started calling it?",
+   "ko": "질문입니다, 그들은 이것을 무엇이라고 부르기 시작했을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 738.9,
+   "en": "The answer, the military triumphal arch with President Trump himself claiming the 250 foot tall gold topped structure is about defense.",
+   "ko": "정답은 '군사 개선문'입니다. 트럼프 대통령은 250피트 높이의 금박을 입힌 이 구조물이 국방에 관한 것이라고 주장하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 749.8,
+   "en": "The triumphal arch military complex, it's gonna have tremendous drone capability. Or you would say sniper or shooter capability.",
+   "ko": "개선문 군사 복합체는 엄청난 드론 능력을 갖추게 될 것입니다. 저격수나 사수 능력이라고도 할 수 있겠죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 759.9,
+   "en": "Defense Secretary Pete Hegseth has backed Trump up on this rebrand saying recently that the sheer height of the arch would create a quote, \"significant elevation advantage against threats.\"",
+   "ko": "피트 헤그세스 국방장관은 아치의 높이가 '위협에 대해 상당한 고도 우위'를 점할 것이라고 최근 언급하며 트럼프의 이러한 명칭 변경을 지지했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 775.1,
+   "en": "Next question, a San Francisco company is wading into a particularly controversial topic right now with a new pitch for homeowners.",
+   "ko": "다음 질문입니다. 샌프란시스코의 한 회사가 집주인들을 향한 새로운 제안을 통해 현재 특히 논란이 되고 있는 주제에 뛰어들고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 784.2,
+   "en": "In exchange for having access to a bit of space, the site of your home will help the customers pay for the energy and internet bill as well.",
+   "ko": "약간의 공간을 제공하는 대가로, 여러분의 집 부지는 고객들이 에너지 및 인터넷 요금을 지불하는 데 도움을 줄 것입니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 791.4,
+   "en": "The company wants to install new gray boxy units in people's backyards.",
+   "ko": "이 회사는 사람들의 뒷마당에 새로운 회색 상자 모양의 장치를 설치하고 싶어 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 796.8,
+   "en": "It's roughly the size of two air conditioning compressors on the side of your home sitting on a concrete pad, so it's about eight feet wide.",
+   "ko": "집 옆에 있는 에어컨 실외기 두 개 정도의 크기로, 콘크리트 패드 위에 놓이며 너비는 약 8피트입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 803.6,
+   "en": "Each unit has a big fan in it, but the company promises it's only about as loud as an electric toothbrush. What does this company want to install in your yard?",
+   "ko": "각 장치에는 큰 팬이 들어 있지만, 회사 측은 소음이 전동 칫솔 수준에 불과하다고 약속합니다. 이 회사가 여러분의 마당에 설치하고 싶어 하는 것은 무엇일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 819.1,
+   "en": "The answer? We've essentially designed this to be a data center in a box. A data center, a micro one anyway.",
+   "ko": "정답은요? 저희는 기본적으로 이것을 상자 안의 데이터 센터로 설계했습니다. 어쨌든 소형 데이터 센터죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 827.1,
+   "en": "The theory is that instead of building the kind of big behemoth data centers that have become so controversial, the computing work could be spread across thousands of backyards instead.",
+   "ko": "그 이론은 논란이 되고 있는 거대한 데이터 센터를 짓는 대신, 컴퓨팅 작업을 수천 개의 뒷마당으로 분산시키자는 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 841.8,
+   "en": "And we're into the final stretch here. On the back of Democrats' blue wave last week, we've got questions about the old lives of some of the newly elected officials.",
+   "ko": "이제 마지막 단계입니다. 지난주 민주당의 '블루 웨이브'에 힘입어 새로 당선된 몇몇 공직자들의 과거 이력에 대한 질문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 852.3,
+   "en": "Many of them have some surprising little forays on their resumes. We will name the past gig, you name their state. Starting off...",
+   "ko": "그들 중 다수는 이력서에 놀라운 경력들을 가지고 있습니다. 저희가 과거 직업을 말하면, 여러분은 그들의 주를 맞춰주세요. 시작합니다...",
+   "speaker": "Host"
+  },
+  {
+   "start": 861.1,
+   "en": "This is a fire line. Dig it well from the fire stops.",
+   "ko": "이것은 방화선입니다. 불이 멈춘 곳부터 잘 파내세요.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 865.4,
+   "en": "This state elected its first Democratic congressman in 30 years when it went for a candidate who used to be a smoke jumper, fighting wildfires. Which state is it?",
+   "ko": "산불과 싸우는 스모크 점퍼였던 후보를 선택하며 30년 만에 처음으로 민주당 하원의원을 선출한 이 주는 어디일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 876.4,
+   "en": "The fire stops here. That is Montana's Sam Forstag.",
+   "ko": "불은 여기서 멈춥니다. 바로 몬태나의 샘 포스태그입니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 884.3,
+   "en": "Next one. This state's new governor once strutted down runways in Milan and Paris.",
+   "ko": "다음입니다. 이 주의 새 주지사는 한때 밀라노와 파리의 런웨이를 누볐습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 891.2,
+   "en": "We were a model for a second. I was, yeah.",
+   "ko": "잠시 모델 일을 하셨었죠. 네, 그랬습니다.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 894.6,
+   "en": "He doesn't talk about it often, but has said it was a good way to make extra cash when he was young.",
+   "ko": "그는 이에 대해 자주 말하지는 않지만, 젊었을 때 용돈을 벌기 좋은 방법이었다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 900.0,
+   "en": "Everything's expensive in college, and I'm like, well, this works, and I could make money doing this great.",
+   "ko": "대학 시절에는 모든 게 비쌌는데, '음, 이 일이 괜찮네, 이걸로 돈을 벌 수 있다니 좋군'이라고 생각했죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 905.0,
+   "en": "That is the governor-elect of Iowa, Rob Sand, who Prada picked before voters did.",
+   "ko": "유권자들이 선택하기 전에 프라다가 먼저 선택했던, 아이오와의 주지사 당선인 롭 샌드입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 914.3,
+   "en": "Next one here. One of this state's new representatives is a Latin Grammy award-winning musician.",
+   "ko": "다음 문제입니다. 이 주의 새로운 대표 중 한 명은 라틴 그래미 어워드 수상 경력이 있는 음악가입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 927.1,
+   "en": "That is Texas with Bobby Pulido, who as part of his voter outreach performed for free at quinceañeras.",
+   "ko": "유권자 홍보 활동의 일환으로 킨세아녜라(15세 축제)에서 무료 공연을 했던 바비 풀리도가 있는 텍사스입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 941.1,
+   "en": "We were a pioneer with respect to fried chicken tenders, at least according to journalists that have looked into this thing. And we sell a lot of them.",
+   "ko": "이 일을 조사한 기자들에 따르면, 저희는 적어도 프라이드 치킨 텐더에 있어서는 선구자였습니다. 그리고 정말 많이 팔고 있죠.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 949.9,
+   "en": "This state's soon-to-be senator is an heir to chicken tenders' royalty.",
+   "ko": "이 주의 곧 부임할 상원의원은 치킨 텐더 왕가의 후계자입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 955.2,
+   "en": "He spent years working at his family restaurant, which is often credited with inventing the fried delicacy.",
+   "ko": "그는 이 튀김 요리를 발명한 것으로 종종 알려진 가족 식당에서 수년간 일했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 961.4,
+   "en": "I mean, I started working there and busting tables and washing dishes when I was 14.",
+   "ko": "그러니까, 14살 때부터 거기서 일하며 테이블을 치우고 설거지를 하기 시작했어요.",
+   "speaker": "Clip"
+  },
+  {
+   "start": 964.7,
+   "en": "That is New Hampshire, where Chris Pappas put in his time at the Puritan Backroom restaurant in Manchester.",
+   "ko": "크리스 파파스가 맨체스터의 퓨리턴 백룸 레스토랑에서 경력을 쌓았던 뉴햄프셔입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 974.0,
+   "en": "That is all for now, but we could have kept going.",
+   "ko": "지금으로선 여기까지지만, 계속할 수도 있었을 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 976.9,
+   "en": "I didn't even tell you about Nathan Johnson, who's set to replace Ken Paxton as the Attorney General of Texas.",
+   "ko": "켄 팩스턴의 뒤를 이어 텍사스 법무장관이 될 네이선 존슨에 대해서는 아직 말씀드리지도 않았네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 983.1,
+   "en": "He used to be a composer who helped score the anime series Dragon Ball Z. That is range.",
+   "ko": "그는 애니메이션 시리즈 '드래곤볼 Z'의 음악 작업을 도왔던 작곡가였습니다. 정말 스펙트럼이 넓네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 993.9,
+   "en": "That's it for this week's News Quiz. If you want to tell us how you did or what your favorite politician backstory that we missed is, our email is theheadlines@nytimes.com.",
+   "ko": "이번 주 뉴스 퀴즈는 여기까지입니다. 여러분이 몇 문제나 맞혔는지, 혹은 저희가 놓친 흥미로운 정치인 뒷이야기가 있다면 theheadlines@nytimes.com으로 이메일을 보내주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1004.2,
+   "en": "I'm Tracy Mumford, the show will be back on Monday.",
+   "ko": "저는 트레이시 멈포드였고요, 프로그램은 월요일에 다시 돌아오겠습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
