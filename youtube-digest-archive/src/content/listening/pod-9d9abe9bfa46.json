@@ -1,0 +1,1136 @@
+{
+ "id": "pod-9d9abe9bfa46",
+ "title": "Essentials: How Emotions & Social Factors Impact Learning | Dr. Mary Helen Immordino-Yang",
+ "show": "Huberman Lab",
+ "channel": "Scicomm Media",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/SCIM7026611161.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/68e09d8a-de5d-11f1-a42c-ff5c732501e4/image/c939ff80ce31857dd7c3855498b342f4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 2316,
+ "releaseDate": "2026-11-12T09:00:00.000Z",
+ "addedAt": "2026-11-13",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based tools for mental health, physical health, and performance.",
+   "ko": "정신 건강, 신체 건강 및 수행 능력을 위한 가장 강력하고 실행 가능한 과학 기반 도구를 살펴보기 위해 과거 에피소드를 다시 찾아보는 Huberman Lab Essentials에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 11.4,
+   "en": "I'm Andrew Huberman, and I'm a professor of neurobiology and ophthalmology at Stanford School of Medicine. And now for my discussion with Dr. Mary Helen Immordino-Yang.",
+   "ko": "저는 스탠포드 의과대학의 신경생물학 및 안과 교수인 앤드류 허버먼입니다. 이제 메리 헬렌 이모르디노-양 박사님과의 토론을 시작하겠습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 21.4,
+   "en": "Dr. Immordino-Yang.",
+   "ko": "이모르디노-양 박사님.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 23.6,
+   "en": "Good to be here.",
+   "ko": "여기 오게 되어 기쁘네요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 24.5,
+   "en": "Great to have you. I've heard you talk before about inspiration and awe.",
+   "ko": "모시게 되어 영광입니다. 이전에 영감과 경외심에 대해 말씀하시는 것을 들은 적이 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 30.3,
+   "en": "Inspiration and awe seem to me kind of rather high level emotional experiences compared to say fear or happiness.",
+   "ko": "영감과 경외심은 공포나 행복과 비교했을 때 다소 높은 수준의 감정적 경험처럼 느껴집니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 39.3,
+   "en": "What is the role of inspiration and awe and story in how we learn and experience life starting at a young age?",
+   "ko": "어린 시절부터 우리가 삶을 배우고 경험하는 방식에서 영감과 경외심, 그리고 이야기의 역할은 무엇인가요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 49.9,
+   "en": "Yeah I mean I think what you've noticed is actually fundamental to the conundrum of being a human is that our most high level complex brain states, mind states are also fundamentally hooking themselves into the most basic biological machinery that keeps us alive.",
+   "ko": "네, 제 말은 당신이 알아차린 것이 사실 인간이 된다는 수수께끼의 근본적인 부분이라는 것입니다. 우리의 가장 높은 수준의 복잡한 뇌 상태, 즉 정신 상태는 우리를 살아있게 하는 가장 기본적인 생물학적 기제와 근본적으로 연결되어 있다는 점이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 69.0,
+   "en": "Our beliefs, our experiences, our interpretations of the meaning of things, which that's where the story comes in, the stories that we conjure about, you know, collectively with other people culturally and spaces inside ourselves.",
+   "ko": "우리의 믿음, 경험, 사물의 의미에 대한 해석, 바로 여기서 이야기가 등장하는데요, 우리가 문화적으로 다른 사람들과 공동으로, 그리고 우리 내면의 공간에서 만들어내는 이야기들 말입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 83.3,
+   "en": "Also, those stories become kind of the through line that organizes the way in which we construct our own experience, consciousness even I would say.",
+   "ko": "또한, 그러한 이야기들은 우리가 자신의 경험을 구성하는 방식, 심지어 의식까지도 조직화하는 일종의 일관된 줄거리가 됩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 93.7,
+   "en": "When we hook into those very basic survival systems by recruiting them into these narratives about the nature of reality, the power of the meaning we make, what happens is we get this amazingly both fundamental and high-level state simultaneously.",
+   "ko": "우리가 현실의 본질과 우리가 만들어내는 의미의 힘에 대한 이러한 내러티브에 아주 기본적인 생존 시스템을 끌어들여 연결할 때, 우리는 놀랍도록 근본적이면서도 높은 수준의 상태를 동시에 갖게 됩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 112.2,
+   "en": "where we feel expansive, we feel like it's all so incredibly beautiful, and we are, I would argue, actually ramping into or catching into the very basic survival mechanisms that make us conscious, that make us alive.",
+   "ko": "거기서 우리는 확장감을 느끼고 모든 것이 믿을 수 없을 정도로 아름답다고 느끼게 되며, 저는 우리가 의식을 갖게 하고 살아있게 만드는 아주 기본적인 생존 메커니즘에 실제로 진입하거나 포착되고 있다고 주장하고 싶습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 132.3,
+   "en": "And that's, in essence, the power of being a human. That's the power of our intelligence at this late stage in our evolution.",
+   "ko": "그리고 그것이 본질적으로 인간이 된다는 것의 힘입니다. 그것이 우리 진화의 이 후기 단계에서 우리 지능이 가진 힘입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 139.1,
+   "en": "I've heard you say before, and I love this quote, and I want to make sure that you get attribution for this, not me, that we basically have a brain to control our body.",
+   "ko": "이전에 말씀하시는 걸 들었고, 저는 이 인용구를 정말 좋아하며, 제가 아니라 당신의 말이라는 점을 분명히 하고 싶은데요, 기본적으로 우리는 몸을 조절하기 위해 뇌를 가지고 있다는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 149.2,
+   "en": "Could you comment on this notion of the brain being the organ that's responsible for controlling the body, and what that dialogue is like?",
+   "ko": "뇌가 신체를 조절하는 책임을 진 기관이라는 개념과 그 대화가 어떤 방식인지에 대해 설명해 주시겠습니까?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 157.9,
+   "en": "So the first thing I'll say is that I learned that idea from working with Antonio Damasio. And he taught me first that this notion that it's the feeling of the body.",
+   "ko": "먼저 말씀드리고 싶은 것은 제가 안토니오 다마시오와 함께 일하면서 그 아이디어를 배웠다는 점입니다. 그리고 그는 신체의 느낌이라는 이 개념을 저에게 처음 가르쳐 주었습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 169.9,
+   "en": "It's an organism's ability to represent or map the state of the interior and exterior of the body that becomes the substrate for consciousness and for the mind.",
+   "ko": "의식과 정신의 기질이 되는 것은 신체의 내부와 외부 상태를 표현하거나 매핑하는 유기체의 능력입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 181.8,
+   "en": "The work that I've been doing, It's basically addressing exactly the question that you're asking, which is how is it that we construct a narrative, construct a conscious feeling into something that feels like a narrative.",
+   "ko": "제가 해온 작업은 기본적으로 당신이 묻는 바로 그 질문, 즉 우리가 어떻게 내러티브를 구성하고 의식적인 느낌을 내러티브처럼 느껴지는 것으로 구성하는지에 관한 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 195.8,
+   "en": "that feels like a belief state or an emotion state or an experience, and what is the role of embodiment in that? What is the role of the brain in that?",
+   "ko": "신념 상태나 감정 상태 또는 경험처럼 느껴지는 것으로 말이죠. 그리고 그 과정에서 체화의 역할은 무엇이며 뇌의 역할은 무엇인가요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 204.5,
+   "en": "And what also is the role of the culture and the cultural context and other people in that? Because what we're really learning across the sciences right now is just how incredibly social and interdependent our species is.",
+   "ko": "또한 문화와 문화적 맥락, 그리고 다른 사람들의 역할은 무엇인가요? 왜냐하면 지금 우리가 모든 과학 분야에서 배우고 있는 것은 우리 종이 얼마나 믿을 수 없을 정도로 사회적이고 상호 의존적인가 하는 점이기 때문입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 217.8,
+   "en": "I mean our biology is inherently a social one. We are directly dependent on other people for the formulation of our own sense of self.",
+   "ko": "제 말은 우리의 생물학은 본질적으로 사회적이라는 것입니다. 우리는 우리 자신의 자아감을 형성하기 위해 다른 사람들에게 직접적으로 의존합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 226.7,
+   "en": "and we interact with them on another and construct and co-construct a sense of self and a sense of meaning via those cultural spaces and those sort of nuanced ways of accommodating each other mentally and physically that lead to the feeling of us.",
+   "ko": "그리고 그들과 상호작용하며 '우리'라는 느낌으로 이어지는 문화적 공간과 정신적, 육체적으로 서로를 배려하는 미묘한 방식들을 통해 자아감과 의미를 구성하고 공동 구성합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 243.5,
+   "en": "So back to your original question, what's very clear is that the kind of background sense of the body, the mapping and the regulation of the body is a basic substrate, a kind of trampoline for the mind.",
+   "ko": "그래서 원래 질문으로 돌아가면, 매우 분명한 것은 신체의 배경 감각, 즉 신체의 매핑과 조절이 마음을 위한 기본적인 기질이자 일종의 트램펄린이라는 점입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 261.0,
+   "en": "And so we are managing our survival. You know, we now have lots of evidence from across many kinds of science about the interdependence of our stress and social relationships and our immunity and our ability to digest food.",
+   "ko": "그래서 우리는 생존을 관리하고 있습니다. 아시다시피, 이제 우리는 스트레스와 사회적 관계, 면역력, 그리고 음식을 소화하는 능력 사이의 상호 의존성에 대해 여러 과학 분야에서 얻은 많은 증거를 가지고 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 276.5,
+   "en": "It's even now very clear that it's not even just us. There's a whole microbiome and all kinds of other organisms that are assisting us in that and that are collaborating with us in that.",
+   "ko": "이제는 비단 우리만의 문제가 아니라는 점도 매우 분명해졌습니다. 전체 마이크로바이옴과 온갖 종류의 다른 유기체들이 그 과정을 돕고 우리와 협력하고 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 286.9,
+   "en": "And then the brain is a specialized organ of the body. In fact, it's not a separate thing. It's an outgrowth or an elaboration of that process.",
+   "ko": "그리고 뇌는 신체의 특화된 기관입니다. 사실 뇌는 별개의 것이 아닙니다. 그것은 그 과정의 결과물이거나 정교화된 형태입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 298.4,
+   "en": "It's a specialization of that process, a localization of it in a way that provides enough processing power to be able to really construct all kinds of feelings and mental states and beliefs and imaginings, you know, out of basically just the feeling of being here.",
+   "ko": "그것은 그 과정의 전문화이자 국지화로, 기본적으로 이곳에 존재한다는 느낌으로부터 온갖 종류의 감정과 정신 상태, 신념, 상상을 실제로 구성할 수 있는 충분한 처리 능력을 제공합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 321.7,
+   "en": "And then the amazing part is that our brain is also imposing those back down onto our bodies. So the way in which our body reacts and is modulated in response to mental states is also very real.",
+   "ko": "그리고 놀라운 부분은 우리의 뇌가 그러한 것들을 다시 우리 몸에 부여한다는 점입니다. 그래서 정신 상태에 반응하여 우리 몸이 반응하고 조절되는 방식 또한 매우 실질적입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 336.2,
+   "en": "So we have a kind of like a dynamic conversation happening of brain and body and mind that are kind of co-conjuring one another in real time.",
+   "ko": "그래서 뇌와 몸, 마음이 실시간으로 서로를 만들어내는 일종의 역동적인 대화가 일어나고 있는 셈입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 346.7,
+   "en": "And that leads to all kinds of dynamic possibility spaces for how we are and how we feel as we grow through time.",
+   "ko": "그리고 그것은 우리가 성장함에 따라 우리가 어떻게 존재하고 느끼는지에 대한 온갖 종류의 역동적인 가능성의 공간으로 이어집니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 354.5,
+   "en": "And I think as humans, the legacy of our intelligence is to tap into those possibility spaces and start to construct them into meaningful sort of chains of ideas, chains of experiences over time that we call story.",
+   "ko": "그리고 저는 인간으로서 우리 지능의 유산은 그러한 가능성의 공간을 활용하고, 시간이 지남에 따라 그것들을 우리가 '이야기'라고 부르는 의미 있는 일련의 아이디어와 경험의 사슬로 구성하기 시작하는 것이라고 생각합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 370.1,
+   "en": "I'd like to take a quick break and acknowledge one of our sponsors, Element. Element is an electrolyte drink that has everything you need and nothing you don't.",
+   "ko": "잠시 쉬어가며 후원사 중 하나인 Element를 소개해 드리고자 합니다. Element는 필요한 모든 것은 들어있고 불필요한 것은 전혀 없는 전해질 음료입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 377.4,
+   "en": "That means the electrolytes, sodium, magnesium, and potassium in the correct amounts but no sugar. Proper hydration is critical for optimal brain and body function.",
+   "ko": "즉, 설탕 없이 적절한 양의 나트륨, 마그네슘, 칼륨 등의 전해질이 들어있다는 뜻입니다. 적절한 수분 공급은 최적의 뇌와 신체 기능을 위해 필수적입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 386.2,
+   "en": "Even a slight degree of dehydration can diminish cognitive and physical performance. It's also important that you get adequate electrolytes.",
+   "ko": "아주 가벼운 탈수 증상이라도 인지 및 신체 능력을 저하시킬 수 있습니다. 또한 적절한 전해질을 섭취하는 것도 중요합니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 392.9,
+   "en": "The electrolytes, sodium, magnesium, and potassium are vital for functioning of all the cells in your body, especially your neurons or your nerve cells.",
+   "ko": "나트륨, 마그네슘, 칼륨과 같은 전해질은 신체의 모든 세포, 특히 뉴런이나 신경 세포의 기능에 필수적입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 400.8,
+   "en": "Drinking element dissolved in water makes it very easy to ensure that you're getting adequate hydration and adequate electrolytes.",
+   "ko": "물에 녹인 Element를 마시면 적절한 수분과 전해질을 매우 쉽게 보충할 수 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 406.9,
+   "en": "To make sure that I'm getting proper amounts of hydration and electrolytes, I dissolve one packet of element in about 16 to 32 ounces of water when I first wake up in the morning, and I drink that basically first thing in the morning.",
+   "ko": "적절한 양의 수분과 전해질을 섭취하기 위해 저는 아침에 일어나자마자 약 16~32온스의 물에 Element 한 포를 녹여 마십니다. 기본적으로 아침에 가장 먼저 하는 일이죠.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 417.8,
+   "en": "I'll also drink element dissolved in water during any kind of physical exercise that I'm doing, especially on hot days when I'm sweating a lot and losing water and electrolytes.",
+   "ko": "또한 신체 운동을 할 때, 특히 땀을 많이 흘려 수분과 전해질을 잃기 쉬운 더운 날에도 물에 녹인 Element를 마십니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 426.1,
+   "en": "Element has a bunch of great tasting flavors. I love the raspberry, I love the citrus flavor. Right now, element has a limited edition lemonade flavor that is absolutely delicious.",
+   "ko": "Element에는 맛있는 풍미가 많이 있습니다. 저는 라즈베리 맛과 시트러스 맛을 좋아합니다. 현재 Element에는 정말 맛있는 한정판 레모네이드 맛이 나와 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 435.3,
+   "en": "I hate to say that I love one more than all the others, but this lemonade flavor is right up there with my favorite other one, which is raspberry or watermelon. Again, I can't pick just one flavor, I love them all.",
+   "ko": "하나를 다른 것들보다 더 좋아한다고 말하기는 어렵지만, 이 레모네이드 맛은 제가 가장 좋아하는 라즈베리나 수박 맛과 어깨를 나란히 합니다. 다시 말씀드리지만 하나만 고를 수 없을 정도로 다 좋습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 445.2,
+   "en": "If you'd like to try element, you can go to drinkelement.com/huberman, Spelt drinklmnt.com/huberman to claim a free element sample pack with a purchase of any element drink mix. Again, that's drinkelement.com/huberman to claim a free sample pack.",
+   "ko": "Element를 체험해보고 싶으시다면, drinkelement.com/huberman(drinklmnt.com/huberman)에 접속하여 제품 구매 시 무료 샘플 팩을 받으실 수 있습니다. 다시 말씀드리면 drinkelement.com/huberman에서 무료 샘플 팩을 받으세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 461.7,
+   "en": "I'm fascinated by the idea that early in life we experience some interaction with the world it could be with other people could be with an object in the world and it makes us feel something powerful.",
+   "ko": "인생 초기에 세상과 어떤 상호작용을 경험하고, 그것이 타인일 수도 있고 세상의 사물일 수도 있으며, 그것이 우리에게 강력한 무언가를 느끼게 한다는 생각에 매료되었습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 475.1,
+   "en": "and that lays a template of recognition, meaning that later in life and perhaps throughout life, we're always consciously or subconsciously going back to trying to experience that same kind of awe or inspiration.",
+   "ko": "그리고 그것이 인식의 템플릿을 형성한다는 것이죠. 즉 훗날 인생에서, 어쩌면 평생 동안 우리는 의식적으로든 무의식적으로든 항상 그와 같은 종류의 경외심이나 영감을 다시 경험하려고 노력한다는 뜻입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 490.5,
+   "en": "So is what we're learning across the lifespan a recognition of feelings in our body or is it cognitive or both?",
+   "ko": "그렇다면 우리가 평생에 걸쳐 배우는 것은 우리 몸의 감각을 인식하는 것인가요, 아니면 인지적인 것인가요, 아니면 둘 다인가요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 498.7,
+   "en": "Yeah, it's a dynamic emergency. Let me give you an example so that I use sometimes to help myself understand the notion. My little daughter, okay, Nora, when she was two.",
+   "ko": "네, 그것은 역동적인 발현입니다. 제가 이 개념을 이해하기 위해 가끔 사용하는 예를 하나 들어보겠습니다. 제 어린 딸 노라가 두 살이었을 때의 일입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 509.1,
+   "en": "I was sitting in the kitchen one day, drinking a cup of tea. I was sad about something that happened in my life. But I, you know, I wasn't weeping or anything. I was just sitting there.",
+   "ko": "어느 날 부엌에 앉아 차를 마시고 있었습니다. 제 삶에서 일어난 어떤 일 때문에 슬픈 상태였죠. 하지만 울고 있거나 하지는 않았습니다. 그냥 앉아 있었죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 516.7,
+   "en": "I must have looked kind of, you know, lost in my own thoughts. She's playing around on the floor. She comes over to me and noticed I wasn't really there with her.",
+   "ko": "생각에 잠겨 있는 것처럼 보였을 거예요. 아이는 바닥에서 놀고 있었고요. 아이는 저에게 다가와 제가 자신과 함께 있지 않다는 것을 알아차렸습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 522.8,
+   "en": "My arm was hanging down. She picked up my arm and she held it against her face like that. And she said, \"Don't worry, mama. I'll take care of you.\"",
+   "ko": "제 팔은 아래로 늘어져 있었죠. 아이는 제 팔을 들어 자신의 얼굴에 갖다 댔습니다. 그리고 아이는 \"걱정 마, 엄마. 내가 돌봐줄게\"라고 말했습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 531.5,
+   "en": "And I said, \"Oh, Nora, that's so sweet. Sweetie, I'll take care of you too.\" And she said, \"And mama, I will we love you. I really love you.\"",
+   "ko": "저는 \"오, 노라, 정말 고맙구나. 아가야, 나도 너를 돌봐줄게\"라고 답했죠. 그러자 아이는 \"그리고 엄마, 나는 우리가 당신을 사랑해요. 정말 사랑해요\"라고 말하더군요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 540.2,
+   "en": "And then she said, \"I mean, I really love y'all. Oh, I really love your arm.\" Right? Fast forward two years later, almost exactly two years.",
+   "ko": "그러더니 다시 \"그러니까, 당신들 모두를 정말 사랑해요. 오, 엄마 팔을 정말 사랑해요\"라고 말하는 거예요. 그렇죠? 거의 정확히 2년이 지난 후로 가보겠습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 549.9,
+   "en": "She's four in a couple months. And she was in bed one night laying in her bed in the dark. And I walked by and I listened at the door to see if she was asleep in there.",
+   "ko": "아이는 몇 달 후면 네 살이 됩니다. 어느 날 밤 아이는 어둠 속에서 침대에 누워 있었습니다. 저는 문 옆을 지나가다 아이가 잠들었는지 확인하려고 문 앞에서 소리를 들었습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 556.7,
+   "en": "And I hear this little whisper comes out. And she says, \"Mama, I love you more than and I'm glad that there's daytime.\" What's changed developmentally from her at age two, to her at age four, right?",
+   "ko": "그런데 작은 속삭임이 들렸어요. 아이는 \"엄마, 낮이 있어서 다행인 것보다 엄마를 더 사랑해\"라고 말하고 있었습니다. 2살 때와 4살 때, 발달적으로 무엇이 변했을까요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 570.3,
+   "en": "I would argue that the physiological substrate of her attachment to her mother is probably quite similar.",
+   "ko": "저는 엄마에 대한 애착의 생리적 기질은 아마도 비슷할 것이라고 주장하고 싶습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 576.6,
+   "en": "She had this sort of visceral, automatic biological, you might say, attachment, connection to me emotionally that she was trying to leverage in the service of making sense of being active in that world and adapting herself to the situation.",
+   "ko": "아이는 저와 정서적으로 일종의 본능적이고 자동적인 생물학적 애착과 연결을 맺고 있었으며, 그 세상에서 활동하는 것을 이해하고 상황에 적응하는 데 이를 활용하려고 노력했습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 594.4,
+   "en": "helping me in the first case, right? But what's changed remarkably is not the substrate of that attachment, it's her ability to conceptualize it, right?",
+   "ko": "첫 번째 사례에서처럼 저를 돕기 위해서 말이죠. 하지만 현저하게 변한 것은 그 애착의 기질이 아니라 그것을 개념화하는 능력입니다. 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 604.2,
+   "en": "When she's two, her love is experienced as this incredibly concrete, embodied, real, physical thing. Like, \"I love you, I mean, I really love the body part, I am currently smushing against my face,\" right?",
+   "ko": "아이가 두 살일 때 사랑은 믿을 수 없을 정도로 구체적이고 체화된, 실제적인 물리적 대상으로 경험됩니다. 예를 들어 \"엄마 사랑해, 그러니까 지금 내 얼굴에 비비고 있는 이 신체 부위를 정말 사랑해\" 같은 식이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 618.8,
+   "en": "Whereas two years later she can conceptualize that love in terms of an idea, which is, you know, wouldn't it be awful if there was nighttime all the time and there was no sunshine and daylight and I couldn't go out to play?",
+   "ko": "반면 2년 후 아이는 그 사랑을 하나의 아이디어로 개념화할 수 있게 됩니다. \"만약 항상 밤만 있고 햇빛도 낮도 없어서 나가서 놀 수 없다면 정말 끔찍하지 않을까?\" 하는 생각 말이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 633.1,
+   "en": "So she's thinking about how much she is grateful for there to be sunlight and in her little mind she connected that to the feeling of being attached to me and used one to explain the other, right? So that both things now have meaning.",
+   "ko": "즉, 아이는 햇빛이 있다는 것에 얼마나 감사한지 생각하고 있었고, 그 어린 마음속에서 그것을 저에게 애착을 느끼는 감정과 연결하여 한 가지로 다른 한 가지를 설명한 것입니다. 이제 두 가지 모두가 의미를 갖게 된 것이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 647.3,
+   "en": "And that is the way. That is the way I think that we start to elaborate these very basic physiological attachment states, aversion states, right?",
+   "ko": "그리고 그것이 방식입니다. 그것이 우리가 이러한 매우 기본적인 생리적 애착 상태나 혐오 상태를 정교화하기 시작하는 방식이라고 생각합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 658.1,
+   "en": "Motivational states of various sorts into mental states, beliefs, poems, you know, love songs, all the things that she does, right, even between age two and age four, that really are mental elaborations, meaning making, of that very physiologically basic sensation.",
+   "ko": "다양한 종류의 동기 부여 상태를 정신 상태, 신념, 시, 연가 등 아이가 2살에서 4살 사이에 하는 모든 것들로 바꾸는 것이죠. 그것들은 정말로 매우 생리적으로 기본적인 감각을 정신적으로 정교화하고 의미를 부여하는 과정입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 681.6,
+   "en": "So the contact with your arm was the life example that she was using it as a two-year-old that maps to an internal feeling.",
+   "ko": "그러니까 당신의 팔과의 접촉은 아이가 두 살 때 내면의 감정과 매칭하기 위해 사용했던 삶의 예시였군요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 695.3,
+   "en": "So the question is, is what we are doing across the lifespan is recognizing sort of, I don't wanna call them primitives, but basic emotional states, which are not infinite, but can be each one along a continuum.",
+   "ko": "질문은 우리가 평생 동안 하는 일이, '원시적'이라고 부르고 싶지는 않지만 기본적인 감정 상태들을 인식하는 것인가 하는 점입니다. 이 감정들은 무한하지는 않지만 각각 연속체 상에 있을 수 있죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 713.8,
+   "en": "So a little bit of love, completely in love, along a continuum, everything in between. I mean, a little angry and annoyed to completely furious.",
+   "ko": "즉, 약간의 사랑부터 완전히 사랑에 빠진 상태까지, 그 사이의 모든 것이 연속체 상에 있습니다. 약간 화가 나고 짜증 나는 것부터 완전히 분노한 상태까지 말이죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 724.4,
+   "en": "Are we talking about maybe 10 to 30 core emotions that then we are just simply bending our experiences into and onto and mapping onto? And then that's our life story. Is that the way to think about it?",
+   "ko": "우리가 아마도 10개에서 30개 정도의 핵심 감정을 가지고 우리의 경험을 그 감정들에 맞춰 구부리고 매핑하는 것에 대해 이야기하고 있는 건가요? 그리고 그것이 우리의 인생 이야기가 되는 것이고요. 그렇게 생각하면 될까요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 737.5,
+   "en": "I mean, I think, yes, I think there's an awful lot of basic physiological mechanisms that become motivational mechanisms, right? in all the senses, adaptive mechanisms that we share with all life forms.",
+   "ko": "네, 제 생각에는 동기 부여 메커니즘이 되는 아주 많은 기본적인 생리적 기제들이 있다고 봅니다. 모든 의미에서 우리가 모든 생명체와 공유하는 적응 기제들이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 754.0,
+   "en": "What we basically are doing is taking these very primitive physiological regulatory capacities that are essentially there to keep you alive.",
+   "ko": "기본적으로 우리가 하고 있는 일은 본질적으로 생존을 위해 존재하는 매우 원시적인 생리적 조절 능력을 가져오는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 763.1,
+   "en": "And we conjure out of them a form of consciousness, an awareness of those processes that becomes something that feels mentally powerful to us.",
+   "ko": "그리고 우리는 그것들로부터 일종의 의식, 즉 우리에게 정신적으로 강력하게 느껴지는 무언가가 되는 그러한 과정들에 대한 인식을 만들어냅니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 775.0,
+   "en": "And then we start to build more and more facility, more and more sort of wisdom around conjuring the story that makes the most direct parsimonious sense out of the things that you imagine somebody else may have experienced given the complexities of the context in which they find themselves.",
+   "ko": "그러고 나서 우리는 타인이 처한 복잡한 맥락을 고려할 때 그들이 경험했을 것으로 짐작되는 것들로부터 가장 직접적이고 간결하게 이해되는 이야기를 만들어내는 능숙함과 지혜를 점점 더 쌓아갑니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 792.9,
+   "en": "It becomes more and more dynamic, more and more sort of inferential. This also goes back to what you were saying about development. This is actually how I see development across the lifespan.",
+   "ko": "그것은 점점 더 역동적이고 추론적으로 변합니다. 이것은 또한 당신이 발달에 대해 말했던 부분으로 돌아가는데요, 이것이 실제로 제가 평생에 걸친 발달을 바라보는 방식입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 804.2,
+   "en": "My little two year old loves the arm. Then she loves me as much as something else that she really appreciates like daylight. And then she goes on from there.",
+   "ko": "제 작은 두 살짜리 아이는 제 팔을 사랑합니다. 그러다 햇빛처럼 정말 소중하게 생각하는 다른 무언가만큼 저를 사랑하게 되죠. 그리고 거기서 계속 나아갑니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 814.1,
+   "en": "And when she's 80, God willing someday, right, she'll be making a different kind of story, picking out things that matter in more subtle ways that other people may not notice because of the historical context, because of her more lived experience that she brings to that story, right?",
+   "ko": "그리고 언젠가 아이가 80세가 되면, 역사적 맥락이나 그 이야기에 담긴 더 많은 삶의 경험 때문에 다른 사람들은 알아차리지 못할 수도 있는 더 미묘한 방식으로 중요한 것들을 골라내어 다른 종류의 이야기를 만들고 있을 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 831.5,
+   "en": "So the things that become salient, the things you learn how to notice and build a story out of are developmental and they're learned across time.",
+   "ko": "따라서 두드러지게 나타나는 것들, 즉 인지하는 법을 배우고 이야기를 구축하는 것들은 발달적인 것이며 시간이 지나면서 학습됩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 840.8,
+   "en": "But the basic fundamental processes around the emotions are always driving the need to make the story.",
+   "ko": "하지만 감정을 둘러싼 기본적인 토대 과정들은 항상 이야기를 만들고자 하는 욕구를 이끌어냅니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 849.0,
+   "en": "So when we are perceiving things, either very basic things like a visual scene or hugely complex elaborate things like Martin Luther King's speech, we are as much imposing onto the world our own expectations of what is there as we are perceiving what's actually there, right?",
+   "ko": "따라서 시각적 장면 같은 매우 기본적인 것이든, 마틴 루터 킹의 연설처럼 엄청나게 복잡하고 정교한 것이든 우리가 무언가를 지각할 때, 우리는 실제로 그곳에 있는 것을 지각하는 만큼이나 그곳에 무엇이 있을지에 대한 우리 자신의 기대를 세상에 투영하고 있는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 872.5,
+   "en": "So as we impose onto the world we bring what you might call our cultural ways of seeing and knowing our values and and we push them onto the experience of what we notice.",
+   "ko": "세상에 투영하면서 우리는 소위 문화적인 관점과 지식, 가치관을 가져와 우리가 알아차리는 경험에 밀어 넣습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 886.6,
+   "en": "So even in very basic ways, things like cultural values change the way in which people observe and remember scenes, right?",
+   "ko": "아주 기본적인 방식에서도 문화적 가치관 같은 것들이 사람들이 장면을 관찰하고 기억하는 방식을 바꿉니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 896.2,
+   "en": "So, you know, there's classic work by Shinobu Kitayama and other people showing that in Japan versus in the US, when you show people a scene of, you know, like an underwater scene with like all the beautiful things that are underwater rocks and plants and things and the little fish swimming by and then one big fish swimming by, right?",
+   "ko": "시노부 기타야마 등의 고전적인 연구를 보면 일본과 미국에서 바닷속 바위, 식물, 헤엄치는 작은 물고기들, 그리고 큰 물고기 한 마리가 지나가는 아름다운 수중 장면을 사람들에게 보여주었을 때 차이가 나타납니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 914.7,
+   "en": "And you ask a Japanese person, \"What's this a picture of?\" They tend to talk about it's a scene of rocks and plants and little fish and then a big fish swims by.",
+   "ko": "일본 사람에게 \"이것은 무엇에 관한 그림인가요?\"라고 물으면, 그들은 바위와 식물, 작은 물고기들이 있는 장면이고 그 사이로 큰 물고기가 지나간다고 말하는 경향이 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 924.0,
+   "en": "If you ask an American Western educated person, \"What is this picture of?\" They say, \"Oh, it's a fish swimming through a scene.\" He's shown that this is very, very automatic.",
+   "ko": "서구 교육을 받은 미국인에게 \"이것은 무엇에 관한 그림인가요?\"라고 물으면 \"물고기가 장면 속을 헤엄쳐 지나가는 그림입니다\"라고 말합니다. 그는 이것이 매우 자동적으로 일어난다는 것을 보여주었습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 934.1,
+   "en": "It's very low level. It's perceptual, not just conceptual and it actually changes what people actually notice in the scene and what they remember later and all that kind of stuff, right?",
+   "ko": "그것은 매우 낮은 수준에서 일어납니다. 단지 개념적인 것이 아니라 지각적인 것이며, 실제로 사람들이 장면에서 무엇을 알아차리고 나중에 무엇을 기억하는지 등을 변화시킵니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 943.4,
+   "en": "We learn how to sort of filter input. We're not little robots or little video cameras walking around observing the world.",
+   "ko": "우리는 입력을 필터링하는 법을 배웁니다. 우리는 세상을 관찰하며 돌아다니는 작은 로봇이나 비디오카메라가 아닙니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 955.1,
+   "en": "And so when we see something as complex as a social story, we impose onto that all kinds of personal experiences. So what we're really doing is moving through the world, not in this kind of receptive, passive way, but we are actively imposing ourselves onto the world.",
+   "ko": "그래서 사회적 이야기처럼 복잡한 것을 볼 때 우리는 온갖 종류의 개인적인 경험을 그 위에 투영합니다. 그래서 우리가 실제로 하는 일은 수용적이고 수동적인 방식으로 세상을 살아가는 것이 아니라, 우리 자신을 세상에 적극적으로 투영하는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 974.2,
+   "en": "We're actively bringing our interpretive power and adapting what we do next relative to the way in which we accommodate, right, Piaget talked about this 100 years ago, accommodate or assimilate those things into us that may disagree with our schema, that may align and accord and reinforce them.",
+   "ko": "우리는 해석 능력을 적극적으로 발휘하고, 우리의 도식과 맞지 않을 수도 있는 것들을 수용하거나 동화시키는 방식에 따라 다음에 할 행동을 조정합니다. 피아제가 100년 전에 말했던 수용과 동화, 즉 그것들이 우리 도식과 일치하여 강화될 수도 있는 과정이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 995.6,
+   "en": "This matters a lot for the ways that humans experience the world more broadly, because think about, for example, a terrible topic like genocide or the Holocaust, right? How does something like that happen, right?",
+   "ko": "이것은 인간이 세상을 더 넓게 경험하는 방식에 매우 중요합니다. 예를 들어 대량 학살이나 홀로코스트 같은 끔찍한 주제를 생각해 보세요. 어떻게 그런 일이 일어날 수 있을까요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1007.7,
+   "en": "How is it that people who have empathy, who love their family, who love their neighbors, can suddenly turn on each other, right?",
+   "ko": "공감 능력이 있고, 가족을 사랑하고, 이웃을 사랑하는 사람들이 어떻게 갑자기 서로에게 등을 돌릴 수 있는 걸까요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1016.3,
+   "en": "What's happened is they've shifted the way in which they narratize the context of those events, the way in which they impose interpretation on somebody else's pain has been fundamentally shifted from \"that's another human suffering\" to \"that's not a human.\"",
+   "ko": "일어난 일은 그들이 그러한 사건의 맥락을 이야기하는 방식을 바꾼 것입니다. 타인의 고통에 해석을 부여하는 방식이 '저것은 다른 인간의 고통이다'에서 '저것은 인간이 아니다'로 근본적으로 바뀐 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1034.3,
+   "en": "\"That's a rat, a pig, a bug, or whatever it is,\" right? And that dehumanization process allows us to shift our story set so that we bring another set of values and beliefs into the space.",
+   "ko": "\"저것은 쥐나 돼지, 벌레 같은 것이다\"라고 말이죠. 그리고 그러한 비인간화 과정은 우리가 이야기 세트를 전환하여 그 공간에 다른 가치관과 신념을 가져올 수 있게 합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1048.4,
+   "en": "I'm just glad that you brought up this example because I think that for a lot of people, it's inconceivable.",
+   "ko": "많은 사람에게 그것은 상상도 할 수 없는 일이기 때문에 이 예를 들어주셔서 기쁩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1055.9,
+   "en": "But I've never heard it framed the way that you're describing it, which is that if the story becomes not about the other person suffering, but primarily about one's own story of suffering and that can suppress or literally inhibit the neural circuits that invoke empathy, then it makes perfectly good neurobiological sense as to why that would at least be possible.",
+   "ko": "하지만 당신이 설명하는 방식처럼, 이야기가 타인의 고통에 관한 것이 아니라 주로 자신의 고통에 관한 이야기가 되고, 그것이 공감을 불러일으키는 신경 회로를 억제하거나 말 그대로 차단할 수 있다면, 적어도 그것이 왜 가능한지에 대해 신경생물학적으로 완벽하게 설명이 된다는 말은 처음 들어봅니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1077.8,
+   "en": "Of course, I don't think it's a good thing. It's just like many aspects of our biology and psychology. It just happens to be the way things are.",
+   "ko": "물론 그것이 좋은 일이라고 생각하지는 않습니다. 우리 생물학과 심리학의 많은 측면과 마찬가지로 그냥 현실이 그렇다는 것이죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1086.1,
+   "en": "It is. I think it really, I think, I'm ever the optimist. I'm also ever the educator. I'm a teacher. I'm also very interested in the ways that we design educational experiences for young people.",
+   "ko": "그렇습니다. 저는 언제나 낙관주의자이고 교육자입니다. 저는 교사이기도 하죠. 또한 저는 젊은이들을 위한 교육적 경험을 설계하는 방식에도 매우 관심이 많습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1100.5,
+   "en": "I think the only hope we have to protect ourselves against these possibilities is to systematically develop dispositions in ourselves, proclivities within ourselves, to question our own motives, and to deconstruct our own assumptions about situations, and to engage with other people's perspectives systematically.",
+   "ko": "이러한 가능성으로부터 우리 자신을 보호할 수 있는 유일한 희망은 우리 자신의 동기에 의문을 제기하고, 상황에 대한 우리 자신의 가정을 해체하며, 타인의 관점에 체계적으로 관여하는 성향과 기질을 우리 내면에 체계적으로 개발하는 것이라고 생각합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1125.3,
+   "en": "And when we develop those dispositions, the hope is that we are developing within ourselves a kind of a veto system, a system for checking our own motivations against other people's experiences of those motivations.",
+   "ko": "그리고 그러한 성향을 기를 때, 다른 사람들의 경험에 비추어 우리 자신의 동기를 점검하는 일종의 거부권 시스템을 우리 내면에 구축할 수 있게 되기를 희망합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1144.9,
+   "en": "So much of what's leading, I think, now we're going in another direction and kind of a political direction, but somewhat what's leading us into these very divisive political types, for example, not just the rise of authoritarianism, not just in the US or the threat of it, not just in the US, but around many places in the world, all of which, by the way, are Western educated, is that we are taught that to know something means you own something in yourself and then you take that with you and you impose it on the world forevermore.",
+   "ko": "예를 들어 미국뿐만 아니라 전 세계 여러 곳에서 권위주의가 부상하거나 그 위협이 나타나는 것과 같이 매우 분열적인 정치적 양상으로 우리를 이끄는 많은 원인은, 어떤 것을 안다는 것은 자기 안에 무언가를 소유한다는 의미이며 그것을 가지고 영원히 세상에 투영하는 것이라고 교육받기 때문입니다. 참고로 이들은 모두 서구식 교육을 받았습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1174.2,
+   "en": "\"I know how to do algebra too and I can do it whenever you ask me\" kind of thing. And that's what a good student is.",
+   "ko": "\"나도 대수학을 할 줄 알고 당신이 물어볼 때마다 할 수 있다\"라는 식이죠. 그리고 그것이 좋은 학생의 모습이라고 여겨집니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1179.1,
+   "en": "Where when people learn to engage with their own knowledge states in more curious, open-minded, flexible ways, then we think what we think we know and, and this is key, developmentally to notice when we need to do that and when we should just plow ahead and it's totally fine.",
+   "ko": "사람들이 더 호기심 많고 개방적이며 유연한 방식으로 자신의 지식 상태에 관여하는 법을 배울 때, 우리는 우리가 안다고 생각하는 것을 다시 생각하게 됩니다. 그리고 발달상으로 언제 그렇게 해야 하는지, 언제 그냥 계속 진행해도 괜찮은지를 알아차리는 것이 핵심입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1204.9,
+   "en": "And so what we're doing, I think, right now to ourselves, both in the education system and in things like social media is we're reinforcing our own biases by diving down rabbit holes where you re-hear the same thing over and over again that reinforces your own belief systems and then you come to believe those things and those put you on a train toward a particular kind of action or belief system that never becomes deconstructed.",
+   "ko": "그래서 지금 교육 시스템과 소셜 미디어 등에서 우리가 하고 있는 일은 자신의 신념 체계를 강화하는 똑같은 이야기를 반복해서 듣는 토끼 굴로 빠져들면서 자신의 편견을 강화하는 것이라고 생각합니다. 그러면 결국 그것들을 믿게 되고, 결코 해체되지 않는 특정한 종류의 행동이나 신념 체계로 향하는 기차에 몸을 싣게 되는 것이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1229.2,
+   "en": "And it's very comfortable and it's easy to do. But the responsibility I think we have as individuals and as groups, as humans, given the amazing intelligence we have, is to rise above that and actually look back on our own selves reflectively and deconstruct our preferences, deconstruct our values and our beliefs.",
+   "ko": "그것은 매우 편안하고 쉽습니다. 하지만 우리가 가진 놀라운 지능을 고려할 때 인간으로서, 개인으로서, 그리고 집단으로서 우리가 가진 책임은 그것을 뛰어넘어 실제로 우리 자신을 성찰적으로 돌아보고 우리의 선호도와 가치관, 신념을 해체하는 것이라고 생각합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1248.7,
+   "en": "and systematically query them, specifically around how they impact or influence or change the situations of those around us or don't, right? The situations and sustainability of the world that supports us or don't.",
+   "ko": "그리고 그것들이 우리 주변 사람들의 상황에 어떻게 영향을 미치거나 변화시키는지, 혹은 그렇지 않은지에 대해 체계적으로 의문을 제기해야 합니다. 우리를 지탱하는 세상의 상황과 지속 가능성에 대해서도 마찬가지죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1266.8,
+   "en": "And so it all comes back to the emotions that drive our thinking. So we have these very basic primitive physiological states, which vary across individuals, the degree to which they are incredibly powerful, easily evoked versus not.",
+   "ko": "결국 모든 것은 우리 사고를 이끄는 감정으로 돌아옵니다. 개인마다 차이가 있긴 하지만, 우리에게는 믿을 수 없을 정도로 강력하고 쉽게 유발되거나 그렇지 않은 매우 기본적인 원시적 생리적 상태가 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1283.3,
+   "en": "There's a lot of range in that. All of that variation makes things interesting, right?",
+   "ko": "거기에는 많은 범위가 있습니다. 그 모든 변동성이 상황을 흥미롭게 만들죠, 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1288.0,
+   "en": "It's our ability to learn to experience those and to develop wisdom around when we need to query our own emotions and deconstruct the narratives that we're using to validate or or substantiate those kinds of emotions, in order to assess whether we actually are right, whether we should continue, or whether we should step back and reframe, right?",
+   "ko": "그것들을 경험하는 법을 배우고, 우리가 정말 옳은지, 계속해야 할지, 아니면 뒤로 물러나 재구성해야 할지 평가하기 위해 언제 자신의 감정에 의문을 제기하고 그 감정을 정당화하거나 입증하는 데 사용하는 내러티브를 해체해야 하는지에 대한 지혜를 기르는 능력입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1318.6,
+   "en": "And so that kind of mental flexibility really comes out of an emotional disposition.",
+   "ko": "그래서 그러한 종류의 정신적 유연성은 실제로는 정서적 성향에서 나옵니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1324.2,
+   "en": "It is our ability, so it takes it back to what you were asking at the very beginning, it is our ability to not just drive from what feels like the bottom up, which of course is always starting in the top down because you've got some interpretation of the world that makes you feel fear, that makes your body do this, that makes you right.",
+   "ko": "그것은 우리의 능력입니다. 아주 처음에 질문하셨던 것으로 돌아가면, 상향식(bottom-up)으로 느껴지는 것에서만 추진력을 얻는 것이 아니라—물론 세상을 해석함으로써 공포를 느끼고 몸이 반응하게 만드는 하향식(top-down)에서 항상 시작되지만—",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1339.4,
+   "en": "but also to be able to rise above, to transcend and think about what are the broader systemic historical ethical civic implications of this narrative I'm telling myself which feels default like the truth and how might I deconstruct those systematically and how might I invite others to give me their version of those events and engage with those systematically in order to be able to really appreciate the implications of my beliefs.",
+   "ko": "그것을 넘어서서, 진실처럼 느껴지는 내가 자신에게 들려주는 이 이야기의 광범위한 체계적, 역사적, 윤리적, 시민적 함의가 무엇인지 생각하고, 어떻게 그것들을 체계적으로 해체하며, 내 신념의 함의를 진정으로 이해하기 위해 어떻게 다른 사람들에게 그 사건에 대한 그들의 버전을 들려달라고 요청하고 체계적으로 관여할 수 있는지에 대한 능력입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1372.1,
+   "en": "So the bottom line is that the emotions that we're talking about today are actually the fundamental drivers of all of our thinking, decision-making, relationship building, right, our community lives and our personal well-being all in one mix, but that doesn't kind of excuse us for acting on their request.",
+   "ko": "결론은 오늘 우리가 이야기하고 있는 감정들이 실제로는 우리의 모든 사고, 의사 결정, 관계 형성, 공동체 생활 및 개인의 안녕을 이끄는 근본적인 원동력이라는 점입니다. 하지만 그렇다고 해서 감정의 요구에 따라 행동하는 것이 정당화되지는 않습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1396.5,
+   "en": "It actually imbues us with a responsibility to then develop dispositions to systematically query those and reframe them when they are not serving us or the world well.",
+   "ko": "오히려 그것들이 우리 자신이나 세상에 도움이 되지 않을 때 체계적으로 의문을 제기하고 재구성하는 성향을 길러야 한다는 책임을 우리에게 부여합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1408.5,
+   "en": "I'd like to take a quick break and acknowledge our sponsor, AG1. I'm excited to share that AG1 has just launched their newest formulation, AG1 Pro.",
+   "ko": "잠시 쉬어가며 후원사인 AG1을 소개해 드리고자 합니다. AG1에서 최신 포뮬러인 AG1 Pro를 출시했다는 소식을 전하게 되어 기쁩니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1417.9,
+   "en": "AG1 Pro takes the clinically-backed AG1 formula, which is a blend of vitamins, minerals, probiotics, and adaptogens, and adds three important new ingredients, creatine monohydrate, calcium, HMB, and zinc carnosine.",
+   "ko": "AG1 Pro는 비타민, 미네랄, 프로바이오틱스, 어댑토젠이 혼합된 임상적으로 입증된 AG1 포뮬러에 크레아틴 모노하이드레이트, 칼슘 HMB, 징크 카르노신이라는 세 가지 중요한 성분을 추가했습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1430.1,
+   "en": "Each serving has 5 grams of creatine monohydrate to support muscle strength and performance, as well as brain health.",
+   "ko": "각 서빙에는 근력과 수행 능력뿐만 아니라 뇌 건강을 지원하는 크레아틴 모노하이드레이트 5g이 들어 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1435.9,
+   "en": "Calcium, HMB to support muscle recovery and reduce muscle breakdown, and zinc carnosine to support and improve the lining of your gut.",
+   "ko": "근육 회복을 돕고 근육 분해를 줄여주는 칼슘 HMB와 장 내벽을 보호하고 개선하는 징크 카르노신도 포함되어 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1442.8,
+   "en": "All three of these ingredients have compelling science to support them, and therefore, I love seeing them added to the existing AG1 formula.",
+   "ko": "이 세 가지 성분 모두 이를 뒷받침하는 강력한 과학적 근거가 있으며, 따라서 기존 AG1 포뮬러에 이들이 추가된 것이 매우 반갑습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1449.7,
+   "en": "As most of you know, I've been taking AG1 every day for nearly 14 years now. I started taking it long before I even knew what a podcast was.",
+   "ko": "많은 분이 아시겠지만, 저는 거의 14년 동안 매일 AG1을 복용해 왔습니다. 팟캐스트가 무엇인지 알기도 훨씬 전부터 복용하기 시작했죠.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1457.2,
+   "en": "It's a great product and it's now made even better with the new AG1 Pro formula. If you would like to try AG1 Pro, you can go to drinkag1.com/huberman to get a special offer.",
+   "ko": "훌륭한 제품이며 이제 새로운 AG1 Pro 포뮬러로 더욱 개선되었습니다. AG1 Pro를 체험해보고 싶으시다면, drinkag1.com/huberman에서 특별 혜택을 받으실 수 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1468.5,
+   "en": "AG1 is giving away a free bottle of Omega 3 co-enzym Q10 with your first subscription. Again, go to drinkag1.com/huberman to get a free bottle of Omega 3 co-enzym Q10 with your first AG1 subscription.",
+   "ko": "AG1에서 첫 구독 시 오메가 3 코엔자임 Q10 한 병을 무료로 증정합니다. 다시 한번 말씀드리면, drinkag1.com/huberman에서 첫 AG1 구독과 함께 오메가 3 코엔자임 Q10 무료 한 병을 받으세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1481.8,
+   "en": "What do you think can be done at a concrete level in terms of education of younger people as well as educational people who are out of high school and beyond to try and adopt these more encompassing modes of learning and experiencing the world?",
+   "ko": "더 포괄적인 학습 및 세상 경험 방식을 채택하기 위해 청소년 교육뿐만 아니라 고등학교 졸업 이상의 교육 인력 차원에서 구체적으로 무엇을 할 수 있다고 생각하시나요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1502.1,
+   "en": "I think one really important step that a society will have to take or we won't make it, and I know that sounds a little dramatic, but I actually think it's true, is that we need to really get brave about how we think about the process of educating our young people.",
+   "ko": "조금 극단적으로 들릴지 모르겠지만 저는 사실이라고 생각하는데, 우리 사회가 취해야 할 정말 중요한 한 걸음은 청소년 교육 과정을 어떻게 생각할 것인지에 대해 정말 용기를 내야 한다는 점입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1522.8,
+   "en": "and what it actually means to expose young people to developmentally appropriate opportunities to grow themselves as thinkers, as individuals, and as civic agents and community members.",
+   "ko": "그리고 청소년들이 사색가, 개인, 시민적 주체, 지역사회 구성원으로 성장할 수 있도록 발달에 적합한 기회에 노출시킨다는 것이 실제로 무엇을 의미하는지에 대해서 말이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1537.2,
+   "en": "I think that our Western-designed education system has in it some very basic beliefs about what counts as knowing and what is worth thinking about and knowing about and how do I know that, how do I test you on that, that I think is deeply, they are deeply problematic.",
+   "ko": "서구식으로 설계된 우리 교육 시스템에는 무엇이 지식으로 간주되는지, 무엇이 생각하고 알 가치가 있는지, 그리고 그것을 어떻게 알고 어떻게 테스트할 것인지에 대한 매우 기본적인 믿음이 깔려 있는데, 저는 이것이 매우 문제가 많다고 생각합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1562.6,
+   "en": "and lead us to a place where we are actively discouraged from really playing with ideas, engaging systematically with our own beliefs, deconstructing those beliefs, and engaging with complex perspectives on topics and ideas.",
+   "ko": "그리고 그것은 우리가 아이디어를 가지고 놀거나, 자신의 신념에 체계적으로 관여하거나, 그 신념을 해체하거나, 주제와 아이디어에 대한 복잡한 관점에 관여하는 것을 적극적으로 방해하는 상황으로 우리를 이끕니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1580.7,
+   "en": "That is just not what school is about. And it needs to be. We need to shift. Right now, the way in which we think about school is about is basically judged by \"learning outcomes,\" right?",
+   "ko": "그것은 지금 학교가 추구하는 바가 아닙니다. 하지만 그래야만 합니다. 변화가 필요합니다. 지금 우리가 학교에 대해 생각하는 방식은 기본적으로 소위 '학습 결과'에 의해 평가됩니다, 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1596.9,
+   "en": "What have you learned and how do we know that? We make you demonstrate it by yourself under time pressure in a particular setting, right?",
+   "ko": "무엇을 배웠고 그것을 어떻게 알 수 있을까요? 우리는 당신이 특정 환경에서 시간 압박 속에 혼자서 그것을 증명하게 만듭니다, 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1604.4,
+   "en": "Or you're going to come back and I'm going to give you a question and you're going to give you the answer I had in mind. And if you do that in time, then I'll say you learned it and now we're done. Check, right?",
+   "ko": "혹은 제가 질문을 던지면 제가 미리 생각해 둔 답을 당신이 내놓아야 합니다. 시간 안에 그렇게 하면 배웠다고 인정하고 끝내는 거죠. 체크하고 넘어가는 겁니다, 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1613.2,
+   "en": "As compared to a system and there are educational systems like this. For example, the Performance Assessment Consortium in New York City is a consortium of public schools.",
+   "ko": "그와 비교되는 시스템이 있고, 실제로 그런 교육 시스템들이 존재합니다. 예를 들어 뉴욕시의 성과 평가 컨소시엄(Performance Assessment Consortium)은 공립학교들의 연합체입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1623.2,
+   "en": "They have a dispensation from the New York State government not to give the Regents Exam as their graduation requirements instead to have alternative ways of assessing kids.",
+   "ko": "그들은 뉴욕주 정부로부터 리전트 시험(Regents Exam)을 졸업 요건으로 치르지 않고 대신 대안적인 평가 방식을 가질 수 있도록 허가를 받았습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1632.6,
+   "en": "where kids work for months to years depending on the project on these in-depth intellectual, multidisciplinary projects where they explore a topic and they engage with their own process of learning about that topic.",
+   "ko": "아이들은 프로젝트에 따라 수개월에서 수년 동안 심도 있는 지적, 다학제적 프로젝트를 수행하며 주제를 탐구하고 그 주제를 학습하는 자신의 과정에 관여합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1647.5,
+   "en": "and they bring in teachers, and community experts, and other people, and they present their work, and then they query the work, and they talk about their own learning process, and what could happen next, and what decisions they made, and all these things.",
+   "ko": "그리고 교사, 지역사회 전문가 등을 불러와 결과물을 발표하고, 그 작업에 대해 질문하고, 자신의 학습 과정과 다음에 일어날 수 있는 일, 자신이 내린 결정 등에 대해 이야기합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1660.1,
+   "en": "It's like a graduate thesis. Exactly. You have to invent not just the work, but the question.",
+   "ko": "대학원 논문 같네요. 맞습니다. 결과물뿐만 아니라 질문 자체를 만들어내야 하죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1667.0,
+   "en": "You need to look at the world, and notice what it is we're not understanding, that we would benefit from understanding and find a way to isolate and systematically query that.",
+   "ko": "세상을 바라보고 우리가 이해하지 못하고 있는 것이 무엇인지, 이해하면 도움이 될 것이 무엇인지 알아차린 다음 그것을 분리하여 체계적으로 질문할 방법을 찾아야 합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1679.0,
+   "en": "Why don't we build education systems from preschool all the way up that engage people systematically in that kind of intellectual curiosity?",
+   "ko": "유치원부터 그 이상의 모든 교육 시스템을 왜 그러한 지적 호기심에 사람들을 체계적으로 참여시키는 방식으로 구축하지 않을까요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1691.0,
+   "en": "We know that little kids' education, preschool education, if you don't have the water table and the sand table and the cool stuff and the choices and the ways to engage with each other and, you know, appropriate for three-year-olds to touch and smoosh and try to taste and whatever else, they're going to be a mess on the floor.",
+   "ko": "유아 교육, 유치원 교육에서 물놀이 테이블이나 모래 놀이 테이블, 멋진 도구들, 그리고 선택권과 서로 교감하는 방식이 없다면, 즉 3살 아이들이 만지고 으깨고 맛보기에 적합한 것들이 없다면 아이들은 엉망이 될 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1709.0,
+   "en": "They're just not going to come. They're going to refuse to come to school, right? And they're going to be laying in the doorway, throwing temper tantrums.",
+   "ko": "학교에 오지 않으려 하겠죠. 학교에 오는 것을 거부하고 문앞에 누워 떼를 쓸 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1715.1,
+   "en": "So we know how to do little kid education while it doesn't mean we always do it. But we know that they need to be intrigued. They need to be invited to think.",
+   "ko": "그래서 우리는 유아 교육을 어떻게 해야 하는지 알고 있습니다. 물론 항상 그렇게 한다는 뜻은 아니지만요. 아이들이 흥미를 느껴야 한다는 것을 우리는 압니다. 아이들이 생각하도록 초대받아야 한다는 것도요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1723.3,
+   "en": "And they bring their natural curiosity and then you expand the range of ways they can leverage that curiosity to discover new things they hadn't known to think about before, right?",
+   "ko": "아이들은 타고난 호기심을 발휘하고, 그러면 여러분은 아이들이 그 호기심을 활용하여 이전에는 생각지 못했던 새로운 것들을 발견할 수 있는 방법의 범위를 넓혀주는 것입니다. 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1733.6,
+   "en": "Then we get to the standard quote-unquote educational system and we somehow think that that natural human proclivity to engage curiously and meaningfully with deep thinking about ideas and the world is like inefficient and inappropriate and frightening and we teach kids, \"No, no, no, no, turn that off.\"",
+   "ko": "그러다 소위 표준 교육 시스템에 들어서면, 아이디어나 세상에 대해 호기심을 갖고 의미 있게 깊이 생각하려는 인간의 자연스러운 성향을 비효율적이고 부적절하며 두려운 것으로 여기게 됩니다. 그래서 우리는 아이들에게 \"안 돼, 그러지 마, 그 생각을 꺼버려\"라고 가르칩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1757.5,
+   "en": "It's dangerous, if you do it, it's considered insubordinate, right? And what we want you instead to do is just let me give you what I've already figured out for you. I'm going to give it to you and you are going to give it back to me.",
+   "ko": "그것은 위험하며, 그렇게 하면 반항적인 것으로 간주됩니다, 그렇죠? 대신 우리가 원하는 것은 제가 이미 당신을 위해 알아낸 것을 그냥 받아들이라는 것입니다. 제가 당신에게 주면 당신은 그것을 저에게 다시 돌려주면 됩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1772.1,
+   "en": "I think what you're describing is so key. And I never thought about it from the perspective of, oh yeah, as young kids, like we're given all the things that are going to drive our sensory world in the appropriate ways, touch and sound and vision. trying to build meaning in our mind.",
+   "ko": "당신이 설명하는 내용이 정말 핵심적이라고 생각합니다. 어린아이였을 때는 촉각, 청각, 시각 등 적절한 방식으로 우리의 감각 세계를 자극하고 마음속에 의미를 구축하게 하는 모든 것이 주어지는데, 그 점을 이런 관점에서 생각해 본 적이 없었습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1787.7,
+   "en": "And that we get to, as students, young, very young learners impose some of our own intrinsic motivation to do certain things and not others, and that isn't supported as we're adults.",
+   "ko": "그리고 학생으로서, 아주 어린 학습자로서 우리는 어떤 일은 하고 어떤 일은 하지 않으려는 우리 자신의 내재적 동기를 어느 정도 투영할 수 있게 되는데, 어른이 되면 그것이 지원되지 않는다는 점도요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1799.1,
+   "en": "What age do you think this cliffs off? And also, how do we address this issue that there are certain basic skills that not everyone is going to perform well at?",
+   "ko": "이런 현상이 언제쯤 급격히 사라진다고 보시나요? 또한 모든 사람이 잘 해낼 수 없는 특정 기본 기술들이 있다는 문제를 어떻게 해결해야 할까요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1808.9,
+   "en": "And so for the kid that says, \"I don't like math.\" You still have to learn it. You still appreciate it. So how do you conjure up in a joy or an appreciation in that kid?",
+   "ko": "\"수학이 싫어요\"라고 말하는 아이에게도 수학은 여전히 배워야 하고 가치 있는 것입니다. 그렇다면 그 아이에게 어떻게 즐거움이나 감사를 불러일으킬 수 있을까요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1819.2,
+   "en": "It sounds like the emotion system is the key system to leverage in order to learn. And so could you talk about the relationship between emotion and learning? Because I realize this is really the center of what you do.",
+   "ko": "학습을 위해 활용해야 할 핵심 시스템이 감정 시스템인 것 같습니다. 감정과 학습의 관계에 대해 말씀해 주시겠습니까? 이것이 당신이 하시는 일의 정말 핵심적인 부분이라는 것을 깨달았거든요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1833.6,
+   "en": "So I mean, you could say it this way, right? So whatever you're having emotion about is what you're thinking about, right? And whatever you're thinking about, You could hope to learn about.",
+   "ko": "그러니까 이렇게 말할 수 있겠죠. 당신이 어떤 것에 대해 감정을 느낀다는 것은 곧 그것에 대해 생각하고 있다는 뜻입니다, 그렇죠? 그리고 당신이 무엇에 대해 생각하고 있든, 그것에 대해 배우기를 기대할 수 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1844.3,
+   "en": "so if the emotions are about the outcomes did I get it right? I'm gonna flunk and I get an a plus I'm so smart. I'm so stupid. Well, any one of those, right? if those are the main drivers Then that is what you're learning about.",
+   "ko": "그래서 만약 감정이 결과에 관한 것이라면, \"내가 맞혔나? 낙제할 거야, 아니면 A+를 받을 거야, 난 정말 똑똑해, 난 너무 멍청해\" 같은 것이라면 어떨까요? 그중 무엇이든 그것이 주요 동기라면, 당신은 바로 그것에 대해 배우고 있는 셈입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1855.6,
+   "en": "if the emotions are about the actual ideas in play The math the physics the why does the ball roll down the ramp wait a minute That's the same as why the moon goes around.",
+   "ko": "만약 감정이 실제로 다루어지는 아이디어, 즉 수학이나 물리, \"공이 왜 경사면을 따라 굴러내려갈까? 잠깐만, 저건 달이 궤도를 도는 이유와 같잖아\"와 같은 아이디어에 관한 것이라면 어떨까요?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1867.2,
+   "en": "you know I mean, like, when the emotions are about ideas, then what you're engaging with is learning about ideas.",
+   "ko": "제 말은, 감정이 아이디어에 관한 것이라면 당신은 아이디어에 대한 학습에 참여하고 있는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1876.0,
+   "en": "And so, what I would argue is that in setting up the kind of accountability system we have, we have taught people that their emotion should be about these high stakes accountability measures, which means that's what we're learning how to think about. Perform. Perform.",
+   "ko": "그래서 제가 주장하고 싶은 것은, 우리가 가진 것과 같은 책무성 시스템을 구축함으로써 사람들의 감정이 이러한 중대한 책무성 척도에 맞춰져야 한다고 가르쳤고, 그것이 곧 우리가 생각하는 법을 배우는 대상이 되었다는 것입니다. 바로 수행, 수행 말입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1896.0,
+   "en": "Not how to think about the ideas, not the intrinsic power of using math to understand the world in a different way.",
+   "ko": "아이디어에 대해 어떻게 생각할지, 세상을 다른 방식으로 이해하기 위해 수학을 사용하는 내재적인 힘이 무엇인지가 아니라요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1906.0,
+   "en": "So how do you engage kids, right? You engage kids by setting out rich problem spaces that, and problems that invite them to try to engage with something that piques your curiosity that's meaningful to them or have them bring in.",
+   "ko": "그럼 어떻게 아이들을 참여시킬까요? 아이들에게 의미 있거나 호기심을 자극하는 무언가에 참여하도록 유도하는 풍부한 문제 공간과 문제들을 제시하거나 아이들이 직접 가져오게 함으로써 참여시킬 수 있습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1925.7,
+   "en": "But the kid who really hates it, like what is it that you do find interesting kid? Start there and start using your academic skills in a way that will give you power to do what it is you're interested in doing.",
+   "ko": "하지만 정말 싫어하는 아이에게는 \"너는 무엇에 흥미가 있니?\"라고 물어보세요. 거기서부터 시작해서 네가 관심 있는 일을 할 수 있는 힘을 주는 방식으로 학업 능력을 사용하기 시작하는 겁니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1937.1,
+   "en": "That's the way in. Use your writing, use your math, use your persuasive argument skills, use your filmmaking skills, whatever it is, to tell the story of something that you find deeply, meaningfully powerful to understand.",
+   "ko": "그것이 방법입니다. 글쓰기, 수학, 설득력 있는 논증 기술, 영화 제작 기술 등 무엇이든 사용하여 자신이 깊이 있고 의미 있게 강력하다고 느끼는 것을 이해하기 위한 이야기를 들려주게 하세요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1952.4,
+   "en": "We've got the cart before the horse. I'm not saying you don't have to learn math or you don't have to learn to read or write or do all these other kinds of skills.",
+   "ko": "주객이 전도되었습니다. 수학을 배울 필요가 없다거나 읽기, 쓰기 등 다른 기술들을 배울 필요가 없다는 말이 아닙니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1960.2,
+   "en": "but we make those, which is in the horse's cart, you know, what's in the cart, we call that the metric of the education system and the aim of it when in fact it's the quality of the horse.",
+   "ko": "하지만 말의 수레에 실린 것, 즉 수레 안에 든 것을 교육 시스템의 지표이자 목표로 삼고 있는데, 사실 중요한 것은 말의 질입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1971.7,
+   "en": "Can that horse pull the thing, right? That's the development of the person and what they put in their cart then serves that development.",
+   "ko": "그 말이 수레를 끌 수 있는가 하는 점이죠. 그것이 바로 사람의 발달이며, 수레에 무엇을 싣느냐는 그 발달에 기여하게 됩니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1981.4,
+   "en": "It's the toolkit of ways of knowing and understanding that come with you as you move into the world. But this takes real, real developmental skill on the part of educators, right?",
+   "ko": "그것은 세상으로 나갈 때 여러분과 함께하는 지식과 이해의 도구 상자입니다. 하지만 이것은 교육자 측면에서 정말 실질적인 발달 기술이 필요합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 1991.7,
+   "en": "Who are not supported or resourced or trained to think about development in these ways. I mean, so you asked when does this fall off?",
+   "ko": "그런데 교육자들은 이런 방식으로 발달에 대해 생각하도록 지원받거나 자원을 제공받거나 훈련받지 못하고 있죠. 언제 이런 현상이 사라지느냐고 물으셨죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2000.4,
+   "en": "It really depends on what school system you are and what demographic you are when it falls off.",
+   "ko": "어떤 학교 시스템에 있는지, 어떤 인구통계학적 위치에 있는지에 따라 그 시기는 달라집니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2004.8,
+   "en": "But for almost everybody except for the privileged few who are in very progressive alternative schools it falls off by adolescence.",
+   "ko": "하지만 매우 진보적인 대안학교에 다니는 소수의 특권층을 제외한 거의 모든 사람에게 사춘기가 되면 이런 현상이 사라집니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2013.2,
+   "en": "which is when school gets serious and it's also ironically when developmentally kids are developing the neural capacity and the psychosocial capacity and the drive to infer complex narrative meaning from the things they are doing.",
+   "ko": "그때가 학교 생활이 본격화되는 시기이기도 하지만, 아이러니하게도 발달상으로 아이들이 자신이 하는 일에서 복잡한 내러티브적 의미를 추론하려는 신경학적 능력과 심리 사회적 능력, 동기를 발달시키는 시기이기도 하죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2032.9,
+   "en": "These aren't just my shoes. These are a statement about what I believe about sustainability and about sports and about adults and counterculture.",
+   "ko": "\"이건 그냥 내 신발이 아니야. 이건 지속 가능성, 스포츠, 성인, 그리고 반문화에 대한 내 신념의 표현이야\"라고 말이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2043.8,
+   "en": "As we grow into a space where we're driven to try to challenge and think about big meanings and engage with perspectives and emotions and social issues and broad, important existential questions, be they in physics or be they in art or be they in the social civic domain, right?",
+   "ko": "우리가 물리학이든 예술이든 사회 시민 영역이든 큰 의미에 도전하고 생각하며 관점과 감정, 사회 문제, 광범위하고 중요한 실존적 질문에 관여하려는 공간으로 성장함에 따라 말입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2063.5,
+   "en": "What do we do? We double down on controlling the input and the output transactional mechanisms that count as quote unquote academic rigor and achievement, right?",
+   "ko": "우리는 무엇을 하나요? 소위 학업적 엄밀성과 성취도로 간주되는 입력 및 출력의 거래 메커니즘을 통제하는 데 더 힘을 쏟습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2076.5,
+   "en": "We start to ask kids, you know, \"What's the name of the the the servant who shows up in the scene and and and Great Expectations? is it Molly or is it Maria?\"",
+   "ko": "아이들에게 묻기 시작하죠. \"위대한 유산의 이 장면에 등장하는 하인의 이름이 뭐지? 몰리니 아니면 마리아니?\"라고요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2086.6,
+   "en": "right? and it's you know like who the heck knows and that is not the point of reading Great Expectations, right?",
+   "ko": "글쎄요, 대체 누가 알겠으며 그것이 위대한 유산을 읽는 목적도 아니잖아요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2092.3,
+   "en": "We take away Because we're afraid as educators as society. We've got this narrative around young people's particular, but everyone's propensity to build and construct meaning in these spaces and self in these spaces.",
+   "ko": "우리는 그것을 앗아갑니다. 교육자로서, 사회로서 두렵기 때문이죠. 특히 청소년뿐만 아니라 모든 사람이 이러한 공간에서 의미를 구축하고 자아를 형성하려는 경향이 있다는 내러티브가 있는데 말이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2110.8,
+   "en": "that agency frightens us because we're worried they're going to take risks, they're going to do something stupid, they're going to fall off the track, they're going to not make it in the traditional system.",
+   "ko": "아이들이 위험을 감수하거나 어리석은 짓을 하거나 궤도에서 벗어나 전통적인 시스템에서 낙오될까 봐 그 주체성을 두려워하는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2121.4,
+   "en": "And in trying to protect them and shield them from their own curiosities, their own dispositions for meaning-making, we, I would argue, actually stunt their ability to grow themselves.",
+   "ko": "아이들을 보호하고 그들 자신의 호기심과 의미 부여 성향으로부터 차단하려 노력하는 과정에서, 저는 우리가 실제로 아이들이 스스로 성장하는 능력을 방해하고 있다고 주장하고 싶습니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2135.4,
+   "en": "What we're really doing is actually producing people who are gutted of their own inner drive to become someone who thinks powerfully in the space of the world.",
+   "ko": "우리가 실제로 하고 있는 일은 세상이라는 공간에서 강력하게 사고하는 사람이 되려는 내면의 동기가 거세된 사람들을 만들어내는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2151.2,
+   "en": "We are frightened to let our young people have that power, which is the role of adults, to wrap around young people and help them learn to be reflective, to be systematic, to be rigorous with themselves.",
+   "ko": "우리는 청소년들이 그러한 힘을 갖는 것을 두려워합니다. 하지만 청소년들을 보살피고 그들이 성찰적이고 체계적이며 자신에게 엄격해질 수 있도록 돕는 것이 성인의 역할입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2167.4,
+   "en": "as they develop the capacities and dispositions to deconstruct their own beliefs, to deconstruct their own aims and goals and the ways they understand the world, and to rebuild them iteratively over and over in this sort of intellectually humble, curious way.",
+   "ko": "그들이 자신의 신념과 목표, 세상을 이해하는 방식을 해체하고 지적으로 겸손하고 호기심 어린 방식으로 반복적으로 재구축하는 능력과 성향을 개발할 때 말이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2185.7,
+   "en": "where we're constantly querying ourselves, constantly querying other people, where we're willing to sit with uncertainty in complex problem spaces and think through the possibilities, rather than settle quickly onto one solution.",
+   "ko": "끊임없이 자신과 타인에게 질문하며 복잡한 문제 공간에서 불확실성을 견디고 가능성을 생각하며 반복적으로 재구축하는 능력 말입니다. 즉시 하나의 해결책을 찾는 것이 아니라요.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2199.4,
+   "en": "What does school expect you to do? Settle immediately onto one solution, which by the way is the solution I already had in mind when I gave you the question, right?",
+   "ko": "학교는 여러분에게 무엇을 기대하나요? 즉시 하나의 해결책을 찾는 것인데, 그 해결책은 제가 질문을 던질 때 이미 염두에 두었던 것이기도 합니다. 그렇죠?",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2207.5,
+   "en": "As compared to sitting with young people and allowing them in safe and appropriate ways, the space in which to actually grapple with complex, powerful questions.",
+   "ko": "청소년들과 함께 앉아 그들이 안전하고 적절한 방식으로 복잡하고 강력한 질문들과 실제로 씨름할 수 있는 공간을 허용하는 것과는 대조적이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2219.5,
+   "en": "When kids develop the proclivities to do that, they learn how to manage those very human capacities that we've been talking about the whole time. They learn to appreciate and manage those capacities within their own selves.",
+   "ko": "아이들이 그렇게 할 수 있는 성향을 기르게 되면, 우리가 내내 이야기해 온 지극히 인간적인 능력들을 관리하는 법을 배우게 됩니다. 그들은 자신의 내면에서 그러한 능력들을 가치 있게 여기고 관리하는 법을 배웁니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2234.7,
+   "en": "You're remarkable. Thank you. I really mean that. I feel like we could go on forever exploring these ideas and you provide so many real world examples.",
+   "ko": "정말 대단하시네요. 감사합니다. 진심입니다. 이 아이디어들을 탐구하며 끝없이 대화할 수 있을 것 같은데, 실제 사례들을 정말 많이 들어주셨어요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2242.4,
+   "en": "In fact, it's one of the things that I love so much about your work is that it's really nested in real world applications.",
+   "ko": "사실 당신의 연구에서 제가 정말 좋아하는 부분 중 하나는 그것이 실제 세계의 응용 분야에 깊이 뿌리박고 있다는 점입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2248.3,
+   "en": "And your thoughts and perspectives on the education and how it could be better at the level of educating kids at home, teaching ourselves, teachers, and the education system, I hope will ring far and wide because they really can be implemented.",
+   "ko": "가정에서의 아이 교육, 자기 교육, 교사 및 교육 시스템 차원에서 교육이 어떻게 개선될 수 있는지에 대한 당신의 생각과 관점이 널리 퍼지기를 바랍니다. 왜냐하면 그것들은 정말로 실행 가능하기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2266.5,
+   "en": "We're not talking about the need to purchase a bunch of stuff.",
+   "ko": "우리는 많은 물건을 구매해야 할 필요성에 대해 이야기하는 것이 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2268.9,
+   "en": "No, we need to start with a different disposition, we need to start with a different goal.",
+   "ko": "아닙니다, 우리는 다른 성향으로 시작해야 하고, 다른 목표로 시작해야 합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2272.5,
+   "en": "Yeah, the goal of education needs to not, learning is not the goal, it's not the outcome, it needs to be the development of the person, right? How is a person changing themselves? Having learned this.",
+   "ko": "네, 교육의 목표는 단순히 학습이 되어서는 안 됩니다. 학습은 결과가 아니라 사람의 발달이어야 합니다, 그렇죠? 이것을 배움으로써 그 사람이 자신을 어떻게 변화시키고 있는가 하는 것이죠.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2283.4,
+   "en": "And then you design the learning opportunities to change who people are capable of becoming, right? So the learning is there, but it's not the end point, it's just the means to something else, which we haven't been attending to enough.",
+   "ko": "그런 다음 사람들이 어떤 존재가 될 수 있는지 변화시킬 수 있도록 학습 기회를 설계하는 것입니다. 학습은 존재하지만 그것이 최종 목적지가 아니라, 우리가 충분히 주의를 기울이지 않았던 다른 무언가를 위한 수단일 뿐입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2296.4,
+   "en": "And that's the development of the person, and who they become, having learned that.",
+   "ko": "그것이 바로 한 사람의 발달이며, 그것을 배우고 나서 그가 어떤 사람이 되느냐는 것입니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  },
+  {
+   "start": 2300.8,
+   "en": "Beautifully put. Thank you so much for your time. Thank you so much for the work you do.",
+   "ko": "멋진 말씀입니다. 시간 내주셔서 정말 감사합니다. 하시는 연구에 대해서도 정말 감사드립니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2305.3,
+   "en": "And I can't wait to have another discussion with you about the verging research.",
+   "ko": "곧 발표될 연구에 대해 다시 한번 이야기를 나눌 수 있기를 고대하겠습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2309.5,
+   "en": "I'll be back. Thank you.",
+   "ko": "다시 오겠습니다. 감사합니다.",
+   "speaker": "Mary Helen Immordino-Yang"
+  }
+ ]
+}
