@@ -1,0 +1,898 @@
+{
+ "id": "fpbRe5LPNsU",
+ "title": "What Jensen Huang’s Resignation Will Mean for A.I.",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=fpbRe5LPNsU",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/81baedea-f263-4b69-9789-fef913b31bee/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=81baedea-f263-4b69-9789-fef913b31bee&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fd/cb/a1/fdcba10f-f228-05ad-7702-69a701681968/mza_14819875927598428973.jpg/600x600bb.jpg",
+ "duration": 1632,
+ "releaseDate": "2026-11-12T10:52:06Z",
+ "addedAt": "2026-11-13",
+ "segments": [
+  {
+   "start": 0.1,
+   "en": "Hey, it's Toni Stotensky from New York Times Cooking, and I'm in the kitchen making a few of my favorite weeknight recipes. Let's start with Alexa Weibel's Creamy Spicy Tomato Beans and Greens.",
+   "ko": "안녕하세요, 뉴욕타임즈 쿠킹의 토니 스토텐스키입니다. 지금 부엌에서 제가 가장 좋아하는 평일 저녁 레시피 몇 가지를 만들고 있어요. 알렉사 웨이벨의 '크리미 스파이시 토마토 빈 앤 그린'부터 시작해 보죠.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 9.7,
+   "en": "This is probably one of the most delicious ways to glow up two cans of beans from your pantry.",
+   "ko": "이건 찬장에 있는 콩 통조림 두 개를 가장 맛있게 변신시킬 수 있는 방법 중 하나일 거예요.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 14.5,
+   "en": "You'll chop one onion, you can mince or grate some garlic, you'll chop up some sun-dried tomatoes straight from the jar, and all those go in the pan and you're kinda done.",
+   "ko": "양파 한 개를 썰고, 마늘을 다지거나 갈아서 넣은 다음, 병에 든 선드라이드 토마토를 바로 썰어서 팬에 다 넣으면 거의 끝납니다.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 23.0,
+   "en": "This dish has managed to go viral, people refer to it as the beans. You might not believe it, but I'm still hungry.",
+   "ko": "이 요리는 입소문을 타서 사람들이 그냥 '그 콩 요리'라고 부르기도 합니다. 믿기지 않으시겠지만, 전 아직 배가 고파요.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 28.6,
+   "en": "So let's make Andy Baraghani's five-star Miso salmon bowl. You are cooking rice, and in the time you've managed to do that, you will quickly marinate a piece of salmon with just a few ingredients, and it cooks in five to eight minutes.",
+   "ko": "그러니 앤디 바라가니의 별 다섯 개짜리 미소 연어 볼을 만들어 봅시다. 밥을 짓는 동안 몇 가지 재료만으로 연어 조각을 빠르게 마리네이드하면 5분에서 8분 만에 익습니다.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 42.2,
+   "en": "What I want to eat on a weeknight is something that tastes like it took so much more effort than you actually put in. I'm going to grab us some bowls.",
+   "ko": "평일 저녁에 먹고 싶은 건 실제 들인 노력보다 훨씬 더 정성이 들어간 것 같은 맛이 나는 음식이죠. 이제 그릇을 좀 가져올게요.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 51.6,
+   "en": "New York Times cooking has you covered with recipes you actually want to make from people you can trust. So come cook with us at nytcooking.com.",
+   "ko": "뉴욕타임즈 쿠킹은 여러분이 신뢰할 수 있는 사람들이 제안하는, 정말 만들고 싶은 레시피들을 제공합니다. nytcooking.com에서 저희와 함께 요리해 보세요.",
+   "speaker": "Toni Stotensky",
+   "ad": true
+  },
+  {
+   "start": 61.1,
+   "en": "From New York Times, I'm Michael Barbaro. This is The Daily. Today.",
+   "ko": "뉴욕타임즈의 마이클 바바로입니다. 오늘자 '더 데일리'입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 73.3,
+   "en": "After new revelations from the Times, Jensen Huang, the CEO of NVIDIA, and the man at the center of the AI revolution, has resigned.",
+   "ko": "타임즈의 새로운 폭로 이후, 엔비디아의 CEO이자 AI 혁명의 중심에 서 있는 인물인 젠슨 황이 사임했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 82.5,
+   "en": "As NVIDIA's board wrestled with Huang's fate overnight, I spoke with my colleague, Tripp Mickle, about the new reporting on Huang's conduct and what his ouster could mean for the future of artificial intelligence.",
+   "ko": "엔비디아 이사회가 밤새 황의 거취를 두고 고심하는 동안, 저는 동료 트립 미클 기자와 함께 황의 행보에 대한 새로운 보도 내용과 그의 퇴출이 인공지능의 미래에 어떤 의미가 될지 이야기를 나누었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 105.3,
+   "en": "November 12th. We did not expect to have you back on the show this soon. This has moved much faster than anybody expected it to.",
+   "ko": "11월 12일입니다. 이렇게 빨리 다시 모시게 될 줄은 몰랐네요. 상황이 누구의 예상보다도 훨씬 빠르게 전개되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 122.8,
+   "en": "Yeah. I'm surprised to be back as well.",
+   "ko": "네, 저도 이렇게 빨리 돌아오게 되어 놀랍습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 125.2,
+   "en": "Well, it's moved fast in part because of you and the reporting you and our colleagues are doing.",
+   "ko": "글쎄요, 상황이 급박하게 돌아간 건 부분적으로 당신과 동료들이 하고 있는 보도 덕분이기도 하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 130.5,
+   "en": "And at this moment at 12:30 a.m. Eastern time, NVIDIA's directors are finishing up what may be one of the most closely watched emergency board meetings in corporate history.",
+   "ko": "그리고 동부 표준시로 오전 12시 30분인 현재, 엔비디아의 이사진은 기업 역사상 가장 주목받는 비상 이사회 중 하나를 마무리하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 142.4,
+   "en": "And they are sorting out the fate of a company CEO, Jensen Huang, a future that now appears to be in grave danger.",
+   "ko": "그들은 이제 중대한 위험에 처한 것으로 보이는 회사의 CEO 젠슨 황의 운명을 결정짓고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 153.7,
+   "en": "And I know that things might change by the time our episode publishes at 6:00 a.m. Eastern time, but at this particular moment, what do we know about where the board's deliberations are?",
+   "ko": "우리 에피소드가 발행되는 동부 표준시 오전 6시쯤이면 상황이 바뀔 수도 있겠지만, 지금 이 순간 이사회의 논의가 어디쯤 와 있는지 무엇을 알고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 164.1,
+   "en": "We know that 10 people who are serving on this NVIDIA board that have been there a long time are wrestling with the decision they never thought they would have to make.",
+   "ko": "오랫동안 엔비디아 이사회를 지켜온 10명의 이사들이 자신들이 결코 내릴 필요가 없을 것이라고 생각했던 결정을 두고 고심하고 있다는 점을 알고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 174.8,
+   "en": "And that's whether or not Jensen Huang should not only continue to lead the company, which our reporting suggests will not happen, but should even have a role at the company going forward.",
+   "ko": "그것은 젠슨 황이 회사를 계속 이끌어야 하는지 여부뿐만 아니라—우리 보도에 따르면 그럴 가능성은 희박해 보입니다만—앞으로 회사에서 어떤 역할이라도 맡아야 하는지에 대한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 186.0,
+   "en": "This is the company he co-founded in a Denny's in 1993. So it's really an unimaginable moment for this group of 10 people.",
+   "ko": "이곳은 그가 1993년 대니스에서 공동 창업한 회사입니다. 그러니 이 10명의 이사진에게는 정말 상상도 할 수 없는 순간인 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 196.7,
+   "en": "And from what you're saying, they are leaning towards an outcome in which he is no longer chief executive officer of the company he founded.",
+   "ko": "당신 말에 따르면, 이사회는 그가 자신이 창업한 회사의 최고 경영자직에서 물러나는 쪽으로 기울고 있다는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 206.6,
+   "en": "This company, not an overstatement to say, is at the heart of the AI boom, the heart of the AI revolution, the heart of the global economy.",
+   "ko": "이 회사는 과장이 아니라 AI 붐의 핵심이자, AI 혁명의 중심이며, 글로벌 경제의 중심에 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 215.6,
+   "en": "Yes, they are leaning towards an outcome that would take the man who has very much become the face of AI around the world, who's perceived to be the maestro of artificial intelligence, and removing him from leadership of the most important company in the AI movement.",
+   "ko": "네, 그들은 전 세계 AI의 얼굴이자 인공지능의 거장으로 인식되는 인물을 AI 운동에서 가장 중요한 회사의 리더십 자리에서 물러나게 하는 결과를 향해 가고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 235.6,
+   "en": "Okay, well tell us how this seemingly unimaginable outcome, just a few days ago when you were on the show talking to my cohost, Natalie Kitroeff.",
+   "ko": "좋습니다, 그럼 불과 며칠 전 당신이 제 동료 나탈리 키트로프와 이 쇼에서 이야기했을 때만 해도 상상조차 할 수 없었던 이 결과가 어떻게 나오게 된 건지 말씀해 주시죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 244.5,
+   "en": "You said that Jensen Huang's future is seen relatively safe. How do we get to this point where it's now in such serious doubt?",
+   "ko": "당시 당신은 젠슨 황의 미래가 비교적 안전해 보인다고 하셨죠. 어떻게 지금처럼 심각한 의문에 휩싸이게 된 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 255.1,
+   "en": "In recent days and really more than a week, we've been tracking a tip that Jensen Huang had had a relationship with an executive at the company, one of his direct reports.",
+   "ko": "최근 며칠, 사실 일주일 넘게 우리는 젠슨 황이 회사의 임원이자 자신의 직속 부하 중 한 명과 관계를 맺어왔다는 제보를 추적해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 269.3,
+   "en": "That would basically be a second romantic relationship with somebody, in this case, a colleague.",
+   "ko": "그것은 기본적으로 누군가와의 두 번째 로맨틱한 관계가 될 것이며, 이번 경우에는 동료와 맺은 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 277.3,
+   "en": "In this case, it would be a second breach of the company's code of conduct to come to light in a matter of days.",
+   "ko": "이 사건은 불과 며칠 사이에 밝혀진 회사의 행동 강령에 대한 두 번째 위반 사례가 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 285.7,
+   "en": "The first being a breach of the code of conduct for having an intimate relationship with a supplier, the woman who we've written about extensively, Alice Wong at Megaspede, who US intelligence has determined is a Chinese spy.",
+   "ko": "첫 번째는 공급업체 관계자와 부적절한 관계를 맺어 행동 강령을 위반한 것인데, 우리가 집중적으로 다뤘던 메가스피드의 앨리스 왕이라는 여성이며 미 정보당국은 그녀를 중국 스파이로 판단했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 299.5,
+   "en": "This would be a totally different thing. On Wednesday morning, my colleagues Ryan Mac and Georgia and I decided that we had enough reporting to move forward with a story about the second intimate relationship.",
+   "ko": "이것은 완전히 다른 문제입니다. 수요일 아침, 제 동료인 라이언 맥과 조지아, 그리고 저는 두 번째 부적절한 관계에 대한 기사를 진행하기에 충분한 취재가 되었다고 판단했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 313.6,
+   "en": "Tell us about who this woman is, who Jensen Huang had according to your reporting this intimate relationship with the second woman.",
+   "ko": "당신의 보도에 따르면 젠슨 황과 부적절한 관계를 맺었다는 이 두 번째 여성이 누구인지 말씀해 주시죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 324.5,
+   "en": "The second woman is an executive on his leadership team. Her name is Kimberly Powell. She leads their medical and healthcare group.",
+   "ko": "두 번째 여성은 그의 리더십 팀 소속 임원입니다. 이름은 킴벌리 파월이고, 회사의 의료 및 헬스케어 그룹을 이끌고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 332.5,
+   "en": "Kimberly has been with the company since 2008. She is often traveling with Jensen and his entourage at conferences and events and things like that.",
+   "ko": "킴벌리는 2008년부터 회사에 재직해 왔습니다. 그녀는 컨퍼런스나 행사 등에서 젠슨 및 그의 수행단과 자주 동행하곤 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 342.8,
+   "en": "And according to our reporting at their recent annual conference in San Jose, the two of them were in an affectionate moment that someone caught on camera with their phone and that NVIDIA security came over and got the person to sign an NDA.",
+   "ko": "우리의 보도에 따르면, 최근 산호세에서 열린 연례 컨퍼런스에서 두 사람이 애정 표현을 나누는 장면이 누군가의 휴대폰 카메라에 포착되었고, 엔비디아 보안 요원이 다가와 그 사람에게 비밀 유지 계약(NDA)에 서명하게 했다고 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 364.7,
+   "en": "Wow. That moment of affection. So the company security team would have understood that somebody noticed Jensen Huang and this female executive in some sort of moment that felt perhaps not quite right and asked someone to sign a document saying that they would never share that information with anybody else.",
+   "ko": "와우. 그런 애정 표현의 순간이라니요. 그렇다면 회사 보안팀은 누군가가 젠슨 황과 이 여성 임원의 부적절해 보이는 순간을 목격했다는 점을 파악하고, 그 정보를 누구와도 공유하지 않겠다는 문서에 서명하도록 요구했다는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 386.3,
+   "en": "That's right. That's right.",
+   "ko": "맞습니다. 바로 그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 388.2,
+   "en": "And this executive presumably since Jensen Huang is the CEO somehow reports to him what exactly is their relationship?",
+   "ko": "그리고 이 임원은 젠슨 황이 CEO이므로 어떤 식으로든 그에게 보고하는 체계일 텐데, 정확히 어떤 관계인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 394.8,
+   "en": "She's one of 60 direct reports of the company who report directly to Jensen Huang.",
+   "ko": "그녀는 젠슨 황에게 직접 보고하는 회사 내 60명의 직속 부하 중 한 명입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 399.6,
+   "en": "And as we all know, in the world of HR, one of the kind of cardinal sins in the HR world is you don't have a relationship, a close relationship, with somebody who directly reports to you.",
+   "ko": "우리 모두 알다시피 인사 관리의 세계에서 대죄 중 하나는 자신에게 직접 보고하는 사람과 친밀한 관계를 맺지 않는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 412.9,
+   "en": "Right, in fact, most companies expressly forbid this kind of relationship because of the power dynamic at play, with a boss being obviously capable of in theory, coercing a subordinate into a romantic relationship.",
+   "ko": "맞습니다. 사실 대부분의 회사는 상사가 이론적으로 부하 직원에게 로맨틱한 관계를 강요할 수 있는 권력 관계 때문에 이런 종류의 관계를 명시적으로 금지하고 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 426.2,
+   "en": "Do we know if NVIDIA has that kind of expressly forbidden policy.",
+   "ko": "엔비디아에 그런 명시적인 금지 규정이 있는지 알고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 430.9,
+   "en": "We know that their code of conduct says that employees at NVIDIA are supposed to quote \"avoid situations where our actions create conflict, including personal relationships.\"",
+   "ko": "엔비디아의 행동 강령에는 직원들이 \"개인적인 관계를 포함하여 우리의 행동이 갈등을 일으키는 상황을 피해야 한다\"고 명시되어 있는 것으로 압니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 443.8,
+   "en": "And the company states that it promptly investigates any reports of that kind of misconduct.",
+   "ko": "그리고 회사는 그러한 종류의 비행에 대한 보고가 있을 경우 즉시 조사한다고 밝히고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 449.5,
+   "en": "Okay, so did this relationship make its way to NVIDIA's leadership before you found out about it.",
+   "ko": "그렇다면 당신이 알기 전에 이 관계가 엔비디아 지도부에 알려진 적이 있었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 459.4,
+   "en": "Not that we're aware of.",
+   "ko": "우리가 알기로는 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 460.8,
+   "en": "Okay, so once the company learns, presumably through your reporting about this relationship, what do you understand to have occurred?",
+   "ko": "좋습니다, 그럼 회사가 아마도 당신의 보도를 통해 이 관계에 대해 알게 된 후 어떤 일이 벌어졌다고 파악하고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 470.0,
+   "en": "What I understand played out after that is that after the company got our inquiry and knew that we were moving forward with a story that the board was notified and fast forward, they're having a meeting by the end of the day to discuss and deliberate over whether or not Jensen Huang should continue to lead the company.",
+   "ko": "제가 파악한 바에 따르면, 회사가 우리의 문의를 받고 우리가 기사를 진행할 것임을 알게 된 후 이사회에 통보가 되었고, 그 결과 오늘 말에 회의를 열어 젠슨 황이 회사를 계속 이끌어야 할지 논의하고 숙고하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 493.0,
+   "en": "I understand why this requires so much deliberation. I have been a business reporter and in that time I watched CEO after CEO after CEO from McDonald's to BP be pretty much summarily fired for this very kind of relationship with a subordinate.",
+   "ko": "이것이 왜 그렇게 많은 숙고를 요하는지 이해합니다. 저도 비즈니스 기자 생활을 하면서 맥도날드부터 BP까지 수많은 CEO들이 부하 직원과의 바로 이런 관계 때문에 즉각 해고되는 것을 보아왔거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 514.2,
+   "en": "Yeah, why does it cause this much deliberation? I mean, this company is Jensen Huang, right? I mean, it is built around his leadership, his vision.",
+   "ko": "네, 왜 이렇게 고민이 많을까요? 제 말은, 이 회사는 곧 젠슨 황이나 다름없기 때문입니다. 그의 리더십과 비전을 중심으로 세워진 회사니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 527.9,
+   "en": "And the structure of the company makes it such that there's not a clear successor at all either, right?",
+   "ko": "게다가 회사의 구조상 명확한 후계자도 전혀 없는 상태죠, 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 535.2,
+   "en": "When you have 60 people reporting to you, yes, you can pull somebody from those ranks and they could lead the company in his absence.",
+   "ko": "60명이 자신에게 직접 보고하는 상황에서, 물론 그중 누군가를 발탁해 그가 없는 동안 회사를 이끌게 할 수는 있겠죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 541.7,
+   "en": "But this isn't something like, for example, I used to cover Apple for a lot of years, like Apple when Steve Jobs was about to die, he had something on the order of like six very trusted lieutenants that were in position to take over that company.",
+   "ko": "하지만 이건 제가 오랫동안 취재했던 애플 같은 경우와는 다릅니다. 스티브 잡스가 사망하기 직전의 애플에는 회사를 이어받을 준비가 된 대여섯 명의 아주 신임받는 부하들이 있었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 556.6,
+   "en": "I mean, it was clear that if it wasn't Tim Cook, it could have been Scott Forstall. If it wasn't Scott Forstall, it could have been Phil Schiller, I mean, there were just a number of people at the company that had the wherewithal to lead that company forward.",
+   "ko": "팀 쿡이 아니었다면 스콧 포스톨이었을 수도 있고, 스콧 포스톨이 아니었다면 필 실러였을 수도 있었을 정도로 회사를 앞으로 이끌어갈 역량을 갖춘 사람들이 여럿 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 571.6,
+   "en": "And that's just not something that's known about NVIDIA, because what's known about NVIDIA is Jensen Huang is the visionary. Jensen Huang sets the pace for the company. Jensen Huang drives its innovation.",
+   "ko": "하지만 엔비디아에 대해서는 그런 점이 알려져 있지 않습니다. 엔비디아에 대해 알려진 것은 오직 젠슨 황이 비전가이고, 그가 회사의 속도를 결정하며, 그가 혁신을 주도한다는 것뿐입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 583.9,
+   "en": "And Jensen Huang is its biggest and arguably the best salesman in all of technology is the one who's helped persuade the world that these chips are not only so valuable, but help make these chips into something that enjoys a 90% market share in the AI chip world.",
+   "ko": "또한 젠슨 황은 테크 업계 전체를 통틀어 가장 크고 단연 최고의 세일즈맨입니다. 이 칩들이 얼마나 가치 있는지 세상을 설득하고, AI 칩 시장에서 90%의 점유율을 누리는 존재로 만드는 데 일조한 인물이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 602.9,
+   "en": "You're saying to the degree that the board has gotten to the point where it may be ready and perhaps already is ready to push him aside and knock him off as CEO, it has been probably be pained and reluctant and agonizing as it gets there.",
+   "ko": "이사회가 그를 물러나게 하고 CEO 직에서 해임할 준비가 되었거나 이미 되었을 정도라면, 그 과정이 아마도 고통스럽고 꺼려지며 몹시 괴로웠을 것이라는 말씀이시군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 621.1,
+   "en": "It has to come to terms with a possibility that no one on this board ever thought would be a reality. I mean, this is a monumental decision for this board.",
+   "ko": "이사회의 어느 누구도 현실이 될 것이라고 생각지 못했던 가능성을 받아들여야만 합니다. 이사회로서는 정말 엄청난 결정인 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 631.4,
+   "en": "And he's been on a rocket ride the past three years. He could literally do no wrong until all of a sudden all this problematic behavior spilled out into public view.",
+   "ko": "그는 지난 3년 동안 승승장구해 왔습니다. 이 모든 문제적 행동들이 갑자기 대중에게 공개되기 전까지는 말 그대로 실패를 모르는 사람이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 643.2,
+   "en": "Right. And what may be fascinating if in fact Jensen Huang is out as the CEO is that after digesting the fact that he had had a romantic relationship with a according to US officials, Chinese spy who funneled information back to the Chinese government, it may end up being this other second relationship with an employee, not a spy, that may end up costing him his job.",
+   "ko": "맞습니다. 만약 실제로 젠슨 황이 CEO에서 물러나게 된다면 흥미로운 점은, 미국 당국에 따르면 정보를 중국 정부로 빼돌린 중국 스파이와 연인 관계였다는 사실을 소화해낸 뒤에, 결국 그의 직을 잃게 만드는 것은 스파이가 아닌 직원과의 이 두 번째 관계가 될 수도 있다는 점입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 668.8,
+   "en": "Yeah, so I think part of the problem here is the board is dealing with a one-two 펀치 that must make them wonder if this is not necessarily the end of the story.",
+   "ko": "네, 그래서 제 생각에 이 문제의 일부분은 이사회가 원투 펀치를 맞고 있다는 점입니다. 이것이 이야기의 끝이 아닐 수도 있다는 의구심을 갖게 만들고 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 681.0,
+   "en": "Yeah. Yeah. Which is a troubling thing to ponder.",
+   "ko": "네, 네. 생각만 해도 곤혹스러운 일이네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 688.4,
+   "en": "They're making the most complicated and most important technology of our time. That is like not just important to them and not just important to the economy and not just streets on the right and Anthropic down the street to my left.",
+   "ko": "그들은 우리 시대의 가장 복잡하고 중요한 기술을 만들고 있습니다. 이는 그들에게만 중요한 것이 아니고 경제에만 중요한 것도 아니며, 제 오른쪽의 오픈AI나 왼쪽의 앤스로픽 같은 곳들만에 국한된 문제도 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 704.5,
+   "en": "But also important to the US government and the potential and prosperity of the US economy.",
+   "ko": "미국 정부와 미국 경제의 잠재력 및 번영에도 중요한 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 711.2,
+   "en": "These are the rails on which artificial intelligence run and it's what has allowed the US to take a sizable lead and enjoy a lead and sustain that lead over China and the development of artificial intelligence.",
+   "ko": "이것들은 인공지능이 돌아가는 궤도이며, 미국이 인공지능 개발에 있어 중국에 대해 상당한 우위를 점하고 그 우위를 유지할 수 있게 해준 원동력입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 725.0,
+   "en": "And that's why for the board, this is such a difficult decision to move forward on.",
+   "ko": "그렇기 때문에 이사회에게 이것은 결정을 내리기가 너무나 어려운 사안인 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 737.5,
+   "en": "We'll be right back.",
+   "ko": "잠시 후에 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 745.5,
+   "en": "Hi, I'm Andrew Ross Sorkin. I cover business and policy for DealBook, a daily newsletter at The New York Times.",
+   "ko": "안녕하세요, 앤드류 로스 소킨입니다. 저는 뉴욕타임즈의 일간 뉴스레터인 딜북에서 비즈니스와 정책 분야를 담당하고 있습니다.",
+   "speaker": "Andrew Ross Sorkin",
+   "ad": true
+  },
+  {
+   "start": 752.4,
+   "en": "On November 18th, I'm going to be interviewing some of the most consequential leaders in business, politics and culture, including JD Vance, Elon Musk, Christine Lagarde, Zola and Mondani, and many others, live on stage at the DealBook Summit in New York City.",
+   "ko": "11월 18일, 저는 뉴욕에서 열리는 딜북 서밋 무대에서 JD 밴스, 일론 머스크, 크리스틴 라가르드, 졸라와 몬다니를 포함한 비즈니스, 정치, 문화계의 가장 영향력 있는 리더들과 라이브 인터뷰를 가질 예정입니다.",
+   "speaker": "Andrew Ross Sorkin",
+   "ad": true
+  },
+  {
+   "start": 766.4,
+   "en": "We're going to be live streaming select interviews at nytimes.com and in the Times app on November 18th. I hope you'll tune in. You won't want to miss it.",
+   "ko": "11월 18일 nytimes.com과 타임즈 앱을 통해 엄선된 인터뷰를 라이브 스트리밍할 예정입니다. 꼭 시청해 주세요. 놓치고 싶지 않으실 겁니다.",
+   "speaker": "Andrew Ross Sorkin",
+   "ad": true
+  },
+  {
+   "start": 777.5,
+   "en": "Tripp, let's envision a world in which Jensen Huang is no longer the CEO of NVIDIA. Just walk us through the scenarios in which that happens.",
+   "ko": "트립, 젠슨 황이 더 이상 엔비디아의 CEO가 아닌 세상을 상상해 봅시다. 그런 일이 일어날 수 있는 시나리오들을 설명해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 790.3,
+   "en": "Does he somehow remain at the company? It sounds like the board would like to find a way perhaps for that to happen.",
+   "ko": "그가 어떻게든 회사에 남게 될까요? 이사회는 아마도 그런 일이 일어날 수 있는 방법을 찾고 싶어 하는 것 같은데요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 796.3,
+   "en": "There isn't a huge succession plan written anywhere. Maybe he gets to stick around and help develop that. Or is it more likely he needs to be completely untethered from this company?",
+   "ko": "어디에도 거창한 후계 구도가 마련되어 있지 않으니까요. 어쩌면 그가 남아서 그 계획을 세우는 것을 도울 수도 있겠죠. 아니면 완전히 이 회사와 인연을 끊어야 할 가능성이 더 높을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 809.8,
+   "en": "We are in such uncharted waters that this is an impossible question to answer. And I am so glad I'm not one of those 10 people.",
+   "ko": "우리는 지금 전례 없는 상황에 처해 있어서 대답하기 불가능한 질문입니다. 제가 그 10명의 이사 중 한 명이 아니라는 게 정말 다행이네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 816.9,
+   "en": "I mean, let's just do analysis here, right? And just what we know about this circumstance.",
+   "ko": "제 말은, 여기서 분석만 해보자는 거죠, 그렇죠? 우리가 이 상황에 대해 알고 있는 것들만 가지고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 823.0,
+   "en": "If he stays and they conceivably do a search to find a new chief executive to lead the company long-term and they install an interim to help the company navigate the next several months while that search plays out.",
+   "ko": "만약 그가 남고, 그들이 회사를 장기적으로 이끌 새로운 최고 경영자를 찾기 위해 수색을 진행하고, 그 수색이 진행되는 몇 달 동안 회사를 이끌 임시직을 임명한다고 가정해 봅시다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 837.9,
+   "en": "If he's still there, who is everybody at the company going to look up to? Who do they turn to to make decisions? It would be him, not the interim CEO.",
+   "ko": "그가 여전히 거기 있다면 회사 사람들은 누구를 우러러보겠습니까? 누구에게 결정을 물으러 가겠어요? 임시 CEO가 아니라 그일 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 846.4,
+   "en": "Right, so it could undermine the standing of the interim CEO. It could create challenges for any incoming CEO and for the search process, right?",
+   "ko": "맞습니다, 그래서 임시 CEO의 입지를 약화시킬 수 있겠군요. 새로 부임할 CEO나 채용 과정 자체에도 어려움을 줄 수 있겠죠, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 857.7,
+   "en": "Well, what's Jensen going to be doing? Is he still going to be there if I take this job or not?",
+   "ko": "글쎄요, '젠슨은 무엇을 하게 될까? 내가 이 자리를 맡아도 그가 계속 남아 있을까?' 같은 의문이 들겠죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 862.2,
+   "en": "And then there's also the question of trust, right? The reason that this has become an issue of trust is that when we did our first report about US surveillance, discovering that Jensen had a close relationship with this woman who was a Chinese citizen and the executive at the Singaporean data center firm.",
+   "ko": "그리고 신뢰의 문제도 있습니다, 그렇죠? 이것이 신뢰 문제가 된 이유는 우리가 젠슨이 중국 시민권자이자 싱가포르 데이터 센터 회사의 임원인 이 여성과 긴밀한 관계였다는 미국 감시망의 발견에 대해 첫 보도를 했을 때 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 886.5,
+   "en": "Jensen went to Bloomberg News and told them on the record that it was just a normal business relationship. That has turned out not to be true.",
+   "ko": "젠슨은 블룸버그 뉴스에 가서 그것이 그냥 평범한 비즈니스 관계라고 공식적으로 말했습니다. 하지만 그것은 사실이 아닌 것으로 밝혀졌죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 896.1,
+   "en": "Yeah, that proved not to be true. I mean, he sent an email to the entire company telling them that he'd had an affair and been unfaithful to his wife.",
+   "ko": "네, 사실이 아닌 것으로 증명되었습니다. 제 말은, 그가 전 직원에게 이메일을 보내 불륜을 저질렀고 아내에게 충실하지 못했다고 말했잖아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 903.4,
+   "en": "That was in a span of, I don't know, less than two weeks. That would seem to be the case for a clean break, perhaps.",
+   "ko": "그게 불과 2주도 안 되는 사이에 일어난 일입니다. 그 정도면 아마도 완전히 결별해야 할 사유가 될 것 같네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 911.1,
+   "en": "Yeah, it would. And we haven't even talked about the implications for Washington and NVIDIA's position on selling chips to China and the US government policy on that, which has been moved in the direction that Jensen Huang wanted, which was permitting and allowing the sale of some chips to China.",
+   "ko": "네, 그렇습니다. 그리고 우리는 아직 워싱턴에 미칠 영향과 대중국 칩 판매에 대한 엔비디아의 입장, 그리고 그에 대한 미국 정부의 정책에 대해서는 이야기하지도 않았습니다. 그 정책은 젠슨 황이 원했던 방향, 즉 일부 칩의 중국 판매를 허용하는 쪽으로 움직여 왔거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 931.5,
+   "en": "You and I know we've talked about this many times in the past couple of years. He has a contrarian view of what the US government strategies should be relative to what many people in Congress believe and what a large faction of the Trump administration believes.",
+   "ko": "당신과 저도 지난 몇 년 동안 이에 대해 여러 번 이야기했었죠. 그는 의회의 많은 사람들이나 트럼프 행정부의 상당수 파벌이 믿는 것과는 반대되는, 미국 정부의 전략이 어떠해야 하는지에 대한 독자적인 견해를 가지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 949.7,
+   "en": "Many people think that we should deprive China of that technology so that the US can keep a lead in to China so that the US chip companies, namely NVIDIA, can stay ahead of the Chinese companies by making money in China and competing against Chinese companies.",
+   "ko": "많은 사람들이 중국에서 돈을 벌고 중국 기업들과 경쟁함으로써 미국 칩 기업들, 즉 엔비디아가 중국 기업들보다 앞서 나갈 수 있도록, 미국이 중국에 대한 우위를 지키기 위해 해당 기술을 박탈해야 한다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 970.6,
+   "en": "Right, and his view has prevailed. He's persuasively argued to the Trump administration that those chips should be sold to China.",
+   "ko": "맞습니다, 그리고 그의 견해가 지배적이었죠. 그는 트럼프 행정부에 그 칩들을 중국에 팔아야 한다고 설득력 있게 주장해 왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 976.7,
+   "en": "I'm guessing where you're headed here, Tripp, is that if Jensen Huang has suddenly gone entirely from NVIDIA, the most powerful persuasive proponent of that case for selling chips to China might not be making that case anymore, perhaps that policy changes.",
+   "ko": "트립, 당신이 하려는 말은 젠슨 황이 갑자기 엔비디아에서 완전히 사라진다면, 중국에 칩을 팔아야 한다는 주장의 가장 강력하고 설득력 있는 옹호자가 더 이상 그 주장을 하지 않게 될 것이고, 어쩌면 정책이 바뀔 수도 있다는 것이겠죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 990.7,
+   "en": "Exactly.",
+   "ko": "정확합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 991.9,
+   "en": "Well, this makes me want to ask about President Trump. We've talked a lot about Jensen Huang's very close relationship with the president.",
+   "ko": "음, 이 대목에서 트럼프 대통령에 대해 묻고 싶어지네요. 우리는 젠슨 황과 대통령의 매우 긴밀한 관계에 대해 많이 이야기해 왔으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 998.4,
+   "en": "And I wonder how that closeness might influence what comes next. It doesn't seem entirely outside the realm of possibility that President Trump might want to put his finger on the scale of this board's deliberations as it figures out what to do with Jensen Huang.",
+   "ko": "그리고 그 친밀함이 다음에 일어날 일에 어떤 영향을 미칠지 궁금합니다. 트럼프 대통령이 이사회가 젠슨 황을 어떻게 처리할지 고민하는 과정에서 그 결정에 개입하고 싶어 할 가능성도 전혀 배제할 수는 없어 보이거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1011.5,
+   "en": "Given NVIDIA's importance to the economy, given President Trump's personal relationship with Jensen Huang, you can almost rest assured that there is a Truth Social post in our future with the President weighing in on the outcome of this board's decision.",
+   "ko": "엔비디아가 경제에서 차지하는 중요성과 트럼프 대통령과 젠슨 황의 개인적 관계를 고려할 때, 조만간 이사회의 결정 결과에 대해 대통령의 의견이 담긴 트루스 소셜 포스트가 올라올 것이라고 거의 확신하셔도 좋습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1028.8,
+   "en": "One of the questions we found ourselves asking is is there a world in which or a mechanism through which the U.S. government could take an interest in NVIDIA? We've seen it do that with another chip company as well.",
+   "ko": "우리가 자문하게 된 질문 중 하나는 미국 정부가 엔비디아에 이해관계를 가질 수 있는 상황이나 매커니즘이 존재하느냐는 것입니다. 다른 칩 회사에서도 그런 사례를 본 적이 있으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1040.3,
+   "en": "A financial stake in it.",
+   "ko": "재정적 지분 같은 거 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1041.6,
+   "en": "A financial stake. We saw that a year ago with Intel, the US government now owns 10% of Intel.",
+   "ko": "재정적 지분요. 1년 전 인텔의 사례에서 보았듯이, 미국 정부는 현재 인텔의 지분 10%를 보유하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1049.0,
+   "en": "Now I was able to do that because it had already made a commitment to pay Intel about $10 billion, building out manufacturing plants in the US. And it just kind of pushed that money forward earlier than it would have otherwise.",
+   "ko": "이미 미국 내 제조 공장 건설을 위해 인텔에 약 100억 달러를 지급하기로 약속했었기 때문에 가능했던 일입니다. 단지 그 돈을 원래보다 앞당겨서 투입한 것이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1062.1,
+   "en": "We don't know what the mechanism would be here, but we know this is an administration that likes to have skin in the game and is willing to be active in taking stakes in companies.",
+   "ko": "여기서의 매커니즘이 무엇일지는 모르지만, 우리는 이번 행정부가 직접 참여하는 것을 좋아하고 기업의 지분을 확보하는 데 적극적이라는 사실을 알고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1074.0,
+   "en": "Just so I understand, or a listener can understand, for President Trump, who so very much likes Jensen Huang and presumably wants him to stay on as CEO, what would a US government financial stake in NVIDIA do to advance that?",
+   "ko": "제가, 혹은 청취자들이 이해할 수 있게 설명해 주시죠. 젠슨 황을 매우 좋아하고 그가 CEO로 남기를 바랄 트럼프 대통령 입장에서, 미국 정부의 엔비디아 지분 확보가 그 목적에 어떤 도움이 될까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1089.1,
+   "en": "Or would it have nothing to do with whether Jensen Huang stays on? It would just be to try to make sure the company remains healthy even without him.",
+   "ko": "아니면 젠슨 황의 유임 여부와는 아무런 상관이 없을까요? 그가 없더라도 회사가 건재하도록 보장하려는 목적일 뿐일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1095.1,
+   "en": "It would be a sign to the market that this company has the full faith and backing of the US government.",
+   "ko": "그것은 이 회사가 미국 정부의 전폭적인 신뢰와 지지를 받고 있다는 신호를 시장에 보내는 것이 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1102.9,
+   "en": "I don't want to get into Wall Street jargon here too much, but when there's a growing sense that Jensen may not be leading this company going forward, one of the leading semiconductor analysts on Wall Street cut what is called a price target from $400 to $200.",
+   "ko": "월스트리트의 전문 용어를 너무 많이 쓰고 싶지는 않지만, 젠슨이 앞으로 이 회사를 이끌지 못할 수도 있다는 인식이 확산되자 월스트리트의 한 주요 반도체 분석가는 소위 목표 주가를 400달러에서 200달러로 하향 조정했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1123.7,
+   "en": "which is only $27,000.",
+   "ko": ""
+  },
+  {
+   "start": 1125.1,
+   "en": "dollars above where NVIDIA is trading at the moment.",
+   "ko": ""
+  },
+  {
+   "start": 1128.3,
+   "en": "I mean, this was a company that was on the cusp of being a six trillion dollar company a few months ago and is now valued at four trillion dollars.",
+   "ko": "제 말은, 이 회사는 불과 몇 달 전만 해도 시가총액 6조 달러 달성을 눈앞에 두었으나 현재는 4조 달러로 평가받고 있다는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1136.9,
+   "en": "So if the U.S. government came in, it at least tells investors around the world, investors in the United States that this company is valuable and we're standing behind it and we'll make sure that it weathers the choppy waters here and gets back on its feet.",
+   "ko": "따라서 미국 정부가 개입한다면, 적어도 전 세계와 미국 내 투자자들에게 이 회사는 가치가 있으며 정부가 뒤를 받치고 있고, 이 거친 파도를 헤치고 다시 일어설 수 있도록 보장하겠다는 메시지를 전달하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1153.9,
+   "en": "What are the next steps for NVIDIA's board and when do you expect to know for sure what Jensen Huang's fate is going to be?",
+   "ko": "엔비디아 이사회의 다음 단계는 무엇이며, 젠슨 황의 운명이 확실히 결정되는 시점은 언제쯤으로 예상하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1161.5,
+   "en": "The next step for the board is to make this immediate decision in terms of how it's going to set up the structure going forward in terms of the leadership structure.",
+   "ko": "이사회의 다음 단계는 향후 리더십 구조를 어떻게 설정할지에 대해 즉각적인 결정을 내리는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1170.9,
+   "en": "It also has to fulfill its promise to investigate Jensen Huang and it needs to proceed with that investigation.",
+   "ko": "또한 젠슨 황을 조사하겠다는 약속을 이행해야 하며, 그 조사를 진행해야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1177.3,
+   "en": "They hired a lawyer earlier this week from Wachtell Lipton to do the investigation. He's an experienced investigator, so that will need to proceed.",
+   "ko": "그들은 이번 주 초 조사를 위해 왁텔 립튼의 변호사를 고용했습니다. 그는 노련한 조사관이므로 조사는 계속될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1187.3,
+   "en": "And they'll presumably need to run an executive search process and select a new CEO for a chip company, which is not an easy thing to do.",
+   "ko": "그리고 아마도 경영진 물색 과정을 거쳐 칩 회사를 위한 새로운 CEO를 선출해야 할 텐데, 이는 결코 쉬운 일이 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1195.6,
+   "en": "I mean, you have to find somebody who's technically knowledgeable and also experienced leading a large enterprise. And there are not that many people like that out there in the world.",
+   "ko": "기술적 지식이 풍부하면서도 대기업을 이끌어본 경험이 있는 사람을 찾아야 하니까요. 세상에 그런 사람은 그리 많지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1205.2,
+   "en": "Right, you're saying it's not at all clear who would take Jensen Huang's place long term. It doesn't sound like the board necessarily has much of a list.",
+   "ko": "네, 장기적으로 누가 젠슨 황의 자리를 대신할 수 있을지 전혀 명확하지 않다는 말씀이시군요. 이사회가 딱히 명단을 가지고 있는 것 같지도 않고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1214.8,
+   "en": "No, no. I mean, I think they'd be starting from scratch.",
+   "ko": "아뇨, 없습니다. 제 생각에 그들은 아무것도 없는 상태에서 시작해야 할 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1218.7,
+   "en": "If Jensen Huang is completely forced out of his company, is there any real risk that it impacts the future of AI that him not being there slows this company's production of these chips and therefore slows the pace of US supremacy and AI.",
+   "ko": "만약 젠슨 황이 자신의 회사에서 완전히 쫓겨난다면, 그의 부재가 이 회사의 칩 생산을 늦추고 결과적으로 미국의 AI 패권 속도를 늦춰 AI의 미래에 영향을 줄 실질적인 위험이 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1238.5,
+   "en": "The companies that do business with NVIDIA who I talk to about this dilemma are like what happens if Jensen's not there say that the leadership ranks at NVIDIA are solid and strong and that there can be continuity at this company that it can continue to crank out the kind of chips and technology that we're accustomed to seeing from it with or without Jensen.",
+   "ko": "젠슨이 없을 때 어떤 일이 벌어질지에 대한 이 딜레마를 두고 제가 이야기를 나눠본 엔비디아 거래처들은, 엔비디아의 리더십 층이 탄탄하고 강력하며, 젠슨이 있든 없든 우리가 익히 보아온 종류의 칩과 기술을 계속해서 생산해낼 수 있는 지속성이 있다고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1259.9,
+   "en": "But it is going to take somebody to come in and look at the leadership structure and reorganize it in a way that can work with a different CEO.",
+   "ko": "하지만 누군가 들어와서 리더십 구조를 살피고 다른 CEO 체제에서도 작동할 수 있는 방식으로 재편하는 과정은 필요할 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1270.2,
+   "en": "Because this was really a structure and an organization that was developed by one man for his own purposes. And it worked with him as the conductor of the orchestra.",
+   "ko": "왜냐하면 이것은 정말 한 사람이 자신의 목적을 위해 발전시킨 구조이자 조직이었기 때문입니다. 그리고 그가 오케스트라의 지휘자로서 있을 때 잘 작동했었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1284.0,
+   "en": "But there's no other company in the country that's structured this way.",
+   "ko": "하지만 이 나라에 이런 식으로 구조화된 다른 회사는 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1287.7,
+   "en": "Well, that brings me to my final question. One thing in this whole saga feels quite certain, which is that NVIDIA's board did not plan for this day and did not push Jensen Huang to plan for this day where he might be in serious trouble and this judgment will be called into question and that they might need to get rid of him.",
+   "ko": "그 점이 제 마지막 질문으로 이어지네요. 이 모든 일련의 사건에서 한 가지 확실해 보이는 것은, 엔비디아 이사회가 오늘 같은 날을 대비하지 않았고, 젠슨 황이 심각한 문제에 처해 판단력이 의심받고 그를 해임해야 할 수도 있는 상황에 대한 계획을 세우도록 압박하지도 않았다는 점입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1308.0,
+   "en": "And that is the job of a board of directors to come up with that kind of succession plan.",
+   "ko": "그런 승계 계획을 마련하는 것이 바로 이사회가 해야 할 일인데 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1312.2,
+   "en": "And so are we learning that NVIDIA, for all its success and its extraordinary influence in place in the global economy, wasn't quite ready to be the company that it has become in our global economy?",
+   "ko": "그렇다면 우리는 엔비디아가 그 모든 성공과 글로벌 경제에서의 엄청난 영향력에도 불구하고, 정작 우리 경제에서 차지하게 된 그 위상에 걸맞은 회사가 될 준비가 덜 되어 있었다는 사실을 배우고 있는 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1326.8,
+   "en": "Yes, and making matters worse, in addition to not having the internal structure to get through some of this easily, is the fact that the company has put themselves at the epicenter of the entire AI boom.",
+   "ko": "네, 설상가상으로 이런 일들을 쉽게 극복할 내부 구조가 없다는 점 외에도, 회사가 스스로를 AI 붐 전체의 중심에 두었다는 사실도 문제입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1342.7,
+   "en": "I mean, they have been investing in startups. They have been funding data center build outs. They have been back stopping financiers who are helping build data centers.",
+   "ko": "그들은 스타트업에 투자해 왔고, 데이터 센터 구축에 자금을 지원해 왔으며, 데이터 센터 구축을 돕는 금융가들을 뒷받침해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1353.8,
+   "en": "They have been putting their foot on the gas and making this entire thing go. And now the guy who was the main guy putting his foot down maybe pulled out of the equation.",
+   "ko": "그들은 가속 페달을 밟으며 이 모든 일이 진행되게 만들었습니다. 그런데 이제 페달을 밟던 핵심 인물이 방정식에서 빠지게 될지도 모르는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1365.6,
+   "en": "And that begs the question, if overall this time, and we've been thinking about, you know, what could make the AI bubble burst?",
+   "ko": "그래서 이런 의문이 생깁니다. 그동안 우리는 무엇이 AI 거품을 터뜨릴 수 있을지 고민해 왔잖아요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1372.0,
+   "en": "And we've asked about, you know, startups that don't fulfill on their potential. We've asked about AI agents going rogue, data centers, not being built because of moratoriums and policy.",
+   "ko": "잠재력을 발휘하지 못하는 스타트업이나, 통제를 벗어난 AI 에이전트, 혹은 활동 중단 조치나 정책 때문에 지어지지 못하는 데이터 센터에 대해 질문해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1386.7,
+   "en": "What if it actually all comes down to one executive's poor judgment?",
+   "ko": "그런데 만약 이 모든 것이 결국 한 경영자의 잘못된 판단 하나로 귀결된다면 어떨까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1396.1,
+   "en": "Well, Tripp, get some sleep and we'll talk to you soon. Appreciate it.",
+   "ko": "트립, 잠 좀 자두세요. 곧 다시 이야기 나누죠. 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1400.2,
+   "en": "Thanks so much.",
+   "ko": "정말 감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1400.6,
+   "en": "In a statement on Thursday morning, NVIDIA's board said that the company's chief financial officer, Colette Kress, would serve as interim chief executive until a permanent successor to Jensen Huang is named.",
+   "ko": "목요일 아침 성명에서 엔비디아 이사회는 젠슨 황의 영구적인 후계자가 지명될 때까지 회사의 최고 재무 책임자인 콜레트 크레스가 임시 최고 경영자직을 맡을 것이라고 밝혔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1425.6,
+   "en": "When the stock market opened a few hours later, NVIDIA's share price plunged by about 11%. We'll be right back.",
+   "ko": "몇 시간 뒤 주식 시장이 열리자 엔비디아의 주가는 약 11% 급락했습니다. 잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1443.5,
+   "en": "This week on The Wirecutter Show, we're getting ready for hosting Over the Holidays. Tune in for tips on making your guests feel at home.",
+   "ko": "이번 주 '와이어커터 쇼'에서는 연말 연시 손님맞이를 준비합니다. 손님들이 집처럼 편안하게 느낄 수 있게 하는 팁을 확인해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1451.9,
+   "en": "Are they a blackout sleeper? I don't mean do they blackout to go to sleep. I mean, what kind of light do they require because that is a very specific thing.",
+   "ko": "그분들이 암막 상태에서 주무시는 분들인가요? 잠들기 위해 정신을 잃는다는 뜻이 아닙니다. 아주 구체적인 부분인 조명 조건이 어떠해야 하느냐는 뜻이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1460.9,
+   "en": "Do they have allergies, food sensitivities? Are they coffee tea drinkers? What time do they like to get up? Find The Wirecutter Show on the New York Times app or wherever you like to listen.",
+   "ko": "알레르기나 가리는 음식이 있나요? 커피나 차를 드시나요? 몇 시에 일어나는 걸 좋아하시나요? 뉴욕타임즈 앱이나 주로 이용하시는 팟캐스트 플랫폼에서 '와이어커터 쇼'를 찾아보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1475.4,
+   "en": "Here's what else you need to know today.",
+   "ko": "오늘 전해드릴 다른 소식들입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1477.8,
+   "en": "God didn't want us to get it the easy way. He wanted us to get it the Mississippi way.",
+   "ko": "신께서는 우리가 쉽게 얻는 것을 원치 않으셨습니다. 미시시피 방식으로 얻기를 원하셨죠.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 1484.7,
+   "en": "On Wednesday night, after more than a week of vote counting, Democrat Scott Colom was declared the winner of the U.S. Senate seat in Mississippi.",
+   "ko": "수요일 밤, 일주일 넘게 이어진 개표 끝에 민주당의 스콧 콜롬이 미시시피주 상원의원석의 승자로 선언되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1493.3,
+   "en": "Making him the first black senator from the state in nearly 150 years, and the state's first Democratic senator in decades.",
+   "ko": "이로써 그는 거의 150년 만에 해당 주 출신의 첫 흑인 상원의원이 되었고, 수십 년 만에 주의 첫 민주당 상원의원이 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1503.2,
+   "en": "His narrow victory over incumbent Republican Cindy Hyde-Smith highlights just how much success Democrats had this year in heavily Republican states, including Texas, Iowa, and Kansas.",
+   "ko": "현직 공화당 의원인 신디 하이드-스미스를 상대로 거둔 그의 신승은 텍사스, 아이오와, 캔자스 등 공화당세가 강한 주에서 올해 민주당이 얼마나 큰 성과를 거두었는지를 잘 보여줍니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1516.9,
+   "en": "Democrats now have a 55-seat majority in the U.S. Senate.",
+   "ko": "이제 민주당은 미국 상원에서 55석의 과반 의석을 확보하게 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1522.2,
+   "en": "It's not something that I did, it's something that we did. We have the courage to imagine a night like this.",
+   "ko": "이것은 제가 해낸 것이 아니라 우리가 해낸 것입니다. 우리는 오늘 같은 밤을 상상할 용기가 있었습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 1539.7,
+   "en": "I have the courage to believe in Mississippi. I have the courage to understand that we can show the country that Mississippi matters.",
+   "ko": "저는 미시시피를 믿을 용기가 있습니다. 미시시피가 중요하다는 것을 온 나라에 보여줄 수 있다고 믿을 용기가 있습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 1559.4,
+   "en": "Today's episode was produced by Diana Nguyen and Eric Krupke. It was edited by Marc Georges, contains music by Dan Powell and Marion Lozano, and was engineered by Alyssa Moxley.",
+   "ko": "오늘 에피소드는 다이애나 응우옌과 에릭 크룹케가 제작했습니다. 마크 조지가 편집했으며 댄 파월과 마리온 로자노의 음악이 포함되었고, 엘리사 목슬리가 엔지니어링을 맡았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1573.2,
+   "en": "Our theme music is by Wonderly. Special thanks to Erin Griffith. That's it for The Daily. I'm Michael Barbaro. See you tomorrow.",
+   "ko": "시그널 음악은 원더리(Wonderly)가 맡았습니다. 에린 그리피스에게 특별한 감사를 전합니다. 오늘 '더 데일리'는 여기까지입니다. 저는 마이클 바바로였습니다. 내일 뵙겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1601.7,
+   "en": "For decades, the Brooklyn Democratic Party operated as a tightly controlled machine until the summer when elections ushered in a bunch of self-described reformers.",
+   "ko": "수십 년 동안 브루클린 민주당은 엄격하게 통제되는 조직으로 운영되어 왔으나, 이번 여름 선거를 통해 자칭 개혁가들이 대거 영입되었습니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 1614.5,
+   "en": "Ever since, the party has been in the grip of a bruising, chaotic, and sometimes thrilling fight.",
+   "ko": "그 이후로 당은 격렬하고 혼란스러우며 때로는 전율이 느껴지는 싸움에 휩싸여 있습니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  },
+  {
+   "start": 1620.8,
+   "en": "In the latest episode of Metro with me, Sarah Koenig, stories of people trying to maintain their influence and losing control along the way. Metro, listen wherever you get your podcasts.",
+   "ko": "저 사라 케닉이 진행하는 '메트로' 최신 에피소드에서 자신의 영향력을 유지하려다 결국 통제력을 잃어가는 사람들의 이야기를 들어보세요. '메트로'는 팟캐스트 플랫폼 어디에서나 들으실 수 있습니다.",
+   "speaker": "Sarah Koenig",
+   "ad": true
+  }
+ ]
+}

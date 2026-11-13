@@ -1,0 +1,1009 @@
+{
+ "id": "OPn7Nfa4Gn8",
+ "title": "What's next for Nvidia after resignation of Jensen Huang",
+ "show": "Here & Now Anytime",
+ "channel": "NPR Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=OPn7Nfa4Gn8",
+ "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510051/npr.simplecastaudio.com/a14b69c2-63a5-430e-bbf8-8c76275e14cd/episodes/e7fb6aa6-3836-4ae8-a33a-80d316b3f566/audio/128/default.mp3?awCollectionId=a14b69c2-63a5-430e-bbf8-8c76275e14cd&awEpisodeId=e7fb6aa6-3836-4ae8-a33a-80d316b3f566&feed=XciAg_Eg&t=podcast&e=nx-s1-6038961&p=510051&d=1255&size=20080497",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/06/a3/c7/06a3c795-1437-844a-a92d-4d68b666f4dd/mza_7175680884885635259.jpg/600x600bb.jpg",
+ "duration": 1343,
+ "releaseDate": "2026-11-12T20:38:32Z",
+ "addedAt": "2026-11-13",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Support for here and now anytime comes from MathWorks, creator of MATLAB and Simulink Software, to design and develop engineered systems, accelerating the pace of discovery in engineering and science.",
+   "ko": "Here & Now Anytime은 MATLAB 및 Simulink 소프트웨어 제작사인 MathWorks의 후원을 받아 제작됩니다. 이 소프트웨어는 공학 및 과학 분야의 발견 속도를 높이는 엔지니어링 시스템을 설계하고 개발하는 데 사용됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 13.0,
+   "en": "Learn more at mathworks.com.",
+   "ko": "mathworks.com에서 더 자세히 알아보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 16.5,
+   "en": "WBUR Podcasts. Boston.",
+   "ko": "WBUR 팟캐스트, 보스턴입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 23.3,
+   "en": "These national security implications are massive, and Silicon Valley acts like it's another day at the office. The company at the center of the AI world is in turmoil.",
+   "ko": "국가 안보에 미치는 영향은 엄청난데 실리콘 밸리는 평소와 다름없는 하루인 것처럼 행동하고 있습니다. AI 세계의 중심에 있는 기업이 혼란에 빠졌습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 44.1,
+   "en": "It's Thursday, November 12th, and this is Here and Now Anytime from NPR and WBUR. I'm Chris Bentley.",
+   "ko": "11월 12일 목요일, NPR과 WBUR이 함께하는 Here and Now Anytime입니다. 저는 크리스 벤틀리입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 53.7,
+   "en": "Today on the show, why the Nvidia scandal matters even if you don't know or care what Nvidia even does.",
+   "ko": "오늘 방송에서는 여러분이 엔비디아가 무슨 일을 하는지 모르거나 관심이 없더라도 엔비디아 스캔들이 왜 중요한지에 대해 다룹니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 59.4,
+   "en": "You're probably an investor in Nvidia, and if you're not, by the way, you use all their stuff, and if you ever touch AI, you use it too.",
+   "ko": "여러분은 아마 엔비디아의 투자자일 것이고, 설령 아니더라도 그들의 모든 제품을 사용하고 있으며, AI를 접해본 적이 있다면 엔비디아 기술을 사용하는 것입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 65.9,
+   "en": "Also, Scott Colom makes history in Mississippi as that state's first Black Senator-elect since Reconstruction and the first Democrat since 1982.",
+   "ko": "또한, 스콧 콜롬이 미시시피에서 재건 시대 이후 첫 흑인 상원의원 당선인이자 1982년 이후 첫 민주당원으로 당선되며 역사를 썼습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 76.1,
+   "en": "I have the courage to understand that we can show the country that Mississippi matters.",
+   "ko": "저는 우리가 미국 전역에 미시시피가 중요하다는 것을 보여줄 수 있다는 점을 이해할 용기를 가지고 있습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 85.5,
+   "en": "But first, Jensen Huang is out. The man who was said to be indispensable has been dispensed with. He resigned as CEO of NVIDIA today.",
+   "ko": "하지만 먼저, 젠슨 황이 물러났습니다. 대체 불가능하다고 여겨졌던 인물이 물러나게 된 것입니다. 그는 오늘 엔비디아의 CEO직을 사임했습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 96.0,
+   "en": "After news about yet another affair. This one reportedly with a subordinate of his at NVIDIA.",
+   "ko": "또 다른 불륜 소식이 전해진 이후의 일입니다. 이번 건은 엔비디아에 있는 그의 부하 직원과 관련된 것으로 알려졌습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 101.8,
+   "en": "The other affair everyone had been talking about was with an executive at Megaspede, a Singapore-based customer of NVIDIA's suspected of helping China dodge American export controls on NVIDIA's AI chips.",
+   "ko": "모두가 이야기하던 또 다른 불륜은 엔비디아의 싱가포르 고객사인 메가스피드(Megaspede)의 임원과 관련된 것이었습니다. 이 회사는 중국이 엔비디아 AI 칩에 대한 미국의 수출 통제를 회피하도록 도운 혐의를 받고 있습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 115.0,
+   "en": "American spies said she was recruited by Chinese intelligence. So now what?",
+   "ko": "미국 정보 당국은 그녀가 중국 정보기관에 포섭되었다고 밝혔습니다. 이제 어떻게 되는 걸까요?",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 121.7,
+   "en": "Tech commentator Cara Swisher told Robin Young the ripple effect will continue for a while, and the talk about Huang being indispensable was always overblown.",
+   "ko": "기술 평론가 카라 스위셔는 로빈 영에게 파급 효과가 한동안 지속될 것이며, 젠슨 황이 대체 불가능하다는 이야기는 늘 과장된 것이었다고 말했습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 132.0,
+   "en": "I said he could go. A lot of people said he could go. It was ridiculous.",
+   "ko": "전 그가 떠날 수 있다고 말했어요. 많은 사람들도 그가 떠날 수 있다고 말했죠. (사임할 수 없다는 말은) 말도 안 되는 소리였어요.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 135.1,
+   "en": "That was Silicon Valley speaking because they have no values and they're not worried about national security apparently. And they're only interested in shareholder value.",
+   "ko": "그건 실리콘 밸리의 입장이었죠. 왜냐하면 그들은 가치관도 없고 국가 안보에 대해서도 전혀 걱정하지 않는 것처럼 보이기 때문입니다. 오로지 주주 가치에만 관심이 있을 뿐이죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 142.2,
+   "en": "But of course he could go. Steve Jobs died and Apple 10x itself over the many years. And Steve Jobs was probably the most indispensable CEO.",
+   "ko": "하지만 당연히 그는 떠날 수 있습니다. 스티브 잡스가 사망한 후에도 애플은 수년 동안 가치가 10배나 뛰었습니다. 스티브 잡스야말로 아마 가장 대체 불가능한 CEO였을 텐데 말이죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 151.0,
+   "en": "And this is what happens. And what he's done here is really problematic and will be full of scrutiny that this company can't endure.",
+   "ko": "일은 이렇게 벌어지기 마련입니다. 그가 저지른 일은 정말 문제가 많고, 이 회사가 견디기 힘들 정도의 정밀 조사를 받게 될 것입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 159.8,
+   "en": "Look, there are a lot of jokes, you know, people should have known when he was suddenly wearing a leather jacket.",
+   "ko": "보세요, 농담이 참 많습니다. 그가 갑자기 가죽 재킷을 입기 시작했을 때 사람들이 알아차렸어야 했다는 식으로요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 164.7,
+   "en": "I like myself today.",
+   "ko": "전 오늘 제 모습이 마음에 드네요.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 166.0,
+   "en": "There you go. Yes. And, and yet, how serious is this?",
+   "ko": "그렇군요. 네. 그런데, 이게 얼마나 심각한 사안인가요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 170.5,
+   "en": "You know, there's questions of national security in the first affair, which he's admitted to. And the fact that there's no succession plan, your thoughts on, you know, what are your concerns?",
+   "ko": "그가 인정한 첫 번째 불륜 사건에는 국가 안보 문제가 얽혀 있고, 승계 계획도 없다는 사실이 드러났습니다. 당신의 생각은 어떤지, 무엇이 걱정되시는지 궁금합니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 181.1,
+   "en": "Well, a few things. First of all, right now actually, NVIDIA has had a real stock problem recently. It's been trading at values that are quite low.",
+   "ko": "글쎄요, 몇 가지가 있습니다. 우선, 실제로 최근 엔비디아는 주식 문제에 직면해 있습니다. 상당히 낮은 가격에 거래되고 있죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 188.8,
+   "en": "So it definitely will go down, but it certainly is a very strong company. He didn't do this by himself, even though he put himself at dead center because like a lot of Silicon Valley CEOs, he's extraordinarily arrogant.",
+   "ko": "주가는 분명 더 떨어지겠지만, 확실히 매우 탄탄한 회사입니다. 많은 실리콘 밸리 CEO들처럼 그가 매우 오만해서 자신을 정중앙에 두긴 했지만, 이 회사를 혼자 만든 건 아니니까요.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 200.0,
+   "en": "But there are lots of people at NVIDIA. The CFO is taking over. There's probably a lot of qualified people internally and externally.",
+   "ko": "엔비디아에는 많은 사람이 있습니다. 재무책임자(CFO)가 자리를 이어받고 있고, 내부적으로나 외부적으로나 자격을 갖춘 사람들이 많을 겁니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 206.4,
+   "en": "So someone will take over this company and it's still got a very important business. So that's important. It's not just because of him. It's because of everyone who works there.",
+   "ko": "그래서 누군가 이 회사를 이어받을 것이고, 여전히 매우 중요한 사업을 하고 있습니다. 그게 중요합니다. 단지 그 때문이 아니라, 거기서 일하는 모든 사람 덕분이죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 214.6,
+   "en": "Secondly, if there's a lot going on here with national security, especially what did the Trump administration know and when did they know it?",
+   "ko": "둘째로, 국가 안보와 관련하여 많은 일이 벌어지고 있는데, 특히 트럼프 행정부가 무엇을 알고 있었고 언제 알았느냐는 것입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 220.8,
+   "en": "Of course, Trump has pretended he didn't know much or Jensen didn't know much. And there's a lot of questions as to why the government didn't tell Jensen Huang this was going on.",
+   "ko": "물론 트럼프는 자신이나 젠슨이 많은 것을 알지 못했다고 시치미를 뗐습니다. 그리고 정부가 왜 젠슨 황에게 이런 일이 벌어지고 있다는 사실을 알리지 않았는지에 대해서도 많은 의문이 제기됩니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 229.6,
+   "en": "Apparently they didn't, apparently, but we'll see. Also that Trump knew about this and still brought him on a trip to China, all manner of things.",
+   "ko": "보아하니 알리지 않은 것 같지만 지켜봐야겠죠. 또한 트럼프가 이 사실을 알고도 그를 중국 방문에 동행시켰다는 점 등 온갖 문제들이 있습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 237.6,
+   "en": "And it looks like there was a real fight within the administration with Marco Rubio and Scott Bessent on one side and David Sacks and Howard Lutnick the Commerce Secretary on the other.",
+   "ko": "행정부 내부에서도 한쪽에는 마르코 루비오와 스콧 베센트, 다른 한쪽에는 데이비드 색스와 하워드 러트닉 상무장관이 갈라져 큰 싸움이 있었던 것으로 보입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 247.6,
+   "en": "David Sacks is their alleged AI guru who was sort of pushing Jensen's line which was sell more chips to China.",
+   "ko": "자칭 AI 전문가라는 데이비드 색스는 중국에 더 많은 칩을 팔아야 한다는 젠슨의 입장을 지지하고 있었습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 255.0,
+   "en": "It's all tainted now because of what's happened here and who knows what influence this relationship had on that.",
+   "ko": "여기서 벌어진 일들 때문에 이제 모든 것이 오염되었습니다. 이 관계가 어떤 영향을 미쳤을지는 아무도 모르는 일이죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 261.7,
+   "en": "So there's all kinds of national security implications and investigations to be done.",
+   "ko": "따라서 온갖 종류의 국가 안보 문제와 수행해야 할 조사들이 산적해 있습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 266.6,
+   "en": "What does this do in the industry? Are there other companies saying, this is great? I mean, what does it do in the industry?",
+   "ko": "업계에는 어떤 영향을 미칠까요? '이거 잘됐다'라고 말하는 다른 회사들도 있을까요? 제 말은, 업계 전반에 어떤 파장이 있을까요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 273.1,
+   "en": "No, it's not great because Jensen Huang and NVIDIA was at the center of a lot of these cross investments. You know, they just put $3 billion into Meta.",
+   "ko": "아니요, 좋지 않습니다. 젠슨 황과 엔비디아가 이러한 수많은 교차 투자의 중심에 있었기 때문입니다. 아시다시피 그들은 최근 메타에 30억 달러를 투자했죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 283.4,
+   "en": "They're about to invest in the Anthropic IPO. This is all, I mean, some people consider it round tripping or something, but NVIDIA was at the dead hot center of the growth of the AI industry...",
+   "ko": "그들은 앤스로픽 IPO에도 투자할 예정입니다. 이 모든 것이, 제 말은, 누군가는 자금 돌리기 같은 것으로 보기도 하지만, 엔비디아는 AI 산업 성장의 완전한 중심에 있었습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 293.9,
+   "en": "...which is at the dead hot center of our economy in our stock market right now. And also, the Trump administration has based a lot of its economic growth on AI.",
+   "ko": "그리고 AI 산업은 현재 우리 경제와 주식 시장의 중심입니다. 또한 트럼프 행정부는 경제 성장의 상당 부분을 AI에 기반을 두고 있습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 303.9,
+   "en": "So any kind of, it depends on what comes out next. And I think there should be a lot of scrutiny of these influences, not just from China, but from other countries, whether it's what happened with Starlink and Ukraine, everything else.",
+   "ko": "그래서 다음에 무엇이 밝혀지느냐에 따라 달라질 것입니다. 중국뿐만 아니라 스타링크와 우크라이나 사건 등 다른 국가들로부터의 영향력에 대해서도 엄격한 조사가 이루어져야 한다고 생각합니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 317.6,
+   "en": "These national security implications are massive. And Silicon Valley acts like it's another day at the office.",
+   "ko": "이러한 국가 안보 문제는 매우 심각합니다. 그런데 실리콘 밸리는 평소와 다름없는 것처럼 행동하고 있어요.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 323.7,
+   "en": "When I said companies might be saying this is great, I was thinking of his competitors who might think they'd better get more of the chip market.",
+   "ko": "제가 다른 기업들이 좋아할 수도 있다고 말했을 때는, 칩 시장 점유율을 더 확보할 수 있을 거라고 생각하는 경쟁사들을 떠올린 것이었습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 330.4,
+   "en": "But you just mentioned Starlink and Ukraine and of course Starlink Elon Musk's company and people feel that he's had a hand in whether or not the Ukrainians have been able to access this incredible thing that they need to stay alive.",
+   "ko": "하지만 방금 스타링크와 우크라이나를 언급하셨는데, 아시다시피 스타링크는 일론 머스크의 회사이고, 사람들은 우크라이나인들이 생존에 필요한 이 기술을 사용할 수 있는지 여부에 그가 개입했다고 느끼고 있습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 345.4,
+   "en": "I hear your voice and we only have about a minute here, Cara Swisher, but I long heard your voice dripping with, you can fill in the word, for the tech pro, you know, thinking of Silicon Valley.",
+   "ko": "당신의 목소리를 듣고 있는데 시간이 1분 정도밖에 남지 않았네요, 카라 스위셔 씨. 하지만 실리콘 밸리를 생각하는 기술 전문가들에 대해 당신의 목소리에 어떤 감정이 묻어나는지는 오랫동안 들어왔습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 357.8,
+   "en": "Do you think this is going to be any kind of a wake up call that's going to change anything or maybe lead to more regulations of these companies that have so much power?",
+   "ko": "이 사건이 무언가를 변화시키거나, 막강한 권력을 가진 이 기업들에 대한 더 많은 규제로 이어지는 일종의 경종이 될 것이라고 보시나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 365.8,
+   "en": "Well, you are seeing a lot of like Alex Karp from Palantir suddenly saying he's progressive.",
+   "ko": "글쎄요, 팔란티어의 알렉스 카프처럼 갑자기 자신이 진보적이라고 말하는 사람들이 늘어나고 있습니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 370.5,
+   "en": "They're definitely going to move in the democratic direction now that there's investigative powers that these Democrats have now controlling all of Congress.",
+   "ko": "민주당이 현재 의회 전체를 장악하며 조사권을 갖게 된 만큼, 그들은 분명 민주당 쪽으로 움직일 것입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 378.4,
+   "en": "But, you know, they put their lot in with the Trump administration, and this is a major black eye.",
+   "ko": "하지만 그들은 트럼프 행정부에 운명을 걸었고, 이번 일은 큰 수치입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 383.2,
+   "en": "I mean, I think they'll be fined eventually, but the fact matter is these companies need to think about our national security in our country over their own shareholder value sometime.",
+   "ko": "결국 벌금을 물게 되겠지만, 중요한 사실은 이 기업들이 때로는 주주 가치보다 우리나라의 국가 안보를 먼저 생각해야 한다는 점입니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 392.0,
+   "en": "And in this case, for them to say, oh, his bad, oh, well, and pretend it's a nothing is really very telling to me. And, you know, we'll see where it goes.",
+   "ko": "그런데 이번 건에 대해 그들이 '그 사람 실수지 뭐'라며 아무 일도 아닌 것처럼 행동하는 것은 저에게 시사하는 바가 큽니다. 앞으로 어떻게 될지 지켜봐야겠죠.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 401.6,
+   "en": "Well, we know that the Democratic Senator Elizabeth Warren has already said in a statement that the resignation of Huang, and some were wondering if it was a firing, but he's gone. Correct. Right.",
+   "ko": "민주당의 엘리자베스 워런 상원의원은 이미 성명을 통해 젠슨 황의 사임(일부에서는 경질인지 궁금해하지만 어쨌든 그는 떠났습니다)에 대해 입장을 밝혔습니다. 맞습니다. 그렇죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 410.5,
+   "en": "It doesn't absolve him or the company. For putting our national security at risk. We'll see where that goes.",
+   "ko": "그의 사임이 그나 회사의 국가 안보 위협 책임을 면제해 주는 것은 아닙니다. 결과가 어떻게 나올지 지켜보죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 417.3,
+   "en": "Tech writer, podcaster, tech whisperer, Cara Swisher. Thank you so much.",
+   "ko": "기술 작가이자 팟캐스터, 기술 위스퍼러인 카라 스위셔 씨였습니다. 정말 감사합니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 422.8,
+   "en": "Thank you.",
+   "ko": "감사합니다.",
+   "speaker": "Cara Swisher"
+  },
+  {
+   "start": 425.0,
+   "en": "Indira Lakshmanan has more on this story in just a minute.",
+   "ko": "잠시 후 인디라 락슈마난이 이 소식을 더 자세히 전해드리겠습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 431.9,
+   "en": "Support for this podcast comes from Is Business Broken, a podcast from the Mehrotra Institute at Boston University.",
+   "ko": "이 팟캐스트는 보스턴 대학교 메로트라 연구소의 팟캐스트, Is Business Broken의 후원을 받습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 440.0,
+   "en": "On the show, host Kurt Nickisch asks the thorny questions necessary for this moment about the role business plays in society.",
+   "ko": "이 프로그램에서 진행자 커트 니키시는 비즈니스가 사회에서 수행하는 역할에 대해 이 시대에 필요한 까다로운 질문들을 던집니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 447.7,
+   "en": "Questions like, why are executives paid so much? Why is innovation in healthcare so hard? Is ESG just greenwashing? And of course, is business broken?",
+   "ko": "경영진은 왜 그렇게 많은 연봉을 받을까? 헬스케어 혁신은 왜 그렇게 어려울까? ESG는 단지 그린워싱일까? 그리고 물론, 비즈니스는 고장 났을까? 같은 질문들 말이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 458.9,
+   "en": "Follow Is Business Broken wherever you get your podcasts.",
+   "ko": "여러분이 팟캐스트를 듣는 곳 어디에서나 Is Business Broken을 팔로우하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 466.0,
+   "en": "Support for WBUR comes from the Quiet Tension Podcast, a layer of energy running just beneath the surface. Not loud, not always visible, but always there.",
+   "ko": "WBUR은 표면 바로 아래 흐르는 에너지의 층과 같은 Quiet Tension 팟캐스트의 후원을 받습니다. 크지는 않고 항상 눈에 띄지는 않지만, 늘 그곳에 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 477.1,
+   "en": "It's what gets you up before dawn, what keeps you focused long after others have stopped. It sharpens you, and sometimes it costs you.",
+   "ko": "그것은 당신을 새벽 전에 깨우고, 다른 이들이 멈춘 후에도 오랫동안 집중하게 해주는 힘입니다. 당신을 날카롭게 만들기도 하고, 때로는 대가를 치르게도 합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 485.4,
+   "en": "Psychologist and Executive Coach Dr. Sharon Chirban asks high performers what makes them tick, and what keeps them going when the room gets quiet.",
+   "ko": "심리학자이자 경영 코치인 샤론 처반 박사가 하이 퍼포머들에게 그들을 움직이게 하는 원동력은 무엇인지, 그리고 방 안이 조용해졌을 때 무엇이 그들을 계속 나아가게 하는지 묻습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 493.7,
+   "en": "It's about understanding it. Listen closely wherever you get your podcasts.",
+   "ko": "그것을 이해하는 것에 대한 이야기입니다. 여러분이 팟캐스트를 듣는 어디에서나 주의 깊게 들어보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 505.2,
+   "en": "NVIDIA's Chief Financial Officer, Colette Kress, will take over as interim CEO while the board looks for a successor.",
+   "ko": "엔비디아의 이사회가 후임자를 찾는 동안 콜레트 크레스 최고재무책임자(CFO)가 임시 CEO를 맡게 됩니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 511.7,
+   "en": "Let's bring in Ali Velshi, Chief Data Reporter at MSNBC and host of the 11th Hour with Ali Velshi. Ali, welcome.",
+   "ko": "MSNBC의 수석 데이터 기자이자 Ali Velshi와 함께하는 11th Hour의 진행자 알리 벨시를 모시겠습니다. 알리 씨, 환영합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 519.0,
+   "en": "Thanks, Indira.",
+   "ko": "감사합니다, 인디라.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 520.1,
+   "en": "All right, first news of this affair with the alleged Chinese spy was huge, but at the time of its revelation, the board expressed confidence in Huang's leadership.",
+   "ko": "네, 중국 스파이 혐의자와의 첫 번째 불륜 소식은 엄청난 파장을 일으켰지만, 당시 이사회는 황의 리더십에 신뢰를 표했습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 530.2,
+   "en": "I mean, they were saying so up until yesterday. So now with this news of a second alleged affair, Huang has resigned. Did it surprise you how fast this story moved?",
+   "ko": "제 말은, 어제까지만 해도 그렇게 말했었다는 겁니다. 그런데 이제 두 번째 불륜 의혹 소식이 들리자마자 황이 사임했습니다. 사건이 이렇게 빨리 진행된 것에 놀라셨나요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 541.2,
+   "en": "No, I figured this was going to go fast one way or the other.",
+   "ko": "아니요, 어떤 방식으로든 빠르게 진행될 거라고 생각했습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 544.3,
+   "en": "This is a board made up of people who Jensen Huang has made very rich, right?",
+   "ko": "이 이사회는 젠슨 황 덕분에 큰 부자가 된 사람들로 구성되어 있습니다, 그렇지 않나요?",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 548.6,
+   "en": "This is the, depending on the hour of the day, it's the first, second, or third most valuable company in the world that board is filled with people who he helped make rich.",
+   "ko": "시시각각 변하긴 하지만 세계에서 첫 번째, 두 번째, 혹은 세 번째로 가치 있는 기업의 이사회가 그가 부자로 만들어준 사람들로 가득 차 있습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 557.9,
+   "en": "So I think he was either going to, he was going to be fired or he was going to choose to resign.",
+   "ko": "그래서 저는 그가 해고되거나, 혹은 스스로 사임을 선택할 거라고 생각했습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 564.0,
+   "en": "Choosing to resign means that he might be able to preserve some of his information from not becoming entirely public.",
+   "ko": "사임을 선택했다는 것은 자신의 정보가 완전히 공개되는 것을 어느 정도 막을 수 있다는 뜻이기도 합니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 572.2,
+   "en": "He's still got to testify before Congress, but that's now going to be behind closed doors.",
+   "ko": "그는 여전히 의회에서 증언해야 하지만, 이제 그것은 비공개로 진행될 것입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 576.0,
+   "en": "So there won't be this effort to try and get all the information out there in the public, but the issue of the spy versus the other affair that came out is the more serious one.",
+   "ko": "그래서 모든 정보를 대중에게 공개하려는 시도는 없겠지만, 스파이 관련 이슈가 새로 드러난 다른 불륜 사건보다 더 심각한 문제입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 585.9,
+   "en": "And the question now becomes, who knew about it? Who did they tell?",
+   "ko": "그리고 이제 문제는 '누가 그것을 알고 있었는가?', '그들은 누구에게 말했는가?'가 됩니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 590.9,
+   "en": "At this point, the people involved, they started to name Marco Rubio and Scott Bessent and Howard Lutnick and all sorts of people.",
+   "ko": "현 시점에서 관련 인물로 마르코 루비오, 스콧 베센트, 하워드 러트닉 등 온갖 사람들이 거론되기 시작했습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 600.4,
+   "en": "So there's going to be some investigation into who knew that he might have been cavorting with a spy and what danger has America been exposed to as a result?",
+   "ko": "따라서 그가 스파이와 어울렸을 가능성을 누가 알고 있었는지, 그리고 그 결과 미국이 어떤 위험에 노출되었는지에 대한 조사가 이루어질 것입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 608.8,
+   "en": "Well, I mean, you point out all these top Trump administration officials, including the Secretary of State, the Treasury Secretary, and President Trump himself...",
+   "ko": "당신은 국무장관, 재무장관, 그리고 트럼프 대통령 자신을 포함한 트럼프 행정부의 고위 관리들을 지목하셨는데요...",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 617.0,
+   "en": "...who was reportedly informed and briefed by Marco Rubio before his trip to China that Jensen Huang was involved in this affair with an alleged spy and President Trump brought him along anyway.",
+   "ko": "보도에 따르면 트럼프 대통령은 중국 방문 전에 마르코 루비오로부터 젠슨 황이 스파이 혐의자와 불륜 관계에 있다는 보고를 받았음에도 그를 동행시켰다고 합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 631.7,
+   "en": "I want to say we're seeing markets react to this news. shares of NVIDIA plunge 13% at the open of the market.",
+   "ko": "시장이 이 뉴스에 반응하고 있다는 점을 말씀드리고 싶네요. 장이 열리자마자 엔비디아 주가가 13% 폭락했습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 639.2,
+   "en": "We know that its chips are central to the AI industry. The company controls an estimated 90% of the advanced chip market.",
+   "ko": "엔비디아의 칩이 AI 산업의 핵심이라는 사실은 잘 알려져 있습니다. 이 회사는 첨단 칩 시장의 약 90%를 점유하고 있죠.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 646.2,
+   "en": "So tell us, Ali, with so much uncertainty at NVIDIA now, are shares going to drop further, and how is it going to affect markets?",
+   "ko": "알리 씨, 현재 엔비디아의 불확실성이 큰 상황에서 주가가 더 떨어질까요? 그리고 시장에는 어떤 영향을 미칠까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 653.6,
+   "en": "Well, they put the CFO of the company in charge, and they are starting a search for a replacement for Jensen Huang.",
+   "ko": "일단 회사는 CFO에게 경영을 맡겼고, 젠슨 황의 후임자를 찾기 시작했습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 659.3,
+   "en": "This is the part of the problem. Big companies like this should have a succession plan, and this one didn't.",
+   "ko": "이게 문제의 핵심 중 하나입니다. 이런 대기업은 승계 계획이 있어야 하는데, 이 회사는 없었습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 663.4,
+   "en": "And not only that, the 60 most senior people in the company report directly to him. So it's a very flat structure.",
+   "ko": "그뿐만 아니라, 회사에서 가장 직급이 높은 60명이 그에게 직접 보고합니다. 매우 평평한 조직 구조죠.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 670.1,
+   "en": "They weren't planning for the replacement of Jensen Huang, which is just a bad thing to do for a company.",
+   "ko": "그들은 젠슨 황의 교체에 대비하지 않았는데, 이는 기업으로서 정말 좋지 않은 처사입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 674.6,
+   "en": "So they, look, they've marginally stabilized it with the woman who was the chief financial officer who's been put in charge.",
+   "ko": "보시다시피, 경영을 맡게 된 여성 최고재무책임자 덕분에 상황이 미미하게나마 안정되기는 했습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 681.8,
+   "en": "I think people should be concerned because there's an AI bubble and there's some concern that's going to burst.",
+   "ko": "AI 거품이 끼어 있고 그것이 터질 것이라는 우려가 있기 때문에 사람들은 걱정해야 한다고 봅니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 686.5,
+   "en": "But I will say the concerns about this being the thing to burst it don't seem to have come true yet.",
+   "ko": "하지만 이 사건이 거품을 터뜨리는 도화선이 될 것이라는 우려는 아직 현실화되지 않은 것 같습니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 692.0,
+   "en": "That says we're at very early stages of this investigation, so we don't know how much worse it gets.",
+   "ko": "조사의 아주 초기 단계라 상황이 얼마나 더 나빠질지는 알 수 없다는 뜻이기도 합니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 698.7,
+   "en": "But NVIDIA is as close to the center of the AI world as a company can get. They make the actual chips that power AI, and I suspect they will continue to do so.",
+   "ko": "하지만 엔비디아는 AI 세계의 중심에 가장 가까운 기업입니다. AI를 구동하는 실제 칩을 만들고 있고, 앞으로도 계속 그럴 것이라고 생각합니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 708.0,
+   "en": "All right, well, what could this mean for all of our retirement accounts and everyone's savings out there?",
+   "ko": "알겠습니다, 그렇다면 이 상황이 우리의 퇴직 연금 계좌나 모든 사람의 저축에는 어떤 의미가 있을까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 712.8,
+   "en": "Well, I would look at your 401ks. I'd know how to log in and see how much exposure you have.",
+   "ko": "음, 자신의 401k(퇴직연금)를 확인해 보라고 말씀드리고 싶네요. 로그인해서 위험 노출액이 얼마나 되는지 확인해 보세요.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 717.3,
+   "en": "Even if your portfolio is just the S&P 500 or the Dow, you've got a lot of exposure to AI stock.",
+   "ko": "포트폴리오가 단순히 S&P 500이나 다우 지수로 구성되어 있더라도 AI 주식에 대한 노출이 꽤 클 겁니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 723.6,
+   "en": "Again, for the moment, the response is muted, so I'm not sure that anybody should do too much right now, but you should keep a very close eye on this.",
+   "ko": "다시 말하지만, 현재로서는 시장 반응이 미미하므로 당장 무엇을 과하게 할 필요는 없겠지만, 아주 면밀히 지켜봐야 합니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 730.7,
+   "en": "You are, you may be, you're probably an investor in NVIDIA, and if you're not, by the way, you use all their stuff, and if you ever touch AI, you use it too.",
+   "ko": "여러분은 아마 엔비디아의 투자자일 것이고, 설령 아니더라도 그들의 제품을 모두 사용하고 있으며 AI를 접한다면 그 기술을 사용하는 것입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 738.5,
+   "en": "So, we're gonna stay on this one very closely.",
+   "ko": "그래서 저희는 이 문제를 아주 긴밀히 계속 다룰 예정입니다.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 741.2,
+   "en": "That's Ali Velshi, Chief Data Reporter for MSNBC, host of the 11th hour with Ali Velshi. Thanks so much.",
+   "ko": "지금까지 MSNBC의 수석 데이터 기자이자 11th hour 진행자인 알리 벨시였습니다. 정말 감사합니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 747.7,
+   "en": "My pleasure.",
+   "ko": "천만에요.",
+   "speaker": "Ali Velshi"
+  },
+  {
+   "start": 748.0,
+   "en": "We'll be right back with more stories including a historian's view of Democrats' Senate pick up in Mississippi. In just a minute.",
+   "ko": "잠시 후, 미시시피 상원 선거에서 승리한 민주당에 대한 역사학자의 견해를 포함해 더 많은 소식으로 돌아오겠습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 761.3,
+   "en": "Democrat Scott Colom pulled off an upset win over Republican Senator Cindy Hyde-Smith, making him the first Democrat elected to Mississippi's Senate delegation since 1982.",
+   "ko": "민주당의 스콧 콜롬이 공화당의 신디 하이드-스미스 상원의원을 상대로 역전승을 거두며 1982년 이후 미시시피주 상원 의원으로 선출된 첫 번째 민주당원이 되었습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 772.9,
+   "en": "Colom also becomes Mississippi's first Black senator since Reconstruction.",
+   "ko": "콜롬은 또한 미시시피에서 재건 시대 이후 첫 흑인 상원의원이 되었습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 778.0,
+   "en": "All I did was have the courage to imagine a night like this. I have the courage to believe in Mississippi.",
+   "ko": "제가 한 일이라곤 이런 밤을 상상할 용기를 가졌던 것뿐입니다. 저는 미시시피를 믿는 용기를 가지고 있습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 789.0,
+   "en": "I have the courage to understand that we can show the country that Mississippi matters.",
+   "ko": "저는 우리가 미국 전역에 미시시피가 중요하다는 것을 보여줄 수 있다는 점을 이해할 용기를 가지고 있습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 797.6,
+   "en": "Marvin King watched the race unfold from his post at the University of Mississippi. He told Indira that Colom has come a long way from his first town hall when only 10 people showed up.",
+   "ko": "마빈 킹은 미시시피 대학교에서 이 경선을 지켜보았습니다. 그는 인디라에게 콜롬이 단 10명만 참석했던 첫 번째 타운홀 미팅 이후로 먼 길을 달려왔다고 말했습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 808.8,
+   "en": "Scott Colom's victory is a model that I think will be studied in the future of how you can start with very low expectations, very little money, and still have great things happen to your campaign.",
+   "ko": "스콧 콜롬의 승리는 매우 낮은 기대치와 적은 자금으로 시작해서 어떻게 캠페인에서 큰 성과를 거둘 수 있는지에 대한 모델로 미래에 연구될 것이라고 생각합니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 820.8,
+   "en": "I'm thinking about how big a deal it is for deep red Mississippi to elect a Black Democrat to the Senate.",
+   "ko": "보수 성향이 강한 미시시피주에서 흑인 민주당원이 상원의원으로 선출된 것이 얼마나 대단한 일인지 생각하게 됩니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 829.2,
+   "en": "Scott Colom cited Medgar Evers, the African-American civil rights icon who was assassinated outside his home in Jackson, Mississippi in 1963. Let's listen.",
+   "ko": "스콧 콜롬은 1963년 미시시피주 잭슨에 있는 자택 밖에서 암살당한 아프리카계 미국인 민권 운동의 상징인 메드가 에버스를 언급했습니다. 들어보시죠.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 841.0,
+   "en": "I can't help but think about the efforts on Veterans Day. A moment like this, when he served his country and came home to Mississippi, when he wouldn't ever vote.",
+   "ko": "재향 군인의 날을 맞아 그의 노력을 생각하지 않을 수 없습니다. 그가 국가를 위해 봉사하고 미시시피로 돌아왔을 때, 투표조차 할 수 없었던 그 시절의 이런 순간을 말입니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 855.2,
+   "en": "But yeah, faith that Mississippi can make progress.",
+   "ko": "하지만 네, 미시시피가 진보할 수 있다는 믿음이 있었습니다.",
+   "speaker": "Scott Colom"
+  },
+  {
+   "start": 859.2,
+   "en": "Talk about how that moment resonated in the audience in a state where voting still is not as easy as it is in other states, especially for Black voters.",
+   "ko": "특히 흑인 유권자들에게 투표가 여전히 다른 주만큼 쉽지 않은 이곳에서, 그 순간이 청중들에게 어떤 울림을 주었는지 말씀해 주세요.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 869.8,
+   "en": "You're right, voting is not as easy as it certainly could be and certainly compared to other states here.",
+   "ko": "맞습니다, 투표는 분명 더 쉬워질 수 있고 다른 주들과 비교했을 때 확실히 쉽지 않습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 876.6,
+   "en": "And for many people in that audience who have spent literally their whole lifetime to three generations waiting for this moment, it was a long time coming.",
+   "ko": "그리고 청중들 중에는 말 그대로 일생이나 3대에 걸쳐 이 순간을 기다려온 분들이 많았는데, 정말 오래 기다려온 순간이었습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 888.0,
+   "en": "And it also just speaks to perseverance, not only of Scott Colom as an individual, but for those activists who have worked tirelessly to make that moment possible.",
+   "ko": "그리고 그것은 스콧 콜롬이라는 개인의 인내뿐만 아니라, 이 순간을 가능하게 하기 위해 지칠 줄 모르고 일해온 활동가들의 인내를 보여주는 것이기도 합니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 899.2,
+   "en": "You mentioned activists and I'm thinking about civil rights activists, voting rights activists. How much of a factor was this year's Supreme Court decision that gutted a section of the Voting Rights Act?",
+   "ko": "활동가들을 언급하셨는데, 민권 운동가와 투표권 활동가들이 떠오릅니다. 투표권법의 일부 조항을 무력화시킨 올해 대법원의 판결이 어느 정도 영향을 미쳤을까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 911.9,
+   "en": "How much did that motivate Black voters across the South, but especially in Mississippi, to go to the polls this time?",
+   "ko": "그 판결이 이번에 남부 전역, 특히 미시시피의 흑인 유권자들이 투표소로 향하도록 얼마나 자극했을까요?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 918.7,
+   "en": "There is no doubt that it was a strong contributor to getting folks out to vote.",
+   "ko": "사람들이 투표하러 나오게 만드는 데 강력한 기여를 했다는 점에는 의심의 여지가 없습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 926.1,
+   "en": "Because so many of these Republican states went after districts currently occupied by people of color, many Black voters felt personally attacked.",
+   "ko": "수많은 공화당 강세 주들이 현재 유색인종들이 장악하고 있는 선거구를 겨냥했기 때문에, 많은 흑인 유권자들은 개인적인 공격을 받았다고 느꼈습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 936.7,
+   "en": "Even in Mississippi where they did not redistrict the congressional district that Bennie Thompson holds, state leadership here attacked Bennie Thompson.",
+   "ko": "베니 톰슨의 선거구가 재조정되지 않은 미시시피에서조차, 이곳의 주 지도부는 베니 톰슨을 공격했습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 948.7,
+   "en": "And I think many Black voters took that personally as a personal affront. And so Scott Colom was the beneficiary of that angst that Black voters felt toward Republican leadership. Yeah.",
+   "ko": "많은 흑인 유권자들이 그것을 개인적인 모욕으로 받아들였다고 생각합니다. 그래서 스콧 콜롬은 흑인 유권자들이 공화당 지도부에 대해 느꼈던 그 불안감의 수혜자가 된 것이죠.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 963.9,
+   "en": "I'm thinking about how national Democratic party leaders were very slow to put money into this race. They thought it was a lost cause. They didn't think Colom could win.",
+   "ko": "전국 민주당 지도부가 이 경선에 자금을 투입하는 데 매우 신중했다는 점이 생각나네요. 그들은 가망 없는 싸움이라 생각했고, 콜롬이 이길 수 있을 거라고 보지 않았죠.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 973.3,
+   "en": "And Republicans on the other side seem to take this seat for granted. So as a political scientist who studies the South and African American voting, what is your message to both parties?",
+   "ko": "반면 공화당 측은 이 의석을 당연하게 여긴 것 같습니다. 남부 정치와 아프리카계 미국인 투표를 연구하는 정치학자로서 양당에 전하고 싶은 메시지는 무엇입니까?",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 986.0,
+   "en": "Well, right now Howard Dean is saying I was right. Back in 2004, he was saying the Democratic Party needs a 50 state strategy and Scott Colom, Annie Andrews in South Carolina are proof positive that you can win in the deep South.",
+   "ko": "글쎄요, 지금 하워드 딘은 자신이 옳았다고 말하고 있을 겁니다. 2004년에 그는 민주당에 50개 주 전략이 필요하다고 말했었고, 스콧 콜롬과 사우스캐롤라이나의 애니 앤드류스는 딥 사우스에서도 이길 수 있다는 확실한 증거입니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 1007.9,
+   "en": "It doesn't take a ton of money, but it does take some money more than Democrats can often raise by themselves here in these states.",
+   "ko": "엄청난 돈이 필요한 건 아니지만, 민주당원들이 이 주들에서 자력으로 모금할 수 있는 것보다는 좀 더 많은 자금이 필요합니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 1016.3,
+   "en": "So I think going forward the lesson for the Democratic Party is yes, you should be investing in these states.",
+   "ko": "그래서 앞으로 민주당이 얻어야 할 교훈은 '그렇다, 이 주들에 투자해야 한다'는 것입니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 1023.2,
+   "en": "There is no doubt that Senator Cindy Hyde-Smith and I think the Republican Party in general took their voters for granted.",
+   "ko": "신디 하이드-스미스 상원의원과 공화당 전반이 유권자들을 당연하게 여겼다는 점에는 의심의 여지가 없습니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 1030.5,
+   "en": "She ran a lackluster campaign, made very few public appearances, and those are all the hallmarks of an incumbent who just assumes loyalty and hasn't earned it.",
+   "ko": "그녀는 활기 없는 캠페인을 벌였고 공개 석상에 거의 나타나지 않았습니다. 이는 충성심을 얻기 위해 노력하지 않고 당연히 따를 것이라 가정하는 현직 의원의 전형적인 특징들입니다.",
+   "speaker": "Marvin King"
+  },
+  {
+   "start": 1040.9,
+   "en": "Marvin King of the University of Mississippi. We're also following election results out of North Carolina, which continue to come in.",
+   "ko": "미시시피 대학교의 마빈 킹이었습니다. 저희는 계속해서 들어오고 있는 노스캐롤라이나의 선거 결과도 주시하고 있습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1048.2,
+   "en": "There are still four house races there that haven't been called as of Thursday afternoon, but Democrats in North Carolina flipped at least five seats in the U.S. House and one in the Senate.",
+   "ko": "목요일 오후 현재 아직 당락이 결정되지 않은 하원 경선이 4곳 남아있지만, 노스캐롤라이나 민주당은 연방 하원에서 최소 5석, 상원에서 1석을 탈환했습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1059.5,
+   "en": "NPR has been working with the public opinion firm Engagious to talk to some Biden to Trump swing voters this election.",
+   "ko": "NPR은 이번 선거에서 바이든에서 트럼프로 돌아선 일부 스윙 보터(부동층 유권자)들과 이야기를 나누기 위해 여론조사 기관인 인게이저스(Engagious)와 협력해 왔습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1066.0,
+   "en": "And Rich Thau of Engagious told Robin Young about his focus groups in North Carolina.",
+   "ko": "그리고 인게이저스의 리치 타우가 노스캐롤라이나의 포커스 그룹에 대해 로빈 영에게 이야기했습니다.",
+   "speaker": "Indira Lakshmanan"
+  },
+  {
+   "start": 1070.9,
+   "en": "Well, among the 14 respondents we spoke to, six voted for the Democratic candidate for Senate Cooper, two voted for the Republican candidate, Whatley, and six did not vote in the midterms.",
+   "ko": "저희가 대화한 14명의 응답자 중 6명은 민주당 상원 후보인 쿠퍼에게, 2명은 공화당 후보인 와틀리에게 투표했고, 6명은 중간 선거에 참여하지 않았습니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1083.9,
+   "en": "Too busy or they were distracted or they thought that Cooper was going to win, so they didn't bother to vote.",
+   "ko": "너무 바쁘거나 주의가 산만해졌거나, 혹은 쿠퍼가 이길 것이라고 생각해서 굳이 투표하지 않은 것이죠.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1089.0,
+   "en": "Okay, well, this is worth noting. Democrats in North Carolina flipped seats where Republicans redrew districts to favor the GOP, and it still didn't work.",
+   "ko": "네, 이건 주목할 만하네요. 노스캐롤라이나 민주당은 공화당이 자신들에게 유리하게 선거구를 재조정했음에도 불구하고 의석을 탈환했는데, 공화당의 전략이 통하지 않았군요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1098.8,
+   "en": "So this was a big wave. Overall, what was the overarching thought that they expressed about what they want to see now?",
+   "ko": "정말 거센 바람이었네요. 전반적으로 그들이 지금 보고 싶어 하는 것에 대해 표현한 핵심적인 생각은 무엇이었나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1106.5,
+   "en": "Well, they'd like to see some change, but they are very low in their expectations. They really don't think much is going to happen.",
+   "ko": "글쎄요, 그들은 변화를 보고 싶어 하지만 기대치는 매우 낮습니다. 실제로 큰 변화가 일어날 것이라고 생각하지 않아요.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1114.2,
+   "en": "mainly because they don't see the president and the Democrats getting along. They'll be at loggerheads for two years.",
+   "ko": "주된 이유는 대통령과 민주당이 잘 지내는 모습을 보지 못하기 때문입니다. 그들은 2년 동안 갈등을 빚을 것입니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1120.5,
+   "en": "And they're concerned that the Democrats will focus on things that don't improve their economic standing.",
+   "ko": "그리고 그들은 민주당이 자신들의 경제적 상황을 개선하지 못하는 일들에 집중할까 봐 걱정하고 있습니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1126.4,
+   "en": "You tell us many of these swing voters don't want Democrats to investigate Trump or his administration.",
+   "ko": "당신은 이 스윙 보터들 중 다수가 민주당이 트럼프나 그의 행정부를 조사하는 것을 원치 않는다고 말씀하셨는데요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1131.7,
+   "en": "They only use their first names, but here's how Nancy put it to you.",
+   "ko": "그들은 이름만 사용했지만, 낸시가 당신에게 한 말을 들어보시죠.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1134.6,
+   "en": "It's a waste of time and money. When they could be focusing on other things. Like... Oh, I don't know, anything else. They've found maybe war, immigration. I mean, anything else.",
+   "ko": "시간과 돈 낭비예요. 다른 일에 집중할 수도 있을 텐데 말이죠. 이를테면... 아, 모르겠네요, 다른 거요. 전쟁이나 이민 문제 같은 거요. 제 말은, 다른 거면 뭐든 괜찮다는 거예요.",
+   "speaker": "Nancy"
+  },
+  {
+   "start": 1147.9,
+   "en": "She does not sound happy. But tell us why didn't investigations into the Trump administration, which many Democrats are calling for, interest these particular voters?",
+   "ko": "낸시의 목소리가 그리 즐거워 보이지 않네요. 그런데 많은 민주당원들이 요구하고 있는 트럼프 행정부에 대한 조사가 왜 이 유권자들에게는 흥미를 끌지 못했는지 말씀해 주시겠어요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1159.3,
+   "en": "Nearly all of them said that they did not want the focus to be on these investigations. And they were concerned that the Democrats would overreach.",
+   "ko": "거의 모든 응답자가 조사가 중심이 되는 것을 원치 않는다고 말했습니다. 그리고 그들은 민주당이 과욕을 부릴까 봐 걱정했습니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1168.3,
+   "en": "And their comments were super interesting. things like, it would be a waste of money to be doing this. The president will just get away with it. He always gets away with it.",
+   "ko": "그들의 의견은 매우 흥미로웠습니다. '이런 일을 하는 건 돈 낭비다', '대통령은 그냥 빠져나갈 거다', '그는 항상 빠져나간다' 같은 말들이었죠.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1178.1,
+   "en": "And one of the most interesting comments that we heard was someone who basically said, well, the president now has immunity thanks to the Supreme Court.",
+   "ko": "그리고 우리가 들은 가장 흥미로운 의견 중 하나는 '대법원 덕분에 대통령은 이제 면책권이 있다'고 말한 사람이었습니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1186.2,
+   "en": "If we prosecute him, nothing could happen. So why are we wasting our time and effort doing that?",
+   "ko": "'그를 기소하더라도 아무 일도 일어나지 않을 텐데, 왜 시간과 노력을 낭비하느냐'는 것이죠.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1191.9,
+   "en": "So they would just completely resigned to the president essentially in their minds, quote, about getting away with whatever he might have done...",
+   "ko": "그래서 그들은 대통령이 어떤 일을 저질렀든 빠져나갈 것이라는 생각에 완전히 체념한 상태였습니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1199.3,
+   "en": "...and that Democrats would waste their effort and their time if they focused on that instead of focusing on the economic needs of the people in the focus group.",
+   "ko": "민주당이 포커스 그룹에 참여한 사람들의 경제적 필요에 집중하는 대신 그 일에 집중한다면 노력과 시간을 낭비하게 될 것이라고 생각하고 있었죠.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1207.8,
+   "en": "You used the word resigned, and this is so interesting to me because we're seeing jubilation in some places where as your focus groups did, the majority of people voted for Democrats who won...",
+   "ko": "'체념'이라는 단어를 쓰셨는데, 당신의 포커스 그룹처럼 다수가 민주당에 투표해 승리한 곳들에서 환호가 터져 나오는 것과 대조되어 흥미롭네요.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1219.6,
+   "en": "...but what you're hearing is resignation instead of jubilation. But here's Coranda talking about what she does want.",
+   "ko": "하지만 당신이 듣고 있는 것은 환희 대신 체념이군요. 여기 코란다가 자신이 원하는 것에 대해 말하는 내용이 있습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1228.8,
+   "en": "Stop the tariff. That hurts a lot of people.",
+   "ko": "관세를 멈춰주세요. 그게 많은 사람들을 힘들게 해요.",
+   "speaker": "Coranda"
+  },
+  {
+   "start": 1232.5,
+   "en": "And just try to listen to each other like the gas and stop this war that we got. Bring our soldiers home.",
+   "ko": "가스비 문제처럼 서로의 이야기에 귀를 기울이려 노력하고, 우리가 처한 이 전쟁을 멈춰주세요. 우리 군인들을 집으로 돌려보내 주시고요.",
+   "speaker": "Coranda"
+  },
+  {
+   "start": 1239.6,
+   "en": "What were some of the other things that people said they wanted as opposed to investigations?",
+   "ko": "조사 대신 사람들이 원한다고 말한 다른 것들은 무엇이었나요?",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1245.3,
+   "en": "They want Congress to take a variety of steps to reduce the cost of things that they buy every day. That is the thing that they want most.",
+   "ko": "그들은 의회가 일상적으로 구매하는 물건들의 비용을 줄이기 위해 다양한 조치를 취하기를 원합니다. 그것이 그들이 가장 원하는 것입니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1252.3,
+   "en": "They are struggling economically. They are worse off, they say, than they were when the president took office.",
+   "ko": "그들은 경제적으로 어려움을 겪고 있습니다. 그들은 대통령이 취임했을 때보다 지금이 더 나쁘다고 말합니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1258.5,
+   "en": "And they want the focus to be on them. And from their perspective, anything that doesn't do that is a distraction.",
+   "ko": "그들은 관심의 초점이 자신들에게 맞춰지기를 원합니다. 그들의 관점에서 그렇게 하지 않는 모든 것은 주의를 분산시키는 것일 뿐입니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1265.4,
+   "en": "Having said that they want those things, they don't necessarily think that those things are going to happen. And that the Democrats will be thwarted by the president.",
+   "ko": "그런 것들을 원한다고는 하지만, 그것들이 실제로 이루어질 것이라고 반드시 믿는 것은 아닙니다. 그리고 민주당이 대통령에 의해 저지될 것이라고 생각하죠.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1274.1,
+   "en": "They'll be infighting amongst themselves. They'll get distracted by things that don't matter. So in the end, not much is going to get done.",
+   "ko": "그들끼리 내부에서 다툴 것이고, 중요하지 않은 일들에 정신을 뺏길 것입니다. 그래서 결국 아무것도 제대로 이루어지지 않을 것이라고 봅니다.",
+   "speaker": "Rich Thau"
+  },
+  {
+   "start": 1280.7,
+   "en": "Rich Thau of Engagious, sharing the views of some swing voters in North Carolina.",
+   "ko": "노스캐롤라이나 일부 스윙 보터들의 견해를 전해주신 인게이저스의 리치 타우였습니다.",
+   "speaker": "Robin Young"
+  },
+  {
+   "start": 1287.1,
+   "en": "There's more to read and listen to on this story and everything else at herenow.org, as always. But that's it for the podcast today.",
+   "ko": "언제나처럼 herenow.org에서 이 이야기와 다른 모든 소식들을 더 읽고 들으실 수 있습니다. 하지만 오늘 팟캐스트는 여기까지입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1301.8,
+   "en": "Here and now anytime comes from NPR and WBUR Boston.",
+   "ko": "Here and Now Anytime은 NPR과 보스턴 WBUR에서 제공합니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1305.4,
+   "en": "Today's stories were produced by Jill Ryan, James Mastromarino, Jessica Carissa and Lynn Menegon.",
+   "ko": "오늘의 이야기는 질 라이언, 제임스 마스트로마리노, 제시카 카리사, 린 메네곤이 제작했습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1310.5,
+   "en": "Our editors were Todd Mundt, Mikayla Rodriguez, Shiko Thuo and Michael Scotto. Technical direction from Kaywood Green and Matt Reed.",
+   "ko": "편집은 토드 문트, 미카엘라 로드리게스, 시코 투오, 마이클 스코토가 맡았습니다. 기술 감독은 케이우드 그린과 맷 리드입니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1318.4,
+   "en": "Our theme music is by Mike Mastromarino, Max Liebman and me, Chris Bentley.",
+   "ko": "테마 음악은 마이크 마스트로마리노, 맥스 립만, 그리고 저 크리스 벤틀리가 만들었습니다.",
+   "speaker": "Chris Bentley"
+  },
+  {
+   "start": 1322.1,
+   "en": "Our digital producers are Allison Hagen and Grace Griffin and Here & Now's executive producer is Carline Price. Thanks for listening. We'll be back with you tomorrow.",
+   "ko": "디지털 프로듀서는 앨리슨 헤이건과 그레이스 그리핀이며, Here & Now의 총괄 프로듀서는 칼린 프라이스입니다. 청취해 주셔서 감사합니다. 내일 다시 뵙겠습니다.",
+   "speaker": "Chris Bentley"
+  }
+ ]
+}
