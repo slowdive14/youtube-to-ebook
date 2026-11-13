@@ -1,0 +1,2732 @@
+{
+ "id": "pod-31e7dd9c882a",
+ "title": "694. Does Democracy Really Need Elections?",
+ "show": "Freakonomics Radio",
+ "channel": "Freakonomics Radio + Stitcher",
+ "videoUrl": "",
+ "audioUrl": "https://mgln.ai/e/2/pdst.fm/e/dts.podtrac.com/redirect.mp3/stitcher.simplecastaudio.com/2be48404-a43c-4fa8-a32c-760a3216272e/episodes/5b1efac3-9ff4-451c-b6c0-9d711de24b8a/audio/128/default.mp3?aid=rss_feed&awCollectionId=2be48404-a43c-4fa8-a32c-760a3216272e&awEpisodeId=5b1efac3-9ff4-451c-b6c0-9d711de24b8a&feed=Y8lFbOT4",
+ "imageUrl": "https://image.simplecastcdn.com/images/2be48404-a43c-4fa8-a32c-760a3216272e/fab1584e-8ea9-4efa-9650-5e595861b2cd/3000x3000/image.jpg?aid=rss_feed",
+ "duration": 3876,
+ "releaseDate": "2026-11-06T11:00:00.000Z",
+ "addedAt": "2026-11-13",
+ "segments": [
+  {
+   "start": 6.9,
+   "en": "The U.S. just held its midterm elections, and as in most midterms, the party of the president got spanked.",
+   "ko": "미국은 막 중간선거를 치렀고, 대부분의 중간선거와 마찬가지로 대통령의 정당은 참패했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 13.7,
+   "en": "Although this spanking was worse than usual, reflecting widespread dissatisfaction with President Trump and his policies.",
+   "ko": "이번 참패는 여느 때보다 심각했는데, 이는 트럼프 대통령과 그의 정책에 대한 광범위한 불만을 반영한 것이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 20.9,
+   "en": "So now the Democrats will get their turn running Congress until the voters throw them out. That's how our electoral system works.",
+   "ko": "이제 민주당이 유권자들이 그들을 쫓아낼 때까지 의회를 운영할 차례입니다. 그것이 우리 선거 시스템이 작동하는 방식입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 31.1,
+   "en": "Are you pleased with that system? Many people aren't.",
+   "ko": "그 시스템에 만족하십니까? 많은 이들이 그렇지 않습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 35.4,
+   "en": "A recent New York Times Siena Poll found that 43% of voters are dissatisfied with both parties. And those are the people who vote.",
+   "ko": "최근 뉴욕 타임스 시에나 여론조사에 따르면 유권자의 43%가 양당 모두에 불만을 품고 있습니다. 그리고 이들은 투표를 하는 사람들입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 43.7,
+   "en": "Roughly half of eligible voters don't even bother.",
+   "ko": "유권자 자격이 있는 사람들의 약 절반은 아예 신경조차 쓰지 않습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 47.5,
+   "en": "Like every other system that needs reform, whether it's health care or education or taxes, our electoral system is a thicket that gets thicker by the day, layer upon layer of good intentions, intentions, bad intentions, vested interests, collusion and corruption, and good old sludge.",
+   "ko": "의료, 교육, 세금 등 개혁이 필요한 다른 모든 시스템과 마찬가지로, 우리의 선거 시스템은 날이 갈수록 빽빽해지는 덤불과 같습니다. 선의, 의도, 악의, 기득권, 결탁과 부패, 그리고 오래된 오물들이 겹겹이 쌓여 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 67.9,
+   "en": "A system with those characteristics is inevitably hard to reform, maybe even purposely hard, since the people with the most power to change things generally have the least incentive to change.",
+   "ko": "그런 특징을 가진 시스템은 필연적으로 개혁하기 어렵고, 어쩌면 의도적으로 어려울 수도 있습니다. 상황을 바꿀 가장 큰 힘을 가진 사람들이 일반적으로 변화에 대한 유인책이 가장 적기 때문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 78.9,
+   "en": "So, where does that leave the rest of us? The US voting system is so archaic, is so undemocratic.",
+   "ko": "그렇다면 나머지 우리는 어떻게 되는 걸까요? 미국의 투표 시스템은 너무나 구식이고 비민주적입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 85.7,
+   "en": "It is worse than almost every other election system in the world. But I recently came across an idea that represents a radically different kind of election reform.",
+   "ko": "전 세계 거의 모든 다른 선거 시스템보다 더 나쁩니다. 하지만 저는 최근 근본적으로 다른 종류의 선거 개혁을 상징하는 아이디어를 접했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 94.8,
+   "en": "How radical? Nobody in America has heard of it yet.",
+   "ko": "얼마나 급진적이냐고요? 미국에서 아직 아무도 들어본 적이 없을 정도입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 98.6,
+   "en": "I stumbled onto this idea because of my own experience with another system that reformers talk about, the jury duty system. I recently served on a criminal jury in Manhattan.",
+   "ko": "저는 개혁가들이 말하는 또 다른 시스템인 배심원 의무 제도에 대한 저의 경험 덕분에 이 아이디어를 우연히 발견했습니다. 저는 최근 맨해튼에서 형사 배심원으로 봉사했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 109.5,
+   "en": "The case itself wasn't particularly interesting. It was a low-level drug case.",
+   "ko": "사건 자체는 특별히 흥미롭지 않았습니다. 하급 마약 사건이었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 113.7,
+   "en": "But the way the jury came together to sort things out, Well, that was interesting. Twelve strangers from different communities, different backgrounds.",
+   "ko": "하지만 배심원단이 모여서 문제를 해결하는 방식, 그것은 흥미로웠습니다. 서로 다른 지역 사회와 배경을 가진 12명의 낯선 사람들입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 123.3,
+   "en": "None of us volunteered to be there. We were paid almost nothing. It was the coldest winter in memory.",
+   "ko": "우리 중 누구도 자원해서 간 사람은 없었습니다. 보수는 거의 받지 못했습니다. 기억 속에 남을 정도로 가장 추운 겨울이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 129.4,
+   "en": "The only incentives to show up are a sense of duty, let's call it, or maybe a vague fear that you might get a threatening letter someday if you don't. And yet, there we were.",
+   "ko": "출석해야 할 유일한 동기는 소명의식이라고 부를 수도 있고, 아니면 출석하지 않으면 언젠가 위협적인 편지를 받을 수도 있다는 막연한 두려움 때문이었을 것입니다. 그럼에도 불구하고 우리는 그곳에 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 140.6,
+   "en": "Listening hard, taking notes, and after a couple days of that, deliberating for several and then casting our votes based on nothing but evidence and conscience.",
+   "ko": "열심히 듣고, 메모를 하고, 며칠 동안 그렇게 한 후 여러 차례 심의를 거쳐 오직 증거와 양심에 따라 투표를 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 152.3,
+   "en": "When it was over, I found myself thinking, isn't that how our political bodies are supposed to work? As it turns out, other people have been asking the same question.",
+   "ko": "일이 끝났을 때, 저는 생각했습니다. 우리 정치 기구도 그렇게 작동해야 하는 것 아닐까? 알고 보니 다른 사람들도 똑같은 질문을 던지고 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 163.8,
+   "en": "I think the Greeks were right. They knew that you shouldn't give power to people who want power.",
+   "ko": "그리스인들이 옳았다고 생각합니다. 그들은 권력을 원하는 사람들에게 권력을 주어서는 안 된다는 것을 알고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 167.8,
+   "en": "Were the Greeks right that you shouldn't give power to people who want power?",
+   "ko": "권력을 원하는 사람들에게 권력을 주어서는 안 된다는 그리스인들의 말이 옳았을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 172.1,
+   "en": "Or the radical election reform I'm talking about goes back to Athenian democracy, when most public offices were filled not by election, but by a practice called Sortition from the Latin for drawing lots.",
+   "ko": "제가 말하는 급진적인 선거 개혁은 아테네 민주주의로 거슬러 올라갑니다. 대부분의 공직이 선거가 아니라 추첨을 뜻하는 라틴어에서 유래한 '소티션(Sortition)'이라는 관습에 의해 채워졌을 때 말입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 186.3,
+   "en": "In other words, democracy by lottery, which is pretty much how our jury system still operates today.",
+   "ko": "다시 말해, 제비뽑기에 의한 민주주의인데, 이는 오늘날 우리의 배심원 제도가 운영되는 방식과 거의 흡사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 194.4,
+   "en": "I really do believe in the jury.",
+   "ko": "저는 정말로 배심원 제도를 믿습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 196.6,
+   "en": "Today on Freakonomics Radio, could the best election reform be to get rid of elections entirely? We will ask that question and many more starting now.",
+   "ko": "오늘 프리코노믹스 라디오에서는, 최고의 선거 개혁은 선거를 완전히 없애는 것일까요? 지금부터 그 질문과 더 많은 질문들을 던져보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 222.0,
+   "en": "This is Freakonomics Radio, the podcast that explores the hidden side of everything, with your host, Stephen Dubner.",
+   "ko": "모든 것의 숨겨진 이면을 탐구하는 팟캐스트, 진행자 스티븐 더브너와 함께하는 프리코노믹스 라디오입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 237.3,
+   "en": "Can you just say your name and what you do?",
+   "ko": "성함과 하시는 일을 말씀해 주시겠어요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 239.6,
+   "en": "I am DJ Harrison, and I am a public defender here in New York City.",
+   "ko": "저는 DJ 해리슨이고, 이곳 뉴욕시의 국선 변호인입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 245.0,
+   "en": "Do you swear to tell the truth, hold truth, nothing but the truth?",
+   "ko": "진실만을, 온전한 진실만을, 오직 진실만을 말할 것을 선서합니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 247.7,
+   "en": "Yes, yes, I have to, I'm not raising my hand and I don't have the whole ceremony. There's not a giant guy with a gun looking at me.",
+   "ko": "네, 네, 그래야죠. 손을 들고 있지도 않고 전체 의식을 치르는 건 아니지만요. 총을 든 거대한 남자가 저를 쳐다보고 있지도 않고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 256.3,
+   "en": "DJ Harrison was one of two public defense lawyers in the case where I recently served on a jury. We convicted his client of selling crack cocaine and heroin on a sidewalk in Greenwich Village.",
+   "ko": "DJ 해리슨은 제가 최근 배심원으로 참여했던 사건의 두 명의 국선 변호인 중 한 명이었습니다. 우리는 그의 의뢰인이 그리니치 빌리지의 보도에서 크랙 코카인과 헤로인을 판매한 혐의에 대해 유죄 판결을 내렸습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 269.8,
+   "en": "So DJ, I have to admit, I was very surprised when not long after serving on this jury where we convicted your defendant. and I got an email from you saying, I wonder if I have it here. Hang on a second.",
+   "ko": "그래서 DJ, 고백하자면, 당신의 피고인에게 유죄 판결을 내린 이 배심원으로 활동한 지 얼마 되지 않아 당신으로부터 이메일을 받았을 때 매우 놀랐습니다. 여기 있는지 모르겠네요. 잠깐만요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 284.2,
+   "en": "Yeah, you wrote, I'm the attorney on the case, Mr. W. Just sat on. I am a huge fan, you wrote, which is nice, although he voted guilty.",
+   "ko": "네, 당신은 '저는 더브너 씨가 방금 참여했던 사건의 변호인입니다'라고 썼죠. 당신은 '저는 당신의 열렬한 팬입니다'라고 썼는데, 비록 제가 유죄에 투표했음에도 불구하고 기분 좋은 말이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 293.0,
+   "en": "And I was shocked, honestly, because this is naive of me. I didn't think that anyone from the trial itself would either want to or would be even allowed to contact jurors. So what is the protocol there?",
+   "ko": "그리고 솔직히 충격적이었습니다. 제가 순진했나 봐요. 재판에 참여했던 누군가가 배심원에게 연락하기를 원하거나 심지어 연락이 허용될 것이라고는 생각하지 못했거든요. 그쪽의 프로토콜은 어떻게 되나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 307.1,
+   "en": "As the judge says, after the trial, you're allowed to talk to the attorneys. I would talk to every juror that sat on every panel that I had.",
+   "ko": "판사가 말했듯이, 재판이 끝나면 변호사와 이야기하는 것이 허용됩니다. 저는 제가 맡았던 모든 배심원단의 모든 배심원과 이야기를 나눕니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 318.0,
+   "en": "One, because there's a bit of insecurity, so I'm like, hey, how did I do? Like, what are some things that could make me a better attorney?",
+   "ko": "첫째는 약간의 불안함 때문인데, 그래서 '어이, 내가 잘했나? 내가 더 나은 변호사가 되려면 어떤 것들이 필요할까?' 같은 질문을 하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 325.1,
+   "en": "And two, we don't know what happens in that jury room. Just what it's like to be a juror. They rarely ever choose public defenders, surely, for most of these trials.",
+   "ko": "둘째는, 배심원실에서 무슨 일이 일어나는지 우리가 모르기 때문입니다. 그저 배심원이 된다는 게 어떤 것인지 알고 싶은 거죠. 확실히 대부분의 재판에서 국선 변호인을 배심원으로 선택하는 경우는 거의 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 337.0,
+   "en": "Prosecutors kick us off immediately. I think there's a lot of public defenders out there that sit and they wonder what it's like for someone to be in that jury.",
+   "ko": "검찰은 우리를 즉각 제외시킵니다. 저는 많은 국선 변호인들이 배심원이 된다는 것이 어떤 것인지 궁금해하며 앉아 있을 거라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 345.3,
+   "en": "And they wonder, are the things they're saying connecting? Are they following the rules? Do the people feel like they have a civic duty or is everyone just kind of phoning it in?",
+   "ko": "그리고 그들은 궁금해하죠. 자신들이 하는 말이 전달되고 있는지? 규칙을 따르고 있는지? 사람들이 시민의 의무를 느끼고 있는지, 아니면 다들 대충 시간만 때우고 있는지 말입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 353.9,
+   "en": "Because the only feedback we ever really get is guilty or not guilty.",
+   "ko": "우리가 받는 유일한 피드백은 유죄냐 무죄냐뿐이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 357.3,
+   "en": "I mean, I've always answered the call for jury duty, but I'd never served on a jury. I'm not going to lie, I was hoping to be dismissed only because of time.",
+   "ko": "제 말은, 저는 항상 배심원 소환에 응답해 왔지만, 배심원으로 활동해 본 적은 없었습니다. 거짓말은 안 할게요, 오직 시간 문제 때문에 제외되기를 바랐습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 368.3,
+   "en": "But then when I was chosen for the jury, it was really DJ surprising emotional experience for me. I felt like I passed through a portal where I just felt an overwhelming sense of civic duty.",
+   "ko": "하지만 배심원으로 선정되었을 때, DJ, 그것은 제게 정말 놀라운 정서적 경험이었습니다. 저는 포털을 통과한 것 같은 기분이 들었고 압도적인 시민의 의무감을 느꼈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 383.7,
+   "en": "I don't know how else to say it. I always worry whether people are just apathetic and going through the motions. That makes me feel really good that you felt a duty.",
+   "ko": "다른 설명할 방법이 없네요. 저는 사람들이 그저 냉담하게 형식적으로만 임하는 것은 아닌지 항상 걱정합니다. 당신이 의무감을 느꼈다니 정말 기분이 좋네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 393.4,
+   "en": "I definitely did and it really was humbling even though it struck me as obvious from the outset that it was a fairly low level drug case.",
+   "ko": "저는 확실히 느꼈고, 처음부터 꽤 낮은 수준의 마약 사건이라는 것이 분명해 보였음에도 불구하고 정말 겸허해지는 경험이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 403.0,
+   "en": "I still felt like the defendant, it's high stakes for him. I just felt like I felt saddened that this defendant had had so many shit things happen in his life to have brought him to this place.",
+   "ko": "저는 여전히 피고인에게는 이것이 큰 도박이라고 느꼈습니다. 그저 이 피고인의 삶에 너무나 많은 불행한 일들이 일어나 그를 이 자리까지 오게 했다는 사실이 슬프게 느껴졌습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 418.4,
+   "en": "And there were many parts that were not pleasant or comfortable. The biggest one is just knowing that I played one-twelfth of a part of sending someone to prison, even though I firmly believe that he broke the law and that he should be in prison.",
+   "ko": "그리고 즐겁거나 편안하지 않은 부분도 많았습니다. 가장 큰 부분은 제가 그가 법을 어겼고 감옥에 가야 한다고 굳게 믿음에도 불구하고, 누군가를 감옥에 보내는 역할의 12분의 1을 담당했다는 사실을 아는 것이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 434.2,
+   "en": "But two things can be true at once. Jory's selection is sometimes to my chagrin is, can you follow the instructions?",
+   "ko": "하지만 두 가지 사실이 동시에 존재할 수 있습니다. 배심원 선정은 가끔 제게 아쉬운 점이 있는데, 지시 사항을 따를 수 있느냐는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 440.8,
+   "en": "Can you put a lot of those emotions of being a human to the side and judge the facts as they are? I think part of my job is to tell my client story and to present that to the jury.",
+   "ko": "인간으로서 느끼는 많은 감정들을 배제하고 사실 그대로를 판단할 수 있는가? 제 업무의 일부는 제 의뢰인의 이야기를 들려주고 그것을 배심원단에게 제시하는 것이라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 457.3,
+   "en": "Were you surprised that your client was convicted?",
+   "ko": "의뢰인이 유죄 판결을 받은 것에 놀라셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 460.6,
+   "en": "By the time you guys came back in the courtroom, we kind of knew what it was.",
+   "ko": "여러분이 법정으로 돌아왔을 때쯤, 우리는 대략 어떤 상황인지 알고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 466.8,
+   "en": "Even though we didn't deliberate for very long, I felt like it worked very well in that there was not unanimous consensus on all counts from the outset.",
+   "ko": "비록 우리가 아주 오랫동안 심의하지는 않았지만, 처음부터 모든 혐의에 대해 만장일치의 합의가 이루어지지 않았다는 점이 매우 잘 작동했다고 느꼈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 478.6,
+   "en": "And I felt like collectively the 12 of us who didn't know each other and may have very little in common other than that we live in the proper jurisdiction and we agreed to take this seriously.",
+   "ko": "그리고 해당 관할 구역에 거주한다는 사실과 이 일을 진지하게 받아들이기로 합의했다는 점 외에는 공통점이 거의 없을 수도 있는, 서로 모르는 12명의 우리가 집단적으로 힘을 합쳤다고 느꼈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 493.5,
+   "en": "What really moved me was that everybody did take it seriously. I have to say it was with a pretty heavy heart that I and the rest of the people raised their hand ultimately to convict on all three charges.",
+   "ko": "정말 저를 감동시킨 것은 모든 사람이 이를 진지하게 받아들였다는 점입니다. 저와 나머지 사람들은 결국 세 가지 혐의 모두에 대해 유죄 판결을 내리기 위해 꽤 무거운 마음으로 손을 들었다고 말해야겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 506.1,
+   "en": "I don't think anybody took any joy in it. I felt that everybody was so energetic about surrendering their individuality to the common cause, which is I hear I'm not important.",
+   "ko": "누구도 그 일에서 기쁨을 느끼지 않았을 것입니다. 저는 모든 사람들이 '나는 중요하지 않다'는 것을 듣게 되는 공동의 대의를 위해 자신의 개성을 기꺼이 희생하는 모습에 매우 열정적이라고 느꼈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 519.3,
+   "en": "My voice is one of 12. Let me try to make it gel in a way that's doing the best thing that we can do in a difficult situation.",
+   "ko": "제 목소리는 12개 중 하나입니다. 어려운 상황에서 우리가 할 수 있는 최선의 일을 하는 방식으로 그 목소리가 어우러지도록 노력해 보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 527.9,
+   "en": "Where were some of the things that made you feel that way?",
+   "ko": "어떤 것들이 그렇게 느끼게 했나요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 530.6,
+   "en": "One of the jurors who was advocating for guilty from the outset on all charges, he was a little bit of a mansplainer when some of the jurors raised some objections early on or just questions his tone was dismissive.",
+   "ko": "처음부터 모든 혐의에 대해 유죄를 주장했던 배심원 중 한 명은, 초기 단계에서 다른 배심원들이 이의를 제기하거나 질문을 할 때 다소 잘난 척하며 가르치려 드는 태도를 보였고 그의 말투는 무시하는 듯했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 544.2,
+   "en": "Oh, come on. We know what we saw. Come on. We know what's going on here. Come on. But I will say this by the end, even that guy wasn't triumphant.",
+   "ko": "'오, 제발요. 우리가 본 게 뭔지 알잖아요. 이봐요. 여기서 무슨 일이 일어나는지 알잖아요. 제발요.' 하지만 마지막에는 그 사람조차 의기양양하지 않았다는 점을 말하고 싶습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 553.4,
+   "en": "And so it made me feel that the jury, at least someone I served on was a rare example in our current era where people from very different backgrounds get together with a common goal and are able to really row in the same direction.",
+   "ko": "그래서 저는 배심원단, 적어도 제가 참여했던 배심원단은 매우 다른 배경을 가진 사람들이 공동의 목표를 가지고 모여서 진정으로 같은 방향으로 노를 저을 수 있는 현 시대의 드문 사례라고 느꼈습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 570.6,
+   "en": "And it gave me hope. It kind of made me wish that that sort of coming together of strangers for a common cause could be practiced much, much more frequently and aggressively, like in Washington, D.C., for instance.",
+   "ko": "그리고 그것은 제게 희망을 주었습니다. 예를 들어 워싱턴 D.C.에서처럼 낯선 사람들이 공동의 대의를 위해 하나로 뭉치는 그런 모습이 훨씬 더 자주, 그리고 적극적으로 실천되기를 바라게 되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 583.7,
+   "en": "Yeah, that would be a sight of people in D.C. pin their individualism aside.",
+   "ko": "네, 워싱턴 D.C.의 사람들이 개인주의를 제쳐두는 모습은 장관일 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 595.3,
+   "en": "There is, in fact, a small but growing movement of people who do believe that we should choose our lawmakers by sortition, by random selection, the way we choose our juries.",
+   "ko": "사실, 우리가 배심원을 선택하는 것처럼 무작위 선택인 추첨(소티션)을 통해 입법자를 선택해야 한다고 믿는 사람들의 작지만 성장하는 움직임이 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 606.3,
+   "en": "These are often called citizens assemblies and they come together to deliberate on public policy. Their decisions typically aren't binding.",
+   "ko": "이들은 종종 시민 의회라고 불리며 공공 정책에 대해 심의하기 위해 모입니다. 이들의 결정은 일반적으로 구속력이 없습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 614.6,
+   "en": "They're more of an advising body than a lawmaking body. But some advocates of sortition want to go much further. Today, we will hear from two of them.",
+   "ko": "그들은 입법 기관이라기보다는 자문 기관에 가깝습니다. 하지만 추첨 제도의 일부 옹호자들은 훨씬 더 나아가기를 원합니다. 오늘 우리는 그들 중 두 명의 이야기를 들어보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 624.3,
+   "en": "I'm Ellen Landemore and I'm a professor of political science. I teach political theory at Yale University.",
+   "ko": "저는 엘렌 랜더모어이고 정치학 교수입니다. 예일 대학교에서 정치 이론을 가르치고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 631.3,
+   "en": "Are you I don't know quite how to say this the world's foremost advocate of citizen assemblies at the moment?",
+   "ko": "당신은, 어떻게 말해야 할지 잘 모르겠지만, 현재 세계에서 가장 앞선 시민 의회 옹호자이신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 637.7,
+   "en": "I one of them. I would say I think we're quite a few now So I don't know if I'm the foremost but I am one of them. Yes.",
+   "ko": "저는 그들 중 한 명입니다. 이제 꽤 많은 사람들이 있다고 생각하니까요. 제가 최고인지는 모르겠지만, 그들 중 한 명인 것은 맞습니다. 네.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 644.0,
+   "en": "And here is another Sortition advocate. My name is Terry Bouricius. Bouricius is from Burlington, Vermont.",
+   "ko": "그리고 여기 또 다른 추첨 제도 옹호자가 있습니다. 제 이름은 테리 보리시스입니다. 보리시스는 버몬트주 벌링턴 출신입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 651.6,
+   "en": "I worked at a food club for many years and then I got elected the city council actually along with Bernie Sanders and then I got elected the state legislature.",
+   "ko": "저는 수년 동안 푸드 클럽에서 일했고, 그 후 버니 샌더스와 함께 시의회에 선출되었으며, 그 후 주 의회에 선출되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 657.7,
+   "en": "And then I worked for organization Fair Vote working on election reform. I've had a lot of just not menial jobs but low pay jobs.",
+   "ko": "그 후 저는 선거 개혁을 위해 일하는 조직인 페어 보트(Fair Vote)에서 일했습니다. 저는 천한 일은 아니지만 보수가 낮은 일을 많이 해왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 666.1,
+   "en": "I only survived because my wife is a teacher. I'm retired now and I just published this book.",
+   "ko": "아내가 교사였기 때문에 생존할 수 있었습니다. 지금은 은퇴했고 방금 이 책을 출판했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 671.3,
+   "en": "Bouricius' book is called Democracy Without Politicians. Ellen Landemore recently published a book called Politics Without Politicians. So you get the idea.",
+   "ko": "보리시스의 책 제목은 '정치인 없는 민주주의'입니다. 엘렌 랜더모어는 최근 '정치인 없는 정치'라는 책을 출판했습니다. 대충 어떤 느낌인지 아시겠죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 682.2,
+   "en": "I refer to myself as a recovering politician.",
+   "ko": "저는 저 자신을 회복 중인 정치인이라고 부릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 685.0,
+   "en": "Recovering why do you use that phrase?",
+   "ko": "회복 중이라니요, 왜 그런 표현을 쓰시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 687.0,
+   "en": "Because it's like an addiction. The ego thrust. People enjoy it more than they should.",
+   "ko": "중독과 같기 때문입니다. 자아의 돌진이죠. 사람들은 필요 이상으로 그것을 즐깁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 693.0,
+   "en": "So persuade me that you are indeed recovering or recovered.",
+   "ko": "그렇다면 당신이 정말로 회복 중이거나 회복되었다는 것을 저에게 설득해 보십시오.",
+   "speaker": "Host"
+  },
+  {
+   "start": 697.7,
+   "en": "I'm in recovery. I was a founder of three different political parties.",
+   "ko": "저는 회복 중입니다. 저는 세 개의 서로 다른 정당의 창립자였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 702.4,
+   "en": "I was a founder of the Labour Party, of the Citizens Party with Barry Commoner, and the Vermont Progressive Party.",
+   "ko": "저는 노동당, 배리 커머너와 함께한 시민당, 그리고 버몬트 진보당의 창립자였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 711.2,
+   "en": "But once I discovered Sortition, it's like we're never going to get there by competitive partisan elections. They're just primed to stoke fear and hate and partisanship.",
+   "ko": "하지만 추첨 제도를 발견하고 나니, 경쟁적인 정당 선거를 통해서는 결코 그곳에 도달할 수 없다는 것을 깨달았습니다. 선거는 공포와 증오, 당파성을 부추기도록 설계되어 있을 뿐입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 724.8,
+   "en": "Primed to stoke fear and hate and partisanship, in your view, what is the mechanism by which electoral politics do that?",
+   "ko": "당신의 견해로는 공포와 증오, 당파성을 부추기도록 준비되어 있다고 하셨는데, 선거 정치가 그렇게 만드는 메커니즘은 무엇입니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 731.1,
+   "en": "But it's the natural incentives. It's a competitive system. People who are willing to lie and who are narcissistic have a distinct advantage.",
+   "ko": "그것은 자연스러운 보상 체계입니다. 경쟁적인 시스템이죠. 거짓말을 기꺼이 하고 자기애가 강한 사람들이 뚜렷한 우위를 점합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 743.5,
+   "en": "If you had an election in a small community where everybody knew everybody else, elections can work.",
+   "ko": "모든 사람이 서로를 아는 작은 공동체에서 선거를 한다면, 선거는 효과가 있을 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 749.4,
+   "en": "But once you get where most of the people voting have very little information, and quite frankly, if it's a huge vote, there's no incentive to actually become well informed because your one vote isn't going to break a tie.",
+   "ko": "하지만 투표하는 대부분의 사람들이 정보를 거의 가지고 있지 않은 상황이 되고, 솔직히 말해서 거대한 투표라면 당신의 한 표가 동점 상황을 깨뜨리지 않을 것이기 때문에 실제로 정보를 잘 습득할 유인이 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 761.5,
+   "en": "So you just vote because it feels important. Therefore, almost all voters are very ill-informed.",
+   "ko": "그래서 그냥 중요하다고 느껴지니까 투표하는 겁니다. 따라서 거의 모든 유권자들은 정보가 매우 부족합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 768.2,
+   "en": "Candidates, it's not that they're evil. To win elections, there's things that you should do. And stoking fear and hate is a very effective campaign tool.",
+   "ko": "후보자들이 사악해서 그런 것이 아닙니다. 선거에서 이기기 위해 해야 할 일들이 있습니다. 그리고 공포와 증오를 자극하는 것은 매우 효과적인 선거 운동 도구입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 778.9,
+   "en": "You mentioned a few minutes ago that when I discovered Sortition, you said, can you bring us back to that moment?",
+   "ko": "몇 분 전에 추첨 제도를 발견했을 때를 언급하셨는데, 그 순간으로 우리를 다시 데려가 주실 수 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 783.7,
+   "en": "After I left elective office, and I worked for Fair Vote working on election form, I thought we just needed to fix elections.",
+   "ko": "선출직 공무원을 그만두고 페어 보트에서 선거 형식을 개선하는 일을 할 때만 해도, 저는 그저 선거를 고치기만 하면 된다고 생각했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 789.4,
+   "en": "And in that role, I was invited to give testimony to a Citizens' Assembly in British Columbia. They had a problem with their elections and they'd set up a Citizens' Assembly to develop a new election system.",
+   "ko": "그리고 그 직책에서 저는 브리티시 컬럼비아의 시민 의회에서 증언을 해달라는 요청을 받았습니다. 그들은 선거에 문제가 있었고 새로운 선거 시스템을 개발하기 위해 시민 의회를 구성했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 800.9,
+   "en": "It was very odd. It was not like any legislators. One man and one woman from every legislative district selected by random lottery.",
+   "ko": "그것은 매우 이상했습니다. 어떤 입법자와도 같지 않았습니다. 무작위 추첨으로 선발된 모든 선거구의 남녀 한 명씩이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 808.6,
+   "en": "They didn't have any hidden agendas. It was everyday people, a substitute teacher, a cattle rancher, all kinds of jobs.",
+   "ko": "그들에게는 어떤 숨겨진 의도도 없었습니다. 평범한 사람들, 기간제 교사, 가축 사육업자 등 온갖 직업을 가진 사람들이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 816.3,
+   "en": "By the end of it, I said, wait a minute, this is really government by the people. In fact, this is what democracy looks like.",
+   "ko": "마지막에는 제가 '잠깐만요, 이것이 진정한 국민에 의한 정부군요'라고 말했습니다. 사실 이것이 민주주의의 모습입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 823.4,
+   "en": "And from that moment on, that was 2004, the focus of my political work switched from election reform to sortition.",
+   "ko": "그리고 2004년 그 순간부터 제 정치적 업무의 초점은 선거 개혁에서 추첨 제도로 바뀌었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 830.9,
+   "en": "You are essentially advocating the abolition of elections, is that the case?",
+   "ko": "본질적으로 선거의 폐지를 주장하시는 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 836.2,
+   "en": "Eventually, I think that that may never be fully achieved, but I want huge decisions decisions that are deeply influential housing, health care, climate change, taxes, military spending, war and not war.",
+   "ko": "궁극적으로 그것이 완전히 달성되지는 못할 수도 있다고 생각하지만, 주택, 의료, 기후 변화, 세금, 군사비 지출, 전쟁 여부와 같이 깊은 영향력을 미치는 거대한 결정들을 원합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 852.4,
+   "en": "Those kinds of decisions I want out of the hands of politicians.",
+   "ko": "그런 종류의 결정들은 정치인들의 손에서 벗어나기를 바랍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 856.3,
+   "en": "Who are your allies in this sort of tradition cause? And I'm also curious to know who may think you're a total idiot.",
+   "ko": "이런 추첨 제도 대의에 있어 당신의 동맹은 누구입니까? 그리고 누가 당신을 완전히 바보라고 생각할지도 궁금하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 864.4,
+   "en": "And when I talk to people about sort of tradition, we've never heard of it before.",
+   "ko": "그리고 사람들에게 추첨 제도에 대해 이야기하면, 다들 들어본 적이 없다고 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 868.5,
+   "en": "When I first First, I mentioned the idea of randomness like people making walls and they sort of laughed. I talked about it for like another two minutes. Almost everybody starts nodding at it.",
+   "ko": "제가 처음 사람들이 법을 만드는 것 같은 무작위성의 아이디어를 언급했을 때, 그들은 비웃었죠. 한 2분 정도 더 이야기하면 거의 모든 사람들이 고개를 끄덕이기 시작합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 878.1,
+   "en": "Yeah, politicians are really the problem. The British Columbia Citizens' Assembly was so eye-opening.",
+   "ko": "'맞아요, 정치인들이 정말 문제예요'라면서요. 브리티시 컬럼비아 시민 의회는 정말 놀라웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 884.3,
+   "en": "For months, they would spend their weekends talking to experts and deliberating and later on in the process, they had become more competent than any elected legislature in the world, I believe.",
+   "ko": "몇 달 동안 그들은 주말마다 전문가들과 대화하고 심의하며 시간을 보냈습니다. 그리고 그 과정이 진행되면서, 그들은 전 세계 어떤 선출직 입법부보다 더 유능해졌다고 저는 믿습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 896.9,
+   "en": "If you're not representatives in the way you think and approach problems, you're unlikely to generate smart decisions.",
+   "ko": "문제를 생각하고 접근하는 방식에 있어 대표성이 없다면, 현명한 결정을 내릴 가능성이 낮습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 906.2,
+   "en": "If you put enough people selected at random, you get all kinds of perspectives on a social political issue that you don't necessarily get in a select group of the few who've been typically trained in the same schools, live in the same neighborhoods, experience only the world through a limited prism.",
+   "ko": "무작위로 선발된 충분한 수의 사람들을 모으면, 일반적으로 같은 학교에서 훈련받고, 같은 동네에 살며, 제한된 프리즘을 통해서만 세상을 경험하는 소수의 선별된 집단에서는 반드시 얻을 수 없는 사회 정치적 문제에 대한 온갖 종류의 관점을 얻을 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 925.5,
+   "en": "I want to define some terms. Let's start with a citizens assembly. What is it?",
+   "ko": "몇 가지 용어를 정의하고 싶습니다. 시민 의회부터 시작해 보죠. 그것이 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 930.5,
+   "en": "It's my definition. I'm sure there are others out there, but it's a very large group of people.",
+   "ko": "제 정의입니다. 다른 정의도 있겠지만, 그것은 매우 큰 규모의 사람들 집단입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 935.5,
+   "en": "I would say at the minimum 100 up to maybe 500,000 that are convened to deliberate about a policy issue for a sustained period of time, typically a few weekends distributed distributed over a few months.",
+   "ko": "최소 100명에서 최대 50만 명까지, 정책 이슈에 대해 지속적인 기간 동안, 보통 몇 달에 걸쳐 몇 번의 주말 동안 심의하기 위해 소집된 사람들을 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 953.1,
+   "en": "They get to deliberate in small groups, in planaries. They get to first go through an education phase, then a deliberation phase, and then a decision phase.",
+   "ko": "그들은 소그룹과 전체 회의에서 심의를 하게 됩니다. 먼저 교육 단계를 거친 다음 심의 단계, 그리고 결정 단계를 거칩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 963.8,
+   "en": "I forgot to mention that these people are selected by lot. It's very important.",
+   "ko": "이 사람들이 추첨으로 선발된다는 점을 언급하는 걸 잊었네요. 그것이 매우 중요합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 967.6,
+   "en": "How did you become interested in and then enthusiastic about citizens, assemblies, and sortition?",
+   "ko": "어떻게 시민 의회와 추첨 제도에 관심을 갖게 되었고 열성적으로 변하게 되었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 973.5,
+   "en": "I started as a philosophy student. I was really not interested in politics at all. or if anything I had an aversion to it.",
+   "ko": "저는 철학도로 시작했습니다. 정치에는 정말 전혀 관심이 없었거나, 오히려 반감이 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 981.4,
+   "en": "But I started with this question of moral choice. How do I make choices that are moral? Why should I?",
+   "ko": "하지만 저는 도덕적 선택이라는 질문에서 시작했습니다. 어떻게 하면 도덕적인 선택을 할 수 있을까? 왜 그래야만 하는가?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 989.2,
+   "en": "That led me to the question of collective choices and how can we maximize the chances of making the right choice politically as a group?",
+   "ko": "그것은 집단적 선택에 관한 질문으로 이어졌고, 어떻게 하면 집단으로서 정치적으로 올바른 선택을 할 확률을 극대화할 수 있을까에 대한 고민으로 이어졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 997.5,
+   "en": "Talk a bit about the political system that you grew up within and did you find it wanting from the outset?",
+   "ko": "당신이 자라온 정치 시스템에 대해 조금 말씀해 주시고, 처음부터 부족하다고 느끼셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1003.6,
+   "en": "I don't think I had a political consciousness until very, very late. I grew up in France, the presidents were Mitteron and then Shirak and then slew of others like Sarkozy.",
+   "ko": "저는 아주 늦게까지 정치 의식이 없었던 것 같습니다. 저는 프랑스에서 자랐고, 대통령은 미테랑이었고, 그 다음에는 시라크, 그리고 사르코지 같은 다른 많은 사람들이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1016.5,
+   "en": "I took it for granted in many ways. Took it for granted meaning this is the way it is so it has to be this way. There's no alternative. It's the re-friend of my youth.",
+   "ko": "저는 여러 면에서 그것을 당연하게 받아들였습니다. 당연하게 받아들였다는 것은 '세상은 원래 이런 것이니 이렇게 되어야만 한다'는 뜻이었습니다. 대안은 없었습니다. 그것이 제 어린 시절의 후렴구였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1025.4,
+   "en": "Economically there is no alternative. Politically there is no alternative. I just bought it, a very well-behaved good student who deferred to authorities.",
+   "ko": "경제적으로 대안은 없습니다. 정치적으로 대안은 없습니다. 저는 당국에 순응하는 아주 예의 바른 모범생으로서 그 말을 그대로 믿었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1034.4,
+   "en": "It took a lot for me to question the system. In fact, it took the personal crisis of failing in that system. I am a product of the French meritocratic system.",
+   "ko": "제가 시스템에 의문을 갖기까지는 많은 시간이 걸렸습니다. 사실 그 시스템에서 실패하는 개인적인 위기가 필요했습니다. 저는 프랑스 능력주의 시스템의 산물입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1045.8,
+   "en": "After my Baccalaureate, I went to a class preparatory class for our grand zecole, the Ivy League equivalent.",
+   "ko": "바칼로레아를 마친 후, 저는 아이비리그에 해당하는 그랑제콜 준비반에 들어갔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1054.4,
+   "en": "I spent two years studying the classics and reading a lot and taking a ton of exams. And then I passed the examination and I made it into the e-col normal superior and I thought I had it made.",
+   "ko": "2년 동안 고전을 공부하고 책을 많이 읽으며 수많은 시험을 치렀습니다. 그리고 시험에 합격하여 에콜 노르말 쉬페리외르에 입학했고, 저는 성공했다고 생각했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1066.9,
+   "en": "Then there was this other exam that I wanted to take and I had to take if I wanted to pursue research later on called the aggregation.",
+   "ko": "그러다 나중에 연구를 계속하고 싶으면 치러야 하는 '아그레가시옹(교원 임용 고시)'이라는 또 다른 시험이 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1074.6,
+   "en": "You're locked up in a room for seven hours and you're given a topic like the ego or can you want the impossible these are the two I got when I went to the oral examination and then you deliver a 14-minute lecture in this grand amphitheater in front of of four-stone-looking eminent professors.",
+   "ko": "7시간 동안 방에 갇혀서 '자아'나 '불가능한 것을 원할 수 있는가'와 같은 주제를 받게 됩니다. 구술시험에 갔을 때 제가 받은 두 가지 주제였죠. 그러고 나서 엄격해 보이는 저명한 교수 네 명 앞에서 이 웅장한 원형 극장에서 14분 동안 강의를 해야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1091.6,
+   "en": "And I failed. I failed once, not twice, but three times. It was the biggest failure of my life.",
+   "ko": "그리고 저는 낙방했습니다. 한 번도 아니고 두 번도 아니고 세 번이나 낙방했습니다. 제 인생 최대의 실패였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1098.7,
+   "en": "I had to reconsider a lot of things that I had taken for granted, but I decided I couldn't stay. I was so humiliated.",
+   "ko": "저는 제가 당연하게 여겼던 많은 것들을 재고해야 했지만, 그곳에 머물 수 없다고 판단했습니다. 너무 굴욕적이었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1106.5,
+   "en": "So luckily through the economic superior, there were these partnerships between universities, so I begged to be sent to Harvard, because I'd spent some time in the US when I was 16.",
+   "ko": "다행히 에콜 노르말 쉬페리외르를 통해 대학 간의 파트너십이 있었고, 16살 때 미국에서 시간을 보낸 적이 있었기 때문에 하버드로 보내달라고 간청했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1116.1,
+   "en": "I'd always wanted to go to the US, actually, but it was too expensive, so I never even dreamt of applying. But then at that point, I thought I just need to get away and hack a lot of people.",
+   "ko": "사실 항상 미국에 가고 싶었지만 비용이 너무 많이 들어서 지원할 엄두도 내지 못했습니다. 하지만 그 시점에서는 그냥 도망치고 싶었고 많은 사람들을 속이고 싶다는 생각뿐이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1124.9,
+   "en": "It looks like the US is always the salvation. And I just loved it so much, even more than the first time around.",
+   "ko": "미국이 항상 구원인 것 같았습니다. 그리고 첫 번째보다 훨씬 더 미국이 좋았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1131.0,
+   "en": "I did really well, and I went again on that path of great success, but that sort of wound, you keep it forever.",
+   "ko": "저는 정말 잘 해냈고 다시 큰 성공의 길로 들어섰지만, 그런 상처는 영원히 남습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1136.5,
+   "en": "And it's made me very suspicious of a lot of things that I wouldn't have been suspicious of before. suspicious of hierarchies and systems, etc.",
+   "ko": "그리고 그것은 제가 이전에는 의심하지 않았을 많은 것들에 대해 매우 회의적으로 만들었습니다. 계급 구조와 시스템 등에 대해서 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1145.1,
+   "en": "Yes, and the kind of certainties you have when you succeed under certain terms and also of the big persona I had built to fit under the existing system.",
+   "ko": "네, 그리고 특정 조건 하에서 성공했을 때 갖게 되는 확신들, 그리고 기존 시스템에 맞추기 위해 구축했던 거대한 페르소나에 대해서도 그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1155.8,
+   "en": "To fit in, you had to not show any vulnerability. And when you hide behind facades like that, you're not learning, you're just wasting a lot of cognitive energy.",
+   "ko": "어울리기 위해서는 어떤 취약점도 보여서는 안 됐습니다. 그런 겉치레 뒤에 숨어 있으면 배우는 것이 아니라 그저 많은 인지적 에너지를 낭비할 뿐입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1166.7,
+   "en": "I needed the freedom of the American system to rebuild and find out exactly where I was.",
+   "ko": "재건하고 제가 정확히 어디에 있는지 알아내기 위해 미국 시스템의 자유가 필요했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1171.6,
+   "en": "It's your belief I gather that shy people and the people who would never think about running for office are on average as let's say useful or capable of governing as those who stand for election. Is that the case?",
+   "ko": "수줍음이 많은 사람이나 공직에 출마할 생각조차 하지 않는 사람들도 평균적으로 선거에 출마하는 사람들만큼 통치에 유용하거나 능력이 있다는 것이 당신의 믿음이라고 생각되는데, 맞습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1186.2,
+   "en": "Yes, that is absolutely right. That's in fact the meaning of political equality is that we're not going to discriminate based on your confidence level or your knowledge or your pedigree when it comes to issues of the common good.",
+   "ko": "네, 전적으로 옳습니다. 사실 정치적 평등의 의미는 공익의 문제에 있어서 자신감 수준이나 지식, 가문 등을 근거로 차별하지 않겠다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1199.2,
+   "en": "We need to agree on things that are not pleasant and all of us should have a say. That's a premise of democracy.",
+   "ko": "우리는 즐겁지 않은 일들에 대해서도 합의해야 하며, 우리 모두가 발언권을 가져야 합니다. 그것이 민주주의의 전제입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1205.6,
+   "en": "The fundamental principle of Citizens' Assumblies is that they are randomly selected. We're already trying to pull in people who would never show up to a town hall meeting, right,",
+   "ko": "시민 의회의 근본 원칙은 무작위로 선발된다는 점입니다. 우리는 이미 타운홀 미팅에 절대 나타나지 않을 사람들을 끌어들이려 노력하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1214.9,
+   "en": "who would not volunteer for something that typically attracts them more vocal, more interested, et cetera. So it's a very different setup from the beginning.",
+   "ko": "전형적으로 목소리가 크고 관심이 많은 사람들을 끌어들이는 일에 자원하지 않을 사람들 말입니다. 그래서 처음부터 매우 다른 구조입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1222.9,
+   "en": "And then you these facilitation techniques to bring out the child, like to make sure the vocal do not interrupt, do not intimidate, etc.",
+   "ko": "그런 다음 목소리 큰 사람들이 방해하거나 위협하지 못하도록 하는 등의 촉진 기술을 사용하여 내면의 순수함을 끌어냅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1232.4,
+   "en": "If you compare the quality of deliberation, you could say that, yes, they do better than politicians.",
+   "ko": "심의의 질을 비교해 본다면, 네, 그들이 정치인들보다 더 잘한다고 말할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1237.2,
+   "en": "Do we think of, let's say, US Congress as deliberative body in the same way that we used to? In other words, is Congress any good at deliberating anymore?",
+   "ko": "예를 들어 미국 의회를 예전과 같은 방식의 심의 기구로 생각하나요? 다시 말해, 의회가 더 이상 심의를 잘하고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1244.7,
+   "en": "And is that what we're comparing these mini-publics to?",
+   "ko": "그리고 그것이 우리가 이 소규모 대중들과 비교하고 있는 대상인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1247.7,
+   "en": "I would say in political theory, yes, they were created as deliberative bodies, that's what the Federalist envisioned.",
+   "ko": "정치 이론상으로는 그렇습니다. 연방주의자들이 구상한 대로 심의 기구로 만들어졌으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1253.8,
+   "en": "I do think they still live on that promise of being able to figure out the truth about the problems we face and the solutions we need and it's supposed to happen in the conflict of arguments between parties and camps.",
+   "ko": "저는 그들이 우리가 직면한 문제에 대한 진실과 필요한 해결책을 찾아낼 수 있다는 그 약속을 여전히 이어가고 있다고 생각하며, 그것은 정당과 진영 간의 논쟁 충돌 속에서 이루어져야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1265.7,
+   "en": "But it's definitely longer in the case. I don't think you sense that they're listening to each other in a sincere way, trying to solve issues together. It's a lot more about scoring points.",
+   "ko": "하지만 확실히 지금은 그렇지 않습니다. 그들이 문제를 함께 해결하기 위해 진심으로 서로의 말을 경청하고 있다는 느낌은 들지 않습니다. 점수를 따는 데 훨씬 더 치중하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1276.0,
+   "en": "If the The Federalists wanted a deliberately-delivered assembly in my view that they should have aimed for a randomly selected assembly rather than an elected one.",
+   "ko": "제 견해로는 연방주의자들이 신중하게 구성된 의회를 원했다면, 선출된 의회가 아니라 무작위로 선발된 의회를 지향했어야 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1286.2,
+   "en": "Coming up after the break, what did the Federalists want? I'm Stephen Dubner, this is Freakonomics Radio, we will be right back.",
+   "ko": "휴식 시간 이후에 연방주의자들은 무엇을 원했는지 알아보겠습니다. 저는 스티븐 더브너이고, 프리코노믹스 라디오입니다. 곧 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1307.6,
+   "en": "History is full of good ideas that die out or never catch on in the first place. But some of them, get a second chance, could be years later.",
+   "ko": "역사는 사라지거나 처음부터 인기를 얻지 못한 좋은 아이디어들로 가득합니다. 하지만 그중 일부는 몇 년이 지난 후에 두 번째 기회를 얻기도 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1317.2,
+   "en": "In the scientific literature, these are called sleeping beauties, dormant ideas just waiting to be revived.",
+   "ko": "과학 문헌에서는 이를 잠자는 숲속의 미녀라고 부르는데, 부활하기를 기다리는 휴면 상태의 아이디어를 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1324.7,
+   "en": "Terry Barricius and Elen Landemore believe that Sortition, the ancient Athenian practice of choosing policy makers by lottery rather than vote, deserves such a revival.",
+   "ko": "테리 보리시스와 엘렌 랜더모어는 투표가 아닌 추첨으로 정책 입안자를 선출하던 고대 아테네의 관습인 추첨 제도가 그러한 부활의 가치가 있다고 믿습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1335.6,
+   "en": "They say that the electoral system in the US is beyond repair, but Ries just thinks the problem goes all the way back to the founders.",
+   "ko": "그들은 미국의 선거 시스템이 수리 불가능한 상태라고 말하지만, 보리시스는 이 문제가 건국자들 시대로 거슬러 올라간다고 생각합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1343.3,
+   "en": "He likes to cite something that James Madison wrote in 1787. Representative appointments are sought from three motives, ambition, personal interest, and the public good.",
+   "ko": "그는 1787년 제임스 매디슨이 쓴 글을 인용하길 좋아합니다. '대표자 임명은 야망, 개인적 이익, 그리고 공공의 선이라는 세 가지 동기에서 추구된다.'",
+   "speaker": "Host"
+  },
+  {
+   "start": 1355.3,
+   "en": "Unhappily, the two first are proved by experience to be most prevalent.",
+   "ko": "'불행히도 경험상 처음 두 가지가 가장 널리 퍼져 있음이 입증되었다.'",
+   "speaker": "Host"
+  },
+  {
+   "start": 1359.9,
+   "en": "Madison realized that elections were basically people looking for ambition and personal interest, and he thought public good was in the mix, but it was the third.",
+   "ko": "매디슨은 선거가 기본적으로 야망과 개인적 이익을 찾는 사람들이라는 것을 깨달았고, 공공의 선도 섞여 있긴 하지만 그것은 세 번째라고 생각했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1370.7,
+   "en": "Now, we should say that the founders, including Madison, talked about a natural aristocracy, a governing elite. That was the concept.",
+   "ko": "이제 매디슨을 포함한 건국자들이 자연 귀족, 즉 통치 엘리트에 대해 이야기했다는 점을 언급해야 할 것 같습니다. 그것이 개념이었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1378.2,
+   "en": "The well-to-do property owners were the people most likely to be virtuous and wise. If you were sitting back then, what do you think you would have thought of that, Nishan?",
+   "ko": "부유한 재산 소유자들이 도덕적이고 현명할 가능성이 가장 높은 사람들이었습니다. 당신이 그때 그 자리에 있었다면, 그 생각에 대해 어떻게 생각했을까요, 니샨?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1387.2,
+   "en": "I would have rejected it. Elections did exactly what they wanted them to do to make sure that the rabble, the mob, was not anywhere near the levers of government.",
+   "ko": "저는 거부했을 것입니다. 선거는 오합지졸인 폭도들이 정부의 권력 근처에 얼씬도 못 하게 하려는 그들의 의도대로 정확히 작동했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1400.1,
+   "en": "And they even had these arguments that we don't allow children to vote, we don't allow women to vote, and we don't allow people who don't on property vote, because they can be controlled by their, quote-unquote, master.",
+   "ko": "그리고 그들은 심지어 어린이는 투표할 수 없고, 여성도 투표할 수 없으며, 재산이 없는 사람도 투표할 수 없다는 주장을 폈습니다. 이른바 '주인'에 의해 조종될 수 있기 때문이라는 이유였죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1411.1,
+   "en": "You know, the husband can tell the wife how to vote, or the employer can tell the laborer how to vote. So we can't let them vote. Only people who have enough wealth to have independent judgment should be involved.",
+   "ko": "남편이 아내에게 어떻게 투표하라고 말할 수도 있고, 고용주가 노동자에게 어떻게 투표하라고 말할 수도 있다는 것이죠. 그래서 투표하게 놔둘 수 없다는 것입니다. 독립적인 판단을 내릴 수 있을 만큼 충분한 부를 가진 사람들만 참여해야 한다는 것이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1421.5,
+   "en": "But if you go back a couple thousand years to the Athenians, they had a very different view, right?",
+   "ko": "하지만 수천 년 전 아테네인들로 거슬러 올라가면 그들은 매우 다른 견해를 가지고 있었죠, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1427.6,
+   "en": "As Aristotle said, lotteries are democratic and elections are oligarchic. That was the view of political theorists for over two thousand years up through Rousseau and Montesquieu.",
+   "ko": "아리스토텔레스가 말했듯이, 추첨은 민주적이고 선거는 과두적입니다. 그것이 루소와 몽테스키외에 이르기까지 2천 년 넘게 정치 이론가들이 가졌던 견해였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1439.4,
+   "en": "The American founding fathers understood that too, but they didn't want a democracy. So elections were the appropriate tool.",
+   "ko": "미국의 건국자들도 그것을 이해했지만, 그들은 민주주의를 원하지 않았습니다. 그래서 선거가 적절한 도구였던 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1445.8,
+   "en": "What you're saying right now is even then and the powerful understood how power was accrued and held onto, and that an election, while seemingly a sorting mechanism to produce a meritocratic result, was indeed meant to be a control mechanism from the outset.",
+   "ko": "지금 하시는 말씀은 그 당시에도 권력자들은 권력이 어떻게 획득되고 유지되는지 이해하고 있었으며, 선거가 겉으로는 능력주의적 결과를 낳는 분류 메커니즘처럼 보이지만 실제로는 처음부터 통제 메커니즘을 의도했다는 말씀이신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1466.9,
+   "en": "Yeah. The fact that we use the word democracy to describe what is an oligarchic system of election is almost an Orwellian reversal of what that word meant for over 2,000 years.",
+   "ko": "네. 우리가 과두제적인 선거 시스템을 묘사하기 위해 민주주의라는 단어를 사용하는 것은 그 단어가 2,000년 넘게 의미해 온 바를 거의 오웰식으로 뒤집은 것과 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1479.4,
+   "en": "Sortition is sort of how they did democracy in ancient Athens. All we ever learn about Athens is the huge assembly. That's what we all learn about in school.",
+   "ko": "추첨 제도는 고대 아테네에서 민주주의를 했던 방식입니다. 우리가 아테네에 대해 배우는 전부는 거대한 민회뿐입니다. 학교에서 우리 모두가 배우는 것이 그것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1487.8,
+   "en": "I say, well, you can't do that in a big country. Therefore, there's nothing to learn from them.",
+   "ko": "저는 '글쎄요, 큰 나라에서는 그렇게 할 수 없습니다. 그러므로 그들에게 배울 것은 아무것도 없습니다'라고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1491.4,
+   "en": "But the fact is, all of their governing parties, the ones that set the agenda, the ones that ran the city day to day, the ones that actually after 403 BC, they had the reforms, the ones that were adopting all new laws, all those bodies were selected by lottery.",
+   "ko": "하지만 사실 의제를 설정하고, 도시를 매일 운영하고, 실제로 기원전 403년 개혁 이후에 모든 새로운 법률을 채택한 모든 통치 기구들은 추첨을 통해 선발되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1508.9,
+   "en": "The General Assembly, the huge open body, they could declare war, they could pass resolutions, they could give tributes, but they couldn't adopt laws.",
+   "ko": "거대하고 개방된 기구인 민회는 전쟁을 선포하고 결의안을 통과시키며 공물을 바칠 수는 있었지만, 법률을 채택할 수는 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1517.3,
+   "en": "They themselves transferred power to adopt laws to a jury process.",
+   "ko": "그들 스스로가 법률 채택 권한을 배심원 절차로 이양했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1525.6,
+   "en": "Elen Landemore of Yale also thinks the Greeks had it right.",
+   "ko": ""
+  },
+  {
+   "start": 1529.9,
+   "en": "They knew that you shouldn't give power to people who want power. It's a theme of literature, like from Lord of the Rings. The ring will corrupt you, so you don't want to give it to people who are immediately corruptible.",
+   "ko": "그들은 권력을 원하는 사람에게 권력을 주어서는 안 된다는 것을 알고 있었습니다. 그것은 '반지의 제왕' 같은 문학의 주제이기도 합니다. 반지는 당신을 타락시킬 것이므로, 즉시 타락할 가능성이 있는 사람들에게는 그것을 주고 싶지 않을 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1540.4,
+   "en": "At the same time, I do think leadership matters. The question is, how do you elevate leaders in a way that doesn't go to their heads, doesn't entrench their power, doesn't make people feel inferior or subordinated?",
+   "ko": "동시에 저는 리더십이 중요하다고 생각합니다. 문제는 리더들이 자만하지 않고, 권력을 고착화하지 않으며, 사람들이 열등감이나 종속감을 느끼지 않게 하는 방식으로 어떻게 리더를 선출하느냐는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1555.6,
+   "en": "You like the idea of sortition going back to ancient Athens, yes? If this is such a good idea, and if it was or could be such a good system more broadly, why did it vanish, essentially?",
+   "ko": "고대 아테네로 거슬러 올라가는 추첨 제도의 아이디어를 좋아하시죠, 맞습니까? 이것이 그렇게 좋은 아이디어이고 광범위하게 그렇게 좋은 시스템이었다면, 혹은 그렇게 될 수 있었다면 왜 본질적으로 사라진 것일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1570.7,
+   "en": "That's a big puzzle. In the 18th century, 19th century, the practice of drawing lots to select public officials completely disappeared.",
+   "ko": "그것은 큰 수수께끼입니다. 18세기와 19세기에 공직자를 선발하기 위해 제비를 뽑는 관행은 완전히 사라졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1579.9,
+   "en": "Bernard Manard, who's an important political theorist in France, blames it on a confluence of things.",
+   "ko": "프랑스의 중요한 정치 이론가인 베르나르 마냉은 여러 가지 요인이 복합적으로 작용한 탓으로 돌립니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1586.7,
+   "en": "One is the fact that social contract theory was the dominant theory of legitimacy from the 17th century onward. world, we equated a democracy with getting people's consent at the ballot box.",
+   "ko": "하나는 사회 계약 이론이 17세기 이후 정통성에 대한 지배적인 이론이었다는 사실입니다. 전 세계적으로 우리는 민주주의를 투표소에서 사람들의 동의를 얻는 것과 동일시했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1600.5,
+   "en": "When you have a sortition, it seems to have valid that requirement of consent. Another reason that I find compelling is that the 18th century when we reinvented democracy was the age of the Enlightenment.",
+   "ko": "추첨 제도를 도입하면 그러한 동의 요건을 충족하는 것처럼 보입니다. 제가 설득력 있다고 생각하는 또 다른 이유는 우리가 민주주의를 재창조한 18세기가 계몽주의 시대였다는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1612.7,
+   "en": "And the Enlightenment is really the elevation of individual judgment and reasoning over the passions.",
+   "ko": "그리고 계몽주의는 참으로 열정보다 개인의 판단과 이성을 높이 평가하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1618.8,
+   "en": "You could say the French Revolution and the American revolution happened just a bit too early for a lot to have its chance.",
+   "ko": "프랑스 혁명과 미국 혁명은 추첨 제도가 기회를 갖기에는 조금 너무 일찍 일어났다고 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1625.9,
+   "en": "We didn't have the statistical science that only emerged in the 19th century. It's the same thing for politicians today. They don't really get that you can have collective intelligence emerging from ordinary people.",
+   "ko": "19세기에야 출현한 통계 과학이 당시에는 없었습니다. 오늘날의 정치인들도 마찬가지입니다. 그들은 평범한 사람들로부터 집단 지성이 나올 수 있다는 것을 정말 이해하지 못합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1639.6,
+   "en": "They don't understand the social science behind it. And they also have big prejudices against and certain I see this because oftentimes the ones they interact with are not representative in a demographic sense.",
+   "ko": "그들은 그 이면에 숨겨진 사회 과학을 이해하지 못합니다. 또한 큰 편견을 가지고 있는데, 제가 보기에 그들이 교류하는 사람들은 인구통계학적 의미에서 대표성을 띠지 않는 경우가 많기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1652.7,
+   "en": "They interact with the very vocal angry people who show up at town hall meetings, who are not necessarily the brightest bulbs actually, and who are very aggressive for politicians given their exposure to that version of the people.",
+   "ko": "그들은 타운홀 미팅에 나타나 목소리를 높이는 화난 사람들과 교류하는데, 사실 그들이 반드시 똑똑한 사람들은 아니며, 정치인들에게 매우 공격적입니다. 그런 사람들에게 노출되어 있다 보니 정치인들이 회의적인 것은 어느 정도 정상입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1668.9,
+   "en": "It's a little bit normal that they are skeptical.",
+   "ko": ""
+  },
+  {
+   "start": 1677.2,
+   "en": "So, Alain Landemore thinks that politicians may be exposed to the wrong kind of people. Terry Barricius thinks that politicians themselves are the wrong kind of people.",
+   "ko": "그래서 엘렌 랜더모어는 정치인들이 잘못된 부류의 사람들에게 노출되어 있다고 생각하고, 테리 보리시스는 정치인들 자체가 잘못된 부류라고 생각합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1689.0,
+   "en": "Elections have a certain internal logic and incentives that encourage people who are narcissists and psychopaths to seek power.",
+   "ko": "선거는 자기애주의자와 사이코패스 성향의 사람들이 권력을 추구하도록 장려하는 특정한 내부 논리와 유인책을 가지고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1698.3,
+   "en": "I don't want to besmirch all politicians, some of them are brilliant and excellent and humane and humble people. But as a group, they are more narcissistic and sociopathic than the population.",
+   "ko": "모든 정치인을 비방하고 싶지는 않습니다. 그들 중 일부는 영리하고 우수하며 인간적이고 겸손한 사람들입니다. 하지만 집단으로서 그들은 일반 인구보다 더 자기애적이고 반사회적입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1710.0,
+   "en": "This reminds me of something you recently published. This was a piece talking about the unrepresentative nature of legislatures.",
+   "ko": "이것은 당신이 최근에 발표한 내용을 생각나게 합니다. 입법부의 비대표성에 대해 이야기한 글이었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1717.4,
+   "en": "When you were in the Vermont legislature, there was a housing bill that was affecting tenants and landlords.",
+   "ko": "당신이 버몬트 주 의회에 있을 때, 세입자와 집주인에게 영향을 미치는 주택 법안이 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1722.1,
+   "en": "And you write that you notice that the committee members relied more on anecdotal information from their social networks than statistical reports or witness testimony, especially the testimony on behalf of renters.",
+   "ko": "그리고 당신은 위원회 위원들이 통계 보고서나 증언, 특히 세입자들을 대변하는 증언보다 자신들의 사회적 네트워크에서 얻은 일화적인 정보에 더 많이 의존한다는 것을 알아차렸다고 썼습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1734.3,
+   "en": "You say that you surveyed the community to find out how many of you were renters as opposed to homeowners. And the answer was zero. None.",
+   "ko": "당신은 주택 소유자가 아닌 세입자가 몇 명이나 되는지 알아보기 위해 위원회를 조사했다고 하셨죠. 그리고 대답은 0명이었습니다. 한 명도 없었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1743.1,
+   "en": "I then said, well, what about the whole house? I could only find one renter out of the 150 members of the house of representatives.",
+   "ko": "그래서 제가 '그럼 하원 전체는 어떤가?'라고 말했습니다. 150명의 하원 의원 중 세입자는 단 한 명뿐이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1749.9,
+   "en": "One, meanwhile, nearly a third of Vermoders or renters. This is not a representative body.",
+   "ko": "단 한 명이었죠. 반면 버몬트 주민의 거의 3분의 1이 세입자입니다. 이것은 대표성이 있는 기구가 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1754.5,
+   "en": "within bodies that are trying to solve problems, there's some research to suggest that having a diversity in many cases is more valuable than having expertise.",
+   "ko": "문제를 해결하려는 조직 내에서, 많은 경우 다양성을 갖추는 것이 전문성을 갖추는 것보다 더 가치 있다는 것을 시사하는 몇 가지 연구가 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1765.4,
+   "en": "In fact, there's a theorem that you may have come across the Hong page, I think it's going on.",
+   "ko": "사실, 당신도 접해 보셨을 홍-페이지(Hong-Page) 정리가 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1769.5,
+   "en": "Yeah, it's not a universal thing, but when you have a relatively homogeneous group, they tend to know similar sorts of things.",
+   "ko": "네, 보편적인 것은 아니지만 상대적으로 동질적인 집단이 있을 때 그들은 비슷한 것들을 아는 경향이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1777.4,
+   "en": "And there can be whole domains of knowledge that they're completely unaware of. Just having a diverse group, one person might bring one key piece of information, oh, I didn't know that.",
+   "ko": "그리고 그들이 전혀 알지 못하는 지식의 전 영역이 존재할 수 있습니다. 그저 다양한 그룹을 갖는 것만으로도, 한 사람이 핵심적인 정보를 가져올 수 있고, 그러면 '오, 그건 몰랐네요'라고 할 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1789.3,
+   "en": "I even use that example when people say, well, if you have a jury, you'd have to have a qualification. Like you wouldn't have people who aren't able to read in it.",
+   "ko": "사람들이 '배심원을 두려면 자격 요건이 있어야 한다. 글을 읽지 못하는 사람을 포함시켜서는 안 된다'라고 말할 때 저는 심지어 그 예를 사용합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1797.4,
+   "en": "And my argument is, once the jury gets to be a certain large size, hundreds of people, having that full diversity is valuable. For example, you're dealing with transportation.",
+   "ko": "그리고 제 주장은 배심원단이 수백 명과 같이 일정 규모 이상으로 커지면 완전한 다양성을 갖추는 것이 가치가 있다는 것입니다. 예를 들어 교통 문제를 다루고 있다고 해봅시다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1807.2,
+   "en": "One of your members is a Down syndrome person who can't read and Oh, but what about Jeff? Jeff couldn't do that.",
+   "ko": "멤버 중 한 명이 글을 읽지 못하는 다운증후군 환자라고 칩시다. '오, 하지만 제프는 어쩌죠? 제프는 그걸 할 수 없어요.'",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1814.8,
+   "en": "We'd have to have a system where he could just hit a lever that diversity It's not just the knowledge they bring. It's the diversity itself is Valuable",
+   "ko": "그가 레버를 당기기만 하면 되는 시스템을 갖춰야 할 것입니다. 다양성은 그들이 가져오는 지식뿐만 아니라 다양성 그 자체가 가치가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1823.9,
+   "en": "it does make me think that when we read about Congress deliberating on health care transportation you name it that we're looking at the problem that you just described, writ even larger, yes, because the leverage is so much greater at the federal level.",
+   "ko": "의회가 의료, 교통 등 무엇이든 심의하는 것에 대해 읽을 때, 연방 차원에서는 영향력이 훨씬 더 크기 때문에 당신이 방금 설명한 문제가 훨씬 더 크게 나타나고 있다는 생각이 듭니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1840.2,
+   "en": "The fact is that in Congress, it's not just a bunch of mostly old white men, but a majority of Congress are millionaires.",
+   "ko": "사실 의회는 단순히 나이 든 백인 남성들의 집단일 뿐만 아니라 의원의 대다수가 백만장자입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1849.5,
+   "en": "There might be a lot of working class job when I was first out of college or whatever. The point is, they're almost all lawyers, business owners, well to do people.",
+   "ko": "제가 처음 대학을 졸업했을 때나 그럴 때는 노동 계급의 일자리가 많았을지도 모르죠. 요점은 그들이 거의 모두 변호사, 사업가, 부유한 사람들이라는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1857.6,
+   "en": "To run for Congress, you have to be in a position in your life where you have a huge amount of free time, or you can make a huge amount of free time without your family suffering.",
+   "ko": "의회에 출마하려면 인생에서 엄청난 양의 자유 시간이 있거나, 가족이 고통받지 않고도 엄청난 양의 자유 시간을 낼 수 있는 위치에 있어야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1866.5,
+   "en": "The dynamic is the selection process, not just the elections, but who has the time to run for? Who has the connections to raise the money?",
+   "ko": "핵심은 선발 과정입니다. 단지 선거뿐만 아니라 누가 출마할 시간이 있느냐? 누가 돈을 모을 수 있는 인맥이 있느냐 하는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1874.5,
+   "en": "All those things mean that the pool of people that voters have to choose among is a very distorted, slanted group of people.",
+   "ko": "그 모든 것들은 유권자들이 선택해야 하는 인력 풀이 매우 왜곡되고 편향된 집단임을 의미합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1884.5,
+   "en": "If elections are as terrible as you make them out to be, How do you explain that elected liberal democracies have consistently outperformed pretty much every other type of government around the world?",
+   "ko": "선거가 당신이 말하는 것만큼 끔찍하다면, 선출된 자유 민주주의 국가들이 전 세계의 거의 모든 다른 형태의 정부보다 지속적으로 더 나은 성과를 거두어 온 것을 어떻게 설명하시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1897.2,
+   "en": "We've never had a sort of dishonded democracy to compare them to. See, that's the problem. People think the choices are elections or dictatorship. And between those two, I'm on the side of elections.",
+   "ko": "우리는 그들과 비교할 수 있는 추첨제 민주주의를 가져본 적이 없습니다. 보세요, 그것이 문제입니다. 사람들은 선택지가 선거냐 독재냐뿐이라고 생각하고, 그 둘 사이에서 저는 선거 편에 섭니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1910.0,
+   "en": "If people think that is the only two choices, and that's what 99.9% of Americans assume, then, yeah, elections. Like the jury, why do we trust randomly selected people to make life and death decisions?",
+   "ko": "만약 사람들이 그것이 유일한 두 가지 선택지라고 생각하고 미국인의 99.9%가 그렇게 가정한다면, 네, 선거를 택해야죠. 배심원단처럼, 왜 우리는 무작위로 선택된 사람들이 삶과 죽음의 결정을 내리는 것을 신뢰할까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1924.3,
+   "en": "There's a reason. They're resistant to corruption. They deliberate as political equals. They reflect the values of the community, government of the people, by the people, for the people. We don't have that in the United States.",
+   "ko": "이유가 있습니다. 그들은 부패에 저항력이 있고 정치적 평등으로서 심의합니다. 그들은 공동체의 가치, 즉 국민의, 국민에 의한, 국민을 위한 정부를 반영합니다. 미국에는 그런 것이 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1936.7,
+   "en": "Let's go back for a second to the British Columbia Citizens' Assembly. What happened and that the sitting politicians wanted, or at least allowed, that assembly to form.",
+   "ko": "잠시 브리티시 컬럼비아 시민 의회로 돌아가 보겠습니다. 무슨 일이 있었기에 현직 정치인들이 그 의회의 구성을 원했거나 최소한 허용했나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1948.1,
+   "en": "What happened is there was the NDP and the Liberal Party and the Right Wing Party, and they had this weird election where one party got like 47%, the other got like 43% and another party got a small percentage,",
+   "ko": "어떤 일이 있었냐 하면, 신민당(NDP)과 자유당, 그리고 우익 정당이 있었는데, 한 정당이 약 47%, 다른 정당이 약 43%, 또 다른 정당이 적은 비율을 얻는 이상한 선거가 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1960.6,
+   "en": "and one party had every single seat in the legislature except too. This is crazy.",
+   "ko": "그리고 한 정당이 단 두 석을 제외하고 입법부의 모든 의석을 차지했습니다. 이건 미친 짓이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1965.8,
+   "en": "And then the next election, the party's just a small change in vote, completely switch And another party was in control.",
+   "ko": "그리고 다음 선거에서 투표율의 아주 작은 변화만으로 정당이 완전히 바뀌었고 다른 정당이 장악하게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1972.0,
+   "en": "And they had made a pledge that if we get back in power, we're going to set up a body to reform this insane, it's the same voting system that we use in the United States. Winter take all single-seat elections.",
+   "ko": "그리고 그들은 우리가 다시 집권하면 이 비상식적인 시스템을 개혁하기 위한 기구를 만들겠다고 약속했습니다. 그것은 미국에서 사용하는 것과 똑같은 승자 독식의 단일 의석 투표 시스템입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1982.4,
+   "en": "And so they thankfully followed through on their commitment. And they said, you know what, all of us politicians have a conflict of interest. We'll set up a body that has no politicians.",
+   "ko": "그래서 다행히 그들은 약속을 이행했습니다. 그리고 그들은 '있잖아요, 우리 정치인들 모두가 이해 상충 관계에 있습니다. 정치인이 없는 기구를 만들겠습니다'라고 말했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1991.2,
+   "en": "So they talked to some professor and said, well, there's this sort of thing. And he proposed it and they passed it.",
+   "ko": "그래서 그들은 어떤 교수와 이야기를 나눴고, 교수는 '글쎄요, 추첨 제도라는 것이 있습니다'라고 했습니다. 교수가 그것을 제안했고 그들은 그것을 통과시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1996.3,
+   "en": "And they said, you're going to design a new voting system. If you think it's warranted, and it's going to go directly to referendum, and no politicians are going to put their fingers on it. And that happened.",
+   "ko": "그리고 그들은 '당신들이 새로운 투표 시스템을 설계할 것입니다. 정당하다고 생각되면 바로 국민투표에 부쳐질 것이며, 어떤 정치인도 관여하지 않을 것입니다'라고 말했고 실제로 그런 일이 일어났습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2006.3,
+   "en": "And they came up with a proposal, which was ranked choice voting, the system that I had given testimony advocating. And it got like 57% of the vote in the referendum.",
+   "ko": "그들은 제가 증언을 통해 옹호했던 시스템인 순위 선택 투표제를 제안했습니다. 그리고 국민투표에서 약 57%의 득표를 얻었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2015.4,
+   "en": "But the legislature had put a rule that they have to get more than 60% for it to go into effect. So it didn't happen.",
+   "ko": "하지만 입법부에서 발효되려면 60% 이상의 찬성을 얻어야 한다는 규칙을 정해두었습니다. 그래서 실현되지 못했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2021.3,
+   "en": "I see. So does that mean that the British Columbia Citizens Assembly is defunct now?",
+   "ko": "그렇군요. 그렇다면 브리티시 컬럼비아 시민 의회는 이제 폐지된 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2025.7,
+   "en": "Yes, it was a one-time thing. They've met for many, many months, 2004 into 2005, wrote a report, there was a referendum, it got 57% of vote, but nothing changed.",
+   "ko": "네, 일회성 행사였습니다. 2004년부터 2005년까지 여러 달 동안 회의를 열고 보고서를 작성했고 국민투표도 치렀으며 57%의 득표율을 얻었지만 바뀐 것은 아무것도 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2036.0,
+   "en": "These were randomly selected residents as if being selected for jury duty, correct?",
+   "ko": "마치 배심원 의무에 선발된 것처럼 무작위로 선발된 거주자들이었죠, 맞나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2040.4,
+   "en": "Yes, yes, very much like jury duty.",
+   "ko": "네, 네, 배심원 의무와 매우 비슷합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2042.1,
+   "en": "The British Columbia story suggests to me that if you're trying to reform an electoral system and you're reliant on the entrenched beneficiaries of that system, the incumbents, that you're They're almost certainly going to fail.",
+   "ko": "브리티시 컬럼비아의 사례를 보면, 선거 시스템을 개혁하려고 하면서 그 시스템의 기득권 수혜자인 현직 의원들에게 의존한다면 거의 확실히 실패할 것이라는 생각이 듭니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2056.8,
+   "en": "So how do you see getting around that?",
+   "ko": "그렇다면 그 문제를 어떻게 해결할 수 있다고 보십니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2059.0,
+   "en": "My strategy is I call peeling strategy. The idea is to peel away one policy domain at a time.",
+   "ko": "제 전략은 소위 '박리 전략'입니다. 한 번에 하나의 정책 영역을 떼어내는 아이디어입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2065.3,
+   "en": "You start with things that politicians are willing to be rid of because there are no win issues for the politicians. And you set up a policy jury and you delegate the authority to create a new system.",
+   "ko": "정치인들에게 이득이 없는 문제들이기 때문에 정치인들이 기꺼이 없애고 싶어 하는 것들부터 시작합니다. 그리고 정책 배심원단을 구성하여 새로운 시스템을 만들 권한을 위임합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2076.4,
+   "en": "It might be on health care or climate change or housing or whatever, some issue.",
+   "ko": "의료, 기후 변화, 주택 등 어떤 문제든 될 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2081.8,
+   "en": "So there's a way you can do it piecemeal, step by step, without doing a huge shift, because you're right. The current power structure is not going to say, oh yeah, let's give away all our power to some other structure.",
+   "ko": "맞습니다. 현재의 권력 구조는 '오 그래요, 우리의 모든 권력을 다른 구조에 넘겨줍시다'라고 말하지 않을 것이기 때문에, 거대한 변화 없이 단계적으로 조금씩 해나갈 수 있는 방법이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2094.5,
+   "en": "You have to want the impossible to change the world.",
+   "ko": "세상을 바꾸려면 불가능한 것을 원해야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2097.8,
+   "en": "That's Ellen Landemore again. After the British Columbia Citizens' Assembly, she says there was another one in Iceland. Really tried something quite daring.",
+   "ko": "다시 엘렌 랜더모어입니다. 브리티시 컬럼비아 시민 의회 이후에 아이슬란드에서도 또 다른 의회가 있었다고 그녀는 말합니다. 정말 대담한 시도를 했었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2108.3,
+   "en": "The Iceland idea came about, I think if I remember correctly, correctly, because they had suffered so much from the 2008 financial crash, yes?",
+   "ko": "제 기억이 맞다면 아이슬란드 아이디어는 2008년 금융 위기로 인해 큰 고통을 겪었기 때문에 나온 것이죠, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2116.1,
+   "en": "Yes, there are economy collapse. They burn seven times or GDP in the few months of the crisis.",
+   "ko": "네, 경제가 붕괴되었습니다. 위기가 닥친 몇 달 만에 GDP의 7배를 소진했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2121.6,
+   "en": "And the collusion between bankers and politicians was so obvious that they just didn't really have a choice. They had to do something drastic.",
+   "ko": "그리고 은행가와 정치인 사이의 결탁이 너무나 명백했기 때문에 그들에게는 정말 선택의 여지가 없었습니다. 과감한 조치를 취해야만 했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2128.6,
+   "en": "So they sent 35 bankers to jail. That's probably the only country who did that in those proportions.",
+   "ko": "그래서 그들은 35명의 은행가를 감옥에 보냈습니다. 아마 그런 규모로 그렇게 한 나라는 그곳이 유일할 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2135.3,
+   "en": "Then they said, okay, we're going to take this opportunity to start from scratch on a bunch of things, including our constitution, which we inherited from the Danish monarchy. It's a cut and paste.",
+   "ko": "그리고 그들은 '좋아, 이번 기회에 덴마크 왕국으로부터 물려받은 헌법을 포함해 많은 것들을 처음부터 다시 시작하자'라고 말했습니다. 그냥 복사해서 붙여넣기 한 수준이었거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2146.3,
+   "en": "And they said, but we cannot have the current political personnel in charge of doing that because we just don't trust them.",
+   "ko": "그리고 그들은 '하지만 현재의 정치 인력들에게 그 일을 맡길 수는 없습니다. 그들을 믿지 못하기 때문입니다'라고 말했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2152.0,
+   "en": "They organized an election that banned politicians from running for it to select a council of 25 who would be in charge of rewriting the constitution on the basis of the recommendations of a 950 50 randomly selected panel of the whole population.",
+   "ko": "그들은 정치인의 출마를 금지하는 선거를 조직하여, 전체 인구 중 무작위로 선정된 950명의 패널의 권고를 바탕으로 헌법 개정을 담당할 25인의 위원회를 선출했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2171.0,
+   "en": "The overall proposal, was it ever enacted or no?",
+   "ko": "전반적인 제안이 실제로 제정되었나요, 아니면 아닌가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2173.4,
+   "en": "No, but again, when you try to implement the impossible, you're going to run into a lot of failures, especially early on.",
+   "ko": "아니요, 하지만 다시 말씀드리지만 불가능한 것을 구현하려고 할 때는 특히 초기에는 많은 실패에 부딪히게 마련입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2182.4,
+   "en": "Okay, so if you're keeping score, we are 0 for 2 in the sort of tradition producing a policy change that actually stuck. But then, just over 10 years ago, there was major progress in Ireland.",
+   "ko": "자, 점수를 매겨보자면, 실제로 정착된 정책 변화를 이끌어낸 추첨 제도의 성적은 2전 전패입니다. 하지만 약 10년 전 아일랜드에서 큰 진전이 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2196.9,
+   "en": "Yes. This is rather astonishing. There are some deeply polarizing issues. What are we going to do about this issue of same-sex marriage?",
+   "ko": "네. 이것은 꽤 놀라운 일입니다. 몇 가지 깊이 양극화된 문제들이 있습니다. 동성 결혼 문제에 대해 어떻게 해야 할까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2204.7,
+   "en": "It's a scholarly Catholic country. Politicians didn't want to touch it, so they kicked the ball over to the sortition process.",
+   "ko": "그곳은 학구적인 가톨릭 국가입니다. 정치인들은 그 문제를 건드리고 싶어 하지 않았고, 그래서 공을 추첨 절차로 넘겼습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2212.0,
+   "en": "In this particular case, they set up a Citizens' Convention, which was lottery-seutted. And third of them were actually politicians, and two-thirds randomly-seutted.",
+   "ko": "이 특수한 사례에서 그들은 추첨으로 의석을 배정한 시민 의회를 구성했습니다. 그중 3분의 1은 실제 정치인이었고, 3분의 2는 무작위로 선정되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2221.2,
+   "en": "They proposed legalizing same-sex marriage. They proposed legalizing or they proposed a referendum that was voted on.",
+   "ko": "그들은 동성 결혼 합법화를 제안했습니다. 그리고 투표에 부쳐질 국민투표를 제안했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2227.7,
+   "en": "Well, they proposed that the Constitution incorporate that as a legal possibility. That went and the legislature, okay, we sent it to referendum and it passed with over 60 percent majority in the population.",
+   "ko": "음, 그들은 헌법에 그것을 법적 가능성으로 포함시킬 것을 제안했습니다. 그것은 입법부로 넘어갔고, '좋습니다, 국민투표에 부칩시다'라고 했으며 인구의 60% 이상의 찬성으로 통과되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2239.7,
+   "en": "Okay, that was in 2015 and then a similar thing happened with legalized abortion in Ireland. A couple of years later, politicians, we're not going to touch that. We'll let the sortition body look at it.",
+   "ko": "알겠습니다. 그것이 2015년의 일이었고, 몇 년 후 아일랜드에서 낙태 합법화와 관련하여 비슷한 일이 일어났습니다. 정치인들은 '우리는 그 문제를 건드리지 않겠습니다. 추첨 기구가 그것을 검토하게 합시다'라고 했죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2251.5,
+   "en": "It was all randomly selected, no politicians. A constitutional man had been put in banning abortion in Ireland. In questions, should we take that back out of the Constitution?",
+   "ko": "정치인 없이 모두 무작위로 선발되었습니다. 아일랜드에서 낙태를 금지하는 헌법 조항이 신설된 상태였습니다. 질문은 '헌법에서 그 조항을 다시 빼야 할까요?'였고,",
+   "speaker": "Host"
+  },
+  {
+   "start": 2260.8,
+   "en": "And they would pass, again, by a huge majority, saying yes, let's take that out. Ireland has by now used citizens' assemblies to deal with a variety of issues.",
+   "ko": "다시 한번 압도적인 다수가 '네, 뺍시다'라고 답하며 통과되었습니다. 아일랜드는 지금까지 여러 문제를 처리하기 위해 시민 의회를 활용해 왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2271.3,
+   "en": "Drug policy, climate change, whether to remove a constitutional ban on blasphemy. France also put together a citizens' convention on climate. it, 150 people chosen by lottery.",
+   "ko": "약물 정책, 기후 변화, 신성모독 금지 조항 제거 여부 등입니다. 프랑스 또한 추첨으로 선정된 150명으로 구성된 기후 시민 회의를 소집했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2285.7,
+   "en": "It was convened to be a sort of quasi-legislature because President Macron had said, I'll take your recommendations directly to a regulation, a referendum or a parliamentary vote.",
+   "ko": "마크롱 대통령이 '여러분의 권고안을 규제, 국민투표 또는 의회 표결로 직접 가져가겠다'고 말했기 때문에 일종의 준입법부로서 소집되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2297.5,
+   "en": "But in practice, it wasn't completely true because of course we have a constitution and citizens and some of these don't have legal status in the constitution.",
+   "ko": "하지만 실제로는 전적으로 사실이 아니었는데, 당연히 우리에게는 헌법이 있고 시민들과 그들 중 일부는 헌법상 법적 지위가 없기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2305.6,
+   "en": "You were in the Citizens Convention on Climate in France. You were what's called an official Yes. Yes. I was a researcher.",
+   "ko": "당신은 프랑스 기후 시민 회의에 참여하셨죠. 당신은 소위 공식적인... 예, 저는 연구원이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2313.3,
+   "en": "Did that citizens' convention on climate produce anything meaningful? I think so. One is it changed the conversation in the country about climate change.",
+   "ko": "그 기후 시민 회의가 의미 있는 결과를 냈나요? 그렇다고 생각합니다. 하나는 기후 변화에 대한 국가적 대화를 변화시켰다는 점입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2324.3,
+   "en": "It became common knowledge that this was a big issue and that we needed to do something about it. In a way that wasn't there before.",
+   "ko": "기후 변화가 중대한 사안이며 우리가 무언가를 해야 한다는 것이 상식이 되었습니다. 이전에는 없었던 방식이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2331.6,
+   "en": "It also helped the cause of citizens' assemblies in general because before most people hadn't heard of a citizen assembly, 9 months after its creation, something like 70% of the population knew what a citizen's assembly was, and about 2-3rd had a very positive opinion.",
+   "ko": "또한 이전에는 대부분의 사람들이 시민 의회에 대해 들어본 적이 없었기 때문에 시민 의회의 대의에도 도움이 되었습니다. 창설 9개월 만에 인구의 약 70%가 시민 의회를 알게 되었고, 약 3분의 2가 매우 긍정적인 의견을 가졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2348.2,
+   "en": "And now you might ask, okay, what about the content of the recommendation? Opinions vary widely.",
+   "ko": "이제 '좋아요, 권고안의 내용은 어떻습니까?'라고 물으실 수 있습니다. 의견은 매우 다양합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2353.1,
+   "en": "I'd say the public perception is that this convention didn't have much of an impact because a lot of the recommendations were diluted at the ministry level.",
+   "ko": "대중의 인식은 많은 권고안이 부처 수준에서 희석되었기 때문에 이 회의가 큰 영향력을 미치지 못했다는 것이라고 말할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2364.3,
+   "en": "But the government itself says that over 70% of the recommendations were implemented. Critiques on the left say that only 10% were implemented. I didn't try to measure it myself.",
+   "ko": "하지만 정부 측은 권고안의 70% 이상이 실행되었다고 말합니다. 좌파 비판론자들은 10%만 실행되었다고 말하죠. 제가 직접 측정해 보지는 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2376.6,
+   "en": "My sense is that when you read the 2021 climate and resilience bill, you can absolutely see the causal effect of the recommendation that came out of the assembly.",
+   "ko": "제 느낌으로는 2021년 기후 및 회복력 법안을 읽어보면 의회에서 나온 권고안의 인과 관계 효과를 분명히 확인할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2388.0,
+   "en": "The Citizens Convention on Climate made 149 proposals from taxing corporate dividends to banning advertising for highly polluting products.",
+   "ko": "기후 시민 회의는 기업 배당금 과세부터 오염 물질 배출이 심한 제품의 광고 금지에 이르기까지 149개의 제안을 내놓았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2398.6,
+   "en": "Macron initially advanced all but three of their proposals, the dividend tax, a lower highway speed limit, and a constitutional amendment that Macron said could have prioritized environmental protection over other rights.",
+   "ko": "마크롱은 처음에 배당세, 고속도로 속도 제한 하향, 그리고 마크롱이 다른 권리보다 환경 보호를 우선시할 수 있다고 말한 헌법 개정안을 제외한 나머지 세 가지 제안을 모두 추진했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2412.0,
+   "en": "And as Helene Landemore said, much of the rest got diluted at the ministry level. But the model of a citizen's assembly has held in France.",
+   "ko": "그리고 헬렌 랜데모어가 말했듯이, 나머지의 상당 부분은 부처 차원에서 희석되었습니다. 하지만 시민 의회 모델은 프랑스에서 유지되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2422.2,
+   "en": "A second convention on end-of-life care set the stage for an assisted dying law that France passed a few months ago.",
+   "ko": "생애 말기 돌봄에 관한 두 번째 회의는 프랑스가 몇 달 전에 통과시킨 조력 사망법의 토대를 마련했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2430.0,
+   "en": "By that time, Landemore was already helping bring the sortition mojo from her country of birth to her adopted home, specifically to Connecticut, where she lives and teaches.",
+   "ko": "그때쯤 랜데모어는 이미 태어난 나라의 추첨제 열기를 그녀가 살며 가르치는 제2의 고향인 코네티컷으로 가져오는 데 도움을 주고 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2440.8,
+   "en": "The Connecticut Citizens Assembly got started because of Danielle Cheeseborough, who is a former local politician in Connecticut.",
+   "ko": "코네티컷 시민 의회는 코네티컷의 전직 지역 정치인인 다니엘 치즈브로 덕분에 시작되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2449.9,
+   "en": "Now, I was put in charge of the design. Connecticut has the bizarre property of having its local public services, so schools and firemen and police and park management and all of that, funded only through the property tax, which has led to a lot of problems.",
+   "ko": "제가 설계를 맡게 되었는데, 코네티컷은 학교, 소방관, 경찰, 공원 관리 등 지역 공공 서비스 예산을 재산세로만 충당한다는 기이한 특성이 있어 많은 문제가 발생했습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2467.4,
+   "en": "So they thought, why don't we tackle that? It started the conversation between homeowners and renters, between people who live in poor towns and people who live in rich towns.",
+   "ko": "그래서 사람들은 '그 문제를 해결해 보는 게 어때?'라고 생각했습니다. 집주인과 세입자, 가난한 동네 사람들과 부유한 동네 사람들 사이의 대화가 시작되었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2477.4,
+   "en": "It included people who have no children and may think, why am I paying for the children of other people?",
+   "ko": "자녀가 없어서 '왜 내가 다른 사람들의 아이들을 위해 돈을 내야 하지?'라고 생각하는 사람들도 포함되었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2483.2,
+   "en": "This summer, around 100 randomly selected Connecticut residents convened to discuss reforms to the state's property tax system.",
+   "ko": "이번 여름, 무작위로 선정된 약 100명의 코네티컷 주민들이 주 재산세 제도 개편을 논의하기 위해 모였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2491.7,
+   "en": "They met over six weekends, some in person at the Omni New Haven Hotel and some online. Participation was voluntary.",
+   "ko": "그들은 6주 주말 동안 옴니 뉴헤이븐 호텔에서 대면으로, 또는 온라인으로 만났습니다. 참여는 자발적이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2500.4,
+   "en": "I asked Landemore where those 100 volunteers came from.",
+   "ko": "저는 랜데모어에게 그 100명의 자원봉사자들이 어디서 왔는지 물었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2504.2,
+   "en": "We send out 240,000 pieces of mail. It says we're organizing a Citizens' Assembly on property taxes. You're invited to join this assembly.",
+   "ko": "저희는 24만 통의 우편물을 보냅니다. 거기에는 재산세에 관한 시민 의회를 조직한다는 내용이 담겨 있습니다. 이 의회에 귀하를 초대한다는 내용이죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2513.9,
+   "en": "You're paid a certain amount for so many days.",
+   "ko": "며칠 동안 일정 금액을 지급받습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2516.7,
+   "en": "What are they paid?",
+   "ko": "얼마를 받나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2517.8,
+   "en": "It's $1,200 for the whole thing.",
+   "ko": "전체 과정에 1,200달러입니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2519.9,
+   "en": "Where do you get that money from?",
+   "ko": "그 돈은 어디서 나나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2521.6,
+   "en": "We raised it ourselves from individual donors.",
+   "ko": "개인 기부자들로부터 직접 모금했습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2524.4,
+   "en": "The Connecticut Citizens Assembly on property taxes just released their final report, a week before the midterm elections.",
+   "ko": "코네티컷 재산세 시민 의회는 중간 선거 일주일 전 최종 보고서를 발표했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2535.2,
+   "en": "At a press conference announcing their recommendations, several members of the assembly spoke about their experience. Here's Doris Gomez, a restaurant manager from Bridgeport.",
+   "ko": "권고안을 발표하는 기자 회견에서 몇몇 의회 위원들이 자신들의 경험에 대해 이야기했습니다. 브리지포트의 레스토랑 매니저인 도리스 고메즈입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2545.0,
+   "en": "What makes today's report fundamentally different from others in the past is who built it. This report was not drafted by politicians, lobbyists, or special interest groups.",
+   "ko": "오늘 보고서가 과거의 다른 보고서와 근본적으로 다른 점은 누가 만들었느냐 하는 것입니다. 이 보고서는 정치인, 로비스트, 특별 이익 단체가 작성한 것이 아닙니다.",
+   "speaker": "Doris Gomez"
+  },
+  {
+   "start": 2557.1,
+   "en": "This assembly was entirely citizen-led.",
+   "ko": "이 의회는 전적으로 시민들이 주도했습니다.",
+   "speaker": "Doris Gomez"
+  },
+  {
+   "start": 2560.5,
+   "en": "And here's Carly Tuthill, who lives in Northfield, Connecticut, and works for a nonprofit.",
+   "ko": "코네티컷 노스필드에 거주하며 비영리 단체에서 일하는 칼리 터딜입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2565.8,
+   "en": "The process itself, for me, was so empowering. We started in small groups, came up with a couple things, put them on sticky notes.",
+   "ko": "제게 그 과정 자체는 매우 고무적이었습니다. 우리는 소그룹으로 시작해서 몇 가지 사항을 생각해 내어 접착식 메모지에 적었습니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 2574.8,
+   "en": "If you could see the sticky notes that we had all through this massive ballroom, and then we would go and we would vote.",
+   "ko": "대연회장 곳곳에 붙어 있는 접착식 메모지들을 보셨어야 했는데, 그러고 나서 우리는 가서 투표를 하곤 했습니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 2582.0,
+   "en": "So, the assembly required a two-thirds majority to approve each of the final ten recommendations.",
+   "ko": "그래서 의회는 최종 10개 권고안 각각을 승인하기 위해 3분의 2 이상의 찬성이 필요했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2589.2,
+   "en": "Many are common sense recommendations, pushing the state to share services between towns, setting more predictable timelines around rulemaking.",
+   "ko": "마을 간 서비스 공유를 주 정부에 촉구하고, 규칙 제정에 관한 예측 가능한 일정을 설정하는 등 상식적인 권고안이 많습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2599.5,
+   "en": "One of their more controversial recommendations was a tax increase on all income over $1 million a year.",
+   "ko": "더 논란이 된 권고안 중 하나는 연간 100만 달러 이상의 모든 소득에 대한 세금 인상이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2606.0,
+   "en": "I am not a millionaire, so it's interesting to see kind of how people feel about this. There was definitely a lot of conversation around, okay, wealth or income, wealth or income.",
+   "ko": "전 백만장자가 아니라서 사람들이 이에 대해 어떻게 느끼는지 보는 게 흥미로워요. 부냐 소득이냐, 부냐 소득이냐를 두고 분명히 많은 대화가 오갔습니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 2616.2,
+   "en": "And there were some good points brought up that I know I didn't personally consider.",
+   "ko": "그리고 제가 개인적으로 고려하지 못했던 좋은 의견들도 많이 나왔습니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 2620.1,
+   "en": "We do recommend that income tax is advised here rather than a wealth tax in order to avoid disproportionately impacting other residents such as farmers who might have high-valued farmland, small business owners, and those saving for retirement.",
+   "ko": "고가 농지를 소유한 농부나 자영업자, 은퇴 자금을 저축하는 사람들 같은 주민들에게 불균형적인 영향을 주지 않기 위해 부유세보다는 소득세를 권고합니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 2636.4,
+   "en": "All of these recommendations are just that, non-binding recommendations.",
+   "ko": "이 모든 권고안은 구속력이 없는 권고안일 뿐입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2640.5,
+   "en": "Now they get passed on to state legislators for consideration. And the Connecticut Citizens' Assembly on Property Taxes has been disbanded.",
+   "ko": "이제 이 안건들은 주 의원들에게 전달되어 검토될 것입니다. 그리고 코네티컷 재산세 시민 의회는 해산되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2650.4,
+   "en": "Assembly member Elliot Weiler, a media executive from Westport, is cautiously optimistic about what happens next.",
+   "ko": "웨스트포트의 미디어 임원이자 의회 위원인 엘리엇 와일러는 앞으로 일어날 일에 대해 조심스럽게 낙관하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2657.9,
+   "en": "These are sort of recommendations that we are hoping the legislature will take up. I'm not sure that any of us realistically think that all of these will necessarily pass muster.",
+   "ko": "이것들은 주 의회가 채택하기를 바라는 권고안들입니다. 우리 중 누구도 현실적으로 이 모든 것이 반드시 통과될 것이라고 생각하지는 않습니다.",
+   "speaker": "Elliot Weiler"
+  },
+  {
+   "start": 2668.7,
+   "en": "I think a victory might be if several of them do. It's kind of hard to ignore 100 of your fellow citizens drawn from a cross-section of the state.",
+   "ko": "그중 몇 가지만이라도 통과된다면 승리라고 생각합니다. 주 전역에서 뽑힌 100명의 동료 시민들을 무시하기는 쉽지 않을 것입니다.",
+   "speaker": "Elliot Weiler"
+  },
+  {
+   "start": 2682.3,
+   "en": "It's too early to tell what policy changes might come out of the Connecticut Citizens' Assembly. Helene Landemore is already looking forward to more Citizens' assemblies.",
+   "ko": "코네티컷 시민 의회에서 어떤 정책 변화가 나올지 판단하기에는 아직 이릅니다. 헬렌 랜데모어는 이미 더 많은 시민 의회를 기대하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2692.7,
+   "en": "Ideally, this would be mandatory. You would have options to get out of it, but at least the default would be you were expected to do it.",
+   "ko": "이상적으로는 이것이 의무적이어야 합니다. 빠질 수 있는 옵션은 있겠지만, 최소한 기본적으로는 참여가 기대되는 것이죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2699.4,
+   "en": "It's an honor and it's a duty. Like jury duty.",
+   "ko": "그것은 영광이자 의무입니다. 배심원 의무처럼요.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2702.2,
+   "en": "When is the last time you served on a jury? And what was your experience?",
+   "ko": "마지막으로 배심원으로 봉사하신 게 언제인가요? 그리고 경험은 어떠셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2706.2,
+   "en": "Oh, my goodness. So I have a horrible confession to make because I was called for jury duty literally on the day I was supposed to attend a fundraising Zoom call that was painted to me as very important to raise money for our assemblies.",
+   "ko": "세상에나. 정말 끔찍한 고백을 해야겠네요. 왜냐하면 우리 의회를 위한 자금을 모으는 매우 중요한 모금 줌 회의에 참석하기로 했던 바로 그날 배심원 의무 소환을 받았거든요.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2720.9,
+   "en": "So I didn't go. I felt really bad, but I didn't go.",
+   "ko": "그래서 가지 않았습니다. 정말 기분이 안 좋았지만, 가지 않았어요.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2723.9,
+   "en": "So wait a minute. Wait a minute. Wait a minute. You're promoting a system that drafts everyday citizens into the deliberative governing system in a jury duty-style way, and yet you—",
+   "ko": "잠시만요. 잠깐만요. 일반 시민들을 배심원 의무 방식으로 심의 거버넌스 시스템에 징집하는 시스템을 홍보하시면서, 정작 본인은—",
+   "speaker": "Host"
+  },
+  {
+   "start": 2734.6,
+   "en": "I know, but you know, people are fallible. And also I have to say, I think the jury duty system as it currently organizes is very deficient.",
+   "ko": "알아요, 하지만 아시다시피 사람은 실수를 하잖아요. 그리고 지금의 배심원 의무 시스템은 매우 결함이 많다고 생각합니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2741.3,
+   "en": "Like my husband also was called into one and he said he was made to wait four hours, with no explanation.",
+   "ko": "제 남편도 소환된 적이 있는데, 아무런 설명도 없이 4시간 동안 기다려야 했다고 하더군요.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2748.2,
+   "en": "I think what we're trying to do is different. We're supposed to take people's time very seriously. We would treat them better than the country system does.",
+   "ko": "우리가 하려는 일은 다르다고 생각합니다. 우리는 사람들의 시간을 매우 소중하게 여겨야 합니다. 현재의 시스템보다 그들을 더 잘 대우할 것입니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2755.5,
+   "en": "It's really not respectful of people's time.",
+   "ko": "현재 시스템은 사람들의 시간을 정말 존중하지 않아요.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2762.7,
+   "en": "Coming up after the break, is it okay to want the impossible? I'm Stephen Dubner. This is Freakonomics Radio. We'll be right back.",
+   "ko": "잠시 후, 불가능을 바라는 것이 괜찮은지에 대해 알아봅니다. 저는 스티븐 더브너입니다. 여기는 프리코노믹스 라디오입니다. 금방 돌아오겠습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2782.4,
+   "en": "Let me take you back to that essay question that you wanted to answer a long time ago, which was, can you want the impossible?",
+   "ko": "오래전에 답하고 싶어 하셨던 에세이 질문으로 돌아가 보죠. 바로 '불가능을 원할 수 있는가?'였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2788.5,
+   "en": "Just imagine for a moment that your definition of the impossible is a series of citizens' assemblies across the United States that essentially replaces Congress. Is that an impossible dream that you could get behind?",
+   "ko": "당신이 정의하는 불가능이 미국 전역에서 본질적으로 의회를 대체하는 일련의 시민 의회라고 상상해 보십시오. 그것이 당신이 지지할 수 있는 불가능한 꿈인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2803.0,
+   "en": "Yes, I would say you'd still need a centralizing one. You would have a legislature made of randomly selected people in Washington instead of Congress.",
+   "ko": "네, 여전히 중앙 집중적인 기구는 필요할 것이라고 말씀드리고 싶습니다. 의회 대신 워싱턴에 무작위로 선정된 사람들로 구성된 입법부를 두는 것이죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2810.6,
+   "en": "And then you would have, at the state level, the same sort of body to represent the local interests. And then you'd have to figure out how they connect and work together.",
+   "ko": "그리고 주 차원에서도 지역 이익을 대변할 수 있는 동일한 종류의 기구를 두는 것입니다. 그러고 나서 그들이 어떻게 연결되고 함께 일할지 파악해야겠죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2821.7,
+   "en": "How do you decide what's put on the agenda?",
+   "ko": "의제에 무엇을 올릴지는 어떻게 결정하나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2824.5,
+   "en": "My view is that there shouldn't be an agenda fixed for these people, actually.",
+   "ko": "사실 제 생각에는 이 사람들에게 고정된 의제가 있어서는 안 된다고 봅니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2828.7,
+   "en": "The way we run citizens' assemblies currently is that the existing power structures give them one topic, and that's it.",
+   "ko": "현재 시민 의회를 운영하는 방식은 기존 권력 구조가 그들에게 한 가지 주제를 주는 것이 전부입니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2835.1,
+   "en": "But if we're going to do it the way the Greeks did it, which is with the central agenda-setting assembly, there's no agenda that they don't choose.",
+   "ko": "하지만 고대 그리스인들이 했던 것처럼 중앙 의제 설정 의회를 통해 한다면, 그들이 직접 선택하지 않은 의제는 없게 됩니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2842.2,
+   "en": "There's a way in which they need to look past the walls of that one assembly. That's where it gets very speculative.",
+   "ko": "그들이 그 하나의 의회라는 담장 너머를 바라봐야 할 필요가 있습니다. 그 지점부터는 매우 추측에 의존하게 됩니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 2852.7,
+   "en": "That is the nature of an impossible idea. It requires speculation.",
+   "ko": "그것이 바로 불가능한 아이디어의 본질입니다. 추측이 필요하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2857.8,
+   "en": "Terry Bouricius has also done some speculating as to what government by a sort of sortition might look like in the U.S.",
+   "ko": "테리 부리시우스 또한 미국에서 추첨제 정부가 어떤 모습일지에 대해 몇 가지 추측을 내놓았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2864.5,
+   "en": "Here's the key thing: it does not work to simply replace elected legislators in a legislature with randomly selected people.",
+   "ko": "핵심은 이것입니다. 입법부의 선출직 의원들을 단순히 무작위로 선정된 사람들로 교체하는 것만으로는 작동하지 않습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2872.8,
+   "en": "You need an entirely new architecture of government because you need a large number of assemblies. Many of them would be single issue.",
+   "ko": "수많은 의회가 필요하기 때문에 완전히 새로운 정부 구조가 필요합니다. 그중 많은 의회는 단일 사안을 다루게 될 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2880.6,
+   "en": "Like this assembly is reviewing all proposals having to do with housing. They're not dealing with the military, and there would be also probably some body that's only dealing with agenda.",
+   "ko": "예를 들어, 이 의회는 주택과 관련된 모든 제안을 검토합니다. 군사 문제는 다루지 않죠. 그리고 아마 의제만을 다루는 기구도 있을 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2890.6,
+   "en": "Like, these are the problems we have in this country that have to be dealt with in the next two years.",
+   "ko": "예를 들어, '이것들은 향후 2년 내에 해결해야 할 이 나라의 문제들입니다'라고 하는 것이죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2895.3,
+   "en": "We want anybody in the country to give us ideas, solutions to these list of problems that we have concluded after a lot of study and a lot of testimony.",
+   "ko": "많은 연구와 증언 끝에 결론을 내린 이 문제 목록에 대해 나라 안의 누구든 아이디어와 해결책을 제시해 주기를 원합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2903.3,
+   "en": "These are the agenda items for the next term.",
+   "ko": "이것들이 다음 임기의 의제 항목이 됩니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2905.2,
+   "en": "So the agenda councils, as you've described, are literally deciding what is on the agenda to be explored, correct?",
+   "ko": "그렇다면 말씀하신 의제 위원회는 말 그대로 탐구할 의제에 무엇을 올릴지 결정하는 것이군요, 맞습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2914.0,
+   "en": "Right. Okay. Then they may gather some information from the public and elsewhere.",
+   "ko": "맞습니다. 좋습니다. 그런 다음 그들은 대중이나 다른 곳에서 정보를 수집할 수 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2918.3,
+   "en": "Well, let's take it at a state level. Maybe once a year they would convene a large panel that would be the agenda body; they might meet for—making up a time here—three months.",
+   "ko": "주 차원에서 생각해 보죠. 아마 1년에 한 번 대규모 패널을 소집하여 의제 기구를 구성할 것입니다. 그들은 기간을 정해두고, 예를 들어 3개월 동안 모일 수 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2927.4,
+   "en": "They listen to a whole raft of witnesses come and say, 'We really need to do something about land management. We really need to do something about transportation.'",
+   "ko": "그들은 수많은 증인이 와서 '토지 관리에 대해 무언가 조치를 취해야 합니다. 교통 문제에 대해 무언가 조치를 취해야 합니다'라고 말하는 것을 듣습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2936.2,
+   "en": "They get all these in and say, 'All right, the legislature or the governing body, whoever, can't deal with all these issues this year. What are the priorities?'",
+   "ko": "그들은 이 모든 것을 접수한 뒤 '좋습니다, 입법부나 거버넌스 기구가 올해 이 모든 문제를 다룰 수는 없습니다. 우선순위는 무엇입니까?'라고 묻습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2943.4,
+   "en": "And then all that goes to—oh, I call a review panel. I use housing as an example. It would go to the housing review panel.",
+   "ko": "그러면 그 모든 것이 제가 '검토 패널'이라고 부르는 곳으로 갑니다. 주택을 예로 들면, 주택 검토 패널로 가는 것이죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2949.9,
+   "en": "And the housing review panel would take all this input on the agenda item that was selected, and they would craft a final bill from all the input they had.",
+   "ko": "그리고 주택 검토 패널은 선정된 의제 항목에 대한 이 모든 의견을 수렴하여, 받은 모든 의견을 토대로 최종 법안을 작성합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2959.6,
+   "en": "That review body might continue for several years to develop a certain level of expertise.",
+   "ko": "그 검토 기구는 일정 수준의 전문성을 쌓기 위해 수년 동안 지속될 수도 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2966.5,
+   "en": "But the key thing is, if they serve for many years, they may become less and less like the population. Therefore, they have no final say about anything. All they're doing is preparing bills.",
+   "ko": "하지만 핵심은 그들이 수년 동안 봉사하면 점점 일반 인구와는 달라질 수 있다는 점입니다. 따라서 그들은 어떤 것에 대해서도 최종 결정권이 없습니다. 그들이 하는 일은 법안을 준비하는 것뿐입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2978.8,
+   "en": "They have staff. They're not adopting anything. Like with politicians and an elected legislature, it's like they have passed a law; they stick with it.",
+   "ko": "그들에게는 스태프가 있습니다. 그들은 아무것도 채택하지 않습니다. 정치인들과 선출된 입법부의 경우, 법을 통과시키면 그것을 고수하는 것과 대조적이죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2986.3,
+   "en": "All the researchers say, 'It's a total failure. It's not working. It's not working.' But politicians don't want to admit that something that they did isn't working. So they stick with it. They put more money into it.",
+   "ko": "모든 연구자가 '완전한 실패다. 제대로 작동하지 않는다'라고 말해도, 정치인들은 자신들이 한 일이 작동하지 않는다는 것을 인정하고 싶어 하지 않습니다. 그래서 그것을 고수하고 더 많은 돈을 쏟아붓습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 2994.4,
+   "en": "So the review panel takes the item from the agenda council. They draft the bill and they submit it to what you call a policy jury.",
+   "ko": "그러니까 검토 패널이 의제 위원회로부터 항목을 받아 법안을 작성하고, 그것을 당신이 말하는 '정책 배심원단'에 제출하는 것이군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3002.7,
+   "en": "These policy juries would be how large?",
+   "ko": "이 정책 배심원단은 규모가 어느 정도나 되나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3005.8,
+   "en": "They'd be quite large because they have to be statistically reliably representative.",
+   "ko": "통계적으로 신뢰할 수 있는 대표성을 가져야 하므로 꽤 클 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3009.6,
+   "en": "So a thousand people, maybe?",
+   "ko": "아마 1,000명 정도인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3011.2,
+   "en": "It depends whether you're talking about a federal or a county or a municipal level, but it would be much larger than a review panel.",
+   "ko": "연방 수준인지, 카운티나 지자체 수준인지에 따라 다르겠지만, 검토 패널보다는 훨씬 클 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3016.7,
+   "en": "So on a state level, maybe it's 500 people. The point is they're only going to serve for maybe a week or even less.",
+   "ko": "주 차원에서는 아마 500명 정도일 것입니다. 핵심은 그들이 아마 일주일이나 그보다 짧은 기간 동안만 봉사한다는 점입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3025.0,
+   "en": "So the policy juries actually vote and their vote is binding, correct?",
+   "ko": "그러면 정책 배심원단이 실제로 투표를 하고 그 투표는 구속력이 있는 것이군요, 맞습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3029.2,
+   "en": "Yes, that's my idea, is that it would become binding.",
+   "ko": "네, 제 생각은 그것에 구속력을 갖게 하자는 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3032.3,
+   "en": "Then you've got something called rules and oversight councils. What do those do?",
+   "ko": "그다음에는 '규칙 및 감독 위원회'라는 것이 있는데, 그것들은 무엇을 하나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3036.4,
+   "en": "Well, my idea is that you want this to be a self-perfecting system.",
+   "ko": "제 생각은 이 시스템이 스스로 완벽해지는 시스템이 되기를 바라는 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3040.1,
+   "en": "So you'd have a rules body that's selected by lottery that would have staff that knows all about organizational structure, and they would adopt rules for all the other bodies.",
+   "ko": "그래서 추첨으로 선정되고 조직 구조에 대해 잘 아는 스태프를 둔 규칙 기구가 있을 것이고, 그들이 다른 모든 기구를 위한 규칙을 채택할 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3048.7,
+   "en": "Like, how many times can one person speak before another person gets to speak, and how many minutes do they get, and what is their salary?",
+   "ko": "예를 들어, 다른 사람이 말하기 전에 한 사람이 몇 번이나 말할 수 있는지, 몇 분 동안 말할 수 있는지, 그리고 그들의 급여는 얼마인지 같은 것들 말이죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3055.7,
+   "en": "So they would constantly be fixing and improving the system. That's the rules body.",
+   "ko": "그렇게 함으로써 끊임없이 시스템을 수정하고 개선하는 것입니다. 그것이 규칙 기구입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3060.3,
+   "en": "So you need the quasi-mandatory function here, yeah? Like jury duty.",
+   "ko": "그러면 배심원 의무처럼 준강제적인 기능이 필요하겠군요, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3065.0,
+   "en": "Whenever I talk about jury duty, the problem in the United States is that lawyers excuse people from the jury. So it's not really random anymore.",
+   "ko": "배심원 의무에 관해 이야기할 때마다 미국의 문제는 변호사들이 배심원에서 사람들을 제외한다는 것입니다. 그래서 더 이상 정말 무작위가 아니게 되죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3070.2,
+   "en": "The jury pool is random, but our jury process in the United States is distorted by history to make it so that each lawyer is trying to create as biased a body as possible.",
+   "ko": "배심원 풀은 무작위이지만, 미국의 배심원 선정 과정은 역사적으로 왜곡되어 각 변호사가 가능한 한 편향된 집단을 만들려고 노력합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3080.7,
+   "en": "Are you trying to undistort that process in this case? So anybody can serve.",
+   "ko": "이번 경우에는 그 과정을 왜곡되지 않게 해서 누구나 참여할 수 있게 하려는 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3085.8,
+   "en": "Yes. And so I have an equal chance to serve, but you might do some stratified sampling to make sure it's representative.",
+   "ko": "네. 그래서 누구나 참여할 기회를 동등하게 갖게 하되, 대표성을 확보하기 위해 층화 추출법을 사용할 수도 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3091.1,
+   "en": "You can't do it 100%. Like if there's a religious minority already that says it's too worldly to serve in government.",
+   "ko": "100% 완벽하게 할 수는 없습니다. 예를 들어, 정부에서 일하는 것이 너무 세속적이라고 말하는 종교적 소수 집단이 있는 경우처럼요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3097.7,
+   "en": "We all refuse; no one from our church will ever serve. You can't really work around that one, but by and large, it's more representative than any elected legislature in world history.",
+   "ko": "그들은 '우리는 모두 거부합니다. 우리 교회 사람 중 누구도 봉사하지 않을 것입니다'라고 하겠죠. 그런 경우는 어쩔 수 없지만, 대체로 세계 역사상 어떤 선출직 입법부보다 더 대표성이 높습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3106.6,
+   "en": "If I work in D.C. and if I work in, let's say, an agency as a civil servant, not as an elected official, I'm saying, 'Well, you know, this is what we do.'",
+   "ko": "만약 제가 워싱턴 D.C.의 기관에서 선출직 공무원이 아닌 일반 공무원으로 일한다고 가정해 봅시다. 저는 '음, 아시다시피 이게 우리가 하는 일입니다'라고 말하겠죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3114.5,
+   "en": "We do research. We understand policy. We look at academic research. We look at our past legislative moves and so on.",
+   "ko": "우리는 연구를 합니다. 정책을 이해하고요. 학술 연구를 검토하고 과거의 입법 조치 등을 살핍니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3121.9,
+   "en": "We try to determine what's been useful, what's been not, why things have failed and so on. Are you replacing essentially the institutional civil service that now exists?",
+   "ko": "무엇이 유용했고 무엇이 그렇지 않았는지, 왜 실패했는지 등을 판단하려고 노력하죠. 당신은 본질적으로 현재 존재하는 제도권 공무원 조직을 대체하려는 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3131.6,
+   "en": "No, quite the opposite. The idea is they would be reporting to and overseen by a review body that would give them direction of what kinds of things to do.",
+   "ko": "아니요, 오히려 정반대입니다. 그들이 검토 기구에 보고하고 감독을 받으며, 어떤 종류의 일을 해야 할지 지침을 받는다는 개념입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3139.2,
+   "en": "People have this idea that politicians, like representatives, are experts in lawmaking, and they absolutely are not.",
+   "ko": "사람들은 하원의원 같은 정치인들이 입법 전문가라는 생각을 가지고 있는데, 그들은 절대 그렇지 않습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3144.7,
+   "en": "They're experts at winning elections; all of the research, all of the drafting is done by staff. Politicians don't do any of that.",
+   "ko": "그들은 선거에서 이기는 전문가들입니다. 모든 연구와 모든 초안 작성은 스태프들이 합니다. 정치인들은 그런 일을 전혀 하지 않아요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3152.4,
+   "en": "Ted Kennedy in his biography said 95 percent of all lawmaking is done by staff, and the sortition body would be like that too.",
+   "ko": "테드 케네디는 자서전에서 모든 입법의 95%가 스태프에 의해 이루어진다고 말했는데, 추첨제 기구도 그와 같을 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3159.0,
+   "en": "But rather than being accountable to elected politicians—narcissists and psychopaths—they'd be responsible to a jury-kind of review body.",
+   "ko": "하지만 선출된 정치인들, 즉 자기애주의자들과 사이코패스들에게 책임을 지는 대신, 배심원 형태의 검토 기구에 책임을 지게 될 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3166.3,
+   "en": "I appreciate the logic of that. I also think it sounds like it could create a bureaucratic maze that makes Congress look like walking into a convenience store and buying soda.",
+   "ko": "그 논리는 이해합니다. 하지만 의회가 편의점에 들어가서 음료수를 사는 것처럼 보일 정도로 복잡한 관료적 미로를 만들 수도 있을 것 같다는 생각도 드네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3177.9,
+   "en": "In other words, just because you've rid your process of what you call the narcissists and the psychopaths, doesn't mean that you don't have potentially, I guess what sounds like chaos to me.",
+   "ko": "다시 말해, 당신이 말하는 자기애주의자와 사이코패스들을 과정에서 제거했다고 해서, 제가 보기엔 혼란처럼 들리는 잠재적인 문제가 생기지 않는다는 뜻은 아닙니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3189.4,
+   "en": "Well, here's the thing. It is complicated trying to describe it, but it's like they all are supporting each other in a way.",
+   "ko": "글쎄요, 이런 겁니다. 설명하기는 복잡하지만, 어떤 면에서 그들은 모두 서로를 지탱하고 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3195.8,
+   "en": "The rules have to be made by a body that is not then using the rules.",
+   "ko": "규칙은 그 규칙을 직접 사용하지 않는 기구에 의해 만들어져야 합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3200.4,
+   "en": "So that veil of ignorance—if you don't know what the policy issue is going to be, you don't know who's going to be there, you have every incentive to make the best possible rules.",
+   "ko": "그런 무지의 베일 속에서, 정책 이슈가 무엇이 될지 모르고 누가 그 자리에 있게 될지 모른다면, 가능한 한 최고의 규칙을 만들 동기가 생기게 됩니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3209.3,
+   "en": "So if I were to ask you to do a pre-mortem on sortition as a means of governance at state or federal level, whatever, if it were to fail, why would it fail?",
+   "ko": "주 차원이든 연방 차원이든 통치 수단으로서의 추첨제에 대해 사전 분석을 요청한다면, 만약 그것이 실패한다면 그 이유는 무엇일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3220.4,
+   "en": "Well, there's several things to worry about. There's been over a thousand sortition bodies convened around the world, but the vast majority of them have been advisory.",
+   "ko": "글쎄요, 걱정되는 부분이 몇 가지 있습니다. 전 세계적으로 1,000개 이상의 추첨제 기구가 소집되었지만, 그 대다수는 자문 기구였습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3230.3,
+   "en": "The right of proposal that goes to the city council or goes to the national legislature. No one has an incentive to worry about bribing them or corrupting them.",
+   "ko": "시의회나 국가 입법부에 제출되는 제안권만 있다면, 아무도 그들을 매수하거나 부패하게 만들 동기가 없습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3240.2,
+   "en": "Now if they were making real decisions, suddenly you might have to have a whole new wall around them.",
+   "ko": "하지만 그들이 실제로 결정을 내리게 된다면, 갑자기 그들 주위에 완전히 새로운 벽을 세워야 할 수도 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3246.3,
+   "en": "If you have no candidates to throw money at in elections, lobbyists and billionaires lose that leverage, but they still have money.",
+   "ko": "선거에서 돈을 쏟아부을 후보가 없다면 로비스트와 억만장자들은 그 영향력을 잃겠지만, 그들은 여전히 돈을 가지고 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3255.1,
+   "en": "So maybe they'll just flood the airwaves with ads to make sure that everybody in the country understands why we need to build a lot of AI data centers.",
+   "ko": "그래서 왜 우리가 수많은 AI 데이터 센터를 지어야 하는지 전국 모든 사람이 이해하도록 방송에 광고를 쏟아부을지도 모릅니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3264.6,
+   "en": "So maybe you'd have to say, 'You know what? We need to stop political advertising like that too.'",
+   "ko": "그러면 이렇게 말해야 할지도 모르죠. '있잖아요, 우리는 그런 정치 광고도 중단시켜야 합니다.'",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3271.1,
+   "en": "How do you hold a Citizens' Assembly accountable, let's say, for what looks to be in retrospect like a genuinely bad decision?",
+   "ko": "지나고 보니 정말 잘못된 결정으로 보이는 것에 대해 시민 의회에 어떻게 책임을 물을 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3279.0,
+   "en": "If a sortition body voted to repeal the First Amendment, let's say, what happens then?",
+   "ko": "예를 들어, 추첨제 기구가 수정헌법 제1조를 폐지하기로 의결한다면 어떻게 됩니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3284.9,
+   "en": "Well, here's the thing. There's two aspects of accountability.",
+   "ko": "글쎄요, 여기에는 책임의 두 가지 측면이 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3287.5,
+   "en": "If the agent and the body of representatives has a different set of interests or is not like the people, you have to hold them to account. You make sure that they do the right thing.",
+   "ko": "대리인과 대표 기구가 다른 이해관계를 가지고 있거나 국민과 닮지 않았다면, 그들에게 책임을 물어야 합니다. 그들이 옳은 일을 하도록 확실히 해야 하죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3299.4,
+   "en": "And the only punishment we have is, 'We're not going to let you continue doing it. We're going to vote you out of office.'",
+   "ko": "그리고 우리가 가진 유일한 벌은 '더 이상 그 일을 하게 두지 않겠다. 투표로 당신을 쫓아내겠다'는 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3304.0,
+   "en": "But with a sortition body, that completely goes away because they are representative.",
+   "ko": "하지만 추첨제 기구의 경우 그들은 대표성을 띠기 때문에 그런 문제가 완전히 사라집니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3309.1,
+   "en": "They're a random sample of the people who think, reason, and experience the world like the population.",
+   "ko": "그들은 일반 국민들처럼 생각하고 추론하며 세상을 경험하는 사람들의 무작위 표본입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3316.2,
+   "en": "The only difference is they then study and learn and gather information. They will sometimes make bad decisions.",
+   "ko": "유일한 차이점은 그들이 공부하고 배우고 정보를 수집한다는 것입니다. 그들도 때로는 잘못된 결정을 내릴 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3323.4,
+   "en": "If they make a bad decision, the next jury that comes in to deal with that issue, they have no vested interest in maintaining it.",
+   "ko": "그들이 잘못된 결정을 내린다면, 그 문제를 다루기 위해 들어오는 다음 배심원단은 그것을 유지하는 데 아무런 기득권이 없습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3330.7,
+   "en": "They're not politicians who say, 'Well, I have to defend my record. I have to stick to my guns on this issue.'",
+   "ko": "그들은 '음, 내 기록을 방어해야 해. 이 문제에 대해 내 고집을 꺾지 말아야 해'라고 말하는 정치인이 아닙니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3336.5,
+   "en": "No, they're perfectly willing to say, 'No, those guys were jerks.'",
+   "ko": "아니요, 그들은 기꺼이 '아니, 저 친구들은 멍청이들이었어'라고 말할 수 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3339.9,
+   "en": "In a sortition government, let's say it's at the federal level—pick your time: 10, 20, 50 years from now—the Terry Bouricius dream is real.",
+   "ko": "연방 수준의 추첨제 정부에서, 예를 들어 지금으로부터 10년, 20년, 50년 후를 가정해 봅시다. 테리 부리시우스의 꿈이 현실이 된 것이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3349.4,
+   "en": "How do these different bodies—the agenda councils, review panels, policy juries, rules and oversight councils—how do they interact with current government institutions?",
+   "ko": "의제 위원회, 검토 패널, 정책 배심원단, 규칙 및 감독 위원회와 같은 이 다양한 기구들이 현재의 정부 기관들과 어떻게 상호작용하나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3360.0,
+   "en": "like Department of State, Defense, HHS, et cetera?",
+   "ko": ""
+  },
+  {
+   "start": 3363.2,
+   "en": "Well, the executive branch has to be completely changed as well. The executive branch must be an administrative executive, not a policy executive.",
+   "ko": "음, 행정부도 완전히 바뀌어야 합니다. 행정부는 정책 집행자가 아니라 관리 집행자가 되어야 합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3372.6,
+   "en": "There's no logical reason to have an executive have anything to do with policy creation. They can propose things.",
+   "ko": "행정부가 정책 수립과 관련이 있어야 할 논리적인 이유는 없습니다. 그들은 제안을 할 수는 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3380.1,
+   "en": "Would there still be a president?",
+   "ko": "여전히 대통령이 존재할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3381.5,
+   "en": "My notion is no. I mean, there are mayors in the country that basically cut ribbons and they kiss babies, but they don't have a policy role.",
+   "ko": "제 생각은 아니오입니다. 기본적으로 테이프를 끊고 아기들에게 입을 맞추는 일은 하지만 정책적 역할은 없는 시장들도 이 나라에 있잖아요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3390.9,
+   "en": "And you could have a president that's like that, I guess, but whether it's Roosevelt or Trump, they took on far more power than any previous president.",
+   "ko": "그런 대통령을 둘 수도 있겠지만, 루스벨트든 트럼프든 그들은 이전의 어떤 대통령보다 훨씬 더 많은 권력을 가졌습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3400.9,
+   "en": "And my fear is just the title itself in the history of the office. Historians talk about the imperial presidency and so on because that's just a very dangerous path.",
+   "ko": "제 두려움은 그 직함 자체와 그 직함이 가진 역사에 있습니다. 역사가들이 제왕적 대통령제 등을 이야기하는 이유는 그것이 매우 위험한 길이기 때문입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3410.1,
+   "en": "It just ends in authoritarianism no matter what.",
+   "ko": "그것은 결국 무엇이든 독재로 끝납니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3413.1,
+   "en": "So, Terry, how would you describe your own politics these days?",
+   "ko": "그럼 테리, 요즘 본인의 정치 성향을 어떻게 설명하시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3417.1,
+   "en": "I nowadays try not to describe it because I've talked about sortition to very right-wing and libertarian organizations, and they're nodding their heads.",
+   "ko": "요즘은 설명하지 않으려 노력합니다. 매우 우파적이고 자유주의적인 단체들에서 추첨제에 대해 이야기했는데, 그들도 고개를 끄덕이더군요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3428.6,
+   "en": "And I think that sortition is a nonpartisan issue, I think.",
+   "ko": "제 생각에 추첨제는 비정파적인 사안입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3433.4,
+   "en": "We all tend to think if we could just get a room full of ordinary people and explain to them what we know and the facts that we've uncovered, they'd agree with me.",
+   "ko": "우리는 모두 평범한 사람들로 가득 찬 방에서 우리가 아는 것과 우리가 밝혀낸 사실들을 설명하면 그들이 내 의견에 동의할 것이라고 생각하는 경향이 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3442.7,
+   "en": "And whether you're a Trumper or a socialist or a Christian nationalist, there's this attitude that ordinary people would agree with me.",
+   "ko": "트럼프 지지자든 사회주의자든 기독교 민족주의자든, 보통 사람들은 내 의견에 동의할 것이라는 태도가 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3450.2,
+   "en": "And therefore, sortition has this potential to be nonpartisan for a long time.",
+   "ko": "따라서 추첨제는 오랫동안 비정파적으로 남을 수 있는 잠재력이 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3455.6,
+   "en": "At some point, once sortition bodies are actually doing things, people say, 'Oh, wait, the population doesn't agree with me. Oh, I don't like this.'",
+   "ko": "어느 시점에 추첨제 기구가 실제로 일을 하기 시작하면 사람들은 '오, 잠깐만, 사람들이 내 의견에 동의하지 않네. 아, 이거 마음에 안 들어'라고 말하겠죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3463.1,
+   "en": "So, okay, the full answer is: my politics are extreme left, but sortition is not.",
+   "ko": "그러니까, 솔직한 대답은 제 정치 성향은 극좌파지만, 추첨제는 그렇지 않다는 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3469.6,
+   "en": "So what are you proposing exactly? Is it an experiment or three? Is it an electoral revolution, a clean reset?",
+   "ko": "정확히 무엇을 제안하시는 건가요? 한두 번의 실험인가요? 아니면 선거 혁명이나 대대적인 재설정인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3478.1,
+   "en": "The first step is doing what they've done throughout the world. If you are a well-read person in France or Denmark or Germany or the U.K., you know all about sortition.",
+   "ko": "첫 번째 단계는 전 세계적으로 그들이 해온 일을 하는 것입니다. 프랑스나 덴마크, 독일, 영국에서 교양 있는 사람이라면 추첨제에 대해 잘 알고 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3487.0,
+   "en": "There have been dozens or hundreds of citizens' assemblies. There have been in the newspaper, everybody knows about them in Australia, Japan.",
+   "ko": "이미 수십 또는 수백 개의 시민 의회가 열렸습니다. 신문에도 보도되었고 호주와 일본에서는 모두가 알고 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3494.1,
+   "en": "In the United States, nobody knows about it.",
+   "ko": "미국에서는 아무도 모릅니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3496.2,
+   "en": "The first thing is just to have a bunch of these advisory citizens' assemblies that are all over the place so that people go, 'Oh yeah, I've heard about that.'",
+   "ko": "가장 먼저 할 일은 이런 자문 성격의 시민 의회를 곳곳에서 많이 열어서 사람들이 '아, 맞다, 들어본 적 있어'라고 하게 만드는 것입니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3504.0,
+   "en": "They had one in Tulsa recently. They came up with a really good recommendation about sewage.",
+   "ko": "최근 털사에서도 하나가 열렸습니다. 하수도 문제에 대해 아주 좋은 권고안을 내놓았죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3507.9,
+   "en": "So that's the first step, and that phase might go on for some years.",
+   "ko": "그것이 첫 번째 단계이며, 그 단계는 몇 년 동안 지속될 수도 있습니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3511.7,
+   "en": "Then we need some place, probably a municipality or maybe even a state, saying, 'We're going to transfer all decisions about policy X to a jury process.'",
+   "ko": "그런 다음에는 지자체나 어쩌면 주 단위에서 '정책 X에 관한 모든 결정을 배심원 절차로 넘기겠다'라고 말하는 곳이 필요합니다.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3521.6,
+   "en": "The politicians are happy to be rid of it. They don't like dealing with it anyway.",
+   "ko": "정치인들은 그 문제를 떠맡지 않게 되어 기뻐할 것입니다. 어차피 그들도 다루기 싫어하니까요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3525.4,
+   "en": "And then when they work well, they'll say, 'Oh, that worked well. Why don't we try doing it for this other thing?'",
+   "ko": "그리고 그것이 잘 작동하면, '오, 잘 됐네. 다른 일에도 시도해 볼까?'라고 말하게 되겠죠.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3532.9,
+   "en": "So, what do you think? What do you think of this democracy-by-lottery plan that Terry Bouricius and Helene Landemore have been laying out for us?",
+   "ko": "어떻게 생각하시나요? 테리 부리시우스와 헬렌 랜데모어가 설명해 준 이 추첨식 민주주의 계획에 대해 어떻게 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3543.0,
+   "en": "I went back to D.J. Hirston, the lawyer from the jury trial that got me thinking about this idea in the first place, and asked him what he thought of the sortition idea.",
+   "ko": "처음 이 아이디어를 떠올리게 했던 배심원 재판의 변호사 D.J. 허스턴을 다시 찾아가 추첨제 아이디어에 대해 어떻게 생각하는지 물었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3552.4,
+   "en": "For some things, I think it would work, but for other things, you could just get a bad jury.",
+   "ko": "어떤 일에는 효과가 있겠지만, 다른 일에는 그저 잘못된 배심원단을 만날 수도 있다고 생각합니다.",
+   "speaker": "D.J. Hirston"
+  },
+  {
+   "start": 3559.8,
+   "en": "I think juries are good for our community, for zoning laws and things like that. Education, I think budgets.",
+   "ko": "배심원단은 우리 지역 사회의 용도 지역제 법안이나 교육, 예산 같은 문제에는 좋다고 생각합니다.",
+   "speaker": "D.J. Hirston"
+  },
+  {
+   "start": 3568.8,
+   "en": "But when you start talking about who gets to vote, part of it is you could get a bad jury.",
+   "ko": "하지만 누가 투표권을 가질 것인가에 대해 이야기하기 시작하면, 잘못된 배심원단을 만날 가능성도 부분적으로 존재합니다.",
+   "speaker": "D.J. Hirston"
+  },
+  {
+   "start": 3575.5,
+   "en": "I think that's most of American history. These are just a bunch of people making choices that, at least right now, seem fairly self-interested.",
+   "ko": "미국 역사의 대부분이 그렇다고 생각합니다. 이들은 그저 지금 당장은 상당히 자기중심적으로 보이는 선택을 내리는 한 무리의 사람들일 뿐입니다.",
+   "speaker": "D.J. Hirston"
+  },
+  {
+   "start": 3585.7,
+   "en": "But I do have the hope that we will get to some sense of duty. We are the ones that have to get this country together.",
+   "ko": "하지만 우리가 어떤 책임감을 느끼게 될 것이라는 희망은 있습니다. 이 나라를 하나로 뭉치게 해야 할 사람들은 바로 우리입니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 3595.9,
+   "en": "Like it's us, it's us as the citizens, and not like a specific group of anybody, but it's us.",
+   "ko": "그것은 바로 우리, 시민으로서의 우리이지, 어떤 특정한 집단이 아니라 바로 우리 자신입니다.",
+   "speaker": "Carly Tuthill"
+  },
+  {
+   "start": 3602.2,
+   "en": "And how will sitting politicians feel about sortition? It would, after all, replace them.",
+   "ko": "현직 정치인들은 추첨제에 대해 어떻게 느낄까요? 어쨌든 그것은 그들을 대체할 테니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3608.5,
+   "en": "I spoke with New York Governor Kathy Hochul a few months ago, before she won re-election this week. I told her about Terry Bouricius' book, Democracy Without Politicians.",
+   "ko": "저는 이번 주 재선에 성공하기 몇 달 전, 뉴욕 주지사 캐시 호컬과 이야기를 나눴습니다. 그녀에게 테리 부리시우스의 저서 '정치인 없는 민주주의'에 대해 말해주었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3618.0,
+   "en": "I'll say I'm intrigued by it, and I also say maybe that starts at the local level, like when people run for school boards.",
+   "ko": "흥미롭다고 말씀드리고 싶고, 교육 위원회 선거에 출마하는 것처럼 지역 수준에서 시작할 수 있을 것 같다고도 말하고 싶네요.",
+   "speaker": "Kathy Hochul"
+  },
+  {
+   "start": 3623.6,
+   "en": "I'm open to all ideas. I'm intrigued with it. In fact, I might just read the book and see what my thoughts are.",
+   "ko": "저는 모든 아이디어에 열려 있습니다. 이 아이디어에 흥미가 가네요. 사실 그 책을 읽어보고 제 생각이 어떤지 확인해 볼 수도 있을 것 같습니다.",
+   "speaker": "Kathy Hochul"
+  },
+  {
+   "start": 3628.8,
+   "en": "I'm not sure how it fared for the ancient Greeks. I don't know where it went off the rails there.",
+   "ko": "고대 그리스인들에게 그것이 어땠는지는 잘 모르겠습니다. 거기서 어디서부터 잘못되었는지는 모르겠지만요.",
+   "speaker": "Kathy Hochul"
+  },
+  {
+   "start": 3633.0,
+   "en": "I thought about one other argument that Helene Landemore made in favor of sortition.",
+   "ko": "헬렌 랜데모어가 추첨제를 옹호하며 한 또 다른 주장이 생각났습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3638.6,
+   "en": "Her argument didn't have anything to do with politics really, or sampling methods, or whether the recommendations of a citizens' assembly should be binding; it had to do with love.",
+   "ko": "그녀의 주장은 정치나 표집 방법, 시민 의회의 권고가 구속력을 가져야 하는지 여부와는 관련이 없었습니다. 그것은 사랑과 관련이 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3650.9,
+   "en": "She was telling me about the first time she saw a citizens' assembly in action in France.",
+   "ko": "그녀는 프랑스에서 시민 의회가 실제로 작동하는 것을 처음 보았을 때의 이야기를 들려주었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3657.9,
+   "en": "You had people who didn't know each other on day one, who came in very skeptical, who came in—",
+   "ko": "첫날에는 서로 알지도 못하고 매우 회의적인 태도로 온 사람들이 있었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3663.3,
+   "en": "You could tell, hurt, used to be ignored, convinced that this was just a scam and maybe they should go home, and also suspicious of others because, you know, they're used to being slammed for their political opinions.",
+   "ko": "그들은 상처받고, 무시당하는 데 익숙하며, 이것이 그저 사기일 뿐이니 집에 가야 한다고 확신하는 듯 보였습니다. 또한 자신의 정치적 견해 때문에 비난받는 데 익숙해서 다른 사람들을 의심하기도 했죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3675.8,
+   "en": "In just two weekends, the mood completely flipped and it became this place where people just treated each other like family, really, like hugged each other, exchanged gifts, listened patiently.",
+   "ko": "단 두 번의 주말 만에 분위기는 완전히 바뀌었고, 사람들이 서로를 정말 가족처럼 대하고, 포옹하고, 선물을 주고받으며 참을성 있게 경청하는 장소가 되었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3692.0,
+   "en": "It was just remarkable, and it gave me a vision for what politics could be that I just had never thought of.",
+   "ko": "그것은 정말 놀라웠고, 제가 한 번도 생각해 보지 못한 정치의 모습에 대한 비전을 제시해 주었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3699.0,
+   "en": "I thought politics by nature was sort of toxic and partisan conflict-ridden and just in general, distasteful. That's why I was never interested in it in the first place.",
+   "ko": "저는 정치가 본래 독설적이고 정파적 갈등으로 가득 차 있으며, 일반적으로 혐오스러운 것이라고 생각했습니다. 그래서 애초에 정치에 전혀 관심이 없었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3709.3,
+   "en": "I was so proud. I remember standing outside the CESE, which is the organizing entity, and it's sitting in this beautiful, brutalist building next to the Eiffel Tower, next to a French flag.",
+   "ko": "저는 너무나 자랑스러웠습니다. 조직 위원회인 CESE 건물 밖에 서 있었는데, 그곳은 에펠탑 옆에 있는 아름답고 거친 브루탈리즘 건축물로 프랑스 국기 옆에 자리 잡고 있었습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3721.3,
+   "en": "I was just having all these emotions and I—I didn't know what they were, but they felt like what people called love of country, you know, and love of my people.",
+   "ko": "온갖 감정이 솟구쳤고 그것이 무엇인지 정확히 몰랐지만, 흔히들 말하는 애국심, 그리고 내 동포에 대한 사랑처럼 느껴졌습니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3729.1,
+   "en": "That was really a surprise. It gave me hope that we can do things differently.",
+   "ko": "그것은 정말 뜻밖의 일이었습니다. 우리가 다르게 해낼 수 있다는 희망을 주었죠.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3733.8,
+   "en": "You have to believe that it's going to make a difference in inspiring people. I get a lot of emails and a lot of reactions that make me feel like it's sparking some hope in people.",
+   "ko": "이것이 사람들에게 영감을 주는 데 차이를 만들 것이라고 믿어야 합니다. 제게 오는 많은 이메일과 반응들을 보며 이것이 사람들에게 어떤 희망을 불러일으키고 있다는 것을 느낍니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3743.2,
+   "en": "And I think hope is very powerful.",
+   "ko": "그리고 저는 희망이 매우 강력하다고 생각합니다.",
+   "speaker": "Helene Landemore"
+  },
+  {
+   "start": 3748.2,
+   "en": "Hope may be powerful and even necessary, but it's not sufficient.",
+   "ko": "희망은 강력하고 심지어 필수적일 수도 있지만, 충분하지는 않습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3752.6,
+   "en": "As frustration with our political system grows, it does seem like a lot of people are open to different ideas. Is sortition the right kind of different?",
+   "ko": "우리 정치 시스템에 대한 불만이 커지면서 많은 사람이 다른 아이디어에 열려 있는 것 같습니다. 추첨제가 그 올바른 대안일까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3764.9,
+   "en": "It does seem like an idea worth taking seriously, because if Landemore is right, sortition could make all of us a bit more hopeful about our governments and ourselves.",
+   "ko": "진지하게 고려해 볼 만한 아이디어인 것 같습니다. 랜데모어의 말이 맞다면, 추첨제는 우리 모두가 정부와 우리 자신에 대해 조금 더 희망을 갖게 할 수 있기 때문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3777.8,
+   "en": "We the people. Remember us? My thanks to Helene Landemore, Terry Bouricius, D.J. Hirston, Kathy Hochul, and thanks especially to you for listening.",
+   "ko": "우리 국민. 우리를 기억하시나요? 헬렌 랜데모어, 테리 부리시우스, D.J. 허스턴, 캐시 호컬에게 감사드리며, 특히 청취해 주신 여러분께 감사드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3788.6,
+   "en": "Our email is radio@freakonomics.com if you have any thoughts to share.",
+   "ko": "나누고 싶은 생각이 있으시면 radio@freakonomics.com으로 이메일을 보내주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3794.4,
+   "en": "Coming up next time on the show: fertility in the U.S. has been falling, as it has in many other countries.",
+   "ko": "다음 시간에는 다른 많은 나라와 마찬가지로 미국에서도 떨어지고 있는 출산율에 대해 다룹니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3800.9,
+   "en": "One solution may be staring us right in the face. It's free and it works. I mean, what else would you want?",
+   "ko": "한 가지 해결책이 바로 우리 눈앞에 있을지도 모릅니다. 비용도 들지 않고 효과도 있죠. 제 말은, 더 이상 무엇을 바라겠어요?",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 3807.0,
+   "en": "Does work from home lead to more baby-making? It's next time on the show. Until then, take care of yourself. And if you can, someone else too.",
+   "ko": "재택근무가 더 많은 출산으로 이어질까요? 다음 시간에 확인해 보세요. 그때까지 건강 유의하시고, 가능하다면 주변 사람들도 챙겨주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3818.0,
+   "en": "Freakonomics Radio is produced by Renbud Radio. You can find our entire archive on any podcast app, also at Freakonomics.com, where we publish transcripts and show notes.",
+   "ko": "프리코노믹스 라디오는 렌버드 라디오에서 제작합니다. 모든 에피소드는 모든 팟캐스트 앱과 Freakonomics.com에서 찾을 수 있으며, 웹사이트에는 스크립트와 쇼 노트도 게시되어 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3828.3,
+   "en": "This episode was produced by Theo Jacobs and Augusta Chapman. It was edited by Ellen Frankman and mixed by Jake Loomis with help from Jeremy Johnston.",
+   "ko": "이번 에피소드는 테오 제이콥스와 어거스타 채프먼이 제작했습니다. 엘렌 프랭크먼이 편집했고, 제레미 존스턴의 도움을 받아 제이크 루미스가 믹싱했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3837.2,
+   "en": "The Freakonomics Radio Network staff also includes Claire Kernan, Dalvin Aboagye, Eleanor Osborne, Elsa Hernandez, Emma Keisner, Pete Madden, and Tessa Troitlein.",
+   "ko": "프리코노믹스 라디오 네트워크 제작진으로는 클레어 컨안, 달빈 아보아제, 엘리너 오즈번, 엘사 에르난데스, 엠마 케이스너, 피트 매든, 테사 트로이틀라인이 참여하고 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3846.7,
+   "en": "Our theme song is 'Mr. Fortune' by the Hitchhikers and our composer is Luis Guerra.",
+   "ko": "저희 테마곡은 히치하이커스의 'Mr. Fortune'이며 작곡가는 루이스 게라입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 3858.4,
+   "en": "The thing is history moves in jerks. Some people would say that history is moved by jerks also.",
+   "ko": "사실 역사는 갑작스러운 움직임(jerks)으로 나아갑니다. 어떤 사람들은 역사란 무례한 사람들(jerks)에 의해 움직인다고도 말하겠지만요.",
+   "speaker": "Terry Bouricius"
+  },
+  {
+   "start": 3863.8,
+   "en": "The Freakonomics Radio Network, the hidden side of everything.",
+   "ko": "프리코노믹스 라디오 네트워크, 모든 것의 숨겨진 이면.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
