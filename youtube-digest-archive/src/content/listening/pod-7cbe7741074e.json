@@ -1,0 +1,1048 @@
+{
+ "id": "pod-7cbe7741074e",
+ "title": "BITESIZE | How to Find Happiness, Peace and Purpose (Even When Life Feels Hard) | Mo Gawdat #696",
+ "show": "Feel Better, Live More with Dr Rangan Chatterjee",
+ "channel": "Dr Rangan Chatterjee: GP & Author",
+ "videoUrl": "",
+ "audioUrl": "https://pscrb.fm/rss/p/mgln.ai/e/p6315/traffic.megaphone.fm/VAOGC4529294326.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/ad2127ca-ddaf-11f1-b343-b7cb16e4d80b/image/f455f96c75b864cca6f365a406a0ff80.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 1508,
+ "releaseDate": "2026-11-13T00:00:00.000Z",
+ "addedAt": "2026-11-16",
+ "segments": [
+  {
+   "start": 0.1,
+   "en": "Today's bite size episode is sponsored by The Way, the only meditation app with a single long-term pathway. Now, if you've tried other meditation apps before, I am certain that The Way will be the one that will finally help you develop a consistent practice.",
+   "ko": "오늘의 짧은 에피소드는 단 하나의 장기적 경로를 제공하는 유일한 명상 앱, '더 웨이(The Way)'의 후원을 받습니다. 이전에 다른 명상 앱을 시도해 보셨다면, 이 앱이 마침내 여러분이 꾸준한 명상 습관을 기르는 데 도움이 될 것이라고 확신합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 19.6,
+   "en": "You see, one of the best things about it is that you are not going to get overwhelmed with different options. You simply open the app and do the next meditation building up your practice step by step.",
+   "ko": "이 앱의 가장 좋은 점 중 하나는 수많은 옵션 때문에 당황할 일이 없다는 것입니다. 그냥 앱을 열고 다음 명상을 따라가며 한 걸음씩 수행을 쌓아가면 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 32.6,
+   "en": "After a few sessions, you will feel as if you've got your own personal meditation teacher, who of course is the wonderful Henry Shukman who has appeared as a guest on this podcast on two separate occasions.",
+   "ko": "몇 번의 세션 후에는 나만의 전담 명상 선생님이 생긴 것 같은 느낌이 들 텐데, 그분은 바로 이 팟캐스트에 두 번이나 게스트로 출연했던 멋진 헨리 슈크만입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 47.7,
+   "en": "Now I personally have been using this app for over six months now and I absolutely love it. In fact, I love it so much that I have invested in the company to join them in their mission to get more people meditating.",
+   "ko": "저는 개인적으로 이 앱을 6개월 넘게 사용하고 있는데 정말 마음에 듭니다. 사실 너무 좋아서 더 많은 사람이 명상하도록 돕겠다는 그들의 사명에 동참하고자 회사에 투자까지 했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 62.2,
+   "en": "For listeners of my podcast, The Way is offering 33 days to establish your own meditation practice, all you have to do is go to thewayapp.com/livemore to get started.",
+   "ko": "제 팟캐스트 청취자들을 위해 '더 웨이'는 자신만의 명상 습관을 세울 수 있도록 33일 무료 이용을 제공합니다. 시작하시려면 thewayapp.com/livemore에 방문하시면 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 77.8,
+   "en": "Welcome to Feel Better, Live More Bite Size, your weekly dose of inspiration, insights, and practical ideas to help you live well and thrive.",
+   "ko": "더 건강하게 느끼고 더 풍요롭게 살기 위한 'Bite Size'에 오신 것을 환영합니다. 여러분의 건강한 삶과 번영을 돕기 위해 매주 영감과 통찰, 실용적인 아이디어를 전해드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 89.5,
+   "en": "Each episode brings you some of my favorite moments, useful tools, and inspiring ideas from the many incredible conversations I've had on my podcast.",
+   "ko": "각 에피소드에서는 제가 팟캐스트에서 나누었던 수많은 놀라운 대화 중 가장 좋아하는 순간들과 유용한 도구, 그리고 영감을 주는 아이디어들을 들려드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 100.0,
+   "en": "Today's bite size is from episode 596 of the podcast with best-selling author Mo Gawdat.",
+   "ko": "오늘의 'Bite Size'는 베스트셀러 작가 모 가댓과 함께한 팟캐스트 596회에서 발췌했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 107.9,
+   "en": "After a 30-year career in tech, Mo has made happiness his primary topic of research diving deeply into literature and conversing on the topic with some of the wisest people in the world.",
+   "ko": "IT 업계에서 30년간 경력을 쌓은 후, 모는 행복을 주요 연구 주제로 삼아 문헌을 깊이 파고들고 세상에서 가장 지혜로운 사람들과 이 주제에 대해 대화를 나눠왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 122.6,
+   "en": "In this clip, Mo shares some of his thoughts on happiness and how it may be possible to find peace even in difficult times.",
+   "ko": "이 영상에서 모는 행복에 대한 생각과 어려운 시기에도 어떻게 평화를 찾을 수 있는지에 대한 견해를 공유합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 134.8,
+   "en": "So you passionately believe that happiness is a choice. Not everyone shares that perspective.",
+   "ko": "행복은 선택이라고 굳게 믿으시는군요. 모든 사람이 그 관점에 동의하는 것은 아닐 텐데요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 142.1,
+   "en": "Yeah, absolute happiness is not anyone's choice, suffering is part of life by definition. But choosing to be happier is 100% within your grasp.",
+   "ko": "네, 절대적인 행복은 누구의 선택도 아닙니다. 정의상 고통은 삶의 일부니까요. 하지만 더 행복해지기로 선택하는 것은 100% 여러분의 손에 달려 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 153.2,
+   "en": "Everyone absolutely has the ability to learn a skill or to reframe a thought or to surround themselves by what they need to find a little bit of happier life. That's absolutely no doubt.",
+   "ko": "누구나 기술을 배우거나 생각을 재구성하거나, 조금 더 행복한 삶을 찾는 데 필요한 것들로 주변을 채울 수 있는 능력을 분명히 가지고 있습니다. 그 점은 의심의 여지가 없죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 170.5,
+   "en": "And so if you can change yourself from say minus 1 to minus 0.5 or from minus 1 to plus 0.5, then that by definition means you have a choice.",
+   "ko": "그래서 만약 스스로를 마이너스 1에서 마이너스 0.5로, 혹은 마이너스 1에서 플러스 0.5로 바꿀 수 있다면, 그것은 정의상 여러분에게 선택권이 있다는 뜻입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 181.2,
+   "en": "And so that choice is not absolute, but it's definitely there when it comes to your relative state of happiness.",
+   "ko": "그 선택이 절대적인 것은 아닐지라도, 상대적인 행복의 상태에 있어서는 분명히 존재합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 186.1,
+   "en": "That idea of absolute happiness versus becoming happier, I find really interesting. So let's go to an extreme scenario.",
+   "ko": "절대적 행복과 더 행복해지는 것 사이의 그 아이디어가 정말 흥미롭네요. 그럼 극단적인 상황을 가정해 봅시다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 195.6,
+   "en": "I think you've touched on it already, this idea that let's say someone is living in incredible struggle and there are lots of things going on in their life outside of their control.",
+   "ko": "이미 언급하셨던 것 같은데, 누군가 엄청난 고난 속에 살고 있고 자신의 통제 밖에서 일어나는 일들이 삶에 가득하다고 해봅시다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 208.4,
+   "en": "The natural belief that many people take from that is if those external circumstances changed, I would be happier.",
+   "ko": "많은 사람이 거기서 갖게 되는 당연한 믿음은 '외부 상황이 변하면 더 행복해질 텐데'라는 것이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 219.1,
+   "en": "Correct.",
+   "ko": "맞습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 219.5,
+   "en": "How does that sit alongside your perspective that happiness is a choice?",
+   "ko": "그것이 행복은 선택이라는 당신의 관점과 어떻게 조화를 이룰 수 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 225.6,
+   "en": "So that's not always, that belief is not true because many people who don't have those circumstances are still unhappy and many people who have those circumstances are happy.",
+   "ko": "그 믿음이 항상 사실인 것은 아닙니다. 그런 힘든 상황이 아닌데도 불행한 사람이 많고, 그런 상황 속에서도 행복한 사람이 많기 때문이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 236.8,
+   "en": "So you see the idea is there is no inherent value of happiness in anything. You know, the joke I always make is that rain doesn't make you happy or unhappy.",
+   "ko": "그러니까 어떤 사물 자체에 행복이라는 본질적인 가치가 들어있는 게 아니라는 겁니다. 제가 항상 하는 농담이 있는데, 비가 온다고 해서 행복하거나 불행해지는 게 아니라는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 250.4,
+   "en": "Honestly, rain depends on what you want from life. If it's, you know, if it's your ex's wedding, you'd like rain. Rain is a good idea, right?",
+   "ko": "솔직히 비는 당신이 삶에서 무엇을 원하느냐에 달려 있습니다. 만약 전 애인의 결혼식 날이라면 비가 오길 바라겠죠. 비가 오는 게 좋은 생각이겠죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 260.2,
+   "en": "And so basically the externalization of my happiness is because of what the world is giving me in an interesting way is a six-year-old behavior.",
+   "ko": "그래서 기본적으로 내 행복을 외부의 탓으로 돌리는 것, 즉 세상이 나에게 주는 것 때문이라고 생각하는 것은 흥미롭게도 여섯 살 어린아이 같은 행동입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 270.5,
+   "en": "It's basically giving up on your autonomy, on your agency, in your own happiness by saying, you see, life is giving me lemons again.",
+   "ko": "그것은 '거봐, 인생이 나에게 또 시련을 주네'라고 말하며 자신의 행복에 대한 자율성과 주도권을 포기하는 것이나 다름없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 282.5,
+   "en": "And the idea here is that, as I said, again, to have the proper empathy, there are people in the world where it actually is very difficult to be happy.",
+   "ko": "여기서 제가 다시 말씀드리고 싶은 것은, 제대로 공감하자면 세상에는 실제로 행복해지기 매우 어려운 사람들도 있다는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 293.9,
+   "en": "They've lost their family or they're in a war zone or they're going through a very difficult breakup or there could be reasons, they have chronic pain or some kind of chronic illness.",
+   "ko": "가족을 잃었거나, 전쟁 지역에 있거나, 매우 힘든 이별을 겪고 있거나, 만성 통증이나 어떤 만성 질환이 있는 등의 이유가 있을 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 307.7,
+   "en": "Or you and I have experienced working with people in those states in our work and yeah, it becomes difficult to find happiness, it even becomes difficult to find happier states at that time.",
+   "ko": "당신과 저도 일을 하면서 그런 상태에 있는 사람들과 함께해 본 경험이 있고, 그럴 때는 행복을 찾기도, 심지어 조금 더 나은 상태가 되는 것도 정말 어려워집니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 324.8,
+   "en": "But truth is, most of the time for those who choose to blame life for their unhappiness, whatever life would give them, they'll find something to blame.",
+   "ko": "하지만 진실은, 자신의 불행을 인생 탓으로 돌리기로 선택한 사람들은 인생이 무엇을 주더라도 비난할 거리를 찾아낸다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 336.2,
+   "en": "You see, the idea is, as I always try to teach, that happiness is a difference between the events of your life and expectations of how life should be.",
+   "ko": "제가 항상 가르치려고 노력하는 핵심은, 행복이란 당신의 삶에서 일어나는 사건과 삶이 어떠해야 한다는 기대치 사이의 차이라는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 345.0,
+   "en": "And so interestingly, you go to some of the places where the best quality of life exists, where the subjective wellbeing is very high and you'll still see very high suicide rates.",
+   "ko": "흥미롭게도 삶의 질이 가장 높고 주관적 웰빙 지수가 매우 높은 곳에 가봐도 여전히 자살률이 매우 높은 것을 볼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 356.9,
+   "en": "Reason being, you know, when your government gives you health care and gives you unemployment payments and they'll take ambitious minds, let's call them...",
+   "ko": "이유는 이렇습니다. 정부가 의료 서비스를 제공하고 실업 수당을 주면, 야심 찬 마음을 가진 이들은 이렇게 생각하게 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 375.2,
+   "en": "Your mind will go like, okay, so if the government can do all of this, why is my girlfriend still annoying? You know, like, where's my service level agreement?",
+   "ko": "마음속으로 '좋아, 정부가 이 모든 걸 해줄 수 있다면 내 여자친구는 왜 아직도 짜증 나게 하는 거지? 내 서비스 수준 합의서(SLA)는 어디 있는 거야?'라고 하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 383.7,
+   "en": "I signed the service level agreement that the world is always going to give me everything I need to find happiness. And if the world fails, then I'll be unhappy. And the question is, where's that agreement? Show it to me.",
+   "ko": "세상이 내가 행복을 찾는 데 필요한 모든 것을 항상 제공할 거라는 계약서에 서명이라도 한 것처럼 말이죠. 세상이 그걸 못 해주면 난 불행해지는 거고요. 하지만 묻고 싶네요. 그 계약서가 어디 있나요? 나한테 보여줘 보세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 396.3,
+   "en": "I mean, I completely agree with your perspective that happiness is a choice. It's a skill that we can cultivate.",
+   "ko": "행복은 선택이라는 당신의 관점에 전적으로 동의합니다. 그것은 우리가 기를 수 있는 기술이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 402.3,
+   "en": "It's a skill 100%.",
+   "ko": "100% 기술입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 403.8,
+   "en": "Once we know how to do it, and I wonder how much your upbringing in Egypt influences your perspective here.",
+   "ko": "일단 방법을 알게 되면요. 그런데 이집트에서의 성장 배경이 이런 당신의 관점에 어느 정도 영향을 미쳤는지 궁금합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 414.8,
+   "en": "And the reason I asked that is because I was born and brought up in the UK, but my parents were immigrants from India. And you can see the difference. You can see the difference.",
+   "ko": "제가 이걸 묻는 이유는 저는 영국에서 태어나 자랐지만 제 부모님은 인도 이민자이시기 때문입니다. 그 차이를 볼 수 있거든요. 분명히 차이가 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 423.5,
+   "en": "And every other summer, we would go for the entire school British summer holidays to Kolkata in India.",
+   "ko": "격년으로 여름마다 영국 학교의 여름 방학 전체 기간 동안 인도 콜카타에 가곤 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 431.9,
+   "en": "I often reflect back to those days now and go, wow, I would repeatedly meet and see people in what we would regard here in the West as poverty.",
+   "ko": "요즘 그때를 자주 돌이켜보는데, 여기 서구권에서라면 빈곤이라고 여길 만한 상황에 처한 사람들을 반복해서 만나고 보게 되더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 444.9,
+   "en": "Yeah.",
+   "ko": "그렇죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 445.5,
+   "en": "But the whole sense of being was light. There was a contentment.",
+   "ko": "하지만 그들의 존재감 전체가 가벼웠어요. 만족감이 있었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 450.6,
+   "en": "Yes.",
+   "ko": "맞아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 450.9,
+   "en": "There was a happiness.",
+   "ko": "행복함이 있었어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 452.3,
+   "en": "Yes.",
+   "ko": "그렇습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 452.8,
+   "en": "As you said before, and as I said before, there are so many millionaires, multi-millionaires who are miserable.",
+   "ko": "당신과 제가 전에 말했듯이, 비참한 기분으로 사는 백만장자, 수백만장자들이 정말 많습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 459.1,
+   "en": "Billionaires who are deeply unhappy.",
+   "ko": "깊이 불행해하는 억만장자들도 있고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 460.6,
+   "en": "Miserable. So do, more often than not actually?",
+   "ko": "비참하죠. 사실 그렇지 않은 경우보다 그런 경우가 더 많지 않나요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 463.3,
+   "en": "Exactly, because often the drive to go out there and achieve and show the world that you were something that came from a place of lack.",
+   "ko": "정확합니다. 세상 밖으로 나가 성취하고 자신이 대단한 존재임을 보여주려는 동기 자체가 종종 결핍에서 비롯되기 때문이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 472.5,
+   "en": "Yeah, that was the story of my life.",
+   "ko": "네, 그게 바로 제 인생 이야기였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 474.6,
+   "en": "I mean, growing up in Egypt, happiest person ever, I remember vividly, you know, I would, nothing would dent my happiness.",
+   "ko": "이집트에서 자랄 때는 세상에서 가장 행복한 사람이었어요. 아주 생생하게 기억나는데, 그 무엇도 제 행복을 꺾을 수 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 481.8,
+   "en": "It's, you know, in those societies, you get two very beneficial happiness advantages.",
+   "ko": "그런 사회에서는 행복에 있어 아주 유익한 두 가지 이점이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 488.3,
+   "en": "One is that you see misery all around you, you see suffering all around you, you see lack and need all around you. So it reminds you of how blessed you are, right?",
+   "ko": "하나는 주변 도처에 비참함과 고통, 결핍과 궁핍이 널려 있다는 점입니다. 그래서 자신이 얼마나 축복받았는지 상기하게 되죠, 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 496.4,
+   "en": "The reality is if your expectations are I may not be able to eat today, you know, if someone gives you a bowl of rice, you're very, very happy.",
+   "ko": "기대치가 '오늘 밥을 못 먹을 수도 있다'라면, 누군가 밥 한 그릇만 줘도 정말 행복해지는 게 현실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 505.8,
+   "en": "And that I think is the reality of a place like India, where people value what they get.",
+   "ko": "인도 같은 곳의 현실도 그렇다고 생각합니다. 사람들은 자신이 얻은 것을 소중히 여깁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 511.5,
+   "en": "They don't feel disgruntled about what they didn't get because they can easily see. I know in my first book, Solve for Happy, I basically called this looking down.",
+   "ko": "그들은 얻지 못한 것에 대해 불만을 갖지 않는데, 주변을 보면 바로 알 수 있기 때문이죠. 제 첫 번째 책 '행복을 풀다(Solve for Happy)'에서 저는 이것을 '아래 내려다보기'라고 불렀습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 522.3,
+   "en": "And the idea is that, of course, if you look up at all of the Ferraris and Mayfair, you'd think that life is unfair to you, but if you look down to people in war zones or people who are starving, suddenly you realize, holy, I mean, I didn't contribute to that.",
+   "ko": "런던 메이페어의 페라리들을 올려다보면 인생이 불공평하다고 생각하겠지만, 전쟁터에 있거나 굶주리는 사람들을 내려다보면 갑자기 깨닫게 됩니다. '세상에, 난 저런 불행에 일조한 적도 없는데.'",
+   "speaker": "Guest"
+  },
+  {
+   "start": 539.6,
+   "en": "I could have been born there myself. And somehow that reminder really creates a sense of realism in you.",
+   "ko": "저도 거기서 태어날 수도 있었잖아요. 그런 일깨움이 내면에서 진정한 현실 감각을 만들어 줍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 549.3,
+   "en": "Then I became very successful and I remember in my late 20s when I was so focused on collecting so much wealth that I didn't need and feeling frustrated when things didn't go my way.",
+   "ko": "그 후 저는 매우 성공했고, 20대 후반에 필요 이상의 부를 모으는 데만 집중하며 일이 뜻대로 되지 않을 때 좌절했던 기억이 납니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 563.9,
+   "en": "And feeling anxious when my daughter interrupted my time when I was focused on a silly email or a stock chart, you know, these were created by me, not by life.",
+   "ko": "쓸데없는 이메일이나 주식 차트에 집중하고 있을 때 딸이 방해하면 불안해하기도 했죠. 이런 건 인생이 만든 게 아니라 제가 만든 거였어요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 577.2,
+   "en": "And the misery was my work. Life was giving me more and more and more and I was constantly disgruntled with why is it not perfect, again, the service level agreement.",
+   "ko": "비참함은 제가 만들어낸 결과물이었죠. 인생은 제게 점점 더 많은 것을 주었지만 저는 왜 완벽하지 않냐며 끊임없이 불만을 가졌습니다. 또 그 '서비스 수준 합의서' 타령을 한 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 589.5,
+   "en": "But you see, the other interesting thing is, when you deeply, deeply look at life, you need your basic needs and love.",
+   "ko": "하지만 삶을 아주 깊이 들여다보면, 우리에게 필요한 건 기본적 욕구와 사랑뿐이라는 걸 알게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 599.1,
+   "en": "And if you get your basic needs and love, it's not difficult to work on your mind to get into a state of happiness.",
+   "ko": "기본적 욕구가 충족되고 사랑을 받는다면, 마음을 다스려 행복한 상태에 이르는 것은 어렵지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 609.9,
+   "en": "Of course, there are many people that have their basic needs and love, but don't work on their mind. And so they never find happiness.",
+   "ko": "물론 기본 욕구와 사랑이 충족되는데도 마음을 다스리지 않는 사람들이 많고, 그래서 그들은 결코 행복을 찾지 못합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 619.5,
+   "en": "But I'd ask everyone who has those two in their life to really think deeply about how blessed they are.",
+   "ko": "하지만 삶에 이 두 가지가 있는 모든 분께 자신이 얼마나 축복받았는지 깊이 생각해 보라고 말씀드리고 싶습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 628.6,
+   "en": "Whether it's feeling loved, which in my view is a state of ego if you think about it. But most importantly is being able to love.",
+   "ko": "사랑받는다는 느낌도 그렇지만(제 생각에 그건 어떻게 보면 자아의 상태입니다), 가장 중요한 것은 사랑할 수 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 639.7,
+   "en": "Is being able to look at someone and go like, my divinity, that part of me, is capable of feeding the connection to that other being.",
+   "ko": "누군가를 바라보며 '내 안의 신성한 부분, 나의 그 부분이 저 존재와의 연결을 북돋울 수 있다'라고 느끼는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 651.4,
+   "en": "And I think that in itself is sufficient if you ask me.",
+   "ko": "제 생각엔 그것만으로도 충분합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 655.1,
+   "en": "Anthony de Mello writes in Awareness that if you're not feeling happy right now, you're doing something to make yourself unhappy.",
+   "ko": "앤서니 드 멜로는 저서 '깨어남(Awareness)'에서 '지금 행복하지 않다면, 당신 스스로 자신을 불행하게 만드는 무언가를 하고 있는 것이다'라고 썼습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 666.9,
+   "en": "Exactly.",
+   "ko": "정확합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 667.7,
+   "en": "And I remember the first time I read that, and I keep going back to it.",
+   "ko": "그 구절을 처음 읽었을 때가 기억나는데, 지금도 계속 다시 보게 되더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 670.3,
+   "en": "And I use it a lot because, you know, we're all human and we can all fall into certain emotional traps from time to time.",
+   "ko": "우리는 모두 인간이기에 때때로 감정적인 함정에 빠질 수 있어서 그 말을 자주 활용합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 677.4,
+   "en": "And if I'm ever feeling, which is very rare now, this state of discontentment, I ask myself, Rangan, what are you doing that's making you feel this way?",
+   "ko": "지금은 아주 드문 일이지만 혹시라도 불만족스러운 상태를 느끼면 자문합니다. '랑간, 네가 뭘 하고 있길래 기분이 이런 거야?'",
+   "speaker": "Host"
+  },
+  {
+   "start": 689.6,
+   "en": "What perspective are you taking on life here? You know, what emotions are you ignoring?",
+   "ko": "'지금 삶을 어떤 관점으로 보고 있는 거지? 어떤 감정을 무시하고 있는 거야?'라고 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 694.4,
+   "en": "And what I like about this approach, which I totally agree with is that it's very empowering, because then if happiness is a choice, then instead of us being a victim to the world and events outside of our control, we're suddenly the architects of our lives.",
+   "ko": "제가 전적으로 동의하는 이 접근법의 좋은 점은 매우 힘을 실어준다는 것입니다. 행복이 선택이라면 우리는 통제 불능인 세상과 사건의 희생자가 아니라 갑자기 우리 삶의 설계자가 되니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 711.2,
+   "en": "We're suddenly like, oh, actually, there is something I can do here.",
+   "ko": "문득 '아, 사실 여기서 내가 할 수 있는 게 있구나'라고 깨닫게 되는 거죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 715.5,
+   "en": "Now, why you saying this has particular value for people who've never come across you before, your son Ali died after a significant series of medical errors during a routine operation.",
+   "ko": "당신을 처음 접하는 분들께 이 말이 특히 가치 있는 이유는, 당신의 아들 알리가 간단한 수술 중 발생한 중대한 의료 과실들로 인해 세상을 떠났기 때문입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 727.5,
+   "en": "How old was he?",
+   "ko": "그때 아드님이 몇 살이었죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 728.4,
+   "en": "21.",
+   "ko": "21살이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 729.0,
+   "en": "He was 21 years old.",
+   "ko": "21살이었군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 730.8,
+   "en": "So I think when someone like you having been through that says happiness is a choice, I think it lands differently.",
+   "ko": "그런 일을 겪은 당신 같은 분이 행복은 선택이라고 말하면 사람들에게 다가가는 무게가 다를 것 같습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 741.5,
+   "en": "Yeah, and I don't know how to say this, but a lot of people think that when you're a grieving father, you have no choice because it seems that the only plausible choice is to just put your head down and wait to die, honestly.",
+   "ko": "네, 어떻게 말해야 할지 모르겠지만, 자식을 잃은 아버지는 선택의 여지가 없다고 생각하는 사람이 많습니다. 솔직히 그냥 고개를 떨구고 죽기만을 기다리는 게 유일한 선택처럼 보이니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 758.8,
+   "en": "I mean, in an interesting way grief is quite a tricky one because you feel deceived by life. You feel that life targeted you personally.",
+   "ko": "흥미롭게도 슬픔은 상당히 까다로운 감정입니다. 인생에 속았다는 기분이 들거든요. 인생이 나를 표적으로 삼았다는 느낌 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 768.0,
+   "en": "You feel that life is never going to be the same. You lose the point. So what now?",
+   "ko": "삶이 전과 같지 않을 거라고 느끼고 삶의 의미를 잃게 됩니다. '이제 어떡하지?' 싶은 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 776.7,
+   "en": "So many feel that it's a bit of, believe it or not, of betraying the one they love if they can actually find happiness after them.",
+   "ko": "믿기 어렵겠지만, 많은 이들이 사랑하는 사람이 떠난 뒤에 행복을 찾으면 그 사람을 배신하는 것 같다고 느낍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 786.5,
+   "en": "And there are so many complexities that happen to us in grief. Interestingly, though, we don't have one choice.",
+   "ko": "슬픔 속에서 우리에게 일어나는 일들은 정말 복잡합니다. 하지만 흥미롭게도 우리에게 선택지가 하나만 있는 건 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 794.4,
+   "en": "I could have hit my head against the wall in misery until the day I am on my deathbed, or I could choose to be a little happier every day. Either way, Ali wouldn't come back.",
+   "ko": "임종을 맞이하는 날까지 고통 속에서 벽에 머리를 찧으며 살 수도 있고, 매일 조금 더 행복해지기로 선택할 수도 있었습니다. 어느 쪽이든 알리는 돌아오지 못하니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 808.2,
+   "en": "You see, this is what most people don't recognize is that all of the misery in the world has no impact, zero impact whatsoever on the external world.",
+   "ko": "세상의 모든 비참함이 외부 세계에는 아무런 영향도, 정말 단 0%의 영향도 미치지 않는다는 사실을 대부분의 사람은 깨닫지 못합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 818.7,
+   "en": "And it's really, it really is quite interesting because when you were talking, you know, about unhappiness being our own doing if you want, I tend to say that the majority of unhappiness happens in your brain.",
+   "ko": "불행이 우리 스스로 만드는 것이라는 당신의 말과 관련해서 정말 흥미로운 점은, 저는 대부분의 불행이 뇌 안에서 일어난다고 말하는 편이라는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 834.2,
+   "en": "Okay? That all of the other joyful emotions can happen all over you. They can happen in your body, they can happen in your heart, they can happen in your spirit, they can happen in your brain.",
+   "ko": "아시겠어요? 다른 모든 즐거운 감정은 온몸에서 일어날 수 있습니다. 몸에서, 마음에서, 영혼에서, 그리고 뇌에서도 일어날 수 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 844.4,
+   "en": "But for you to feel unhappy, think about it. Ali left us now more than 10 years ago.",
+   "ko": "하지만 불행을 느끼는 것에 대해 생각해 보세요. 알리가 우리 곁을 떠난 지 이제 10년이 넘었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 854.4,
+   "en": "The pain of the moment when he was on his operating table, leaving us is probably the biggest pain I ever felt.",
+   "ko": "알리가 수술대 위에서 우리를 떠나던 그 순간의 고통은 아마 제가 느낀 가장 큰 고통이었을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 864.1,
+   "en": "The moment after they told us that he left was the lowest moment of my life.",
+   "ko": "알리가 떠났다는 말을 들은 직후는 제 인생에서 가장 밑바닥인 순간이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 871.4,
+   "en": "But think about this, Rangan. Those moments happened in the past.",
+   "ko": "하지만 생각해 보세요, 랑간. 그 순간들은 과거에 일어난 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 876.1,
+   "en": "Okay, when I walked into in here and hugged you an old friend and we haven't met for a while and we caught up, I didn't think of those moments.",
+   "ko": "제가 여기 들어와서 오랜 친구인 당신을 안고 한동안 못 만났던 근황을 나눌 때, 저는 그 순간들을 생각하지 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 886.2,
+   "en": "And so interestingly, they didn't exist.",
+   "ko": "흥미롭게도, 그때는 그 고통들이 존재하지 않았던 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 889.5,
+   "en": "So you see the problem with us humans is that we grant unhappiness the right to exist within our minds, we fuel those thoughts and then we let them torture us and they wouldn't bring Ali back.",
+   "ko": "인간의 문제는 불행이 마음속에 존재할 권리를 부여하고, 그 생각에 연료를 공급해서 우리를 고문하게 내버려 둔다는 겁니다. 하지만 그게 알리를 데려다주지는 않잖아요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 907.4,
+   "en": "Do you understand that? So where is the wisdom in this?",
+   "ko": "이해가 되시나요? 그러니 여기에 무슨 지혜가 있겠습니까?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 911.1,
+   "en": "Where is the wisdom in me finding the most painful moment in my life? Then bringing it up in my head again and saying, okay, let me play that scene again and torture, how smart is that?",
+   "ko": "제 인생에서 가장 고통스러운 순간을 찾아내어 다시 머릿속에 떠올리고, '자, 그 장면을 다시 재생해서 나를 괴롭혀보자'라고 하는 게 대체 얼마나 똑똑한 짓일까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 926.1,
+   "en": "The opposite is interestingly true because people will say, Ali died. That's a true statement.",
+   "ko": "흥미롭게도 그 반대도 사실입니다. 사람들은 '알리가 죽었다'라고 말하겠죠. 그건 사실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 936.4,
+   "en": "But I also say Ali lived equally as a matter of fact more true because he lived 21 years and left for 10.",
+   "ko": "하지만 저는 '알리가 살았다'라는 말도 똑같이, 사실 더 진실에 가깝다고 말합니다. 알리는 21년을 살았고 떠난 지는 10년이 됐으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 946.0,
+   "en": "When you really, really think about it, Ali lived is the same fabric of the thought. To die you have to live and to live you have to die.",
+   "ko": "정말 깊이 생각해 보면 '알리가 살았다'라는 것은 같은 맥락의 생각입니다. 죽기 위해서는 살아야 하고, 살기 위해서는 죽어야 하니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 955.4,
+   "en": "But it's interesting because Ali lived is such an empowering thought. First of all Ali was not planned. We didn't plan to have Ali.",
+   "ko": "하지만 '알리가 살았다'라는 생각은 정말 큰 힘을 줍니다. 우선 알리는 계획된 아이가 아니었어요. 우리는 알리를 가질 계획이 없었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 964.1,
+   "en": "And then we get this gift, unbelievable blessing that comes into your life. Teaches you, shows you love.",
+   "ko": "그런데 이 선물 같은 믿을 수 없는 축복이 삶에 찾아온 겁니다. 사랑을 가르쳐주고 보여주었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 972.6,
+   "en": "We loved so much together. We played so much together, we learned so much together.",
+   "ko": "우리는 함께 많이 사랑했고, 많이 놀았고, 정말 많은 것을 함께 배웠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 978.4,
+   "en": "He's one of the biggest gifts, Ali and Aya, by definition are my biggest gifts in life, my daughter, Aya.",
+   "ko": "알리는 제 인생의 가장 큰 선물 중 하나입니다. 정의상 알리와 제 딸 아야는 제 삶의 가장 큰 선물이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 984.9,
+   "en": "And then the human mind would take all of that and say, no, I'm upset. Why did he leave?",
+   "ko": "그런데 인간의 마음은 그 모든 걸 가져가 놓고는 '아니야, 난 화가 나. 왜 알리가 떠난 거야?'라고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 993.6,
+   "en": "And I'm like, he left because he came.",
+   "ko": "그럼 전 이렇게 답하죠. '알리가 왔기 때문에 떠난 거야'라고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 996.5,
+   "en": "Now think of the scenario where God or the universe or whatever you want to believe in, decided to not bring him to your life in the first place.",
+   "ko": "이제 신이나 우주, 혹은 당신이 믿는 무엇이든 알리를 처음부터 당신의 삶에 보내지 않기로 결정한 상황을 가정해 보세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1008.7,
+   "en": "You look at it now and you go like, hmm, you know, if it happened during life and you didn't notice it, you would have never missed him.",
+   "ko": "지금 돌이켜보면 '음, 만약 내 인생 중에 그런 일이 일어나서 내가 몰랐다면 그를 전혀 그리워하지 않았겠지' 싶을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1020.2,
+   "en": "It would have felt that life has never taken anything away from you.",
+   "ko": "인생이 당신에게서 아무것도 뺏어가지 않은 것처럼 느껴졌겠죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1024.2,
+   "en": "Okay. But the truth is, also life would have never given you the blessing at the same time.",
+   "ko": "좋습니다. 하지만 진실은 동시에 인생이 당신에게 그 축복을 준 적도 없었을 거라는 사실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1030.6,
+   "en": "Now, but you look at it now and you go like, oh my God, I would absolutely take the pain a thousand times more to take the blessing of having him in my life for 21 years.",
+   "ko": "하지만 지금 당신은 이렇게 생각할 겁니다. '세상에, 내 인생에 그가 21년 동안 머물렀던 축복을 누릴 수만 있다면 그 고통을 천 번이라도 더 감수하겠어'라고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1043.9,
+   "en": "And if only we start to see those things.",
+   "ko": "우리가 그런 것들을 보기 시작하기만 한다면요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1046.9,
+   "en": "If only we start to see that, I'll use simple examples, so it's not too dramatic. If only we start to see our annoying manager as an indication that I have a job.",
+   "ko": "너무 극적이지 않게 간단한 예를 들어볼게요. 만약 우리가 짜증 나는 상사를 내가 직업이 있다는 신호로 보기 시작한다면 어떨까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1057.6,
+   "en": "Okay. If only we start to see being stuck in traffic that I'm going somewhere and someone's waiting for me.",
+   "ko": "교통 체증에 갇힌 것을 '내가 어딘가로 가고 있고 누군가 나를 기다리고 있다'라는 의미로 보기 시작한다면요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1065.2,
+   "en": "If only we see the flu that you suffer as an indication that you've been healthy until you got the flu and all of these, you know where they exist. They exist here.",
+   "ko": "독감으로 고생하는 것을 독감에 걸리기 전까지 건강했다는 증거로 본다면요. 이 모든 것들이 어디에 존재하는지 아시죠? 바로 여기, 우리 마음속에 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1078.4,
+   "en": "Yeah. The outside event is exactly the same.",
+   "ko": "네. 외부의 사건은 완전히 똑같은데 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1081.0,
+   "en": "Yeah. It's such an empowering message because we actually have a huge amount of control over where we put our thoughts, how we frame every single situation.",
+   "ko": "맞아요. 정말 힘이 되는 메시지네요. 우리가 생각을 어디에 둘지, 매 상황을 어떻게 규정할지에 대해 실제로 엄청난 통제권을 갖고 있으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1093.2,
+   "en": "And it's, I would say one of the most important and one of the most beneficial skills in life is to understand at a deep level that all you could definitely say most situations are at their core neutral.",
+   "ko": "그리고 모든, 아니 적어도 대부분의 상황은 본질적으로 중립적이라는 사실을 깊은 수준에서 이해하는 것이 인생에서 가장 중요하고 유익한 기술 중 하나라고 생각합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1108.5,
+   "en": "It's the perspective we take on that situation that really determines its impact on us.",
+   "ko": "그 상황에 대해 우리가 어떤 관점을 취하느냐가 실제로 우리에게 미치는 영향을 결정하는 법이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1116.0,
+   "en": "I'd go even further, Rangan. I mean, I did an experiment, a thought experiment I used to call the eraser test, where I told people take the most painful memory in your life.",
+   "ko": "전 더 나아가고 싶어요, 랑간. 제가 '지우개 테스트'라고 부르는 사고 실험을 한 적이 있는데, 사람들에게 인생에서 가장 고통스러운 기억을 떠올려 보라고 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1127.3,
+   "en": "Okay, and I used to teach Solve for Happy to people in person. So I had probably up to maybe 20,000 students or so in, you know, over multiple years.",
+   "ko": "제가 '행복을 풀다'를 대면 강의로 가르칠 때였죠. 몇 년 동안 한 2만 명 정도의 학생이 있었을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1137.3,
+   "en": "And I would tell them take that situation, the most painful in your life, you know, bring it up into your mind.",
+   "ko": "그들에게 인생에서 가장 고통스러운 그 상황을 마음속에 떠올려 보라고 말했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1142.8,
+   "en": "Now you feel it again as if you're in it, even though it passed, right? Feel the pain, torture yourself, make yourself feel miserable.",
+   "ko": "이미 지난 일인데도 마치 그 안에 있는 것처럼 다시 느끼게 됩니다, 그렇죠? 고통을 느끼고 스스로를 고문하며 비참하게 만듭니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1150.8,
+   "en": "And of course, the minute I said that, everyone was like, yeah, like, celebration, let me torture myself.",
+   "ko": "물론 제가 그 말을 하는 순간, 다들 '좋아, 나를 한 번 괴롭혀보자'라는 분위기였죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1157.5,
+   "en": "And someone would think about that bully in school, the other would think about that boyfriend that cheated or whatever. Okay. And some would think about very painful situations.",
+   "ko": "누구는 학교 폭력 가해자를 생각하고, 누구는 바람피운 남자친구 같은 걸 생각하겠죠. 아주 고통스러운 상황들을 떠올리는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1168.3,
+   "en": "Then I tell them that we've invented a technology that has the ability not to erase it from your memory, but to erase that event from space time. So completely remove it.",
+   "ko": "그다음 저는 기억에서 지우는 게 아니라 시공간에서 그 사건 자체를 지워버리는 기술을 발명했다고 말합니다. 완전히 삭제하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1178.8,
+   "en": "And I would ask people how many of you would choose to erase it every one or to raise their hand.",
+   "ko": "그리고 사람들에게 '그걸 지우고 싶은 사람?'이라고 물으면 다들 손을 듭니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1183.7,
+   "en": "And then I would say, but the only problem is that if we erase it, we will erase everything that happens as a result.",
+   "ko": "그러면 저는 이렇게 말하죠. '하지만 유일한 문제는 그걸 지우면 그 결과로 일어난 모든 일도 지워진다는 점입니다'라고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1190.5,
+   "en": "That friend that you met, that lesson that you learned, that whatever, anything that happened as a result of that event will be erased in the process.",
+   "ko": "그 일 덕분에 만난 친구, 깨달은 교훈, 그 무엇이든 그 사건의 결과로 일어난 모든 것이 그 과정에서 함께 지워지는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1200.9,
+   "en": "Who would still want to go through the experiment? 98% would put their hands down.",
+   "ko": "'그래도 이 실험을 하고 싶은 분?' 물으면 98%는 손을 내립니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1208.2,
+   "en": "And the reason is very interestingly, any suffering that you went through in life is what made you the person that you are.",
+   "ko": "그 이유는 매우 흥미롭게도, 당신이 겪은 모든 고통이 바로 지금의 당신을 만들었기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1215.6,
+   "en": "And unless you really, really dislike the person that you are, then you're grateful for all the pain that you went through.",
+   "ko": "자신의 모습을 정말 싫어하는 게 아니라면, 자신이 겪어온 모든 고통에 감사하게 되는 법이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1223.1,
+   "en": "And it's quite interesting because you always look back at those events and you go like it was very painful then, but it's actually wonderful now.",
+   "ko": "참 흥미로운 건, 항상 그런 일들을 돌아보며 '그땐 정말 아팠지만 지금 보니 참 소중한 경험이었어'라고 하게 된다는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1232.1,
+   "en": "And then if you see this and you see it with clarity, you know what you should ask yourself. You should ask yourself, so why am I so upset about this event now?",
+   "ko": "이걸 명확히 깨닫는다면 스스로에게 이렇게 물어봐야 합니다. '그럼 지금 일어난 이 일 때문에 내가 왜 이렇게 힘들어하는 거지?'",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1242.4,
+   "en": "That one that's hurting me now is going to be wonderful then. I just have to accept that the only way that we progress to enlightenment in life is to suffer.",
+   "ko": "'지금 나를 아프게 하는 이 일도 나중엔 소중해질 텐데.' 인생에서 우리가 깨달음으로 나아가는 유일한 길은 고통을 겪는 것이라는 걸 받아들여야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1254.9,
+   "en": "I have to accept that. And if I can accept that, then suffering doesn't become suffering anymore. Suffering becomes part of the video game.",
+   "ko": "그걸 받아들여야 해요. 그걸 받아들일 수 있다면 고통은 더 이상 고통이 아닙니다. 고통은 비디오 게임의 일부가 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1264.0,
+   "en": "Yeah, life school, you know, in a work school, whatever you want to call it.",
+   "ko": "네, 인생 학교랄까, 내면의 학교랄까, 무엇이라 부르든 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1267.9,
+   "en": "Yes.",
+   "ko": "맞습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1270.1,
+   "en": "We did cover this concept of happiness being a choice in detail on our first conversation.",
+   "ko": "행복은 선택이라는 이 개념은 첫 번째 대화에서 자세히 다루었었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1276.9,
+   "en": "But let me just tie a loop in something. You said right at the start when you were explaining this idea that happiness is a choice, you brought up the rain.",
+   "ko": "그런데 하나만 짚고 넘어가죠. 행복은 선택이라는 아이디어를 설명하시면서 처음에 비 이야기를 하셨잖아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1286.8,
+   "en": "And saying, I apologize for Britain, but yes.",
+   "ko": "영국 분들에게는 미안하지만, 네 그랬죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1290.0,
+   "en": "No, no, but the rain example here. If it's your ex-girlfriend's wedding, you're happy.",
+   "ko": "아뇨, 그 비 예시 말이에요. 전 여자친구의 결혼식 날 비가 오면 행복할 거라고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1295.2,
+   "en": "Yeah.",
+   "ko": "네.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1295.3,
+   "en": "And I think you were saying that to sort of illustrate the point that the rain is neutral. It depends what it signifies and what perspective you're taking on it.",
+   "ko": "비는 중립적이고, 그것이 무엇을 의미하는지 그리고 어떤 관점을 갖느냐에 달려 있다는 점을 설명하려고 하신 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1303.2,
+   "en": "But if we just go back to that for a minute, if you're happy that it's raining on your ex-girlfriend's wedding day.",
+   "ko": "그런데 그 부분으로 잠시 돌아가서, 전 여자친구의 결혼식에 비가 온다고 해서 행복하다면 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1309.7,
+   "en": "You need to do some work.",
+   "ko": "내면 공부를 좀 더 하셔야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1310.6,
+   "en": "You need to do some work. You're being tied in your mind to the past.",
+   "ko": "맞아요, 노력이 필요하죠. 마음이 과거에 묶여 있는 거니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1314.2,
+   "en": "You have no idea how many times I said that example. You're the first one that picks that up.",
+   "ko": "제가 이 예시를 얼마나 많이 들었는지 모르실 거예요. 그걸 짚어낸 분은 당신이 처음이네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1319.5,
+   "en": "Absolutely. You know what? You're holding on to something. You haven't moved on. You haven't let go. And you know who's suffering?",
+   "ko": "백번 맞습니다. 그거 아세요? 무언가를 붙잡고 있는 거예요. 나아가지 못하고 놓아주지 못한 거죠. 그리고 누가 고통받고 있는지 아세요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1328.2,
+   "en": "Yeah, you're suffering.",
+   "ko": "네, 본인이 고통받고 있는 거죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1329.0,
+   "en": "You're not her. She doesn't even know that you're suffering. But you're even checking the weather forecasts on her wedding day. That's the problem.",
+   "ko": "그 여자가 아니에요. 그녀는 당신이 괴로워하는 줄도 모릅니다. 그런데 당신은 그녀의 결혼식 날 일기 예보까지 확인하고 있잖아요. 그게 문제입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1336.2,
+   "en": "Exactly. It's quite interesting that holding on to a grudge only hurts you. Never hurts the other person.",
+   "ko": "정확합니다. 원한을 품는 게 상대가 아니라 오직 자신에게만 상처를 준다는 건 참 흥미롭죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1343.3,
+   "en": "I don't remember was it Nelson Mandela or Gandhi, one of the two, who basically said it's like drinking poison and hoping the other person would die.",
+   "ko": "넬슨 만델라였는지 간디였는지 기억은 안 나지만, 둘 중 한 분이 그건 독을 마시면서 상대가 죽기를 바라는 것과 같다고 하셨죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1351.6,
+   "en": "It's not very clever when you really think about it. Just forgive, accept that life comes with stories and benefits and just enjoy that you've moved to another experience.",
+   "ko": "정말 생각해보면 별로 똑똑한 짓이 아니에요. 그냥 용서하고, 인생에는 여러 이야기와 이점이 따른다는 걸 받아들이고, 이제 다른 경험으로 넘어갔다는 사실을 즐기세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1364.5,
+   "en": "You've got such a wealth of experience and knowledge about the human experience and what are the ingredients to live a happy and contented life.",
+   "ko": "당신은 인간의 경험, 그리고 행복하고 만족스러운 삶을 살기 위한 요소들에 대해 정말 풍부한 경험과 지식을 가지고 계시네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1377.4,
+   "en": "For someone who has been listening to us talk and it's realized that they're not as happy as they could be. What would you say to them?",
+   "ko": "우리의 대화를 들으면서 자신이 생각만큼 행복하지 않다는 걸 깨달은 분들에게 어떤 말씀을 해주고 싶으신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1387.2,
+   "en": "Love, compassion and gratitude. Love, compassion and gratitude. These are the three ingredients.",
+   "ko": "사랑, 자비, 그리고 감사입니다. 사랑, 자비, 감사가 그 세 가지 요소입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1393.9,
+   "en": "Okay. Anyone who manages to find those in their life will be fine. So love is clear.",
+   "ko": "좋습니다. 삶에서 이 세 가지를 찾을 수 있는 사람이라면 괜찮을 겁니다. 우선 사랑은 명확하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1401.4,
+   "en": "Love is the only universal language that we speak to, that we use to speak to each other, outside our physical form.",
+   "ko": "사랑은 우리의 육체적 형상을 벗어나 서로 소통할 때 사용하는 유일한 보편적 언어입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1410.5,
+   "en": "Compassion is the only, so that's the feminine side, believe it or not, the being side of us.",
+   "ko": "자비는, 믿기 어렵겠지만 우리 존재의 여성적인 측면, 즉 존재함의 측면입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1416.2,
+   "en": "The pure feminine is that ability to feel for someone, to be in a state of connecting to someone.",
+   "ko": "순수한 여성성이란 타인의 감정을 느끼고 타인과 연결된 상태에 머무는 능력입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1424.8,
+   "en": "Compassion is the action side of it. It's the masculine side of who we are.",
+   "ko": "자비는 그 행동의 측면입니다. 우리 내면의 남성적인 측면이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1428.8,
+   "en": "So if we look at the rest of humanity, the only way to deal with humanity, if you ask me, is love on the feminine and compassion on the masculine, to make a change, to alleviate the pain and the suffering of others. That's compassion.",
+   "ko": "그러니 인류 전체를 본다면, 여성적인 사랑과 남성적인 자비로 변화를 만들고 타인의 고통과 아픔을 덜어주는 것이 인류를 대하는 유일한 길입니다. 그것이 바로 자비죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1444.6,
+   "en": "And gratitude is your way of looking at yourself. Is your way of actually seeing your gifts, of actually seeing your blessings, so that your happiness equation is fixed,",
+   "ko": "그리고 감사는 자신을 바라보는 방식입니다. 자신의 재능과 축복을 실제로 발견하는 방식이죠. 그렇게 해서 당신의 행복 방정식이 맞춰지게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1456.3,
+   "en": "not just because events are meeting expectations, but that events are beating expectations so much that you're grateful for them. Okay, and you settle in a state of, it's all okay.",
+   "ko": "단순히 사건이 기대에 부합해서가 아니라, 사건이 기대를 훨씬 뛰어넘어 감사함을 느끼게 되는 것입니다. 그러면 '다 괜찮아'라는 상태에 안착하게 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1468.7,
+   "en": "Yeah, it's never gonna be perfect. It's never gonna be perfect, but it's so cool to be part of this game.",
+   "ko": "네, 결코 완벽할 수는 없을 겁니다. 절대 완벽해지지는 않겠지만, 이 게임의 일원이 된다는 건 정말 멋진 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1477.7,
+   "en": "I really hope you enjoyed this week's bite size. Do you spread the love by sharing this episode with your friends and family.",
+   "ko": "이번 주 'Bite Size'를 즐겁게 들으셨기를 바랍니다. 친구나 가족들에게 이 에피소드를 공유하며 사랑을 전해주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1486.6,
+   "en": "And if you want more, why don't you go back and listen to the original full conversation with my guest. I hope you have a wonderful weekend.",
+   "ko": "더 많은 내용이 궁금하시다면 게스트와 나누었던 원래의 전체 대화를 다시 들어보시는 건 어떨까요? 행복한 주말 보내시길 바랍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1495.8,
+   "en": "Make sure you have pressed subscribe. And I'll be back next week with my new conversation on Wednesday and the latest episode of Bite Size, next Friday.",
+   "ko": "구독 버튼 누르는 것 잊지 마시고요. 저는 다음 주 수요일에 새로운 대화로, 그리고 다음 주 금요일에 최신 'Bite Size' 에피소드로 돌아오겠습니다.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
