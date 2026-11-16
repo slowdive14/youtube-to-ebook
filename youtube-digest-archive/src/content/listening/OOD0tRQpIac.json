@@ -1,0 +1,1057 @@
+{
+ "id": "OOD0tRQpIac",
+ "title": "Finally, a Vaccine for Cancer",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=OOD0tRQpIac",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/cfacb2c0-58cc-4a37-b24f-4fe14fce220e/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=cfacb2c0-58cc-4a37-b24f-4fe14fce220e&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/64/66/ab6466a9-9a7d-e20e-7a3d-bc5be37d29ce/mza_15084852813176276273.jpg/600x600bb.jpg",
+ "duration": 1448,
+ "releaseDate": "2026-11-16T10:45:00Z",
+ "addedAt": "2026-11-16",
+ "segments": [
+  {
+   "start": 0.2,
+   "en": "Hi, I'm Andrew Osorkin. I cover business and policy for DealBook, a daily newsletter at The New York Times.",
+   "ko": "안녕하세요, 앤드류 오소킨입니다. 뉴욕타임스의 일간 뉴스레터인 딜북에서 비즈니스와 정책 분야를 담당하고 있습니다.",
+   "speaker": "Andrew Osorkin",
+   "ad": true
+  },
+  {
+   "start": 7.5,
+   "en": "On November 18th, I'm going to be interviewing some of the most consequential leaders in business, politics and culture, including JD Vance, Elon Musk, Christine Lagarde, Sola Mahfouz and Mahmood Mamdani and many others live on stage at the DealBook Summit in New York City.",
+   "ko": "11월 18일, 저는 뉴욕시에서 열리는 딜북 서밋 무대에서 JD 밴스, 일론 머스크, 크리스틴 라가르드, 솔라 마푸즈, 마무드 맘다니 등 비즈니스, 정치, 문화계의 가장 영향력 있는 지도자들을 직접 인터뷰할 예정입니다.",
+   "speaker": "Andrew Osorkin",
+   "ad": true
+  },
+  {
+   "start": 22.0,
+   "en": "We're going to be live streaming select interviews at nytimes.com and in the Times app on November 18th. I hope you'll tune in. You won't want to miss it.",
+   "ko": "11월 18일 nytimes.com과 타임스 앱을 통해 엄선된 인터뷰를 라이브 스트리밍할 예정입니다. 꼭 시청해 주세요. 절대 놓치고 싶지 않으실 겁니다.",
+   "speaker": "Andrew Osorkin",
+   "ad": true
+  },
+  {
+   "start": 82.0,
+   "en": "I'm Michael.",
+   "ko": "마이클입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 82.7,
+   "en": "Thanks for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 83.7,
+   "en": "My pleasure. You come to us with some relatively big news from the world of cancer treatment, and everyone is fascinated and invested in us figuring out how to treat cancer.",
+   "ko": "별말씀을요. 암 치료계에서 꽤 큰 소식을 가지고 오셨는데요, 암을 어떻게 치료할지 알아내는 일에 모든 사람이 매료되어 있고 많은 노력을 기울이고 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 95.7,
+   "en": "What are the developments?",
+   "ko": "어떤 진전이 있었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 97.4,
+   "en": "Yeah, I do have big news, and that is that really a first of its kind vaccine to treat cancer was shown to work.",
+   "ko": "네, 큰 소식이 있습니다. 바로 암을 치료하기 위한 최초의 백신이 효과가 있는 것으로 나타났다는 사실입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 106.1,
+   "en": "And explain why that's such a big deal.",
+   "ko": "그게 왜 그렇게 중요한 일인지 설명해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 107.5,
+   "en": "So, scientists have tried and failed for decades, if not longer, to develop a vaccine that could be used to treat cancer. But it's really a very challenging thing.",
+   "ko": "과학자들은 암 치료에 사용할 수 있는 백신을 개발하기 위해 수십 년, 아니 그 이상 노력해 왔지만 실패해 왔습니다. 정말 매우 어려운 일이기 때문이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 119.7,
+   "en": "Why?",
+   "ko": "왜 그런가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 120.3,
+   "en": "You know, if you think about how vaccines work in infectious disease, we give somebody a vaccine to prevent the disease.",
+   "ko": "전염병에서 백신이 어떻게 작용하는지 생각해 보면, 우리는 질병을 예방하기 위해 백신을 접종합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 129.9,
+   "en": "And flu, COVID.",
+   "ko": "독감이나 코로나처럼 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 131.5,
+   "en": "Correct. It's smallpox. And cancer is even within a specific cancer, it's very varied.",
+   "ko": "맞습니다. 천연두도 그렇죠. 그런데 암은 특정한 암 안에서도 매우 다양합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 139.1,
+   "en": "It's very heterogenous. One person's cancer is not exactly the same as the next person's cancer.",
+   "ko": "매우 이질적이죠. 한 사람의 암이 다른 사람의 암과 똑같지 않습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 143.6,
+   "en": "So you can't easily vaccinate all individuals against something that's going to be so individualized.",
+   "ko": "그래서 그렇게 개별화된 대상에 대해 모든 사람에게 쉽게 백신을 접종할 수는 없습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 151.2,
+   "en": "Right. Cancer by definition is the extremely unique mutation of a cell that becomes cancerous in your body.",
+   "ko": "맞습니다. 정의상 암이란 우리 몸 안에서 암세포로 변하는 세포의 극히 고유한 돌연변이입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 157.8,
+   "en": "And sounds like you're saying the impediment to a cancer vaccine is that you can't immunize the human body against the possibility so far that a cell is going to go rogue.",
+   "ko": "그러니까 암 백신의 장애물은 세포가 변종이 될 가능성에 대해 인체를 면역화할 수 없다는 점이라는 말씀이시군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 169.7,
+   "en": "Right. I think here the big breakthrough is actually being able to develop a vaccine that does respond to that individual nature of cancer.",
+   "ko": "맞습니다. 이번의 큰 돌파구는 암의 개별적인 특성에 반응하는 백신을 실제로 개발할 수 있게 되었다는 점입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 179.9,
+   "en": "So what the scientists were able to do here was treat people who already have cancer with a vaccine that is individualized to that cancer.",
+   "ko": "그래서 과학자들은 이미 암에 걸린 사람들을 그 암에 맞춰 개별화된 백신으로 치료할 수 있었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 189.3,
+   "en": "So very much changing the timeline of a vaccine from before someone gets sick to after they've already gotten cancer.",
+   "ko": "백신의 타임라인을 병에 걸리기 전이 아니라 이미 암에 걸린 후로 완전히 바꾼 것이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 199.2,
+   "en": "Yeah.",
+   "ko": "그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 199.7,
+   "en": "The way we traditionally think about vaccines against infectious disease being given when somebody is healthy and has no exposure, and this is a different paradigm where you're using it to treat cancer, once somebody has already been diagnosed with it.",
+   "ko": "전통적인 전염병 백신은 건강하고 노출되지 않았을 때 접종하는 것으로 생각하지만, 이것은 이미 진단을 받은 후에 암을 치료하기 위해 사용하는 다른 패러다임입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 213.9,
+   "en": "Okay, so let's get into the specifics of exactly how this has worked.",
+   "ko": "좋습니다, 그럼 이것이 정확히 어떻게 작용했는지 구체적으로 알아보죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 218.0,
+   "en": "So basically what's happened now is that scientists have created a vaccine against melanoma.",
+   "ko": "기본적으로 지금 일어난 일은 과학자들이 흑색종 백신을 개발했다는 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 224.7,
+   "en": "Skin cancer.",
+   "ko": "피부암 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 225.3,
+   "en": "Skin cancer. So they took patients more than 1,100 who had melanoma, stage two, three, or four.",
+   "ko": "피부암요. 그래서 2기, 3기 또는 4기 흑색종을 앓고 있는 1,100명 이상의 환자들을 대상으로 임상시험을 진행했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 232.1,
+   "en": "Pretty serious cancer.",
+   "ko": "꽤 심각한 암이네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 232.9,
+   "en": "Yes. They took patients who have been diagnosed with melanoma, had it surgically removed.",
+   "ko": "네. 흑색종 진단을 받고 수술로 제거한 환자들을 대상으로 했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 237.5,
+   "en": "They basically have minimal disease left in their body, but they are at high risk for it to come back. And so they thought this was the right window to vaccinate.",
+   "ko": "그들은 몸에 남아있는 병변이 거의 없지만 재발 위험이 높은 상태입니다. 그래서 이때가 백신을 접종하기에 적절한 시기라고 판단한 것이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 248.7,
+   "en": "And what they do is when they remove the tumor, they sequence its DNA. So they can identify all of the mutations, which are the errors or changes in the DNA, that the tumor harbors.",
+   "ko": "그들이 하는 일은 종양을 제거할 때 그 DNA를 시퀀싱하는 것입니다. 그러면 종양이 가지고 있는 DNA의 오류나 변화인 모든 돌연변이를 식별할 수 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 260.5,
+   "en": "So they're really getting down to the genetically specific elements of an individual's cancer.",
+   "ko": "개별 환자의 암에 대한 유전적으로 특정한 요소들을 파헤치는 것이군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 266.6,
+   "en": "Right.",
+   "ko": "맞습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 268.0,
+   "en": "And then what they're doing is they're trying to predict which of those mutations, because in melanoma, a cancer cell can have hundreds of mutations, they're trying to predict which one of those our immune system can see and recognize and then attack.",
+   "ko": "그런 다음 그들이 하는 일은 그 돌연변이들 중 어떤 것을 예측하는 것인데, 흑색종의 암세포는 수백 개의 돌연변이를 가질 수 있기 때문에, 우리 면역 체계가 어떤 돌연변이를 발견하고 인식해서 공격할 수 있을지 예측하려고 노력합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 283.7,
+   "en": "So basically the way our immune system does that is these mutations produce proteins on the cell surface, which kind of are like enemy flags to our immune system.",
+   "ko": "기본적으로 우리 면역 체계가 그렇게 하는 방식은, 이러한 돌연변이들이 세포 표면에 단백질을 생성하고, 이것이 우리 면역 체계에 적군 깃발 같은 역할을 하는 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 297.5,
+   "en": "So our immune cells are going around the body and when they see these unusual abnormal foreign proteins like enemy flags, they know to go and attack the cells.",
+   "ko": "그래서 우리 면역 세포들이 몸을 돌아다니다가 적군 깃발 같은 특이하고 비정상적인 외래 단백질을 발견하면, 그 세포들을 공격해야 한다는 것을 알게 됩니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 308.9,
+   "en": "But for a number of reasons, when people get cancer, the immune system doesn't do this completely. Some tumors, they are able to hide from the immune system.",
+   "ko": "하지만 여러 가지 이유로 사람들이 암에 걸리면 면역 체계가 이 일을 완벽하게 수행하지 못합니다. 어떤 종양들은 면역 체계로부터 숨을 수 있거든요.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 318.1,
+   "en": "But the researchers said, okay, we see what are all these mutations that produce these enemy flags, which ones do we think are the most likely to be perceived as an enemy flag by the immune system?",
+   "ko": "하지만 연구원들은 '좋아, 이 적군 깃발을 만드는 돌연변이들이 무엇인지 알았으니, 어떤 것들이 면역 체계에 의해 적군 깃발로 인식될 가능성이 가장 높을까?'라고 생각했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 330.6,
+   "en": "They picked, I think, up to 34. They're trying to maximize their chances. Wow.",
+   "ko": "제 생각엔 최대 34개까지 선택한 것 같아요. 성공 확률을 극대화하려는 것이죠. 와.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 335.5,
+   "en": "And instead of putting the proteins, those enemy flags directly into the body, they put mRNA in.",
+   "ko": "그리고 그 단백질들, 즉 적군 깃발들을 몸에 직접 넣는 대신 mRNA를 넣었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 342.2,
+   "en": "mRNA is messenger RNA. It's something we produce in our bodies naturally. It's instructions from our DNA.",
+   "ko": "mRNA는 메신저 RNA입니다. 우리 몸에서 자연적으로 생성되는 것으로, 우리 DNA가 보내는 지침입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 349.4,
+   "en": "DNA to make proteins. I remember this from AP biology.",
+   "ko": "단백질을 만들기 위한 DNA군요. AP 생물학 수업 때 배웠던 게 기억나네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 353.1,
+   "en": "Right. So what the scientists are inserting in the body in the vaccine is this mRNA encoding up to 34 of these enemy flags.",
+   "ko": "맞습니다. 그래서 과학자들이 백신을 통해 몸에 삽입하는 것은 이 적군 깃발들 중 최대 34개를 암호화하는 mRNA입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 363.2,
+   "en": "Wow.",
+   "ko": "세상에.",
+   "speaker": "Host"
+  },
+  {
+   "start": 364.1,
+   "en": "And science man. Yes. And they're personalized to every individual in the hopes that the immune system will see some of those enemy flags mount a response and attack the tumor cells.",
+   "ko": "과학의 힘이죠. 네. 그리고 면역 체계가 그 적군 깃발 중 일부를 보고 반응을 일으켜 종양 세포를 공격하기를 바라는 마음으로 모든 개인에게 맞춤화되었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 375.6,
+   "en": "Let me just summarize, because this is both fascinating and complicated.",
+   "ko": "정말 흥미로우면서도 복잡하니까 제가 한번 요약해 보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 385.0,
+   "en": "These scientists, they are taking a little piece of this melanoma cancer, and they are studying these proteins and then creating a vaccine that inserts instructions for the the body to recreate those proteins so that our immune system will see them waving their big protein red flags, see them as enemies, and attack them.",
+   "ko": "이 과학자들은 흑색종 암의 작은 조각을 가져와서 이 단백질들을 연구한 다음, 우리 몸이 그 단백질들을 다시 만들어내도록 지침을 삽입하는 백신을 만드는 것입니다. 그러면 우리 면역 체계가 커다란 단백질 붉은 깃발을 흔드는 그들을 적군으로 보고 공격하게 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 414.4,
+   "en": "And in theory, keep that cancer at bay.",
+   "ko": "그리고 이론적으로는 암이 더 이상 번지지 못하게 막는 것이고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 418.9,
+   "en": "You got it.",
+   "ko": "정확합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 420.2,
+   "en": "Okay. So what happens when this magical process results in a vaccine that's inserting these mRNA instructions into these folks who have melanoma.",
+   "ko": "알겠습니다. 그럼 이 마법 같은 과정을 통해 흑색종 환자들에게 mRNA 지침을 삽입하는 백신이 만들어지면 어떤 일이 벌어지나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 432.3,
+   "en": "So in this study, the people with melanoma who got the vaccine received nine doses. It's a lot of vaccine.",
+   "ko": "이번 연구에서 백신을 접종한 흑색종 환자들은 9번의 접종을 받았습니다. 백신 양이 꽤 많죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 439.4,
+   "en": "Yeah, I think the idea is to keep boosting the immune response.",
+   "ko": "네, 면역 반응을 계속 강화하려는 의도인 것 같네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 443.4,
+   "en": "And so they received one dose every three weeks.",
+   "ko": "그래서 3주마다 한 번씩 접종을 받았습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 446.8,
+   "en": "You know, I talked to patients who received it and they might have had a sore arm or flu-like symptoms for a day or two, but basically very minimal side effects for a cancer therapy.",
+   "ko": "백신을 맞은 환자들과 이야기를 나눠봤는데, 하루 이틀 정도 팔이 아프거나 독감 같은 증상이 있었을 수도 있지만, 기본적으로 암 치료법 치고는 부작용이 매우 미미했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 456.3,
+   "en": "And then the researchers followed them.",
+   "ko": "그러고 나서 연구원들은 그들을 추적 관찰했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 458.3,
+   "en": "How long did they follow them for?",
+   "ko": "얼마나 오랫동안 추적 관찰했나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 459.6,
+   "en": "They have data from this trial for two years, and they were able to show that the people who received the vaccine were 42% less likely to have the cancer come back than the people who did not.",
+   "ko": "이 임상시험에서 2년 동안의 데이터를 확보했는데, 백신을 맞은 사람들이 맞지 않은 사람들보다 암 재발 가능성이 42% 낮다는 것을 보여줄 수 있었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 470.6,
+   "en": "42% less likely to have the cancer come back. That seems like a big number, is it?",
+   "ko": "암 재발 가능성이 42%나 낮아진다니요. 꽤 큰 수치인 것 같은데, 그런가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 476.1,
+   "en": "Yeah. The experts I talk to say that's on par with some of their biggest breakthroughs.",
+   "ko": "네. 제가 만난 전문가들은 그 수치가 역대 가장 큰 돌파구 중 일부와 맞먹는 수준이라고 말합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 480.4,
+   "en": "Wow. Wow.",
+   "ko": "와, 대단하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 481.0,
+   "en": "And the researchers also found that the patients who receive the vaccine were less likely not only to have the cancer come back, but they were also less likely to have it spread far in the body or become metastatic.",
+   "ko": "그리고 연구원들은 백신을 맞은 환자들이 암이 재발할 확률이 낮을 뿐만 아니라, 몸의 먼 곳으로 퍼지거나 전이될 확률도 낮다는 것을 발견했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 493.2,
+   "en": "So, if it came back, it was less likely to become the worst kind of cancer, metastatic cancer.",
+   "ko": "그러니까 암이 재발하더라도 가장 최악의 형태인 전이암으로 진행될 가능성이 적었다는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 499.6,
+   "en": "Right. But this is two years of data. So they don't have overall long-term survival data.",
+   "ko": "맞습니다. 하지만 이건 2년 동안의 데이터입니다. 그래서 전반적인 장기 생존 데이터는 아직 없죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 505.4,
+   "en": "And scientists need to keep following the patients for years to see if the results hold up. But it is a big deal.",
+   "ko": "그리고 과학자들은 이 결과가 계속 유지되는지 확인하기 위해 수년 동안 환자들을 계속 추적 관찰해야 합니다. 하지만 이건 큰 사건입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 511.4,
+   "en": "So because of this success, the companies that have made this vaccine, which is Merck and Moderna, are planning to apply for FDA approval.",
+   "ko": "이러한 성공 덕분에 이 백신을 만든 회사인 머크와 모더나는 FDA 승인을 신청할 계획입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 520.2,
+   "en": "And the big question is, will it work for other cancers? If so, which ones could it one day be used to prevent cancer upfront?",
+   "ko": "그리고 관건은 다른 암에도 효과가 있을 것인가 하는 점입니다. 만약 그렇다면, 어떤 암에 대해 미래에 암 발생을 원천 차단하는 데 사용될 수 있을까요?",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 530.6,
+   "en": "And beyond that, this is a big breakthrough for the idea that vaccines might work to treat cancer. and that's something that scientists have been trying to do and failing it for more than 100 years.",
+   "ko": "그뿐만 아니라, 이것은 백신이 암을 치료하는 데 효과가 있을 수 있다는 아이디어에 대한 큰 돌파구입니다. 과학자들이 100년 넘게 시도해 왔지만 실패해 왔던 일이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 547.6,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 550.9,
+   "en": "Hi, my name is Dana. I am a subscriber to The New York Times, but my husband isn't.",
+   "ko": "안녕하세요, 제 이름은 데이나입니다. 저는 뉴욕타임스 구독자이지만 남편은 아닙니다.",
+   "speaker": "Dana",
+   "ad": true
+  },
+  {
+   "start": 556.8,
+   "en": "And it would be really nice to be able to share a recipe or an article or compete with him in Wordle or Connections. Thank you.",
+   "ko": "레시피나 기사를 공유하거나 워들이나 커넥션즈 게임으로 남편과 대결할 수 있다면 정말 좋을 것 같아요. 감사합니다.",
+   "speaker": "Dana",
+   "ad": true
+  },
+  {
+   "start": 567.2,
+   "en": "Dana, we heard you. It's why we created The New York Times Family Subscription.",
+   "ko": "데이나 님, 의견 감사합니다. 그래서 저희가 뉴욕타임스 가족 구독 서비스를 만들었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 571.4,
+   "en": "One subscription, up to four separate logins for anyone in your life. Find out more at nytimes.com/family.",
+   "ko": "한 번의 구독으로 소중한 사람 최대 4명까지 별도의 로그인을 사용할 수 있습니다. nytimes.com/family에서 더 자세히 알아보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 581.6,
+   "en": "Nina, tell us the story of what sounds like 100 years of frustrating failure when it comes to a vaccine to treat cancer.",
+   "ko": "니나, 암 치료 백신과 관련해 100년 동안의 좌절스러운 실패의 역사에 대해 이야기해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 590.9,
+   "en": "And then let's talk about whether or not what has happened with this vaccine that works reasonably well against melanoma might represent the beginning of an entirely new era in vaccinating against cancer.",
+   "ko": "그러고 나서 흑색종에 꽤 효과가 있는 이 백신에 일어난 일이 암 예방 접종의 완전히 새로운 시대의 시작을 의미할 수 있을지에 대해서도 이야기해 봅시다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 604.0,
+   "en": "So if you ask researchers who work in this field, when was the start, a lot of people will point you to Dr. William Coley, a bone surgeon in the 1890s.",
+   "ko": "이 분야에서 일하는 연구원들에게 언제 시작되었는지 물어보면, 많은 사람이 1890년대의 정형외과 의사인 윌리엄 콜리 박사를 지목할 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 615.9,
+   "en": "Wow, we're talking really long time ago.",
+   "ko": "와, 정말 오래전 이야기네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 618.3,
+   "en": "Yeah, more than a hundred years. And he kind of stumbled into this principle by accident.",
+   "ko": "네, 100년도 더 전이죠. 그는 우연히 이 원리를 발견하게 되었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 626.2,
+   "en": "He had read about a patient who had spontaneous regression of their tumor, meaning it by itself started to shrink and it happened after the patient got infected with a bacteria and had a fever.",
+   "ko": "그는 종양이 자연적으로 퇴행한 환자에 대한 글을 읽었는데, 이는 환자가 박테리아에 감염되어 열이 난 후에 종양이 저절로 줄어들기 시작했다는 것을 의미했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 636.4,
+   "en": "Hmm, because the immune system was in overdrive.",
+   "ko": "흠, 면역 체계가 과하게 가동되었기 때문이었겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 639.3,
+   "en": "I think that's the hypothesis. He didn't really know that at the time.",
+   "ko": "가설은 그렇습니다. 당시에는 그 사실을 정말 몰랐죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 643.1,
+   "en": "He thought, well, the bacteria has something to do with cancer and what he did start trying to do was inject the tumors with these bacterial mixtures and in a few of the patients he did see tumor regression.",
+   "ko": "그는 박테리아가 암과 관련이 있다고 생각했고, 종양에 이러한 박테리아 혼합물을 주입하기 시작했으며 실제로 몇몇 환자에게서 종양 퇴행을 관찰했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 658.0,
+   "en": "He was figuring something out. He probably didn't know exactly what he was figuring.",
+   "ko": "그는 무언가를 알아내고 있었던 거군요. 정확히 무엇을 알아내고 있는지는 몰랐겠지만요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 660.7,
+   "en": "He didn't know and others also didn't know and probably what might have been happening was the bacteria were stimulating an immune response and because it was being injected right into the tumor those immune cells were also acting on the tumor but he didn't know that at the time and",
+   "ko": "그도 몰랐고 다른 사람들도 몰랐습니다. 아마도 박테리아가 면역 반응을 자극하고 있었고, 종양에 직접 주입되었기 때문에 그 면역 세포들이 종양에도 작용하고 있었을 것입니다. 하지만 그는 당시에는 그 사실을 몰랐고,",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 678.0,
+   "en": "Shortly thereafter it was kind of dismissed as quackery and forgotten and that's partly because other effective treatments came on the scene which were radiation and chemotherapy later on",
+   "ko": "그 직후에 그것은 돌팔이 짓으로 치부되어 잊혔습니다. 나중에 방사선 치료와 화학 요법 같은 다른 효과적인 치료법들이 등장했기 때문이기도 하죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 690.7,
+   "en": "So the idea of a vaccine fell by the wayside.",
+   "ko": "그렇게 백신에 대한 생각은 뒤로 밀려났군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 693.3,
+   "en": "Yeah, it kind of petered out, but fast forward to the 1980s and this idea that the immune system might be used to treat cancer is starting to pick up steam.",
+   "ko": "네, 그렇게 흐지부지되었습니다. 하지만 1980년대로 건너뛰면 면역 체계를 암 치료에 사용할 수 있다는 아이디어가 다시 활기를 띠기 시작합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 703.4,
+   "en": "And it's not necessarily using a vaccine, but finding ways to kind of turn up the immune system, send it into overdrive and realizing that that could be a fruitful treatment.",
+   "ko": "반드시 백신을 사용하는 것은 아니지만, 면역 체계를 강화하고 과도하게 가동할 방법을 찾아내는 것이 유익한 치료법이 될 수 있다는 것을 깨달은 것이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 715.1,
+   "en": "This field is called immunotherapy and the first treatment in that field was approved in, I think, 1986.",
+   "ko": "이 분야를 면역 요법이라고 부르는데, 이 분야의 첫 번째 치료법은 제 기억에 1986년에 승인되었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 721.8,
+   "en": "Okay.",
+   "ko": "그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 722.5,
+   "en": "And then a few key developments happen in the 1990s, the 2000s, the 2010s, that I would say really allowed us to get to where we are today.",
+   "ko": "그러고 나서 1990년대, 2000년대, 2010년대에 몇 가지 핵심적인 발전이 일어나면서 오늘날의 위치에 도달할 수 있게 되었다고 생각합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 731.9,
+   "en": "And what are those?",
+   "ko": "그것들이 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 732.7,
+   "en": "So one is being able to sequence the human genome. I mean, that was a project that originally took many years and hundreds of millions, if not a billion dollars.",
+   "ko": "하나는 인간 게놈을 시퀀싱할 수 있게 된 것입니다. 원래 그 프로젝트는 수년의 시간과 수억 달러, 어쩌면 10억 달러가 드는 프로젝트였습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 743.4,
+   "en": "And now you can sequence an individual genome for hundreds of dollars.",
+   "ko": "그런데 이제는 수백 달러면 개인의 게놈을 시퀀싱할 수 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 749.6,
+   "en": "Right.",
+   "ko": "맞습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 750.3,
+   "en": "And in just a couple of days.",
+   "ko": "게다가 며칠 만에 가능하죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 752.2,
+   "en": "Right. Well, a couple of weeks maybe.",
+   "ko": "네. 뭐, 몇 주 정도 걸릴 수도 있겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 754.0,
+   "en": "Yeah. It's a much faster and cheaper process. So the ability to sequence an individual's genome and an individual cancer genome is really key to being able to find the elements that we can put into a vaccine.",
+   "ko": "네. 훨씬 빠르고 저렴한 과정이 되었습니다. 따라서 개인의 게놈과 개인의 암 게놈을 시퀀싱할 수 있는 능력은 백신에 넣을 수 있는 요소를 찾는 데 정말 핵심적입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 766.0,
+   "en": "Okay. So that's one.",
+   "ko": "알겠습니다. 그게 하나고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 767.6,
+   "en": "Another is the development of a certain kind of immune therapy called immune checkpoint inhibitors.",
+   "ko": "다른 하나는 면역 관문 억제제라고 불리는 특정 종류의 면역 요법의 개발입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 774.5,
+   "en": "And these are basically a class of drugs that take the brakes off of the immune system.",
+   "ko": "이것들은 기본적으로 면역 체계의 브레이크를 풀어주는 약물군입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 780.2,
+   "en": "Like the immune system has a natural way of putting the brakes on when it's responding to some sort of infection or so that you don't like start attacking your own cells or develop some model immune condition and cancer cells kind of hijack that process.",
+   "ko": "면역 체계는 감염에 반응할 때나 자신의 세포를 공격하지 않도록, 혹은 자가면역 질환이 생기지 않도록 자연스럽게 브레이크를 거는 방식이 있는데, 암세포가 그 과정을 가로챕니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 795.0,
+   "en": "And so they're telling the immune system to put the brakes on when actually you want the immune system to be attacking those cells.",
+   "ko": "실제로는 면역 체계가 그 세포들을 공격하기를 원하는데도, 암세포는 면역 체계에 브레이크를 걸라고 말하고 있는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 802.5,
+   "en": "That's right. So the cancer vaccine is given in conjunction with a drug that does this.",
+   "ko": "맞습니다. 그래서 암 백신은 이 역할을 하는 약물과 병용 투여됩니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 809.9,
+   "en": "And in combination, you get something like that 42% reduction in the recurrence of the melanoma.",
+   "ko": "그렇게 병용했을 때 흑색종 재발을 42% 감소시키는 결과가 나오는 것이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 816.6,
+   "en": "Yeah. For two years.",
+   "ko": "네. 2년 동안 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 817.9,
+   "en": "Yes. I mean, and that was a significant change in our understanding was realizing, okay, you might produce a vaccine that elicits an immune response, like in a petri dish, but researchers weren't actually seeing a clinical benefit.",
+   "ko": "네. 우리의 이해에 있어 중요한 변화는, 배양 접시 안에서처럼 면역 반응을 이끌어내는 백신을 만들 수는 있지만, 연구원들이 실제로 임상적 이점을 보지는 못했다는 점을 깨달은 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 833.2,
+   "en": "And one of the reasons was that the immune system was, you know, inhibited.",
+   "ko": "그 이유 중 하나가 면역 체계가 억제되어 있었기 때문이라는 거죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 838.4,
+   "en": "Yes.",
+   "ko": "그렇군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 839.2,
+   "en": "And so being able to de-inhibit the immune system, being able to take the brakes off the immune system, enabled the vaccine to work.",
+   "ko": "그래서 면역 체계의 억제를 풀고 브레이크를 제거할 수 있게 되면서 백신이 효과를 발휘할 수 있게 된 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 847.6,
+   "en": "And then there are a lot of thoughts about what the best way to give that vaccine would be.",
+   "ko": "그리고 그 백신을 투여하는 가장 좋은 방법이 무엇인지에 대해서도 많은 의견이 있었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 853.5,
+   "en": "People thought maybe DNA, people thought maybe the actual proteins themselves, maybe mRNA, and none of those is easy or cheap.",
+   "ko": "어떤 사람들은 DNA를, 어떤 사람들은 실제 단백질 자체를, 어떤 사람들은 mRNA를 생각했지만, 그 어느 것도 쉽거나 저렴하지 않았습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 862.1,
+   "en": "But with the COVID experience, scientists and Moderna in particular learned how to manufacture mRNA vaccines quickly and at scale.",
+   "ko": "하지만 코로나 경험을 통해 과학자들, 특히 모더나는 mRNA 백신을 신속하고 대규모로 제조하는 방법을 배웠습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 871.1,
+   "en": "And so that really enabled scientists to figure out how to make this customizable mRNA vaccine that's individualized to somebody's cancer.",
+   "ko": "그 덕분에 과학자들은 누군가의 암에 맞게 개별화된 이 맞춤형 mRNA 백신을 만드는 방법을 알아낼 수 있었습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 880.1,
+   "en": "So the world of science needed to go through a lot, including the human genome project, which as you said took so long.",
+   "ko": "그러니까 과학계는 말씀하신 대로 아주 오랜 시간이 걸린 인간 게놈 프로젝트를 포함해 많은 일을 겪어야 했군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 888.6,
+   "en": "It needed the experience, as you just said, of COVID to master rapid scalable mRNA vaccines.",
+   "ko": "방금 말씀하신 것처럼 신속하고 확장이 가능한 mRNA 백신을 숙달하기 위해 코로나의 경험이 필요했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 898.0,
+   "en": "It needed time and in the case of COVID, trauma to get to this place.",
+   "ko": "이 자리에 오기까지 시간과 코로나의 경우처럼 트라우마가 필요했네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 904.7,
+   "en": "Yeah, there were a lot of advancements that were building on each other over the years and that all kind of came to a head in the last 10 to 15 years.",
+   "ko": "네, 수년간 서로를 토대로 구축된 많은 발전이 있었고, 그 모든 것이 지난 10년에서 15년 사이에 정점에 달했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 917.6,
+   "en": "This is very helpful in understanding how we get here and the scientific process.",
+   "ko": "우리가 여기까지 오게 된 과정과 과학적 과정을 이해하는 데 매우 도움이 됩니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 922.2,
+   "en": "I think the question that anyone who is listening to this episode now has is what if I have cancer?",
+   "ko": "지금 이 에피소드를 듣고 있는 모든 분이 가질 질문은 '내가 암에 걸리면 어떻게 될까?'일 것 같습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 929.9,
+   "en": "I know someone I love, someone who has cancer and it's not melanoma. It's one of the dozens, if not hundreds of other cancers. What does this development mean for that cancer and for those people?",
+   "ko": "내가 사랑하는 사람, 혹은 암에 걸린 지인이 있는데 그게 흑색종이 아닐 수도 있죠. 수십, 수백 가지의 다른 암 중 하나일 텐데, 이번 발전이 그 암과 그 사람들에게 어떤 의미가 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 942.9,
+   "en": "I think scientists are a little bit mixed on what they would tell you based on this trial.",
+   "ko": "이번 임상시험 결과를 바탕으로 과학자들이 여러분께 드릴 말씀은 조금 엇갈릴 것 같습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 949.3,
+   "en": "Some say melanoma is a pretty unique cancer. It has a lot of mutations, so it's more easy to be seen by the immune system.",
+   "ko": "어떤 사람들은 흑색종이 꽤 독특한 암이라고 말합니다. 돌연변이가 많아서 면역 체계가 발견하기 더 쉽다는 거죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 958.8,
+   "en": "What works for melanoma may not work for all the other solid tumors, breast cancer, colon cancer, pancreatic cancer.",
+   "ko": "흑색종에 효과가 있는 것이 유방암, 대장암, 췌장암 같은 다른 모든 고형암에 효과가 있지는 않을 수도 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 967.0,
+   "en": "At the same time, there are trials being done in some of these other cancers, probably the most promising one and the one that is being most closely watched is in pancreatic cancer, where a small study of 16 patients showed that patients who received an mRNA vaccine, also again after surgery, were less likely to have it come back within some time period.",
+   "ko": "동시에 다른 암들에 대해서도 임상시험이 진행되고 있는데, 아마도 가장 유망하고 가장 면밀히 관찰되고 있는 것은 췌장암입니다. 16명의 환자를 대상으로 한 소규모 연구에서 수술 후 mRNA 백신을 맞은 환자들이 일정 기간 내에 재발할 확률이 낮다는 결과가 나왔습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 991.3,
+   "en": "That was an early trial, but there is a larger randomized study ongoing, and so that is one that's really being closely watched.",
+   "ko": "그건 초기 임상이었지만 더 큰 규모의 무작위 연구가 진행 중이라 정말 유심히 지켜보고 있는 중입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 999.9,
+   "en": "I think the hope certainly is that researchers can figure out a way to make this work for other cancers as well.",
+   "ko": "연구원들이 다른 암에 대해서도 효과를 볼 수 있는 방법을 찾아낼 수 있기를 바라는 희망은 확실히 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1005.7,
+   "en": "But I have to think that bespoke vaccines of the sort we're talking about here are going to be extremely expensive to produce because instead of a company making a vaccine that that lots and lots of people can use, they're making a vaccine that is for one person.",
+   "ko": "하지만 여기서 우리가 이야기하는 종류의 맞춤형 백신은 생산 비용이 엄청나게 비쌀 것이라는 생각이 듭니다. 수많은 사람이 사용할 수 있는 백신을 만드는 대신 한 사람을 위한 백신을 만드는 것이니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1022.4,
+   "en": "And by definition, that means it's not gonna be super cost efficient, right?",
+   "ko": "그리고 정의상 그것은 비용 효율이 그리 높지 않을 것이라는 의미겠죠, 맞나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1026.9,
+   "en": "Right, they're making an individualized vaccine for an individual person. So any vaccine like this would be quite expensive.",
+   "ko": "맞습니다, 개개인을 위해 개별화된 백신을 만드는 것이죠. 그래서 이런 종류의 백신은 모두 꽤 비쌀 것입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1034.1,
+   "en": "But in general, cancer therapies today are quite expensive running in the hundreds of thousands of dollars.",
+   "ko": "하지만 일반적으로 오늘날의 암 치료법은 수십만 달러에 달할 정도로 이미 매우 비쌉니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1039.9,
+   "en": "Well, so for this to ever become a bigger solution to cancer, do doctors and scientists think that it has to move away from this bespoke solution that you're describing with the melanoma clinical trials, does it have to be a vaccine that doesn't rely on sequencing just one person's specific tumor?",
+   "ko": "그렇다면 이것이 암에 대한 더 큰 해결책이 되기 위해서, 의사와 과학자들은 흑색종 임상시험에서 설명하신 이 맞춤형 솔루션에서 벗어나야 한다고 생각하나요? 단 한 사람의 특정 종양 시퀀싱에만 의존하지 않는 백신이어야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1058.5,
+   "en": "So I don't think scientists are necessarily gonna move away altogether from the bespoke solution.",
+   "ko": "과학자들이 반드시 맞춤형 솔루션에서 완전히 벗어나지는 않을 것이라고 생각합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1064.0,
+   "en": "This is a field that they're really experimenting a lot with.",
+   "ko": "이 분야는 그들이 정말 많은 실험을 하고 있는 분야거든요.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1067.1,
+   "en": "Right, and that's promising.",
+   "ko": "그렇군요, 그리고 그건 유망한 일이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1068.4,
+   "en": "Right, and that's showing promise. But researchers are also looking at the possibility of what they call an off-the-shelf cancer vaccine, and they're looking at that more in the setting of prevention in high-risk patients or intercepting earlier cancers.",
+   "ko": "맞습니다, 그리고 가능성을 보여주고 있죠. 하지만 연구원들은 소위 '기성품(off-the-shelf)' 암 백신의 가능성도 들여다보고 있으며, 고위험군 환자의 예방이나 초기 암의 차단 측면에서 이를 더 살펴보고 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1081.8,
+   "en": "So for example, colon cancer, people with a genetic syndrome that predisposes them or in breast cancer, people with a BRCA1 or two mutations.",
+   "ko": "예를 들어 대장암의 경우 유전적 증후군이 있는 사람이나 유방암의 경우 BRCA1 또는 2 돌연변이가 있는 사람들을 말합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1091.2,
+   "en": "Right, meaning essentially it's in their DNA, it's in their family.",
+   "ko": "그렇군요, 본질적으로 그들의 DNA에, 즉 가족력에 있다는 의미군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1094.9,
+   "en": "Already, yes. So they're already at increased risk or people who have a precursor condition, like they have polyps, because you're narrowing the population.",
+   "ko": "이미 그렇죠. 그래서 그들은 이미 위험이 증가했거나, 용종이 있는 것과 같은 전구 질환이 있는 사람들입니다. 대상을 좁히고 있는 것이죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1104.3,
+   "en": "And so they're looking at could we develop vaccines based on proteins that are common across breast cancer across colon cancer or across all cancers that you could then use to prevent cancer",
+   "ko": "그래서 유방암, 대장암, 또는 모든 암에 공통적으로 나타나는 단백질을 기반으로 백신을 개발하여 암 예방에 사용할 수 있을지 살펴보고 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1116.7,
+   "en": "So far it hasn't happened, but there are some promising early studies that show it's a possibility It's still years away, and it's hard science and it might fail",
+   "ko": "아직까지는 실현되지 않았지만, 가능성을 보여주는 유망한 초기 연구들이 있습니다. 아직 몇 년은 더 걸릴 것이고, 어려운 과학의 영역이며 실패할 수도 있습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1125.9,
+   "en": "But it is where I think researchers are excited about where this might go and also where it has the possibility to affect the most people",
+   "ko": "하지만 이것이 어디까지 발전할 수 있을지, 그리고 가장 많은 사람에게 영향을 미칠 가능성이 어디에 있는지에 대해 연구원들이 기대하고 있는 부분입니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1133.7,
+   "en": "Right. Because that would be the Holy Grail to look at someone whose family, heredity tells us that they're likely to get breast cancer and give them a vaccine at some early point in their life that prevents that breast cancer from ever taking off.",
+   "ko": "그렇죠. 가족력이나 유전적으로 유방암에 걸릴 가능성이 높은 사람을 찾아내어, 인생의 이른 시점에 백신을 접종해 유방암이 시작조차 못 하게 막는 것이야말로 성배와 같은 일이니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1151.2,
+   "en": "Right. That would be amazing.",
+   "ko": "맞습니다. 정말 놀라운 일이겠죠.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1154.2,
+   "en": "And it sounds like we're maybe a little closer to that now than we were before this melanoma vaccine, but I'm looking at you and wondering if that's entirely something we can say.",
+   "ko": "이번 흑색종 백신 이전보다 지금이 그 목표에 조금 더 가까워진 것 같긴 합니다만, 정말 그렇게 말할 수 있는지 당신의 표정을 살피게 되네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1164.4,
+   "en": "I mean, I think that work has been going on. Like we are in general in a place where this field, both people who are looking at vaccines to treat disease, as well as vaccines to prevent disease, overall the field has gotten to a place where that work is much more feasible because of those, some of those advancements we talked about.",
+   "ko": "제 말은, 그런 작업이 계속 진행되어 왔다는 것입니다. 질병 치료를 위한 백신을 연구하는 사람들과 질병 예방을 위한 백신을 연구하는 사람들 모두, 우리가 이야기한 몇 가지 진전 덕분에 전체적인 분야가 훨씬 더 실행 가능한 단계에 도달했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1188.6,
+   "en": "And, you know, we have some evidence now that it works to prevent a recurrence, prevent cancer from coming back.",
+   "ko": "그리고 이제 암의 재발을 막는 데 효과가 있다는 몇 가지 증거를 확보했습니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1195.2,
+   "en": "The question is, can we move it up earlier, and instead of preventing it from coming back, can we prevent it from ever really forming and taking off in the first place?",
+   "ko": "문제는 시기를 더 앞당길 수 있느냐 하는 것입니다. 재발을 방지하는 대신 애초에 형성되거나 시작되지 않도록 막을 수 있을까요?",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1204.0,
+   "en": "Right, and meeting the requirements of what we traditionally think of as a vaccine, preventing the thing from ever happening at all. That's the dream.",
+   "ko": "네, 전통적으로 우리가 백신이라고 생각하는 요건을 충족하는 것, 즉 어떤 일이 전혀 일어나지 않도록 예방하는 것이죠. 그것이 꿈입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1223.2,
+   "en": "Nina, thank you very much.",
+   "ko": "니나, 정말 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1225.7,
+   "en": "Thanks so much for having me.",
+   "ko": "불러주셔서 감사합니다.",
+   "speaker": "Nina Feldman"
+  },
+  {
+   "start": 1235.0,
+   "en": "We'll be right back.",
+   "ko": "곧 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1242.3,
+   "en": "This week on The Wirecutter Show, we're getting ready for hosting over the holidays. Tune in for tips on making your guests feel at home.",
+   "ko": "이번 주 와이어커터 쇼에서는 연휴 기간 손님 맞이를 준비합니다. 손님들이 집처럼 편안함을 느낄 수 있게 하는 팁을 확인해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1250.7,
+   "en": "Are they a blackout sleeper? I don't mean do they blackout to go to sleep. I mean, what kind of light do they require because that is a very specific thing.",
+   "ko": "손님이 암막 상태에서 자야 하는 분인가요? 잠들기 위해 정신을 잃는다는 뜻이 아니라, 어떤 종류의 조명이 필요한지 말이죠. 그건 매우 구체적인 부분이거든요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1259.7,
+   "en": "Do they have allergies, food sensitivities? Are they coffee tea drinkers? What time do they like to get up?",
+   "ko": "알레르기나 음식 과민증이 있나요? 커피나 차를 즐겨 마시나요? 몇 시에 일어나는 걸 좋아하시나요?",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1266.2,
+   "en": "Find the Wirecutter Show on the New York Times app or wherever you'd like to listen.",
+   "ko": "뉴욕타임스 앱이나 선호하시는 팟캐스트 플랫폼에서 와이어커터 쇼를 찾아보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1272.6,
+   "en": "Here's what else you need to know today. Here's what we believe happened yesterday.",
+   "ko": "오늘 알아야 할 다른 소식들입니다. 어제 일어난 일들에 대한 소식입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1277.9,
+   "en": "In at least one of our remote FAA locations, a contractor was doing routine maintenance to switch telecommunication lines from old copper wire and they were bringing it over to fiber.",
+   "ko": "적어도 한 곳의 원격 FAA 기지에서 계약업체가 구형 구리선을 광섬유로 전환하기 위해 통신선 정기 유지 보수 작업을 진행하고 있었습니다.",
+   "speaker": "Sean Duffy"
+  },
+  {
+   "start": 1290.3,
+   "en": "Over the weekend, US officials gave their fullest account so far of what they believe caused the rare ground stop that brought air travel across the country to a halt on Friday night.",
+   "ko": "지난 주말, 미국 관리들은 금요일 밤 전국적인 항공 여행 중단을 초래한 이례적인 지상 정지 명령의 원인에 대해 지금까지 중 가장 상세한 설명을 내놓았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1301.7,
+   "en": "Now, the work happening was due to the age of the copper wire that we were replacing. It was such an old wire that it was being discontinued.",
+   "ko": "진행 중이던 작업은 교체 대상이었던 구리선의 노후화 때문이었습니다. 너무 오래된 전선이라 단종될 정도였죠.",
+   "speaker": "Sean Duffy"
+  },
+  {
+   "start": 1314.0,
+   "en": "Transportation Secretary Sean Duffy blamed work by a contractor to replace an outdated router.",
+   "ko": "션 더피 교통부 장관은 계약업체가 구식 라우터를 교체하는 과정에서 발생한 작업 때문이라고 설명했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1320.9,
+   "en": "That work, Duffy said, caused circuits in the nation's air traffic network, including its radar system, to become overloaded and disrupted.",
+   "ko": "더피 장관은 그 작업으로 인해 레이더 시스템을 포함한 국가 항공 교통 네트워크의 회로가 과부하되어 마비되었다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1329.7,
+   "en": "And when we see that, your safety is paramount. We shut down the airspace and we do it safely.",
+   "ko": "그런 상황이 발생하면 여러분의 안전이 최우선입니다. 우리는 공역을 폐쇄하고 안전하게 조치합니다.",
+   "speaker": "Sean Duffy"
+  },
+  {
+   "start": 1337.3,
+   "en": "The ground stop highlighted the vulnerability of America's aging air traffic control system, which Duffy said requires tens of billions of dollars in urgent upgrades.",
+   "ko": "이번 지상 정지는 미국의 노후한 항공 교통 관제 시스템의 취약성을 여실히 보여주었으며, 더피 장관은 수백억 달러의 긴급 업그레이드가 필요하다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1349.8,
+   "en": "And I have a path to get there, no doubt about it.",
+   "ko": "그리고 저는 그곳에 도달할 경로를 가지고 있습니다, 의심의 여지가 없죠.",
+   "speaker": "Sean Duffy"
+  },
+  {
+   "start": 1353.2,
+   "en": "In an interview on Sunday with CNN, Democratic Senator Chris Van Hollen of Maryland said his effort to unseat Chuck Schumer and become his party's next majority leader in the U.S. Senate is gaining support.",
+   "ko": "일요일 CNN과의 인터뷰에서 메릴랜드주의 민주당 상원의원 크리스 밴 홀런은 척 슈머를 축출하고 차기 상원 다수당 원내대표가 되기 위한 자신의 노력이 지지를 얻고 있다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1366.9,
+   "en": "Senator Schumer's team put out a list just the other day of people they said who are voting for Senator Schumer.",
+   "ko": "며칠 전 슈머 의원 측에서는 슈머 의원에게 투표할 것이라고 하는 사람들의 명단을 발표했습니다.",
+   "speaker": "Chris Van Hollen"
+  },
+  {
+   "start": 1372.7,
+   "en": "I can tell you that a number of those people on that list have actually committed to voting for me and the others are very open to the idea of change. There is a whole new.",
+   "ko": "하지만 명단에 있는 사람들 중 상당수가 실제로는 저에게 투표하기로 약속했으며, 다른 사람들도 변화의 아이디어에 매우 개방적이라는 사실을 말씀드릴 수 있습니다. 완전히 새로운 분위기입니다.",
+   "speaker": "Chris Van Hollen"
+  },
+  {
+   "start": 1383.4,
+   "en": "Schumer claims he already has enough support to win the election, which is scheduled to be decided by Secret Ballot on December 1st.",
+   "ko": "슈머 의원은 12월 1일 무기명 투표로 결정될 선거에서 이길 수 있는 충분한 지지를 이미 확보했다고 주장하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1391.7,
+   "en": "But Van Hollen, who is positioning himself as a populist underdog, said that Schumer's support is weaker than it appears.",
+   "ko": "하지만 스스로를 포퓰리스트 언더독으로 규정한 밴 홀런 의원은 슈머 의원의 지지세가 겉보기보다 약하다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1406.0,
+   "en": "Today's episode was produced by Alex Stern and Chris Benderot with help from Eric Krupke and Carlos Prieto.",
+   "ko": "오늘 에피소드는 에릭 크럽키와 카를로스 프리에토의 도움을 받아 알렉스 스턴과 크리스 벤더롯이 제작했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1414.2,
+   "en": "It was edited by MJ Davis-Litt with help from Annie Minnoff, contains music by Mary and Lozano, Rowanie Misto, and Dan Powell, and was engineered by Alyssa Moxley.",
+   "ko": "애니 미노프의 도움을 받아 MJ 데이비스 리트가 편집했으며, 메리 앤 로자노, 로워니 미스토, 댄 파월의 음악이 포함되었고 엘리사 목슬리가 엔지니어링을 맡았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1427.0,
+   "en": "Our theme music is by Wonderly. That's it for today. I'm Michael Barbaro. See you tomorrow.",
+   "ko": "저희 테마 음악은 Wonderly의 곡입니다. 오늘 준비한 소식은 여기까지입니다. 저는 마이클 바바로입니다. 내일 뵙겠습니다.",
+   "speaker": "Host"
+  }
+ ]
+}

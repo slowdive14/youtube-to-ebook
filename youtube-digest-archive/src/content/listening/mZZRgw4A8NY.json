@@ -1,0 +1,805 @@
+{
+ "id": "mZZRgw4A8NY",
+ "title": "Ground stop points to larger issues at FAA",
+ "show": "Here & Now Anytime",
+ "channel": "NPR Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=mZZRgw4A8NY",
+ "audioUrl": "https://prfx.byspotify.com/e/play.podtrac.com/npr-510051/npr.simplecastaudio.com/a14b69c2-63a5-430e-bbf8-8c76275e14cd/episodes/005e94e4-a693-45f0-8887-5ef816094422/audio/128/default.mp3?awCollectionId=a14b69c2-63a5-430e-bbf8-8c76275e14cd&awEpisodeId=005e94e4-a693-45f0-8887-5ef816094422&feed=XciAg_Eg&t=podcast&e=nx-s1-6042898&p=510051&d=1086&size=17388422",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/41/2f/1b412f89-b559-6447-5fe3-48e14494ee26/mza_5912180042841496837.jpg/600x600bb.jpg",
+ "duration": 1087,
+ "releaseDate": "2026-11-16T20:05:00Z",
+ "addedAt": "2026-11-16",
+ "segments": [
+  {
+   "start": 1.6,
+   "en": "WBUR Podcasts Boston.",
+   "ko": "WBUR 팟캐스트 보스턴입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 6.4,
+   "en": "There has been a drip drip drip of incidents. It all adds up, you know, things break slowly and then all at once.",
+   "ko": "일련의 사건들이 끊임없이 이어지고 있습니다. 아시다시피 서서히 망가지다가 어느 한순간에 모든 것이 무너지는 법이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 15.0,
+   "en": "This weekend's mess at the FAA was not an isolated incident.",
+   "ko": "이번 주말 연방항공청(FAA)에서 발생한 혼란은 단발적인 사건이 아니었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 19.4,
+   "en": "It's Monday, November 16th, and this is Here and Now Anytime from NPR and WBUR. I'm Chris Bentley.",
+   "ko": "11월 16일 월요일, NPR과 WBUR이 함께하는 '히어 앤 나우 애니타임'입니다. 저는 크리스 벤트리입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 33.7,
+   "en": "Today on the show, how the NVIDIA crisis could burst AI's financial bubble.",
+   "ko": "오늘 방송에서는 엔비디아 위기가 어떻게 AI 금융 거품을 터뜨릴 수 있는지 살펴봅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 39.2,
+   "en": "Also, measles is endemic in the U.S. once again, 25 years after it had been declared eliminated.",
+   "ko": "또한, 퇴치 선언이 있은 지 25년 만에 미국에서 홍역이 다시 풍토병이 되었다는 소식도 전해드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 46.1,
+   "en": "The reason why we're having these outbreaks is not enough of us are vaccinated.",
+   "ko": "이러한 발병이 일어나는 이유는 우리 중 충분한 인원이 백신을 접종하지 않았기 때문입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 49.8,
+   "en": "But first, sorry if you got stuck at the airport over the weekend or had your flight rerouted while you were in the air.",
+   "ko": "그 전에 먼저, 주말 동안 공항에 갇히셨거나 비행 중에 경로가 변경된 분들께 위로의 말씀을 전합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 57.0,
+   "en": "The ripple effects from Friday's four-hour nationwide ground stop continue today, with more than 2,000 flights delayed or canceled as of Monday morning.",
+   "ko": "금요일에 있었던 4시간 동안의 전국적 항공기 운항 중단 여파가 오늘까지 이어지면서, 월요일 오전 현재 2,000편 이상의 항공편이 지연되거나 취소되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 66.5,
+   "en": "Here's President Trump on his way to Asia this morning.",
+   "ko": "오늘 아침 아시아로 향하던 트럼프 대통령의 발언입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 69.9,
+   "en": "We have all the broken equipment. We've been telling you that to Congress. The Congress has to go above.",
+   "ko": "장비들이 다 고장 났습니다. 우리가 의회에 계속 말해왔던 부분입니다. 의회가 더 나서야 합니다.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 76.5,
+   "en": "Very old equipment. Some of it is 55 years.",
+   "ko": "매우 낡은 장비들입니다. 어떤 것은 55년이나 됐습니다.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 80.0,
+   "en": "Jeff Wise is an aviation journalist, and he told Peter O'Dowd, the system is slowly getting back to normal.",
+   "ko": "항공 전문 기자인 제프 와이즈는 피터 오다우드에게 시스템이 서서히 정상으로 돌아오고 있다고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 86.7,
+   "en": "It's been a process. All these airplanes are in the wrong place. Flight crews are in the wrong place, and everything has to get unscrambled.",
+   "ko": "일련의 과정이었습니다. 모든 비행기들이 엉뚱한 곳에 가 있고, 승무원들도 제자리에 있지 않아서 모든 것을 다시 정리해야 합니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 95.2,
+   "en": "Officials are still trying to figure out exactly how they got scrambled, but it appears that this problem started with a router upgrade in Arkansas. What do we know about that?",
+   "ko": "당국은 여전히 어떻게 이런 혼란이 생겼는지 정확히 파악 중이지만, 아칸소에서의 라우터 업그레이드에서 문제가 시작된 것으로 보입니다. 이에 대해 무엇이 밝혀졌나요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 105.2,
+   "en": "Well, we're having to just go on what the Department of Transportation is telling us seems to be related to this upgrade of the private network that the FAA relies on for communication.",
+   "ko": "교통부의 발표에 따르면, FAA가 항공 관제사와 승무원 간의 통신을 위해 의존하는 사설 네트워크 업그레이드와 관련이 있는 것으로 보입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 116.2,
+   "en": "between the air traffic controllers and the flight crews.",
+   "ko": ""
+  },
+  {
+   "start": 120.5,
+   "en": "And it seems to be that there was a router that was sending too much information across the network, but it's going to take some time, I think, for the true information to come out.",
+   "ko": "네트워크 전체에 너무 많은 정보를 보내는 라우터가 있었던 것 같은데, 정확한 정보가 나오기까지는 시간이 좀 걸릴 것 같습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 131.8,
+   "en": "It seems like work on a single router in Arkansas shutting down communications across the entire country is a pretty big deal. Do you know how that could happen?",
+   "ko": "아칸소의 라우터 하나 작업 때문에 전국 통신이 마비되었다는 게 꽤 큰 일처럼 들리는데요. 어떻게 그런 일이 발생할 수 있는지 아십니까?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 144.0,
+   "en": "Well, it seems a little puzzling to me as well. I've been talking to some experts and apparently a single router can put out a lot more traffic than the other routers on the network can process.",
+   "ko": "저에게도 다소 의아한 일입니다. 전문가들과 이야기를 나눠보니, 단일 라우터가 네트워크의 다른 라우터들이 처리할 수 있는 양보다 훨씬 많은 트래픽을 내보낼 수 있다고 하더군요.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 156.1,
+   "en": "In other words, it's easier to put it out than it is to take it in. And so it can flood it.",
+   "ko": "다시 말해, 받아들이는 것보다 내보내는 것이 더 쉽기 때문에 과부하를 일으킬 수 있는 것이죠.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 160.6,
+   "en": "It seems incredible that this was allowed to happen.",
+   "ko": "이런 일이 벌어지도록 방치되었다는 게 믿기지 않네요.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 164.1,
+   "en": "Listen, we live in a complex society. Everything is about information. Everything is connected by internet and different kinds of gateways.",
+   "ko": "우리는 복잡한 사회에 살고 있습니다. 모든 것이 정보에 관한 것이죠. 모든 것이 인터넷과 다양한 종류의 게이트웨이로 연결되어 있습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 172.4,
+   "en": "And people upgrade them all the time. And, you know, this kind of massive collapse just doesn't normally happen and it can be avoided.",
+   "ko": "사람들은 항상 그것들을 업그레이드합니다. 이런 대규모 붕괴는 보통 일어나지 않으며 피할 수 있는 일입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 181.0,
+   "en": "And so, yeah, there's going to be a lot of explaining to do.",
+   "ko": "그래서 설명해야 할 부분이 아주 많을 것입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 184.6,
+   "en": "This also included an upgrade, it looks like, from copper wiring to fiber optics. Is there a risk that it would just happen the next time a new router is installed?",
+   "ko": "구리 배선에서 광섬유로의 업그레이드도 포함된 것으로 보입니다. 다음에 새 라우터를 설치할 때 또 이런 일이 발생할 위험이 있을까요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 197.3,
+   "en": "All of this is downstream from the administration that is in charge of this highly complex system.",
+   "ko": "이 모든 것은 이 고도로 복잡한 시스템을 책임지고 있는 행정부로부터 비롯된 문제입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 205.4,
+   "en": "Air travel involves thousands of planes, millions of passengers; it's a tightly coordinated dance. The stakes are incredibly high.",
+   "ko": "항공 여행은 수천 대의 비행기와 수백만 명의 승객이 얽혀 있는 정교하게 조율된 움직임입니다. 위험 부담이 믿기지 않을 정도로 큽니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 214.0,
+   "en": "Thousands of people have spent decades assiduously working to make this system robust and safe, but that system is now in the hands of people who don't understand it.",
+   "ko": "수천 명의 사람들이 수십 년 동안 이 시스템을 튼튼하고 안전하게 만들기 위해 부단히 노력해 왔지만, 이제 그 시스템은 그것을 이해하지 못하는 사람들의 손에 넘어갔습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 226.5,
+   "en": "And if you give a complex system and put it into the hands of people who were hired because they are telegenic, then you are asking for trouble.",
+   "ko": "복잡한 시스템을 단지 보여주기식으로 고용된 사람들의 손에 맡긴다면, 문제를 자초하는 것이나 다름없습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 239.9,
+   "en": "As this was happening, you've been reporting on the government's rollout of a new AI powered system for air traffic control.",
+   "ko": "이런 일이 벌어지는 동안, 정부가 도입한 새로운 AI 기반 항공 관제 시스템에 대해 보도해 오셨죠.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 247.0,
+   "en": "Now, that doesn't appear to be the problem over the weekend, but are there other risks out there that we should be aware of, including using AI for air traffic control?",
+   "ko": "주말의 문제가 그것 때문은 아닌 것 같습니다만, 항공 관제에 AI를 사용하는 것을 포함해 우리가 알아야 할 다른 위험 요소가 있을까요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 256.3,
+   "en": "Yeah, it was really interesting to me how when this story broke and news is also breaking that the system had just been rolled out a few days before.",
+   "ko": "네, 이 사건이 터졌을 때 그 시스템이 불과 며칠 전에 도입되었다는 소식도 함께 전해져서 정말 흥미로웠습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 265.4,
+   "en": "The average person seems very quick to blame AI. I mean, the amount of antipathy towards AI systems, the amount of distrust towards them is so remarkable that people immediately pointed a finger to the system.",
+   "ko": "일반인들은 AI를 탓하는 데 매우 성급한 것 같습니다. AI 시스템에 대한 반감과 불신이 너무 커서 사람들이 즉시 그 시스템을 지목하더군요.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 276.5,
+   "en": "Even though as you pointed out, it probably didn't play a role here. There's a lot of questions about: are we adopting these systems too quickly?",
+   "ko": "지적하셨다시피 이번 사건에서 그 역할이 없었음에도 말이죠. 우리가 이 시스템들을 너무 빨리 도입하고 있는 것은 아닌지에 대한 의문이 많습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 283.9,
+   "en": "Are we adopting them before they're proven to be safe? And as I said, there has been a drip, drip, drip of incidents, of accidents happening, of rules being broken.",
+   "ko": "안전이 입증되기도 전에 도입하고 있는 건 아닐까요? 제가 말씀드린 것처럼, 사고와 규칙 위반 사례가 계속해서 잇따르고 있습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 296.1,
+   "en": "Of the administrators just sort of pooh-poohing rule breaking and saying, well, why do we need to get into such a fuss about such a thing as rules? It all adds up, you know, things break slowly and then all at once.",
+   "ko": "관리자들이 규칙 위반을 대수롭지 않게 여기며 규칙 같은 것에 왜 그렇게 소란을 피우냐고 말하고 있습니다. 이런 것들이 쌓여 서서히 망가지다가 한꺼번에 터지는 법입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 312.8,
+   "en": "The Trump administration is pointing fingers at the contractor who was doing the upgrades and the Democrats in Congress.",
+   "ko": "트럼프 행정부는 업그레이드를 수행한 업체와 의회의 민주당원들에게 화살을 돌리고 있습니다.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 320.2,
+   "en": "Congress did give the administration $12.5 billion for upgrades last year, but the transportation secretary Sean Duffy says he needs a lot more, up to $50 billion more.",
+   "ko": "의회는 작년에 업그레이드를 위해 행정부에 125억 달러를 지원했지만, 숀 더피 교통부 장관은 최대 500억 달러가 더 필요하다고 말합니다.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 329.4,
+   "en": "What would it take to get this system where it needs to be?",
+   "ko": "이 시스템을 적절한 수준으로 끌어올리려면 무엇이 필요할까요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 332.5,
+   "en": "Well, I think Trump's quote really summed it up. He said, 'I take no responsibility.'",
+   "ko": "트럼프의 말이 모든 걸 요약해 준다고 봅니다. 그는 '나는 책임이 없다'고 말했죠.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 337.8,
+   "en": "And if you have the people in charge of a system take no responsibility for it, I don't think it matters how much money you throw at it.",
+   "ko": "시스템 책임자가 책임을 지지 않는다면, 그곳에 얼마나 많은 돈을 쏟아붓든 중요하지 않다고 생각합니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 345.2,
+   "en": "Well, leaves us with one big question. Is it still safe to fly in the United States?",
+   "ko": "이제 큰 의문이 하나 남습니다. 미국에서 비행기를 타는 것이 여전히 안전할까요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 351.9,
+   "en": "As I said, people have spent decades seriously working to make this system as robust and safe as it can possibly be.",
+   "ko": "말씀드린 대로, 사람들은 이 시스템을 가능한 한 튼튼하고 안전하게 만들기 위해 수십 년간 진지하게 노력해 왔습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 359.5,
+   "en": "But that system of trust has begun to break down as we have people in charge who don't understand how the system works.",
+   "ko": "하지만 시스템이 어떻게 돌아가는지 모르는 사람들이 책임을 맡게 되면서, 그 신뢰의 체계가 무너지기 시작했습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 365.4,
+   "en": "Who seem to be interested primarily in aggrandizing their leader and seem quite comfortable with breaking the rules. This is a very dangerous situation.",
+   "ko": "그들은 주로 지도자를 치켜세우는 데 관심이 있고 규칙을 어기는 것도 서슴지 않는 것 같습니다. 이는 매우 위험한 상황입니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 376.1,
+   "en": "As I said, things break slowly and then fast. So I think people should be very concerned about the state of air travel today.",
+   "ko": "말씀드렸듯이, 상황은 서서히 악화되다가 급격히 무너집니다. 따라서 오늘날의 항공 여행 상태에 대해 깊이 우려해야 한다고 생각합니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 383.6,
+   "en": "I think I would still be comfortable flying a plane myself. However, we're heading in the wrong direction.",
+   "ko": "저라면 직접 비행기를 타는 것이 아직은 괜찮을 것 같습니다만, 우리는 분명 잘못된 방향으로 가고 있습니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 390.1,
+   "en": "Jeff Wise, aviation journalist and host of the Finding MH370 podcast. Jeff, thanks so much.",
+   "ko": "항공 전문 기자이자 'Finding MH370' 팟캐스트 진행자인 제프 와이즈였습니다. 제프, 정말 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 396.0,
+   "en": "Thank you.",
+   "ko": "감사합니다.",
+   "speaker": "Jeff Wise"
+  },
+  {
+   "start": 403.2,
+   "en": "Well, as we heard, it does not seem like AI would have been to blame for the problems at the FAA over the weekend.",
+   "ko": "방금 들으신 대로, 지난 주말 FAA의 문제 원인이 AI인 것 같지는 않습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 409.2,
+   "en": "But there is plenty of trouble elsewhere in the AI world. More on that after the break.",
+   "ko": "하지만 AI 업계의 다른 곳에서는 많은 문제가 발생하고 있습니다. 잠시 휴식 후 자세히 알아보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 420.0,
+   "en": "The Commerce Department is slapping new restrictions on the export of advanced AI chips, hoping to choke off supply to China.",
+   "ko": "상무부는 중국으로의 공급을 차단하기 위해 첨단 AI 칩 수출에 새로운 제한 조치를 내리고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 428.8,
+   "en": "It's the latest fallout from NVIDIA CEO Jensen Huang's resignation following his affair with a woman that American officials accused of passing information to Chinese spies.",
+   "ko": "이는 엔비디아 CEO 젠슨 황이 중국 스파이에게 정보를 넘긴 혐의를 받는 여성과의 불륜 이후 사임한 데 따른 최신 여파입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 441.0,
+   "en": "And it shows the NVIDIA scandal is about a lot more than one man's career. But there's news about that, too.",
+   "ko": "그리고 이는 엔비디아 스캔들이 단지 한 남자의 커리어 이상의 문제임을 보여줍니다. 하지만 그에 관한 새로운 소식도 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 448.0,
+   "en": "President Trump said today he would support Huang getting his job back, saying the billionaire had learned a big lesson.",
+   "ko": "트럼프 대통령은 오늘 젠슨 황이 큰 교훈을 얻었다며 그의 복직을 지지할 것이라고 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 455.0,
+   "en": "For more on all that and how the NVIDIA crisis is threatening to burst AI's financial bubble, we called up Ina Fried, chief technology correspondent at Axios.",
+   "ko": "이 모든 상황과 엔비디아 위기가 어떻게 AI 금융 거품을 위협하고 있는지에 대해 자세히 알아보기 위해 악시오스의 수석 기술 특파원 이나 프리드와 전화 연결을 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 464.1,
+   "en": "She told Peter more about the Commerce Department's new rules. I suspect we'll see this as a part-way step.",
+   "ko": "그녀는 피터에게 상무부의 새로운 규칙에 대해 더 자세히 말해주었습니다. 저는 이것이 중간 단계가 될 것이라고 생각합니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 471.1,
+   "en": "It's certainly better than not having these restrictions in place. I doubt this is enough by itself to completely limit China's ability to access US chips, but it's definitely a strong start.",
+   "ko": "이런 제한이 없는 것보다는 분명 낫습니다. 이것만으로 중국의 미국 칩 접근 능력을 완전히 제한하기에는 부족하겠지만, 확실히 강력한 시작입니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 484.7,
+   "en": "Well, meanwhile, I want to ask you about this campaign that's been developing over the weekend to put Jensen Huang back in control of NVIDIA.",
+   "ko": "한편, 주말 사이 전개된 젠슨 황을 다시 엔비디아의 경영권에 복귀시키려는 캠페인에 대해 묻고 싶습니다.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 492.9,
+   "en": "A lot of tech leaders and investors want him back. What's going on?",
+   "ko": "많은 기술 리더들과 투자자들이 그의 복귀를 원하고 있습니다. 어떻게 된 일인가요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 497.5,
+   "en": "You know, this is fascinating. It's something I'm writing about for tomorrow. I think you have this question of are CEOs still accountable for their behavior?",
+   "ko": "정말 흥미로운 부분입니다. 제가 내일 자 기사로 쓰고 있는 내용이기도 하죠. CEO들이 여전히 자신의 행동에 책임을 지고 있는지에 대한 의문이 생깁니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 506.6,
+   "en": "We had a period a few years ago that there was more heavy accountability. We saw more CEOs stepping down for indiscretions, for violations of company policy.",
+   "ko": "몇 년 전만 해도 책임이 더 무거웠던 시기가 있었습니다. 무분별한 행동이나 회사 정책 위반으로 물러나는 CEO들을 더 많이 볼 수 있었죠.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 517.3,
+   "en": "And I think with the rise of President Trump, his resurgence in his second term, the tech company's close ties, and then also Elon Musk at the head of SpaceX and Tesla, there's been a shift towards CEOs as all powerful.",
+   "ko": "트럼프 대통령의 재집권과 기술 기업들과의 긴밀한 관계, 그리고 스페이스X와 테슬라를 이끄는 일론 머스크의 영향으로 CEO가 전능하다는 식의 변화가 생겼습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 532.4,
+   "en": "Basically a blank check. And I think this is gonna be a real test of whether or not CEOs are still accountable for their behavior in tech in 2026.",
+   "ko": "기본적으로 백지수표를 쥐어주는 격이죠. 2026년의 기술 업계에서 CEO들이 여전히 자신의 행동에 책임을 지는지에 대한 진정한 시험대가 될 것입니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 542.1,
+   "en": "And President Trump even said today he would support giving Huang his job back. The president said that he learned a big lesson.",
+   "ko": "트럼프 대통령은 오늘 황의 복직을 지지한다고까지 말했습니다. 대통령은 그가 큰 교훈을 얻었다고 말했죠.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 550.2,
+   "en": "Look, this is not without precedent. Go back to 2023. Remember that Sam Altman was pushed out as CEO of OpenAI. And then just a few days later, he came back.",
+   "ko": "전례가 없는 일은 아닙니다. 2023년으로 돌아가 보면, 샘 올트먼이 오픈AI의 CEO에서 쫓겨났다가 불과 며칠 만에 복귀했던 일을 기억하실 겁니다.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 559.8,
+   "en": "Is that the model that they're pursuing today?",
+   "ko": "그것이 오늘날 그들이 추구하는 모델인가요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 562.9,
+   "en": "I think it's obviously a parallel worth discussing. I do think the facts are really different.",
+   "ko": "분명 논의해 볼 만한 유사한 사례입니다. 하지만 구체적인 사실 관계는 정말 다르다고 봅니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 567.9,
+   "en": "So I think some of the motivation is the same, that he is a key player and you need to keep the OpenAI team together.",
+   "ko": "그가 핵심 인물이고 팀을 유지해야 한다는 동기 면에서는 일부 비슷할 수 있습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 574.2,
+   "en": "Similar argument can be made that Jensen is NVIDIA and the company really needs him.",
+   "ko": "젠슨이 곧 엔비디아이고 회사가 그를 정말로 필요로 한다는 비슷한 주장이 나올 수 있죠.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 579.2,
+   "en": "I think what's really different is the allegations of Altman were vague. They weren't specific things that you could point to and say, yeah, that's a clear violation.",
+   "ko": "진짜 차이점은 올트먼에 대한 혐의는 모호했다는 점입니다. 명백한 위반이라고 딱 꼬집어 말할 수 있는 구체적인 사안이 아니었죠.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 589.2,
+   "en": "Again, even before you get into whether she was or wasn't a spy here, she was a big customer with ties to China, and he was having a relationship.",
+   "ko": "반면 이번 사안은 그녀가 스파이였는지 여부를 떠나서, 그녀는 중국과 연계된 주요 고객이었고 그는 그녀와 부적절한 관계를 맺었습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 599.2,
+   "en": "And then also at least one, and it sounds like more relationships with people that worked at the company.",
+   "ko": "또한 사내 직원들과도 최소 한 명, 혹은 그 이상의 관계가 있었던 것으로 들립니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 604.7,
+   "en": "Right. Well, it also may be an effort to contain some of the economic fallout. I know you've been reporting on this.",
+   "ko": "그렇군요. 경제적 파장을 억제하기 위한 노력일 수도 있겠네요. 이 부분에 대해 취재해 오신 걸로 압니다.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 611.1,
+   "en": "One economist told you the trouble at NVIDIA could lead to a wholesale bursting of the AI bubble. What do you make of that argument?",
+   "ko": "한 경제학자는 엔비디아의 문제가 AI 거품의 전면적인 붕괴로 이어질 수 있다고 했는데요. 그 주장에 대해 어떻게 생각하시나요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 619.6,
+   "en": "So, NVIDIA is not only the company that's giving most of the chips that companies need to train and run their AI systems, they also have been a key source of financing for large companies but especially for some of these small startups.",
+   "ko": "엔비디아는 AI 시스템 훈련과 운영에 필요한 칩의 대부분을 공급할 뿐만 아니라, 대기업은 물론 특히 여러 소규모 스타트업의 주요 자금원이기도 했습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 633.3,
+   "en": "Whether they're new types of AI providers like Thinking Machines or these Neo-Clouds that the bigger companies kind of rent computing capacity.",
+   "ko": "싱킹 머신스 같은 새로운 유형의 AI 공급업체든, 대기업들이 컴퓨팅 용량을 대여하는 네오 클라우드 업체든 말이죠.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 642.9,
+   "en": "And NVIDIA was providing much of the financing and security they needed to grow their businesses. If that changes, it could really shift the whole economic underpinnings of this AI boom and potentially burst the bubble.",
+   "ko": "엔비디아는 그들이 사업을 키우는 데 필요한 자금과 담보의 상당 부분을 제공해 왔습니다. 그것이 변한다면 AI 붐의 경제적 근간이 흔들리고 거품이 터질 수도 있습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 655.5,
+   "en": "Well, Anthropic is expected to go public at the end of the week. Have you seen expectations for that IPO change as a result?",
+   "ko": "앤스로픽이 이번 주말에 상장할 예정인데요. 이번 사건으로 그 IPO에 대한 기대치에 변화가 있었나요?",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 661.9,
+   "en": "They have. They've gone up. So again, it's a complicated world we live in.",
+   "ko": "변화가 있었습니다. 오히려 올라갔죠. 다시 한번 말씀드리지만, 우리가 사는 세상은 참 복잡합니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 666.5,
+   "en": "And I think its investors saying, look, AI is real above and beyond anything that Jensen does or doesn't do.",
+   "ko": "투자자들이 젠슨의 행동 여부와 상관없이 AI는 실체가 있다고 말하는 것 같습니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 672.8,
+   "en": "So we've seen interest in the Anthropic IPO exceed expectations. It's oversubscribed, so I think it's a reminder that investors still see AI itself as really big.",
+   "ko": "앤스로픽 IPO에 대한 관심은 예상을 뛰어넘었습니다. 청약이 몰리는 걸 보면 투자자들이 여전히 AI 자체를 거대한 기회로 보고 있다는 사실을 상기시켜 줍니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 683.6,
+   "en": "It's a question of timing. Ina Fried, Chief Technology Correspondent at Axios, always grateful for your insights into this increasingly complex topic.",
+   "ko": "결국 타이밍의 문제입니다. 악시오스의 수석 기술 특파원 이나 프리드였습니다. 점점 더 복잡해지는 이 주제에 대해 식견을 나누어 주셔서 항상 감사합니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 693.4,
+   "en": "Thanks so much.",
+   "ko": "정말 감사합니다.",
+   "speaker": "Ina Fried"
+  },
+  {
+   "start": 694.2,
+   "en": "Thank you, Peter.",
+   "ko": "고마워요, 피터.",
+   "speaker": "Peter O'Dowd"
+  },
+  {
+   "start": 702.5,
+   "en": "Coming up, how the U.S. lost its bill of good health when it comes to measles. And how to get it back. Stick around.",
+   "ko": "이어지는 순서에서는 미국이 홍역에 대한 건강 증명서를 어떻게 잃게 되었는지, 그리고 어떻게 다시 되찾을 수 있을지 알아봅니다. 채널 고정해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 715.7,
+   "en": "Measles is back in the US, and public health authorities are making it official.",
+   "ko": "홍역이 미국에 다시 돌아왔으며, 공중 보건 당국은 이를 공식화하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 721.2,
+   "en": "More than 25 years ago, global health groups declared the country measles-free. But the Pan-American Health Organization says that's no longer the case.",
+   "ko": "25년 전 세계 보건 단체들은 미국이 홍역에서 자유롭다고 선언했습니다. 하지만 범미보건기구는 더 이상 그렇지 않다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 730.4,
+   "en": "Epidemiologist Jennifer Nuzzo of Brown University tells Scott Tong, the move is disappointing, if not unexpected.",
+   "ko": "브라운 대학교의 역학자 제니퍼 누조는 스콧 통에게 이번 조치가 예상치 못한 일은 아니지만 실망스럽다고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 737.9,
+   "en": "Yeah, well, it's not a surprise. I mean, we've been worried about this really since the beginning of 2025 when we saw measles start to spread and no sign of it stopping.",
+   "ko": "네, 놀라운 일은 아닙니다. 홍역이 퍼지기 시작하고 멈출 기미가 보이지 않던 2025년 초부터 이미 걱정해 왔던 일이니까요.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 747.5,
+   "en": "And it's only gotten worse since then. So this loss of status is just confirmation of what we've been seeing since the start of 2025.",
+   "ko": "그 이후로 상황은 더 악화되었습니다. 따라서 이러한 지위 상실은 우리가 2025년 초부터 목격해 온 상황을 확인해 주는 것일 뿐입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 754.7,
+   "en": "But it's really dispiriting. It is a black eye for the United States. It's a loss of standing and status.",
+   "ko": "하지만 정말 낙담스러운 일입니다. 미국으로서는 수치스러운 일이죠. 위신과 지위를 잃은 것입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 762.5,
+   "en": "We helped spearhead measles elimination as a global goal. We were able to achieve it among the first to achieve it in the year 2000 and to lose it 26 years later is nothing short of an embarrassment.",
+   "ko": "우리는 세계적인 목표로서 홍역 퇴치를 앞장서 이끌었습니다. 2000년에 가장 먼저 퇴치를 달성했는데, 26년 만에 이를 잃었다는 것은 부끄러운 일입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 778.4,
+   "en": "It's also of course an indication of really high costs that we are unnecessarily having to endure both in terms of compromised health and just societal costs.",
+   "ko": "또한 이는 건강 악화와 사회적 비용 측면 모두에서 우리가 불필요하게 겪어야 할 매우 높은 대가를 의미하기도 합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 788.8,
+   "en": "This is a costly disease to have in our midst and unfortunately it shows no sign of stopping.",
+   "ko": "우리 사회에 홍역이 있다는 것은 큰 비용이 드는 일이며, 안타깝게도 멈출 기미가 보이지 않습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 794.2,
+   "en": "Now the CDC, the Centers for Disease Control and Prevention, says there have been more than 5,000 new measles cases across 47 states this year.",
+   "ko": "미 질병통제예방센터(CDC)는 올해 47개 주에서 5,000건 이상의 새로운 홍역 사례가 발생했다고 밝혔습니다.",
+   "speaker": "Scott Tong"
+  },
+  {
+   "start": 803.0,
+   "en": "So help us understand the main reasons for the outbreak and the main timeline as you see it.",
+   "ko": "이번 발병의 주요 원인과 당신이 보는 주요 타임라인을 이해하도록 도와주세요.",
+   "speaker": "Scott Tong"
+  },
+  {
+   "start": 808.5,
+   "en": "The reason why we're having these outbreaks is not enough of us are vaccinated. That is really what it all comes down to.",
+   "ko": "발병의 이유는 우리 중 충분한 인원이 백신을 맞지 않았기 때문입니다. 결국 그게 핵심입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 816.7,
+   "en": "You need in every community across the country about 95% of the people in the communities to be vaccinated.",
+   "ko": "전국의 모든 지역 사회에서 약 95%의 사람들이 백신을 접종해야 합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 825.8,
+   "en": "That's to ensure that if measles shows up, it's not gonna find somebody who's susceptible to it.",
+   "ko": "그래야 홍역이 나타나도 감염되기 쉬운 사람을 찾지 못하도록 보장할 수 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 830.1,
+   "en": "We have allowed our overall measles vaccination levels to slip well below 95%. It's around 90 or so percent nationally, but in some communities it is much, much lower than that.",
+   "ko": "우리는 전체 홍역 백신 접종 수준이 95% 훨씬 아래로 떨어지도록 방치했습니다. 전국적으로는 90% 정도이지만, 일부 지역에서는 그보다 훨씬 낮습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 843.8,
+   "en": "And when there's a lot of measles in the world, as there happens to be, then that means as soon as measles shows up, it will cause explosive outbreaks that will just continue.",
+   "ko": "현재 전 세계적으로 홍역이 창궐하고 있는데, 이는 홍역이 나타나자마자 폭발적인 유행을 일으키고 계속될 것임을 의미합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 853.6,
+   "en": "Until we no longer provide susceptible people, people who are unvaccinated. This is really important that we do this because we need to get people vaccinated because not all of us can be protected by vaccines.",
+   "ko": "미접종자 같은 감염 취약자가 없어질 때까지 말이죠. 우리 모두가 백신으로 보호받을 수 있는 것은 아니기에, 사람들이 백신을 맞는 것이 정말 중요합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 866.5,
+   "en": "Infants who are too young, people who are immunocompromised, they rely on the rest of us.",
+   "ko": "너무 어린 영아들이나 면역력이 약한 사람들은 나머지 우리들에게 의지하고 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 871.2,
+   "en": "And when the rest of us are choosing not to or just not able to because we aren't able to access the vaccine, I think in some of these communities it is an access issue more than an unwillingness issue.",
+   "ko": "우리가 백신을 맞지 않기로 선택하거나 접근성이 떨어져서 맞지 못할 때 문제가 생깁니다. 일부 지역에서는 거부감보다는 접근성 문제가 더 큰 것 같습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 885.0,
+   "en": "So it really means it's important for us to double down and make sure everybody can avail themselves of the protection of this vaccine.",
+   "ko": "따라서 모든 사람이 백신의 보호를 받을 수 있도록 더 많은 노력을 기울이는 것이 정말 중요합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 892.7,
+   "en": "Measles is so contagious. Remind us, many of us have forgotten how bad this can get. This disease can get.",
+   "ko": "홍역은 전염성이 매우 강하죠. 우리 중 많은 이들이 잊고 있는데, 이 병이 얼마나 심각해질 수 있는지 다시 한번 알려주세요.",
+   "speaker": "Scott Tong"
+  },
+  {
+   "start": 899.6,
+   "en": "Yeah, so this disease is one of the most contagious we have. It can hang in the air for hours.",
+   "ko": "네, 이 병은 우리가 아는 가장 전염성이 강한 질병 중 하나입니다. 공기 중에 몇 시간 동안 떠 있을 수 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 905.2,
+   "en": "And there have been instances in which someone shows up hours after an infected person was in the area and got infected themselves.",
+   "ko": "감염자가 다녀간 자리에 몇 시간 뒤에 나타난 사람이 감염된 사례도 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 911.8,
+   "en": "And so that's why it's so important to get vaccinated. Fortunately, we have a great vaccine that protects people from infection, keeps them out of the hospital and dying.",
+   "ko": "그래서 백신 접종이 매우 중요합니다. 다행히 감염을 막고 입원과 사망을 예방해 주는 훌륭한 백신이 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 920.0,
+   "en": "But at a time when we didn't have that vaccine and certainly what we're seeing now is when people get this disease, it has really terrible effects.",
+   "ko": "하지만 백신이 없던 시절이나 지금 우리가 보고 있는 상황을 보면, 이 병에 걸렸을 때 정말 끔찍한 결과가 나타납니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 928.3,
+   "en": "It sends about 10% of people to the hospital. It kills about one in every thousand people who contract it.",
+   "ko": "약 10%의 사람들이 병원에 입원하게 됩니다. 감염자 1,000명당 한 명 꼴로 목숨을 잃습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 934.9,
+   "en": "And I'm a mom, and that's the one statistic that keeps me up is thinking about, if you have a child who contracts this virus early in life, too early to be vaccinated.",
+   "ko": "저도 엄마로서 밤잠을 설치게 하는 통계가 있는데, 백신을 맞기엔 너무 어린 나이에 아이가 이 바이러스에 감염되는 경우를 생각할 때입니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 945.1,
+   "en": "There is a very rare, but serious possibility that they can die from that infection up to a decade later.",
+   "ko": "매우 드물지만 심각한 가능성으로, 감염 후 최대 10년이 지나서도 그로 인해 사망할 수 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 953.3,
+   "en": "There is nothing to me that's more haunting than to think that after you've nursed a sick child through an illness to not know if you're out of the woods for another decade.",
+   "ko": "아픈 아이를 간호해 병을 이겨낸 후에도 향후 10년 동안 고비를 넘겼는지 알 수 없다는 생각보다 더 괴로운 일은 없을 겁니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 962.7,
+   "en": "That's why it's been so extraordinary to have this vaccine that can take all of that off the table and seeing measles return is just so dispiriting because it doesn't have to be like this.",
+   "ko": "그래서 그런 걱정을 없애주는 백신이 있다는 것이 대단한 일인데, 홍역이 다시 유행하는 것을 보는 것이 너무나 낙담스럽습니다. 이럴 필요가 없으니까요.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 973.9,
+   "en": "So what, as you see it, is the playbook for getting back to elimination status. I mean the world has changed, right? Like even all the falsehoods that are out there.",
+   "ko": "그렇다면 당신이 보기에 다시 퇴치 상태로 돌아가기 위한 전략은 무엇인가요? 세상이 변했지 않습니까? 온갖 거짓 정보들이 떠도는 것처럼 말이죠.",
+   "speaker": "Scott Tong"
+  },
+  {
+   "start": 983.0,
+   "en": "Yeah, there's a lot of falsehoods out in here there. And that's, I think, making people not quite understand why the vaccine is so important and why the virus is so deadly.",
+   "ko": "네, 거짓 정보가 아주 많습니다. 그래서 사람들이 왜 백신이 중요한지, 왜 바이러스가 치명적인지 제대로 이해하지 못하게 만드는 것 같습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 992.4,
+   "en": "But at least a lot of the recent outbreaks, they've been happening in communities that aren't necessarily opposed to vaccination. They just haven't been able to access it.",
+   "ko": "하지만 적어도 최근의 많은 발병 사례는 백신에 반대하지 않는 지역 사회에서 발생했습니다. 단지 백신을 접종할 기회가 없었을 뿐이죠.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1003.1,
+   "en": "So that actually gives me quite a bit of hope that were we to commit to once again eliminating measles that we could do a lot more to promote and increase access to vaccination.",
+   "ko": "그래서 우리가 다시 홍역 퇴치에 전념한다면, 백신 홍보와 접근성을 높이기 위해 훨씬 더 많은 일을 할 수 있다는 희망을 갖게 됩니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1013.9,
+   "en": "in all communities so that everyone has the opportunity to protect their loved ones.",
+   "ko": ""
+  },
+  {
+   "start": 1019.1,
+   "en": "We can strengthen our surveillance to make sure that as soon as a measles infection occurs, we can find it, we can treat it, we can prevent it from spreading.",
+   "ko": "감시 체계를 강화하여 홍역 감염이 발생하자마자 찾아내어 치료하고 확산을 방지할 수 있습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1027.1,
+   "en": "But this is going to take political will and it's going to take political will at all levels.",
+   "ko": "하지만 이를 위해서는 모든 단계에서의 정치적 의지가 필요합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1031.5,
+   "en": "And what we haven't had since the start of 2025 are health leaders who are willing to say, 'measles is bad, the vaccine will stop it. We do not want to have measles in the United States.'",
+   "ko": "2025년 초부터 '홍역은 해롭고 백신이 이를 막을 것이다, 미국에서 홍역을 없애고 싶다'고 말해 줄 보건 지도자가 없었습니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1042.5,
+   "en": "Jennifer Nuzzo directs the Pandemic Center at Brown University. Dr. Nuzzo, thank you again.",
+   "ko": "브라운 대학교 팬데믹 센터의 제니퍼 누조 소장이었습니다. 누조 박사님, 다시 한번 감사드립니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1047.8,
+   "en": "Thanks for having me.",
+   "ko": "초대해 주셔서 감사합니다.",
+   "speaker": "Jennifer Nuzzo"
+  },
+  {
+   "start": 1056.4,
+   "en": "That's it for the show today. Here and now anytime comes from NPR and WBUR Boston.",
+   "ko": "오늘 순서는 여기까지입니다. '히어 앤 나우 애니타임'은 NPR과 WBUR 보스턴에서 제작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1061.8,
+   "en": "Today's stories were produced by Jessica Carissa, Jenna Griffiths, and me, Chris Bentley.",
+   "ko": "오늘의 기사는 제시카 카리사, 제나 그리피스, 그리고 저 크리스 벤트리가 제작했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1066.0,
+   "en": "Our editors were Todd Mundt, Thomas Danyelian, and Michael Scotto, technical direction from Caleb Green and Andre Peralta.",
+   "ko": "편집에는 토드 먼트, 토마스 다니엘리안, 마이클 스코토가 수고해 주셨고, 기술 감독은 케일럽 그린과 안드레 페랄타가 맡았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1072.3,
+   "en": "I wrote the theme music along with Mike Mosqueda and Max Leadman. Our digital producers are Alison Hagen and Grace Griffin.",
+   "ko": "테마 음악은 마이크 모스케다, 맥스 리드먼과 함께 제가 작곡했습니다. 디지털 프로듀서는 앨리슨 하겐과 그레이스 그리핀입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1078.6,
+   "en": "And Here and Now's executive producer is Alan Price. Thanks for listening. We'll be back with you tomorrow.",
+   "ko": "그리고 '히어 앤 나우'의 총괄 프로듀서는 앨런 프라이스입니다. 청취해 주셔서 감사합니다. 내일 다시 찾아뵙겠습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
