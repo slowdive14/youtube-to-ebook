@@ -12,10 +12,9 @@
 # higher up go first. One RSS feed per line, "# name" is the channel name the
 # archive shows.
 #
-# One correction to the copy: 잔향 lists On Purpose as
-# feeds.megaphone.fm/LI1683199352, which is actually The Next Big Idea's feed
-# (checked 2026-11-19). On Purpose's own feed, from Apple's directory, is used
-# here instead.
+# On Purpose: 잔향 had it as feeds.megaphone.fm/LI1683199352, which is really
+# The Next Big Idea's feed. Its own feed, from Apple's directory, is used here,
+# and 잔향's config.json was corrected the same day (2026-11-19).
 
 https://feeds.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9933181801   # Speaking of Psychology
 https://feeds.simplecast.com/kwWc0lhf   # Hidden Brain
