@@ -189,9 +189,12 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         for i, a in enumerate(en_articles):
             if i > 0:
                 body_parts.append("\n---\n")
+            # The first line's shape is read back by the site's search index.
+            link = ("Listen to the original episode" if a.get("source") == "podcast"
+                    else "Watch the original video")
             body_parts.append(
                 f'> Based on **"{a["title"]}"** from **{a["channel"]}**\n'
-                f'> [Watch the original video]({a["url"]})\n\n'
+                f'> [{link}]({a["url"]})\n\n'
             )
             article_md = _render_article_body(a, summary_label="Episode summary", global_frame_map=frame_map)
             body_parts.append(article_md)
@@ -205,9 +208,10 @@ def generate_issue_markdown(en_articles, ko_articles, audio_urls, subject=None, 
         for i, a in enumerate(ko_articles):
             if i > 0:
                 body_parts.append("\n---\n")
+            link = "원본 에피소드 듣기" if a.get("source") == "podcast" else "원본 영상 보기"
             body_parts.append(
                 f'> **"{a["title"]}"** — **{a["channel"]}** 기반 기사\n'
-                f'> [원본 영상 보기]({a["url"]})\n\n'
+                f'> [{link}]({a["url"]})\n\n'
             )
             article_md = _render_article_body(a, summary_label="에피소드 요약", global_frame_map=frame_map)
             body_parts.append(article_md)

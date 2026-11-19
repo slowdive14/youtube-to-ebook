@@ -89,7 +89,13 @@ def get_transcripts_for_videos(videos):
     for i, video in enumerate(videos):
         print(f"Getting transcript: {video['title'][:50]}...")
 
-        transcript, segments = get_transcript(video["video_id"])
+        if video.get("audio_url"):
+            # A podcast episode (psych_sources.py): no YouTube captions, so the
+            # audio is transcribed on this PC instead.
+            from psych_sources import transcribe
+            transcript, segments = transcribe(video)
+        else:
+            transcript, segments = get_transcript(video["video_id"])
 
         if transcript:
             video["transcript"] = transcript

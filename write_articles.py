@@ -821,6 +821,11 @@ def write_articles_for_videos(videos, language='en', detailed=False):
                 "title": video["title"],
                 "channel": video["channel"],
                 "url": video["url"],
+                # Not derivable from url for podcast episodes (psych_sources.py)
+                "video_id": video.get("video_id", ""),
+                "source": video.get("source", "youtube"),
+                "group": video.get("group", ""),
+                "published": video.get("published", ""),
                 # Subject area from Step 1c/1d — the archive's category
                 "category": video.get("domain") or "",
                 "article": article,

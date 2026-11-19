@@ -27,7 +27,7 @@ import json
 import os
 import re
 
-DEFAULT_LIMIT = int(os.getenv("MAX_ARTICLES_PER_DAY", "2"))
+DEFAULT_LIMIT = int(os.getenv("MAX_ARTICLES_PER_DAY", "3"))
 
 # Buckets are deliberately coarse. Finer ones (AI vs software, elections vs
 # war) would split near-identical videos into "different" domains and defeat
@@ -201,26 +201,76 @@ def select_diverse_videos(videos, limit=None):
     for video, domain in classified:
         video["domain"] = domain
 
+    kept = _spread(classified, limit)
+    _report(classified, kept)
+    return kept
+
+
+def _spread(classified, limit, covered=()):
+    """Up to `limit` of [(video, domain)], one per subject area first, in order.
+
+    Areas in `covered` count as already represented, so a video from one only
+    gets in once every other area present has had its turn.
+    """
     kept = []
-    used_domains = set()
+    used_domains = set(covered)
     leftovers = []
     for video, domain in classified:
         if len(kept) < limit and domain not in used_domains:
-            kept.append((video, domain))
+            kept.append(video)
             used_domains.add(domain)
         else:
-            leftovers.append((video, domain))
+            leftovers.append(video)
 
     # Not enough distinct domains to fill the quota — top up in order.
-    for video, domain in leftovers:
+    for video in leftovers:
         if len(kept) >= limit:
             break
-        kept.append((video, domain))
+        kept.append(video)
+    return kept
 
-    kept_ids = {id(v) for v, _ in kept}
-    print(f"\n  Picked {len(kept)} of {len(videos)} videos across subject areas:")
+
+def _report(classified, kept):
+    kept_ids = {id(v) for v in kept}
+    print(f"\n  Picked {len(kept)} of {len(classified)} videos:")
     for video, domain in classified:
         mark = "  [KEEP]" if id(video) in kept_ids else "  [skip]"
-        print(f"{mark} {domain:11} {video.get('title', '')[:52]}")
+        tag = "psych " if video.get("group") == "psych" else ""
+        print(f"{mark} {tag}{domain:11} {video.get('title', '')[:52]}")
 
-    return [v for v, _ in kept]
+
+# Subjects that count as psychology for the psych slots. The classifier files
+# psychology and mental health under health, and brain research under science.
+PSYCH_DOMAINS = ("health", "science")
+PSYCH_LIMIT = int(os.getenv("PSYCH_ARTICLES_PER_DAY", "2"))
+
+
+def select_daily_videos(videos, limit=None, psych_limit=None):
+    """The day's articles: up to `psych_limit` psychology episodes, the rest
+    spread across subjects.
+
+    Psych slots go to episodes from the 잔향 shows (group "psych",
+    psych_sources.py) that are actually about psychology, in the shows' list
+    order. One of those shows on another subject (Making Sense on an election)
+    competes for the remaining slots like any channel. The remaining slots use
+    the usual subject spread with health counted as covered, so "the other
+    one" is a different subject whenever the day has one. With fewer psych
+    episodes than slots, the remaining slots take more of the rest.
+    """
+    limit = DEFAULT_LIMIT if limit is None else limit
+    psych_limit = PSYCH_LIMIT if psych_limit is None else psych_limit
+    if not videos or limit <= 0:
+        return list(videos)
+
+    classified = classify_videos(videos)
+    for video, domain in classified:
+        video["domain"] = domain
+
+    psych = [v for v, d in classified
+             if v.get("group") == "psych" and d in PSYCH_DOMAINS][:min(psych_limit, limit)]
+    taken = {id(v) for v in psych}
+    rest = [(v, d) for v, d in classified if id(v) not in taken]
+    kept = psych + _spread(rest, limit - len(psych), covered={"health"} if psych else ())
+
+    _report(classified, kept)
+    return kept

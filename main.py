@@ -20,7 +20,7 @@ PROJECT_DIR = Path(__file__).parent
 from get_videos import main as fetch_videos, get_video_info_by_id, YOUTUBE_API_KEY
 from googleapiclient.discovery import build
 from get_transcripts import get_transcripts_for_videos
-from select_videos import select_diverse_videos, label_videos
+from select_videos import select_daily_videos, label_videos
 from write_articles import write_articles_bilingual, generate_speaking_prompt
 # from send_email import send_newsletter_bilingual  # Email disabled
 from video_tracker import filter_new_videos, mark_videos_processed, get_processed_count
@@ -138,9 +138,16 @@ def run(video_url=None):
             # Standard channel-based flow
             print(f"  Previously processed: {get_processed_count()} videos")
 
-            # Step 1: Fetch latest videos from your channels
+            # Step 1: Fetch latest videos from your channels, plus the newest
+            # episode of each psychology podcast 잔향 monitors (their feeds:
+            # most of those shows have no full episodes on YouTube).
             print("\n[STEP 1] Fetching latest videos...\n")
             videos = fetch_videos()
+            try:
+                from psych_sources import fetch_psych_episodes
+                videos += fetch_psych_episodes()
+            except Exception as e:
+                print(f"  [!] Psychology podcasts unavailable (non-fatal): {e}")
 
             if not videos:
                 print("No videos found. Check your channel list.")
@@ -153,13 +160,15 @@ def run(video_url=None):
             # picked for an article (Step 3c).
             listening_pool = list(new_videos)
 
-            # Step 1c: Curate down to a few videos spread across subjects.
-            # Runs on titles, before transcripts — a video dropped here costs
-            # nothing further (~6 API requests and a transcript fetch saved).
-            max_articles = int(os.getenv("MAX_ARTICLES_PER_DAY", "2"))
+            # Step 1c: Curate down to the day's articles: two psychology
+            # episodes (also 잔향 drafting material) and the rest spread across
+            # subjects. Runs on titles, before transcripts — a video dropped
+            # here costs nothing further (~6 API requests and a transcript or
+            # an audio transcription saved).
+            max_articles = int(os.getenv("MAX_ARTICLES_PER_DAY", "3"))
             if len(new_videos) > max_articles:
-                print(f"\n[STEP 1c] Picking {max_articles} videos across subject areas...")
-                new_videos = select_diverse_videos(new_videos, limit=max_articles)
+                print(f"\n[STEP 1c] Picking {max_articles} videos (psychology first, then across subjects)...")
+                new_videos = select_daily_videos(new_videos, limit=max_articles)
 
         if not new_videos:
             print("No new videos to process.")
@@ -429,7 +438,8 @@ def run(video_url=None):
             # Extract video IDs from successfully generated articles
             successfully_processed = []
             for article in english_articles:  # Use english_articles as the source of truth
-                v_id = article['url'].split('v=')[-1]  # Extract video_id from URL
+                # Podcast episodes have no YouTube URL to cut the id from.
+                v_id = article.get('video_id') or article['url'].split('v=')[-1]
                 successfully_processed.append({
                     'video_id': v_id,
                     'title': article['title'],
@@ -450,6 +460,14 @@ def run(video_url=None):
                 )
             except Exception as e:
                 print(f"  [!] Archive export failed (non-fatal): {e}")
+
+        # Step 4c: The psychology articles also go to the 잔향 newsletter's
+        # folder as drafting material (with the full transcript).
+        try:
+            from janhyang_refs import write_refs
+            write_refs(english_articles, korean_articles, videos_with_transcripts)
+        except Exception as e:
+            print(f"  [!] 잔향 drafting material failed (non-fatal): {e}")
 
         print("\n" + "=" * 60)
         print("  DONE! (English + Korean newsletters sent)")

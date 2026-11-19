@@ -1,0 +1,32 @@
+# Psychology podcasts monitored by the 잔향 newsletter, copied from its
+# config.json "feeds" (G:\내 드라이브\DriveSyncFiles\Learning Journey\3. Projects\
+# 3.2. 뉴스레터\뉴스레터 자동화\config.json) on 2026-11-19, in its order:
+# its "Psychology" shows first, then "Growth".
+#
+# Up to PSYCH_ARTICLES_PER_DAY (2) of each day's articles come from here
+# (psych_sources.py), and each is also saved for 잔향 as drafting material
+# (janhyang_refs.py). Episodes published before psych_sources.START_DATE are
+# never taken: the back catalogue is not imported.
+#
+# Order matters: when more episodes are new than there are slots, the shows
+# higher up go first. One RSS feed per line, "# name" is the channel name the
+# archive shows.
+#
+# One correction to the copy: 잔향 lists On Purpose as
+# feeds.megaphone.fm/LI1683199352, which is actually The Next Big Idea's feed
+# (checked 2026-11-19). On Purpose's own feed, from Apple's directory, is used
+# here instead.
+
+https://feeds.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION9933181801   # Speaking of Psychology
+https://feeds.simplecast.com/kwWc0lhf   # Hidden Brain
+https://www.abc.net.au/feeds/2888650/podcast.xml   # All In The Mind
+https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/96c5c41e-0bc8-4661-b184-ae32006cd726/d623ef0b-3fee-4c26-b815-ae32006cd739/podcast.rss   # The Happiness Lab
+https://feeds.megaphone.fm/hubermanlab   # Huberman Lab
+https://wakingup.libsyn.com/rss   # Making Sense with Sam Harris
+https://feeds.captivate.fm/the-wise-effort-show/   # The Wise Effort Show
+https://feeds.megaphone.fm/modernwisdom   # Modern Wisdom
+https://feeds.megaphone.fm/feelbetterlivemore   # Feel Better, Live More
+https://feeds.megaphone.fm/on-purpose   # On Purpose with Jay Shetty
+https://feeds.simplecast.com/UCwaTX1J   # The Mel Robbins Podcast
+https://feeds.feedburner.com/TED_TakenForGranted   # ReThinking with Adam Grant
+https://feeds.acast.com/public/shows/f8cf3133-0543-5b5b-85cb-e7a4e48bfaf5   # Unmistakable Creative
