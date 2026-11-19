@@ -16,9 +16,12 @@ Measured on this project's free key on 2026-10-27:
   Lite as the last resort. The site's routes, where a learner is waiting,
   use 3.5 Flash-Lite (youtube-digest-archive/src/pages/api/define.ts and
   speak-feedback.ts).
-- 3.5 Flash-Lite refuses thinking_budget=0 with a 400. Gemini 3 models take
-  thinking_level="minimal" instead, so `fast` requests are given whichever
-  setting their model accepts.
+- Which "least thinking" setting a model takes differs by model and isn't
+  documented (see FAST_SETTINGS). ⚠️ Assuming every Gemini 3 model takes
+  thinking_level="minimal" broke the pipeline from 2026-10-28 to 11-16: 3.8
+  Flash refuses it with a 400, so every fast call (episode and section
+  summaries, labelling, the speaking prompt) failed on the first model and
+  20 issues went out without them.
 
 2.5 Flash left the chain on 2026-11-04: from 2026-12-01 Google answers it
 with 3.5 Flash-Lite, which is already in the chain, and which would refuse the
@@ -53,6 +56,31 @@ MAX_BUSY_HOPS = 2
 # model -> why it is skipped for the rest of this run
 _skipped = {}
 
+# The least-thinking settings, most preferred first. Measured on 2026-10-27
+# and 2026-11-19 (400 = refused):
+#   3.8 Flash          budget 0 ok    minimal 400   low ok
+#   3.6 Flash          budget 0 ok    minimal ok    low ok
+#   3 Flash Preview    budget 0 ok    minimal ok    low ok
+#   3.5 Flash-Lite     budget 0 400   minimal ok    low ok
+#   3.1 Flash-Lite     budget 0 ok    minimal ok    low ok
+#   2.5 Flash-Lite     budget 0 ok    minimal 400   low 400
+# A model that refuses one setting is asked again with the next, and the one
+# it took is remembered for the run — so a model Google changes, or a new
+# one, costs a refused request instead of a failed step.
+FAST_SETTINGS = (
+    {"thinking_budget": 0},
+    {"thinking_level": "minimal"},
+    {"thinking_level": "low"},
+)
+# Where to start for models already known, so they cost no refused request.
+_KNOWN_FAST = {"gemini-3.5-flash-lite": 1}
+# model -> index into FAST_SETTINGS that it took this run
+_fast_choice = {}
+
+
+class _ThinkingRefused(RuntimeError):
+    """A model refused every least-thinking setting."""
+
 
 class NoModelLeft(RuntimeError):
     """Every model in the chain is used up for today, not offered, or stuck.
@@ -62,8 +90,10 @@ class NoModelLeft(RuntimeError):
 
 
 def reset():
-    """Forget skipped models (tests; a long-lived process after the reset)."""
+    """Forget skipped models and learned settings (tests; a long-lived
+    process after the reset)."""
     _skipped.clear()
+    _fast_choice.clear()
 
 
 def skipped():
@@ -94,12 +124,33 @@ def chain(first=None):
     return [first] + models
 
 
+def _fast_index(model):
+    return _fast_choice.get(model, _KNOWN_FAST.get(model, 0))
+
+
 def fast_thinking(model):
-    """The least thinking `model` accepts: Gemini 2.5 takes a zero budget,
-    Gemini 3 refuses that (3.5 Flash-Lite with a 400) and takes a level."""
-    if model.startswith("gemini-2."):
-        return types.ThinkingConfig(thinking_budget=0)
-    return types.ThinkingConfig(thinking_level="minimal")
+    """The least-thinking setting to send `model` (see FAST_SETTINGS)."""
+    return types.ThinkingConfig(**FAST_SETTINGS[_fast_index(model)])
+
+
+def _refuses_thinking_setting(error):
+    """A 400 about the thinking setting. 3.5 Flash-Lite refuses a zero budget
+    with only the generic "Request contains an invalid argument." — a request
+    that is really malformed says what is wrong, so that bare message counts."""
+    text = str(error)
+    code = getattr(error, "code", None)
+    is_400 = code == 400 or text.lstrip().startswith("400")
+    return is_400 and ("thinking" in text.lower() or "Request contains an invalid argument." in text)
+
+
+def _try_next_fast_setting(model):
+    """Move `model` to its next least-thinking setting; False if none is left."""
+    i = _fast_index(model) + 1
+    if i >= len(FAST_SETTINGS):
+        return False
+    _fast_choice[model] = i
+    print(f"  [model] {model} refused that thinking setting; asking again with {FAST_SETTINGS[i]}")
+    return True
 
 
 def config_for(model, config, fast=False, timeout=None):
@@ -144,6 +195,7 @@ _REASONS = {
     "daily": "out of requests for today",
     "gone": "not offered to this key",
     "slow": "gave no answer in time",
+    "nothink": "took none of the least-thinking settings",
 }
 
 
@@ -165,13 +217,21 @@ def generate(client, contents, config=None, *, first=None, fast=False, timeout=N
         if model in _skipped:
             continue
         try:
-            response = client.models.generate_content(
-                model=model,
-                contents=contents,
-                config=config_for(model, config, fast=fast, timeout=timeout),
-            )
+            while True:
+                try:
+                    response = client.models.generate_content(
+                        model=model,
+                        contents=contents,
+                        config=config_for(model, config, fast=fast, timeout=timeout),
+                    )
+                    break
+                except Exception as e:  # noqa: BLE001
+                    if not (fast and _refuses_thinking_setting(e)):
+                        raise
+                    if not _try_next_fast_setting(model):
+                        raise _ThinkingRefused(e) from e
         except Exception as e:  # noqa: BLE001 — sorted by classify_error
-            kind = classify_error(e)
+            kind = "nothink" if isinstance(e, _ThinkingRefused) else classify_error(e)
             if kind == "fatal":
                 raise
             last = e

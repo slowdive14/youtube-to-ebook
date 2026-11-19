@@ -74,15 +74,17 @@ class TestChain:
 # ---------- per-model settings ----------
 
 class TestConfigFor:
-    def test_gemini_25_gets_a_zero_budget(self):
-        assert fast_thinking("gemini-2.5-flash-lite").thinking_budget == 0
+    def test_zero_budget_by_default(self):
+        # 3.8 Flash refuses "minimal": sending it broke every fast call
+        # from 2026-10-28 to 11-16.
+        for model in ("gemini-2.5-flash-lite", "gemini-3.8-flash", "gemini-3-flash-preview"):
+            assert fast_thinking(model).thinking_budget == 0
 
-    def test_gemini_3_gets_minimal_level(self):
+    def test_flash_lite_35_starts_at_minimal(self):
         # 3.5 Flash-Lite refuses thinking_budget=0 with a 400.
-        for model in ("gemini-3.5-flash-lite", "gemini-3.8-flash", "gemini-3-flash-preview"):
-            tc = fast_thinking(model)
-            assert tc.thinking_budget is None
-            assert str(tc.thinking_level).lower().endswith("minimal")
+        tc = fast_thinking("gemini-3.5-flash-lite")
+        assert tc.thinking_budget is None
+        assert str(tc.thinking_level).lower().endswith("minimal")
 
     def test_keeps_the_callers_settings_and_adds_the_timeout(self):
         base = types.GenerateContentConfig(max_output_tokens=3000, temperature=0.4,
@@ -187,14 +189,64 @@ class TestGenerate:
     def test_fast_settings_follow_the_model_that_answers(self):
         client = FakeClient({m: RuntimeError(DAILY) for m in DEFAULT_CHAIN[:-1]})
         generate(client, "hi", types.GenerateContentConfig(temperature=0.1), fast=True)
-        # the Gemini 3 models were asked with a level, 2.5 Flash-Lite with a budget
+        # each model got its own setting: 3.5 Flash-Lite a level, the rest a zero budget
         assert client.asked[-1] == "gemini-2.5-flash-lite"
-        assert client.configs[-1].thinking_config.thinking_budget == 0
-        assert client.configs[0].thinking_config.thinking_budget is None
+        by_model = dict(zip(client.asked, client.configs))
+        assert by_model["gemini-3.8-flash"].thinking_config.thinking_budget == 0
+        assert by_model["gemini-3.5-flash-lite"].thinking_config.thinking_budget is None
+        assert by_model["gemini-2.5-flash-lite"].thinking_config.thinking_budget == 0
 
     def test_gemini_25_flash_is_not_asked(self):
         # From 2026-12-01 it is answered by 3.5 Flash-Lite, which refuses its budget.
         assert "gemini-2.5-flash" not in DEFAULT_CHAIN
+
+    def test_a_refused_thinking_setting_is_swapped_and_remembered(self):
+        refusal = ValueError("400 INVALID_ARGUMENT. Thinking level MINIMAL is not supported for this model.")
+        budget_refusal = ValueError("400 INVALID_ARGUMENT. Thinking budget 0 is not supported for this model.")
+        seen = []
+
+        class Picky(FakeClient):
+            def generate_content(self, model, contents, config):
+                tc = config.thinking_config
+                seen.append((model, tc.thinking_budget, str(tc.thinking_level or "").lower()))
+                if tc.thinking_budget == 0:
+                    raise budget_refusal
+                if "minimal" in str(tc.thinking_level).lower():
+                    raise refusal
+                return SimpleNamespace(text="ok", model=model)
+
+        client = Picky({})
+        assert generate(client, "one", fast=True).model == "gemini-3.8-flash"
+        generate(client, "two", fast=True)
+        # budget 0 -> minimal -> low on the first call; straight to low after
+        assert [s[1:] for s in seen] == [(0, ""), (None, "thinkinglevel.minimal"),
+                                          (None, "thinkinglevel.low"), (None, "thinkinglevel.low")]
+
+    def test_a_model_taking_no_setting_hands_over(self):
+        class NoThinkingControl(FakeClient):
+            def generate_content(self, model, contents, config):
+                self.asked.append(model)
+                if model == "gemini-3.8-flash":
+                    raise ValueError("400 INVALID_ARGUMENT. Thinking is not configurable for this model.")
+                return SimpleNamespace(text="ok", model=model)
+
+        client = NoThinkingControl({})
+        assert generate(client, "hi", fast=True).model == "gemini-3.6-flash"
+        assert client.asked.count("gemini-3.8-flash") == len(gemini_models.FAST_SETTINGS)
+        assert "gemini-3.8-flash" in gemini_models.skipped()
+
+    def test_the_bare_invalid_argument_refusal_counts_too(self):
+        # what 3.5 Flash-Lite actually says to a zero budget
+        bare = ValueError("400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': "
+                          "'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}")
+        assert gemini_models._refuses_thinking_setting(bare)
+        detailed = ValueError("400 INVALID_ARGUMENT. Invalid JSON payload: unknown field 'foo'")
+        assert not gemini_models._refuses_thinking_setting(detailed)
+
+    def test_without_fast_a_thinking_400_is_the_requests_fault(self):
+        client = FakeClient({"gemini-3.8-flash": ValueError("400 INVALID_ARGUMENT. thinking")})
+        with pytest.raises(ValueError):
+            generate(client, "hi")
 
     def test_first_starts_there(self):
         client = FakeClient({})
