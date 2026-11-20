@@ -1,0 +1,1222 @@
+{
+ "id": "i3caJRZscXk",
+ "title": "‘Did A.I. Break the Internet?’ and Other Things We’ve Worried About This Week",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=i3caJRZscXk",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/e4f0c51f-a7f8-409f-8786-bccd54d2e1a1/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=e4f0c51f-a7f8-409f-8786-bccd54d2e1a1&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/7e/5a/957e5a3a-ddff-5cf2-b082-1da6f81b191c/mza_8196905012652644511.jpg/600x600bb.jpg",
+ "duration": 1854,
+ "releaseDate": "2026-11-19T10:47:59Z",
+ "addedAt": "2026-11-20",
+ "segments": [
+  {
+   "start": 1.5,
+   "en": "Hi there, I'm Chris Wood, Audio Engineer on The Daily. That means that I put the finishing touches on the show, make everything sound a little bit better and hit publish on my computer.",
+   "ko": "안녕하세요, 저는 The Daily의 오디오 엔지니어인 크리스 우드입니다. 제가 쇼의 마무리 작업을 하고, 모든 소리를 조금 더 좋게 만든 다음 컴퓨터에서 발행 버튼을 누른다는 뜻이죠.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 10.8,
+   "en": "That sends the day's episode out into the world so it's ready before most of our listeners wake up. So The Daily Team makes a show every weekday.",
+   "ko": "그렇게 하면 그날의 에피소드가 세상에 나가고, 대부분의 청취자들이 깨어나기 전에 준비가 됩니다. 그래서 The Daily 팀은 평일마다 쇼를 만듭니다.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 18.9,
+   "en": "That can mean late nights and that's when they pass it off to me. Part of the reason that I'm able to do the work with a clear head is that it's not the middle of the night for me.",
+   "ko": "그것은 늦은 밤까지 일하는 것을 의미할 수 있고, 그때 팀원들이 저에게 넘겨줍니다. 제가 맑은 정신으로 작업을 할 수 있는 이유 중 하나는 저에게는 한밤중이 아니기 때문입니다.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 28.0,
+   "en": "you might have already guessed from my accent. I live in London and we're five hours ahead of New York.",
+   "ko": "제 억양에서 이미 짐작하셨을 수도 있겠네요. 저는 런던에 살고 있고 뉴욕보다 5시간 빠릅니다.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 32.9,
+   "en": "The Daily is only possible because it involves people all over the world and that includes the whole fleet of New York Times journalists who give us their expert analysis and in-depth reporting five days a week.",
+   "ko": "The Daily는 전 세계 사람들이 참여하기에 가능하며, 여기에는 주 5일 동안 전문가의 분석과 심층 보도를 제공하는 뉴욕 타임스 기자단 전체가 포함됩니다.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 46.0,
+   "en": "So if you're a loyal listener and want to support what we do as well as explore everything that the New York Times has to offer, you can subscribe at nytimes.com slash subscribe. Cheers.",
+   "ko": "그러니 저희의 애청자이시며 저희가 하는 일을 지원하고 뉴욕 타임스가 제공하는 모든 것을 살펴보고 싶으시다면, nytimes.com/subscribe에서 구독하실 수 있습니다. 감사합니다.",
+   "speaker": "Chris Wood",
+   "ad": true
+  },
+  {
+   "start": 55.6,
+   "en": "From the New York Times, I'm Rachel Abrams, and this is the Daily.",
+   "ko": "뉴욕 타임스에서 전해드리는 저는 레이첼 에이브람스이고, 이 프로그램은 The Daily입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 70.8,
+   "en": "In recent days, after Anthropic warned us that one of the risks to its business model included wiping out humanity, a cascade of mysterious technical glitches, have grounded planes, close bank accounts.",
+   "ko": "최근 앤스로픽이 비즈니스 모델에 대한 위험 중 하나로 인류 멸망을 경고한 후, 불가사의한 기술적 결함들이 잇따르면서 비행기 운항이 중단되고 은행 계좌가 폐쇄되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 89.4,
+   "en": "So right now, if you have Chase, you literally cannot access anything. There's more trouble in cyberspace this morning.",
+   "ko": "그래서 지금 당장은 체이스 은행 계좌가 있어도 말 그대로 아무것도 접근할 수 없습니다. 오늘 아침 사이버 공간에 더 많은 문제가 발생했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 98.0,
+   "en": "Show us all our email. Microsoft Outlook experiencing major disruptions. Marriott, the National Weather Service, Charles Schwab.",
+   "ko": "우리의 이메일을 모두 보여주세요. 마이크로소프트 아웃룩이 큰 혼란을 겪고 있습니다. 메리어트, 국립 기상청, 찰스 슈왑까지 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 106.0,
+   "en": "Being at Apple, Google, and the National Security Agency.",
+   "ko": "애플, 구글, 그리고 국가안보국까지 말입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 109.6,
+   "en": "And generally created a sense that the world is either falling apart, or getting hacked, or maybe both.",
+   "ko": "그리고 전반적으로 세상이 무너지고 있거나, 해킹을 당하고 있거나, 혹은 둘 다라는 느낌을 주었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 115.4,
+   "en": "I mean, if this is all coincidence, it's like the greatest coincidence in the history of the world.",
+   "ko": "제 말은, 만약 이 모든 게 우연이라면, 그건 세계 역사상 가장 큰 우연일 것이라는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 120.6,
+   "en": "And so today we turn to our colleagues, Karoun Demirjian, Dustin Voltz, and Zolan Kanno-Youngs, to explain what we know about what actually happened, what we might expect going forward, and maybe they can give us just a little bit of reassurance.",
+   "ko": "그래서 오늘은 동료인 카룬 데미르지안, 더스틴 볼츠, 졸란 칸노 영스를 모시고 실제로 일어난 일에 대해 우리가 알고 있는 것과 앞으로 예상할 수 있는 일을 설명해 듣고, 어쩌면 약간의 안심을 얻을 수 있을지도 모르겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 136.5,
+   "en": "It's Thursday, November 19th. Wow, there he is! There he is! Right on time! The man, the legend!",
+   "ko": "11월 19일 목요일입니다. 와, 그가 왔네요! 저기 있네요! 제시간에 맞춰서요! 전설적인 그분 말이죠!",
+   "speaker": "Host"
+  },
+  {
+   "start": 147.1,
+   "en": "I'm so sorry.",
+   "ko": "정말 죄송합니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 149.8,
+   "en": "Dustin did you run the last two blocks here?",
+   "ko": "더스틴, 여기 오려고 마지막 두 블록을 뛰어왔나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 152.9,
+   "en": "I did yes.",
+   "ko": "네, 그랬어요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 153.9,
+   "en": "Oh my god That is how committed New York Times journalists are to the daily ladies and gentlemen",
+   "ko": "세상에나, 여러분, 뉴욕 타임스 기자들이 데일리에 얼마나 헌신적인지 좀 보세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 159.7,
+   "en": "There was there was a lot of traffic and you know the the internet is exploding or whatever so if there was ever a day to use that excuse It is today",
+   "ko": "교통 체증이 엄청났고, 아시다시피 인터넷이 마비되든 말든 난리가 났으니까요, 그런 핑계를 댈 날이 있다면 바로 오늘일 겁니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 170.0,
+   "en": "So Zolan Kanno-Youngs White House correspondent. Hello. Welcome back.",
+   "ko": "자, 백악관 출입기자 졸란 칸노 영스 씨. 안녕하세요. 다시 오신 걸 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 174.5,
+   "en": "Hey there Rachel. Thanks for having me",
+   "ko": "안녕하세요, 레이첼. 초대해 주셔서 감사합니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 176.7,
+   "en": "Karoun Demirjian, you cover aviation among other things. Welcome to the show.",
+   "ko": "다른 분야와 더불어 항공 분야를 취재하시는 카룬 데미르지안 씨. 쇼에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 180.4,
+   "en": "Hi Rachel.",
+   "ko": "안녕하세요, 레이첼.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 181.5,
+   "en": "Dustin Voltz, welcome.",
+   "ko": "더스틴 볼츠 씨, 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 183.4,
+   "en": "Hello, hello.",
+   "ko": "안녕하세요, 안녕하세요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 184.4,
+   "en": "So Dustin, I want to start with you because you probably have the broadest overview on your beat of just everything that's happened in the last few days. When did you first realize that you had a huge story on your hands?",
+   "ko": "더스틴, 당신부터 시작하고 싶은데, 지난 며칠 동안 일어난 모든 일에 대해 당신의 담당 분야에서 아마 가장 폭넓은 시야를 가지고 계실 것이기 때문입니다. 언제 처음으로 큰 사건을 맡게 되었다는 걸 깨달으셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 194.6,
+   "en": "You know, people always assume I find out about these things in advance because I'm a reporter, but the truth is that's not often the case.",
+   "ko": "아시다시피, 사람들은 제가 기자이기 때문에 이런 일들을 미리 알게 될 것이라고 항상 가정하지만, 사실 그렇지 않은 경우가 많습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 201.0,
+   "en": "I first found out about the Microsoft outage, which I think was the first big one that sort of kicked off the spree of technology failures that we've seen in recent days. I learned about it from my wife.",
+   "ko": "최근 며칠 동안 우리가 본 기술 실패의 연속을 촉발시킨 첫 번째 큰 사건이라고 생각하는 마이크로소프트 장애에 대해 처음 알게 된 것은 제 아내를 통해서였습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 211.0,
+   "en": "I don't use Microsoft, but my wife does. She's a lawyer and I recall her telling me early.",
+   "ko": "저는 마이크로소프트를 사용하지 않지만 제 아내는 사용하거든요. 아내는 변호사인데 아침 일찍 저에게 말했던 기억이 나요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 216.3,
+   "en": "Microsoft Outlook, yeah.",
+   "ko": "마이크로소프트 아웃룩 말이죠, 네.",
+   "speaker": "Host"
+  },
+  {
+   "start": 217.3,
+   "en": "Microsoft Outlook, yeah. And I recall her telling me, well, I guess I'm not working today. Seems like Microsoft's down.",
+   "ko": "마이크로소프트 아웃룩 말이에요. 아내가 '음, 오늘 일은 다 했네. 마이크로소프트가 먹통인 것 같아'라고 말했던 게 기억납니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 221.7,
+   "en": "And that was actually the first time I had heard about it. And I honestly didn't think anything of it.",
+   "ko": "그게 제가 그 일에 대해 처음 들은 때였어요. 솔직히 별일 아니라고 생각했습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 227.6,
+   "en": "These things happened. Again, this was kind of the first one that we saw over the past few days that was like a technology outage. and Microsoft's had issues in the past, other major platforms have had issues in the past.",
+   "ko": "이런 일들은 늘 일어나니까요. 다시 말하지만, 이것은 지난 며칠 동안 우리가 본 기술 중단과 같은 일들 중 첫 번째였습니다. 과거에도 마이크로소프트에 문제가 있었고, 다른 주요 플랫폼에도 문제가 있었죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 238.0,
+   "en": "It's not unusual, even though it persisted for a couple of days. I think what clued me in that something more significant was happening or seemingly something more significant was happening was the next day when there was a nationwide ground stop ordered by the FAA of all flights in the United States.",
+   "ko": "비록 이틀 동안 지속되긴 했지만 드문 일은 아닙니다. 제게 뭔가 더 중대한 일이 일어나고 있거나 중대한 일이 일어나고 있는 것 같다는 단서를 준 것은 다음날 FAA(연방항공청)가 미국 내 모든 항공편에 대해 전국적인 운항 중단 명령을 내렸을 때였다고 생각합니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 254.4,
+   "en": "And I immediately started getting a lot of messages from sources and friends and people I haven't talked to in years saying, oh my gosh, what's going on? when this happened, Microsoft happened, is there a cyber attack? Is it Iran? Are we under attack?",
+   "ko": "그러자 즉시 취재원들과 친구들, 그리고 몇 년 동안 연락이 없던 사람들로부터 메시지가 쏟아지기 시작했습니다. '세상에, 무슨 일이야? 이런 일이 생기고 마이크로소프트 일도 있었는데, 사이버 공격인가? 이란인가? 우리가 공격받고 있는 거야?'라고 묻더군요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 267.8,
+   "en": "And I had no idea at the time. I was at a cabin in the woods with my family and some friends trying to get ready for a chilly dinner.",
+   "ko": "그때 저는 전혀 몰랐습니다. 가족, 친구들과 숲속 오두막에서 칠리 저녁 식사를 준비하려던 참이었거든요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 275.1,
+   "en": "And I'm sort of springing to action and start asking people, what's going on here? What do you know?",
+   "ko": "그래서 저는 즉시 행동에 나서서 사람들에게 묻기 시작했습니다. '어떻게 된 거야? 아는 거 있어?'라고요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 279.4,
+   "en": "And so the folks I reach out to in the government and other people who are sort of familiar with what's going on are basically saying, hey, we have no idea what's going on. But we have no indications, no intelligence pointing pointing to a foreign threat, a cyber attack.",
+   "ko": "제가 연락한 정부 관계자들과 상황을 좀 아는 사람들은 기본적으로 '우리도 무슨 일인지 전혀 모르겠다'고 하더군요. 하지만 외부의 위협이나 사이버 공격을 가리키는 징후나 정보는 전혀 없다고 했습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 293.2,
+   "en": "This doesn't look like it's Iran, it doesn't look like it's something that someone's pulled off.",
+   "ko": "이란의 소행 같지도 않고, 누군가 꾸며낸 일 같지도 않아 보인다는 거죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 296.8,
+   "en": "Right, right, right. And then on Monday, of course, we start seeing all these banking outages. Right.",
+   "ko": "그렇군요. 그리고 월요일에 당연히 은행 시스템 중단 사태가 발생하기 시작했죠. 맞아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 301.3,
+   "en": "So the bank outage was interesting. And then, you know, the same day on Monday, there's a United outage.",
+   "ko": "은행 중단 사태는 흥미로웠습니다. 그리고 같은 날 월요일에 유나이티드 항공 중단도 있었죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 306.2,
+   "en": "And this is when I start kind of trying to reckon with myself, like, okay, this United outage is interesting, but is this perception bias? Like, people just freaking out because there was the FAA outage a few days ago and now we're noticing things that we normally wouldn't notice.",
+   "ko": "이때부터 저는 스스로 따져보기 시작했습니다. '좋아, 유나이티드 중단 건은 흥미롭지만, 이게 인지 편향인가?' 하고요. 며칠 전 FAA 사태 때문에 사람들이 겁을 먹어서 평소라면 눈치채지 못했을 일들까지 알아채고 있는 건 아닌가 하고 말이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 320.6,
+   "en": "So I'm trying to balance like, okay, maybe that's what's going on versus, okay, there are a lot of people who are really concerned. This is seeming like maybe a little bit more than a coincidence.",
+   "ko": "그래서 저는 '그래, 그런 상황일 수도 있겠다'라는 생각과 '아니, 정말로 걱정하는 사람들이 많고 이건 우연 이상의 일인 것 같다'는 생각 사이에서 균형을 잡으려고 노력하고 있습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 329.6,
+   "en": "Perception bias meeting, like we're all seeing all these crazy things and starting to assume a conspiracy basically.",
+   "ko": "인지 편향이라 함은, 우리 모두가 이런 미친 일들을 보면서 기본적으로 음모가 있다고 가정하기 시작한다는 뜻이겠군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 335.4,
+   "en": "And then on Tuesday, that's when it got really interesting for me. The National Security Agency, which is a organization of tens of thousands of people who are very, very important to the nation's cyber security had their own outage of their internal classified network",
+   "ko": "그리고 화요일에 정말 흥미로운 일이 생겼습니다. 국가 사이버 보안에 매우 중요한 수만 명의 인력이 있는 조직인 국가안보국(NSA)의 내부 기밀 네트워크가 중단되었습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 352.8,
+   "en": "that they use to communicate classified information, which is most of what they do business in. It was down and they could not operate and staff were being told to stagger their arrivals to the headquarters in Maryland as the agency worked to process what was going on.",
+   "ko": "업무의 대부분을 차지하는 기밀 정보를 주고받는 네트워크였죠. 그게 먹통이 되어 운영이 불가능해졌고, 기관이 상황을 파악하는 동안 직원들은 메릴랜드 본부로의 출근 시간을 조절하라는 지시를 받았습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 369.0,
+   "en": "Wow. And we're talking about, just to be clear, we were talking about the secretiest of the secret government agencies. So if they are having this problem, it is really making you sit up straight.",
+   "ko": "와. 분명히 하자면, 우리는 정부 기관 중에서도 가장 비밀스러운 기관에 대해 이야기하고 있는 거잖아요. 그러니 그들에게 이런 문제가 생겼다면 정말 정신이 벌쩍 들게 만들겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 377.5,
+   "en": "Yeah, I mean, NSA, the joke in Washington for decades is there no such agency because their existence used to be secret and they don't talk publicly very often",
+   "ko": "네, 수십 년 동안 워싱턴에서는 NSA가 존재 자체가 비밀이었고 공개적으로 거의 말을 하지 않아서 '그런 기관은 없다(No Such Agency)'라는 농담이 있었을 정도니까요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 387.8,
+   "en": "and really was only after the Edward Snowden revelations of 2013. They were forced into public.",
+   "ko": "실제로 2013년 에드워드 스노든의 폭로가 있고 나서야 대중 앞에 모습을 드러낼 수밖에 없었습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 392.8,
+   "en": "But yes, these are sort of the spooky types that hack your computers. I guess they would say they don't hack American computers, but they hack the computers of foreign spies and terrorists and they have a very, very important national security mission to United States government.",
+   "ko": "하지만 맞습니다, 이들은 당신의 컴퓨터를 해킹하는 일종의 으스스한 사람들입니다. 본인들은 미국인의 컴퓨터는 해킹하지 않고 외국 스파이나 테러리스트의 컴퓨터를 해킹한다고 하겠지만요. 이들은 미국 정부에 매우 중요한 국가 안보 임무를 수행합니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 407.4,
+   "en": "Mm hmm. You know, it's, I think it's going to sound quite validating to a lot of people to hear that you at least somewhat shared some of those questions",
+   "ko": "음, 당신도 적어도 어느 정도는 그런 의문들을 공유했다는 사실이 많은 사람들에게 꽤나 위안이 될 것 같네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 414.3,
+   "en": "because, you know, a lot of people's reactions, at least in my life, I don't know about your lives, Karoun and Zolan, were asking me similar things. I got at least two questions about bug out bags.",
+   "ko": "왜냐하면 적어도 제 주변의 많은 사람들 반응이, 카룬과 졸란의 경우는 모르겠지만, 저에게 비슷한 질문들을 했거든요. 비상용 가방에 대한 질문도 최소 두 번은 받았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 423.8,
+   "en": "Yeah, particularly like earlier this week when even if there wasn't evidence that all of this was linked by the same perpetrator, like the public does notice a trend here, right?",
+   "ko": "네, 특히 이번 주 초에 이 모든 것이 동일한 가해자에 의해 연결되었다는 증거가 없었을 때조차, 대중은 여기서 어떤 흐름을 읽어냈잖아요, 그렇죠?",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 435.6,
+   "en": "They're noticing that there are widespread digital outages happening seemingly in various aspects of the private sector and even impacting government institutions.",
+   "ko": "민간 부문의 다양한 측면에서 광범위한 디지털 중단 사태가 발생하고 있으며, 심지어 정부 기관에도 영향을 미치고 있다는 점을 주목하고 있습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 443.5,
+   "en": "And it was both questions also of like, what is going on, but also where is the federal government here too? Right.",
+   "ko": "무슨 일이 일어나고 있는지에 대한 질문뿐만 아니라 '연방 정부는 지금 어디서 뭘 하고 있나'라는 질문도 있었습니다. 맞아요.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 451.2,
+   "en": "And how scared should I be? Right. But also just to be clear, it's not just sort of theoretical fears, right? We have seen a number of like technological malfunctions and even hacks of varying degrees.",
+   "ko": "그리고 '내가 얼마나 겁을 먹어야 하나' 같은 질문도요. 그렇죠. 하지만 분명히 말하자면, 이건 그냥 이론적인 두려움만이 아닙니다. 우리는 수많은 기술적 오작동과 다양한 수준의 해킹까지 목격했으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 461.4,
+   "en": "So can you just walk us through those quickly, Dustin?",
+   "ko": "더스틴, 그것들을 간단히 설명해 주시겠어요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 464.4,
+   "en": "That's right. We've seen cyber attacks happening in the U.S. that have been linked to Iran on water system. We've seen recently refrigeration attacks in France and throughout Europe.",
+   "ko": "맞습니다. 우리는 미국에서 상수도 시스템에 대한 이란 연계 사이버 공격이 발생하는 것을 보았습니다. 최근에는 프랑스와 유럽 전역에서 냉동 시스템 공격도 목격했죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 473.4,
+   "en": "So the idea that major cyber attacks are happening and disrupting essential services is something that we've seen happen very recently.",
+   "ko": "따라서 주요 사이버 공격이 발생하여 필수 서비스를 중단시킨다는 개념은 아주 최근에 실제로 일어난 일입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 481.2,
+   "en": "And we also, at the same time, are seeing these top shelf AI models discover unknown computer computer bugs in software that's ubiquitous throughout the internet.",
+   "ko": "동시에 최상급 AI 모델들이 인터넷 전역에 널리 퍼져 있는 소프트웨어에서 알려지지 않은 컴퓨터 버그들을 찾아내는 것도 보고 있습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 492.4,
+   "en": "We're just a few weeks removed from the discovery of vulnerability in a programming language called PHP, which is used by 70% of websites on the internet.",
+   "ko": "인터넷 웹사이트의 70%에서 사용되는 PHP라는 프로그래밍 언어에서 취약점이 발견된 지 불과 몇 주밖에 되지 않았습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 502.1,
+   "en": "And that came out and the NSA, which has been dealing with its own disruption now, at the time said, please immediately fix this. And if you can't, you should basically take your website offline.",
+   "ko": "그 취약점이 밝혀졌을 때, 지금 현재 자체적인 마비를 겪고 있는 NSA는 당시 '즉시 수정하라, 할 수 없다면 기본적으로 웹사이트를 오프라인으로 전환해야 한다'고 말했습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 512.1,
+   "en": "And we're seeing a number of episodes like that where thanks to AI, enormous bugs that seem to really have significant impact or could have significant impact if they're not addressed are coming out essentially every day now.",
+   "ko": "그리고 AI 덕분에 해결되지 않으면 정말 큰 영향을 미치거나 미칠 수 있는 거대한 버그들이 본질적으로 매일 쏟아져 나오는 그런 에피소드들을 목격하고 있습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 524.2,
+   "en": "So this sort of leads me to my next question because one of the big questions that people have that they're texting you is are these events related in some way, right?",
+   "ko": "이것이 제 다음 질문으로 이어지는데, 사람들이 당신에게 문자 메시지로 묻는 큰 질문 중 하나가 '이 사건들이 어떤 식으로든 연관이 있느냐'는 것이기 때문입니다. 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 533.4,
+   "en": "And so I wonder, like what are your sources telling you about the answer to that question?",
+   "ko": "그래서 궁금합니다, 당신의 취재원들은 그 질문에 대해 뭐라고 답하고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 538.8,
+   "en": "They're saying essentially it's complicated. The short answer is none of them seem to be directly related, but the longer answer is most of them are somewhat related.",
+   "ko": "본질적으로 복잡하다고들 합니다. 짧게 답하자면 직접적으로 연관된 것은 없어 보이지만, 길게 답하자면 대부분 어느 정도 연관이 있다는 것이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 548.8,
+   "en": "In what way, just explain that a little bit.",
+   "ko": "어떤 방식인지, 조금만 설명해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 550.7,
+   "en": "Yeah. A lot of them putting the FAA outage aside because that seems to be a different issue. Most of the other issues seem to be dealing with software updates that the banks, the airline, United and the NSA were pushing through their system.",
+   "ko": "네. FAA 중단 사태는 다른 문제로 보이기 때문에 제외하고요. 다른 문제들 대부분은 은행, 유나이티드 항공, NSA가 시스템을 통해 진행하던 소프트웨어 업데이트와 관련이 있는 것 같습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 567.2,
+   "en": "And I think we've all been in a situation where, you know, you have to close your Chrome browser to make sure that it solves the update or you have to restart your iPhone and essentially turn it off and turn it back on again.",
+   "ko": "업데이트를 완료하기 위해 크롬 브라우저를 닫아야 하거나, 아이폰을 재시동해서 기본적으로 껐다가 다시 켜야 하는 상황은 우리 모두 겪어봤을 겁니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 577.0,
+   "en": "And so because of the issues that these AI discovered vulnerabilities are presenting, a lot of these recent episodes appear to be linked to AI discoveries of bugs.",
+   "ko": "그래서 AI가 발견한 취약점들이 제기하는 문제들 때문에, 최근의 많은 에피소드들이 AI의 버그 발견과 연관된 것으로 보입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 589.7,
+   "en": "Basically, companies trying to get ahead of problems by patching things and then crashing everything. Right.",
+   "ko": "기본적으로 기업들이 문제를 미연에 방지하려고 패치 작업을 하다가 모든 것을 망가뜨린 거군요. 맞아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 595.2,
+   "en": "And again, these are not cyber attacks. These are not the bad guys doing something bad. These are the good guys trying to get ahead of of something before the bad guys have a chance to act.",
+   "ko": "다시 말씀드리지만, 이것은 사이버 공격이 아닙니다. 나쁜 놈들이 나쁜 짓을 한 게 아니에요. 나쁜 놈들이 행동할 기회를 갖기 전에 착한 놈들이 먼저 손을 쓰려고 했던 것이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 603.1,
+   "en": "And so that appears to be what's going on in most of these other cases is that basically AI is finding exponentially more bugs than it's ever found before, that humans could ever possibly uncover.",
+   "ko": "그래서 다른 대부분의 경우에도 그런 일이 벌어지고 있는 것으로 보입니다. 기본적으로 AI가 예전보다, 그리고 인간이 발견할 수 있는 것보다 기하급수적으로 더 많은 버그를 찾아내고 있는 것이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 614.6,
+   "en": "Part of the problem here is something that a lot of experts refer to as technical debt. And that is essentially the concept that the internet was not ever built with security in mind.",
+   "ko": "여기서 문제의 일부는 많은 전문가들이 '기술 부채'라고 부르는 것입니다. 본질적으로 인터넷이 처음부터 보안을 염두에 두고 구축되지 않았다는 개념이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 622.4,
+   "en": "It sort of was an afterthought from the beginning. And sort of the bill is coming due now as we are realizing that a lot of old code, you know, in some cases decades old, like this bit of Java code that I just wrote about, contains problems that have never been spotted before by human eyes, but AI is now identifying.",
+   "ko": "보안은 처음부터 뒷전이었습니다. 이제 그 청구서가 날아오고 있는 셈인데, 제가 최근에 쓴 글에 나온 자바 코드처럼 수십 년 된 오래된 코드들이 인간의 눈에는 띄지 않았던 문제들을 포함하고 있다는 것을 깨닫고 있고, AI가 이제 그것들을 식별해내고 있습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 640.8,
+   "en": "And it does remind me of sort of like a stack of Jenga blocks where the further down you go, the harder it is to pull out a block and replace it.",
+   "ko": "이것은 마치 젠가 블록을 쌓아 올린 것과 비슷해서, 아래로 내려갈수록 블록 하나를 빼서 교체하기가 점점 더 어려워집니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 648.9,
+   "en": "Because if you do that and you're not careful, the whole thing will come tumbling down. And I think that's what's going down. It's the deeper down the technology stack you go, So the more likely it is that you're going to have a slip up and everything's going to fall apart.",
+   "ko": "조심하지 않고 그렇게 했다가는 전체가 무너져 내릴 테니까요. 지금 그런 일이 벌어지고 있다고 생각합니다. 기술 스택의 더 깊은 곳으로 내려갈수록 실수가 발생할 가능성이 높고 모든 것이 무너질 가능성도 커집니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 660.4,
+   "en": "Sure. And in addition to that, some of the bugs they're finding are extraordinarily severe. Things that could allow hackers to do all sorts of crazy things that could take systems down entirely.",
+   "ko": "물론이죠. 게다가 그들이 발견하는 버그 중 일부는 매우 심각합니다. 해커들이 온갖 미친 짓을 해서 시스템을 완전히 무너뜨릴 수 있게 하는 것들이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 670.8,
+   "en": "And so there's sort of a rush to fix things as soon as they're discovered. And there's a level of exhaustion as well, dealing with so many problems at once.",
+   "ko": "그래서 버그가 발견되자마자 서둘러 수정하려는 움직임이 있습니다. 또한 한꺼번에 너무 많은 문제를 처리하다 보니 피로도도 상당하죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 678.3,
+   "en": "And I think what you're seeing is historically a business might say, okay, on Saturday we're going to take systems offline. no one's at work. Don't log into whatever app that you need to because we're going to fix it.",
+   "ko": "제 생각에 지금 벌어지는 상황은 이렇습니다. 예전 같으면 기업이 '좋아, 토요일에 시스템을 오프라인으로 전환할 거야. 아무도 출근하지 않으니까, 고칠 동안 필요한 앱에 로그인하지 마'라고 말했을 겁니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 687.8,
+   "en": "But instead, now we're seeing these happen on Monday, Tuesday, Wednesday, Thursday, because there's a feeling, a sense of we need to get this out right away, right now, because we can't wait.",
+   "ko": "하지만 대신 지금은 월, 화, 수, 목요일에 이런 일이 일어나는 걸 보고 있습니다. 기다릴 수 없으니 지금 당장 해결해야 한다는 절박함 때문이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 696.5,
+   "en": "We can't afford to wait because what if somebody attacks one of our critical vulnerabilities?",
+   "ko": "누군가 우리의 치명적인 취약점 중 하나를 공격하면 어떡하나 하는 생각에 기다릴 여유가 없는 겁니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 701.1,
+   "en": "So basically what you're saying in order to avoid that, the entire country has basically been turning it off and turning it back on again.",
+   "ko": "그러니까 기본적으로 말씀하시는 건, 그걸 피하기 위해 온 나라가 기본적으로 시스템을 껐다가 다시 켜고 있다는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 707.2,
+   "en": "Yes. We're going through both a mass psychosis episode and a national turn it off and turn it back on episode. I think that's sort of what's happened.",
+   "ko": "네. 우리는 집단 히스테리 삽화와 국가적인 '껐다 켜기' 삽화를 동시에 겪고 있는 셈입니다. 일어난 일이 대충 그런 것 같네요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 716.0,
+   "en": "Wow. Okay. That is both like deeply sort of reassuring and also extremely disconcerting.",
+   "ko": "와. 알겠습니다. 그건 정말 안심이 되면서도 동시에 굉장히 당혹스럽네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 721.0,
+   "en": "Zolan, one thing that I thought was notable at least when all this news was coming out about the outages was that we didn't really hear a lot from the White House.",
+   "ko": "졸란, 이런 중단 사태에 대한 모든 소식이 나왔을 때 적어도 주목할 만하다고 생각한 것 중 하나는 백악관으로부터 많은 이야기를 듣지 못했다는 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 729.6,
+   "en": "It felt like the president was a little bit absent when people were, I guess, panicking a little bit. I'm not saying he should made a comment or should not have made a comment. I'm just sort of wondering, as a White House correspondent, did you feel like he was a bit absent or just give us your take?",
+   "ko": "사람들이 조금은 패닉에 빠졌을 때 대통령이 약간 자리를 비운 것처럼 느껴졌어요. 그가 논평을 했어야 한다거나 말았어야 한다는 뜻은 아니에요. 다만 백악관 출입기자로서 그가 좀 부재 중이라고 느끼셨는지, 당신의 의견을 들려주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 743.9,
+   "en": "Yeah, because in some ways he was absent, right? He left the country and went on this diplomatic trip to Asia, which we know is of great importance to him, where he's expected to meet with President Xi Jinping.",
+   "ko": "네, 어떤 면에서는 실제로 부재 중이었으니까요. 그는 시진핑 주석과의 만남이 예정된, 그에게 매우 중요한 아시아 외교 순방을 위해 출국했습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 757.2,
+   "en": "But the fact that he left at a time where you're seeing this rising and the public rising anxiety from the public was notable.",
+   "ko": "하지만 이러한 상황이 고조되고 대중의 불안이 커지고 있는 시점에 그가 떠났다는 사실은 주목할 만했습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 766.6,
+   "en": "And the president did comment on this when he landed in Asia, but he didn't exactly provide a clear explanation or sort of fact check for the public what was happening and what wasn't happening.",
+   "ko": "대통령이 아시아에 도착했을 때 이 문제에 대해 언급을 하긴 했지만, 무엇이 일어나고 있고 무엇이 아닌지에 대해 대중에게 명확한 설명이나 사실 확인을 제공하지는 않았습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 780.2,
+   "en": "He more so was dismissive. And I believe one quote was, that's life. It's life, yep.",
+   "ko": "그는 오히려 대수롭지 않게 여겼습니다. 제 기억에 '그게 인생이다'라는 말도 했었죠. 인생이 다 그런 거죠, 네.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 788.2,
+   "en": "This going to happen when you're a powerful country. That certainly didn't quell the anxiety of members of the public. Since the President's comments, we have seen what I would describe as a scramble by the administration though.",
+   "ko": "강대국이라면 이런 일은 일어나기 마련이라는 식이었죠. 그것이 대중의 불안을 잠재우지는 못했습니다. 하지만 대통령의 발언 이후, 행정부가 허둥지둥 대처하는 모습이 보였습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 800.4,
+   "en": "So, Karoun, I wonder as you're hearing what the issue has been at the heart of a lot of these tech outages, I wonder if that explanation rings true to you in your coverage of aviation specifically.",
+   "ko": "카룬, 이러한 많은 기술 중단 사태의 핵심 문제가 무엇인지 들으시면서, 특히 항공 분야를 취재하시는 입장에서 그 설명이 타당하게 들리는지 궁금합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 810.4,
+   "en": "This idea that it was some kind of proactive attempt to get ahead of a problem that's sort of lingered for a while in the face of all of these threats.",
+   "ko": "이러한 모든 위협에 직면하여 오랫동안 지속되어 온 문제를 사전에 방지하려는 일종의 선제적인 시도였다는 생각 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 819.4,
+   "en": "Well, look, there are parts of the FAA story that also have to do with trying to make fixes. But what happened on Friday with the National Ground Stop really left us with more questions and answers because it just didn't seem to fit the rest of the pattern.",
+   "ko": "글쎄요, FAA 이야기에도 수정을 시도한 것과 관련된 부분이 있습니다. 하지만 금요일의 전국적인 운항 중단 사태는 나머지 패턴과 맞지 않는 것 같아서 의구심만 더 키웠습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 840.4,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 851.0,
+   "en": "Hey, it's Tanya Sichinsky from New York Times Cooking, and I'm in the kitchen making a few of my favorite weeknight recipes.",
+   "ko": "안녕하세요, 뉴욕 타임스 쿠킹의 타냐 시친스키입니다. 저는 지금 주방에서 제가 좋아하는 평일 저녁 레시피 몇 가지를 만들고 있습니다.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 856.6,
+   "en": "This is Andy Baraghani's five-star, Sticky Miso Salmon Bowl. you will quickly marinate a piece of salmon with just a few ingredients, miso, honey, grapefruit juice, and it cooks in five to eight minutes.",
+   "ko": "이것은 앤디 바라가니의 별 다섯 개짜리 '스티키 미소 연어 볼'입니다. 미소, 꿀, 자몽 주스 등 몇 가지 재료만으로 연어 조각을 빠르게 마리네이드하면 5~8분 안에 조리됩니다.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 869.5,
+   "en": "It's such a flavor bomb. I'm going to grab us some bowls. New York Times cooking has you covered with recipes you actually want to make from people you can trust.",
+   "ko": "정말 맛이 폭발적이에요. 그릇을 좀 가져올게요. 뉴욕 타임스 쿠킹은 신뢰할 수 있는 사람들이 만든, 실제로 만들어보고 싶은 레시피들로 여러분을 돕습니다.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 878.4,
+   "en": "So come cook with us at nytcooking.com.",
+   "ko": "그러니 nytcooking.com에서 저희와 함께 요리해 보세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 882.9,
+   "en": "Karoun for the last week we've been hearing words like circuit failure, L3 Harris, pinging, And part of the reason we summoned you here is for you to explain in plain English what actually happened with the planes over the weekend. So could you do that for us?",
+   "ko": "카룬, 지난주 동안 우리는 회로 고장, L3 해리스, 핑 등과 같은 단어들을 들었습니다. 저희가 당신을 여기로 부른 이유 중 하나는 지난 주말 비행기에서 실제로 무슨 일이 일어났는지 쉬운 영어로 설명해 주셨으면 해서입니다. 그렇게 해주실 수 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 896.2,
+   "en": "So on Friday, there was a upgrade that was being done in El Dorado, Arkansas. And basically the FAA has been trying to pursue this program of switching over the copper wiring that has been holding up the air traffic control network for decades, over to fiber optic cable.",
+   "ko": "금요일에 아칸소주 엘도라도에서 업그레이드 작업이 진행 중이었습니다. 기본적으로 FAA는 수십 년 동안 항공 교통 관제 네트워크를 지탱해 온 구리 배선을 광섬유 케이블로 교체하는 프로그램을 추진해 왔습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 912.9,
+   "en": "they're about 70% of the way through, and that means going into these various facilities across the country and making these upgrades. They tend to do the big hubs overnight, quiet periods, but this was a Friday afternoon, fairly remote facility.",
+   "ko": "약 70% 정도 진행되었는데, 이는 전국 각지의 시설에 들어가 업그레이드를 한다는 뜻입니다. 대형 허브 공항은 조용한 밤 시간대에 주로 작업하지만, 이번엔 금요일 오후였고 상당히 외딴 시설이었습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 925.8,
+   "en": "They figured nothing's really going to go wrong. We need to switch over from copper to fiber, and we need to add a new router to support the new network capability.",
+   "ko": "별일 없을 거라고 생각한 거죠. 구리에서 광섬유로 전환해야 했고, 새로운 네트워크 성능을 지원하기 위해 새 라우터를 추가해야 했습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 934.5,
+   "en": "And then shortly after that upgrade was made, they started to see that that we was sending out a lot of pings. There was also an issue that they noticed at a radar facility in Amarillo, Texas.",
+   "ko": "그런데 업그레이드가 완료된 직후, 그곳에서 수많은 '핑'을 보내고 있다는 사실을 발견했습니다. 텍사스주 애머릴로의 레이더 시설에서도 문제를 포착했죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 944.8,
+   "en": "And this over-activity started basically like flooding the system. And so the officials looked at this, they saw these errant things happening, decided that they couldn't figure out how to shut it down quickly",
+   "ko": "이러한 과잉 활동이 기본적으로 시스템을 마비시키기 시작했습니다. 관계자들은 이를 지켜보고 비정상적인 일이 벌어지는 것을 보았고, 빠르게 차단할 방법을 찾을 수 없다고 판단했습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 956.4,
+   "en": "and that they were gonna just issue a nationwide ground stop to make sure that the technical glitches that they were tracking would not turn into actual accidents.",
+   "ko": "그리고 추적 중인 기술적 결함이 실제 사고로 이어지지 않도록 전국적인 운항 중단 명령을 내리기로 했습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 964.3,
+   "en": "Right, right. Can I just pause here though, Karoun, because I want to understand, I think I'm going to need you to dumb this down a little bit more even.",
+   "ko": "그렇군요. 카룬, 여기서 잠시 멈춰보죠. 이해를 돕기 위해 조금 더 쉽게 설명해 주셔야 할 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 970.8,
+   "en": "You mentioned that the system was getting pinged a lot. Can you just explain what exactly a ping is? What kind of information we're talking about?",
+   "ko": "시스템이 핑을 많이 받았다고 하셨는데요. 핑이 정확히 무엇인지 설명해 주시겠어요? 어떤 종류의 정보를 말하는 건가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 978.6,
+   "en": "So to understand how this all works, you kind of need a basic map of how the air traffic control network is laid out. There are a number of different components.",
+   "ko": "이 모든 게 어떻게 돌아가는지 이해하려면 항공 교통 관제 네트워크가 어떻게 배치되어 있는지 기초적인 지도가 필요합니다. 여러 가지 구성 요소가 있거든요.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 988.4,
+   "en": "There are air route traffic control centers. There's 22 of those. They handle the high altitude traffic. There are regional facilities that manage the flow towards airports and away from airports,",
+   "ko": "전국에 22개의 항공로 교통 관제 센터가 있습니다. 고고도 교통을 담당하죠. 공항으로 들어오고 나가는 흐름을 관리하는 지역 시설들도 있고요.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 999.0,
+   "en": "and then there's the towers of the airports themselves and the command center in Virginia. They are all connected by a network that needs to be able to transfer in real time information about where our planes are, what the traffic is,",
+   "ko": "그리고 공항의 관제탑과 버지니아에 있는 지휘 센터가 있습니다. 이들은 모두 네트워크로 연결되어 비행기의 위치, 교통 상황 등의 정보를 실시간으로 전송할 수 있어야 합니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1012.2,
+   "en": "and other data about whether and other inputs that are important for both the controllers and the pilots to make sure they are flying safely.",
+   "ko": "그리고 기상 정보 등 관제사와 조종사가 안전하게 비행하는 데 필요한 다른 데이터들도 포함되죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1020.0,
+   "en": "But when you start to have a router overload the system, when one facility or two facilities in this case start to just flood the system with too many data pings, with too many efforts to connect to a variety of different places that normally they might not be doing,",
+   "ko": "하지만 라우터가 시스템에 과부하를 주기 시작할 때, 즉 이번처럼 한두 개 시설에서 너무 많은 데이터 핑을 보내고 평소라면 하지 않았을 여러 장소로의 연결 시도로 시스템을 마비시킬 때,",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1037.0,
+   "en": "you start to basically crowd out the space and it becomes unreliable.",
+   "ko": "기본적으로 공간을 꽉 채우기 시작하고 시스템을 신뢰할 수 없게 됩니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1041.4,
+   "en": "And the net effect of that is basically if you're an air traffic controller who needs to see any one of many things in order to make the planes not come too close to each other, you're not going to be able to actually like see a map or see the weather or see the distance or any of that other data that's trying to get through.",
+   "ko": "그 결과, 비행기들이 서로 너무 가까워지지 않게 여러 가지를 확인해야 하는 항공 관제사라면 지도나 날씨, 거리 등 전송되려고 하는 다른 어떤 데이터도 실제로 볼 수 없게 되는 겁니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1055.9,
+   "en": "This was not a total blackout. Let's make that clear. But the issue was that it was becoming unreliable and they were not sure where they were going to have the next glitch or the next slow to load issue that they needed to be able to get it.",
+   "ko": "완전한 정전은 아니었습니다. 그 점은 분명히 하죠. 하지만 문제는 시스템을 믿을 수 없게 되었다는 것이었고, 다음 결함이나 로딩 지연 문제가 어디서 발생할지 알 수 없었다는 점입니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1066.2,
+   "en": "And because you really do need to be able to have that real time data flow, they figure, this isn't safe. We don't know what's going to be the next shoe to drop here.",
+   "ko": "실시간 데이터 흐름이 정말로 필요하기 때문에 그들은 '이건 안전하지 않다, 다음에 또 어떤 일이 터질지 모른다'고 판단한 것이죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1074.1,
+   "en": "And we've got to just shut it all down before it becomes an actual situation of trying to avoid a real life accident where lives would be at stake.",
+   "ko": "인명 피해가 발생할 수 있는 실제 사고를 피해야 하는 상황이 되기 전에 모두 중단시켜야 했습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1080.1,
+   "en": "Basically, there was a nationwide ground stoppage because the FAA didn't know what information it was getting and what information might not be getting.",
+   "ko": "기본적으로 FAA가 어떤 정보를 받고 있고 어떤 정보를 받지 못하고 있는지 알 수 없었기 때문에 전국적인 운항 중단이 있었던 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1087.6,
+   "en": "And so therefore the safest thing to do was to tell everybody, don't fly.",
+   "ko": "그래서 가장 안전한 방법은 모두에게 비행하지 말라고 말하는 것이었고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1091.9,
+   "en": "Yes, and look, for days after, I mean, it was several hours, a few hours that this ground stock was in place. But for days after that, you really had the whole airline industry struggling to recover",
+   "ko": "네, 그리고 보세요. 운항 중단은 몇 시간 동안 지속되었지만, 그 후 며칠 동안 항공 업계 전체가 회복하느라 애를 먹었습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1103.0,
+   "en": "because they were crews that got stranded in certain places or timed out because they hadn't slept overnight. And that created real backups for people who were trying to travel.",
+   "ko": "승무원들이 특정 장소에 발이 묶이거나 밤을 꼬박 새워 근무 시간이 초과되었기 때문입니다. 그로 인해 여행객들에게 심각한 정체가 발생했죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1112.1,
+   "en": "My parents got stuck in that and their fight got canceled. I mean, it was just a very widespread travel issue. And it made people extra nervous because it happened a week before the Thanksgiving travel season was gonna kick in.",
+   "ko": "저희 부모님도 거기에 갇혀 비행기가 취소되셨어요. 정말 광범위한 여행 문제였습니다. 추수감사절 여행 시즌이 시작되기 일주일 전에 발생해서 사람들을 더욱 불안하게 만들었죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1123.0,
+   "en": "Karoun, you had said earlier that we have a lot more questions and answers about what exactly caused the system to be overloaded. And I wonder we're nearly a week out at this point. What have we learned about what happened last weekend?",
+   "ko": "카룬, 아까 시스템 과부하의 정확한 원인에 대해 의문점이 더 많다고 하셨는데요. 일주일 정도 지난 현 시점에서 지난 주말에 일어난 일에 대해 무엇을 알게 되었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1135.1,
+   "en": "Well, we've learned where things went wrong. Eldreiro, Arkansas, and Amarillo, Texas, a radio facility and radar facility.",
+   "ko": "문제가 어디서 발생했는지는 알게 되었습니다. 아칸소주 엘도라도와 텍사스주 애머릴로의 무선 시설과 레이더 시설이었죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1144.1,
+   "en": "We've learned that there was a single contractor that was working on this particular upgrade in Arkansas and that they were being physically supervised by an FAA technician through it.",
+   "ko": "아칸소에서 이 특정 업그레이드 작업을 수행하던 계약업체가 하나 있었고, FAA 기술자가 현장에서 직접 감독했다는 사실도 알게 되었습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1154.8,
+   "en": "We know that the FAA did not expect anything to go wrong and we know that they have figured out that what did go wrong is that the router in question started multicasting.",
+   "ko": "FAA는 아무런 문제가 없을 것으로 예상했지만, 실제로는 해당 라우터가 '멀티캐스팅'을 시작하면서 문제가 발생했다는 점을 파악했습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1164.6,
+   "en": "When you say router, are we talking about a router that like, what I have in my living room basically? Or, I mean, it's sort of, right?",
+   "ko": "라우터라고 말씀하시면 기본적으로 저희 집 거실에 있는 것 같은 라우터를 말씀하시는 건가요? 뭐, 어느 정도는 그렇겠죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1171.5,
+   "en": "I mean, we're talking about a different sort of a system, but a router's job is to take the flow of data that's coming in and make it available to other devices, other parts of the network potentially. And so there's a predictable flow.",
+   "ko": "다른 종류의 시스템이긴 하지만, 라우터의 역할은 들어오는 데이터 흐름을 받아 다른 장치나 네트워크의 다른 부분으로 전달하는 것입니다. 그래서 예측 가능한 흐름이 있죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1182.0,
+   "en": "And when the router does something that is not predictable, it becomes a potential situation where it's flooding a system.",
+   "ko": "그런데 라우터가 예측할 수 없는 동작을 하면 시스템을 마비시킬 수 있는 상황이 됩니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1188.7,
+   "en": "And that apparently happened based on a configuration that the FAA says, neither they nor the contractor changed or set. I don't want to get too much into the technical details,",
+   "ko": "FAA에 따르면 그들이나 계약업체 모두 변경하거나 설정하지 않은 구성에 따라 그런 일이 발생했다고 합니다. 기술적인 세부 사항까지 너무 깊이 들어가고 싶지는 않지만요.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1198.0,
+   "en": "but they are at a loss right now still, and they don't know if that was human error or if that was faulty equipment or if there was something that went wrong with the way they did the installation.",
+   "ko": "하지만 그들은 여전히 갈피를 못 잡고 있으며, 그것이 인적 오류인지 장비 결함인지 아니면 설치 방식에 문제가 있었던 것인지 알지 못합니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1209.7,
+   "en": "And those are still all open questions, even though we're basically a week out from when it actually happened.",
+   "ko": "실제로 발생한 지 일주일이나 지났음에도 불구하고 그것들은 여전히 해결되지 않은 의문으로 남아 있습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1213.8,
+   "en": "Dustin, I do wonder though about all of these questions people have about the hacking, because because the way that Karoun is describing, getting sort of flooded with pings, right, and requests and stuff like that, I just sort of wonder if that looks like suspicious activity.",
+   "ko": "더스틴, 하지만 해킹에 대해 사람들이 갖는 이 모든 의문이 궁금합니다. 카룬이 설명한 것처럼 핑과 요청 같은 것들이 쏟아지는 방식이 의심스러운 활동처럼 보이지는 않는지 해서요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1227.4,
+   "en": "And from your reporting, have the authorities ruled that out in this particular case when we're talking about the ground stoppage?",
+   "ko": "그리고 당신의 취재 결과, 운항 중단과 관련하여 당국이 이번 사건에서 해킹 가능성을 배제했나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1234.1,
+   "en": "The authorities have continued to say that they do not think a cyber attack is responsible for the FAA outage or any of the other episodes.",
+   "ko": "당국은 FAA 중단이나 다른 어떤 사건에 대해서도 사이버 공격이 원인이라고 생각하지 않는다는 입장을 견지해 왔습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1241.2,
+   "en": "Certainly, when you talk about anomalous router pinging, that can resemble perhaps a cyber activity, and that is something that I think could lead people to believe certain things.",
+   "ko": "분명히 비정상적인 라우터 핑에 대해 이야기할 때 그것은 아마도 사이버 활동과 비슷할 수 있고, 그것이 사람들에게 어떤 추측을 하게 만들 수 있다고 생각합니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1252.3,
+   "en": "But a numerous senior administration officials on the record in public in televised briefings and folks that I'm talking to in these agencies who are not speaking on the record, are saying the same thing that they don't think there's any evidence that that is what's going on here.",
+   "ko": "하지만 TV 브리핑에서 공개적으로 언급한 수많은 정부 고위 관리들과 제가 대화하고 있는 익명의 관계자들은 이곳에서 그런 일이 일어나고 있다는 증거가 없다고 똑같이 말하고 있습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1269.7,
+   "en": "That doesn't mean the investigation is over. Things can change. Right. Right.",
+   "ko": "그렇다고 조사가 끝났다는 뜻은 아닙니다. 상황은 변할 수 있으니까요. 맞아요, 그렇죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1273.4,
+   "en": "To that point, Zolan, I got the impression at least from a distance that everyone, including the White House, was really scrambling to try to figure out what was going on.",
+   "ko": "그 점에 있어서 졸란, 멀리서 보기에 백악관을 포함한 모든 사람이 무슨 일이 일어나고 있는지 파악하기 위해 정말 분주하게 움직이고 있다는 인상을 받았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1281.3,
+   "en": "Tell us what you have learned about their response in sort of the early days of all of this.",
+   "ko": "이 모든 일의 초기에 그들이 어떻게 대응했는지 알게 된 내용을 말씀해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1285.6,
+   "en": "So they definitely were scrambling to figure out what was going on. And at the same time, trying to figure out a message on this. And it's the latter point that seemed to take a while.",
+   "ko": "그들은 확실히 무슨 일이 일어나고 있는지 파악하기 위해 동분서주했습니다. 동시에 이에 대한 메시지를 어떻게 내놓을지 고민했죠. 시간이 꽤 걸린 건 바로 후자였습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1298.6,
+   "en": "Yes, there were officials that came out and held the press conference, the Secretary of Transportation and Homeland Security, but the message initially was mainly blaming the Biden administration and saying we need more money from Congress, right?",
+   "ko": "네, 교통부 장관과 국토안보부 장관 등 관리들이 나와 기자회견을 열었지만, 처음에는 주로 바이든 행정부를 비난하고 의회에 더 많은 예산이 필요하다고 말하는 메시지였죠, 그렇죠?",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1312.1,
+   "en": "But then in recent days, I think that the White House and the Trump administration has heard that these concerns are not just coming from Democrats. You've had Senator Josh Hawley, whose Republicans say that they need a more clear briefing from the Trump administration.",
+   "ko": "하지만 최근 며칠 사이 백악관과 트럼프 행정부는 이러한 우려가 단지 민주당에서만 나오는 것이 아니라는 점을 깨달은 것 같습니다. 공화당의 조시 홀리 상원의원도 트럼프 행정부로부터 더 명확한 브리핑이 필요하다고 말했으니까요.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1326.3,
+   "en": "You had former White House press secretary Caroline Levitt seldom to criticize the Trump administration, who was saying that greater transparency was needed at this time.",
+   "ko": "트럼프 행정부를 좀처럼 비판하지 않던 캐롤라인 레빗 전 백악관 대변인조차 지금은 더 큰 투명성이 필요하다고 말했습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1336.9,
+   "en": "And what they're speaking to actually gets to sort of the point for some of these federal agencies and really the role of the federal government in a time like this.",
+   "ko": "그들이 말하는 것은 실제로 이러한 몇몇 연방 기관들의 핵심 문제와 이런 시기에 연방 정부가 수행해야 할 역할에 닿아 있습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1346.8,
+   "en": "I've now spent really most of this day talking to national security officials, former national security officials. And they were describing how, you know, at a time like this, when there's a void of information, it really is up to the federal government to fill that void.",
+   "ko": "오늘 하루의 대부분을 전현직 국가 안보 관리들과 대화하며 보냈습니다. 그들은 정보 공백이 있는 이런 시기에는 연방 정부가 그 공백을 메워야 한다고 설명했습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1362.9,
+   "en": "Because if you don't, then the public is going to fill it with their worst assumptions. It must be a hack. It must be a cyber attack, particularly in the void of any more information coming from the administration at this time.",
+   "ko": "그렇지 않으면 대중은 최악의 가정을 하며 그 공백을 채울 것이기 때문입니다. 특히 현 시점에서 행정부로부터 더 이상의 정보가 나오지 않는 상황에서는 '해킹일 거다, 사이버 공격일 거다'라고 생각하게 되죠.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1375.5,
+   "en": "So it seems like they've started to notice that you saw Secretary of State Marco Rubio come out, acknowledge the anxiety of Americans, and provide at least an attempt at an explanation of what was going on.",
+   "ko": "그래서 그들도 이를 인지하기 시작한 것 같습니다. 마르코 루비오 국무장관이 나와 미국인들의 불안을 인정하고, 무슨 일이 일어나고 있는지 최소한 설명하려는 시도를 보였으니까요.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1389.1,
+   "en": "You saw that there was a late addition to the administration officials that were going to appear at a congressional hearing on threats to the United States. Jay Clayton ended up appearing, who's sort of President Trump's new czar.",
+   "ko": "미국에 대한 위협을 다루는 의회 청문회에 출석할 행정부 관리들이 뒤늦게 추가된 것을 보셨을 겁니다. 트럼프 대통령의 새로운 '차르' 격인 제이 클레이튼이 결국 출석했죠.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1401.8,
+   "en": "Is that right? Like when it comes to artificial intelligence?",
+   "ko": "그런가요? 인공지능 분야에 있어서 말이죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1404.5,
+   "en": "Yeah, he does love czars. And then you also had the Homeland Security Secretary Markwayne Mullin answering from different lawmakers, but it has not calmed the anxiety at this time.",
+   "ko": "네, 그는 '차르'라는 명칭을 좋아하죠. 그리고 마크웨인 멀린 국토안보부 장관도 의원들의 질문에 답했지만, 현재로서는 불안감이 가라앉지 않았습니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1416.4,
+   "en": "And to your point, Zolan, there is an overwhelming sense of anxiety. The cumulative effect of all of this is a deep sense of paranoia.",
+   "ko": "졸란, 당신의 말대로 압도적인 불안감이 존재합니다. 이 모든 것이 쌓여 깊은 편집증을 불러일으키고 있어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1423.4,
+   "en": "I am definitely not the only person whose parent texted them, are you still sure you want to fly home for Thanksgiving next week?",
+   "ko": "부모님으로부터 '다음 주 추수감사절에 정말 비행기 타고 집에 올 거니?'라는 문자를 받은 사람은 분명 저뿐만이 아닐 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1430.0,
+   "en": "And the only reassuring thing I have to say, it feels like in the absence of information for so much of this week, is dad, get off the internet.",
+   "ko": "이번 주 내내 정보가 부족한 상황에서 제가 할 수 있는 유일한 안심시키는 말은 '아빠, 인터넷 좀 그만 보세요'뿐인 것 같아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1437.9,
+   "en": "I cannot recall a time where I have received so many messages from just a wide range of people from all walks of life, people that are just worried, right, going about there every day, that are asking me, what is going on?",
+   "ko": "일상생활을 하다가 걱정이 된 각계각층의 수많은 사람들로부터 '무슨 일이 일어나고 있는 거냐'는 메시지를 이렇게 많이 받은 적이 기억나지 않습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1454.7,
+   "en": "Will I be able to rely on critical infrastructure like hospital systems in our electric grid? Right. As of now, it seems the government is saying yes, but that has not calmed the anxiety that is so apparent right now.",
+   "ko": "병원 시스템이나 전력망 같은 핵심 인프라를 계속 믿을 수 있을까요? 현재로서는 정부가 그렇다고 말하는 것 같지만, 지금 너무나 뚜렷한 불안감을 잠재우지는 못했습니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1469.3,
+   "en": "You know, when I was watching this press conference that you've talked about between Markwayne Mullin and Sean Duffy, not only did they seem to be blaming other people, other agencies,",
+   "ko": "당신이 언급한 마크웨인 멀린과 션 더피 사이의 기자회견을 보았을 때, 그들은 다른 사람들이나 다른 기관들을 비난하고 있을 뿐만 아니라,",
+   "speaker": "Host"
+  },
+  {
+   "start": 1478.0,
+   "en": "but they also seem to have kind of turned on each other a little bit. You know, I got a general sense that Markwayne Mullin was blaming things that had happened under Duffy.",
+   "ko": "서로에게 등을 돌리고 있는 것처럼 보이기도 했습니다. 마크웨인 멀린이 더피 산하에서 일어난 일들을 탓하고 있다는 느낌을 전반적으로 받았거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1486.7,
+   "en": "And I think the cumulative effect of all that is you look at that dynamic. And when you get the sense that there's sort of other dynamics at play beyond just getting information to the public, it makes sense that that might, I don't know, underscore people's nerves.",
+   "ko": "그 모든 일의 누적된 효과로 그런 역학 관계를 보게 되는 거죠. 대중에게 정보를 전달하는 것 이상의 다른 역학 관계가 작용하고 있다는 느낌을 받으면, 그것이 사람들의 신경을 자극하는 게 당연합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1499.9,
+   "en": "I mean, look, blaming the Biden administration is a common refrain with this administration, but picking a real fight with Congress and accusing them, you know, of being stingy is not going to win you any friends and admirers in Capitol Hill.",
+   "ko": "바이든 행정부를 비난하는 것은 이 행정부의 흔한 수법이지만, 의회와 본격적으로 싸우고 그들이 인색하다고 비난하는 것은 의회에서 우호적인 세력을 얻는 데 도움이 되지 않습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1511.4,
+   "en": "When you're trying to ask for more money.",
+   "ko": "더 많은 예산을 요청하려는 상황에서는 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1512.6,
+   "en": "Correct. And the way he went about it has really turned off for Republicans and Democrats. And so that is just sowing a little bit more chaos, whether some of it was inadvertent or some of it was just real bad judgment.",
+   "ko": "맞습니다. 그리고 그가 그런 식으로 행동한 것은 공화당원들과 민주당원들 모두를 돌아서게 만들었습니다. 그것이 의도적이었든 잘못된 판단이었든, 혼란을 조금 더 부추기고 있는 셈이죠.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1522.9,
+   "en": "It doesn't really matter because the net effect was that it really did not calm the nerves of the viewers and did not leave them with the sense that the government's got this and that they're going to actually be able to forge ahead with a fix.",
+   "ko": "결과적으로 시청자들의 불안을 전혀 가라앉히지 못했고, 정부가 상황을 통제하고 있으며 실제로 해결책을 추진할 수 있을 것이라는 확신을 주지 못했기 때문에 그것은 중요하지 않습니다.",
+   "speaker": "Karoun Demirjian"
+  },
+  {
+   "start": 1535.4,
+   "en": "Given everything that the three of you have told us about what has been driving these issues, this warp speed attempt to prevent any vulnerabilities from breaking out into to the open because of AI.",
+   "ko": "세 분이 말씀해 주신 이 문제들의 원인, 즉 AI로 인해 취약점이 노출되는 것을 막으려는 이 초고속 시도들을 생각해보면 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1546.5,
+   "en": "AI is not going away anytime soon. It does not appear, right? And so I just sort of wonder if we might be in this period right now where what we've seen the last week is kind of the new normal.",
+   "ko": "AI는 조만간 사라지지 않을 것 같습니다, 그렇죠? 그래서 지난 일주일 동안 우리가 본 것이 일종의 '새로운 표준(New Normal)'이 된 시기에 우리가 와 있는 것은 아닌가 하는 생각이 듭니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1558.2,
+   "en": "And Zolan, unless you have a big thought you want to add here, I'm gonna go to Dustin for a final word.",
+   "ko": "졸란, 특별히 덧붙일 말씀이 없으시다면 더스틴에게 마지막 발언을 듣도록 하겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1562.1,
+   "en": "Go to Dustin, I've given it all good.",
+   "ko": "더스틴에게 넘기세요, 전 충분합니다.",
+   "speaker": "Zolan Kanno-Youngs"
+  },
+  {
+   "start": 1564.5,
+   "en": "I agree, skip Zolan's big thoughts. You know, this whole thing has been so fascinating because on the one hand, the only way you're gonna fix these problems that we're all talking about is by sort of seizing public attention.",
+   "ko": "동의합니다, 졸란의 거창한 생각은 건너뛰죠. 아시다시피, 이 모든 과정은 매우 흥미로웠습니다. 한편으로는 우리가 이야기하는 이 문제들을 해결할 유일한 방법은 대중의 관심을 끄는 것이기 때문입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1578.2,
+   "en": "And typically, it only happens after a major catastrophe. Thankfully, that hasn't happened in the past few days. No one has died.",
+   "ko": "그리고 보통 그것은 큰 참사가 일어난 후에야 가능하죠. 다행히 지난 며칠 동안 그런 일은 일어나지 않았습니다. 사망자도 없었고요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1584.1,
+   "en": "And so I have the simplest to tell people to calm down, you know, that put things in perspective, like, you know, you're able to still access your banking accounts. The flights are still leaving. Maybe sometimes they're delayed.",
+   "ko": "그래서 저는 사람들에게 진정하라고 말하고 싶습니다. 상황을 객관적으로 보라는 것이죠. 여전히 은행 계좌에 접속할 수 있고, 비행기는 여전히 운항하고 있습니다. 때때로 지연될 뿐이죠.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1594.8,
+   "en": "But the truth is that these problems are going to persist. And with the rapid acceleration of advanced AI, we're probably going to continue to see more issues like this where bugs are being found and fixed",
+   "ko": "하지만 진실은 이러한 문제들이 지속될 것이라는 점입니다. 첨단 AI의 급격한 가속화와 함께, 버그가 발견되고 수정되는 과정에서 발생하는 이런 문제들을 계속 보게 될 것입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1607.4,
+   "en": "and while they're being fixed, systems are taken offline and that even gets before the question of what are the hackers going to do with these tools that they discover.",
+   "ko": "수정하는 동안 시스템은 오프라인 상태가 되고, 이는 해커들이 발견한 도구들로 무엇을 할 것인가라는 질문이 나오기도 전의 일입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1617.6,
+   "en": "So there is going to be a bumpy right ahead of us, I think. The folks I talked to who are really smart say the next 12 to 18 months for technology could be extremely difficult.",
+   "ko": "그래서 앞으로 험난한 여정이 기다리고 있을 것 같습니다. 제가 대화한 정말 똑똑한 사람들은 향후 12개월에서 18개월 동안 기술 분야가 매우 어려울 수 있다고 말합니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1629.2,
+   "en": "And what they mean by that is AI is surfacing and identifying all of these problems in ancient code in the technical stack of modern computer infrastructure that we've neglected for years or decades",
+   "ko": "그 말은, 우리가 수년 또는 수십 년 동안 방치해 온 현대 컴퓨터 인프라의 기술 스택에 있는 아주 오래된 코드들의 문제점들을 AI가 표면으로 드러내고 식별하고 있다는 뜻입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1646.6,
+   "en": "because we have not addressed security, the Internet was not built with security in mind. And so AI is going to be able to find these problems and hopefully fix them.",
+   "ko": "우리가 보안 문제를 해결하지 않았고, 인터넷이 처음부터 보안을 염두에 두고 만들어지지 않았기 때문이죠. 그래서 AI가 이러한 문제들을 찾아내고 바라건대 해결할 수 있을 것입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1655.7,
+   "en": "And at some point on the other side of that, it's going to be hopefully a much more secure internet with fewer problems.",
+   "ko": "그리고 어느 시점이 지나면, 문제도 적고 훨씬 더 안전한 인터넷이 되기를 바랍니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1668.0,
+   "en": "Now, the one caveat to that is people who are really smart have been telling me, look out for the next 12 to 18 months for at least the last eight to 10 months. And the time horizon doesn't change.",
+   "ko": "한 가지 주의할 점은, 정말 똑똑한 사람들이 적어도 지난 8~10개월 동안 저에게 '앞으로 12~18개월을 조심하라'고 말해왔다는 것입니다. 그 기간 설정은 변하지 않았어요.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1681.6,
+   "en": "But if you're an optimist, that gives you something to hold on to is that, you know, think of it like a pandemic. You know, we're going through this pandemic of technology failures right now as we're discovering all of these new problems.",
+   "ko": "하지만 낙관론자라면 붙잡을 만한 것이 있습니다. 이것을 팬데믹처럼 생각하는 것이죠. 우리는 이 모든 새로운 문제들을 발견하면서 현재 기술 실패의 팬데믹을 겪고 있는 셈입니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1692.9,
+   "en": "And hopefully on the other end of that is a much more inoculated, technologically safe internet.",
+   "ko": "그리고 그 끝에는 훨씬 더 잘 접종되고 기술적으로 안전한 인터넷이 기다리고 있기를 바랍니다.",
+   "speaker": "Dustin Voltz"
+  },
+  {
+   "start": 1702.2,
+   "en": "Dustin, thank you so much for ending this episode on an optimistic note. And Zolan and Karoun, thank you both so much for being here.",
+   "ko": "더스틴, 이번 에피소드를 낙관적인 분위기로 마무리해 주셔서 정말 감사합니다. 졸란과 카룬도 함께해 주셔서 정말 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1708.5,
+   "en": "Thank you. Thank you so much. Thank you, Rachel.",
+   "ko": "감사합니다. 정말 감사합니다. 고마워요, 레이첼.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1724.0,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1729.6,
+   "en": "I'm Christine Cierclissette. And this week on The Wirecutter Show, find out what store-bought items grace the Thanksgiving tables of Wirecutter's kitchen writers.",
+   "ko": "저는 크리스틴 서클리셋입니다. 이번 주 '와이어커터 쇼'에서는 와이어커터의 주방 담당 작가들의 추수감사절 식탁을 장식하는 시판 제품들이 무엇인지 알아보세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1738.9,
+   "en": "It's pretty iconic at this point. My ocean spray cranberry sauce is my favorite.",
+   "ko": "이제는 꽤 상징적이죠. 제가 가장 좋아하는 건 오션 스프레이 크랜베리 소스예요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1743.4,
+   "en": "My favorite to pre-purchase for Thanksgiving has got to be a mail order smoke turkey. I am a ride or die for Libby Can pumpkin.",
+   "ko": "추수감사절을 위해 미리 구매하는 제가 가장 좋아하는 제품은 우편 주문 훈제 칠면조여야 해요. 리비 캔 호박은 제가 정말 사랑하는 제품이죠.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1752.3,
+   "en": "Listen to the Wirecutter Show on the New York Times app or wherever you listen to podcasts.",
+   "ko": "뉴욕 타임스 앱이나 팟캐스트를 듣는 어디에서나 와이어커터 쇼를 들어보세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1762.0,
+   "en": "Here's what else you need to know today. President Trump, Xi Jinping of China and Russian President Vladimir Putin greeted each other with smiles and handshakes on Wednesday in Shenzhen, China,",
+   "ko": "오늘 알아야 할 다른 소식입니다. 트럼프 대통령과 중국의 시진핑 국가주석, 그리고 러시아의 블라디미르 푸틴 대통령이 수요일 중국 선전에서 미소와 악수로 서로를 맞이했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1772.5,
+   "en": "hours after President Trump and perceived a personal airport welcome from she that included a hug.",
+   "ko": "트럼프 대통령이 시 주석으로부터 포옹을 포함한 직접적인 공항 영접을 받은 지 몇 시간 만의 일이었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1778.5,
+   "en": "The shows a friendliness by the three world leaders on the eve of a trilateral summit contrasted sharply with their divergent stances on some of the world's most pressing issues,",
+   "ko": "3국 정상회의 전날 세 정상의 우호적인 모습은 세계의 가장 시급한 현안들에 대한 그들의 엇갈린 입장과 극명한 대조를 이루었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1788.1,
+   "en": "including nuclear arms control, China's access to advanced AI chips, and the future of the war in Ukraine.",
+   "ko": "핵 군비 통제, 중국의 첨단 AI 칩 접근권, 그리고 우크라이나 전쟁의 미래 등이 포함됩니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1795.3,
+   "en": "And an overwhelming majority of House Democrats voted to nominate Hakeem Jeffries, the New York representative to be speaker when the party assumes control of Congress in January.",
+   "ko": "또한 민주당 하원 의원들의 압도적 다수가 뉴욕주 하원 의원인 하킴 제프리스를 내년 1월 민주당이 의회 다수당이 될 때 하원 의장 후보로 지명하는 데 투표했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1806.6,
+   "en": "The move puts him in line to become the first black lawmaker to hold the House's top leadership role, which is second in line to the presidency.",
+   "ko": "이 조치로 그는 대통령 승계 서열 2위인 하원 최고 지도직을 맡는 최초의 흑인 의원이 될 예정입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1814.7,
+   "en": "Jeffries has faced some resistance from progressives who have been fed up with the Democratic establishment, but no one emerged to challenge him.",
+   "ko": "제프리스는 민주당 기득권층에 싫증을 느낀 진보 성향 의원들의 일부 반대에 부딪히기도 했지만, 그에게 도전할 경쟁자는 나타나지 않았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1824.3,
+   "en": "Today's episode was produced by Jack D'Isidoro, Chris Benderev, and Ericka Krupke. It was edited by MJ Davis-Lin and Michael Benoit.",
+   "ko": "오늘 에피소드는 잭 디시도로, 크리스 벤데레프, 에리카 크룹케가 제작했습니다. 편집은 MJ 데이비스 린과 마이클 베노아가 맡았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1831.4,
+   "en": "It contains music by Marion Lozano and Dan Powell and was engineered by Alyssa Moxley. Our theme music is by Wonderly.",
+   "ko": "메리온 로자노와 댄 파월의 음악이 포함되었고, 엘리사 목슬리가 엔지니어링을 담당했습니다. 주제곡은 원더리(Wonderly)의 곡입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1843.1,
+   "en": "That's it for the Daily. I'm Rachel Abrams. See you tomorrow.",
+   "ko": "The Daily는 여기까지입니다. 저는 레이첼 에이브람스였습니다. 내일 뵙겠습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
