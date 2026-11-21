@@ -1,0 +1,2511 @@
+{
+ "id": "pod-1a2fb128af2a",
+ "title": "Can One Person Change History? Jared Diamond Has the Data.",
+ "show": "The Next Big Idea",
+ "channel": "Next Big Idea Club",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/YAP9916183196.mp3",
+ "imageUrl": "https://megaphone.imgix.net/podcasts/a6ab495a-883e-11ec-8c25-c7992afe5f38/image/09bc0267e5751affd95e56450e5e5d5b.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 4296,
+ "releaseDate": "2026-11-19T10:30:00.000Z",
+ "addedAt": "2026-11-21",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Today's show is sponsored by Granola, Hostinger, Life at the Speed of Play, Northwest Monday pricing.",
+   "ko": "오늘 방송은 Granola, Hostinger, Life at the Speed of Play, Northwest Monday pricing의 후원으로 제작되었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 31.0,
+   "en": "Buy one copy of Life at the Speed of Play by Mark Pincus at getmarksbook.com and Mark will personally pay for a second.",
+   "ko": "getmarksbook.com에서 마크 핀커스의 'Life at the Speed of Play'를 한 권 구매하시면 마크가 개인적으로 두 번째 권의 비용을 지불할 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 38.9,
+   "en": "Don't pay hundreds of thousands of dollars for what you can get from Northwest for free. Visit northwestregisteredagent.com and start using free resources to build something amazing.",
+   "ko": "Northwest에서 무료로 얻을 수 있는 정보에 수십만 달러를 낭비하지 마세요. northwestregisteredagent.com을 방문하여 무료 리소스를 활용해 멋진 일을 시작해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 48.3,
+   "en": "The leaders who stand out today are those who can turn data into better business outcomes with AI expertise.",
+   "ko": "오늘날 돋보이는 리더는 AI 전문 지식을 활용해 데이터를 더 나은 비즈니스 결과로 바꿀 수 있는 사람들입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 53.5,
+   "en": "NYU Stern's one-year part-time Master of Business Analytics and AI is built for working professionals who want to do exactly that. And apply today to join the class beginning May 2027.",
+   "ko": "NYU 스턴의 1년제 파트타임 비즈니스 분석 및 AI 석사 과정은 바로 그런 역량을 갖추고자 하는 직장인들을 위해 만들어졌습니다. 2027년 5월에 시작하는 학기에 지금 바로 지원하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 63.1,
+   "en": "Right now, sequencing.com is offering our listeners up to 10% off your full genome test plus free shipping. Go to sequencing.com and use promo code IDEA for 10% off.",
+   "ko": "현재 sequencing.com에서 청취자 여러분께 전체 게놈 검사 최대 10% 할인과 무료 배송 혜택을 드리고 있습니다. sequencing.com에 방문해 프로모션 코드 IDEA를 사용해 10% 할인을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 72.4,
+   "en": "Talkiatry is a 100% online psychiatry practice.",
+   "ko": "Talkiatry는 100% 온라인으로 운영되는 정신과 진료 서비스입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 75.2,
+   "en": "Head to talkiatry.com/IDEA to complete the short assessment and get matched with an in-network psychiatrist in just a few minutes.",
+   "ko": "talkiatry.com/IDEA에 접속해 간단한 설문을 마치면 단 몇 분 만에 보험 적용이 가능한 정신과 의사와 매칭해 드립니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 84.8,
+   "en": "Jared, I'm so delighted to be talking with you. I've been deep in your book. I tend to write my own indexes with all the things I find interesting.",
+   "ko": "재러드 씨, 당신과 이야기하게 되어 정말 기쁩니다. 당신의 책에 푹 빠져 있었어요. 저는 흥미로운 내용들을 모아 저만의 인덱스를 만드는 편입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 93.0,
+   "en": "I'm a believer in defacing books, making them your own.",
+   "ko": "저는 책에 메모를 남기며 온전히 자신의 것으로 만드는 스타일이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 96.6,
+   "en": "Okay, so for starters, normally we write the introductions and put them on later to the podcast, but this time I've written it in advance, so you can hear it. Here we go.",
+   "ko": "자, 우선 평소에는 소개글을 나중에 써서 팟캐스트에 입히지만, 이번에는 미리 써왔으니 한번 들어보세요. 시작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 107.9,
+   "en": "The first nonfiction book that truly blew my mind was Guns, Germs, and Steel by Jared Diamond. You may remember it, it was published in 1997.",
+   "ko": "제 마음을 정말로 사로잡았던 최초의 비소설 책은 재러드 다이아몬드의 '총, 균, 쇠'였습니다. 1997년에 출간되었으니 기억하실 겁니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 118.1,
+   "en": "It won the Pulitzer Prize, and it arguably turned big histories informed by science into a blockbuster genre.",
+   "ko": "이 책은 퓰리처상을 수상했으며, 과학에 기반한 거대사를 블록버스터 장르로 탈바꿈시켰다고 할 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 126.4,
+   "en": "It paved the way for books like Sapiens and arguably podcasts like this one.",
+   "ko": "'사피엔스' 같은 책들과 어쩌면 지금 이 팟캐스트 같은 프로그램들이 나올 수 있는 길을 열어주었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 131.2,
+   "en": "It was the first time I understood that there was a way of seeing the long arc of human history from 30,000 feet, a view in which the driving forces were not the egos and bloviations of self-important humans.",
+   "ko": "인류 역사의 긴 궤적을 3만 피트 상공에서 내려다보는 방식이 있다는 것을 처음으로 깨닫게 해준 책이었습니다. 그 관점에서 역동적인 힘은 잘난 체하는 인간들의 자만이나 떠벌림이 아니었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 145.6,
+   "en": "Not kings and conquistadors, but silent, impersonal, and inexorable forces. The shape of a continent, the seeds of wild grasses, the germs we caught from our own farm animals.",
+   "ko": "왕이나 정복자가 아니라 침묵 속에 흐르는, 비인격적이고 거부할 수 없는 힘들이었죠. 대륙의 모양, 야생 풀의 씨앗, 가축으로부터 옮은 세균 같은 것들 말입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 159.9,
+   "en": "It was history through the dispassionate lens of science, and it left a lot of us wondering whether individual humans matter much at all.",
+   "ko": "과학이라는 냉철한 렌즈를 통해 본 역사였고, 우리 중 많은 이들에게 개별 인간이 과연 중요한 존재인지 의문을 갖게 했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 168.6,
+   "en": "So it is a tantalizing twist that now, 29 years later, the same author has written a book about individual humans.",
+   "ko": "그래서 29년이 지난 지금, 동일한 저자가 개별 인간에 대한 책을 썼다는 사실은 흥미로운 반전입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 176.8,
+   "en": "It's called Prophets, Profits, Coaches, and Kings, and it takes on a question historians have been fighting about for two centuries.",
+   "ko": "'예언자, 이윤, 코치, 그리고 왕들'이라는 제목의 이 책은 역사가들이 2세기 동안 논쟁해 온 질문을 다룹니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 184.4,
+   "en": "Do leaders actually change history, or do we just like to think they do? He answers it in the way only he would with natural experiments.",
+   "ko": "리더가 실제로 역사를 바꾸는 걸까요, 아니면 우리가 단지 그렇다고 믿고 싶어 하는 걸까요? 그는 오직 자신만이 할 수 있는 방식인 '자연 실험'을 통해 답을 제시합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 195.0,
+   "en": "What happens to a country when its leader is assassinated versus when the assassin misses? What happens to a company's profits when the CEO's mother-in-law dies?",
+   "ko": "리더가 암살당했을 때와 암살자가 실패했을 때 국가에는 어떤 일이 벌어질까요? CEO의 장모가 사망하면 회사의 이익은 어떻게 될까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 205.3,
+   "en": "Our guest is an ornithologist who became a physiologist who became a geographer who became a historian.",
+   "ko": "오늘의 게스트는 조류학자에서 생리학자로, 지리학자에서 다시 역사가가 된 분입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 211.5,
+   "en": "He taught at UCLA for 59 years. He's been studying the birds of New Guinea for 62.",
+   "ko": "그는 59년 동안 UCLA에서 가르쳤으며, 62년 동안 뉴기니의 새를 연구해 왔습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 217.5,
+   "en": "And at 89, he may be the best evidence I know that one person can change how millions of people see the world.",
+   "ko": "그리고 89세인 그는 한 사람이 수백만 명의 세계관을 바꿀 수 있다는 것을 보여주는 가장 확실한 증거일지도 모릅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 225.1,
+   "en": "Jared Diamond, it is an honor and a pleasure. Welcome to the next big idea.",
+   "ko": "재러드 다이아몬드 씨, 만나 뵙게 되어 영광이며 기쁩니다. Next Big Idea에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 230.4,
+   "en": "It's a great pleasure to be with you, and I must say your copy of my book is marked up by you in more detail than my draft of my book was marked up by me.",
+   "ko": "함께하게 되어 매우 기쁩니다. 제가 제 책의 초고를 수정한 것보다 당신이 제 책에 남긴 메모가 훨씬 더 상세하다는 말을 꼭 해야겠군요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 242.6,
+   "en": "I find that hard to believe.",
+   "ko": "그건 믿기 어렵네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 244.5,
+   "en": "Well, Jared, I want to start by turning your book on you. Guns, Germs, and Steel would itself appear to be evidence that an individual can make a meaningful impact on the world.",
+   "ko": "재러드, 당신의 책 이야기를 당신에게 먼저 적용해 보고 싶습니다. '총, 균, 쇠' 그 자체로 개인이 세상에 의미 있는 영향을 미칠 수 있다는 증거처럼 보이니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 256.1,
+   "en": "You have a test in your book, The Hamlet Test. If Shakespeare had died of smallpox at age 10, would anyone else in Elizabethan England have written Hamlet?",
+   "ko": "당신의 책에는 '햄릿 테스트'라는 것이 나옵니다. 셰익스피어가 10세 때 천연두로 죽었다면, 엘리자베스 시대 영국의 다른 누군가가 '햄릿'을 썼을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 266.7,
+   "en": "So does Guns, Germs, and Steel pass the Hamlet Test? Do you think anyone else could have written that book?",
+   "ko": "그렇다면 '총, 균, 쇠'는 햄릿 테스트를 통과할까요? 다른 누군가가 그 책을 쓸 수 있었을 거라 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 273.7,
+   "en": "Wow, that's an interesting question. To write Guns, Germs, and Steel required detailed knowledge of genetics, biology, diseases, geography.",
+   "ko": "와, 흥미로운 질문이네요. '총, 균, 쇠'를 쓰기 위해서는 유전학, 생물학, 질병, 지리학에 대한 상세한 지식이 필요했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 287.8,
+   "en": "It also, I think, required a scientific background. It helped that my background was in laboratory physiology.",
+   "ko": "또한 과학적 배경도 필요했다고 생각합니다. 실험실 생리학을 전공했던 제 배경이 큰 도움이 되었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 298.2,
+   "en": "I was the world's expert on gallbladders, and I was good at designing experiments to compare gallbladders in potassium solutions with gallbladders in sodium solutions.",
+   "ko": "저는 쓸개 분야의 세계적인 전문가였고, 칼륨 용액과 나트륨 용액 속의 쓸개를 비교하는 실험을 설계하는 데 능숙했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 310.1,
+   "en": "But that perspective of experiments was essential to the perspective in Guns, Germs, and Steel or in long-term history about understanding why Mexico went to different direction from the Fertile Crescent.",
+   "ko": "그러한 실험적 관점이 '총, 균, 쇠'의 관점이나 멕시코가 왜 비옥한 초승달 지대와 다른 방향으로 나아갔는지 이해하는 장기적인 역사를 바라보는 관점에 필수적이었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 325.7,
+   "en": "Could anyone else have done it? There were certainly people who came close.",
+   "ko": "다른 누군가가 할 수 있었을까요? 분명히 근접했던 사람들은 있었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 332.5,
+   "en": "I would hesitate to say that I'm the only person who could do it because that would be egotistical. But if you wanted to say it, I would not deny.",
+   "ko": "제가 유일하게 그 일을 할 수 있었던 사람이라고 말하는 것은 자만심처럼 느껴져 주저하게 되네요. 하지만 당신이 그렇게 말씀하신다면 부정하지는 않겠습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 340.8,
+   "en": "Okay. Yeah. And do you think you benefited from good timing?",
+   "ko": "알겠습니다. 그렇군요. 운이 좋았다고 생각하시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 348.6,
+   "en": "You say towards the end of the book, \"my own career as a scientist has variously profited or suffered from developments I could not foresee.\" How did you profit and how have you suffered?",
+   "ko": "책의 마지막 부분에서 당신은 \"나의 과학자로서의 경력은 내가 예측할 수 없었던 발전들로부터 여러모로 이득을 보기도 하고 고통을 겪기도 했다\"고 하셨죠. 어떻게 이득을 보았고 어떻게 고통을 겪으셨나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 361.4,
+   "en": "Timing was essential in my writing Guns, Germs, and Steel because until 1985, I was the world's expert on the gallbladder and I wrote papers on New Guinea birds.",
+   "ko": "'총, 균, 쇠'를 쓰는 데 타이밍은 필수적이었습니다. 1985년까지 저는 쓸개 분야의 세계적인 전문가였고 뉴기니의 새에 관한 논문을 쓰고 있었거든요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 372.6,
+   "en": "And then just short of my 50th birthday, my wife gave birth to our twin sons.",
+   "ko": "그러다 50세 생일을 얼마 앞두고 아내가 쌍둥이 아들을 낳았습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 378.6,
+   "en": "And I realized with a joke, the future of my twin sons is not going to depend upon gallbladders. It's going to depend upon history and geography. Jared, what are you going to do about that?",
+   "ko": "그리고 농담 삼아 깨달았죠. 내 쌍둥이 아들들의 미래는 쓸개에 달려 있는 것이 아니라고요. 역사와 지리에 달려 있을 것입니다. '재러드, 이제 어떻게 할 건가?'라고 자문했죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 390.0,
+   "en": "And so it was the birth of my sons that motivated me to switch gradually from gallbladder physiology, laboratory physiology, to writing books about big questions of history.",
+   "ko": "그래서 아들들의 탄생이 저로 하여금 쓸개 생리학, 실험실 생리학에서 역사의 중대한 질문들에 대한 책을 쓰는 쪽으로 점차 전환하게 만든 동기가 되었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 404.2,
+   "en": "My first book, The Third Chimpanzee, also had previews of what would be later books and in particular, Third Chimpanzee had a preview of the question, why is it that you and I are now speaking English, although we're standing on the ground of Native Americans?",
+   "ko": "제 첫 번째 책인 '제3의 침팬지'에도 나중에 나올 책들에 대한 예고가 담겨 있었습니다. 특히 '왜 우리 두 사람이 아메리카 원주민의 땅에 서 있으면서도 지금 영어를 하고 있는가'라는 질문에 대한 예고가 있었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 421.4,
+   "en": "Why do you work out that way? Why is it not the case that an interviewer in London is now speaking Nahuatl, the language of the Aztecs? That's the question of Guns, Germs, and Steel.",
+   "ko": "왜 상황이 그렇게 풀렸을까요? 런던의 인터뷰어가 지금 아즈텍 언어인 나우아틀어를 말하고 있지 않은 이유는 무엇일까요? 그것이 바로 '총, 균, 쇠'의 질문입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 433.7,
+   "en": "So that's a long-winded way of saying that for me the timing, the birth of my twin sons, plus my getting the MacArthur Fellowship, put me into depression.",
+   "ko": "말이 좀 길어졌지만, 저에게는 쌍둥이 아들의 탄생과 맥아더 펠로십 수상이 겹친 그 시기가 저를 우울하게 만들었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 447.4,
+   "en": "I don't get depressed. I'm up most of the time. One of the only two times I've been depressed as an adult was when I heard about the MacArthur Fellowship.",
+   "ko": "저는 우울해지는 성격이 아닙니다. 대부분의 시간은 기분이 좋죠. 성인이 되어 우울했던 단 두 번의 기억 중 하나가 바로 맥아더 펠로십 소식을 들었을 때입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 455.4,
+   "en": "I got a phone call. So interesting. For a week I was depressed because what it said to me is, Jared, these people expect something of you.",
+   "ko": "전화를 받았는데, 참 흥미로운 반응이었죠. 일주일 동안 우울했는데, 그 전화가 저에게 '재러드, 이 사람들은 너에게 무언가를 기대하고 있어'라고 말하는 것 같았기 때문입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 464.8,
+   "en": "You haven't lived up to your potential. Seriously, what are you going to do about it?",
+   "ko": "너는 아직 너의 잠재력만큼 살지 못했어. 진지하게, 이에 대해 무엇을 할 거니? 라고 묻는 것 같았죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 469.9,
+   "en": "So is that plus the birth of my twin sons? That was the timing that drove me to write Guns, Germs, and Steel and then a few years later, drove me to move out of UCLA Medical School into UCLA's Geography Department where I've been ever since.",
+   "ko": "그래서 그 일과 쌍둥이 아들의 탄생이 결합된 것이죠. 그 타이밍이 저를 '총, 균, 쇠'를 쓰게 만들었고, 몇 년 후 UCLA 의과대학을 떠나 지금까지 몸담고 있는 지리학과로 옮기게 했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 486.4,
+   "en": "Turning to the topic of your new book and its relationship with your prior books, Guns, Germs, and Steel could be read as describing a view of history that does not posit individual humans as meaningful drivers of that history.",
+   "ko": "신간의 주제와 이전 저서들과의 관계로 넘어가 보죠. '총, 균, 쇠'는 개별 인간을 역사의 유의미한 동력으로 상정하지 않는 역사관을 서술하는 것으로 읽힐 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 498.9,
+   "en": "Do you see a tension between Guns, Germs, and Steel and your new book, Prophets, Profits, Coaches, and Kings? Or are they in conversation with one another?",
+   "ko": "'총, 균, 쇠'와 신간 '예언자, 이윤, 코치, 그리고 왕들' 사이에 긴장감이 있다고 보시나요? 아니면 서로 대화를 나누고 있는 관계인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 509.0,
+   "en": "I don't see a tension but that, yes, that question often comes up because it's true.",
+   "ko": "긴장감은 없지만, 네, 그 질문은 자주 받습니다. 사실이니까요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 515.7,
+   "en": "Guns, Germs, and Steel said nothing about any individual human and here I now am writing a book that is entirely about individual humans.",
+   "ko": "'총, 균, 쇠'는 개별 인간에 대해 전혀 언급하지 않았는데, 이제 저는 온통 개별 인간에 대한 책을 쓰고 있으니까요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 526.3,
+   "en": "So people ask me, Jared, have you changed your views about Guns, Germs, and Steel? No, I haven't.",
+   "ko": "그래서 사람들이 묻습니다. '재러드, 총, 균, 쇠에 대한 견해가 바뀌었나요?' 아니요, 그렇지 않습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 531.7,
+   "en": "What has happened is that my focus in the new book is different from my focus in GGS. GGS is about things that happened over the course of 10,000 years over entire continents.",
+   "ko": "달라진 점은 신간의 초점이 '총, 균, 쇠'와는 다르다는 것입니다. '총, 균, 쇠'는 전 대륙에 걸쳐 1만 년 동안 일어난 일들에 관한 것입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 545.7,
+   "en": "On that scale, what one person does with rare exceptions doesn't have long consequences, whereas my current book is about individual leaders generally within a country or within a city with influence lasting for a few decades.",
+   "ko": "그 정도 규모에서는 드문 예외를 제외하고는 한 개인이 하는 일이 장기적인 결과로 이어지지 않습니다. 반면 이번 책은 대개 한 국가나 도시 내에서 수십 년 동안 영향을 미친 개별 리더들에 대한 것입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 564.5,
+   "en": "So of course, with this short time scale and small spatial scale, leaders make a difference. But of course, over 10,000 years and continents, they don't make a difference with a few exceptions.",
+   "ko": "따라서 이런 짧은 시간적 척도와 좁은 공간적 범위에서는 리더들이 차이를 만듭니다. 하지만 1만 년이라는 시간과 대륙 전체를 놓고 보면 몇몇 예외를 제외하고는 그렇지 않습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 579.8,
+   "en": "There are some leaders who've made a long-term difference. Christ, of course, has had an influence for 2,000 years, Muhammad likewise, Buddha likewise.",
+   "ko": "장기적인 차이를 만든 리더들도 있습니다. 그리스도는 물론 2천 년 동안 영향을 미쳤고, 마호메트와 부처도 마찬가지입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 591.3,
+   "en": "But by and large, what happens over 10,000 years over continents is not affected by individuals.",
+   "ko": "하지만 대체로 대륙에서 1만 년에 걸쳐 일어나는 일들은 개인에 의해 영향을 받지 않습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 598.1,
+   "en": "In particular, the reason why the Fertile Crescent got ahead with civilization was not because of any one person, but was because the Fertile Crescent was the area where most valuable plants and animals of the world were located.",
+   "ko": "특히 비옥한 초승달 지대가 문명에서 앞서 나간 이유는 어떤 특정한 인물 때문이 아니라, 그곳이 세계에서 가장 가치 있는 식물과 동물이 위치한 지역이었기 때문입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 611.6,
+   "en": "We only, Cauchy, could be, sources lived.",
+   "ko": ""
+  },
+  {
+   "start": 615.3,
+   "en": "The fertile crescent got a head start, regardless of any individual human.",
+   "ko": ""
+  },
+  {
+   "start": 619.3,
+   "en": "But I think you would say that these two forces or explanations, analyses of history are in conversation with each other in the sense that I think of like the great example in your new book of Genghis Khan, arguably history's greatest conqueror, ultimate great man.",
+   "ko": "하지만 저는 당신이 이 두 가지 힘이나 설명, 즉 역사의 분석들이 서로 대화하고 있다고 말할 것 같습니다. 당신의 신간에 나오는 칭기즈 칸의 사례를 보면 말이죠. 그는 역사상 가장 위대한 정복자이자 궁극적인 영웅입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 635.8,
+   "en": "But you point out that tree rings show that his rise coincided with the wettest stretch on the Mongolian steppe in recent history.",
+   "ko": "하지만 당신은 나이테 분석을 통해 그의 부상이 최근 역사상 몽골 초원의 가장 습했던 시기와 일치했음을 지적하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 643.7,
+   "en": "More rain meant more grass, which meant more horses. He needed not just genius, you write, but also rain, which is a classic kind of example of the ecology of history. Empire is running on rainfall.",
+   "ko": "비가 많이 오면 풀이 잘 자라고, 이는 곧 말이 많아졌음을 의미합니다. 당신이 썼듯이 그에게는 천재성뿐만 아니라 비도 필요했습니다. 이는 역사의 생태학을 보여주는 전형적인 사례죠. 제국이 강우량으로 운영된 셈입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 658.7,
+   "en": "It's also an interesting example because a question that frequently arises is timing. The right time and place is essential for leaders, but do leaders recognize the right time and place? Some of them do.",
+   "ko": "이는 또한 타이밍이라는 측면에서 흥미로운 예시입니다. 리더에게는 적절한 시기와 장소가 필수적인데, 과연 그들이 그것을 인식할까요? 어떤 리더들은 인식합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 674.2,
+   "en": "Bill Gates opened the January 1975 issue of Popular Electronics, saw the notice of the Intel 8080 chip and he went straight to Paul Allen and said this is the time we got at it now because the chip finally permits personal computers.",
+   "ko": "빌 게이츠는 1975년 1월호 '파퓰러 일렉트로닉스'를 펼쳤고, 인텔 8080 칩에 대한 공고를 보자마자 폴 앨런에게 달려가 말했습니다. '드디어 칩 덕분에 개인용 컴퓨터가 가능해졌으니 바로 지금이 기회다'라고요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 693.1,
+   "en": "So Bill Gates recognized the time was right and he could seize it. Winston Churchill knew that the time was right because Germany had invaded France. Winston Churchill did not cause Germany to invade France.",
+   "ko": "이처럼 빌 게이츠는 때가 왔음을 알았고 그것을 잡을 수 있었습니다. 윈스턴 처칠은 독일이 프랑스를 침공했기 때문에 때가 왔음을 알았습니다. 처칠이 독일의 프랑스 침공을 일으킨 것은 아닙니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 709.8,
+   "en": "By the way, Germany having invaded France, that meant that Winston Churchill then could become wartime prime minister. He knew that it was the opportunity but he couldn't make the opportunity himself.",
+   "ko": "독일이 프랑스를 침공함으로써 윈스턴 처칠이 전시 총리가 될 수 있었던 것이죠. 그는 기회임을 알았지만, 스스로 그 기회를 만들 수는 없었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 720.1,
+   "en": "Mark Zuckerberg, when he produced Facebook in February 2004 at Harvard, didn't have the idea that this was the perfect time. It was the perfect time.",
+   "ko": "마크 저커버그가 2004년 2월 하버드에서 페이스북을 만들었을 때는 이것이 완벽한 시기라는 생각은 없었을 겁니다. 하지만 그때는 완벽한 시기였습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 732.0,
+   "en": "Why? Because Mark Zuckerberg had been conceived by his parents in 1984. Mark Zuckerberg had nothing to do with his parents doing something one night that resulted in Mark Zuckerberg being at Harvard in 2004, a perfect place and time.",
+   "ko": "왜일까요? 마크 저커버그가 1984년에 태어났기 때문입니다. 마크 저커버그가 2004년 완벽한 장소와 시간에 하버드에 있게 된 것은 부모님의 결정이었지, 그가 어찌할 수 있는 일이 아니었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 746.4,
+   "en": "Similarly Genghis Khan. So timing is important. Some people can seize the time. Some people know that it's the right time, but can't seize it.",
+   "ko": "칭기즈 칸도 마찬가지입니다. 그래서 타이밍이 중요합니다. 어떤 이들은 그 기회를 잡을 수 있고, 어떤 이들은 적기인 줄 알면서도 잡지 못합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 756.3,
+   "en": "And some people like Zuckerberg and Genghis Khan have no idea that it's the right time.",
+   "ko": "그리고 저커버그나 칭기즈 칸 같은 사람들은 그때가 적기라는 사실조차 모르기도 하죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 761.3,
+   "en": "This question of the impact of individuals in history is personal for you. You say in the early pages of the book that from childhood you grappled with this question, do leaders make a difference? And if so, when, why is it personal?",
+   "ko": "역사에서 개인의 영향력에 대한 이 질문은 당신에게 개인적인 의미가 있습니다. 책 서두에서 당신은 어릴 때부터 리더가 차이를 만드는지, 만약 그렇다면 언제 그러한지라는 질문과 씨름했다고 하셨는데, 왜 이 질문이 당신에게 개인적인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 777.9,
+   "en": "It's personal because I was born in 1937. All of you who were born after 1945 after the end of World War II, you didn't experience and you can't imagine what it was like to grow up during World War II.",
+   "ko": "제가 1937년생이기 때문입니다. 2차 세계대전이 끝난 1945년 이후에 태어난 분들은 전쟁 중에 자란다는 것이 어떤 것인지 경험하지 못했고 상상조차 할 수 없을 겁니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 792.0,
+   "en": "Every day during World War II, the war was on my mind. Hitler had caused the war, seemingly caused the war. I grew up with Hitler constantly before me, but my family had immigrated from Eastern Europe.",
+   "ko": "전쟁 기간 동안 매일 전쟁 생각이 제 머릿속을 떠나지 않았습니다. 히틀러가 전쟁을 일으켰고, 최소한 그렇게 보였습니다. 저는 늘 히틀러라는 존재를 의식하며 자랐지만, 제 가족은 동유럽에서 이민을 왔습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 813.1,
+   "en": "And the last of my family who had remained in Eastern Europe disappeared in World War II in the Holocaust. Would they have disappeared if Hitler had not been the leader of Germany?",
+   "ko": "동유럽에 남아있던 제 가족 중 마지막 생존자들은 2차 세계대전 중 홀로코스트로 사라졌습니다. 만약 히틀러가 독일의 리더가 아니었다면 그들이 사라졌을까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 824.4,
+   "en": "Then my wife, I married into a Polish family and in my Polish family, one member was killed on the train to Auschwitz, and others were sent to Auschwitz, others either died or had a miserable time.",
+   "ko": "제 아내는 폴란드계 가정 출신인데, 그녀의 가족 중 한 명은 아우슈비츠행 기차에서 살해당했고 다른 이들은 아우슈비츠로 보내져 죽거나 고통스러운 시간을 보냈습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 837.0,
+   "en": "Seemingly because of Hitler. Was Hitler uniquely responsible for World War II? If there had not been Hitler, would there have been a World War II and would there have been a Holocaust?",
+   "ko": "겉보기에는 히틀러 때문인 것 같죠. 히틀러만이 2차 세계대전에 책임이 있을까요? 히틀러가 없었더라도 2차 세계대전과 홀로코스트가 일어났을까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 849.1,
+   "en": "Because Germans, there have been anti-Semitic Germans for a long time and the Treaty of Versailles gave any German politician reason to overturn that treaty.",
+   "ko": "독일인들 사이에는 오랫동안 반유대주의가 존재해 왔고, 베르사유 조약은 어떤 독일 정치인에게라도 그 조약을 뒤엎을 명분을 주었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 858.6,
+   "en": "But to overturn the treaty, the German politician Stresemann wanted it overturned peacefully and was making progress. Hitler wanted to overturn the treaty by war.",
+   "ko": "하지만 독일 정치인 슈트레제만은 조약을 평화적으로 뒤집으려 했고 성과를 내고 있었습니다. 반면 히틀러는 전쟁을 통해 뒤집으려 했죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 869.8,
+   "en": "Anti-Semitic Germans, yes, there were pogroms. But no German till Hitler got the idea of industrial scale killing of 6 million Jews.",
+   "ko": "반유대주의 독일인들, 네, 유대인 박해는 있었습니다. 하지만 히틀러 이전까지는 그 누구도 600만 명의 유대인을 산업적 규모로 살해하겠다는 생각은 하지 못했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 878.1,
+   "en": "So one can make an argument that Hitler made a difference, but I've wrestled with this question.",
+   "ko": "따라서 히틀러가 차이를 만들었다는 주장이 가능하며, 저는 이 질문을 두고 계속 고민해 왔습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 890.9,
+   "en": "We talk a lot on the show about what AI means for how we live and also how we work. And I think a question on a lot of people's minds is, how should I be future proofing my career with this new technology on the rise?",
+   "ko": "우리 쇼에서는 AI가 우리의 삶과 일하는 방식에 어떤 의미를 갖는지에 대해 많은 이야기를 나눕니다. 많은 분들이 고민하는 질문은 '이 새로운 기술이 부상하는 가운데 어떻게 내 커리어를 미래에 대비시킬 것인가'일 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 903.4,
+   "en": "That's why we're so excited to partner with NYU Stern. They've got an incredible established master's degree that can help you elevate your career with the power of AI and data.",
+   "ko": "이것이 바로 우리가 NYU 스턴과 파트너십을 맺게 되어 매우 기쁜 이유입니다. 그곳에는 AI와 데이터의 힘으로 여러분의 커리어를 한 단계 높여줄 훌륭한 석사 과정이 마련되어 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 914.9,
+   "en": "NYU Stern's MS in Business Analytics and AI program is a one year part-time program designed for working professionals who are seeking to harness the power of AI and analytics to make smarter decisions.",
+   "ko": "NYU 스턴의 비즈니스 분석 및 AI 석사 과정은 더 현명한 결정을 내리기 위해 AI와 분석의 힘을 활용하고자 하는 직장인들을 위해 설계된 1년제 파트타임 프로그램입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 925.8,
+   "en": "Solve complex business challenges, and drive meaningful business impact. MSB AI students convene in person for five modules at NYU Stern in New York City, and then there's a sixth module at a global location.",
+   "ko": "복잡한 비즈니스 과제를 해결하고 유의미한 비즈니스 임팩트를 창출하세요. MSB AI 학생들은 뉴욕시의 NYU 스턴에서 5개의 모듈을 대면으로 수강하며, 여섯 번째 모듈은 글로벌 지역에서 진행됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 939.6,
+   "en": "In between, the cohort stays connected through online remote study, which allows students to gain cutting-edge expertise, build powerful professional networks, and advance their careers without putting them on hold.",
+   "ko": "그 사이에도 동료들과 온라인 원격 학습을 통해 소통하며 최첨단 전문 지식을 습득하고 강력한 전문 네트워크를 구축하며, 경력을 중단하지 않고도 발전시킬 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 951.5,
+   "en": "Learn more by visiting the NYU Stern MSB AI website and apply to be part of the next cohort.",
+   "ko": "NYU 스턴 MSB AI 웹사이트를 방문하여 더 자세히 알아보고 다음 기수의 일원이 되기 위해 지원하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 958.6,
+   "en": "Genetic testing used to mean a referral, a blood draw, weeks of waiting. Now it's a cheek swab at your kitchen table.",
+   "ko": "유전자 검사를 하려면 예전에는 의뢰서를 받고 피를 뽑고 몇 주를 기다려야 했습니다. 하지만 이제는 주방 식탁에서 면봉으로 볼을 문지르기만 하면 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 966.9,
+   "en": "Most popular DNA tests read about a 10th of 1% of your DNA. Sequencing.com reads all 3.2 billion positions, screening for variants linked to more than 15,000 diseases, conditions, and traits.",
+   "ko": "가장 대중적인 DNA 검사들은 유전자의 약 0.1%만 읽어냅니다. 반면 Sequencing.com은 32억 개의 모든 위치를 읽어 15,000가지 이상의 질병, 상태, 특성과 연관된 변이를 스캔합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 980.5,
+   "en": "That can mean catching inherited risks early or learning how you might respond to certain medications. All good things to talk through with your doctor.",
+   "ko": "이는 유전적 위험을 조기에 발견하거나 특정 약물에 대한 반응을 미리 아는 것을 의미합니다. 의사와 상담하기에 매우 좋은 정보들이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 987.8,
+   "en": "Here's the part I find most interesting. Your DNA doesn't change, but what we know about it does.",
+   "ko": "제가 가장 흥미롭게 생각하는 부분은 이겁니다. 당신의 DNA는 변하지 않지만, 그것에 대해 우리가 아는 지식은 계속 변한다는 점이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 993.5,
+   "en": "So sequencing.com keeps reanalyzing your genome against new research for as long as you remember.",
+   "ko": "그래서 sequencing.com은 당신이 회원인 동안 계속해서 새로운 연구 결과를 바탕으로 당신의 게놈을 재분석합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 999.4,
+   "en": "Right now, sequencing.com is offering our listeners up to 10% off your full genome test plus free shipping. Go to sequencing.com and use promo code IDEA for 10% off.",
+   "ko": "지금 바로 sequencing.com에서 청취자 여러분께 전체 게놈 검사 최대 10% 할인과 무료 배송을 제공합니다. sequencing.com에 가서 프로모션 코드 IDEA를 입력하고 10% 할인을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1010.9,
+   "en": "That's sequencing.com promo code IDEA.",
+   "ko": ""
+  },
+  {
+   "start": 1014.5,
+   "en": "That is, S-E-Q-U-E-N-C-I-N-G.com promo code IDEA.",
+   "ko": ""
+  },
+  {
+   "start": 1021.0,
+   "en": "You know that thing? If a tree falls in the forest and no one's there to hear it, does it actually make a sound?",
+   "ko": "이런 말 들어보셨죠? 숲에서 나무가 쓰러졌는데 듣는 사람이 아무도 없다면 정말 소리가 난 걸까요?",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1025.8,
+   "en": "These days, it kind of feels like if there's a meeting on the calendar and no AI joins the call, did the meeting actually happen?",
+   "ko": "요즘은 일정에 회의가 있는데 AI가 회의에 참여하지 않는다면 그 회의가 실제로 열린 게 맞나 싶은 기분까지 듭니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1032.5,
+   "en": "Every Zoom I'm in these days, I'm joined by an army of people's AI bots. And I'm sure they're all great, but I can tell you this. None of them are as good as Granola.",
+   "ko": "요즘 제가 참여하는 모든 Zoom 회의에는 사람들의 AI 봇 군단이 함께합니다. 그 봇들도 훌륭하겠지만, 이것만은 확실히 말할 수 있습니다. 그 어떤 것도 Granola만큼 좋지는 않습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1041.9,
+   "en": "Granola is an AI-powered notepad that is built for the way real people actually meet.",
+   "ko": "Granola는 실제 사람들이 회의하는 방식에 맞춰 제작된 AI 기반 노트패드입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1047.6,
+   "en": "Here's how it works. You can still take rough notes, just like you normally would. But in the background, granola securely transcribes the meeting.",
+   "ko": "작동 방식은 이렇습니다. 평소처럼 대충 노트를 작성하면 됩니다. 그러면 백그라운드에서 Granola가 안전하게 회의 내용을 전사합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1054.8,
+   "en": "And then it turns everything, your notes plus the transcription, into a clean, structured, actually useful document when the meeting ends.",
+   "ko": "회의가 끝나면 여러분의 노트와 전사된 내용을 합쳐서 깔끔하고 구조적이며 실제로 유용한 문서로 만들어 줍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1062.1,
+   "en": "And the best part is that granola works through your device's audio, so it integrates seamlessly into the video conferencing tools you already use, which means there's no setup and none of those awkward bots on the call.",
+   "ko": "가장 좋은 점은 Granola가 기기의 오디오를 통해 작동하므로 이미 사용 중인 화상 회의 도구와 완벽하게 연동된다는 것입니다. 즉, 복잡한 설정도 없고 회의 중에 어색한 봇들이 나타날 일도 없습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1073.2,
+   "en": "I love granola because I can actually listen. I can be present. I can be focused on a call instead of frantically trying to type things down or scribble stuff out on a sticky note.",
+   "ko": "제가 Granola를 좋아하는 이유는 회의 내용을 실제로 경청할 수 있기 때문입니다. 정신없이 타이핑하거나 포스트잇에 휘갈겨 쓰는 대신, 회의에 온전히 집중할 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1081.4,
+   "en": "If meetings are eating up your day, granola is a no-brainer. You can try it totally free for three months. Just head to granola.ai/idea. Get three months free at granola.ai/idea.",
+   "ko": "회의가 하루 일과를 다 잡아먹고 있다면 Granola가 정답입니다. 3개월 동안 완전히 무료로 체험해 볼 수 있습니다. granola.ai/idea에 접속해 3개월 무료 혜택을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1106.6,
+   "en": "You opened the book with a car accident. On March 13th, 1930, three years before Hitler became Germany's chancellor, his car is hit by a truck.",
+   "ko": "책의 서두를 자동차 사고로 시작하셨더군요. 히틀러가 독일 총리가 되기 3년 전인 1930년 3월 13일, 그의 차가 트럭에 치였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1118.9,
+   "en": "The truck pushes the car across the intersection and stopped just short of killing him. If he had been killed, what do you think would have happened?",
+   "ko": "트럭이 교차로 건너편까지 차를 밀어붙였지만 아슬아슬하게 그가 죽지는 않았습니다. 만약 그가 그때 죽었다면 어떤 일이 일어났을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1130.5,
+   "en": "If he had been killed, would my wife's grandfather be alive and would my wife's mother not have gone through what she went through and would the last of my family in Eastern Europe still be alive?",
+   "ko": "그가 죽었다면 제 아내의 할아버지가 살아계셨을까요? 제 아내의 어머니가 겪었던 일을 겪지 않았을까요? 그리고 동유럽에 남았던 제 가족들이 여전히 살아 있었을까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1144.5,
+   "en": "I think one can make an argument, not the type of quantitative argument that most of my book is devoted to, but a biographical argument that Hitler was a very distinctive person in several ways.",
+   "ko": "제 책의 대부분을 차지하는 양적 논거는 아니지만, 전기적 관점의 논거로 히틀러가 여러 면에서 매우 독특한 인물이었다는 주장을 할 수 있다고 봅니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1158.7,
+   "en": "First, he was unfortunately the most mesmerizing speaker, political speaker of the 20th century. Secondly, he was anti-Semitic, not just one of the run-of-the-mill German/Polish anti-Semites.",
+   "ko": "첫째, 그는 불행하게도 20세기에서 가장 매혹적인 정치 연설가였습니다. 둘째, 그는 단순히 흔한 독일이나 폴란드식 반유대주의자 중 한 명이 아니었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1172.1,
+   "en": "But so anti-Semitic that he devised cyanide and ovens to kill six million Jews. Hitler was a risk-taker. He took big risks, and some of those risks succeeded.",
+   "ko": "그는 600만 명의 유대인을 죽이기 위해 청산가리와 오븐을 고안할 정도로 극단적인 반유대주의자였습니다. 또한 히틀러는 모험가였죠. 그는 큰 위험을 감수했고, 그중 일부는 성공했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1188.7,
+   "en": "Such as his sending small columns of German troops into the Rhineland in 1936, when the Rhineland had no defensive borders.",
+   "ko": "방어선이 없던 1936년 라인란트에 소규모 독일 군대를 파병한 것 같은 일들 말입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1201.2,
+   "en": "There was a big risk that Britain and France would have said no, and that would have been the end of it. Hitler took that risk. He won that risk.",
+   "ko": "영국과 프랑스가 거부할 큰 위험이 있었고 그랬다면 그것으로 끝이었을 텐데 말이죠. 히틀러는 그 위험을 감수했고 승리했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1208.5,
+   "en": "He won the risk of Munich in 1938 facing down Neville Chamberlain. He lost the risk of refusing to evacuate the German Army from Stalingrad.",
+   "ko": "그는 1938년 뮌헨에서 네빌 체임벌린을 상대로 승기를 잡았습니다. 하지만 스탈린그라드에서 독일군 철수를 거부한 위험은 패배로 이어졌죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1220.1,
+   "en": "He lost the risk of the Battle of the Bulge, but he was a risk taker. And then finally, Hitler was a genius at deceiving people. Most famously, he deceived Neville Chamberlain at Munich.",
+   "ko": "벌지 전투의 위험도 패배했지만, 어쨌든 그는 위험을 감수하는 자였습니다. 그리고 마지막으로, 히틀러는 사람들을 속이는 데 천재적이었습니다. 뮌헨에서 네빌 체임벌린을 속인 것이 가장 유명하죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1233.9,
+   "en": "But he also deceived the German politicians who put him in office, thinking they could control him. He deceived German businessmen to support him. He deceived German generals. He deceived his fellow Nazis.",
+   "ko": "하지만 그는 자신을 총리로 앉힌, 자신을 통제할 수 있다고 믿었던 독일 정치인들도 속였습니다. 자신을 지원하게 하려 독일 기업인들도 속였고, 장군들과 동료 나치 대원들도 속였죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1251.3,
+   "en": "So Hitler was, I think, a unique person. And if it had not been for Hitler, some German like Stresemann would have undone the Treaty of Versailles without war.",
+   "ko": "그래서 히틀러는 제 생각에 유일무이한 인물이었습니다. 그가 없었다면 슈트레제만 같은 독일인이 전쟁 없이 베르사유 조약을 무효화했을 겁니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1266.1,
+   "en": "And no German would have gotten the crazy idea of sending 6 million people into cyanide ovens. So he does pass the Hamlet test.",
+   "ko": "어떤 독일인도 600만 명을 독가스실로 보내겠다는 미친 생각은 하지 않았을 것입니다. 그러니 그는 햄릿 테스트를 통과하는 셈이죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1275.2,
+   "en": "An extraordinary detail as you say that there was no sign of unusual abilities in the case of Adolf Hitler until after his 30th birthday.",
+   "ko": "아돌프 히틀러의 경우 30세 생일이 지날 때까지는 비범한 능력의 징후가 전혀 없었다는 점이 정말 놀라운 디테일입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1287.8,
+   "en": "No sign of any of the four qualities that made him so dangerous, anti-Semitism, speaking ability, tactical cleverness, risk taking.",
+   "ko": "그를 그토록 위험하게 만든 네 가지 자질, 즉 반유대주의, 연설 능력, 전술적 영리함, 위험 감수 능력의 징후가 전혀 없었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1295.2,
+   "en": "And he seems to have discovered that he had speaking potential. You say the same thing is true about Truman before age 50. He gave no sign of his abilities as president.",
+   "ko": "그리고 그는 자신이 연설 잠재력이 있다는 것을 나중에야 발견한 것 같습니다. 당신은 50세 이전의 트루먼도 마찬가지였다고 하셨죠. 대통령으로서의 능력을 보여주지 못했다고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1305.8,
+   "en": "This is an intriguing detail. If nobody could have predicted the mature Hitler from the young Hitler, how can we claim that no one else could have become a mature Hitler? I think we can't.",
+   "ko": "이것은 아주 흥미로운 부분입니다. 젊은 히틀러를 보고 성숙한 히틀러를 예측할 수 없었다면, 다른 누구도 그런 히틀러가 될 수 없었다고 어떻게 장담할 수 있을까요? 제 생각에 그건 불가능합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1319.2,
+   "en": "That's a big puzzle. During the First World War, Hitler was a soldier. He was not an officer, he was a soldier.",
+   "ko": "그것이 큰 수수께끼입니다. 1차 세계대전 동안 히틀러는 장교가 아닌 사병이었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1326.7,
+   "en": "Other soldiers in his unit knew the Hitler as an undistinguished person, and when he became head of the Nazi party and when he discovered his first speech he gave at the age of 30, he himself was surprised.",
+   "ko": "부대의 다른 병사들도 히틀러를 그저 평범한 사람으로 알고 있었고, 그가 나치당의 우두머리가 되어 30세에 첫 연설을 했을 때 스스로도 놀랐다고 합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1343.1,
+   "en": "He says to discover that he was a good speaker. His former companions of World War I were surprised then to see this guy that had attracted no attention during the war. Here he was the charismatic leader of the Nazi Party.",
+   "ko": "자신이 뛰어난 연설가라는 사실을 발견하고 말이죠. 전쟁 중에는 주목받지 못했던 이 사람이 나치당의 카리스마 넘치는 리더가 된 것을 보고 그의 1차 대전 전우들도 깜짝 놀랐습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1359.3,
+   "en": "So nobody foresaw Hitler, nobody foresaw Harry Truman. Truman had a thoroughly undistinguished career, a senator from Missouri, but with no legislative achievements behind him, a somewhat shady background.",
+   "ko": "히틀러를 예견한 사람은 아무도 없었고, 해리 트루먼도 마찬가지였습니다. 트루먼은 미주리 출신 상원의원이었지만 입법 성과도 없고 배경도 다소 모호한, 지극히 평범한 경력을 가졌습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1375.9,
+   "en": "When he was vice president, Roosevelt never even met with him. Roosevelt never told Truman anything. So Truman becomes president.",
+   "ko": "그가 부통령이었을 때 루스벨트는 그를 만나지도 않았고 아무것도 알려주지 않았습니다. 그러다 트루먼이 대통령이 되었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1384.5,
+   "en": "And the first thing he has to do, he's told that the US has an atomic bomb. His first decision, big decision, is he going to drop the atomic bomb? He was totally unprepared for it.",
+   "ko": "그가 처음 한 일은 미국에 원자폭탄이 있다는 말을 들은 것이었습니다. 그의 첫 번째 중대 결정은 원자폭탄을 투하할 것인가였죠. 그는 전혀 준비되지 않은 상태였습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1395.3,
+   "en": "Truman, I recall because I was, what, 8 years old when Truman came to power. Truman was widely disliked during his presidency. I mean, he was regarded as corrupt, undistinguished.",
+   "ko": "트루먼이 집권했을 때 저는 8살이었기에 기억이 납니다. 재임 기간 동안 트루먼은 널리 미움을 받았습니다. 부패하고 특징 없는 인물로 여겨졌죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1408.1,
+   "en": "He did not run for president again in 1952 because he knew that he would be defeated.",
+   "ko": "그는 1952년에 패배할 것을 알았기에 대통령 선거에 다시 출마하지 않았습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1414.5,
+   "en": "But in retrospect, we now realize that Truman was an unusually courageous president who time and time again made unpopular decisions and didn't care that it would make him hated.",
+   "ko": "하지만 돌이켜보면 트루먼은 미움받는 것을 두려워하지 않고 거듭해서 인기 없는 결정을 내렸던 이례적으로 용기 있는 대통령이었음을 알게 됩니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1427.2,
+   "en": "It did make him hated and eventually became appreciated. But Truman, for the good like Hitler for the bad, nobody foresaw him.",
+   "ko": "그 일로 미움을 받았지만 결국 인정받게 되었습니다. 하지만 히틀러가 악한 면에서 그랬듯, 선한 면의 트루먼도 아무도 예견하지 못했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1435.3,
+   "en": "And what this means is that can we look at children and foresee who among those children is going to become a great person? Hitler and Truman suggest no.",
+   "ko": "이것이 의미하는 바는, 우리가 아이들을 보고 그들 중 누가 위대한 인물이 될지 예견할 수 있느냐는 것입니다. 히틀러와 트루먼의 사례는 그럴 수 없음을 보여줍니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1449.1,
+   "en": "Right, exactly. And when we look at the Hamlet test, the question of whether the man makes the moment or the moment makes the man, this would seem to call that into question.",
+   "ko": "맞습니다. 사람이 시대를 만드는지 시대가 사람을 만드는지에 대한 질문인 '햄릿 테스트'를 보면, 이 사례들은 그 질문에 의문을 갖게 하는 것 같습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1460.3,
+   "en": "Except that the Hamlet Test is applied not at age five, but is applied at age 35.",
+   "ko": "다만 햄릿 테스트는 5세가 아니라 35세 때 적용된다는 점이 다르겠죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1467.0,
+   "en": "So the Hamlet Test is, Hamlet is often regarded as the greatest play in the English language. Was Shakespeare the only person who could have written that great play?",
+   "ko": "햄릿 테스트는 이런 것입니다. '햄릿'은 영어로 된 가장 위대한 희곡으로 꼽히는데, 과연 셰익스피어만이 그 위대한 작품을 쓸 수 있었을까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1475.6,
+   "en": "Because Shakespeare was an Elizabethan playwright, and in London, there were a couple of dozen other well-known playwrights. We've got their plays, Fletcher and others. We can read their plays today.",
+   "ko": "셰익스피어는 엘리자베스 시대 극작가였고, 당시 런던에는 플레처 등 유명한 극작가들이 수십 명 더 있었습니다. 지금도 우리는 그들의 작품을 읽을 수 있죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1490.4,
+   "en": "Hamlet was not Shakespeare's first play. It was his 22nd play.",
+   "ko": "'햄릿'은 셰익스피어의 첫 작품이 아니었습니다. 그의 22번째 작품이었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1494.5,
+   "en": "But before Shakespeare wrote Hamlet, he'd already written Romeo and Juliet and Julius Caesar, which are damn good plays.",
+   "ko": "하지만 셰익스피어는 '햄릿'을 쓰기 전에 이미 '로미오와 줄리엣', '줄리어스 시저' 같은 훌륭한 작품들을 썼습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1502.0,
+   "en": "Was there anyone among those two dozen other Elizabethan playwrights who could have written plays as good as Hamlet? Well, we've got their plays today. We can read their plays. None of their plays is remotely as good as Hamlet.",
+   "ko": "다른 수십 명의 극작가들 중에 '햄릿'만큼 훌륭한 극을 쓸 수 있는 사람이 있었을까요? 오늘날 그들의 작품을 읽어봐도 '햄릿' 근처에라도 갈 수 있는 작품은 없습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1515.0,
+   "en": "So if Shakespeare had died of smallpox at age two, it doesn't mean that John Fletcher would have gone on with Shakespeare removed from the competition to write Hamlet.",
+   "ko": "따라서 셰익스피어가 2살 때 천연두로 죽었다고 해서, 그 경쟁 상대가 사라졌다고 존 플레처가 '햄릿'을 썼을 거라는 뜻은 아닙니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1526.0,
+   "en": "Fair. That's the thing with this. Yes, fair, fair. Although I guess in the case of world leaders, there's only a leader of a nation, there's only room for one.",
+   "ko": "그렇군요. 일리가 있습니다. 다만 세계적인 리더의 경우 한 국가의 지도자는 오직 한 명뿐이라는 점이 다르겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1535.3,
+   "en": "So you can only run the test of whether the moment makes the man once they arrive in the office.",
+   "ko": "그래서 시대가 사람을 만드는지에 대한 테스트는 그들이 집권한 후에야 해볼 수 있는 것이겠죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1540.2,
+   "en": "That's right. It's hard. Obviously, it's really a question of probabilities here. It's hard to know for certain.",
+   "ko": "맞습니다. 어렵죠. 분명 확률의 문제입니다. 확실히 알기는 어렵습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1547.5,
+   "en": "As you say, this is among the frustrations as a social scientist is that we can't run discrete randomized controlled tests as much as we might like to run back the clock of world history 20 times over.",
+   "ko": "당신 말대로 사회과학자로서 좌절스러운 부분 중 하나는, 세계 역사의 시간을 20번 뒤로 돌려 무작위 통제 테스트를 해보고 싶어도 그럴 수 없다는 점입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1567.6,
+   "en": "10 times Hitler's killed in the auto accident, 10 times he's not. If we did have that ability, we'd have ethical concerns about it. But irrespective, we simply don't have access to that.",
+   "ko": "히틀러가 10번은 자동차 사고로 죽고, 10번은 죽지 않는 식의 테스트 말이죠. 그런 능력이 있더라도 윤리적 문제가 있겠지만, 어쨌든 우리는 그런 접근 자체가 불가능합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1578.3,
+   "en": "But the best thing we can do is play with what you call natural experiments. We do have something close to that ability.",
+   "ko": "하지만 우리가 할 수 있는 최선은 '자연 실험'이라 부르는 방법을 활용하는 것입니다. 우리에게는 그 능력과 비슷한 것이 있습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1585.5,
+   "en": "It's true that if I were a six-legged green creature from the Andromeda Nebula coming to earth and I wanted to know whether, say, Angela Merkel in Germany was uniquely qualified to be an outstanding Chancellor of Germany.",
+   "ko": "만약 제가 안드로메다 성운에서 온 다리가 여섯 개인 초록색 외계인이고, 독일의 앙겔라 메르켈이 뛰어난 총리가 될 독보적인 자격이 있는지 알고 싶다고 가정해 봅시다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1602.4,
+   "en": "What we could do would be we would kill Angela Merkel, we would kill 27 other leaders and then we would not kill 27 other leaders and then we would compare them.",
+   "ko": "우리는 메르켈과 다른 27명의 리더를 죽이고, 또 다른 27명은 죽이지 않은 뒤 그들을 비교해 볼 수 있을 것입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1612.1,
+   "en": "And we would discover pretty quickly whether killing a leader, just as my manipulating 36 gallbladders, would let one get the sized answers. Well, that's illegal and it's immoral and wouldn't be nice and we can't do it.",
+   "ko": "그렇게 하면 리더를 죽이는 것이 차이를 만드는지, 제가 36개의 쓸개를 조작해 답을 얻었듯 금방 알 수 있겠죠. 하지만 그건 불법이고 부도덕하며 좋지 않은 일이니 할 수 없습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1631.7,
+   "en": "But we can approximate it because history does what those green creatures from the Andromeda Nebula would have done. In history, political leaders often die.",
+   "ko": "하지만 우리는 그것에 근접할 수 있습니다. 역사가 바로 그 외계인들이 했을 법한 일을 대신 해주기 때문입니다. 역사 속에서 정치 지도자들은 자주 죽습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1646.6,
+   "en": "Since World War II, something like 54 heads of state have died. Usually, they've died of heart attacks or cancer.",
+   "ko": "2차 세계대전 이후로 약 54명의 국가 원수가 사망했습니다. 대개 심장마비나 암으로 죽었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1655.8,
+   "en": "But Harold Holt, Prime Minister of Australia, drowned in the ocean, and a Prime Minister of Iceland burned to death in a fire, and another Prime Minister fell off a horse and was killed as a result.",
+   "ko": "하지만 호주 총리 해럴드 홀트는 바다에서 익사했고, 아이슬란드 총리는 화재로 타 죽었으며, 또 다른 총리는 말에서 떨어져 죽었습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1668.4,
+   "en": "And then there are a couple of hundred other leaders who didn't fall off a horse or didn't drown in the ocean. So we can perform a natural experiment.",
+   "ko": "그리고 말에서 떨어지지도, 바다에 빠지지도 않은 수백 명의 다른 리더들이 있습니다. 그래서 우리는 자연 실험을 할 수 있는 것이죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1676.0,
+   "en": "We can compare what happens, not when Hitler dies 25 times, but we can compare what happened when 25 leaders die and 25 leaders don't die. And we can ask many questions.",
+   "ko": "히틀러가 25번 죽는 경우를 볼 수는 없지만, 25명의 리더가 죽었을 때와 죽지 않았을 때를 비교하며 많은 질문을 던질 수 있습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1689.4,
+   "en": "We can ask if a leader dies, does that affect the economy? Yes, it does affect the economy, either for the better or the worse depending upon whether the leader had good or bad economic policy.",
+   "ko": "리더가 죽으면 경제에 영향을 주는지 물을 수 있습니다. 네, 리더가 좋거나 나쁜 경제 정책을 가졌느냐에 따라 경제는 좋아지거나 나빠집니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1700.0,
+   "en": "Does it affect the end of wars? Yes, it does affect the end of wars because if a leader has caused a war like say Mussolini, Mussolini did not want to end World War II because he knew that he would get killed by his fellow Italians as actually happened.",
+   "ko": "전쟁의 종결에도 영향을 줄까요? 네, 그렇습니다. 무솔리니처럼 전쟁을 일으킨 리더는 전쟁을 끝내고 싶어 하지 않았는데, 전쟁이 끝나면 이탈리아 동포들에게 살해당할 것임을 알았기 때문이고 실제로 그렇게 되었죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1716.8,
+   "en": "So the natural experiments are the method that are used in my book for understanding the outcome of history.",
+   "ko": "따라서 자연 실험은 역사의 결과를 이해하기 위해 제 책에서 사용한 방법론입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1724.9,
+   "en": "But that interestingly, business school professors who want to understand what makes a CEO successful, they can't manipulate CEOs, but they can do natural experiments.",
+   "ko": "흥미롭게도, 성공적인 CEO의 비결을 이해하려는 경영대학원 교수들도 CEO를 마음대로 조작할 수는 없지만 자연 실험은 할 수 있습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1740.6,
+   "en": "For example, if you want to see whether the CEO of a company makes a difference, the green creature from the Andromeda Nebula would kill half of them and not kill the other half.",
+   "ko": "예를 들어 CEO가 차이를 만드는지 보고 싶다면, 외계인들은 절반은 죽이고 절반은 살려두겠죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1750.7,
+   "en": "Or if you just want to see whether CEO getting upset makes a difference. An upset CEO who's distracted and can't pay attention to the company. If the CEO does anything, then a distracted CEO means the company is going to suffer.",
+   "ko": "또는 CEO가 화가 났을 때 차이가 생기는지 보고 싶을 수도 있습니다. 산만하고 회사에 집중하지 못하는 리더 말입니다. CEO가 제 역할을 하지 못하면 회사는 고통받게 됩니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1765.8,
+   "en": "Well, you can distract CEOs by killing their wives or their sons or their brothers, but again, that's not nice.",
+   "ko": "그들의 아내나 아들, 형제를 죽여서 주의를 산만하게 할 수도 있겠지만, 역시 좋은 방법은 아니죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1774.2,
+   "en": "But the fact is that spouses and the children and the siblings of CEOs and of boards of directors do lose wives and so on.",
+   "ko": "하지만 현실에서는 CEO나 이사회 구성원의 배우자, 자녀, 형제자매가 실제로 사망하곤 합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1787.5,
+   "en": "And in Denmark, where there are good statistics, you can look at all 76,000 of the CEOs of Denmark. You can look at the hospital records of Denmark, which are public information.",
+   "ko": "통계가 잘 정비된 덴마크에서는 76,000명의 CEO 전체를 살펴볼 수 있습니다. 공공 정보인 덴마크 병원 기록도 볼 수 있죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1797.9,
+   "en": "And you can discover for every CEO whether the wife or the child or the sibling died.",
+   "ko": "그리고 모든 CEO에 대해 아내나 자녀, 형제자매가 죽었는지 확인할 수 있습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1803.8,
+   "en": "What you discover is that if a member of the board of directors gets bereaved by the death of a relative, nothing happens to the company because the board of directors isn't that important.",
+   "ko": "조사 결과, 이사회 구성원이 친족의 죽음으로 사별을 겪으면 회사에는 아무 일도 일어나지 않았습니다. 이사회가 그 정도로 중요하지는 않기 때문이죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1815.4,
+   "en": "But if the CEO's wife or husband dies, the company's profits decrease for a couple of years, more so if the spouse of a woman CEO than a man CEO dies. Why? Because men are less emotional or women are more emotional.",
+   "ko": "하지만 CEO의 배우자가 죽으면 회사의 이익은 몇 년 동안 감소하며, 특히 여성 CEO의 배우자가 죽었을 때 그 폭이 더 컸습니다. 왜일까요? 남성이 덜 감정적이거나 여성이 더 감정적이기 때문일까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1835.2,
+   "en": "There's less effect on the earnings if a sibling dies because we care more about spouses than about siblings. There's still less effect if a parent dies because you expect parents to die but not siblings to die.",
+   "ko": "형제자매가 죽었을 때는 이익에 미치는 영향이 적었습니다. 우리가 형제자매보다는 배우자를 더 챙기기 때문이죠. 부모님이 돌아가셨을 때는 영향이 더 적었는데, 부모님의 죽음은 어느 정도 예상하기 때문입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1850.1,
+   "en": "But if your mother-in-law dies, the only family death that produces a slight increase in company performance is the death of a mother-in-law.",
+   "ko": "하지만 흥미롭게도 장모가 사망했을 때만 유일하게 회사의 실적이 약간 향상되는 결과가 나타났습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1862.3,
+   "en": "It doesn't quite reach statistical significance, and the sample size is not large. So it may be a random result, but anyway, that's an example of a natural experiment. I can't go around killing mothers-in-law.",
+   "ko": "통계적 유의미함에 도달하지 못했고 표본 크기도 크지 않아 우연한 결과일 수도 있지만, 어쨌든 이것이 자연 실험의 예입니다. 제가 장모님들을 죽이고 다닐 수는 없으니까요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1876.2,
+   "en": "It does seem hard. It seems hard to fully dismiss that the only family death that has at least some indication of improving a company's profits is the death of a mother-in-law.",
+   "ko": "참 어렵네요. 가족의 죽음 중 유일하게 회사 수익을 높이는 징후를 보인 것이 장모의 죽음이라는 사실을 완전히 무시하기는 힘들어 보입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1886.9,
+   "en": "I say this as someone who has a wonderful mother-in-law. But as you say, small effect, not statistically significant.",
+   "ko": "훌륭한 장모님을 둔 사람으로서 드리는 말씀입니다만, 당신 말대로 효과가 작고 통계적으로 유의미하지는 않네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1893.7,
+   "en": "The details, because I have them in front of me, on the family deaths are the child of a CEO, a child who's under 18, dies, which surprisingly happened 415 times in this sample of 75,000 companies.",
+   "ko": "제 앞의 상세 자료를 보니, 75,000개 회사의 샘플 중에서 18세 미만의 CEO 자녀가 사망한 경우가 놀랍게도 415번이나 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1912.2,
+   "en": "For male CEOs profits dropped by 8% in the ensuing years, for female CEOs profits dropped by 28%.",
+   "ko": "남성 CEO의 경우 이후 몇 년 동안 이익이 8% 감소했고, 여성 CEO의 경우 28%나 급감했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1919.6,
+   "en": "It's kind of an astonishing measurement of the emotional inferiority of men, but it's kind of an extraordinary natural experiment.",
+   "ko": "남성의 감정적 열등함(?)에 대한 놀라운 측정치이기도 하지만, 정말 대단한 자연 실험이군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1930.9,
+   "en": "One of my favorite natural experiments in the book is the example of the case of the inbred kings. Right, this is pretty remarkable.",
+   "ko": "책에 나오는 자연 실험 중 제가 가장 좋아하는 것은 '근친상간 왕들'의 사례입니다. 이건 정말 놀랍더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1944.1,
+   "en": "Wouldn't it be a wonderful natural experiment if those green creatures from outer space, if you want to know do leaders make a difference?",
+   "ko": "리더가 차이를 만드는지 알고 싶어 하는 외계인들에게 이보다 멋진 자연 실험이 있을까요?",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1954.4,
+   "en": "A test would be make some leaders dumb and make other leaders smart, change the IQs of leaders.",
+   "ko": "어떤 리더는 멍청하게 만들고 어떤 리더는 똑똑하게 만들어서 지능 지수를 바꿔보는 테스트 말이죠.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1962.0,
+   "en": "Well, we don't have a way of doing it and if we did, laws would prevent us from doing it, but history has done that because the royal families of Europe were highly inbred.",
+   "ko": "우리는 그럴 방법이 없고, 설령 있더라도 법이 막겠지만 역사는 그것을 해냈습니다. 유럽 왕실들은 매우 심하게 근친혼을 했으니까요.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 1974.9,
+   "en": "The relationships of royal families were documented in detail.",
+   "ko": ""
+  },
+  {
+   "start": 1980.2,
+   "en": "You really wanted to know who married whom and so",
+   "ko": ""
+  },
+  {
+   "start": 1983.9,
+   "en": "For royal families of Europe from about AD 1000 on, a colleague of mine at UCLA, Nico Voigtländer, a wonderful guy, he and a colleague of his looked at every king and queen of Europe from AD 1000 onwards.",
+   "ko": "서기 1000년경부터의 유럽 왕실들에 대해, 제 UCLA 동료인 멋진 니코 포이트랜더와 그의 동료가 서기 1000년 이후의 모든 유럽 왕과 왕비를 조사했습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2001.7,
+   "en": "They looked at who were the parents, were those parents related? Well, if the parents were uncle and niece, as happened often, you lose 25 points of IQ.",
+   "ko": "그들은 부모가 누구인지, 그들이 친척 관계였는지 확인했습니다. 부모가 삼촌과 조카 사이인 경우가 흔했는데, 이럴 경우 지능 지수가 25포인트 떨어집니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2010.2,
+   "en": "If instead your parents are not related, but your grandparents are related, you lose 12 points of IQ. You may lose 3 points of IQ if your parents are second cousins. So there's this wonderful database.",
+   "ko": "부모는 남남이지만 조부모가 친척이면 12포인트, 부모가 8촌이면 3포인트 정도 떨어지죠. 이렇게 훌륭한 데이터베이스가 구축된 것입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2027.5,
+   "en": "And yes, it turns out that inbreeding, which means reduction of IQ, results in kings and queens being less effective as measured by less effect on the economy, less effect also on acquiring territory.",
+   "ko": "그리고 지능 하락을 수반하는 근친교배는 결과적으로 왕과 왕비들이 경제와 영토 확장에 미치는 영향력이 줄어들게 만들어 그들의 유능함을 떨어뜨리는 것으로 나타났습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2044.4,
+   "en": "But the effect is bigger for those countries of Europe where the king had the most power, namely Prussia and the Ottoman Empire and Russia. The inbreeding had a bigger effect.",
+   "ko": "특히 프로이센, 오스만 제국, 러시아처럼 왕의 권력이 강력했던 국가일수록 근친혼의 부작용이 더 크게 나타났습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2060.1,
+   "en": "Why? Because the King of Prussia had more power than did the King of England.",
+   "ko": "왜일까요? 프로이센 국왕이 영국 국왕보다 더 강력한 권력을 가졌기 때문입니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2065.2,
+   "en": "And the effect of inbreeding begins to disappear in England and in the Netherlands from about 1600 onwards when the democratic parliament gets more power.",
+   "ko": "민주적인 의회가 더 많은 권력을 갖게 된 1600년대 이후부터 영국과 네덜란드에서는 근친혼의 영향이 사라지기 시작합니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2083.6,
+   "en": "It's a wonderful natural experiment and it makes sense and we can get detailed information about changes in power of kings with time and differences between countries as a result of this beautiful natural experiment where nature has manipulated IQs.",
+   "ko": "이는 자연이 인간의 지능을 조작한 아주 훌륭한 자연 실험이며, 시대에 따른 왕권의 변화와 국가 간의 차이에 대해 상세한 정보를 얻을 수 있게 해줍니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2102.6,
+   "en": "And it's a really powerful correlation. You say for each notch a monarch's inferred ability was above average, the country grew about 16% in territory and 13% in urban population during the reign.",
+   "ko": "정말 강력한 상관관계군요. 군주의 추정 능력이 평균보다 한 단계 높을 때마다 그 재임 기간 동안 영토는 약 16%, 도시 인구는 13% 증가했다고 하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2116.8,
+   "en": "You reach a shocking conclusion. Mentally impaired rulers on average produce worse national outcomes, unimpaired rulers, on average produce better outcomes. This makes me think a little bit of our current president in this country.",
+   "ko": "당신은 충격적인 결론에 도달했습니다. 정신적으로 결함이 있는 통치자는 평균적으로 더 나쁜 국가적 결과를 낳고, 그렇지 않은 통치자는 더 좋은 결과를 낳는다는 것이죠. 이 나라의 현재 대통령이 조금 생각나네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2131.2,
+   "en": "No comment.",
+   "ko": "노 코멘트 하겠습니다.",
+   "speaker": "Jared Diamond"
+  },
+  {
+   "start": 2138.4,
+   "en": "We talk a lot on the show about what AI means for how we live and also how we work. And I think a question on a lot of people's minds is, how should I be future proofing my career with this new technology on the rise?",
+   "ko": "우리 쇼에서는 AI가 우리의 삶과 일하는 방식에 어떤 의미를 갖는지에 대해 많은 이야기를 나눕니다. 많은 분들이 고민하는 질문은 '이 새로운 기술이 부상하는 가운데 어떻게 내 커리어를 미래에 대비시킬 것인가'일 것입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2151.0,
+   "en": "That's why we're so excited to partner with NYU Stern. They've got an incredible established master's degree that can help you elevate your career with the power of AI and data.",
+   "ko": "이것이 바로 우리가 NYU 스턴과 파트너십을 맺게 되어 매우 기쁜 이유입니다. 그곳에는 AI와 데이터의 힘으로 여러분의 커리어를 한 단계 높여줄 훌륭한 석사 과정이 마련되어 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2162.3,
+   "en": "NYU Stern's MS in Business Analytics and AI program is a one-year part-time program designed for working professionals who are seeking to harness the power of AI and analytics to make smarter decisions.",
+   "ko": "NYU 스턴의 비즈니스 분석 및 AI 석사 과정은 더 현명한 결정을 내리기 위해 AI와 분석의 힘을 활용하고자 하는 직장인들을 위해 설계된 1년제 파트타임 프로그램입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2173.2,
+   "en": "Solve complex business challenges, and drive meaningful business impact. MSB AI students convene in person for five modules at NYU Stern in New York City, and then there's a six module at a global location.",
+   "ko": "복잡한 비즈니스 과제를 해결하고 유의미한 비즈니스 임팩트를 창출하세요. MSB AI 학생들은 뉴욕시의 NYU 스턴에서 5개의 모듈을 대면으로 수강하며, 여섯 번째 모듈은 글로벌 지역에서 진행됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2187.0,
+   "en": "In between the cohort stays connected through online remote study, which allows students to gain cutting edge expertise, build powerful professional networks, and advance their careers without putting them on hold.",
+   "ko": "그 사이에도 동료들과 온라인 원격 학습을 통해 소통하며 최첨단 전문 지식을 습득하고 강력한 전문 네트워크를 구축하며, 경력을 중단하지 않고도 발전시킬 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2198.9,
+   "en": "Learn more by visiting the NYU Stern MSB AI website and apply to be part of the next cohort.",
+   "ko": "NYU 스턴 MSB AI 웹사이트를 방문하여 더 자세히 알아보고 다음 기수의 일원이 되기 위해 지원하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2205.4,
+   "en": "Genetic testing used to mean a referral, a blood draw, weeks of waiting. Now it's a cheek swab at your kitchen table.",
+   "ko": "유전자 검사를 하려면 예전에는 의뢰서를 받고 피를 뽑고 몇 주를 기다려야 했습니다. 하지만 이제는 주방 식탁에서 면봉으로 볼을 문지르기만 하면 됩니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2214.4,
+   "en": "Most popular DNA tests read about a 10th of 1% of your DNA. Sequencing.com reads all 3.2 billion positions, screening for variants linked to more than 15,000 diseases, conditions, and traits.",
+   "ko": "가장 대중적인 DNA 검사들은 유전자의 약 0.1%만 읽어냅니다. 반면 Sequencing.com은 32억 개의 모든 위치를 읽어 15,000가지 이상의 질병, 상태, 특성과 연관된 변이를 스캔합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2228.0,
+   "en": "That can mean catching inherited risks early or learning how you might respond to certain medications. All good things to talk through with your doctor.",
+   "ko": "이는 유전적 위험을 조기에 발견하거나 특정 약물에 대한 반응을 미리 아는 것을 의미합니다. 의사와 상담하기에 매우 좋은 정보들이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2235.2,
+   "en": "Here's the part I find most interesting. Your DNA doesn't change, but what we know about it does.",
+   "ko": "제가 가장 흥미롭게 생각하는 부분은 이겁니다. 당신의 DNA는 변하지 않지만, 그것에 대해 우리가 아는 지식은 계속 변한다는 점이죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2240.9,
+   "en": "So sequencing.com keeps reanalyzing your genome against new research for as long as you remember.",
+   "ko": "그래서 sequencing.com은 당신이 회원인 동안 계속해서 새로운 연구 결과를 바탕으로 당신의 게놈을 재분석합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2246.7,
+   "en": "Right now, sequencing.com is offering our listeners up to 10% off your full genome test plus free shipping. Go to sequencing.com and use promo code IDEA for 10% off.",
+   "ko": "지금 바로 sequencing.com에서 청취자 여러분께 전체 게놈 검사 최대 10% 할인과 무료 배송을 제공합니다. sequencing.com에 가서 프로모션 코드 IDEA를 입력하고 10% 할인을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2258.1,
+   "en": "That's sequencing.com promo code IDEA.",
+   "ko": ""
+  },
+  {
+   "start": 2262.1,
+   "en": "That is S-E-Q-U-E-N-C-I-N-G.com promo code IDEA.",
+   "ko": ""
+  },
+  {
+   "start": 2268.5,
+   "en": "You know that thing? If a tree falls in the forest and no one's there to hear it, does it actually make a sound?",
+   "ko": "이런 말 들어보셨죠? 숲에서 나무가 쓰러졌는데 듣는 사람이 아무도 없다면 정말 소리가 난 걸까요?",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2273.2,
+   "en": "These days, it kind of feels like if there's a meeting on the calendar and no AI joins the call, did the meeting actually happen?",
+   "ko": "요즘은 일정에 회의가 있는데 AI가 회의에 참여하지 않는다면 그 회의가 실제로 열린 게 맞나 싶은 기분까지 듭니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2279.9,
+   "en": "Every Zoom I'm in these days, I'm joined by an army of people's AI bots. And I'm sure they're all great, but I can tell you this. None of them are as good as Granola.",
+   "ko": "요즘 제가 참여하는 모든 Zoom 회의에는 사람들의 AI 봇 군단이 함께합니다. 그 봇들도 훌륭하겠지만, 이것만은 확실히 말할 수 있습니다. 그 어떤 것도 Granola만큼 좋지는 않습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2290.0,
+   "en": "Granola is an AI-powered notepad that is built for the way real people actually meet.",
+   "ko": "Granola는 실제 사람들이 회의하는 방식에 맞춰 제작된 AI 기반 노트패드입니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2295.3,
+   "en": "Here's how it works. You can still take rough notes, just like you normally would. But in the background, granola securely transcribes the meeting.",
+   "ko": "작동 방식은 이렇습니다. 평소처럼 대충 노트를 작성하면 됩니다. 그러면 백그라운드에서 Granola가 안전하게 회의 내용을 전사합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2302.6,
+   "en": "And then it turns everything, your notes plus the transcription, into a clean, structured, actually useful document when the meeting ends.",
+   "ko": "회의가 끝나면 여러분의 노트와 전사된 내용을 합쳐서 깔끔하고 구조적이며 실제로 유용한 문서로 만들어 줍니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2309.6,
+   "en": "And the best part is that granola works through your device's audio, so it integrates seamlessly into the video conferencing tools you already use, which means there's no setup and none of those awkward bots on the call.",
+   "ko": "가장 좋은 점은 Granola가 기기의 오디오를 통해 작동하므로 이미 사용 중인 화상 회의 도구와 완벽하게 연동된다는 것입니다. 즉, 복잡한 설정도 없고 회의 중에 어색한 봇들이 나타날 일도 없습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2320.6,
+   "en": "I love granola because I can actually listen. I can be present. I can be focused on a call instead of frantically trying to type things down or scribble stuff out on a sticky note.",
+   "ko": "제가 Granola를 좋아하는 이유는 회의 내용을 실제로 경청할 수 있기 때문입니다. 정신없이 타이핑하거나 포스트잇에 휘갈겨 쓰는 대신, 회의에 온전히 집중할 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2328.9,
+   "en": "If meetings are eating up your day, granola is a no-brainer. You can try it totally free for three months. Just head to granola.ai/idea. Get three months free at granola.ai/idea.",
+   "ko": "회의가 하루 일과를 다 잡아먹고 있다면 Granola가 정답입니다. 3개월 동안 완전히 무료로 체험해 볼 수 있습니다. granola.ai/idea에 접속해 3개월 무료 혜택을 받으세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 2353.9,
+   "en": "Another area in which there's very practical value to understanding the efficacy or lack of efficacy of leaders, as you say, is business.",
+   "ko": "리더의 유능함 혹은 무능함을 이해하는 것이 실질적인 가치를 지니는 또 다른 분야는 당신이 말한 비즈니스 분야입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2363.3,
+   "en": "Where I think at one point, you cite a study showing that leaders have something like a 29% impact on the outcome of companies.",
+   "ko": "당신은 어떤 시점에서 리더가 회사의 성과에 약 29%의 영향을 미친다는 연구 결과를 인용하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2373.0,
+   "en": "When balanced against other factors like the products the company makes, the industry they're in, and the specific economic cycle they're in.",
+   "ko": "회사가 만드는 제품, 속해 있는 산업군, 특정 경제 주기 같은 다른 요인들과 비교했을 때 말입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2384.3,
+   "en": "Do you think that, I mean, obviously, CEO compensation has increased dramatically in recent decades, which is controversial. Do you think that data supports the excessive compensation for CEOs?",
+   "ko": "최근 수십 년 동안 CEO의 보수가 급격히 증가하며 논란이 되고 있는데, 이 데이터가 그러한 과도한 보수를 정당화한다고 보시나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2398.3,
+   "en": "It depends upon the business, but it certainly is true that a CEO whose business has made $10 billion of profits this year will certainly say to the Board of Directors, \"My company made $10 billion thanks to me, me, me.\"",
+   "ko": "업종에 따라 다르겠지만, 올해 100억 달러의 이익을 낸 회사의 CEO가 이사회에 \"제 덕분에 우리 회사가 100억 달러를 벌었습니다\"라고 말하는 것은 분명한 사실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2415.6,
+   "en": "Therefore, I deserve a salary of at least a measly $1 billion.",
+   "ko": "그러니 적어도 10억 달러라는 보잘것없는 연봉을 받을 자격이 있다는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2420.1,
+   "en": "Well, if the CEO really did make a huge difference and nobody else could have done it, you could argue the CEO deserved the billion dollars.",
+   "ko": "글쎄요, 만약 그 CEO가 정말로 큰 차이를 만들었고 다른 누구도 그렇게 할 수 없었다면, 그 CEO가 10억 달러를 받을 자격이 있다고 주장할 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2428.1,
+   "en": "Whereas if CEOs don't have that big an effect, then there are lots of other things.",
+   "ko": "반면 CEO가 그렇게 큰 영향력을 발휘하지 못한다면, 다른 요인들이 많이 작용합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2433.8,
+   "en": "CEOs who could have done it and you should give that CEO a measly $100,000.",
+   "ko": "누구나 할 수 있었던 일이라면 그 CEO에게는 10만 달러 정도만 줘야 할 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2439.2,
+   "en": "It turns out that if you look at the influence on companies' profits, companies' profits were affected mainly by four things.",
+   "ko": "기업의 이익에 미치는 영향을 살펴보면, 기업의 이익은 주로 네 가지 요소에 의해 영향을 받는 것으로 나타납니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2447.7,
+   "en": "They're affected by the year. 1930 was not a good year for company profits.",
+   "ko": "우선 연도에 영향을 받습니다. 1930년은 기업 이익에 좋지 않은 해였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2453.7,
+   "en": "Any company in the United States goes for the year of the Great Depression. The year makes a difference.",
+   "ko": "대공황의 해에는 미국의 어떤 기업이든 어려웠습니다. 연도가 차이를 만듭니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2458.4,
+   "en": "Another thing that makes a difference is the individual company, Procter & Gamble.",
+   "ko": "또 다른 차이를 만드는 것은 개별 기업입니다. 프록터 앤 갬블(P&G)을 예로 들어보죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2462.8,
+   "en": "Has been a very successful soap company for 150 years, leader after leader. Procter & Gamble runs its soap industry very well, Procter & Gamble is always profitable.",
+   "ko": "지난 150년 동안 리더가 바뀌어도 줄곧 성공적인 비누 회사였습니다. 프록터 앤 갬블은 비누 사업을 아주 잘 운영하며 항상 수익을 냅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2475.4,
+   "en": "So the company makes a difference, the industry makes a difference, some industries are profitable, the perfume industry is very profitable if you figure out the right perfume.",
+   "ko": "그래서 기업 자체가 차이를 만들고, 산업군도 차이를 만듭니다. 어떤 산업은 수익성이 높습니다. 향수 산업은 적절한 향수만 찾아내면 매우 수익성이 높죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2486.0,
+   "en": "Whereas the Department of Water and Power is not profitable because what Department of Water and Power are tightly regulated by the government.",
+   "ko": "반면 수도 전력국은 정부의 엄격한 규제를 받기 때문에 수익성이 높지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2495.4,
+   "en": "So those are the four factors that affect company profits, of which on the average, just on the average, the leader, CEO, counts for 25 to 30%.",
+   "ko": "이것이 기업의 이익에 영향을 미치는 네 가지 요소이며, 그중 리더인 CEO가 차지하는 비중은 평균적으로 25~30% 정도입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2507.8,
+   "en": "But it also depends upon the particular industry. The CEO of a perfume company and the CEO of a teenage t-shirt company has a big effect.",
+   "ko": "하지만 특정 산업에 따라 다르기도 합니다. 향수 회사의 CEO나 10대 티셔츠 회사의 CEO는 큰 영향을 미칩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2516.6,
+   "en": "A friend of mine is in the business of teenage t-shirts. And my friend is brilliant.",
+   "ko": "제 친구 중 한 명이 10대용 티셔츠 사업을 합니다. 그 친구는 정말 똑똑합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2522.9,
+   "en": "Teenagers change their desires in t-shirts every two weeks. My friend is good.",
+   "ko": "10대들의 티셔츠 취향은 2주마다 바뀝니다. 제 친구는 그걸 잘 파악하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2527.7,
+   "en": "It's figuring out two weeks from now what t-shirt will sell to the teenagers. And so he's made billions of dollars.",
+   "ko": "2주 뒤에 어떤 티셔츠가 10대들에게 팔릴지 알아내는 것입니다. 그렇게 그는 수십억 달러를 벌었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2534.0,
+   "en": "Similarly, the head of a perfume company who can figure out what perfume the ladies will want a month from now can make huge profits.",
+   "ko": "마찬가지로 한 달 뒤 여성들이 어떤 향수를 원할지 알아낼 수 있는 향수 회사 수장도 막대한 수익을 낼 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2542.9,
+   "en": "Whereas the CEO of a railroad. Once the railroad tracks are in place, there's nothing you can do for the next 50 years or a shipyard.",
+   "ko": "반면 철도 회사의 CEO는 다릅니다. 일단 철로가 깔리고 나면 향후 50년 동안 할 수 있는 일이 별로 없습니다. 조선소도 마찬가지고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2550.2,
+   "en": "Once you build the shipyard, you can't make a big difference. So in some industries, the CEO can make a difference.",
+   "ko": "일단 조선소를 짓고 나면 큰 차이를 만들기 어렵습니다. 그래서 어떤 산업에서는 CEO가 차이를 만들 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2557.7,
+   "en": "And I would say, yes, pay my friend $1 billion that he gets for his teenage t-shirt company.",
+   "ko": "그래서 저는 그 10대 티셔츠 회사를 운영하는 친구에게 10억 달러를 주라고 말할 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2564.6,
+   "en": "But don't pay my friends who run shipyards or my friends who basically run the Department of Water and Power in Los Angeles.",
+   "ko": "하지만 조선소를 운영하거나 로스앤젤레스 수도 전력국 같은 곳을 운영하는 친구들에게는 그만큼 주지 마세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2573.4,
+   "en": "And I love them dearly and they're very good people, but they don't deserve, say, a salary of $1 billion, and get by and then easily $2 million.",
+   "ko": "저는 그들을 아주 아끼고 훌륭한 사람들이라고 생각하지만, 그들이 10억 달러의 연봉을 받을 자격은 없으며 200만 달러 정도면 충분할 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2586.1,
+   "en": "I'm sure they'll forgive you for saying so. Yes, so your counsel would be to go into industries in which the CEO's leadership has more discretion as opposed to less discretion, as a phrase you use.",
+   "ko": "그런 말씀을 하셔도 그들이 이해해 줄 겁니다. 그렇군요, 선생님의 조언은 선생님의 표현대로라면 CEO의 리더십 재량권이 적은 쪽보다는 많은 쪽의 산업으로 가라는 것이겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2598.8,
+   "en": "Yeah, when we think of the outsized impact of individuals in history. As you alluded to earlier, few have had as profound a long-term impact as Jesus Christ.",
+   "ko": "역사상 개인이 미친 엄청난 영향력을 생각할 때, 앞서 언급하셨듯이 예수 그리스도만큼 심오하고 장기적인 영향을 끼친 인물은 거의 없습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2610.5,
+   "en": "And as you point out, this wasn't necessarily obvious, so there were many competing Jewish sects in the first century AD, and many other preachers who claimed they had divine inspiration that they could heal people, perform miracles.",
+   "ko": "지적하신 대로 이것이 처음부터 명백했던 것은 아니었습니다. 서기 1세기에는 경쟁하는 유대교 분파가 많았고, 신성한 영감을 받아 사람을 고치고 기적을 행할 수 있다고 주장하는 다른 설교자들도 많았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2624.3,
+   "en": "What was it about Jesus that set him apart, do you think?",
+   "ko": "예수를 그들과 차별화한 것은 무엇이었다고 생각하십니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2628.2,
+   "en": "There were three things about Jesus that set him apart. One, obviously he had a good message, which is still a good message today.",
+   "ko": "예수를 차별화한 세 가지 요소가 있었습니다. 첫째, 분명히 그는 오늘날에도 여전히 유효한 훌륭한 메시지를 가졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2640.1,
+   "en": "His message was distinctive and that was a universal message. It was not aimed just at Jews. It was aimed at everybody.",
+   "ko": "그의 메시지는 독특했고 보편적인 것이었습니다. 유대인들만을 겨냥한 것이 아니라 모든 사람을 향한 것이었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2649.5,
+   "en": "And there are many features of his message. His message being aimed at women as well as men, early Christianity's large role that it gave to women, which was unusual in the Roman Empire at that time.",
+   "ko": "그의 메시지에는 많은 특징이 있습니다. 남성뿐만 아니라 여성에게도 메시지를 전달했다는 점, 초기 기독교가 당시 로마 제국에서는 이례적으로 여성에게 큰 역할을 부여했다는 점 등입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2668.1,
+   "en": "It's one thing, Jesus' message. The second thing, Jesus' time and place.",
+   "ko": "그것이 한 가지, 즉 예수의 메시지입니다. 두 번째는 예수의 시대와 장소입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2673.1,
+   "en": "Jesus didn't know, there was no way that Jesus would know that in 1492 Christopher Columbus would sail the ocean blue carrying the religion of Western Europe around the world.",
+   "ko": "예수는 1492년에 크리스토퍼 콜럼버스가 푸른 바다를 항해하며 서유럽의 종교를 전 세계로 전파할 것이라고는 꿈에도 생각지 못했을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2685.8,
+   "en": "But the religion of Western Europe was derived from the religion of Western Europe during the Roman Empire and in Jesus's times, which was the Christian religion.",
+   "ko": "하지만 서유럽의 종교는 로마 제국 시대와 예수 시대의 서유럽 종교, 즉 기독교에서 유래한 것이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2695.9,
+   "en": "So Jesus was at the right place at the right time, although he didn't know.",
+   "ko": "비록 본인은 몰랐겠지만, 예수는 적절한 시기에 적절한 장소에 있었던 셈입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2699.9,
+   "en": "And the third thing was that to found a world religion, not only do you have to have a good message, but you need definitely one other thing and you may need a third other thing.",
+   "ko": "그리고 세 번째는 세계 종교를 창시하려면 훌륭한 메시지뿐만 아니라 반드시 다른 한 가지가 더 필요하고, 어쩌면 세 번째 요소까지 필요할 수도 있다는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2712.8,
+   "en": "You have to be a great organizer. Jesus died too early to demonstrate whether he was a great organizer, but Saint Paul was a great organizer.",
+   "ko": "위대한 조직가가 되어야 합니다. 예수는 너무 일찍 죽어서 위대한 조직가였는지 증명할 기회가 없었지만, 성 바오로는 위대한 조직가였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2724.1,
+   "en": "Christianity, the organizer was different from the Muslim religion, Muhammad was a great organizer as well as a great religious thinker.",
+   "ko": "기독교는 조직가가 따로 있었던 반면, 이슬람교의 무함마드는 위대한 종교 사상가인 동시에 위대한 조직가였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2737.0,
+   "en": "And a third thing that a religion may need, any new religion faces pushback from existing religions, and often it's violent pushback.",
+   "ko": "그리고 종교에 필요할 수 있는 세 번째 요소는, 모든 신흥 종교는 기존 종교의 반발에 직면하며, 종종 그것은 폭력적인 반발이라는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2746.7,
+   "en": "Christians, you know, got crucified for a couple of centuries. So religions often need or can profit by generals' military strength.",
+   "ko": "기독교인들도 몇 세기 동안 십자가 처형을 당했죠. 그래서 종교는 종종 장군들의 군사력을 필요로 하거나 그 혜택을 입기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2757.1,
+   "en": "If you're a tiny religion, there's no point having a general. But once you get to be a large religion and people start to martyr for you, you need good generals.",
+   "ko": "작은 종교라면 장군이 있어 봐야 소용없습니다. 하지만 큰 종교가 되어 사람들이 당신을 위해 순교하기 시작하면 훌륭한 장군이 필요합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2766.8,
+   "en": "And Muhammad was not only an outstanding Messiah and an outstanding organizer, but a great general.",
+   "ko": "그리고 무함마드는 뛰어난 메시아이자 뛰어난 조직가였을 뿐만 아니라 위대한 장군이기도 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2775.4,
+   "en": "Similarly in the Sudan, late 1800s, there was a Muslim leader called the Mahdi who set up a new branch of Islam.",
+   "ko": "마찬가지로 1800년대 후반 수단에는 이슬람의 새로운 분파를 세운 '마디'라고 불리는 이슬람 지도자가 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2785.0,
+   "en": "And he succeeded in establishing an empire in northeastern Africa. He led his followers with sticks and stones.",
+   "ko": "그는 아프리카 북동부에 제국을 건설하는 데 성공했습니다. 그는 막대기와 돌을 든 추종자들을 이끌었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2797.4,
+   "en": "They massacred, they annihilated a British army of 6,000 with machine guns.",
+   "ko": "그들은 기관총으로 무장한 6,000명의 영국군을 학살하고 전멸시켰습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2804.5,
+   "en": "So the Mahdi was a great general and he was a great organizer and he was a charismatic leader.",
+   "ko": "즉, 마디는 위대한 장군이자 위대한 조직가였으며 카리스마 넘치는 리더였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2810.6,
+   "en": "In short, compared to business leaders and political leaders and sports leaders, religious leaders are distinct in that they have to be charismatic.",
+   "ko": "요컨대 기업 지도자나 정치 지도자, 스포츠 지도자와 비교할 때 종교 지도자는 카리스마가 있어야 한다는 점에서 뚜렷한 차이가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2823.8,
+   "en": "There are other ways besides charisma to be successful as a business leader, despite what business schools teach you.",
+   "ko": "경영대학원에서 가르치는 것과는 달리, 비즈니스 리더로서 성공하는 데는 카리스마 외에도 다른 방법들이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2831.2,
+   "en": "And there are other ways besides charisma to be successful as a political leader, but to be successful as a religious leader, you have to be charismatic.",
+   "ko": "정치 지도자로서 성공하는 데도 카리스마 외에 다른 길이 있지만, 종교 지도자로 성공하려면 반드시 카리스마가 있어야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2842.2,
+   "en": "And Jesus was charismatic, and Muhammad was charismatic. Joseph Smith, the founder of the Mormon religion, was charismatic.",
+   "ko": "예수도 카리스마가 있었고 무함마드도 카리스마가 있었습니다. 몰몬교의 창시자인 조셉 스미스도 카리스마가 있었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2849.1,
+   "en": "And Ann Lee, the founder of the Shakers, was charismatic, etc.",
+   "ko": "셰이커교의 창시자인 앤 리 등도 카리스마가 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2853.7,
+   "en": "I'll keep that in mind if I get into the religion business. There's another great detail.",
+   "ko": "제가 종교 사업에 뛰어들게 되면 꼭 기억해 두겠습니다. 여기 또 다른 흥미로운 세부 사항이 있네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2859.3,
+   "en": "You note that the Roman tombstones show that Christians actually lived longer than non-Christians.",
+   "ko": "로마의 묘비를 보면 기독교인들이 실제로 비기독교인들보다 더 오래 살았다는 것을 알 수 있다고 하셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2865.0,
+   "en": "And this may be because the Christians took care of their sick, unlike pagan Romans who left them to die. They also prohibited abortion and infanticide, praised marriage, and kids.",
+   "ko": "이는 아픈 사람을 죽게 내버려 둔 이교도 로마인들과 달리 기독교인들은 그들을 돌봤기 때문일 수 있습니다. 또한 그들은 낙태와 영아 살해를 금지하고 결혼과 자녀를 장려했죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2875.9,
+   "en": "So your summary is wonderful. You say early Christians outlived, outbred, and out-proselytized the pagans. It's a very Darwinian account.",
+   "ko": "정말 멋진 요약입니다. 초기 기독교인들이 이교도들보다 더 오래 살았고, 더 많이 번식했으며, 더 널리 포교했다는 것이죠. 매우 다윈주의적인 설명입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2884.2,
+   "en": "That's right. Early Christians did all three things. They proselytized. Whereas Roman pagan religion didn't proselytize.",
+   "ko": "맞습니다. 초기 기독교인들은 그 세 가지를 모두 했습니다. 그들은 포교를 했죠. 반면 로마의 이교도 종교는 포교를 하지 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2893.9,
+   "en": "They outbred pagan Romans because pagan Romans not only practiced but they encouraged abortion and infanticide.",
+   "ko": "그들은 이교도 로마인들보다 더 많이 번식했는데, 로마인들은 낙태와 영아 살해를 관행적으로 행했을 뿐만 아니라 권장하기까지 했기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2905.1,
+   "en": "And pagan Romans, when you got sick, pagan Romans shunned sick people. Whereas early Christianity, early Christians took care of sick people.",
+   "ko": "또한 이교도 로마인들은 병이 들면 아픈 사람을 멀리했습니다. 반면 초기 기독교인들은 아픈 사람들을 돌봤죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2916.0,
+   "en": "Of course, some of those caretakers got infected and died themselves, but many of the people that they took care of survived with a result.",
+   "ko": "물론 그 간병인들 중 일부는 감염되어 죽기도 했지만, 그들이 돌본 많은 사람들이 살아남는 결과를 낳았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2923.5,
+   "en": "If you look at tombstones, Christians had longer lifetimes, and they left behind more babies than the pagan Romans.",
+   "ko": "묘비를 보면 기독교인들은 수명이 더 길었고, 이교도 로마인들보다 더 많은 아기를 남겼습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2931.3,
+   "en": "So over the course of several centuries, they outbred pagan Romans.",
+   "ko": "그래서 수 세기에 걸쳐 그들은 이교도 로마인들보다 숫자가 더 많아졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2936.1,
+   "en": "Also, early Christians had been derived from a Jewish sect and Jews being disproportionately literate, when Emperor Constantine came to the throne and he needed thousands and thousands of literate bureaucrats, where would he get thousands and thousands of literate bureaucrats? Christians.",
+   "ko": "또한 초기 기독교는 유대교 분파에서 유래했고 유대인들은 문해율이 매우 높았기 때문에, 콘스탄티누스 황제가 즉위하여 수만 명의 글을 읽을 줄 아는 관료가 필요했을 때 그들을 어디서 구했겠습니까? 바로 기독교인들이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2954.0,
+   "en": "So Constantine first abolished persecution of Christians and then he laid the foundations for Christianity becoming the religion of the Roman Empire.",
+   "ko": "그래서 콘스탄티누스는 먼저 기독교인 박해를 폐지했고, 이어서 기독교가 로마 제국의 국교가 되는 기틀을 마련했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2966.9,
+   "en": "Now, Jared, it must have required great self-control for you not to have gone deep into the impact of scientific leaders, because that's close to home for you.",
+   "ko": "자레드 선생님, 과학계 리더들의 영향력에 대해 깊이 파고들지 않으시느라 자제력이 꽤 필요하셨을 것 같습니다. 선생님께는 아주 친숙한 분야니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2975.1,
+   "en": "But you do touch on it towards the end of the book. Let's talk about Darwin. You say evolution was in the air. Wallace got to natural selection independently, so Darwin fails the Hamlet Test, is that right?",
+   "ko": "하지만 책 뒷부분에서 그 부분을 언급하셨죠. 다윈에 대해 이야기해 봅시다. 진화론이 당시 시대적 분위기였다고 하셨죠. 월리스도 독립적으로 자연 선택에 도달했으니, 다윈은 '햄릿 테스트'를 통과하지 못한 셈인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2990.1,
+   "en": "Does Darwin pass the Hamlet Test? I would say no, why?",
+   "ko": "다윈이 햄릿 테스트를 통과하느냐고요? 제 대답은 '아니오'입니다. 왜일까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 2996.1,
+   "en": "Because the population of Britain in 1859, the year of publication of Origin of Species. Population of Britain was what, 10 to 20 million then.",
+   "ko": "'종의 기원'이 출판된 1859년 당시 영국의 인구 때문입니다. 당시 영국의 인구는 1,000만에서 2,000만 명 정도였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3007.5,
+   "en": "Of those 10 to 20 million, lots of them were interested in birds and landscape and fish and other things. And many of them ran around the world collecting animals and collecting plants.",
+   "ko": "그들 중 상당수가 새, 풍경, 물고기 등에 관심이 많았습니다. 그리고 그들 중 많은 이들이 동식물을 채집하러 전 세계를 돌아다녔죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3024.0,
+   "en": "So I think it would be difficult to make an argument that Darwin was one of only 20 people who could have gotten the idea of evolution.",
+   "ko": "그래서 다윈이 진화라는 아이디어를 얻을 수 있었던 단 20명 중 한 명이었다고 주장하기는 어렵다고 봅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3034.4,
+   "en": "And in fact, we know that Wallace got the idea of evolution in some different ways from Darwin, but still, Wallace got the idea of natural selection.",
+   "ko": "실제로 월리스는 다윈과는 좀 다른 방식으로 진화에 대한 아이디어를 얻었지만, 어쨌든 월리스도 자연 선택이라는 개념을 정립했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3043.8,
+   "en": "There were a couple of other people, there was a British landowner who got the idea of evolution, but he wasn't knowledgeable about, didn't have Darwin's knowledge about taxonomy.",
+   "ko": "다른 사람들도 몇 명 더 있었습니다. 진화에 대한 생각을 가졌던 영국의 지주도 있었지만, 그는 다윈만큼 분류학에 대한 지식이 해박하지 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3055.9,
+   "en": "And in Lamarck, French biologist had some precursors of ideas. So there were people who had precursors to evolution, but what made, I think, Darwin unusual was several things.",
+   "ko": "프랑스 생물학자 라마르크에게서도 아이디어의 전조가 있었죠. 진화론의 선구적 생각을 가진 사람들이 있었지만, 다윈을 특별하게 만든 것은 몇 가지 요소라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3069.6,
+   "en": "He was rich. He didn't have to work for his living. He could retire to the Downs.",
+   "ko": "그는 부유했습니다. 생계를 위해 일할 필요가 없었죠. 그는 다운스라는 시골로 은둔할 수 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3076.0,
+   "en": "He had broad interests. He had published, spent in 10 years of life, publishing a monograph on barnacles.",
+   "ko": "그는 관심사가 넓었습니다. 인생의 10년을 따개비에 관한 논문을 발표하는 데 쏟기도 했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3083.6,
+   "en": "Barnacles. Well, there's a lot to learn from barnacles.",
+   "ko": "따개비라니요. 따개비에서도 배울 게 많나 보군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3086.8,
+   "en": "Yeah.",
+   "ko": "그럼요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3087.3,
+   "en": "Also, he was interested in domestic animals.",
+   "ko": "또한 그는 가축에도 관심이 많았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3090.3,
+   "en": "Yes. Wallace had no interest in domestic animals.",
+   "ko": "맞습니다. 월리스는 가축에는 관심이 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3093.6,
+   "en": "But Darwin recognized that domestic animals are a clear example of selection, not natural selection, but selection by humans who pick individual dogs, who pick individual pigeons.",
+   "ko": "하지만 다윈은 가축이 자연 선택은 아니지만 개별적인 개나 비둘기를 고르는 인간에 의한 선택의 명확한 예시라는 점을 깨달았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3106.2,
+   "en": "And so the first chapter of Darwin's book is about selection of pigeons and dogs. Wallace had no interest in selection of pigeons and dogs.",
+   "ko": "그래서 다윈의 책 첫 장은 비둘기와 개의 선택에 관한 내용입니다. 월리스는 비둘기나 개의 선택에는 관심이 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3116.1,
+   "en": "Darwin was also interested in sexual selection. Wallace was never interested in sexual selection, or which means that you can't identify that 20 people could have done it.",
+   "ko": "다윈은 성 선택에도 관심이 있었습니다. 월리스는 성 선택에 전혀 관심이 없었죠. 이 모든 것은 단 20명만이 이 일을 해냈을 것이라고 단정할 수 없음을 의미합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3127.3,
+   "en": "Darwin doesn't pass the Hamlet test. But what you can say is that he had unusually broad interests and he had the leisure that his money gave him to write Origin of Species.",
+   "ko": "다윈은 햄릿 테스트를 통과하지 못합니다. 하지만 그가 이례적으로 폭넓은 관심을 가졌으며, 재력 덕분에 얻은 여유로 '종의 기원'을 쓸 수 있었다고는 말할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3140.3,
+   "en": "And it didn't make a difference that there were people who denounced him for doing it. He just retired to the Downs and didn't make any difference if there were people who hated him.",
+   "ko": "그리고 그를 비난하는 사람들이 있었다는 사실도 큰 영향을 미치지 못했습니다. 그는 그저 다운스로 은둔했고, 자신을 싫어하는 사람들이 있든 말든 상관하지 않았죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3150.9,
+   "en": "That's right. And he arguably made the case more persuasively and completely than others would have.",
+   "ko": "그렇군요. 그리고 그는 아마도 다른 누구보다 더 설득력 있고 완벽하게 논리를 펼쳤을 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3157.6,
+   "en": "And as you say, on topics like sexual selection, this idea that the female's taste could shape a man's body. Beauty could be a force of nature.",
+   "ko": "말씀하신 것처럼 성 선택 같은 주제, 즉 암컷의 취향이 수컷의 몸을 형성할 수 있다는 생각 말이죠. 아름다움이 자연의 힘이 될 수 있다는 것입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3166.8,
+   "en": "He was ridiculed for it. And the idea lay there essentially dead for 100 years. And then it's come roaring back, and this seems to be ascendant.",
+   "ko": "그는 그것 때문에 조롱을 받았습니다. 그리고 그 아이디어는 100년 동안 사실상 사장되어 있었죠. 그러다 다시 힘차게 부활했고, 지금은 우세한 것으로 보입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3176.5,
+   "en": "And this touches on your world of birds. I think you published a paper in 1986, Animal Art, about the decorating styles of male bower birds in New Guinea, which is kind of fascinating.",
+   "ko": "이것은 선생님의 전공인 새의 세계와도 닿아 있군요. 1986년에 뉴기니 바우어새 수컷의 장식 스타일에 관한 '동물 예술'이라는 논문을 발표하셨던데, 참 매력적인 주제입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3188.2,
+   "en": "But this might be, this specific area might be an area where Darwin would pass the Hamlet test. Like who could have figured that out so early?",
+   "ko": "하지만 이 구체적인 분야만큼은 다윈이 햄릿 테스트를 통과할 수 있는 분야일지도 모릅니다. 누가 그렇게 일찍 그런 사실을 알아낼 수 있었겠어요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3198.4,
+   "en": "One could say that Darwin was the only person who recognized the importance of sexual selection, but I don't see how one could argue that Darwin was the only person who might have recognized the importance of sexual selection.",
+   "ko": "다윈이 성 선택의 중요성을 인식한 유일한 인물이었다고 말할 수는 있겠지만, 다윈만이 성 선택의 중요성을 인식할 수 있었던 유일한 사람이었다고 주장하기는 어렵다고 봅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3213.9,
+   "en": "Because there were 10 million other English people, all of whom saw men and women, and why didn't those 10 million others get the idea of sexual selection?",
+   "ko": "영국에는 1,000만 명의 다른 사람들이 있었고, 그들 모두가 남녀를 보았는데 왜 그 1,000만 명은 성 선택이라는 아이디어를 떠올리지 못했을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3221.6,
+   "en": "They could theoretically, but they didn't. It is true that Darwin's Origin of Species is the only book about science that is regularly read today because it is so convincing and it is so well written.",
+   "ko": "이론적으로는 가능했겠지만, 아무도 하지 않았죠. 다윈의 '종의 기원'이 오늘날까지 꾸준히 읽히는 유일한 과학 서적인 이유는 그만큼 설득력이 있고 문장이 훌륭하기 때문인 것은 사실입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3239.4,
+   "en": "You know, you raise one puzzle in the book that I can't stop thinking about. This question of why do bursts of genius cluster?",
+   "ko": "선생님께서 책에서 제기하신 한 가지 수수께끼가 계속 머릿속을 맴돕니다. 왜 천재성의 폭발이 집단적으로 일어나는가 하는 의문 말입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3248.5,
+   "en": "That the philosophers and playwrights of Athens, that the Dutch painters and maybe the ones you care about most, Bach, Beethoven, Brahms, Mozart, Schubert, nearly all German speaking. Why does this happen?",
+   "ko": "아테네의 철학자와 극작가들, 네덜란드의 화가들, 그리고 아마 선생님께서 가장 아끼실 바흐, 베토벤, 브람스, 모차르트, 슈베르트 같은 이들이 거의 다 독일어권 사람들이었습니다. 왜 이런 일이 일어날까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3262.2,
+   "en": "Why does this happen? That's a question that I pose in the epilogue of my book, after having devoted like 280 pages to four areas that I think I understand and that other people have worked on, namely politics, business, sports, and religion.",
+   "ko": "왜 그런 일이 일어날까요? 그것이 제가 정치, 비즈니스, 스포츠, 종교라는 제가 이해하고 다른 이들도 연구해 온 네 가지 분야에 280페이지를 할애한 뒤, 책의 에필로그에서 던진 질문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3281.6,
+   "en": "In my epilogue, I look at five areas where a person who would like to make their name now can go look at those areas and understand leadership in those areas in a way better than we do now.",
+   "ko": "에필로그에서 저는 이름을 남기고 싶은 사람이 리더십을 지금보다 더 잘 이해하기 위해 살펴볼 수 있는 다섯 가지 분야를 검토했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3299.5,
+   "en": "Those areas include, of course, military success. They include social protest, Gandhi, Martin Luther King.",
+   "ko": "그 분야에는 물론 군사적 성공이 포함됩니다. 간디나 마틴 루서 킹 같은 사회적 저항도 포함되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3309.3,
+   "en": "They include science, but they also include the area that you mentioned. Why is it that genius, particularly say, artistic or literary genius, clusters at particular places and particular times?",
+   "ko": "과학도 포함되지만, 말씀하신 분야도 포함됩니다. 왜 천재성, 특히 예술적 혹은 문학적 천재성이 특정 장소와 특정 시기에 몰려 나타나는 걸까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3325.9,
+   "en": "Why is it that French painting in Paris in the 1880s was so much better than American painting in Austin, Texas in the 1880s? What was it about Paris?",
+   "ko": "왜 1880년대 파리의 프랑스 회화가 1880년대 텍사스 오스틴의 미국 회화보다 훨씬 뛰어났을까요? 파리의 무엇이 달랐을까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3338.8,
+   "en": "Why is it that the greatest musicians from 1685 to 1880 were overwhelmingly Germans—Beethoven, Brahms, Schubert, Schumann, Mendelssohn, Wagner? That's a case where at least I have a hypothesis.",
+   "ko": "왜 1685년부터 1880년까지의 위대한 음악가들은 베토벤, 브람스, 슈베르트, 슈만, 멘델스존, 바그너 등 압도적으로 독일인이었을까요? 그에 대해서는 적어도 저만의 가설이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3357.5,
+   "en": "The Reformation in different countries was led by different people, Calvin, etc., etc. In Germany, the Reformation was led by Martin Luther.",
+   "ko": "나라마다 종교개혁을 이끈 인물이 달랐습니다. 칼뱅 같은 이들이 있었죠. 독일에서 종교개혁은 마틴 루터가 이끌었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3367.6,
+   "en": "Martin Luther set up his own church, and he wanted converts to be involved in his church, which would be the Lutheran Church, to participate by singing.",
+   "ko": "마틴 루터는 자신의 교회를 세웠고, 개종자들이 루터교회에 참여하여 노래를 부르기를 원했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3380.5,
+   "en": "So Martin Luther himself wrote dozens of great hymns. The result was that music immediately played a big role in the Lutheran Church, but it began to play a big role in Germany, in Catholics as well.",
+   "ko": "그래서 마틴 루터 자신도 수십 곡의 훌륭한 찬송가를 썼습니다. 그 결과 음악은 즉시 루터교에서 큰 역할을 하게 되었고, 가톨릭을 포함한 독일 전역에서 큰 역할을 하기 시작했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3396.7,
+   "en": "Music began to spread around Germany. On top of that, Germany was the last big European country to be unified—Germany until 1870 wasn't unified.",
+   "ko": "음악이 독일 전역으로 퍼져나갔습니다. 게다가 독일은 유럽의 주요 국가 중 가장 늦게 통일된 나라였습니다. 1870년까지 독일은 통일되지 않았죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3408.9,
+   "en": "In the 1700s, Germany had several thousand princes and princelets. Each of those princes and princelets often had their own orchestra, and they would have their organists, and they would have their composer—Handel, Haydn, Bach, et cetera.",
+   "ko": "1700년대에 독일에는 수천 명의 제후와 소영주들이 있었습니다. 이들 제후는 각자 자신만의 오케스트라와 오르간 연주자, 그리고 헨델, 하이든, 바흐 같은 작곡가들을 거느리고 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3423.9,
+   "en": "After Napoleon, Germany got condensed, but there were still 32 princelets. But each of those princelets then had their own orchestra.",
+   "ko": "나폴레옹 이후 독일은 축소되었지만 여전히 32개의 소국이 있었습니다. 그리고 그 소국들은 각자의 오케스트라를 가지고 있었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3436.8,
+   "en": "They fostered Beethoven's Archduke Trio. Why? Dedicated to the Archduke. Bach's Brandenburg Concerti. Why? Dedicated to the Margrave of Brandenburg.",
+   "ko": "베토벤의 '대공 트리오'가 탄생한 배경도 대공에게 헌정되었기 때문입니다. 바흐의 '브란덴부르크 협주곡' 역시 브란덴부르크 후작에게 헌정된 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3449.7,
+   "en": "So in Germany, the two great advantages of Germany for music were the accident that Martin Luther was interested in music, as Calvin was not interested in music.",
+   "ko": "따라서 독일 음악의 두 가지 큰 이점은 첫째, 칼뱅과 달리 마틴 루터가 음악에 관심이 많았다는 우연입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3459.7,
+   "en": "And number two, the fragmentation of Germany meant that there were thousands of courts there to sponsor musicians, whereas England already unified and France already unified didn't have thousands of independent courts.",
+   "ko": "둘째, 독일의 분열 덕분에 음악가들을 후원할 수 있는 수천 개의 궁정이 있었다는 점입니다. 반면 이미 통일된 영국이나 프랑스에는 그런 독립적인 궁정들이 없었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3474.6,
+   "en": "So that's my first suggestion for music—of why Paris in 1880, I don't know, somebody else has to say.",
+   "ko": "음악에 대한 제 첫 번째 제안은 이렇습니다. 1880년대의 파리가 왜 그랬는지는 모르겠네요, 누군가 다른 분이 설명해 주셔야 할 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3483.6,
+   "en": "Yeah. Well, for this future writer who takes this up, I wonder if there's a case to be made that at least among humans, the genius may be a property of networks of individuals as much as it is a property of individuals.",
+   "ko": "그렇군요. 이 주제를 다룰 미래의 작가들에게, 인간 사회에서 천재성은 개인의 특성인 만큼이나 개인들로 이루어진 네트워크의 속성일 수도 있다는 주장이 가능하지 않을까 싶네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3504.0,
+   "en": "Agreed. Well, let's put it this way. It's not that genius is a property of networks.",
+   "ko": "동의합니다. 음, 이렇게 말해 보죠. 천재성이 네트워크의 속성인 것은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3510.8,
+   "en": "Every human society has its geniuses. New Guinea where I've worked for 60 years. There are brilliant New Guineans, but New Guineans haven't changed the world.",
+   "ko": "모든 인간 사회에는 천재가 있습니다. 제가 60년 동안 일한 뉴기니에도 똑똑한 사람들이 있지만, 그들이 세상을 바꾸지는 못했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3520.5,
+   "en": "Why? Because New Guinea doesn't have the economic and demographic power to change the world.",
+   "ko": "왜일까요? 뉴기니에는 세상을 바꿀 만한 경제적, 인구학적 힘이 없기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3526.2,
+   "en": "So every country has their geniuses, but for a genius to change the world, the genius has to be in the right country, the right place, right time.",
+   "ko": "모든 나라에 천재는 있지만, 그들이 세상을 바꾸려면 적절한 국가, 적절한 장소, 적절한 시기에 있어야 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3533.6,
+   "en": "Jesus was the right place, right time. Darwin was the right place and right time, Martin Luther, right place and right time.",
+   "ko": "예수도, 다윈도, 마틴 루터도 모두 적절한 장소와 시기에 있었던 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3540.4,
+   "en": "Well, I'm glad that you mentioned New Guinea because I want to end this conversation where your epilogue begins, which was in New Guinea in 1964.",
+   "ko": "뉴기니를 언급해 주셔서 반갑네요. 선생님의 에필로그가 시작되는 지점인 1964년 뉴기니 이야기로 대화를 마무리하고 싶거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3549.6,
+   "en": "You were 26 years old. I think you're on your first trip living in a Highland village of about 100 people.",
+   "ko": "당시 선생님은 26살이었고, 인구 100명 정도의 고원 지대 마을에서 첫 여행 중이셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3555.8,
+   "en": "You describe how one morning you come back from your bird walk and found the entire village gathered in a clearing. Somebody would speak for a minute and silence, then somebody else.",
+   "ko": "어느 날 아침 새를 관찰하고 돌아왔을 때 마을 사람들이 공터에 다 모여 있는 것을 보셨다고 묘사하셨죠. 누군가 1분간 말하면 침묵이 흐르고, 또 다른 누군가가 말했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3566.2,
+   "en": "Nobody was running the meeting. And you write what left an indelible impression on me was the leaderless format.",
+   "ko": "아무도 회의를 주도하지 않았습니다. 선생님은 그 '리더 없는 형식'이 잊지 못할 인상을 남겼다고 쓰셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3574.6,
+   "en": "And I think your point is that for most of human history, we had no leaders. Leaders are a relatively recent invention, maybe 10,000 plus years old.",
+   "ko": "인류 역사의 대부분 동안 우리에게는 리더가 없었다는 것이 선생님의 요점인 것 같습니다. 리더는 비교적 최근인 만 년 전쯤의 발명품이라는 것이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3585.7,
+   "en": "A solution to the problem of living among strangers, perhaps. Do you think we were better off living in the clearing or do you like our current state of affairs?",
+   "ko": "아마도 낯선 이들 사이에서 살아가는 문제에 대한 해결책이었겠지요. 우리가 그 공터에서 살 때가 더 나았다고 보시나요, 아니면 지금의 상태가 좋으신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3599.0,
+   "en": "Well, were we better off, you can't pick features of all societies one by one.",
+   "ko": "우리가 더 나았는지에 대해서는, 사회의 특징들을 하나씩 골라낼 수는 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3606.4,
+   "en": "Yes, small societies, this village of 100 people doesn't need a leader. You don't need a leader to carry out agreements.",
+   "ko": "네, 100명이 사는 마을 같은 작은 사회에는 리더가 필요 없습니다. 합의를 이행하기 위해 리더가 필요하지 않죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3616.5,
+   "en": "You don't need a leader to run the meeting. Everybody, as in the meeting that I watched, can speak up whenever they want.",
+   "ko": "회의를 운영할 리더도 필요 없고요. 제가 본 회의처럼 누구든 원할 때 발언할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3624.4,
+   "en": "But does this mean that we should follow New Guinea societies? There were admirable things about New Guinea societies, how they deal with their children.",
+   "ko": "하지만 이것이 우리가 뉴기니 사회를 따라야 한다는 뜻일까요? 뉴기니 사회에도 아이를 기르는 방식처럼 본받을 만한 점들은 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3635.4,
+   "en": "My children were born just shortly before my 50th birthday. I had no interest in children till I married my wife.",
+   "ko": "제 아이들은 제 50세 생일 직전에 태어났습니다. 아내와 결혼하기 전까지는 아이들에게 관심이 없었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3642.6,
+   "en": "I didn't have experience; my model for raising children was what I had seen in New Guinea. In New Guinea, there are wonderful ways of raising children.",
+   "ko": "경험이 없었기에 제 양육 모델은 뉴기니에서 본 모습이었습니다. 뉴기니에는 훌륭한 양육 방식들이 있거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3652.3,
+   "en": "In New Guinea, most important, for New Guineans, all human interaction is face to face because they didn't have these wretched devices like cell phones.",
+   "ko": "가장 중요한 것은, 뉴기니 사람들에게 모든 인간 관계는 대면으로 이루어진다는 점입니다. 휴대전화 같은 지긋지긋한 장치가 없었으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3662.5,
+   "en": "All now, they look at each other, they touch, they smell each other. It means that the New Guineans from childhood on become socially skilled because they're dealing with people.",
+   "ko": "그들은 서로를 바라보고, 만지고, 냄새를 맡습니다. 이는 뉴기니 사람들이 어릴 때부터 사람을 상대하며 사회적 기술을 익힌다는 것을 의미합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3672.2,
+   "en": "Whereas the average American nowadays spends six hours a day looking at a screen, but looking at a screen, you don't learn how to understand people.",
+   "ko": "반면 요즘 미국인들은 하루 평균 6시간을 화면을 보며 보내지만, 화면을 봐서는 사람을 이해하는 법을 배울 수 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3683.2,
+   "en": "I must say, I'm shocked during my lifetime at the deterioration of social skills.",
+   "ko": "평생을 살며 사회적 기술이 퇴보하는 것을 지켜보며 충격을 받았다고 말씀드리고 싶네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3688.3,
+   "en": "Interesting.",
+   "ko": "흥미롭군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3689.0,
+   "en": "And then also in Australia, some British people, but what are there are things to learn from Guinea, but the downsides of New Guinea are traditional.",
+   "ko": "호주나 영국 사람들도 그렇지만, 뉴기니에서 배울 점도 있는 반면 뉴기니의 단점은 전통적인 것들입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3698.8,
+   "en": "People died early because they didn't have medicine. There were lots of diseases. There was chronic fighting because there was not a state government that would end the fighting.",
+   "ko": "약이 없어서 사람들이 일찍 죽었습니다. 질병도 많았고요. 싸움을 멈추게 할 중앙 정부가 없어서 만성적인 전투가 벌어졌습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3708.4,
+   "en": "The situation of women in New Guinea was and is horrible. I voted with my feet. I haven't moved to New Guinea.",
+   "ko": "뉴기니 여성들의 상황은 예나 지금이나 끔찍합니다. 저는 행동으로 보여주었죠. 전 뉴기니로 이주하지 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3716.4,
+   "en": "I live in the United States and for 60 years, I would go to New Guinea every other year.",
+   "ko": "저는 미국에 살면서 60년 동안 2년마다 뉴기니에 갔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3724.3,
+   "en": "And I spent what, total, maybe four or five years of my life in New Guinea, with my 32 trips of three months each.",
+   "ko": "총 32번, 매번 3개월씩 여행하며 제 인생의 4, 5년 정도를 뉴기니에서 보냈습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3731.7,
+   "en": "I love going to New Guinea, but I voted with my feet. I don't live there because I don't want to die early, and I don't want to be killed in a private war, and I don't want to live among mentors.",
+   "ko": "뉴기니에 가는 걸 좋아하지만, 정착하지는 않았습니다. 일찍 죽고 싶지 않고, 개인적인 전쟁터에서 살해당하고 싶지 않으며, 그런 환경에서 살고 싶지 않기 때문입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3744.1,
+   "en": "Jared, I want to put you in the ring with two of your sharpest critics in \"The Dawn of Everything,\" which I'm guessing you read. David Graeber and David Wengrow argue with you by name.",
+   "ko": "자레드 선생님, 선생님의 가장 날카로운 비판자들인 '모든 것의 새벽'의 저자들과 논쟁을 붙여보고 싶네요. 아마 읽어보셨을 텐데, 데이비드 그레이버와 데이비드 웬그로우는 선생님의 실명을 거론하며 논쟁합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3754.3,
+   "en": "They quote your line, \"large populations can't function without leaders\" and say, that's not a finding, it's an assumption.",
+   "ko": "그들은 \"대규모 인구는 리더 없이 기능할 수 없다\"는 선생님의 문장을 인용하며, 그것은 발견이 아니라 가정일 뿐이라고 말합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3762.6,
+   "en": "And their evidence, as you may know, is in ancient Mexico, Teotihuacan, a city with more than 100,000 people.",
+   "ko": "그들의 증거는 아시다시피 고대 멕시코의 테오티우아칸입니다. 10만 명 이상이 살았던 도시죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3772.0,
+   "en": "At some point, they stopped building pyramids for rulers and built stone apartments for nearly everyone. They lived that way for centuries.",
+   "ko": "어느 시점부터 그들은 통치자를 위한 피라미드 건설을 중단하고 거의 모든 주민을 위한 석조 아파트를 지었습니다. 그런 방식으로 수 세기 동안 살았죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3779.6,
+   "en": "Your conclusion from the New Guinea clearing is that a society can only run without a leader when everyone knows everyone on a small scale. Graeber and Wengrow disagree with you there. What would you say to them?",
+   "ko": "뉴기니 공터에서의 경험을 통한 선생님의 결론은 소규모로 서로를 다 알 때만 리더 없이 사회가 돌아갈 수 있다는 것이죠. 그레이버와 웬그로우는 이에 반대합니다. 그들에게 뭐라고 하시겠습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3792.0,
+   "en": "It's simple. They're wrong. They claim that the ubiquity of leaders is an assumption that's not a finding. Nonsense.",
+   "ko": "간단합니다. 그들이 틀렸어요. 리더의 보편성이 발견이 아니라 가정이라고 주장하는 것은 말도 안 되는 소리입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3804.4,
+   "en": "Every single society that we see today, every single society which we have historical information, every single large society has leaders. That's a finding.",
+   "ko": "오늘날 우리가 보는 모든 사회, 역사적 정보가 있는 모든 사회, 모든 대규모 사회에는 리더가 있습니다. 그것은 '발견'입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3814.9,
+   "en": "That's number one error. Number two error of the Teotihuacan. How can they say that Teotihuacan didn't have a leader when we don't have writing from Teotihuacan?",
+   "ko": "그게 첫 번째 오류이고, 두 번째는 테오티우아칸에 관한 오류입니다. 테오티우아칸의 문자 기록도 없는데 어떻게 리더가 없었다고 말할 수 있습니까?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3826.2,
+   "en": "We don't know what was going on in Teotihuacan. We do know that they built an enormous pyramid, and you can sure guess that building that enormous pyramid took a leader.",
+   "ko": "우리는 테오티우아칸에서 무슨 일이 있었는지 모릅니다. 다만 거대한 피라미드를 지었다는 건 알죠. 그 거대한 피라미드를 짓는 데 리더가 필요했다는 건 충분히 짐작할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3835.2,
+   "en": "It was not a leaderless society. That's error number two of theirs. And error number three of theirs is that they point out some hunter-gatherer societies that had chiefs, and they say, ah-ha, farming was not necessary for chiefs.",
+   "ko": "그곳은 리더가 없는 사회가 아니었습니다. 그게 그들의 두 번째 오류입니다. 세 번째 오류는 일부 수렵 채집 사회에도 추장이 있었다는 점을 들어 농경이 추장 사회의 필수 조건이 아니라고 말하는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3854.1,
+   "en": "Well, the hunter-gatherer societies that had chiefs were the most productive hunter-gatherer societies, that had lots of surplus food that you could devote to feeding leaders.",
+   "ko": "추장이 있었던 수렵 채집 사회는 리더를 먹여 살리는 데 쓸 수 있는 잉여 식량이 아주 풍부했던, 가장 생산적인 수렵 채집 사회였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3865.6,
+   "en": "But the chiefs of, for example, the mouth of the Mississippi and Florida in the United States, Native Americans, they had hunter-gatherer societies with chiefs although they were hunter-gatherers, but they were most productive hunter-gatherer societies.",
+   "ko": "예를 들어 미국의 미시시피강 입구와 플로리다의 북미 원주민들은 수렵 채집인이었음에도 추장이 있었는데, 그들은 매우 생산적인 사회였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3881.2,
+   "en": "And those chiefs were not as powerful as the chiefs of agricultural societies.",
+   "ko": "그리고 그 추장들은 농경 사회의 추장들만큼 강력하지는 않았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3885.5,
+   "en": "It surprises me that that book is such a long book and that book is discussed and taken seriously when it is so obviously wrong in denying the empirical finding that every big society has leaders.",
+   "ko": "모든 대규모 사회에는 리더가 있다는 경험적 발견을 부정하고, 저자들이 가보지도 않은 테오티우아칸에 리더가 없었다고 주장하는 등 명백히 틀린 내용임에도 불구하고, 그 두꺼운 책이 진지하게 논의된다는 사실이 놀랍습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3902.8,
+   "en": "And in claiming that Teotihuacan didn't have leaders when the big pyramids suggested they had leaders and when those hunter-gatherer societies have leaders on the hunter-gatherer societies closest to modern agricultural society.",
+   "ko": "거대 피라미드가 리더의 존재를 암시하고 있고, 현대 농경 사회에 가까운 수렵 채집 사회에만 리더가 있었음에도 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3921.1,
+   "en": "So they're wrong, wrong, wrong. Forget about that.",
+   "ko": "그러니 그들은 틀렸고, 또 틀렸습니다. 잊어버리세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3925.9,
+   "en": "Okay. That was emphatic and it makes a fair amount of logical sense to me.",
+   "ko": "알겠습니다. 아주 단호하시네요. 논리적으로도 꽤 납득이 갑니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3931.8,
+   "en": "You know, one penultimate question I have is, as you were writing this book, I assume that you were—it was an exploratory process, right?",
+   "ko": "마지막에서 두 번째 질문인데요, 이 책을 쓰시는 과정이 일종의 탐구 과정이었을 거라 생각합니다. 맞나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3943.0,
+   "en": "You have this question of how much of an impact individual leaders make versus this sort of welter of chaotic forces driving change that you describe in Guns, Germs, and Steel.",
+   "ko": "개별 리더가 미치는 영향과, '총, 균, 쇠'에서 묘사하신 변화를 이끄는 혼란스러운 힘들의 소용돌이 사이에서 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3953.4,
+   "en": "I'm curious to note, if you found yourself rooting for one side or the other. Do you like the idea of individual leaders having outsized impacts, or do you prefer the idea that it's a more scientific, there's a sort of welter of forces?",
+   "ko": "어느 한쪽을 지지하게 되셨는지 궁금합니다. 개별 리더가 엄청난 영향을 미친다는 생각이 좋으신가요, 아니면 보다 과학적인 힘들의 소용돌이라는 생각이 더 좋으신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3970.9,
+   "en": "I personally find myself torn on this topic because on the one hand, we all want to feel like we're making a difference individually. On the other hand, I think the mythology of the lone genius is a problem.",
+   "ko": "개인적으로 저는 한편으론 우리 모두가 개별적으로 차이를 만들고 싶어 하지만, 다른 한편으론 고독한 천재라는 신화가 문제라고 생각하기 때문에 이 주제에 대해 고민이 많습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3982.0,
+   "en": "I do not at all discover myself wishing there would be one way or the other.",
+   "ko": "저는 어느 한쪽이기를 바라는 마음은 전혀 없었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3987.8,
+   "en": "I've recognized that every society larger than my New Guinea society of 100 people, contrary to that unfortunate book that we were just mentioning, every large society requires leaders; it's not a choice.",
+   "ko": "방금 언급한 그 불행한 책의 주장과는 반대로, 제가 본 100명 규모의 뉴기니 사회보다 큰 모든 사회는 리더를 필요로 한다는 것을 깨달았습니다. 그것은 선택의 문제가 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 3999.6,
+   "en": "There were good leaders and there were bad leaders. There are things that leaders can do; some leaders recognize an opportunity, other leaders don't recognize an opportunity.",
+   "ko": "좋은 리더도 있고 나쁜 리더도 있습니다. 리더가 할 수 있는 일들이 있죠. 어떤 리더는 기회를 포착하고, 어떤 리더는 그렇지 못합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4010.6,
+   "en": "One can achieve leadership in different ways. You can achieve, contrary to business schools, business schools charge their tuition of $100,000 a year by saying come to our business school, pay us $100,000, and we will teach you how to be a great CEO and that is to be charismatic.",
+   "ko": "리더십을 얻는 방법은 다양합니다. 경영대학원에서는 1년에 10만 달러의 등록금을 받으며 자기들 학교에 와서 돈을 내면 훌륭한 CEO가 되는 법, 즉 카리스마를 갖는 법을 가르쳐 주겠다고 하지만 그와는 다릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4027.4,
+   "en": "Well, charisma is one way of being an outstanding leader, but there are other ways to be an outstanding leader.",
+   "ko": "카리스마는 뛰어난 리더가 되는 한 가지 방법일 뿐, 다른 방법들도 많습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4032.9,
+   "en": "You can be an effective leader, not by being charismatic, but by being absolutely terrifying. Joseph Stalin was not charismatic.",
+   "ko": "카리스마가 아니라 절대적인 공포를 통해서도 효과적인 리더가 될 수 있습니다. 조셉 스탈린은 카리스마가 있는 사람이 아니었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4040.8,
+   "en": "You can be an effective leader by being persuasive. You can be an effective leader by running good group discussions like John Kennedy.",
+   "ko": "설득력을 통해, 혹은 존 F. 케네디처럼 훌륭한 그룹 토론을 운영함으로써 효과적인 리더가 될 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4049.2,
+   "en": "You can be an effective leader by assembling good followers, or in many ways to be an effective leader.",
+   "ko": "훌륭한 추종자들을 모으는 등 효과적인 리더가 되는 길은 여러 가지입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4056.0,
+   "en": "To ensure, I don't have any desires in this area. I wrote the book to learn and I've learned a lot. I write my books because I enjoy learning and then I enjoy explaining it.",
+   "ko": "분명히 말씀드리지만, 저는 이 분야에서 어떤 사심도 없습니다. 배우기 위해 책을 썼고 많이 배웠습니다. 저는 배우는 것이 즐겁고 그것을 설명하는 것이 즐거워서 책을 씁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4066.9,
+   "en": "My final question: you spent this whole book exploring the mark that individuals leave. What mark do you hope that you have left?",
+   "ko": "마지막 질문입니다. 선생님은 이 책 전체에서 개인이 남기는 흔적을 탐구하셨습니다. 선생님은 어떤 흔적을 남기길 바라십니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 4078.9,
+   "en": "The most important mark that I have left, and hopefully I've contributed to the happiness of my wife and my children.",
+   "ko": "제가 남긴 가장 중요한 흔적은 제 아내와 아이들의 행복에 기여한 것이기를 바랍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4088.0,
+   "en": "I have a happy marriage, I have a good relationship with my children. Not everybody has a happy marriage, not everybody has a good relationship with their children. That's the thing that I'm proud of start.",
+   "ko": "저는 행복한 결혼 생활을 하고 있고 아이들과도 관계가 좋습니다. 모든 사람이 그런 것은 아니죠. 그것이 제가 가장 먼저 자랑스럽게 여기는 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4098.8,
+   "en": "My book, Guns, Germs, and Steel, made a difference, been translated into 45 languages. It's about to be translated into Uzbek, been translated into Lithuanian.",
+   "ko": "제 책 '총, 균, 쇠'는 큰 영향을 미쳤고 45개 언어로 번역되었습니다. 이제 곧 우즈베크어로도 번역될 예정이고 리투아니아어로도 번역되었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4113.0,
+   "en": "As made a significant difference by disabusing people of the notion that the reason why you and I now speak English is because you and I have better brains than New Guineans—we don't.",
+   "ko": "당신과 내가 지금 영어를 하는 이유가 뉴기니 사람들보다 뇌가 좋아서가 아니라는 사실을 사람들에게 깨우쳐 줌으로써 큰 차이를 만들었습니다. 우리 뇌가 더 나은 게 아니거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4126.2,
+   "en": "It's because ultimately of the Fertile Crescent having the most valuable domestic plants, it's basically because of geography and it's not because of brains that I would say is my next biggest contribution.",
+   "ko": "궁극적으로 비옥한 초승달 지대에 가장 가치 있는 가축화 가능한 식물들이 있었기 때문이고, 근본적으로 지리 때문이지 지능 때문이 아니라는 사실을 알린 것이 제 다음으로 큰 공헌입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4143.5,
+   "en": "I personally have explored lots of New Guinea. It's very difficult to explore in New Guinea. The 10 outlying mountain ranges of New Guinea, I've explored all of them.",
+   "ko": "저는 개인적으로 뉴기니의 많은 곳을 탐험했습니다. 뉴기니 탐험은 매우 어렵습니다. 뉴기니의 10개 외곽 산맥을 제가 모두 탐험했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4155.1,
+   "en": "Some of them have not been explored by anybody else. They were difficult to explore. If I hadn't done it, it wouldn't have been done.",
+   "ko": "그중 일부는 다른 누구도 탐험하지 않은 곳들입니다. 탐험하기 힘들었거든요. 제가 하지 않았다면 아무도 하지 못했을 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4164.8,
+   "en": "And I'm in the process now of synthesizing my work for the last 60 years on the distribution of birds on the mountains of New Guinea. You might say, who cares about the distribution of birds on the mountains of New Guinea?",
+   "ko": "그리고 지금은 지난 60년 동안 뉴기니 산맥의 새 분포에 대해 연구한 내용을 종합하는 중입니다. 누가 뉴기니 산의 새 분포에 관심을 갖겠느냐고 물으실 수도 있겠지요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4176.9,
+   "en": "My answer is to study colonization, to study how some birds colonize every piece of every mountain, other birds colonize very few mountains, but colonization spreading around the world is a general problem for all plants and animals.",
+   "ko": "제 대답은 이것이 '정착'에 관한 연구라는 것입니다. 어떤 새들은 모든 산의 구석구석에 정착하는 반면, 어떤 새들은 아주 적은 산에만 정착하는 방식을 연구하는 것이죠. 전 세계로 퍼져 나가는 정착은 모든 동식물의 보편적인 문제입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4192.9,
+   "en": "So it's a general question. And so in terms of my contribution to the world, to my wife and children, Guns, Germs, and Steel, to my other books as well, and to understanding of New Guinea.",
+   "ko": "그래서 이것은 보편적인 질문입니다. 세상에 대한 제 기여는 아내와 아이들, '총, 균, 쇠'를 비롯한 다른 책들, 그리고 뉴기니에 대한 이해라고 할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4207.1,
+   "en": "Well, I'm gonna add \"Prophets, Profits, Coaches and Kings\" to your list of contributions which deserves to be translated into 45 languages.",
+   "ko": "그렇다면 45개 언어로 번역될 가치가 있는 선생님의 공헌 목록에 '예언자, 이윤, 코치 그리고 왕'도 추가해야겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4216.9,
+   "en": "Jared Diamond, thank you so much for your time today. Such a fascinating conversation.",
+   "ko": "자레드 다이아몬드 선생님, 오늘 시간 내주셔서 감사합니다. 정말 매혹적인 대화였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 4222.5,
+   "en": "It's a great pleasure to talk with you and I would add that lots of interviews and you are the best prepared interviewer that I've talked with.",
+   "ko": "저도 즐거웠습니다. 덧붙이자면, 수많은 인터뷰를 해봤지만 당신은 제가 만나본 인터뷰어 중 가장 준비가 잘 된 분이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 4229.8,
+   "en": "Thank you. That was Rufus's conversation with Jared Diamond. His new book, \"Prophets, Profits, Coaches and Kings: When Leaders Matter,\" is out now.",
+   "ko": "감사합니다. 자레드 다이아몬드와 루퍼스의 대화였습니다. 그의 신간 '예언자, 이윤, 코치 그리고 왕: 리더가 중요한 때'가 현재 출간되었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4245.7,
+   "en": "By the way, that's two kinds of profits. It's profits that's in financial gain and then a person who is a, you know, a proclaimer of the will of God.",
+   "ko": "참고로 제목에는 두 가지 '프로핏'이 들어갑니다. 경제적 이득인 'profits'와 신의 뜻을 선포하는 'prophets'죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4253.8,
+   "en": "I know Rufus and Jared talked about the conversation we had with David Wengrow on the show where he takes some shots at Jared Diamond and Guns, Germs, and Steel.",
+   "ko": "루퍼스와 자레드가 데이비드 웬그로우와의 대화에 대해 언급했는데, 그 대화에서 웬그로우는 자레드 다이아몬드와 '총, 균, 쇠'를 비판했었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4260.3,
+   "en": "If you'd like to hear that conversation in full, you'll find a link to it in the episode notes.",
+   "ko": "그 대화 전체를 듣고 싶으시다면 에피소드 노트의 링크를 확인해 보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4264.8,
+   "en": "We always want to know what you think of these episodes. Please leave a rating and a review on Apple Podcasts, Spotify, or send us an email.",
+   "ko": "에피소드에 대한 여러분의 생각을 항상 기다립니다. 애플 팟캐스트나 스포티파이에 평점과 리뷰를 남겨주시거나 이메일을 보내주세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4270.8,
+   "en": "We're at podcast at nextbigideaclub.com. Today's show was produced by me, Caleb Bissinger. The audio was handled by Mike Tota.",
+   "ko": "주소는 podcast@nextbigideaclub.com입니다. 오늘 방송은 저, 케일럽 비싱어가 제작했습니다. 오디오 편집은 마이크 토타가 맡았습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 4280.1,
+   "en": "Maxi Frini is our video editor, and Ira Deshmukh is our associate producer. Rufus Griscom is of course our host. We will be back on Monday.",
+   "ko": "맥시 프리니가 영상 편집을, 아이라 데슈무크가 보조 프로듀서를 맡았습니다. 루퍼스 그리섬이 진행했습니다. 저희는 월요일에 돌아오겠습니다.",
+   "speaker": "Host",
+   "ad": true
+  }
+ ]
+}
