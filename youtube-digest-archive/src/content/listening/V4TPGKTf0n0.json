@@ -1,0 +1,1063 @@
+{
+ "id": "V4TPGKTf0n0",
+ "title": "Measles Is Officially Back. What Now?",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=V4TPGKTf0n0",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/a8d1f8a0-bcc3-4a3c-b97f-3ed92b5bd827/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=a8d1f8a0-bcc3-4a3c-b97f-3ed92b5bd827&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/df/34/ab/df34ab69-54cb-dade-d979-f46cb8c492da/mza_10125904637318076804.jpg/600x600bb.jpg",
+ "duration": 1578,
+ "releaseDate": "2026-11-23T10:45:00Z",
+ "addedAt": "2026-11-24",
+ "segments": [
+  {
+   "start": 1.2,
+   "en": "This is Andrew R. Osorkin, founder of DealBook. Every year, I interview some of the world's most influential leaders across business, politics, and culture.",
+   "ko": "딜북의 창립자, 앤드류 R. 오소킨입니다. 매년 저는 비즈니스, 정치, 문화 전반에 걸쳐 세계에서 가장 영향력 있는 지도자들을 인터뷰합니다.",
+   "speaker": "Andrew R. Osorkin",
+   "ad": true
+  },
+  {
+   "start": 9.8,
+   "en": "At the DealBook Summit, a live event in New York City. Figures like California Governor Gavin Newsom.",
+   "ko": "뉴욕시에서 열리는 라이브 행사인 딜북 서밋에서 말이죠. 캘리포니아 주지사 개빈 뉴섬 같은 인물들 말입니다.",
+   "speaker": "Andrew R. Osorkin",
+   "ad": true
+  },
+  {
+   "start": 16.7,
+   "en": "We have a party that I think needs to design and develop a compelling economic vision for the future. And if we don't democratize our economy, we're not going to save democracy.",
+   "ko": "미래를 위해 설득력 있는 경제적 비전을 설계하고 개발해야 한다고 생각하는 정당이 우리에게 있습니다. 그리고 우리 경제를 민주화하지 않는다면, 우리는 민주주의를 구하지 못할 것입니다.",
+   "speaker": "Gavin Newsom",
+   "ad": true
+  },
+  {
+   "start": 27.5,
+   "en": "And Sidney Poitier's daughter, Anika Poitier.",
+   "ko": "그리고 시드니 포이티어의 딸, 아니카 포이티어 같은 분들요.",
+   "speaker": "Andrew R. Osorkin",
+   "ad": true
+  },
+  {
+   "start": 29.5,
+   "en": "We can agree on how to disagree, and that's not by murdering someone because you don't believe what they believe.",
+   "ko": "우리는 어떻게 이견을 가질지에 대해 합의할 수 있습니다. 그것은 상대방이 믿는 것을 당신이 믿지 않는다는 이유로 누군가를 살해함으로써 이루어지는 것이 아닙니다.",
+   "speaker": "Anika Poitier",
+   "ad": true
+  },
+  {
+   "start": 38.3,
+   "en": "On this year's podcast, you're going to hear my unfiltered conversations with Elon Musk, Sam Altman, and the mayor of New York City, Eric Adams. Listen to DealBook Summit wherever you get your podcasts.",
+   "ko": "올해 팟캐스트에서는 일론 머스크, 샘 올트먼, 에릭 애덤스 뉴욕 시장과의 가감 없는 대화를 들으실 수 있습니다. 팟캐스트를 이용하시는 곳 어디에서나 딜북 서밋을 들어보세요.",
+   "speaker": "Andrew R. Osorkin",
+   "ad": true
+  },
+  {
+   "start": 51.1,
+   "en": "From The New York Times, I'm Natalie Kitroff. This is The Daily.",
+   "ko": "뉴욕 타임즈에서 전해드리는 저는 나탈리 키트로프입니다. '더 데일리' 시작합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 66.6,
+   "en": "Last week, the United States lost its measles elimination status, meaning measles is now officially endemic again.",
+   "ko": "지난주 미국은 홍역 퇴치국 지위를 잃었습니다. 이는 이제 홍역이 공식적으로 다시 풍토병이 되었음을 의미합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 77.8,
+   "en": "It was a historic setback for American health and a marker of the deep distrust of vaccines across the country.",
+   "ko": "이것은 미국 보건 역사에 있어 기념비적인 후퇴이자, 전국적으로 백신에 대한 깊은 불신의 지표였습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 86.6,
+   "en": "Today, my colleague Teddy Rosenbluth explains how this happened and what it means. Teddy, welcome back to The Daily.",
+   "ko": "오늘 제 동료 테디 로젠블루스가 어떻게 이런 일이 일어났는지, 그리고 이것이 무엇을 의미하는지 설명합니다. 테디, '더 데일리'에 다시 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 113.9,
+   "en": "Good to be back.",
+   "ko": "다시 나오게 되어 기쁩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 115.5,
+   "en": "So the last time that we had you on the show was when we as a country were contending with this massive measles outbreak in West Texas.",
+   "ko": "지난번에 출연하셨을 때는 우리 국가가 텍사스 서부에서 발생한 대규모 홍역 발병에 대처하고 있었을 때였죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 123.9,
+   "en": "And back then, which is about a year and a half ago, it was bad, but it was relatively contained to this one community of Mennonites.",
+   "ko": "약 1년 반 전이었던 당시에는 상황이 좋지 않았지만, 메노나이트라는 이 한 공동체 내에 어느 정도 억제되어 있었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 133.1,
+   "en": "But you told us that the worry was that it would spread. And it seems as though that that has in fact happened at scale.",
+   "ko": "하지만 당신은 그것이 확산될 우려가 있다고 말씀하셨죠. 그리고 실제로 그런 일이 대규모로 일어난 것처럼 보입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 142.3,
+   "en": "Yes, and I think it was so much worse than even the most pessimistic epidemiologists I talked to thought it would be.",
+   "ko": "네, 제가 대화해 본 가장 비관적인 역학자들조차 예상했던 것보다 훨씬 더 심각했다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 150.2,
+   "en": "So essentially, since the Texas outbreak, this virus has hopped all over the country. We've seen hundreds of hospitalizations, we've seen thousands of cases.",
+   "ko": "기본적으로 텍사스 발병 이후 이 바이러스는 전국을 누비고 다녔습니다. 수백 건의 입원 사례와 수천 건의 확진 사례가 발생했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 160.6,
+   "en": "And it has essentially spread for so long that now the U.S. is in the position where we have lost this coveted elimination status.",
+   "ko": "그리고 본질적으로 너무 오랫동안 확산되어 이제 미국은 그토록 갈망하던 퇴치국 지위를 잃게 된 상황에 처했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 168.3,
+   "en": "Okay, and this is maybe obvious, but what exactly does it mean to have elimination status and how significant is it that we lost it?",
+   "ko": "좋습니다, 이건 아마 당연한 질문일 수도 있겠지만, 퇴치국 지위를 가진다는 것이 정확히 무엇을 의미하며, 그것을 잃었다는 것은 얼마나 중요한 일인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 178.5,
+   "en": "Yeah, it's actually not obvious. It's like a pretty wonky public health definition.",
+   "ko": "네, 사실 그렇게 당연한 건 아닙니다. 꽤 까다로운 공중보건상의 정의거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 184.1,
+   "en": "It essentially means that there's not continuous spread of measles in the country for more than 12 months.",
+   "ko": "이는 기본적으로 12개월 이상 해당 국가 내에서 홍역의 지속적인 확산이 없음을 의미합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 190.1,
+   "en": "So we've had outbreaks of measles in the past, but you know, those were linked to importations from international travelers. And it just means that measles isn't endemic in the U.S. It's not spreading around.",
+   "ko": "과거에도 홍역 발병이 있었지만, 아시다시피 그런 것들은 해외 여행객으로부터의 유입과 관련이 있었습니다. 퇴치국 지위란 홍역이 미국 내 풍토병이 아니며, 사방으로 퍼지고 있지 않다는 것을 의미할 뿐입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 203.8,
+   "en": "Got it.",
+   "ko": "이해했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 204.3,
+   "en": "And actually what a lot of people don't realize is just how hard it was to get elimination status in the first place. It took 40 years after we got the measles vaccine.",
+   "ko": "사실 많은 사람이 깨닫지 못하는 점은 처음에 퇴치국 지위를 얻는 것이 얼마나 힘들었는가 하는 점입니다. 홍역 백신을 도입한 후 40년이 걸렸죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 214.0,
+   "en": "It took tons of money. It took buy-in from multiple different presidential administrations.",
+   "ko": "엄청난 비용이 들었고, 여러 대통령 행정부의 지지가 필요했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 220.2,
+   "en": "And we were actually like one of the first wealthy countries in the world to do this. And we could set the example of what was possible.",
+   "ko": "우리는 실제로 전 세계에서 이를 해낸 최초의 부유한 국가 중 하나였습니다. 그리고 무엇이 가능한지에 대한 본보기가 될 수 있었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 229.9,
+   "en": "And so losing that is not just sad because of what it means for the health of our country, but it's also just embarrassing, frankly.",
+   "ko": "그래서 그것을 잃는 것은 우리 국가 보건에 미치는 의미 때문에 슬픈 일이기도 하지만, 솔직히 말해서 그냥 창피한 일이기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 238.9,
+   "en": "And what are the experts that you're talking to, and I assume you're talking to many, saying about that?",
+   "ko": "당신이 대화하고 있는 전문가들, 아마 많은 분과 대화하고 계실 텐데, 그들은 그 점에 대해 뭐라고 하나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 245.6,
+   "en": "Yeah, I think they're sort of echoing that sentiment. I mean, one went so far as to say that it's a stain on our reputation.",
+   "ko": "네, 그들도 그런 감정을 공유하고 있다고 생각합니다. 어떤 분은 우리 명성에 오점이 남았다고까지 말하더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 252.6,
+   "en": "Wow. Wow.",
+   "ko": "와우. 세상에.",
+   "speaker": "Host"
+  },
+  {
+   "start": 253.2,
+   "en": "You know, a lot of the measles experts I spoke to, their career has now been bookended by sort of this really hopeful moment of, you know, we eliminated measles.",
+   "ko": "제가 이야기를 나눈 많은 홍역 전문가에게 그들의 경력은 '홍역을 퇴치했다'는 정말 희망적인 순간으로 시작해서 매듭지어지는 것 같았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 263.7,
+   "en": "Maybe we can even eradicate it globally and to have this backslide is not only embarrassing, but also sad for the people who spent many decades of their career getting this virus under control.",
+   "ko": "전 세계적으로 근절할 수도 있겠다고 생각했었는데, 이렇게 퇴보하는 것은 당혹스러울 뿐만 아니라 이 바이러스를 통제하기 위해 수십 년의 경력을 바친 사람들에게는 슬픈 일이기도 합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 277.2,
+   "en": "All right, so how did we get to this point where now measles outbreaks are kind of all over? Tell me the story of the spread.",
+   "ko": "좋습니다, 그럼 이제 홍역 발병이 사방에서 일어나는 이 지경까지 어떻게 오게 된 건가요? 확산의 과정을 말씀해 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 286.4,
+   "en": "Yeah, so I mean, the last time we talked, we had this big outbreak in Texas. It was infecting hundreds of people and there was sort of a muted response from federal health officials.",
+   "ko": "네, 그러니까 지난번에 우리가 이야기했을 때 텍사스에서 대규모 발병이 있었습니다. 수백 명을 감염시키고 있었고 연방 보건 당국의 반응은 다소 미온적이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 297.7,
+   "en": "You would expect them to be coming in and saying, you know, vaccinations are important. Here's our plan for boosting vaccination rates in this area.",
+   "ko": "그들이 나서서 백신 접종이 중요하다고 말하고, 이 지역의 백신 접종률을 높이기 위한 계획을 발표하기를 기대했을 텐데요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 304.8,
+   "en": "And what we saw was not that at all. Initially, Robert F. Kennedy Jr., health secretary, was talking about treatments for measles. There is no treatment.",
+   "ko": "우리가 본 것은 전혀 그렇지 않았습니다. 처음에 로버트 F. 케네디 주니어 보건복지부 장관은 홍역 치료법에 대해 이야기했습니다. 치료법은 없는데 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 314.8,
+   "en": "He talked about cod liver oil being a potential treatment. He sort of underplayed the seriousness of measles outbreaks, but of course he has in the past, long before becoming health secretary.",
+   "ko": "그는 대구 간유가 잠재적인 치료제가 될 수 있다고 말했습니다. 그는 홍역 발병의 심각성을 다소 과소평가했는데, 물론 그는 보건복지부 장관이 되기 훨씬 전부터 과거에도 그랬습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 326.9,
+   "en": "And essentially what we saw after that was the virus just exploded.",
+   "ko": "그리고 기본적으로 그 이후에 우리가 본 것은 바이러스의 폭발적인 확산이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 330.5,
+   "en": "Exploded. Measles cases are bubbling up again and wreaking havoc on the school year. It started popping up in all of these states around the country. It was even hard for me to keep track of at some points.",
+   "ko": "폭발했습니다. 홍역 사례가 다시 불거져 학기 운영에 큰 혼란을 주고 있습니다. 전국의 모든 주에서 나타나기 시작했습니다. 어떤 때는 추적하기조차 힘들 정도였습니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 342.2,
+   "en": "This all started in a small Mennonite community about an hour and a half away from us in Gaines County, Texas. What we saw in Texas was this big sort of insular religious group, Mennonite community.",
+   "ko": "이 모든 것은 텍사스주 게인스 카운티의 우리와 약 1시간 반 거리에 있는 작은 메노나이트 공동체에서 시작되었습니다. 텍사스에서 우리가 본 것은 메노나이트 공동체라는 일종의 거대한 폐쇄적 종교 집단이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 355.3,
+   "en": "Public health officials say Gaines County woman who later traveled more than 400 miles to San Antonio. And we've seen in other parts of the country has now recorded more than 5,000 cases across 46 counties with hospitalizations.",
+   "ko": "공중보건 당국은 게인스 카운티의 한 여성이 나중에 샌안토니오까지 400마일 이상을 여행했다고 밝혔습니다. 그리고 다른 지역에서도 현재 46개 카운티에 걸쳐 입원 사례를 포함한 5,000건 이상의 사례가 기록된 것을 보았습니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 372.3,
+   "en": "There is still is a huge outbreak in Amish and Mennonite communities. A resident has died from measles, marking the county's first death during Pennsylvania's ongoing outbreak.",
+   "ko": "아미시와 메노나이트 공동체에는 여전히 대규모 발병이 있습니다. 펜실베이니아에서 계속되는 발병 기간 중 해당 카운티의 첫 번째 사망자인 한 주민이 홍역으로 사망했습니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 385.5,
+   "en": "We've seen this in South Carolina. It was sort of this big outbreak in a pretty insular Slavic community.",
+   "ko": "사우스캐롤라이나에서도 이런 사례를 보았습니다. 꽤 폐쇄적인 슬라브 공동체에서 발생한 일종의 대규모 발병이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 391.5,
+   "en": "Federal health data show it's the largest U.S. measles outbreak in more than 30 years. And the majority of the cases are children.",
+   "ko": "연방 보건 데이터에 따르면 이는 30여 년 만에 미국에서 발생한 최대 규모의 홍역 발병입니다. 그리고 사례의 대다수는 어린이들입니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 398.8,
+   "en": "So we're seeing a lot of these communities that have historically had very low vaccination rates, suddenly having these massive outbreaks all over the country.",
+   "ko": "그래서 역사적으로 백신 접종률이 매우 낮았던 많은 공동체에서 갑자기 전국적으로 이러한 대규모 발병이 일어나는 것을 보고 있는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 407.8,
+   "en": "Even though this community is hard to get to, it's not hard for the virus to get out. Utah Health officials say it's traveling farther than you may think.",
+   "ko": "이 공동체는 접근하기 어렵지만, 바이러스가 빠져나가는 것은 어렵지 않습니다. 유타주 보건 당국은 바이러스가 생각보다 더 멀리 이동하고 있다고 말합니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 417.7,
+   "en": "But we've also seen a different version of this, which is perhaps more alarming or more unique, where it has spread out of these groups because the vaccination rate in the general public is not high enough to keep it contained to these insular groups.",
+   "ko": "하지만 우리는 이와 다른 양상도 보았는데, 그것은 아마도 더 우려스럽거나 독특한 경우입니다. 일반 대중의 백신 접종률이 이러한 폐쇄적인 집단에 바이러스를 억제해 둘 만큼 높지 않기 때문에 이 집단 밖으로 퍼져 나간 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 434.4,
+   "en": "Health officials say there is no longer an isolated outbreak and it has now reached the point of over 5,400 cases this year, that's more than double last year's total.",
+   "ko": "보건 당국은 더 이상 고립된 발병이 아니며, 올해 들어 현재 5,400건 이상의 사례가 발생하여 작년 전체 수치의 두 배를 넘어섰다고 밝혔습니다.",
+   "speaker": "News Clip"
+  },
+  {
+   "start": 448.3,
+   "en": "In almost every state in the U.S. ended up reporting some level of measles cases.",
+   "ko": "미국의 거의 모든 주에서 어느 정도 수준의 홍역 사례를 보고하게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 457.5,
+   "en": "And can I ask what might sound like a naive question, Teddy, which is how does measles actually spread from insular community to insular community? Just given that these communities by definition aren't interacting a ton with a bunch of outsiders.",
+   "ko": "테디, 순진한 질문처럼 들릴 수도 있겠지만 질문 하나 드려도 될까요? 홍역이 실제로 어떻게 한 폐쇄적 공동체에서 다른 폐쇄적 공동체로 퍼지는 걸까요? 정의상 이런 공동체들은 외부인들과 활발히 교류하지 않는데 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 473.4,
+   "en": "Yeah, it's a really good question. And it's actually kind of where declining vaccination rates come into play here.",
+   "ko": "네, 정말 좋은 질문입니다. 사실 그것이 백신 접종률 하락이 영향을 미치는 부분입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 479.2,
+   "en": "So measles is the most contagious known virus. It is extremely contagious.",
+   "ko": "홍역은 알려진 바이러스 중 가장 전염성이 강합니다. 극도로 전염성이 높죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 485.4,
+   "en": "It spreads through droplets, like how, you know, we think about the flu spreading, but it is also airborne.",
+   "ko": "우리가 흔히 독감이 퍼지는 방식이라고 생각하는 비말을 통해 전파되기도 하지만, 공기 중으로도 전파됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 493.2,
+   "en": "So what that means is it can linger in the air for two hours and how this used to work, and I'll give an example of from 2019, was we had this really big measles outbreak in New York City, actually, in a Hasidic Jewish population.",
+   "ko": "그 말은 공기 중에 2시간 동안 머물 수 있다는 뜻입니다. 예전에는 어떻게 작용했는지 2019년의 예를 들어보겠습니다. 실제로 뉴욕시의 하시딕 유대인 인구 사이에서 정말 큰 홍역 발병이 있었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 508.3,
+   "en": "And this is one of these insular groups that has low vaccination rates.",
+   "ko": "여기는 백신 접종률이 낮은 폐쇄적인 집단 중 하나입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 511.8,
+   "en": "The virus spread through the community, but the rest of the community surrounding them was so well vaccinated that it sort of burned itself out, right? Acted as a firewall, if you will.",
+   "ko": "바이러스가 그 공동체 내에 퍼졌지만, 그들을 둘러싼 나머지 지역 사회는 백신 접종이 아주 잘 되어 있어서 저절로 소멸되었습니다. 말하자면 방화벽 역할을 한 셈이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 523.3,
+   "en": "Now what we're seeing is that there are these big insular groups that have big outbreaks, but you know, there are other people living in Lancaster, Pennsylvania.",
+   "ko": "지금 우리가 보고 있는 것은 이런 큰 폐쇄적 집단들에서 대규모 발병이 일어나고 있다는 것인데, 펜실베이니아주 랭커스터에도 다른 사람들이 살고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 532.9,
+   "en": "Maybe the vaccination rates are below the 95% needed for herd immunity. So maybe they come into contact with this insular group.",
+   "ko": "아마 백신 접종률이 집단 면역에 필요한 95% 미만일 것입니다. 그래서 그들이 이 폐쇄적인 집단과 접촉하게 될 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 541.6,
+   "en": "They're traveling to somewhere else. They come into contact with someone else from a different insular group. And suddenly, another outbreak has ignited halfway across the country.",
+   "ko": "그들이 다른 어딘가로 여행을 갑니다. 그러다 다른 폐쇄적 집단의 누군가와 접촉합니다. 그러면 갑자기 나라 반대편에서 또 다른 발병이 시작되는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 551.3,
+   "en": "Meaning, basically, that there are way more unvaccinated people who aren't in these insular communities and are contracting measles and spreading it far and wide.",
+   "ko": "기본적으로 이런 폐쇄적 공동체에 속하지 않으면서 홍역에 걸려 멀리 퍼뜨리는 미접종자가 훨씬 더 많아졌다는 뜻이군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 563.0,
+   "en": "Exactly. And this is exactly why you need herd immunity is to, you know, prevent these groups from igniting into a massive outbreak.",
+   "ko": "정확합니다. 바로 이런 이유 때문에 이러한 집단들이 대규모 발병으로 번지는 것을 막기 위해 집단 면역이 필요한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 570.6,
+   "en": "And what about vaccinated people? Like, do we know if any of them are getting it?",
+   "ko": "그럼 백신을 접종한 사람들은 어떤가요? 그들 중에도 걸리는 사람이 있는지 알려진 게 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 575.8,
+   "en": "Based on the data that we have, we know it's a very low percentage. You know, two doses of the MMR vaccine are 97% effective. That bears out in the data.",
+   "ko": "우리가 가진 데이터에 따르면, 그 비율은 매우 낮습니다. MMR 백신을 두 번 접종하면 97%의 효과가 있습니다. 데이터가 이를 뒷받침하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 585.8,
+   "en": "I think like 2% of cases this year have been vaccinated people.",
+   "ko": "올해 발생 사례의 약 2% 정도가 백신 접종자였던 것으로 알고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 591.9,
+   "en": "Basically people who were vaccinated decades ago are still protected now.",
+   "ko": "기본적으로 수십 년 전에 백신을 맞은 사람들도 지금 여전히 보호받고 있다는 거군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 597.2,
+   "en": "Yes. I mean, I think a lot of people get concerned because they've had this experience with COVID where, you know, the virus is evolving every year and learning to evade the vaccine that we've developed.",
+   "ko": "맞습니다. 제 말은, 많은 사람이 코로나19를 경험하면서 바이러스가 매년 진화하고 우리가 개발한 백신을 피하는 법을 배운다는 것을 알게 되어 걱정하시는 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 607.4,
+   "en": "And measles is not like that. It has not evaded the vaccine that first became approved in the 1960s.",
+   "ko": "하지만 홍역은 그렇지 않습니다. 1960년대에 처음 승인된 백신을 지금까지 피해 가지 못했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 613.7,
+   "en": "And it's sort of this virus that has prioritized transmissibility over evading the immune system.",
+   "ko": "홍역은 면역 체계를 피하는 것보다 전염성을 우선시해 온 바이러스라고 할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 620.0,
+   "en": "So people who have been vaccinated, it is still the case that you are protected against the virus and this is not something that you have to be as worried about.",
+   "ko": "따라서 백신을 접종한 사람들은 여전히 바이러스로부터 보호받고 있으며, 크게 걱정할 필요가 없습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 628.2,
+   "en": "So you're kind of describing a situation where we have a kind of perfect vaccine that now not enough people are getting, which brings us to the present moment.",
+   "ko": "그러니까 지금 충분한 사람들이 맞지 않고 있는 일종의 완벽한 백신이 있는 상황을 설명하고 계시는군요. 그것이 우리를 현재 상황으로 이끌었고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 641.8,
+   "en": "What does this world look like, where measles is now rampant and continuing to spread and we have this vaccination problem?",
+   "ko": "홍역이 만연하고 계속 확산되는데 백신 접종 문제가 있는 이런 세상은 어떤 모습인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 651.3,
+   "en": "Yeah, so in the last one and a half years, we've seen more than 7,000 cases, which is not those are not numbers that we have seen since like the early 1990s, which is a decade before we got elimination status in the first place.",
+   "ko": "네, 지난 1년 반 동안 7,000건 이상의 사례가 발생했습니다. 이는 우리가 처음 퇴치국 지위를 얻기 10년 전인 1990년대 초 이후로 본 적 없는 숫자입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 667.8,
+   "en": "Rough.",
+   "ko": "심각하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 668.6,
+   "en": "Yeah, we've seen 11 deaths. Many of those have been babies who are too young to get the MMR vaccine.",
+   "ko": "네, 11명의 사망자가 발생했습니다. 그중 다수는 MMR 백신을 맞기에 너무 어린 아기들이었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 676.0,
+   "en": "We're seeing disruptions to schools. Kids are having to stay home and quarantine.",
+   "ko": "학교 운영에 차질이 빚어지고 있습니다. 아이들은 집에 머물며 격리해야 하는 상황입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 682.7,
+   "en": "And part of what is so significant here is that we're seeing a new version of endemic measles in the U.S.",
+   "ko": "여기서 매우 중요한 점 중 하나는 미국에서 새로운 형태의 풍토병 홍역을 목격하고 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 689.6,
+   "en": "You know, before the vaccine, almost all Americans got measles as a kid, which means it was really not common for adults to have this virus.",
+   "ko": "백신이 나오기 전에는 거의 모든 미국인이 어릴 때 홍역에 걸렸습니다. 즉, 성인이 이 바이러스에 걸리는 일은 정말 흔치 않았다는 뜻이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 700.3,
+   "en": "Because once you get it as a child, you eventually develop immunity to it, so you don't get it as an adult.",
+   "ko": "어릴 때 한 번 걸리면 결국 면역력이 생겨서 성인이 되어서는 걸리지 않으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 705.2,
+   "en": "Exactly. But now what we're seeing is we're in this world where adults are getting measles often.",
+   "ko": "정확합니다. 하지만 지금 우리가 보고 있는 것은 성인들이 홍역에 자주 걸리는 세상입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 713.9,
+   "en": "I mean, it's a big share of the cases that we've seen. And this is creating just a whole new host of concerns that doctors and public health officials have told me they've never had to deal with before.",
+   "ko": "우리가 본 사례 중 큰 비중을 차지합니다. 그리고 이것은 의사들과 공중보건 관리들이 예전에는 다뤄본 적 없다고 말하는 완전히 새로운 종류의 우려를 낳고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 729.7,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 744.2,
+   "en": "I'm Susan Lee. I'm a researcher and fact checker with The Daily. What I do is make sure details in our episodes are accurate.",
+   "ko": "저는 수잔 리입니다. '더 데일리'의 연구원이자 팩트 체커입니다. 제가 하는 일은 우리 에피소드의 세부 사항이 정확한지 확인하는 것입니다.",
+   "speaker": "Susan Lee",
+   "ad": true
+  },
+  {
+   "start": 753.1,
+   "en": "For us, every single fact in an episode matters. The Daily is part of the New York Times.",
+   "ko": "우리에게 에피소드의 모든 사실 하나하나가 중요합니다. '더 데일리'는 뉴욕 타임즈의 일부입니다.",
+   "speaker": "Susan Lee",
+   "ad": true
+  },
+  {
+   "start": 759.3,
+   "en": "We do everything we can to make sure we get the facts right. Subscribers make it possible for us to do that.",
+   "ko": "우리는 사실을 바로잡기 위해 최선을 다합니다. 구독자분들이 계시기에 저희가 그 일을 할 수 있습니다.",
+   "speaker": "Susan Lee",
+   "ad": true
+  },
+  {
+   "start": 766.1,
+   "en": "If you want to subscribe to The New York Times, go to nytimes.com slash subscribe.",
+   "ko": "뉴욕 타임즈를 구독하고 싶으시다면 nytimes.com/subscribe를 방문해 주세요.",
+   "speaker": "Susan Lee",
+   "ad": true
+  },
+  {
+   "start": 774.0,
+   "en": "So we're entering this reality that we've never really been in, where this disease is being contracted, not just by young people, but by unvaccinated adults on a wide scale.",
+   "ko": "우리는 한 번도 겪어보지 못한 현실에 직면해 있습니다. 이 질병이 어린이들뿐만 아니라 미접종 성인들 사이에서도 대규모로 발병하고 있는 현실 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 784.8,
+   "en": "You said, Teddy, that this was raising new concerns. What are they?",
+   "ko": "테디, 당신은 이것이 새로운 우려를 낳고 있다고 하셨죠. 그게 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 789.8,
+   "en": "Yeah, I think we don't know that much about what measles looks like in adults. You know, we just haven't had the time to sort of do the studies that would tell us these things.",
+   "ko": "네, 성인에게 홍역이 어떤 양상을 보이는지에 대해 우리가 아는 바가 많지 않다고 생각합니다. 아시다시피 이런 것들을 알려줄 연구를 할 시간이 부족했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 799.7,
+   "en": "Like what are the most common complications in adulthood? Who within this group are at most risk?",
+   "ko": "성인기에서 가장 흔한 합병증은 무엇인지, 이 집단 내에서 누가 가장 위험에 처해 있는지 같은 것들 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 807.6,
+   "en": "One big question we have is how this will affect pregnant women. And this is something that we're really starting to see at scale for the first time.",
+   "ko": "우리가 가진 큰 의문 중 하나는 이것이 임산부에게 어떤 영향을 미칠 것인가 하는 점입니다. 그리고 이것은 우리가 정말 처음으로 대규모로 목격하기 시작한 현상입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 815.1,
+   "en": "You know, we know that pregnant women are at higher risk of severe measles complications. I think they're 10 times as likely to die from measles actually.",
+   "ko": "임산부가 심각한 홍역 합병증을 앓을 위험이 더 높다는 것은 알고 있습니다. 실제로 홍역으로 사망할 확률이 10배나 더 높다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 824.4,
+   "en": "We know it can increase the likelihood of miscarriages. But we're also starting to see this phenomenon called congenital measles.",
+   "ko": "유산 가능성을 높일 수 있다는 것도 알고 있습니다. 하지만 '선천성 홍역'이라고 불리는 현상도 나타나기 시작했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 831.7,
+   "en": "And that's essentially babies who are born with the virus because their mothers had the virus during pregnancy.",
+   "ko": "그것은 기본적으로 어머니가 임신 중에 바이러스를 가지고 있었기 때문에 바이러스를 가지고 태어난 아기들을 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 838.8,
+   "en": "And we don't necessarily know the long-term repercussions of that.",
+   "ko": "그리고 그것의 장기적인 영향에 대해서는 반드시 알고 있는 것은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 842.2,
+   "en": "We know it probably puts babies at a much higher risk of this really devastating neurological condition that's often fatal.",
+   "ko": "흔히 치명적인 결과를 초래하는 정말 파괴적인 신경학적 상태에 아기들이 처할 위험이 훨씬 더 높다는 것은 알고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 851.1,
+   "en": "But this is really still at the edge of our knowledge about the virus.",
+   "ko": "하지만 이것은 정말 여전히 이 바이러스에 대한 우리 지식의 경계에 있는 부분입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 853.8,
+   "en": "What else are public health officials worried about?",
+   "ko": "공중보건 관리들이 또 걱정하는 것은 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 858.3,
+   "en": "So there's a lot that they're worried about, but one thing that I've heard a lot about is this concern about the effect on the immune system.",
+   "ko": "그들이 걱정하는 것이 많지만, 제가 많이 들은 것 중 하나는 면역 체계에 미치는 영향에 대한 우려입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 867.3,
+   "en": "So even after someone survives the measles infection, what the virus does is it sort of wipes away your immune system's memory of other viruses and pathogens.",
+   "ko": "홍역 감염에서 살아남은 후에도 바이러스가 하는 일은 다른 바이러스와 병원균에 대한 면역 체계의 기억을 씻어내는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 878.6,
+   "en": "So you're in this vulnerable state for months or potentially years after that measles infection where, you know, your immune system is kind of caught flat-footed in responding to all of these things that you should presumably already know how to respond to.",
+   "ko": "그래서 홍역 감염 후 수개월 또는 잠재적으로 수년 동안 취약한 상태에 있게 되는데, 이미 대응 방법을 알고 있어야 할 모든 것들에 대해 면역 체계가 무방비 상태로 당하게 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 892.6,
+   "en": "And this is what's called, quote-unquote, immune amnesia. And it's something that everybody gets. It's not just a small portion of people infected.",
+   "ko": "이것이 바로 소위 '면역 기억 상실'이라고 불리는 것입니다. 감염된 사람 중 소수만 겪는 것이 아니라 모든 사람이 겪게 되는 현상입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 899.3,
+   "en": "So, I mean, we might see effects where patients land in the hospital after a measles infection for something entirely unrelated, a different virus.",
+   "ko": "그러니까 홍역 감염 후에 전혀 관련 없는 다른 바이러스 때문에 병원 신세를 지게 되는 결과가 나타날 수도 있겠군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 905.8,
+   "en": "Yes. And the impact of measles infections just last way beyond the moment of actual sickness.",
+   "ko": "맞습니다. 홍역 감염의 영향은 실제 병을 앓는 순간을 훨씬 넘어서까지 지속됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 914.1,
+   "en": "And there's even a very rare complication called subacute sclerosing panencephalitis (SSPE) that can actually rear its head up to 10 years after the initial infection.",
+   "ko": "심지어 초기 감염 후 최대 10년이 지난 후에도 나타날 수 있는 아급성 경화성 전뇌염(SSPE)이라는 매우 희귀한 합병증도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 926.1,
+   "en": "And it is degenerative and it can send people into comas and is ultimately fatal almost all of the time.",
+   "ko": "그것은 퇴행성 질환이며 사람을 혼수상태에 빠뜨릴 수 있고 거의 매번 결국 치명적인 결과를 낳습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 934.7,
+   "en": "How equipped are doctors and other healthcare workers to take this on?",
+   "ko": "의사들과 다른 의료 종사자들은 이 문제에 대처할 준비가 얼마나 되어 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 940.9,
+   "en": "Presumably, a lot of these people have never actually ever seen a single case of measles before.",
+   "ko": "짐작건대, 이들 중 다수는 실제로 홍역 사례를 한 번도 본 적이 없을 것 같은데요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 947.5,
+   "en": "Yeah. I mean, the health systems are really having to relearn how to deal with this virus.",
+   "ko": "네. 제 말은, 의료 체계가 이 바이러스를 다루는 법을 정말 다시 배워야 하는 상황이라는 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 953.8,
+   "en": "You know, how do we make sure that a patient isn't coming to the emergency room and infecting a bunch of people.",
+   "ko": "환자가 응급실에 와서 많은 사람을 감염시키지 않도록 어떻게 조치해야 하는지 같은 것들 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 959.5,
+   "en": "How do we transport a patient with measles in the hospital without putting other people at risk?",
+   "ko": "다른 사람들을 위험에 빠뜨리지 않고 병원 내에서 홍역 환자를 어떻게 이송해야 할까요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 965.5,
+   "en": "So they're having to dust off all these protocols from the 80s and 90s to figure out how to deal with this.",
+   "ko": "그래서 이 문제에 대처하기 위해 80년대와 90년대의 모든 프로토콜을 다시 꺼내와야 하는 상황입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 972.3,
+   "en": "I actually had a, I was scheduling an appointment, a dermatology appointment last week and they were already asking if I had any symptoms of measles, which I thought was so interesting and-",
+   "ko": "사실 제가 지난주에 피부과 진료 예약을 잡고 있었는데, 이미 홍역 증상이 있는지 묻더라고요. 그게 참 흥미로웠고-",
+   "speaker": "Guest"
+  },
+  {
+   "start": 982.8,
+   "en": "Well, no way.",
+   "ko": "설마요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 983.7,
+   "en": "Yeah. These things are already happening.",
+   "ko": "네. 이런 일들이 이미 일어나고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 986.0,
+   "en": "And the other piece of this that is uncharted territory for treating measles is, you know, like you said, many of these doctors have not seen a case of measles before.",
+   "ko": "그리고 홍역 치료에 있어 미지의 영역인 또 다른 부분은, 말씀하신 것처럼 많은 의사가 홍역 사례를 본 적이 없다는 점입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 995.3,
+   "en": "And furthermore, maybe they haven't even learned about measles in medical school.",
+   "ko": "게다가 아마 의대에서 홍역에 대해 배우지도 않았을 수도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 999.7,
+   "en": "A lot of our data about treating severe measles comes from the 50s and 60s, which isn't necessarily relevant to now.",
+   "ko": "심각한 홍역 치료에 관한 우리의 많은 데이터는 50년대와 60년대의 것인데, 그것이 반드시 지금과 관련이 있는 것은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1008.2,
+   "en": "What can the federal government do about this situation? And what are they actually doing? What's the administration doing?",
+   "ko": "연방 정부는 이 상황에 대해 무엇을 할 수 있나요? 그리고 실제로 무엇을 하고 있나요? 현 행정부는 무엇을 하고 있습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1014.0,
+   "en": "Yeah, so actually a lot of the response to these outbreaks happen at the state and local public health level.",
+   "ko": "네, 사실 이러한 발병에 대한 대응의 상당 부분은 주 및 지방 공중보건 차원에서 이루어집니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1020.2,
+   "en": "So we might see states beef up their wastewater testing so we can identify cases of measles before people are coming to emergency rooms or urgent care clinics.",
+   "ko": "그래서 사람들이 응급실이나 긴급 치료 클리닉에 오기 전에 홍역 사례를 식별할 수 있도록 주 정부가 폐수 테스트를 강화하는 것을 볼 수 있을지도 모릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1029.1,
+   "en": "They can strengthen their contact tracing, you know, that sort of stuff at the local level. The federal government can help with those efforts. They can invest.",
+   "ko": "지방 수준에서 접촉자 추적 같은 것들을 강화할 수 있습니다. 연방 정부는 그러한 노력을 도울 수 있습니다. 투자를 할 수도 있고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1038.4,
+   "en": "So we've already seen the federal government send $100 million to help state and local health departments respond to these outbreaks.",
+   "ko": "그래서 우리는 이미 연방 정부가 주 및 지방 보건 부서의 발병 대응을 돕기 위해 1억 달러를 보내는 것을 보았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1046.3,
+   "en": "But really, the most helpful thing they can do, and what experts say they expect the federal government to do is really strong clear messaging about the importance of vaccines, debunking misinformation, that sort of thing.",
+   "ko": "하지만 정말로 그들이 할 수 있는 가장 도움이 되는 일, 그리고 전문가들이 연방 정부에 기대하는 것은 백신의 중요성에 대한 매우 강력하고 명확한 메시지 전달, 오보 바로잡기 같은 것들입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1061.1,
+   "en": "And where do we stand on that? I mean, obviously, the health secretary, RFK has been an outspoken skeptic of vaccines. How is the messaging going right now?",
+   "ko": "그 부분은 어떻게 되어가고 있나요? 제 말은, 분명히 보건복지부 장관인 RFK는 백신에 대해 노골적인 회의론자였잖아요. 현재 메시지 전달은 어떻게 이루어지고 있습니까?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1073.4,
+   "en": "So I think since Texas, the measles resurgence has just become a bigger political liability. And we have seen him change his tune a little bit.",
+   "ko": "텍사스 사태 이후 홍역의 재유행이 더 큰 정치적 부담이 되었다고 생각합니다. 그래서 그가 태도를 조금 바꾸는 것을 보았습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1082.6,
+   "en": "You know, he's come out and said that the measles vaccine is the best way to protect yourself against an infection.",
+   "ko": "아시다시피 그는 홍역 백신이 감염으로부터 자신을 보호하는 가장 좋은 방법이라고 공개적으로 말했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1088.1,
+   "en": "But at the same time, the experts I've spoken to have said that many of his actions as health secretary have sort of undermined that message.",
+   "ko": "하지만 동시에 제가 이야기를 나눈 전문가들은 보건복지부 장관으로서 그의 많은 행동이 그런 메시지를 약화시켰다고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1096.2,
+   "en": "So one example of this is he launched an inquiry into the safety of childhood vaccines, which we know have been used safely for decades and decades.",
+   "ko": "한 예로, 그는 우리가 수십 년 동안 안전하게 사용해 온 것으로 알고 있는 어린이 백신의 안전성에 대한 조사를 시작했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1104.9,
+   "en": "So I think it's difficult to say that this is clear messaging. I think a lot of experts would probably say it's muddled at best.",
+   "ko": "그래서 이것이 명확한 메시지 전달이라고 말하기는 어렵다고 생각합니다. 많은 전문가는 기껏해야 혼란스러운 수준이라고 말할 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1111.4,
+   "en": "And I presume that muddled messaging makes it a lot harder to reverse this whole sale to get back to elimination status as a country.",
+   "ko": "그리고 그런 혼란스러운 메시지가 국가로서 퇴치국 지위를 회복하기 위해 이 모든 상황을 완전히 뒤집는 것을 훨씬 더 어렵게 만들 것이라고 짐작됩니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1119.4,
+   "en": "Yeah, I mean, absolutely. I think we have a really good example of what it takes to regain elimination status in Canada.",
+   "ko": "네, 전적으로 동의합니다. 퇴치국 지위를 되찾기 위해 무엇이 필요한지에 대한 아주 좋은 예가 캐나다에 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1127.3,
+   "en": "They lost their status last year after they had a really big outbreak in a Mennonite community, and they've invested a lot into boosting the vaccination rates there.",
+   "ko": "그들은 작년에 메노나이트 공동체에서 발생한 아주 큰 발병 이후 지위를 잃었고, 그곳의 백신 접종률을 높이기 위해 많은 투자를 했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1137.9,
+   "en": "They have stood up vaccine clinics in those areas, and they have a really big public education campaign to sort of debunk misinformation about the MMR vaccine and measles infections.",
+   "ko": "그들은 해당 지역에 백신 클리닉을 세웠고, MMR 백신과 홍역 감염에 대한 오보를 바로잡기 위한 대규모 공공 교육 캠페인을 벌이고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1151.0,
+   "en": "And so Canada hasn't officially regained their elimination status, but they are on track because they have successfully stopped measles spreading in their country.",
+   "ko": "그래서 캐나다는 아직 공식적으로 퇴치국 지위를 되찾지는 못했지만, 자국 내 홍역 확산을 성공적으로 막아냈기 때문에 궤도에 올라와 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1159.2,
+   "en": "And I've talked to a lot of experts about this and they said that investing this much in this kind of effort to debunk vaccine misinformation is just not something that they can imagine this administration doing.",
+   "ko": "이에 대해 많은 전문가와 이야기를 나누었는데, 그들은 이 행정부가 백신 오보를 바로잡기 위한 이런 종류의 노력에 이만큼 투자하는 것은 상상조차 할 수 없는 일이라고 말했습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1171.4,
+   "en": "I mean, so basically you're describing this world in which measles just keeps spreading until what? I mean, what could change the course of this?",
+   "ko": "그러니까 기본적으로 홍역이 언제까지 계속 퍼지는 세상을 설명하고 계신 건가요? 제 말은, 무엇이 이 흐름을 바꿀 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1182.9,
+   "en": "Yeah, I think there are two schools of thought on this. There are sort of the eternal optimists, public health people who think that maybe if we crack down on exemptions from school vaccination requirements, we could get this back under control.",
+   "ko": "네, 이에 대해서는 두 가지 견해가 있다고 생각합니다. 학교 백신 접종 요건 면제를 엄격히 제한하면 이를 다시 통제할 수 있다고 생각하는 낙관적인 공중보건 쪽 사람들이 있고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1198.2,
+   "en": "But there's another more pessimistic group of people who think that, you know, maybe we're just going to have to see the sickness and death that comes with these outbreaks until people are reminded of why vaccines are so important in the first place.",
+   "ko": "하지만 백신이 왜 그렇게 중요한지를 사람들이 깨달을 때까지 이번 발병으로 인한 질병과 죽음을 지켜봐야 할지도 모른다고 생각하는 더 비관적인 집단도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1214.2,
+   "en": "Well, okay, on that, on vaccines. I know you said that the vaccine is highly effective, but you also said that a small share of the vaccinated population can still contract measles, something like 2%, I think you said.",
+   "ko": "좋습니다, 그럼 백신에 대해서요. 백신이 매우 효과적이라고 말씀하셨지만, 백신 접종 인구 중 소수가 여전히 홍역에 걸릴 수 있다고도 하셨죠. 2% 정도라고 하셨던 것 같은데요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1229.3,
+   "en": "And so I guess I'm wondering, for those of us who are vaccinated against measles, should we be worried?",
+   "ko": "그래서 궁금한데, 홍역 백신을 맞은 우리 같은 사람들도 걱정해야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1236.4,
+   "en": "It's a great question and I've probably gotten hundreds of emails asking the same thing. At a very high level, if you're vaccinated, you're probably fine.",
+   "ko": "좋은 질문입니다. 아마 똑같은 질문을 담은 이메일을 수백 통 받았을 겁니다. 아주 높은 수준에서 말씀드리면, 백신을 맞으셨다면 아마 괜찮으실 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1245.4,
+   "en": "There haven't been new official guidelines that have come out on this telling people to go get an extra dose or anything like that.",
+   "ko": "사람들에게 추가 접종을 받으라는 등의 새로운 공식 지침이 나온 것도 없고요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1252.1,
+   "en": "But when I've talked to doctors, they've said that there are a few groups who might want to talk to their doctor about potentially getting another shot.",
+   "ko": "하지만 의사들과 이야기해 보니, 추가 접종 가능성에 대해 의사와 상의해 보는 것이 좋을 몇몇 집단이 있다고 하더군요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1259.0,
+   "en": "So that's people who were born before 1968, but after 1957, which I know is like a sort of niche little slice.",
+   "ko": "1957년 이후 1968년 이전에 태어난 사람들인데, 꽤 좁은 범위이긴 하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1268.8,
+   "en": "You know what, if it's you, yeah.",
+   "ko": "본인이 해당한다면 그렇죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1270.2,
+   "en": "Right. It's possible this group got sort of a less effective version of the vaccine that's no longer available.",
+   "ko": "맞습니다. 이 집단은 현재는 이용 가능하지 않은, 효과가 다소 떨어지는 버전의 백신을 맞았을 가능성이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1277.4,
+   "en": "And then there's another group, people vaccinated between 1968 and 1989. And this is a group who likely only got one dose of the MMR vaccine.",
+   "ko": "그리고 또 다른 집단은 1968년에서 1989년 사이에 백신을 맞은 사람들입니다. 이들은 MMR 백신을 한 번만 맞았을 가능성이 높은 집단입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1287.0,
+   "en": "So that doesn't mean you have to necessarily race out to get vaccinated, but you might want to take a closer look at your risk. So do you live in an active outbreak?",
+   "ko": "그렇다고 반드시 당장 백신을 맞으러 달려가야 한다는 뜻은 아니지만, 자신의 위험 요소를 더 자세히 살펴볼 필요는 있습니다. 현재 발병이 활발한 지역에 살고 계신가요?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1295.8,
+   "en": "So do you have an underlying condition that would make measles especially dangerous for you? Like in those cases, you might want to talk to your doctor about getting another dose.",
+   "ko": "혹은 홍역이 특히 위험할 수 있는 기저 질환이 있나요? 그런 경우에는 의사와 추가 접종에 대해 상의해 보시는 것이 좋습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1307.7,
+   "en": "But mainly this is an issue that the unvaccinated really have to be most concerned about.",
+   "ko": "하지만 주로 이것은 미접종자들이 가장 우려해야 할 문제입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1313.5,
+   "en": "You know, we're entering a much riskier era for this group of people that could be kids whose parents have opted them out of the vaccines, that could be babies who are too young to get the vaccine.",
+   "ko": "부모가 백신 접종을 거부한 아이들이나 백신을 맞기에는 너무 어린 아기들 같이 이 집단에게 훨씬 더 위험한 시대로 접어들고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1327.4,
+   "en": "This new era that we're entering is really, unfortunately, the worst for people who are the most vulnerable in our society. Like, that's where we've seen the majority of cases.",
+   "ko": "불행히도 우리가 맞이하고 있는 이 새로운 시대는 우리 사회에서 가장 취약한 사람들에게 가장 가혹합니다. 대다수의 사례가 바로 그곳에서 발생하고 있으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1339.2,
+   "en": "And as long as we don't regain elimination status, this virus will just continue to spread and spread, and those babies and kids, unfortunately, will be the ones who bear that cost.",
+   "ko": "그리고 우리가 퇴치국 지위를 되찾지 못하는 한, 이 바이러스는 계속해서 퍼져 나갈 것이고 불행하게도 그 아기들과 아이들이 그 대가를 치르게 될 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1359.5,
+   "en": "Well, Teddy, thanks so much for joining us.",
+   "ko": "테디, 함께해 주셔서 정말 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1362.4,
+   "en": "Thanks for having me.",
+   "ko": "불러주셔서 감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1365.8,
+   "en": "On Friday, health officials in Virginia reported that a young child had died after testing positive for measles, bringing the total number of fatalities linked to the virus across the country to 12. We'll be right back.",
+   "ko": "금요일, 버지니아주 보건 당국은 한 어린이가 홍역 양성 판정을 받은 후 사망했다고 보고했으며, 이로써 전국적으로 이 바이러스와 관련된 총 사망자 수는 12명으로 늘어났습니다. 잠시 후 돌아오겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1393.2,
+   "en": "I'm MJ Franklin. This week on the Book Review podcast, it's awards season. We're already off the rails. There's always a lot to talk about with the Booker Prize, the Nobel Prize, the National Book Awards.",
+   "ko": "저는 MJ 프랭클린입니다. 이번 주 북 리뷰 팟캐스트에서는 시상식 시즌을 다룹니다. 벌써 정신이 없네요. 부커상, 노벨상, 내셔널 북 어워드에 대해 이야기할 거리가 항상 많죠.",
+   "speaker": "MJ Franklin",
+   "ad": true
+  },
+  {
+   "start": 1406.8,
+   "en": "Well, I loved this pick. I loved that it was a surprise. I loved that it really seemed to come out of nowhere.",
+   "ko": "저는 이번 선택이 정말 좋았습니다. 예상치 못한 일이라서 좋았어요. 정말 난데없이 나타난 것 같아서 좋았습니다.",
+   "speaker": "MJ Franklin",
+   "ad": true
+  },
+  {
+   "start": 1413.1,
+   "en": "It's been a busy season, and we're here to guide you through it. Listen to the book review wherever you get your podcasts.",
+   "ko": "바쁜 시즌이었고, 저희가 여러분을 안내해 드리겠습니다. 팟캐스트를 이용하시는 곳 어디에서나 북 리뷰를 들어보세요.",
+   "speaker": "MJ Franklin",
+   "ad": true
+  },
+  {
+   "start": 1421.6,
+   "en": "Here's what else you need to know today. Democrats have won the largest House majority in three decades, securing at least 258 seats in the chamber.",
+   "ko": "오늘 알아야 할 다른 소식입니다. 민주당이 30년 만에 하원에서 최대 다수 의석을 차지하며 최소 258석을 확보했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1432.1,
+   "en": "They reached that milestone on Sunday, with a win in North Carolina, when Chuck Hubbard, a Democrat and a former newspaper reporter, beat Representative Virginia Foxx, an 11-term Republican.",
+   "ko": "그들은 일요일 노스캐롤라이나에서 민주당원이자 전직 신문기자인 척 허바드가 11선 공화당 의원인 버지니아 폭스 의원을 꺾으며 그 이정표에 도달했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1443.7,
+   "en": "The race was officially called after a recount had been completed. Neither party has won so many seats in a national election since 1992, when Democrats clinched 258 as Bill Clinton took the presidency.",
+   "ko": "재검표가 완료된 후 당선이 공식 확정되었습니다. 빌 클린턴이 대통령에 당선되면서 민주당이 258석을 차지했던 1992년 이후 전국 선거에서 이토록 많은 의석을 차지한 정당은 없었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1458.9,
+   "en": "And climate talks at the UN broke down on Sunday, over tensions between some nations seeking to wind down the fossil fuel era and others aiming to keep it going.",
+   "ko": "그리고 일요일 유엔 기후 회담은 화석 연료 시대의 종결을 원하는 국가들과 이를 유지하려는 국가들 사이의 긴장으로 인해 결렬되었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1469.4,
+   "en": "The EU and many smaller countries vulnerable to climate disasters rejected a proposed agreement because they said it stripped out protections and favored countries that export oil, gas, and coal.",
+   "ko": "기후 재해에 취약한 EU와 많은 소국은 제안된 합의안이 보호 조치를 삭제하고 석유, 가스, 석탄을 수출하는 국가들에 유리하다며 거부했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1482.5,
+   "en": "A group of oil producers, including Saudi Arabia and Russia, had blocked any mention of fossil fuels in the agreement.",
+   "ko": "사우디아라비아와 러시아를 포함한 산유국 그룹은 합의안에서 화석 연료에 대한 어떠한 언급도 차단했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1490.4,
+   "en": "It was the first time the climate talks have stalled over a final agreement since 2009, and it was seen as a sign that the UN process may not be up to the task of confronting an overheated planet.",
+   "ko": "2009년 이후 기후 회담이 최종 합의를 두고 교착 상태에 빠진 것은 이번이 처음이며, 이는 유엔의 과정이 과열된 지구에 맞서는 임무를 수행하기에 역부족일 수 있다는 신호로 받아들여졌습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1509.8,
+   "en": "Today's episode was produced by Alex Stern, Adrienne Hurst, and Eric Krupke.",
+   "ko": "오늘 에피소드는 알렉스 스턴, 에이드리언 허스트, 에릭 크룹키가 제작했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1515.0,
+   "en": "It was edited by Devin Taylor with help from Paige Cowett, contains music by Diane Wong, Alicia Baidup, and Dan Powell, and was engineered by Alyssa Moxley.",
+   "ko": "데빈 테일러가 페이지 코윗의 도움을 받아 편집했으며, 다이앤 웡, 알리시아 베이덥, 댄 파웰의 음악이 포함되었고, 엘리사 목슬리가 엔지니어링을 맡았습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1526.3,
+   "en": "Our theme music is by Wonderly. Special thanks to Apoorva Mandavilli. That's it for The Daily. I'm Natalie Kitroff. See you tomorrow.",
+   "ko": "주제곡은 원더리(Wonderly)가 작곡했습니다. 아푸르바 만다빌리에게 특별한 감사를 전합니다. 오늘 '더 데일리'는 여기까지입니다. 저는 나탈리 키트로프였습니다. 내일 뵙겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1549.0,
+   "en": "I'm Christine Ciarclissette, and this week on The Wirecutter Show, find out what store-bought items grace the Thanksgiving tables of Wirecutter's kitchen writers.",
+   "ko": "저는 크리스틴 시아클리세트입니다. 이번 주 '와이어커터 쇼'에서는 와이어커터 주방 필진들의 추수감사절 식탁을 빛내는 시판 제품이 무엇인지 확인해 보세요.",
+   "speaker": "Christine Ciarclissette",
+   "ad": true
+  },
+  {
+   "start": 1558.2,
+   "en": "It's pretty iconic at this point. Ocean Spray cranberry sauce is my favorite.",
+   "ko": "이 정도면 꽤 상징적이죠. 오션 스프레이 크랜베리 소스가 제가 가장 좋아하는 제품입니다.",
+   "speaker": "Christine Ciarclissette",
+   "ad": true
+  },
+  {
+   "start": 1562.7,
+   "en": "My favorite to pre-purchase for Thanksgiving has got to be a mail order smoked turkey. I am a ride or die for Libby's canned pumpkin.",
+   "ko": "추수감사절을 위해 제가 미리 구매하는 가장 좋아하는 제품은 주문 배달된 훈제 칠면조입니다. 저는 리비의 캔 호박 없이는 못 살아요.",
+   "speaker": "Christine Ciarclissette",
+   "ad": true
+  },
+  {
+   "start": 1571.5,
+   "en": "Listen to The Wirecutter Show on the New York Times app or wherever you listen to podcasts.",
+   "ko": "뉴욕 타임즈 앱이나 팟캐스트를 이용하시는 곳 어디에서나 '와이어커터 쇼'를 들어보세요.",
+   "speaker": "Christine Ciarclissette",
+   "ad": true
+  }
+ ]
+}
