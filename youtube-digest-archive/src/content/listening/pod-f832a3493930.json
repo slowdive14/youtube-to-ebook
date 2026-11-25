@@ -1,0 +1,956 @@
+{
+ "id": "pod-f832a3493930",
+ "title": "Why even savvy people fall for scams, with Stacey Wood, PhD",
+ "show": "Speaking of Psychology",
+ "channel": "American Psychological Association",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/AMERICANPSYCHOLOGICALASSOCIATION7103613978.mp3",
+ "imageUrl": "https://megaphone-images.spotifycdn.com/podcasts/439d93e4-e1d1-11f1-bd08-2f2fe165270f/image/8577510a83cc8ea277800434a518b476.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 1645,
+ "releaseDate": "2026-11-18T08:30:00.000Z",
+ "addedAt": "2026-11-25",
+ "segments": [
+  {
+   "start": 0.3,
+   "en": "A fake toll notice, an email that looks like it came from your bank, a call from a voice that sounds like your child pleading for money.",
+   "ko": "가짜 통행료 고지서, 은행에서 보낸 듯한 이메일, 그리고 자녀가 돈을 애원하는 듯한 목소리의 전화.",
+   "speaker": "Host"
+  },
+  {
+   "start": 9.9,
+   "en": "In recent years scams have become increasingly difficult to recognize and increasingly costly.",
+   "ko": "최근 몇 년 동안 사기는 점점 더 알아차리기 어려워지고 피해 규모도 커지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 15.9,
+   "en": "Nearly four in 10 American adults say they've been victims of fraud and in 2025 alone, Americans lost nearly $21 billion to cyber-enabled crime, about $4 billion more than the year before.",
+   "ko": "미국 성인 10명 중 4명은 사기 피해를 본 적이 있다고 답했으며, 2025년에만 미국인들은 사이버 범죄로 인해 전년보다 약 40억 달러 증가한 약 210억 달러의 손실을 입었습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 28.3,
+   "en": "Scammers have long exploited fundamental aspects of human psychology. Our instinct to trust and the way we make decisions under pressure.",
+   "ko": "사기꾼들은 오래전부터 인간 심리의 근본적인 측면을 이용해 왔습니다. 바로 신뢰하려는 우리의 본능과 압박감 속에서 결정을 내리는 방식입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 37.5,
+   "en": "Now new technologies, including artificial intelligence, are making it easier than ever to create convincing scams.",
+   "ko": "이제 인공지능을 포함한 새로운 기술 덕분에 그 어느 때보다 설득력 있는 사기 수법을 만들기가 쉬워졌습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 45.3,
+   "en": "Meanwhile, the consequences of fraud can go far beyond financial loss, leaving victims struggling with shame, depression, and anxiety.",
+   "ko": "한편, 사기의 결과는 금전적 손실을 훨씬 뛰어넘어 피해자들이 수치심, 우울증, 불안에 시달리게 할 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 53.6,
+   "en": "So how is technology driving the recent increase in scams? jams, and other other factors at play as well.",
+   "ko": "그렇다면 기술은 최근의 사기 증가를 어떻게 주도하고 있을까요? 또한 다른 여러 요인들도 함께 작용하고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 59.9,
+   "en": "How do scammers manipulate our thinking and behavior? Who is most at risk? And what can we do to protect ourselves and each other from fraud?",
+   "ko": "사기꾼들은 우리의 생각과 행동을 어떻게 조종할까요? 누가 가장 위험할까요? 그리고 사기로부터 우리 자신과 서로를 보호하기 위해 무엇을 할 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 69.5,
+   "en": "Welcome to Speaking of Psychology, the flagship podcast of the American Psychological Association that examines the links between psychological science and everyday life.",
+   "ko": "심리 과학과 일상생활 사이의 연결 고리를 살펴보는 미국 심리학회의 대표 팟캐스트인 Speaking of Psychology에 오신 것을 환영합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 79.4,
+   "en": "I'm Kim Mills. My guest today is Dr. Stacey Wood, a professor of psychology at Scripps College where she leads the neuropsychology of decision-making lab.",
+   "ko": "저는 킴 밀스입니다. 오늘 모신 게스트는 스크립스 대학의 심리학 교수이자 의사 결정 신경심리학 연구실을 이끌고 계신 스테이시 우드 박사님입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 91.3,
+   "en": "Much of her research has focused on why people are susceptible to scams and fraud.",
+   "ko": "박사님의 연구 중 상당 부분은 사람들이 왜 사기에 취약한지에 초점을 맞추고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 95.8,
+   "en": "And she recently co-authored a journal article called The Scammers Psychological Warfare, A Call to Arms.",
+   "ko": "최근에는 '사기꾼의 심리전: 행동 촉구'라는 학술지 논문을 공동 집필하셨습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 102.5,
+   "en": "She also writes the psychology today blog, The Fraud Crisis, and in addition to her research, Dr. Wood consults as an expert witness on legal cases involving fraud.",
+   "ko": "또한 'Psychology Today' 블로그인 '사기 위기'를 연재하고 계시며, 연구 외에도 사기 관련 법적 사건에서 전문가 증인으로 자문 활동을 하고 계십니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 112.6,
+   "en": "Dr. Wood, thank you for joining me today.",
+   "ko": "우드 박사님, 오늘 함께해주셔서 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 114.6,
+   "en": "Very happy to be here, Kim.",
+   "ko": "함께하게 되어 매우 기쁩니다, 킴.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 116.0,
+   "en": "So just a moment ago, I mentioned that fraud is getting worse. It's becoming more prevalent and more sophisticated.",
+   "ko": "조금 전 제가 사기가 점점 더 심해지고 있다고 말씀드렸는데요. 더 널리 퍼지고 있고 더 정교해지고 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 123.3,
+   "en": "Why is that? What's happened in the last few years?",
+   "ko": "이유가 무엇일까요? 지난 몇 년 동안 무슨 일이 있었나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 126.8,
+   "en": "Well, I think the obvious explanation is related to technology.",
+   "ko": "글쎄요, 가장 분명한 설명은 기술과 관련이 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 132.6,
+   "en": "So social media, smartphones, we're on the scene since about 2010, but really became extremely popular in about 2015 when roughly half the world's population started using the internet these devices and it just made targeting individuals anywhere, all the time, so much easier.",
+   "ko": "소셜 미디어와 스마트폰은 2010년경부터 등장했지만, 전 세계 인구의 약 절반이 인터넷과 이러한 장치를 사용하기 시작한 2015년경부터 폭발적으로 대중화되었습니다. 이로 인해 언제 어디서나 개인을 타겟팅하는 것이 훨씬 쉬워졌죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 154.4,
+   "en": "In a recent journal article, you and your co-authors describe Scammers tactics as psychological warfare. What does you mean by that?",
+   "ko": "최근 학술지 기사에서 박사님과 공동 저자들은 사기꾼들의 전술을 심리전이라고 묘사하셨습니다. 그게 어떤 의미인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 162.6,
+   "en": "What psychological tendencies do they exploit?",
+   "ko": "그들은 어떤 심리적 경향을 이용하나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 166.2,
+   "en": "I often say that they are better psychologists than I am. You know, there's a number of them, but they are just adept at identifying blind spots humans have.",
+   "ko": "저는 종종 그들이 저보다 더 뛰어난 심리학자라고 말하곤 합니다. 여러 가지가 있겠지만, 그들은 인간이 가진 사각지대를 파악하는 데 매우 능숙합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 177.5,
+   "en": "So one very common tactic is to understand humans when they're in a state of emotional distress or just not at their best in terms of their thinking.",
+   "ko": "한 가지 매우 흔한 전술은 인간이 정서적으로 고통스러운 상태에 있거나 사고력이 최상이 아닐 때를 파악하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 185.5,
+   "en": "The goal is to get you on your worst day at the worst time of that day.",
+   "ko": "목표는 하루 중 가장 좋지 않은 시간에 가장 힘든 날의 당신을 공략하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 190.4,
+   "en": "Now, how do they know when that is? They don't, so they're just targeting you all the time. So that one tactic is just that excessive volume of approaches.",
+   "ko": "그럼 그들이 그게 언제인지 어떻게 알까요? 모릅니다. 그래서 그냥 항상 당신을 타겟으로 삼는 거죠. 그래서 한 가지 전술은 과도한 양의 접근 시도 그 자체입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 200.4,
+   "en": "Another tactic is once they have located people that maybe are in a state of crisis, they introduce a crisis and then they introduce a solution.",
+   "ko": "또 다른 전술은 위기 상태에 있을 법한 사람들을 찾아내면, 새로운 위기를 조성한 다음 그에 대한 해결책을 제시하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 211.6,
+   "en": "And then they monitor you, right? They keep you on that phone, they keep texting you to make sure you comply. So it's really quite devious.",
+   "ko": "그리고 당신을 감시하죠, 그렇죠? 계속 전화를 붙들게 하고, 계속 문자를 보내서 당신이 따르는지 확인합니다. 정말 아주 교활하죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 221.0,
+   "en": "Why do even the intelligent savvy people get sucked into these scams?",
+   "ko": "똑똑하고 영리한 사람들조차 왜 이런 사기에 휘둘리는 걸까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 227.0,
+   "en": "I can share. I recently consulted on a case where a retired physician truly believes Elon Musk is in communication with him.",
+   "ko": "제 사례를 하나 말씀드리죠. 최근에 은퇴한 한 의사가 일론 머스크가 자신과 연락하고 있다고 굳게 믿고 있는 사건에 대해 자문을 한 적이 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 235.6,
+   "en": "And when you're on this side of that, it just seems unbelievable, right? Like, we're at the end point though.",
+   "ko": "이쪽 입장에서 보면 정말 믿기지 않는 일이죠, 그렇죠? 하지만 우리는 결과론적인 시점에 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 241.8,
+   "en": "We're talking to him and he's saying something that's probably not true. But what we don't understand is all of the microsteps that occurred to hook this person and keep him in this narrative of false belief, right?",
+   "ko": "우리는 그와 대화를 나누고 있는데 그는 아마 사실이 아닐 법한 이야기를 하고 있는 거죠. 하지만 우리가 이해하지 못하는 것은 이 사람을 낚아서 이 거짓된 믿음의 서사 속에 가둬두기 위해 발생한 모든 미세한 단계들입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 257.4,
+   "en": "Sometimes there's a cognitive component. There are scams that are targeting very elderly people or those with mild cognitive impairment, and they're very effective.",
+   "ko": "때로는 인지적 요소가 작용하기도 합니다. 고령자나 경도 인지 장애가 있는 분들을 대상으로 하는 사기가 있는데, 매우 효과적입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 267.2,
+   "en": "But oftentimes, it's more social psychology. So having a high IQ or going to med school doesn't necessarily spare you from these psychological vulnerabilities that are targeted.",
+   "ko": "하지만 종종 사회 심리학적인 측면이 더 큽니다. 따라서 IQ가 높거나 의대를 나왔다고 해서 타겟이 되는 이러한 심리적 취약성에서 반드시 벗어날 수 있는 것은 아닙니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 280.4,
+   "en": "In his case, being a physician is a huge part of one's identity. So retirement, losing that status, having less income, less validation. It just created a vulnerability that opened the door for Scammers to exploit.",
+   "ko": "그분의 경우, 의사라는 직업은 정체성의 큰 부분이었습니다. 그래서 은퇴 후 그 지위를 잃고 수입과 사회적 인정이 줄어들면서 사기꾼들이 이용할 수 있는 취약한 틈이 생겼던 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 299.2,
+   "en": "I'm just curious about this case in particular. I mean, was Elon Musk asking him for money? Why would Elon Musk need to reach out to some doctor?",
+   "ko": "특히 이 사례가 궁금한데요. 그러니까 일론 머스크가 그에게 돈을 요구했나요? 왜 일론 머스크가 일개 의사에게 연락을 해야 했을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 307.6,
+   "en": "Right. On its face, it makes no sense, but it started as an investment opportunity related to Elon Musk. And actually, there's been IPOs in the news.",
+   "ko": "맞습니다. 겉으로 보기에는 말도 안 되지만, 일론 머스크와 관련된 투자 기회로 시작되었습니다. 실제로 뉴스에 IPO 관련 소식들이 있었죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 318.0,
+   "en": "So it's not necessarily so that initial step is in line with current events, that there's investment opportunities.",
+   "ko": "따라서 초기 단계가 투자 기회가 있다는 식의 시사 소식과 맞물리는 경우가 많습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 326.4,
+   "en": "And then after the fake investment opportunity and one of Elon Musk's company, keeping him on the hook by saying, even Elon Musk is impressed with you and etc. It doesn't seem as far-fetched to the victim.",
+   "ko": "그리고 일론 머스크의 회사 중 한 곳에 대한 가짜 투자 기회 이후, '일론 머스크조차 당신에게 감명받았다'는 식의 말로 계속 붙잡아 두면 피해자에게는 그리 허황되게 느껴지지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 343.5,
+   "en": "And remember, it's meeting these status needs, right? That he's an important person.",
+   "ko": "그리고 이것이 그가 중요한 사람이라는 지위적 욕구를 충족시켜 준다는 점을 기억하세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 348.4,
+   "en": "And also, I have to say this scam is seamless. like it's frictionless, the way they're asking for money on a smartphone to an app, the families that would send.",
+   "ko": "또한, 이 사기는 아주 매끄럽습니다. 스마트폰 앱을 통해 돈을 요구하는 방식이 너무나 자연스러워서 가족들도 보낼 정도였죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 359.0,
+   "en": "Now, you've written about various types of scams in your psychology today blog, fake toll notices, political fundraising scams, and even as you just said, you know, scheme involving a medical professional.",
+   "ko": "박사님께서는 'Psychology Today' 블로그에서 가짜 통행료 고지서, 정치 자금 모금 사기, 그리고 방금 말씀하신 의료 전문가와 관련된 수법 등 다양한 유형의 사기에 대해 쓰셨는데요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 371.2,
+   "en": "Can you give us a sense of the range of fraud schemes that people are encountering today? I mean, how are these cons evolving to keep tricking us?",
+   "ko": "오늘날 사람들이 겪고 있는 사기 수법의 범위가 어느 정도인지 알려주실 수 있을까요? 그러니까 이런 사기들이 우리를 계속 속이기 위해 어떻게 진화하고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 379.8,
+   "en": "Yeah, I'm going to give you a few categories of what I'm seeing as really common scams and also that end up costing people a lot of money and grief.",
+   "ko": "네, 제가 보기에 매우 흔하면서도 사람들에게 많은 돈과 슬픔을 안겨주는 사기들을 몇 가지 범주로 나누어 말씀드리겠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 390.2,
+   "en": "One of the worst ones out there is a scam that the criminals call pig butchering. That's their name.",
+   "ko": "가장 최악인 것 중 하나는 범죄자들이 '도살(pig butchering)'이라고 부르는 사기입니다. 그들이 붙인 이름이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 396.6,
+   "en": "Those of us that work call them transnational financial crimes. And they involve a long con that starts as an approach in a very innocuous way, like usually on like indeed or similar work site, so not necessarily in an email like for an investment fraud right away.",
+   "ko": "저희 전문가들은 '초국가적 금융 범죄'라고 부릅니다. 이는 매우 무해해 보이는 접근 방식으로 시작되는 장기적인 사기를 포함하는데, 보통 인디드(Indeed)와 같은 구인 구직 사이트에서 시작되어 처음부터 투자 사기 이메일처럼 보이지는 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 419.1,
+   "en": "Sometimes it's romantic, sometimes not, develop a relationship, then start saying like, you know, my cousin's been making a lot of money doing this thing and I'm going to try it, showing screenshots of all the money they're making, always in crypto, saying they'll coach the person demonstrating some early wins.",
+   "ko": "때로는 로맨틱하게, 때로는 평범하게 관계를 발전시킨 다음, '내 사촌이 이걸로 돈을 많이 벌고 있어서 나도 해보려고 한다'는 식으로 말하기 시작합니다. 항상 암호화폐로 돈을 벌고 있는 스크린샷을 보여주며, 자신이 코칭해 주겠다고 제안하고 초기에 수익이 나는 것을 보여주죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 439.1,
+   "en": "Again, with these on a site that looks just like Coinbase or similar, the mimics are very, very good. Six months later, when the person's all in, the scammer disappears. That's when the criminals call it a time to butcher the pig.",
+   "ko": "코인베이스(Coinbase) 같은 사이트와 똑같이 생긴 가짜 사이트를 이용하는데, 모방 수준이 매우 높습니다. 6개월 후 그 사람이 모든 것을 쏟아부었을 때 사기꾼은 사라집니다. 범죄자들은 이때를 '돼지를 잡을 시간'이라고 부르죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 455.4,
+   "en": "And again, it goes on and on. So people, especially I think younger people who are more comfortable with these online relationships where they may not meet a person in real life for some time, the first six weeks may not seem unusual at all. So that's a terrible one.",
+   "ko": "이런 일은 계속 반복됩니다. 그래서 실제 사람을 직접 만나지 않아도 되는 온라인 관계에 더 익숙한 젊은 층은 처음 6주 동안 전혀 이상함을 느끼지 못할 수도 있습니다. 정말 끔찍한 사기죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 474.5,
+   "en": "Imposter scams are very common right now. So I'm calling you from the IRS. I'm calling you from the FBI. I'm calling you from ICE.",
+   "ko": "사칭 사기도 현재 매우 흔합니다. 국세청(IRS), 연방수사국(FBI), 이민국(ICE)에서 전화하는 척하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 482.7,
+   "en": "There's been a lot of scams targeting individuals for immigrants, legal immigrants, claiming that there's some problem with their visa. That's incredibly scary.",
+   "ko": "이민자들, 특히 합법적 이민자들을 대상으로 비자에 문제가 생겼다고 주장하는 사기가 많습니다. 이건 정말 무서운 일이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 494.2,
+   "en": "And again, very sophisticated people have been like, what do I pay to make this go away? Like, I meant to fill out that form. That's something that's happening in California right now, probably elsewhere.",
+   "ko": "지적인 사람들조차 '이 문제를 해결하려면 얼마를 내야 하나요? 서류를 작성하려고 했었는데요'라고 반응하곤 합니다. 현재 캘리포니아와 아마 다른 지역에서도 일어나고 있는 일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 506.9,
+   "en": "Romance scams. you think, don't we all know by now, but they're actually increasing.",
+   "ko": "로맨스 사기요. 이제 다 알지 않나 싶겠지만 실제로는 증가하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 512.5,
+   "en": "Again, I'm seeing the midlife and later life scams. That's kind of the population I work with though, so I don't know if they're increasing with younger people.",
+   "ko": "저는 주로 중장년층과 노년층의 사기 사례를 보는데, 제가 다루는 대상이 그들이기 때문에 젊은 층에서도 증가하고 있는지는 잘 모르겠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 522.6,
+   "en": "And then text scams. So those are an older scam, but they just keep resurfacing. And it's this, you may have a virus, click on this link.",
+   "ko": "그리고 문자 사기입니다. 이건 오래된 수법이지만 계속 다시 나타나고 있습니다. '바이러스가 있을 수 있으니 이 링크를 클릭하세요' 같은 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 531.4,
+   "en": "and the scammers can actually take over the individual's computer and access, you know, private information, ultimately draining bank accounts.",
+   "ko": "사기꾼들은 실제로 개인의 컴퓨터를 장악하고 개인 정보에 접근하여 궁극적으로 은행 계좌를 텅 비울 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 543.1,
+   "en": "Then they feign ago, well, you need to bring in the FBI and then it's like, of course, a fake FBI.",
+   "ko": "그러고 나서 FBI를 불러야 한다고 속이는데, 물론 그것도 가짜 FBI입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 548.3,
+   "en": "And you had to really awful.",
+   "ko": "정말 끔찍하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 549.6,
+   "en": "Yeah. So we've moved well beyond the Nigerian prince emails.",
+   "ko": "네. 이제 '나이지리아 왕자' 이메일 수준은 훨씬 넘어섰군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 555.2,
+   "en": "Yeah. You know, one theory about those emails, as they were really just designed to catch the most gullible.",
+   "ko": "네. 그런 이메일에 대한 한 가지 이론은, 정말 가장 잘 속아 넘어가는 사람들만 잡기 위해 설계되었다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 561.0,
+   "en": "The scammers didn't want the person that was just curious about it. They wanted people that were missing red flags.",
+   "ko": "사기꾼들은 단순히 호기심을 갖는 사람을 원하지 않았습니다. 위험 신호를 놓치는 사람들을 원했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 568.3,
+   "en": "So it was more of a feature than a bug to use an obvious scam. But these newer ones, they are mimicking legitimate websites and organizations extremely well.",
+   "ko": "그래서 뻔한 사기 수법을 쓰는 것은 결함이 아니라 일종의 필터 기능이었습니다. 하지만 최근의 사기들은 합법적인 웹사이트와 기관을 매우 정교하게 모방합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 581.6,
+   "en": "Let's talk for a couple of minutes about the toll that fraud takes on the victims of these scams.",
+   "ko": "사기가 피해자들에게 주는 고통에 대해 잠시 이야기해 봅시다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 586.5,
+   "en": "I mean, you've interviewed many people who have been duped in your work, and what are these conversations? What have they told you about what happens to people psychologically when they've been scammed?",
+   "ko": "박사님은 연구 과정에서 속아 넘어간 많은 분을 인터뷰하셨는데, 그 대화들은 어떤가요? 사기를 당했을 때 사람들에게 심리적으로 어떤 일이 일어난다고 하던가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 598.6,
+   "en": "Yeah, I'm glad you brought this up because I feel like it's gotten less attention, and it's truly devastating. So let's take a hypothetical victim of pig poetry.",
+   "ko": "네, 이 문제를 제기해 주셔서 기쁩니다. 그동안 덜 주목받아 왔지만, 정말 파괴적인 일이거든요. 도살 사기(pig butchering)의 가상 피해자를 예로 들어보겠습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 610.4,
+   "en": "They've been spending six months in this relationship, sending money, and maybe probably their family starts at a certain point saying, hey, what are you doing? Never met this person.",
+   "ko": "그들은 6개월 동안 이 관계를 유지하며 돈을 보내고, 아마도 어느 시점부터 가족들이 '이봐, 뭐 하는 거야? 한 번도 본 적 없는 사람이잖아'라고 말하기 시작할 겁니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 625.1,
+   "en": "And the scams create a wedge between the victim and their family. Or they eat a must-case. A family's like, help.",
+   "ko": "그리고 사기는 피해자와 가족 사이에 쐐기를 박습니다. 아니면 일론 머스크 사례처럼 가족들이 도움을 청하게 되죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 634.1,
+   "en": "So when it all crashes, they're often very isolated. And then they're ashamed, right, and humiliated because maybe family members were saying, you know, I'm worried of this person isn't real, you know, and they get kind of entrenched.",
+   "ko": "그래서 모든 것이 무너졌을 때, 그들은 종종 매우 고립됩니다. 가족들이 이 사람이 가짜일까 봐 걱정된다고 말했는데도 고집을 부렸기 때문에 수치심과 굴욕감을 느끼죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 647.5,
+   "en": "So they're isolated, they're humiliated, they feel betrayed, some are angry, many are depressed.",
+   "ko": "고립되고, 굴욕감을 느끼고, 배신감을 느끼며, 분노하거나 우울해합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 655.7,
+   "en": "I see some trauma symptoms, you know, like blaming oneself, believe in the world isn't a safe place anymore, problems with sleep, just so much self blame, you know, and lack of confidence, you know, like focusing on themselves.",
+   "ko": "자책하거나 세상이 더 이상 안전하지 않다고 믿거나 수면 장애를 겪는 등 트라우마 증상도 보입니다. 엄청난 자책과 자신감 결여를 겪죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 672.2,
+   "en": "Yeah. How could I have been so stupid?",
+   "ko": "맞아요. '내가 어떻게 그렇게 멍청했을까?' 하고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 675.0,
+   "en": "Yeah. And there's been some other research in psychology that the period after being scammed, these individuals are at super high risk for being re-victimized.",
+   "ko": "네. 그리고 사기를 당한 직후의 기간에 이들이 재차 피해를 입을 위험이 매우 높다는 심리학 연구 결과도 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 686.2,
+   "en": "You know, I've read that younger people are less ashamed of admitting that they've fallen victims to one of these scams.",
+   "ko": "젊은 사람들은 이런 사기의 피해자가 되었다는 사실을 인정하는 데 덜 부끄러워한다는 글을 읽은 적이 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 692.8,
+   "en": "Why is that, and are people generally getting more comfortable talking about how they got duped, at least to help other people not fall into the same trap?",
+   "ko": "왜 그럴까요? 그리고 사람들이 적어도 다른 사람들이 똑같은 함정에 빠지지 않도록 돕기 위해 자신이 어떻게 속았는지 이야기하는 것을 더 편안하게 느끼고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 703.2,
+   "en": "Yeah, I agree. I think there's research showing in terms of reporting, younger people are more likely to report they've been scammed to authorities.",
+   "ko": "네, 동의합니다. 신고 측면에서 볼 때 젊은 층이 당국에 사기 피해를 신고할 가능성이 더 높다는 연구 결과가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 713.3,
+   "en": "One thought about that is that for older adults, acknowledging the scam may trigger certain stereotypes about aging, like, oh, the old fool, or, you know, or I'm starting to lose it.",
+   "ko": "그에 대한 한 가지 생각은 고령자의 경우 사기를 인정하는 것이 '늙은 바보'라거나 '판단력이 흐려지고 있다'는 등의 노화에 대한 특정 고정관념을 자극할 수 있다는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 726.9,
+   "en": "And so, fear about that, about complying with some stereotype we associate with aging, even at these incredibly high functioning people. Fear about losing autonomy, right?",
+   "ko": "그래서 매우 인지 능력이 뛰어난 사람들조차 노화와 연관된 고정관념에 부합하게 될까 봐 두려워합니다. 자율성을 잃는 것에 대한 두려움도 있고요, 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 738.3,
+   "en": "So, the family's going to step in now as a power of attorney because, you know, dad lost most of his And older people lose more money to have more money, but they're targeted so much more.",
+   "ko": "아버지가 돈을 거의 다 잃었으니 이제 가족이 위임장을 가지고 개입하게 될 거니까요. 고령자들은 돈이 더 많아서 더 많은 돈을 잃지만, 그만큼 훨씬 더 많이 표적이 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 755.6,
+   "en": "So that's my sense is that acknowledging being scammed may have these other psychological effects and older people.",
+   "ko": "그래서 사기를 당했다는 사실을 인정하는 것이 노인들에게 이러한 다른 심리적 영향을 줄 수 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 765.4,
+   "en": "To the second point you made, I do hope the narrative is changing, you know, that we just view scam victims as crime victims, which is what they are, and less about some personal failure.",
+   "ko": "두 번째 질문에 대해서는, 사기 피해자를 개인의 실패가 아닌 있는 그대로의 범죄 피해자로 보는 시각으로 담론이 바뀌기를 진심으로 바랍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 779.4,
+   "en": "If somebody put a gun to your ribs when you were out walking at night and took your money, that's you wouldn't be okay with telling people about that.",
+   "ko": "밤에 걷고 있을 때 누군가 옆구리에 총을 겨누고 돈을 빼앗았다면, 그 사실을 사람들에게 말하는 것이 부끄러운 일은 아니니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 787.0,
+   "en": "Right, or someone broke into your house. Yeah.",
+   "ko": "맞아요, 혹은 누군가 집에 침입했다면요. 네.",
+   "speaker": "Host"
+  },
+  {
+   "start": 789.6,
+   "en": "How much is our own use of artificial intelligence making us more susceptible to scams? I mean, is there information that we shouldn't be putting into AI chats?",
+   "ko": "우리가 직접 인공지능을 사용하는 것이 우리를 사기에 얼마나 더 취약하게 만들까요? 그러니까 AI 채팅에 입력하지 말아야 할 정보가 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 800.8,
+   "en": "You know, I don't know the answer to that in terms of the study. My instinct is absolutely there's information we shouldn't be putting into it.",
+   "ko": "글쎄요, 연구 결과가 있는지는 모르겠습니다. 제 직감으로는 절대적으로 입력하지 말아야 할 정보가 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 811.0,
+   "en": "I mean, but it's incredibly intimate information that AI is gleaning from us particularly if it's not on a private setting. I do know that the criminals are using AI.",
+   "ko": "비공개 설정이 아닌 경우 AI가 우리에게서 수집하는 정보는 매우 사적입니다. 저는 범죄자들이 AI를 사용하고 있다는 사실을 알고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 823.0,
+   "en": "So when they're just targeting you to chit chat on Indeed or Discord, which is, you know, you use by younger people, they often just use bots to do the initial groundwork of developing a relationship and finding out information about people.",
+   "ko": "사기꾼들이 인디드나 젊은 층이 사용하는 디스코드에서 잡담을 건네며 타겟팅할 때, 종종 봇을 사용하여 관계를 형성하고 정보를 파악하는 초기 기초 작업을 수행합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 839.6,
+   "en": "So they're using it and people, you know, don't know they're engaging with the what will be a bot that's gathering very detailed information about you to target you, very detailed. your social group, your hobbies.",
+   "ko": "그들은 그렇게 AI를 활용하고 있고 사람들은 자신을 타겟팅하기 위해 매우 상세한 정보를 수집하는 봇과 대화하고 있다는 사실을 모릅니다. 사회적 집단이나 취미 같은 매우 상세한 정보 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 854.6,
+   "en": "You know, when I was talking about the pig butchering, it's not just, oh, I saw you on Indeed. It's like, oh, I saw that you used to work at Goldman Sachs, you know, in the New York office. I was there too. Did you know this manager? Yeah.",
+   "ko": "도살 사기에 대해 말씀드렸을 때처럼, 단순히 '인디드에서 봤어요'가 아닙니다. '골드만삭스 뉴욕 사무소에서 근무하셨던 걸 봤어요. 저도 거기 있었거든요. 이 매니저 아세요? 네.' 이런 식입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 868.2,
+   "en": "You probably know this other person. You know, when I'm in LA, which, you know, I'm wondering if you want to get together, you know, we're starting this new group. And so it's that detailed.",
+   "ko": "이 사람도 아시겠네요. 제가 LA에 갈 때 혹시 만날 수 있을까요? 저희가 새로운 모임을 시작하거든요.' 할 정도로 구체적입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 878.4,
+   "en": "But I mean, how do you not put this information out? If you have, say, a LinkedIn profile and everybody can see that you worked in these five places in the last 10 years.",
+   "ko": "하지만 그런 정보를 어떻게 공개하지 않을 수 있을까요? 예를 들어 링크드인 프로필이 있다면 지난 10년 동안 이 다섯 곳에서 일했다는 것을 누구나 볼 수 있잖아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 887.0,
+   "en": "Yeah, right. And it's a helpful tool for professional networking. But I don't think most people are aware that scammers have moved from more social media type Instagram to more like, indeed.",
+   "ko": "네, 맞아요. 유용한 도구죠. 하지만 대부분의 사람은 사기꾼들이 인스타그램 같은 소셜 미디어에서 인디드 같은 사이트로 옮겨갔다는 사실을 잘 모르는 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 902.3,
+   "en": "I mean, they're on Instagram too, but if I got a notification from a potential contact and indeed, and their overall bio looks like a good fit, I'd probably just connect. So it's hard to know what you're watching out for these days.",
+   "ko": "인스타그램에도 있긴 하지만, 인디드에서 연락처 알림을 받았는데 프로필이 괜찮아 보인다면 저라도 그냥 연결할 것 같아요. 요즘은 무엇을 조심해야 할지 알기가 정말 어렵네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 917.8,
+   "en": "Yeah, exactly. I mean, you know, the ask is the red flag asking for money. Of course.",
+   "ko": "네, 정확해요. 결국 돈을 요구하는 것 자체가 가장 큰 위험 신호입니다. 당연한 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 925.0,
+   "en": "Are there factors that put people at a special risk from becoming, for becoming a fraud victim? And you said that the field has focused a lot on older adults, but that's been changing, hasn't it?",
+   "ko": "사람들을 사기 피해에 특히 더 취약하게 만드는 요인이 있을까요? 박사님께서는 이 분야가 고령자에게 많이 집중해 왔지만 그것이 변하고 있다고 말씀하셨죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 937.7,
+   "en": "Are there other groups that are at risk as well?",
+   "ko": "다른 위험 집단도 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 940.9,
+   "en": "Yeah, I mean, it's sort of everyone's at risk, but if it's a certain day and you're, again, there was a scam targeting psychologists or scam targeting physicians or just a scam targeting legal immigrants.",
+   "ko": "네, 그러니까 사실 모든 사람이 위험에 처해 있다고 볼 수 있습니다. 다만 심리학자나 의사, 혹은 합법적 이민자를 타겟으로 한 사기가 있는 것처럼 특정 상황에 따라 다릅니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 957.3,
+   "en": "So it's more like they're bespoke scams that are designed to target a certain affinity group. And so it's hard to protect yourself from those kind of scams.",
+   "ko": "특정 관심 집단을 겨냥해 설계된 맞춤형 사기에 가깝죠. 그래서 그런 종류의 사기로부터 자신을 보호하기는 어렵습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 972.6,
+   "en": "Having said that, we do know there are some kind of general factors that increase your risks.",
+   "ko": "그렇긴 해도 위험을 증가시키는 몇 가지 일반적인 요인은 존재합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 978.4,
+   "en": "So even very, very mild cognitive decline, there's a huge increased risk in scam susceptibility. ability.",
+   "ko": "매우 가벼운 인지 능력 저하만으로도 사기 취약성이 크게 증가합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 988.6,
+   "en": "Another one is like if you have a major transition, divorce, death, retirement, emptiness, job relocation.",
+   "ko": "또 다른 요인은 이혼, 사별, 은퇴, 자녀의 독립, 직장 이전과 같은 큰 변화를 겪는 경우입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 997.9,
+   "en": "For the next two years, there's evidence that individuals from the FTC are at increased risk for scams. Another one is depression, right? Like so, depression individuals are at greatly increased risk for scams and fraud.",
+   "ko": "FTC 자료에 따르면 향후 2년 동안 이러한 개인들이 사기에 처할 위험이 더 높다는 증거가 있습니다. 또 다른 요인은 우울증입니다. 우울증을 앓는 개인은 사기에 훨씬 더 취약합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1014.4,
+   "en": "Because why? Because somebody is reaching out and that makes them feel better. I mean, Yeah, no, that's what I mean.",
+   "ko": "왜 그런가요? 누군가 말을 걸어 주는 것이 기분을 나아지게 해서인가요? 제 말은, 네, 맞아요. 바로 그런 뜻입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1020.6,
+   "en": "That's what's interesting about it because I think of my depressed clients as sort of withdrawing and having less energy. So I think it's partly cognitive concentration.",
+   "ko": "그게 흥미로운 점입니다. 저는 우울증이 있는 내담자들이 위축되고 활력이 없다고 생각하거든요. 그래서 부분적으로는 인지적 집중력 문제라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1031.0,
+   "en": "They're getting hammered with the same fishing and other scam attempts and they're just less, they're more vulnerable and less able to fend them off.",
+   "ko": "사기 시도를 계속 받으면서 더 취약해지고 그것을 막아낼 능력이 떨어지는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1041.0,
+   "en": "So yeah, I don't know that that we know exactly why, but I do know that that's across different data sets, different research groups, depression is a risk factor.",
+   "ko": "정확한 이유는 모르겠지만, 여러 데이터 세트와 연구 그룹에 걸쳐 우울증이 위험 요인이라는 것은 분명합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1049.7,
+   "en": "We're going to take a short break when we return. We'll talk about what you can do to protect yourself from fraud.",
+   "ko": "잠시 쉬었다가 돌아오겠습니다. 돌아와서 사기로부터 자신을 보호하기 위해 무엇을 할 수 있는지에 대해 이야기해 보겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1058.4,
+   "en": "At the individual level, how can we protect ourselves from fraud? I mean, are there habits or strategies that can help us resist this manipulation? Should we all be surfing the internet in cognitos?",
+   "ko": "개인 차원에서 어떻게 사기로부터 우리 자신을 보호할 수 있을까요? 이런 조종에 저항하는 데 도움이 될 습관이나 전략이 있을까요? 모두 시크릿 모드로 인터넷을 사용해야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1072.7,
+   "en": "Does everybody need a VPN? I mean, what is it going to save us?",
+   "ko": "모두에게 VPN이 필요할까요? 그게 우리를 어떻게 지켜줄 수 있을까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1077.7,
+   "en": "Yeah, I should be doing those things myself, but I don't. Those are helpful steps.",
+   "ko": "네, 저도 그렇게 해야 하는데 그러지 못하고 있네요. 그런 것들은 도움이 되는 단계입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1085.6,
+   "en": "I think monitoring your bank account, a lot of scams aren't necessarily psychological vulnerability. They're just taking your money or they ID theft or phishing. Right?",
+   "ko": "계좌를 모니터링하는 것도 중요해요. 많은 사기가 반드시 심리적 취약성 때문만은 아니거든요. 그냥 돈을 빼앗거나 명의 도용, 피싱을 하는 경우도 많으니까요. 그렇죠?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1096.9,
+   "en": "So all of those, you know, it's sort of, it's, it's probably going to happen and just monitoring your accounts and making sure your fraud alerts, all of that is helpful.",
+   "ko": "그러니까 그런 일들은 누구에게나 일어날 수 있고, 계좌를 모니터링하고 사기 알림을 설정하는 것 등이 모두 도움이 됩니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1106.9,
+   "en": "In terms of these like, like the pig butchering or the imposter or the romance scam, the best intervention is a third party.",
+   "ko": "도살 사기나 사칭 사기, 로맨스 사기 같은 경우에는 제삼자의 개입이 가장 좋은 방법입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1116.5,
+   "en": "Someone to say, Kim, take a breath. Hold on. You know, it's, you always pay your taxes on time. the IRS doesn't really call people.",
+   "ko": "누군가 '킴, 진정해 봐요. 잠깐만요. 당신은 항상 세금을 제때 냈잖아요. 국세청은 보통 전화를 안 해요'라고 말해주는 것이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1126.2,
+   "en": "Let's figure this out. Let's take a step back.",
+   "ko": "같이 알아봐요. 한 걸음 물러나 봅시다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1130.3,
+   "en": "Maybe that's why depressed lonely people don't necessarily have that third party that they can use as a sounding board because the best scams, they get you enmeshed quickly and then they leverage you.",
+   "ko": "우울하고 외로운 사람들에게 의견을 나눌 제삼자가 없는 것이 문제일 수 있습니다. 정교한 사기는 당신을 빠르게 얽매이게 하고 당신을 이용하니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1144.8,
+   "en": "Once they have some of your money or in the game and other psychological mechanisms some kick in to keep you engaged. I know that's depressing, but I think, you know, overconfidence is a risk.",
+   "ko": "일단 당신의 돈 일부를 가졌거나 게임에 끌어들이면, 당신을 계속 붙잡아 두기 위해 다른 심리적 기제들이 작동합니다. 우울한 이야기지만, 과도한 자신감도 위험 요소라고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1159.1,
+   "en": "So, you know, believing you're gonna be able to discern credible from not credible people approaching you. So, yeah, I'm just very, I think I just become very skeptical.",
+   "ko": "자신에게 접근하는 사람들의 신뢰성을 잘 판단할 수 있을 것이라고 믿는 것이죠. 그래서 저는 그냥 아주 회의적인 태도를 갖게 되었습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1170.5,
+   "en": "So clearly there's a limit to what we can do individually. I mean, asking a third party for input is a good idea, But what should we be doing as a society to combat this fraud?",
+   "ko": "개인이 할 수 있는 일에는 분명 한계가 있군요. 제삼자에게 조언을 구하는 것도 좋은 방법이지만, 사회적으로 이 사기에 맞서기 위해 무엇을 해야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1182.0,
+   "en": "I mean, what responsibilities do banks, technology companies, governments have to protect us from this?",
+   "ko": "은행, 기술 기업, 정부는 우리를 보호하기 위해 어떤 책임을 져야 할까요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1188.6,
+   "en": "Yeah, I think it's more of a structural challenge right now. I totally agree.",
+   "ko": "네, 저는 이것이 현재 더 구조적인 문제라고 생각합니다. 전적으로 동의해요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1193.8,
+   "en": "Yeah, they've surpassed human cognitive resources in terms of social engineering of the scam. So they've figured us out.",
+   "ko": "네, 사기의 사회 공학적 측면에서 그들은 인간의 인지 능력을 넘어섰습니다. 우리를 다 파악한 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1203.5,
+   "en": "I don't want to pick on any particular company, but banks, they do have algorithms that help detect suspicious transactions, but I think those could be improved.",
+   "ko": "특정 회사를 비난하고 싶지는 않지만, 은행에는 의심스러운 거래를 탐지하는 알고리즘이 있는데 더 개선될 수 있다고 생각합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1217.9,
+   "en": "That's definitely an important line of defense. One suggestion some of us make is on your account to have a trusted other.",
+   "ko": "그것은 분명 중요한 방어선입니다. 저희 중 일부가 제안하는 것은 계좌에 '신뢰할 수 있는 타인'을 등록하는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1227.4,
+   "en": "So they can't act or see your account, but that when the bank sends a warning to you, it also is sent to your trusted other to give them a heads up.",
+   "ko": "그들이 계좌를 조작하거나 볼 수는 없지만, 은행에서 경고를 보낼 때 그들에게도 알림이 가서 미리 알 수 있게 하는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1239.1,
+   "en": "Brokerage firms already are able to do it. Banks, I don't know if they're allowed because of confidentiality issues, but that's something people have tried.",
+   "ko": "증권사는 이미 그렇게 할 수 있습니다. 은행은 기밀 유지 문제 때문에 허용되는지 모르겠지만, 사람들이 시도해 온 방법입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1248.5,
+   "en": "In Minnesota, they did pass a law that they could put hold on suspicious transactions. actions. I think it was, I might get it wrong, but it was like two weeks or something. It's either 14 or 21 days.",
+   "ko": "미네소타주에서는 의심스러운 거래를 일시 중단할 수 있는 법안을 통과시켰습니다. 제 기억이 틀릴 수도 있지만 2주 정도였던 것 같아요. 14일이나 21일입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1261.7,
+   "en": "So when you see a person who's had no transactions above $5,000 and then like $100,000 to Thailand, the banks there are able to legally put a hold on the account.",
+   "ko": "평소 5,000달러 이상의 거래가 없던 사람이 갑자기 태국으로 10만 달러를 송금하는 경우, 그곳의 은행은 법적으로 계좌를 동결할 수 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1278.0,
+   "en": "And in many states, they're not allowed to do it. It's a person's money, right? They're they're not necessarily allowed to do that.",
+   "ko": "하지만 많은 주에서는 그것이 허용되지 않습니다. 개인의 돈이니까요, 그렇지 않나요? 마음대로 막을 수는 없는 거죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1285.0,
+   "en": "So that's an experiment that is playing out. Marty Dileema, a researcher there, has been studying it.",
+   "ko": "그래서 그것은 현재 진행 중인 실험입니다. 그곳의 연구원인 마티 딜리마가 이 문제를 연구해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1291.9,
+   "en": "And she says, on the one hand, it's helpful. But on the other hand, the individuals that it's happened to can be very upset.",
+   "ko": "그녀는 그것이 한편으로는 도움이 되지만, 다른 한편으로는 당사자들이 매우 화를 낼 수도 있다고 말합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1303.0,
+   "en": "Because whether it's a scam or not, they believe it was real and they believe in their money.",
+   "ko": "사기이든 아니든 그들은 그것이 진짜라고 믿고 자신의 돈을 믿으니까요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1309.9,
+   "en": "another something else that's being done more in the UK and like to see it here is that the platforms are being held accountable.",
+   "ko": "영국에서 더 많이 시행되고 있고 여기서도 보고 싶은 또 다른 조치는 플랫폼에 책임을 묻는 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1318.3,
+   "en": "Right. So you click on a link on Instagram, you end up losing $100,000. That platform has no liability in the US.",
+   "ko": "맞아요. 인스타그램의 링크를 클릭해서 10만 달러를 잃었다고 해도, 미국에서는 그 플랫폼에 아무런 책임이 없죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1327.4,
+   "en": "You know, and and and so, you know, meta Google, you know, I don't want again, I'm not picking up like it's on all of them. Right. It's not there's.",
+   "ko": "메타나 구글 같은 곳들도, 다시 말씀드리지만 특정 기업을 탓하는 게 아니라 모두가 마찬가지입니다. 맞아요. 그들만 그런 게 아니죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1336.5,
+   "en": "could be doing more, I believe, to be identifying these criminal actors in taking down their sites. They have AI. But they are also paying money.",
+   "ko": "이런 범죄자들을 식별하고 그들의 사이트를 폐쇄하는 데 더 많은 노력을 기울일 수 있다고 믿습니다. 그들은 AI를 가지고 있으니까요. 하지만 사기꾼들도 광고비를 지불하고 있죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1353.5,
+   "en": "I can share that I've been targeted and nearly scammed recently. I was trying to re-book a flight, and I'm not going to say the airline, but they have like often have a long wait time.",
+   "ko": "저도 최근에 타겟이 되어 사기를 당할 뻔한 적이 있습니다. 항공편을 다시 예약하려고 했는데, 항공사 이름은 밝히지 않겠지만 보통 대기 시간이 길거든요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1366.5,
+   "en": "And I noticed I got through right away. I was like, oh, it's my lucky day.",
+   "ko": "그런데 바로 연결되더라고요. '운이 좋은 날이네'라고 생각했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1372.2,
+   "en": "But it was actually like a scam site that came up first in Google that looked quite like the airline.",
+   "ko": "그런데 사실 구글 검색 결과 상단에 뜬, 해당 항공사와 매우 흡사하게 생긴 사기 사이트였습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1380.1,
+   "en": "And until they told me the rebooking fee was like $800 and it's an airline where the rebooking fees usually $75. I'm like, wait a second.",
+   "ko": "재예약 수수료가 800달러라고 할 때까지는 몰랐어요. 보통 수수료가 75달러인 항공사였거든요. 그때 '잠깐만요'라고 생각했죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1390.3,
+   "en": "Again, how the sponsored ads come up first. So I would like to see that being addressed more at that level, that there'd be some liability for the platforms that are hosting criminal activity.",
+   "ko": "다시 말하지만, 협찬 광고가 상단에 뜨는 방식 말입니다. 그래서 범죄 활동을 호스팅하는 플랫폼에 일정 부분 책임을 묻는 수준으로 이 문제가 다뤄지길 바랍니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1405.3,
+   "en": "Now, when you see something like that as a consumer, I mean, should you be reporting that to who the Federal Trade Commission, somebody else, what do you do?",
+   "ko": "소비자로서 그런 일을 겪었을 때 연방거래위원회(FTC)나 다른 곳에 신고해야 하나요? 어떻게 해야 하죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1412.4,
+   "en": "I know I didn't, but that's true. That would have been a good thing to do.",
+   "ko": "저도 신고하지 않았지만, 맞아요. 신고하는 것이 좋았을 거예요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1420.2,
+   "en": "And what about as far as the federal government goes, I mean, are they doing anything? Are you aware of anything in the works? Is the FBI on this?",
+   "ko": "연방 정부 차원에서는 어떤가요? 뭐 진행 중인 게 있나요? FBI가 이 일을 맡고 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1428.1,
+   "en": "The FBI and even the Secret Service and the Postal Inspector's Office are involved in individual scam cases.",
+   "ko": "FBI와 비밀경호국, 그리고 우편조사국까지 개별적인 사기 사건에 관여하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1437.0,
+   "en": "And I've worked with the Postal Inspectors on a number of cases related to when it's coming to the mail, like a lottery scam or a sweepstakes scam.",
+   "ko": "저도 복권 사기나 경품 사기처럼 우편물과 관련된 여러 사건에서 우편조사관들과 협력해 왔습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1446.6,
+   "en": "We did just have a summit, an elder justice summit at the Department of Justice that I attended, trying to help prosecutors both at the AG level and also the state level have better tools for prosecuting cases involving scams.",
+   "ko": "최근 법무부에서 열린 고령자 정의 서밋에 참석했는데, 법무장관급과 주 정부급 검사들이 사기 관련 사건을 기소하는 데 더 나은 도구를 갖출 수 있도록 돕는 노력을 하고 있습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1462.8,
+   "en": "But again, that's at the individual level. So I'm not sure what is happening at a federal level in terms of addressing this problem.",
+   "ko": "하지만 다시 말하지만, 이는 개별 기소 차원의 일입니다. 그래서 이 문제를 근본적으로 해결하기 위해 연방 차원에서 무엇이 진행되고 있는지는 확실하지 않습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1474.0,
+   "en": "Well, just to wrap up, what do you see coming down the pike and what are you working on now? What are the big questions you're still trying to answer?",
+   "ko": "마무리하면서, 앞으로 어떤 변화를 예상하시나요? 현재 어떤 연구를 하고 계시며 아직 답을 찾고 있는 중요한 질문은 무엇인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 1480.6,
+   "en": "Something that's been of interest to me are the cases like the Elon Musk case that I started with in terms of the development of that extreme belief.",
+   "ko": "제가 관심을 가져온 것은 처음에 언급했던 일론 머스크 사례처럼 극단적인 믿음이 형성되는 과정에 관한 것입니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1491.1,
+   "en": "And I've been interested in looking at other populations where ultimately individuals develop extreme beliefs like In conspiracy theories, you know or or or those that there's these individuals that believe the sovereign citizens they don't have to pay taxes and They face federal prison, you know",
+   "ko": "또한 음모론이나 세금을 낼 필요가 없다고 믿는 자칭 '자유인'들처럼 극단적인 믿음을 갖게 되는 다른 집단들을 살펴보는 데 관심이 있었습니다. 그들은 감옥에 갈 위기에 처해 있음에도 말이죠.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1510.1,
+   "en": "They really become entrenched in this belief and and I've been very interested in how that process works how narratives are reinforced, how you take someone that does not have a psychological disorder and essentially create one.",
+   "ko": "그들은 이 믿음에 정말 깊이 빠져듭니다. 저는 그 과정이 어떻게 진행되는지, 서사가 어떻게 강화되는지, 그리고 어떻게 심리적 장애가 없는 사람에게 사실상 장애를 만들어내는지에 매우 관심이 많습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1523.2,
+   "en": "So in my lab, we were looking at a scale that's been used to identify deviations in rationality, that it increased for conspiracy theory, and using it with scam victims, and people at risk for scams to see if there's parallels. It seems like there is.",
+   "ko": "그래서 저희 연구실에서는 음모론에 대한 믿음이 강해질 때 나타나는 합리성 일탈 척도를 살펴보고 있으며, 이를 사기 피해자와 위험군에게 적용하여 유사점이 있는지 확인하고 있습니다. 있는 것 같습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1541.6,
+   "en": "Well, this is all very interesting and helpful. I hope that we're raising some awareness out there. I want to thank you for joining me today, Dr. Wood.",
+   "ko": "매우 흥미롭고 도움이 되는 말씀이었습니다. 이번 대화가 사람들의 인식을 높이는 데 도움이 되기를 바랍니다. 오늘 함께해주셔서 감사합니다, 우드 박사님.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1549.3,
+   "en": "Yeah, it's been a pleasure. Thanks for taking on this topic.",
+   "ko": "네, 즐거웠습니다. 이 주제를 다뤄주셔서 감사합니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 1553.5,
+   "en": "You can read more about Dr. Wood's work and the work other psychologists are doing to combat fraud. In the October issue of APA's magazine, monitor on psychology. Go to www.apa.org-slash-monitor. future.",
+   "ko": "우드 박사님의 연구와 사기에 맞서 싸우는 다른 심리학자들의 활동에 대해 더 자세히 알아보실 수 있습니다. APA 매거진인 'Monitor on Psychology' 10월호를 참고하세요. www.apa.org/monitor를 방문해 보시기 바랍니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1568.1,
+   "en": "You can also find previous episodes of Speaking of Psychology on our website at speakingofpsychologyatapa.org or on Apple, Spotify, YouTube, or wherever you get your podcasts.",
+   "ko": "또한 Speaking of Psychology의 이전 에피소드는 웹사이트 speakingofpsychologyatapa.org나 애플, 스포티파이, 유튜브 또는 기타 팟캐스트 플랫폼에서 찾으실 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1580.3,
+   "en": "And if you like what you've heard, please subscribe and leave us a review. If you have comments or ideas for future episodes, you can email us at speakingofpsychologyatapa.org.",
+   "ko": "내용이 좋으셨다면 구독해 주시고 리뷰를 남겨주세요. 향후 에피소드에 대한 의견이나 아이디어가 있으시면 speakingofpsychologyatapa.org로 이메일을 보내주시기 바랍니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 1591.9,
+   "en": "Speaking of psychology is produced by Lee Weinermann. Thank you for listening. For the American Psychological Association, I'm Kim Mills.",
+   "ko": "Speaking of Psychology는 리 와이너먼이 제작했습니다. 들어주셔서 감사합니다. 미국 심리학회를 대표하여, 저는 킴 밀스였습니다.",
+   "speaker": "Host"
+  }
+ ]
+}
