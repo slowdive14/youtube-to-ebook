@@ -1,0 +1,1333 @@
+{
+ "id": "c0kUqeV3kH8",
+ "title": "Too Big to Fire: Jensen Huang’s Return to Nvidia",
+ "show": "The Daily",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=c0kUqeV3kH8",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/03d8b493-87fc-4bd1-931f-8a8e9b945d8a/episodes/7dffca51-7bbc-4928-85e0-ea912edaa244/audio/128/default.mp3?aid=rss_feed&awCollectionId=03d8b493-87fc-4bd1-931f-8a8e9b945d8a&awEpisodeId=7dffca51-7bbc-4928-85e0-ea912edaa244&feed=Sl5CSM3S",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/1e/8b/b11e8b03-e7ee-4e1a-d6e7-5bd97340c415/mza_17206924589966175320.jpg/600x600bb.jpg",
+ "duration": 1960,
+ "releaseDate": "2026-11-24T10:45:00Z",
+ "addedAt": "2026-11-25",
+ "segments": [
+  {
+   "start": 0.7,
+   "en": "My name is Kayla. My husband and I use his email address to access the New York Times.",
+   "ko": "제 이름은 케일라입니다. 제 남편과 저는 남편의 이메일 주소로 뉴욕 타임즈에 접속해요.",
+   "speaker": "Kayla",
+   "ad": true
+  },
+  {
+   "start": 7.2,
+   "en": "Each day we compete for who gets to do connections. Sometimes I log into the app and I discover that he's already finished connections that day.",
+   "ko": "매일 저희는 누가 커넥션즈 게임을 할지 경쟁해요. 가끔 앱에 로그인해 보면 남편이 그날의 게임을 이미 끝내놓은 걸 발견하죠.",
+   "speaker": "Kayla",
+   "ad": true
+  },
+  {
+   "start": 17.3,
+   "en": "And I'm like Jonah, it was my day! And he's like I know I just couldn't resist.",
+   "ko": "그러면 제가 \"조나, 오늘은 내 차례였잖아!\"라고 하고, 남편은 \"나도 알아, 그냥 참을 수가 없었어\"라고 답하죠.",
+   "speaker": "Kayla",
+   "ad": true
+  },
+  {
+   "start": 22.1,
+   "en": "You would do us a huge favor if we got to log in as a family with separate emails. I really think our well-being as a couple depends on it.",
+   "ko": "가족이 각자 다른 이메일로 로그인할 수 있게 해주신다면 큰 도움이 될 거예요. 저희 부부의 평화가 여기에 달려 있다고 생각하거든요.",
+   "speaker": "Kayla",
+   "ad": true
+  },
+  {
+   "start": 32.0,
+   "en": "Thanks for looking into this.",
+   "ko": "이 문제를 검토해 주셔서 감사합니다.",
+   "speaker": "Kayla",
+   "ad": true
+  },
+  {
+   "start": 34.1,
+   "en": "Kayla, we heard you. It's why we created the New York Times family subscription.",
+   "ko": "케일라 님, 여러분의 의견을 들었습니다. 그래서 뉴욕 타임즈 가족 요금제를 만들었습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 38.8,
+   "en": "One subscription up to four separate logins for anyone in your life. Find out more at nytimes.com.",
+   "ko": "구독 하나로 최대 4명까지 각자 로그인할 수 있습니다. 자세한 내용은 nytimes.com에서 확인하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 45.3,
+   "en": "We have breaking news right now. Oh, my God.",
+   "ko": "방금 들어온 속보가 있습니다. 세상에.",
+   "speaker": "Host"
+  },
+  {
+   "start": 52.3,
+   "en": "From New York Times, I'm Michael Barbaro. This is The Daily.",
+   "ko": "뉴욕 타임즈에서 전해드리는 저는 마이클 바바루입니다. 오늘 순서 시작합니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 57.5,
+   "en": "Don't go to break. Hold up. Hold up.",
+   "ko": "방송 멈추지 마세요. 잠깐만요. 기다려 보세요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 59.3,
+   "en": "They're reinstating Jensen Huang and it's effective immediately. I know it's unbelievable.",
+   "ko": "젠슨 황이 복직됩니다. 즉시 효력이 발생합니다. 믿을 수 없는 일이 벌어졌네요.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 65.4,
+   "en": "Today, Nvidia's board has reinstated Jensen Huang as the president and CEO and director of their board. Holy cow.",
+   "ko": "오늘 엔비디아 이사회가 젠슨 황을 사장 겸 CEO, 그리고 이사회 이사로 복직시켰습니다. 정말 놀랍습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 77.5,
+   "en": "The extraordinary inside story of how President Trump persuaded Nvidia to bring back Jensen Huang as its CEO.",
+   "ko": "트럼프 대통령이 어떻게 엔비디아를 설득해 젠슨 황을 CEO로 복귀시켰는지, 그 놀라운 뒷이야기를 전해드립니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 85.4,
+   "en": "So what changed? What did you say to them to convince them otherwise?",
+   "ko": "그래서 무엇이 바뀌었나요? 그들을 설득하기 위해 뭐라고 하셨습니까?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 90.2,
+   "en": "Well, I spoke to them. Let me just put it that way. And I convinced them.",
+   "ko": "글쎄요, 그들과 대화를 좀 나눴죠. 그렇게만 말씀드릴게요. 그리고 제가 그들을 설득했습니다.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 95.5,
+   "en": "And what Huang's return reveals about power and impunity in the age of AI.",
+   "ko": "황의 복귀가 AI 시대의 권력과 면죄부에 대해 무엇을 시사하는지도 살펴봅니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 103.0,
+   "en": "I spoke with White House reporter Jonathan Swan and business reporter Tripp Mickle. It's Tuesday, November 26th.",
+   "ko": "백악관 출입기자 조나단 스완, 그리고 비즈니스 전문 기자 트립 미클과 이야기 나눴습니다. 11월 26일 화요일입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 116.1,
+   "en": "Tripp, Jonathan, quite a day, wouldn't you say?",
+   "ko": "트립, 조나단, 정말 대단한 하루였죠, 그렇지 않나요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 119.4,
+   "en": "I'd say so, yeah. Yeah. Jampacked.",
+   "ko": "정말 그렇습니다. 네, 아주 빽빽한 하루였죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 123.6,
+   "en": "So, Tripp, Jensen Huang is back as CEO of Nvidia, improbably.",
+   "ko": "트립, 젠슨 황이 불가능해 보였던 엔비디아 CEO로 복귀했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 130.0,
+   "en": "And Jonathan, President Trump is saying unambiguously that he's the reason why.",
+   "ko": "그리고 조나단, 트럼프 대통령은 자신이 그 이유라고 분명하게 말하고 있습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 136.1,
+   "en": "And so we brought you both here to make sense of how exactly this happened based on what you've learned in your reporting, and then of course we'll talk about what it all means.",
+   "ko": "그래서 두 분을 모시고 취재한 내용을 바탕으로 정확히 어떻게 이런 일이 일어났는지, 그리고 이것이 무엇을 의미하는지 이야기해 보겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 145.0,
+   "en": "I want to just recap really briefly this absolutely wild week and a half that preceded this.",
+   "ko": "그전에 앞서 있었던 정말 긴박했던 열흘간의 상황을 짧게 정리해 보고 싶습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 152.1,
+   "en": "You both broke the story that Jensen Huang was involved with a woman American officials determined was a Chinese intelligence asset who was funneling information to China,",
+   "ko": "두 분은 젠슨 황이 미국 당국이 중국 정보 자산으로 규정한 여성과 연루되어 정보를 유출했다는 기사를 특종 보도하셨죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 161.4,
+   "en": "that they were having an affair, and that Trump knew about it and did nothing.",
+   "ko": "그들이 불륜 관계였으며, 트럼프가 이를 알고도 아무 조치를 취하지 않았다는 내용이었습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 166.8,
+   "en": "And of course, Huang, Nvidia and China deny this, then Huang admitted that he did have this affair, but said he didn't know that this woman was a spy.",
+   "ko": "물론 황과 엔비디아, 중국 측은 이를 부인했지만, 이후 황은 불륜 사실은 인정하면서도 그녀가 스파이인 줄은 몰랐다고 말했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 176.5,
+   "en": "Then you all broke that Huang had an affair with a second woman, a direct subordinate at Nvidia, and he resigns under tremendous pressure after that's revealed.",
+   "ko": "그 후 여러분은 황이 엔비디아의 직속 부하 직원인 두 번째 여성과도 불륜 관계였다는 사실을 밝혀냈고, 그것이 폭로되자 그는 엄청난 압박 속에 사임했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 187.5,
+   "en": "I think that's where we left off at 2 a.m. a couple of Wednesdays ago. Does that sound about right?",
+   "ko": "제 생각에 그게 몇 주 전 수요일 새벽 2시쯤 상황이었던 것 같은데, 맞나요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 193.0,
+   "en": "So tell me from each of your vantage point what happened, how Jensen Huang got this job back, Jonathan from the White House in your case, Tripp from Silicon Valley inside Nvidia in your case.",
+   "ko": "네. 그럼 각자의 관점에서 어떤 일이 있었는지, 젠슨 황이 어떻게 다시 복직하게 되었는지 말씀해 주세요. 조나단 기자는 백악관에서, 트립 기자는 실리콘밸리 엔비디아 내부에서 본 상황을요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 206.9,
+   "en": "So Trump was accurate in taking credit for this. He deserves just about all the credit for Jensen Huang getting his job back.",
+   "ko": "트럼프가 이 일에 대해 자신의 공이라고 주장하는 건 정확합니다. 젠슨 황이 복직한 건 거의 전적으로 그의 덕분이니까요.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 216.4,
+   "en": "Not only did Trump dismiss the warnings from his team about Jensen Huang's relationship with and all these national security concerns.",
+   "ko": "트럼프는 젠슨 황의 관계와 모든 국가 안보 우려에 대한 팀의 경고를 묵살했을 뿐만 아니라요.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 223.6,
+   "en": "As soon as the story broke into public view via the New York Times, Trump saw it as his mission to save Jensen Huang and was privately urging him to fight for his job.",
+   "ko": "뉴욕 타임즈를 통해 이야기가 공개되자마자, 트럼프는 젠슨 황을 구하는 것을 자신의 임무로 보고 사적으로 그에게 직위를 지키기 위해 싸우라고 종용했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 236.2,
+   "en": "Trump views Jensen Huang as inextricably tied to the health of the US economy and the success of the American stock market.",
+   "ko": "트럼프는 젠슨 황이 미국 경제의 건전성 및 미국 주식 시장의 성공과 불가분하게 연결되어 있다고 봅니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 244.2,
+   "en": "So he saw this as an important mission and starts publicly jaw-boning the Nvidia board, pressuring them publicly to reinstate Jensen Huang.",
+   "ko": "그래서 그는 이를 중요한 임무로 여겼고, 엔비디아 이사회를 공개적으로 압박하며 젠슨 황을 복직시키라고 종용하기 시작했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 253.9,
+   "en": "Right. And while President Trump began to jawbone the board, Jensen was taking Trump quite literally at his word and preparing to fight, but in a very like kind, gentle way.",
+   "ko": "맞습니다. 트럼프 대통령이 이사회를 압박하기 시작하는 동안, 젠슨은 트럼프의 말을 문자 그대로 받아들이고 아주 친절하고 부드러운 방식으로 싸울 준비를 하고 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 265.8,
+   "en": "So on Tuesday morning, he came out with a statement saying, I'm sorry, essentially again.",
+   "ko": "그래서 화요일 아침, 그는 기본적으로 다시 한번 죄송하다는 성명을 발표했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 271.1,
+   "en": "And if the board would consider having me back as CEO, I would welcome the opportunity to return to Nvidia.",
+   "ko": "그리고 \"이사회가 저를 CEO로 복귀시키는 것을 고려해 주신다면, 엔비디아로 돌아갈 기회를 기꺼이 받아들이겠다\"고 했죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 278.1,
+   "en": "This is on the same day that Nvidia was reporting quarterly earnings for the quarter ended in October.",
+   "ko": "이날은 공교롭게도 엔비디아가 10월에 마감된 분기 실적을 발표하는 날이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 284.2,
+   "en": "And so they report earnings had a great quarter. The stock goes up 4% in the hour or so after the report.",
+   "ko": "실적 발표 결과는 훌륭했습니다. 발표 후 한 시간 만에 주가가 4% 상승했죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 292.0,
+   "en": "And then they have an earnings call with Wall Street. And during that call, the chairman says, absolutely not.",
+   "ko": "그리고 월스트리트와 실적 발표 컨퍼런스 콜을 가졌는데, 그 도중에 의장이 \"절대 안 된다\"고 말했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 298.0,
+   "en": "The board is unanimous. Jensen's not coming back. And that climb that the stock had begun to make starts to reverse.",
+   "ko": "이사회의 의견은 만장일치로, 젠슨은 돌아오지 않는다는 것이었습니다. 그러자 오르기 시작했던 주가가 반전되기 시작했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 304.5,
+   "en": "and the company begins to go into something of a free fall. And by the end of the week, they lost about one and a half trillion dollars worth of value.",
+   "ko": "그리고 회사는 폭락하기 시작했습니다. 그 주 말까지 약 1조 5천억 달러의 시가총액이 증발했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 313.4,
+   "en": "And investors start calling the board, former employees start pressuring the board.",
+   "ko": "그러자 투자자들이 이사회에 전화를 걸기 시작했고, 전직 직원들도 이사회를 압박하기 시작했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 318.8,
+   "en": "They're saying the best man for the job as you look to fill the CEO position is the man who had the job that you just, you know, accepted the resignation of.",
+   "ko": "그들은 공석인 CEO 자리를 채울 적임자는 바로 방금 사임을 수락한 그 사람이라고 말하고 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 332.4,
+   "en": "And Tripp, as all this is going on, you and a team out in San Francisco and in New York are reporting on exactly what's going on inside Nvidia",
+   "ko": "트립, 이 모든 일이 일어나는 동안 당신과 샌프란시스코 및 뉴욕 팀은 엔비디아 내부에서 정확히 무슨 일이 벌어지고 있는지 취재하고 있었죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 341.2,
+   "en": "and what you found did not at all bolster the case for bringing him back.",
+   "ko": "그리고 당신이 발견한 것들은 그의 복귀 명분을 전혀 뒷받침하지 못했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 348.7,
+   "en": "I mean, it revealed him to be among the most difficult, maybe even abusive bosses I've ever read about.",
+   "ko": "제 말은, 그는 제가 여태껏 읽어본 중 가장 까다롭고, 어쩌면 폭압적이기까지 한 상사였다는 사실이 드러났다는 겁니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 354.9,
+   "en": "There were two things that we learned in our reporting on the business side of this about Jensen's leadership. One is what you alluded to, which is that he could be abusive.",
+   "ko": "젠슨의 리더십에 대해 취재하며 알게 된 비즈니스 측면의 사실이 두 가지 있습니다. 하나는 말씀하신 대로 그가 폭압적일 수 있다는 것이었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 363.8,
+   "en": "We knew that he had adopted and made foundational to the company this belief that he had that tortured into greatness is how to make Nvidia the most elite company in the world.",
+   "ko": "그는 \"고통을 통한 위대함\"이라는 신념을 회사 기조로 삼아 엔비디아를 세계 최고의 엘리트 기업으로 만들고자 했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 378.3,
+   "en": "But what we didn't know was how that manifested itself. And we got our hands on some documents last week, some contemporaneous notes that really spelled that out,",
+   "ko": "하지만 그것이 어떻게 나타나는지는 몰랐죠. 그런데 지난주에 당시 상황이 기록된 메모 등 구체적인 내용이 담긴 문서들을 입수했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 388.6,
+   "en": "including some of the verbal abuse that he would hurl at some of his direct reports.",
+   "ko": "거기에는 그가 직속 부하들에게 퍼부은 언어폭력들이 포함되어 있었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 394.0,
+   "en": "Like, I'm going to rip your skull off and pee on your brain, and I'm going to tear off both your arms and kill you with them.",
+   "ko": "\"네 해골을 쪼개서 네 뇌에 소변을 보겠다\"거나, \"네 양팔을 뜯어내서 그걸로 널 죽여버리겠다\" 같은 말들이었죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 400.9,
+   "en": "And your mother should have aborted you. I mean, pretty harsh and caustic comments. And that was just part of the culture for decades at the company.",
+   "ko": "심지어 \"네 어머니가 널 낙태했어야 했다\"는 말도 있었습니다. 아주 가혹하고 비수 같은 말들이 수십 년간 회사 문화의 일부였습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 411.4,
+   "en": "Right. So, taken together, it really starts to get very hard to imagine that Jensen Huang could come back.",
+   "ko": "그렇군요. 이 모든 것을 종합해 보면, 젠슨 황이 복귀한다는 것은 정말 상상하기 어려운 일처럼 보이기 시작합니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 420.3,
+   "en": "Then he could have an incredibly... as the, we were all pretty shocked this morning when we saw the alert that he was being reinstated.",
+   "ko": "그런데 오늘 아침 그가 복직되었다는 알림을 보고 우리 모두는 꽤 충격을 받았습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 428.0,
+   "en": "I mean, we published in the New York Times last night a story which the White House didn't refute. They declined to comment.",
+   "ko": "어젯밤 뉴욕 타임즈에 기사를 냈는데, 백악관은 이를 부인하지 않았습니다. 논평을 거부했죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 435.0,
+   "en": "and the story outlined that U.S. intelligence agencies have collected intelligence and evidence that the Chinese woman who Jensen was having a secret affair with,",
+   "ko": "기사 내용은 미 정보 당국이 젠슨과 비밀리에 불륜 관계였던 중국인 여성에 대한 증거를 수집했다는 것이었습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 445.8,
+   "en": "for more than a year, overlapping with the time she was having an affair with him, kept in contact with an officer of China's top spy agency.",
+   "ko": "그녀가 그와 불륜 관계였던 시기와 겹치는 1년 넘는 기간 동안 중국 최고 정보 기관의 요원과 접촉해 왔다는 내용입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 454.6,
+   "en": "We also reported last night that her business partner, the man she would introduce as her husband, there's also evidence that he worked for the same Chinese spy agency, the Ministry of State Security.",
+   "ko": "또한 그녀의 사업 파트너이자 남편이라고 소개했던 남성 역시 중국 국가안전부(MSS)에서 일했다는 증거가 미 정보 당국에 있다는 사실도 보도했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 468.7,
+   "en": "So Trump intervened at a moment when things really couldn't have looked worse for Jensen Huang.",
+   "ko": "젠슨 황에게 이보다 더 최악일 수 없는 상황에서 트럼프가 개입한 것입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 476.0,
+   "en": "Mm-hmm. Well, Jonathan, say just a little bit more about what we've learned actually happened over the weekend and why the president may be right to take credit for this.",
+   "ko": "조나단, 지난 주말에 실제로 어떤 일이 있었는지, 그리고 왜 대통령이 이 일에 대해 생색을 내는 것이 맞는지 조금 더 설명해 주시겠어요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 486.0,
+   "en": "I mean, what was his pitch to the board? How did he prevail upon this board that had so explicitly said it's not going to happen?",
+   "ko": "이사회를 어떻게 설득했나요? 절대 안 된다고 단호하게 말했던 이사회를 어떻게 굴복시킨 건가요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 493.3,
+   "en": "He's never going to come back to be like, welcome back.",
+   "ko": ""
+  },
+  {
+   "start": 496.2,
+   "en": "Firstly, we're still piecing it together. But here's what we've learned so far.",
+   "ko": "먼저, 아직 조각들을 맞추는 중입니다만, 지금까지 파악한 내용은 이렇습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 499.7,
+   "en": "Late last week, Nvidia stocks in free fall. On Friday, Trump decides he wants to really intervene and make an effort to try to reverse this situation.",
+   "ko": "지난주 말, 엔비디아 주가가 폭락했습니다. 금요일에 트럼프는 본격적으로 개입해서 이 상황을 반전시키기로 결심합니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 510.3,
+   "en": "Among other things, he calls the vice president, J.D. Vance. And he asks J.D. Vance to talk to Jensen Huang and to give the Nvidia Board the assurances",
+   "ko": "그는 무엇보다도 J.D. 밴스 부통령에게 전화를 걸었습니다. 그리고 밴스에게 젠슨 황과 이야기하고 이사회에 확신을 주라고 요청했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 523.1,
+   "en": "that the US government under Trump does not believe that Jensen Huang poses a national security risk if they were to reinstate him.",
+   "ko": "트럼프 정부는 젠슨 황이 복직되더라도 국가 안보에 위협이 되지 않는다고 판단한다는 확신 말이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 531.0,
+   "en": "And that Jensen Huang faces no prospect of criminal charges, which is an extraordinary thing to say.",
+   "ko": "그리고 젠슨 황이 형사 처벌을 받을 가능성도 없다는 것이었는데, 이는 정말 놀라운 발언입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 537.6,
+   "en": "Right, because there's an investigation. Yes, there is, as the DOJ says, an ongoing investigation into MegaSpeed and Alice Wang,",
+   "ko": "맞아요, 수사가 진행 중이니까요. 네, 법무부에 따르면 메가스피드와 앨리스 왕에 대한 수사가 진행 중입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 544.8,
+   "en": "but Trump has said he's exonerated and they have pre-exonerated him.",
+   "ko": "하지만 트럼프는 그가 혐의를 벗었다고 말했고, 미리 면죄부를 준 셈입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 550.5,
+   "en": "Right, it's almost like a presidential pardon of a sort, to Jensen Huang.",
+   "ko": "맞습니다. 젠슨 황에 대한 일종의 대통령 사면 같은 겁니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 554.8,
+   "en": "It's saying to the board, nothing bad will come to him in the criminal system I uniquely oversee under this presidency before the investigations have had a chance to run their course.",
+   "ko": "수사가 끝나고 형사 처벌 여부가 결정되기도 전에, 대통령으로서 자신이 관할하는 사법 체계 하에서 그에게 나쁜 일은 없을 것이라고 이사회에 말한 것입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 565.4,
+   "en": "and determine whether he should face criminal charges.",
+   "ko": ""
+  },
+  {
+   "start": 567.9,
+   "en": "And you can't get a more ironclad statement than that because as you just alluded to, it's not just Donald Trump saying this.",
+   "ko": "방금 언급하셨듯이, 단순히 도널드 트럼프 개인의 말이 아니기 때문에 이보다 더 강력한 보증은 없습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 575.7,
+   "en": "It's the fact that his own justice department, which is run by his own former personal lawyer Todd Blanche. Trump has said, the AG told me this is fine.",
+   "ko": "그의 개인 변호사였던 토드 블랜치가 이끄는 법무부의 입장이기도 하니까요. 트럼프는 법무장관이 괜찮다고 했다고 말했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 586.6,
+   "en": "So you are getting a green light from the president of the United States, from the vice president of the United States and from the Trump Justice Department. It doesn't get much better than that.",
+   "ko": "미국 대통령, 부통령, 그리고 법무부로부터 초록불을 받은 겁니다. 이보다 더 확실할 수는 없죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 596.6,
+   "en": "Right. The definition of a get out of jail free card from the president.",
+   "ko": "맞습니다. 대통령이 준 완벽한 형사 처벌 면제권이군요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 599.9,
+   "en": "I mean, why be clear? We don't have evidence. We have not reported evidence that Jensen Huang knowingly participated in crimes. We have not reported that.",
+   "ko": "분명히 해두자면, 젠슨 황이 고의로 범죄에 가담했다는 증거는 없습니다. 저희도 그런 보도를 한 적이 없고요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 608.4,
+   "en": "But this is an ongoing investigation into alleged chip smuggling of Nvidia chips allegedly into China. So to declare this before the investigation is complete is extraordinary.",
+   "ko": "하지만 엔비디아 칩의 중국 밀반출 의혹에 대한 수사가 진행 중인 상황에서, 수사가 끝나기도 전에 이렇게 선언하는 것은 이례적입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 623.3,
+   "en": "Yeah. But does that mean that they're totally sheltered from any legal risk?",
+   "ko": "네. 하지만 그렇다고 해서 그들이 모든 법적 리스크로부터 완전히 안전하다는 뜻일까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 628.9,
+   "en": "They're sheltered from federal legal risk, but they still face at least two state lawsuits as well as shareholder lawsuits.",
+   "ko": "연방 법적 리스크에서는 벗어났지만, 주 단위의 소송 최소 두 건과 주주 소송이 여전히 남아 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 635.8,
+   "en": "They're still, you know, the possibility that they have some kind of civil damages that they'll face as a board.",
+   "ko": "이사회로서 민사상 손해 배상 책임을 지게 될 가능성도 여전하고요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 643.2,
+   "en": "So the president can provide some air cover, but not absolute air cover.",
+   "ko": "대통령이 어느 정도 보호막이 되어줄 수는 있지만, 절대적인 것은 아닙니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 647.6,
+   "en": "And I think that's clearly something we're going to have to watch and pay attention to as this plays out.",
+   "ko": "이 상황이 전개됨에 따라 우리가 분명히 지켜보고 주목해야 할 부분이라고 생각합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 652.2,
+   "en": "not to mention half of Congress on both sides of the aisle reacted somewhat negatively to this, if not absolutely negatively, and reiterated their commitment to having Jensen testify in a closed-door hearing.",
+   "ko": "여야를 막론하고 의회의 절반가량이 이에 부정적으로 반응하며 젠슨을 비공개 청문회 증언대에 세우겠다는 의지를 재확인했다는 점은 말할 것도 없고요.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 664.6,
+   "en": "And not even just half. It's not just Democrats. Actually, there are quite a few Republicans on the Hill, particularly Republicans who are more hawkish on national security in China who are not happy about this.",
+   "ko": "절반 정도가 아닙니다. 민주당원들만의 이야기도 아니고요. 사실 의회에는 꽤 많은 공화당원들, 특히 국가 안보와 중국 문제에 강경한 의원들이 이번 결정에 불만을 품고 있습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 674.4,
+   "en": "So you could actually see potential for bipartisan investigative focus on Nvidia.",
+   "ko": "따라서 엔비디아에 대해 초당적인 수사가 집중될 가능성도 있습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 681.4,
+   "en": "So I agree with everything Tripp just said, but clearly the Nvidia board felt that the green light that they got from Trump and from his DOJ was enough to justify the risk of bringing back Jensen Huang.",
+   "ko": "트립 기자의 말에 동의합니다만, 엔비디아 이사회는 트럼프와 법무부의 승인이 젠슨 황을 복귀시키는 위험을 감수할 만큼 충분하다고 판단한 것이 분명합니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 697.4,
+   "en": "I think that now brings us to Monday morning when we learn Jensen Huang is back in the CEO's seat and there's kind of a split-screen reaction with Trump on one side and Jensen Huang and Nvidia on the other.",
+   "ko": "이제 젠슨 황이 CEO 자리에 복귀했다는 소식이 전해진 월요일 아침으로 가보죠. 한쪽엔 트럼프, 다른 한쪽엔 젠슨 황과 엔비디아가 있는 분할 화면 같은 반응이 있었습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 713.8,
+   "en": "Just describe that.",
+   "ko": "그 상황을 설명해 주시죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 715.5,
+   "en": "Well, from the Trump vantage point, the statement goes out. Trump posts on Truth Social this long post praising the Nvidia board for making the correct decision,",
+   "ko": "트럼프 측에서는 성명이 발표되었습니다. 트럼프는 트루스 소셜에 엔비디아 이사회의 올바른 결정을 칭찬하는 긴 글을 올렸죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 727.5,
+   "en": "praising Jensen Huang as a great man, a great patriot, and suggesting that now he's open to the possibility that maybe some wrongdoing happened, but Jensen Huang is blameless.",
+   "ko": "젠슨 황을 위대한 인물이자 애국자라고 치켜세우며, 어떤 잘못이 있었을 수도 있지만 젠슨 황에게는 책임이 없다는 식으로 암시했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 741.2,
+   "en": "Trump then proceeds to take a victory lap.",
+   "ko": "그러고 나서 트럼프는 승리 선언을 하러 나섰습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 743.7,
+   "en": "Mr. President, thank you for joining us on CNBC. Love to get your first reaction here to this incredible news this morning and also your sense of what happened over the weekend.",
+   "ko": "대통령님, CNBC와 함께해 주셔서 감사합니다. 오늘 아침 이 놀라운 소식에 대한 첫 소감과 지난 주말에 어떤 일이 있었는지 듣고 싶습니다.",
+   "speaker": "Guest"
+  },
+  {
+   "start": 752.6,
+   "en": "What changed here, sir?",
+   "ko": "무엇이 바뀌었습니까?",
+   "speaker": "Guest"
+  },
+  {
+   "start": 753.9,
+   "en": "Well, it's very exciting news and I...",
+   "ko": "글쎄요, 아주 흥미로운 소식이고 제가...",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 756.0,
+   "en": "Taking calls from reporters and going on television, he took a call from our colleague Maggie Haberman and claimed credit for getting the board to do this.",
+   "ko": "기자들의 전화를 받고 TV에 출연하면서, 그는 저희 동료인 매기 해버먼과 통화하며 이사회를 움직인 것이 자신의 공이라고 주장했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 765.0,
+   "en": "Well, I've been speaking to the board directly and indirectly and I felt very strongly about it and I felt more strongly. The board ended up doing a great job.",
+   "ko": "글쎄요, 저는 이사회와 직간접적으로 이야기를 나눴고, 이에 대해 아주 강한 확신을 가지고 있었습니다. 결국 이사회가 훌륭한 결정을 내렸죠.",
+   "speaker": "Donald Trump"
+  },
+  {
+   "start": 771.2,
+   "en": "He went on CNBC and did a long interview. I haven't seen Trump this excited almost giddy since after winning the 2024 election.",
+   "ko": "그는 CNBC에 출연해 긴 인터뷰를 했습니다. 2024년 대선 승리 이후로 트럼프가 이렇게 들뜨고 신이 난 모습은 처음 봅니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 785.9,
+   "en": "It appeared and advisors said that he saw this as the ultimate power move.",
+   "ko": "그는 이것을 궁극적인 권력 행사로 여겼고 고문들도 그렇게 말했습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 794.0,
+   "en": "Right. And right on cue, talking about power, the president seemed to wave a wand and send Nvidia stock up, what, 30% Tripp and send the broader markets up, 3, 4, 5% huge rally.",
+   "ko": "맞습니다. 권력을 휘두르는 것처럼 대통령이 마치 마법 지팡이를 휘두른 듯 엔비디아 주가를 30%나 올렸죠, 트립? 그리고 시장 전반을 3, 4, 5%씩 끌어올리며 엄청난 랠리를 이끌었습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 806.2,
+   "en": "Huge rally. Literally cheering inside of Nvidia too.",
+   "ko": "엄청난 랠리였죠. 말 그대로 엔비디아 내부에서도 환호성이 터져 나왔습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 810.4,
+   "en": "Yeah. When Jensen woke up this morning, he wasn't planning to go to the office. But Jensen did go to the Santa Clara headquarters of Nvidia today.",
+   "ko": "네. 오늘 아침 일어났을 때만 해도 젠슨은 사무실에 갈 계획이 없었습니다. 하지만 결국 오늘 엔비디아의 산타클라라 본사로 향했죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 820.1,
+   "en": "and he walked in and the employees lined the hallway and they applauded and cheered and chanted Jensen Jensen Jensen and he was clearly touched by all of this.",
+   "ko": "그가 들어서자 직원들이 복도에 줄을 서서 박수를 치고 환호하며 '젠슨'을 연호했습니다. 그는 분명히 이 모든 것에 감동한 모습이었죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 839.0,
+   "en": "He clasped his hand in prayers, he bowed his head to everyone, he put his hand over his heart and then he made a joke first.",
+   "ko": "그는 두 손을 모아 기도하듯 쥐고 모두에게 고개를 숙여 인사했으며, 손을 가슴에 얹고는 먼저 농담을 건넸습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 846.7,
+   "en": "Thank you, this is my first day of work. I don't have a computer.",
+   "ko": "감사합니다. 오늘이 제 첫 출근 날이네요. 컴퓨터가 없습니다.",
+   "speaker": "Jensen Huang"
+  },
+  {
+   "start": 854.0,
+   "en": "He said he was going to need a new computer because the IT department would have to provide him one after he lost it lastly the other week when he resigned.",
+   "ko": "지난주 사임하면서 반납했기 때문에 IT 부서에서 새 컴퓨터를 받아야 한다고 말한 거죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 861.8,
+   "en": "And then he got his tone shifted. He became a lot more heartfelt.",
+   "ko": "그러고 나서 어조가 바뀌었습니다. 훨씬 진심 어린 태도가 되었죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 865.2,
+   "en": "I want to thank, I want to thank all of you. Terribly sorry for putting you through all of this.",
+   "ko": "여러분 모두에게 감사드리고 싶습니다. 이 모든 일을 겪게 해드려 정말 죄송합니다.",
+   "speaker": "Jensen Huang"
+  },
+  {
+   "start": 874.3,
+   "en": "And he talked about how apologetic he was and how he had made a mistake.",
+   "ko": ""
+  },
+  {
+   "start": 879.9,
+   "en": "Thank you all for the second chance. I'm going to be a better CEO the second time around.",
+   "ko": "두 번째 기회를 주셔서 감사합니다. 이번에는 더 나은 CEO가 되겠습니다.",
+   "speaker": "Jensen Huang"
+  },
+  {
+   "start": 885.2,
+   "en": "And he promised that now that he was getting a second chance, he was going to return and be a better CEO than he was before he left.",
+   "ko": "그는 두 번째 기회를 얻은 만큼, 떠나기 전보다 더 나은 CEO가 되어 돌아오겠다고 약속했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 894.7,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 다시 돌아오겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 913.1,
+   "en": "Hey, it's Vaughn Vreeland from New York Times Cooking. Baking season is here. Almost any cake can be turned into a one-bowl cake.",
+   "ko": "안녕하세요, 뉴욕 타임즈 쿠킹의 본 브릴랜드입니다. 베이킹의 계절이 왔습니다. 거의 모든 케이크를 볼 하나로 만들 수 있죠.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 926.3,
+   "en": "There's nothing better than a freshly baked croissant from my oven. Oh my god, I could eat five billion of these.",
+   "ko": "오븐에서 막 구워낸 크루아상보다 더 좋은 건 없죠. 세상에, 50억 개라도 먹을 수 있을 것 같아요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 932.0,
+   "en": "That is a brownie. Don't be afraid. This is so forgiving. These are deluxe cookies.",
+   "ko": "이건 브라우니예요. 겁내지 마세요. 정말 만들기 쉽거든요. 이건 고급 쿠키고요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 938.2,
+   "en": "Bake with New York Times Cooking this season. Find all the recipes at nytcooking.com. Subscribe now for a limited time offer.",
+   "ko": "이번 시즌엔 뉴욕 타임즈 쿠킹과 함께 베이킹해 보세요. 모든 레시피는 nytcooking.com에서 보실 수 있습니다. 기간 한정 혜택으로 지금 구독하세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 946.2,
+   "en": "So I want to talk about what Jensen Huang's reinstatement means for Nvidia, for the US relationship with China, and really for the basic idea that actions have consequences.",
+   "ko": "이제 젠슨 황의 복직이 엔비디아와 미중 관계, 그리고 '행동에는 책임이 따른다'는 기본 원칙에 어떤 의미를 갖는지 이야기해 보고 싶습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 957.7,
+   "en": "So the rationale for putting him back in this job seems to rest on a few claims that I think are worth exploring.",
+   "ko": "그를 복직시킨 근거는 몇 가지 주장에 기반한 것으로 보이는데, 살펴볼 가치가 있습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 966.0,
+   "en": "The first is that nothing he did, this is Trump's own words, Vance's own words to the board, threatened national security.",
+   "ko": "첫 번째는 트럼프와 밴스가 이사회에 말했듯이, 그의 어떤 행동도 국가 안보를 위협하지 않았다는 것입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 973.7,
+   "en": "Can we say that for sure, Jonathan? Is that a provable point?",
+   "ko": "조나단, 그걸 확실히 말할 수 있을까요? 증명 가능한 부분인가요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 978.3,
+   "en": "Based on the information we already reported, it's pretty hard to make the case that his actions didn't endanger national security.",
+   "ko": "저희가 이미 보도한 정보에 따르면, 그의 행동이 국가 안보를 위태롭게 하지 않았다고 주장하기는 꽤 어렵습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 986.8,
+   "en": "That's a separate question from whether he knowingly committed crimes.",
+   "ko": "그가 고의로 범죄를 저질렀느냐와는 별개의 문제입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 991.2,
+   "en": "And that seems to be the bar that they've raised now is we have no evidence that Jensen Huang knowingly broke the law, knowingly passed any secrets to China, or knowingly helped this network of companies evade US export laws.",
+   "ko": "그들이 지금 내세우는 기준은 젠슨 황이 고의로 법을 어겼거나, 중국에 비밀을 넘겼거나, 수출법 위반을 도왔다는 증거가 없다는 것입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1010.1,
+   "en": "And to be fair, we certainly don't have evidence yet in our reporting that disproves that. So that's where they've drawn the line.",
+   "ko": "공정하게 말해서, 저희 보도에서도 아직 이를 반증할 증거는 없습니다. 그래서 그들이 그 지점에 선을 그은 것이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1017.7,
+   "en": "But just as a matter of fact, he was having an affair with a woman who was meeting regularly with China's top spy agency and who led a company that is under investigation for the possible illegal smuggling of Nvidia chips into China at a moment where that issue is incredibly important,",
+   "ko": "하지만 사실만 놓고 보면, 그는 중국 최고 스파이 기관과 정기적으로 만나는 여성과 불륜 관계였으며, 엔비디아 칩의 중국 밀반출 혐의로 수사를 받고 있는 회사를 이끌고 있었는데, 이는 현시점에서 매우 중요한 문제입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1038.8,
+   "en": "where China is US's biggest rival in the race for artificial intelligence. And also by the way, her network has close ties to the Chinese military as our colleagues have documented.",
+   "ko": "중국이 AI 경쟁에서 미국의 최대 경쟁국이기 때문이죠. 게다가 저희 동료들이 기록했듯이 그녀의 인맥은 중국 군부와도 밀접한 관련이 있습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1050.1,
+   "en": "So regardless of whether it was witting or knowing or that he was participating in criminal activity, that relationship itself poses risks to national security.",
+   "ko": "따라서 그가 범죄 활동을 알고 가담했는지와 상관없이, 그 관계 자체가 국가 안보에 위험을 초래합니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1061.5,
+   "en": "And that's why Marco Rubio, the National Security Advisor, felt compelled to write it down in a memo earlier this year.",
+   "ko": "그렇기 때문에 마르코 루비오 국가안보보좌관이 올해 초 메모를 남겨야 한다고 느꼈던 것이고요.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1067.8,
+   "en": "And if there was nothing to worry about, that would not have happened. The president would not have been briefed. We wouldn't be sitting here talking about any of this.",
+   "ko": "걱정할 게 없었다면 그런 일도 없었겠죠. 대통령이 보고를 받을 일도, 우리가 여기서 이런 이야기를 할 일도 없었을 겁니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1076.0,
+   "en": "On the other hand, to adopt the view of those who are eager to have Jensen Huang back in this CEO job, is it possible that whatever happened with this woman and whatever happened with these chips is just not that big a deal, which is kind of what Trump is saying,",
+   "ko": "반면에, 젠슨 황의 CEO 복귀를 간절히 원하는 사람들의 관점을 취해본다면, 트럼프의 말처럼 그 여성이나 칩과 관련된 일들이 사실 그리 대단한 일이 아닐 가능성도 있을까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1092.0,
+   "en": "because China is not that big of a threat after all, because they're so far behind in their development of chips and in this AI race, that we don't have to sacrifice Jensen Huang on the altar of that competition.",
+   "ko": "중국이 칩 개발이나 AI 경쟁에서 한참 뒤처져 있어 큰 위협이 되지 않으므로, 젠슨 황을 그 경쟁의 제물로 바칠 필요가 없다는 논리 말입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1105.7,
+   "en": "It's slightly more nuanced than where China lies in the AI race.",
+   "ko": "중국이 AI 경쟁에서 어디쯤 있느냐보다 조금 더 미묘한 문제입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1109.8,
+   "en": "I mean, if you talk to Jensen's allies, one of the points they make is that he's a huge patriot and that he actually has a more sophisticated strategy for beating China in the AI race than what many people in Washington are thinking.",
+   "ko": "젠슨의 우호 세력들은 그가 대단한 애국자이며, 워싱턴의 많은 사람이 생각하는 것보다 훨씬 더 정교한 대중국 AI 전략을 가지고 있다고 주장합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1124.9,
+   "en": "What he's trying to do is get Chinese companies to use Nvidia chips so they're reliant on the US hardware for their future development rather than having China develop its own in-house chips, sell those chips around the world and have China dominate AI chip distribution.",
+   "ko": "그는 중국 기업들이 엔비디아 칩을 사용하게 함으로써 그들이 향후 개발에서 미국 하드웨어에 의존하게 만들려고 합니다. 중국이 자체 칩을 개발해 전 세계에 팔고 AI 칩 유통을 장악하게 두는 대신 말이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1147.1,
+   "en": "The same way if you look at China and Huawei have dominated the telecom network over the past several years by offering lower prices, better quality products than some of the European companies that have dominated that industry for generations before.",
+   "ko": "화웨이가 지난 몇 년간 기존 유럽 기업들보다 저렴한 가격과 좋은 품질로 통신 네트워크 시장을 장악했던 것과 같은 방식입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1163.2,
+   "en": "Of course, there's a lot of dispute over whether China would ever let themselves be dependent on US chips, but I understand that that's Jensen Huang's argument.",
+   "ko": "물론 중국이 미국 칩에 의존하게 놔둘지에 대해서는 논란이 많지만, 그것이 젠슨 황의 논리라는 점은 이해합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1170.7,
+   "en": "But let's return for a moment to the idea that Jensen Huang still could be a risk when you exercise the kind of judgment he did by having the relationship he did with this woman.",
+   "ko": "하지만 젠슨 황이 그 여성과 그런 관계를 맺음으로써 보여준 판단력을 생각할 때, 그가 여전히 리스크일 수 있다는 생각으로 돌아가 보죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1179.1,
+   "en": "Isn't it just so objectively flawed that we now need to ask whether it's a risk to have him at the head of this company?",
+   "ko": "객관적으로 보았을 때 그의 판단에 너무 결함이 커서, 그를 회사 수장으로 앉히는 것이 위험한지 자문해봐야 하지 않을까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1186.8,
+   "en": "I mean, if it's the Cold War and a major US CEO involved in, let's say, the nuclear industry has an affair with a spy, and that spy's trying to get U.S. nuclear secrets.",
+   "ko": "냉전 시대에 미국의 핵 산업 관련 주요 CEO가 스파이와 불륜을 저지르고, 그 스파이가 미국의 핵 기밀을 빼내려 했다고 가정해 봅시다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1198.4,
+   "en": "It's kind of like maybe the right metaphor for this moment. Wouldn't we say that person's been irretrievably compromised, and it could very easily happen again?",
+   "ko": "지금 상황에 딱 맞는 비유 같은데, 그런 사람은 이미 돌이킬 수 없을 정도로 무너졌으며 똑같은 일이 언제든 다시 일어날 수 있다고 하지 않을까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1208.1,
+   "en": "Well, there are very many people who do say that, including some privately within the Trump administration.",
+   "ko": "트럼프 정부 내부 인사들을 포함해 실제로 그렇게 말하는 사람들이 아주 많습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1213.8,
+   "en": "But Donald Trump has made a different determination, which is that Jensen Huang is the indispensable man for Nvidia and from Trump's conception, that means the indispensable man for the US economy and for the US stock market.",
+   "ko": "하지만 도널드 트럼프는 다른 결정을 내렸습니다. 젠슨 황이 엔비디아에 없어서는 안 될 인물이라는 것이죠. 그리고 트럼프의 생각에 그것은 곧 미국 경제와 주식 시장에 없어서는 안 될 인물이라는 뜻입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1229.3,
+   "en": "So whatever the national security concerns, they are far, far submerged beneath that fact.",
+   "ko": "따라서 국가 안보에 대한 우려가 무엇이든, 그 사실 아래로 아주 깊이 가라앉아 버린 것입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1237.5,
+   "en": "And again, a few people have made this point to me who advised Trump and have been around Trump. He viewed this as a sex scandal.",
+   "ko": "트럼프에게 조언하거나 주변에 있는 몇몇 사람들도 제게 이 점을 지적했습니다. 그는 이것을 단순한 섹스 스캔들로 보았습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1244.6,
+   "en": "And you can see that from the way he talks publicly. He's trivialized it. You saw this in one of his interviews today.",
+   "ko": "공개적으로 말하는 방식에서도 알 수 있죠. 그는 이를 사소한 일로 치부했습니다. 오늘 인터뷰 중 하나에서도 보셨을 겁니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1249.8,
+   "en": "He said the only reason this became a real thing was because sex sells quote unquote and after the reinstatement He posted an AI picture of Jensen Huang in the post that Trump had after the Butler rally assassination attempt instead of just having a raised fist",
+   "ko": "그는 이 일이 화제가 된 유일한 이유는 말 그대로 '섹스가 팔리기 때문'이라고 말했습니다. 그리고 복직 발표 후에는, 버틀러 랠리 암살 시도 직후 주먹을 불끈 쥔 자신의 모습 대신 젠슨 황의 얼굴을 넣은 AI 사진을 올렸습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1265.8,
+   "en": "The AI Jensen Huang that Trump posted was holding a red bra.",
+   "ko": "트럼프가 올린 AI 젠슨 황은 빨간 브래지어를 들고 있었죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1270.8,
+   "en": "Alright, so that's the frame that Trump has put this through and as he said, you know, everyone talks to China China, what's the big deal? I talk to China. I talk to China.",
+   "ko": "이것이 트럼프가 이 사안을 바라보는 프레임입니다. 그는 \"모두가 중국 이야기를 하는데 그게 뭐 어떠냐, 나도 중국과 대화한다\"고 말하죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1282.0,
+   "en": "And Trump has never really seen China through the lens of national security threat. There is a misconception about Trump as a China Hawk. He's not a China Hawk.",
+   "ko": "트럼프는 중국을 국가 안보 위협의 렌즈로 본 적이 없습니다. 그를 대중 강경파로 보는 건 오해입니다. 그는 강경파가 아닙니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1292.8,
+   "en": "He's never been a China Hawk. Rhetorically, he has sounded like a China Hawk in 2016 campaign in particular.",
+   "ko": "그는 한 번도 강경파인 적이 없었습니다. 특히 2016년 대선 캠페인 때 말로는 강경파처럼 들렸을 뿐이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1299.1,
+   "en": "But if you look at his examine his record in office, it's really just through the narrow lens of trade. And even then, very negotiable.",
+   "ko": "하지만 그의 재임 기간 기록을 살펴보면, 정말 무역이라는 좁은 렌즈로만 중국을 봤습니다. 그마저도 매우 협상 가능한 영역이었고요.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1306.8,
+   "en": "People. He never cared about the human rights issues or the national security concerns to the extent that a lot of the China hawks did. That's his worldview.",
+   "ko": "그는 다른 대중 강경파들만큼 인권 문제나 국가 안보 우려에 관심을 둔 적이 없습니다. 그것이 그의 세계관입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1317.6,
+   "en": "Jensen Huang seems to have the same point of view, which is a very benign view of Xi Jinping and the Chinese Communist Party, and that we're better off getting along and we're better off doing business with them.",
+   "ko": "젠슨 황도 비슷한 관점을 가진 것 같습니다. 시진핑과 중국 공산당을 온건하게 보며, 사이좋게 지내고 비즈니스를 하는 게 낫다는 생각 말이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1330.4,
+   "en": "So, Trump and Jensen Huang are very, very aligned on that matter.",
+   "ko": "그래서 트럼프와 젠슨 황은 이 문제에 있어 아주 뜻이 잘 맞습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1335.1,
+   "en": "But even on the question of Jensen Huang's indispensability, which is so central to the argument that both he and the president made, I have this really simple question Tripp.",
+   "ko": "하지만 젠슨 황과 대통령 모두의 핵심 논거인 '대체 불가능성'에 대해서도, 트립 기기자에게 아주 단순한 질문을 던지고 싶습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1347.7,
+   "en": "Eleven days doesn't seem like enough time to draw any meaningful conclusion about whether somebody else could successfully run this company.",
+   "ko": "다른 사람이 이 회사를 성공적으로 이끌 수 있을지 판단하기에 11일은 너무 짧은 시간인 것 같은데요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1356.5,
+   "en": "Absolutely not. I mean, they didn't even get the executive search off the ground. They didn't get the independent investigation off the ground.",
+   "ko": "전혀 충분하지 않죠. 경영진 물색은 시작도 못 했고, 독립적인 조사도 착수하지 못했습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1362.6,
+   "en": "All of these things that were set in motion that are typical in a dramatic exit of a chief executive Just stalled and as a result, I don't know. Will we have an independent investigation?",
+   "ko": "CEO의 급작스러운 사퇴 시 통상적으로 이루어지는 모든 절차가 그냥 중단되어 버린 겁니다. 그 결과, 독립 조사가 이루어질지조차 모르겠습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1375.5,
+   "en": "What if you learn something that proves to be problematic later? I think that's an open question that we'll have in the days ahead.",
+   "ko": "나중에 문제가 될 만한 사실이 밝혀지면 어떡하죠? 앞으로 우리가 마주하게 될 해결되지 않은 과제라고 생각합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1382.3,
+   "en": "I mean Jonathan when the president watched the stock of Nvidia and the whole market rally the way it did does it that vindicate the indispensable argument in just kind of raw, brutal financial terms.",
+   "ko": "조나단, 대통령이 엔비디아와 시장 전체가 랠리하는 것을 보았을 때, 그것이 냉혹한 경제적 관점에서 대체 불가능하다는 주장을 입증한 셈이 될까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1394.9,
+   "en": "In Trump's mind, yeah, absolutely.",
+   "ko": "트럼프의 마음속에서는 당연히 그렇겠죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1397.6,
+   "en": "And look, Tripp's the expert on Nvidia's corporate culture and the company, but anyone who's read about the history of Jensen Huang and Nvidia, you cannot make an intellectually honest argument that he hasn't been indispensable at this company.",
+   "ko": "트립 기자가 전문가이긴 하지만, 젠슨 황과 엔비디아의 역사를 아는 사람이라면 그가 이 회사에 필수적인 존재가 아니라고 말할 수는 없을 겁니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1411.6,
+   "en": "And look, you know, Trump knows what everyone knows who follows the market, which is that the buoyancy of the market is concentrated around stocks with heavy AI exposure. That's just the reality of the market right now.",
+   "ko": "시장 흐름을 아는 사람이라면 누구나 알듯이, 현재 시장의 활력은 AI 관련주에 집중되어 있습니다. 그것이 지금 시장의 현실입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1427.2,
+   "en": "And one thing that we've written in the Times, which is truer today than it ever was, in his first term, Trump had this misguided view, as it turned out, that he could re-industrialize America through the heavy industries,",
+   "ko": "뉴욕 타임즈에서도 다뤘지만, 트럼프는 첫 임기 때 중공업을 통해 미국을 재산업화할 수 있다는 잘못된 신념을 가지고 있었습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1446.1,
+   "en": "bring back the coal mining jobs and what have you, became very clear that he couldn't do that.",
+   "ko": "석탄 광업 일자리 등을 되살리려 했지만, 그럴 수 없다는 게 분명해졌죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1452.0,
+   "en": "He realized in 2024 that AI and the build out around it, the data centers became the salvation for the American economy and the market.",
+   "ko": "그는 2024년에 AI와 데이터 센터 구축이 미국 경제와 시장의 구원줄이라는 것을 깨달았습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1464.4,
+   "en": "And from Trump's point of view, and he said versions of this publicly, AI is the golden goose. It's the golden goose and it must be protected.",
+   "ko": "트럼프의 관점에서 AI는 황금알을 낳는 거위입니다. 반드시 보호해야 할 대상이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1472.7,
+   "en": "And ergo, if Jensen Huang in Nvidia is the central company upon which the whole AI industry is based, is the foundation, then boy do you need to protect that foundation.",
+   "ko": "따라서 젠슨 황의 엔비디아가 전체 AI 산업의 토대라면, 그 토대를 지켜야 한다는 결론에 이르게 됩니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1487.5,
+   "en": "I mean, I don't want to think about the fragility of an economy that rests on the president of the United States overriding the company's board to reinstate its CEO so that AI gets to be this thing you just described.",
+   "ko": "미국 대통령이 이사회의 결정을 뒤엎고 CEO를 복직시켜야만 유지되는 경제의 취약성에 대해서는 생각하고 싶지도 않네요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1498.6,
+   "en": "Well we need to contemplate it because that is what the reality is that we're living in. And that is absolutely the reality that we're living in.",
+   "ko": "우리는 그걸 직시해야 합니다. 그것이 우리가 살고 있는 현실이니까요. 정말로 그렇습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1505.2,
+   "en": "I cannot imagine that most Americans are super reassured by this dynamic.",
+   "ko": "대부분의 미국인이 이런 역학 관계에 안심하고 있을 것 같지는 않네요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1509.4,
+   "en": "I do want to talk about what happens in a post-Trump world, or even the final two years of the Trump administration in which Democrats control House and the Senate,",
+   "ko": "트럼프 이후의 세상, 혹은 민주당이 상하원을 장악할 트럼프 행정부 마지막 2년 동안 어떤 일이 벌어질지에 대해서도 이야기해 보고 싶습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1518.1,
+   "en": "Jonathan, we talked about the extent to which Trump can protect Jensen Huang from government investigations and prosecutions within the executive branch.",
+   "ko": "조나단, 트럼프가 행정부 내의 수사와 기소로부터 젠슨 황을 어느 정도 보호할 수 있는지에 대해 이야기했는데요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1524.8,
+   "en": "But he can't protect Jensen Huang from Congress, and he can't protect Jensen Huang from the president.",
+   "ko": "하지만 그는 의회로부터 젠슨 황을 보호할 수 없고, 미래의 대통령으로부터도 보호할 수 없지 않습니까?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1532.5,
+   "en": "That's true, but Congress is limited in what it can do. Congress can investigate, it can send subpoenas, but there's no Congress jail.",
+   "ko": "맞습니다만, 의회가 할 수 있는 일에는 한계가 있습니다. 조사하고 소환장을 보낼 수는 있지만, 의회에 감옥이 있는 건 아니니까요.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1545.0,
+   "en": "And I'm not saying they would do this, but were anyone to ignore a subpoena? The only enforcement mechanism that Congress has is to refer that contempt to the DOJ.",
+   "ko": "누군가 소환을 무시한다면, 의회가 가진 유일한 강제 수단은 모욕죄로 법무부에 고발하는 것뿐입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1556.7,
+   "en": "So yes, there's going to be huge congressional scrutiny. But what does that ultimately mean for accountability? I don't think we can say. I don't think we know.",
+   "ko": "의회의 엄청난 감시가 있겠지만, 그것이 궁극적인 책임 추궁으로 이어질지는 알 수 없습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1565.7,
+   "en": "Right. Tripp, if Jensen Huang is spending hours a day preparing for congressional testimony dealing with subpoenas, he's not focused on the future of that company.",
+   "ko": "맞습니다. 트립, 젠슨 황이 소환장에 대응하고 청문회 증언을 준비하느라 하루에 몇 시간씩 쓴다면, 회사 미래에 집중할 수 없겠죠.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1574.1,
+   "en": "He's going to be tied up and doing murder board prep, which is this insane thing where you sit down and you practice taking heated questions from senators and congressional leaders under the bright lights on Capitol Hill.",
+   "ko": "그는 상원의원과 의회 지도자들의 날카로운 질문에 답하는 연습을 하는 소위 '모의 청문회' 준비에 매여 있게 될 겁니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1588.7,
+   "en": "That's not going to be focused on the next chip.",
+   "ko": "그건 다음 세대 칩을 만드는 일과는 거리가 멀죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1592.4,
+   "en": "And more importantly, he's got to do some repair work within his own leadership ranks, because he has to persuade longtime lieutenants that they're in charge.",
+   "ko": "더 중요한 건, 오랫동안 함께한 부하 직원들에게 그들이 여전히 권한을 가지고 있다는 것을 설득하는 내부 수습 작업도 해야 한다는 겁니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1604.4,
+   "en": "And if he's going to be tied up on Capitol Hill, they need to know that they have the authority to continue to design the next generation of chips, the next generation of software, the things that need to happen to keep this company moving forward at the forefront of artificial intelligence.",
+   "ko": "그가 의회에 발이 묶여 있다면, 직원들이 스스로 다음 세대 칩과 소프트웨어를 설계할 권한이 있다는 걸 알아야 회사가 앞으로 나아갈 수 있습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1619.9,
+   "en": "If you really think about it from a national security perspective, fulfilling President Trump's bet that putting Jensen back into the company will make Nvidia better off and the country better off long-term than if Jensen were outside of the company.",
+   "ko": "국가 안보적 관점에서 보면, 젠슨의 복귀가 엔비디아와 국가에 장기적으로 도움이 될 거라는 트럼프의 도박이 성공할지는 의문입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1633.8,
+   "en": "Jonathan, my final curiosity is simply about what this all means for the question of any version of accountability in our system.",
+   "ko": "조나단, 마지막으로 우리 시스템의 책임 추궁이라는 문제에 이 모든 것이 어떤 의미를 갖는지 궁금합니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1644.2,
+   "en": "I mean, the president said to the world, Jensen Huang's misconduct, well documented misconduct doesn't matter. He's too important to fire. He's too important to me to fire.",
+   "ko": "대통령은 세상에 대고 젠슨 황의 비위 사실은 중요하지 않으며, 그는 해고하기엔 너무나 중요한 인물이라고 선언한 것과 다름없으니까요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1656.2,
+   "en": "And if that's the case that the president can pick and choose CEOs who he likes and who serve his interest, then what does our rules-based corporate system look like anymore?",
+   "ko": "대통령이 자신의 마음에 들고 이익에 부합하는 CEO를 직접 고를 수 있다면, 규칙에 기반한 우리 기업 시스템은 어떻게 되는 걸까요?",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1670.2,
+   "en": "Great question. I mean, Donald Trump has decided to make his justice department an instrument of his will. Okay, that's what this all comes down to.",
+   "ko": "좋은 질문입니다. 도널드 트럼프가 법무부를 자신의 의지를 관철하는 도구로 만들기로 한 것이 이 모든 문제의 핵심입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1681.8,
+   "en": "There was a wall we've talked about this so many times on this show, but bears repeating after Watergate, when the public demanded that there be some reform,",
+   "ko": "워터게이트 이후 대중의 개혁 요구로 백악관과 법무부 사이에는 보이지 않는 벽이 세워졌습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1694.5,
+   "en": "there was a wall erected between the White House and the Justice Department because collectively the we inside the government decided that it is unwise for the president of the United States to be directing his attorney general",
+   "ko": "대통령이 법무장관에게 특정 인물을 기소하라거나 하지 말라고 지시하는 것이 현명하지 않다는 합의가 있었기 때문이죠.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1708.0,
+   "en": "to say, I want you to prosecute this named individual, or I don't want you to prosecute this man who I like. And that wall has been shattered.",
+   "ko": "하지만 그 벽은 이제 무너졌습니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1719.1,
+   "en": "It was shattered last year, and this is just another manifestation of that. This is the world that we're living in right now.",
+   "ko": "작년에 무너졌고, 이번 사건은 그 현상이 또 한 번 나타난 것뿐입니다. 이것이 우리가 처한 현실입니다.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1726.6,
+   "en": "And you can avert your eyes or you can just see it clearly because that is what exists in Trump's Washington.",
+   "ko": ""
+  },
+  {
+   "start": 1734.0,
+   "en": "Right. And he's brought that mentality from Department of Justice into corporate America. He's extended it to the sphere where we once believed and understood that boards of directors and markets have the ultimate word.",
+   "ko": "그렇군요. 그는 그 사고방식을 법무부에서 기업 세계로까지 확장했습니다. 이사회와 시장이 최종 결정권을 가진다고 믿었던 영역까지요.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1747.6,
+   "en": "A hundred percent. That's something that I've certainly been thinking about as we began this journey of reporting.",
+   "ko": "백 퍼센트 동의합니다. 취재를 시작하면서 저도 줄곧 생각했던 부분입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1754.7,
+   "en": "There were three moments that Jensen breached the company's code of conduct. He had an affair with a customer. He had an affair with a subordinate, at least one.",
+   "ko": "젠슨이 회사의 윤리 강령을 위반한 지점이 세 가지 있습니다. 고객사 인물과의 불륜, 그리고 최소 한 명 이상의 부하 직원과의 불륜입니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1767.4,
+   "en": "And then he lied to the board in some point during the course of all that. These are all grounds for dismissal.",
+   "ko": "그리고 그 과정에서 이사회에 거짓말을 했습니다. 이 모든 것들이 해임 사유에 해당하죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1773.7,
+   "en": "And yet over the last two weeks, what we've wound up in is in a pitched battle over whether a co-founder is so important that the rules don't apply to him.",
+   "ko": "하지만 지난 2주간 우리는 공동 창업자가 규칙을 무시해도 될 만큼 중요한 존재인지를 두고 치열한 공방을 벌이게 되었습니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1785.4,
+   "en": "And this, I feel like, is a microcosm of the larger conversation we've had during the Trump era over the past decade, where do rules matter for anyone?",
+   "ko": "이는 지난 10년 트럼프 시대에 우리가 나눈 거대 담론의 축소판 같습니다. \"규칙이 누구에게나 공정하게 적용되는가\" 하는 문제 말이죠.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1795.0,
+   "en": "If you're great and you're wealthy, and most importantly, if you're allied with Donald Trump, like do you get a free pass?",
+   "ko": "당신이 뛰어나고 부유하며, 무엇보다 트럼프의 우방이라면 면죄부를 받게 되는 걸까요?",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1809.6,
+   "en": "My thanks to you both Jonathan and Tripp. Appreciate your time.",
+   "ko": "조나단, 트립 두 분 오늘 시간 내주셔서 감사합니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1813.6,
+   "en": "Thanks, Michael.",
+   "ko": "감사합니다, 마이클.",
+   "speaker": "Jonathan Swan"
+  },
+  {
+   "start": 1814.8,
+   "en": "Thanks.",
+   "ko": "감사합니다.",
+   "speaker": "Tripp Mickle"
+  },
+  {
+   "start": 1826.2,
+   "en": "We'll be right back.",
+   "ko": "잠시 후 다시 돌아오겠습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1835.8,
+   "en": "I'm MJ Franklin. This week on the Book Review podcast, it's award season. We're already off the rails.",
+   "ko": "MJ 프랭클린입니다. 이번 주 북 리뷰 팟캐스트에서는 시상식 시즌을 다룹니다. 벌써 흥분되네요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1843.6,
+   "en": "There's always a lot to talk about with Booker Prize, the Nobel Prize, the National Book Awards.",
+   "ko": "부커상, 노벨상, 전미도서상 등 이야기할 것이 정말 많습니다.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1849.3,
+   "en": "Well, I loved this pick. I loved that it was just a prize. I loved that it really seemed to come out of nowhere.",
+   "ko": "저는 이번 선정이 좋았습니다. 정말 예상치 못한 곳에서 나온 결과라 더 좋았죠.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1855.6,
+   "en": "It's been a busy season and we're here to guide you through it. Listen to the book review wherever you get your podcasts.",
+   "ko": "바쁜 시즌이지만 저희가 안내해 드리겠습니다. 어디서든 북 리뷰 팟캐스트를 들어보세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1864.6,
+   "en": "Here's what else you need to understand today.",
+   "ko": "오늘 전해드릴 다른 소식입니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1867.3,
+   "en": "A new analysis of the death toll from the war in Ukraine estimates that more than 700,000 Russian soldiers have been killed in the conflict,",
+   "ko": "우크라이나 전쟁 사망자에 대한 새로운 분석 결과, 70만 명 이상의 러시아 군인이 전사한 것으로 추정됩니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1876.8,
+   "en": "which has become Europe's deadliest since World War II.",
+   "ko": "이는 제2차 세계대전 이후 유럽에서 발생한 가장 치명적인 갈등이 되었습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1880.5,
+   "en": "The estimates were calculated by two exiled Russian news organizations and relied heavily on statistics compiled by Russia's own government.",
+   "ko": "이 추정치는 러시아의 두 망명 언론 기관이 산출했으며, 러시아 정부가 수집한 통계에 크게 의존했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1891.6,
+   "en": "Meanwhile, for the first time, Ukraine claimed credit for attacks on two Russian ships off the coast of Libya.",
+   "ko": "한편, 우크라이나는 처음으로 리비아 해안에서 발생한 러시아 선박 두 척에 대한 공격이 자신들의 소행이라고 주장했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1899.2,
+   "en": "The attacks, which severely damaged both ships, demonstrated the remarkable reach of Ukraine's network of drones, which in this case were launched into the Mediterranean Sea.",
+   "ko": "두 선박에 심각한 피해를 입힌 이번 공격은 지중해까지 뻗친 우크라이나 드론 네트워크의 놀라운 사거리를 보여주었습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1913.0,
+   "en": "Today's episode was produced by Claire Tennant-Ketter, Shannon Lynn, and Eric Krupke.",
+   "ko": "오늘 에피소드는 클레어 테넌트-케터, 섀넌 린, 그리고 에릭 크룹키가 제작했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1918.8,
+   "en": "It was edited by Paige Cowett and Liz O. Baylen, contains music by Dan Powell, Leah Shaw-Dameron, and Chelsea Daniel, and was engineered by Chris Wood.",
+   "ko": "편집은 페이지 코엣과 리즈 O. 베일런이 맡았으며 댄 파웰, 리아 쇼-대머런, 첼시 대니얼의 음악이 포함되었습니다. 엔지니어링은 크리스 우드가 담당했습니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1931.2,
+   "en": "Special thanks to Anna Swanson, Paul Moser, Julian Barnes, Maggie Haberman, and Dick Stevenson.",
+   "ko": "애나 스완슨, 폴 모저, 줄리언 반스, 매기 해버먼, 그리고 딕 스티븐슨에게 특별히 감사드립니다.",
+   "speaker": "Michael Barbaro"
+  },
+  {
+   "start": 1939.4,
+   "en": "Our theme music is by Wonderly. That's it for The Daily. I'm Michael Barbaro. See you tomorrow.",
+   "ko": "배경 음악은 원덜리(Wonderly)의 작품입니다. 오늘 순서는 여기까지입니다. 저는 마이클 바바루였습니다. 내일 뵙겠습니다.",
+   "speaker": "Michael Barbaro"
+  }
+ ]
+}
