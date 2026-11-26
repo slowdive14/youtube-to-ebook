@@ -1,0 +1,1149 @@
+{
+ "id": "pod-7f39d1615ef7",
+ "title": "Essentials: Nicotine's Effects on the Brain & Body & How to Quit Smoking or Vaping",
+ "show": "Huberman Lab",
+ "channel": "Scicomm Media",
+ "videoUrl": "",
+ "audioUrl": "https://traffic.megaphone.fm/SCIM1478506107.mp3",
+ "imageUrl": "https://megaphone-images.spotifycdn.com/podcasts/d3d737d6-e3c9-11f1-bc08-bf160cd81745/image/c939ff80ce31857dd7c3855498b342f4.jpg?ixlib=rails-4.3.1&max-w=3000&max-h=3000&fit=crop&auto=format,compress",
+ "duration": 2147,
+ "releaseDate": "2026-11-19T09:00:00.000Z",
+ "addedAt": "2026-11-26",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based tools for mental health, physical health, and performance. I'm Andrew Huberman, and I'm a professor of neurobiology and ophthalmology at Stanford School of Medicine.",
+   "ko": "Huberman Lab Essentials에 오신 것을 환영합니다. 여기서는 정신 건강, 신체 건강 및 성과를 위한 가장 강력하고 실용적인 과학 기반 도구들을 다룬 지난 에피소드들을 다시 살펴봅니다. 저는 스탠포드 의과대학의 신경생물학 및 안과학 교수인 앤드류 허버먼입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 17.7,
+   "en": "Today we are discussing nicotine. Nicotine is one of the most commonly consumed substances on the entire planet.",
+   "ko": "오늘은 니코틴에 대해 논의해 보겠습니다. 니코틴은 전 지구상에서 가장 흔하게 소비되는 물질 중 하나입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 24.0,
+   "en": "Today we are going to separate our discussion of nicotine from a discussion of smoking and vaping and the other forms of delivery for nicotine.",
+   "ko": "오늘 우리는 니코틴 자체에 대한 논의와 흡연, 베이핑 및 기타 니코틴 전달 방식에 대한 논의를 구분하려고 합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 31.6,
+   "en": "We will be talking about smoking and vaping and other routes of nicotine administration, both for sake of highlighting their detriments to health.",
+   "ko": "우리는 건강에 미치는 해악을 강조하기 위해 흡연과 베이핑, 그리고 다른 니코틴 투여 경로에 대해서도 이야기할 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 41.0,
+   "en": "And believe it or not, in certain cases, keep in mind, very specific certain cases, the possible health benefits of delivering nicotine through specific modalities. Turns out those modalities do not include smoking cigarettes or vaping.",
+   "ko": "믿기 어렵겠지만, 아주 특정한 경우에는 특정 방식을 통해 니코틴을 섭취했을 때의 잠재적인 건강상의 이점에 대해서도 말씀드릴 것입니다. 물론 그러한 방식에 흡연이나 베이핑은 포함되지 않습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 56.3,
+   "en": "Let's talk about nicotine and how nicotine impacts our brains, our bodies, our mental performance, our mental health, our physical performance, and our physical health.",
+   "ko": "니코틴이 우리의 뇌, 신체, 정신적 성과, 정신 건강, 신체적 수행 능력 및 신체 건강에 어떤 영향을 미치는지 이야기해 봅시다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 67.0,
+   "en": "Once again, I want to remind everybody that we really need to separate out a discussion about nicotine from the discussion about the delivery device for nicotine.",
+   "ko": "다시 한번 강조하지만, 니코틴 그 자체에 대한 논의와 니코틴을 전달하는 장치에 대한 논의를 반드시 구분해야 합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 75.4,
+   "en": "In other words, when we're talking about nicotine, we are not necessarily talking about smoking, although we might be.",
+   "ko": "다시 말해, 니코틴을 이야기할 때 그것이 반드시 흡연을 의미하는 것은 아닙니다. 물론 흡연이 포함될 수도 있지만요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 81.5,
+   "en": "We think of nicotine as something that we take, but actually we have receptors that is locations in the brain to which nicotine binds and can exert its effects.",
+   "ko": "우리는 니코틴을 단순히 섭취하는 물질로 생각하지만, 사실 우리 뇌에는 니코틴이 결합하여 효과를 발휘할 수 있는 수용체들이 존재합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 92.5,
+   "en": "And those receptors do not come about because of the existence of tobacco or the existence of vaping pens or because of the existence of anything in the outside world.",
+   "ko": "이 수용체들은 담배나 베이핑 펜, 혹은 외부 세계의 그 무엇 때문에 생긴 것이 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 100.7,
+   "en": "The fact that there are nicotinic receptors in our brain and body tells you that acetylcholine and nicotine themselves have very important roles in normal brain and body function.",
+   "ko": "우리 뇌와 신체에 니코틴 수용체가 있다는 사실은 아세틸콜린과 니코틴 자체가 정상적인 뇌와 신체 기능에서 매우 중요한 역할을 한다는 점을 시사합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 113.2,
+   "en": "The point is nicotine is a substance that can both promote cognitive function and under some conditions, if taken to inappropriate or I should say to extreme dosages, can also impair cognitive function.",
+   "ko": "핵심은 니코틴이 인지 기능을 촉진할 수도 있고, 부적절하거나 극단적인 용량을 섭취할 경우 인지 기능을 저하시킬 수도 있는 물질이라는 점입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 127.8,
+   "en": "What I will tell you soon is that nicotine can be very powerful as a mood modulator and and many people who have tried to quit nicotine, mainly through the form of smoking, will find that their mood can drop substantially.",
+   "ko": "곧 설명해 드리겠지만, 니코틴은 기분 조절제로서 매우 강력한 힘을 발휘할 수 있으며, 주로 흡연을 통해 니코틴을 끊으려 노력했던 많은 사람들은 기분이 상당히 가라앉는 것을 경험하게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 141.8,
+   "en": "So what is nicotine and where is it found? Obviously nicotine is found in the tobacco plant, but nicotine is also found in nightshades, that is tomatoes, eggplants, and sweet peppers.",
+   "ko": "그렇다면 니코틴은 무엇이며 어디에서 발견될까요? 당연히 담배 식물에 들어있지만, 토마토, 가지, 단고추와 같은 가지과 식물에서도 발견됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 154.6,
+   "en": "Burning tobacco leads to a heat-induced change in the availability of nicotine, and this is why smoking tobacco or vaping tobacco simply by heating it up allows the nicotine to be liberated and go into the bloodstream simply by inhaling into the lungs.",
+   "ko": "담배를 태우면 열에 의해 니코틴의 가용성이 변하게 되는데, 이것이 담배를 피우거나 가열하여 베이핑할 때 니코틴이 방출되어 폐로 흡입함으로써 혈류로 바로 들어가는 이유입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 171.2,
+   "en": "Now, whether by inhalation or whether or not by placing in contact with the mucosal tissue of the mouth or other mucosal containing orifice of the body, the nicotine then gets into the bloodstream.",
+   "ko": "흡입을 통해서든, 입안의 점막 조직이나 인체의 다른 점막 부위에 접촉시키든, 니코틴은 혈류로 유입됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 183.7,
+   "en": "And once it's in the bloodstream, it only exerts its effects because it binds to certain so-called nicotinic receptors. Okay, so the nicotinic receptors are of the acetylcholineergic variety.",
+   "ko": "혈류에 들어간 니코틴은 이른바 니코틴 수용체에 결합해야만 효과를 발휘합니다. 자, 이 니코틴 수용체들은 아세틸콜린계 수용체의 일종입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 196.9,
+   "en": "Now there are a lot of different nicotinic acetylcholine receptors, but for those of you that want to know, if you're ultra curious about this, the main effects of nicotine in the brain are mediated by nicotine binding to the so-called alpha-4 beta-2 receptor.",
+   "ko": "니코틴성 아세틸콜린 수용체에는 여러 종류가 있지만, 매우 궁금해하실 분들을 위해 말씀드리자면, 뇌에서 니코틴의 주요 효과는 소위 알파-4 베타-2 수용체에 결합함으로써 매개됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 213.1,
+   "en": "Even if you don't care about receptor subtypes, that's going to come up later when we discuss why nicotine suppresses appetite. And within the brain, nicotine binds to this alpha-4 beta-2 receptor in various locations in the brain.",
+   "ko": "수용체 하위 유형에 관심이 없더라도, 나중에 니코틴이 식욕을 억제하는 이유를 논의할 때 이 이야기가 다시 나올 것입니다. 뇌 내에서 니코틴은 여러 부위에 있는 알파-4 베타-2 수용체에 결합합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 227.4,
+   "en": "And there are three and maybe a fourth that we'll talk about neurochemical effects of nicotine after you ingest it.",
+   "ko": "니코틴을 섭취한 후 나타나는 신경화학적 효과에 대해서는 세 가지, 혹은 어쩌면 네 가지 정도를 이야기하게 될 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 234.0,
+   "en": "First things first, when you ingest nicotine by smoking nicotine containing tobacco, or if you place tobacco in contact with the mucosal lining of the nasal passages of the mouth, takes about two to 15 minutes for that nicotine to enter the bloodstream.",
+   "ko": "우선, 니코틴이 함유된 담배를 피우거나 입이나 코안의 점막층에 담배를 접촉시켜 섭취하면, 니코틴이 혈류에 들어가는 데 약 2분에서 15분 정도 걸립니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 251.4,
+   "en": "Smoking hits the bloodstream faster, vaping even faster, I should mention, for a variety of reasons. And placing tobacco directly in contact with the mucosal lining is going to be the slowest.",
+   "ko": "흡연은 혈류에 더 빨리 도달하며, 베이핑은 여러 가지 이유로 그보다 더 빠릅니다. 그리고 점막에 담배를 직접 접촉시키는 방식이 가장 느립니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 263.3,
+   "en": "The first of those categories, this is a very important one. This is one that was brought up in the episode on dopamine motivation and drive.",
+   "ko": "첫 번째 범주는 매우 중요합니다. 이것은 도파민, 동기부여, 추진력을 다룬 에피소드에서 언급되었던 내용입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 269.8,
+   "en": "And I think not just all scientists, but all human beings should know that within their brain, they have what is called the mesolimbic reward pathway.",
+   "ko": "과학자들뿐만 아니라 모든 인간이 자신의 뇌 속에 '중뇌변연계 보상 경로'라는 것이 있다는 사실을 알아야 한다고 생각합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 279.9,
+   "en": "The mesolimbic reward pathway, if you just want to call it the dopamine reward pathway is, as the name suggests, a set of connections between a brain area called the ventral tegmental area.",
+   "ko": "중뇌변연계 보상 경로, 간단히 도파민 보상 경로라고 부를 수 있는 이것은 이름에서 알 수 있듯이 복측피개영역(VTA)이라고 불리는 뇌 영역 간의 연결망입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 289.2,
+   "en": "The ventral tegmental area or VTA connects to another area called the nucleus accumbens. Nicotine triggers the release of dopamine from the nucleus accumbens.",
+   "ko": "복측피개영역 또는 VTA는 측좌핵이라고 불리는 다른 영역과 연결됩니다. 니코틴은 측좌핵에서 도파민 방출을 유발합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 300.2,
+   "en": "This is what gives nicotine its rewarding properties. It increases motivation.",
+   "ko": "이것이 니코틴에 보상 성질을 부여하는 요소입니다. 동기부여를 증가시키죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 304.6,
+   "en": "It tends to give a not so subtle, but very transient increase in feelings of well-being and alertness and motivation. That's because of the increase in dopamine caused by nicotine directly within the nucleus accumbens.",
+   "ko": "이것은 행복감, 각성도, 동기부여를 미묘하지는 않지만 매우 일시적으로 증가시키는 경향이 있습니다. 이는 니코틴이 측좌핵 내에서 직접 도파민 수치를 높이기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 319.1,
+   "en": "I'd like to take a quick break and acknowledge our sponsor, Eight Sleep. Eight Sleep makes smart mattress covers with cooling, heating, and sleep tracking capacity.",
+   "ko": "잠시 휴식을 취하며 후원사인 Eight Sleep을 소개하고자 합니다. Eight Sleep은 냉각, 가열 및 수면 추적 기능을 갖춘 스마트 매트리스 커버를 만듭니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 327.5,
+   "en": "Eight Sleep just launched the Pod 6, which is their most advanced sleep system yet. The Pod 6 is half the size of their previous models.",
+   "ko": "Eight Sleep은 최근 가장 진보된 수면 시스템인 Pod 6를 출시했습니다. Pod 6는 이전 모델의 절반 크기입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 334.9,
+   "en": "It's 20% faster with its cooling and heating and it has nine times as many sensors for tracking your sleep.",
+   "ko": "냉각 및 가열 속도가 20% 더 빠르며, 수면 추적을 위한 센서가 9배 더 많아졌습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 340.7,
+   "en": "The reason why 8-sleep is so effective at improving your sleep quality and duration is because it helps control your core body temperature.",
+   "ko": "Eight Sleep이 수면의 질과 지속 시간을 개선하는 데 효과적인 이유는 심부 체온을 조절하는 데 도움을 주기 때문입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 347.7,
+   "en": "That makes sense because in order to fall and stay deeply asleep, your core body temperature has to drop by about 1 to 3 degrees and to wake up feeling completely refreshed and energized, you actually want your body temperature to be 8-Sleep automatically regulates the temperature of your bed throughout the night.",
+   "ko": "깊은 잠에 들고 유지하려면 심부 체온이 약 1~3도 떨어져야 하고, 개운하고 활기차게 깨어나려면 체온이 다시 올라가야 하기에 이는 타당한 원리입니다. Eight Sleep은 밤새도록 침대 온도를 자동으로 조절해 줍니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 365.6,
+   "en": "I've been sleeping on an 8-sleep mattress cover for nearly 6 years now, and with each new iteration of 8-Sleep, it gets better and better at figuring out what my body needs across the night in order to get the best possible night sleep.",
+   "ko": "저는 거의 6년 동안 Eight Sleep 매트리스 커버를 사용해 왔는데, 새로운 버전이 나올 때마다 최상의 수면을 위해 밤새 제 몸이 무엇을 필요로 하는지 파악하는 능력이 점점 더 좋아지고 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 377.6,
+   "en": "If you would like to try 8-Sleep, you can now get the Pod 6 for the lowest price of the year. Go to 8sleep.com-slash-huberman to get up to $400 off the new Pod 6, now through November 30th, as part of 8-Sleep's Black Friday Offer.",
+   "ko": "Eight Sleep을 사용해 보고 싶으시다면, 지금 Pod 6를 연중 최저가로 구매하실 수 있습니다. 8sleep.com/huberman으로 가셔서 11월 30일까지 진행되는 블랙 프라이데이 행사를 통해 새 제품을 최대 400달러 할인받으세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 391.2,
+   "en": "Again, that's atesleep.com slash Huberman to get up to $400 off.",
+   "ko": "다시 한번 말씀드리지만, 최대 400달러 할인을 받으시려면 8sleep.com/huberman을 방문하세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 396.7,
+   "en": "Nicotine also triggers the release of certain neurochemicals from the ventral tag mental area itself and those impinge on nucleus accumbens and increase dopamine levels further.",
+   "ko": "니코틴은 또한 복측피개영역 자체에서 특정 신경화학 물질의 방출을 유발하며, 이는 측좌핵에 영향을 주어 도파민 수치를 더욱 높입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 407.0,
+   "en": "This is what makes the rewarding properties or sometimes referred to as the reinforcing properties of nicotine so powerful. This is why so many people ingest nicotine in one form or another.",
+   "ko": "이것이 니코틴의 보상 성질, 혹은 때때로 강화 성질이라고 불리는 것을 그토록 강력하게 만드는 요인입니다. 많은 사람이 어떤 형태로든 니코틴을 섭취하는 이유이기도 하죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 417.9,
+   "en": "It's also why nicotine is so hard to quit because there's a potent increase in dopamine from multiple neural circuit pathways within this mesolimbic reward circuitry.",
+   "ko": "또한 니코틴을 끊기가 그토록 어려운 이유이기도 한데, 이 중뇌변연계 보상 회로 내의 여러 신경 회로 경로에서 강력한 도파민 증가가 일어나기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 429.9,
+   "en": "The second major effect that nicotine has in the brain is that it increases acetylcholine. Acetylcholine is a neuromodulator that exists in you and me is released from multiple sites in the brain.",
+   "ko": "니코틴이 뇌에서 일으키는 두 번째 주요 효과는 아세틸콜린을 증가시키는 것입니다. 아세틸콜린은 우리 모두에게 존재하는 신경 조절 물질로, 뇌의 여러 부위에서 방출됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 441.8,
+   "en": "And the two major sites are the nucleus basalis. So these are a collection of neurons in the front and base of your brain and from some brainstem areas.",
+   "ko": "두 가지 주요 부위는 기저핵(nucleus basalis)입니다. 이곳은 뇌의 앞쪽 아랫부분에 있는 뉴런들의 집합체이며, 일부 뇌간 영역에서도 방출됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 452.2,
+   "en": "Acetylcholine release from nucleus basalis leads to a sort of spotlighting or highlighting of particular neural circuits in the brain.",
+   "ko": "기저핵에서 아세틸콜린이 방출되면 뇌의 특정 신경 회로를 일종의 스포트라이트로 비추거나 강조하는 효과가 나타납니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 459.7,
+   "en": "When acetylcholine is released from nucleus basalis, the neurons are there on the base of the brain, but they extend axons, which are like little wires elsewhere in the brain.",
+   "ko": "기저핵에서 아세틸콜린이 방출될 때, 뉴런 자체는 뇌의 기저부에 있지만 작은 전선과 같은 축삭 돌기를 뇌의 다른 곳으로 뻗어 보냅니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 468.6,
+   "en": "And when acetylcholine is released, it tends to be released at particular locations in the brain that are associated with whatever activity we happen to be doing. So it's literally like a neurochemical, attentional spotlight.",
+   "ko": "아세틸콜린이 방출될 때는 우리가 현재 하고 있는 활동과 관련된 뇌의 특정 위치에서 방출되는 경향이 있습니다. 그래서 이것은 말 그대로 신경화학적인 주의력 스포트라이트와 같습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 479.9,
+   "en": "Nicotine increases acetylcholine and thereby focusing concentration in mental performance, not by changing the neural circuits that are activated per se, but rather by making more acetylcholine available at those release sites.",
+   "ko": "니코틴은 아세틸콜린을 증가시켜 정신적 성과에서 집중력을 높이는데, 이는 활성화된 신경 회로 자체를 바꾸는 것이 아니라 해당 방출 지점에서 더 많은 아세틸콜린을 사용할 수 있게 함으로써 이루어집니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 495.9,
+   "en": "And I should also mention because of the so-called pharmacokinetics, the time course in which nicotine has its effects, which are pretty short-lived.",
+   "ko": "또한 니코틴의 효과가 나타나는 시간적 경과, 즉 소위 약동학 때문에 니코틴의 효과는 상당히 짧게 유지된다는 점을 언급해야겠군요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 503.7,
+   "en": "This enhancement in cognitive performance and attention, it's gonna be very transient, probably on the order of about 30, maybe 45 minutes.",
+   "ko": "인지 능력과 주의력의 이러한 향상은 매우 일시적이며, 아마도 30분에서 45분 정도 지속될 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 512.1,
+   "en": "So what we have is a scenario where dopamine is going up in the mesolimbic pathway, that's why smoking or ingesting nicotine in any other way feels good and makes us feel motivated.",
+   "ko": "정리하자면 중뇌변연계 경로에서 도파민이 상승하는데, 이것이 흡연이나 다른 방식의 니코틴 섭취가 기분을 좋게 하고 동기를 부여하는 이유입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 521.5,
+   "en": "And then the increase in acetylcholine, especially from nucleus basalis, and the front of the brain, is the reason why it can increase our ability to focus on particular types of endeavors.",
+   "ko": "그리고 특히 기저핵과 뇌 앞쪽에서 아세틸콜린이 증가하는 것은 우리가 특정 유형의 과업에 집중하는 능력을 향상시킬 수 있는 이유가 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 530.8,
+   "en": "particular mental work that we're doing, or maybe even particular physical work. The third neurochemical pathway that's strongly activated when nicotine is brought into the central nervous system, into the brain, is epinephrine, or in particular, norepinephrine, which is related to epinephrine.",
+   "ko": "우리가 하는 특정한 정신적 작업이나 어쩌면 육체적 작업일 수도 있습니다. 니코틴이 중추신경계, 즉 뇌로 들어올 때 강력하게 활성화되는 세 번째 신경화학적 경로는 에피네프린, 특히 에피네프린과 관련된 노르에피네프린입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 545.3,
+   "en": "And the way that nicotine accomplishes those increases in alertness and arousal and energy within the brain is by triggering the release of norepinephrine from a little cluster of neurons in the back of the brain called locus ceruleus.",
+   "ko": "니코틴이 뇌 내에서 각성, 흥분, 에너지를 증가시키는 방법은 뇌 뒤쪽에 있는 청반(locus ceruleus)이라는 작은 뉴런 군집에서 노르에피네프린 방출을 유발하는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 556.4,
+   "en": "And when that combines with the acetylcholine from nucleus basalis, which causes attentional spotlighting increases in concentration and focus.",
+   "ko": "그것이 기저핵의 아세틸콜린과 결합하면 주의력 스포트라이트 효과를 일으켜 집중력과 초점을 높이게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 565.8,
+   "en": "And with the feel good properties of dopamine and the motivating properties of dopamine and released from the mesolimbic reward pathway, now you can start to get a picture of why nicotine is such a powerful molecule.",
+   "ko": "기분을 좋게 하고 동기를 부여하는 중뇌변연계 보상 경로의 도파민 효과까지 더해지면, 이제 왜 니코틴이 그토록 강력한 분자인지 이해하기 시작하실 겁니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 579.3,
+   "en": "It's making people feel motivated and good. It's making people feel focused and it makes people feel alert when they would otherwise feel a little bit sleepy.",
+   "ko": "그것은 사람들에게 동기를 부여하고 기분을 좋게 만듭니다. 또한 집중력을 높여주고, 자칫 졸릴 수 있는 상황에서도 정신을 맑게 해 줍니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 587.1,
+   "en": "So this is a really powerful compound, so powerful in fact that I think we can really place nicotine right up there at the top, right next to caffeine, as the molecule that has fundamentally changed human evolution, human consciousness and human experience.",
+   "ko": "따라서 이것은 정말 강력한 화합물이며, 인류의 진화, 의식 및 경험을 근본적으로 변화시킨 분자로서 카페인 바로 옆인 최상단에 놓을 수 있다고 생각합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 604.8,
+   "en": "Now earlier I mentioned the appetite suppressing and indeed metabolism increasing effects of nicotine. And while that's a fairly niche component of what nicotine does, I mean it's an important one, but it's not the major reason why most people consume nicotine.",
+   "ko": "앞서 니코틴의 식욕 억제 및 대사 증진 효과에 대해 언급했습니다. 이것이 니코틴 기능 중 다소 지엽적인 부분일 수도 있지만, 중요한 부분인 것은 맞습니다. 다만 대부분의 사람이 니코틴을 소비하는 주된 이유는 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 619.6,
+   "en": "And within the hypothalamus, there's a compact collection of these little neurons, which we refer to as the palm C, P-O-M-C neurons. And the name comes from the fact that they express certain peptides, and we won't get into that now.",
+   "ko": "시상하부 내에는 POMC 뉴런이라고 부르는 작은 뉴런들의 조밀한 집합체가 있습니다. 이 이름은 특정 펩타이드를 발현한다는 사실에서 유래했는데, 지금 자세히 다루지는 않겠습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 629.9,
+   "en": "Turns out that when nicotine gets into the bloodstream and then into the brain, some of that nicotine binds to nicotinic alpha-4 beta-2 containing nicotinic receptors.",
+   "ko": "니코틴이 혈류를 타고 뇌로 들어가면, 그중 일부가 알파-4 베타-2 단위를 포함하는 니코틴성 수용체에 결합한다는 사실이 밝혀졌습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 640.0,
+   "en": "Again, these subunits are receptors, but basically the nicotine binds to one of those parking spots, parks there, and as a consequence, these palm CPOMC neurons increase their electrical activity and appetite is suppressed.",
+   "ko": "다시 말해 이 단위체들이 수용체인데, 기본적으로 니코틴이 그 주차 공간 중 하나에 결합하여 머무르게 되면, 결과적으로 이 POMC 뉴런들의 전기적 활동이 증가하고 식욕이 억제됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 652.0,
+   "en": "Now, in addition to limiting appetite by changing one's desire to ingest food and chew it and actual craving of food by regulation of blood sugar, etc., there do seem to be some quite direct effects of nicotine on metabolism and the effects on metabolism aren't enormous.",
+   "ko": "혈당 조절 등을 통해 음식을 먹고 씹고 싶어 하는 욕구와 실제 갈망을 변화시켜 식욕을 제한하는 것 외에도, 니코틴이 대사에 미치는 직접적인 영향이 있는 것으로 보입니다. 다만 대사에 미치는 영향이 아주 거대한 것은 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 669.1,
+   "en": "These are increases in metabolism that are about 2% up to about 5%, but I want to emphasize that those are transient increases in metabolism. Nonetheless, people that quit smoking often find that their appetite goes up.",
+   "ko": "대사율이 약 2%에서 최대 5%까지 증가하지만, 이는 일시적인 증가임을 강조하고 싶습니다. 그럼에도 불구하고 담배를 끊는 사람들은 종종 식욕이 왕성해지는 것을 경험합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 684.7,
+   "en": "When nicotine makes it into the bloodstream, again, within 2 to 15 minutes of ingesting it, depending on the delivery device, your heart rate will increase, blood pressure will increase, and the contractability of the heart tissue will actually increase.",
+   "ko": "니코틴이 혈류에 도달하면(전달 장치에 따라 섭취 후 2~15분 이내), 심박수가 증가하고 혈압이 상승하며 심장 조직의 수축력 또한 실제로 증가하게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 698.1,
+   "en": "What I mean is an increase in the sympathetic activity of the sympathetic arm of the autonomic nervous system, which is a real mouthful and mindful of ideas. But all you need to know is that it's a generalized system that increases levels of alertness and physical readiness.",
+   "ko": "이것은 자율신경계의 교감신경 부문의 활동이 증가한다는 것을 의미하며, 용어가 좀 어렵지만 핵심은 각성도와 신체적 준비 상태를 높이는 전신 시스템이라는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 714.7,
+   "en": "So it makes you ready for action, makes you ready for thought. So nicotine increases heart rate, blood pressure, and contractability of the heart.",
+   "ko": "즉, 행동과 사고를 위한 준비를 시키는 것이죠. 이처럼 니코틴은 심박수, 혈압, 심장 수축력을 증가시킵니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 721.7,
+   "en": "So it's going to cause more blood flow in theory, although it also tends to constrict blood vessels. vessels in many locations in the body.",
+   "ko": "이론적으로는 더 많은 혈류를 일으키겠지만, 동시에 신체 여러 부위의 혈관을 수축시키는 경향도 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 729.8,
+   "en": "This explains the decrease in penile girth effect of nicotine, in particular nicotine ingested by smoking or vaping. That's right, smoking and vaping reduces penis size.",
+   "ko": "이것이 니코틴, 특히 흡연이나 베이핑을 통한 니코틴 섭취가 음경 둘레를 감소시키는 효과를 설명해 줍니다. 맞습니다, 흡연과 베이핑은 성기 크기를 줄입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 741.6,
+   "en": "And also will have damaging effects on the bloodlining and the endothelial tissue. What's interesting about nicotine is that while it causes this global increase in readiness and alertness and attention and mood, et cetera, it also has the effect of somewhat relaxing skeletal muscle.",
+   "ko": "또한 혈관 내벽과 내피 조직에 손상을 입힙니다. 니코틴의 흥미로운 점은 전반적인 준비성, 각성, 주의력, 기분 등을 고조시키면서도 골격근을 어느 정도 이완시키는 효과가 있다는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 760.0,
+   "en": "But if we were to zoom out and just think about the effects of nicotine, we now have a very clear picture. Reward pathways are turned on. Attention is turned on. Alertness is turned on.",
+   "ko": "하지만 좀 더 거시적으로 니코틴의 효과를 생각해보면 이제 그림이 명확해집니다. 보상 경로가 활성화되고, 주의력이 높아지며, 각성 상태가 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 770.2,
+   "en": "You feel better than you felt a few minutes ago. Your blood pressure is up. Your heart rate is up. Your preparedness for thinking is elevated as well. And yet your body is somewhat relaxed.",
+   "ko": "몇 분 전보다 기분이 좋아지고, 혈압과 심박수가 올라가며, 사고를 위한 준비성도 높아집니다. 그러면서도 몸은 어느 정도 이완된 상태가 되죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 785.0,
+   "en": "That's a very interesting state of mind and body. Interesting because it's somewhat ideal for cognitive work.",
+   "ko": "그것은 매우 흥미로운 심신 상태입니다. 인지적 작업에 어느 정도 이상적인 상태이기 때문이죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 793.2,
+   "en": "Well, that state of being very alert, but your body being relaxed is almost, if not the optimal state for getting mental work done.",
+   "ko": "정신은 매우 맑지만 몸은 이완된 그 상태는 정신적인 업무를 수행하기에 거의 최적에 가까운 상태라고 할 수 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 801.8,
+   "en": "It's also the exact opposite of the optimal state for physical performance, which is one of yes, also alertness, yes, also motivation and elevated mood.",
+   "ko": "반대로 이는 신체적 성능을 위한 최적의 상태와는 정반대인데, 신체 활동 시에도 각성, 동기부여, 고조된 기분은 필요합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 812.5,
+   "en": "That's all wonderful stuff to have in mind, literally, when you are exercising or competing in sport or something of that sort. But under those conditions, you really also want to have a fast reaction time, a low latency for muscle activation so that you can make coordinated muscle movements in the ways that you need to, which is of course what's required of physical endeavors.",
+   "ko": "운동이나 스포츠 경기 등을 할 때 그런 정신 상태는 정말 훌륭합니다. 하지만 그런 상황에서는 빠른 반응 속도와 짧은 근육 활성화 대기 시간이 필요하며, 이를 통해 필요한 방식으로 협응된 근육 움직임을 만들어내야 하는데, 이것이 바로 신체적 활동에 요구되는 사항입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 832.5,
+   "en": "That tells us a few things. First of all, it tells us that nicotine is going to be generally a bad idea for a pre-workout tool or for enhancing physical performance.",
+   "ko": "이것은 몇 가지 사실을 알려줍니다. 우선, 니코틴은 일반적으로 운동 전 보충제나 신체적 수행 능력 향상을 위한 도구로는 좋지 않은 아이디어라는 점입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 845.2,
+   "en": "However, nicotine does seem to be very good at enhancing cognitive function, at least in the short term, which is not to say that it isn't without its side effects, which we will talk about.",
+   "ko": "하지만 니코틴은 적어도 단기적으로는 인지 기능을 향상시키는 데 매우 효과적인 것으로 보입니다. 그렇다고 부작용이 없다는 뜻은 아니며, 이에 대해서도 이야기할 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 855.0,
+   "en": "And again, those are side effects that are independent of smoking or vaping or other forms of ingesting nicotine. For instance, dipping or chewing tobacco is known to cause a 50-fold. Yes, five zero, 50-fold increase in mouth cancers, things like leukoplakia, and just generally is terrible for your health.",
+   "ko": "다시 말씀드리지만, 이는 흡연이나 베이핑 등 니코틴 섭취 형태와 무관한 부작용들입니다. 예를 들어, 씹는 담배는 구강암 발생 위험을 50배나 높이는 것으로 알려져 있으며, 백반증 등을 유발하고 일반적으로 건강에 매우 해롭습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 874.6,
+   "en": "So it's not just that smoking and vaping are bad for your health. These other forms of delivery from nicotine can be bad for your health as well.",
+   "ko": "따라서 흡연과 베이핑만 건강에 나쁜 것이 아닙니다. 니코틴을 전달하는 이러한 다른 형태들도 건강에 해로울 수 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 880.5,
+   "en": "Right now, it appears that provided the dosages are kept reasonable. And we'll talk about what reasonable means a little later.",
+   "ko": "현재로서는 용량을 적절하게 유지한다면(적절한 용량이 얼마인지는 나중에 다루겠습니다),",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 887.9,
+   "en": "and the frequency is kept relatively low, so not relying on these things constantly, there may in fact be some benefit to ingesting nicotine from time to time, provided that you are not still developing your brain.",
+   "ko": "그리고 섭취 빈도를 비교적 낮게 유지하여 지속적으로 의존하지 않는다면, 뇌가 아직 발달 중인 상태가 아니라는 전제하에 가끔씩 니코틴을 섭취하는 것이 실제로 어떤 이점을 줄 수도 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 902.1,
+   "en": "But certainly for people before puberty, during puberty, and probably for the next 15 to 20 years after puberty, avoiding nicotine is probably a good idea.",
+   "ko": "하지만 확실히 사춘기 이전, 사춘기 도중, 그리고 사춘기 이후 아마도 15~20년 동안은 니코틴을 피하는 것이 좋은 생각일 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 911.0,
+   "en": "And certainly, please, for those of you that are 15 years old or younger, ingesting nicotine in any form, unless it's prescribed by your doctor for a very specific clinical reason, to me seems just like a terrible idea based on all the data that I've read.",
+   "ko": "특히 15세 이하인 분들에게 어떤 형태로든 니코틴을 섭취하는 것은, 의사가 매우 구체적인 임상적 이유로 처방한 것이 아니라면 제가 읽은 모든 데이터를 기반으로 볼 때 끔찍한 생각인 것 같습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 925.5,
+   "en": "For people who are 25 years or older, and again, that's not a strict cutoff, but roughly 25 years or older, but for those of you that are thinking about using nicotine to enhance cognitive function as adults, and your brain development is slowing down, right?",
+   "ko": "25세 이상인 성인들(엄격한 기준은 아니지만 대략 25세 이상) 중 인지 기능 향상을 위해 니코틴 사용을 고려하고 있고 뇌 발달이 둔화되고 있는 분들의 경우에는 어떨까요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 941.9,
+   "en": "Never ceases, but it's slowing down or has slowed down to the point where we would say developmental plasticity is largely over and you're now operating in the context of adult neuroplasticity.",
+   "ko": "뇌 발달이 멈추지는 않지만, 발달적 가소성이 대체로 끝나고 이제 성인 신경 가소성의 맥락에서 기능하는 시점까지 둔화되었을 때 말입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 953.3,
+   "en": "Well, in that case, there may be instances in which increasing acetylcholine dopamine, et cetera, by way of nicotine ingestion might be a good idea, but certainly not by smoking vaping or by direct contact of tobacco to the mucosal lining tissue of the mouth or nose, so-called dipping or snuffing.",
+   "ko": "그런 경우에는 니코틴 섭취를 통해 아세틸콜린, 도파민 등을 증가시키는 것이 좋은 아이디어일 수 있는 사례들이 있겠지만, 결코 흡연, 베이핑, 또는 씹거나 코로 흡입하는 담배처럼 점막 조직에 직접 접촉시키는 방식은 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 971.4,
+   "en": "I'd like to take a quick break and acknowledge our sponsor, A.G.1. I'm excited to share that A.G.1 has just launched their newest formulation, A.G.1 Pro.",
+   "ko": "잠시 휴식을 취하며 후원사인 AG1을 소개하겠습니다. AG1에서 최신 포뮬러인 AG1 Pro를 출시했다는 소식을 전하게 되어 기쁩니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 980.7,
+   "en": "A.G.1 Pro takes the clinically-backed A.G.1 formula, which is a blend of vitamins, minerals, probiotics, and adaptogens, and adds three important new ingredients, creatine monohydrate, calcium, HMB, and zinc carnosine.",
+   "ko": "AG1 Pro는 비타민, 미네랄, 프로바이오틱스, 어댑토젠이 혼합된 기존의 임상 입증 AG1 포뮬러에 크레아틴 모노하이드레이트, 칼슘 HMB, 아연 카르노신이라는 세 가지 중요한 성분을 추가했습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 992.9,
+   "en": "Each serving has 5 grams of creatine monohydrate to support muscle strength and performance, as well as brain health.",
+   "ko": "각 서빙에는 근력과 수행 능력은 물론 뇌 건강을 지원하는 5g의 크레아틴 모노하이드레이트가 들어 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 998.6,
+   "en": "Calcium, HMB to support muscle recovery and reduce muscle breakdown and zinc carnosine to support and improve the lining of your gut.",
+   "ko": "칼슘 HMB는 근육 회복을 돕고 근육 분해를 줄이며, 아연 카르노신은 장 내벽의 건강을 지원하고 개선합니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1005.6,
+   "en": "All three of these ingredients have compelling science to support them and therefore I love seeing them added to the existing AG1 formula.",
+   "ko": "이 세 가지 성분 모두 이를 뒷받침하는 강력한 과학적 근거가 있기에, 기존 AG1 포뮬러에 추가된 것이 매우 반갑습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1012.6,
+   "en": "As most of you know, I've been taking AG1 every day for nearly 14 years now. I started taking it long before I even knew what a podcast was.",
+   "ko": "많은 분이 아시다시피, 저는 거의 14년 동안 매일 AG1을 복용해 왔습니다. 팟캐스트가 무엇인지도 모르기 훨씬 전부터 복용하기 시작했죠.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1020.0,
+   "en": "It's a great product and it's now made even better with the new AG1 Pro formula.",
+   "ko": "훌륭한 제품이었지만 새로운 AG1 Pro 포뮬러로 더욱 좋아졌습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1024.3,
+   "en": "If you would like to try AG1 Pro, you can go to drinkag1.com slash Huberman to get a special offer.",
+   "ko": "AG1 Pro를 체험해 보고 싶으시다면 drinkag1.com/huberman에서 특별 혜택을 받으실 수 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1031.1,
+   "en": "AG1 is giving away a free bottle of Omega-3 co-ends on Q10 with your first subscription. Again, go to drinkag1.com slash Huberman to get a free bottle of Omega-3 co-ends on Q10 with your first AG1 subscription.",
+   "ko": "AG1 첫 구독 시 오메가-3와 코엔자임 Q10 한 병을 무료로 드립니다. 다시 한번 말씀드리면, drinkag1.com/huberman을 방문하여 무료 혜택과 함께 첫 구독을 시작해 보세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1044.6,
+   "en": "Working down from the top of the head to the bottom of the feet, we can say that smoking, vaping, dipping, and snuffing negatively impact every organ and tissue system in cell of the body by virtue of the fact that they all damage the endothelial cells.",
+   "ko": "머리끝부터 발끝까지 살펴보면 흡연, 베이핑, 씹는 담배, 코 담배는 모두 내피세포를 손상시키기 때문에 신체의 모든 장기, 조직 시스템, 세포에 부정적인 영향을 미친다고 할 수 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1060.2,
+   "en": "Again, the endothelial cells are the cells that make up the vasculature, which delivers blood and other nutrients to all the cells and organs and tissues of the body.",
+   "ko": "다시 말씀드리면, 내피세포는 몸의 모든 세포, 장기, 조직에 혈액과 영양분을 전달하는 혈관계를 구성하는 세포들입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1070.3,
+   "en": "And those endothelial cells are strongly and negatively impacted by all of the practices that I just described.",
+   "ko": "그리고 이러한 내피세포들은 제가 방금 설명한 모든 습관에 의해 강력하고 부정적인 영향을 받습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1076.8,
+   "en": "For instance, it has been estimated that cigarettes contain anywhere anywhere from 4,000 to 7,000 toxins.",
+   "ko": "예를 들어, 담배 한 개비에는 약 4,000개에서 7,000개 사이의 독성 물질이 포함되어 있는 것으로 추정됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1084.0,
+   "en": "We know that the tar in cigarettes, even low tar cigarettes, as well as the ammonia within cigarettes, as well as the formaldehyde contained within cigarettes, as well as the carbon dioxide that's generated from smoking those cigarettes are all carcinogens.",
+   "ko": "저타르 담배를 포함한 담배 속의 타르, 암모니아, 포름알데히드는 물론 담배를 피울 때 발생하는 일산화탄소까지 모두 발암 물질이라는 점을 우리는 알고 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1097.6,
+   "en": "So again, nicotine is the reinforcing element by way of triggering that dopamine reinforcement pathway, the mesolimbic reward pathway.",
+   "ko": "다시 강조하지만 니코틴은 도파민 강화 경로인 중뇌변연계 보상 경로를 자극함으로써 습관을 강화하는 요소입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1105.0,
+   "en": "So it is thought that for every pack of cigarettes consumed per day, so you could average that out if you're a two-day cigarette smoker or more a pack a day cigarette smoker or a two-pack a day for every pack of cigarettes smoked per day we can reliably estimate a 14-year reduction in lifespan.",
+   "ko": "매일 담배 한 갑을 피울 때마다 수명이 14년 단축된다고 확실하게 추정할 수 있습니다. 흡연량이 많든 적든 하루 평균 한 갑을 기준으로 계산하면 그렇습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1125.6,
+   "en": "So cigarettes are literally peeling years off your life.",
+   "ko": "그러니까 담배는 말 그대로 당신의 인생에서 수년을 깎아내고 있는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1129.0,
+   "en": "On the other hand, we can also point to the statistic that there is this 50-fold increase in mouth cancers from dipping and there are nasal nasal cancers as well that are greatly increased by snuffing.",
+   "ko": "반면, 씹는 담배로 인한 구강암 발생 위험이 50배 증가한다는 통계가 있으며, 코 담배로 인해 비강암 위험도 크게 높아집니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1142.2,
+   "en": "And from smoking and now we know based on data from vaping that the endothelial cell damage and the direct effects of damage to the lungs from TARS and even if people are vaping which tends to have lower TARS than do cigarettes, even for people that are vaping greatly increased probability of peripheral vascular disease heart attack rates of stroke rates of cognitive decline are all increased.",
+   "ko": "또한 흡연과 베이핑 데이터에 따르면 내피세포 손상과 타르에 의한 직접적인 폐 손상이 나타납니다. 베이핑이 일반 담배보다 타르가 적더라도, 베이핑을 하는 사람들은 말초 혈관 질환, 심장 마비, 뇌졸중, 그리고 인지 기능 저하 확률이 모두 크게 높아집니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1168.3,
+   "en": "Now you might say cognitive decline, I thought that nicotine increases the likelihood that we can maintain healthy neuronal function and cognitive capacity.",
+   "ko": "'인지 기능 저하'라니, 니코틴이 건강한 뉴런 기능과 인지 능력을 유지하는 데 도움을 준다고 하지 않았나 생각하실 수도 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1175.7,
+   "en": "However, cigarette smoking and vaping are now known to dramatically decrease cognitive function because one of the key things about the brain is that it is the most metabolically demanding organ, which means it consumes a lot of glucose or even if you're ketogenic you need ketones.",
+   "ko": "하지만 흡연과 베이핑은 인지 기능을 급격히 저하시키는 것으로 알려져 있는데, 뇌는 신체에서 대사 요구량이 가장 많은 기관으로 엄청난 양의 포도당이나 케톤을 소비하기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1192.1,
+   "en": "So you start getting short-term memory lapses, you start getting working memory lapses.",
+   "ko": "그래서 단기 기억 상실이 나타나기 시작하고, 작업 기억에도 문제가 생기기 시작합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1195.7,
+   "en": "So what we can very reliably say is that currently more than one billion, billion, more than one billion people consume tobacco in order to get their nicotine, because that's really the reinforcing element within tobacco, which may lead you to the question as to why in the world would people do this?",
+   "ko": "우리가 확실하게 말할 수 있는 것은 현재 10억 명 이상의 사람들이 니코틴을 얻기 위해 담배를 소비하고 있다는 것입니다. 니코틴이 담배 속의 강력한 강화 요소이기 때문인데, 그렇다면 대체 왜 사람들은 이런 행동을 하는 걸까요?",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1214.5,
+   "en": "Well, it turns out most of them don't want to. In the best surveys that one can find of if you could quit smoking, if you could quit vaping, would you? What you find is that at least for cigarette smokers, 70%, 70% want to quit.",
+   "ko": "사실 그들 중 대부분은 원치 않습니다. 흡연이나 베이핑을 끊을 수 있다면 끊겠냐는 설문 조사를 보면, 흡연자의 최소 70%는 금연을 원한다는 결과가 나옵니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1232.9,
+   "en": "They would love to quit and yet they find that to be exceedingly difficult. And the reason they find it to be exceedingly difficult is because of all the brain neurochemistry that we talked about before.",
+   "ko": "그들은 정말 끊고 싶어 하지만, 그것이 극도로 어렵다는 것을 깨닫습니다. 그토록 어려운 이유는 앞서 우리가 논의했던 뇌의 신경화학적 원리 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1243.1,
+   "en": "In fact, if you look at the effects of withdrawal and we are going to talk about what withdrawal of nicotine looks like.",
+   "ko": "사실 금단 증상의 효과를 살펴보면 알 수 있는데, 이제 니코틴 금단 현상이 어떤 모습인지 이야기해 보겠습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1248.5,
+   "en": "What you find is that as soon as four hours after the last ingestion of nicotine by way of cigarette or vaping or dipping or snuffing, what people start to experience is some agitation, craving for nicotine, of course, and while craving is kind of a vague concept, it's actually a very specific biological mechanism.",
+   "ko": "마지막으로 담배를 피우거나 베이핑, 씹는 담배 등을 한 지 4시간 만에 사람들은 초조함과 니코틴에 대한 갈망을 느끼기 시작합니다. '갈망'이라는 개념이 모호하게 들릴 수 있지만, 사실 이는 매우 구체적인 생물학적 기전입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1268.1,
+   "en": "It's the drop endopamine that's starting to occur so much so that there's a drop endopamine below baseline. That is the increase in dopamine that would normally be experienced from smoking, vaping, dipping or snuffing is now not happening.",
+   "ko": "이는 도파민 수치가 급격히 떨어지기 시작하여 기준치 아래로 내려가는 현상입니다. 즉, 흡연이나 베이핑 등을 통해 평소 경험하던 도파민 증가가 더 이상 일어나지 않는 상태입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1282.5,
+   "en": "And in fact, the levels of dopamine are dropping below where they would have been even without performing that behavior. So that's what craving is and withdrawal is an increased sense of that craving as well as a lot of negative stuff like stomach aches or nausea or irritability and often collections of all of those.",
+   "ko": "실제로 도파민 수치는 그런 행동을 아예 하지 않았을 때보다 더 낮게 떨어집니다. 이것이 바로 갈망이며, 금단 현상은 이러한 갈망의 증폭과 함께 복통, 메스꺼움, 짜증 같은 부정적인 증상들이 복합적으로 나타나는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1301.2,
+   "en": "I want to highlight one very brief point, which is that nicotine is not the cause of cancer. Nicotine is not the carcinogen.",
+   "ko": "매우 짤막하지만 중요한 점 하나를 짚고 넘어가고 싶습니다. 니코틴 자체가 암의 원인은 아니며 발암 물질도 아니라는 점입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1309.8,
+   "en": "It's the other things in tobacco or associated with the nicotine delivery device that are causing cancer. And I should mention the other negative impacts on our health in particular by way of disrupted endothelial blood vessel function.",
+   "ko": "암을 유발하는 것은 담배에 포함된 다른 물질들이나 니코틴 전달 장치와 관련된 것들입니다. 또한 혈관 내피세포 기능 장애를 통해 우리 건강에 미치는 다른 부정적인 영향들도 언급해야겠군요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1326.9,
+   "en": "Now that leads us to this issue of vaping. because as many of you know and probably are thinking, as I've been delivering this information, people don't vape tobacco.",
+   "ko": "이제 베이핑 문제로 넘어가 보겠습니다. 제가 정보를 드리는 동안 많은 분이 생각하셨겠지만, 사람들은 연초를 베이핑하는 것이 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1337.4,
+   "en": "The way that vaping pens are designed is that it includes some liquid, it involves heat, and it does not involve the burning off of tobacco. I must say in a lot of ways, vaping resembles crack cocaine.",
+   "ko": "베이핑 펜은 액상을 열로 가열하는 방식이며 담배를 태우는 과정이 없습니다. 그런데 여러 면에서 베이핑은 크랙 코카인과 닮았다고 말씀드려야겠네요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1351.2,
+   "en": "The reason why vaping and crack cocaine are so similar is the speed of entry of nicotine into the bloodstream.",
+   "ko": "베이핑과 크랙 코카인이 매우 유사한 이유는 니코틴이 혈류로 유입되는 속도 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1358.6,
+   "en": "Both crack cocaine and vaping cause very rapid increases in the relative substances that are psychoactive.",
+   "ko": "크랙 코카인과 베이핑 모두 정신에 작용하는 관련 물질의 농도를 매우 빠르게 증가시킵니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1365.1,
+   "en": "And in the case of vaping, there's a very rapid increase in blood concentrations of nicotine much faster than occur with cigarette smoking or other modes of nicotine delivery.",
+   "ko": "베이핑의 경우, 혈중 니코틴 농도가 일반 담배 흡연이나 다른 니코틴 전달 방식보다 훨씬 더 빠르게 상승합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1375.3,
+   "en": "So that speed of onset turns out to be a critical parameter because the speed of onset of nicotine is going to also determine the speed of release of dopamine in the nucleus accumbens and ventral tegmental area, that mesolimbic reward pathway.",
+   "ko": "이러한 발현 속도는 매우 중요한 지표인데, 니코틴의 유입 속도가 측좌핵과 복측피개영역, 즉 중뇌변연계 보상 경로에서 도파민이 방출되는 속도를 결정하기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1390.0,
+   "en": "And with the mesolimbic reward pathway, it's not just about the peak, meaning the maximal amount of dopamine that's released, but it's the time course, how steep the curve is, how quickly that dopamine increases that's going to determine how reinforcing, how habit forming, and indeed how addictive a particular substance is.",
+   "ko": "중뇌변연계 보상 경로에서 중요한 것은 도파민 방출의 최대치가 아니라, 그 곡선이 얼마나 가파른지, 얼마나 빨리 도파민이 증가하는지입니다. 이것이 해당 물질이 얼마나 습관을 강화하고 중독을 일으키는지를 결정합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1408.3,
+   "en": "So one of the major important differences between vaping and cigarette smoking is that the onset instead of dopamine release, from vaping is faster, and even a subtle increase in the rate at which dopamine increases in the mesolimbic reward pathway can make a given amount of nicotine much more habit forming and addictive.",
+   "ko": "따라서 베이핑과 흡연의 주요 차이점 중 하나는 베이핑 시 도파민 방출 속도가 더 빠르다는 것이며, 중뇌변연계 보상 경로에서 도파민 증가 속도가 미세하게만 빨라져도 똑같은 양의 니코틴이 훨씬 더 강한 습관성과 중독성을 갖게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1429.5,
+   "en": "This probably explains the fact that many, many more people, in particular young people, age 25 and younger, are vaping at phenomenal rates now.",
+   "ko": "이것이 아마도 특히 25세 이하의 젊은 층에서 베이핑 이용률이 현재 경이적인 속도로 증가하고 있는 이유를 설명해 줄 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1438.8,
+   "en": "Now, young people's brains are essentially getting wired to the expectation that dopamine is going to be increased dramatically and quickly under their control, except it's under their control only in a very narrow set of circumstances.",
+   "ko": "젊은이들의 뇌는 도파민이 자신의 통제하에 급격하고 빠르게 증가할 것이라는 기대에 길들여지고 있는데, 문제는 그것이 아주 좁고 한정된 상황에서만 통제 가능하다는 점입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1453.2,
+   "en": "Recall the definition of addiction, a progressive narrowing of the things that bring you pleasure.",
+   "ko": "중독의 정의를 떠올려 보십시오. 당신에게 즐거움을 주는 것들이 점진적으로 좁아지는 현상입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1457.8,
+   "en": "And so it comes as no surprise that vaping is strongly associated with increased levels of depression, especially when vaping use drops off.",
+   "ko": "따라서 베이핑이 우울증 수치 증가와 강하게 연관되어 있다는 사실은 놀랍지 않으며, 특히 베이핑 사용을 중단했을 때 더욱 그렇습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1465.7,
+   "en": "Now the whole system can be recovered by abstinence from nicotine consumption, but the dopamine system is applied to everything. All sense of well-being, all sense of motivation.",
+   "ko": "니코틴 섭취를 금함으로써 시스템 전체를 회복할 수 있지만, 도파민 시스템은 모든 것에 적용됩니다. 모든 행복감과 모든 동기부여에 말이죠.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1474.6,
+   "en": "So that's one of the things that makes vaping in particular so hard to quit. Vaping is actually harder to quit than cigarette smoking for most people.",
+   "ko": "그래서 베이핑을 끊는 것이 유독 힘든 것입니다. 실제로 대부분의 사람에게 베이핑은 일반 담배보다 끊기가 더 어렵습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1484.7,
+   "en": "The success rate of quitting smoking when people try to go just cold turkey, just quit with no assistance whatsoever. They might tell their family and friends, hey, I'm quitting, that's it, is exceedingly low.",
+   "ko": "아무런 도움 없이 그냥 단번에 끊으려 할 때의 금연 성공률은 극도로 낮습니다. 가족이나 친구들에게 \"나 이제 끊을 거야\"라고 선언하는 것만으로는 부족합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1494.9,
+   "en": "it's 5%. It does all these terrible things and yet most people who try and quit simply can't and of the 5% that succeed in quitting a full 65% of them relapse within a year.",
+   "ko": "그 성공률은 단 5%입니다. 담배가 해롭다는 걸 알면서도 시도하는 대부분의 사람이 실패하며, 성공한 5% 중에서도 65%는 1년 이내에 다시 담배를 피웁니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1507.0,
+   "en": "But it's not to say that people cannot quit in fact they can. There are a couple of methods that have been shown to help people quit. Some are behavioral and some are pharmacologic.",
+   "ko": "하지만 그렇다고 해서 끊을 수 없다는 뜻은 아니며, 실제로 가능합니다. 사람들의 금연을 돕는 것으로 입증된 몇 가지 방법이 있는데, 일부는 행동 요법이고 일부는 약물 요법입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1517.2,
+   "en": "I just want to touch on the behavioral ones first because it turns out that there's a quite powerful method for quitting including nicotine ingestion by way of cigarette smoking, which also carries over to vaping.",
+   "ko": "행동 요법을 먼저 다루고 싶은데, 흡연을 통한 니코틴 섭취를 끊는 데 매우 효과적인 방법이 있으며 이는 베이핑에도 적용될 수 있기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1529.0,
+   "en": "This beautiful work that's been done by my colleague and in fact close collaborator, although I was not involved in the research that I'm about to describe at Stanford. And his name is Dr. David Spiegel.",
+   "ko": "이것은 제 동료이자 긴밀한 협력자인 스탠포드의 데이비드 스피겔 박사가 수행한 훌륭한 연구 결과입니다. 비록 제가 이 연구에 직접 참여하지는 않았지만요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1538.1,
+   "en": "He is our associate chair of psychiatry. He's been a guest on the Huberman Lab podcast. And he is a world expert, if not the world expert in the clinical applications of hypnosis.",
+   "ko": "그는 우리 학과의 정신과 부의장이며, Huberman Lab 팟캐스트에도 출연한 적이 있습니다. 그는 최면의 임상 적용 분야에서 세계 최고의 전문가입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1548.5,
+   "en": "I'd like to take a quick break to acknowledge our sponsor, Our Place. Our place makes my favorite pots pans and other cookware.",
+   "ko": "잠시 휴식을 취하며 후원사인 Our Place를 소개하겠습니다. Our Place는 제가 가장 좋아하는 냄비, 팬 및 기타 조리 도구를 만드는 곳입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1555.4,
+   "en": "Surprisingly, toxic compounds such as PFASs or forever chemicals are still found in 80% of nonstick pans, as well as utensils, appliances, and countless other kitchen products.",
+   "ko": "놀랍게도 들러붙지 않는 팬의 80%와 조리 도구, 가전제품 등 수많은 주방 제품에서 PFAS 같은 독성 화합물, 즉 '영원한 화학 물질'이 여전히 발견됩니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1566.3,
+   "en": "As I've discussed before on this podcast, these PFASs or forever chemicals, like Teflon, have been linked to major health issues such as hormone disruption, gut microbiome disruption, fertility issues, and many other health problems.",
+   "ko": "이 팟캐스트에서 이미 논의했듯이, 테플론 같은 PFAS 화합물은 호르몬 교란, 장내 미생물 불균형, 생식 기능 문제 등 심각한 건강 문제와 연관되어 있습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1578.9,
+   "en": "So it's essential to try to avoid them. That's why I'm a huge fan of Hourplace. Hourplace products are made with the highest quality materials and are all PFAS and Toxin-free.",
+   "ko": "따라서 이를 피하는 것이 필수적입니다. 제가 Our Place를 좋아하는 이유도 이것인데, 이곳 제품들은 최고 품질의 재료로 만들어지며 PFAS와 독성 물질이 전혀 없습니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1589.0,
+   "en": "I particularly love their Titanium Always Pan Pro. It's the first nonstick pan made with zero chemicals and zero coating. Instead, it uses pure titanium.",
+   "ko": "저는 특히 Titanium Always Pan Pro를 좋아합니다. 화학 물질이나 코팅이 전혀 없이 순수 티타늄으로 만들어진 최초의 넌스틱 팬입니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1598.2,
+   "en": "I cook eggs in my Titanium Always Pan Pro almost every morning. The design allows for the eggs to cook perfectly without sticking to the pan.",
+   "ko": "저는 거의 매일 아침 이 팬으로 계란 요리를 합니다. 디자인 덕분에 계란이 팬에 달라붙지 않고 완벽하게 조리됩니다.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1606.2,
+   "en": "Right now, Hourplace is having its biggest sale of the year. You can save up to 45% site-wide now through November 30th. Go to fromourplace.com.",
+   "ko": "현재 Our Place에서는 연중 최대 세일을 진행 중입니다. 11월 30일까지 사이트 전체에서 최대 45% 할인을 받으실 수 있습니다. fromourplace.com으로 접속해 보세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1616.0,
+   "en": "And use the code Huberman at checkout. Again, that's fromourplace.com. To save up to 45% site-wide.",
+   "ko": "결제 시 Huberman 코드를 사용하세요. 다시 한번 말씀드리면, 최대 45% 할인을 받으시려면 fromourplace.com을 방문하세요.",
+   "speaker": "Andrew Huberman",
+   "ad": true
+  },
+  {
+   "start": 1625.3,
+   "en": "Clinical hypnosis is where the person, the patient, actually directs their own brain changes toward a specific emotional or behavioral goal.",
+   "ko": "임상 최면은 환자가 특정 정서적 또는 행동적 목표를 향해 자신의 뇌 변화를 실제로 유도하는 과정입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1634.1,
+   "en": "Work from Dr. David Spiegel's laboratory down in 1993, but that now has been repeated many, many times, as carried over into some more modern studies.",
+   "ko": "1993년 데이비드 스피겔 박사의 실험실에서 시작된 이 연구는 이후 수없이 반복되었고 현대적인 연구들로 이어졌습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1643.0,
+   "en": "Those studies have shown that using a specific form of hypnosis, people can achieve complete and total cessation of cigarette smoking, and there's no reason to believe this doesn't also carry over to vaping through one single hypnosis session.",
+   "ko": "이러한 연구들은 특정 형태의 최면을 사용해 단 한 번의 세션만으로도 담배를 완전히 끊을 수 있음을 보여주었으며, 이것이 베이핑에도 적용되지 않을 이유는 없습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1659.8,
+   "en": "And the success rates are incredibly high when one considers that normally it would be only a 5% success rate.",
+   "ko": "일반적인 성공률이 5%에 불과하다는 점을 고려하면, 이 방법의 성공률은 믿기지 않을 정도로 높습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1666.7,
+   "en": "The success rate with this particular hypnosis developed at Stanford School of Medicine by Dr. David Spiegel is 23% of people who do this hypnosis one time succeed in quitting smoking.",
+   "ko": "스탠포드 의과대학의 데이비드 스피겔 박사가 개발한 이 특정 최면 요법의 성공률은 23%에 달하는데, 이는 최면을 한 번 받은 사람 중 이 정도가 금연에 성공한다는 의미입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1678.0,
+   "en": "Now of course there are other methods that people have used to successfully quit smoking or vaping or other forms of nicotine delivery. And there's actually an excellent review on this topic.",
+   "ko": "물론 흡연이나 베이핑, 다른 형태의 니코틴 섭취를 성공적으로 끊기 위해 사람들이 사용하는 다른 방법들도 있습니다. 이 주제에 대해 아주 훌륭한 검토 논문이 하나 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1686.7,
+   "en": "So before diving into a few of the specifics about some of the pharmacology of using nicotine itself to quit smoking or nicotine itself to quit vaping or the use of various things, even SSRIs anti-depressants to quit smoking or vaping.",
+   "ko": "금연을 돕기 위해 니코틴 자체를 이용하거나 항우울제인 SSRI 등 다양한 약물을 사용하는 약리학적 세부 사항에 들어가기에 앞서,",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1701.8,
+   "en": "I just want to point you to a review article that if you'd like to get a complete survey of all the options that are available, there's an excellent review on this. It was published just a couple of years ago in 2020.",
+   "ko": "가능한 모든 옵션에 대해 완전한 조사를 원하시는 분들을 위해 한 논문을 추천해 드리고자 합니다. 2020년에 발표된 아주 훌륭한 리뷰 기사입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1711.3,
+   "en": "The title of the article is Pharmacologic Approach to Smoking Cessation, an updated review for daily clinical practice.",
+   "ko": "기사의 제목은 '금연을 위한 약리학적 접근: 일상적인 임상 실습을 위한 업데이트된 리뷰'입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1718.3,
+   "en": "So this review covers all of that and then steps beautifully through nicotine replacement therapy and various compounds, several of which I'm going to talk about now, which have been shown to increase that number that we talked about earlier of only 5% of people who try to quit with no other support pharmacologic or hypnosis.",
+   "ko": "이 리뷰는 그 모든 내용을 다루고 있으며 니코틴 대체 요법과 다양한 화합물들을 자세히 설명합니다. 이제 제가 몇 가지 설명해 드릴 텐데, 이들은 아까 말씀드린 보조 수단 없는 금연 성공률 5%를 높여주는 것으로 입증된 것들입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1736.5,
+   "en": "Or otherwise, just say, that's it. I'm not going to smoke again. Or I'm not going to vape again. and only 5% of people succeed in doing that.",
+   "ko": "어떠한 도움도 없이 단순히 \"이제 안 피워\"라고 선언해서 성공하는 사람은 5%뿐입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1743.1,
+   "en": "And even among those many end up relapsing later, there are a couple pharmacologic approaches. One of the main ones that's received a lot of attention in recent years is Bupropion, sometimes referred to by its commercial name, Wellbutrin.",
+   "ko": "그들 중 다수는 나중에 결국 재발하는데, 몇 가지 약리학적 접근법이 있습니다. 최근 몇 년간 주목받은 주요 약물 중 하나는 상품명 '웰부트린'으로도 불리는 부프로피온입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1756.4,
+   "en": "Now, Bupropion is a compound that increases the release of dopamine and to a lesser extent, epinephrine. And some other neurochemicals as well.",
+   "ko": "부프로피온은 도파민 방출을 증가시키고, 그보다는 적지만 에피네프린과 다른 일부 신경화학 물질도 증가시키는 화합물입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1766.0,
+   "en": "It's used for the treatment of depression and for smoking cessation. I want to really emphasize that there is an increased seizure risk with Bupropion.",
+   "ko": "이는 우울증 치료와 금연을 위해 사용됩니다. 다만 부프로피온은 발작 위험을 높일 수 있다는 점을 꼭 강조하고 싶습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1774.6,
+   "en": "Nonetheless, for people that can take it safely, and again, this is a prescription drug, a board-certified psychiatrist or other physician is going to have to prescribe it for you if it's appropriate for you.",
+   "ko": "그럼에도 불구하고 안전하게 복용할 수 있는 사람들에게 이것은 유용합니다. 다시 말씀드리지만 전문의의 처방이 필요한 약물입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1783.8,
+   "en": "And it moves that number of 5% success rate to about what one sees with the clinical hypnosis to about 20% of people will successfully to successfully overcome their nicotine, or I should say their smoking or vaping addiction.",
+   "ko": "이 약물은 금연 성공률을 5%에서 임상 최면과 비슷한 수준인 20% 정도로 끌어올려 사람들이 니코틴, 즉 흡연이나 베이핑 중독을 성공적으로 극복하게 돕습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1799.1,
+   "en": "Now it's important to ask why this would work, right? I mean, it's not as if the Bupropion is increasing nicotine per se.",
+   "ko": "이제 이것이 왜 효과가 있는지 묻는 것이 중요하겠죠? 부프로피온 자체가 니코틴 수치를 높이는 것은 아니니까요.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1807.1,
+   "en": "What it's doing is it's tapping on that mesolimbic reward pathway, increasing dopamine or at least allowing dopamine levels to say substantially elevated enough that people don't experience some of the drop in dopamine that leads to the withdrawal symptoms, the the lessening of mood, et cetera.",
+   "ko": "이 약물은 중뇌변연계 보상 경로를 자극하여 도파민 수치를 높이거나 최소한 충분히 유지되게 함으로써, 기분 저하 등의 금단 증상을 유발하는 도파민 급락을 경험하지 않게 해 줍니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1821.2,
+   "en": "A very common approach for people to try and quit smoking or vaping is to use nicotine itself to try and prevent people from seeking nicotine through a cigarette or a vape pen.",
+   "ko": "금연이나 금연 베이핑을 시도하는 매우 흔한 방법 중 하나는 니코틴 자체를 사용하여 사람들이 담배나 베이핑 펜을 통해 니코틴을 찾는 것을 방지하는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1833.8,
+   "en": "What I mean by that is people using a nicotine patch or nicotine gum or other nicotine delivery device that is not a cigarette and not a vaping in order to maintain levels of nicotine in their bloodstream, which of course means maintain levels of nicotine in their brain and body.",
+   "ko": "즉, 니코틴 패치나 껌 등을 사용하여 혈류 내 니코틴 수치를 일정하게 유지하고, 결과적으로 뇌와 신체 내의 니코틴 수준을 유지하려는 것입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1852.4,
+   "en": "to the same extent that they would if they were smoking or vaping, maybe even gradually taking down the total amount of nicotine in their brain and body by reducing the number or size of nicotine gum pieces that they ingest each day or keeping the patch on for a shorter amount of time or getting a lower dose patch that releases less nicotine total or overtime.",
+   "ko": "흡연이나 베이핑을 할 때와 비슷한 수준으로 유지하되, 하루에 씹는 껌의 개수를 줄이거나 패치 부착 시간을 단축하거나 저용량 패치로 바꾸면서 체내 니코틴 총량을 서서히 줄여나가는 방식입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1876.7,
+   "en": "All of those approaches have been shown to be reasonably successful. It turns out that a combination of approaches is best.",
+   "ko": "이러한 모든 접근 방식은 어느 정도 성공적인 것으로 나타났습니다. 결과적으로 여러 방식을 조합하는 것이 가장 좋습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1884.6,
+   "en": "So somewhat surprising, but it was very clear from the literature that I was able to find that using nicotine patches for some period of time and then switching to a gum and then perhaps switching to a nasal spray, that's going to be the most effective.",
+   "ko": "다소 놀랍지만, 제가 찾은 문헌들에 따르면 일정 기간 패치를 사용하다가 껌으로 바꾸고, 이후 비강 스프레이로 바꾸는 식의 병용 요법이 가장 효과적이라는 점이 명확했습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1899.1,
+   "en": "Then the question is how long to continue each of those and whether or not overlap them. It seems as if doing one for about a week and then switching to another for about a week and then switching to another is one rational and reasonable approach that many people have used successfully.",
+   "ko": "각각을 얼마나 오래 지속할지, 겹쳐서 사용할지가 문제인데, 약 일주일 단위로 종류를 바꿔가며 사용하는 방식이 많은 사람이 성공적으로 사용한 합리적인 접근법으로 보입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1913.7,
+   "en": "First of all, the transdermal patches provide a fairly steady state dopamine release across the day and oftentimes people are wearing them at night as well.",
+   "ko": "우선 피부에 붙이는 패치는 하루 종일 상당히 일정한 수준의 도파민 방출을 제공하며, 종종 밤에도 붙이고 있는 경우가 많습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1922.8,
+   "en": "So nicotine patch is going to be very effective for a week or so, but then switching to a nasal spray or switching to nicotine gum for about a week, which is going to change the kinetics of that nicotine absorption to the bloodstream and change the release of dopamine and other neurochemicals within the brain, that's going to keep the system intentionally off balance so that it never comes to expect one single pattern or amplitude of dopamine release.",
+   "ko": "따라서 일주일 정도 패치를 쓰다가 비강 스프레이나 껌으로 바꾸면 니코틴이 혈류에 흡수되는 역학이 변하고 뇌 내 도파민 등의 방출 양상도 달라집니다. 이는 시스템을 의도적으로 불안정하게 유지하여 뇌가 특정 도파민 방출 패턴에 길들여지지 않게 합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1950.4,
+   "en": "Well, the body and the brain, your physiology, seeks homeostasis. So, if there's a big increase in all those things like blood pressure and mood, etc., typically your baseline will drop a little bit to compensate for that over time after a couple days or even weeks of ingesting nicotine.",
+   "ko": "신체와 뇌는 항상성을 추구합니다. 따라서 며칠 혹은 몇 주 동안 니코틴을 섭취하여 혈압과 기분 등이 크게 상승하면, 신체는 이를 보상하기 위해 기저 수치를 조금 낮추게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1967.2,
+   "en": "The day that you quit that homeostatic mechanism in your brain and body that sets your level of mood and arousal, etc., does not know and hasn't adjusted to the fact that you're not bringing in nicotine.",
+   "ko": "당신이 금연을 결심한 날에도, 기분과 각성 수준을 조절하는 체내 항상성 메커니즘은 당신이 더 이상 니코틴을 섭취하지 않는다는 사실을 인지하지 못하고 아직 적응하지 못한 상태입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1980.0,
+   "en": "You're not having that cigarette. You're not having that inhalation on the vape pen.",
+   "ko": "당신은 이제 담배를 피우지 않고 베이핑 펜을 흡입하지도 않습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1982.7,
+   "en": "So what ends up happening is that baseline, which has been adjusted down to offset the increases in mood and alertness, et cetera, when you smoke or vape is lower than it normally would be.",
+   "ko": "결국 평소 흡연이나 베이핑 시의 기분 상승을 상쇄하기 위해 낮춰 놓았던 기저 수치가 평상시보다 훨씬 낮은 상태로 남게 됩니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 1995.7,
+   "en": "Now that's not much help to anyone who's already started smoking or vaping, but I say this because it's very important to understand that the reason why relapse rates are so high within the first week, 75% of people relapse within one week.",
+   "ko": "이미 흡연이나 베이핑을 시작한 분들에게는 큰 도움이 안 될 수 있지만, 제가 이 말씀을 드리는 이유는 첫 주 재발률이 75%나 될 정도로 높은 이유를 이해하는 것이 매우 중요하기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2008.7,
+   "en": "and overall failure rates are 95% is because people don't expect to feel even worse than they did prior to ever smoking or vaping.",
+   "ko": "전체 실패율이 95%에 달하는 이유는 사람들이 담배를 배우기 전보다 기분이 훨씬 더 나빠질 것이라고는 예상하지 못하기 때문입니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2018.4,
+   "en": "So that first week is absolutely critical and the beauty of understanding this is that if you can get through that first week either by sheer grit or by finding other methods to increase dopamine, healthy methods I would hope and certainly cold showers ice baths have been shown to do that by the way.",
+   "ko": "따라서 첫 일주일이 절대적으로 중요하며, 이를 이해하면 순수한 의지력이나 도파민을 높이는 다른 건강한 방법(찬물 샤워나 얼음 목욕 등)을 통해 그 시기를 버텨낼 수 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2035.5,
+   "en": "Cold showers can increase dopamine I mean, exercise, positive social interactions, it's very likely that people will need to use other healthy methods to offset that reduction in dopamine if ever they stand to get through that first week.",
+   "ko": "찬물 샤워, 운동, 긍정적인 사회적 상호작용 등 다른 건강한 방법들을 동원하여 낮아진 도파민 수치를 상쇄해야만 비로소 그 마의 첫 일주일을 넘길 가능성이 생깁니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2047.9,
+   "en": "And again, if you can get through that first week, chances are quite a bit higher that you'll be able to maintain the cessation of smoking or vaping. And of course hypnosis, things like Bupropion can also assist in that.",
+   "ko": "다시 말씀드리지만 첫 일주일을 견뎌낸다면 금연이나 금연 베이핑을 유지할 확률이 훨씬 높아집니다. 물론 최면이나 부프로피온 같은 약물도 도움이 될 수 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2061.2,
+   "en": "However, I did consult with Dr. David Spiegel in anticipation of this episode regardless of the method that you used to quit smoking or vaping, snuffing or dipping. There's good evidence that a routine, maybe once a month or even once a week hypnosis type approach to replenish or even enhance the neural circuits that are allowing you to stay away from nicotine is going to be a very good idea.",
+   "ko": "이번 에피소드를 준비하며 데이비드 스피겔 박사와 상담했는데, 어떤 방법으로 금연했든 한 달에 한 번 혹은 일주일에 한 번씩 정기적인 최면 요법을 통해 니코틴을 멀리하게 해주는 신경 회로를 보강하거나 강화하는 것이 매우 좋은 아이디어라는 확실한 증거가 있습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2088.4,
+   "en": "And just a very brief mention, there is a vast literature on the fact that when people have quit smoking or vaping or other form of consuming nicotine that when they consume alcohol, there's a much higher probability of relapse.",
+   "ko": "그리고 아주 짧게 언급하자면, 니코틴을 끊은 사람들이 술을 마셨을 때 재발할 확률이 훨씬 높다는 수많은 연구 결과가 존재합니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2101.7,
+   "en": "When I reemphasize that nicotine is not what causes cancer, it is the delivery device that causes cancer and the other negative health effects.",
+   "ko": "니코틴 자체가 암을 유발하는 것이 아니라 전달 장치와 그 외의 요소들이 암과 부정적인 건강 효과를 일으킨다는 점을 다시 한번 강조하고 싶습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2108.8,
+   "en": "That is not to say that people should be ingesting nicotine through any different methods simply to get a cognitive boost.",
+   "ko": "그렇다고 해서 단순히 인지 능력을 높이기 위해 다른 방식으로 니코틴을 섭취해야 한다는 뜻은 아닙니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2114.0,
+   "en": "In any event, nicotine, it should now be clear, is an immensely powerful substance, one of the most commonly ingested substances on the face of the earth, and has been for a very long time.",
+   "ko": "어쨌든 니코틴은 매우 강력한 물질이며 지구상에서 가장 흔하게 섭취되는 물질 중 하나로 아주 오랫동안 우리 곁에 있었습니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2125.2,
+   "en": "And now that you understand the underlying biology, and the way in which it changes your psychology and physiology, that should come as no surprise.",
+   "ko": "이제 그 근저에 깔린 생물학과 그것이 심리 및 생리에 작용하는 방식을 이해하셨으니, 그 사실이 놀랍지 않으실 겁니다.",
+   "speaker": "Andrew Huberman"
+  },
+  {
+   "start": 2131.7,
+   "en": "So once again, I'd like to thank you for joining me today, for a discussion about the biology and psychological effects of nicotine, this incredibly powerful substance. And as always, thank you for your interest in science.",
+   "ko": "오늘 이 믿을 수 없을 정도로 강력한 물질인 니코틴의 생물학적, 심리학적 효과에 대한 논의에 함께해주셔서 다시 한번 감사드립니다. 언제나처럼 과학에 대한 여러분의 관심에 감사드립니다.",
+   "speaker": "Andrew Huberman"
+  }
+ ]
+}
