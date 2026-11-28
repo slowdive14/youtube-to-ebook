@@ -1,0 +1,2829 @@
+{
+ "id": "-LE_PbAN1fA",
+ "title": "Book Club: Let’s Talk About ‘The Calamity Club’",
+ "show": "The Book Review",
+ "channel": "New York Times Podcasts",
+ "videoUrl": "https://www.youtube.com/watch?v=-LE_PbAN1fA",
+ "audioUrl": "https://dts.podtrac.com/redirect.mp3/pdst.fm/e/pfx.vpixl.com/6qj4J/pscrb.fm/rss/p/tracking.swap.fm/track/4jdbJYYRKqK96EGqOzQb/nyt.simplecastaudio.com/621229bd-2556-4ce6-8ae0-9fa3046f9da9/episodes/85b65742-e54d-47c7-addd-759984fee527/audio/128/default.mp3?aid=rss_feed&awCollectionId=621229bd-2556-4ce6-8ae0-9fa3046f9da9&awEpisodeId=85b65742-e54d-47c7-addd-759984fee527&feed=zyaxg_KL",
+ "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/61/44/62/614462a4-553f-ed36-80f1-f1d8aa4ec743/mza_16684133149577719577.jpg/600x600bb.jpg",
+ "duration": 3286,
+ "releaseDate": "2026-11-27T19:12:32Z",
+ "addedAt": "2026-11-28",
+ "segments": [
+  {
+   "start": 0.0,
+   "en": "Hey, this is Lawroach.",
+   "ko": "안녕하세요, Lawroach입니다.",
+   "speaker": "Lawroach",
+   "ad": true
+  },
+  {
+   "start": 1.7,
+   "en": "Hi, I'm Ray.",
+   "ko": "안녕하세요, Ray입니다.",
+   "speaker": "Ray",
+   "ad": true
+  },
+  {
+   "start": 3.0,
+   "en": "Welcome to The Reframers, a podcast that brings the world's biggest creatives together to talk about watches, fashion, music, and culture.",
+   "ko": "세계 최고의 크리에이티브들이 모여 시계, 패션, 음악, 문화를 이야기하는 팟캐스트, The Reframers에 오신 것을 환영합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 11.6,
+   "en": "We hit a turning point.",
+   "ko": "우리는 전환점을 맞이했습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 12.6,
+   "en": "My hairstylist did a roller set on me six years, seven years ago, and I looked in the mirror and I was like, oh my god, I look like the songs I love.",
+   "ko": "6~7년 전 제 헤어 스타일리스트가 롤러 세팅을 해주었는데, 거울을 보고 \"세상에, 내가 사랑하는 노래들처럼 생겼어\"라고 생각했죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 18.9,
+   "en": "Oh. How beautiful. Say that again.",
+   "ko": "오. 정말 아름답네요. 다시 말해봐요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 21.6,
+   "en": "I look like the songs I love. I love that.",
+   "ko": "내가 사랑하는 노래들처럼 생겼어요. 정말 마음에 들어요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 24.1,
+   "en": "Listen to the reframers from Audemars Piguet now on your favorite podcast platform.",
+   "ko": "지금 바로 선호하는 팟캐스트 플랫폼에서 오데마 피게의 'The Reframers'를 들어보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 30.6,
+   "en": "Everyone have their snacks ready? Good. Because it is time for Book Club.",
+   "ko": "모두 간식 준비되셨나요? 좋습니다. 이제 북클럽 시간이거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 38.5,
+   "en": "Hello, and welcome to the Book Review from The New York Times. I'm MJ Franklin.",
+   "ko": "안녕하세요, 뉴욕 타임스 북리뷰에 오신 것을 환영합니다. 저는 MJ 프랭클린입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 43.1,
+   "en": "I'm an editor here at the New York Times Book Review and the host of the Book Review Book Club. And today, I'm with...",
+   "ko": "저는 뉴욕 타임스 북리뷰의 에디터이자 북리뷰 북클럽의 진행자입니다. 오늘은 이분들과 함께합니다...",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 49.5,
+   "en": "Lauren Kristen, and I'm an editor at the Book Review. And...",
+   "ko": "로렌 크리스틴입니다. 북리뷰 에디터죠. 그리고...",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 52.8,
+   "en": "Liz Egan. I'm a writer at the Book Review.",
+   "ko": "리즈 이건입니다. 북리뷰 작가로 활동하고 있어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 55.9,
+   "en": "This is like a returning squad. We've book clubed together for Wild Dark Shore a few months ago.",
+   "ko": "마치 다시 모인 팀 같네요. 몇 달 전 'Wild Dark Shore'로 북클럽을 같이 했었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 61.1,
+   "en": "small things like these by Claire Keegan a year or so ago. Exactly.",
+   "ko": "1년 전쯤 클레어 키건의 '이처럼 사소한 것들'도 했었고요. 맞아요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 66.5,
+   "en": "We got the band back together.",
+   "ko": "팀이 다시 뭉쳤네요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 67.6,
+   "en": "Yeah, I was saying I think I rarely do this book club without Liz.",
+   "ko": "네, 리즈 없이 북클럽을 하는 경우는 거의 없는 것 같다는 말을 하려던 참이었어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 71.0,
+   "en": "That's how you know you have a squad.",
+   "ko": "진정한 팀이 있다는 증거죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 72.6,
+   "en": "This is the best group for sure. Our emotional comfort chat.",
+   "ko": "확실히 최고의 그룹이에요. 정서적으로 편안한 대화 시간이죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 76.6,
+   "en": "Yes, yes. Well, today we are here to talk about the Calamity Club and Liz Lauren.",
+   "ko": "맞아요. 자, 오늘은 'The Calamity Club'에 대해 이야기해 보려고 합니다. 리즈, 로렌.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 84.3,
+   "en": "Correct me if I'm wrong, but to me, the Calamity Club has had this dual status this year in books as both a Titan and an underdog.",
+   "ko": "제 생각이 틀렸다면 말씀해 주세요. 제게 'The Calamity Club'은 올해 도서 시장에서 거물이자 약자라는 이중적인 지위를 가진 것처럼 느껴졌거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 94.4,
+   "en": "On the one hand, there have been several huge, huge books that have dominated the literary conversation over the course of the year, and the Calamity Club hasn't been huge in that conversation.",
+   "ko": "한편으로는 한 해 동안 문학적 담론을 지배했던 아주 거대한 책들이 몇 권 있었는데, 'The Calamity Club'은 그 담론에서 크게 다뤄지지 않았어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 105.8,
+   "en": "At the same time, the book has been on the bestseller list as of this recording for 27 weeks, which is tremendous.",
+   "ko": "동시에 이 책은 녹음 시점 기준으로 27주 동안 베스트셀러 목록에 올라와 있는데, 이건 정말 엄청난 일입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 115.0,
+   "en": "It has been on the bestseller list since it came out. And high up on the bestseller list.",
+   "ko": "출간된 이후로 계속 베스트셀러 목록에 있었죠. 그것도 상위권에 말이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 120.3,
+   "en": "Like I think it was number three last week. That's no easy feat. No.",
+   "ko": "지난주에는 3위였던 것 같아요. 결코 쉬운 일이 아니죠. 아니고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 125.4,
+   "en": "At the same time here at the book review, we have these save buttons where readers can say, I want to read this or I have read this.",
+   "ko": "동시에 여기 북리뷰에는 독자들이 '읽고 싶다'거나 '읽었다'고 표시할 수 있는 저장 버튼이 있습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 132.7,
+   "en": "And through those buttons, readers have said, this book is one of the 2026 books they want to read most this year.",
+   "ko": "그 버튼을 통해 독자들은 이 책이 올해 가장 읽고 싶은 2026권의 책 중 하나라고 말해왔죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 139.7,
+   "en": "So this book feels like a quiet Titan. It feels under discussed and everywhere. Does that feel right to you?",
+   "ko": "그래서 이 책은 조용한 거물처럼 느껴집니다. 논의는 덜 되는데 어디에나 있는 느낌이죠. 여러분도 그렇게 느끼시나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 146.0,
+   "en": "Yes, it does. I would say this is the year of the fat book.",
+   "ko": "네, 맞아요. 올해는 '두꺼운 책의 해'라고 할 수 있겠네요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 150.7,
+   "en": "And this is the fattest of fat books with lots. Yes, 634 to be exact.",
+   "ko": "그리고 이 책은 아주 두꺼운 책들 중에서도 가장 두껍죠. 네, 정확히 634페이지나 돼요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 158.7,
+   "en": "It has had a lot of staying power. And I do feel like everywhere I go, people are talking about this book.",
+   "ko": "지속력이 대단해요. 어디를 가든 사람들이 이 책에 대해 이야기하고 있다는 게 느껴집니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 166.6,
+   "en": "Well, to me, a powerful book, a meaty book, a book everyone is reading, but maybe hasn't discussed yet sounds like a book club to me.",
+   "ko": "제게는 강력하고, 내용이 알차고, 모두가 읽고 있지만 아직 토론하지 않은 책이야말로 북클럽에 딱 맞는 책처럼 들리네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 175.9,
+   "en": "So we're going to dig in. But before we do that, I have my typical admin notes.",
+   "ko": "그래서 본격적으로 파헤쳐 보려고 합니다. 하지만 그전에 몇 가지 공지 사항이 있습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 179.6,
+   "en": "First, there will be spoilers in this episode, but I want to keep this conversation accessible to all.",
+   "ko": "첫째, 이번 에피소드에는 스포일러가 포함되어 있지만, 모든 분이 이 대화에 참여할 수 있도록 하고 싶습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 185.5,
+   "en": "So as always, we'll keep the first half spoiler light. We will do some setup.",
+   "ko": "그래서 평소처럼 전반부는 스포일러를 자제할 것입니다. 배경 설명을 좀 할 거고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 191.1,
+   "en": "We'll introduce the themes and the characters and the thing that animates the book.",
+   "ko": "주제와 캐릭터, 그리고 책을 생동감 있게 만드는 요소들을 소개할 것입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 195.4,
+   "en": "We'll talk around the book, but we'll save spoilers, any reveals of what happens to the second half of episode which will be spoiler filled.",
+   "ko": "책 전반에 대해 이야기하겠지만, 무슨 일이 일어나는지에 대한 반전이나 스포일러는 스포일러가 가득할 후반부를 위해 아껴두겠습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 204.9,
+   "en": "So choose your own adventure based on how much you want to know. First half spoiler light, second half spoiler filled. That's note number one.",
+   "ko": "그러니 얼마나 알고 싶은지에 따라 선택해 보세요. 전반부는 스포일러가 적고, 후반부는 가득합니다. 이게 첫 번째 공지입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 211.8,
+   "en": "Note number two. At the end of the episode, we will reveal our December book club book.",
+   "ko": "두 번째 공지입니다. 에피소드 끝에 12월 북클럽 도서를 공개할 예정입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 216.8,
+   "en": "So stay with us to the end to find out what we're reading next. And without further ado, let's dive into the Calamity Club.",
+   "ko": "다음엔 무엇을 읽을지 끝까지 함께해 주세요. 더 지체하지 말고 'The Calamity Club'으로 들어가 봅시다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 223.6,
+   "en": "To get started, can someone give us an introduction of this book? What is it? What is the Calamity Club?",
+   "ko": "시작하기 위해 누가 이 책을 소개해 주실 수 있나요? 어떤 책인가요? 'The Calamity Club'은 무엇인가요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 228.4,
+   "en": "I would love to. Thank you. Thank you.",
+   "ko": "제가 기꺼이 하죠. 고마워요. 감사합니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 230.8,
+   "en": "I had the pleasure of reviewing this novel when it came out, and I've honestly been thinking of it since. Yeah.",
+   "ko": "이 소설이 나왔을 때 리뷰를 쓰는 즐거움을 누렸고, 솔직히 그 이후로 계속 생각하고 있었어요. 네.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 236.9,
+   "en": "This is the second novel by Katherine Stockett, who is the author of The Help that came out 17 years ago.",
+   "ko": "이 책은 17년 전에 나온 'The Help'의 저자 캐서린 스토킷의 두 번째 소설입니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 243.9,
+   "en": "This one follows two narrators, two young women. One is extremely young.",
+   "ko": "이 작품은 두 명의 화자, 즉 두 명의 젊은 여성을 따라갑니다. 한 명은 아주 어려요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 249.0,
+   "en": "She's an 11-year-old orphan named Meg, whose mother disappeared very suddenly,",
+   "ko": "메그라는 이름의 11살 고아인데, 어머니가 갑자기 사라졌어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 258.3,
+   "en": "I believe an orphanage called simply the orphan in Oxford, Mississippi ever since.",
+   "ko": "그 이후로 미시시피주 옥스퍼드에 있는, 단순히 '고아원'이라고 불리는 곳에 있는 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 262.6,
+   "en": "And the other heroine is a 24-year-old spinster named Bertie Calhoun, who is in Oxford visiting her sister Francis in the hopes of securing a loan for her and her mother back in their small town.",
+   "ko": "또 다른 여주인공은 24세 미혼 여성인 버디 칼훈인데, 고향 소도시에 있는 어머니와 자신을 위한 대출을 받기 위해 언니 프랜시스를 방문하러 옥스퍼드에 와 있죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 275.1,
+   "en": "The story goes back and forth between these two women's stories.",
+   "ko": "이야기는 이 두 여자의 사연을 왔다 갔다 하며 진행됩니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 278.6,
+   "en": "It is set during the Depression in Oxford, Mississippi, as I mentioned.",
+   "ko": "말씀드린 대로 미시시피주 옥스퍼드의 대공황 시대를 배경으로 합니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 282.7,
+   "en": "So it is a historical novel, but it is also a kind of sweeping adventure-filled, fast-paced but departed rump.",
+   "ko": "그래서 역사 소설이기도 하지만, 광범위한 모험이 가득하고 전개가 빠르며 일탈적인 즐거움도 주는 작품이죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 290.3,
+   "en": "The thing I would add is that what we're getting, the story is these two young women are trying to change their faiths.",
+   "ko": "덧붙이고 싶은 점은, 이 이야기가 이 두 젊은 여성이 자신의 운명을 바꾸려 노력하는 과정을 보여준다는 것입니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 297.6,
+   "en": "Meg wants to be adopted. She wants to get out of this orphanage, and the matron of this orphanage seems to really be targeting her for reasons that nobody seems to understand.",
+   "ko": "메그는 입양되기를 원합니다. 이 고아원에서 나가고 싶어 하는데, 고아원 원장은 아무도 이해할 수 없는 이유로 그녀를 정말 괴롭히는 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 308.2,
+   "en": "And so she wants to get adopted. And then Birdie wants to secure this loan, and she quickly discovers that all is not well in the home of her sister and this family that she's married into.",
+   "ko": "그래서 그녀는 입양되기를 원하죠. 한편 버디는 대출을 받고 싶어 하지만, 언니의 집과 언니가 시집간 가족 상황이 좋지 않다는 것을 곧 깨닫게 됩니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 320.1,
+   "en": "Is there anything that you would add, Liz?",
+   "ko": "리즈, 덧붙일 내용이 있나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 322.2,
+   "en": "I would add that some people are reluctant to read books with small children as narrators.",
+   "ko": "어린아이를 화자로 내세운 책을 읽기 꺼려하는 분들도 있다는 점을 덧붙이고 싶네요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 331.2,
+   "en": "And this is not one you should be afraid of because Meg has a voice that carries us through.",
+   "ko": "이 책은 그런 걱정을 할 필요가 없는 책인데, 메그의 목소리가 우리를 끝까지 이끌어주기 때문이죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 337.6,
+   "en": "I know we're still sort of summarizing the plot, but I want to put that in right up front.",
+   "ko": "아직 줄거리를 요약하는 중이라는 건 알지만, 그 점을 미리 말씀드리고 싶었어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 341.2,
+   "en": "I cannot relate to those people. I don't like to read books that are narrated by children.",
+   "ko": "전 그런 분들에게 공감할 수 없네요. 전 아이들이 서술하는 책 읽는 걸 좋아하지 않거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 348.3,
+   "en": "Are you serious?",
+   "ko": "진심이세요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 348.8,
+   "en": "I love to read books down to my children. It's nails on a chalkboard.",
+   "ko": "저는 아이들에게 책을 읽어주는 걸 좋아해요. 칠판 긁는 소리 같은 건 아니에요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 352.4,
+   "en": "Many clubs on the book clock. Can I have the pro con for children narrators?",
+   "ko": "북클럽에서 여러 번 다뤘죠. 아동 화자에 대한 장단점을 들어볼 수 있을까요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 357.2,
+   "en": "We're off to it from rough story. It obviously has to be done right.",
+   "ko": "힘든 이야기부터 시작하네요. 당연히 제대로 다뤄져야겠죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 360.1,
+   "en": "Maybe because it's so hard that when it's done right, it really kills you.",
+   "ko": "아마도 그렇게 하는 게 너무 어렵기 때문에 제대로 됐을 때 정말 감동이 큰 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 364.6,
+   "en": "Liz, what takes you out? Why don't you like child narrators?",
+   "ko": "리즈, 무엇 때문에 몰입이 깨지나요? 왜 아동 화자를 좋아하지 않으시죠?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 367.8,
+   "en": "I feel that they're always too clever and they're saying philosophical and intelligent things that young children shouldn't necessarily be saying.",
+   "ko": "아이들이 항상 너무 영리하게 느껴져요. 어린아이들이 굳이 하지 않을 법한 철학적이고 지적인 말을 하곤 하죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 380.8,
+   "en": "I don't know what that says about the young children in my life. But they're just too clever by half.",
+   "ko": "제 주변 아이들에 대해 뭐라고 하는 건 아니지만, 소설 속 아이들은 지나치게 영악해요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 387.2,
+   "en": "Okay. Prokosha's children. That's right. That's my defense.",
+   "ko": "알겠습니다. 조숙한 아이들이군요. 맞아요. 그게 제 변명입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 390.6,
+   "en": "Oh, they're hilarious. I can't stand it. No.",
+   "ko": "오, 정말 웃겨요. 못 참겠네요. 아뇨.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 392.9,
+   "en": "I like a real life Prokosha's child. But in fiction, no way.",
+   "ko": "현실에서 조숙한 아이는 좋지만, 소설에서는 절대 아니에요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 396.9,
+   "en": "They have to be funny. Exactly. They have to be funny. Meg is really funny.",
+   "ko": "재미있어야 하죠. 맞아요. 재미있어야 해요. 메그는 정말 웃기거든요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 401.2,
+   "en": "Okay, so that's the setup of the book. Lauren, you mentioned that Catherine Stockett is known for her book The Help, Liz.",
+   "ko": "좋아요, 이게 책의 기본 설정이군요. 로렌, 당신은 캐서린 스토킷이 'The Help'라는 책으로 유명하다고 언급하셨죠, 리즈.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 411.2,
+   "en": "You profiled Catherine Stockett before this book came out. Is there anything that we need to know, any other background? Tell us about Catherine Stockett.",
+   "ko": "이 책이 나오기 전에 캐서린 스토킷을 인터뷰하셨죠. 우리가 알아야 할 다른 배경 지식이 있나요? 캐서린 스토킷에 대해 알려주세요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 420.6,
+   "en": "I would start by saying I was nervous for the interview because I'm always nervous for interviews.",
+   "ko": "먼저 저는 인터뷰 때 항상 긴장하기 때문에 이번에도 긴장했다는 말씀부터 드리고 싶네요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 427.4,
+   "en": "And I think she was really nervous for the interview. It was her first talk about the book.",
+   "ko": "그리고 그녀도 인터뷰에서 정말 긴장했던 것 같아요. 이 책에 대해 처음으로 이야기하는 자리였거든요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 434.2,
+   "en": "And her last book, The Help, which sold 15 million copies and came out, as you mentioned, came out 17 years ago, had some controversy around it.",
+   "ko": "말씀하신 대로 17년 전에 출간되어 1,500만 부가 팔린 그녀의 전작 'The Help'는 몇 가지 논란이 있었죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 444.5,
+   "en": "And I think that she was nervous to talk about this book. And she had invested her heart and soul in it.",
+   "ko": "그래서 그녀가 이 책에 대해 이야기하는 것을 긴장했던 것 같아요. 온 마음과 영혼을 쏟아부었거든요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 453.1,
+   "en": "And that was was clear to me from the minute she met me at the door of her apartment.",
+   "ko": "아파트 문 앞에서 그녀를 만난 순간부터 그 점이 제게 명확히 느껴졌습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 457.8,
+   "en": "What's giving you a sense of her nerves? What's happening? What is she saying or not saying? How did you have that sense?",
+   "ko": "무엇 때문에 그녀가 긴장했다는 걸 느끼셨나요? 무슨 일이 있었죠? 그녀가 무슨 말을 하거나 하지 않았나요? 어떻게 그런 느낌을 받으셨어요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 463.6,
+   "en": "Well, she told me right off the bat in a very charming way that she had forgotten to take a beta blocker before I arrived.",
+   "ko": "글쎄요, 그녀는 제가 도착하기 전에 베타 차단제를 먹는 걸 깜빡했다고 아주 매력적인 방식으로 바로 말해주더라고요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 470.4,
+   "en": "And that immediately just put me. Just sorry, yeah.",
+   "ko": "그 말이 즉시 저를... 그냥 미안했어요, 네.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 473.2,
+   "en": "And I, in fact, had just come, I had been killing time at a skintare store on her corner and and thought I was putting moisturizer on my face, but accidentally put face wash on my face.",
+   "ko": "사실 저도 방금 왔는데, 그녀네 집 모퉁이에 있는 화장품 가게에서 시간을 때우다가 얼굴에 모이스처라이저를 바른다는 게 실수로 세안제를 발라버렸거든요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 483.7,
+   "en": "So my face was really sudsy, and I wasn't sure if she could tell.",
+   "ko": "그래서 얼굴에 거품이 가득했는데 그녀가 알아챌까 봐 걱정됐죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 487.8,
+   "en": "Of course, I didn't tell her that because I was trying to be a professional, but it was a really honest and heartfelt interview.",
+   "ko": "프로답게 보이려고 그 사실을 말하진 않았지만, 정말 솔직하고 진심 어린 인터뷰였어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 496.4,
+   "en": "You know the minute you get there if your subject is going to engage and go there with you. And I really felt she did.",
+   "ko": "인터뷰 대상자가 마음을 열고 대화에 임할지 아닐지는 도착하는 순간 알 수 있는데, 그녀는 정말 그랬던 것 같아요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 506.0,
+   "en": "It does who ish so that you wrote the help right. She wrote the help that took her a long time to write also.",
+   "ko": "맞아요, 그녀가 'The Help'를 썼죠. 그 책을 쓰는 데도 꽤 오랜 시간이 걸렸고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 514.3,
+   "en": "It was a book about the black maids who worked in the homes of wealthy white families many years ago in the South.",
+   "ko": "오래전 남부의 부유한 백인 가정에서 일하던 흑인 가정부들에 관한 책이었죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 525.8,
+   "en": "The book sold like gangbusters was also a major bestseller. it was made into an Oscar-winning movie made by Tate Taylor, who is Catherine Stockett's childhood friend.",
+   "ko": "그 책은 엄청나게 팔려 나간 주요 베스트셀러였고, 캐서린 스토킷의 어린 시절 친구인 테이트 테일러가 감독을 맡아 오스카상을 받은 영화로도 제작되었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 540.9,
+   "en": "Oh, I don't think I knew that.",
+   "ko": "오, 그건 몰랐던 사실이네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 542.2,
+   "en": "And they actually are, they have neighboring houses now as adults in Mississippi.",
+   "ko": "성인이 된 지금 그들은 미시시피에서 이웃집에 살고 있어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 547.8,
+   "en": "The book and the movie got a lot of criticism because a white woman told the stories of the American dirt came out in early 2020.",
+   "ko": "2020년 초에 출간된 'American Dirt'와 마찬가지로, 백인 여성이 흑인의 이야기를 했다는 이유로 책과 영화 모두 많은 비판을 받았습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 565.4,
+   "en": "And it was swept up in one of publishing's many reckonings about who has the right to tell certain stories.",
+   "ko": "누구에게 특정 이야기를 할 권리가 있는지에 대한 출판계의 여러 고찰 중 하나에 휩쓸린 거죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 575.2,
+   "en": "And so that came out about 17 years ago. Yeah, I will also just, if I may, I will just add,",
+   "ko": "그게 벌써 17년 전 일이네요. 네, 실례가 안 된다면 저도 덧붙이고 싶은 게 있어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 580.5,
+   "en": "because I hadn't read the help until actually, after I read the Calamity Club, and I read the Calamity Club just for work because I was assigned to read it.",
+   "ko": "사실 저는 'The Calamity Club'을 읽고 나서야 'The Help'를 읽었거든요. 'The Calamity Club'도 업무상 배정받아서 읽은 거였고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 588.4,
+   "en": "And it wasn't something I necessarily would have otherwise been drawn to.",
+   "ko": "그렇지 않았다면 딱히 끌리지 않았을 책이었죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 593.5,
+   "en": "When I went back and read the help, I was vaguely aware of some of the criticism.",
+   "ko": "다시 돌아가 'The Help'를 읽었을 때, 비판적인 시각이 있다는 것을 어느 정도 알고 있었어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 597.0,
+   "en": "It wasn't just that it was in the hands of a white person. I think there was some kind of offensive portrayals.",
+   "ko": "단지 백인의 손에서 쓰였다는 점뿐만 아니라, 제 생각에는 다소 모욕적인 묘사도 있었던 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 602.7,
+   "en": "There was the way she handled it in some people's opinions.",
+   "ko": "어떤 사람들의 의견에 따르면 그녀가 그 주제를 다룬 방식에 문제가 있었다고 하더라고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 607.1,
+   "en": "What's interesting about this turn now is she doesn't just switch over to say, okay, well then I'll tell the wealthy white, the stories of the wealthy white employers.",
+   "ko": "이번 작품에서 흥미로운 변화는 그녀가 단순히 '알겠어, 그럼 난 부유한 백인 고용주들의 이야기를 할게'라고 돌아서지 않았다는 점이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 616.2,
+   "en": "It's a, these protagonists are young white women, a young white girl and a young white woman, but these are not the kind of old money southern bells that also feature in the help.",
+   "ko": "주인공들은 어린 백인 소녀와 젊은 백인 여성이지만, 'The Help'에 등장했던 전통 있는 부유한 남부 미인들과는 다릅니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 629.6,
+   "en": "These are struggling scrappy young women.",
+   "ko": "이들은 고군분투하며 꿋꿋하게 살아가는 젊은 여성들입니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 633.4,
+   "en": "These are, and the settings of this novel, which I think works so well, are these kind of crumbling, dilapidated old mansions.",
+   "ko": "이들은 고군분투하며 꿋꿋하게 살아가는 젊은 여성들입니다. 그리고 이 소설의 배경이 되는 무너져가는 낡은 저택들이 설정상 아주 잘 어우러진다고 생각해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 641.8,
+   "en": "The glory days are behind these two really kind of stately stately southern mansions and they have really seen better days, both of them.",
+   "ko": "위엄 있는 두 남부 저택의 영광스러운 시절은 이미 지나갔고, 두 곳 모두 전성기가 한참 지났죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 650.7,
+   "en": "And so there's just this kind of crumbling tragic aspect to this depression era deep south that she's drawing here. And I think it works so well. Yeah.",
+   "ko": "그래서 그녀가 여기서 묘사하는 대공황 시대의 깊은 남부에는 허물어져 가는 비극적인 면모가 있어요. 전 그게 아주 효과적이었다고 봅니다. 네.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 659.5,
+   "en": "But that's some of the atmosphere of the book. Now, I just want to do a vibe check.",
+   "ko": "그게 이 책의 분위기 중 일부군요. 이제 분위기를 좀 확인해 보고 싶네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 663.4,
+   "en": "How did you feel about it? Love the book, hate the book. I want to start with you, Lauren, because you mentioned that you reviewed.",
+   "ko": "어떠셨나요? 이 책이 좋았나요, 아니면 싫었나요? 리뷰를 쓰셨다고 한 로렌부터 들어보고 싶네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 668.9,
+   "en": "Yeah. So if you haven't read the review, I loved it.",
+   "ko": "네. 리뷰를 아직 안 보셨다면, 전 정말 좋았습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 672.0,
+   "en": "I mean, it was, I say this and I think, Liz and I have talked about this, that there are 100 pages in the middle that sag.",
+   "ko": "제 말은, 리즈와도 이야기했던 부분인데 중간에 흐름이 처지는 부분이 한 100페이지 정도 있어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 677.9,
+   "en": "I understand why she had to write them. There's some just necessary kind of setup of the actual titular calamity club.",
+   "ko": "그녀가 왜 그 부분을 써야 했는지는 이해해요. 제목이기도 한 'Calamity Club'을 실제로 설정하는 데 필요한 과정이었으니까요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 685.1,
+   "en": "But there's a little bit too much mechanics in there with the exception of that 100 pages, which could have maybe been 30.",
+   "ko": "하지만 그 100페이지는 30페이지 정도로 줄일 수 있었을 만큼 기술적인 설명이 너무 많았어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 690.9,
+   "en": "I think the rest of it just moves. Like we said, 630 something pages. It goes by so quickly, it's vacation reading. It's like,",
+   "ko": "그 부분을 제외하면 나머지는 정말 술술 읽혀요. 말했듯이 630페이지가 넘는데도 너무 빨리 지나가서 휴가 때 읽기 딱이죠. 마치...",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 699.3,
+   "en": "It's just pure hell-raising entertainment, and I loved that.",
+   "ko": "그냥 순수하게 떠들썩하고 즐거운 오락물 같았고, 전 그 점이 정말 좋았습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 703.9,
+   "en": "Tell me about your first impressions, because you mentioned you had not read the help. This was your first Catholic socket.",
+   "ko": "첫인상은 어땠나요? 'The Help'를 읽지 않았다고 하셨잖아요. 이번이 당신의 첫 캐서린 스토킷이었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 709.5,
+   "en": "As you entering the book, what is capturing you? When do you realize you love it?",
+   "ko": "책을 읽기 시작하면서 무엇이 당신을 사로잡았나요? 언제 이 책이 좋다는 걸 깨달았나요?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 713.6,
+   "en": "Oh, the voice of these two heroines, the humor. I think it's hard, obviously, to balance, not that I've done it, but two narrative voices,",
+   "ko": "오, 이 두 여주인공의 목소리와 유머요. 제가 직접 해본 건 아니지만, 두 명의 화자 사이에서 균형을 맞추는 건 분명 어려운 일이라고 생각해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 721.7,
+   "en": "two different narrators to go back and forth and to make these women feel distinct.",
+   "ko": "두 명의 서로 다른 화자를 오가며 그들을 뚜렷하게 구별되게 만드는 것 말이죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 727.0,
+   "en": "Of course, there is a lot of overlap. their stories intertwine, they are different ages, they are different circumstances,",
+   "ko": "물론 겹치는 부분도 많아요. 이야기가 서로 얽혀 있고 나이도, 상황도 다르지만요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 732.6,
+   "en": "and you just feel these completely different personalities, but they are both so funny and lovable, and I felt so close to both of them, and so deeply invested in their stories.",
+   "ko": "완전히 다른 성격을 느끼게 되는데, 둘 다 너무 웃기고 사랑스러워서 두 사람 모두에게 친밀감을 느꼈고 그들의 이야기에 깊이 몰입하게 되었습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 743.7,
+   "en": "My first impression was, wow, she can really write. It was just like on the sentence level, Catherine Stockett really knows her way through a sentence,",
+   "ko": "첫인상은 '와, 글 정말 잘 쓴다'였어요. 문장 수준에서도 캐서린 스토킷은 정말 문장을 어떻게 다뤄야 하는지 잘 알더라고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 751.4,
+   "en": "and like as well as plot, I mean, what, it just, yeah, I think also, there's nothing structurally reinventing the wheel about this book.",
+   "ko": "줄거리뿐만 아니라 모든 면에서요. 구조적으로 완전히 새로운 걸 시도한 건 아니라고 생각해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 759.9,
+   "en": "It is a straightforward storytelling and it's a pleasure. It's just a real pleasure to kind of sink into that and be taken care of on the line level too in this way that just, I was so moved.",
+   "ko": "그저 정직하게 이야기를 들려주는데 그게 정말 즐거웠어요. 그 이야기에 빠져들어 문장 하나하나에서 보살핌을 받는 듯한 기분이 들어서 정말 감동적이었습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 772.5,
+   "en": "I love watching you explain why you love this book. You just lit up. You did. You did. I loved it. There's excitement and passion for this book. And it's been months and I'm so excited about it.",
+   "ko": "이 책을 왜 좋아하는지 설명하는 당신의 모습을 보는 게 정말 즐겁네요. 표정이 환해지셨어요. 정말 그래요. 저도 좋았습니다. 이 책에 대한 설렘과 열정이 느껴져요. 몇 달이 지났는데도 여전히 흥분되네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 783.1,
+   "en": "Liz, what about you? How did you feel about this book.",
+   "ko": "리즈, 당신은 어떠셨나요? 이 책에 대해 어떻게 느끼셨어요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 785.1,
+   "en": "I absolutely loved it. I was pulled in from the very first scene where we meet Bertie at a store buying Mary widows, which are condoms, from a woman she describes, I think, as chinless and churchy.",
+   "ko": "저도 정말 좋았어요. 첫 장면부터 완전히 빠져들었는데, 버디가 가게에서 '매리 위도우'라는 콘돔을 사는 장면이었죠. 그녀가 묘사하기로 그 점원은 턱이 없고 교회에 열심히 다니는 것 같은 여자였고요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 805.5,
+   "en": "And the woman is judging her for buying, I think, a three-pack of condoms. And then she says, actually I need 90 of them. And-",
+   "ko": "그 여자가 버디가 콘돔 3개입 팩을 산다고 판단하고 있는 것 같았는데, 그때 버디가 '사실 90개가 필요해요'라고 말하죠. 그리고...",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 814.0,
+   "en": "It is one of the great openings of anything I've read this year because it's so funny. It's totally forgotten. It's so funny.",
+   "ko": "올해 읽은 책 중 최고의 오프닝 중 하나예요. 너무 웃겨서 잊히지가 않아요. 정말 웃기죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 820.0,
+   "en": "And you're like, who are you? Why are you here? And then it goes back in time. I forgot that it starts that way. And I just loved it. It completely-",
+   "ko": "그러면 독자는 '넌 누구야? 왜 여기 있는 거지?'라고 생각하게 되죠. 그러고 나서 과거로 돌아가요. 그렇게 시작한다는 걸 잊고 있었는데 정말 좋았습니다. 완전히...",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 826.8,
+   "en": "It really pulled me in and I just want to emphasize how funny the book is. It has- there's a lot of sadness. There's a lot of loss and longing.",
+   "ko": "절 완전히 끌어당겼고, 이 책이 얼마나 재미있는지 다시 한번 강조하고 싶어요. 슬픔도 많고 상실과 갈망도 많이 담겨 있죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 835.8,
+   "en": "and there's that stultifying Mississippi heat that Catherine Stockett jins up so well, but it's really, really funny from page one. So I couldn't put it down.",
+   "ko": "그리고 캐서린 스토킷이 아주 잘 묘사한 숨 막히는 미시시피의 더위도 있지만, 첫 페이지부터 정말 정말 재미있어요. 그래서 책을 놓을 수가 없었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 849.8,
+   "en": "How did you approach this book? Because you had read The Help, and that's a lot of baggage that she was sorting through writing this, also that readers have when approaching the book.",
+   "ko": "이 책에 어떻게 접근하셨나요? 'The Help'를 읽으셨으니까요. 작가가 이 책을 쓰면서 정리해야 했던 많은 짐이 있었을 테고, 독자들도 책을 대할 때 선입견이 있었을 테니까요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 860.2,
+   "en": "How did you approach the book?",
+   "ko": "어떤 마음으로 이 책을 읽기 시작하셨나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 861.7,
+   "en": "I loved The Help when it came out. I also reread it right after I finished the Calamity Club,",
+   "ko": "전 'The Help'가 나왔을 때 정말 좋아했어요. 'The Calamity Club'을 다 읽고 나서 바로 다시 읽어보기도 했고요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 868.9,
+   "en": "and I know what Lauren is talking about. There were things that I would change if I were able to rewrite it.",
+   "ko": "로렌이 무슨 말을 하는지 알아요. 제가 만약 다시 쓸 수 있다면 바꾸고 싶은 부분들이 있었거든요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 876.9,
+   "en": "I don't think I asked Catherine what she would have changed, but I have a sense there are things she might change to. But I did absolutely love that book too.",
+   "ko": "캐서린에게 무엇을 바꾸고 싶은지 물어보지는 않았지만, 그녀도 바꾸고 싶은 부분이 있을 거라는 느낌이 들어요. 하지만 전 그 책도 정말 좋아했습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 887.2,
+   "en": "And I I came to this really excited and nervous again, because I don't wanna portray myself as a nervous wreck, but you know, we're pulling for writers.",
+   "ko": "그래서 이번 책도 정말 기대되면서도 다시 긴장됐어요. 제가 긴장만 하는 사람처럼 보이고 싶진 않지만, 알다시피 우린 작가들을 응원하잖아요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 898.8,
+   "en": "I approach every book as innocent, until proven guilty. And when there's a big gap between books. Totally, 17 years. Yeah, I know the story there.",
+   "ko": "전 모든 책을 유죄가 입증되기 전까지는 무죄인 것으로 대합니다. 특히 책 사이의 공백이 클 때는 더 그렇죠. 17년이나 됐으니까요. 네, 그 사연은 알고 있습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 908.8,
+   "en": "And I'm deeply sympathetic to the author and curious about what took so long. And in the case of this book, I think that Time to Marinate really served the book well.",
+   "ko": "전 작가에게 깊이 공감하고 왜 그렇게 오래 걸렸는지 궁금했어요. 이 책의 경우, 숙성하는 시간이 책에 정말 긍정적인 영향을 미쳤다고 생각합니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 922.6,
+   "en": "You said a word that kind of captures how I approached this book, which was curious.",
+   "ko": "제가 이 책에 접근했던 방식을 잘 포착해 주는 단어를 말씀하셨네요. 바로 '궁금함'이었어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 928.7,
+   "en": "Because of the gap, because of the backlash and discussion of the help, I, more than anything, which is very curious, what is Catherine Stockett up to next?",
+   "ko": "그 공백기와 'The Help'에 대한 반발과 담론 때문에 무엇보다 캐서린 스토킷의 다음 행보가 정말 궁금했거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 938.2,
+   "en": "What's the type of story she's going to tell. How is she going to tell it? Can you feel a sense of defensiveness in reading it?",
+   "ko": "어떤 종류의 이야기를 할지, 어떻게 이야기를 풀어낼지 말이에요. 읽으면서 방어적인 태도가 느껴지나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 946.0,
+   "en": "Is that good or bad? I just had all these questions and then I opened the book and I get that great opening and I was like, I'm just in for the ride.",
+   "ko": "그게 좋은 건지 나쁜 건지? 온갖 질문을 품고 책을 폈는데, 그 멋진 오프닝을 보고는 '그냥 이 흐름에 몸을 맡기자'라고 생각했죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 954.0,
+   "en": "I'm just in for the ride. So we have that great comic opening and then we flashback and she just unspools this yarn with so many vivid",
+   "ko": "그냥 흐름에 몸을 맡긴 거예요. 그 멋진 코믹한 오프닝 이후에 과거 회상이 나오는데, 그녀는 정말 생생한 이야기를 풀어내더군요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 964.3,
+   "en": "We talked about Birdie and we talked about Meg, but there's also like the the matron of the orphanage. There are all the people who are around town that Birdie is meeting",
+   "ko": "버디와 메그에 대해 이야기했지만, 고아원 원장 같은 인물도 있고 버디가 만나는 마을 사람들도 모두 등장하죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 976.0,
+   "en": "and Birdie is an outsider come to this town. And so she is approached cynically by people,",
+   "ko": "버디는 이 마을에 온 이방인이에요. 그래서 사람들은 그녀를 냉소적으로 대하죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 982.6,
+   "en": "but she's also meeting these colorful other characters, a great vehicle for introductions. You're meeting the family that her sister has married into.",
+   "ko": "하지만 그녀는 다른 다채로운 캐릭터들도 만나게 되는데, 이는 인물 소개에 아주 좋은 장치가 됩니다. 언니가 시집간 가족들도 만나게 되고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 990.6,
+   "en": "I just got lost in the character portraits. There's also a Dickensian sweep to this novel.",
+   "ko": "저는 인물 묘사에 푹 빠져버렸어요. 이 소설에는 디킨스적인 장대한 흐름도 있고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 997.8,
+   "en": "There are big stakes, very, very clear villains, very, very clear heroes and protagonists.",
+   "ko": "중대한 사건들이 있고, 아주 분명한 악당과 아주 분명한 영웅 및 주인공들이 등장합니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1004.2,
+   "en": "Someone said the word scrappy earlier. I think it's scrappy in these characters, especially Meg, she's like so plucky. Is that what I kept using?",
+   "ko": "아까 누군가 '꿋꿋하다'는 단어를 썼는데요. 캐릭터들, 특히 메그가 정말 용기 있고 꿋꿋한 것 같아요. 제가 계속 그 단어를 썼나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1012.3,
+   "en": "And I love those kinds of characters. And so I got lost in this book and I read it in the spring",
+   "ko": "전 그런 캐릭터를 좋아해요. 그래서 이 책에 푹 빠졌고 지난봄에 읽었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1018.7,
+   "en": "And then I found myself recommending it to everybody I knew when they were like, MJ, what should I read this summer? I'm going to try what should I bring?",
+   "ko": "그러고는 사람들이 'MJ, 이번 여름에 뭘 읽으면 좋을까? 뭘 가져갈까?'라고 물을 때마다 주변에 이 책을 추천하고 있는 절 발견했어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1025.7,
+   "en": "And I was like, bring the Klamity Club. There is something in it for everybody. It's totally universal in the appeal.",
+   "ko": "전 'The Calamity Club을 가져가'라고 했죠. 누구에게나 매력적인 요소가 있거든요. 정말 보편적인 매력이 있어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1031.8,
+   "en": "I mean, it's a story about mothers and children. And the event that starts it all off is of course the split between the separation of Meg and her mother, whose name is Charlie.",
+   "ko": "그러니까 엄마와 아이에 대한 이야기잖아요. 모든 사건의 시작은 당연히 메그와 찰리라는 이름의 엄마가 헤어지게 된 일이고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1043.2,
+   "en": "And I think the rest of the book unfolds from that longing of like the child for her mother and the mother for her child.",
+   "ko": ""
+  },
+  {
+   "start": 1049.5,
+   "en": "But it does feel like there's something so comeback essential about just these yearnings and the themes of this novel that I agree I can put it in anyone's hands. Yeah.",
+   "ko": "하지만 이 소설의 갈망과 주제에는 정말 본질적인 무언가가 있어서 누구에게나 추천할 수 있다는 말에 동의해요. 네.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1058.0,
+   "en": "Let's talk about those themes because there's a lot happening in this book. We're tackling class, social striving, family, at some point in my country, how eugenics, homosexuality, more.",
+   "ko": "주제에 대해 이야기해 봅시다. 이 책에는 정말 많은 일이 일어나거든요. 계급, 사회적 성공을 향한 노력, 가족, 그리고 우생학, 동성애 같은 주제까지 다루고 있죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1071.4,
+   "en": "Was there a theme that stood out to you? I think for me it was power. Power? I mean, all of the themes that you just listed boil down to power on some level,",
+   "ko": "특별히 눈에 띄는 주제가 있었나요? 제게는 '권력'이었던 것 같아요. 권력이요? 제가 방금 나열한 모든 주제가 어느 정도 권력의 문제로 귀결되잖아요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1083.2,
+   "en": "who has the power, who doesn't have the power, who wants the power.",
+   "ko": "누가 권력을 가졌는지, 누가 가지지 못했는지, 누가 권력을 원하는지에 관한 거죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1088.4,
+   "en": "And if I had to boil it down to one point, I think that would be the one that sticks with me the most.",
+   "ko": "만약 한 가지 포인트로 요약해야 한다면, 그게 제 기억에 가장 많이 남는 주제일 거예요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1096.5,
+   "en": "Meg is without agency at the beginning is at the mercy of this system where basically Miss Hannigan from Annie is running her life and she's desperately missing her mother.",
+   "ko": "메그는 처음에 주도권이 없는 상태에서, 기본적으로 '애니'의 해니건 여사 같은 사람이 인생을 좌지우지하는 시스템의 처분에 맡겨진 채 엄마를 간절히 그리워합니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1118.0,
+   "en": "And if she turns 12, she's gonna be sent to a cannery to be doing forced labor. This is where like the Dickens comes. It's all about that totally.",
+   "ko": "그리고 12살이 되면 강제 노동을 하러 통조림 공장으로 보내질 운명이죠. 여기서 디킨스적인 면모가 드러납니다. 완전히 그런 내용이죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1129.5,
+   "en": "It's like, it reminded me a little bit of great expectations And that is not an exaggeration. She is, she's a reminder to be of Pip. And anyway, the, I think power for me was the, the theme that resonated the most.",
+   "ko": "과장 보태지 않고 '위대한 유산'이 조금 떠올랐어요. 그녀는 피프를 떠올리게 하죠. 어쨌든 제게 가장 울림을 준 주제는 권력이었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1144.9,
+   "en": "What about you Lauren? Besides kind of the mothers and daughters, I think, and I guess this is just another way of saying what you're saying.",
+   "ko": "로렌은 어떠신가요? 엄마와 딸에 대한 이야기 외에도, 제가 하려는 말도 당신이 한 말의 또 다른 표현일 것 같네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1151.2,
+   "en": "I mean, I would say the kind of financial underpinnings of this, but not in the sense of big picture. Of course, it takes place in the depression.",
+   "ko": "그러니까 전 이 책의 경제적 기반 같은 걸 말하고 싶어요. 거시적인 관점이 아니라요. 물론 대공황이 배경이긴 하지만요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1158.5,
+   "en": "So you have a mistake understanding at least of, of what's going on in the world. but just on a very granular level, how much money is in someone's bank account?",
+   "ko": "세상이 어떻게 돌아가는지에 대한 잘못된 이해를 가지고 있을 수도 있지만, 아주 미시적인 수준에서 누군가의 은행 계좌에 돈이 얼마나 있는가 하는 문제 말이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1166.8,
+   "en": "How much money can you make doing any given job? What does it mean for a 24-year-old woman who's unmarried and who has no children?",
+   "ko": "어떤 일을 해서 얼마나 벌 수 있는가? 결혼하지 않고 자녀도 없는 24세 여성에게 그것은 무엇을 의미하는가?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1173.6,
+   "en": "How is she going to support her mother in a small town in the south? And what are the economic opportunities for women?",
+   "ko": "그녀가 남부의 작은 마을에서 어떻게 어머니를 부양할 것인가? 여성에게 경제적 기회란 무엇인가?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1179.9,
+   "en": "And like you said, this young 12-year-old will have to go to a cannery. I mean, there's so much financial implication there.",
+   "ko": "말씀하신 대로 이 12살 어린아이는 통조림 공장에 가야만 하죠. 거기에는 정말 많은 경제적 함의가 담겨 있어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1185.8,
+   "en": "Like, she will just have to go and contribute to society in this incredibly back-breaking way as a child.",
+   "ko": "어린아이로서 그토록 고된 방식으로 사회에 기여하러 가야만 하는 거죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1190.6,
+   "en": "The financial realities and the underpinnings of, you know, the way families are constructed, the way just the South has kind of lost, these old money homes have lost their glory because they are just penniless now.",
+   "ko": "가족이 구성되는 방식이나 남부가 잃어버린 것들, 즉 한 푼도 남지 않아 영광을 잃어버린 유서 깊은 부유한 가정의 경제적 현실과 기반들 말이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1203.7,
+   "en": "I find that a real engine for the book. The theme that I really focused on is adjacent to yours. Mine was appearances.",
+   "ko": "전 그게 이 책의 진정한 원동력이라고 생각해요. 제가 집중한 주제는 당신들과 비슷해요. 제 주제는 '겉모습'이었습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1211.7,
+   "en": "I really thought about how so many of the characters in this book want to keep up appearances in whatever kind of way.",
+   "ko": "이 책의 많은 등장인물이 어떤 방식으로든 체면을 유지하고 싶어 한다는 점을 깊이 생각하게 되더라고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1218.2,
+   "en": "We have birdies and laws who have lost a fortune, basically. You find out that they're struggling, and yet they want to keep up appearances because they know they have the stature in town.",
+   "ko": "기본적으로 재산을 잃은 버디의 인척들이 그렇죠. 그들이 어려움에 처해 있다는 걸 알게 되지만, 마을에서 쌓은 지위가 있기 때문에 체면을 유지하고 싶어 합니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1231.4,
+   "en": "So that's one thing. One light spoiler is that Meg is adopted. I say it's a light spoiler because it's a plot point that happens, but I feel like it still happens so early. It's not a twist.",
+   "ko": "그게 한 가지 예고요. 가벼운 스포일러를 하자면 메그가 입양된다는 건데, 줄거리상 일어나는 일이지만 아주 초반에 나오기 때문에 반전이라기보다 가벼운 스포일러라고 할 수 있죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1239.9,
+   "en": "It's so much happened. It's not one of them. And she's adopted into a family that's trying to keep up appearances in some kind of way.",
+   "ko": "정말 많은 일이 일어나요. 그중 하나도 아닐 정도죠. 그리고 그녀는 어떤 방식으로든 체면을 차리려 애쓰는 가족에게 입양됩니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1246.6,
+   "en": "Okay, so much of this book is about, yeah, the work that you have to do to keep up this facade that is crumbling.",
+   "ko": "맞아요, 이 책의 많은 부분이 무너져가는 겉모습을 유지하기 위해 들여야 하는 노력에 관한 것입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1256.6,
+   "en": "And I just found myself really immersed in that idea across the board. Can I say my favorite quote? Yes.",
+   "ko": "전반적으로 그 생각에 정말 몰입하게 되더라고요. 제가 가장 좋아하는 문장을 말해도 될까요? 네.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1263.8,
+   "en": "It's in the review. So whatever, if you read my review, just you don't have to listen. But when Francis, who is very much like, if you guys have seen Schitt's Creek, she's very much like Alexis on Schitt's Creek.",
+   "ko": "리뷰에 쓴 내용이에요. 제 리뷰를 보셨다면 안 들으셔도 되지만요. '시트 패밀리'를 보셨다면 프랜시스는 거기 나오는 알렉시스와 아주 비슷해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1273.8,
+   "en": "I mean, it's that kind of like satire of a just spoiled rich girl. So she's married into this wealthy family, as we've said.",
+   "ko": "그냥 철부지 부잣집 딸을 풍자한 것 같은 캐릭터죠. 말했듯이 그녀는 부유한 집안으로 시집갔고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1281.6,
+   "en": "And one day she gets home to find that her husband has absconded with all of the family's possessions. And she's just, you know, she's just saying, this is related, I promise.",
+   "ko": "그러던 어느 날 집에 돌아와 보니 남편이 집안의 모든 재산을 가지고 도망가 버린 걸 발견하죠. 그녀는 그냥... 아, 이건 아까 주제와 관련된 이야기예요, 정말로요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1291.6,
+   "en": "But she's saying to Bertie, if anybody finds out about this, I'll shoot myself. You know, if anybody finds out that we have nothing left and I'll shoot myself.",
+   "ko": "그녀가 버디에게 '누구라도 이 사실을 알게 되면 난 자살할 거야. 우리가 아무것도 남지 않았다는 걸 누가 알게 되면 난 나 자신을 쏠 거야'라고 말해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1299.2,
+   "en": "And Bertie goes, good luck. Rory took all the guns. You know, it's just, it's nothing. She's not, Stocket is not belaboring this. It's just the perfect comedic timing.",
+   "ko": "그러자 버디가 '행운을 빌어. 로리가 총을 다 가져갔거든'이라고 대답하죠. 스토킷은 이 부분을 장황하게 늘어놓지 않아요. 그냥 완벽한 코믹 타이밍이었죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1310.4,
+   "en": "It's just great. Well, we just talked about themes that we resonated with. I wanna know though, what do you think Catherine Stocket is up to in this book?",
+   "ko": "그냥 정말 좋았어요. 자, 공감했던 주제들에 대해 이야기해 봤는데요. 캐서린 스토킷이 이 책을 통해 무엇을 의도했다고 생각하시나요?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1319.8,
+   "en": "There's so much here. So many characters, so many plot points. Why? What do you think the project of this book is? And does it work?",
+   "ko": "정말 많은 내용이 담겨 있잖아요. 수많은 캐릭터와 줄거리들. 왜일까요? 이 책의 프로젝트가 무엇이라고 생각하며, 그게 성공적이었다고 보시나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1328.2,
+   "en": "Did she tell you this? Did she tell you what her- She said that she started writing this book after being on tour for the help for basically four years.",
+   "ko": "그녀가 이 말을 해주던가요? 그녀가 무엇이... 그녀는 'The Help'로 거의 4년 동안 투어를 다닌 후에 이 책을 쓰기 시작했다고 하더군요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1339.6,
+   "en": "And her goal was to write a safe, non-controversial book.",
+   "ko": "그녀의 목표는 안전하고 논란의 여지가 없는 책을 쓰는 것이었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1345.2,
+   "en": "And one of the reasons it took so long is because she realized it's very boring to write a safe and non-controversial book.",
+   "ko": "그렇게 오래 걸린 이유 중 하나는 안전하고 논란 없는 책을 쓰는 게 너무 지루하다는 걸 깨달았기 때문이죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1354.4,
+   "en": "And I think that she had a number of false starts with this book. Actually, I want to take this out of the shadow of a help.",
+   "ko": "그녀는 이 책을 쓰면서 여러 번 시행착오를 겪은 것 같아요. 사실 전 이 책을 'The Help'의 그림자에서 벗어나게 하고 싶어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1361.2,
+   "en": "What I'm trying to ask is, does it seem like Catherine's talk is trying to say something with this book? Is there a message?",
+   "ko": "제가 묻고 싶은 건, 캐서린 스토킷이 이 책을 통해 무언가 말하려 하는 것 같으냐는 겁니다. 메시지가 있나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1370.7,
+   "en": "Is there a point where is you just trying to tell a good yarn that will entertain? I'm curious where you land on it.",
+   "ko": "아니면 그냥 즐거움을 주는 좋은 이야기를 들려주려는 것뿐인가요? 여러분은 어떻게 생각하시는지 궁금하네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1377.1,
+   "en": "I feel like based off of faces in the studio, we have different opinions. Well Liz knows. I guess I might having never spoken to Catherine's talk.",
+   "ko": "스튜디오의 표정들을 보니 의견이 갈리는 것 같네요. 리즈는 알겠죠. 전 캐서린 스토킷과 대화해 본 적이 없어서 추측할 뿐이지만요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1385.4,
+   "en": "my guess, my feeling is, no, I think this is not a novel of ideas. This is not any kind of social statement.",
+   "ko": "제 추측이자 느낌으로는 아녜요, 이건 사상을 담은 소설은 아니라고 생각해요. 어떤 사회적 성명을 발표하려는 것도 아니고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1394.8,
+   "en": "Of course, there is moral stakes. There has to be in any kind of piece of entertainment, but it doesn't feel like any kind of critique of something. It's historical fiction.",
+   "ko": "물론 도덕적 갈등은 있죠. 어떤 형태의 오락물이라도 그래야 하니까요. 하지만 무언가를 비판하는 느낌은 들지 않아요. 역사 소설이니까요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1404.6,
+   "en": "So, Liz, but... The piece of the book that allowed the rest of it to fall into place with her had to do with bodily autonomy economy.",
+   "ko": "리즈, 하지만... 그녀가 책의 나머지 부분을 완성할 수 있게 해준 핵심은 신체적 자율권에 관한 것이었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1414.6,
+   "en": "But that was a beacon for her as she was working. And she discovered some information about the history of our country that allowed her to expand her scope",
+   "ko": "그것이 작업하는 동안 그녀의 길잡이가 되어주었죠. 그리고 그녀는 우리 역사의 어떤 정보를 발견했고, 그것이 그녀의 시야를 넓혀주었습니다.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1427.3,
+   "en": "beyond the safe and let's just face it boring and take another really big swing with the Calamity Club.",
+   "ko": "안전하고 솔직히 지루한 틀을 벗어나 'The Calamity Club'으로 또 한 번 큰 승부수를 던질 수 있게 해준 것이죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1435.2,
+   "en": "Okay, this is making me think that maybe we should approach spoiler territory. But before we do that, are there any last things that you want to tell our spoiler free friends before before we go.",
+   "ko": "좋아요, 이제 스포일러 구역으로 넘어가야 할 것 같네요. 하지만 그전에 스포일러를 원치 않는 청취자분들께 마지막으로 하실 말씀이 있나요?",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1444.5,
+   "en": "Well, one thing I just want to say, and I feel like I should have said this up at the top, the thing that I really appreciate about this is this is a story with two heroines who are so almost magnetically connected to one another.",
+   "ko": "음, 한 가지 말하고 싶은 건데, 처음에 말했어야 했던 것 같아요. 제가 이 책에서 정말 높이 평가하는 부분은 마치 자석처럼 서로에게 연결된 두 여주인공의 이야기라는 점이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1456.4,
+   "en": "They actually overlap physically in the same space for like a week or something. And I mean, it's really early and maybe a hundred pages.",
+   "ko": "그들은 실제로 약 일주일 정도 같은 공간에 머물며 물리적으로 겹치게 됩니다. 아주 초반인 100페이지쯤에서요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1466.3,
+   "en": "And then for the remaining, I'm going to guess 500, they do not ever come in contact and yet their stories, the two of them remain so intimately connected in my brain in your experience of the book.",
+   "ko": "그러고 나서 남은 500페이지 정도 동안은 전혀 만나지 않는데도, 책을 읽는 내내 제 머릿속에서 두 사람의 이야기는 아주 밀접하게 연결된 상태로 남아 있습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1478.4,
+   "en": "And I think that is a really, really impressive feat. You know what that reminds me of? Team and Copperhead.",
+   "ko": "전 그게 정말 인상적인 성취라고 생각해요. 그게 뭘 떠올리게 하는지 아세요? '팀과 코퍼헤드'요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1485.0,
+   "en": "Oh, that is a good comp. I think you're going to say kin. I am going to say kin. Oh, yes, kin is a book with two enchirs,",
+   "ko": "오, 좋은 비교네요. 전 'Kin'이라고 하실 줄 알았어요. 'Kin'이라고 하려 했죠. 아, 맞아요. 'Kin'도 두 명의 주연이 나오는 책이죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1494.9,
+   "en": "two heroines, two magnetic characters that stick with each other and stick with you who don't interact for very long very much.",
+   "ko": "두 명의 여주인공, 서로에게 그리고 독자에게 깊이 각인되는 매력적인 두 캐릭터가 나오지만, 서로 아주 오래 교류하지는 않죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1501.4,
+   "en": "And yes, they are so intertwined. They write letters, but still. Yeah. Yeah. That's a really good.",
+   "ko": "네, 그들은 아주 밀접하게 얽혀 있어요. 편지를 쓰긴 하지만요. 네, 정말 좋은 비유네요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1508.2,
+   "en": "But they're not. Oh, reading the truth. Reading the truth. I think I read them pretty close, you know, just maybe a couple months apart.",
+   "ko": "하지만 그렇지 않죠. 오, 진실을 읽는 것. 진실을 읽는 것. 제가 그 책들을 한두 달 간격으로 꽤 가깝게 읽었거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1514.4,
+   "en": "And they, there were a lot of overlaps to me. Agreed. They were both for me books that I read, obviously, on my own time and loved and felt so nervous to talk about at work.",
+   "ko": "제게는 겹치는 부분이 많았어요. 동감합니다. 둘 다 제 개인적인 시간에 읽고 정말 좋아했지만, 직장에서 이야기하기는 너무 긴장됐던 책들이었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1527.3,
+   "en": "And to say, it works. Because there's nothing worse. You are very nervous. I know what's wrong with me.",
+   "ko": "그리고 '이거 괜찮네'라고 말하기가요. 그것보다 더 나쁜 건 없으니까요. 당신 정말 긴장하셨네요. 저도 제 문제가 뭔지 알아요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1532.0,
+   "en": "But what, there's something, I mean, I won't apologize for being nervous about this because you know how our colleagues are. It's very...",
+   "ko": "하지만 말이죠, 무언가... 그러니까, 이에 대해 긴장하는 것에 사과하진 않을 거예요. 우리 동료들이 어떤지 아시잖아요. 아주...",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1540.0,
+   "en": "Not our colleagues touching the strings on this body. If you love a book and your brethren at the Book Review do not love it, you, I mean, of course, it's really, it's a very fun workplace to try to, you know, we have spirited debates.",
+   "ko": "우리 동료들이 이 문제에 개입하지 않았으면 좋겠네요. 당신이 어떤 책을 좋아하는데 북리뷰 동료들이 좋아하지 않으면... 물론 활발한 토론을 할 수 있는 아주 즐거운 직장이긴 하지만요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1555.8,
+   "en": "But my heart always kind of sinks when... They can be participating. I'm all in on a book and I announce it at work and head spin and people say, I would like to clarify.",
+   "ko": "하지만 제가 어떤 책에 푹 빠져서 직장에서 발표했는데 사람들이 고개를 가로저으며 '분명히 하고 싶다'고 말하면 항상 가슴이 철렁 내려앉아요. 그들도 참여할 수 있겠죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1566.2,
+   "en": "It kind of sounds like our colleagues loved these books. Loved? Yes. But I was nervous. But she was nervous.",
+   "ko": "우리 동료들도 이 책들을 좋아했던 것 같은데요. 좋아했다고요? 네. 하지만 전 긴장했어요. 그녀는 긴장했었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1571.8,
+   "en": "I was nervous to talk about them because I had so much invested in both kin and the Calamity Club. And you just never know.",
+   "ko": "전 'Kin'과 'The Calamity Club' 둘 다에 감정을 너무 많이 쏟았기 때문에 그에 대해 이야기하는 게 긴장됐어요. 어떻게 될지 모르니까요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 1579.3,
+   "en": "My response is sometimes like, if I say I love a book so much and then a colleague's like, oh, I'm sorry, I really didn't like it. It's like, I didn't write it.",
+   "ko": "제 반응은 가끔 이래요. 제가 어떤 책을 너무 좋아한다고 말했는데 동료가 '오, 미안한데 난 정말 별로였어'라고 하면, '내가 쓴 건 아니잖아'라고 생각하는 거죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1585.6,
+   "en": "They're not sorry. That's okay. But they're not sorry. But also if they're not awkward moments, it's like, because I did not write that book. I just liked it.",
+   "ko": "그들은 미안해하지 않아요. 괜찮아요. 하지만 미안해하지 않죠. 어색한 순간이 아니라면, 제가 그 책을 쓴 게 아니니까요. 전 그냥 좋았을 뿐이에요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 1593.4,
+   "en": "All right, so far we've been talking about essential setup, top level thoughts. I want to dig in deeper, but first, I think we should take a quick break.",
+   "ko": "좋습니다, 지금까지 필수적인 설정과 전반적인 생각에 대해 이야기해 봤습니다. 더 깊이 파고들고 싶지만, 그전에 잠시 쉬어가도록 하죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1609.4,
+   "en": "Hey, this is Lawroach.",
+   "ko": "안녕하세요, Lawroach입니다.",
+   "speaker": "Lawroach",
+   "ad": true
+  },
+  {
+   "start": 1611.1,
+   "en": "Hi, I'm Ray.",
+   "ko": "안녕하세요, Ray입니다.",
+   "speaker": "Ray",
+   "ad": true
+  },
+  {
+   "start": 1612.4,
+   "en": "Welcome to The Reframers, a podcast that brings the world's biggest creatives together to talk about watches, fashion, music, and culture.",
+   "ko": "세계 최고의 크리에이티브들이 모여 시계, 패션, 음악, 문화를 이야기하는 팟캐스트, The Reframers에 오신 것을 환영합니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1620.9,
+   "en": "We had a turning point. My hair stylist did a roller set on me. six years, seven years ago.",
+   "ko": "우리는 전환점을 맞이했습니다. 6~7년 전 제 헤어 스타일리스트가 롤러 세팅을 해주었죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1625.4,
+   "en": "And I looked in the mirror and I was like, oh my God, I look like the songs I love.",
+   "ko": "거울을 보고 \"세상에, 내가 사랑하는 노래들처럼 생겼어\"라고 생각했죠.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1628.2,
+   "en": "Oh. Oh. How beautiful. Say that again.",
+   "ko": "오. 오. 정말 아름답네요. 다시 말해봐요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1630.9,
+   "en": "I look like the songs I love. I love that.",
+   "ko": "내가 사랑하는 노래들처럼 생겼어요. 정말 마음에 들어요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1633.4,
+   "en": "Listen to the reframers from Audemars Piguet now on your favorite podcast platform.",
+   "ko": "지금 바로 선호하는 팟캐스트 플랫폼에서 오데마 피게의 'The Reframers'를 들어보세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1640.0,
+   "en": "Hi New York Times. I would be very interested in having separate logins for a shared subscription.",
+   "ko": "안녕하세요 뉴욕 타임스. 공유 구독 시 별도의 로그인 계정을 가질 수 있다면 정말 좋겠어요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1646.6,
+   "en": "I'm 35 years old. I still share my parents, New York Times subscription.",
+   "ko": "저는 35살인데 여전히 부모님의 뉴욕 타임스 구독 계정을 함께 쓰고 있거든요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1651.1,
+   "en": "I think if my teenagers would have their own logins, we could share articles. It doesn't let us play the same game since each other.",
+   "ko": "우리 아이들이 각자 로그인을 할 수 있다면 기사를 공유할 수 있을 것 같아요. 지금은 서로 같은 게임을 할 수가 없거든요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1658.6,
+   "en": "I play the stoku. I do the crossword. I do the spelling bee. I do the word all. Please help.",
+   "ko": "저는 스도쿠를 하고, 크로스워드, 스펠링 비, 워들까지 다 해요. 제발 도와주세요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1665.0,
+   "en": "Having our own accounts would be amazing. My mom could save her own recipes. My friends could save their recipes.",
+   "ko": "우리만의 계정이 있다면 정말 멋질 거예요. 엄마는 본인만의 레시피를 저장하고, 친구들도 각자 레시피를 저장할 수 있겠죠.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1670.8,
+   "en": "I want to get the weekly newsletter, but they seem to always go to my husband and then he doesn't board them to me.",
+   "ko": "주간 뉴스레터를 받고 싶은데 항상 남편에게만 가고 남편은 저한테 전달을 안 해주더라고요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1676.0,
+   "en": "We both love cooking. I'm a 30-minute and under dinner. my girlfriend is very elaborate.",
+   "ko": "우린 둘 다 요리를 좋아해요. 전 30분 이내에 끝내는 저녁을 선호하고, 제 여자친구는 아주 정교하게 요리하죠.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1682.0,
+   "en": "I think him having his own profile would be great. We love the New York Times and we would love to love it individually.",
+   "ko": "그 사람이 자신만의 프로필을 가지면 정말 좋을 것 같아요. 우린 뉴욕 타임스를 사랑하고, 각자 개별적으로 즐기고 싶어요.",
+   "speaker": "Guest",
+   "ad": true
+  },
+  {
+   "start": 1689.0,
+   "en": "Listeners, we heard you. It's why we created the New York Times family subscription, one subscription up to four separate logins for anyone in your life.",
+   "ko": "청취자 여러분, 의견 잘 들었습니다. 그래서 뉴욕 타임스 가족 구독 서비스를 만들었습니다. 구독 하나로 소중한 사람들과 최대 4개의 별도 계정을 나누어 쓸 수 있습니다.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1697.6,
+   "en": "Find out more at nytimes.com slash family.",
+   "ko": "자세한 내용은 nytimes.com/family에서 확인하세요.",
+   "speaker": "Host",
+   "ad": true
+  },
+  {
+   "start": 1712.1,
+   "en": "And we're back. This is the Book Review podcast. I'm MJ Franklin. I'm with Lauren Christensen and Liz Egan.",
+   "ko": "돌아왔습니다. 북리뷰 팟캐스트입니다. 전 MJ 프랭클린이고요, 로렌 크리스텐슨, 리즈 이건과 함께하고 있습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1717.9,
+   "en": "And we're talking about the Calamity Club by Katherine Stockett.",
+   "ko": "우리는 캐서린 스토킷의 'The Calamity Club'에 대해 이야기하고 있습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1721.5,
+   "en": "Before we return to our conversation, I wanted to share some thoughts from our book club community online.",
+   "ko": "대화로 돌아가기 전에, 온라인 북클럽 커뮤니티의 의견을 몇 가지 나누고 싶습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1727.8,
+   "en": "Right now we have up an article headline book club read The Calamity Club by Katherine Stockett with the book review.",
+   "ko": "지금 저희 사이트에는 '북리뷰와 함께 캐서린 스토킷의 The Calamity Club을 읽는 북클럽'이라는 제목의 기사가 올라와 있습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1734.7,
+   "en": "We've been collecting reader thoughts above the novel in the comment section there and here are a few that I wanted to share.",
+   "ko": "그 기사의 댓글란에서 소설에 대한 독자들의 의견을 수집해 왔는데, 그중 몇 가지를 소개해 드리겠습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1741.7,
+   "en": "Anita from North Carolina wrote, I loved the Calamity Club.",
+   "ko": "노스캐롤라이나의 아니타 님은 \"전 The Calamity Club이 정말 좋았어요\"라고 쓰셨네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1745.7,
+   "en": "As a southerner, reading the story of these women not only surviving but winning against the odds of the world and the depression in Mississippi was a joy.",
+   "ko": "남부인으로서 미시시피의 대공황과 세상의 역경에 맞서 생존하는 것을 넘어 승리하는 여성들의 이야기를 읽는 것은 즐거움이었다고 하십니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1754.6,
+   "en": "I actually listened to the audiobook because I wanted to hear those beautiful southern accents.",
+   "ko": "아름다운 남부 억양을 듣고 싶어서 오디오북으로 들었다고도 하셨고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1759.4,
+   "en": "Jane from Georgia wrote, I love this story. The author is a wonderful storyteller and the characters are delightfully interesting and often funny.",
+   "ko": "조지아의 제인 님은 \"전 이 이야기가 너무 좋아요. 작가는 훌륭한 이야기꾼이고 캐릭터들은 유쾌하게 흥미롭고 자주 웃음을 줘요\"라고 쓰셨습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1768.1,
+   "en": "I grew up in the South and saw many folks I knew in this book.",
+   "ko": "남부에서 자랐기에 이 책에서 아는 사람들을 많이 발견했다고 하시네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1772.1,
+   "en": "One of the things I was interested in in this comment section is how readers often felt differently about the same exact thing.",
+   "ko": "이 댓글란에서 흥미로웠던 점 중 하나는 독자들이 똑같은 내용에 대해서도 종종 다르게 느낀다는 점이었어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1779.4,
+   "en": "Joanne from New Hampshire, for instance, said she felt mixed about the book. She said it was, quote, an overly long novel.",
+   "ko": "예를 들어, 뉴햄프셔의 조앤 님은 책에 대해 복합적인 감정이 든다며, 이 책을 \"지나치게 긴 소설\"이라고 표현했습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1786.9,
+   "en": "At over 600 pages, it should have been edited, flashed out some characters and excluded others.",
+   "ko": "600페이지가 넘으니 편집을 통해 일부 캐릭터를 더 구체화하고 다른 캐릭터들은 제외했어야 했다는 의견이었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1792.5,
+   "en": "A reader named Marsha however disagreed. She wrote, actually loved this book and recommended it to family and others.",
+   "ko": "하지만 마샤라는 이름의 독자는 이에 동의하지 않았습니다. 그녀는 \"사실 전 이 책을 너무 좋아해서 가족과 주변 사람들에게 추천했어요\"라고 썼죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1799.7,
+   "en": "When you get a 600-page book, you'd think this will never hold me all the way. Well, surprise, I was engaged from start to finish.",
+   "ko": "600페이지짜리 책을 받으면 끝까지 몰입하기 힘들 거라 생각하겠지만, 놀랍게도 처음부터 끝까지 집중할 수 있었다고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1807.6,
+   "en": "I read a lot and many times I think the editors fail and could do a much better job to tighten the book, not this one.",
+   "ko": "책을 많이 읽다 보면 편집자가 내용을 더 압축하지 못해 아쉬울 때가 많은데, 이 책은 그렇지 않았다고 하십니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1815.4,
+   "en": "Some people didn't like the prose style, Pat from Wisconsin said, I'm about halfway through the book.",
+   "ko": "문체에 대해 불만인 분들도 있었어요. 위스콘신의 팻 님은 \"책의 절반 정도 읽고 있습니다\"라고 하셨고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1820.8,
+   "en": "This is not a book I will be recommending simply because it is so overwritten.",
+   "ko": "너무 과하게 쓰여서 그냥 추천하지 않을 책이라고 말씀하셨습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1825.7,
+   "en": "But, ATB from Vermont said, it was Mississippi Dickens every sentence a pleasure in and often a surprise. I loved it.",
+   "ko": "하지만 버몬트의 ATB 님은 \"미시시피의 디킨스 같았고 매 문장이 즐거웠으며 종종 놀라움을 주었습니다. 정말 좋았어요\"라고 하셨네요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1833.7,
+   "en": "And then one last comment, these are so good. One last comment. And from Virginia says, I thought the book was perfect.",
+   "ko": "마지막으로 하나만 더요, 의견들이 정말 좋네요. 버지니아의 앤 님은 \"전 이 책이 완벽하다고 생각했어요\"라고 하셨습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1840.7,
+   "en": "Now that I am finished, I feel bereft. So those are just a few of the comments. And as you can see, the conversation is very robust.",
+   "ko": "다 읽고 나니 상실감마저 느껴진다고요. 몇 가지 의견만 살펴봤는데, 보시다시피 토론이 매우 활발합니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1848.1,
+   "en": "Please keep it up. But now back to our discussion in the studio.",
+   "ko": "계속해서 의견 남겨주세요. 이제 다시 스튜디오 대화로 돌아가 보겠습니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1857.8,
+   "en": "Before the break, we were talking about just themes of the book, how we connect up to the book.",
+   "ko": "쉬기 전에는 이 책의 주제와 우리가 책에 어떻게 공감했는지에 대해 이야기하고 있었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1861.7,
+   "en": "But this is a hard one to talk about without spoilers because so much happened. This is a plot that goes places.",
+   "ko": "하지만 너무 많은 일이 일어나기 때문에 스포일러 없이 이야기하기는 어렵네요. 이야기가 여러 방향으로 전개되니까요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1868.8,
+   "en": "So let's just put it out there on the table. Some things that happen, please help me. Let me know what I'm forgetting.",
+   "ko": "자, 이제 다 털어놓고 이야기해 보죠. 일어나는 일들에 대해 저 좀 도와주세요. 제가 뭘 잊고 있는지 알려주시고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1874.5,
+   "en": "I found myself forgetting quite a lot because a lot happens. So, Birdies with her sister Francis realizes that her in-laws are penniless.",
+   "ko": "정말 많은 일이 일어나서 저도 꽤 많이 잊게 되더라고요. 버디는 언니 프랜시스와 함께하며 시댁 식구들이 빈털터리라는 걸 알게 되죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1883.6,
+   "en": "She cannot get the loan that she needs to save her mom back in her small town. In fact, that she needs to save Francis and her in-laws.",
+   "ko": "그녀는 고향 소도시에 계신 엄마를 구하기 위해 필요한 대출을 받을 수 없습니다. 사실 프랜시스와 시댁 식구들을 구하는 데 필요한 돈이죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1891.5,
+   "en": "Her brother-in-law has run Run away. To save the house that's dilapidated, mention that you mentioned Lauren, they are selling every item that they can.",
+   "ko": "형부는 도망쳐버렸고요. 로렌이 언급한 그 무너져가는 저택을 지키기 위해 그들은 팔 수 있는 건 다 팔고 있어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1900.4,
+   "en": "They're just trying to make the bill payments, the overdue bills that they need to pay. All of a sudden, a woman comes by.",
+   "ko": "밀린 대금을 갚으려고 애쓰고 있는데 갑자기 한 여자가 나타납니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1909.1,
+   "en": "She's like, I was directed here. I'm looking for this person. She's looking for Francis who's been volunteering at the orphanage where Meg is.",
+   "ko": "그녀는 \"이쪽으로 가보라고 해서 왔어요. 이 사람을 찾고 있어요\"라고 하죠. 그녀는 메그가 있는 고아원에서 봉사해 온 프랜시스를 찾고 있었어요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1915.9,
+   "en": "Turns out this woman is Meg's mother. She didn't just disappear, she didn't die. She's desperate to get Meg back.",
+   "ko": "알고 보니 이 여자가 메그의 엄마였습니다. 그냥 사라진 것도, 죽은 것도 아니었죠. 그녀는 메그를 되찾으려 필사적입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1923.6,
+   "en": "She connects with Birdie. She sees that there's something happening with this house. She's like, oh, I can like stay here.",
+   "ko": "그녀는 버디와 연결됩니다. 이 집에 무슨 일이 일어나고 있다는 걸 눈치채고는 \"오, 여기 머물러도 되겠네요\"라고 하죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1929.9,
+   "en": "If I stay here and help you, I have a place to stay. I'll get Meg back. But also, I will help you turn this place around.",
+   "ko": "여기 머물면서 당신들을 도우면 전 묵을 곳이 생기고 메그도 되찾을 거예요. 게다가 이 상황을 반전시킬 수 있게 도와줄게요\"라고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1936.7,
+   "en": "You know what we got to do? One of my favorite tropes. We got to put on a show.",
+   "ko": "우리가 뭘 해야 하는지 아세요? 제가 제일 좋아하는 클리셰 중 하나인데, 쇼를 열어야 해요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1940.4,
+   "en": "She's like, we got to turn this place into a dance hall. Secretly, it's going to be a brothel, the Calamity Club.",
+   "ko": "그녀는 이곳을 댄스홀로 바꿔야 한다고 말하죠. 비밀리에 'Calamity Club'이라는 이름의 매음굴이 될 곳 말이예요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1947.5,
+   "en": "And so they have to put this club together. that's what was happening in the prologue when Birdie is buying August condoms,",
+   "ko": "그래서 그들은 이 클럽을 만들어야 합니다. 프롤로그에서 버디가 콘돔을 사고 있었던 게 바로 그 때문이었죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1955.3,
+   "en": "the are trying to recruit women, staff at Calamity Club raise a bunch of money to change their fates. That is what's happening in Birdie's storyline.",
+   "ko": "운명을 바꾸기 위해 'Calamity Club'에서 일할 여성들과 직원들을 모집해 거금을 모으려 하죠. 이게 버디의 이야기에서 일어나는 일입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1964.1,
+   "en": "In Meg's storyline, Meg is adopted. She's adopted by this couple, Tom and Lucille, and they seem like the picture perfect family.",
+   "ko": "메그의 이야기에서 메그는 입양됩니다. 톰과 루실이라는 부부에게 입양되는데, 겉보기에는 완벽한 가족처럼 보이죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1973.2,
+   "en": "Get home though, and Meg realizes something is a skew. They're alcoholics.",
+   "ko": "하지만 집에 가보니 메그는 무언가 잘못되었다는 걸 깨닫습니다. 그들은 알코올 중독자였죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1980.0,
+   "en": "Tom is estranged from his family. He's from this very, very wealthy family, but he's been out.",
+   "ko": "톰은 가족과 소원한 상태입니다. 아주 아주 부유한 집안 출신이지만 쫓겨난 상태죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1985.4,
+   "en": "He wants to be a writer so bad, but he's struggling. He holds himself up in this room and like is writing, but no one's seen any of the work that he's produced.",
+   "ko": "그는 작가가 되기를 간절히 원하지만 어려움을 겪고 있습니다. 방에 틀어박혀 글을 쓰지만, 그가 쓴 결과물을 본 사람은 아무도 없죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 1995.3,
+   "en": "He's failed out of Yale. He's failed at everything. Lucille is this angry drunk.",
+   "ko": "그는 예일대에서도 낙제했고 모든 일에 실패했습니다. 루실은 화가 많은 술꾼이고요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2001.9,
+   "en": "Haves Meg has adopted Meg because she's like, I will get the inheritance if we have a child. And so then you're watching their fate.",
+   "ko": "루실은 아이가 있으면 유산을 받을 수 있다는 생각에 메그를 입양한 거였죠. 그러고 나서 여러분은 그들의 운명을 지켜보게 됩니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2011.5,
+   "en": "I thought that was a great to know. Thank you. That gives us a place to start. Yeah. My question is, what did you make of it all?",
+   "ko": "알아두면 아주 좋은 내용이었네요. 고마워요. 시작하기에 좋은 지점이군요. 제 질문은, 이 모든 걸 어떻게 보셨느냐는 겁니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2017.6,
+   "en": "What did you make of where the book takes us? It's funny because you keep saying Dickensian, I really am not a fan of Dickens.",
+   "ko": "책이 우리를 이끄는 방향에 대해 어떻게 생각하셨나요? 재미있는 건 당신이 계속 \"디킨스적\"이라고 하시는데, 사실 전 디킨스를 별로 좋아하지 않거든요.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2024.7,
+   "en": "So he's just, it's just, I am more on the side of the plotless, you know, psychological Henry James novel.",
+   "ko": "그러니까 전 줄거리가 없는, 헨리 제임스의 심리 소설 같은 쪽을 더 선호해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2031.4,
+   "en": "That said, you're right. This is totally Dickensian and I loved it. And I feel like there is a lot of interiority.",
+   "ko": "그럼에도 당신 말이 맞아요. 이건 완전히 디킨스적이고 전 정말 좋았습니다. 내면 묘사도 풍부하다고 느껴지고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2038.0,
+   "en": "There's like this balance of really tragic stakes, you know, just the things these women have been through from our main characters to every single prostitute who comes to work at this club.",
+   "ko": "주인공부터 클럽에서 일하게 되는 모든 여성까지, 그들이 겪어온 일들과 정말 비극적인 상황들 사이의 균형이 잘 잡혀 있어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2049.4,
+   "en": "These backstories are vivid. They are really tragic. And there is still so much lightness and humor and po- so much people poking fun at each other and sarcasm.",
+   "ko": "이들의 배경 이야기는 생생하고 정말 비극적입니다. 그러면서도 가벼움과 유머, 서로를 놀리는 재치와 비꼬는 표현들이 여전히 가득하죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2060.3,
+   "en": "One of our colleagues called said that this book was filled with anachronisms.",
+   "ko": "우리 동료 중 한 명은 이 책이 시대착오적인 내용으로 가득하다고 말하더군요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2063.9,
+   "en": "Maybe that's true. I don't maybe, and I just don't really read enough about 1930s in the deep south, but I found the humor to be spot on.",
+   "ko": "그럴지도 모르죠. 제가 1930년대 깊은 남부에 대해 충분히 알지는 못하지만, 유머만큼은 아주 정확했다고 생각해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2072.8,
+   "en": "I think it landed. I think these turns of plot, except as I said, the hundred or so pages that they are setting up the brothel.",
+   "ko": "잘 전달된 것 같아요. 아까 말한 매음굴을 설정하는 100페이지 정도를 제외하면 줄거리의 전환도 좋았고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2080.7,
+   "en": "I think could have been more of a, maybe like a montage sequence. You know, like just a little quicker. It was very granular. Yeah. It's very granular about like how they have to set up the rooms as the women are trickling in.",
+   "ko": "그 부분은 몽타주 시퀀스처럼 좀 더 빠르게 지나갔어도 좋았을 것 같아요. 아주 상세했거든요. 여성들이 하나둘씩 들어오면서 방을 어떻게 꾸며야 하는지 같은 게 너무 세세했어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2093.2,
+   "en": "There's a neighboring brothel from in another town. they kind of talk about what's going on there. I don't know, but I will say that six months after I finished the book, I only remember one or two of them.",
+   "ko": "다른 마을의 이웃 매음굴에 대한 이야기도 나오고요. 잘 모르겠지만, 책을 다 읽고 6개월이 지난 지금 기억에 남는 건 한두 명뿐이예요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2104.9,
+   "en": "I mean, you can't lose flossy. I wouldn't lose flossy. Tell us about flossy. I don't know who I would lose, but I would have trimmed that bit.",
+   "ko": "플로시를 뺄 순 없죠. 전 플로시는 안 뺄 거예요. 플로시에 대해 알려주세요. 누구를 뺄지는 모르겠지만 그 부분은 좀 줄였을 거예요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2113.0,
+   "en": "In fact, I interviewed Catherine Stockett's editor, Julie Grow, and I think I might have even told her. Too many women. You needed the red pen on that.",
+   "ko": "사실 캐서린 스토킷의 편집자인 줄리 그로우를 인터뷰했을 때 그녀에게 말했을지도 몰라요. \"여자가 너무 많아요. 빨간 펜이 좀 필요했겠는데요\"라고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2121.5,
+   "en": "But I say that loving one because, you know, you still keep turning through those pages. Was there a storyline or a character that you were most interested in?",
+   "ko": "그래도 애정을 가지고 말하는 거예요. 어쨌든 계속 페이지를 넘기게 되니까요. 가장 흥미로웠던 줄거리나 캐릭터가 있었나요?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2133.2,
+   "en": "I was most interested in Meg's storyline. I loved Birdie's storyline, like it all turnates chapters, but I was rushing through to get back to Meg.",
+   "ko": "전 메그의 이야기가 가장 흥미로웠어요. 버디의 이야기도 좋았고 챕터마다 번갈아 가며 나오지만, 전 메그의 이야기를 보려고 서둘러 읽었죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 2145.7,
+   "en": "And I know that the Calamity club is kind of the point of the whole novel. I mean, it's the title.",
+   "ko": "Calamity Club이 소설 전체의 핵심이라는 건 알아요. 제목이기도 하니까요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 2151.8,
+   "en": "But to me, actually was the least interesting piece. I was worried about Meg reconnecting with her mom and how she would survive this interlude with Tom and Lucille,",
+   "ko": "하지만 제게는 사실 그 부분이 가장 덜 흥미로웠어요. 전 메그가 엄마와 다시 만날 수 있을지, 톰과 루실 사이에서의 그 시간을 어떻게 견뎌낼지가 더 걱정됐거든요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 2165.2,
+   "en": "which ends in one of the most painful scenes. I think I've read at least the last two years.",
+   "ko": "그 기간은 지난 2년 동안 읽은 것 중 가장 고통스러운 장면 중 하나로 끝이 나죠.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 2174.3,
+   "en": "and you see it coming and it's kind of like a runaway train. You can't get off and it's devastating. It does feel like a culmination to me. It does.",
+   "ko": "일이 터질 거라는 걸 알면서도 마치 멈출 수 없는 기차 같았어요. 내릴 수도 없고 정말 참담했죠. 제게는 일종의 정점처럼 느껴졌습니다. 정말 그랬어요.",
+   "speaker": "Liz Egan"
+  },
+  {
+   "start": 2185.7,
+   "en": "It also brings me to another compliment for that I have for Catherine Stocket, which is that I think on the flip side of that sagging plot setup, I think she's so good at the set piece.",
+   "ko": "여기서 캐서린 스토킷에 대한 또 다른 칭찬을 하고 싶은데, 늘어지는 줄거리 설정의 반대급부로 그녀가 특정 장면을 연출하는 데는 정말 능숙하다고 생각해요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2195.7,
+   "en": "Like that build of Tom and Lucille, Tom, the struggling novelist, he's failed at every single thing in his life and this is kind of his last like Hail Mary, like, mattering, like being someone in the world.",
+   "ko": "톰과 루실의 서사 구축처럼요. 고군분투하는 소설가 톰은 인생의 모든 일에 실패했고, 이건 세상에서 누군가로 존재하기 위한 그의 마지막 발악 같은 거죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2208.6,
+   "en": "And he's just so tragic and pathetic. And he's working on this novel, Lucille, his wife, is just this, I mean, hopeless alcoholic, right?",
+   "ko": "그는 정말 비극적이고 한심해요. 그가 소설을 쓰는 동안 아내 루실은 그저 가망 없는 알코올 중독자로 지내죠, 그렇죠?",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2217.0,
+   "en": "She adopts a cheaper orphan for an older orphan so that she can use the rest of the money her mother-in-law gives her for bootleg alcohol.",
+   "ko": "그녀는 시어머니가 준 돈의 나머지를 밀주를 사는 데 쓰기 위해, 더 큰 아이 대신 더 싼 고아를 입양합니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2225.0,
+   "en": "And then the final moment, the set pieces, when she gets her hands on the unpublished published or the draft of his novel.",
+   "ko": "그러고 나서 마지막 장면, 즉 연출된 결정적 장면은 그녀가 그의 미출판 소설 초고를 손에 넣었을 때입니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2233.0,
+   "en": "I guess I won't really spoil what she finds there, but it is this kind of just crumbling disappointment.",
+   "ko": "거기서 그녀가 무엇을 발견했는지 정말로 스포일러 하지는 않겠지만, 그건 일종의 무너져 내리는 실망감이었습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2240.6,
+   "en": "Everyone all around is just falling apart and Meg, this 11 year old who just, she knew this family was too good to be true.",
+   "ko": "주변의 모든 이가 무너지고 있고, 11살 메그는 이 가족이 너무 완벽해서 오히려 사실일 리 없다는 걸 알고 있었죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2250.5,
+   "en": "She doesn't know her mother's alive. She thinks her mother is dead. This was her only hope and she has to literally carry the burden of these pathetic adults in her arms. It is astonishing.",
+   "ko": "엄마가 살아있다는 걸 모르는 그녀는 엄마가 죽었다고 생각해요. 이게 유일한 희망이었는데 그녀는 말 그대로 이 한심한 어른들의 짐을 짊어져야만 합니다. 정말 놀라워요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2263.0,
+   "en": "Another set piece that is much lower stakes is when they're setting up the brothel, once it actually starts to get going, the business is so slow in the beginning that it's actually hilarious.",
+   "ko": "비중이 훨씬 적은 또 다른 장면은 매음굴을 차릴 때인데, 실제로 영업을 시작했을 때 처음에는 장사가 너무 안 돼서 사실 좀 웃겼어요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2275.4,
+   "en": "You're expecting this moral depravity and this kind of like, oh, how these women have fought. Oh, it's so awful how they have to use their bodies and no one comes in the beginning.",
+   "ko": "도덕적 타락이나 여성들의 사투 같은 걸 기대하겠지만, '몸을 써야 하다니 너무 끔찍해' 같은 생각도 들기 전에 처음엔 아무도 안 오거든요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2287.8,
+   "en": "And the first scenes, it's these busloads of boys, really, from Ole Miss, who are there would be customers. And it's like two guys come, and it's so awkward. No one is at all excited. Is there music? It's so slow and quiet. People are getting bitten by mosquitoes. It's like no one wants to go have sex right now.",
+   "ko": "첫 장면들에는 미시시피 대학에서 버스를 타고 온 남학생 손님들이 나와요. 겨우 두 명 정도 오는데 너무 어색하죠. 아무도 들떠 있지 않아요. 음악도 없나요? 너무 정적이고 조용해요. 사람들은 모기에 물리고 있고요. 지금 당장 성관계를 하고 싶어 하는 사람은 아무도 없는 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2310.5,
+   "en": "That set piece is so perfectly done. And that's a very complicated kind of atmosphere to convey. The set pieces are astonishing.",
+   "ko": "그 장면 연출이 정말 완벽해요. 그런 미묘한 분위기를 전달하는 건 아주 복잡한 일인데 말이죠. 장면 연출들이 정말 놀랍습니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2318.7,
+   "en": "I wanted to add one thing along when we're talking about Tom and Lucille. We mentioned how well this book handles humor. Catherine's docket is a genius at cruelty.",
+   "ko": "톰과 루실에 대해 이야기할 때 한 가지 덧붙이고 싶네요. 이 책이 유머를 얼마나 잘 다루는지 언급했지만, 캐서린 스토킷은 잔인함을 묘사하는 데 있어서도 천재적입니다.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2330.4,
+   "en": "Oh, talk about that. Lucille's cruelty to Tom and by default to Meg is so unbelievable. believable.",
+   "ko": "오, 그에 대해 말씀해 주세요. 톰에게, 그리고 당연히 메그에게 가해지는 루실의 잔인함은 정말 믿기지 않을 정도예요. 정말이죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2339.4,
+   "en": "As I said, like a runaway train, you can't look away. It's both exquisitely written and heartbreaking and you can't stop reading it.",
+   "ko": "말씀드린 것처럼 멈출 수 없는 기차 같아서 눈을 뗄 수가 없어요. 아주 정교하게 쓰였으면서도 가슴이 아파서 읽는 걸 멈출 수가 없죠.",
+   "speaker": "MJ Franklin"
+  },
+  {
+   "start": 2350.7,
+   "en": "Yeah, Garnet Pitman too is just this. Yes. And I think it's actually interesting to think about these two women, Lucille and Garnet.",
+   "ko": "네, 가넷 피트먼도 딱 그렇죠. 맞아요. 루실과 가넷, 이 두 여성을 생각해보는 게 정말 흥미로운 것 같아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2357.3,
+   "en": "Garnet is like a kind of just unmitigated villain, right? She is so cruel. Yes, you get eventually the backstory of like why she is so cruel, but it doesn't humanize her.",
+   "ko": "가넷은 일종의 순수한 악당 같잖아요, 그렇죠? 정말 잔인해요. 네, 결국 그녀가 왜 그렇게 잔인해졌는지 배경 이야기가 나오지만, 그렇다고 그녀가 인간적으로 느껴지지는 않아요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2366.6,
+   "en": "Lucille, I do feel, not that I personally wouldn't behave so cruelly as she does, but you do kind of feel for her, right? Absolutely. I mean, absolutely. Her disappointment in this man, she just...",
+   "ko": "루실은, 제가 개인적으로 그녀처럼 잔인하게 행동하진 않겠지만, 그래도 그녀에게 공감이 가는 부분이 있어요, 그렇죠? 전적으로요. 제 말은, 정말 그래요. 그 남자에 대한 그녀의 실망감, 그녀는 그저...",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2380.9,
+   "en": "Yeah. She's a striver. Yeah. She's suffering in her own ways. I did feel sorry for her, but the cruelty is written in such a way that you feel it on your skin. It's more unsettling, too, because it's more...",
+   "ko": "맞아요. 그녀는 노력가예요. 네. 나름의 방식으로 고통받고 있죠. 그녀가 안타깝기도 했지만, 그 잔인함이 피부로 느껴질 정도로 생생하게 묘사되어 있어요. 더 불안하기도 하고요, 왜냐하면 더...",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2396.6,
+   "en": "You know it's coming and it's just awful.",
+   "ko": "일어날 걸 알기에 더 끔찍하죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 2399.7,
+   "en": "I have a question. I'm pivoting to what I like to call free swim.",
+   "ko": "질문이 하나 있어요. 제가 소위 말하는 '자유 수영' 시간으로 넘어가 보려고 합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2403.2,
+   "en": "So much is here. One of the things I've been fumbling over and you can probably hear in this book club is like, there's so much happening.",
+   "ko": "이야깃거리가 정말 많아요. 이 북클럽을 들으시면서 느끼셨겠지만 제가 계속 헤매고 있는 이유 중 하나가 너무 많은 일이 벌어지고 있다는 거예요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2409.5,
+   "en": "Where do I go? Where do I start?",
+   "ko": "어디로 가야 할까요? 어디서부터 시작해야 하죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2410.8,
+   "en": "Like, what do I land on in this book, which is so full of people and life? What are you excited to talk about in regards to this book?",
+   "ko": "사람들과 삶의 활기로 가득 찬 이 책에서 저는 무엇에 안착해야 할까요? 이 책에 관해서 어떤 이야기를 나누고 싶으신가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2418.2,
+   "en": "I think my headline would be, this is pretty clearly you've heard us talking about this, you can hear that this is a book filled with women, filled with women who are oppressed, filled with women who are desperate, filled with women who are scrappy.",
+   "ko": "제 핵심은 이렇습니다. 우리가 앞서 말했듯이 이 책은 여성들로 가득 차 있어요. 억압받는 여성들, 절박한 여성들, 그리고 의지가 강한 여성들로 말이죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2431.1,
+   "en": "It is a novel about women kind of hoping and striving and trying to get things done failing or not.",
+   "ko": "성공하든 실패하든 무언가를 희망하고 노력하며 성취하려는 여성들에 관한 소설입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2437.3,
+   "en": "But what is so apparent in this novel when you sit back from it or when you close the final page and you're like, every single man in this story is universally pathetic.",
+   "ko": "하지만 한 걸음 물러서서 보거나 마지막 장을 덮을 때 아주 분명하게 느껴지는 건, 이 이야기 속의 모든 남자가 예외 없이 한심하다는 점이에요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2448.1,
+   "en": "And it's just, I don't know, it's kind of part of the caricature-ness of the story, which feels, it is not even a criticism. It feels intentional.",
+   "ko": "그게 그냥, 글쎄요, 이야기의 희화화된 부분인 것 같은데 비판이라기보다는 의도적인 설정처럼 느껴집니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2458.3,
+   "en": "Like there's something so, I don't wanna say flat, but there are types and it feels useful in the storytelling, but every man, they're not powerful enough to be villains.",
+   "ko": "평면적이라고 말하고 싶지는 않지만 일정한 유형들이 있고 그게 스토리텔링에 유용하게 작용하는 것 같아요. 하지만 모든 남자가 악당이 될 만큼 강하지도 않죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2468.2,
+   "en": "They are just, they're bumbling.",
+   "ko": "그들은 그냥 갈팡질팡할 뿐이에요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2469.7,
+   "en": "Yes, they just run away from their problems. They fail at everything.",
+   "ko": "맞아요, 그들은 문제로부터 도망치기만 하죠. 모든 일에 실패하고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2474.4,
+   "en": "Or they're like these kind of really sad, just busloads of boys from Ole Miss, like coming to the brothel.",
+   "ko": "아니면 사창가로 몰려오는 미시시피 대학교(Ole Miss) 출신의 슬프고 한심한 남학생 무리 같기도 하고요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2481.6,
+   "en": "You know, that's its own kind of patheticness. There's not really any admiration for the men in these stories.",
+   "ko": "그것 나름대로 참 한심하죠. 이 이야기 속 남성들에게는 감탄할 만한 구석이 전혀 없어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2488.1,
+   "en": "I did have hopes for Tom.",
+   "ko": "저는 톰에게는 희망을 가졌었어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2489.7,
+   "en": "Yeah, yeah, one does, right? You're reading a novel and there's this aspiring novelist too, because he's really nice to Meg.",
+   "ko": "네, 그렇죠? 소설을 읽다 보면 그에게도 작가 지망생다운 면모가 있고, 메그에게 정말 친절하니까요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2498.4,
+   "en": "He is. You have hope for him. He could provide some decency.",
+   "ko": "맞아요. 그에겐 희망이 있죠. 품위라는 게 있을 수도 있으니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2501.0,
+   "en": "Yeah, but you're not expecting the book to be some great success.",
+   "ko": "네, 하지만 그 책이 큰 성공을 거둘 거라고 기대하진 않으시죠?",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2504.8,
+   "en": "Did you feel that about the men, though, too? Like, and did it work?",
+   "ko": "당신도 남자들에 대해 그렇게 느끼셨나요? 그리고 그게 효과가 있었나요?",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2507.6,
+   "en": "Did it tip into caricature for you that all the men did it seemed to be bumbling or not.",
+   "ko": "모든 남자가 갈팡질팡하는 모습이 당신에게는 희화화된 것처럼 느껴졌나요, 아니면 그렇지 않았나요?",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2512.9,
+   "en": "The only place for me where it tipped into caricature, but not in a terrible way was with Birdie's boyfriend.",
+   "ko": "제게 있어서 나쁜 방식이 아니라 희화화된 것처럼 느껴졌던 유일한 부분은 버디의 남자친구였어요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2521.1,
+   "en": "Jack.",
+   "ko": "잭 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2522.0,
+   "en": "Who is someone I completely forgot about? I know, I actually, almost really forgot. I couldn't remember his name.",
+   "ko": "제가 완전히 잊고 있었던 사람인데, 맞아요, 사실 거의 잊어버릴 뻔했어요. 이름도 기억이 안 났거든요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2528.8,
+   "en": "But I didn't find him entirely believable, but I was really happy for Birdie that she felt like a big guy, just a sort of, I think there's one description of his like, meaty hands or something.",
+   "ko": "그가 전적으로 믿음직스럽지는 않았지만, 덩치 큰 남자처럼 느껴졌다는 점에서 버디가 잘됐다고 생각했어요. 그의 투박한 손에 대한 묘사가 있었던 것 같고요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2543.7,
+   "en": "And it's like the nice guy at the bank.",
+   "ko": "그리고 은행의 친절한 남자 같죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2545.5,
+   "en": "Yes, exactly. She meets him because she's going and she's finding out the fate of her sister.",
+   "ko": "네, 정확해요. 그녀가 언니의 운명을 확인하러 갔다가 그를 만나게 되죠.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2550.5,
+   "en": "Yes. And in-laws depleted accounts and then there's this horrible bank guy.",
+   "ko": "맞아요. 인척들의 바닥난 계좌들을 확인하는데, 거기엔 그 끔찍한 은행 직원이 있죠.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2555.8,
+   "en": "Yes. Not a teller, but whatever. Like some bank representative and then there's Jack who's just this nice guy who happens to work in finance.",
+   "ko": "네. 텔러는 아니지만, 어쨌든 은행 대리인 같은 사람 말이에요. 그리고 금융계에서 일하는 친절한 남자인 잭이 등장하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2563.0,
+   "en": "And you know exactly who he's gonna be. Right. The best thing is that he is big, handsome and good.",
+   "ko": "그가 어떤 사람일지 딱 알 수 있죠. 맞아요. 가장 좋은 점은 그가 덩치 크고 잘생겼으며 착하다는 거예요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2567.9,
+   "en": "They both come into the relationship with their own baggage. There's nothing subtle about this book.",
+   "ko": "두 사람 모두 각자의 과거를 안고 관계를 시작하죠. 이 책에는 미묘한 구석이 없어요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 2575.2,
+   "en": "No. And it's fine. Totally. It's not trying to be subtle.",
+   "ko": "없죠. 그래도 괜찮아요. 전혀요. 미묘해지려고 애쓰는 책이 아니니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2580.6,
+   "en": "Your turn. What in free swim, what is something that you want to talk about related to this book?",
+   "ko": "당신 차례입니다. '자유 수영' 시간인데, 이 책과 관련해서 이야기하고 싶은 게 있나요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2586.1,
+   "en": "Well I alluded to this in this spoiler-free part, the theme of bodily autonomy.",
+   "ko": "음, 스포일러가 없는 부분에서 언급했었는데, 신체적 자율성이라는 주제에 대해서요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2592.7,
+   "en": "When Meg's mom, Charlie, is forcibly taken away from Meg, which is why Meg ends up at the orphanage, she undergoes a forced sterilization.",
+   "ko": "메그의 엄마인 찰리가 강제로 메그로부터 격리되었을 때, 그게 메그가 고아원에 가게 된 이유인데, 그녀는 강제 불임 시술을 받게 됩니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2606.3,
+   "en": "Which was a fate that befell many women and actually humans of all stripes in that era who were deemed feeble-minded.",
+   "ko": "그것은 당시 지적 능력이 부족하다고 간주된 많은 여성, 그리고 실제로는 모든 종류의 사람들에게 닥쳤던 운명이었죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2618.3,
+   "en": "I believe that was the language that was used.",
+   "ko": "그런 표현이 쓰였던 걸로 기억해요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2621.9,
+   "en": "And when Catherine Stockett was writing this book and circling around many of the issues and themes that we've talked about, she started doing research on the eugenics movement in the US.",
+   "ko": "캐서린 스토켓이 이 책을 쓰면서 우리가 이야기했던 여러 문제와 주제들을 다루기 시작했을 때, 그녀는 미국의 우생학 운동에 대해 조사하기 시작했어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2634.3,
+   "en": "And learned the extent to which it permeated all corners of society, all races, classes, you name it.",
+   "ko": "그리고 그것이 인종, 계급 등 사회의 모든 구석구석에 얼마나 깊숙이 침투해 있었는지 알게 되었죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2647.3,
+   "en": "And it's not a low boil throughout the book. And that really stuck with me.",
+   "ko": "책 전반에 걸쳐 잔잔하게만 흐르는 게 아니었어요. 그게 정말 기억에 남더군요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2653.9,
+   "en": "For me, one of my frustrations with the book is I think I got swept away in just the yarn, the fun story of it all.",
+   "ko": "저에게 있어 이 책의 아쉬운 점 중 하나는 그냥 이야기 그 자체, 재미있는 스토리에만 너무 휩쓸렸던 것 같다는 거예요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2660.0,
+   "en": "But I feel like some of the themes, the way it handles the sensitive subjects, is a little ham-handed, a little awkward, a little clunky.",
+   "ko": "하지만 몇몇 주제들이나 민감한 사안을 다루는 방식이 약간 서툴고, 어색하고, 투박하다는 느낌이 듭니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2669.4,
+   "en": "The theme of bodily autonomy is a prime example.",
+   "ko": "신체적 자율성이라는 주제가 그 대표적인 예죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2671.9,
+   "en": "With \"The Help\", one of the criticisms is that it takes the story of these Black maids and it makes their struggles about this young white writer.",
+   "ko": "소설 \"헬프\"에 대한 비판 중 하나는 흑인 가정부들의 이야기를 다루면서 그들의 고난을 젊은 백인 작가의 이야기로 만들어버렸다는 점입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2683.6,
+   "en": "She is the focus for all of these other people's pain. I feel like something similar happened in \"The Calamity Club\".",
+   "ko": "그녀가 타인들의 모든 고통의 중심이 되죠. \"더 캘러미티 클럽\"에서도 비슷한 일이 일어났다고 생각해요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2689.9,
+   "en": "We have this really heartbreaking story about forced sterilization.",
+   "ko": "강제 불임 시술에 관한 정말 가슴 아픈 이야기가 나오는데요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2695.6,
+   "en": "And it comes up to flesh out Birdie's storyline because Birdie can't have children after I think she was really sick.",
+   "ko": "그 이야기는 버디가 과거에 심하게 앓고 나서 아이를 가질 수 없게 된 설정을 구체화하기 위해 등장합니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2704.2,
+   "en": "And so the way that, to me at least, the way that bodily autonomy narrative came up is so that Birdie can say, look, I have a foil from my experience.",
+   "ko": "적어도 제게는, 신체적 자율성에 대한 서사가 버디가 '봐요, 제 경험과 대비되는 사례가 있어요'라고 말하기 위해 등장하는 것처럼 보였어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2713.4,
+   "en": "This is what I'm going through. And I see these other women too, but let's talk about how I am hurt. And that kind of bothered me.",
+   "ko": "'제가 겪고 있는 일이에요. 다른 여성들도 보이지만, 제가 얼마나 상처 입었는지 이야기해 보죠'라고 말하는 것 같아서 좀 불편했습니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2721.9,
+   "en": "And hearing you say that like Catherine Stockett realized that there are so much of this sterilization going on spread across all of society.",
+   "ko": "캐서린 스토켓이 사회 전반에 걸쳐 불임 시술이 얼마나 많이 행해졌는지 깨달았다는 당신의 말을 들으니 더욱 그렇네요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2731.4,
+   "en": "I think the book didn't really kind of approach that.",
+   "ko": "제 생각에 이 책은 그 문제를 제대로 다루지는 못한 것 같아요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2734.1,
+   "en": "It didn't really tackle it and made that overall phenomenon about Birdie's health, which she's, she can't have children, but for a totally different reason.",
+   "ko": "그 현상을 정면으로 다루기보다는, 전혀 다른 이유로 아이를 가질 수 없는 버디의 건강 문제와 연결 지어버렸죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2744.1,
+   "en": "I'm on the fence about what you're saying. I don't totally disagree, but I don't know where I come out on that.",
+   "ko": "당신의 말에 대해서는 중립적인 입장이에요. 완전히 반대하는 건 아니지만, 제 생각이 어떤지는 잘 모르겠네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2750.6,
+   "en": "There's an afterword or an author's note at the end where we learn a little bit about the research that Catherine Stockett did.",
+   "ko": "책 뒷부분의 후기나 작가의 말을 보면 캐서린 스토켓이 조사한 내용에 대해 조금 알 수 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2759.4,
+   "en": "Including the fact that one of the leaders of the Eugenics movement in California was consulted by Adolf Hitler to so that he could learn about how to adopt this practice, which is a pretty scary thing to think about.",
+   "ko": "캘리포니아의 우생학 운동 지도자 중 한 명이 아돌프 히틀러에게 이 관행을 도입하는 방법에 대해 자문을 해줬다는 사실도 포함되어 있는데, 정말 무서운 일이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2774.3,
+   "en": "As always, when I encounter an author's note like that, I wish it was at the front of book.",
+   "ko": "항상 그렇듯이, 그런 작가의 말을 접할 때면 책의 앞부분에 있었으면 좋았겠다는 생각을 해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2780.1,
+   "en": "I understand why it couldn't be in this case because it would have ruined a lot of the book.",
+   "ko": "물론 이번 경우에는 책의 많은 부분을 망쳤을 테니 왜 뒤에 있는지 이해는 가지만요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2784.6,
+   "en": "I think it's possible that that eugenics theme loomed larger in her mind, in Catherine Stockett's mind than it looms in the book.",
+   "ko": "우생학이라는 주제가 소설 속에서보다 작가인 캐서린 스토켓의 마음속에서 더 크게 자리 잡았을 가능성이 있다고 봅니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2796.0,
+   "en": "I think that's for sure. It's a plot point, a detail in the book.",
+   "ko": "확실히 그럴 거예요. 책에서는 줄거리상의 한 지점이자 세부 묘사일 뿐이니까요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2801.2,
+   "en": "But for me, it's such a serious, heavy thing and it comes up as a foil for Birdie.",
+   "ko": "하지만 제게는 그것이 너무나 진지하고 무거운 주제인데, 버디를 돋보이게 하기 위한 대조 장치로만 쓰였어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2808.3,
+   "en": "Yeah, it's a plot device.",
+   "ko": "네, 일종의 줄거리 전개를 위한 도구죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2810.4,
+   "en": "I believe that encountering all of that research is like devastating and I'm sure, yeah, I'm sure looms larger for her.",
+   "ko": "그런 조사 내용들을 접하는 것이 작가에게는 매우 충격적이었을 것이고, 그래서 그녀에게 더 큰 의미로 다가왔을 거라고 확신합니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2818.8,
+   "en": "It's not kind of one of the top three things that I remember about this novel.",
+   "ko": "제가 이 소설에 대해 기억하는 상위 세 가지 중 하나는 아니거든요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2824.8,
+   "en": "Clunky, yeah, there are parts of it that are clunky.",
+   "ko": "투박하다는 말, 맞아요, 투박한 부분들이 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2827.8,
+   "en": "I don't know, again, it's just storytelling and there's, it's a melodrama in a lot of cases, right?",
+   "ko": "잘 모르겠지만, 어쨌든 이건 이야기일 뿐이고 많은 경우 멜로드라마 같은 면이 있죠, 그렇죠?",
+   "speaker": "Host"
+  },
+  {
+   "start": 2834.4,
+   "en": "It's like, there's surprise, like homosexuality. There's like secret, just family secrets are uncovered. Someone's husband is someone's father.",
+   "ko": "동성애 같은 놀라운 요소도 있고, 가문의 비밀이 밝혀지기도 하고, 누군가의 남편이 누군가의 아버지이기도 하죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2844.6,
+   "en": "You know, it's kind of classic soap opera-ish, but that's kind of what it's trying to be.",
+   "ko": "전형적인 연속극 같기도 하지만, 그런 방향을 지향하는 것 같기도 해요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2851.0,
+   "en": "I just want with that.",
+   "ko": "저는 그냥 그걸로 됐어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2851.8,
+   "en": "Yeah, totally. Exactly, yeah.",
+   "ko": "네, 전적으로요. 맞아요, 그래요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2854.0,
+   "en": "The part about Rory, who is Frances's husband, who is gay, is so incredibly sad. Yeah. It's just pause and say that.",
+   "ko": "프랜시스의 남편이자 동성애자인 로리에 대한 부분은 정말 믿을 수 없을 정도로 슬퍼요. 잠시 멈춰서 그 말을 꼭 하고 싶네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2864.3,
+   "en": "Like he is a loser at the beginning of the book. He's the one who absconds with the guns and the goods.",
+   "ko": "책의 앞부분에서 그는 낙오자처럼 그려지죠. 총과 물건들을 훔쳐 달아난 사람이 바로 그니까요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2870.3,
+   "en": "And you think, oh, he just let down his bride. And then you learn his backstory and his mother's backstory in relation to him and the incredible shame that the family had.",
+   "ko": "그래서 그가 신부를 실망시켰다고 생각하게 되죠. 하지만 나중에 그의 과거와 어머니의 이야기, 그리고 그 가족이 느꼈던 엄청난 수치심을 알게 됩니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2884.7,
+   "en": "And they were thrilled to marry him off to somebody who was kind of beneath his station.",
+   "ko": "그래서 그들은 그를 신분이 낮은 누군가와 결혼시키는 것에 감격했던 거죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2889.9,
+   "en": "Everyone is in this book for their own good to get ahead in some way.",
+   "ko": "이 책의 모든 사람은 어떻게든 성공하기 위해 각자의 이익을 쫓습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2894.5,
+   "en": "Not Birdie.",
+   "ko": "버디는 아니죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2895.6,
+   "en": "No, not you're right. You're right. You're right.",
+   "ko": "아뇨, 맞아요. 당신 말이 맞습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2898.1,
+   "en": "Because she's kind of the small town outsider. She's like, oh, it was really humble aspirations.",
+   "ko": "그녀는 일종의 작은 마을의 아웃사이더니까요. 그녀는 정말 소박한 열망을 가지고 있었고,",
+   "speaker": "Host"
+  },
+  {
+   "start": 2901.8,
+   "en": "And she's like, oh, my sister needs me. Oh.",
+   "ko": "'아, 언니가 나를 필요로 해' 같은 식이었죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2904.8,
+   "en": "I love Grandmother Me-Mom. I did not love the end of this book.",
+   "ko": "전 '그랜마더 미맘'이 좋았어요. 이 책의 결말은 마음에 들지 않았지만요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2908.5,
+   "en": "It starts with Birdie leaving her mother to go and get the money. I wonder what happened to her mother.",
+   "ko": "버디가 돈을 구하기 위해 어머니를 떠나는 것으로 시작하는데, 그녀의 어머니에게 무슨 일이 일어났는지 궁금하네요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2916.8,
+   "en": "I felt stressed out from her. And Grandmother Me-Mom, Mom at home, we never went back to them.",
+   "ko": "그녀 때문에 스트레스를 받았거든요. '그랜마더 미맘'과 집에 있는 엄마에 대한 이야기는 다시 나오지 않았죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2923.2,
+   "en": "That's true. Nevertheless, it's still a great book.",
+   "ko": "맞아요. 그럼에도 불구하고, 여전히 훌륭한 책입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2926.1,
+   "en": "I, like you, MJ, have recommended it to many people. Most of them have loved it, not all of them.",
+   "ko": "저도 MJ 씨처럼 많은 사람에게 이 책을 추천했어요. 전부 다는 아니지만 대부분 아주 좋아했죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2933.2,
+   "en": "And almost to a person, people have pointed out what we at the Book Review refer to as the SAG.",
+   "ko": "그리고 거의 모든 사람이 우리 '북 리뷰'에서 '정체기'라고 부르는 부분을 지적하더군요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2939.0,
+   "en": "Yeah. Just that 100-page chunk.",
+   "ko": "맞아요. 딱 그 100페이지 정도 되는 부분이죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2942.6,
+   "en": "I recommended it to a friend who was like, no more sad books, no more sad books. So I recommend this and she's like, this was still really sad.",
+   "ko": "더 이상 슬픈 책은 싫다는 친구에게 이 책을 추천했는데, 친구가 여전히 너무 슬프다고 하더라고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2949.7,
+   "en": "No, this is not big. I know for us, this is not the book.",
+   "ko": "아뇨, 이건 그렇게 심각하지 않아요. 우리에겐 이 정도는 괜찮잖아요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2952.5,
+   "en": "But there was a lot of mirth in it. Totally. And they were to it.",
+   "ko": "하지만 즐거움도 많았어요. 전적으로요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2956.4,
+   "en": "Like there's like, yeah, again, highs and lows.",
+   "ko": "삶의 굴곡 같은 것들이 있었죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2958.8,
+   "en": "Yeah, there's a \"Thelma and Louise\" quality.",
+   "ko": "네, \"델마와 루이스\" 같은 느낌이 있죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2960.0,
+   "en": "Yeah, exactly. Like, books are sad.",
+   "ko": "네, 맞아요. 원래 책들이란 게 좀 슬프기도 하죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2962.6,
+   "en": "My last thing is like, have a fun time with this book. This book is meant to entertain you.",
+   "ko": "마지막으로 하고 싶은 말은 이 책을 즐기라는 거예요. 이 책은 당신을 즐겁게 하기 위한 책입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2967.3,
+   "en": "It is a long, chunky novel that should be a companion on a trip. Have fun with it.",
+   "ko": "여행의 동반자가 되어줄 길고 두툼한 소설입니다. 재미있게 읽으세요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2972.9,
+   "en": "It paints a big world, introduces you to great characters and just sweeps you along. That's how my approach does.",
+   "ko": "거대한 세상을 그려내고, 훌륭한 캐릭터들을 소개하며 당신을 그 속으로 휩쓸리게 할 거예요. 그게 제 방식입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2980.4,
+   "en": "There's a lot of baggage around the world is portraying the help of it all. Pick it up.",
+   "ko": "이 책이 묘사하는 세상에는 가정부들과 관련된 많은 배경 지식이 담겨 있어요. 한 번 읽어보세요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 2987.0,
+   "en": "Don't overlook the audio. Narrated by January LaVoy, and I can't remember who does Meg, but it's a really good audio.",
+   "ko": "오디오북도 놓치지 마세요. 제뉴어리 라보이가 낭독했고, 메그 역은 누가 했는지 기억 안 나지만 정말 훌륭하거든요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 2995.6,
+   "en": "I've broken record on this subject, but I always love the audiobook. Go check it out, everyone.",
+   "ko": "이 주제에 대해서는 입이 닳도록 말했지만, 저는 항상 오디오북을 사랑합니다. 여러분도 꼭 들어보세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3002.6,
+   "en": "Let's pivot to some recommendations. I am curious.",
+   "ko": "이제 추천 도서로 넘어가 보죠. 궁금하네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3006.6,
+   "en": "What would you recommend readers pick up after they finish \"The Calamity Club\"? This can be for whatever reason.",
+   "ko": "독자들이 \"더 캘러미티 클럽\"을 다 읽고 나서 무엇을 읽으면 좋을까요? 어떤 이유든 좋습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3012.5,
+   "en": "Maybe it's another Depression-era, 1930s, Mississippi historical novel. Maybe it is another novel with two plucky heroines.",
+   "ko": "1930년대 대공황 시기의 미시시피를 배경으로 한 또 다른 역사 소설일 수도 있겠죠. 아니면 용감한 두 여주인공이 등장하는 또 다른 소설일 수도 있고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3021.5,
+   "en": "I defer to you, but I want to know what would you recommend readers pick up next? I'm going to start with you Liz.",
+   "ko": "여러분의 의견에 따르겠지만, 다음으로 무엇을 추천하시겠어요? 리즈 씨부터 시작해 보죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3026.6,
+   "en": "The first book that comes to mind is \"The Cider House Rules\" by John Irving. I'm throwing it way back.",
+   "ko": "가장 먼저 떠오르는 책은 존 어빙의 \"사이더 하우스\"입니다. 아주 예전 책을 꺼내 봤어요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3032.0,
+   "en": "I've heard of this book, but I've never read it. Is that a big confession? You just made a face.",
+   "ko": "그 책에 대해서 들어보긴 했지만 읽어본 적은 없어요. 너무 큰 고백인가요? 방금 표정이 그러시네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3035.1,
+   "en": "No, you have to read it. I'm just thinking you have to read it. It's really good.",
+   "ko": "아뇨, 꼭 읽어보셔야 해요. 꼭 읽어야 한다는 생각뿐이었어요. 정말 좋거든요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3038.6,
+   "en": "It's old. It goes way back, but it takes place at an orphanage in Maine. It's also a great movie.",
+   "ko": "오래된 책이죠. 아주 옛날로 거슬러 올라가지만, 메인주의 한 고아원을 배경으로 하고 있어요. 영화도 정말 훌륭하고요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3044.7,
+   "en": "I love a book that takes place at an orphanage. I don't know what that says about me, but this book reminded me of that one in ways I can't really put my finger on.",
+   "ko": "고아원을 배경으로 한 책을 좋아해요. 제 성향이 어떤지는 모르겠지만, 이 책은 콕 집어 말할 수 없는 방식으로 그 책을 떠올리게 했어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3054.4,
+   "en": "Also, \"The Four Winds\" by Kristin Hannah, which takes place during the Dust Bowl and has a similar sweep to this one.",
+   "ko": "또한 크리스틴 해나의 \"더 포 위인즈\"도 있는데, 더스트 볼 시기를 배경으로 하며 이 책과 비슷한 분위기를 풍깁니다.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3061.8,
+   "en": "Okay. Great recommendations. Thank you.",
+   "ko": "좋네요. 훌륭한 추천 감사합니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3064.0,
+   "en": "How about you MJ?",
+   "ko": "MJ 씨는요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3065.2,
+   "en": "I had a few and we've mentioned them. I was gonna say \"Kin\", but then.",
+   "ko": "몇 권 있었는데 이미 언급됐네요. \"킨\"을 말하려고 했는데 말이죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3068.9,
+   "en": "Yeah, \"Kin\" was one of mine. Yeah, okay.",
+   "ko": "네, \"킨\"은 제가 꼽은 것 중 하나였어요. 알겠습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3071.3,
+   "en": "But talk about, yeah, like the changing fates of two young women in the South. And motherless young women.",
+   "ko": "남부의 두 젊은 여성이 겪는 운명의 변화에 대해 이야기해 보죠. 그리고 어머니가 없는 젊은 여성들에 대해서요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3079.2,
+   "en": "And motherless. Right.",
+   "ko": "어머니가 없죠. 맞아요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3079.6,
+   "en": "These are women who are driven, young women who are driven by this kind of yearning for their mothers.",
+   "ko": "어머니에 대한 그리움으로 움직이는 젊은 여성들의 이야기입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3086.0,
+   "en": "And they both lose their mothers in very different ways.",
+   "ko": "두 사람 모두 아주 다른 방식으로 어머니를 잃죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3089.6,
+   "en": "And again, this is an alternating narration between these two women who really diverge early on in terms of their paths.",
+   "ko": "그리고 다시 말하지만, 이것은 초기에 갈라진 길을 걷게 된 두 여성이 번갈아 가며 서술하는 방식입니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3100.1,
+   "en": "They do come back together, but they spend a lot of the book physically apart.",
+   "ko": "결국 다시 만나긴 하지만, 책의 많은 부분 동안 물리적으로 떨어져 지내죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3103.5,
+   "en": "And yet it is driven by their kind of magnetic connection to one another.",
+   "ko": "그럼에도 불구하고 서로에 대한 자석 같은 유대감이 이야기를 이끌어 갑니다.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3107.6,
+   "en": "So the other thing that I thought of was Scout and \"To Kill a Mockingbird\".",
+   "ko": "그리고 생각난 다른 캐릭터는 \"앵무새 죽이기\"의 스카우트였어요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3112.2,
+   "en": "There's something just about these like plucky young Southern heroines that felt similar to me.",
+   "ko": "이런 용감한 남부의 어린 여주인공들에게서 비슷한 느낌을 받았거든요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3119.3,
+   "en": "They felt the same spot in my brain. I love this type of character.",
+   "ko": "제 뇌 속의 같은 부분을 자극했어요. 전 이런 유형의 캐릭터를 좋아하거든요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3122.9,
+   "en": "The stories are so radically different.",
+   "ko": "이야기들은 근본적으로 아주 다르지만요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3125.1,
+   "en": "Though I think \"To Kill a Mockingbird\" also pulls you on with a great story, and tackles big social issues in ways that some readers will say is kind of heavy-handed, and others will say is like pressing.",
+   "ko": "\"앵무새 죽이기\" 역시 훌륭한 이야기로 독자를 끌어당기며 사회적 문제를 다루는데, 어떤 독자들은 그것이 서투르다고 할 수도 있고 다른 이들은 절실하다고 할 수도 있겠죠.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3135.2,
+   "en": "So I thought of \"To Kill a Mockingbird\". Lauren, do you have any others?",
+   "ko": "그래서 \"앵무새 죽이기\"를 떠올렸습니다. 로렌 씨, 다른 추천작이 있나요?",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3139.1,
+   "en": "Mine was \"Kin\", and I just rudely interrupted you while you were talking about it, so I think we covered my feelings in that.",
+   "ko": "저도 \"킨\"이었는데, 당신이 이야기할 때 무례하게 끼어들었었죠. 그래서 제 생각은 이미 다 전달된 것 같네요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3144.7,
+   "en": "That's also a sign of a good book of someone mentions it, and you're like, I just got to jump in. Sorry.",
+   "ko": "누군가 그 책을 언급했을 때 바로 끼어들고 싶다는 건 그만큼 좋은 책이라는 증거죠. 미안해요.",
+   "speaker": "MJ"
+  },
+  {
+   "start": 3148.9,
+   "en": "I had a few others. We mentioned it in the conversation, but Dickens, \"Great Expectations\".",
+   "ko": "다른 것들도 몇 개 더 있어요. 대화 중에 언급됐었지만 디킨스의 \"위대한 유산\"도 있고요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3154.4,
+   "en": "\"Demon Copperhead\", Barbara Kingsolver.",
+   "ko": "바버라 킹솔버의 \"데몬 코퍼헤드\"도 생각나네요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3157.0,
+   "en": "I also thought I was trying to think of books of the South. This is such a different book, but I think people should just read it, is \"Salvage the Bones\" by Jesmyn Ward.",
+   "ko": "남부를 다룬 책들도 생각해 보려고 했어요. 아주 다른 성격의 책이지만 사람들이 꼭 읽어봤으면 하는 책은 제스민 워드의 \"구제된 뼈\"입니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3166.1,
+   "en": "Such a different book from this one, such a different book. But I feel like I can't talk about the South and Southern literature without mentioning Jesmyn Ward.",
+   "ko": "이 책과는 정말, 정말 다른 책이에요. 하지만 제스민 워드를 언급하지 않고서는 남부와 남부 문학에 대해 이야기할 수 없다고 생각합니다.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3174.4,
+   "en": "What am I missing? I feel like there's so many books of this.",
+   "ko": "제가 뭘 놓치고 있을까요? 이런 종류의 책들이 정말 많은 것 같은데 말이죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3176.8,
+   "en": "I'm missing a lot, but I don't know. Readers, you let us know. Tell us in the comments about other books.",
+   "ko": "많이 놓치고 있겠지만 잘 모르겠네요. 독자 여러분이 알려주세요. 다른 책들에 대해서 댓글로 남겨주시고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3181.7,
+   "en": "Please do. \"The Calamity Club\" made you think of, but unfortunately that is all the time.",
+   "ko": "꼭 부탁드려요. \"더 캘러미티 클럽\"을 통해 생각난 책들이 있겠지만, 아쉽게도 시간이 다 됐네요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3185.1,
+   "en": "Maybe \"The Little Friend\"? Oh, no. \"The Little Friend\" is a great example.",
+   "ko": "\"리틀 프렌드\"는 어떨까요? 아, 맞아요. \"리틀 프렌드\"도 좋은 예시죠.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3189.6,
+   "en": "Has a bird on the cover?",
+   "ko": "표지에 새가 그려진 책인가요?",
+   "speaker": "Host"
+  },
+  {
+   "start": 3190.8,
+   "en": "Has a bird on the cover, but also talking about Donna Tartt, \"The Little Friend\" takes place in Mississippi.",
+   "ko": "표지에 새가 그려져 있고 도나 타트의 작품이죠. \"리틀 프렌드\"의 배경도 미시시피예요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3196.6,
+   "en": "And Lauren, you pointed something out to me.",
+   "ko": "그리고 로렌, 제 발견을 하나 지적해 주셨죠.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3199.2,
+   "en": "Oh, that Frances's husband and mother-in-law, their last name is Tartt, T-A-R-T-T.",
+   "ko": "아, 프랜시스의 남편과 시어머니의 성이 타트(Tartt)라는 거예요.",
+   "speaker": "Lauren"
+  },
+  {
+   "start": 3205.6,
+   "en": "So that feels like a pretty un-subtle literary allusion to, I guess, Liz says-",
+   "ko": "제 생각엔 그건 꽤 노골적인 문학적 오마주 같아요. 리즈 씨가 말하길...",
+   "speaker": "Host"
+  },
+  {
+   "start": 3210.8,
+   "en": "Catherine Stockett is definitely a fan of Donna Tartt.",
+   "ko": "캐서린 스토켓은 분명히 도나 타트의 팬일 거예요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3214.0,
+   "en": "I love that. Yes. I love that.",
+   "ko": "정말 좋네요. 네, 마음에 듭니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3215.9,
+   "en": "Okay, so go check out Donna Tartt, but unfortunately that is all the time we have.",
+   "ko": "자, 도나 타트의 책도 확인해 보시고요, 아쉽게도 오늘 시간은 여기까지입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3220.4,
+   "en": "Lauren, Liz, thank you so much. This is really fun.",
+   "ko": "로렌, 리즈 씨, 정말 감사합니다. 아주 즐거웠어요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3222.7,
+   "en": "Thank you. This was always fun, but this was especially fun.",
+   "ko": "감사합니다. 항상 즐거웠지만 오늘은 특히 더 즐거웠어요.",
+   "speaker": "Liz"
+  },
+  {
+   "start": 3226.6,
+   "en": "And thank you, readers, for reading with us this month. Please keep up the conversation.",
+   "ko": "그리고 이번 달에 저희와 함께 읽어주신 독자 여러분께도 감사드립니다. 계속해서 대화를 이어가 주세요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3231.6,
+   "en": "Again, we have an article online headlined Book Club, Read \"The Calamity Club\" by Catherine Stockett.",
+   "ko": "다시 한번 말씀드리자면, 온라인에 캐서린 스토켓의 \"더 캘러미티 클럽\"을 함께 읽는 북클럽 기사가 올라와 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3236.7,
+   "en": "And now the time for our December Book Club book review.",
+   "ko": "이제 12월 북클럽 도서를 소개해 드릴 시간입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3241.6,
+   "en": "In December, the Book Review Book Club will read and discuss \"The End of Everything\" by M. John Harrison.",
+   "ko": "12월에 북 리뷰 북클럽은 M. 존 해리슨의 \"모든 것의 종말\"을 읽고 토론할 예정입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3248.3,
+   "en": "This book just won the Booker Prize earlier this month.",
+   "ko": "이 책은 이번 달 초에 부커상을 수상했습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3251.6,
+   "en": "It's a short, trippy novel about a man who discovers a strange artifact after an alien invasion and it goes from there.",
+   "ko": "외계인 침공 이후 기묘한 유물을 발견한 남자의 이야기를 다룬 짧고 몽환적인 소설입니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3259.6,
+   "en": "We'll be discussing the novel here on the podcast at the end of December. We'll also be chatting about it online.",
+   "ko": "12월 말에 이곳 팟캐스트에서 이 소설에 대해 토론할 예정입니다. 온라인에서도 이야기를 나눌 거고요.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3266.3,
+   "en": "Right now we have up an article headlined Book Club, Read \"The End of Everything\" by M. John Harrison with the Book Review.",
+   "ko": "지금 '북 리뷰와 함께 M. 존 해리슨의 모든 것의 종말을 읽자'는 제목의 북클럽 기사가 올라와 있습니다.",
+   "speaker": "Host"
+  },
+  {
+   "start": 3273.1,
+   "en": "We're inviting readers to leave their thoughts on the book in the comment section there. We hope you'll join us and in the meantime, happy reading!",
+   "ko": "독자 여러분께서 댓글란에 책에 대한 생각을 남겨주시길 기다리고 있습니다. 여러분의 많은 참여 바라며, 그동안 즐거운 독서 시간 되세요!",
+   "speaker": "Host"
+  }
+ ]
+}
